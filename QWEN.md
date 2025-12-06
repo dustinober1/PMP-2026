@@ -1,18 +1,18 @@
-# CLAUDE.md
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+# QWEN.md - PMP-2026 Study Guide
 
 ## Project Overview
 
 This is a **PMP Exam Study Guide** for the **July 2026** exam update, targeting the three new exam domains: **People (33%)**, **Process (41%)**, and **Business Environment (26%)**. The guide is a comprehensive Markdown-based educational resource designed to help project managers prepare for the updated PMP certification exam.
 
+The study guide emphasizes real-world application over memorization, with scenario-based questions that test decision-making skills across predictive (waterfall), agile, and hybrid project environments. It covers modern project management topics including AI integration, sustainability considerations, and value-based delivery.
+
 ## Repository Structure
 
 ### Top-Level Files
-- `00-Outline.md` (in Chapter 0/): Master table of contents - **must be updated** when adding or modifying chapters
-- `GEMINI.md`: Quick reference for conventions and current status
 - `AGENTS.md`: Repository guidelines for build, style, and commit practices
+- `CLAUDE.md`, `GEMINI.md`, `QWEN.md`: AI-specific guidance files
 - `README.md`: Brief project overview
+- `Chapter 0/00-Outline.md`: Master table of contents - **must be updated** when adding or modifying chapters
 
 ### Chapter Organization
 
@@ -94,6 +94,35 @@ Practice questions follow this structure:
 - Detailed explanation stating why the correct answer is best and why distractors are weaker
 - Questions integrate multiple concepts and test application, not memorization
 
+## Building and Running
+
+This repository is plain Markdown with no required build or compile step. The content can be viewed and edited directly in any Markdown editor. Use search tools to navigate concepts, for example: `rg "earned value" "Chapter 10"`.
+
+## Development Conventions
+
+### When Adding Content
+
+1. **Read existing structure first:** Always check the main chapter file and existing sub-sections to understand the current organization
+2. **Update 00-Outline.md:** Immediately update the master outline when adding/modifying chapters
+3. **Maintain consistency:** Use the established recurring narratives (Sarah's projects)
+4. **Follow the learning loop:** Concept → Practical Example → Scenario Application
+5. **Cross-reference:** Link to related chapters rather than duplicating content
+
+### When Editing Content
+
+1. **Preserve en dashes:** Maintain the `–` character in file names
+2. **Check heading hierarchy:** Ensure proper Markdown heading structure (#, ##, ###)
+3. **Validate cross-references:** Ensure chapter and section references are accurate
+4. **Maintain voice:** Keep professional, instructional tone aligned with PMI standards
+
+### Quality Checks
+
+- Proofread for clarity and tense consistency
+- Ensure PMI alignment (not just industry best practice)
+- Validate that Knowledge Check questions follow the established format
+- Check that examples use the recurring project narratives
+- Verify all cross-references point to correct chapters/sections
+
 ## Common Commands
 
 ### Finding Content
@@ -133,50 +162,20 @@ git commit -m "Add [description]"
 git log --oneline -5
 ```
 
-## Development Guidelines
+## Testing Guidelines
 
-### When Adding Content
+There are no automated tests; quality control is editorial.
+- Before submitting, proofread for grammar, spelling, and consistency of terms, chapter references, and exam objectives.
+- Ensure knowledge checks align with the chapter content and that question/answer numbering is correct.
 
-1. **Read existing structure first:** Always check the main chapter file and existing sub-sections to understand the current organization
-2. **Update 00-Outline.md:** Immediately update the master outline when adding/modifying chapters
-3. **Maintain consistency:** Use the established recurring narratives (Sarah's projects)
-4. **Follow the learning loop:** Concept → Practical Example → Scenario Application
-5. **Cross-reference:** Link to related chapters rather than duplicating content
+## Commit & Pull Request Guidelines
 
-### When Editing Content
+- Use concise, present-tense commit messages (for example, `Refine Chapter 7 knowledge check`).
+- Group related edits by chapter or topic; avoid mixing unrelated chapters in a single commit when possible.
+- Pull requests should briefly describe the intent, list key chapters/files touched, and note any structural changes (new chapters, file moves, or renames).
 
-1. **Preserve en dashes:** Maintain the `–` character in file names
-2. **Check heading hierarchy:** Ensure proper Markdown heading structure (#, ##, ###)
-3. **Validate cross-references:** Ensure chapter and section references are accurate
-4. **Maintain voice:** Keep professional, instructional tone aligned with PMI standards
+## Content & Editorial Guidelines
 
-### Quality Checks
-
-- Proofread for clarity and tense consistency
-- Ensure PMI alignment (not just industry best practice)
-- Validate that Knowledge Check questions follow the established format
-- Check that examples use the recurring project narratives
-- Verify all cross-references point to correct chapters/sections
-
-## Content Status
-
-### Completed Parts
-- Part 1: Orientation and Exam Overview (Chapters 1-2)
-- Part 2: Foundations (Chapters 3-5)
-- Part 3: People Domain (Chapters 6-9)
-- Part 4: Process Domain (Chapters 10-18)
-- Part 5: Business Environment Domain (Chapters 15-18)
-- Part 6: Practice Exams (Chapter 19-20)
-
-### Structure Notes
-- No build process or compilation step (pure Markdown)
-- Verification is manual: proofreading and Markdown viewing
-- Git history shows iterative development with clear, imperative commit messages
-
-## Important Reminders
-
-1. **Always update Chapter 0/00-Outline.md** when modifying structure
-2. **Use en dashes (–) not hyphens (-)** in file names
-3. **Consult GEMINI.md and AGENTS.md** for detailed style guidelines
-4. **Reference recurring narratives** for consistency across chapters
-5. **Align with PMI standards**, not generic project management advice
+- Keep the tone instructional, practical, and exam-focused, emphasizing how concepts apply to PMP 2026 scenarios.
+- Prefer concrete, exam-relevant examples over generic anecdotes, and align new terminology with PMI standards used elsewhere in the book.
+- When introducing a concept that appears in multiple chapters, check for existing definitions and cross-reference them for consistency.

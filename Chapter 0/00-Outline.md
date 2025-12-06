@@ -329,7 +329,7 @@
   - How to analyze mock exam results and create feedback loops
   - Building confidence through deliberate practice and psychological resilience
 
-### Chapter 20 – Practice Exam 1 (Full-Length)
+### Chapter 20 – Practice Exam (Full-Length)
 - 185 mixed-domain questions
 - Domain and topic mapping table
 - Separate answer key with explanations

@@ -1,29 +1,33 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-- Top-level references: `00-Outline.md` (table of contents), `CLAUDE.md` (style and roadmap), `GEMINI.md` (quick conventions).
-- Each chapter lives in its own `Chapter N/` folder. Chapters 1-4 are single files (for example, `Chapter 4/4 – Ways of Working and Tailoring.md`).
-- Chapters 5+ are modular: main integration file `N – [Title].md`, sub-sections `Na – [Topic].md`, and a knowledge check at the next letter (e.g., `5h – Knowledge Check.md`).
-- When adding or renaming sections, keep numbering/lettering sequential and update `00-Outline.md` immediately to stay in sync.
+- `Chapter 0`–`Chapter 20`, `Chapter 98`, and `Chapter 99` contain the book content as Markdown.
+- Each chapter folder holds one or more `.md` files named with a numeric prefix and a descriptive title (for example, `6e – Motivation and Engagement.md`).
+- Add new content to the appropriate chapter folder; only place repository-wide documents (like this file) in the root.
 
 ## Build, Test, and Development Commands
-- No build pipeline; content is Markdown only.
-- Quick navigation: `rg "<term>" Chapter*` to find topics; `ls "Chapter 10"` to view sub-sections.
-- Manual verification: open the edited file in a Markdown viewer or `cat`/`bat` to spot heading, spacing, and list formatting issues.
+- This repository is plain Markdown; there is no required build or compile step.
+- View and edit content directly in your Markdown editor. Use search to navigate concepts, for example: `rg "earned value" "Chapter 10"`.
+- If you use local tools (e.g., `markdownlint`, grammar checkers), run them before opening a PR, but avoid committing tool-specific configs without prior discussion.
 
-## Writing Style & Naming Conventions
-- Tone: professional, instructional, PMI-aligned; favor the Concept → Practical Example → Scenario pattern.
-- Reuse the recurring narratives (predictive office renovation, agile expense system, hybrid transformation program) to ground examples.
-- Headings use standard Markdown `#` hierarchy; keep chapter titles and file names in the existing `N – Title` pattern (en dash preserved).
-- Use concise paragraphs and bullets; avoid repeating explanations across chapters—cross-reference instead.
-- Reference the ECO when relevant and ensure knowledge-check explanations state why distractors are weaker.
+## Coding Style & Naming Conventions
+- Follow existing heading structure and hierarchy; use `#` for the main title and progressively deeper levels within each file.
+- Use clear, concise sentences, American English spelling, and PMP 2026 terminology consistent with existing chapters.
+- Preserve existing line wrapping where reasonable; do not reflow large untouched sections just to change formatting.
+- File names follow the existing numeric-prefix and en dash pattern; avoid renaming or reordering files without coordination.
 
-## Testing & QA Expectations
-- Proofread for clarity, tense consistency, and PMI alignment.
-- Ensure practice questions follow the scenario stem + four options + explanation format outlined in `CLAUDE.md`.
-- Validate cross-references (chapter numbers, section letters, outline entries) and refresh examples if timelines or terminology drift.
+## Testing Guidelines
+- There are no automated tests; quality control is editorial.
+- Before submitting, proofread for grammar, spelling, and consistency of terms, chapter references, and exam objectives.
+- Ensure knowledge checks align with the chapter content and that question/answer numbering is correct.
 
 ## Commit & Pull Request Guidelines
-- Commit messages follow the short, imperative style in history (e.g., `Add Chapter 2 knowledge check`).
-- PRs should summarize scope, list key files, note `00-Outline.md` updates, and call out any structural changes.
-- When adding content, mention coverage (chapters/sections touched) and any open questions for reviewers.
+- Use concise, present-tense commit messages (for example, `Refine Chapter 7 knowledge check`).
+- Group related edits by chapter or topic; avoid mixing unrelated chapters in a single commit when possible.
+- Pull requests should briefly describe the intent, list key chapters/files touched, and note any structural changes (new chapters, file moves, or renames).
+
+## Content & Editorial Guidelines
+- Keep the tone instructional, practical, and exam-focused, emphasizing how concepts apply to PMP 2026 scenarios.
+- Prefer concrete, exam-relevant examples over generic anecdotes, and align new terminology with PMI standards used elsewhere in the book.
+- When introducing a concept that appears in multiple chapters, check for existing definitions and cross-reference them for consistency.
+
