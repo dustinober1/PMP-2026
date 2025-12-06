@@ -34,7 +34,7 @@ There are two distinct patterns for chapters:
     *   *Hybrid:* Global Transformation Program
 
 ## Current Status & Priorities
-*   **Completed:** Parts 1 (Orientation), 2 (Foundations), 3 (People Domain), and Chapters 10-12 of Part 4 (Process Domain).
+*   **Completed:** Parts 1 (Orientation, including knowledge checks for Chapters 1-2), 2 (Foundations), 3 (People Domain), and Chapters 10-12 of Part 4 (Process Domain).
 *   **In Progress/Next Up:**
     *   **Chapter 13:** Executing and Delivering Work
     *   **Chapter 14:** Monitoring, Controlling, and Closing
