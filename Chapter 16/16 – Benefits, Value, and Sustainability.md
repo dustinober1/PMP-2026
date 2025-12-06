@@ -55,7 +55,10 @@ Environmental, Social, and Governance considerations in project decisions. How t
 ### [16e – Balancing Stakeholder Needs, Competing Values, and Benefits Realization](16e%20%E2%80%93%20Balancing%20Stakeholder%20Needs,%20Competing%20Values,%20and%20Benefits%20Realization.md)
 Navigating diverse stakeholder perspectives on value. How to facilitate conversations about competing values, make transparent trade-off decisions, and build stakeholder consent for difficult choices.
 
-### [16f – Knowledge Check](16f%20%E2%80%93%20Knowledge%20Check.md)
+### [16f – Continuous Improvement and Organizational Learning](16f%20%E2%80%93%20Continuous%20Improvement%20and%20Organizational%20Learning.md)
+Building continuous improvement as an organizational capability. Retrospectives and lessons learned processes. Establishing organizational learning systems. Measuring improvement progress. Creating improvement culture across predictive, agile, and hybrid contexts. Converting individual project experience into organizational knowledge.
+
+### [16g – Knowledge Check](16g%20%E2%80%93%20Knowledge%20Check.md)
 Scenario-based practice questions testing your understanding of benefits realization, value delivery, and sustainability concepts, with detailed explanations tied to PMI principles.
 
 ---
@@ -141,8 +144,9 @@ This chapter addresses the following tasks from the PMP Certification Exam Conte
 - **16c (Long-Term Value vs. Short-Term Delivery Pressure)**: Explores the critical tension between meeting immediate deadlines and protecting long-term value creation, showing how to make informed trade-off decisions
 - **16d (Sustainability and ESG in Project Context)**: Explains how to integrate environmental sustainability, social responsibility, and governance integrity into project decisions from selection through delivery
 - **16e (Balancing Stakeholder Needs, Competing Values, and Benefits Realization)**: Illustrates how to navigate diverse stakeholder perspectives on value and facilitate transparent trade-off conversations
+- **16f (Continuous Improvement and Organizational Learning)**: Establishes processes for retrospectives, lessons learned, and organizational learning systems that enable continuous improvement and build organizational capability over time
 
-Projects exist to create value, not just deliver outputs. This chapter shows that the measure of project success is not on-time delivery but whether the organization actually achieves the strategic benefits that justified the investment in the first place, and whether that success is sustainable for the long term.
+Projects exist to create value, not just deliver outputs. This chapter shows that the measure of project success is not on-time delivery but whether the organization actually achieves the strategic benefits that justified the investment in the first place, and whether that success is sustainable for the long term. Continuous improvement ensures that learning from projects compounds over time, building organizational excellence.
 
 ---
 
