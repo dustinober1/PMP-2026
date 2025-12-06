@@ -228,30 +228,106 @@
   - Detailed explanations tied to PMI principles
 
 ### Chapter 17 – Compliance, Risk, and Governance
-- Regulatory and legal requirements
-- Data privacy and security considerations
-- Organizational policies and standards
-- Risk appetite and tolerance at the enterprise level
-- Governance frameworks, audits, and reviews
+- **17a – Regulatory and Legal Compliance**
+  - Sources of compliance (Health & Safety, Environmental, Labor, Industry)
+  - Integrating compliance into WBS, backlog, and schedule
+  - Cost of non-compliance vs. cost of conformance
+  - Mandatory constraints vs. discretionary features
+
+- **17b – Data Privacy and Information Security**
+  - Privacy regulations (GDPR, CCPA) and PII protection
+  - Privacy by Design and Security by Design principles
+  - Data classification (Public, Internal, Confidential, Restricted)
+  - Managing security audits and technical constraints
+
+- **17c – Organizational Policies and Standards**
+  - Internal governance vs. external regulation
+  - Utilizing Organizational Process Assets (OPAs)
+  - Quality Assurance (QA) as process compliance
+  - Adhering to branding, procurement, and technology standards
+
+- **17d – Enterprise Risk and Governance Frameworks**
+  - Enterprise Risk Management (ERM) alignment
+  - Risk Appetite vs. Risk Tolerance
+  - Governance bodies (Steering Committee, PMO, CCB)
+  - Escalation paths for enterprise-level risks
+
+- **17e – Knowledge Check**
+  - Scenario-based practice questions
+  - Compliance vs. schedule trade-offs
+  - Data privacy and ethics scenarios
+  - Governance and escalation integration
 
 ### Chapter 18 – Organizational Change and Readiness
-- Change impact analysis and stakeholder readiness
-- Change management strategies
-- Communication and training for change
-- Adoption, resistance, and reinforcement
-- Transitioning ownership to operations or product teams
+- **18a – Change Impact Analysis and Readiness**
+  - The "Change Gap" (Current State vs. Future State)
+  - Impact analysis (Process, Tech, Org, Mindset)
+  - Assessing cultural and competency readiness
+  - Identifying skill gaps and training needs
+
+- **18b – Change Management Strategies and Frameworks**
+  - ADKAR model for individual change (Awareness, Desire, Knowledge, Ability, Reinforcement)
+  - Kotter’s 8 Steps for organizational change
+  - Integrating OCM models into the project plan
+
+- **18c – Communication and Training for Change**
+  - Project communication (status) vs. Change communication (value/adoption)
+  - The 5 T's of change communication
+  - Training strategies (Classroom, Just-in-Time, Train-the-Trainer)
+  - Developing a communication plan for adoption
+
+- **18d – Managing Adoption and Resistance**
+  - The "J-Curve" (Valley of Despair)
+  - Active vs. Passive resistance
+  - Converting resistance into feedback
+  - Turning detractors into champions
+
+- **18e – Transitioning Ownership and Sustaining Change**
+  - "Go-Live" vs. "Done"
+  - Transition planning (Knowledge transfer, support, maintenance)
+  - Sustainment strategies to prevent "snap-back"
+  - Measuring long-term adoption KPIs
+
+- **18f – Knowledge Check**
+  - Scenario-based practice questions
+  - Diagnosing resistance using ADKAR
+  - Transition and handover scenarios
+  - Communication strategy selection
 
 ---
 
 ## Part 6 – Practice Exams and Exam Strategy
 
 ### Chapter 19 – Exam Strategy and Test-Taking Skills
-- Understanding the exam question style (scenario-based)
-- Techniques for reading questions efficiently
-- Identifying the real problem in a scenario
-- Eliminating distractor choices
-- Time management strategies during the exam
-- Handling stress and exam-day logistics
+- **19a – Understanding the Exam Format and Structure**
+  - PMP exam format, question types, and time allocation
+  - Domain distribution (People 42%, Process 33%, Business Environment 25%)
+  - Adaptive testing and passing criteria
+  - Strategies for different question types
+
+- **19b – Analyzing and Approaching Scenario-Based Questions**
+  - Three-layer method: Read question first, skim scenario, identify core problem
+  - Common scenario patterns (hidden risk, competing priorities, escalation)
+  - Identifying red herrings and distinguishing essential information
+  - Keywords that signal domain and framework
+
+- **19c – Test-Taking Strategies and Techniques**
+  - Four-step elimination process
+  - Recognizing distractor traps and avoiding thinking errors
+  - Domain-specific shortcuts
+  - 30-second decision rule for efficient question handling
+
+- **19d – Time Management and Exam-Day Logistics**
+  - Time allocation and pacing strategies
+  - Managing energy and mental focus during 3.75-hour exam
+  - Exam-day logistics (what to expect, what to bring, handling disruptions)
+  - Checkpoint approach and mark-and-move strategy
+
+- **19e – Practice, Preparation, and Building Confidence**
+  - Three phases of preparation (knowledge, technique, integration)
+  - Practice timeline and mock exam strategy
+  - How to analyze mock exam results and create feedback loops
+  - Building confidence through deliberate practice and psychological resilience
 
 ### Chapter 20 – Practice Exam 1 (Full-Length)
 - 185 mixed-domain questions
