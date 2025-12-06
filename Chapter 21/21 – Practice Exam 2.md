@@ -1,0 +1,409 @@
+### Question 151
+**Domain**: People
+**Type**: Scenario
+
+You have taken over a failing project. The team is demoralized and cynical. The sponsor is angry. The budget is gone. What is your *first* action?
+
+A. Create a new schedule.
+B. Fire the team.
+C. Conduct a "Listening Tour" (Assessment). Meet with the team and stakeholders individually to understand the root cause of the failure and build trust before proposing a solution.
+D. Ask for more money.
+
+### Question 152
+**Domain**: Process
+**Type**: Direct Recall
+
+What is the primary output of the "Direct and Manage Project Work" process?
+
+A. Deliverables.
+B. Change Requests.
+C. Project Management Plan updates.
+D. WBS.
+
+### Question 153
+**Domain**: Business Environment
+**Type**: Scenario
+
+Your organization uses a "Balanced Scorecard." Your project has excellent financial metrics but poor "Learning and Growth" metrics (the team learned nothing and is burned out). Is the project a success?
+
+A. Yes, finance is everything.
+B. No. The Balanced Scorecard requires success across all four quadrants (Financial, Customer, Process, Learning). Failing one quadrant jeopardizes long-term organizational health.
+C. Maybe.
+D. Ask the accountant.
+
+### Question 154
+**Domain**: People
+**Type**: Scenario
+
+A key stakeholder sends you a "Friend Request" on social media. What do you do?
+
+A. Accept it immediately.
+B. Reject it.
+C. Follow your organizational policy or personal boundary strategy. (Professional conduct). Ensure it doesn't create a conflict of interest or appearance of impropriety.
+D. Block them.
+
+### Question 155
+**Domain**: Process
+**Type**: Scenario
+
+You are using "Story Mapping." You have a "Walking Skeleton." What is this?
+
+A. A failed project.
+B. A thin slice of end-to-end functionality (MVP) that proves the architecture works, even if features are minimal.
+C. A Halloween decoration.
+D. A risk.
+
+### Question 156
+**Domain**: Business Environment
+**Type**: Scenario
+
+Your project is to build a factory in a war zone. The risk to life is "High." The profit is "High." What do you do?
+
+A. Do it.
+B. Refuse. PMPs prioritize safety and human life over profit. If the risk to life cannot be mitigated to an acceptable level, the project should not proceed.
+C. Send a drone.
+D. Hire mercenaries.
+
+### Question 157
+**Domain**: People
+**Type**: Scenario
+
+The team is arguing about "Tabs vs. Spaces" (coding style). It is a religious war. How do you resolve it?
+
+A. Pick one.
+B. Use a "Linter" (Automated Tool) to enforce a standard. Remove the human element from the debate. Automate the decision.
+C. Let them argue forever.
+D. Use both.
+
+### Question 158
+**Domain**: Process
+**Type**: Scenario
+
+You are auditing a vendor. They refuse to show you their financial records, citing confidentiality. Your contract gives you "Right to Audit." What do you do?
+
+A. Give up.
+B. Enforce the contract. If they refuse, escalate to Legal. You cannot verify stability/compliance without the audit.
+C. Trust them.
+D. Break in.
+
+### Case Study 7: The Oil Rig Decommissioning (Questions 159-162)
+**Scenario**: You are decommissioning an old oil rig.
+*   **Constraint**: Environmental Safety is the #1 priority.
+*   **Stakeholders**: Green Peace (Hostile), Shareholders (Cost-focused).
+*   **Methodology**: Predictive (Safety-critical).
+
+### Question 159
+**Domain**: Business Environment
+**Type**: Case Study / Stakeholders
+
+Green Peace threatens to board the rig to protest. This would stop work and cost $100k/day. How do you handle this?
+
+A. Water cannons.
+B. Proactive Engagement. Meet with them. Explain the decommissioning plan (which aligns with their goal of removing the rig). Invite them to observe (safely) to build trust.
+C. Hide the schedule.
+D. Call the Navy.
+
+### Question 160
+**Domain**: Process
+**Type**: Case Study / Risk
+
+A storm is approaching. The procedure says "Evacuate if wind > 50 knots." The wind is 48 knots. Evacuation costs $500k. Shareholders say "Don't spend it yet." What do you do?
+
+A. Wait.
+B. Evacuate. Safety culture means you err on the side of caution. If the storm accelerates, it might be too late. The risk impact (Death) is infinite.
+C. Ask the crew to vote.
+D. Check the stock price.
+
+### Question 161
+**Domain**: People
+**Type**: Case Study / Culture
+
+The crew is composed of two rival factions who hate each other. Productivity is low. What do you do?
+
+A. Fire one faction.
+B. Team Building. Focus on "Superordinate Goals" (Survival/Safety). Create mixed teams to break down silos.
+C. Separate them.
+D. Pay them more.
+
+### Question 162
+**Domain**: Process
+**Type**: Case Study / Closing
+
+The rig is gone. The sea floor is clean. You are closing the project. A subcontractor claims they were underpaid by $50k due to a scope change you verbally approved on the radio during the storm. You forgot to write it down. What do you do?
+
+A. Deny it.
+B. Validate the claim (check logs, interview witnesses). If true, process the payment. Integrity requires honoring commitments, even verbal ones in emergencies (Constructive Change).
+C. Split the difference.
+D. Retire.
+
+---
+
+### Question 163
+**Domain**: Business Environment
+**Type**: Scenario
+
+Your project uses "Open AI." A user inputs confidential data. The data leaks. Who is responsible?
+
+A. Open AI.
+B. The User.
+C. You (The Organization). You failed to implement "Data Loss Prevention" (DLP) controls or training.
+D. No one.
+
+### Question 164
+**Domain**: People
+**Type**: Scenario
+
+You have a "high-conflict" personality on the team. They get results, but they leave a trail of dead bodies (people quit). What do you do?
+
+A. Promote them.
+B. "The No Asshole Rule." Weigh the cost of turnover/toxicity against their output. Usually, the toxicity cost is higher. Coach or Remove.
+C. Isolate them.
+D. Ignore it.
+
+### Question 165
+**Domain**: Process
+**Type**: Direct Recall
+
+What is "Parkinson's Law"?
+
+A. Work expands to fill the time available for its completion.
+B. Something can go wrong, it will.
+C. Adding manpower makes it later.
+D. 80/20 rule.
+
+### Question 166
+**Domain**: Business Environment
+**Type**: Scenario
+
+You are managing a project in a country with high inflation (50% per month). Your budget is in local currency. What is the risk?
+
+A. Currency Risk / Purchasing Power erosion.
+B. Scope Creep.
+C. Schedule delay.
+D. Quality failure.
+
+### Question 167
+**Domain**: People
+**Type**: Scenario
+
+A team member asks: "Why are we doing this project? It seems pointless." You don't know the answer. What do you do?
+
+A. Make something up.
+B. Say "Because I said so."
+C. Find out. Ask the Sponsor for the "Vision" and "Business Case." Then communicate it to the team. Purpose drives motivation.
+D. Ignore the question.
+
+### Question 168
+**Domain**: Process
+**Type**: Scenario
+
+You are measuring "Escaped Defects" (Defects found by customers). The number is rising. What process is failing?
+
+A. Quality Control (Testing).
+B. Quality Assurance (Process).
+C. Planning.
+D. Initiation.
+
+### Case Study 8: The Smart City Initiative (Questions 169-172)
+**Scenario**: A city is installing IoT sensors on all streetlights.
+*   **Complexity**: High (Hardware + Software + Privacy + Politics).
+*   **Stakeholders**: Citizens (Privacy concerns), City Council (Cost), Tech Vendor (Speed).
+
+### Question 169
+**Domain**: Business Environment
+**Type**: Case Study / Privacy
+
+Citizens protest that the sensors are "spying." The City Council wants to pause. The Vendor wants to sue for delay. What do you do?
+
+A. Pause.
+B. Facilitate a "Privacy Impact Assessment" (PIA). Publish the results transparency. Propose a "Privacy by Design" modification (e.g., blurring faces on edge) to satisfy citizens while keeping the project alive.
+C. Ignore the citizens.
+D. Cancel the project.
+
+### Question 170
+**Domain**: Process
+**Type**: Case Study / Integration
+
+The hardware installation is moving faster than the software configuration. You have 1,000 sensors installed that are "dark" (not working). This looks bad in the press. What do you do?
+
+A. Stop installation.
+B. Align the flows. Slow down installation to match software capacity (JIT). Or create a "Dummy" signal to show they are alive.
+C. Blame the software team.
+D. Cover them with tarps.
+
+### Question 171
+**Domain**: People
+**Type**: Case Study / Public
+
+You need to communicate with 1 million citizens. Email doesn't work. What is your communication channel?
+
+A. Mass Media / Social Media / Town Halls. (Public Relations).
+B. Phone calls.
+C. Letters.
+D. Telepathy.
+
+### Question 172
+**Domain**: Business Environment
+**Type**: Case Study / Benefits
+
+The project finishes. The lights are smart. Energy usage drops by 40%. However, crime (a secondary goal) does not drop. Is the project a success?
+
+A. Yes.
+B. Partial Success. You achieved the primary benefit (Energy) but missed the secondary benefit. Analyze why (Lesson Learned) for future phases.
+C. No.
+D. It's a failure.
+
+---
+
+### Question 173
+**Domain**: Process
+**Type**: Scenario
+
+You are using "Burnup Charts." The "Total Scope" line is rising faster than the "Completed Work" line. What does this mean?
+
+A. The team is slow.
+B. Scope Creep. The project will never finish unless you stop adding scope or increase velocity.
+C. It is normal.
+D. The chart is upside down.
+
+### Question 174
+**Domain**: People
+**Type**: Scenario
+
+You are the PM. You are exhausted. You realize you haven't taken a vacation in 2 years. What do you do?
+
+A. Keep working.
+B. Take a vacation. "Put on your own oxygen mask first." You cannot lead if you are burned out. Delegate authority to a lieutenant and disconnect.
+C. Quit.
+D. Complain.
+
+### Question 175
+**Domain**: Business Environment
+**Type**: Direct Recall
+
+What is "Kaizen"?
+
+A. A Japanese term for "Continuous Improvement" (Change for the better).
+B. A risk tool.
+C. A contract type.
+D. A scheduling method.
+
+### Question 176
+**Domain**: Process
+**Type**: Scenario
+
+Your project has passed the "Point of No Return." The sunk costs are huge. But the market has shifted and the product is obsolete. What do you do?
+
+A. Finish it anyway.
+B. "Kill" the project. It takes courage, but stopping a valueless project saves the remaining budget for better opportunities.
+C. Pivot to something else.
+D. Hide the market data.
+
+### Question 177
+**Domain**: People
+**Type**: Scenario
+
+A team member is dealing with a personal tragedy. They want to keep working to "distract themselves." What do you do?
+
+A. Let them work.
+B. Monitor them closely. Ensure they are not making mistakes due to grief. Offer flexibility. If their work suffers, kindly insist they take a break.
+C. Send them home immediately.
+D. Give them harder tasks.
+
+### Question 178
+**Domain**: Process
+**Type**: Scenario
+
+You are using "T-Shirt Sizing" for estimation. What phase are you likely in?
+
+A. Detailed Planning.
+B. Early Initiation / Portfolio Management (High-level estimation).
+C. Closing.
+D. Testing.
+
+### Question 179
+**Domain**: Business Environment
+**Type**: Scenario
+
+Your project is compliant with the law, but violates the "Spirit of the Law." (Loophole). What do you do?
+
+A. Use the loophole.
+B. Don't use it. PMPs uphold high ethical standards. Exploiting loopholes can cause reputational damage and future regulation.
+C. Ask a lawyer.
+D. Flip a coin.
+
+### Question 180
+**Domain**: People
+**Type**: Scenario
+
+You are managing a team of experts who know more than you. How do you gain their respect?
+
+A. Pretend you know everything.
+B. Admit what you don't know. Value their expertise. Facilitate their success. Be humble.
+C. Order them around.
+D. Bring them donuts.
+
+### Case Study 9: The Vaccine Development (Questions 181-183)
+**Scenario**: You are managing a vaccine trial.
+*   **Constraint**: Safety is absolute. Speed is critical.
+*   **Risk**: The trial might fail.
+
+### Question 181
+**Domain**: Process
+**Type**: Case Study / Scheduling
+
+You need to go faster. Can you "Fast Track" the safety trials?
+
+A. Yes.
+B. No. Safety trials are discretionary dependencies? No, they are **Mandatory Dependencies** (usually Start-to-Finish). You cannot skip or overlap safety without risking lives/validity.
+C. Yes, if the Sponsor says so.
+D. Maybe.
+
+### Question 182
+**Domain**: Business Environment
+**Type**: Case Study / Ethics
+
+A politician wants you to announce "Success" before the data is peer-reviewed. What do you do?
+
+A. Announce it.
+B. Refuse. Scientific integrity and public trust are paramount. Wait for the review.
+C. Announce "Preliminary" success.
+D. Leak it.
+
+### Question 183
+**Domain**: People
+**Type**: Case Study / Burnout
+
+The scientists are working 7 days a week. They are making data errors. What do you do?
+
+A. Hire more scientists (if possible).
+B. Enforce mandatory days off. Errors in a vaccine trial invalidate the data, causing months of delay. Rest is a project requirement.
+C. Yell at them.
+D. Do the science yourself.
+
+---
+
+### Question 184
+**Domain**: Process
+**Type**: Scenario
+
+You are using "MoSCoW" prioritization. What does the "W" stand for?
+
+A. Win.
+B. Won't Do (this time).
+C. Want.
+D. Wish.
+
+### Question 185
+**Domain**: Business Environment
+**Type**: Scenario
+
+You finish the project. You realize you have $10,000 left in the budget. A team member suggests buying new iPads for everyone. What do you do?
+
+A. Buy them.
+B. Return the funds. PMPs are stewards of organizational resources. Unused funds belong to the company, not the team (unless there was a bonus plan).
+C. Keep it.
+D. Buy Bitcoin.
+
+---
+*End of Practice Exam 2.*
