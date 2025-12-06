@@ -1,46 +1,71 @@
-# PMP-2026 Study Guide
+# GEMINI.md
+
+This file provides context and guidance for Gemini when working with the PMP-2026 repository.
 
 ## Project Overview
-This repository contains the source content for a comprehensive **PMP Exam Study Guide** designed for the **July 2026** exam update. The guide is a text-based educational resource organized into chapters, targeting the three new exam domains: **People (33%)**, **Process (41%)**, and **Business Environment (26%)**.
 
-## Directory Structure & File Conventions
-The project uses a specific folder and file naming convention that **must** be strictly followed.
+This is a **PMP Exam Study Guide** for the **July 2026** exam update. The guide is a comprehensive Markdown-based educational resource designed to help project managers prepare for the PMP certification exam, covering the three domains: **People (33%)**, **Process (41%)**, and **Business Environment (26%)**.
 
-### Top Level
-*   `00-Outline.md`: The master Table of Contents. **Always update this** when adding/changing chapters or sections.
-*   `CLAUDE.md`: Contains detailed stylistic guidelines, narrative arcs, and project status. **Consult this file** for deep context on writing style and character backstories.
-*   `Chapter N/`: Each chapter has its own directory.
+## Repository Structure
 
-### Chapter Structure
-There are two distinct patterns for chapters:
+The content is organized into chapters, residing in `Chapter N` or `Chapter NN` directories.
 
-1.  **Single-File Chapters (Chapters 1-4):**
-    *   Format: `Chapter N/N – [Chapter Title].md`
-    *   Used for foundational, narrative-heavy introductory chapters.
+### Chapter Types
 
-2.  **Modular Chapters (Chapter 5+):**
-    *   **Main Integration File:** `Chapter N/N – [Chapter Title].md` (Contains TOC and intro).
-    *   **Sub-sections:** `Chapter N/Na – [Topic Title].md`, `Chapter N/Nb – [Topic Title].md`, etc.
-    *   **Knowledge Check:** `Chapter N/Nx – Knowledge Check.md` (where `x` is the next letter after the last sub-section).
-    *   **Note:** Use letters (a, b, c...) for sub-sections, not numbers.
+1.  **Single-File Chapters (e.g., Chapters 1-4):**
+    *   Foundational content.
+    *   Format: `Chapter N/N – [Title].md`
 
-## Writing Guidelines
-*   **Tone:** Professional, instructional, and encouraging.
-*   **Perspective:** Align strictly with **PMI standards** (PMBOK Guide, Process Groups: A Practice Guide, Agile Practice Guide). Distinguish between "industry common practice" and "PMI best practice."
-*   **Learning Loop:** Every major section should follow: **Concept → Practical Example → Scenario Application**.
-*   **Recurring Scenarios:** Use the established project narratives (detailed in `CLAUDE.md`) to illustrate concepts:
-    *   *Predictive:* Office Renovation
-    *   *Agile:* Expense Reporting System
-    *   *Hybrid:* Global Transformation Program
+2.  **Modular Chapters (e.g., Chapters 5+):**
+    *   **Main File:** `Chapter N/N – [Title].md` (Introduction/TOC)
+    *   **Sub-sections:** `Chapter N/Na – [Topic].md`, `Chapter N/Nb – [Topic].md`, etc.
+    *   **Knowledge Check:** `Chapter N/Nx – Knowledge Check.md` (where `x` is the sequential letter following the last section).
 
-## Current Status & Priorities
-*   **Completed:** Parts 1 (Orientation, including knowledge checks for Chapters 1-2), 2 (Foundations), 3 (People Domain), and Chapters 10-12 of Part 4 (Process Domain).
-*   **In Progress/Next Up:**
-    *   **Chapter 13:** Executing and Delivering Work
-    *   **Chapter 14:** Monitoring, Controlling, and Closing
-*   **Goal:** Complete the Process Domain chapters emphasizing the differences between predictive, agile, and hybrid execution.
+### Special Directories
+*   `Chapter 0/`: Contains `00-Outline.md` (Master Table of Contents). **Must be kept in sync.**
+*   `Chapter 20/`: Practice Exam 1.
+*   `Chapter 98/`: Appendices.
+*   `Chapter 99/`: Resources.
 
-## Usage
-*   **Reading:** Open `00-Outline.md` to navigate the book.
-*   **Editing:** specific chapter files directly. Ensure `00-Outline.md` remains in sync.
-*   **Verification:** No build step exists (it's Markdown). "Verification" means proofreading for PMI alignment and narrative consistency.
+## Critical Conventions
+
+### File Naming
+*   **En Dashes:** File names MUST use en dashes (`–`), NOT hyphens (`-`).
+    *   ✅ `5a – Stakeholders and Communication.md`
+    *   ❌ `5a - Stakeholders and Communication.md`
+*   **Numbering:** Sub-sections use sequential letters (a, b, c...).
+
+### Content & Style
+*   **Recurring Narratives:** The guide uses three consistent scenarios involving a project manager named **Sarah**:
+    1.  **Predictive (Waterfall):** Office renovation.
+    2.  **Agile:** Expense reporting system.
+    3.  **Hybrid:** Global transformation program.
+*   **Tone:** Professional, instructional, encouraging, and strictly **PMI-aligned** (PMBOK Guide, Agile Practice Guide, Process Groups: A Practice Guide).
+*   **Structure:** Concept → Practical Example → Scenario Application.
+
+### Knowledge Checks
+*   Located at the end of modular chapters (e.g., `12f – Knowledge Check.md`).
+*   **Format:** Scenario stem → 4 options → Detailed explanation (why correct is best, why distractors are weak).
+
+## Workflow
+
+1.  **Editing:** When modifying content, ensure the tone matches the instructional style.
+2.  **Adding Chapters/Sections:**
+    *   Create the file following the naming convention (En dash!).
+    *   **IMMEDIATELY** update `Chapter 0/00-Outline.md`.
+3.  **Verification:**
+    *   No build step (pure Markdown).
+    *   Use `rg` (ripgrep) to search for terms or check consistency.
+    *   Example: `rg "risk management" "Chapter 12"`
+
+## Key Commands
+
+*   **List files in a chapter:** `ls "Chapter 10"`
+*   **Search content:** `rg "search term" .`
+*   **Check outline:** `cat "Chapter 0/00-Outline.md"`
+
+## Context for AI
+
+*   **Role:** You are acting as an expert technical editor and instructional designer.
+*   **Goal:** Create high-quality, exam-focused study material.
+*   **Constraint:** Do not deviate from the established directory structure or naming conventions without explicit user instruction.
