@@ -104,6 +104,39 @@ This chapter is organized into the following sections:
 
 ---
 
+## ECO Alignment
+
+This chapter addresses the following tasks from the PMP Certification Exam Content Outline (ECO):
+
+| Domain | Task | Coverage |
+|--------|------|----------|
+| Process | Task 9: Evaluate Project Status | Primary |
+| Process | Task 10: Manage Project Closure | Primary |
+| Business Environment | Task 6: Continuous Improvement | Primary |
+
+**How This Chapter Covers the ECO Tasks:**
+
+These three tasks require you to:
+- Develop project metrics, analyze progress, and reconcile performance data
+- Assess current progress and communicate project status effectively
+- Obtain stakeholder approval for project completion
+- Validate readiness for transition and determine success criteria
+- Conclude activities including lessons learned and retrospectives
+- Utilize lessons learned and update organizational process assets
+- Help ensure continuous improvement processes are maintained
+
+**Coverage in This Chapter:**
+- **14a**: Tracking progress using appropriate metrics (EVM, burn-down, velocity)
+- **14b**: Schedule and cost control through variance analysis and forecasting
+- **14c**: Change control and configuration management
+- **14d**: Stakeholder management and communication during execution
+- **14e**: Project closure, lessons learned, and transition to operations
+- **14f**: Knowledge capture and continuous improvement
+
+This chapter emphasizes that monitoring and controlling are about more than just reporting status—they're about making data-informed decisions that keep projects on track or adjust them when needed. Proper closure ensures that lessons are captured, benefits are realized, and the organization learns from the project experience.
+
+---
+
 ## How This Chapter Connects
 
 **From Previous Chapters:**

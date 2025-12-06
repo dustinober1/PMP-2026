@@ -667,17 +667,3 @@ Whenever you use other resources, make a habit of asking:
 - “If it’s 2021, how will I supplement Business Environment, AI, and sustainability topics?”  
 
 This small bit of discipline will keep your study time focused on the exam you are actually going to take—not the one that is being phased out.
-
----
-
-## Sources and Further Reading
-
-[1]: Project Management Institute (PMI). *Project Management Professional (PMP)® Examination Content Outline – July 2026*, *PMP® Certification Handbook*, and official PMP certification pages. Latest versions available from `https://www.pmi.org/` under **Certifications → Project Management Professional (PMP®)**. This repository also includes the July 2026 ECO as `Resources/New-PMP-Examination-Content-Outline-2026.pdf`.
-
-[2]: “Project Management Professional.” *Wikipedia*. Accessed December 2025.
-
-[3]: Project Management Academy. Articles and guides summarizing PMP exam structure and changes based on the 2021 ECO (180 questions, 230 minutes, legacy domain weights).
-
-[4]: CertifHub Community. Community discussions and explainer posts summarizing PMI communications about the 2026 PMP exam update and domain weight changes.
-
-[5]: PMProad. Articles on sustainability, ESG, and value-focused project management topics relevant to the Business Environment domain of the PMP exam.
