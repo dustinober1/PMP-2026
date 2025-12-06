@@ -207,20 +207,19 @@ The guide's completeness is tracked through the git history. Check `git log` to 
 - **Part 1 – Orientation**: Chapters 1-2 (foundational chapters)
 - **Part 2 – Foundations**: Chapters 3-5 (core concepts, ways of working)
 - **Part 3 – People Domain**: Chapters 6-9 (team building, leadership, communication, conflict, coaching)
-- **Part 4 – Process Domain**: Chapters 10-12 (initiating, planning, risk/issues/change management)
+- **Part 4 – Process Domain**: Chapters 10-15 (initiating, planning, risk/issues/change management, executing, monitoring/controlling/closing, strategy/portfolio alignment)
+- **Part 5 – Business Environment Domain**: Chapter 16 (benefits, value, and sustainability)
 
 Recent significant commits:
+- Chapter 16 – Benefits, Value, and Sustainability (completed) – modular structure with 6 sub-sections (16a-16f)
+  - Emphasizes benefits realization, value delivery, long-term vs. short-term trade-offs, ESG/sustainability, and stakeholder value alignment
+- Chapter 15 – Strategy and Portfolio Alignment (completed) – modular structure with 6 sub-sections (15a-15f)
+- Chapters 13-14: Executing and Delivering Work; Monitoring, Controlling, and Closing (completed)
 - Chapter 12 – Risk, Issues, and Change Management (completed) – modular structure with 5 sub-sections
-- Chapter 11 – Planning for Value Delivery (completed)
-- Chapter 10 – Initiating and Planning (completed)
-- Chapter 9 – Coaching, Mentoring, and Servant Leadership (completed)
-- `98aad9c`: Chapter 8 – Conflict, Negotiation, and Decision-Making
-- `57ef154`: Chapter 7 – Stakeholder and Communication Mastery
-- `baadba3`: Chapter 6 – Building and Leading Teams
 
 **Next Chapters to Complete**:
-- Chapter 13 – Executing and Delivering Work (Part 4 – Process Domain)
-- Chapter 14 – Monitoring, Controlling, and Closing (Part 4 – Process Domain)
+- Chapter 17 – Compliance, Risk, and Governance (Part 5 – Business Environment)
+- Chapter 18 – Organizational Change and Readiness (Part 5 – Business Environment)
 
 ## Guidance for Chapters 12-14 (Process Domain – Execution and Control)
 
