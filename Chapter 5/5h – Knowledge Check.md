@@ -1,10 +1,10 @@
 # Chapter 5 – Knowledge Check
 
-## 5.9 Knowledge Check – Chapter 5
+## 5.h Knowledge Check – Chapter 5
 
 Try these questions to integrate the concepts from this chapter.
 
-### 5.9.1 Scenario-Based Questions
+### 5.h.1 Scenario-Based Questions
 
 1. **Stakeholder and Scope Challenge:**
 
@@ -185,7 +185,7 @@ Options A, B, and D all fail to address the real conflict and engage stakeholder
 
 ---
 
-## 5.10 Summary
+## 5.h.8 Summary
 
 Chapter 5 covered the core project management concepts and tools that underpin all project work:
 

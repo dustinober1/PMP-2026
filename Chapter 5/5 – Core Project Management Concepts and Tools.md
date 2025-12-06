@@ -32,7 +32,7 @@ This chapter is divided into the following sub-sections:
 - **5e – Data-Informed Decision-Making**: Use metrics and data to make better decisions
 - **5f – AI and Emerging Technologies**: Understand AI's role in projects and ethics
 - **5g – Professional Responsibility and Ethics**: Act with integrity and responsibility
-- **5-Knowledge Check**: Test your understanding with scenarios and questions
+- **5h – Knowledge Check**: Test your understanding with scenarios and questions
 
 ---
 

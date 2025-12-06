@@ -28,7 +28,7 @@ This chapter is divided into the following sub-sections:
 - **6d – Conflict Resolution and Problem-Solving**: Address conflict constructively
 - **6e – Motivation and Engagement**: Keep teams energized and engaged
 - **6f – Servant Leadership and Coaching**: Lead by serving others and developing people
-- **6-Knowledge Check**: Test your understanding with scenarios and questions
+- **6g – Knowledge Check**: Test your understanding with scenarios and questions
 
 ---
 

@@ -1,10 +1,10 @@
 # Chapter 6 – Knowledge Check
 
-## 6.7 Knowledge Check – Chapter 6
+## 6.g Knowledge Check – Chapter 6
 
 Try these questions to integrate the concepts from this chapter.
 
-### 6.7.1 Scenario-Based Questions
+### 6.g.1 Scenario-Based Questions
 
 ---
 
@@ -147,7 +147,7 @@ Explanation: Effective leaders adapt their approach to context. Option B correct
 
 ---
 
-## 6.8 Summary
+## 6.g.8 Summary
 
 Chapter 6 covers the people side of project management:
 
