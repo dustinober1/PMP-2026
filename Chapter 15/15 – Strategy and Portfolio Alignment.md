@@ -77,34 +77,40 @@ This chapter explores these themes through Sarah's experiences navigating the in
 
 ---
 
-## Connection to the PMP Exam
+## ECO Alignment
 
-The Business Environment domain represents 8% of the PMP exam (12 questions out of 180). Within this domain, Strategy and Portfolio Alignment is a critical foundation topic.
+This chapter addresses the following tasks from the PMP Certification Exam Content Outline (ECO):
 
-**Key Exam Content Outline (ECO) connections**:
+| Domain | Task | Coverage |
+|--------|------|----------|
+| Business Environment | Task 1: Plan and Manage Project Compliance | Primary |
+| Business Environment | Task 3: Evaluate and Address External Business Environment Changes | Primary |
 
-- **Business Environment – Task 1**: Plan and manage project compliance (requires understanding strategic context)
-- **Business Environment – Task 2**: Evaluate and deliver project benefits and value (covered extensively in this chapter)
-- **Business Environment – Task 3**: Evaluate and address external business environment changes (strategic adaptation)
-- **Business Environment – Task 4**: Support organizational change (connecting projects to strategic change)
+**How This Chapter Covers the ECO Tasks:**
 
-**What the exam tests**:
+**Business Environment Task 1** (Plan and Manage Project Compliance) requires you to:
+- Select projects that align with organizational strategy and governance requirements
+- Ensure portfolio decisions comply with organizational policies and strategic constraints
+- Establish governance structures that guide project selection and prioritization
+- Make decisions within defined organizational frameworks and authority levels
+- Align project investments with organizational strategic objectives
 
-1. **Strategic thinking**: Recognizing when projects no longer align with strategy and need to be re-evaluated
-2. **Portfolio perspective**: Understanding how project decisions impact other initiatives and organizational capacity
-3. **Benefits focus**: Distinguishing between outputs (deliverables) and outcomes (strategic value)
-4. **Adaptive alignment**: Knowing when and how to adjust project scope or approach based on strategic changes
-5. **Stakeholder navigation**: Balancing project-level needs with portfolio-level constraints and strategic priorities
+**Business Environment Task 3** (Evaluate and Address External Business Environment Changes) requires you to:
+- Recognize how market conditions, competitive pressures, and environmental factors affect strategic priorities
+- Adapt portfolio roadmaps and project selections when external conditions shift
+- Understand how organizational strategy must evolve in response to external changes
+- Assess impacts of external changes on project viability and strategic value
+- Maintain strategic alignment even as the external business environment evolves
 
-**Exam question patterns**:
+**Coverage in This Chapter:**
 
-- Scenarios where strategic priorities shift during project execution
-- Questions about benefits realization and measuring strategic contribution
-- Trade-off decisions between project success and portfolio optimization
-- Situations requiring escalation to portfolio governance or executive sponsors
-- Comparing how predictive vs. agile approaches handle strategic alignment
+- **15a (Organizational Strategy and Project Selection)**: Explains how organizational strategy drives project selection, how strategic planning frameworks guide decisions, and how external conditions inform strategic priorities
+- **15b (Portfolio Management Concepts)**: Demonstrates portfolio governance structures that ensure compliance with organizational policies, how portfolio balancing aligns with strategy, and how external factors influence portfolio optimization
+- **15c (Project and Program Alignment)**: Shows how projects and programs maintain alignment with strategy throughout execution, and how governance ensures strategic fit persists even as conditions change
+- **15d (Benefits Realization and Value Creation)**: Illustrates how strategic benefits are defined and how they connect to organizational strategic objectives and external value creation
+- **15e (Strategic Planning and Roadmaps)**: Explores how strategic roadmaps respond to external changes, how organizations adapt strategy over time, and how portfolio management maintains compliance with governance
 
-As you work through this chapter, focus on understanding *why* strategic alignment matters, *how* it's maintained across different contexts, and *when* project managers should escalate strategic misalignment concerns.
+Strategic alignment is not a one-time activity during project selection. This chapter shows how project managers and portfolio managers continuously ensure that projects and programs remain strategically compliant and responsive to external business environment changes throughout the project lifecycle.
 
 ---
 

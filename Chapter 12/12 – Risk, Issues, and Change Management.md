@@ -21,6 +21,39 @@ In this chapter, you'll follow Sarah as she applies risk management principles a
 
 ---
 
+## ECO Alignment
+
+This chapter addresses the following tasks from the PMP Certification Exam Content Outline (ECO):
+
+| Domain | Task | Coverage |
+|--------|------|----------|
+| Business Environment | Task 3: Manage and Control Changes | Primary (12e) |
+| Business Environment | Task 4: Remove Impediments and Manage Issues | Primary (12d) |
+| Business Environment | Task 5: Plan and Manage Risk | Primary (12a-c) |
+
+**How This Chapter Covers the ECO Tasks:**
+
+These three tasks require you to:
+- Identify, analyze, and respond to risks proactively
+- Develop risk management plans and maintain risk registers
+- Execute risk response strategies and monitor ongoing risk
+- Distinguish between risks (potential future problems) and issues (current problems)
+- Escalate issues appropriately and facilitate resolution
+- Execute formal change control processes and communicate changes
+- Update project documentation to reflect changes
+
+**Coverage in This Chapter:**
+- **12a**: Understanding risk, appetite, tolerance, and how risk management differs across delivery approaches
+- **12b**: Risk identification and analysis techniques (qualitative and quantitative)
+- **12c**: Risk response strategies for threats and opportunities
+- **12d**: Issue management, escalation, and resolution
+- **12e**: Change management (both scope change control and organizational change)
+- **12f**: Scenario-based practice questions integrating all three elements
+
+This chapter emphasizes that risk, issues, and change are interconnected. Effective management of all three—proactive risk response, rapid issue resolution, and controlled change—determines whether projects adapt successfully to uncertainty or become derailed by problems.
+
+---
+
 ## Learning Objectives
 
 By the end of this chapter, you will be able to:

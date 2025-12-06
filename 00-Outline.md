@@ -301,8 +301,8 @@
 ### Chapter 19 – Exam Strategy and Test-Taking Skills
 - **19a – Understanding the Exam Format and Structure**
   - PMP exam format, question types, and time allocation
-  - Domain distribution (People 42%, Process 33%, Business Environment 25%)
-  - Adaptive testing and passing criteria
+  - Domain distribution (People 33%, Process 41%, Business Environment 26%) based on the July 2026 ECO
+  - Passing criteria and score reporting at a high level
   - Strategies for different question types
 
 - **19b – Analyzing and Approaching Scenario-Based Questions**
@@ -319,7 +319,7 @@
 
 - **19d – Time Management and Exam-Day Logistics**
   - Time allocation and pacing strategies
-  - Managing energy and mental focus during 3.75-hour exam
+  - Managing energy and mental focus during the 4-hour (240-minute) exam
   - Exam-day logistics (what to expect, what to bring, handling disruptions)
   - Checkpoint approach and mark-and-move strategy
 
@@ -342,14 +342,5 @@
 - Common project management formulas (where relevant)
 - Glossary of key terms and acronyms
 
-### Appendix B – Templates and Checklists
-- Sample project charter
-- Stakeholder register
-- Risk register
-- Change log
-- Communication plan outline
-
-### Appendix C – Study Plans and Progress Trackers
-- Printable/trackable weekly study plans
-- Self-assessment checklists by domain
-- Space for notes and reflections
+### Appendix B – Sources
+- Consolidated list of external references and recommended readings used throughout the guide (PMI publications, standards, and selected preparatory resources)

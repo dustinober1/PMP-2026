@@ -106,42 +106,43 @@ Throughout this chapter, you'll see how Sarah's three projects—each with diffe
 
 ---
 
-## Connection to the PMP Exam
+## ECO Alignment
 
-The Business Environment domain represents 8% of the PMP exam (12 questions out of 180). Chapter 16 focuses specifically on benefits realization, value delivery, and sustainability—critical themes in this domain.
+This chapter addresses the following tasks from the PMP Certification Exam Content Outline (ECO):
 
-**Key Exam Content Outline (ECO) connections**:
+| Domain | Task | Coverage |
+|--------|------|----------|
+| Business Environment | Task 2: Evaluate and Deliver Project Benefits and Value | Primary |
+| Business Environment | Task 6: Support Continuous Improvement | Primary |
 
-- **Business Environment – Task 2**: Evaluate and deliver project benefits and value
-  - Measuring and tracking benefits
-  - Distinguishing outputs, outcomes, and benefits
-  - Benefits ownership and accountability
+**How This Chapter Covers the ECO Tasks:**
 
-- **Business Environment – Task 3**: Evaluate and address external business environment changes
-  - How market/organizational changes affect benefits assumptions
-  - Adapting benefits plans when context shifts
+**Business Environment Task 2** (Evaluate and Deliver Project Benefits and Value) requires you to:
+- Distinguish between project outputs (deliverables) and organizational outcomes (value realized)
+- Develop comprehensive benefits realization plans aligned to organizational strategy
+- Identify, measure, and track benefits throughout and after the project lifecycle
+- Ensure benefits ownership and accountability beyond project closure
+- Manage adoption and organizational change as integral to benefits delivery
+- Adapt benefits plans when external or internal conditions change
+- Communicate benefits value to diverse stakeholders with competing interests
 
-- **Business Environment – Task 1 & 4**: Plan and manage project compliance; Support organizational change
-  - ESG integration into project decisions
-  - Governance and sustainability
+**Business Environment Task 6** (Support Continuous Improvement) requires you to:
+- Build sustainability into projects from initiation through closure
+- Integrate Environmental, Social, and Governance (ESG) considerations into decisions
+- Ensure long-term organizational capacity and capability building, not just short-term delivery
+- Balance short-term delivery pressure with long-term value creation
+- Institutionalize learning from projects to improve future performance
+- Establish practices that sustain benefits realization post-project
 
-**What the exam tests**:
+**Coverage in This Chapter:**
 
-1. **Benefits vs. Outputs**: Recognizing when a project delivered its outputs perfectly but failed to deliver benefits
-2. **Measurement discipline**: Designing metrics that actually measure outcomes, not just activity
-3. **Assumptions and dependencies**: Understanding when benefits assumptions become invalid
-4. **Trade-off decisions**: Making informed choices about quality, scope, and sustainability with full understanding of benefit consequences
-5. **Stakeholder communication**: Explaining why long-term value investments are worth short-term costs
-6. **ESG integration**: Incorporating sustainability and governance into project selection and delivery
-7. **Context matters**: How benefits realization looks different in predictive vs. agile vs. hybrid projects
+- **16a (Benefits Realization Planning and Identification)**: Shows how to distinguish outputs from benefits, develop benefits plans, and establish ownership structures that enable value delivery
+- **16b (Tracking and Measuring Benefits During and After Execution)**: Demonstrates how to design metrics that measure outcomes (not just activity), establish baselines, and track progress toward benefit realization
+- **16c (Long-Term Value vs. Short-Term Delivery Pressure)**: Explores the critical tension between meeting immediate deadlines and protecting long-term value creation, showing how to make informed trade-off decisions
+- **16d (Sustainability and ESG in Project Context)**: Explains how to integrate environmental sustainability, social responsibility, and governance integrity into project decisions from selection through delivery
+- **16e (Balancing Stakeholder Needs, Competing Values, and Benefits Realization)**: Illustrates how to navigate diverse stakeholder perspectives on value and facilitate transparent trade-off conversations
 
-**Exam question patterns you should be ready for**:
-
-- "The project delivered on time and on budget. Why haven't we realized the promised benefits?"
-- "We can meet the deadline if we skip the change management phase. What should the PM do?"
-- "The vendor is offering a 20% cost reduction for lower-grade materials with higher lifecycle costs. How do you advise the sponsor?"
-- "Adoption of the new system is 40% at month 6. Original projections assumed 80%. What does the PM do?"
-- "Different stakeholders prioritize different benefits (financial ROI, employee engagement, sustainability). How does the PM navigate this?"
+Projects exist to create value, not just deliver outputs. This chapter shows that the measure of project success is not on-time delivery but whether the organization actually achieves the strategic benefits that justified the investment in the first place, and whether that success is sustainable for the long term.
 
 ---
 

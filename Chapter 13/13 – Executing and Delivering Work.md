@@ -69,6 +69,38 @@ This chapter is organized into the following sections:
 - Integration questions combining multiple execution challenges
 - Detailed answer explanations tied to PMI principles
 
+---
+
+## ECO Alignment
+
+This chapter addresses the following tasks from the PMP Certification Exam Content Outline (ECO):
+
+| Domain | Task | Coverage |
+|--------|------|----------|
+| Process | Task 3: Help Ensure Value-Based Delivery | Primary |
+
+**How This Chapter Covers the ECO Task:**
+
+Process Task 3 (Help Ensure Value-Based Delivery) requires you to:
+- Understand how project work translates strategic plans into tangible deliverables
+- Deliver value at multiple points throughout the project lifecycle, not just at the end
+- Balance speed with quality and adaptability based on delivery approach
+- Coordinate team execution to ensure value is created continuously
+- Manage scope, quality, and performance during active work to maintain value delivery
+- Support team members in understanding their contribution to organizational value
+
+**Coverage in This Chapter:**
+
+- **13a (Coordinating Team Execution)**: Explains how different delivery approaches (predictive, agile, hybrid) coordinate work to deliver value through different rhythms and governance mechanisms
+- **13b (Quality Assurance and Testing)**: Shows how continuous quality assurance ensures that value delivered meets stakeholder expectations and organizational standards
+- **13c (Managing Scope During Execution)**: Demonstrates how to protect and refine scope during execution so that delivered value remains aligned to what was promised
+- **13d (Vendor and Procurement Management)**: Illustrates how vendor performance directly impacts the value delivered to the organization through reliable execution
+- **13e (Team Performance and Accountability)**: Explores how team motivation, performance, and accountability drive the quality and speed of value delivery
+
+Execution is where value-based delivery becomes reality. Through coordinating teams, maintaining quality, controlling scope, managing vendors, and sustaining team performance, project managers ensure that the work being done actually creates the value that was promised in the project charter and business case.
+
+---
+
 ## Execution in Context: Predictive, Agile, and Hybrid
 
 Before diving into specific execution topics, it's important to understand how execution philosophy differs across ways of working:
