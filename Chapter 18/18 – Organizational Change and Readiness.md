@@ -31,6 +31,44 @@ As you study this chapter, ask yourself:
 
 ---
 
+## ECO Alignment
+
+This chapter addresses the following tasks from the PMP Certification Exam Content Outline (ECO):
+
+| Domain | Task | Coverage |
+|--------|------|----------|
+| Business Environment | Task 2: Evaluate and Address External Business Environment Changes | Primary |
+| Business Environment | Task 4: Support Organizational Change | Primary |
+
+**How This Chapter Covers the ECO Tasks:**
+
+**Business Environment Task 2** (Evaluate and Address External Business Environment Changes) requires you to:
+- Recognize how organizational readiness and adoption capability affect project success
+- Assess how organizational culture, structure, and change capacity impact project viability
+- Evaluate stakeholder capacity and willingness to change in response to project deliverables
+- Adapt project approach when organizational readiness is lower than expected
+- Understand how organizational constraints influence what projects can realistically achieve
+
+**Business Environment Task 4** (Support Organizational Change) requires you to:
+- Conduct change impact analysis to identify all stakeholders affected by project deliverables
+- Assess organizational readiness for the changes the project introduces
+- Develop comprehensive change management strategies that address resistance patterns
+- Design communication and training approaches that build stakeholder commitment
+- Facilitate the adoption of project deliverables into normal operations
+- Ensure change sustainability beyond project closure and team transition
+
+**Coverage in This Chapter:**
+
+- **18a (Change Impact Analysis and Readiness)**: Explains how to identify who is affected by change and assess organizational readiness to adopt project outcomes
+- **18b (Change Management Strategies and Frameworks)**: Demonstrates structured approaches (ADKAR, Kotter) to managing organizational change and building adoption capability
+- **18c (Communication and Training for Change)**: Shows how to design communications and training that address resistance and build stakeholder capability for change
+- **18d (Managing Adoption and Resistance)**: Illustrates how to navigate the emotional journey of change, transform resistance into sponsorship, and maintain momentum through adoption phases
+- **18e (Transitioning Ownership and Sustaining Change)**: Explores how to ensure organizational change persists after the project team disengages and how to institutionalize new ways of working
+
+The value of a project is only realized when the organization successfully adopts and sustains the changes it introduces. This chapter shows that organizational change management is not optional—it's as critical to project success as technical delivery.
+
+---
+
 ### Recurring Themes in Our Scenarios
 
 *   **Transformation Program (Hybrid)**: This is the "heavy lifter" for this chapter. Implementing a global HR system changes the daily workflow of every manager in the company. The technical rollout is easy; getting 5,000 managers to follow the new hiring process is hard.
