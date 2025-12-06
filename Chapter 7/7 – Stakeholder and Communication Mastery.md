@@ -34,6 +34,40 @@ This chapter is divided into the following sub-sections:
 
 ---
 
+## ECO Alignment
+
+This chapter addresses the following tasks from the PMP Certification Exam Content Outline (ECO):
+
+| Domain | Task | Coverage |
+|--------|------|----------|
+| People | Task 1: Develop a Common Vision | Primary |
+| People | Task 4: Engage Stakeholders | Primary |
+| People | Task 5: Align Stakeholder Expectations | Primary |
+| People | Task 6: Manage Stakeholder Expectations | Primary |
+| People | Task 8: Plan and Manage Communication | Primary |
+
+**How This Chapter Covers the ECO Tasks:**
+
+These five tasks require you to:
+- Help ensure a shared vision with key stakeholders and promote it
+- Identify and analyze stakeholders across multiple dimensions
+- Tailor communication to stakeholder needs and expectations
+- Execute a stakeholder engagement plan
+- Facilitate discussions to align conflicting expectations
+- Monitor stakeholder satisfaction and respond to concerns
+- Define a communication strategy that promotes transparency and collaboration
+
+**Coverage in This Chapter:**
+- **7a**: Identifying, categorizing, and analyzing stakeholders (power/interest grids, RACI)
+- **7b**: Understanding stakeholder expectations, concerns, and competing interests
+- **7c**: Developing communication strategies tailored to different audiences
+- **7d**: Adapting communication style and channels based on cultural context
+- **7e**: Building relationships, managing expectations, and creating alignment across your stakeholder ecosystem
+
+This chapter emphasizes that stakeholder engagement is not a one-time activity but an ongoing responsibility throughout the project lifecycle. Your ability to communicate effectively, manage expectations, and build trust determines whether your projects succeed and whether stakeholders support organizational change.
+
+---
+
 ## Integration: Sarah's Stakeholder Ecosystem
 
 As Sarah reflects on her three projects, she realizes that each has a distinct stakeholder ecosystem, and her approach to communication and engagement must adapt accordingly.

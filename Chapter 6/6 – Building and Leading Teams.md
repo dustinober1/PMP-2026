@@ -32,6 +32,37 @@ This chapter is divided into the following sub-sections:
 
 ---
 
+## ECO Alignment
+
+This chapter addresses the following tasks from the PMP Certification Exam Content Outline (ECO):
+
+| Domain | Task | Coverage |
+|--------|------|----------|
+| People | Task 3: Lead the Project Team | Primary |
+
+**How This Chapter Covers the ECO Task:**
+
+People Task 3 (Lead the Project Team) requires you to:
+- Establish expectations at the team level
+- Empower the team to make decisions
+- Solve problems collaboratively
+- Represent the voice of the team
+- Support the team's varied experiences, skills, and perspectives
+- Determine appropriate leadership styles for different contexts
+- Establish clear roles and responsibilities
+
+**Coverage in This Chapter:**
+- **6a**: Team composition and development stages (Tuckman's model)
+- **6b**: Establishing clear roles, responsibilities, and decision authority
+- **6c**: Influencing the team and making decisions without direct authority
+- **6d**: Addressing conflict and solving problems collaboratively
+- **6e**: Motivation techniques that empower teams
+- **6f**: Servant leadership and coaching approaches to team development
+
+This chapter emphasizes that effective team leadership requires understanding people, creating psychological safety, and adapting your approach to different contexts (predictive, agile, hybrid projects) and team compositions.
+
+---
+
 ## Integration: Sarah's People Challenges
 
 As Sarah moves from managing one project to three interconnected initiatives, her people challenges evolve:
