@@ -108,6 +108,8 @@ In short, the PMP matters because it connects your experience, your knowledge, a
 
 Before you start studying, it helps to know exactly what you are preparing for. The July 2026 PMP exam update adjusts both the structure and the feel of the exam so that it mirrors real project environments more closely. ([Project Management Institute][1])
 
+Details such as question counts, timing, and domain weights in this chapter reflect PMI communications about the 2026 exam update as of late 2025. PMI sometimes refines its exams, so always confirm the latest information in the current PMP Exam Content Outline (ECO) and PMP Handbook on `pmi.org` before you schedule your exam. ([Project Management Institute][1])
+
 ### 1.2.1 Question Count and Scoring
 
 Starting with the July 2026 launch, the PMP exam has the following high-level structure:
@@ -127,32 +129,35 @@ For your purposes, assume every question counts. This keeps your mindset consist
 ### 1.2.2 Time Limit and Breaks
 
 - Total exam time: 240 minutes (4 hours)  
-- You will have two short, scheduled breaks:
+- You will have two scheduled 5-minute breaks:
   - One break after the case-study section  
-  - A second break partway through the remaining independent questions  
+  - A second break approximately midway through the independent-question portion  
 
 Important:
 
 - Once you confirm the end of a section and start a break, you cannot return to that section’s questions.  
 - The tutorial before the exam and the brief survey afterward do not count toward the 240 minutes.  
 
-In total, you have 240 minutes of “question time” to answer 185 questions. That averages to just under 1.3 minutes per question, so time management is critical.
+In total, you have 240 minutes of “question time” to answer 185 questions. That averages to just under 1.3 minutes per question, so time management is critical. ([Project Management Institute][1])
 
 ### 1.2.3 Question Formats
 
-The new exam includes a mix of traditional and interactive question types:
+The new exam includes a mix of traditional and interactive question types described in the 2026 ECO: ([Project Management Institute][1])
 
-- Multiple-choice (one correct answer)  
+- Case/scenario sets (NEW) based on detailed project situations, sometimes with charts or other visuals  
+- Multiple-choice (single correct answer)  
 - Multiple-response (more than one correct answer)  
-- Matching / drag-and-drop  
-- Hotspot-style items (clicking on part of a diagram or interface)  
-- Some short, interactive or fill-in-the-blank formats  
+- Matching and enhanced matching / drag-and-drop items  
+- Graphic-based questions that require interpreting charts, graphs, diagrams, or images  
+- Point-and-click (hotspot) questions and pull-down list items (on computer-based testing)  
+
+The exam may also include practicum-style, hands-on interactions with tools, data, and case-study content.
 
 You should expect to:
 
-- Interpret tables, charts, dashboards, and logs  
-- Work through short case fragments and then answer several questions about them  
-- Manipulate on-screen elements (for example, dragging tasks into the correct sequence)  
+- Interpret tables, charts, dashboards, logs, and other visuals  
+- Work through case fragments and then answer several related questions  
+- Manipulate on-screen elements (for example, dragging tasks into the correct sequence or choosing from pull-down lists)  
 
 Practice questions in your prep should mimic these formats as much as possible, not just plain four-option multiple choice.
 
@@ -209,7 +214,7 @@ In later chapters, we will translate these structural details into concrete exam
 
 ## 1.3 The Three Exam Domains and Their Weights
 
-The PMP exam is built around three high-level domains that describe the core areas of responsibility for a practicing project manager. From July 2026 onward, the weightings change to: ([CertifHub Community][4]; [Project Management Institute][1])
+The PMP exam is built around three high-level domains that describe the core areas of responsibility for a practicing project manager. For the July 2026 exam version described in PMI’s updated ECO, this guide assumes the following weights: ([CertifHub Community][4]; [Project Management Institute][1])
 
 - People – 33%  
 - Process – 41%  
@@ -281,10 +286,7 @@ These questions test whether you think like someone responsible not just for “
 
 ### 1.3.4 How Ways of Working Appear in the Domains
 
-The three domains are not separated by methodology. PMI’s 2026 ECO explicitly states that predictive, agile, and hybrid approaches appear throughout all three domains, not in separate sections. Roughly: ([Project Management Institute][1])
-
-- About 40% of questions reflect predictive project management.  
-- About 60% reflect adaptive/agile and hybrid approaches.  
+The three domains are not separated by methodology. PMI’s Exam Content Outline (ECO) indicates that predictive, agile, and hybrid approaches appear throughout all three domains, not in separate sections. Approximately 40% of the exam items represent predictive approaches, with the remaining 60% divided between adaptive/agile and hybrid approaches. ([Project Management Institute][1])
 
 That means:
 
@@ -451,17 +453,17 @@ If you train your thinking around these patterns, the exam becomes less of a gue
 
 The PMP is not an entry-level certification. It is designed for people who already lead or direct project work and want to validate that experience against a global standard.
 
-PMI’s formal eligibility rules are detailed and may evolve over time, but in plain language for the new exam you can think about it like this: ([Project Management Institute][1])
+PMI’s formal eligibility rules are detailed in the PMP Exam Content Outline and PMP Handbook, but in plain language for the new exam you can think about it like this: ([Project Management Institute][1])
 
-- You should have several years (roughly 3–5) of hands-on project experience.  
-- You should have experience leading or directing some aspect of project work (not just doing technical tasks).  
-- You need formal project management education (commonly 35 hours from a course or structured training).  
+- You need a certain amount of *recent* project management experience (typically 2–5 years), depending on your level of formal education.  
+- All qualifying experience must be within the last 10 years and involve *leading and directing* project work, not just performing technical tasks.  
+- You need at least 35 hours of structured project management training aligned with the PMP Exam Content Outline.  
 
 PMI is also broadening eligibility pathways to be more globally inclusive, by:
 
 - Recognizing different educational backgrounds (degrees, apprenticeships, and structured training programs)  
-- Keeping the experience expectation around 3–5 years of project work, depending on education level  
-- Extending the experience look-back period to around 10 years, giving candidates more flexibility to count relevant projects from their career history ([Project Management Institute][1])
+- Providing clear experience thresholds for each education tier (for example, 60 months for upper-secondary education, down to 24 months for GAC-accredited degrees)  
+- Offering credit for prior learning paths such as the CAPM certification while still requiring substantive project experience ([Project Management Institute][1])
 
 ### 1.5.1 The “Three Ingredients” of Eligibility
 
@@ -486,7 +488,7 @@ You can think of PMP eligibility as a combination of three ingredients:
      - A PMP prep course  
      - University or college project management coursework  
      - Other PMI-recognized programs, including some online certificates  
-   - Having the CAPM certification can also satisfy this education requirement in many cases. ([Project Management Institute][1])
+   - Holding an active CAPM certification gives you credit for 23 of the required 35 training hours, so you only need to document the remaining commercial training hours. ([Project Management Institute][1])
 
 If you read these three ingredients and recognize your own experience, you are likely in the right place for the PMP.
 
@@ -537,7 +539,7 @@ But the exam itself will feel much more natural and manageable once you have the
 
 ## 1.6 How the Exam Is Changing from the Previous Version
 
-Many resources on the market are designed for the “180 questions in 230 minutes” version of the exam used up through mid-2026. ([Project Management Academy][3]) Those resources are based on the 2021 Exam Content Outline (ECO), which remains valid until the new exam launches in July 2026.
+Many resources on the market are designed for the “180 questions in 230 minutes” version of the exam that has been in place since the 2021 Exam Content Outline (ECO). ([Project Management Academy][3]) If you are preparing for the updated exam structure described for July 2026, you will need to confirm whether those resources have been revised or supplement them with materials aligned to the newer ECO.
 
 The July 2026 exam is still built on the same three domains—People, Process, and Business Environment—but the structure, emphasis, and style of questions are being updated.
 
@@ -665,3 +667,17 @@ Whenever you use other resources, make a habit of asking:
 - “If it’s 2021, how will I supplement Business Environment, AI, and sustainability topics?”  
 
 This small bit of discipline will keep your study time focused on the exam you are actually going to take—not the one that is being phased out.
+
+---
+
+## Sources and Further Reading
+
+[1]: Project Management Institute (PMI). *Project Management Professional (PMP)® Examination Content Outline – July 2026*, *PMP® Certification Handbook*, and official PMP certification pages. Latest versions available from `https://www.pmi.org/` under **Certifications → Project Management Professional (PMP®)**. This repository also includes the July 2026 ECO as `Resources/New-PMP-Examination-Content-Outline-2026.pdf`.
+
+[2]: “Project Management Professional.” *Wikipedia*. Accessed December 2025.
+
+[3]: Project Management Academy. Articles and guides summarizing PMP exam structure and changes based on the 2021 ECO (180 questions, 230 minutes, legacy domain weights).
+
+[4]: CertifHub Community. Community discussions and explainer posts summarizing PMI communications about the 2026 PMP exam update and domain weight changes.
+
+[5]: PMProad. Articles on sustainability, ESG, and value-focused project management topics relevant to the Business Environment domain of the PMP exam.
