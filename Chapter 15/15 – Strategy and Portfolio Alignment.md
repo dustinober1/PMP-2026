@@ -49,7 +49,10 @@ Moving from project outputs to organizational outcomes. Benefits identification,
 ### [15e – Strategic Planning and Roadmaps](15e%20%E2%80%93%20Strategic%20Planning%20and%20Roadmaps.md)
 Creating strategic roadmaps that guide multi-year project and program planning. Balancing long-term vision with adaptive execution, especially in agile and hybrid contexts. Understanding how roadmaps evolve as strategy and market conditions change.
 
-### [15f – Knowledge Check](15f%20%E2%80%93%20Knowledge%20Check.md)
+### [15f – Monitoring and Responding to External Business Environment Changes](15f%20%E2%80%93%20Monitoring%20and%20Responding%20to%20External%20Business%20Environment%20Changes.md)
+Establishing processes to monitor external environment (regulatory, market, technology, economic, geopolitical changes). Assessing impact of external changes on project viability. Responding strategically when environment shifts. Communicating external risks to decision-makers. Integrating environmental scanning across different delivery approaches.
+
+### [15g – Knowledge Check](15g%20%E2%80%93%20Knowledge%20Check.md)
 Scenario-based practice questions testing your understanding of strategy and portfolio alignment concepts, with detailed explanations tied to PMI principles.
 
 ---
@@ -85,6 +88,7 @@ This chapter addresses the following tasks from the PMP Certification Exam Conte
 |--------|------|----------|
 | Business Environment | Task 1: Plan and Manage Project Compliance | Primary |
 | Business Environment | Task 3: Evaluate and Address External Business Environment Changes | Primary |
+| Business Environment | Task 8: Monitor and Respond to External Environment | Primary |
 
 **How This Chapter Covers the ECO Tasks:**
 
@@ -102,6 +106,14 @@ This chapter addresses the following tasks from the PMP Certification Exam Conte
 - Assess impacts of external changes on project viability and strategic value
 - Maintain strategic alignment even as the external business environment evolves
 
+**Business Environment Task 8** (Monitor and Respond to External Environment) requires you to:
+- Establish environmental monitoring processes for regulatory, market, technology, economic, geopolitical, and organizational changes
+- Identify early warning signals that affect project or portfolio viability
+- Assess impact of external changes on strategic assumptions and project plans
+- Recommend appropriate responses (absorb, mitigate, escalate, pivot, cancel)
+- Communicate external risks and changes to decision-makers
+- Adapt project and portfolio strategy when external conditions shift
+
 **Coverage in This Chapter:**
 
 - **15a (Organizational Strategy and Project Selection)**: Explains how organizational strategy drives project selection, how strategic planning frameworks guide decisions, and how external conditions inform strategic priorities
@@ -109,8 +121,9 @@ This chapter addresses the following tasks from the PMP Certification Exam Conte
 - **15c (Project and Program Alignment)**: Shows how projects and programs maintain alignment with strategy throughout execution, and how governance ensures strategic fit persists even as conditions change
 - **15d (Benefits Realization and Value Creation)**: Illustrates how strategic benefits are defined and how they connect to organizational strategic objectives and external value creation
 - **15e (Strategic Planning and Roadmaps)**: Explores how strategic roadmaps respond to external changes, how organizations adapt strategy over time, and how portfolio management maintains compliance with governance
+- **15f (Monitoring and Responding to External Business Environment Changes)**: Establishes systematic environmental monitoring processes, describes impact assessment frameworks, and explains how to respond strategically when external conditions shift
 
-Strategic alignment is not a one-time activity during project selection. This chapter shows how project managers and portfolio managers continuously ensure that projects and programs remain strategically compliant and responsive to external business environment changes throughout the project lifecycle.
+Strategic alignment is not a one-time activity during project selection. This chapter shows how project managers and portfolio managers continuously monitor the external environment and ensure that projects and programs remain strategically compliant and responsive to external business environment changes throughout the project lifecycle.
 
 ---
 
