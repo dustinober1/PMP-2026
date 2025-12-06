@@ -114,16 +114,52 @@
 - Resource planning (people, equipment, vendors)
 - Procurement and contract considerations
 
-### Chapter 12 – Risk, Issues, and Change
-- Identifying risks (threats and opportunities)
-- Qualitative and basic quantitative analysis
-- Risk response strategies and owners
-- Issue management and escalation
-- Dependency management
-- Integrated change control:
-  - Change requests
-  - Impact analysis
-  - Change approval routes
+### Chapter 12 – Risk, Issues, and Change Management
+- **12a – Understanding Risk**
+  - Risk definition and characteristics
+  - Risk appetite vs. risk tolerance
+  - Threats and opportunities
+  - Types of risk (technical, schedule, cost, organizational, compliance)
+  - Risk management across delivery approaches (predictive, agile, hybrid)
+
+- **12b – Risk Identification and Analysis**
+  - Identification techniques (expert interviews, brainstorming, assumptions analysis, checklists)
+  - Qualitative analysis (probability-impact matrices)
+  - Quantitative analysis (EMV, decision analysis)
+  - Risk scoring and prioritization
+  - Creating and maintaining risk registers
+
+- **12c – Risk Response Strategies**
+  - Response strategies for threats (avoid, mitigate, accept)
+  - Response strategies for opportunities (exploit, enhance)
+  - Risk owners and accountability
+  - Contingency and fallback plans
+  - Residual risk and contingency reserves
+  - Risk responses across delivery approaches
+
+- **12d – Issue Management**
+  - Risk vs. issue distinction
+  - Issue identification and logging
+  - Issue prioritization and escalation
+  - Issue resolution and closure
+  - Learning from issues
+  - Issue management processes across delivery approaches
+
+- **12e – Change Management**
+  - Scope change control vs. organizational change management
+  - Change psychology and resistance patterns
+  - Kotter's 8-step change model and ADKAR framework
+  - Stakeholder adoption strategies
+  - Building commitment and addressing resistance
+  - Organizational readiness assessment
+  - Change management across delivery approaches
+
+- **12f – Knowledge Check**
+  - Scenario-based practice questions
+  - Risk identification, analysis, and response scenarios
+  - Issue escalation and management scenarios
+  - Change management and resistance scenarios
+  - Cross-delivery approach integration questions
 
 ### Chapter 13 – Executing and Delivering Work
 - Directing and managing project work
