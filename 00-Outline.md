@@ -334,12 +334,6 @@
 - Domain and topic mapping table
 - Separate answer key with explanations
 
-### Chapter 21 – Practice Exam 2 (Targeted)
-- 60–90 targeted questions
-  - Emphasis on common weak areas (for your students)
-- Mini-mock exam experience
-- Separate answer key with explanations
-
 ---
 
 ## Appendices
