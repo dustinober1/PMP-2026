@@ -2,6 +2,18 @@
 
 ## Introduction
 
+Project Initiation
+Organizational leaders authorize projects in response to organizational strategic-objective realization
+and stakeholder needs. Projects enable organizations to make necessary changes to address these
+factors. The factors can be categorized into several areas, including the following:
+• Meeting regulatory, legal, or social requirements;
+• Satisfying stakeholder requests or needs;
+• Implementing or changing business or technological strategies; and
+• Creating, improving, or fixing products, processes, organizations, or services.
+By responding to these factors, leaders can enhance an organization’s viability. Projects provide the
+means to make these changes and should ultimately link to the organization’s strategic objectives
+and business value.
+
 The way you start a project determines what becomes possible later. A well-initiated project has clarity about its purpose, realistic boundaries, appropriate authority, and an intentional delivery approach. A poorly initiated project stumbles through ambiguity, fighting unnecessary constraints, unclear about who decides what, and using a delivery approach chosen by default rather than design.
 
 Initiation and planning are where project managers translate organizational strategy into actionable work. The business case explains why the project exists. The charter authorizes the project manager to act. Constraints, assumptions, and dependencies shape what's realistic. The delivery approach determines how the team will work. The roadmap communicates the journey ahead.

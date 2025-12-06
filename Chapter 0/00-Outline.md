@@ -36,6 +36,8 @@
 
 ### Chapter 3 – Value Delivery and Outcomes
 - Projects, programs, portfolios, and operations
+- Characteristics of a project (Temporary, Unique, Value Creation)
+- Connecting organizational and project governance
 - Value, benefits, and outcomes
 - Product and project lifecycles
 - The project manager’s role in value delivery

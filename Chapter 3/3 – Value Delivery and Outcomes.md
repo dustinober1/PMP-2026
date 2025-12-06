@@ -206,7 +206,24 @@ On the exam, you will see scenarios where:
 
 A PMP is expected to understand where their project sits in this larger value delivery system, not to treat it as an isolated activity.
 
-### 3.2.1 Why This Distinction Matters
+### 3.2.1 Characteristics of a Project
+
+Organizations expect projects to deliver value in addition to outputs and artifacts. Project managers are expected to deliver project outcomes that create value for the organization and stakeholders within the organization’s system for value delivery. Organizational work encompasses both operations and projects. Although both are expected to deliver value beyond outputs and artifacts, they differ in their value-creation processes. The following terms are defined to provide context for these distinctions and the broader content of this standard:
+
+- **Temporary:** Projects are initiated to create value by producing tangible and/or intangible deliverables such as products, services, or other results. Unlike ongoing operations, projects are temporary and have a defined beginning and end. Although projects are temporary, their deliverables often persist beyond the project’s conclusion. Usually, a project ends when one or more of the following conditions are met:
+  - The project’s objectives have been achieved;
+  - A governing body, the project sponsor, or the project team has determined that the objectives will not or cannot be met;
+  - Resources (funding, human, or physical) are exhausted or no longer available;
+  - Due to changes in strategy, priorities, or the external environment, the need for the project no longer exists; or
+  - The project is terminated for other reasons such as legal, regulatory, or compliance issues.
+
+- **Unique context:** A unique context in projects refers to the specific conditions and environments that distinguish one project from another, even if they have otherwise similar characteristics. This uniqueness arises from factors such as differences in goals, scope, duration, location, technology, quality, costs, risks, resources, and stakeholders involved in the project. Even if two projects aim for the same value or objectives, each project differs due to the context in which it is carried out. These differences require tailored management approaches to meet the specific needs and challenges of each project. As a result, the unique context of each project requires customized strategies for success.
+
+  *For example, a large housing development project may involve a single construction vendor in a single government district. However, each of those housing units may involve varying lenders and buyers, distinct customization requests, and unique grading requirements from one plot to another.*
+
+- **Value creation through organizational change:** Projects, in pursuit of value, drive change in organizations. From a business perspective, a project’s purpose is to move an organization from one state to another to achieve a specific objective (see Figure 1-1). Before the project begins, an organization is in its current state. The desired result of the change driven by the project is described as the future state. For some projects, this shift may involve creating a transition state where several steps are taken in a structured manner to achieve the future state. The successful completion of a project results in the organization moving to the future state and achieving value for the organization, as defined by key stakeholders.
+
+### 3.2.2 Why This Distinction Matters
 
 In day-to-day conversation, people often use “project,” “product,” and “operations” as if they are interchangeable:
 
@@ -228,7 +245,7 @@ When you clearly distinguish:
 
 you can manage handoffs, responsibilities, and expectations much more effectively. The PMP exam wants you to think at this system level, not just within your project bubble.
 
-### 3.2.2 Story: The Portal That Nobody Owned
+### 3.2.3 Story: The Portal That Nobody Owned
 
 Imagine this story.
 
@@ -261,7 +278,7 @@ On the exam, similar stories appear in scenarios where:
 - The PM has to ensure a smooth transition to a product or operations owner.  
 - Benefits are at risk because ownership and responsibilities are unclear.
 
-### 3.2.3 Managing the Handoffs: From Project to Product to Operations
+### 3.2.4 Managing the Handoffs: From Project to Product to Operations
 
 A key part of value delivery is managing the handoffs between:
 
@@ -292,7 +309,7 @@ In practice, this might mean:
 
 On the exam, strong answers often involve proactive engagement with operations and product stakeholders, not last-minute handoffs.
 
-### 3.2.4 How This Changes Project Management Practice
+### 3.2.5 How This Changes Project Management Practice
 
 Seeing your project in the context of products and operations changes how you plan and lead.
 
@@ -312,7 +329,7 @@ This leads to practical changes like:
 
 Instead of optimizing only for your project’s success, you optimize for the success of the product in operations.
 
-### 3.2.5 Exam Implications: Reading Scenarios Through the “System” Lens
+### 3.2.6 Exam Implications: Reading Scenarios Through the “System” Lens
 
 On the PMP exam, the projects–products–operations distinction shows up in many subtle ways.
 
@@ -377,7 +394,22 @@ Example:
 
 - If your project is on time and on budget, but the organization’s strategy has changed and the benefits are now doubtful, the “PMP answer” is often to recommend re-evaluating the project, not blindly continuing.
 
-### 3.3.1 Why Strategy Matters to a Project Manager
+### 3.3.1 Connecting Organizational and Project Governance
+
+Organizational governance provides direction and control through policies, processes, procedures, and decisions to meet strategic and operational goals. Typically overseen by an executive committee or organizational leaders, organizational governance helps ensure transparency, oversight, compliance, resiliency, and adaptability for its stakeholders. In many organizations, organizational governance is inspired by the country’s laws, business domain regulations, industry standards, and custom policies that are formed by the organization’s unique context. This context can influence the governance of portfolios, programs, and projects in several ways, including the following:
+
+- Enforcing legal, regulatory, and compliance requirements;
+- Defining ethical, social, and environmental responsibilities;
+- Specifying operational, legal, financial, and risk policies;
+- Promoting the alignment of portfolios, programs, and projects with strategic objectives at different hierarchical levels;
+- Ensuring that initiatives contribute to the organizational mission and vision; and
+- Facilitating decision-making that maximizes delivered value connected to the system for value delivery.
+
+Project governance is the adaptable framework that guides project management activities to create value through a unique product, service, or result aligned with organizational, strategic, and operational goals. Governance provides structure, systems and processes, roles, responsibilities, and decision-making models, such as RACI (responsible, accountable, consulted, informed) matrices or governance boards, to manage projects effectively. Governance frameworks can also ensure alignment with stakeholder expectations by defining accountability and communication protocols. Additionally, project governance helps prioritize initiatives and allocate resources to support strategic objectives. For instance, a steering committee in a product launch project may oversee milestones, enforce quality standards, and resolve escalated issues. Further details on governance frameworks are discussed in **Chapter 17 (Compliance, Risk, and Governance)**.
+
+In summary, while organizational governance provides the overall direction and control for the entire organization, project governance focuses on the specific processes and frameworks that should be implemented to manage individual projects effectively. Both are essential for ensuring that projects contribute to the organization’s strategic objectives and are executed successfully.
+
+### 3.3.2 Why Strategy Matters to a Project Manager
 
 At first glance, strategy can feel distant from day-to-day project work:
 
@@ -398,7 +430,7 @@ Projects are one of the main tools organizations use to turn those strategic cho
 
 On the PMP exam, the “right” answer often reflects an awareness of this bigger picture, even when the question focuses on local project details.
 
-### 3.3.2 Story: The Well-Run Project That No One Needed
+### 3.3.3 Story: The Well-Run Project That No One Needed
 
 Consider this narrative.
 
@@ -431,7 +463,7 @@ What are your choices as the project manager?
 
 From a PMP/BPMI perspective, Option 3 is the expected behavior. You are not just a task executor; you are a steward of organizational value. Continuing a well-run project that no longer fits the strategy is waste, even if your metrics look good.
 
-### 3.3.3 Working at Different Levels: Portfolio, Program, and Project
+### 3.3.4 Working at Different Levels: Portfolio, Program, and Project
 
 Understanding the value delivery system means knowing how your project fits into higher levels of management.
 
@@ -460,7 +492,7 @@ On the exam, this shows up in questions where:
 - Portfolio governance boards review your project’s continued alignment and value.  
 - You must decide whether to escalate strategic concerns to program or portfolio management.
 
-### 3.3.4 Recognizing Strategic Misalignment and When to Escalate
+### 3.3.5 Recognizing Strategic Misalignment and When to Escalate
 
 A key skill for PMPs is recognizing when a project is drifting out of alignment with strategy.
 
@@ -488,7 +520,7 @@ When you see these signs, the expected PMP behavior is to:
 
 This does not mean you unilaterally cancel projects; it means you make sure decision-makers have the information they need to make strategic choices.
 
-### 3.3.5 How This Changes Project Management Practice
+### 3.3.6 How This Changes Project Management Practice
 
 Thinking in terms of strategy and value delivery systems leads to practical differences in how you run projects:
 
@@ -509,7 +541,7 @@ Thinking in terms of strategy and value delivery systems leads to practical diff
 
 This is exactly the kind of behavior that separates a “task manager” from a “project leader” in the eyes of executives.
 
-### 3.3.6 Exam Implications: Thinking Strategically, Not Just Tactically
+### 3.3.7 Exam Implications: Thinking Strategically, Not Just Tactically
 
 In Business Environment questions, the exam often tests your ability to think beyond the immediate project task list.
 
