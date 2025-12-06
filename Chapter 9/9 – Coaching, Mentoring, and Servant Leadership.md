@@ -37,6 +37,32 @@ This chapter is divided into the following sub-sections:
 
 ---
 
+## ECO Alignment
+
+This chapter addresses the following task from the PMP Certification Exam Content Outline (ECO):
+
+| Domain | Task | Coverage |
+|--------|------|----------|
+| People | Task 7: Help Ensure Knowledge Transfer | Primary |
+
+**How This Chapter Covers the ECO Task:**
+
+People Task 7 (Help Ensure Knowledge Transfer) requires you to:
+- Identify knowledge critical to the project and organization
+- Gather knowledge throughout the project lifecycle (not just at the end)
+- Foster an environment where knowledge is actively shared, documented, and transferred
+
+**Coverage in This Chapter:**
+- **9a**: Leadership styles that encourage knowledge-sharing vs. styles that hoard information
+- **9b**: Servant leadership creates psychological safety that enables people to share knowledge without fear
+- **9c**: Coaching and mentoring techniques that transfer knowledge through dialogue and guided discovery
+- **9d**: Explicit mentoring and continuous learning practices that capture and spread organizational knowledge
+- **9e**: Building a culture where knowledge transfer is not a one-time exit activity but an ongoing practice
+
+This chapter emphasizes that knowledge transfer is not just about documentation. It is about developing people—helping them learn, grow, and eventually transfer what they know to others. Your ability to create an environment where people share knowledge freely determines whether your organization learns from projects or repeats the same mistakes.
+
+---
+
 ## Integration: Sarah's Leadership Evolution
 
 As Sarah's three projects progress, her approach to leadership matures:

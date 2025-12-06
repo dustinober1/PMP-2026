@@ -98,6 +98,38 @@ Covers how to communicate the project timeline to stakeholders, from detailed Ga
 ### 10f – Knowledge Check
 Scenario-based practice questions testing initiation concepts across predictive, agile, and hybrid contexts, with detailed answer explanations.
 
+## ECO Alignment
+
+This chapter addresses the following task from the PMP Certification Exam Content Outline (ECO):
+
+| Domain | Task | Coverage |
+|--------|------|----------|
+| Process | Task 1: Develop an Integrated Project Management Plan and Plan Delivery | Primary |
+
+**How This Chapter Covers the ECO Task:**
+
+Process Task 1 requires you to:
+- Assess project needs, complexity, and magnitude
+- Recommend a project management development approach (predictive, agile, or hybrid)
+- Determine critical information requirements (e.g., sustainability)
+- Recommend a project execution strategy
+- Create an integrated project management plan
+- Estimate work effort and resource requirements
+- Assess plans for dependencies, gaps, and continued business value
+- Maintain the integrated plan throughout the project
+- Collect and analyze data for informed decisions
+
+**Coverage in This Chapter:**
+- Assessing project characteristics and complexity
+- Choosing appropriate delivery approach based on uncertainty, regulatory requirements, stakeholder engagement, and technology maturity
+- Creating a business case that justifies the project and defines expected value
+- Developing a project charter that authorizes the project manager and establishes governance
+- Documenting constraints, assumptions, and dependencies
+- Creating roadmaps and release plans that show the journey from initiation to closure
+- Integration across predictive, agile, and hybrid approaches throughout
+
+This chapter emphasizes that initiation determines what becomes possible later. Strong initiation creates clarity; weak initiation creates downstream confusion and rework. Your ability to assess project context, recommend the right approach, and create a comprehensive yet flexible plan sets the foundation for all subsequent project work.
+
 ## How to Use This Chapter
 
 If you're studying the Process domain systematically, this chapter establishes the foundation for detailed planning (Chapter 11), risk management (Chapter 12), and execution (Chapter 13).

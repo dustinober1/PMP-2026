@@ -13,6 +13,37 @@
 
 ---
 
+## ECO Alignment
+
+This chapter addresses the following tasks from the PMP Certification Exam Content Outline (ECO):
+
+| Domain | Task | Coverage |
+|--------|------|----------|
+| Process | Task 2: Develop and Manage Project Scope | Primary |
+| Process | Task 3: Help Ensure Value-Based Delivery | Primary |
+| Process | Task 4: Plan and Manage Resources | Primary |
+| Process | Task 5: Plan and Manage Procurement | Primary |
+| Process | Task 6: Plan and Manage Finance | Primary |
+| Process | Task 7: Plan and Optimize Quality | Primary |
+| Process | Task 8: Plan and Manage Schedule | Primary |
+
+**How This Chapter Covers the ECO Tasks:**
+
+These seven tasks collectively require you to develop a comprehensive project plan including requirements, scope, schedule, budget, quality standards, resource allocation, and procurement strategy. They also require planning for value delivery at each phase.
+
+**Coverage in This Chapter:**
+- **11a**: Collecting, analyzing, and refining requirements—the foundation for all planning
+- **11b**: Defining scope, obtaining stakeholder agreement, and creating a scope baseline
+- **11c**: Schedule planning, work breakdown structures, dependencies, milestones, and timeline development
+- **11d**: Cost estimation, budgeting, and financial planning
+- **11e**: Quality planning, acceptance criteria, and quality standards
+- **11f**: Resource planning, team allocation, and procurement strategy development
+- **11g**: Value-driven planning that ensures every scope element contributes to benefits
+
+This chapter emphasizes that planning is not a one-time event but an ongoing conversation that adapts as the project progresses. Effective planning creates clarity, manages stakeholder expectations, and provides a baseline against which actual performance is measured.
+
+---
+
 ## Introduction: Planning as an Ongoing Conversation
 
 Planning is not a phase that ends. It's a conversation that evolves throughout the project lifecycle.

@@ -40,6 +40,34 @@ This chapter is divided into the following sub-sections:
 
 ---
 
+## ECO Alignment
+
+This chapter addresses the following task from the PMP Certification Exam Content Outline (ECO):
+
+| Domain | Task | Coverage |
+|--------|------|----------|
+| People | Task 2: Manage Conflicts | Primary |
+
+**How This Chapter Covers the ECO Task:**
+
+People Task 2 (Manage Conflicts) requires you to:
+- Identify conflict sources and analyze the underlying context
+- Implement agreed-on resolution strategies that address root causes
+- Communicate conflict management principles to team and stakeholders
+- Establish an environment that fosters adherence to ground rules
+- Manage and rectify ground rule violations
+
+**Coverage in This Chapter:**
+- **8a**: Understanding conflict sources—identifying what the real disagreement is about beneath the surface
+- **8b**: Five conflict resolution styles (compete, compromise, collaborate, accommodate, avoid) and when to use each
+- **8c**: Negotiation strategies and collaborative problem-solving that move beyond win-lose thinking
+- **8d**: Decision-making frameworks and escalation paths when conflicts cannot be resolved at your level
+- **8e**: Building a team environment where conflict is surfaced early and resolved constructively
+
+This chapter emphasizes that effective conflict management requires understanding both the technical and human dimensions of disagreement. Your ability to help teams navigate conflict—especially when stakeholders have competing interests—determines whether your projects achieve better outcomes or become derailed by unresolved tension.
+
+---
+
 ## Integration: Sarah's Conflict Scenarios
 
 Sarah encounters conflict in every project, in different forms:
