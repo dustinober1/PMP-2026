@@ -192,11 +192,40 @@
 - Governance models and decision bodies
 
 ### Chapter 16 – Benefits, Value, and Sustainability
-- Benefits realization planning
-- Tracking and reporting benefits
-- Long-term value vs short-term delivery pressures
-- Sustainability and ESG (Environmental, Social, Governance) themes
-- Balancing stakeholder needs and ethical considerations
+- **16a – Benefits Realization Planning and Identification**
+  - Distinguishing outputs, outcomes, and benefits
+  - Benefits realization lifecycle
+  - Benefits value chain and the benefits gap
+  - Comprehensive benefits planning across delivery approaches
+
+- **16b – Tracking and Measuring Benefits During and After Execution**
+  - Output, outcome, and benefit metrics
+  - Leading vs. lagging indicators
+  - Establishing baselines and targets
+  - Benefits measurement cadence and communication
+
+- **16c – Long-Term Value vs. Short-Term Delivery Pressure**
+  - Technical debt and hidden costs
+  - Trade-off decision framework
+  - Quantifying the business case for sustainability
+  - Navigating quality vs. speed pressures
+
+- **16d – Sustainability and ESG in Project Context**
+  - Environmental sustainability (lifecycle thinking)
+  - Social responsibility (labor practices, community, equity)
+  - Governance and ethical decision-making
+  - Integrating ESG into project decisions
+
+- **16e – Balancing Stakeholder Needs, Competing Values, and Benefits Realization**
+  - How different stakeholders define value
+  - Value perspectives and competing priorities
+  - Facilitation framework for value conversations
+  - Governance models for balancing competing values
+
+- **16f – Knowledge Check**
+  - 12 scenario-based practice questions
+  - Integration of concepts across all sections
+  - Detailed explanations tied to PMI principles
 
 ### Chapter 17 – Compliance, Risk, and Governance
 - Regulatory and legal requirements
