@@ -104,8 +104,8 @@ Each content chapter follows a consistent learning design:
 **Chapters 5 and beyond**: Modular structure with sub-sections in each chapter folder
 - Main file: `Chapter 5/5 – Core Project Management Concepts and Tools.md` (contains table of contents and integration sections)
 - Sub-section files: `Chapter 5/5a – [Topic].md`, `Chapter 5/5b – [Topic].md`, etc.
-- Knowledge check file: `Chapter 5/5-Knowledge Check.md` (contains all practice questions and answers)
-- **Naming**: Use letters (a, b, c...) for sub-sections, not numbers
+- Knowledge check file: `Chapter 5/5h – Knowledge Check.md` (contains all practice questions and answers, follows after final sub-section letter)
+- **Naming**: Use letters (a, b, c...) for sub-sections, not numbers. Knowledge Check gets the next sequential letter after the last sub-section.
 
 **Benefits of this structure**:
 - Shorter, more manageable files that are easier to edit and review
@@ -123,7 +123,9 @@ Each content chapter follows a consistent learning design:
 2. **For Chapters 5 and beyond**: Use modular structure with sub-sections
    - Main file: `Chapter N/N – [Chapter Title].md` (TOC and integration sections only)
    - Sub-section files: `Chapter N/Na – [Topic].md`, `Chapter N/Nb – [Topic].md`, etc.
-   - Knowledge check: `Chapter N/N-Knowledge Check.md`
+   - Knowledge check: `Chapter N/N[NextLetter] – Knowledge Check.md` (where NextLetter is the sequential letter after the final sub-section)
+     - Example: Chapter 5 has sub-sections 5a-5g, so Knowledge Check is `5h – Knowledge Check.md`
+     - Example: Chapter 6 has sub-sections 6a-6f, so Knowledge Check is `6g – Knowledge Check.md`
    - Include cross-references between sub-section files in the main TOC
 
 3. **Maintain the section structure** outlined above; consistency aids learning
