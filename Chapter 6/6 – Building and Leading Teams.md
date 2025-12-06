@@ -20,10 +20,6 @@ These skills are not technical—they are fundamentally about understanding peop
 
 ## Table of Contents
 
----
-
-## Table of Contents
-
 This chapter is divided into the following sub-sections:
 
 - **6a – Team Composition and Development**: Build effective teams and guide through development stages
@@ -36,83 +32,28 @@ This chapter is divided into the following sub-sections:
 
 ---
 
+## Integration: Sarah's People Challenges
 
-**3. Provide Support**
-- Not hovering, but available
-- Regular check-ins: "How is it going? What do you need?"
-- Help with obstacles: "You are stuck on that? Let me see if I can help."
-- Feedback: "Here is what I like about your approach. Here is where I would adjust."
+As Sarah moves from managing one project to three interconnected initiatives, her people challenges evolve:
 
-**4. Let Them Fail (Small Failures)**
-- If you correct every mistake, they never learn
-- If you let them fail and then debrief, they learn deeply
-- Not big failures that tank the project; small failures that are recoverable
+**Office Renovation Team** (Predictive, ~30 people on contractor staff):
+- Her core team is small (3 people: PM, Facilities Manager, Project Coordinator)
+- She relies heavily on the contractor (General Contractor with their own team)
+- Clear hierarchy and authority structure
+- Limited direct influence over contractor staff—must lead through contracts and governance
+- Challenge: How do you build team cohesion when the team is across organizations?
 
-**Example**: A junior PM misses a stakeholder in planning. Sarah does not say "You should have included them." Instead, Sarah asks: "Who did we miss?" Junior PM figures it out. Sarah asks: "How will we fix this?" Junior PM develops a plan. Debrief: "What would you do differently next time?" Junior PM: "I will use a stakeholder checklist."
+**Expense System Team** (Agile, ~5 core team members):
+- She is the PM but the team includes: Product Owner (CFO), Designer, 2 Developers, QA
+- Daily stand-ups, frequent interaction, informal culture
+- She has more direct influence on team dynamics
+- Challenge: How do you keep a small team motivated over 6 sprints? How do you handle disagreements quickly?
 
-**5. Recognize and Celebrate**
-- When the delegation goes well, recognize it publicly
-- "You did a great job with that design. I see you leading more complex work."
+**Transformation Program** (Hybrid, ~15-20 people across program):
+- Steering Committee (executives) at program level
+- Design Team (8 people) defining new practices
+- Pilot Teams (3 teams of 5-8 each) testing practices
+- Sarah leads the Design Team and coordinates pilot teams
+- Challenge: How do you lead diverse groups with different interests and perspectives? How do you build consensus across organizational boundaries?
 
-### 6.6.4 Difficult Conversations: Addressing Performance Issues
-
-Servant leadership does not mean avoiding hard conversations. Sometimes Sarah needs to address performance issues directly.
-
-**When to Have the Conversation:**
-
-- Performance is below standard
-- The person knows they are struggling (they have received feedback already)
-- The issue is affecting the team or project
-- You have given them opportunity to improve without change
-
-**How to Have the Conversation:**
-
-**1. Prepare**
-- Be specific: What exactly is the issue? Not "you are not a team player" but "In the last three meetings, you have interrupted others and not listened to their perspective."
-- Be fair: Have you given them feedback? Have they had opportunity to improve?
-- Be empathetic: Is there something going on? Is there a barrier you can help remove?
-
-**2. Have the Conversation Privately**
-- Not in a meeting where others are present
-- Not in writing (email); face-to-face
-- "I want to talk with you about something that is affecting the team"
-
-**3. Listen First**
-- State your observation: "I have noticed X. I wanted to understand your perspective."
-- Listen: "What is going on? Why do you think this is happening?"
-- Often, there is context you do not know (the person is dealing with something at home, they misunderstood the expectation, etc.)
-
-**4. Be Clear About Impact**
-- "This is affecting the team's ability to work together" or "This is affecting project quality"
-- Not angry or judgmental; factual
-
-**5. Work Toward a Solution**
-- "What would help? What do you need?"
-- Offer support: "Here is what I can do. Here is what I need you to do."
-- Be clear about expectations going forward
-- Agree on how you will know improvement has happened
-
-**6. Follow Up**
-- Check in: Is improvement happening?
-- Adjust if needed: Is the person making progress? Do they need different support?
-- If improvement does not happen: You may need to escalate to HR or have a final conversation about whether this is the right fit
-
-**Example: A Team Member Not Pulling Their Weight**
-
-Sarah notices that one developer is not contributing equally to the team. Code reviews are slow. Features are not shipping. Sarah addresses it:
-
-**Observation**: "I have noticed that your features are taking longer to complete. Last sprint you were blocked on code review for 2 weeks. I wanted to understand what is going on."
-
-**Listen**: Developer: "I know I am slow. I am struggling with the codebase. I do not understand the architecture. I am afraid of breaking things."
-
-Sarah: "I see. That is important information. Why did not you mention this before?"
-
-Developer: "I did not want to seem incompetent."
-
-**Impact**: Sarah: "I understand. Here is what I see: You are stressed, you are not delivering, and you are not asking for help. That affects the team. The team is waiting on your work. Can we fix this?"
-
-**Solution**: Sarah: "Here is what I can do: I will pair you with a senior developer to help you understand the architecture. We will do code reviews faster. You will focus on one feature at a time instead of multiple. Here is what I need: You speak up when you are stuck. You engage in the learning. After 2 sprints, we will see if you are more confident. Deal?"
-
-Developer: "Deal. I want to contribute. I just need some help."
-
-**Follow Up**: Sarah checks in after each sprint: "How is the pairing going? Do you feel more confident? What do you still need?"
+By the end of Chapter 6, Sarah understands that her job is not just to manage work—it is to develop people, create psychological safety, make space for contribution, and build teams that are greater than the sum of their parts.
