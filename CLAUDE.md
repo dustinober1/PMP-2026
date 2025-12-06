@@ -207,18 +207,18 @@ The guide's completeness is tracked through the git history. Check `git log` to 
 - **Part 1 – Orientation**: Chapters 1-2 (foundational chapters)
 - **Part 2 – Foundations**: Chapters 3-5 (core concepts, ways of working)
 - **Part 3 – People Domain**: Chapters 6-9 (team building, leadership, communication, conflict, coaching)
-- **Part 4 – Process Domain**: Chapters 10-11 (initiating, planning, detailed planning concepts)
+- **Part 4 – Process Domain**: Chapters 10-12 (initiating, planning, risk/issues/change management)
 
 Recent significant commits:
-- Chapter 9 – Coaching, Mentoring, and Servant Leadership (completed)
-- Chapter 10 – Initiating and Planning (completed)
+- Chapter 12 – Risk, Issues, and Change Management (completed) – modular structure with 5 sub-sections
 - Chapter 11 – Planning for Value Delivery (completed)
+- Chapter 10 – Initiating and Planning (completed)
+- Chapter 9 – Coaching, Mentoring, and Servant Leadership (completed)
 - `98aad9c`: Chapter 8 – Conflict, Negotiation, and Decision-Making
 - `57ef154`: Chapter 7 – Stakeholder and Communication Mastery
 - `baadba3`: Chapter 6 – Building and Leading Teams
 
 **Next Chapters to Complete**:
-- Chapter 12 – Risk, Issues, and Change Management (Part 4 – Process Domain)
 - Chapter 13 – Executing and Delivering Work (Part 4 – Process Domain)
 - Chapter 14 – Monitoring, Controlling, and Closing (Part 4 – Process Domain)
 

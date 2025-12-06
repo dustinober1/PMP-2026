@@ -1,0 +1,465 @@
+# 12e – Change Management
+
+## Learning Objectives
+
+- Distinguish between scope change control and organizational change management
+- Understand resistance patterns and change psychology
+- Apply change management frameworks (Kotter, Prosci ADKAR)
+- Develop stakeholder adoption and communication strategies
+- Assess organizational readiness for change
+- Build commitment and address resistance
+- Understand change management across delivery approaches
+- Measure change effectiveness
+
+---
+
+## Two Types of Change: Scope vs. Organizational
+
+When people talk about "change management," they often mean two different things. Clarifying this distinction is essential.
+
+### Scope Change Control (Process Domain)
+
+**Scope change control** is the formal process for managing requests to modify project scope. It's a **technical/administrative** process governed by the change control board.
+
+**Example scope changes**:
+- Stakeholder requests a new feature not in the original scope
+- Requirements analysis reveals missing functionality
+- Integration with another system is more complex than expected
+- Technology constraints force design modifications
+
+**How it's managed**:
+1. Change request is submitted
+2. Impact analysis: What would this change cost in schedule, budget, quality, risk?
+3. Change control board decision: Approve, defer, or decline?
+4. If approved, adjust the project plan
+5. Execute the change; track its impact
+
+Scope change control is **governed by formal processes** and **follows formal decision-making** (Chapter 8 discusses governance).
+
+### Organizational Change Management (People Domain)
+
+**Organizational change management** (OCM) is the process of helping **people and organizations** adopt new ways of working. It's a **people-focused** process.
+
+**Examples of organizational change**:
+- Implementing a new software system (people must learn and adopt it)
+- Changing business processes (people must adapt their work)
+- Restructuring teams (people must adjust to new reporting lines and roles)
+- Shifting from waterfall to agile delivery (teams must adapt their mindsets and practices)
+- Moving from office to hybrid work (people must adjust their work habits)
+
+**How it's managed**:
+1. Understand the current state: How do people currently work?
+2. Define the future state: How will work change?
+3. Assess the gap: What's different? What skills must people develop?
+4. Develop adoption strategies: How will we help people transition?
+5. Execute change activities: Training, communication, coaching, support
+6. Monitor adoption: Are people using the new way? Do they understand it?
+7. Sustain the change: Reinforce new ways; prevent backsliding
+
+**The connection**: Scope changes often require organizational change. When a project delivers new software, people must adopt it. When a project implements new processes, teams must work differently. Project managers often overlook this; they assume delivery = adoption. It doesn't.
+
+---
+
+## Change Psychology: Why People Resist
+
+Understanding why people resist change is essential to managing it effectively. It's not irrationality; it's human nature.
+
+### The Change Curve (Kübler-Ross and Bridges)
+
+People don't transition from "current state" to "future state" instantly. They go through psychological stages:
+
+1. **Denial/Shock**: "This won't really happen" or "This can't be as bad as they say"
+   - People minimize the change or assume it won't affect them
+
+2. **Resistance/Anger**: "I don't want this" or "Why are we doing this?"
+   - People become frustrated or angry
+   - This is when you hear "The old way was fine" or "You're ruining everything"
+   - This stage is often expressed as conflict (Chapter 8)
+
+3. **Bargaining/Negotiation**: "Can we do it differently?" or "Can we delay this?"
+   - People try to negotiate exceptions or modifications
+   - This is healthy; it shows they're starting to accept the change
+
+4. **Depression/Sadness**: "I'm worried I can't handle this" or "This is too much"
+   - People experience self-doubt, anxiety, or sadness about losing the old way
+   - Performance often declines temporarily
+
+5. **Acceptance**: "I understand; let me learn" or "I can see the benefits"
+   - People begin accepting the new way and developing competence
+   - Performance improves
+
+**Duration**: This progression typically takes 6-12 months for significant organizational change, though individual people move through at different speeds.
+
+**Implications for project managers**:
+- **Expect resistance**: It's normal, not a sign of poor planning
+- **Don't dismiss concerns**: Listen; validate; address underlying worries
+- **Provide support**: Training, coaching, and communication help people move through stages faster
+- **Be patient**: People need time to adjust; rushing through these stages doesn't work
+- **Celebrate progress**: When people move through stages, acknowledge it
+
+### Why People Really Resist Change
+
+Research on resistance shows that opposition to change usually comes from:
+
+1. **Loss of control**: "I'm worried about losing power or influence"
+2. **Loss of competence**: "I'm skilled at the current way; I'll be incompetent with the new way"
+3. **Loss of relationships**: "I'll lose working relationships with people I trust"
+4. **Loss of identity**: "I've defined myself by this role; change threatens who I am"
+5. **Unclear purpose**: "I don't understand why we're doing this"
+6. **Distrust of leadership**: "I don't believe leadership has good intentions"
+
+**Strategies for addressing each**:
+
+| Resistance Driver | Strategy |
+|---|---|
+| Loss of control | Involve people in designing the change; give choices where possible |
+| Loss of competence | Provide training; start small; let people build confidence gradually |
+| Loss of relationships | Maintain team structures where possible; facilitate relationship building in new structure |
+| Loss of identity | Help people see continuity ("You're still a great analyst; now you'll use new tools") |
+| Unclear purpose | Communicate the *why*; help people see benefits for them, not just the organization |
+| Distrust of leadership | Demonstrate trustworthiness through actions; be transparent; follow through on commitments |
+
+### Stages of Adoption
+
+People adopt change at different rates:
+
+- **Innovators** (2-3%): Early adopters; embrace change immediately
+- **Early adopters** (13-14%): Follow soon after; serve as champions
+- **Early majority** (34%): Adopt when change is proven and normalized
+- **Late majority** (34%): Adopt after change is clearly working; need more evidence
+- **Laggards** (16%): Last to adopt; may never fully adopt
+
+**Implication**: Don't expect everyone to adopt at once. Design strategies for each group:
+- **Innovators/Early adopters**: Give them visible roles; make them coaches and champions
+- **Early majority**: Show them evidence of success; provide strong training
+- **Late majority**: Demonstrate that change is normalized; provide peer support
+- **Laggards**: Focus on consequences and support; some may not adopt, and that's a management decision
+
+---
+
+## Change Management Frameworks
+
+Several frameworks help structure change management work. Two of the most widely used are Kotter's 8-Step Process and Prosci's ADKAR Model.
+
+### Kotter's 8-Step Change Model
+
+This framework, developed by John Kotter, outlines how to lead major organizational change:
+
+1. **Establish a sense of urgency**
+   - Help people understand why change is necessary
+   - Paint a compelling picture of what happens if we don't change
+   - Create dissatisfaction with the current state
+
+   *Example: Sarah's transformation program begins by showing executives the competitive landscape. "Companies adopting digital tools are outpacing us. Within 3 years, we'll be unable to compete if we don't modernize."*
+
+2. **Build a guiding coalition**
+   - Assemble leaders and influencers who believe in the change
+   - This group guides the change effort and models new behaviors
+   - Diverse representation (different departments, levels, demographics) is important
+
+   *Example: Sarah assembles a transformation steering committee that includes the CFO (for credibility), a respected IT manager (for technical credibility), and a frontline supervisor (for employee credibility).*
+
+3. **Form a strategic vision**
+   - Define what the future state looks like
+   - Make it clear, compelling, and easy to communicate
+   - Tie it to organizational values and strategy
+
+   *Example: "In 2 years, our teams will use integrated digital tools to make decisions faster, serve customers better, and work more effectively together."*
+
+4. **Communicate the vision**
+   - Communicate relentlessly; use multiple channels; repeat often
+   - Leaders model and reinforce the vision through their actions
+   - Create a feedback loop; listen to concerns and address them
+
+   *Example: Monthly town halls focus on the transformation vision; team managers discuss it in one-on-ones; intranet content reinforces the vision; leaders visibly use new tools.*
+
+5. **Empower action**
+   - Remove obstacles to change
+   - Give people permission to experiment
+   - Recognize and reward people taking action toward the vision
+
+   *Example: Teams are freed from some routine work to focus on transformation. People who volunteer for early adoption get recognition. Processes that block change are streamlined.*
+
+6. **Create short-term wins**
+   - Design the change to show results quickly
+   - Celebrate these wins publicly
+   - Use them to build momentum and credibility
+
+   *Example: The expense system pilot goes live early. Users see it works. They become advocates. Word spreads. "The transformation is real and working."*
+
+7. **Consolidate improvements**
+   - Use early wins to build on momentum
+   - Make changes permanent; embed them in processes, training, hiring
+   - Continue to communicate progress
+
+   *Example: After the expense system success, the team launches the next tool. Credibility is established. Adoption is faster.*
+
+8. **Anchor changes in culture**
+   - Make new ways the norm
+   - Update hiring, training, performance evaluation to reinforce new behaviors
+   - Tell stories about people exemplifying the new way
+
+   *Example: New employees are trained in both old and new tools; they see the transformation as normal. Performance reviews include feedback on using new tools. Success stories about transformation benefits are shared regularly.*
+
+### Prosci's ADKAR Model
+
+This framework focuses on individual change and adoption:
+
+1. **Awareness**: Help people understand the need for change
+   - "Why are we doing this?"
+   - "What happens if we don't change?"
+
+2. **Desire**: Help people develop motivation to change
+   - "What's in it for me?"
+   - "How does this connect to my values?"
+   - Address concerns that drive resistance
+
+3. **Knowledge**: Provide the skills and information people need
+   - Training on the new way
+   - Coaching and support
+   - Clear documentation and reference materials
+
+4. **Ability**: Build people's capability to use the new way
+   - Practice and feedback
+   - Real-world application
+   - Mentoring and support until confidence builds
+
+5. **Reinforcement**: Make the change stick
+   - Celebrate progress
+   - Update processes and systems to reinforce new behaviors
+   - Address backsliding quickly
+   - Make the new way the "normal" way
+
+**ADKAR is individual-focused**; different people progress at different rates. Your change management plan must address all five elements for most people to successfully adopt.
+
+**Example from Sarah's transformation program**:
+
+- **Awareness**: Town halls, emails, one-on-ones explaining why transformation is necessary
+- **Desire**: Leaders talk about benefits; early adopters share positive experiences; concerns are addressed in forums
+- **Knowledge**: Training workshops, online learning, job aids, documentation
+- **Ability**: Small group coaching, peer mentoring, supervised practice, feedback
+- **Reinforcement**: Success stories, recognition of adopters, process changes that require new tool usage, new hiring and training embed new ways
+
+---
+
+## Stakeholder Adoption Strategies
+
+Different stakeholders require different strategies for adoption.
+
+### Executive Leadership
+
+**Their concerns**:
+- Will this deliver promised benefits?
+- What's the cost and ROI?
+- What's the risk to business continuity?
+
+**Adoption strategies**:
+- Keep executives informed of progress and risks
+- Link to strategic objectives
+- Provide regular benefit tracking
+- Address concerns about risk and continuity
+
+### Middle Managers
+
+**Their concerns**:
+- Will this make my job harder?
+- Will I still be effective?
+- How do I manage my team through this?
+
+**Adoption strategies**:
+- Help them see how this supports their goals
+- Train them on the new way
+- Coach them on how to lead their teams through change
+- Make them partners in change, not passive recipients
+
+### Individual Contributors
+
+**Their concerns**:
+- Will I be able to do my job?
+- Will this make my work harder?
+- What support will I have?
+
+**Adoption strategies**:
+- Make training accessible
+- Provide peer mentors and coaches
+- Give them room to practice without consequences
+- Listen to their feedback and show you're responsive
+- Celebrate their progress
+
+### Resisters
+
+**Their concerns**: Often multiple; these people are most at risk of not adopting
+
+**Adoption strategies**:
+- Understand specifically what they're resisting and why
+- Address underlying concerns (loss of control, loss of competence, etc.)
+- Don't dismiss them; they often raise valid issues
+- Give them extra support and patience
+- Set expectations clearly; some may choose not to adapt and that's their choice (with consequences)
+
+---
+
+## Building Commitment and Addressing Resistance
+
+### The Commitment Spectrum
+
+People exist on a spectrum of commitment to change:
+
+```
+Champions → Supporters → Neutral → Skeptics → Resisters
+   (5%)       (30%)      (50%)      (10%)      (5%)
+```
+
+Your goal is to move people toward the left; your minimum goal is to move them from "Resister" to "Skeptical" or "Neutral."
+
+**Strategies for different groups**:
+
+| Group | Characteristics | Strategy |
+|-------|---|---|
+| **Champions** | Believe in change; advocate for it | Empower them; use them as coaches; give them visibility |
+| **Supporters** | Support the change; participate in it | Recognize and reinforce their support; give them small leadership roles |
+| **Neutral** | Unsure; waiting for more evidence | Provide evidence; make the change feel inevitable; reduce their risk |
+| **Skeptics** | Have concerns; need evidence | Address specific concerns; provide experience and training; patience |
+| **Resisters** | Oppose the change; may sabotage | Understand what drives their resistance; address if possible; manage if not |
+
+### Addressing Specific Resistance
+
+When people resist, don't dismiss them. Understand and address:
+
+1. **Identify the root concern**: Is it fear of incompetence? Loss of control? Distrust of leadership? Loss of relationships?
+
+2. **Listen and validate**: "I hear you're concerned about [concern]. That makes sense because [reason]."
+
+3. **Address the concern**: Provide training for competence concerns, involve them in planning for control concerns, build trust through transparency, etc.
+
+4. **Follow up**: Check in with them; show you've taken their concern seriously
+
+5. **Set expectations**: If they choose not to adopt, there are consequences. Be clear about what's required.
+
+**Example from Sarah's transformation program**:
+
+Some middle managers resist the new project management tools. Digging deeper, Sarah discovers:
+- **Actual concern**: "I'll lose visibility into my team's work" (loss of control)
+- **Root cause**: The tools have different reporting structures than they're used to
+- **Sarah's response**:
+  - Involves the managers in designing the reporting structure
+  - Trains them on how to use the tools to get the information they need
+  - Pairs them with a coach who shows them the visibility is actually *better* with the new tools
+  - Celebrates when they see benefits
+- **Result**: Skepticism turns to support
+
+---
+
+## Organizational Readiness for Change
+
+Not every organization is ready for change at the same time. Assessing readiness helps you adjust your strategy.
+
+**Readiness factors**:
+
+| Factor | High Readiness | Low Readiness |
+|--------|---|---|
+| **Executive sponsorship** | Visible, committed sponsor | Absent or passive sponsor |
+| **Sense of urgency** | People feel need for change | Complacency; "the old way works" |
+| **Organizational stability** | Stable; room for change focus | Crisis mode; multiple changes happening |
+| **Change capacity** | People have bandwidth for change | Overwhelmed; overworked |
+| **Trust in leadership** | High trust; credible messengers | Low trust; skepticism about leadership |
+| **Culture of change** | History of successful change | History of failed initiatives |
+| **Clear vision** | Compelling future state | Vague or unclear direction |
+
+**Implications**:
+- **High readiness**: You can move faster; people are motivated to adopt
+- **Low readiness**: You need to move slower; invest more in buy-in and engagement before rolling out change
+
+**Example from Sarah's scenarios**:
+
+*Office Renovation (high readiness)*: Everyone agrees the office space is outdated. Excitement about a new office is high. Communication is simple: "Here's the vision; let's make it happen." Adoption is natural.
+
+*Transformation Program (moderate-to-low readiness initially)*: The organization isn't in crisis; many people are comfortable with the current way. Sarah must build urgency (competitive landscape), get executive sponsorship, and start with high-readiness groups. She doesn't try to change everyone at once.
+
+---
+
+## Change Management Across Delivery Approaches
+
+### Predictive
+- **Change ownership**: Change management is typically a formal function; sometimes a dedicated change manager or organizational change team
+- **Timing**: OCM planning happens during the planning phase; execution happens during and after delivery
+- **Approach**: Comprehensive plan (training schedule, communication plan, sponsor strategy)
+- **Pace**: Slower, more coordinated approach; people have time to prepare for the change
+- **Integration**: Change plan is integrated with project plan
+
+*Example: Sarah's office renovation project includes a change management plan that covers how staff will adapt to the new workspace. Training on new amenities is scheduled before move-in. Communication about the move happens over 6 months. Managers are trained on supporting their teams.*
+
+### Agile
+- **Change ownership**: Team self-manages adoption; product owner ensures stakeholder feedback is incorporated
+- **Timing**: Change happens continuously; each iteration delivers new features for people to adopt
+- **Approach**: Continuous user feedback; frequent demonstrations; learning from early adopters
+- **Pace**: Fast; users adapt quickly because change is incremental
+- **Integration**: Change feedback is incorporated into backlog; adoption challenges become backlog items
+
+*Example: Sarah's expense system is delivered in sprints. Users see features every 2 weeks. They adapt gradually. Sprint reviews include user feedback; if adoption is challenging, training or design changes are made in the next sprint.*
+
+### Hybrid
+- **Program level**: Formal OCM planning for strategic changes and organizational impacts
+- **Team level**: Agile approach to getting user feedback and adapting delivery based on adoption challenges
+- **Integration**: Program-level communication supports team-level adoption; OCM metrics are tracked at program level
+
+*Example: Sarah's transformation program has a formal change management plan (strategic communication, leadership engagement, change impact assessment). Individual initiative teams deliver features incrementally; user adoption feedback goes into both sprint planning and program-level OCM adjustments.*
+
+---
+
+## Measuring Change Effectiveness
+
+How do you know if change management is working? Track:
+
+**Adoption metrics**:
+- **Usage**: % of target audience actively using the new way
+- **Proficiency**: Confidence levels; support request volume
+- **Sustainability**: Is usage sustained 3, 6, 12 months after launch?
+
+**Outcome metrics**:
+- **Benefits realization**: Are promised benefits being achieved?
+- **Performance**: Metrics that change should improve (productivity, quality, cycle time, cost, satisfaction)
+- **Engagement**: Employee feedback on the change; engagement survey results
+
+**Risk metrics**:
+- **Resistance**: Who is resisting? How strong is the resistance? Is it decreasing?
+- **Turnover**: Is attrition higher in change-impacted groups?
+- **Quality/safety**: Are mistakes increasing? Safety issues?
+
+**Example from Sarah's transformation program**:
+
+After expense system launch:
+- **Adoption**: 85% of target users actively using the system within 90 days (goal was 80%)
+- **Proficiency**: Support ticket volume decreases after 3 months (training is working)
+- **Benefits**: Expense reporting time per employee decreases from 45 minutes to 15 minutes; CFO has better expense data
+- **Sustainability**: 9 months post-launch, 80% are still using the system actively (acceptable; some power users depend on it)
+- **Engagement**: Post-launch survey shows 72% positive response to the new system (up from 45% pre-launch skepticism)
+
+---
+
+## Key Takeaways
+
+- **Scope change and organizational change are different**: Scope change control is process-based; organizational change is people-focused
+- **Resistance is normal**: People move through a change curve; understanding why they resist helps you address it
+- **Different groups require different strategies**: Champions, supporters, neutral, skeptics, and resisters each need tailored approaches
+- **Frameworks help**: Kotter's 8-step process and ADKAR provide structured approaches to leading change
+- **Readiness matters**: Assess organizational readiness and adjust your pace and strategy accordingly
+- **Communication and visibility build adoption**: People need to understand the *why*, see evidence that change is real and working, and get support through transition
+- **Adoption is an outcome, not an event**: Change management continues after delivery; you must sustain new behaviors and processes
+- **Different delivery approaches manage change differently**: Predictive plans it comprehensively upfront; agile adapts continuously; hybrid does both
+
+---
+
+## Reflection Questions
+
+1. **Your change experience**: Think of a change you've experienced (organizational, technical, or personal). Where did you fall on the commitment spectrum (champion to resister)? What drove your position?
+
+2. **Resistance patterns**: In organizations you know, what types of resistance come up most often? Is it fear of incompetence? Loss of control? Distrust?
+
+3. **Adoption strategies**: For a change you're planning or have experienced, what strategies worked to build adoption? What didn't? What would you do differently?
+
+4. **Readiness assessment**: Is your organization ready for the changes you're trying to implement? Which readiness factors are strong? Which are weak? How does this affect your change strategy?
+
+---
+
+*← [Back to Chapter 12](./12%20–%20Risk,%20Issues,%20and%20Change%20Management.md#table-of-contents) • [12d – Issue Management](./12d%20–%20Issue%20Management.md) • Next: [12f – Knowledge Check](./12f%20–%20Knowledge%20Check.md) →*
