@@ -208,6 +208,10 @@
 - Project selection and prioritization
 - Organizational structures and their impact on projects
 - Governance models and decision bodies
+- **15g – Advanced Portfolio Management Domains**
+  - Portfolio Stakeholder Engagement (Strategic vs. Tactical)
+  - Portfolio Risk Management (Aggregate risk, diversification)
+  - Portfolio Capacity and Capability Management (Skills vs. Headcount)
 
 ### Chapter 16 – Benefits, Value, and Sustainability
 - **16a – Benefits Realization Planning and Identification**
