@@ -1,4 +1,4 @@
-# Chapter 20 – Practice Exam 1 (Full-Length Simulation)
+# Chapter 21 – Practice Exam 1 (Full-Length Simulation)
 
 This practice exam is designed to simulate the **July 2026 PMP Exam** format and content distribution.
 

@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Sarah stood in front of the program dashboard, studying the array of red, yellow, and green indicators. The Office Renovation project showed green across most metrics, but one vendor was two weeks behind. The Expense System had a yellow flag—velocity had dropped in the last sprint. The Transformation Program displayed a complex mosaic: some workstreams ahead of schedule, others struggling with organizational resistance.
+Sarah stood in front of the program dashboard, studying the array of red, yellow, and green indicators. The Office Renovation project showed green across most metrics, but one vendor was two weeks behind. The Expense System had a yellow flag—velocity had dropped in the last sprint. The Transformation Program displayed a complex mosaic: some workstreams ahead of schedule, others struggling with organizational resistance. A new AI-powered widget suggested that two workstreams were at high risk of delay based on patterns from past projects.
 
-Three months ago, these dashboards would have overwhelmed her. Now, she saw them as diagnostic tools—not just status reports, but windows into what needed attention, what was working well, and where intervention would create the most value.
+Three months ago, these dashboards would have overwhelmed her. Now, she saw them as diagnostic tools—not just status reports, but windows into what needed attention, what was working well, and where intervention would create the most value. The AI suggestions were useful as prompts, but she knew they still needed human interpretation and validation with the teams.
 
 "The key," her mentor had told her, "is knowing the difference between monitoring and controlling. Monitoring tells you where you are. Controlling is what you do about it."
 

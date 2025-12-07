@@ -17,7 +17,8 @@ The content is organized into chapters, following a logical progression from fou
 *   **Foundational Chapters (1-4):** Single-file overviews of the exam and core methodologies.
 *   **Modular Chapters (5-19):** Deep dives into specific knowledge areas, split into sub-sections for easier reading.
     *   Includes **Knowledge Checks** at the end of modular chapters to reinforce learning.
-*   **Practice Exams (Chapter 20):** Full-length practice questions and answers.
+*   **AI Essentials (Chapter 20):** Practical guidance on using AI responsibly in project work and exam prep.
+*   **Practice Exams (Chapter 21):** Full-length practice questions and answers.
 *   **Appendices (Chapter 98):** Key formulas, definitions, and sources.
 
 ## Key Features

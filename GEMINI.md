@@ -23,7 +23,8 @@ The content is organized into chapters, residing in `Chapter N` or `Chapter NN` 
 
 ### Special Directories
 *   `Chapter 0/`: Contains `00-Outline.md` (Master Table of Contents). **Must be kept in sync.**
-*   `Chapter 20/`: Practice Exam 1.
+*   `Chapter 20/`: AI Essentials for Project Professionals.
+*   `Chapter 21/`: Practice Exam set (questions and answers).
 *   `Chapter 98/`: Appendices.
 *   `Chapter 99/`: Resources.
 

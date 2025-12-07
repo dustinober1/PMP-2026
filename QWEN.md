@@ -43,7 +43,8 @@ The repository uses two distinct chapter structures:
 
 ### Special Chapters
 - `Chapter 0/`: Contains `00-Outline.md` (master outline)
-- `Chapter 20/`: Practice Exam 1 and answers
+- `Chapter 20/`: AI Essentials for Project Professionals
+- `Chapter 21/`: Practice Exam set (questions and answers)
 - `Chapter 98/`: Appendices (formulas, definitions, sources)
 - `Chapter 99/`: Resources and reference materials
 

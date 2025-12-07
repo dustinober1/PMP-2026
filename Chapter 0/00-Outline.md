@@ -298,7 +298,7 @@
 
 ---
 
-## Part 6 – Practice Exams and Exam Strategy
+## Part 6 – Practice Exams, AI, and Exam Strategy
 
 ### Chapter 19 – Exam Strategy and Test-Taking Skills
 - **19a – Understanding the Exam Format and Structure**
@@ -331,14 +331,21 @@
   - How to analyze mock exam results and create feedback loops
   - Building confidence through deliberate practice and psychological resilience
 
-### Chapter 20 – Practice Exam (Full-Length)
+### Chapter 20 – AI Essentials for Project Professionals
+- Practical use of AI tools across the project lifecycle
+- Guardrails for privacy, ethics, and responsible AI use
+- Integrating AI into team ways of working and governance
+- AI for personal productivity and PMP exam preparation
+- Scenario patterns for AI-related exam questions
+
+### Chapter 21 – Practice Exam (Full-Length)
 - 185 mixed-domain questions
 - Domain and topic mapping table
 - Separate answer key with explanations
 
 ---
 
-## Appendices
+## Appendices and Additional Resources
 
 ### Appendix A – Key Formulas and Definitions
 - Common project management formulas (where relevant)

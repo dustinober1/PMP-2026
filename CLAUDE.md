@@ -1,10 +1,24 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with this non-code repository containing educational content.
 
 ## Project Overview
 
 This is a **PMP Exam Study Guide** for the **July 2026** exam update, targeting the three new exam domains: **People (33%)**, **Process (41%)**, and **Business Environment (26%)**. The guide is a comprehensive Markdown-based educational resource designed to help project managers prepare for the updated PMP certification exam.
+
+### Nature of This Repository
+- **Type**: Educational content repository (no executable code)
+- **Format**: Pure Markdown files with structured educational content
+- **Purpose**: Study guide for PMP certification exam preparation
+- **Audience**: Project managers preparing for PMP exam
+- **Language**: English with PMI-standard terminology
+
+### Content Characteristics
+- **Long-form content**: Chapters typically 300-2000+ lines each
+- **Modular structure**: Main chapters with sub-sections for detailed topics
+- **Practice questions**: Knowledge checks with realistic scenarios
+- **Cross-references**: Extensive linking between related topics
+- **Narrative consistency**: Recurring case studies throughout
 
 ## Repository Structure
 
@@ -43,7 +57,8 @@ The repository uses two distinct chapter structures:
 
 ### Special Chapters
 - `Chapter 0/`: Contains `00-Outline.md` (master outline)
-- `Chapter 20/`: Practice Exam 1 and answers
+- `Chapter 20/`: AI Essentials for Project Professionals
+- `Chapter 21/`: Practice Exam set (questions and answers)
 - `Chapter 98/`: Appendices (formulas, definitions, sources)
 - `Chapter 99/`: Resources and reference materials
 
@@ -93,6 +108,8 @@ Practice questions follow this structure:
 - Four options (one correct, three distractors)
 - Detailed explanation stating why the correct answer is best and why distractors are weaker
 - Questions integrate multiple concepts and test application, not memorization
+
+> **Note:** Part 6 now includes AI (Chapter 20) and practice exams (Chapter 21), with practice exams as the final chapter.
 
 ## Common Commands
 

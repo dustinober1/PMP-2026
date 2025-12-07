@@ -182,6 +182,8 @@ Lagging indicators are informative but come too late to adjust course. If you di
 - Action: Implement ruthless prioritization; defer new features to Phase 2
 - Respond: Clarify that backlog is locked (no new features this sprint)
 
+Sarah also encounters modern dashboards that use AI to highlight potential issues or forecast outcomes. She treats these signals as **leading indicators to investigate**, not as unquestioned truths—validating surprising insights with her team and underlying data before taking action.
+
 ### 5.5.6 Data-Informed vs. Data-Driven
 
 Sarah learns an important distinction:
