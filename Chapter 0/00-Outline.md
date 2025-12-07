@@ -450,6 +450,77 @@
   - Technique selection scenarios
   - Role distinction questions
 
+### Chapter 23 – Process Groups Implementation Guide
+- **23 – Process Groups Implementation Guide**
+  - Introduction: Bridging Process Groups with three exam domains
+  - Process Groups framework overview and exam relevance
+  - Domain connections across all Process Groups
+  - Integration with existing domain-based chapters
+  - Sarah's Process Groups journey across her projects
+  - Key takeaways for PMP success
+
+- **23a – The Initiating Process Group**
+  - Project business case development and validation
+  - Stakeholder identification and comprehensive analysis
+  - Project charter creation and authorization process
+  - High-level risk and opportunity assessment
+  - Selecting delivery approaches (predictive, agile, hybrid)
+  - Governance framework establishment
+  - Domain distribution: People 42%, Process 35%, Business Environment 23%
+
+- **23b – The Planning Process Group**
+  - Scope definition and WBS development (100% rule, decomposition)
+  - Schedule development and network analysis (CPM, critical chain)
+  - Cost estimation and budget preparation (three-point, reserves)
+  - Quality planning and assurance methods (cost of quality, QA vs QC)
+  - Resource planning and acquisition (RBS, optimization techniques)
+  - Communications planning (requirements analysis, technology selection)
+  - Risk management planning (identification, qualitative/quantitative analysis)
+  - Procurement planning (make-or-buy, contract types)
+  - Stakeholder engagement planning (engagement assessment matrix)
+  - Change management planning (ADKAR, organizational readiness)
+  - Domain distribution: People 28%, Process 52%, Business Environment 20%
+
+- **23c – Executing and Monitoring Process Groups**
+  - **Executing Processes**:
+    - Directing and managing project work
+    - Managing quality assurance and team development
+    - Managing communications and stakeholder engagement
+    - Conducting procurements and managing contracts
+  - **Monitoring and Controlling Processes**:
+    - Monitoring and controlling project work
+    - Integrated change control and configuration management
+    - Scope, schedule, and cost control (EVM, variance analysis)
+    - Quality control and risk monitoring
+    - Procurement control and stakeholder engagement monitoring
+  - Integration between executing and monitoring (real-time adjustment)
+  - Domain distribution: People 35%, Process 45%, Business Environment 20%
+
+- **23d – The Closing Process Group**
+  - Closing projects or phases (normal vs. premature closure)
+  - Procurement closure and contract settlement
+  - Lessons learned capture and organizational learning
+  - Benefits transition and measurement
+  - Continuous improvement and best practices documentation
+  - Sarah's closure examples across her three projects
+  - Domain distribution: People 40%, Process 35%, Business Environment 25%
+
+- **23e – ITTOs Reference Guide**
+  - Comprehensive ITTO mapping for all 49 processes
+  - Organization by Process Group and Knowledge Area
+  - Common ITTO patterns and relationships
+  - Key integration points between processes
+  - Memorization tips and practical application guidance
+  - Process Group flow and interdependencies
+
+- **23f – Knowledge Check**
+  - 15 scenario-based practice questions
+  - Domain distribution and mapping challenges
+  - Process Group application scenarios
+  - ITTO understanding exercises
+  - Answer key with detailed explanations
+  - Study tips and next steps
+
 ---
 
 ## Appendices and Additional Resources
