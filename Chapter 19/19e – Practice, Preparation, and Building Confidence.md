@@ -63,6 +63,8 @@ Effective PMP preparation has three phases:
 - Build confidence through measurable improvement
 - Develop mental resilience under pressure
 
+If you use AI tools as part of your study routine, treat them as **tutors and assistants**, not as answer engines. Use them to rephrase concepts, generate practice scenarios, or spot gaps in your explanations—then confirm everything against PMI-aligned sources and remember that no AI will be available in the real exam.
+
 **The transition from Phase 2 to Phase 3 is critical.** Don't expect the techniques to work automatically on exam day. Practice them deliberately and repeatedly until they're second nature.
 
 ---
@@ -512,4 +514,3 @@ Either way, you're advancing as a project management professional. That's what m
 ---
 
 **You're ready. Trust your preparation. Execute your plan. Pass your exam.**
-

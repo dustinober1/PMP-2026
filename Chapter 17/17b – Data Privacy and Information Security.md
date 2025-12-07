@@ -56,5 +56,5 @@ C) Ask the client for permission to share their data with the public AI model.
 D) Purchase the premium version of the tool immediately without further review.
 
 **Solution**: **B** is the best answer.
-*   **Why**: Project managers are responsible for protecting stakeholder information. Uploading confidential client data to a public model is a security breach and a violation of confidentiality. Updating the working agreement (B) reinforces the governance standard.
-*   **Why not others?**: (A) prioritizes speed over security (reckless). (C) is unprofessional and unlikely to be granted. (D) might be a solution eventually, but requires a security review first, not an impulse purchase.
+*   **Why**: Project managers are responsible for protecting stakeholder information. Uploading confidential client data to a public model is a security breach and a violation of confidentiality. Updating the working agreement (B) reinforces the governance standard and sets clear guardrails for AI use.
+*   **Why not others?**: (A) prioritizes speed over security (reckless). (C) is unprofessional and unlikely to be granted. (D) might be a solution eventually, but requires a security and privacy review first, not an impulse purchase.

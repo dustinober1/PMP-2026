@@ -1,7 +1,7 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-- `Chapter 0`–`Chapter 20`, `Chapter 98`, and `Chapter 99` contain the book content as Markdown.
+- `Chapter 0`–`Chapter 21`, `Chapter 98`, and `Chapter 99` contain the book content as Markdown.
 - Each chapter folder holds one or more `.md` files named with a numeric prefix and a descriptive title (for example, `6e – Motivation and Engagement.md`).
 - Add new content to the appropriate chapter folder; only place repository-wide documents (like this file) in the root.
 
@@ -30,4 +30,3 @@
 - Keep the tone instructional, practical, and exam-focused, emphasizing how concepts apply to PMP 2026 scenarios.
 - Prefer concrete, exam-relevant examples over generic anecdotes, and align new terminology with PMI standards used elsewhere in the book.
 - When introducing a concept that appears in multiple chapters, check for existing definitions and cross-reference them for consistency.
-
