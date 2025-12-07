@@ -298,6 +298,263 @@ Treating business cases as authorization documents rather than living references
 **Mistake 5: Mismatching Detail to Uncertainty**
 Creating detailed financial projections for uncertain initiatives or lightweight justification for major capital investments.
 
+---
+
+## Strategy Analysis: Understanding the Business Context
+
+Strategy analysis provides the foundation for creating strong business cases. It helps project managers understand not just what the project should deliver, but why it matters and how it creates value in the broader organizational context.
+
+### Current State Analysis
+
+Before defining solutions, you must understand the current state deeply. Current state analysis reveals the real problems, constraints, and opportunities that drive project need.
+
+#### Key Current State Analysis Techniques
+
+**SWOT Analysis**
+- **Strengths**: Current capabilities that can be leveraged
+- **Weaknesses**: Current problems or gaps to address
+- **Opportunities**: External factors the project can leverage
+- **Threats**: External risks the project must address or mitigate
+
+**Sarah's Expense System SWOT:**
+- **Strengths**: Finance team experienced, existing processes documented
+- **Weaknesses**: Manual processes, poor user experience, audit risks
+- **Opportunities**: New mobile technology, cloud platforms available
+- **Threats**: Competitor efficiency improvements, regulatory changes
+
+**Value Stream Mapping**
+Visualizing end-to-end processes to identify waste, delays, and improvement opportunities.
+
+**Sarah's Current State Value Stream (Expense Processing):**
+```
+Employee submits (5 min) → Manager approval (2 days) → Finance review (3 days)
+→ Data entry (2 hours) → Payment processing (1 day) → Reconciliation (weekly)
+Total lead time: 14 days
+Value-added time: 7 minutes
+Waste: 99.7% of total time
+```
+
+**Root Cause Analysis**
+Understanding the underlying causes of problems rather than addressing symptoms.
+
+**5 Whys Example:**
+Problem: Expense processing takes 14 days
+1. Why? → Manual approvals and data entry
+2. Why? → Paper-based system
+3. Why? → No automated workflow system
+4. Why? → Previous attempts at automation failed due to resistance
+5. Why? → Poor user experience in proposed solutions
+
+**Current State Assessment Questions:**
+- What are the actual processes, not just documented ones?
+- What are the real pain points for stakeholders?
+- What constraints limit improvement (technology, policy, culture)?
+- What risks exist in the current state?
+- What capabilities can we leverage?
+- Why haven't these problems been solved before?
+
+### Future State Definition
+
+Future state defines what success looks like after the project. It should be ambitious yet achievable, and clearly connected to business objectives.
+
+#### Future State Definition Techniques
+
+**Vision Statement**
+A compelling, concise description of the desired future state.
+
+**Example**: "Employees submit expenses in under 2 minutes from anywhere, with automatic approval routing and real-time visibility for managers. Finance team focuses on analysis instead of data entry."
+
+**Target Operating Model**
+Defines how the organization will operate after the change, including:
+- Processes
+- Organization structure
+- Technology systems
+- Metrics and governance
+
+**Gap Analysis**
+Identifies the differences between current and future states:
+
+| Dimension | Current State | Future State | Gap |
+|------------|---------------|--------------|-----|
+| Processing Time | 14 days | 2 days | 12 days reduction |
+| User Satisfaction | 2.1/5 | 4.5/5 | 2.4 point improvement |
+| Manual Effort | 40 hours/month | 5 hours/month | 35 hours reduction |
+| Audit Risk | High (paper) | Low (digital) | Risk reduction |
+| Mobility | None | Full mobile | New capability |
+
+**Success Metrics Definition**
+Clear, measurable criteria for success:
+
+**Financial Metrics:**
+- ROI, NPV, payback period
+- Cost savings
+- Revenue increase
+
+**Operational Metrics:**
+- Process cycle time
+- Error rate reduction
+- Resource utilization
+
+**Customer/Stakeholder Metrics:**
+- Satisfaction scores
+- Adoption rates
+- Net Promoter Score
+
+**Risk Metrics:**
+- Compliance level
+- Audit findings
+- Security incidents
+
+### Business Context Analysis
+
+Understanding the broader business context ensures the project aligns with organizational strategy and external environment.
+
+#### Environmental Analysis
+
+**PESTLE Analysis**
+Examines external factors that may impact the project:
+
+- **Political**: Regulatory changes, political stability
+- **Economic**: Market conditions, economic trends
+- **Social**: Cultural shifts, demographic changes
+- **Technological**: Emerging technologies, digital trends
+- **Legal**: Compliance requirements, legal changes
+- **Environmental**: Sustainability, environmental regulations
+
+**Sarah's PESTLE Analysis (Expense System):**
+- **Political**: Increasing financial regulation
+- **Economic**: Pressure to reduce operational costs
+- **Social**: Mobile-first expectations from employees
+- **Technological**: Cloud SaaS solutions mature and secure
+- **Legal**: Data retention requirements changing
+- **Environmental**: Push for paperless operations
+
+**Competitive Analysis**
+Understanding how competitors or similar organizations address similar challenges:
+
+- What solutions do they use?
+- What performance do they achieve?
+- What can we learn from their experience?
+- How can we differentiate?
+
+**Industry Benchmarking**
+Comparing current performance to industry standards:
+
+| Metric | Current | Industry Average | Best in Class |
+|--------|---------|------------------|---------------|
+| Expense Processing Time | 14 days | 5 days | 1 day |
+| Cost per Transaction | $12 | $5 | $2 |
+| User Satisfaction | 2.1/5 | 3.5/5 | 4.7/5 |
+| Audit Findings | 3/year | 1/year | 0/year |
+
+### Stakeholder Impact Analysis
+
+Understanding how the change affects different stakeholders helps build support and identify resistance.
+
+**Stakeholder Impact Matrix:**
+
+| Stakeholder | Current State Pain | Future State Benefit | Change Impact |
+|-------------|-------------------|---------------------|---------------|
+| Employees | 14-day wait, paper receipts | 2-minute mobile submission | High |
+| Finance Team | 40 hours manual work | 5 hours oversight | High |
+| Managers | Delayed visibility | Real-time approvals | Medium |
+| IT Department | Legacy system maintenance | Cloud vendor management | Medium |
+| Auditors | Paper trail | Digital audit log | Positive |
+| Executives | Delayed financial close | Faster reporting | Positive |
+
+**Change Readiness Assessment:**
+Evaluate organization's readiness for change:
+- Leadership support
+- Cultural readiness
+- Capability gaps
+- Resource availability
+- Risk tolerance
+
+### Risk Analysis in Business Context
+
+Strategy analysis must include risks that could prevent the project from delivering value.
+
+**Business Risk Categories:**
+
+**Market Risks:**
+- Changing customer needs
+- Competitive responses
+- Market acceptance
+
+**Operational Risks:**
+- Implementation complexity
+- Resource availability
+- Process disruption
+
+**Financial Risks:**
+- Cost overruns
+- Benefits not materializing
+- ROI not achieved
+
+**Strategic Risks:**
+- Misalignment with strategy
+- Strategy changes during project
+- Wrong assumptions about future
+
+**Sarah's Risk Analysis (Expense System):**
+
+| Risk | Probability | Impact | Mitigation |
+|------|-------------|--------|------------|
+| User adoption low | Medium | High | Involve users early, pilot program, training |
+| Integration issues | Medium | Medium | Technical discovery, vendor evaluation |
+| Benefits not achieved | Low | High | Regular benefit tracking, mid-project adjustments |
+| Security concerns | Low | High | Security review, compliance validation |
+| Vendor viability | Low | Medium | Established vendor, contract protections |
+
+### Strategy Analysis Process
+
+**Step 1: Understand Current State**
+- Document actual processes and performance
+- Identify root causes of problems
+- Assess current capabilities and constraints
+
+**Step 2: Define Future State**
+- Create compelling vision
+- Define success metrics
+- Identify gaps to close
+
+**Step 3: Analyze Business Context**
+- Conduct PESTLE analysis
+- Benchmark against industry
+- Analyze competitive landscape
+
+**Step 4: Assess Stakeholder Impact**
+- Map stakeholder impacts
+- Assess change readiness
+- Plan engagement strategy
+
+**Step 5: Analyze Risks**
+- Identify business risks
+- Assess probability and impact
+- Plan mitigation strategies
+
+**Step 6: Synthesize Findings**
+- Combine all analysis into clear problem statement
+- Develop solution options
+- Create recommendation
+
+### Integration with Business Case Development
+
+Strategy analysis directly feeds the business case:
+
+- **Problem Statement**: Comes from current state analysis
+- **Benefits**: Quantified through gap analysis
+- **Risks**: Identified in risk analysis
+- **Assumptions**: Validated through context analysis
+- **Success Criteria**: Defined in future state
+
+Strong strategy analysis creates business cases that are:
+- Grounded in reality
+- Aligned with strategy
+- Backed by data
+- Resilient to risks
+- Clear on success criteria
+
 **Prevention**: Match business case detail to project size, uncertainty, and delivery approach. Predictive projects need detail. Agile projects need boundaries and themes.
 
 ## Key Takeaways

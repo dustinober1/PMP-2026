@@ -9,6 +9,8 @@ By the end of this section, you will be able to:
 - Establish and manage scope baselines across different delivery approaches
 - Prevent and manage scope creep using PMI-aligned techniques
 - Explain how scope management differs radically across predictive, agile, and hybrid projects
+- Apply requirements architecture concepts to organize requirements effectively
+- Create requirements allocation matrices to trace requirements to deliverables
 
 ---
 
@@ -443,6 +445,244 @@ Sarah's process:
 - **Misalignment:** Team decisions conflict with program scope
 - **Governance overhead:** Excessive control stifles team agility
 - **Confusion:** Stakeholders unclear on what's baselined vs. adaptive
+
+---
+
+## Requirements Architecture: Organizing Requirements for Success
+
+Requirements architecture provides a framework for organizing, structuring, and relating requirements. Just as buildings need architectural blueprints, complex projects need requirements architecture to ensure coherence, completeness, and alignment.
+
+### What is Requirements Architecture?
+
+**Definition:** The structure and organization of requirements that shows how they relate to each other and to business objectives.
+
+**Purpose:**
+- Ensure complete coverage of business needs
+- Identify gaps and overlaps in requirements
+- Facilitate traceability and impact analysis
+- Support communication and understanding
+- Enable effective prioritization and decision-making
+
+### Requirements Architecture Components
+
+#### 1. Requirements Levels
+Requirements exist at different levels of detail and abstraction:
+
+**Business Requirements (Level 1):**
+- High-level organizational needs and objectives
+- Answer "Why" the project exists
+- Example: "Reduce operational costs by 20%"
+
+**Stakeholder Requirements (Level 2):**
+- Needs of specific stakeholder groups
+- Translate business needs into stakeholder terms
+- Example: "Finance team needs automated expense processing"
+
+**Solution Requirements (Level 3):**
+What the solution must do:
+- **Functional:** Capabilities and features
+- **Non-functional:** Quality attributes (performance, security, usability)
+
+**Transition Requirements (Level 4):**
+- Temporary capabilities needed for implementation
+- Example: "Data migration from legacy system"
+
+#### 2. Requirements Categories
+Group requirements by type or domain:
+
+**Functional Categories:**
+- User management
+- Data processing
+- Reporting
+- Integration
+- Security
+
+**Non-functional Categories:**
+- Performance
+- Availability
+- Security
+- Usability
+- Maintainability
+- Scalability
+
+**Business Categories:**
+- Regulatory compliance
+- User experience
+- Operational efficiency
+- Cost reduction
+
+#### 3. Requirements Relationships
+Requirements rarely exist in isolation. Key relationship types:
+
+**Decomposition:**
+- Parent-child relationships (epic to features to stories)
+- Example: Expense management → Submit expense → Photograph receipt
+
+**Dependency:**
+- Prerequisite relationships
+- Example: User authentication required before expense submission
+
+**Conflict:**
+- Mutually exclusive requirements
+- Example: Maximum security vs. maximum usability
+
+**Derivation:**
+- How requirements derive from higher-level requirements
+- Trace business requirement down to implementation details
+
+**Association:**
+- Related but not dependent requirements
+- Example: User interface and reporting requirements
+
+### Sarah's Requirements Architecture Example
+
+**Office Renovation Requirements Architecture:**
+
+```
+Business Requirements (Level 1)
+├── BR-001: Increase collaborative space by 40%
+├── BR-002: Reduce energy costs by 25%
+├── BR-003: Comply with accessibility regulations
+└── BR-004: Support hybrid work model
+
+Stakeholder Requirements (Level 2)
+├── Facilities: FM-001: Maintain building systems
+├── IT: IT-001: Support 500 concurrent users
+├── HR: HR-001: Provide diverse workspace types
+├── Safety: SF-001: Exceed safety code requirements
+└── Finance: FN-001: Minimize operational disruption
+
+Solution Requirements (Level 3)
+├── Functional
+│   ├── FS-001: 10 collaboration zones
+│   ├── FS-002: 120 workstations
+│   ├── FS-003: 4 conference rooms
+│   ├── FS-004: Energy-efficient systems
+│   └── FS-005: Accessibility features
+└── Non-functional
+    ├── NFS-001: Energy performance (LEED Silver)
+    ├── NFS-002: Acoustic performance (<45dB)
+    ├── NFS-003: Air quality (ASHRAE standards)
+    └── NFS-004: Network uptime (99.9%)
+
+Transition Requirements (Level 4)
+├── TR-001: Phased occupancy plan
+├── TR-002: Temporary office space
+├── TR-003: Systems migration
+└── TR-004: Staff training
+```
+
+### Requirements Allocation
+
+Requirements allocation assigns requirements to solution components, releases, or teams.
+
+**Allocation Dimensions:**
+
+**By Component:**
+- Which system/module implements each requirement
+- Helps identify system boundaries and interfaces
+- Example: User authentication allocated to identity management system
+
+**By Release/Phase:**
+- Which requirements in which release
+- Supports incremental delivery
+- Example: Basic reporting in Phase 1, advanced analytics in Phase 2
+
+**By Team:**
+- Which team implements which requirements
+- Important for large projects with multiple teams
+- Example: Frontend team handles UI requirements, backend team handles API requirements
+
+**By Priority:**
+- Must/should/could/won't allocation
+- Guides implementation sequencing
+- Example: Must-haves allocated to MVP, should-haves to later releases
+
+### Requirements Allocation Matrix
+
+A requirements allocation matrix tracks where each requirement is implemented:
+
+| Requirement ID | Description | Component | Release | Team | Priority |
+|----------------|-------------|-----------|---------|------|----------|
+| BR-001 | Increase collaborative space | Floor Plan | Phase 1 | Architecture | Must |
+| BR-002 | Reduce energy costs | HVAC/Lighting | Phase 1 | MEP | Must |
+| IT-001 | Support 500 users | Network Infrastructure | Phase 1 | IT | Must |
+| FS-006 | Video conferencing | AV Systems | Phase 2 | AV Team | Should |
+| NFS-002 | Acoustic performance | Interior Design | Phase 2 | Interior | Should |
+
+### Benefits of Requirements Architecture
+
+**1. Completeness:**
+- Systematic approach ensures all aspects covered
+- Identifies gaps in requirements coverage
+- Reduces risk of missing requirements
+
+**2. Consistency:**
+- Ensures requirements don't contradict
+- Maintains alignment across levels
+- Supports coherent solution design
+
+**3. Traceability:**
+- Clear links from business to implementation
+- Facilitates impact analysis
+- Supports compliance and audit
+
+**4. Communication:**
+- Visual representation aids understanding
+- Provides common language for stakeholders
+- Supports discussion and decision-making
+
+**5. Management:**
+- Supports requirements prioritization
+- Facilitates scope management
+- Enables progress tracking
+
+### Creating Requirements Architecture
+
+**Step 1: Gather and Categorize**
+- Collect all requirements from elicitation activities
+- Categorize by type, level, and domain
+- Remove duplicates and consolidate similar items
+
+**Step 2: Define Hierarchy**
+- Establish requirement levels
+- Create decomposition structure
+- Define parent-child relationships
+
+**Step 3: Identify Relationships**
+- Map dependencies between requirements
+- Identify conflicts and constraints
+- Document derivation links
+
+**Step 4: Allocate Requirements**
+- Assign to components/releases/teams
+- Create allocation matrix
+- Validate allocation completeness
+
+**Step 5: Review and Refine**
+- Validate with stakeholders
+- Check for gaps and overlaps
+- Ensure alignment with business objectives
+
+### Tools for Requirements Architecture
+
+**Visualization Tools:**
+- Hierarchy charts (shows levels and relationships)
+- Mind maps (explore requirement connections)
+- Matrix diagrams (show allocations and dependencies)
+- Flowcharts (show process relationships)
+
+**Management Tools:**
+- Requirements management software (Jira, Azure DevOps)
+- Modeling tools (Enterprise Architect, Visio)
+- Spreadsheets (for smaller projects)
+- Wikis (for collaborative documentation)
+
+**Agile Approaches:**
+- Story maps (visualize user journey)
+- Impact mapping (connect features to goals)
+- Feature trees (hierarchical feature breakdown)
+- Roadmap mapping (plan releases)
 
 ---
 
