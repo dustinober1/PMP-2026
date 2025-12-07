@@ -2,6 +2,17 @@
 
 This file provides context and guidance for Gemini when working with the PMP-2026 repository.
 
+## Recent Updates
+
+### December 7, 2024 - EVM Compliance Enhancement
+Updated content to comply with the Standard for Earned Value Management:
+- **Chapter 14a**: Added EVM organization structure, Control Account Manager roles, IBR process, and measurement techniques
+- **Chapter 14b**: Enhanced with EVM variance analysis, VAR reporting, reserve analysis, and integrated change control
+- **Chapter 11**: Added Performance Measurement Baseline (PMB) development process and EVM planning requirements
+- **Appendix A**: Added TCPI, SV(t), SPI(t), Management Reserve, and variance threshold formulas
+- **Chapter 14f**: Created comprehensive knowledge check with EVM-focused practice questions
+- **Cross-references**: Added links between planning, tracking, and control sections for integrated EVM coverage
+
 ## Project Overview
 
 This is a **PMP Exam Study Guide** for the **July 2026** exam update. The guide is a comprehensive Markdown-based educational resource designed to help project managers prepare for the PMP certification exam, covering the three domains: **People (33%)**, **Process (41%)**, and **Business Environment (26%)**.

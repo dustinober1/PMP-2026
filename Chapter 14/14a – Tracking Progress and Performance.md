@@ -152,6 +152,126 @@ Sarah used this analysis to justify requesting additional funding and negotiatin
 
 ---
 
+## EVM Organization and Implementation Structure
+
+For EVM to be effective, it requires more than just formulas—it needs proper organizational structure and clearly defined roles. The Standard for Earned Value Management specifies several key organizational components.
+
+### EVM Organizational Structure
+
+**Control Account (CA)**
+- A management control point where scope, budget, and schedule are integrated and compared to earned value
+- Located at selected points in the Work Breakdown Structure (WBS)
+- Typically represents major project phases or deliverables
+- Each control account has a designated Control Account Manager
+
+**Control Account Manager (CAM)**
+- The individual responsible for managing a control account
+- Must have authority to commit resources within the control account budget
+- Responsibilities include:
+  - Planning and budgeting the control account scope
+  - Authorizing work within the control account
+  - Measuring performance and reporting status
+  - Taking corrective action when variances occur
+
+**Work Package**
+- The lowest level of the WBS where cost and schedule are reliably estimated
+- Delivers a tangible result or milestone
+- Short duration (typically 2-4 weeks) for accurate progress measurement
+- Has clear start and end dates, budget, and responsible person
+
+**Planning Package**
+- A WBS component below the control account with known scope but undefined schedule
+- Used when detailed planning cannot be completed early in the project
+- Must be converted to work packages before work begins
+- Maintains budget visibility while allowing planning to mature
+
+### Organizational Breakdown Structure (OBS)
+
+The OBS provides a hierarchical, organization-oriented view of the project. It aligns with the WBS to create responsibility assignments:
+
+```
+WBS (What)                    OBS (Who)
+├── 1.0 Foundation           ├── Project Manager
+│   ├── 1.1 Excavation       │   ├── Construction Manager
+│   └── 1.2 Concrete        │   └── Site Supervisor
+├── 2.0 Structure           └── Engineering Lead
+│   ├── 2.1 Framing          └── Software Architect
+│   └── 2.2 Roofing
+└── 3.0 Systems
+    ├── 3.1 Electrical
+    └── 3.2 HVAC
+```
+
+### Responsibility Assignment Matrix (RAM)
+
+The RAM (also called RACI chart) connects the WBS and OBS to define roles:
+
+| WBS Code | Work Package | Responsible | Accountable | Consult | Inform |
+|----------|--------------|-------------|-------------|---------|--------|
+| 1.1      | Excavation   | Site Sup   | Constr Mgr  | Safety  | Client |
+| 2.1      | Framing      | Carpentry  | Site Sup    | Engineer| PMO    |
+
+### Integrated Baseline Review (IBR)
+
+The IBR is a formal process to validate the Performance Measurement Baseline (PMB):
+
+**Purpose**:
+- Ensure the PMB is realistic, complete, and achievable
+- Validate that all stakeholders understand their responsibilities
+- Confirm that the baseline includes all scope, schedule, and budget requirements
+
+**IBR Process**:
+1. **Preparation**: Gather baseline documents, WBS, schedules, and budgets
+2. **Review Session**: Walk through each control account with key stakeholders
+3. **Validation**: Confirm scope completeness, schedule logic, and cost reasonableness
+4. **Documentation**: Record agreements, assumptions, and action items
+5. **Approval**: Formal baseline sign-off by all key stakeholders
+
+**Sarah's IBR Experience**:
+Before starting the Office Renovation project, Sarah conducted an IBR with:
+- The general contractor (for construction work packages)
+- The IT department (for network and systems work)
+- The facilities manager (for final acceptance criteria)
+- The CFO (for budget validation)
+
+During the IBR, they discovered that the original electrical budget didn't account for new code requirements. This adjustment added $75,000 to the baseline but prevented a $200,000 change order later.
+
+### EVM Measurement Techniques
+
+Different methods for measuring earned value based on work package characteristics:
+
+**Fixed Formula**
+- Pre-defined percentages earned when work starts/finishes
+- Example: 0% until start, 50% when begun, 100% when complete
+- Best for: Discrete tasks with clear start/end points
+
+**Weighted Milestone**
+- Value assigned to achieving specific milestones
+- Example: Requirements complete = 30%, Design approved = 50%, Testing complete = 100%
+- Best for: Long-duration work packages with meaningful interim milestones
+
+**Percent Complete**
+- Subjective assessment by responsible person
+- Requires regular validation and audit
+- Best for: Effort-driven work where progress is difficult to quantify
+
+**Apportioned Effort**
+- Earned value based on related discrete work
+- Example: Inspection effort tied to construction progress
+- Best for: Support activities that vary with main work
+
+**Level of Effort (LOE)**
+- Earned value equals planned value over time
+- No variance measurement possible
+- Best for: Project management, coordination, administrative tasks
+
+**Example**: On the Office Renovation project:
+- Electrical rough-in: Fixed formula (0/50/100)
+- Interior finishes: Weighted milestones (drywall 25%, paint 50%, trim 75%, complete 100%)
+- Project management: Level of effort
+
+---
+
 ## Tracking Approaches Across Different Contexts
 
 ### Predictive Projects: Baseline-Driven Tracking

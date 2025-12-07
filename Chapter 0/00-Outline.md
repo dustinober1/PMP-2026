@@ -188,15 +188,43 @@
 - Handling defects and rework
 
 ### Chapter 14 – Monitoring, Controlling, and Closing
-- Performance measurement and reporting
-  - Trends, variance analysis, burn-down/burn-up
-- Forecasting outcomes and recommending actions
-- Managing scope, schedule, and cost changes
-- Benefits tracking during the project
-- Closing projects or phases
-  - Formal acceptance
-  - Knowledge transfer and lessons learned
-  - Transitioning to operations
+- **14a – Tracking Progress and Performance**
+  - Earned Value Management (EVM) fundamentals and organization structure
+  - Control Accounts, Work Packages, and Planning Packages
+  - Integrated Baseline Review (IBR) process
+  - Performance metrics for predictive, agile, and hybrid approaches
+  - Leading vs. lagging indicators and real-time tracking
+
+- **14b – Schedule and Cost Control**
+  - EVM variance analysis and thresholds
+  - To-Complete Performance Index (TCPI) and forecasting
+  - Schedule compression techniques (crashing and fast-tracking)
+  - Integrated change control for EVM
+  - Management Reserve vs. Contingency Reserve
+
+- **14c – Change Control and Configuration Management**
+  - Change classification (Class I, II, III)
+  - Configuration management across delivery approaches
+  - Change control board composition and processes
+  - Impact analysis and baseline maintenance
+
+- **14d – Stakeholder Management During Execution**
+  - Adapting communication strategies
+  - Managing expectations during variance
+  - Escalation management
+  - Sustaining engagement throughout project lifecycle
+
+- **14e – Project Closure and Transition**
+  - Administrative and contractual closure
+  - Lessons learned capture and sharing
+  - Benefits realization measurement
+  - Transition to operations and sustainment
+
+- **14f – Knowledge Check**
+  - EVM calculation scenarios
+  - Change management situations
+  - Performance analysis questions
+  - Integration across monitoring concepts
 
 ---
 

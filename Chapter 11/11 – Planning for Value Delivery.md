@@ -42,6 +42,40 @@ These seven tasks collectively require you to develop a comprehensive project pl
 
 This chapter emphasizes that planning is not a one-time event but an ongoing conversation that adapts as the project progresses. Effective planning creates clarity, manages stakeholder expectations, and provides a baseline against which actual performance is measured.
 
+### The Performance Measurement Baseline (PMB)
+
+The Performance Measurement Baseline is the core concept that integrates scope, schedule, and cost for performance measurement. It's essential for earned value management and project control.
+
+**PMB Components**:
+1. **Scope Baseline**: Project scope statement, WBS, and WBS dictionary
+2. **Schedule Baseline**: The approved schedule model with planned dates
+3. **Cost Baseline**: The time-phased budget authorized for the project
+
+**PMB Development Process**:
+1. **Create WBS**: Decompose scope into manageable work packages (see 11c)
+2. **Develop Schedule**: Sequence activities and determine planned dates (see 11c)
+3. **Estimate Costs**: Determine costs for each work package (see 11d)
+4. **Time-Phase Budgets**: Assign costs to time periods to create cash flow
+5. **Reserve Analysis**: Add contingency and management reserves
+6. **Baseline Integration**: Ensure all three components are aligned
+7. **Formal Approval**: Obtain stakeholder sign-off on the integrated baseline
+
+**EVM Planning Requirements** (from EVM Standard):
+- **Control Account Planning**: Establish control accounts at appropriate WBS levels
+- **Work Package Definition**: Create detailed work packages with measurable outcomes
+- **Responsibility Assignment**: Assign Control Account Managers and work package owners
+- **Measurement Methods**: Define how progress will be measured (fixed formula, milestones, etc.)
+- **Reporting Periods**: Establish when performance will be measured and reported
+
+**Sarah's PMB Experience**:
+For the Office Renovation project, Sarah's PMB included:
+- **Scope**: 75 work packages organized into 8 control accounts
+- **Schedule**: 20-week timeline with 5 major milestones
+- **Cost**: $500,000 budget with $30,000 contingency and $20,000 management reserve
+- **Measurement**: Fixed formula (0/50/100) for construction, weighted milestones for systems
+
+The integrated PMB enabled Sarah to track earned value and provide stakeholders with accurate forecasts throughout the project. (For EVM implementation and tracking, see [Chapter 14a](14a%20–%20Tracking%20Progress%20and%20Performance.md))
+
 ---
 
 ## Introduction: Planning as an Ongoing Conversation

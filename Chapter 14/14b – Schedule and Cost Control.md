@@ -26,6 +26,96 @@ This section explores the tools and techniques for bringing projects back on tra
 
 ---
 
+## Earned Value Variance Analysis
+
+EVM provides a standardized framework for analyzing project performance and determining appropriate responses. The Standard for Earned Value Management defines specific variance analysis thresholds and reporting requirements. (For EVM fundamentals and organization structure, see [Chapter 14a](14a%20–%20Tracking%20Progress%20and%20Performance.md#evm-organization-and-implementation-structure))
+
+### Variance Analysis Reporting (VAR)
+
+The VAR process provides structured monthly analysis of project performance:
+
+**VAR Components**:
+1. **Performance Measurement**: Current PV, EV, AC, and derived metrics
+2. **Variance Analysis**: Explanation of schedule and cost variances
+3. **Trend Analysis**: Performance over multiple reporting periods
+4. **Forecast**: Updated EAC and completion projections
+5. **Management Actions**: Corrective actions taken or planned
+
+**Variance Thresholds** (from EVM Standard Appendix A):
+- **Schedule Variance**: When SV exceeds ±10% of PV or when cumulative SPI is outside 0.95-1.05 range
+- **Cost Variance**: When CV exceeds ±10% of EV or when cumulative CPI is outside 0.95-1.05 range
+- **Control Limits**: Typically set at ±2σ (95% confidence level)
+- **Trend Requirement**: Three consecutive months of variance requires formal analysis
+
+### Analyzing Reserve Usage
+
+**Contingency Reserve Analysis**:
+- Track actual vs. planned contingency usage
+- Variance in contingency consumption may indicate:
+  - Poor risk identification (using too much)
+  - Over-conservative planning (using too little)
+  - Changed project conditions
+
+**Management Reserve Analysis**:
+- Document all MR requests and approvals
+- Analyze patterns of MR usage:
+  - Frequent MR use may indicate inadequate planning
+  - No MR use may suggest overly conservative estimates
+
+### EVM-Based Decision Framework
+
+**Step 1: Calculate Current Status**
+```
+Given: BAC = $500,000, PV = $300,000, EV = $270,000, AC = $310,000
+Calculate:
+- SV = EV - PV = -$30,000 (behind schedule)
+- CV = EV - AC = -$40,000 (over budget)
+- SPI = EV/PV = 0.90
+- CPI = EV/AC = 0.87
+- TCPI = (BAC-EV)/(BAC-AC) = 1.17
+```
+
+**Step 2: Analyze Variances**
+- Schedule variance: -$30K exceeds 10% threshold ($30K) → requires analysis
+- Cost variance: -$40K exceeds 10% threshold ($27K) → requires analysis
+- Both indices are below 0.90 threshold → trigger management attention
+
+**Step 3: Determine Root Causes**
+- Schedule delay: Material shortages and subcontractor availability
+- Cost overrun: Overtime premiums and expedited shipping
+
+**Step 4: Forecast Outcomes**
+```
+EAC (CPI-based) = BAC/CPI = $500,000/0.87 = $574,713
+VAC = BAC - EAC = -$74,713
+```
+
+**Step 5: Evaluate Options**
+1. **Accept variance**: Request baseline change for $74,713 overrun
+2. **Recover performance**: TCPI of 1.17 may be achievable with aggressive cost control
+3. **Partial recovery**: Negotiate compromised target and partial baseline change
+
+### Integrated Change Control for EVM
+
+When changes occur, follow this process:
+
+1. **Change Identification**: Document the change request
+2. **Impact Analysis**: Assess effects on scope, schedule, and cost
+3. **EVM Recalculation**: Update baseline values:
+   - New BAC if scope changes
+   - Adjusted PV if schedule changes
+   - Revised control accounts
+4. **Approval**: Obtain appropriate authorization level
+5. **Baseline Update**: Modify the Performance Measurement Baseline
+6. **Communication**: Update all stakeholders of new baseline
+
+**Change Classification** (per EVM Standard):
+- **Class I**: Major scope changes affecting project objectives → requires sponsor approval
+- **Class II**: Baseline adjustments within control accounts → requires CAM approval
+- **Class III**: Internal reallocations within work packages → requires PM approval
+
+---
+
 ## Understanding Variance: Signal vs. Noise
 
 Not all variance requires corrective action. Effective control distinguishes between:
