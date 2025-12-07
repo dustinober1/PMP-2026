@@ -8,6 +8,8 @@ By the end of this section, you will be able to:
 - Explain how requirements management differs across predictive, agile, and hybrid approaches
 - Manage requirements traceability and change throughout the project lifecycle
 - Address stakeholder disagreement on requirements using PMI-aligned approaches
+- Apply the Business Analysis Core Concept Model (BACCM) to requirements work
+- Distinguish between project management and business analysis responsibilities
 
 ---
 
@@ -28,6 +30,103 @@ But requirements live in a paradox:
 - Requirements change as the business environment evolves
 
 The art of requirements management is balancing clarity with flexibility, matching your approach to your project context.
+
+---
+
+## Business Analysis Core Concept Model (BACCM) for Requirements
+
+The Business Analysis Core Concept Model provides a framework for thinking about requirements within their broader business context. Understanding these six interrelated concepts helps you ask better questions and uncover the real needs behind stakeholder requests.
+
+### The Six Core Concepts in Requirements Context
+
+**1. Change**: Projects exist to create change. Requirements define what that change will be.
+- *Ask*: What specific change does this requirement enable?
+
+**2. Need**: Requirements should address real business needs.
+- *Ask*: What problem does this requirement solve? What opportunity does it capture?
+
+**3. Solution**: Requirements describe the solution that meets the need.
+- *Ask*: Is this requirement about what the solution does or how it does it?
+
+**4. Value**: Every requirement should deliver measurable value.
+- *Ask*: How will we know this requirement delivered value? What's the ROI?
+
+**5. Stakeholder**: Requirements come from and affect stakeholders.
+- *Ask*: Who needs this? Who will be impacted if we implement/don't implement it?
+
+**6. Context**: Requirements exist within organizational constraints and environment.
+- *Ask*: What constraints does this requirement work within? What context affects it?
+
+### Applying BACCM to Requirements Work
+
+When a stakeholder requests a feature, use BACCM to dig deeper:
+
+**Initial Request**: "We need a mobile app for expense reports"
+
+**BACCM Analysis**:
+- **Need**: Faster expense processing, reduced paper, better compliance
+- **Stakeholders**: Employees (convenience), Finance (efficiency), Audit (compliance)
+- **Value**: 50% faster processing, 80% reduction in paper, improved audit scores
+- **Context**: Existing ERP system, mobile-first strategy, security requirements
+- **Change**: Transform from paper-based to mobile-first expense management
+- **Solution**: Could be mobile app, web app, or improved process—requirement reveals need, not solution
+
+This analysis reveals that "mobile app" might be jumping to a solution. The real need is faster, more efficient expense processing.
+
+---
+
+## Project Management vs. Business Analysis in Requirements
+
+While project managers often lead requirements work, it's important to understand the distinction between PM and BA responsibilities in requirements management.
+
+### Project Manager Focus in Requirements:
+- **Ensuring requirements are achievable** within constraints
+- **Managing requirement changes** through controlled processes
+- **Maintaining traceability** to project objectives
+- **Facilitating stakeholder agreement** on requirements
+- **Planning requirements activities** within the project schedule
+- **Tracking requirement-related risks** and issues
+
+### Business Analyst Focus in Requirements:
+- **Eliciting requirements** from stakeholders
+- **Analyzing and modeling** requirements
+- **Validating requirements** against business needs
+- **Documenting requirements** appropriately
+- **Prioritizing requirements** based on business value
+- **Verifying requirements** are complete and correct
+
+### When Project Managers Lead Requirements Work
+
+Many projects don't have dedicated business analysts. In these cases, project managers must wear both hats. Key considerations:
+
+**Do:**
+- Use structured elicitation techniques (interviews, workshops)
+- Separate needs from solutions during discovery
+- Document requirements clearly with acceptance criteria
+- Involve stakeholders throughout the process
+- Plan time for proper requirements work
+
+**Don't:**
+- Jump to solutions without understanding needs
+- Assume you understand requirements without validation
+- Let the loudest stakeholder dominate
+- Skip documentation to "save time"
+- Treat requirements as a one-time activity
+
+---
+
+## Collaborative Requirements Management
+
+Modern project management emphasizes collaboration between PM and BA roles. Even with a dedicated business analyst, project managers must:
+
+1. **Plan requirements activities** within project schedule
+2. **Ensure business analysis aligns** with project objectives
+3. **Provide resources and support** for requirements work
+4. **Facilitate stakeholder involvement** in requirements
+5. **Monitor requirement-related risks** and issues
+6. **Integrate requirements management** with change control
+
+The most successful projects have seamless integration between project management and business analysis activities, where each role brings their expertise to deliver the right solution.
 
 ---
 
@@ -229,6 +328,133 @@ Sarah reviews building codes, accessibility regulations, lease agreements, and t
 
 **Strengths:** Identifies non-negotiable requirements, provides factual baseline
 **Limitations:** May be outdated, doesn't capture stakeholder needs
+
+### Additional Elicitation Techniques from PMI's Business Analysis Guide
+
+#### Brainstorming
+**What it is:** Generating ideas and requirements through creative group thinking.
+
+**When to use:**
+- Early requirements discovery
+- Solving complex problems with multiple possible solutions
+- Generating options for features or approaches
+
+**Techniques:**
+- **Round-robin**: Each person contributes one idea in sequence
+- **Free-for-all**: Open sharing of all ideas
+- **Silent brainstorming**: Write ideas before sharing (reduces groupthink)
+- **Reverse brainstorming**: Identify ways to cause problems, then reverse to solutions
+
+**Sarah's Example:** Team brainstorms ways to improve expense processing, generating 47 ideas that are later grouped into themes.
+
+#### Focus Groups
+**What it is:** facilitated discussion with 6-10 participants to explore needs, opinions, and attitudes.
+
+**When to use:**
+- Understanding user attitudes and preferences
+- Testing concepts or early designs
+- Gathering diverse perspectives
+
+**Key differences from workshops:**
+- Focus on exploration, not decision-making
+- More开放式 discussion, less structured
+- Moderator encourages dialogue between participants
+
+#### Interface Analysis
+**What it is:** Identifying and analyzing points where systems or components interact.
+
+**When to use:**
+- System integration projects
+- Complex projects with multiple subsystems
+- Projects replacing existing systems
+
+**Types of interfaces:**
+- **User interfaces**: How users interact with the system
+- **Application interfaces**: System-to-system connections
+- **Data interfaces**: Data exchange requirements
+- **Business interfaces**: Interactions between business processes
+
+**Sarah's Example:** Analyzing interfaces between expense system and payroll, ERP, and credit card systems reveals integration requirements.
+
+#### Reverse Engineering
+**What it is:** Deconstructing existing systems or processes to understand how they work.
+
+**When to use:**
+- Legacy system replacements
+- Process improvement projects
+- When documentation is missing or outdated
+
+**Methods:**
+- System observation and testing
+- Code or configuration analysis
+- Process tracing
+- Output analysis
+
+#### Competitive Analysis
+**What it is:** Analyzing competitor solutions to identify best practices and opportunities.
+
+**When to use:**
+- Product development projects
+- Market-driven initiatives
+- When seeking competitive advantage
+
+**Focus areas:**
+- Feature comparison
+- User experience benchmarks
+- Performance metrics
+- Pricing models
+
+#### Observation Variations
+
+**Contextual Inquiry:**
+- Observe users in their natural environment
+- Ask questions while they work
+- Understand context, constraints, workflow
+
+**Shadowing:**
+- Follow users through their entire process
+- Document steps, tools, decisions
+- Identify workarounds and inefficiencies
+
+**Ethnographic Studies:**
+- Deep immersion in user environment
+- Extended observation period
+- Cultural and organizational context
+
+---
+
+## Choosing the Right Techniques
+
+No single technique works for all situations. Consider:
+
+### Technique Selection Matrix
+
+| Situation | Best Techniques | Why |
+|-----------|-----------------|-----|
+| **Complex technical requirements** | Interviews, Document Analysis, Prototyping | Deep exploration needed |
+| **Conflicting stakeholder needs** | Workshops, Focus Groups, Surveys | Facilitate discussion and voting |
+| **User experience focus** | Observation, Prototyping, Focus Groups | Understand user perspective |
+| **Process improvement** | Observation, Process Modeling, Reverse Engineering | Understand current state |
+| **Regulatory requirements** | Document Analysis, Interviews with Compliance | Ensure compliance |
+| **Large stakeholder groups** | Surveys, Focus Groups, Workshops | Scale involvement |
+
+### Combining Techniques
+
+**Effective elicitation often combines multiple techniques:**
+
+1. **Start broad**: Surveys or interviews to identify themes
+2. **Deep dive**: Workshops to explore details and resolve conflicts
+3. **Validate**: Prototypes or observations to confirm understanding
+4. **Verify**: Document analysis to ensure completeness
+
+**Sarah's Hybrid Approach for Expense System:**
+- Week 1: Surveys to all employees (broad input)
+- Week 2: Interviews with finance team (deep dive)
+- Week 3: Workshop with mixed stakeholders (resolve conflicts)
+- Week 4: Prototype testing with users (validate)
+- Week 5: Document analysis for compliance (verify)
+
+This triangulation ensures comprehensive requirement discovery from multiple perspectives.
 
 ---
 

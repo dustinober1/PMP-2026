@@ -145,6 +145,7 @@ This chapter addresses the following tasks from the PMP Certification Exam Conte
 - **16d (Sustainability and ESG in Project Context)**: Explains how to integrate environmental sustainability, social responsibility, and governance integrity into project decisions from selection through delivery
 - **16e (Balancing Stakeholder Needs, Competing Values, and Benefits Realization)**: Illustrates how to navigate diverse stakeholder perspectives on value and facilitate transparent trade-off conversations
 - **16f (Continuous Improvement and Organizational Learning)**: Establishes processes for retrospectives, lessons learned, and organizational learning systems that enable continuous improvement and build organizational capability over time
+- **16g (Solution Evaluation and Value Assessment)**: Demonstrates how to measure solution performance against business objectives, identify limitations, assess enterprise constraints, and recommend actions to improve value delivery
 
 Projects exist to create value, not just deliver outputs. This chapter shows that the measure of project success is not on-time delivery but whether the organization actually achieves the strategic benefits that justified the investment in the first place, and whether that success is sustainable for the long term. Continuous improvement ensures that learning from projects compounds over time, building organizational excellence.
 

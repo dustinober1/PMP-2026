@@ -364,6 +364,64 @@
 - Domain and topic mapping table
 - Separate answer key with explanations
 
+### Chapter 22 – Business Analysis Fundamentals for Project Managers
+- **22 – Business Analysis Fundamentals for Project Managers**
+  - Introduction to business analysis for project managers
+  - Business Analysis Core Concept Model (BACCM)
+  - Business analysis vs. project management roles
+  - Business analysis knowledge areas overview
+  - Business analysis perspectives (Traditional, Agile, etc.)
+  - Key BA techniques every PM should know
+
+- **22a – Business Analysis Planning and Monitoring**
+  - Determining the business analysis approach
+  - Business analysis governance
+  - Information management strategy
+  - Stakeholder engagement for BA
+  - Business analysis performance assessment
+
+- **22b – Elicitation and Collaboration**
+  - Brainstorming techniques
+  - Document analysis
+  - Focus groups
+  - Interface analysis
+  - Observation and contextual inquiry
+  - Workshops and facilitation techniques
+
+- **22c – Requirements Life Cycle Management**
+  - Requirements architecture concepts
+  - Traceability management
+  - Prioritization frameworks
+  - Requirements approval processes
+  - Change management for requirements
+
+- **22d – Strategy Analysis**
+  - Current state analysis techniques
+  - Future state definition
+  - Risk analysis in business context
+  - Change strategy development
+  - Business case development
+
+- **22e – Requirements Analysis and Design Definition**
+  - Requirements modeling techniques
+  - Acceptance criteria development
+  - Verification and validation methods
+  - Design options evaluation
+  - Solution scope definition
+
+- **22f – Solution Evaluation**
+  - Performance measurement frameworks
+  - Value assessment techniques
+  - Solution limitation identification
+  - Enterprise constraints analysis
+  - Recommendation development
+
+- **22g – Knowledge Check**
+  - Business analysis scenario questions
+  - BACCM application exercises
+  - Technique selection scenarios
+  - Role distinction questions
+
 ---
 
 ## Appendices and Additional Resources
