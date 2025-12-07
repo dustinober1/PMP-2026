@@ -387,6 +387,60 @@ Benefit realized: +17 points (exceeded +10 target)
 
 ---
 
+## Example: Benefits and ROI for an AI Initiative
+
+AI-enabled initiatives follow the same benefits principles as any other project, but a few patterns are common:
+
+- Value often comes from **automation and insight** (reduced manual effort, faster or better decisions)  
+- There is usually more **uncertainty** about feasibility and impact, especially in early pilots  
+- Realization depends heavily on **data quality, integration, and adoption**  
+
+### AI Initiative Benefits Map
+
+Consider an AI assistant that helps classify expense reports and flag anomalies.
+
+- **Outputs**  
+  - AI model trained and deployed  
+  - Integration with expense system and reporting tools  
+
+- **Outcomes**  
+  - Finance team spends less time on manual review  
+  - Suspicious transactions are flagged earlier and more consistently  
+  - Managers receive clearer, more timely information  
+
+- **Benefits**  
+  - Reduced processing time and labor cost  
+  - Improved policy compliance and fraud detection  
+  - Better management decisions due to higher-quality information  
+
+### Example Metrics for AI Benefits
+
+You can organize AI-related benefits into categories:
+
+- **Operational efficiency**  
+  - Average handling time per transaction  
+  - Number of items processed per FTE  
+  - Percentage of work handled automatically vs. manually  
+
+- **Quality and risk**  
+  - Detection rate of policy violations or anomalies  
+  - Reduction in rework or error rates  
+  - Number of incidents requiring manual correction  
+
+- **Business impact**  
+  - Annual cost savings from reduced manual effort  
+  - Avoided losses from fraud or errors  
+  - Revenue uplift if AI supports sales or customer interactions  
+
+- **User adoption and satisfaction**  
+  - Percentage of targeted users actively using the AI-enabled feature  
+  - Satisfaction scores for the process or tool  
+  - Change in time spent on higher-value work vs. repetitive tasks  
+
+Exam tip: When you see AI mentioned in a benefits or business case scenario, focus on **clear outcomes and measurable benefits** just as you would for any other project—AI is a means, not the benefit itself.
+
+---
+
 ## Benefits Realization Across Delivery Approaches
 
 ### Predictive Projects

@@ -706,6 +706,76 @@ Teams adapt execution based on learning
 
 ---
 
+## AI Adoption Roadmaps at the Enterprise Level
+
+Many organizations now treat **AI adoption** as a multi-year strategic journey rather than a one-off project. For PMP purposes, AI is just another form of digital transformation—but with unique uncertainty and governance needs.
+
+### Why AI Needs a Roadmap
+
+AI initiatives often:
+
+- Depend on **data platforms, integration, and governance** that take time to build  
+- Start as **experiments or pilots** before scaling  
+- Require **organizational change** (skills, processes, decision-making) to realize benefits  
+
+A clear AI roadmap helps:
+
+- Align executives on **where** AI will create value (which products, services, and processes)  
+- Sequence **foundational capabilities** (data, platforms, skills) before advanced use cases  
+- Communicate **expectations about learning and uncertainty** (“not every experiment will scale”)  
+
+### Example – AI Adoption Lifecycle Roadmap
+
+Sarah’s organization adds an AI track to its digital transformation roadmap. It uses a simple lifecycle:
+
+1. **Explore** – Identify candidate use cases and run small pilots  
+2. **Prove** – Validate value and feasibility with limited users or regions  
+3. **Scale** – Roll out successful patterns across the enterprise  
+4. **Institutionalize** – Embed AI capabilities into normal operations and governance  
+
+An AI adoption swim lane on the portfolio roadmap might look like:
+
+```
+AI ADOPTION ROADMAP (Simplified)
+
+2026 Q1-Q2: Explore
+  - Identify top 3 AI use cases linked to strategy
+  - Run pilots in expense processing and customer support
+
+2026 Q3-Q4: Prove
+  - Measure pilot outcomes (cycle time, quality, satisfaction)
+  - Decide which pilots to scale based on ROI and risk
+
+2027 Q1-Q2: Scale
+  - Roll out successful AI use cases across regions
+  - Integrate AI tools with core platforms and PM systems
+
+2027 Q3+: Institutionalize
+  - Standardize AI governance, metrics, and training
+  - Treat AI capabilities as part of normal operations
+```
+
+The specifics will vary, but the pattern is common: **start small, learn, scale what works, then embed it into how the organization runs.**
+
+### Role of PMO, Project Professionals, and TMO
+
+AI adoption roadmaps cross multiple projects and teams. Different roles contribute:
+
+- **PMO**  
+  - Maintains **standards and templates** for AI-related projects (risk checklists, data governance expectations, model monitoring)  
+  - Ensures AI work is visible on **portfolio and program roadmaps**, not hidden as isolated experiments  
+
+- **Project and program managers**  
+  - Plan and execute **specific AI initiatives** (pilots and rollouts)  
+  - Manage dependencies on data, platforms, and change management activities  
+  - Feed results and lessons learned back into the roadmap  
+
+- **TMO** (where it exists)  
+  - Integrates AI adoption into the **overall transformation journey** (operating model, culture, capabilities)  
+  - Coordinates cross-functional change (HR, legal, security, operations) required to scale AI responsibly  
+
+For exam scenarios, when you see AI discussed at **enterprise scale** (multiple programs, culture, operating model), think about **how you would reflect that in the roadmap** and **which governance bodies you would involve** rather than treating each AI initiative as a standalone project.
+
 ## Practical Exercise: Creating a Simple Roadmap
 
 **Scenario**: Your organization is launching a sustainability initiative with the strategic goal of reducing carbon footprint by 50% over three years.

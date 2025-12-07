@@ -159,6 +159,8 @@ git log --oneline -5
 3. **Maintain consistency:** Use the established recurring narratives (Sarah's projects)
 4. **Follow the learning loop:** Concept → Practical Example → Scenario Application
 5. **Cross-reference:** Link to related chapters rather than duplicating content
+6. **Use proper citations:** Reference PMI sources (PMBOK Guide, Agile Practice Guide, etc.)
+7. **Include realistic scenarios:** Base examples on practical project management situations
 
 ### When Editing Content
 
@@ -166,14 +168,57 @@ git log --oneline -5
 2. **Check heading hierarchy:** Ensure proper Markdown heading structure (#, ##, ###)
 3. **Validate cross-references:** Ensure chapter and section references are accurate
 4. **Maintain voice:** Keep professional, instructional tone aligned with PMI standards
+5. **Use consistent terminology:** Adhere to PMI lexicon (see Appendix A)
+6. **Check tense consistency:** Use present tense for concepts, past tense for examples
+7. **Maintain readability:** Use short paragraphs, bullet points, and clear transitions
+8. **Preserve formatting**: Keep bold for key terms, italics for emphasis, code blocks for processes
+
+### Content Requirements
+
+#### Educational Structure
+Each section should follow this pattern:
+1. **Concept Introduction**: Clear definition and explanation
+2. **PMI Alignment**: How PMI views this topic
+3. **Practical Example**: Real-world application
+4. **Scenario Integration**: Apply to Sarah's projects
+5. **Key Takeaways**: Summary of main points
+
+#### Knowledge Check Standards
+- **Scenario-based**: Present realistic project situations
+- **Four options**: One correct, three plausible distractors
+- **Detailed explanations**: Why correct answer is best and others are not
+- **Integration**: Test multiple concepts, not just memorization
+- **Difficulty**: Mix of straightforward and complex scenarios
+
+#### Cross-Reference Guidelines
+- **Primary references**: Link to foundational chapters first
+- **Domain connections**: Show how topics relate across People/Process/Business Environment
+- **Forward references**: Mention where topics will be expanded
+- **Backward references**: Refer to previously covered prerequisites
+- **Avoid duplication**: Link instead of repeating content
 
 ### Quality Checks
 
-- Proofread for clarity and tense consistency
-- Ensure PMI alignment (not just industry best practice)
-- Validate that Knowledge Check questions follow the established format
-- Check that examples use the recurring project narratives
-- Verify all cross-references point to correct chapters/sections
+#### Content Validation
+- **PMI Alignment**: Ensure content matches PMI standards, not just industry practice
+- **Accuracy**: Double-check statistics, process names, and terminology
+- **Completeness**: Cover all aspects mentioned in chapter objectives
+- **Clarity**: Define all technical terms on first use
+- **Relevance**: Ensure all content directly supports PMP exam preparation
+
+#### Format Validation
+- **Markdown syntax**: Verify all links, headers, and formatting work
+- **File structure**: Ensure modular chapters follow naming conventions
+- **Navigation**: Check TOC links work properly
+- **Consistency**: Validate formatting patterns across chapters
+- **File size**: Keep files manageable (consider splitting very long sections)
+
+#### Educational Effectiveness
+- **Learning objectives**: Verify each section meets stated objectives
+- **Progression**: Ensure logical flow from simple to complex concepts
+- **Examples**: Check that examples illustrate concepts clearly
+- **Practice questions**: Validate questions test understanding, not recall
+- **Retention aids**: Include summaries, key points, and memory aids
 
 ## Content Status
 
@@ -181,19 +226,107 @@ git log --oneline -5
 - Part 1: Orientation and Exam Overview (Chapters 1-2)
 - Part 2: Foundations (Chapters 3-5)
 - Part 3: People Domain (Chapters 6-9)
-- Part 4: Process Domain (Chapters 10-18)
+- Part 4: Process Domain (Chapters 10-14)
 - Part 5: Business Environment Domain (Chapters 15-18)
-- Part 6: Practice Exams (Chapter 19-20)
+- Part 6: AI Essentials and Practice Exams (Chapters 20-21)
+
+### Domain Coverage
+- **People Domain (33%)**: Chapters 6-9 cover team leadership, stakeholder engagement, communication, and conflict resolution
+- **Process Domain (41%)**: Chapters 10-14 cover scope, schedule, cost, quality, risk, procurement, and change management
+- **Business Environment Domain (26%)**: Chapters 15-18 cover organizational structure, compliance, value delivery, and strategic alignment
+- **AI Integration**: Chapter 5f and Chapter 20 provide dedicated AI project management content
+
+### Special Content
+- **AI Project Management**: Comprehensive coverage in Chapter 5f (basics) and Chapter 20 (advanced)
+- **Professional Ethics**: Integrated throughout, with dedicated sections in Chapter 5g
+- **Practice Exams**: Full exam simulation in Chapter 21 with detailed answer explanations
+- **Appendices**: Reference materials in Chapter 98, resources in Chapter 99
 
 ### Structure Notes
-- No build process or compilation step (pure Markdown)
-- Verification is manual: proofreading and Markdown viewing
-- Git history shows iterative development with clear, imperative commit messages
+- **No build process**: Pure Markdown content - no compilation needed
+- **Manual verification**: Content validation through proofreading and Markdown viewing
+- **Git history**: Clear, imperative commit messages tracking iterative development
+- **Cross-platform**: Works on any system with Markdown support
+- **Version control**: Git tracks all content changes for transparency
+
+## Working with This Repository
+
+### Best Practices for Educational Content
+- **Read before writing**: Always survey existing content to avoid duplication
+- **Maintain voice**: Keep consistent PMI-aligned, professional tone throughout
+- **Use narratives**: Leverage Sarah's three project scenarios for examples
+- **Link extensively**: Create web of knowledge, not isolated content blocks
+- **Test learning**: Validate practice questions actually test understanding
+
+### Common Workflows
+
+#### Adding a New Section
+```bash
+# 1. Read the chapter introduction to understand scope
+cat "Chapter 5/5 – Core Project Management Concepts and Tools.md"
+
+# 2. Check existing sections to avoid overlap
+ls -1 "Chapter 5"
+
+# 3. Create new section with proper naming
+touch "Chapter 5/5i – New Topic.md"
+
+# 4. Update the master outline immediately
+vim "Chapter 0/00-Outline.md"
+
+# 5. Add content following educational structure
+# (concept → PMI view → example → scenario → takeaways)
+
+# 6. Add cross-references to related sections
+rg "related topic" Chapter*/
+
+# 7. Update chapter introduction TOC
+vim "Chapter 5/5 – Core Project Management Concepts and Tools.md"
+
+# 8. Commit with clear message
+git add .
+git commit -m "Add 5i – New Topic section with examples and cross-references"
+```
+
+#### Updating Existing Content
+```bash
+# 1. Search for content locations
+rg "stakeholder analysis" Chapter*/
+
+# 2. Read affected sections
+cat "Chapter 5a/5a – Stakeholders and Communication.md"
+
+# 3. Make targeted edits
+vim "Chapter 5a/5a – Stakeholders and Communication.md"
+
+# 4. Update cross-references if needed
+rg "Chapter 5a" Chapter*/
+
+# 5. Validate formatting
+cat "Chapter 5a/5a – Stakeholders and Communication.md" | head -20
+
+# 6. Commit changes
+git add .
+git commit -m "Update stakeholder analysis section with new PMI guidance"
+```
+
+### Content Validation Checklist
+- [ ] PMI terminology is correct and consistent
+- [ ] All chapter references are accurate
+- [ ] Examples use Sarah's projects appropriately
+- [ ] Learning objectives are met
+- [ ] Cross-references add value without duplication
+- [ ] Markdown formatting is clean and consistent
+- [ ] File naming follows en dash convention
+- [ ] Knowledge checks follow established format
 
 ## Important Reminders
 
-1. **Always update Chapter 0/00-Outline.md** when modifying structure
-2. **Use en dashes (–) not hyphens (-)** in file names
-3. **Consult GEMINI.md and AGENTS.md** for detailed style guidelines
-4. **Reference recurring narratives** for consistency across chapters
-5. **Align with PMI standards**, not generic project management advice
+1. **This is NOT a code repository** - no compilation, testing, or deployment
+2. **Always update Chapter 0/00-Outline.md** when modifying structure
+3. **Use en dashes (–) not hyphens (-)** in file names
+4. **Consult GEMINI.md and AGENTS.md** for detailed style guidelines
+5. **Reference recurring narratives** for consistency across chapters
+6. **Align with PMI standards**, not generic project management advice
+7. **Think educationally** - every addition should help someone pass the PMP exam
+8. **Maintain quality** - this is a professional study guide, not casual content

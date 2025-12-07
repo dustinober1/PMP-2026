@@ -27,6 +27,30 @@ Common Governance Bodies:
 *   **Steering Committee / Project Board**: Senior stakeholders who authorize the project and handle critical issues.
 *   **Change Control Board (CCB)**: Approves or rejects changes to baselines.
 
+### Governance Considerations for AI and Emerging Technologies
+
+When projects involve AI or other emerging technologies, the **governance questions stay the same**, but the stakes around data, ethics, and compliance are often higher.
+
+Practical considerations:
+
+*   **Tool approval and data protection**  
+    * Who decides which AI tools are approved for use? (Often PMO, security, and procurement together)  
+    * What data is allowed to be sent to external AI services? What must stay inside enterprise boundaries?
+
+*   **Risk and ethics oversight**  
+    * How are AI-related risks (bias, privacy, security, model failure) captured in the **risk register**?  
+    * Which governance body (steering committee, ethics board, data governance council) reviews high-impact AI decisions?
+
+*   **Alignment with enterprise frameworks**  
+    * Many organizations rely on enterprise frameworks such as **COBIT, ITIL, TOGAF, NIST, ISO 27001**, or regional privacy laws (for example, GDPR) to structure controls.  
+    * You do not need to memorize these for the PMP exam, but you should recognize that AI initiatives must still comply with **existing governance and security frameworks**, not operate as exceptions.
+
+*   **Escalation paths for AI incidents**  
+    * If an AI system produces harmful or incorrect decisions, what is the path to pause, roll back, or correct it?  
+    * Who has authority to halt AI-enabled processes if they conflict with policy, ethics, or safety?
+
+Exam angle: Good answers show the project manager **working within governance**—engaging the PMO, security, legal, and other governance bodies—rather than bypassing them “because AI is new” or “because the tool is external.”
+
 ## Practical Examples
 
 ### Scenario 1: The Transformation Program (Hybrid)

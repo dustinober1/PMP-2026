@@ -27,12 +27,19 @@ The content is organized into chapters, following a logical progression from fou
     *   *Predictive:* An office renovation project.
     *   *Agile:* An expense reporting software development.
     *   *Hybrid:* A global transformation program.
+*   **AI-Integrated Content:** Core AI concepts are introduced in Chapter 5 (data, ethics, emerging technologies) and expanded in **Chapter 20 – AI Essentials for Project Professionals**, with practical guidance on using AI tools responsibly in real projects and exam preparation.
 *   **PMI-Aligned:** All content is strictly aligned with the *PMBOK® Guide*, *Agile Practice Guide*, and *Process Groups: A Practice Guide*.
 *   **Practical Focus:** Structure follows a "Concept → Practical Example → Scenario Application" flow.
 
 ## How to Use This Guide
 
-Start with **Chapter 0/00-Outline.md** to see the master table of contents. Navigate through the folders to read individual chapters. This guide is best used alongside official PMI study materials.
+Start with **Chapter 0/00-Outline.md** to see the master table of contents. Navigate through the folders to read individual chapters. For most learners:
+
+1. Build core knowledge with Chapters **1–19**.
+2. Deepen your understanding of how to use AI in project work and studying with **Chapter 20 – AI Essentials for Project Professionals**.
+3. Test your readiness with the full-length practice exams in **Chapter 21**.
+
+This guide is best used alongside official PMI study materials.
 
 ---
 *Disclaimer: "PMP" and "PMBOK" are registered marks of the Project Management Institute, Inc.*
