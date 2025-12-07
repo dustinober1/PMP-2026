@@ -58,6 +58,8 @@ The content is organized into chapters, residing in `Chapter N` or `Chapter NN` 
     *   No build step (pure Markdown).
     *   Use `rg` (ripgrep) to search for terms or check consistency.
     *   Example: `rg "risk management" "Chapter 12"`
+4.  **Index Maintenance:**
+    *   **Chapter 98/Appendix C:** This file serves as an index of Tools and Artifacts. When adding new chapters or covering new tools/artifacts, update this index to include the new item or link to the new coverage location.
 
 ## Key Commands
 
