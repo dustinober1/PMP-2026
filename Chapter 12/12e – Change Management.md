@@ -485,6 +485,26 @@ After expense system launch:
 - **Adoption is an outcome, not an event**: Change management continues after delivery; you must sustain new behaviors and processes
 - **Different delivery approaches manage change differently**: Predictive plans it comprehensively upfront; agile adapts continuously; hybrid does both
 
+### Complexity and Change Management
+
+**Traditional change management** assumes:
+- Clear end state is known and can be planned
+- Linear progression through change stages
+- Controllable cause and effect relationships
+
+**Complexity-aware change management** recognizes:
+- The future emerges through the change process
+- Non-linear patterns of adoption and resistance
+- Adaptive capacity as more important than detailed planning
+
+**Key shifts for complexity:**
+- From detailed rollout plans to directional roadmaps with adaptation points
+- From managing resistance to enabling emergence
+- From fixed success criteria to evolving outcomes
+- From comprehensive communication to continuous dialogue
+
+**For more on navigating complexity in projects, see Chapter 5.5 – Navigating Complexity in Projects.**
+
 ---
 
 ## Reflection Questions

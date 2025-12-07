@@ -4,15 +4,19 @@ This appendix consolidates key external references used throughout the PMP 2026 
 
 ## Official PMI References
 
-- Project Management Institute (PMI). *Project Management Professional (PMP)® Examination Content Outline – July 2026*.  
-  - Primary source for domain definitions, task/enabler descriptions, exam structure (185 questions, 175 scored + 10 pretest), timings, and item types.  
-  - Available via PMI’s certification pages; this repository includes a local copy at `Resources/New-PMP-Examination-Content-Outline-2026.pdf`.
+- Project Management Institute (PMI). *Project Management Professional (PMP)® Examination Content Outline – July 2026*.
+  - Primary source for domain definitions, task/enabler descriptions, exam structure (185 questions, 175 scored + 10 pretest), timings, and item types.
+  - Available via PMI's certification pages; this repository includes a local copy at `Resources/New-PMP-Examination-Content-Outline-2026.pdf`.
 
-- Project Management Institute (PMI). *PMP® Certification Handbook*.  
+- Project Management Institute (PMI). *PMP® Certification Handbook*.
   - Official guidance on eligibility requirements, application process, exam policies, and score reporting.
 
-- PMI. *Project Management Professional (PMP)® Certification* pages on `https://www.pmi.org/`.  
+- PMI. *Project Management Professional (PMP)® Certification* pages on `https://www.pmi.org/`.
   - High-level overview of the certification, benefits, and links to the ECO, handbook, and exam-day information.
+
+- Project Management Institute (PMI). *Navigating Complexity: A Practice Guide*.
+  - Comprehensive guide to understanding and managing complexity in projects, including the Cynefin Framework, complexity leadership, and practical tools.
+  - Primary source for Chapter 5.5 – Navigating Complexity in Projects.
 
 ## Background and General References
 
