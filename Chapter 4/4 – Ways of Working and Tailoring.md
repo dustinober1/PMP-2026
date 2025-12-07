@@ -46,9 +46,11 @@ The three high-level categories you will see throughout the Exam Content Outline
 
 Key idea:
 
-- Predictive approaches assume that requirements can be understood reasonably well upfront, and that change is relatively controlled.  
-- Agile/adaptive approaches assume high uncertainty and change, and explicitly use iteration, feedback, and incremental delivery to manage that.  
+- Predictive approaches assume that requirements can be understood reasonably well upfront, and that change is relatively controlled.
+- Agile/adaptive approaches assume high uncertainty and change, and explicitly use iteration, feedback, and incremental delivery to manage that.
 - Hybrid approaches recognize that most real initiatives have elements that are more stable and elements that are more uncertain and combine practices accordingly.
+
+**Understanding context complexity**: Choosing the right approach requires understanding whether your project operates in simple, complicated, or complex environments. For a deep dive into complexity theory and the Cynefin Framework, see **Chapter 5.5 – Navigating Complexity in Projects**, which provides tools for diagnosing context and adapting your approach accordingly.
 
 On the exam, you will rarely be asked to recite definitions. Instead, you will be placed in scenarios and expected to:
 

@@ -13,8 +13,9 @@ By the end of this chapter, you should be able to:
 - Motivate and engage team members
 - Practice servant leadership and develop others through coaching and mentoring
 - Recognize how leadership approaches differ across ways of working (predictive, agile, hybrid)
+- **Apply complexity leadership principles**: Container, Signal, Amplifier, and Dampener roles
 
-These skills are not technical—they are fundamentally about understanding people and creating an environment where they can do their best work.
+These skills are not technical—they are fundamentally about understanding people and creating an environment where they can do their best work. **For a deep dive into leading in complex environments, see Chapter 5.5 – Navigating Complexity in Projects.**
 
 ---
 

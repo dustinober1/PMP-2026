@@ -359,6 +359,26 @@ After the first few projects, Sarah's organization notices:
 
 ---
 
+## Common Agile Pain Points and Troubleshooting
+
+The *Agile Practice Guide* identifies specific "pain points" that teams often encounter when adopting or using agile. Recognizing these symptoms and knowing the standard agile "fix" is a key exam skill.
+
+| Pain Point (Symptom) | Troubleshooting Possibility (Agile Fix) |
+| :--- | :--- |
+| **Unclear purpose or mission** | **Agile Chartering:** Build a charter with vision, mission, and success criteria. |
+| **Unclear requirements** | **Collaborative Backlog Refinement:** Bring the team and Product Owner together; use **Personas** or **User Story Mapping**. |
+| **Poor user experience** | **User Involvement:** Include UX design in the team; involve users early and often (demos). |
+| **Inaccurate estimation** | **Relative Estimation:** Switch to Story Points; use **Spikes** to reduce uncertainty before estimating. |
+| **Unclear work assignments** | **Kanban Board / Standups:** Visualize the work; team self-selects tasks (pull system) rather than being assigned. |
+| **Team struggles with obstacles** | **Servant Leadership:** Scrum Master clears impediments; escalate if beyond team control. |
+| **Work delays / Overruns** | **Slicing Stories:** Break work into smaller, vertical slices; focus on **Definition of Ready**. |
+| **Defects / Poor Quality** | **Technical Practices:** Implement TDD, ATDD, Continuous Integration, and Pair Programming. |
+| **Technical Debt** | **Refactoring:** Allocate capacity for code quality; make debt visible on the backlog. |
+| **Too much complexity** | **Simplicity:** Focus on "the art of maximizing work not done"; MVP thinking. |
+| **Siloed teams / Handoffs** | **Cross-Functional Teams:** Create teams with all necessary skills (T-shaped people) to deliver value end-to-end. |
+
+---
+
 ## Key Takeaways
 
 - **Issues are realized risks**: Once a risk event occurs and demands action, it becomes an issue

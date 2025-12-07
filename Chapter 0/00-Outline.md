@@ -53,6 +53,15 @@
   - Scrum master / team facilitator
   - Cross-functional team members
 
+### Chapter 4a – Agile Frameworks and Suitability
+- The Agile Manifesto (4 Values, 12 Principles)
+- Agile Suitability Filters (Radar Chart models)
+- Overview of key frameworks:
+  - Scrum, Kanban, XP
+  - Crystal, FDD, DSDM
+- Scaling frameworks (Scrum of Scrums, SAFe, LeSS, DA)
+- Mastery models (Shu-Ha-Ri, Dreyfus)
+
 ### Chapter 5 – Core Project Management Concepts and Tools
 - Stakeholders and communication basics
 - Scope, schedule, and cost at a high level
@@ -60,6 +69,13 @@
 - Risk thinking: threats and opportunities
 - Data-informed decisions and basic AI awareness for PMs
 - Ethics and professional responsibility themes
+
+### Chapter 5.5 – Navigating Complexity in Projects
+- Understanding complexity vs. complication
+- The Cynefin Framework for context diagnosis
+- Leadership in complex environments
+- Safe-to-fail experiments and adaptive planning
+- Tools for managing complexity (POINt, Ritual Dissent, Future Backwards)
 
 ---
 
