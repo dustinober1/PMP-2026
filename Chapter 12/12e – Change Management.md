@@ -242,6 +242,43 @@ This framework focuses on individual change and adoption:
 
 ---
 
+## Mini-Plan: Organizational Adoption of AI-Enabled Solutions
+
+When change involves introducing AI-enabled tools (for example, an AI assistant in a service desk or a recommendation engine in a customer portal), the **change steps are the same**, but the risks and questions often focus on trust, skills, and ethics.
+
+A simple AI adoption change plan can follow this structure:
+
+1. **Assessment and Planning**  
+   - Identify who will be affected (roles, locations, vendors)  
+   - Clarify what will change (tasks automated, decisions assisted by AI, new handoffs)  
+   - Check for special considerations (privacy, regulatory requirements, union or HR constraints)  
+
+2. **Communication and Education**  
+   - Explain **why** AI is being introduced (supporting people, not replacing them)  
+   - Address common concerns (job impact, fairness, data use) directly and transparently  
+   - Share examples of appropriate and inappropriate use of the AI tool  
+
+3. **Implementation and Support**  
+   - Provide hands-on training and practice, using real scenarios from the team’s work  
+   - Set clear expectations for **human review** of AI suggestions  
+   - Provide support channels (champions, office hours, FAQs) during rollout  
+
+4. **Monitoring and Adjustment**  
+   - Track adoption metrics (who is using the tool, how often, and for what)  
+   - Gather feedback on trust, usability, and perceived value  
+   - Adjust training, communication, or process design when issues emerge  
+
+5. **Sustainment and Governance**  
+   - Embed AI-related responsibilities into roles, procedures, and performance expectations  
+   - Align with governance structures (PMO, data governance, ethics committees) for ongoing oversight  
+   - Periodically review whether the AI solution is still delivering benefits and operating within agreed guardrails  
+
+On the exam, AI-specific change scenarios are still **change management questions**. Strong answers show you:
+
+- Treating AI introduction as a **people change**, not just a technical deployment  
+- Communicating clearly, involving affected stakeholders, and monitoring adoption  
+- Escalating ethical, legal, or risk concerns through existing governance channels rather than ignoring them  
+
 ## Stakeholder Adoption Strategies
 
 Different stakeholders require different strategies for adoption.

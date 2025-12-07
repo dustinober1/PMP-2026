@@ -333,10 +333,11 @@
 
 ### Chapter 20 – AI Essentials for Project Professionals
 - Practical use of AI tools across the project lifecycle
-- Guardrails for privacy, ethics, and responsible AI use
-- Integrating AI into team ways of working and governance
+- Guardrails for privacy, ethics, and responsible AI use (linked to governance and risk content in Chapters 16 and 17)
+- Integrating AI into team ways of working and governance (including PMO, project professionals, and TMO roles in leading AI transformation)
+- Organizational AI adoption lifecycle and its connection to strategic roadmaps (cross-referenced with Chapter 15e)
 - AI for personal productivity and PMP exam preparation
-- Scenario patterns for AI-related exam questions
+- Scenario patterns for AI-related exam questions (including when to escalate AI issues to legal, ethics, security, or governance bodies)
 
 ### Chapter 21 – Practice Exam (Full-Length)
 - 185 mixed-domain questions

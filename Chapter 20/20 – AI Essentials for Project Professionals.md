@@ -186,6 +186,8 @@ As PM, you:
 
 This section connects AI practice to the ethical and governance themes in **Chapters 5, 16, and 17**.
 
+Before we look at tools and tips, it helps to remember that AI adoption is not just something individual project managers do in isolation. It is an organizational capability shaped by governance bodies such as the **PMO** (Project Management Office), **project professionals** (portfolio, program, and project managers), and—on large transformations—the **TMO** (Transformation Management Office).
+
 ### 20.3.1 Data Privacy and Confidentiality
 
 Key questions before using AI tools:
@@ -348,3 +350,86 @@ Remember: On the PMP exam, the best answers show you acting as a **responsible l
 - Protect **privacy, security, fairness, and accountability** when AI touches sensitive data or decisions.  
 - Integrate AI into **team agreements and governance**, not as an unregulated shortcut.  
 - On the exam, prefer answers that show **responsible, ethical, and value-focused** use of AI in project contexts.  
+
+---
+
+## 20.8 How PMO, Project Professionals, and TMO Lead AI Transformation
+
+Many AI questions on the exam are really **governance and leadership** questions in disguise. The tools may be new, but the roles are familiar:
+
+- The **PMO** sets standards, templates, and guardrails  
+- **Project professionals** execute AI-related initiatives and manage day-to-day change  
+- The **TMO** (where it exists) steers large-scale transformation and cross-cutting change  
+
+### 20.8.1 Role Overview in AI Adoption
+
+At a high level:
+
+- **PMO**  
+  - Defines **policies and standards** for AI use in projects (approved tools, data handling, documentation expectations)  
+  - Provides **templates** (for example, AI risk checklists, model monitoring plans, change impact assessments)  
+  - Monitors **portfolio-level performance** and risk, including AI-related risks and opportunities  
+
+- **Project professionals** (project, program, and portfolio managers)  
+  - Plan and manage **specific AI initiatives** and AI-enabled projects  
+  - Ensure AI work aligns with **business cases**, charters, and roadmaps (see Chapters 10 and 15)  
+  - Coordinate **stakeholders, delivery teams, and experts** (data science, security, legal, ethics)  
+
+- **Transformation Management Office (TMO)**  
+  - Shapes the **overall transformation vision and roadmap**, including AI as a strategic enabler  
+  - Aligns AI initiatives with **enterprise strategy, culture, and operating models**  
+  - Oversees **organization-wide change management**, ensuring AI adoption supports—not undermines—broader transformation goals  
+
+On the exam, when a scenario mentions a PMO or TMO, look for opportunities to use these bodies to **set guardrails, align strategy, and resolve issues above the project level**, rather than trying to “do everything yourself” as the project manager.
+
+### 20.8.2 AI Adoption Lifecycle and Who Does What
+
+You do not need to memorize a specific model, but you should recognize a logical **AI adoption lifecycle** and the roles at each stage:
+
+1. **Explore and Identify Opportunities**  
+   - PMO: Encourages experimentation within governance boundaries; collects lessons across pilots  
+   - Project professionals: Help identify AI use cases tied to real business problems and value  
+   - TMO: Ensures exploratory work aligns with strategic transformation themes rather than isolated “science projects”  
+
+2. **Define Strategy and Priorities**  
+   - PMO: Provides data on portfolio performance and capacity; proposes prioritization criteria  
+   - Project professionals: Develop business cases, options, and risk analyses for candidate AI initiatives  
+   - TMO: Integrates AI into the broader **transformation roadmap** (see 15e) and secures executive sponsorship  
+
+3. **Pilot and Learn**  
+   - PMO: Ensures pilots follow **lightweight but real governance** (clear success criteria, risk management, and data safeguards)  
+   - Project professionals: Run pilots, manage stakeholders, measure outcomes, and capture lessons learned  
+   - TMO: Looks across pilots to see what patterns emerge and how they affect operating models, culture, and capabilities  
+
+4. **Scale and Integrate**  
+   - PMO: Standardizes successful patterns into **templates, guidelines, and tooling standards**; coordinates integration with enterprise systems and existing PM platforms  
+   - Project professionals: Manage larger, multi-team implementations, dependencies, and organizational readiness  
+   - TMO: Guides **organizational change**, adjusting structures, roles, and KPIs as AI capabilities become “business as usual”  
+
+5. **Monitor, Govern, and Improve**  
+   - PMO: Tracks **portfolio-level AI performance and risk**, updates standards, and reports to governance boards  
+   - Project professionals: Monitor model performance and business impact on their projects; escalate issues and improvements  
+   - TMO: Reviews whether AI is delivering the intended transformation outcomes and adjusts strategy accordingly  
+
+Exam tip: When a scenario feels like “AI is everywhere” in the organization (multiple programs, cultural change, cross-functional impact), **think transformation** and ask yourself, “What would the PMO and TMO own here, versus what does the individual project manager own?”
+
+### 20.8.3 When to Escalate or Defer AI Challenges
+
+Project managers are not expected to personally solve every AI-related challenge. Good exam answers show you **knowing when to involve the right experts**:
+
+- **Legal and regulatory** (privacy, sector regulation, data residency)  
+  - Escalate to legal/compliance when AI use may affect regulatory obligations or contractual terms  
+
+- **Ethical and social impacts** (bias, fairness, job displacement)  
+  - Involve ethics committees, HR, or social impact experts when AI decisions could harm people or undermine trust  
+
+- **Advanced technical issues** (model architecture, security vulnerabilities, data engineering)  
+  - Work with data scientists, architects, and security teams instead of trying to “tune the model” yourself  
+
+- **Cultural and organizational change** (fear, resistance, conflicting incentives)  
+  - Partner with the TMO, HR, and change managers to design communication, training, and reinforcement plans  
+
+- **Financial and budgetary decisions** (large investments, shifting benefits)  
+  - Engage sponsors, finance, portfolio governance, and steering committees for funding and prioritization decisions  
+
+On AI-related questions, answers that **recognize your role limits, use governance structures, and bring the right experts into the conversation** are more PMI-aligned than answers where the PM takes on specialized legal, technical, or HR decisions alone.
