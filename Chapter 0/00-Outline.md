@@ -35,7 +35,7 @@
 ## Part 2 – Foundations: Principles, Mindset, and Methods
 
 ### Chapter 3 – Value Delivery and Outcomes
-- Projects, programs, portfolios, and operations
+- Relationship of Portfolio, Program, Project, and Operations Management
 - Characteristics of a project (Temporary, Unique, Value Creation)
 - Connecting organizational and project governance
 - Value, benefits, and outcomes
