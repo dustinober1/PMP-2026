@@ -1,5 +1,17 @@
 # Chapter 14 – Monitoring, Controlling, and Closing
 
+## Table of Contents
+
+### Sub-Sections
+- [14a – Tracking Progress and Performance](14a%20–%20Tracking%20Progress%20and%20Performance.md)
+- [14b – Schedule and Cost Control](14b%20–%20Schedule%20and%20Cost%20Control.md)
+- [14c – Change Control and Configuration Management](14c%20–%20Change%20Control%20and%20Configuration%20Management.md)
+- [14d – Stakeholder Management During Execution](14d%20–%20Stakeholder%20Management%20During%20Execution.md)
+- [14e – Project Closure and Transition](14e%20–%20Project%20Closure%20and%20Transition.md)
+- [14f – Knowledge Check](14f%20–%20Knowledge%20Check.md)
+
+---
+
 ## Introduction
 
 Sarah stood in front of the program dashboard, studying the array of red, yellow, and green indicators. The Office Renovation project showed green across most metrics, but one vendor was two weeks behind. The Expense System had a yellow flag—velocity had dropped in the last sprint. The Transformation Program displayed a complex mosaic: some workstreams ahead of schedule, others struggling with organizational resistance. A new AI-powered widget suggested that two workstreams were at high risk of delay based on patterns from past projects.

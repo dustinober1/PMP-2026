@@ -120,6 +120,58 @@ The EAC represents your final project cost based on current performance.
 - **Example**: BAC = $100,000, EAC = $105,263 → VAC = -$5,263 (project will exceed budget by ~$5K)
 - **Use case**: Tells you your final budget impact
 
+#### Additional EVM Formulas
+
+**To-Complete Performance Index (TCPI)**
+- **What it is**: The cost performance index required on remaining work to meet a specific goal
+- **Formula (BAC target)**: TCPI = (BAC – EV) / (BAC – AC)
+- **Formula (EAC target)**: TCPI = (BAC – EV) / (EAC – AC)
+- **Interpretation**:
+  - TCPI > 1.0: Must perform better than planned to meet target
+  - TCPI < 1.0: Can perform worse than planned and still meet target
+  - TCPI = 1.0: Continue current performance to meet target
+- **Example**: BAC = $100K, EV = $60K, AC = $70K → TCPI = ($100K – $60K) / ($100K – $70K) = 1.33
+  - Must achieve a CPI of 1.33 on remaining work to meet original budget
+- **Use case**: Determines if project goals are still achievable
+
+**Schedule Variance in Time Units (SV(t))**
+- **What it is**: Schedule variance expressed as time rather than cost
+- **Formula**: SV(t) = Earned Schedule (ES) – Actual Time (AT)
+- **Earned Schedule (ES)**: The time at which the current EV should have been earned
+- **Interpretation**:
+  - Positive SV(t): Ahead of schedule in time units
+  - Negative SV(t): Behind schedule in time units
+- **Example**: Current EV should have been earned by week 8, but it's currently week 10 → SV(t) = 8 – 10 = -2 weeks
+- **Use case**: More intuitive schedule variance than dollar-based SV
+
+**Schedule Performance Index in Time (SPI(t))**
+- **Formula**: SPI(t) = ES / AT
+- **Interpretation**:
+  - SPI(t) > 1.0: Ahead of schedule
+  - SPI(t) < 1.0: Behind schedule
+- **Example**: ES = 8 weeks, AT = 10 weeks → SPI(t) = 0.8 (80% schedule efficiency)
+- **Use case**: More reliable than SPI for late-project performance assessment
+
+**Management Reserve (MR)**
+- **What it is**: Budget set aside for unknown-unknowns that cannot be identified during planning
+- **Formula**: MR = Total Budget – (BAC + Contingency Reserve)
+- **Characteristics**:
+  - Not part of the Performance Measurement Baseline (PMB)
+  - Requires management approval to use
+  - Used for unforeseen events outside the project team's control
+- **Example**: Total project budget = $550,000, BAC = $500,000, Contingency = $30,000 → MR = $20,000
+- **Use case**: Provides flexibility for truly unexpected events
+
+**Variance Analysis Thresholds**
+- **Common Thresholds**:
+  - Schedule Variance: ±10% of PV
+  - Cost Variance: ±10% of EV
+  - SPI below 0.90 or above 1.10
+  - CPI below 0.90 or above 1.10
+- **Control Limits**: Often set at ±2 standard deviations from mean (±95% confidence)
+- **Trend Analysis**: 3 consecutive periods of variance indicates a trend requiring action
+- **Use case**: Determines when formal variance analysis and reporting is required
+
 ---
 
 ### Schedule Formulas
