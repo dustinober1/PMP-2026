@@ -101,7 +101,31 @@ Project B looks imperfect from a schedule perspective, but it delivered strong o
 
 On the PMP exam, you are expected to think more like the leader of Project B than Project A. You are rewarded for recognizing when value is being created (or not), even if the story is a little messy.
 
-### 3.1.3 How Value Thinking Changes the Project Manager’s Role
+### 3.1.3 Creating Value in Different Organizational Contexts
+
+Projects do not happen only in large corporations. They show up everywhere: in government agencies rolling out new policies or systems, in small and medium businesses launching new services, in nonprofits organizing community events, and even in families planning major life changes or vacations. In this book, the word “organization” is used broadly to cover any entity—public, private, or informal—that undertakes projects to create value.
+
+Organizations exist to create value for their stakeholders. That value can be:
+
+- Financial (revenue growth, cost reduction, profitability);  
+- Nonfinancial but measurable (customer or citizen satisfaction, safety, quality, compliance);  
+- Strategic (new capabilities, entering a new market, building a brand);  
+- Societal or environmental (community development, sustainability, ethical impact).
+
+Because projects are investments, the expected value from a project—across all of these dimensions—should meet or exceed a target threshold defined by the organization. If the expected value falls below that threshold, the project should be challenged, adapted, or even stopped.
+
+Common ways projects meet or exceed value thresholds include:
+
+- Creating a new product, service, or result that clearly meets stakeholder needs;  
+- Delivering within an agreed performance baseline (scope, schedule, cost, quality) when that baseline represents a high-value outcome;  
+- Contributing to community development, environmental stewardship, or ethical responsibilities;  
+- Improving efficiency, productivity, effectiveness, responsiveness, or employee well-being;  
+- Enabling the organizational change needed to reach a desired future state;  
+- Sustaining and extending benefits created by earlier projects, programs, or business operations.
+
+In modern practice, value thinking also extends beyond the boundaries of the sponsoring organization. Many exam scenarios include elements such as sustainability, social impact, or long-term community effects. The “PMP answer” usually recognizes that projects are expected to create value not just for the sponsoring organization, but also for affected customers, communities, and the wider system in which the organization operates.
+
+### 3.1.4 How Value Thinking Changes the Project Manager’s Role
 
 When you adopt a value mindset, your role as a project manager shifts in subtle but important ways.
 
@@ -129,7 +153,7 @@ On the exam, these behaviors often show up in answer choices where the project m
 - Uses measures (such as cycle time, error rates, or satisfaction scores) to judge success.  
 - Proposes adjustments that preserve or increase value, even if they require renegotiating scope, schedule, or approach.
 
-### 3.1.4 Why Value Matters for Project Management Practice
+### 3.1.5 Why Value Matters for Project Management Practice
 
 This broader view of value has several practical effects on how projects are managed:
 
@@ -151,7 +175,7 @@ This broader view of value has several practical effects on how projects are man
 
 Project managers who focus only on “finishing the project” may overlook these dimensions. The PMP exam tries to distinguish between someone who can manage tasks and someone who can help an organization create real, sustainable value.
 
-### 3.1.5 What This Means for the PMP Exam
+### 3.1.6 What This Means for the PMP Exam
 
 On the exam, the output–outcome–benefit–value chain shows up in many subtle ways. Common patterns:
 
@@ -206,7 +230,38 @@ On the exam, you will see scenarios where:
 
 A PMP is expected to understand where their project sits in this larger value delivery system, not to treat it as an isolated activity.
 
-### 3.2.1 Characteristics of a Project
+### 3.2.1 Relationship of Portfolio, Program, Project, and Operations Management
+By utilizing project management principles, processes, tools, and techniques, organizations can
+effectively achieve their goals and objectives while delivering value. Portfolios, programs, projects,
+and operations are integral components of an organization, each serving interconnected roles.
+Projects are often managed as stand-alone initiatives but they can also be part of larger portfolios or
+programs. When projects are grouped together into a program, they are managed in a coordinated
+manner to obtain benefits not available from managing them individually. Programs drive significant
+organizational change; they are not merely large projects. Programs aim to achieve organizational
+change and improvement by connecting resources and aligning projects strategically to create
+synergies. This integration maximizes generated value, enhances efficiency, and delivers value that
+individual projects cannot achieve on their own.
+Some organizations use a portfolio to manage multiple programs and projects that are underway at
+any given time. A portfolio is a collection of programs, projects, and operations managed as a group
+to maximize overall value delivery and achieve strategic objectives, meet mandatory obligations,
+or generate income streams. Portfolio management involves selecting, prioritizing, managing, and
+optimizing an organization’s programs and projects in line with its strategic goals, obligations (legal
+or otherwise), or business objectives. This holistic view helps ensure that resources are allocated
+efficiently and that the portfolio delivers maximum value.
+Portfolios, programs, projects, and operations often engage with the same stakeholders and may
+compete for the same resources. Portfolio, program, and project managers should work together
+with operations leaders to maintain a balanced approach to resource allocation and stakeholder
+engagement. Overlap and competition for resources can otherwise threaten the organization’s
+strategic objectives.
+Figure 1-2 illustrates a sample portfolio indicating the relationships among the organizational
+components (i.e., programs, projects, shared resources, and stakeholders). Organizational and
+portfolio planning impact these components through prioritization based on risks, funding, and other
+considerations. The portfolio view allows organizations to see how the strategic goals are reflected
+in the portfolio. This portfolio view also enables the implementation and coordination of appropriate
+portfolio, program, and project governance. Coordinated governance allows for the authorized
+allocation of human, financial, and physical resources based on expected performance and benefits.
+
+### 3.2.2 Characteristics of a Project
 
 Organizations expect projects to deliver value in addition to outputs and artifacts. Project managers are expected to deliver project outcomes that create value for the organization and stakeholders within the organization’s system for value delivery. Organizational work encompasses both operations and projects. Although both are expected to deliver value beyond outputs and artifacts, they differ in their value-creation processes. The following terms are defined to provide context for these distinctions and the broader content of this standard:
 
@@ -568,6 +623,35 @@ When you read a question, ask yourself:
 - “Which option best protects the organization’s overall value, even if it is uncomfortable for this one project?”
 
 If you practice reading scenarios through this strategic lens, you will be better prepared for Business Environment questions and better equipped for real-world leadership conversations about when to start, adapt, or stop projects.
+
+### 3.3.8 Value Delivery Components and Environments
+
+So far, we have focused on strategy and governance. The PMI standard also emphasizes that value is created by the combined action of several components working together as a system:
+
+- **Portfolios** – Choose and balance the mix of programs, projects, products, and operations so the organization’s limited resources are focused on the highest-value work.  
+- **Programs** – Coordinate related projects (and sometimes ongoing work) to deliver benefits that no single project can provide on its own.  
+- **Projects** – Implement specific changes that create or enhance products, services, or capabilities.  
+- **Products** – Ongoing offerings that deliver value to customers and users over time, often supported by multiple projects and releases.  
+- **Operations** – Run the business day to day, using and sustaining products and services so benefits continue over the long term.
+
+Together, these components form the organization’s **value delivery system**. Two perspectives from the PMI standard are especially important for PMP questions:
+
+- The value delivery system is part of the organization’s **internal environment**  
+  - It is shaped by policies, procedures, frameworks, culture, and governance structures.  
+  - These internal factors influence how portfolios, programs, and projects are selected, prioritized, and controlled.
+
+- The internal environment sits inside a broader **external environment**  
+  - Economy, regulations, competitors, technology trends, and social expectations all affect what is valuable and what is feasible.  
+  - When the external environment shifts, strategy and the value delivery system must adjust, which in turn affects portfolios, programs, and projects.
+
+Across this system, the basic value chain is the same:
+
+1. Portfolios, programs, projects, and operations create **deliverables** (products, services, capabilities).  
+2. Those deliverables are used in operations to produce **outcomes** (changes in behavior, performance, or conditions).  
+3. Outcomes lead to **benefits**—positive effects such as increased revenue, reduced risk, improved satisfaction—or **disbenefits**, such as unintended costs or negative impacts.  
+4. Benefits and disbenefits combine into **value**, which must meet or exceed target thresholds to justify the original investment.
+
+A value delivery system works best when information flows freely among all components: performance data from operations informs product roadmaps; program and portfolio reviews adjust priorities based on realized benefits; strategic changes cascade down to project decisions. On the exam, strong answers often recognize this feedback loop—for example, by updating the business case or re-prioritizing work when outcome data shows that benefits or value are not materializing as expected.
 
 ---
 
