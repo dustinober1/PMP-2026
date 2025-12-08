@@ -188,14 +188,41 @@ Governance defines how business analysis decisions are made, who has authority, 
 #### 4. Quality Standards
 **What makes requirements "good enough"?**
 
-**Common Quality Criteria:**
+**Requirements Characteristics (from IEEE 830 standard):**
 - **Complete**: All needed requirements captured
+  - No missing functionality
+  - All conditions defined
+  - All inputs and outputs specified
 - **Correct**: Accurate reflection of needs
+  - Free from errors
+  - Accurately represents stakeholder needs
+  - Logically consistent
 - **Feasible**: Achievable within constraints
+  - Technically possible
+  - Within budget and schedule
+  - Complies with regulations
 - **Necessary**: Adds value to solution
+  - Each requirement serves a purpose
+  - No unnecessary features
+  - Cost-justified
 - **Unambiguous**: Clear interpretation by all
+  - Single, clear meaning
+  - Precise language
+  - No subjective terms
 - **Verifiable**: Testable acceptance criteria
+  - Can be proven through testing
+  - Clear pass/fail criteria
+  - Measurable outcomes
 - **Traceable**: Linked to business need
+  - Source identified
+  - Forward and backward links
+  - Coverage analysis possible
+
+**Additional Quality Criteria:**
+- **Modifiable**: Can be changed without affecting other requirements
+- **Prioritized**: Relative importance identified
+- **Atomic**: Represents single requirement (not compound)
+- **Consistent**: No conflicts with other requirements
 
 ---
 
