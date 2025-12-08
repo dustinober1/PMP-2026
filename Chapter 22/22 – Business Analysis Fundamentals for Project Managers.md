@@ -135,6 +135,106 @@ While distinct, business analysis and project management overlap significantly. 
 
 ---
 
+## Requirements Classification Schema
+
+Understanding the different types of requirements helps ensure comprehensive coverage and proper organization. The PMI Guide classifies requirements into four main categories:
+
+### 1. Business Requirements
+**Definition**: High-level requirements that describe the needs of the organization as a whole.
+
+**Characteristics:**
+- Describe why the project is being undertaken
+- Link directly to business goals and objectives
+- Provide context for all other requirements
+- Often captured in the business case and project charter
+
+**Examples:**
+- Reduce invoice processing time by 50%
+- Improve customer satisfaction score from 85% to 95%
+- Achieve compliance with new regulations
+- Increase market share by 15%
+
+### 2. Stakeholder Requirements
+**Definition**: Requirements that describe the needs of stakeholders or stakeholder groups.
+
+**Characteristics:**
+- Bridge between business needs and solution features
+- Often expressed as stakeholder goals or objectives
+- May conflict across different stakeholder groups
+- Require negotiation and prioritization
+
+**Examples:**
+- Sales team needs mobile access to customer data
+- Finance department needs automated approval workflows
+- Customers need self-service portal for 24/7 access
+- IT team needs integration with existing systems
+
+### 3. Solution Requirements
+**Definition**: Requirements that describe the characteristics of a solution that meets the business and stakeholder requirements. Divided into two subcategories:
+
+**Functional Requirements:**
+- Describe what the solution must do
+- Behaviors, functions, and features
+- User interactions and system responses
+- Business processes and workflows
+
+**Examples:**
+- System shall generate monthly reports
+- Users can reset their own passwords
+- Application must support role-based access
+- System shall send email notifications
+
+**Non-Functional Requirements (NFRs):**
+- Describe how the solution performs its functions
+- Quality attributes and constraints
+- Often called "quality" or "service level" requirements
+- Critical for user acceptance and system success
+
+**Categories:**
+- **Performance**: Response time, throughput, capacity
+- **Security**: Authentication, authorization, data protection
+- **Usability**: Ease of use, learnability, accessibility
+- **Reliability**: Availability, mean time between failures
+- **Scalability**: Ability to handle growth
+- **Maintainability**: Ease of modification and enhancement
+
+### 4. Transition Requirements
+**Definition**: Requirements that describe capabilities needed to transition from the current state to the future state.
+
+**Characteristics:**
+- Temporary in nature
+- Support implementation and deployment
+- Often related to data migration, training, and organizational change
+- Critical for smooth transition
+
+**Examples:**
+- Convert legacy data to new system format
+- Train 500 users on new processes
+- Phase out old system gradually
+- Establish temporary support during transition
+
+### Requirement Hierarchy and Traceability
+
+```
+Business Requirements (Why)
+    ↓
+Stakeholder Requirements (Who)
+    ↓
+Solution Requirements (What)
+    ├── Functional Requirements (Features)
+    └── Non-Functional Requirements (Quality)
+    ↓
+Transition Requirements (How to get there)
+```
+
+**Traceability Benefits:**
+- Ensures all requirements align with business objectives
+- Identifies requirement gaps and overlaps
+- Facilitates impact analysis for changes
+- Supports verification and validation
+
+---
+
 ## Business Analysis Knowledge Areas Overview
 
 The PMI Guide defines six knowledge areas for business analysis:
