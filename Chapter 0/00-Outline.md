@@ -344,42 +344,106 @@
   - Transition and handover scenarios
   - Communication strategy selection
 
+### Chapter 24 – Program Management
+**Note: This chapter provides comprehensive coverage of program management based on PMI's Standard for Program Management (Fifth Edition)**
+
+- **24 – Program Management**
+  - Program vs. Project vs. Portfolio distinctions
+  - Five program performance domains
+  - Program management as strategic coordination
+  - Sarah's program journey narrative
+
+- **24a – Program Strategy Alignment**
+  - Program business case development
+  - Environmental scanning and analysis
+  - Program roadmapping and coordination
+  - Maintaining strategic alignment throughout program lifecycle
+  - Alignment across predictive, agile, and hybrid contexts
+
+- **24b – Program Benefits Management**
+  - Benefits identification and categorization
+  - Creating and maintaining benefits registers
+  - Benefits realization planning and tracking
+  - Benefits measurement and sustainment
+  - Common benefits management challenges and solutions
+
+- **24c – Program Stakeholder Engagement**
+  - Program stakeholder identification and analysis
+  - Stakeholder influence and impact assessment
+  - Program-level engagement strategies
+  - Communication management at program scale
+  - Managing stakeholder expectations and conflicts
+
+- **24d – Program Governance**
+  - Program governance structures and frameworks
+  - Program management plan development
+  - Oversight and control mechanisms
+  - Decision-making authority and escalation
+  - Audit and compliance management
+
+- **24e – Program Life Cycle Management**
+  - Program definition phase activities
+  - Program delivery phase management
+  - Program closure processes and transitions
+  - Phase reviews and gate assessments
+  - Managing transitions between program phases
+
+- **24f – Program Management Tailoring**
+  - Organizational context assessment
+  - Tailoring development approaches (predictive, agile, hybrid)
+  - Adapting governance and leadership approaches
+  - Customizing tools, metrics, and processes
+  - Continuous tailoring improvement
+
+- **24g – Program Manager Competencies**
+  - Technical program management competencies
+  - Leadership competencies for program success
+  - Strategic and business management skills
+  - Competency development and assessment
+  - Applying competencies in program contexts
+
+- **24h – Knowledge Check**
+  - Program management practice scenarios
+  - Integration of all program management concepts
+  - Application across different program types
+  - Detailed explanations reinforcing key concepts
+
 ---
 
-## Part 6 – Practice Exams, AI, and Exam Strategy
+## Part 7 – Practice Exams, AI, and Exam Strategy
 
-### Chapter 19 – Exam Strategy and Test-Taking Skills
-- **19a – Understanding the Exam Format and Structure**
+### Chapter 20 – Exam Strategy and Test-Taking Skills
+- **20a – Understanding the Exam Format and Structure**
   - PMP exam format, question types, and time allocation
   - Domain distribution (People 33%, Process 41%, Business Environment 26%) based on the July 2026 ECO
   - Passing criteria and score reporting at a high level
   - Strategies for different question types
 
-- **19b – Analyzing and Approaching Scenario-Based Questions**
+- **20b – Analyzing and Approaching Scenario-Based Questions**
   - Three-layer method: Read question first, skim scenario, identify core problem
   - Common scenario patterns (hidden risk, competing priorities, escalation)
   - Identifying red herrings and distinguishing essential information
   - Keywords that signal domain and framework
 
-- **19c – Test-Taking Strategies and Techniques**
+- **20c – Test-Taking Strategies and Techniques**
   - Four-step elimination process
   - Recognizing distractor traps and avoiding thinking errors
   - Domain-specific shortcuts
   - 30-second decision rule for efficient question handling
 
-- **19d – Time Management and Exam-Day Logistics**
+- **20d – Time Management and Exam-Day Logistics**
   - Time allocation and pacing strategies
   - Managing energy and mental focus during the 4-hour (240-minute) exam
   - Exam-day logistics (what to expect, what to bring, handling disruptions)
   - Checkpoint approach and mark-and-move strategy
 
-- **19e – Practice, Preparation, and Building Confidence**
+- **20e – Practice, Preparation, and Building Confidence**
   - Three phases of preparation (knowledge, technique, integration)
   - Practice timeline and mock exam strategy
   - How to analyze mock exam results and create feedback loops
   - Building confidence through deliberate practice and psychological resilience
 
-### Chapter 20 – AI Essentials for Project Professionals
+### Chapter 21 – AI Essentials for Project Professionals
 - Practical use of AI tools across the project lifecycle
 - Guardrails for privacy, ethics, and responsible AI use (linked to governance and risk content in Chapters 16 and 17)
 - Integrating AI into team ways of working and governance (including PMO, project professionals, and TMO roles in leading AI transformation)
@@ -392,7 +456,7 @@
 - Domain and topic mapping table
 - Separate answer key with explanations
 
-### Chapter 22 – Business Analysis Fundamentals for Project Managers
+### Chapter 25 – Business Analysis Fundamentals for Project Managers
 - **22 – Business Analysis Fundamentals for Project Managers**
   - Introduction to business analysis for project managers
   - Business Analysis Core Concept Model (BACCM)
@@ -450,7 +514,7 @@
   - Technique selection scenarios
   - Role distinction questions
 
-### Chapter 23 – Process Groups Implementation Guide
+### Chapter 26 – Process Groups Implementation Guide
 - **23 – Process Groups Implementation Guide**
   - Introduction: Bridging Process Groups with three exam domains
   - Process Groups framework overview and exam relevance
