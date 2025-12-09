@@ -22,7 +22,7 @@ Sarah's first realization: **Programs exist because projects can't always succee
 
 Her second realization: **Alignment is hard work.** It requires clear governance, active coordination, shared understanding of goals, and willingness to subordinate individual project interests to program success.
 
-This section explores how projects and programs maintain strategic alignment, coordinate with each other, and fit within broader portfolio structures.
+This section explores how projects and programs maintain strategic alignment, coordinate with each other, and fit within broader portfolio structures. For comprehensive coverage of program management principles and practices, see Chapter 24: Program Management.
 
 ---
 

@@ -25,7 +25,7 @@ The room fell silent. The project had been deemed successful because it delivere
 
 Sarah learned a critical lesson that day: **Delivering outputs isn't the same as delivering value.** Projects exist to create benefits, not just to produce deliverables. If you can't demonstrate that strategic value was realized, the project's success is questionable—regardless of whether scope, schedule, and budget targets were met.
 
-This section explores benefits realization management: how organizations identify expected benefits, plan for their realization, track whether they materialize, and ensure projects deliver real strategic value.
+This section explores benefits realization management: how organizations identify expected benefits, plan for their realization, track whether they materialize, and ensure projects deliver real strategic value. For comprehensive program benefits management, see Chapter 24b: Program Benefits Management.
 
 ---
 
