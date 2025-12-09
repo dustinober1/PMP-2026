@@ -52,6 +52,9 @@ Creating strategic roadmaps that guide multi-year project and program planning. 
 ### [15f – Monitoring and Responding to External Business Environment Changes](15f%20%E2%80%93%20Monitoring%20and%20Responding%20to%20External%20Business%20Environment%20Changes.md)
 Establishing processes to monitor external environment (regulatory, market, technology, economic, geopolitical changes). Assessing impact of external changes on project viability. Responding strategically when environment shifts. Communicating external risks to decision-makers. Integrating environmental scanning across different delivery approaches.
 
+### [15h – Project Management Offices](15h%20%E2%80%93%20Project%20Management%20Offices.md)
+Understanding PMOs as strategic partners that enable organizational success. The PMO Value Ring™ framework for customer-centric value delivery. PMO types, services, and maturity levels. Implementing and evolving PMOs to meet organizational needs.
+
 ### [15g – Knowledge Check](15g%20%E2%80%93%20Knowledge%20Check.md)
 Scenario-based practice questions testing your understanding of strategy and portfolio alignment concepts, with detailed explanations tied to PMI principles.
 
@@ -122,6 +125,7 @@ This chapter addresses the following tasks from the PMP Certification Exam Conte
 - **15d (Benefits Realization and Value Creation)**: Illustrates how strategic benefits are defined and how they connect to organizational strategic objectives and external value creation
 - **15e (Strategic Planning and Roadmaps)**: Explores how strategic roadmaps respond to external changes, how organizations adapt strategy over time, and how portfolio management maintains compliance with governance
 - **15f (Monitoring and Responding to External Business Environment Changes)**: Establishes systematic environmental monitoring processes, describes impact assessment frameworks, and explains how to respond strategically when external conditions shift
+- **15h (Project Management Offices)**: Demonstrates how PMOs ensure organizational compliance through standardized processes, governance frameworks, and strategic alignment; shows PMO role in monitoring external environment and enabling organizational adaptation to change
 
 Strategic alignment is not a one-time activity during project selection. This chapter shows how project managers and portfolio managers continuously monitor the external environment and ensure that projects and programs remain strategically compliant and responsive to external business environment changes throughout the project lifecycle.
 
