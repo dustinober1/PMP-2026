@@ -236,6 +236,15 @@
 - Project selection and prioritization
 - Organizational structures and their impact on projects
 - Governance models and decision bodies
+
+**15h – Project Management Offices**
+- PMO evolution and modern strategic role
+- PMO Value Ring™ framework for value delivery
+- Customer-centric PMO approaches
+- PMO types, services, and maturity levels
+- Implementing and evolving PMOs
+- PMO success metrics and value demonstration
+
 - **15g – Advanced Portfolio Management Domains**
   - Portfolio Stakeholder Engagement (Strategic vs. Tactical)
   - Portfolio Risk Management (Aggregate risk, diversification)
