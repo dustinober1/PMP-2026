@@ -75,6 +75,8 @@ Calculate:
 - TCPI = (BAC-EV)/(BAC-AC) = 1.17
 ```
 
+*For detailed explanations of these formulas, see [Appendix A: EVM Formulas](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#earned-value-management-evm-formulas)*
+
 **Step 2: Analyze Variances**
 - Schedule variance: -$30K exceeds 10% threshold ($30K) → requires analysis
 - Cost variance: -$40K exceeds 10% threshold ($27K) → requires analysis
@@ -89,6 +91,8 @@ Calculate:
 EAC (CPI-based) = BAC/CPI = $500,000/0.87 = $574,713
 VAC = BAC - EAC = -$74,713
 ```
+
+*For EAC calculation methods and worked examples, see [Appendix A: Forecasting Formulas](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#forecasting-formulas)*
 
 **Step 5: Evaluate Options**
 1. **Accept variance**: Request baseline change for $74,713 overrun

@@ -90,6 +90,8 @@ TCPI = $300,000 / $250,000 = 1.20
 
 A TCPI of 1.20 means the project must achieve 20% better cost efficiency on remaining work than originally planned to meet the original budget. This indicates the current performance (CPI = 0.80) is insufficient and corrective action is needed.
 
+*For detailed TCPI formulas, variants, and feasibility assessment, see [Appendix A: TCPI](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#to-complete-performance-index-tcpi)*
+
 ---
 
 ## Question 2: Control Account Manager Responsibilities

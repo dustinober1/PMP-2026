@@ -14,6 +14,41 @@ This appendix is not exhaustive (the study guide contains much more detail), but
 
 ## Part 1: Key Formulas
 
+### Table of Contents - Formulas by Knowledge Area
+
+#### [Earned Value Management (EVM)](#earned-value-management-evm-formulas)
+- [Basic EVM Metrics](#basic-evm-metrics) - PV, EV, AC
+- [Performance Indices and Variance Analysis](#performance-indices-and-variance-analysis) - SV, CV, SPI, CPI
+- [Forecasting Formulas](#forecasting-formulas) - EAC (3 methods), ETC, VAC
+- [Additional EVM Formulas](#additional-evm-formulas) - TCPI, Schedule Variance in Time
+- [EVM Comparison Tables](#evm-formula-comparison-table)
+
+#### [Schedule Management](#schedule-formulas)
+- [Critical Path and Duration Calculations](#critical-path-and-duration-calculations) - Critical Path, Float, ES/EF/LS/LF
+- [Agile Schedule Metrics](#agile-schedule-metrics) - Velocity, Burn-down, Release Forecasting
+- [Schedule Calculation Comparisons](#schedule-calculation-comparison)
+
+#### [Cost Management](#cost-formulas)
+- [Budget-Related Formulas](#budget-related-formulas) - Budget utilization, Cost indices
+- [Return on Investment](#return-on-investment-roi) - ROI, Payback Period, NPV, Profitability Index
+
+#### [Risk Management](#risk-formulas)
+- [Expected Monetary Value](#expected-monetary-value-emv) - EMV calculations for risks and opportunities
+- [Risk Reserve Calculations](#risk-reserve-calculations) - Contingency, Management Reserve
+
+#### [Quality Management](#quality-metrics)
+- [Defect Metrics](#defect-metrics) - Defect density, Cost of Quality
+- [SLA and Performance Metrics](#sla-and-performance-metrics) - SLA compliance
+
+#### [Communications Management](#communication-formulas)
+- [Communication Channels](#communication-channels) - Channel calculation formula
+
+#### [Estimation and Analysis](#estimation-and-analysis-formulas)
+- [Three-Point Estimating](#three-point-estimating) - PERT formula and standard deviation
+- [Estimate Types Comparison](#estimate-types-comparison) - ROM, Budget, Definitive estimates
+
+---
+
 ### Earned Value Management (EVM) Formulas
 
 Earned Value Management is a critical project control technique used across predictive and hybrid projects. These formulas help you measure performance against the plan.
@@ -22,58 +57,135 @@ Earned Value Management is a critical project control technique used across pred
 
 **Planned Value (PV)**
 - **What it is**: The authorized budget assigned to work scheduled to be completed during a given time period
-- **Formula**: Sum of budgeted cost of all work scheduled to be completed by a specific date
-- **Example**: If a project budget is $100,000 and you're 50% through the timeline, PV is approximately $50,000
+- **Formula**: PV = Sum of budgeted cost of all work scheduled to be completed by a specific date
+- **Variables**: 
+  - PV = Planned Value (in currency units)
+  - Budgeted cost = Original budget allocated to each work package
+  - Scheduled completion = Work planned to be done by the measurement date
+- **Worked Example**: 
+  - Project budget: $100,000 over 10 months
+  - Current date: End of month 5
+  - Work scheduled to be complete by month 5: 50%
+  - PV = $100,000 × 0.50 = $50,000
+- **Common Mistakes**:
+  - Confusing PV with actual spending (AC) - PV is what you planned to spend, not what you actually spent
+  - Using calendar time instead of work completion percentage for non-linear projects
 - **Use case**: Establishes what "should have been spent" by a given date
 
 **Earned Value (EV)**
 - **What it is**: The budgeted cost of work that has actually been completed
-- **Formula**: Budgeted cost per unit × Actual units completed (or % complete × total budget)
-- **Example**: If your project budget is $100,000 and you've completed 60% of the work, EV = $60,000
+- **Formula**: EV = Budgeted cost per unit × Actual units completed (or % complete × total budget)
+- **Variables**:
+  - EV = Earned Value (in currency units)
+  - % complete = Actual percentage of work completed
+  - Total budget = BAC (Budget at Completion)
+- **Worked Example**:
+  - Project budget (BAC): $100,000
+  - Actual work completed: 60%
+  - EV = $100,000 × 0.60 = $60,000
+- **Common Mistakes**:
+  - Using subjective "percent complete" estimates instead of objective measures
+  - Confusing EV with AC - EV is the value of work done, AC is what you paid for it
+  - Not updating completion percentages regularly
 - **Use case**: Measures actual progress in financial terms
 
 **Actual Cost (AC)**
 - **What it is**: The total cost incurred to complete the work to date
-- **Formula**: Sum of all actual expenses incurred for completed work
-- **Example**: If you've spent $55,000 to complete 60% of the project, AC = $55,000
+- **Formula**: AC = Sum of all actual expenses incurred for completed work
+- **Variables**:
+  - AC = Actual Cost (in currency units)
+  - Actual expenses = All costs incurred (labor, materials, overhead, etc.)
+- **Worked Example**:
+  - Labor costs to date: $35,000
+  - Material costs to date: $15,000
+  - Overhead costs to date: $5,000
+  - AC = $35,000 + $15,000 + $5,000 = $55,000
+- **Common Mistakes**:
+  - Including costs for work not yet completed
+  - Forgetting to include all cost categories (overhead, indirect costs)
+  - Using budgeted costs instead of actual invoiced amounts
 - **Use case**: Represents what you've actually paid
 
 #### Performance Indices and Variance Analysis
 
 **Schedule Variance (SV)**
 - **Formula**: SV = EV – PV
+- **Variables**:
+  - SV = Schedule Variance (in currency units)
+  - EV = Earned Value
+  - PV = Planned Value
 - **Interpretation**:
   - Positive SV = ahead of schedule
   - Negative SV = behind schedule
   - SV of 0 = on schedule
-- **Example**: EV = $60,000, PV = $50,000 → SV = $10,000 (ahead of schedule)
+- **Worked Example**: 
+  - EV = $60,000 (work completed)
+  - PV = $50,000 (work planned)
+  - SV = $60,000 – $50,000 = $10,000 (ahead of schedule)
+- **Common Mistakes**:
+  - Interpreting SV as time units instead of currency units
+  - Using SV late in projects when it becomes less meaningful (use SPI instead)
+  - Confusing positive/negative interpretation (positive = good performance)
 - **Note**: Schedule variance in dollars is less common in modern practice; see Schedule Performance Index below
 
 **Cost Variance (CV)**
 - **Formula**: CV = EV – AC
+- **Variables**:
+  - CV = Cost Variance (in currency units)
+  - EV = Earned Value
+  - AC = Actual Cost
 - **Interpretation**:
   - Positive CV = under budget
   - Negative CV = over budget
   - CV of 0 = on budget
-- **Example**: EV = $60,000, AC = $55,000 → CV = $5,000 (under budget)
+- **Worked Example**: 
+  - EV = $60,000 (value of work completed)
+  - AC = $55,000 (actual cost incurred)
+  - CV = $60,000 – $55,000 = $5,000 (under budget)
+- **Common Mistakes**:
+  - Confusing CV with profit (CV measures efficiency, not profit margin)
+  - Ignoring CV trends - one good period doesn't guarantee future performance
+  - Not considering if positive CV is due to delayed work rather than efficiency
 - **Use case**: Directly tells you whether you're spending more or less than planned
 
 **Schedule Performance Index (SPI)**
 - **Formula**: SPI = EV / PV
+- **Variables**:
+  - SPI = Schedule Performance Index (ratio, no units)
+  - EV = Earned Value
+  - PV = Planned Value
 - **Interpretation**:
   - SPI > 1 = ahead of schedule
   - SPI < 1 = behind schedule
   - SPI = 1 = on schedule
-- **Example**: EV = $60,000, PV = $50,000 → SPI = 1.2 (20% ahead of schedule)
+- **Worked Example**: 
+  - EV = $60,000
+  - PV = $50,000
+  - SPI = $60,000 / $50,000 = 1.2 (20% ahead of schedule)
+- **Common Mistakes**:
+  - Expecting SPI to remain meaningful late in projects (it approaches 1.0 regardless of delays)
+  - Using SPI for time forecasting without considering remaining work complexity
+  - Confusing SPI with productivity ratios
 - **Use case**: More useful than SV; tells you the ratio of performance
 
 **Cost Performance Index (CPI)**
 - **Formula**: CPI = EV / AC
+- **Variables**:
+  - CPI = Cost Performance Index (ratio, no units)
+  - EV = Earned Value
+  - AC = Actual Cost
 - **Interpretation**:
   - CPI > 1 = under budget (efficient)
   - CPI < 1 = over budget (inefficient)
   - CPI = 1 = on budget
-- **Example**: EV = $60,000, AC = $55,000 → CPI = 1.09 (9% more efficient than planned)
+- **Worked Example**: 
+  - EV = $60,000
+  - AC = $55,000
+  - CPI = $60,000 / $55,000 = 1.09 (9% more efficient than planned)
+- **Common Mistakes**:
+  - Expecting CPI to improve significantly after early project phases (it tends to stabilize)
+  - Using CPI alone without considering project phase and remaining work
+  - Confusing efficiency with effectiveness (high CPI doesn't guarantee project success)
 - **Use case**: Single most important metric for cost performance; CPI of 0.95+ is generally considered acceptable
 
 #### Forecasting Formulas
@@ -84,40 +196,128 @@ The EAC represents your final project cost based on current performance.
 
 *Method 1: Assuming current rate continues*
 - **Formula**: EAC = BAC / CPI
-- **When to use**: If current cost performance is expected to continue
-- **Example**: BAC = $100,000, CPI = 0.95 → EAC = $105,263
+- **Variables**:
+  - EAC = Estimate at Completion (in currency units)
+  - BAC = Budget at Completion (original total budget)
+  - CPI = Cost Performance Index
+- **When to use**: If current cost performance is expected to continue for remaining work
+- **Worked Example**: 
+  - BAC = $100,000
+  - CPI = 0.95 (5% over budget so far)
+  - EAC = $100,000 / 0.95 = $105,263
 - **Interpretation**: At current spending rate, project will cost 5% more than budget
+- **Common Mistakes**:
+  - Using this method when cost issues are known to be temporary
+  - Not considering if remaining work has different cost characteristics than completed work
 
 *Method 2: Assuming variance is complete (fixed)*
 - **Formula**: EAC = AC + (BAC – EV)
-- **When to use**: If the cost variance is considered a one-time event
-- **Example**: AC = $55,000, BAC = $100,000, EV = $60,000 → EAC = $55,000 + ($100,000 – $60,000) = $95,000
-- **Interpretation**: You're currently $5K under budget, and that will continue
+- **Variables**:
+  - EAC = Estimate at Completion
+  - AC = Actual Cost to date
+  - BAC = Budget at Completion
+  - EV = Earned Value to date
+- **When to use**: If the cost variance is considered a one-time event that won't recur
+- **Worked Example**: 
+  - AC = $55,000 (spent so far)
+  - BAC = $100,000 (total budget)
+  - EV = $60,000 (work completed)
+  - Remaining work = BAC – EV = $100,000 – $60,000 = $40,000
+  - EAC = $55,000 + $40,000 = $95,000
+- **Interpretation**: Current efficiency will continue; project finishes $5K under budget
+- **Common Mistakes**:
+  - Using when cost problems are systemic rather than one-time events
+  - Not validating that remaining work can actually be done at budgeted rates
 
 *Method 3: Accounting for both schedule and cost (hybrid)*
 - **Formula**: EAC = AC + [(BAC – EV) / (CPI × SPI)]
+- **Variables**:
+  - EAC = Estimate at Completion
+  - AC = Actual Cost to date
+  - BAC = Budget at Completion
+  - EV = Earned Value to date
+  - CPI = Cost Performance Index
+  - SPI = Schedule Performance Index
 - **When to use**: For a more nuanced projection accounting for both schedule and cost performance
-- **Example**: AC = $55K, BAC = $100K, EV = $60K, CPI = 1.09, SPI = 1.2 → EAC = $55K + ($40K / (1.09 × 1.2)) = $55K + $30.6K = $85.6K
-- **Interpretation**: The project will finish earlier and under budget
+- **Worked Example**: 
+  - AC = $55,000
+  - BAC = $100,000
+  - EV = $60,000
+  - CPI = 1.09 (9% under budget)
+  - SPI = 1.2 (20% ahead of schedule)
+  - Remaining work budget = BAC – EV = $40,000
+  - Performance factor = CPI × SPI = 1.09 × 1.2 = 1.31
+  - EAC = $55,000 + ($40,000 / 1.31) = $55,000 + $30,534 = $85,534
+- **Interpretation**: Strong performance in both cost and schedule will continue
+- **Common Mistakes**:
+  - Using when schedule and cost performance are not correlated
+  - Applying late in project when SPI becomes less meaningful
+
+#### EAC Method Comparison Table
+
+| Method | Formula | When to Use | Assumption | Example Scenario |
+|--------|---------|-------------|------------|------------------|
+| **Method 1** | BAC / CPI | Current performance continues | Cost efficiency remains constant | Consistent team, similar remaining work |
+| **Method 2** | AC + (BAC - EV) | Variance was one-time | Future work at planned rates | Early cost overrun due to setup, now resolved |
+| **Method 3** | AC + [(BAC-EV)/(CPI×SPI)] | Both cost and schedule matter | Combined performance continues | Fast-tracking affects both cost and schedule |
+
+**Choosing the Right EAC Method**:
+- **Use Method 1** when cost performance has stabilized and remaining work is similar to completed work
+- **Use Method 2** when cost issues were due to specific early problems that are now resolved
+- **Use Method 3** when schedule performance significantly impacts cost (e.g., overtime, resource optimization)
 
 **Estimate to Complete (ETC)**
 - **Formula**: ETC = EAC – AC
+- **Variables**:
+  - ETC = Estimate to Complete (in currency units)
+  - EAC = Estimate at Completion
+  - AC = Actual Cost to date
 - **Interpretation**: How much more you'll spend to finish the project
-- **Example**: EAC = $105,263, AC = $55,000 → ETC = $50,263
+- **Worked Example**: 
+  - EAC = $105,263 (forecasted final cost)
+  - AC = $55,000 (spent so far)
+  - ETC = $105,263 – $55,000 = $50,263
+- **Common Mistakes**:
+  - Confusing ETC with remaining budget (ETC is forecasted spend, not authorized budget)
+  - Not updating ETC regularly as project conditions change
+  - Using ETC without considering cash flow timing
 - **Use case**: Helps with cash flow planning and remaining budget allocation
 
 **Budget at Completion (BAC)**
 - **What it is**: The total authorized budget for the project
-- **Formula**: Sum of all budgets (not calculated; it's given in the project plan)
-- **Example**: BAC = $100,000
+- **Formula**: BAC = Sum of all authorized budgets (not calculated; it's given in the project plan)
+- **Variables**:
+  - BAC = Budget at Completion (in currency units)
+  - Authorized budgets = All approved work package budgets
+- **Worked Example**: 
+  - Work Package A budget: $30,000
+  - Work Package B budget: $45,000
+  - Work Package C budget: $25,000
+  - BAC = $30,000 + $45,000 + $25,000 = $100,000
+- **Common Mistakes**:
+  - Including contingency reserves in BAC (they're typically separate)
+  - Confusing BAC with total project funding (which may include management reserves)
+  - Changing BAC without proper change control
 - **Use case**: The baseline against which all performance is measured
 
 **Variance at Completion (VAC)**
 - **Formula**: VAC = BAC – EAC
+- **Variables**:
+  - VAC = Variance at Completion (in currency units)
+  - BAC = Budget at Completion
+  - EAC = Estimate at Completion
 - **Interpretation**:
-  - Positive = under budget at completion
-  - Negative = over budget at completion
-- **Example**: BAC = $100,000, EAC = $105,263 → VAC = -$5,263 (project will exceed budget by ~$5K)
+  - Positive VAC = under budget at completion
+  - Negative VAC = over budget at completion
+  - VAC of 0 = on budget at completion
+- **Worked Example**: 
+  - BAC = $100,000 (original budget)
+  - EAC = $105,263 (forecasted final cost)
+  - VAC = $100,000 – $105,263 = -$5,263 (project will exceed budget by $5,263)
+- **Common Mistakes**:
+  - Confusing VAC sign interpretation (negative = over budget)
+  - Not communicating VAC implications to stakeholders early enough
+  - Using VAC without considering confidence level in EAC forecast
 - **Use case**: Tells you your final budget impact
 
 #### Additional EVM Formulas
@@ -126,13 +326,62 @@ The EAC represents your final project cost based on current performance.
 - **What it is**: The cost performance index required on remaining work to meet a specific goal
 - **Formula (BAC target)**: TCPI = (BAC – EV) / (BAC – AC)
 - **Formula (EAC target)**: TCPI = (BAC – EV) / (EAC – AC)
+- **Variables**:
+  - TCPI = To-Complete Performance Index (ratio, no units)
+  - BAC = Budget at Completion
+  - EV = Earned Value to date
+  - AC = Actual Cost to date
+  - EAC = Estimate at Completion (for EAC target formula)
+- **When to use each formula**:
+  - BAC target: When you must meet the original budget
+  - EAC target: When you're working with a revised budget estimate
 - **Interpretation**:
   - TCPI > 1.0: Must perform better than planned to meet target
   - TCPI < 1.0: Can perform worse than planned and still meet target
   - TCPI = 1.0: Continue current performance to meet target
-- **Example**: BAC = $100K, EV = $60K, AC = $70K → TCPI = ($100K – $60K) / ($100K – $70K) = 1.33
-  - Must achieve a CPI of 1.33 on remaining work to meet original budget
+- **Worked Example (BAC target)**: 
+  - BAC = $100,000 (original budget)
+  - EV = $60,000 (work completed)
+  - AC = $70,000 (actual cost)
+  - Remaining work budget = BAC – EV = $40,000
+  - Remaining funds = BAC – AC = $30,000
+  - TCPI = $40,000 / $30,000 = 1.33
+  - **Interpretation**: Must achieve CPI of 1.33 on remaining work to meet original budget
+- **Worked Example (EAC target)**:
+  - BAC = $100,000, EV = $60,000, AC = $70,000
+  - EAC = $110,000 (revised budget estimate)
+  - Remaining work budget = BAC – EV = $40,000
+  - Remaining funds = EAC – AC = $40,000
+  - TCPI = $40,000 / $40,000 = 1.0
+  - **Interpretation**: Can continue at planned efficiency to meet revised budget
+- **Common Mistakes**:
+  - Using BAC target when the original budget is clearly unachievable
+  - Not considering if required TCPI is realistic given project constraints
+  - Confusing TCPI with CPI (TCPI is future requirement, CPI is past performance)
 - **Use case**: Determines if project goals are still achievable
+
+#### TCPI Variants Comparison
+
+| TCPI Variant | Formula | Target | When to Use | Interpretation |
+|--------------|---------|--------|-------------|----------------|
+| **TCPI (BAC)** | (BAC-EV)/(BAC-AC) | Original Budget | Must meet original budget | Required CPI to stay within BAC |
+| **TCPI (EAC)** | (BAC-EV)/(EAC-AC) | Revised Budget | Working with new budget estimate | Required CPI to meet EAC |
+
+**Decision Guide**:
+- **Use TCPI (BAC)** when:
+  - Original budget is contractually required
+  - Management insists on meeting original budget
+  - You need to show impact of meeting original budget
+- **Use TCPI (EAC)** when:
+  - Budget revision has been approved
+  - You're working with a realistic revised estimate
+  - You want to assess feasibility of revised budget
+
+**Feasibility Assessment**:
+- **TCPI < 0.9**: Very achievable (can perform worse than planned)
+- **TCPI 0.9-1.1**: Achievable (maintain current performance)
+- **TCPI 1.1-1.3**: Challenging but possible (need improvement)
+- **TCPI > 1.3**: Very difficult (may need scope or budget changes)
 
 **Schedule Variance in Time Units (SV(t))**
 - **What it is**: Schedule variance expressed as time rather than cost
@@ -172,20 +421,52 @@ The EAC represents your final project cost based on current performance.
 - **Trend Analysis**: 3 consecutive periods of variance indicates a trend requiring action
 - **Use case**: Determines when formal variance analysis and reporting is required
 
+#### EVM Formula Comparison Table
+
+| Metric | Formula | What It Measures | Good Performance | Poor Performance | Units |
+|--------|---------|------------------|------------------|------------------|-------|
+| **SV** | EV - PV | Schedule variance in $ | Positive (ahead) | Negative (behind) | Currency |
+| **CV** | EV - AC | Cost variance in $ | Positive (under budget) | Negative (over budget) | Currency |
+| **SPI** | EV / PV | Schedule efficiency ratio | > 1.0 (ahead) | < 1.0 (behind) | Ratio |
+| **CPI** | EV / AC | Cost efficiency ratio | > 1.0 (under budget) | < 1.0 (over budget) | Ratio |
+| **TCPI (BAC)** | (BAC-EV)/(BAC-AC) | Required future efficiency | < 1.0 (easier) | > 1.0 (harder) | Ratio |
+| **TCPI (EAC)** | (BAC-EV)/(EAC-AC) | Required future efficiency | < 1.0 (easier) | > 1.0 (harder) | Ratio |
+
+**Key Differences to Remember**:
+- **Variance vs. Index**: Variances (SV, CV) are in currency units; Indices (SPI, CPI) are ratios
+- **Past vs. Future**: CPI/SPI measure past performance; TCPI measures required future performance
+- **TCPI Variants**: Use BAC target when original budget must be met; use EAC target when working with revised budget
+
 ---
 
-### Schedule Formulas
+---
+
+### Schedule Management Formulas
 
 #### Critical Path and Duration Calculations
 
 **Critical Path**
 - **What it is**: The longest sequence of dependent tasks; determines minimum project duration
 - **How to find it**:
-  1. Calculate Early Start (ES) and Early Finish (EF) for each task
-  2. Calculate Late Start (LS) and Late Finish (LF) for each task
+  1. Calculate Early Start (ES) and Early Finish (EF) for each task (forward pass)
+  2. Calculate Late Start (LS) and Late Finish (LF) for each task (backward pass)
   3. Tasks with zero slack/float are on the critical path
 - **Formula for slack**: Slack = LS – ES (or LF – EF)
-- **Example**: If Task A has ES=0, EF=5, LS=0, LF=5, then Slack=0 (on critical path)
+- **Variables**:
+  - ES = Early Start (earliest date activity can begin)
+  - EF = Early Finish (earliest date activity can complete)
+  - LS = Late Start (latest date activity can begin without delaying project)
+  - LF = Late Finish (latest date activity can complete without delaying project)
+  - Slack/Float = scheduling flexibility available
+- **Worked Example**: 
+  - Task A: ES=0, EF=5, LS=0, LF=5
+  - Slack = LS – ES = 0 – 0 = 0 (on critical path)
+  - Task B: ES=3, EF=7, LS=5, LF=9
+  - Slack = LS – ES = 5 – 3 = 2 days (not on critical path)
+- **Common Mistakes**:
+  - Assuming the critical path never changes (it can shift as work progresses)
+  - Focusing only on critical path while ignoring near-critical paths
+  - Not updating critical path calculations as schedule changes occur
 
 **Early Start (ES) and Early Finish (EF)**
 - **ES for task**: ES = Max(EF of predecessor tasks)
@@ -199,11 +480,37 @@ The EAC represents your final project cost based on current performance.
 
 **Float (or Slack)**
 - **Formula**: Float = LS – ES (or LF – EF)
+- **Variables**:
+  - Float/Slack = scheduling flexibility (in time units)
+  - LS = Late Start, ES = Early Start
+  - LF = Late Finish, EF = Early Finish
 - **Interpretation**:
   - Float = 0: Task is on the critical path (no buffer)
   - Float > 0: Task has flexibility; can be delayed without delaying the project
-- **Example**: If LS=10 and ES=5, Float = 5 days (task can be delayed up to 5 days)
+- **Worked Example**: 
+  - Task with LS=10, ES=5
+  - Float = 10 – 5 = 5 days (task can be delayed up to 5 days)
+- **Common Mistakes**:
+  - Assuming float belongs to one activity (it's shared across the path)
+  - Not considering resource constraints when using float
+  - Forgetting that using float on one activity reduces it for subsequent activities
 - **Use case**: Identifies which tasks have scheduling flexibility
+
+#### Schedule Calculation Comparison
+
+| Calculation | Formula | Purpose | Direction | Result |
+|-------------|---------|---------|-----------|---------|
+| **Early Start (ES)** | Max(EF of predecessors) | Earliest start date | Forward pass | Calendar date |
+| **Early Finish (EF)** | ES + Duration | Earliest finish date | Forward pass | Calendar date |
+| **Late Finish (LF)** | Min(LS of successors) | Latest finish without delay | Backward pass | Calendar date |
+| **Late Start (LS)** | LF - Duration | Latest start without delay | Backward pass | Calendar date |
+| **Total Float** | LS - ES (or LF - EF) | Scheduling flexibility | Both passes | Time units |
+| **Free Float** | ES(successor) - EF | Delay without affecting successors | Forward pass | Time units |
+
+**Float Types Comparison**:
+- **Total Float**: Can delay without affecting project end date
+- **Free Float**: Can delay without affecting any successor activity
+- **Free Float ≤ Total Float** (always true)
 
 #### Agile Schedule Metrics
 
@@ -226,7 +533,9 @@ The EAC represents your final project cost based on current performance.
 
 ---
 
-### Cost Formulas
+---
+
+### Cost Management Formulas
 
 #### Budget-Related Formulas
 
@@ -273,7 +582,9 @@ The EAC represents your final project cost based on current performance.
 
 ---
 
-### Risk Formulas
+---
+
+### Risk Management Formulas
 
 #### Expected Monetary Value (EMV)
 
@@ -313,17 +624,35 @@ The EAC represents your final project cost based on current performance.
 
 ---
 
-### Communication Formulas
+---
+
+### Communications Management Formulas
 
 **Communication Channels**
 - **Formula**: Number of channels = n × (n – 1) / 2, where n = number of stakeholders
-- **Example**: 5 stakeholders → 5 × 4 / 2 = 10 channels
+- **Variables**:
+  - n = Number of people/stakeholders in the communication network
+  - Channels = Total possible one-to-one communication paths
+- **Worked Example**: 
+  - Team of 5 people
+  - Channels = 5 × (5 – 1) / 2 = 5 × 4 / 2 = 10 channels
+  - Each person can communicate with 4 others, but we divide by 2 to avoid double-counting
+- **Additional Examples**:
+  - 3 people: 3 × 2 / 2 = 3 channels
+  - 7 people: 7 × 6 / 2 = 21 channels
+  - 10 people: 10 × 9 / 2 = 45 channels
+- **Common Mistakes**:
+  - Forgetting to divide by 2 (counting each relationship twice)
+  - Using this formula for hierarchical communication (it assumes everyone talks to everyone)
+  - Not considering that not all channels are equally important or active
 - **Interpretation**: With 5 people, you have 10 potential communication paths
 - **Use case**: Understanding communication complexity; one reason agile keeps team sizes small
 
 ---
 
-### Quality Metrics
+---
+
+### Quality Management Formulas
 
 #### Defect Metrics
 
@@ -346,6 +675,52 @@ The EAC represents your final project cost based on current performance.
 - **Formula**: Compliance % = (Number of met SLAs / Total SLAs) × 100%
 - **Example**: 95 out of 100 monthly SLAs met → Compliance = 95%
 - **Use case**: Measuring whether operational services are meeting agreed-upon performance levels
+
+---
+
+### Estimation and Analysis Formulas
+
+#### Three-Point Estimating
+
+**Three-Point Estimate (PERT)**
+- **Formula**: Expected estimate = (O + 4M + P) / 6
+- **Standard Deviation Formula**: σ = (P - O) / 6
+- **Variables**:
+  - O = Optimistic estimate (best-case scenario)
+  - M = Most Likely estimate (normal conditions)  
+  - P = Pessimistic estimate (worst-case scenario)
+  - σ = Standard deviation (measure of uncertainty)
+- **Worked Example**: 
+  - Optimistic = 5 days
+  - Most Likely = 10 days
+  - Pessimistic = 20 days
+  - Expected = (5 + 4×10 + 20) / 6 = 10.8 days
+  - Standard Deviation = (20 - 5) / 6 = 2.5 days
+- **Confidence Intervals**:
+  - 68% confidence: Expected ± 1σ = 10.8 ± 2.5 = 8.3 to 13.3 days
+  - 95% confidence: Expected ± 2σ = 10.8 ± 5.0 = 5.8 to 15.8 days
+- **Common Mistakes**:
+  - Making optimistic estimate unrealistically optimistic
+  - Not considering different risk types for pessimistic estimate
+  - Using most likely estimate alone instead of calculated expected value
+- **Use case**: Provides more realistic estimates than single-point estimates and quantifies uncertainty
+
+#### Estimate Types Comparison
+
+| Estimate Type | Accuracy Range | When Used | Basis | Example |
+|---------------|----------------|-----------|-------|---------|
+| **ROM (Rough Order of Magnitude)** | -50% to +100% | Project initiation | High-level analogous | $100K project: $50K-$200K |
+| **Budget Estimate** | -10% to +25% | Planning phase | Detailed analysis | $100K project: $90K-$125K |
+| **Definitive Estimate** | -5% to +10% | Execution phase | Detailed specifications | $100K project: $95K-$110K |
+
+**Estimation Method Comparison**:
+
+| Method | Accuracy | Speed | When to Use | Example |
+|--------|----------|-------|-------------|---------|
+| **Analogous** | Low to Medium | Fast | Early phases, similar projects | "Last website cost $50K, this should be similar" |
+| **Parametric** | Medium to High | Medium | Historical data available | "$500 per function point × 200 points = $100K" |
+| **Bottom-up** | High | Slow | Detailed planning phase | Sum of all work package estimates |
+| **Three-point** | Medium to High | Medium | Uncertainty exists | (Optimistic + 4×Most Likely + Pessimistic) / 6 |
 
 ---
 
@@ -837,9 +1212,7 @@ In traditional project management, a unit of work with its own schedule and reso
 Shortcuts taken during development that create future costs. Example: Rushing code development without proper testing creates debt (defects discovered later are expensive to fix). Can be a deliberate trade-off (speed now for cost later) or a failure (should have done it right the first time).
 
 **Three-Point Estimate**
-A schedule and cost estimation technique using three scenarios: Optimistic (O), Most Likely (M), and Pessimistic (P). Reduces the impact of estimation bias.
-- **Formula**: Expected estimate = (O + 4M + P) / 6
-- **Example**: Optimistic = 5 days, Most Likely = 10 days, Pessimistic = 20 days → Expected = (5 + 40 + 20) / 6 = 10.8 days
+A schedule and cost estimation technique using three scenarios: Optimistic (O), Most Likely (M), and Pessimistic (P). Reduces the impact of estimation bias. See [Three-Point Estimating](#three-point-estimating) in the formulas section for detailed calculations.
 
 **Tolerance**
 In quality context, acceptable range of variation for a metric. Example: Cost tolerance might be ±5% of budget.
@@ -1653,7 +2026,7 @@ A form of progressive elaboration where near-term work is planned in detail, whi
 A problem-solving method used to identify underlying causes of an issue or risk. Techniques include the five whys and fishbone diagrams.
 
 **Rough Order of Magnitude (ROM) Estimate**
-An early, high-level estimate with a wide range of uncertainty, often expressed as ±50% or more. Used for initial screening and decision making.
+An early, high-level estimate with a wide range of uncertainty, often expressed as ±50% or more. Used for initial screening and decision making. See [Estimate Types Comparison](#estimate-types-comparison) in the formulas section for detailed comparison tables.
 
 **S-Curve Analysis**
 An analysis technique that compares cumulative cost or progress over time to the planned baseline curve. Deviations from the S-curve indicate performance issues.

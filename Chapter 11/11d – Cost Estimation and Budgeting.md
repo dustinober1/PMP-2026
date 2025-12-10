@@ -202,6 +202,8 @@ Each work package cost is estimated by the responsible contractor or team based 
 - **Triangular distribution:** (Optimistic + Most Likely + Pessimistic) ÷ 3
 - **Beta distribution (PERT):** (Optimistic + 4×Most Likely + Pessimistic) ÷ 6
 
+*For detailed three-point estimating formulas, standard deviation calculations, confidence intervals, and worked examples, see [Appendix A: Three-Point Estimating](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#three-point-estimating)*
+
 **Example (Office Renovation – HVAC Installation):**
 - **Optimistic (O):** $140,000 (if everything goes perfectly, no issues)
 - **Most Likely (ML):** $180,000 (realistic estimate)
@@ -382,6 +384,8 @@ How you estimate, budget, and control costs depends fundamentally on your delive
 **Forecast:**
 - **Cost Performance Index (CPI):** EV ÷ AC = $575,000 ÷ $650,000 = **0.88** (getting $0.88 of value for every $1 spent)
 - **Estimate at Completion (EAC):** Budget ÷ CPI = $1,265,000 ÷ 0.88 = **$1,437,500**
+
+*For detailed EVM formulas, worked examples, and interpretation guidance, see [Appendix A: EVM Formulas](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#earned-value-management-evm-formulas)*
 
 **Problem:** Forecast exceeds total budget ($1,400,000). Sarah needs corrective action or additional funding.
 
