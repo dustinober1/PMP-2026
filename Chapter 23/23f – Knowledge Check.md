@@ -300,6 +300,8 @@ Using the formula EAC = BAC / CPI (Cost Performance Index):
 
 This shows the project will cost approximately $222,222 more than planned if current performance continues.
 
+*For all EAC calculation methods and when to use each, see [Appendix A: Forecasting Formulas](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#forecasting-formulas)*
+
 **Why other options are incorrect:**
 - A. $1,000,000 is the original budget (BAC)
 - B. $1,100,000 doesn't account for the CPI calculation

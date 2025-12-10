@@ -129,6 +129,8 @@ The Planning Process Group establishes the scope, refines objectives, and define
 - **Float Calculation**: LS - ES or LF - EF
 - **Critical Path**: Zero float activities
 
+*For detailed CPM formulas, worked examples, and schedule calculation comparisons, see [Appendix A: Critical Path and Duration Calculations](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#critical-path-and-duration-calculations)*
+
 **Example Calculation:**
 ```
 Activity | Duration | ES | EF | LS | LF | Float
@@ -190,6 +192,8 @@ D         | 6        | 9  | 15 | 9  | 15 | 0
 - Optimistic (O): Best-case scenario
 - Pessimistic (P): Worst-case scenario
 - Expected (E) = (O + 4M + P) / 6
+
+*For detailed three-point estimating formulas, standard deviation calculations, and worked examples, see [Appendix A: Three-Point Estimating](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#three-point-estimating)*
 
 ### Cost Aggregation and Reserve Analysis
 

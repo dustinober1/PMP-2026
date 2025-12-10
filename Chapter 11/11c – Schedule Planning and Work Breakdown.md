@@ -131,6 +131,8 @@ A network diagram visualizes the sequence of work and dependencies. The most com
 
 **Definition:** The critical path is the longest sequence of dependent activities from start to finish. It determines the minimum project duration.
 
+*For detailed CPM formulas, forward/backward pass calculations, and float analysis, see [Appendix A: Critical Path and Duration Calculations](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#critical-path-and-duration-calculations)*
+
 **Why it matters:**
 - Activities on the critical path have zero float (slack)—any delay directly delays the project
 - Activities not on the critical path have float—they can be delayed without impacting project completion
@@ -184,6 +186,8 @@ Identify dependencies using network diagram (PDM).
 
 **3. Estimate Activity Durations:**
 Use historical data, expert judgment, parametric estimating, or three-point estimates.
+
+*For three-point estimation formulas and confidence intervals, see [Appendix A: Three-Point Estimating](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#three-point-estimating)*
 
 **Sarah's HVAC Example:**
 - Optimistic: 3 weeks (if everything goes perfectly)

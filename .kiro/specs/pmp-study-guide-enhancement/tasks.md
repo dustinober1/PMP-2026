@@ -100,32 +100,32 @@ This plan breaks down the PMP study guide enhancement into discrete, manageable 
   - Document how scenarios evolve through the guide
   - _Requirements: 5.4_
 
-- [ ] 4. Enhance Appendix A with expanded formula reference
+- [x] 4. Enhance Appendix A with expanded formula reference
   - Expand existing formula documentation
   - Add worked examples and comparison tables
   - Implement cross-referencing from chapters
   - _Requirements: 4.1, 4.2, 4.3, 4.4, 4.5_
 
-- [ ] 4.1 Enhance existing formula entries
+- [x] 4.1 Enhance existing formula entries
   - Review current Appendix A formulas
   - Add missing elements (variable definitions, worked examples)
   - Ensure each formula has at least one complete worked example
   - Add "Common Mistakes" sections
   - _Requirements: 4.1_
 
-- [ ] 4.2 Add formula variants and comparisons
+- [x] 4.2 Add formula variants and comparisons
   - Document all formula variations (e.g., TCPI with BAC vs. EAC)
   - Create separate entries for each variant with distinct examples
   - Add comparison tables for commonly confused formulas
   - _Requirements: 4.4, 4.5_
 
-- [ ] 4.3 Organize formulas by knowledge area
+- [x] 4.3 Organize formulas by knowledge area
   - Group formulas into categories (EVM, Schedule, Cost, Risk, Quality, Communication)
   - Add category headers and navigation
   - Create table of contents for Appendix A
   - _Requirements: 4.3_
 
-- [ ] 4.4 Add cross-references from chapters to Appendix A
+- [x] 4.4 Add cross-references from chapters to Appendix A
   - Review all chapters for formula mentions
   - Add Markdown links from chapter content to Appendix A entries
   - Ensure consistent link formatting

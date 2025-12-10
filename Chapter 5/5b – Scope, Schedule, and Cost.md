@@ -129,10 +129,14 @@ Sarah learns that scheduling is both a science and an art. The science is unders
 
 3. **Estimate duration**: How long will each activity take?
    - Use historical data, expert judgment, or three-point estimation (optimistic, most likely, pessimistic)
+   
+   *For three-point estimation formulas and examples, see [Appendix A: Three-Point Estimating](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#three-point-estimating)*
 
 4. **Build the schedule**: Using a tool like Gantt charts or network diagrams (CPM), determine:
    - Earliest the project can finish (critical path)
    - Which activities have slack (can be delayed without impacting the end date)
+   
+   *For critical path method formulas and calculations, see [Appendix A: Critical Path and Duration Calculations](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#critical-path-and-duration-calculations)*
    - Which activities are critical (any delay impacts the whole project)
 
 5. **Identify resource constraints**: Can you actually do all of this in parallel, or do you have resource constraints?
