@@ -8,6 +8,9 @@ These practice questions test your understanding of program management concepts 
 
 ## Question 1
 
+**Domain**: Business Environment (26%)
+**ECO Task**: Evaluate and deliver project benefits and value
+
 A program manager is leading a 3-year digital transformation program that includes seven component projects. During the quarterly benefits review, the program manager discovers that while most projects are on schedule and budget, benefits realization is only 60% of target. Stakeholders are becoming concerned about the program's value.
 
 **What should the program manager do FIRST?**
@@ -35,6 +38,9 @@ Option D (communicating to stakeholders) is important but should come after unde
 ---
 
 ## Question 2
+
+**Domain**: Business Environment (26%)
+**ECO Task**: Plan and manage project compliance
 
 A program manager is establishing governance for a global supply chain transformation program with components in North America, Europe, and Asia. The program operates in a matrix organization with strong regional autonomy.
 
@@ -71,6 +77,9 @@ Option D (network of managers) might lack sufficient authority for major decisio
 ---
 
 ## Question 3
+
+**Domain**: People (33%)
+**ECO Task**: Engage and support virtual teams
 
 During program definition, a program manager identifies two conflicting stakeholder requirements. The finance department requires detailed financial controls and compliance reporting, while the development team wants rapid iteration with minimal documentation.
 
@@ -111,6 +120,9 @@ Option D (escalating to steering committee) should be reserved for conflicts tha
 
 ## Question 4
 
+**Domain**: Business Environment (26%)
+**ECO Task**: Evaluate and deliver project benefits and value
+
 A program manager is transitioning a digital transformation program to operations. The program has delivered all planned components, but benefits realization is below target due to slower than expected user adoption.
 
 **What is the MOST critical activity for ensuring benefits sustainment?**
@@ -139,6 +151,9 @@ Option D (training program) should be implemented as part of the operational tra
 ---
 
 ## Question 5
+
+**Domain**: Process (41%)
+**ECO Task**: Select appropriate methods, processes, procedures, and tools
 
 A program manager is leading a regulatory compliance program with fixed requirements and strict deadlines. The program must deliver new systems and processes that meet regulatory standards by a government-mandated date.
 
@@ -172,6 +187,9 @@ Agile or hybrid approaches would be risky because:
 
 ## Question 6
 
+**Domain**: People (33%)
+**ECO Task**: Engage and support virtual teams
+
 During program execution, a key stakeholder who strongly supported the program during definition becomes resistant to change implementation. This stakeholder's department is critical to program success.
 
 **What is the BEST approach for managing this situation?**
@@ -202,6 +220,9 @@ Option D (modifying approach) might be appropriate but only after understanding 
 
 ## Question 7
 
+**Domain**: Business Environment (26%)
+**ECO Task**: Evaluate and deliver project benefits and value
+
 A program manager is developing a benefits register for a strategic transformation program. The program vision is to become "the industry leader in digital customer experience."
 
 **Which of the following would be the MOST appropriate strategic benefit for this program?**
@@ -231,6 +252,9 @@ Options A, B, and D are operational benefits that support the strategic benefit 
 
 ## Question 8
 
+**Domain**: People (33%)
+**ECO Task**: Lead a team to achieve project goals
+
 A program manager must select the most appropriate leadership style for a program that includes both innovative research projects with high uncertainty and infrastructure upgrades with well-defined requirements.
 
 **Which leadership approach would be MOST effective?**
@@ -258,6 +282,9 @@ Purely delegative (Option C) or participative (Option D) approaches might not pr
 ---
 
 ## Question 9
+
+**Domain**: Process (41%)
+**ECO Task**: Plan and manage schedule
 
 A program is experiencing schedule delays due to interdependencies between component projects. The mobile app project is waiting for the data platform project, which is waiting for the infrastructure project. Each project is managed by a different business unit with conflicting priorities.
 
@@ -289,6 +316,9 @@ Option D (direct negotiation) continues without addressing the structural issue.
 
 ## Question 10
 
+**Domain**: People (33%)
+**ECO Task**: Communicate project information
+
 A program manager is conducting the final closure review for a 2-year program. The program delivered all planned outputs and most expected benefits, but stakeholder satisfaction is lower than expected due to communication issues during execution.
 
 **What is the MOST important lesson to capture for future programs?**
@@ -318,6 +348,9 @@ Option D is true but communication planning is the root cause solution
 
 ## Question 11
 
+**Domain**: Process (41%)
+**ECO Task**: Select appropriate methods, processes, procedures, and tools
+
 A program manager must select the best approach for tailoring program management processes for an organization with hierarchical culture, high risk aversion, and extensive regulatory requirements.
 
 **Which tailoring approach would be MOST appropriate?**
@@ -346,6 +379,9 @@ Hybrid approaches might be appropriate but should lean heavily toward predictive
 ---
 
 ## Question 12
+
+**Domain**: Business Environment (26%)
+**ECO Task**: Evaluate and deliver project benefits and value
 
 During program definition, a program manager is developing the benefits register. The program will deliver multiple systems and process changes across the organization.
 
@@ -387,7 +423,30 @@ Count your correct answers and use this guide to assess your understanding:
 
 **0-3 Correct**: Limited understanding of program management. Comprehensive review of Chapter 24 and additional study of program management principles recommended.
 
-### Domain Analysis
+## Domain Distribution Summary
+
+### Question Distribution by Domain
+
+| Domain | Questions | Percentage | Target % |
+|--------|-----------|------------|----------|
+| **People (33%)** | 4 questions (3, 6, 8, 10) | 33% | 33% |
+| **Process (41%)** | 3 questions (5, 9, 11) | 25% | 41% |
+| **Business Environment (26%)** | 5 questions (1, 2, 4, 7, 12) | 42% | 26% |
+| **Total** | 12 questions | 100% | 100% |
+
+### Performance Tracking
+
+Track your performance by domain to identify areas for focused study:
+
+| Domain | Your Score | Percentage | Status |
+|--------|------------|------------|---------|
+| People | ___/4 | ___% | ⬜ Strong ⬜ Needs Review |
+| Process | ___/3 | ___% | ⬜ Strong ⬜ Needs Review |
+| Business Environment | ___/5 | ___% | ⬜ Strong ⬜ Needs Review |
+
+**Note**: This knowledge check emphasizes Business Environment concepts (42% vs 26% target) because program management is fundamentally about strategic alignment and benefits realization.
+
+### Program Management Domain Analysis
 
 Track your performance by program management domain:
 
