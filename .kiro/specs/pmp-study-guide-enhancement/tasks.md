@@ -131,34 +131,34 @@ This plan breaks down the PMP study guide enhancement into discrete, manageable 
   - Ensure consistent link formatting
   - _Requirements: 4.2_
 
-- [ ] 5. Create Flashcards document
+- [x] 5. Create Flashcards document
   - Extract key concepts from all chapters
   - Format as question/answer pairs
   - Organize by domain and chapter
   - _Requirements: 7.1, 7.2, 7.3, 7.4, 7.5_
 
-- [ ] 5.1 Create flashcard entries for People domain
+- [x] 5.1 Create flashcard entries for People domain
   - Extract key concepts from Chapters 6-9
   - Write question/answer pairs
   - Add domain tags and chapter references
   - Format for easy export to flashcard apps
   - _Requirements: 7.1, 7.2, 7.4_
 
-- [ ] 5.2 Create flashcard entries for Process domain
+- [x] 5.2 Create flashcard entries for Process domain
   - Extract key concepts from Chapters 10-14, 23
   - Write question/answer pairs
   - Add domain tags and chapter references
   - Format for easy export to flashcard apps
   - _Requirements: 7.1, 7.2, 7.4_
 
-- [ ] 5.3 Create flashcard entries for Business Environment domain
+- [x] 5.3 Create flashcard entries for Business Environment domain
   - Extract key concepts from Chapters 15-18, 24
   - Write question/answer pairs
   - Add domain tags and chapter references
   - Format for easy export to flashcard apps
   - _Requirements: 7.1, 7.2, 7.4_
 
-- [ ] 5.4 Organize flashcards by domain and chapter
+- [x] 5.4 Organize flashcards by domain and chapter
   - Group all flashcards by domain sections
   - Add chapter subsections within each domain
   - Create table of contents for flashcard document
