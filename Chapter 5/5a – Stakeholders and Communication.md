@@ -24,7 +24,7 @@ Sarah quickly learns that the technical side of project management (creating sch
 
 ### 5.1.1 Who Are Stakeholders?
 
-A stakeholder is anyone who has an interest in, is affected by, or can affect the project.
+A [stakeholder](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#stakeholder) is anyone who has an interest in, is affected by, or can affect the project.
 
 This sounds simple, but it is deceptively broad. Stakeholders include:
 
@@ -59,7 +59,7 @@ Sarah realizes: *Different stakeholders care about completely different things. 
 
 ### 5.1.3 Stakeholder Analysis: Understanding Power and Interest
 
-Sarah learns a framework for thinking about stakeholders systematically: **Power/Interest Grid**
+Sarah learns a framework for thinking about stakeholders systematically: **[Power/Interest Grid](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#power-interest-grid)**
 
 | Power / Interest | High Interest | Low Interest |
 |------------------|---------------|-------------|
@@ -235,6 +235,16 @@ Exam questions test stakeholder engagement by presenting a scenario with stakeho
 - Document decisions and communicate them clearly
 - Adjust the project plan if necessary
 - Follow up to confirm the stakeholder's satisfaction
+
+### Related Topics
+
+- [Chapter 7: Stakeholder and Communication Mastery](../Chapter%207/7%20–%20Stakeholder%20and%20Communication%20Mastery.md) - Deep dive into stakeholder analysis and communication strategies
+- [Chapter 7a: Stakeholder Identification and Analysis](../Chapter%207/7a%20–%20Stakeholder%20Identification%20and%20Analysis.md) - Advanced stakeholder analysis techniques
+- [Chapter 7b: Stakeholder Expectations and Influence](../Chapter%207/7b%20–%20Stakeholder%20Expectations%20and%20Influence.md) - Managing stakeholder expectations and influence
+- [Chapter 7c: Communication Planning and Strategy](../Chapter%207/7c%20–%20Communication%20Planning%20and%20Strategy.md) - Communication planning for stakeholder engagement
+- [Chapter 6: Building and Leading Teams](../Chapter%206/6%20–%20Building%20and%20Leading%20Teams.md) - Team leadership and stakeholder management
+- [Chapter 8: Conflict, Negotiation, and Decision-Making](../Chapter%208/8%20–%20Conflict,%20Negotiation,%20and%20Decision-Making.md) - Resolving stakeholder conflicts
+- [Power/Interest Grid](../Chapter%2098/Appendix%20C%20–%20Tools%20and%20Artifacts%20Index.md#power-interest-grid) - Stakeholder analysis tool reference
 
 ---
 

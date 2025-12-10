@@ -8,6 +8,9 @@ These questions test your understanding of performance tracking, EVM, schedule a
 
 ## Question 1: EVM Variance Analysis
 
+**Domain**: Process (41%)
+**ECO Task**: Monitor project work and performance
+
 A project manager is reviewing performance data for a construction project with the following metrics:
 - Budget at Completion (BAC): $800,000
 - Planned Value (PV): $400,000
@@ -88,13 +91,22 @@ TCPI = (BAC - EV) / (BAC - AC)
 TCPI = ($500,000 - $200,000) / ($500,000 - $250,000)
 TCPI = $300,000 / $250,000 = 1.20
 
-A TCPI of 1.20 means the project must achieve 20% better cost efficiency on remaining work than originally planned to meet the original budget. This indicates the current performance (CPI = 0.80) is insufficient and corrective action is needed.
+**Reasoning Pattern**: TCPI answers "What cost performance index do we need on remaining work?" A TCPI > 1.0 means better performance is required than originally planned.
 
-*For detailed TCPI formulas, variants, and feasibility assessment, see [Appendix A: TCPI](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#to-complete-performance-index-tcpi)*
+**PMI Best Practice**: A TCPI of 1.20 means the project must achieve 20% better cost efficiency on remaining work to meet the original budget. Since current CPI = 0.80 (poor performance), this represents a significant improvement requirement that may not be feasible.
+
+**Key Insight**: When TCPI is significantly higher than historical CPI, consider whether the target is realistic or if the budget baseline needs revision.
+
+**See also**: 
+- [Chapter 14b: Schedule and Cost Control](../Chapter%2014/14b%20–%20Schedule%20and%20Cost%20Control.md#earned-value-management)
+- [Appendix A: TCPI Formulas](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#to-complete-performance-index-tcpi)
 
 ---
 
 ## Question 2: Control Account Manager Responsibilities
+
+**Domain**: Process (41%)
+**ECO Task**: Plan and manage project compliance
 
 According to the Standard for Earned Value Management, which of the following is NOT a responsibility of a Control Account Manager (CAM)?
 
@@ -116,6 +128,9 @@ The Standard for EVM specifically defines CAM responsibilities at the control ac
 ---
 
 ## Question 3: Integrated Baseline Review
+
+**Domain**: Process (41%)
+**ECO Task**: Plan and manage schedule
 
 During an Integrated Baseline Review (IBR) for a software development project, the team discovers that the testing phase is budgeted for 8 weeks but the test plan shows 12 weeks of required activities. What is the most appropriate action?
 
@@ -139,6 +154,9 @@ The IBR process exists specifically to catch and correct these types of issues b
 
 ## Question 4: EVM Measurement Techniques
 
+**Domain**: Process (41%)
+**ECO Task**: Monitor project work and performance
+
 Which earned value measurement technique would be most appropriate for a project management activity that continues throughout the project duration?
 
 A) Fixed Formula (0/100)
@@ -158,6 +176,9 @@ With LOE, PV = EV for each period, so there's no variance measurement possible, 
 ---
 
 ## Question 5: Change Classification
+
+**Domain**: Process (41%)
+**ECO Task**: Manage project changes
 
 A project needs to add a new regulatory compliance requirement that wasn't known during planning. This change will increase the project budget by 15% and extend the timeline by 2 months. According to EVM change classification, this is a:
 
@@ -181,6 +202,9 @@ This 15% budget increase and 2-month extension clearly qualifies as a Class I ch
 
 ## Question 6: Schedule Compression Analysis
 
+**Domain**: Process (41%)
+**ECO Task**: Plan and manage schedule
+
 A project has SPI = 0.85 and CPI = 0.90. The critical path is 4 weeks behind schedule. The project manager is considering crashing the schedule. Which factor is most critical to evaluate?
 
 A) The cost increase per week gained
@@ -203,6 +227,9 @@ Effective decision-making requires weighing all these factors, not just cost or 
 ---
 
 ## Question 7: Management Reserve Usage
+
+**Domain**: Process (41%)
+**ECO Task**: Plan and manage budget and resources
 
 A project encounters an unexpected zoning requirement that adds $50,000 of work. The project has:
 - BAC = $1,000,000
@@ -231,6 +258,9 @@ Since the MR ($40,000) is insufficient for the full $50,000, the project would n
 
 ## Question 8: Project Closure Metrics
 
+**Domain**: Business Environment (26%)
+**ECO Task**: Deliver business value
+
 At project closure, the final EVM data shows:
 - BAC = $2,000,000
 - EAC = $2,150,000
@@ -257,6 +287,9 @@ While acknowledging the cost variance is important, the focus should be on wheth
 ---
 
 ## Question 9: Trend Analysis
+
+**Domain**: Process (41%)
+**ECO Task**: Monitor project work and performance
 
 A project shows the following CPI trends over 4 months:
 - Month 1: 0.95
@@ -286,6 +319,9 @@ Waiting longer would make recovery more difficult and expensive.
 
 ## Question 10: Agile vs. Predictive Performance Tracking
 
+**Domain**: Process (41%)
+**ECO Task**: Select appropriate methods, processes, procedures, and tools
+
 A project manager is transitioning from a predictive to an agile approach. Which EVM concept translates most directly to agile metrics?
 
 A) Planned Value maps to sprint commitment
@@ -305,6 +341,29 @@ While agile doesn't use traditional EVM, there are conceptual parallels:
 Story points completed is the closest agile equivalent to earned value as both measure the value/budget of work actually completed.
 
 ---
+
+## Domain Distribution Summary
+
+### Question Distribution by Domain
+
+| Domain | Questions | Percentage | Target % |
+|--------|-----------|------------|----------|
+| **People (33%)** | 0 questions | 0% | 33% |
+| **Process (41%)** | 9 questions (1, 2, 3, 4, 5, 6, 7, 9, 10) | 90% | 41% |
+| **Business Environment (26%)** | 1 question (8) | 10% | 26% |
+| **Total** | 10 questions | 100% | 100% |
+
+### Performance Tracking
+
+Track your performance by domain to identify areas for focused study:
+
+| Domain | Your Score | Percentage | Status |
+|--------|------------|------------|---------|
+| People | ___/0 | N/A | Not covered in this chapter |
+| Process | ___/9 | ___% | ⬜ Strong ⬜ Needs Review |
+| Business Environment | ___/1 | ___% | ⬜ Strong ⬜ Needs Review |
+
+**Note**: This knowledge check focuses heavily on Process domain concepts (monitoring, controlling, EVM) which is appropriate for Chapter 14's content. For People and Business Environment practice, see other knowledge checks.
 
 ## Answer Key Summary
 

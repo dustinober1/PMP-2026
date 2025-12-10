@@ -132,7 +132,7 @@ Teams are more effective when they have diversity of:
 
 Sarah encounters a critical insight: Teams do not start out fully functional. They go through predictable stages, and Sarah's job is to guide them through those stages.
 
-**Tuckman's model** describes four stages (later a fifth was added):
+**[Tuckman's model](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#tuckman-model)** describes four stages (later a fifth was added):
 
 #### **Stage 1: Forming**
 

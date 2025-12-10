@@ -89,3 +89,13 @@ As Sarah moves from managing one project to three interconnected initiatives, he
 - Challenge: How do you lead diverse groups with different interests and perspectives? How do you build consensus across organizational boundaries?
 
 By the end of Chapter 6, Sarah understands that her job is not just to manage work—it is to develop people, create psychological safety, make space for contribution, and build teams that are greater than the sum of their parts.
+
+### Related Topics
+
+- [Chapter 5a: Stakeholders and Communication](../Chapter%205/5a%20–%20Stakeholders%20and%20Communication.md) - Stakeholder engagement and team communication
+- [Chapter 7: Stakeholder and Communication Mastery](../Chapter%207/7%20–%20Stakeholder%20and%20Communication%20Mastery.md) - Advanced communication strategies for team leadership
+- [Chapter 8: Conflict, Negotiation, and Decision-Making](../Chapter%208/8%20–%20Conflict,%20Negotiation,%20and%20Decision-Making.md) - Resolving team conflicts and collaborative decision-making
+- [Chapter 9: Coaching, Mentoring, and Servant Leadership](../Chapter%209/9%20–%20Coaching,%20Mentoring,%20and%20Servant%20Leadership.md) - Advanced leadership approaches
+- [Chapter 5.5: Navigating Complexity in Projects](../Chapter%205.5/5.5%20–%20Navigating%20Complexity%20in%20Projects.md) - Complexity leadership principles
+- [Tuckman's Team Development Model](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#tuckman-model) - Team development stages reference
+- [RACI Matrix](../Chapter%2098/Appendix%20C%20–%20Tools%20and%20Artifacts%20Index.md#raci-matrix) - Roles and responsibilities tool

@@ -8,6 +8,9 @@ Test your understanding of business analysis concepts and their application to p
 
 ## Question 1: BACCM Application
 
+**Domain**: Business Environment (26%)
+**ECO Task**: Deliver business value
+
 A project manager is working on a project to implement a new customer relationship management (CRM) system. The sales director requests a feature that automatically assigns leads to sales representatives based on territory.
 
 Using the Business Analysis Core Concept Model (BACCM), which question BEST helps the project manager understand the value of this requirement?
@@ -22,16 +25,25 @@ D) What are the technical specifications for the territory management module?
 
 **Why B is correct:** This question directly addresses the "Value" concept in BACCM. It connects the feature (automatic lead assignment) to the strategic business goal (15% sales increase), helping evaluate whether this requirement truly delivers value.
 
+**Reasoning Pattern**: Always connect requirements to business value. Ask "How does this help achieve organizational goals?" rather than "What technology should we use?"
+
+**PMI Best Practice**: Business analysis focuses on understanding the "why" behind requirements. Features should be justified by their contribution to strategic objectives, not just stakeholder requests.
+
 **Why other options are less effective:**
 - A focuses on technical implementation (Solution concept) without connecting to value
-- C focuses on stakeholder approval (Stakeholder concept) but not value
+- C focuses on stakeholder approval (Stakeholder concept) but not value  
 - D focuses on detailed specifications without understanding why this feature matters
 
-**PMP Connection:** The exam tests your ability to think beyond technical specifications to understand business value—key to the Business Environment domain (26% of exam).
+**See also**: 
+- [Chapter 22: Business Analysis Fundamentals](../Chapter%2022/22%20–%20Business%20Analysis%20Fundamentals%20for%20Project%20Managers.md#baccm-overview)
+- [Chapter 3: Value Delivery and Outcomes](../Chapter%203/3%20–%20Value%20Delivery%20and%20Outcomes.md)
 
 ---
 
 ## Question 2: BA vs. PM Role Distinction
+
+**Domain**: People (33%)
+**ECO Task**: Engage and support virtual teams
 
 During a requirements workshop for a new inventory management system, stakeholders are debating whether to implement real-time inventory updates or batch processing. The project manager needs to facilitate this decision.
 
@@ -58,6 +70,9 @@ D) Defer the decision to the steering committee to avoid conflict
 
 ## Question 3: Requirements Architecture
 
+**Domain**: Process (41%)
+**ECO Task**: Plan and manage project scope
+
 A project manager is organizing requirements for a complex e-commerce platform upgrade. The project involves multiple teams: frontend, backend, payment processing, and inventory management.
 
 Which requirements architecture technique would be MOST effective for ensuring all teams understand their requirements and interdependencies?
@@ -82,6 +97,9 @@ D) Use a product backlog with all requirements prioritized together
 ---
 
 ## Question 4: Elicitation Technique Selection
+
+**Domain**: Process (41%)
+**ECO Task**: Apply tools and techniques to manage projects
 
 A project manager needs to understand how customers currently interact with a company's support system. The project aims to improve customer satisfaction by redesigning the support process.
 
@@ -108,6 +126,9 @@ D) Review existing support system documentation
 
 ## Question 5: Strategy Analysis
 
+**Domain**: Business Environment (26%)
+**ECO Task**: Evaluate and deliver project benefits and value
+
 A project is proposing to implement a new project portfolio management (PPM) tool. The current state involves spreadsheets, email, and manual reporting. The business case claims the tool will improve project selection and resource allocation.
 
 Which strategy analysis technique would BEST help validate that the proposed solution addresses the real problem?
@@ -132,6 +153,9 @@ D) Analyze the political factors affecting project selection decisions
 ---
 
 ## Question 6: Solution Evaluation
+
+**Domain**: Business Environment (26%)
+**ECO Task**: Evaluate and deliver project benefits and value
 
 Three months after implementing a new time tracking system, the project manager conducts a solution evaluation. The findings show:
 - System uptime: 99.8% (target 99.5%)
@@ -162,6 +186,9 @@ D) Replace the system with a simpler one
 
 ## Question 7: Requirements Prioritization
 
+**Domain**: Process (41%)
+**ECO Task**: Plan and manage project scope
+
 In an agile project, the product owner has 50 user stories in the backlog but only capacity for 20 in the next release. Stakeholders are arguing about which stories are most important.
 
 Which requirements prioritization technique would be MOST effective for facilitating this decision?
@@ -186,6 +213,9 @@ D) Implement stories in order of when they were added
 ---
 
 ## Question 8: Business Case Development
+
+**Domain**: Business Environment (26%)
+**ECO Task**: Deliver business value
 
 A project manager is developing a business case for upgrading the company's internal communication platform. The current platform is 10 years old, frequently crashes, and lacks mobile access. User complaints are increasing.
 
@@ -212,6 +242,9 @@ D) List of vendors who provide similar platforms
 
 ## Question 9: Stakeholder Engagement for Business Analysis
 
+**Domain**: People (33%)
+**ECO Task**: Engage and support virtual teams
+
 A project manager needs to gather requirements from 200 geographically distributed sales representatives for a new sales force automation system. Time and budget are limited.
 
 Which stakeholder engagement approach would be MOST effective?
@@ -236,6 +269,9 @@ D) Create a prototype and get feedback from a small sample
 ---
 
 ## Question 10: Change Strategy
+
+**Domain**: People (33%)
+**ECO Task**: Support team performance
 
 A project to implement a new financial reporting system faces resistance from the finance team. They're concerned about learning a new system and potential errors during transition.
 
@@ -310,6 +346,29 @@ Best answer: **Hybrid approach with predictive for compliance elements, agile fo
 - Clear integration points between approaches
 
 ---
+
+## Domain Distribution Summary
+
+### Question Distribution by Domain
+
+| Domain | Questions | Percentage | Target % |
+|--------|-----------|------------|----------|
+| **People (33%)** | 3 questions (2, 9, 10) | 30% | 33% |
+| **Process (41%)** | 3 questions (3, 4, 7) | 30% | 41% |
+| **Business Environment (26%)** | 4 questions (1, 5, 6, 8) | 40% | 26% |
+| **Total** | 10 questions | 100% | 100% |
+
+### Performance Tracking
+
+Track your performance by domain to identify areas for focused study:
+
+| Domain | Your Score | Percentage | Status |
+|--------|------------|------------|---------|
+| People | ___/3 | ___% | ⬜ Strong ⬜ Needs Review |
+| Process | ___/3 | ___% | ⬜ Strong ⬜ Needs Review |
+| Business Environment | ___/4 | ___% | ⬜ Strong ⬜ Needs Review |
+
+**Note**: This knowledge check emphasizes Business Environment concepts (40% vs 26% target) because business analysis is fundamentally about delivering business value and strategic alignment.
 
 ## Study Tips for Business Analysis Questions
 

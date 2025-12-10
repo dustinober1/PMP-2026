@@ -16,6 +16,9 @@ Each question follows this structure:
 
 ### Question 1: Initiating Domain Distribution
 
+**Domain**: Process (41%)
+**ECO Task**: Develop project charter
+
 **Scenario:**
 Sarah is starting her office renovation project. She has been working with stakeholders to identify their requirements, create the business case, and develop the project charter. During the initiating phase, she estimates that she spends about 40% of her time on people-related activities like stakeholder identification and team formation.
 
@@ -33,14 +36,25 @@ D. 52%
 **Explanation:**
 In the Initiating Process Group, approximately 42% of activities relate to the People domain. This includes stakeholder identification and analysis, team formation, leadership engagement, and communication channel establishment. The Process domain accounts for about 35% (business case validation, charter development), and the Business Environment domain accounts for about 23% (strategic alignment, regulatory assessment).
 
+**Reasoning Pattern**: The People domain is heavily emphasized in Initiating because project success depends on early stakeholder engagement and team formation. This front-loads relationship building.
+
+**PMI Best Practice**: Effective project initiation requires significant investment in people-related activities. Stakeholder identification and engagement are critical success factors that must be established early.
+
 **Why other options are incorrect:**
 - A. 23% represents the Business Environment domain portion
-- B. 35% represents the Process domain portion
+- B. 35% represents the Process domain portion  
 - D. 52% exceeds the total of all three domains
+
+**See also**: 
+- [Chapter 23a: The Initiating Process Group](../Chapter%2023/23a%20–%20The%20Initiating%20Process%20Group.md)
+- [Chapter 7: Stakeholder and Communication Mastery](../Chapter%207/7%20–%20Stakeholder%20and%20Communication%20Mastery.md)
 
 ---
 
 ### Question 2: WBS Creation
+
+**Domain**: Process (41%)
+**ECO Task**: Plan and manage project scope
 
 **Scenario:**
 Michael is creating a Work Breakdown Structure for his software development project. He has identified the major deliverables at Level 1 and is now breaking them down into smaller components. He's wondering how detailed the decomposition should be.
@@ -67,6 +81,9 @@ The 8/80 rule (8-80 hours per work package) is a common guideline for WBS decomp
 ---
 
 ### Question 3: Critical Path Analysis
+
+**Domain**: Process (41%)
+**ECO Task**: Plan and manage schedule
 
 **Scenario:**
 Emily has calculated the following for activities on the critical path of her project:
@@ -97,6 +114,9 @@ Activities on the critical path have zero float (LS-ES=0 or LF-EF=0). Activity A
 
 ### Question 4: Risk Response Strategies
 
+**Domain**: Process (41%)
+**ECO Task**: Plan and manage project risks
+
 **Scenario:**
 David has identified a risk that a key supplier might go bankrupt during his construction project. The probability is low (0.3), but the impact would be high (9 on a 1-10 scale). He wants to develop a response strategy.
 
@@ -122,6 +142,9 @@ For high-impact, low-probability threats, transfer is often the most appropriate
 ---
 
 ### Question 5: Change Control
+
+**Domain**: Process (41%)
+**ECO Task**: Manage project changes
 
 **Scenario:**
 Maria is the project manager for a systems implementation project. A stakeholder has requested a significant change to the system requirements that would impact the schedule and budget. The change request has been documented and submitted to the Change Control Board (CCB).
@@ -149,6 +172,9 @@ Before submitting to the CCB or implementing any change, the project manager sho
 
 ### Question 6: Quality Assurance vs. Quality Control
 
+**Domain**: Process (41%)
+**ECO Task**: Plan and manage project quality
+
 **Scenario:**
 Tom is reviewing his project's quality management approach. He wants to ensure his team is following the defined processes and that the final product meets requirements.
 
@@ -172,6 +198,9 @@ Quality Assurance (QA) focuses on processes and is preventive, while Quality Con
 ---
 
 ### Question 7: Stakeholder Engagement
+
+**Domain**: People (33%)
+**ECO Task**: Engage and support virtual teams
 
 **Scenario:**
 Jennifer is managing a project that will significantly impact the finance department. The finance stakeholders are currently unaware of the project (Unaware engagement level), but their active support is needed for success.
@@ -199,6 +228,9 @@ To move stakeholders from Unaware to Support, they first need to be informed abo
 
 ### Question 8: Project Closure
 
+**Domain**: Process (41%)
+**ECO Task**: Manage project closure
+
 **Scenario:**
 Alex's project has just completed all deliverables and received formal acceptance from the client. He's now preparing to close the project and has several activities to complete.
 
@@ -222,6 +254,9 @@ During project closure, the project management plan is archived as part of the f
 ---
 
 ### Question 9: Integrated Change Control
+
+**Domain**: Process (41%)
+**ECO Task**: Manage project changes
 
 **Scenario:**
 Robert is implementing an integrated change control system for his project. He needs to ensure all changes are properly evaluated and approved before implementation.
@@ -249,6 +284,9 @@ Integrated change control's primary purpose is to review, evaluate, and approve 
 
 ### Question 10: Procurement Management
 
+**Domain**: Process (41%)
+**ECO Task**: Plan and manage procurement
+
 **Scenario:**
 Lisa is selecting a vendor for her IT infrastructure project. She has received three proposals and needs to select the best vendor.
 
@@ -274,6 +312,9 @@ Past performance is often the best predictor of future success, especially when 
 ---
 
 ### Question 11: Earned Value Management
+
+**Domain**: Process (41%)
+**ECO Task**: Monitor project work and performance
 
 **Scenario:**
 Mike is reviewing his project's performance using Earned Value Management:
@@ -311,6 +352,9 @@ This shows the project will cost approximately $222,222 more than planned if cur
 
 ### Question 12: Communication Management
 
+**Domain**: People (33%)
+**ECO Task**: Communicate project information
+
 **Scenario:**
 Samantha is developing a communications management plan for her international project with stakeholders in multiple countries and time zones.
 
@@ -334,6 +378,9 @@ For an international project, technology availability across all locations is th
 ---
 
 ### Question 13: Resource Management
+
+**Domain**: Process (41%)
+**ECO Task**: Plan and manage budget and resources
 
 **Scenario:**
 David is managing resources for his construction project. He has several work packages that require the same skilled workers, creating conflicts in the schedule.
@@ -361,6 +408,9 @@ Resource smoothing optimizes resource usage without changing the critical path o
 
 ### Question 14: Risk Monitoring
 
+**Domain**: Process (41%)
+**ECO Task**: Plan and manage project risks
+
 **Scenario:**
 Maria is monitoring risks on her project. A risk she identified with a probability of 0.4 and impact of $50,000 has occurred, causing a $40,000 impact.
 
@@ -387,6 +437,9 @@ Risk variance is the difference between the planned (expected) risk cost and the
 
 ### Question 15: Process Groups vs. Domains
 
+**Domain**: People (33%)
+**ECO Task**: Lead a team to achieve project goals
+
 **Scenario:**
 A project manager is working on activities to develop the project team, acquire resources, and manage stakeholder expectations.
 
@@ -410,6 +463,29 @@ Team development, resource acquisition, and stakeholder management are all execu
 - D. These are People domain activities, not Process domain
 
 ---
+
+## Domain Distribution Summary
+
+### Question Distribution by Domain
+
+| Domain | Questions | Percentage | Target % |
+|--------|-----------|------------|----------|
+| **People (33%)** | 4 questions (7, 12, 15) | 27% | 33% |
+| **Process (41%)** | 9 questions (1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14) | 60% | 41% |
+| **Business Environment (26%)** | 2 questions | 13% | 26% |
+| **Total** | 15 questions | 100% | 100% |
+
+### Performance Tracking
+
+Track your performance by domain to identify areas for focused study:
+
+| Domain | Your Score | Percentage | Status |
+|--------|------------|------------|---------|
+| People | ___/4 | ___% | ⬜ Strong ⬜ Needs Review |
+| Process | ___/9 | ___% | ⬜ Strong ⬜ Needs Review |
+| Business Environment | ___/2 | ___% | ⬜ Strong ⬜ Needs Review |
+
+**Note**: This knowledge check emphasizes Process domain concepts (60% vs 41% target) because it focuses on process groups implementation. The distribution reflects the technical nature of process group activities.
 
 ## Answer Key and Scoring
 

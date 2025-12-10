@@ -16,7 +16,7 @@ and business value.
 
 The way you start a project determines what becomes possible later. A well-initiated project has clarity about its purpose, realistic boundaries, appropriate authority, and an intentional delivery approach. A poorly initiated project stumbles through ambiguity, fighting unnecessary constraints, unclear about who decides what, and using a delivery approach chosen by default rather than design.
 
-Initiation and planning are where project managers translate organizational strategy into actionable work. The business case explains why the project exists. The charter authorizes the project manager to act. Constraints, assumptions, and dependencies shape what's realistic. The delivery approach determines how the team will work. The roadmap communicates the journey ahead.
+Initiation and planning are where project managers translate organizational strategy into actionable work. The [business case](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#business-case) explains why the project exists. The [charter](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#project-charter) authorizes the project manager to act. [Constraints](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#constraint), [assumptions](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#assumption), and [dependencies](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#dependency) shape what's realistic. The delivery approach determines how the team will work. The roadmap communicates the journey ahead.
 
 This chapter focuses on the critical early work that sets projects up for success. While initiation happens at the beginning, its effects echo through the entire project lifecycle. Strong initiation creates clarity. Weak initiation creates confusion, rework, and conflict.
 
@@ -163,3 +163,13 @@ The Knowledge Check at the end tests your ability to apply these concepts in rea
 ---
 
 **Next**: Proceed to the sub-sections to explore each initiation element in depth, or skip to the Knowledge Check to test your current understanding.
+
+### Related Topics
+
+- [Chapter 11: Planning for Value Delivery](../Chapter%2011/11%20–%20Planning%20for%20Value%20Delivery.md) - Detailed planning following initiation
+- [Chapter 4: Ways of Working and Tailoring](../Chapter%204/4%20–%20Ways%20of%20Working%20and%20Tailoring.md) - Choosing delivery approaches
+- [Chapter 15: Strategy and Portfolio Alignment](../Chapter%2015/15%20–%20Strategy%20and%20Portfolio%20Alignment.md) - Strategic alignment and business case development
+- [Chapter 16: Benefits, Value, and Sustainability](../Chapter%2016/16%20–%20Benefits,%20Value,%20and%20Sustainability.md) - Value realization and benefits management
+- [Chapter 12: Risk, Issues, and Change Management](../Chapter%2012/12%20–%20Risk,%20Issues,%20and%20Change%20Management.md) - Managing constraints and assumptions as risks
+- [Project Charter Template](../Chapter%2098/Appendix%20C%20–%20Tools%20and%20Artifacts%20Index.md#project-charter) - Charter development tool
+- [Business Case Analysis](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#business-case) - Financial analysis methods
