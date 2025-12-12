@@ -1,4 +1,4 @@
-# 23b – The Planning Process Group
+# Appendix A.2 – The Planning Process Group
 
 ## Introduction
 

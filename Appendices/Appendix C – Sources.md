@@ -1,4 +1,4 @@
-# Appendix B – Sources
+# Appendix C – Sources
 
 This appendix consolidates key external references used throughout the PMP 2026 Study Guide so that citations are easy to maintain and review in one place.
 
