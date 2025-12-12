@@ -1,4 +1,4 @@
-# 23d – The Closing Process Group
+# Appendix A.4 – The Closing Process Group
 
 ## Introduction
 

@@ -1,4 +1,4 @@
-# Appendix C – Tools and Artifacts Index
+# Appendix D – Tools and Artifacts Index
 
 This appendix provides a comprehensive quick-reference index of the project management tools, techniques, and artifacts covered throughout the PMP 2026 Study Guide. It maps these items to the specific chapters where they are discussed in context and indicates their applicability across different delivery approaches.
 

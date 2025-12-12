@@ -1,4 +1,4 @@
-# 23a – The Initiating Process Group
+# Appendix A.1 – The Initiating Process Group
 
 ## Introduction
 

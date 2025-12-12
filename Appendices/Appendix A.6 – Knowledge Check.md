@@ -1,4 +1,4 @@
-# 23f – Knowledge Check
+# Appendix A.6 – Knowledge Check
 
 ## Introduction
 

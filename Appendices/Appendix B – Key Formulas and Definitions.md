@@ -1,4 +1,4 @@
-# Appendix A – Key Formulas and Definitions
+# Appendix B – Key Formulas and Definitions
 
 ## Introduction
 

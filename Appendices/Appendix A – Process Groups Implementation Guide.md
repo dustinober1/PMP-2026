@@ -1,4 +1,4 @@
-# 23 – Process Groups Implementation Guide
+# Appendix A – Process Groups Implementation Guide
 
 ## Introduction
 
