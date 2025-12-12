@@ -48,7 +48,7 @@ The guide is organized into 10 logical chapters covering all three domains (Peop
 ### [Chapter 10 - Exam Preparation and Future Trends](Chapter%2010%20-%20Exam%20Preparation%20and%20Future%20Trends/)
 - **10.1** – Exam Strategy and Test-Taking Skills
 - **10.2** – AI Essentials for Project Professionals
-- **10.3** – Practice Exams (4 Full-Length Simulated Exams)
+- **10.3** – Practice Exams (3 Full-Length Simulated Exams)
 
 ### [Appendices](Appendices/)
 - **Appendix A** – Process Groups Implementation Guide
