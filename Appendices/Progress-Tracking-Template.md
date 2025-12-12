@@ -23,7 +23,6 @@ This template helps you track your PMP exam preparation progress across multiple
 | Practice 1 | ___/___/___ | ___% (___/185) | ___% (___/61) | ___% (___/76) | ___% (___/48) | ___ | ___________ |
 | Practice 2 | ___/___/___ | ___% (___/185) | ___% (___/61) | ___% (___/76) | ___% (___/48) | ___ | ___________ |
 | Practice 3 | ___/___/___ | ___% (___/185) | ___% (___/61) | ___% (___/76) | ___% (___/48) | ___ | ___________ |
-| Practice 4 | ___/___/___ | ___% (___/185) | ___% (___/61) | ___% (___/76) | ___% (___/48) | ___ | ___________ |
 | Additional 1 | ___/___/___ | ___% (___/185) | ___% (___/61) | ___% (___/76) | ___% (___/48) | ___ | ___________ |
 | Additional 2 | ___/___/___ | ___% (___/185) | ___% (___/61) | ___% (___/76) | ___% (___/48) | ___ | ___________ |
 
@@ -39,8 +38,8 @@ This template helps you track your PMP exam preparation progress across multiple
  70% |                                    
  60% |                                    
  50% |                                    
-     +----+----+----+----+----+----+
-      P1   P2   P3   P4   A1   A2
+     +----+----+----+----+----+
+      P1   P2   P3   A1   A2
 ```
 *Plot your overall scores to visualize improvement trend*
 
@@ -65,7 +64,6 @@ Target:     [██████████████      ] 70%
 | Practice 1 | ___% | _________ | __________________ |
 | Practice 2 | ___% | _________ | __________________ |
 | Practice 3 | ___% | _________ | __________________ |
-| Practice 4 | ___% | _________ | __________________ |
 
 #### Knowledge Area Breakdown
 Track your understanding in each People domain area:
@@ -98,7 +96,6 @@ Track your understanding in each People domain area:
 | Practice 1 | ___% | _________ | __________________ |
 | Practice 2 | ___% | _________ | __________________ |
 | Practice 3 | ___% | _________ | __________________ |
-| Practice 4 | ___% | _________ | __________________ |
 
 #### Knowledge Area Breakdown
 
@@ -138,7 +135,6 @@ Track your understanding in each People domain area:
 | Practice 1 | ___% | _________ | __________________ |
 | Practice 2 | ___% | _________ | __________________ |
 | Practice 3 | ___% | _________ | __________________ |
-| Practice 4 | ___% | _________ | __________________ |
 
 #### Knowledge Area Breakdown
 
