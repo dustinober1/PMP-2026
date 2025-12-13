@@ -31,12 +31,12 @@
 - [x] **Fix source path mismatch**:
   - [x] `Appendices/Appendix C – Sources.md:9` references `Resources/New-PMP-Examination-Content-Outline-2026.pdf` but the file lives under `References/`
 
-- [ ] **Confirm redistribution rights for PDFs** in `References/` before publishing publicly (likely remove them from the public build and replace with citations/links).
+- [x] **Confirm redistribution rights for PDFs** in `References/` before publishing publicly (handled by not distributing PDFs in the repo; cite/link to official sources instead).
 
 ## Editorial / Consistency (High Value)
 
-- [ ] Normalize internal section numbering so headings match file numbering (example: `Chapter 01 - Introduction and Fundamentals/01.4a – Stakeholders and Communication.md` uses `5.1.x` headings).
-- [ ] Run a repo-wide internal link check and resolve remaining broken links (after deciding which appendices/chapters ship in v1).
+- [x] Normalize internal section numbering so headings match file numbering (example: `Chapter 01 - Introduction and Fundamentals/01.4a – Stakeholders and Communication.md` uses `5.1.x` headings).
+- [x] Run a repo-wide internal link check and resolve remaining broken links (after deciding which appendices/chapters ship in v1).
 - [ ] Do a spell/typo pass and style consistency pass (capitalization, acronym first-use, domain naming, etc.); use `Appendices/Content-Quality-Checklist.md` as the standard.
 - [ ] Add/verify publication front matter (disclaimer/trademark usage, edition/date, audience/prereqs, how-to-use).
 
