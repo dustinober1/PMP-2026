@@ -231,7 +231,7 @@ This accelerated study plan is designed for experienced project managers who nee
 - Kotter's 8 Steps (create urgency, build coalition, form vision, communicate, empower, create wins, consolidate, anchor)
 
 **Practice**: 25 questions on risk and change management
-**Complete**: Chapter 12f Knowledge Check
+**Complete**: Chapter 07.1f Knowledge Check
 
 ---
 
@@ -281,7 +281,7 @@ This accelerated study plan is designed for experienced project managers who nee
 - **TCPI** = (BAC - EV) / (EAC - AC) [to meet EAC]
 
 **Practice**: 30 questions on monitoring, control, and EVM
-**Complete**: Chapter 14f Knowledge Check
+**Complete**: Chapter 09.1f Knowledge Check
 
 **Week 4 Checkpoint**: Complete 60 mixed Process domain questions covering all process areas. Target: 80%+ correct. Master EVM calculations.
 
@@ -331,7 +331,7 @@ This accelerated study plan is designed for experienced project managers who nee
 - Technical debt and hidden costs
 
 **Practice**: 20 questions on benefits and value
-**Complete**: Chapter 16f Knowledge Check
+**Complete**: Chapter 02.2 Knowledge Check
 
 ---
 
@@ -356,7 +356,7 @@ This accelerated study plan is designed for experienced project managers who nee
 - Resistance patterns and responses
 
 **Practice**: 20 questions on compliance and organizational change
-**Complete**: Chapter 17e and 18f Knowledge Checks if time permits
+**Complete**: Chapter 02.3 and 18f Knowledge Checks if time permits
 
 **Week 5 Checkpoint**: Complete 50 mixed Business Environment domain questions. Target: 75%+ correct. This is the domain that increased most in the 2026 exam - ensure strong understanding.
 
@@ -381,7 +381,7 @@ This accelerated study plan is designed for experienced project managers who nee
 - ITTO patterns (don't memorize all, understand relationships)
 
 **Practice**: 20 questions on process groups integration
-**Complete**: Chapter 23f Knowledge Check
+**Complete**: Appendix A.6 Knowledge Check
 
 ---
 
@@ -441,7 +441,7 @@ This accelerated study plan is designed for experienced project managers who nee
 **Sunday** (2 hours): Light Review and Mental Preparation
 - Review your summary notes
 - Skim Appendix A (formulas and definitions)
-- Read Chapter 19e (building confidence)
+- Read Chapter 10.1 (building confidence)
 - Visualize exam success
 - Get good sleep before exam day
 
@@ -490,16 +490,16 @@ If you fall behind schedule:
 - Focus on "soft skills" application in project contexts
 
 ### If You're Weak in Process Domain
-- Master EVM formulas (Chapter 14b) - these are high-frequency questions
+- Master EVM formulas (Chapter 09.1) - these are high-frequency questions
 - Understand critical path method and schedule compression
 - Practice risk identification and response selection
-- Review planning processes (Chapter 11) thoroughly
+- Review planning processes (Chapter 06.1) thoroughly
 
 ### If You're Weak in Business Environment Domain
 - This domain tripled in weight for 2026 - don't underestimate it
-- Focus on benefits realization (Chapter 16) and strategy alignment (Chapter 15)
-- Understand compliance and governance (Chapter 17)
-- Study organizational change management (Chapter 18)
+- Focus on benefits realization (Chapter 02.2) and strategy alignment (Chapter 02.1)
+- Understand compliance and governance (Chapter 02.3)
+- Study organizational change management (Chapter 02.4)
 
 ---
 
@@ -546,7 +546,7 @@ If you fall behind schedule:
 
 - **Appendix A**: Key formulas and definitions (review before exam)
 - **Appendix C**: Tools and artifacts index (quick reference)
-- **Practice Exams**: Complete all available practice exams in Chapter 21
+- **Practice Exams**: Complete all available practice exams in Chapter 10.3
 - **PMI Resources**: Review the official ECO document on pmi.org
 
 **Good luck on your PMP exam!**

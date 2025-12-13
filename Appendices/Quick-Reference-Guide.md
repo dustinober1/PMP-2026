@@ -165,7 +165,7 @@ The People domain focuses on the skills and activities related to effectively le
 - Conflict resolution techniques and when to use them
 - Coaching, mentoring, and developing others
 
-### Chapter 6: Building and Leading Teams - Quick Summary
+### Chapter 03.1: Building and Leading Teams - Quick Summary
 
 **Key Points:**
 - **Team Development**: Forming → Storming → Norming → Performing → Adjourning (Tuckman)
@@ -186,7 +186,7 @@ The People domain focuses on the skills and activities related to effectively le
 - Relying only on financial incentives for motivation
 - Treating virtual teams the same as co-located teams
 
-### Chapter 7: Stakeholder and Communication Mastery - Quick Summary
+### Chapter 04.1: Stakeholder and Communication Mastery - Quick Summary
 
 **Key Points:**
 - **Stakeholder Analysis**: Power/Interest Grid (Manage Closely, Keep Satisfied, Keep Informed, Monitor)
@@ -207,7 +207,7 @@ The People domain focuses on the skills and activities related to effectively le
 - Confusing communication (one-way) with engagement (two-way)
 - Assuming stakeholder positions are fixed
 
-### Chapter 8: Conflict, Negotiation, and Decision-Making - Quick Summary
+### Chapter 04.2: Conflict, Negotiation, and Decision-Making - Quick Summary
 
 **Key Points:**
 - **Conflict Sources**: Schedules, priorities, resources, technical opinions, administrative procedures, cost, personality
@@ -228,7 +228,7 @@ The People domain focuses on the skills and activities related to effectively le
 - Negotiating positions instead of interests
 - Escalating too quickly or too slowly
 
-### Chapter 9: Coaching, Mentoring, and Servant Leadership - Quick Summary
+### Chapter 03.2: Coaching, Mentoring, and Servant Leadership - Quick Summary
 
 **Key Points:**
 - **Servant Leadership**: Serve the team by removing obstacles and enabling success
@@ -301,7 +301,7 @@ The Process domain focuses on the technical aspects of managing projects - the m
 - Ignoring external dependencies
 - Choosing delivery approach based on preference, not context
 
-### Chapter 11: Planning for Value Delivery - Quick Summary
+### Chapter 06.1: Planning for Value Delivery - Quick Summary
 
 **Key Points:**
 - **Requirements**: What the solution must do to deliver value
@@ -324,7 +324,7 @@ The Process domain focuses on the technical aspects of managing projects - the m
 - Underestimating or not planning for reserves
 - Treating quality as optional or "nice to have"
 
-### Chapter 12: Risk, Issues, and Change Management - Quick Summary
+### Chapter 07.1: Risk, Issues, and Change Management - Quick Summary
 
 **Key Points:**
 - **Risk**: Uncertain event that could affect project objectives (threats or opportunities)
@@ -345,7 +345,7 @@ The Process domain focuses on the technical aspects of managing projects - the m
 - Rejecting all changes to protect baseline
 - Ignoring the people side of change
 
-### Chapter 13: Executing and Delivering Work - Quick Summary
+### Chapter 08.1: Executing and Delivering Work - Quick Summary
 
 **Key Points:**
 - **Direct and Manage**: Coordinate work execution according to plan
@@ -366,7 +366,7 @@ The Process domain focuses on the technical aspects of managing projects - the m
 - Confusing QA (process) with QC (product)
 - Reducing stakeholder engagement during execution
 
-### Chapter 14: Monitoring, Controlling, and Closing - Quick Summary
+### Chapter 09.1: Monitoring, Controlling, and Closing - Quick Summary
 
 **Key Points:**
 - **Earned Value Management (EVM)**: CPI = EV/AC, SPI = EV/PV, EAC = BAC/CPI
@@ -418,7 +418,7 @@ The Business Environment domain focuses on the organizational and external conte
 - Change management models (ADKAR, Kotter's 8 Steps)
 - Sustainability and ESG considerations in project decisions
 
-### Chapter 15: Strategy and Portfolio Alignment - Quick Summary
+### Chapter 02.1: Strategy and Portfolio Alignment - Quick Summary
 
 **Key Points:**
 - **Strategic Alignment**: Projects must support organizational strategy and objectives
@@ -439,7 +439,7 @@ The Business Environment domain focuses on the organizational and external conte
 - Assuming benefits are automatically realized when projects complete
 - Ignoring strategic changes that affect project relevance
 
-### Chapter 16: Benefits, Value, and Sustainability - Quick Summary
+### Chapter 02.2: Benefits, Value, and Sustainability - Quick Summary
 
 **Key Points:**
 - **Benefits Hierarchy**: Outputs → Outcomes → Benefits → Value
@@ -460,7 +460,7 @@ The Business Environment domain focuses on the organizational and external conte
 - Assuming all stakeholders value the same outcomes
 - Focusing only on financial benefits
 
-### Chapter 17: Compliance, Risk, and Governance - Quick Summary
+### Chapter 02.3: Compliance, Risk, and Governance - Quick Summary
 
 **Key Points:**
 - **Regulatory Compliance**: Legal, safety, environmental, industry requirements
@@ -481,7 +481,7 @@ The Business Environment domain focuses on the organizational and external conte
 - Bypassing organizational policies for speed
 - Managing project risks in isolation from enterprise risks
 
-### Chapter 18: Organizational Change and Readiness - Quick Summary
+### Chapter 02.4: Organizational Change and Readiness - Quick Summary
 
 **Key Points:**
 - **Change Impact**: Analyzing how project outcomes affect people, processes, technology

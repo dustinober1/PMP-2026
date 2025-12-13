@@ -95,7 +95,7 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 5a
 
 **Reading**:
-- Chapter 5a: Stakeholders and Communication (complete)
+- Chapter 01.4a: Stakeholders and Communication (complete)
 
 **Key Takeaways**:
 - Stakeholder identification techniques
@@ -111,8 +111,8 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 5b, 5c
 
 **Reading**:
-- Chapter 5b: Scope, Schedule, and Cost (complete)
-- Chapter 5c: Quality (complete)
+- Chapter 01.4b: Scope, Schedule, and Cost (complete)
+- Chapter 01.4c: Quality (complete)
 
 **Key Takeaways**:
 - Triple constraint and interdependencies
@@ -129,10 +129,10 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 5d, 5e, 5f, 5g, 5.5
 
 **Reading**:
-- Chapter 5d: Risk Management (complete)
-- Chapter 5e: Data-Informed Decision-Making (complete)
-- Chapter 5f: AI and Emerging Technologies (complete)
-- Chapter 5g: Professional Responsibility and Ethics (complete)
+- Chapter 01.4d: Risk Management (complete)
+- Chapter 01.4e: Data-Informed Decision-Making (complete)
+- Chapter 10.2: AI and Emerging Technologies (complete)
+- Chapter 01.4f: Professional Responsibility and Ethics (complete)
 - Chapter 5.5: Navigating Complexity in Projects (complete)
 - Chapter 5.5d: Knowledge Check (complete)
 
@@ -161,8 +161,8 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 6a, 6b
 
 **Reading**:
-- Chapter 6a: Team Composition and Development (complete)
-- Chapter 6b: Roles, Responsibilities, and Authority (complete)
+- Chapter 03.1: Team Composition and Development (complete)
+- Chapter 03.1: Roles, Responsibilities, and Authority (complete)
 
 **Key Takeaways**:
 - Tuckman's stages: Forming, Storming, Norming, Performing, Adjourning
@@ -179,9 +179,9 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 6c, 6d, 6e
 
 **Reading**:
-- Chapter 6c: Influence, Power, and Decision-Making (complete)
-- Chapter 6d: Conflict Resolution and Problem-Solving (complete)
-- Chapter 6e: Motivation and Engagement (complete)
+- Chapter 03.1: Influence, Power, and Decision-Making (complete)
+- Chapter 03.1: Conflict Resolution and Problem-Solving (complete)
+- Chapter 03.1: Motivation and Engagement (complete)
 
 **Key Takeaways**:
 - Power types: Legitimate, Reward, Penalty, Expert, Referent
@@ -198,8 +198,8 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 6f, 9 (all subsections)
 
 **Reading**:
-- Chapter 6f: Servant Leadership and Coaching (complete)
-- Chapter 9: Coaching, Mentoring, and Servant Leadership (all subsections)
+- Chapter 03.2: Servant Leadership and Coaching (complete)
+- Chapter 03.2: Coaching, Mentoring, and Servant Leadership (all subsections)
 
 **Key Takeaways**:
 - Servant leadership characteristics
@@ -225,10 +225,10 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 7 (all subsections)
 
 **Reading**:
-- Chapter 7a: Stakeholder Identification and Analysis (complete)
-- Chapter 7b: Stakeholder Expectations and Influence (complete)
-- Chapter 7c: Communication Planning and Strategy (complete)
-- Chapter 7d: Adapting Communication and Cultural Considerations (complete)
+- Chapter 04.1: Stakeholder Identification and Analysis (complete)
+- Chapter 04.1: Stakeholder Expectations and Influence (complete)
+- Chapter 04.1: Communication Planning and Strategy (complete)
+- Chapter 04.1: Adapting Communication and Cultural Considerations (complete)
 
 **Key Takeaways**:
 - Stakeholder analysis techniques: Power/Interest, Power/Influence, Salience Model
@@ -246,10 +246,10 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 8 (all subsections)
 
 **Reading**:
-- Chapter 8a: Sources of Conflict and Understanding Disagreement (complete)
-- Chapter 8b: Conflict Resolution Styles and Approaches (complete)
-- Chapter 8c: Negotiation and Collaborative Problem-Solving (complete)
-- Chapter 8d: Decision-Making Frameworks and Escalation (complete)
+- Chapter 04.2: Sources of Conflict and Understanding Disagreement (complete)
+- Chapter 04.2: Conflict Resolution Styles and Approaches (complete)
+- Chapter 04.2: Negotiation and Collaborative Problem-Solving (complete)
+- Chapter 04.2: Decision-Making Frameworks and Escalation (complete)
 
 **Key Takeaways**:
 - Common sources of conflict: Schedule, priorities, resources, technical opinions, cost, personalities
@@ -276,11 +276,11 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 10 (all subsections)
 
 **Reading**:
-- Chapter 10a: Business Case and Project Justification (complete)
-- Chapter 10b: Understanding Constraints, Assumptions, and Dependencies (complete)
-- Chapter 10c: Developing the Project Charter (complete)
-- Chapter 10d: Selecting the Delivery Approach (complete)
-- Chapter 10e: Roadmapping and Release Planning (complete)
+- Chapter 05.1a: Business Case and Project Justification (complete)
+- Chapter 05.1b: Understanding Constraints, Assumptions, and Dependencies (complete)
+- Chapter 05.1c: Developing the Project Charter (complete)
+- Chapter 05.1d: Selecting the Delivery Approach (complete)
+- Chapter 05.1e: Roadmapping and Release Planning (complete)
 
 **Key Takeaways**:
 - Business case components: Problem statement, analysis, recommendations, evaluation
@@ -297,12 +297,12 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 11 (all subsections)
 
 **Reading**:
-- Chapter 11a: Requirements Collection and Refinement (complete)
-- Chapter 11b: Scope Definition and Baseline (complete)
-- Chapter 11c: Schedule Planning and Work Breakdown (complete)
-- Chapter 11d: Cost Estimation and Budgeting (complete)
-- Chapter 11e: Quality Planning and Acceptance Criteria (complete)
-- Chapter 11f: Resource and Procurement Planning (complete)
+- Chapter 06.1: Requirements Collection and Refinement (complete)
+- Chapter 06.1: Scope Definition and Baseline (complete)
+- Chapter 06.1: Schedule Planning and Work Breakdown (complete)
+- Chapter 06.1: Cost Estimation and Budgeting (complete)
+- Chapter 06.1: Quality Planning and Acceptance Criteria (complete)
+- Chapter 06.1: Resource and Procurement Planning (complete)
 
 **Key Takeaways**:
 - Requirements: Functional, non-functional, business, stakeholder, solution, transition
@@ -338,9 +338,9 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 12a, 12b, 12c
 
 **Reading**:
-- Chapter 12a: Understanding Risk (complete)
-- Chapter 12b: Risk Identification and Analysis (complete)
-- Chapter 12c: Risk Response Strategies (complete)
+- Chapter 07.1a: Understanding Risk (complete)
+- Chapter 07.1b: Risk Identification and Analysis (complete)
+- Chapter 07.1c: Risk Response Strategies (complete)
 
 **Key Takeaways**:
 - Risk definition: Uncertain event or condition that affects objectives
@@ -362,9 +362,9 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 12d, 12e, 12f
 
 **Reading**:
-- Chapter 12d: Issue Management (complete)
-- Chapter 12e: Change Management (complete)
-- Chapter 12f: Knowledge Check (complete)
+- Chapter 07.1d: Issue Management (complete)
+- Chapter 07.1e: Change Management (complete)
+- Chapter 07.1f: Knowledge Check (complete)
 
 **Key Takeaways**:
 - Risk vs. issue: Risk is future uncertainty, issue is current problem
@@ -376,7 +376,7 @@ This standard study plan is designed for project managers who want comprehensive
 - Change readiness assessment
 
 **Practice**: 25 questions on issues and change management
-**Complete**: Chapter 12f Knowledge Check
+**Complete**: Chapter 07.1f Knowledge Check
 
 **Week 6 Checkpoint**: Complete 50 mixed questions on risk, issues, and change. Target: 80%+ correct. Risk management is high-frequency on exam.
 
@@ -393,11 +393,11 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 13 (all subsections)
 
 **Reading**:
-- Chapter 13a: Coordinating Team Execution (complete)
-- Chapter 13b: Quality Assurance and Testing (complete)
-- Chapter 13c: Managing Scope During Execution (complete)
-- Chapter 13d: Vendor and Procurement Management (complete)
-- Chapter 13e: Team Performance and Accountability (complete)
+- Chapter 08.1: Coordinating Team Execution (complete)
+- Chapter 08.1: Quality Assurance and Testing (complete)
+- Chapter 08.1: Managing Scope During Execution (complete)
+- Chapter 08.1: Vendor and Procurement Management (complete)
+- Chapter 08.1: Team Performance and Accountability (complete)
 
 **Key Takeaways**:
 - Directing and managing project work
@@ -416,9 +416,9 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 14a, 14b, 14c
 
 **Reading**:
-- Chapter 14a: Tracking Progress and Performance (complete)
-- Chapter 14b: Schedule and Cost Control (complete)
-- Chapter 14c: Change Control and Configuration Management (complete)
+- Chapter 09.1: Tracking Progress and Performance (complete)
+- Chapter 09.1: Schedule and Cost Control (complete)
+- Chapter 09.1: Change Control and Configuration Management (complete)
 
 **Key Takeaways - EVM Formulas (CRITICAL)**:
 - **PV** (Planned Value) = Budgeted cost of work scheduled
@@ -459,9 +459,9 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 14d, 14e, 14f
 
 **Reading**:
-- Chapter 14d: Stakeholder Management During Execution (complete)
-- Chapter 14e: Project Closure and Transition (complete)
-- Chapter 14f: Knowledge Check (complete)
+- Chapter 09.1: Stakeholder Management During Execution (complete)
+- Chapter 09.1: Project Closure and Transition (complete)
+- Chapter 09.1f: Knowledge Check (complete)
 
 **Key Takeaways**:
 - Managing stakeholder expectations during variance
@@ -470,7 +470,7 @@ This standard study plan is designed for project managers who want comprehensive
 - Benefits realization measurement
 - Transition to operations
 
-**Complete**: Chapter 14f Knowledge Check
+**Complete**: Chapter 09.1f Knowledge Check
 
 **Week 7 Checkpoint**: Complete 60 Process domain questions covering execution, monitoring, and control. Target: 80%+ correct. Master EVM formulas - these are high-frequency questions.
 
@@ -487,13 +487,13 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 15 (focus on 15a-15f, 15h)
 
 **Reading**:
-- Chapter 15a: Organizational Strategy and Project Selection (complete)
-- Chapter 15b: Portfolio Management Concepts (complete)
-- Chapter 15c: Project and Program Alignment (complete)
-- Chapter 15d: Benefits Realization and Value Creation (complete)
-- Chapter 15e: Strategic Planning and Roadmaps (complete)
-- Chapter 15f: Monitoring and Responding to External Business Environment Changes (complete)
-- Chapter 15h: Project Management Offices (complete)
+- Chapter 02.1a: Organizational Strategy and Project Selection (complete)
+- Chapter 02.1b: Portfolio Management Concepts (complete)
+- Chapter 02.1c: Project and Program Alignment (complete)
+- Chapter 02.1d: Benefits Realization and Value Creation (complete)
+- Chapter 02.1e: Strategic Planning and Roadmaps (complete)
+- Chapter 02.1f: Monitoring and Responding to External Business Environment Changes (complete)
+- Chapter 02.1h: Project Management Offices (complete)
 
 **Key Takeaways**:
 - Portfolio vs. Program vs. Project distinctions
@@ -516,12 +516,12 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 16 (all subsections including 16f)
 
 **Reading**:
-- Chapter 16a: Benefits Realization Planning and Identification (complete)
-- Chapter 16b: Tracking and Measuring Benefits During and After Execution (complete)
-- Chapter 16c: Long-Term Value vs. Short-Term Delivery Pressure (complete)
-- Chapter 16d: Sustainability and ESG in Project Context (complete)
-- Chapter 16e: Balancing Stakeholder Needs, Competing Values, and Benefits Realization (complete)
-- Chapter 16f: Knowledge Check (complete)
+- Chapter 02.2: Benefits Realization Planning and Identification (complete)
+- Chapter 02.2: Tracking and Measuring Benefits During and After Execution (complete)
+- Chapter 02.2: Long-Term Value vs. Short-Term Delivery Pressure (complete)
+- Chapter 02.2: Sustainability and ESG in Project Context (complete)
+- Chapter 02.2: Balancing Stakeholder Needs, Competing Values, and Benefits Realization (complete)
+- Chapter 02.2: Knowledge Check (complete)
 
 **Key Takeaways**:
 - Outputs → Outcomes → Benefits chain
@@ -533,7 +533,7 @@ This standard study plan is designed for project managers who want comprehensive
 - Balancing competing stakeholder values
 
 **Practice**: 25 questions on benefits and value
-**Complete**: Chapter 16f Knowledge Check
+**Complete**: Chapter 02.2 Knowledge Check
 
 **Week 8 Checkpoint**: Complete 50 Business Environment domain questions. Target: 75%+ correct. This domain tripled in weight for 2026 - ensure strong understanding.
 
@@ -550,11 +550,11 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 17 (all subsections including 17e)
 
 **Reading**:
-- Chapter 17a: Regulatory and Legal Compliance (complete)
-- Chapter 17b: Data Privacy and Information Security (complete)
-- Chapter 17c: Organizational Policies and Standards (complete)
-- Chapter 17d: Enterprise Risk and Governance Frameworks (complete)
-- Chapter 17e: Knowledge Check (complete)
+- Chapter 02.3: Regulatory and Legal Compliance (complete)
+- Chapter 02.3: Data Privacy and Information Security (complete)
+- Chapter 02.3: Organizational Policies and Standards (complete)
+- Chapter 02.3: Enterprise Risk and Governance Frameworks (complete)
+- Chapter 02.3: Knowledge Check (complete)
 
 **Key Takeaways**:
 - Compliance as mandatory constraint vs. discretionary feature
@@ -567,7 +567,7 @@ This standard study plan is designed for project managers who want comprehensive
 - Governance bodies: Steering Committee, PMO, Change Control Board
 
 **Practice**: 20 questions on compliance and governance
-**Complete**: Chapter 17e Knowledge Check
+**Complete**: Chapter 02.3 Knowledge Check
 
 ---
 
@@ -575,12 +575,12 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 18 (all subsections including 18f)
 
 **Reading**:
-- Chapter 18a: Change Impact Analysis and Readiness (complete)
-- Chapter 18b: Change Management Strategies and Frameworks (complete)
-- Chapter 18c: Communication and Training for Change (complete)
-- Chapter 18d: Managing Adoption and Resistance (complete)
-- Chapter 18e: Transitioning Ownership and Sustaining Change (complete)
-- Chapter 18f: Knowledge Check (complete)
+- Chapter 02.4: Change Impact Analysis and Readiness (complete)
+- Chapter 02.4: Change Management Strategies and Frameworks (complete)
+- Chapter 02.4: Communication and Training for Change (complete)
+- Chapter 02.4: Managing Adoption and Resistance (complete)
+- Chapter 02.4: Transitioning Ownership and Sustaining Change (complete)
+- Chapter 02.4: Knowledge Check (complete)
 
 **Key Takeaways**:
 - Change Gap: Current State vs. Future State
@@ -593,7 +593,7 @@ This standard study plan is designed for project managers who want comprehensive
 - Sustainment strategies to prevent "snap-back"
 
 **Practice**: 25 questions on organizational change
-**Complete**: Chapter 18f Knowledge Check
+**Complete**: Chapter 02.4 Knowledge Check
 
 **Week 9 Checkpoint**: Complete 50 mixed Business Environment domain questions covering all chapters (15-18). Target: 80%+ correct.
 
@@ -610,14 +610,14 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 22 (focus on key sections and 22g)
 
 **Reading**:
-- Chapter 22: Business Analysis Fundamentals for Project Managers (overview)
-- Chapter 22a: Business Analysis Planning and Monitoring (skim)
-- Chapter 22b: Elicitation and Collaboration (focus on techniques)
-- Chapter 22c: Requirements Life Cycle Management (complete)
-- Chapter 22d: Strategy Analysis (skim)
-- Chapter 22e: Requirements Analysis and Design Definition (complete)
-- Chapter 22f: Solution Evaluation (skim)
-- Chapter 22g: Knowledge Check (complete)
+- Chapter 05.2: Business Analysis Fundamentals for Project Managers (overview)
+- Chapter 05.2: Business Analysis Planning and Monitoring (skim)
+- Chapter 05.2: Elicitation and Collaboration (focus on techniques)
+- Chapter 05.2: Requirements Life Cycle Management (complete)
+- Chapter 05.2: Strategy Analysis (skim)
+- Chapter 05.2: Requirements Analysis and Design Definition (complete)
+- Chapter 05.2: Solution Evaluation (skim)
+- Chapter 05.2: Knowledge Check (complete)
 
 **Key Takeaways**:
 - Business Analysis Core Concept Model (BACCM)
@@ -627,7 +627,7 @@ This standard study plan is designed for project managers who want comprehensive
 - Requirements prioritization (MoSCoW: Must have, Should have, Could have, Won't have)
 
 **Practice**: 15 questions on business analysis
-**Complete**: Chapter 22g Knowledge Check
+**Complete**: Chapter 05.2 Knowledge Check
 
 ---
 
@@ -635,13 +635,13 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 23 (focus on 23a-23d, 23f)
 
 **Reading**:
-- Chapter 23: Process Groups Implementation Guide (overview)
-- Chapter 23a: The Initiating Process Group (complete)
-- Chapter 23b: The Planning Process Group (review - you've covered this)
-- Chapter 23c: Executing and Monitoring Process Groups (complete)
-- Chapter 23d: The Closing Process Group (complete)
-- Chapter 23e: ITTOs Reference Guide (skim - don't memorize all ITTOs)
-- Chapter 23f: Knowledge Check (complete)
+- Appendix A: Process Groups Implementation Guide (overview)
+- Appendix A.1: The Initiating Process Group (complete)
+- Appendix A.2: The Planning Process Group (review - you've covered this)
+- Appendix A.3: Executing and Monitoring Process Groups (complete)
+- Appendix A.4: The Closing Process Group (complete)
+- Appendix A.5: ITTOs Reference Guide (skim - don't memorize all ITTOs)
+- Appendix A.6: Knowledge Check (complete)
 
 **Key Takeaways**:
 - Process Groups as integration framework
@@ -650,7 +650,7 @@ This standard study plan is designed for project managers who want comprehensive
 - ITTO patterns and relationships (understand, don't memorize)
 
 **Practice**: 20 questions on process groups
-**Complete**: Chapter 23f Knowledge Check
+**Complete**: Appendix A.6 Knowledge Check
 
 ---
 
@@ -658,13 +658,13 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 24 (skim key sections), 20
 
 **Reading**:
-- Chapter 24: Program Management (overview)
-- Chapter 24a: Program Strategy Alignment (skim)
-- Chapter 24b: Program Benefits Management (skim)
-- Chapter 24c: Program Stakeholder Engagement (skim)
-- Chapter 24d: Program Governance (skim)
-- Chapter 24h: Knowledge Check (optional)
-- Chapter 20: AI Essentials for Project Professionals (complete)
+- Chapter 02.5: Program Management (overview)
+- Chapter 02.5: Program Strategy Alignment (skim)
+- Chapter 02.5: Program Benefits Management (skim)
+- Chapter 02.5: Program Stakeholder Engagement (skim)
+- Chapter 02.5: Program Governance (skim)
+- Chapter 02.5h: Knowledge Check (optional)
+- Chapter 10.2: AI Essentials for Project Professionals (complete)
 
 **Key Takeaways**:
 - Program vs. Project vs. Portfolio (clear distinctions)
@@ -692,11 +692,11 @@ This standard study plan is designed for project managers who want comprehensive
 **Chapters**: 19 (all subsections)
 
 **Reading**:
-- Chapter 19a: Understanding the Exam Format and Structure (complete)
-- Chapter 19b: Analyzing and Approaching Scenario-Based Questions (complete)
-- Chapter 19c: Test-Taking Strategies and Techniques (complete)
-- Chapter 19d: Time Management and Exam-Day Logistics (complete)
-- Chapter 19e: Practice, Preparation, and Building Confidence (complete)
+- Chapter 10.1: Understanding the Exam Format and Structure (complete)
+- Chapter 10.1: Analyzing and Approaching Scenario-Based Questions (complete)
+- Chapter 10.1: Test-Taking Strategies and Techniques (complete)
+- Chapter 10.1: Time Management and Exam-Day Logistics (complete)
+- Chapter 10.1: Practice, Preparation, and Building Confidence (complete)
 
 **Key Takeaways**:
 - Three-layer method: Read question first, skim scenario, identify core problem
@@ -769,15 +769,15 @@ This standard study plan is designed for project managers who want comprehensive
 - Review conflict resolution, leadership styles, stakeholder management
 
 **If Weak in Process Domain**:
-- Re-practice EVM calculations (Chapter 14b)
-- Review risk response strategies (Chapter 12c)
-- Practice critical path and schedule compression (Chapter 11c)
+- Re-practice EVM calculations (Chapter 09.1)
+- Review risk response strategies (Chapter 07.1c)
+- Practice critical path and schedule compression (Chapter 06.1)
 - Complete 60 additional Process domain questions
 
 **If Weak in Business Environment Domain**:
 - Re-read Chapters 15-18 summaries
-- Focus on benefits realization (Chapter 16)
-- Review compliance and governance (Chapter 17)
+- Focus on benefits realization (Chapter 02.2)
+- Review compliance and governance (Chapter 02.3)
 - Practice 40 additional Business Environment domain questions
 
 **Practice**: 50-100 questions in weak areas
@@ -1058,7 +1058,7 @@ To ensure consistent progress and retention, aim for these practice question tar
 - [ ] Light review of weak areas only
 - [ ] Practice EVM calculations daily
 - [ ] Review Appendix A (formulas and definitions)
-- [ ] Review exam strategy (Chapter 19)
+- [ ] Review exam strategy (Chapter 10.1)
 - [ ] Confirmed exam appointment details
 - [ ] Prepared valid ID and exam requirements
 - [ ] Planned exam-day logistics (travel, meals, timing)
@@ -1087,7 +1087,7 @@ To ensure consistent progress and retention, aim for these practice question tar
 - **Study-Aids/Concept-Map.md**: Visual relationships between concepts
 - **Appendix A**: Key formulas and definitions
 - **Appendix C**: Tools and artifacts index
-- **Practice Exams**: All available exams in Chapter 21
+- **Practice Exams**: All available exams in Chapter 10.3
 - **PMI.org**: Official ECO document and PMP Handbook
 
 **Remember**: The PMP exam tests your ability to apply PM knowledge in realistic scenarios. Focus on understanding principles and making good decisions, not just memorizing facts. Trust your experience and preparation.
