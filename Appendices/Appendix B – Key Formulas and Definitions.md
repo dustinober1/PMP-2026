@@ -742,11 +742,11 @@ The degree to which end-users accept and use a delivered product or system. Low 
 
 **Agile**
 An iterative, incremental delivery approach that emphasizes frequent feedback, continuous adaptation, and team collaboration. Contrasts with predictive (waterfall) approaches. Examples: Scrum, Kanban, XP.
-*See: [Chapter 4: Ways of Working and Tailoring](../Chapter%204/4%20–%20Ways%20of%20Working%20and%20Tailoring.md), [Chapter 4a: Agile Frameworks and Suitability](../Chapter%204/4a%20–%20Agile%20Frameworks%20and%20Suitability.md)*
+*See: [Chapter 01.3: Ways of Working and Tailoring](../Chapter%2001%20-%20Introduction%20and%20Fundamentals/01.3%20–%20Ways%20of%20Working%20and%20Tailoring.md)*
 
 **ADKAR**
 A change management framework: Awareness, Desire, Knowledge, Ability, Reinforcement. Focuses on individual change, helping people move from current state to future state.
-*See: [Chapter 18: Organizational Change and Readiness](../Chapter%2018/18%20–%20Organizational%20Change%20and%20Readiness.md), [Chapter 18b: Change Management Strategies and Frameworks](../Chapter%2018/18b%20–%20Change%20Management%20Strategies%20and%20Frameworks.md)*
+*See: [Chapter 02.4: Organizational Change and Readiness](../Chapter%2002%20-%20Strategic%20Alignment%20and%20Business%20Environment/02.4%20–%20Organizational%20Change%20and%20Readiness.md), [Chapter 07.1e: Change Management](../Chapter%2007%20-%20Risk%20Quality%20and%20Complexity/07.1e%20–%20Change%20Management.md)*
 
 **Artifact**
 A document or other item created during a portfolio, program, or project to help manage it and provide information to the project team, stakeholders, and management. Examples include project charters, schedules, risk registers, status reports, requirements documents, and deliverables.
@@ -784,7 +784,7 @@ A visual chart showing completed work (story points or tasks) over time. Opposit
 
 **Business Case**
 A documented justification for undertaking a project, typically including strategic alignment, cost-benefit analysis, risks, and expected benefits. Created during project initiation.
-*See: [Chapter 10a: Business Case and Project Justification](../Chapter%2010/10a%20–%20Business%20Case%20and%20Project%20Justification.md), [Chapter 15: Strategy and Portfolio Alignment](../Chapter%2015/15%20–%20Strategy%20and%20Portfolio%20Alignment.md)*
+*See: [Chapter 05.1a: Business Case and Project Justification](../Chapter%2005%20-%20Initiation%20and%20Requirements/05.1a%20–%20Business%20Case%20and%20Project%20Justification.md), [Chapter 02.1: Strategy and Portfolio Alignment](../Chapter%2002%20-%20Strategic%20Alignment%20and%20Business%20Environment/02.1%20–%20Strategy%20and%20Portfolio%20Alignment.md)*
 
 ---
 

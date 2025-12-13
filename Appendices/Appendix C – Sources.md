@@ -6,7 +6,7 @@ This appendix consolidates key external references used throughout the PMP 2026 
 
 - Project Management Institute (PMI). *Project Management Professional (PMP)® Examination Content Outline – July 2026*.
   - Primary source for domain definitions, task/enabler descriptions, exam structure (185 questions, 175 scored + 10 pretest), timings, and item types.
-  - Available via PMI's certification pages; this repository includes a local copy at `Resources/New-PMP-Examination-Content-Outline-2026.pdf`.
+  - Available via PMI's certification pages; this repository includes a local copy at `References/New-PMP-Examination-Content-Outline-2026.pdf`.
 
 - Project Management Institute (PMI). *PMP® Certification Handbook*.
   - Official guidance on eligibility requirements, application process, exam policies, and score reporting.
@@ -32,4 +32,3 @@ This appendix consolidates key external references used throughout the PMP 2026 
 - PMProad – articles focusing on sustainability, ESG, and value-focused project management practices relevant to the Business Environment domain.
 
 As you add new chapters or update existing ones, list any additional external sources here (grouped under similar headings) so that full citations remain centralized in this appendix rather than duplicated across chapters.
-

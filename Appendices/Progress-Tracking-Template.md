@@ -205,8 +205,8 @@ Track which study methods work best for you:
 - [ ] Consistent performance (scores within 10% range)
 
 **Time Management** (Check when achieved):
-- [ ] Completing 185 questions in 230 minutes or less
-- [ ] Average 1.2 minutes per question or faster
+- [ ] Completing 185 questions in 240 minutes or less
+- [ ] Average 1.3 minutes per question or faster
 - [ ] Time remaining for review (at least 15 minutes)
 - [ ] Comfortable pacing without rushing
 
