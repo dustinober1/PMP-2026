@@ -278,7 +278,7 @@ The Process domain focuses on the technical aspects of managing projects - the m
 - Schedule development and critical path method
 - Quality planning, assurance, and control
 
-### Chapter 10: Initiating and Planning - Quick Summary
+### Chapter 05.1: Starting the Project - Quick Summary
 
 **Key Points:**
 - **Business Case**: Why the project exists, expected benefits, investment justification

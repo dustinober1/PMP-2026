@@ -286,7 +286,7 @@ This section provides direct links from each concept in the diagrams above to th
 
 | Concept | Primary Chapter | Additional References |
 |---------|----------------|----------------------|
-| **Project Charter & Initiation** | Chapter 10: Initiating and Planning | Chapter 05.1c: Developing the Project Charter |
+| **Project Charter & Initiation** | Chapter 05.1: Starting the Project | Chapter 05.1c: Developing the Project Charter |
 | **Planning & Scope Management** | Chapter 06.1: Planning for Value Delivery | Chapter 06.1: Scope Definition and Baseline |
 | **Schedule & Cost Management** | Chapter 06.1: Schedule Planning and Work Breakdown | Chapter 06.1: Cost Estimation and Budgeting, Chapter 09.1: Schedule and Cost Control |
 | **Risk Management** | Chapter 07.1: Risk, Issues, and Change Management | Chapter 01.4d: Risk Management, Chapter 07.1a: Understanding Risk |
@@ -313,7 +313,7 @@ This section provides direct links from each concept in the diagrams above to th
 
 | Integration Area | Chapters | Key Concepts |
 |------------------|----------|--------------|
-| **Leadership in Process Management** | Chapter 03.1, Chapter 10, Chapter 08.1 | How servant leadership principles guide project initiation, planning, and execution |
+| **Leadership in Process Management** | Chapter 03.1, Chapter 05.1, Chapter 08.1 | How servant leadership principles guide project initiation, planning, and execution |
 | **Stakeholder-Driven Strategy** | Chapter 04.1, Chapter 02.1 | Stakeholder influence on strategic project selection and portfolio decisions |
 | **Communication for Change** | Chapter 04.1, Chapter 02.4 | Communication strategies that support organizational transformation |
 | **Risk and Compliance Integration** | Chapter 07.1, Chapter 02.3 | How project risk management aligns with enterprise governance |
