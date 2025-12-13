@@ -574,8 +574,8 @@ Very Low (0.1)      |     0.1     |   0.2   |    0.3    |   0.4   |    0.5
 
 ## Connection to Other Chapters
 
-- **Chapter 11**: Core planning concepts expanded in detail
-- **Chapter 12**: Detailed risk management processes
+- **Chapter 06**: Core planning concepts expanded in detail
+- **Chapter 07**: Detailed risk management processes
 - **Chapter 7**: Stakeholder engagement fundamentals
-- **Chapter 18**: Organizational change management
-- **Chapter 14**: Performance measurement and control
+- **Chapter 02.4**: Organizational change management
+- **Chapter 09**: Performance measurement and control

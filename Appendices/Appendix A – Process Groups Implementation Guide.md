@@ -64,12 +64,12 @@ These Process Groups are **not project phases** - they are overlapping activitie
 
 This chapter doesn't replace existing content but **enhances** it by:
 
-- **Chapter 10**: Expands on initiating activities beyond the charter
-- **Chapter 11**: Provides detailed planning process methodology
-- **Chapter 12**: Integrates risk processes into monitoring and controlling
-- **Chapter 13**: Shows execution in the context of Process Groups
-- **Chapter 14**: Details monitoring and controlling processes
-- **Chapters 15-18**: Connects business environment activities throughout
+- **Chapter 05**: Expands on initiating activities beyond the charter
+- **Chapter 06**: Provides detailed planning process methodology
+- **Chapter 07**: Integrates risk processes into monitoring and controlling
+- **Chapter 08**: Shows execution in the context of Process Groups
+- **Chapter 09**: Details monitoring and controlling processes
+- **Chapter 02**: Connects business environment activities throughout
 
 ### Sarah's Process Groups Journey
 

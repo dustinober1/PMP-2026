@@ -380,7 +380,7 @@ High(3)              3         6            9
 ## Connection to Other Chapters
 
 - **Chapter 10**: Project charter details and initial planning
-- **Chapter 15**: Strategic alignment and portfolio management
+- **Chapter 02.1**: Strategic alignment and portfolio management
 - **Chapter 7**: Stakeholder engagement fundamentals
-- **Chapter 12**: Risk management foundation
-- **Chapter 17**: Governance and compliance considerations
+- **Chapter 07**: Risk management foundation
+- **Chapter 02.3**: Governance and compliance considerations

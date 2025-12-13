@@ -436,8 +436,8 @@ The Monitoring and Controlling Process Group tracks, reviews, and regulates the 
 
 ## Connection to Other Chapters
 
-- **Chapter 13**: Core execution concepts expanded
-- **Chapter 14**: Detailed monitoring and controlling processes
+- **Chapter 08**: Core execution concepts expanded
+- **Chapter 09**: Detailed monitoring and controlling processes
 - **Chapter 6**: Team leadership and development
 - **Chapter 7**: Stakeholder engagement and communication
-- **Chapter 12**: Risk monitoring and response
+- **Chapter 07**: Risk monitoring and response
