@@ -81,11 +81,11 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Practice**: 15 questions on value concepts
 
 #### Friday-Sunday: Ways of Working and Agile Foundations (4 hours)
-**Chapters**: 4, 4a
+**Chapters**: 01.3
 
 **Reading**:
-- Chapter 4: Ways of Working and Tailoring (complete)
-- Chapter 4a: Agile Frameworks and Suitability (complete)
+- Chapter 01.3: Ways of Working and Tailoring (complete)
+- Chapter 01.3: Agile Frameworks and Suitability (complete)
 
 **Deep Dive Activities**:
 - Create comparison chart: Predictive vs. Agile vs. Hybrid

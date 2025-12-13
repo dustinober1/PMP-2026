@@ -43,11 +43,11 @@ This accelerated study plan is designed for experienced project managers who nee
 ---
 
 ### Wednesday-Thursday: Ways of Working and Tailoring (5 hours)
-**Chapters**: 4, 4a
+**Chapters**: 01.3
 
 **Must-Read Sections**:
-- Chapter 4: Complete (predictive, agile, hybrid approaches)
-- Chapter 4a: Agile Manifesto (4 values, 12 principles), Scrum basics, Kanban basics
+- Chapter 01.3: Complete (predictive, agile, hybrid approaches)
+- Chapter 01.3: Agile Manifesto (4 values, 12 principles), Scrum basics, Kanban basics
 
 **Key Focus**:
 - When to use predictive vs. agile vs. hybrid
