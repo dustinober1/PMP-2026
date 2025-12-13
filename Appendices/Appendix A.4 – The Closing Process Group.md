@@ -433,8 +433,8 @@ Best Practice Template:
 
 ## Connection to Other Chapters
 
-- **Chapter 14**: Project closure procedures and final reporting
-- **Chapter 16**: Benefits realization and value measurement
-- **Chapter 18**: Organizational change and transition
+- **Chapter 09**: Project closure procedures and final reporting
+- **Chapter 02.2**: Benefits realization and value measurement
+- **Chapter 02.4**: Organizational change and transition
 - **Chapter 6**: Team transition and recognition
 - **Chapter 7**: Stakeholder closure and satisfaction
