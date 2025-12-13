@@ -64,11 +64,11 @@ This standard study plan is designed for project managers who want comprehensive
 ---
 
 ### Friday-Sunday: Ways of Working (4 hours)
-**Chapters**: 4, 4a
+**Chapters**: 01.3
 
 **Reading**:
-- Chapter 4: Ways of Working and Tailoring (complete)
-- Chapter 4a: Agile Frameworks and Suitability (complete)
+- Chapter 01.3: Ways of Working and Tailoring (complete)
+- Chapter 01.3: Agile Frameworks and Suitability (complete)
 
 **Key Takeaways**:
 - Predictive, Agile, Hybrid approaches
