@@ -9,6 +9,9 @@ The PMP exam is structured around three domains with specific weightings:
 - **Process Domain (41%)**: Planning, execution, monitoring, control, closure
 - **Business Environment Domain (26%)**: Strategy, compliance, organizational change
 
+> Note: Chapter-reference links in this concept map are being updated to match this repository’s chapter structure. For v1, broken chapter links have been removed; references remain as text.
+
+
 ## High-Level Domain Relationships
 
 The following diagram illustrates the major concepts within each domain and shows how they connect across domain boundaries:
@@ -271,50 +274,50 @@ This section provides direct links from each concept in the diagrams above to th
 
 | Concept | Primary Chapter | Additional References |
 |---------|----------------|----------------------|
-| **Leadership & Servant Leadership** | [Chapter 9: Coaching, Mentoring, and Servant Leadership](../Chapter%209/9%20–%20Coaching,%20Mentoring,%20and%20Servant%20Leadership.md) | [Chapter 6: Building and Leading Teams](../Chapter%206/6%20–%20Building%20and%20Leading%20Teams.md), [Chapter 9b: Servant Leadership in Practice](../Chapter%209/9b%20–%20Servant%20Leadership%20in%20Practice.md) |
-| **Team Development & Management** | [Chapter 6: Building and Leading Teams](../Chapter%206/6%20–%20Building%20and%20Leading%20Teams.md) | [Chapter 6a: Team Composition and Development](../Chapter%206/6a%20–%20Team%20Composition%20and%20Development.md) |
-| **Stakeholder Engagement** | [Chapter 7: Stakeholder and Communication Mastery](../Chapter%207/7%20–%20Stakeholder%20and%20Communication%20Mastery.md) | [Chapter 5a: Stakeholders and Communication](../Chapter%205/5a%20–%20Stakeholders%20and%20Communication.md), [Chapter 7a: Stakeholder Identification and Analysis](../Chapter%207/7a%20–%20Stakeholder%20Identification%20and%20Analysis.md) |
-| **Communication Planning** | [Chapter 7c: Communication Planning and Strategy](../Chapter%207/7c%20–%20Communication%20Planning%20and%20Strategy.md) | [Chapter 7d: Adapting Communication and Cultural Considerations](../Chapter%207/7d%20–%20Adapting%20Communication%20and%20Cultural%20Considerations.md) |
-| **Conflict Resolution** | [Chapter 8: Conflict, Negotiation, and Decision-Making](../Chapter%208/8%20–%20Conflict,%20Negotiation,%20and%20Decision-Making.md) | [Chapter 6d: Conflict Resolution and Problem-Solving](../Chapter%206/6d%20–%20Conflict%20Resolution%20and%20Problem-Solving.md), [Chapter 8b: Conflict Resolution Styles and Approaches](../Chapter%208/8b%20–%20Conflict%20Resolution%20Styles%20and%20Approaches.md) |
-| **Coaching & Mentoring** | [Chapter 9c: Coaching and Developing Others](../Chapter%209/9c%20–%20Coaching%20and%20Developing%20Others.md) | [Chapter 9d: Mentoring and Continuous Learning](../Chapter%209/9d%20–%20Mentoring%20and%20Continuous%20Learning.md) |
-| **Emotional Intelligence** | [Chapter 6: Building and Leading Teams](../Chapter%206/6%20–%20Building%20and%20Leading%20Teams.md) | [Chapter 9: Coaching, Mentoring, and Servant Leadership](../Chapter%209/9%20–%20Coaching,%20Mentoring,%20and%20Servant%20Leadership.md) |
+| **Leadership & Servant Leadership** | Chapter 9: Coaching, Mentoring, and Servant Leadership | Chapter 6: Building and Leading Teams, Chapter 9b: Servant Leadership in Practice |
+| **Team Development & Management** | Chapter 6: Building and Leading Teams | Chapter 6a: Team Composition and Development |
+| **Stakeholder Engagement** | Chapter 7: Stakeholder and Communication Mastery | Chapter 5a: Stakeholders and Communication, Chapter 7a: Stakeholder Identification and Analysis |
+| **Communication Planning** | Chapter 7c: Communication Planning and Strategy | Chapter 7d: Adapting Communication and Cultural Considerations |
+| **Conflict Resolution** | Chapter 8: Conflict, Negotiation, and Decision-Making | Chapter 6d: Conflict Resolution and Problem-Solving, Chapter 8b: Conflict Resolution Styles and Approaches |
+| **Coaching & Mentoring** | Chapter 9c: Coaching and Developing Others | Chapter 9d: Mentoring and Continuous Learning |
+| **Emotional Intelligence** | Chapter 6: Building and Leading Teams | Chapter 9: Coaching, Mentoring, and Servant Leadership |
 
 ### Process Domain Concepts
 
 | Concept | Primary Chapter | Additional References |
 |---------|----------------|----------------------|
-| **Project Charter & Initiation** | [Chapter 10: Initiating and Planning](../Chapter%2010/10%20–%20Initiating%20and%20Planning.md) | [Chapter 10c: Developing the Project Charter](../Chapter%2010/10c%20–%20Developing%20the%20Project%20Charter.md) |
-| **Planning & Scope Management** | [Chapter 11: Planning for Value Delivery](../Chapter%2011/11%20–%20Planning%20for%20Value%20Delivery.md) | [Chapter 11b: Scope Definition and Baseline](../Chapter%2011/11b%20–%20Scope%20Definition%20and%20Baseline.md) |
-| **Schedule & Cost Management** | [Chapter 11c: Schedule Planning and Work Breakdown](../Chapter%2011/11c%20–%20Schedule%20Planning%20and%20Work%20Breakdown.md) | [Chapter 11d: Cost Estimation and Budgeting](../Chapter%2011/11d%20–%20Cost%20Estimation%20and%20Budgeting.md), [Chapter 14b: Schedule and Cost Control](../Chapter%2014/14b%20–%20Schedule%20and%20Cost%20Control.md) |
-| **Risk Management** | [Chapter 12: Risk, Issues, and Change Management](../Chapter%2012/12%20–%20Risk,%20Issues,%20and%20Change%20Management.md) | [Chapter 5d: Risk Management](../Chapter%205/5d%20–%20Risk%20Management.md), [Chapter 12a: Understanding Risk](../Chapter%2012/12a%20–%20Understanding%20Risk.md) |
-| **Quality Management** | [Chapter 11e: Quality Planning and Acceptance Criteria](../Chapter%2011/11e%20–%20Quality%20Planning%20and%20Acceptance%20Criteria.md) | [Chapter 5c: Quality](../Chapter%205/5c%20–%20Quality.md), [Chapter 13b: Quality Assurance and Testing](../Chapter%2013/13b%20–%20Quality%20Assurance%20and%20Testing.md) |
-| **Execution & Monitoring** | [Chapter 13: Executing and Delivering Work](../Chapter%2013/13%20–%20Executing%20and%20Delivering%20Work.md) | [Chapter 14: Monitoring, Controlling, and Closing](../Chapter%2014/14%20–%20Monitoring,%20Controlling,%20and%20Closing.md) |
-| **Change Control** | [Chapter 12e: Change Management](../Chapter%2012/12e%20–%20Change%20Management.md) | [Chapter 14c: Change Control and Configuration Management](../Chapter%2014/14c%20–%20Change%20Control%20and%20Configuration%20Management.md) |
-| **Project Closure** | [Chapter 14e: Project Closure and Transition](../Chapter%2014/14e%20–%20Project%20Closure%20and%20Transition.md) | [Chapter 23d: The Closing Process Group](../Chapter%2023/23d%20–%20The%20Closing%20Process%20Group.md) |
-| **Earned Value Management** | [Chapter 14a: Tracking Progress and Performance](../Chapter%2014/14a%20–%20Tracking%20Progress%20and%20Performance.md) | [Chapter 14b: Schedule and Cost Control](../Chapter%2014/14b%20–%20Schedule%20and%20Cost%20Control.md) |
+| **Project Charter & Initiation** | Chapter 10: Initiating and Planning | Chapter 10c: Developing the Project Charter |
+| **Planning & Scope Management** | Chapter 11: Planning for Value Delivery | Chapter 11b: Scope Definition and Baseline |
+| **Schedule & Cost Management** | Chapter 11c: Schedule Planning and Work Breakdown | Chapter 11d: Cost Estimation and Budgeting, Chapter 14b: Schedule and Cost Control |
+| **Risk Management** | Chapter 12: Risk, Issues, and Change Management | Chapter 5d: Risk Management, Chapter 12a: Understanding Risk |
+| **Quality Management** | Chapter 11e: Quality Planning and Acceptance Criteria | Chapter 5c: Quality, Chapter 13b: Quality Assurance and Testing |
+| **Execution & Monitoring** | Chapter 13: Executing and Delivering Work | Chapter 14: Monitoring, Controlling, and Closing |
+| **Change Control** | Chapter 12e: Change Management | Chapter 14c: Change Control and Configuration Management |
+| **Project Closure** | Chapter 14e: Project Closure and Transition | Chapter 23d: The Closing Process Group |
+| **Earned Value Management** | Chapter 14a: Tracking Progress and Performance | Chapter 14b: Schedule and Cost Control |
 
 ### Business Environment Domain Concepts
 
 | Concept | Primary Chapter | Additional References |
 |---------|----------------|----------------------|
-| **Strategy Alignment** | [Chapter 15: Strategy and Portfolio Alignment](../Chapter%2015/15%20–%20Strategy%20and%20Portfolio%20Alignment.md) | [Chapter 15a: Organizational Strategy and Project Selection](../Chapter%2015/15a%20–%20Organizational%20Strategy%20and%20Project%20Selection.md) |
-| **Benefits Realization** | [Chapter 16: Benefits, Value, and Sustainability](../Chapter%2016/16%20–%20Benefits,%20Value,%20and%20Sustainability.md) | [Chapter 15d: Benefits Realization and Value Creation](../Chapter%2015/15d%20–%20Benefits%20Realization%20and%20Value%20Creation.md), [Chapter 16a: Benefits Realization Planning and Identification](../Chapter%2016/16a%20–%20Benefits%20Realization%20Planning%20and%20Identification.md) |
-| **Compliance & Governance** | [Chapter 17: Compliance, Risk, and Governance](../Chapter%2017/17%20–%20Compliance,%20Risk,%20and%20Governance.md) | [Chapter 17d: Enterprise Risk and Governance Frameworks](../Chapter%2017/17d%20–%20Enterprise%20Risk%20and%20Governance%20Frameworks.md) |
-| **Organizational Change** | [Chapter 18: Organizational Change and Readiness](../Chapter%2018/18%20–%20Organizational%20Change%20and%20Readiness.md) | [Chapter 18b: Change Management Strategies and Frameworks](../Chapter%2018/18b%20–%20Change%20Management%20Strategies%20and%20Frameworks.md) |
-| **Portfolio Management** | [Chapter 15b: Portfolio Management Concepts](../Chapter%2015/15b%20–%20Portfolio%20Management%20Concepts.md) | [Chapter 24: Program Management](../Chapter%2024/24%20–%20Program%20Management.md) |
-| **Sustainability & ESG** | [Chapter 16d: Sustainability and ESG in Project Context](../Chapter%2016/16d%20–%20Sustainability%20and%20ESG%20in%20Project%20Context.md) | [Chapter 16: Benefits, Value, and Sustainability](../Chapter%2016/16%20–%20Benefits,%20Value,%20and%20Sustainability.md) |
-| **PMO Functions** | [Chapter 15h: Project Management Offices](../Chapter%2015/15h%20–%20Project%20Management%20Offices.md) | [Chapter 15: Strategy and Portfolio Alignment](../Chapter%2015/15%20–%20Strategy%20and%20Portfolio%20Alignment.md) |
-| **Regulatory Standards** | [Chapter 17a: Regulatory and Legal Compliance](../Chapter%2017/17a%20–%20Regulatory%20and%20Legal%20Compliance.md) | [Chapter 17b: Data Privacy and Information Security](../Chapter%2017/17b%20–%20Data%20Privacy%20and%20Information%20Security.md) |
+| **Strategy Alignment** | Chapter 15: Strategy and Portfolio Alignment | Chapter 15a: Organizational Strategy and Project Selection |
+| **Benefits Realization** | Chapter 16: Benefits, Value, and Sustainability | Chapter 15d: Benefits Realization and Value Creation, Chapter 16a: Benefits Realization Planning and Identification |
+| **Compliance & Governance** | Chapter 17: Compliance, Risk, and Governance | Chapter 17d: Enterprise Risk and Governance Frameworks |
+| **Organizational Change** | Chapter 18: Organizational Change and Readiness | Chapter 18b: Change Management Strategies and Frameworks |
+| **Portfolio Management** | Chapter 15b: Portfolio Management Concepts | Chapter 24: Program Management |
+| **Sustainability & ESG** | Chapter 16d: Sustainability and ESG in Project Context | Chapter 16: Benefits, Value, and Sustainability |
+| **PMO Functions** | Chapter 15h: Project Management Offices | Chapter 15: Strategy and Portfolio Alignment |
+| **Regulatory Standards** | Chapter 17a: Regulatory and Legal Compliance | Chapter 17b: Data Privacy and Information Security |
 
 ### Cross-Domain Integration Points
 
 | Integration Area | Chapters | Key Concepts |
 |------------------|----------|--------------|
-| **Leadership in Process Management** | [Chapter 6](../Chapter%206/6%20–%20Building%20and%20Leading%20Teams.md), [Chapter 10](../Chapter%2010/10%20–%20Initiating%20and%20Planning.md), [Chapter 13](../Chapter%2013/13%20–%20Executing%20and%20Delivering%20Work.md) | How servant leadership principles guide project initiation, planning, and execution |
-| **Stakeholder-Driven Strategy** | [Chapter 7](../Chapter%207/7%20–%20Stakeholder%20and%20Communication%20Mastery.md), [Chapter 15](../Chapter%2015/15%20–%20Strategy%20and%20Portfolio%20Alignment.md) | Stakeholder influence on strategic project selection and portfolio decisions |
-| **Communication for Change** | [Chapter 7](../Chapter%207/7%20–%20Stakeholder%20and%20Communication%20Mastery.md), [Chapter 18](../Chapter%2018/18%20–%20Organizational%20Change%20and%20Readiness.md) | Communication strategies that support organizational transformation |
-| **Risk and Compliance Integration** | [Chapter 12](../Chapter%2012/12%20–%20Risk,%20Issues,%20and%20Change%20Management.md), [Chapter 17](../Chapter%2017/17%20–%20Compliance,%20Risk,%20and%20Governance.md) | How project risk management aligns with enterprise governance |
-| **Quality and Value Delivery** | [Chapter 11e](../Chapter%2011/11e%20–%20Quality%20Planning%20and%20Acceptance%20Criteria.md), [Chapter 16](../Chapter%2016/16%20–%20Benefits,%20Value,%20and%20Sustainability.md) | Quality standards that ensure benefits realization |
+| **Leadership in Process Management** | Chapter 6, Chapter 10, Chapter 13 | How servant leadership principles guide project initiation, planning, and execution |
+| **Stakeholder-Driven Strategy** | Chapter 7, Chapter 15 | Stakeholder influence on strategic project selection and portfolio decisions |
+| **Communication for Change** | Chapter 7, Chapter 18 | Communication strategies that support organizational transformation |
+| **Risk and Compliance Integration** | Chapter 12, Chapter 17 | How project risk management aligns with enterprise governance |
+| **Quality and Value Delivery** | Chapter 11e, Chapter 16 | Quality standards that ensure benefits realization |
 ## Delivery Approach Context Annotations
 
 Different project management concepts apply differently depending on the delivery approach being used. This section shows how key concepts vary across predictive (waterfall), agile, and hybrid approaches.
@@ -330,32 +333,32 @@ Different project management concepts apply differently depending on the deliver
 #### Planning and Scope Management
 | Concept | Predictive 🔵 | Agile 🟢 | Hybrid 🟡 | Notes |
 |---------|---------------|----------|-----------|-------|
-| **Requirements Collection** | Comprehensive upfront analysis | Continuous refinement through user stories | Mix of upfront and iterative | [Chapter 11a](../Chapter%2011/11a%20–%20Requirements%20Collection%20and%20Refinement.md) |
-| **Scope Definition** | Detailed WBS with fixed scope | Product backlog with evolving scope | Core scope fixed, details iterative | [Chapter 11b](../Chapter%2011/11b%20–%20Scope%20Definition%20and%20Baseline.md) |
-| **Schedule Planning** | Gantt charts, critical path | Sprint planning, velocity tracking | Roadmaps with sprint details | [Chapter 11c](../Chapter%2011/11c%20–%20Schedule%20Planning%20and%20Work%20Breakdown.md) |
-| **Change Control** | Formal change control board | Continuous adaptation within sprints | Formal for core, flexible for details | [Chapter 12e](../Chapter%2012/12e%20–%20Change%20Management.md) |
+| **Requirements Collection** | Comprehensive upfront analysis | Continuous refinement through user stories | Mix of upfront and iterative | Chapter 11a |
+| **Scope Definition** | Detailed WBS with fixed scope | Product backlog with evolving scope | Core scope fixed, details iterative | Chapter 11b |
+| **Schedule Planning** | Gantt charts, critical path | Sprint planning, velocity tracking | Roadmaps with sprint details | Chapter 11c |
+| **Change Control** | Formal change control board | Continuous adaptation within sprints | Formal for core, flexible for details | Chapter 12e |
 
 #### Team Management and Leadership
 | Concept | Predictive 🔵 | Agile 🟢 | Hybrid 🟡 | Notes |
 |---------|---------------|----------|-----------|-------|
-| **Team Structure** | Hierarchical with defined roles | Self-organizing cross-functional teams | Mix of hierarchy and self-organization | [Chapter 6a](../Chapter%206/6a%20–%20Team%20Composition%20and%20Development.md) |
-| **Leadership Style** | Directive project management | Servant leadership and coaching | Adaptive leadership based on context | [Chapter 9b](../Chapter%209/9b%20–%20Servant%20Leadership%20in%20Practice.md) |
-| **Decision Making** | PM-driven with stakeholder input | Team-driven with PM facilitation | Context-dependent decision authority | [Chapter 8d](../Chapter%208/8d%20–%20Decision-Making%20Frameworks%20and%20Escalation.md) |
-| **Communication** | Formal reports and meetings | Daily standups and retrospectives | Mix of formal and informal channels | [Chapter 7c](../Chapter%207/7c%20–%20Communication%20Planning%20and%20Strategy.md) |
+| **Team Structure** | Hierarchical with defined roles | Self-organizing cross-functional teams | Mix of hierarchy and self-organization | Chapter 6a |
+| **Leadership Style** | Directive project management | Servant leadership and coaching | Adaptive leadership based on context | Chapter 9b |
+| **Decision Making** | PM-driven with stakeholder input | Team-driven with PM facilitation | Context-dependent decision authority | Chapter 8d |
+| **Communication** | Formal reports and meetings | Daily standups and retrospectives | Mix of formal and informal channels | Chapter 7c |
 
 #### Risk and Quality Management
 | Concept | Predictive 🔵 | Agile 🟢 | Hybrid 🟡 | Notes |
 |---------|---------------|----------|-----------|-------|
-| **Risk Planning** | Comprehensive risk register upfront | Continuous risk identification | Core risks planned, others emergent | [Chapter 12b](../Chapter%2012/12b%20–%20Risk%20Identification%20and%20Analysis.md) |
-| **Quality Assurance** | Phase gates and formal reviews | Definition of done and continuous testing | Mix of gates and continuous practices | [Chapter 13b](../Chapter%2013/13b%20–%20Quality%20Assurance%20and%20Testing.md) |
-| **Testing Strategy** | End-phase testing cycles | Test-driven development | Risk-based testing approach | [Chapter 11e](../Chapter%2011/11e%20–%20Quality%20Planning%20and%20Acceptance%20Criteria.md) |
+| **Risk Planning** | Comprehensive risk register upfront | Continuous risk identification | Core risks planned, others emergent | Chapter 12b |
+| **Quality Assurance** | Phase gates and formal reviews | Definition of done and continuous testing | Mix of gates and continuous practices | Chapter 13b |
+| **Testing Strategy** | End-phase testing cycles | Test-driven development | Risk-based testing approach | Chapter 11e |
 
 #### Stakeholder Engagement
 | Concept | Predictive 🔵 | Agile 🟢 | Hybrid 🟡 | Notes |
 |---------|---------------|----------|-----------|-------|
-| **Stakeholder Involvement** | Defined touchpoints and reviews | Continuous collaboration | High involvement in core, periodic in details | [Chapter 7a](../Chapter%207/7a%20–%20Stakeholder%20Identification%20and%20Analysis.md) |
-| **Feedback Cycles** | Formal review and approval gates | Sprint reviews and retrospectives | Mix of formal and frequent feedback | [Chapter 7b](../Chapter%207/7b%20–%20Stakeholder%20Expectations%20and%20Influence.md) |
-| **Requirements Validation** | Sign-off at phase completion | Acceptance criteria and demos | Progressive validation approach | [Chapter 11a](../Chapter%2011/11a%20–%20Requirements%20Collection%20and%20Refinement.md) |
+| **Stakeholder Involvement** | Defined touchpoints and reviews | Continuous collaboration | High involvement in core, periodic in details | Chapter 7a |
+| **Feedback Cycles** | Formal review and approval gates | Sprint reviews and retrospectives | Mix of formal and frequent feedback | Chapter 7b |
+| **Requirements Validation** | Sign-off at phase completion | Acceptance criteria and demos | Progressive validation approach | Chapter 11a |
 
 ### Delivery Approach Selection Guidance
 

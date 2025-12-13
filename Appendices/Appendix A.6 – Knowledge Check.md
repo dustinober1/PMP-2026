@@ -46,8 +46,8 @@ In the Initiating Process Group, approximately 42% of activities relate to the P
 - D. 52% exceeds the total of all three domains
 
 **See also**: 
-- [Chapter 23a: The Initiating Process Group](../Chapter%2023/23a%20–%20The%20Initiating%20Process%20Group.md)
-- [Chapter 7: Stakeholder and Communication Mastery](../Chapter%207/7%20–%20Stakeholder%20and%20Communication%20Mastery.md)
+- [Appendix A.1: The Initiating Process Group](Appendix%20A.1%20–%20The%20Initiating%20Process%20Group.md)
+- [Chapter 04.1: Stakeholder and Communication Mastery](../Chapter%2004%20-%20Stakeholder%20Engagement%20and%20Communication/04.1%20–%20Stakeholder%20and%20Communication%20Mastery.md)
 
 ---
 
@@ -341,7 +341,7 @@ Using the formula EAC = BAC / CPI (Cost Performance Index):
 
 This shows the project will cost approximately $222,222 more than planned if current performance continues.
 
-*For all EAC calculation methods and when to use each, see [Appendix A: Forecasting Formulas](../Chapter%2098/Appendix%20A%20–%20Key%20Formulas%20and%20Definitions.md#forecasting-formulas)*
+*For all EAC calculation methods and when to use each, see [Appendix B: Forecasting Formulas](Appendix%20B%20–%20Key%20Formulas%20and%20Definitions.md#forecasting-formulas)*
 
 **Why other options are incorrect:**
 - A. $1,000,000 is the original budget (BAC)
