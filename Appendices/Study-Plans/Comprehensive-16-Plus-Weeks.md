@@ -118,7 +118,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 5a
 
 **Reading**:
-- Chapter 5a: Stakeholders and Communication (complete)
+- Chapter 01.4a: Stakeholders and Communication (complete)
 
 **Deep Dive Activities**:
 - Create stakeholder analysis for a real or hypothetical project
@@ -138,10 +138,10 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 7 (all subsections)
 
 **Reading**:
-- Chapter 7a: Stakeholder Identification and Analysis (complete)
-- Chapter 7b: Stakeholder Expectations and Influence (complete)
-- Chapter 7c: Communication Planning and Strategy (complete)
-- Chapter 7d: Adapting Communication and Cultural Considerations (complete)
+- Chapter 04.1: Stakeholder Identification and Analysis (complete)
+- Chapter 04.1: Stakeholder Expectations and Influence (complete)
+- Chapter 04.1: Communication Planning and Strategy (complete)
+- Chapter 04.1: Adapting Communication and Cultural Considerations (complete)
 
 **Deep Dive Activities**:
 - Calculate communication channels for various team sizes
@@ -181,7 +181,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 5b
 
 **Reading**:
-- Chapter 5b: Scope, Schedule, and Cost (complete)
+- Chapter 01.4b: Scope, Schedule, and Cost (complete)
 
 **Deep Dive Activities**:
 - Create WBS for a sample project (practice 100% rule)
@@ -201,7 +201,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 5c
 
 **Reading**:
-- Chapter 5c: Quality (complete)
+- Chapter 01.4c: Quality (complete)
 
 **Deep Dive Activities**:
 - Calculate cost of quality for sample scenarios
@@ -242,7 +242,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 5d
 
 **Reading**:
-- Chapter 5d: Risk Management (complete)
+- Chapter 01.4d: Risk Management (complete)
 
 **Deep Dive Activities**:
 - Create risk register for sample project
@@ -262,7 +262,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 5g
 
 **Reading**:
-- Chapter 5g: Professional Responsibility and Ethics (complete)
+- Chapter 01.4f: Professional Responsibility and Ethics (complete)
 
 **Deep Dive Activities**:
 - Study PMI Code of Ethics in detail
@@ -282,8 +282,8 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 5e, 5f, 5.5
 
 **Reading**:
-- Chapter 5e: Data-Informed Decision-Making (complete)
-- Chapter 5f: AI and Emerging Technologies (complete)
+- Chapter 01.4e: Data-Informed Decision-Making (complete)
+- Chapter 10.2: AI and Emerging Technologies (complete)
 - Chapter 5.5: Navigating Complexity in Projects (complete)
 - Chapter 5.5d: Knowledge Check (complete)
 
@@ -319,7 +319,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 6a
 
 **Reading**:
-- Chapter 6a: Team Composition and Development (complete)
+- Chapter 03.1: Team Composition and Development (complete)
 
 **Deep Dive Activities**:
 - Create team development plan using Tuckman's model
@@ -339,7 +339,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 6b
 
 **Reading**:
-- Chapter 6b: Roles, Responsibilities, and Authority (complete)
+- Chapter 03.1: Roles, Responsibilities, and Authority (complete)
 
 **Deep Dive Activities**:
 - Create RACI matrix for complex project
@@ -359,8 +359,8 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 6c, 9a
 
 **Reading**:
-- Chapter 6c: Influence, Power, and Decision-Making (complete)
-- Chapter 9a: Leadership Styles and Their Impact (complete)
+- Chapter 03.1: Influence, Power, and Decision-Making (complete)
+- Chapter 03.2: Leadership Styles and Their Impact (complete)
 
 **Deep Dive Activities**:
 - Assess personal leadership style
@@ -392,9 +392,9 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 6d, 8 (all subsections)
 
 **Reading**:
-- Chapter 6d: Conflict Resolution and Problem-Solving (complete)
-- Chapter 8a: Sources of Conflict and Understanding Disagreement (complete)
-- Chapter 8b: Conflict Resolution Styles and Approaches (complete)
+- Chapter 03.1: Conflict Resolution and Problem-Solving (complete)
+- Chapter 04.2: Sources of Conflict and Understanding Disagreement (complete)
+- Chapter 04.2: Conflict Resolution Styles and Approaches (complete)
 
 **Deep Dive Activities**:
 - Analyze conflict scenarios from personal experience
@@ -414,7 +414,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 6e
 
 **Reading**:
-- Chapter 6e: Motivation and Engagement (complete)
+- Chapter 03.1: Motivation and Engagement (complete)
 
 **Deep Dive Activities**:
 - Apply motivation theories to team scenarios
@@ -435,8 +435,8 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 8c, 8d
 
 **Reading**:
-- Chapter 8c: Negotiation and Collaborative Problem-Solving (complete)
-- Chapter 8d: Decision-Making Frameworks and Escalation (complete)
+- Chapter 04.2: Negotiation and Collaborative Problem-Solving (complete)
+- Chapter 04.2: Decision-Making Frameworks and Escalation (complete)
 
 **Deep Dive Activities**:
 - Practice principled negotiation techniques
@@ -467,8 +467,8 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 6f, 9b
 
 **Reading**:
-- Chapter 6f: Servant Leadership and Coaching (complete)
-- Chapter 9b: Servant Leadership in Practice (complete)
+- Chapter 03.2: Servant Leadership and Coaching (complete)
+- Chapter 03.2: Servant Leadership in Practice (complete)
 
 **Deep Dive Activities**:
 - Study servant leadership characteristics in detail
@@ -488,8 +488,8 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 9c, 9d
 
 **Reading**:
-- Chapter 9c: Coaching and Developing Others (complete)
-- Chapter 9d: Mentoring and Continuous Learning (complete)
+- Chapter 03.2: Coaching and Developing Others (complete)
+- Chapter 03.2: Mentoring and Continuous Learning (complete)
 
 **Deep Dive Activities**:
 - Practice coaching conversation techniques
@@ -575,7 +575,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 10a
 
 **Reading**:
-- Chapter 10a: Business Case and Project Justification (complete)
+- Chapter 05.1a: Business Case and Project Justification (complete)
 
 **Deep Dive Activities**:
 - Create comprehensive business case for sample project
@@ -595,8 +595,8 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 10b, 10c
 
 **Reading**:
-- Chapter 10b: Understanding Constraints, Assumptions, and Dependencies (complete)
-- Chapter 10c: Developing the Project Charter (complete)
+- Chapter 05.1b: Understanding Constraints, Assumptions, and Dependencies (complete)
+- Chapter 05.1c: Developing the Project Charter (complete)
 
 **Deep Dive Activities**:
 - Create detailed project charter template
@@ -616,8 +616,8 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 10d, 10e
 
 **Reading**:
-- Chapter 10d: Selecting the Delivery Approach (complete)
-- Chapter 10e: Roadmapping and Release Planning (complete)
+- Chapter 05.1d: Selecting the Delivery Approach (complete)
+- Chapter 05.1e: Roadmapping and Release Planning (complete)
 
 **Deep Dive Activities**:
 - Create delivery approach decision matrix
@@ -643,7 +643,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 11a
 
 **Reading**:
-- Chapter 11a: Requirements Collection and Refinement (complete)
+- Chapter 06.1: Requirements Collection and Refinement (complete)
 
 **Deep Dive Activities**:
 - Practice requirements elicitation techniques
@@ -663,7 +663,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 11b
 
 **Reading**:
-- Chapter 11b: Scope Definition and Baseline (complete)
+- Chapter 06.1: Scope Definition and Baseline (complete)
 
 **Deep Dive Activities**:
 - Create comprehensive WBS for complex project
@@ -697,7 +697,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 11c
 
 **Reading**:
-- Chapter 11c: Schedule Planning and Work Breakdown (complete)
+- Chapter 06.1: Schedule Planning and Work Breakdown (complete)
 
 **Deep Dive Activities**:
 - Practice critical path method calculations
@@ -717,7 +717,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 11d
 
 **Reading**:
-- Chapter 11d: Cost Estimation and Budgeting (complete)
+- Chapter 06.1: Cost Estimation and Budgeting (complete)
 
 **Deep Dive Activities**:
 - Practice all estimation techniques with examples
@@ -752,7 +752,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 11e
 
 **Reading**:
-- Chapter 11e: Quality Planning and Acceptance Criteria (complete)
+- Chapter 06.1: Quality Planning and Acceptance Criteria (complete)
 
 **Deep Dive Activities**:
 - Calculate cost of quality for various scenarios
@@ -772,7 +772,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 11f
 
 **Reading**:
-- Chapter 11f: Resource and Procurement Planning (complete)
+- Chapter 06.1: Resource and Procurement Planning (complete)
 
 **Deep Dive Activities**:
 - Create resource breakdown structure (RBS)
@@ -806,8 +806,8 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 12a, 12b
 
 **Reading**:
-- Chapter 12a: Understanding Risk (complete)
-- Chapter 12b: Risk Identification and Analysis (complete)
+- Chapter 07.1a: Understanding Risk (complete)
+- Chapter 07.1b: Risk Identification and Analysis (complete)
 
 **Deep Dive Activities**:
 - Create comprehensive risk register
@@ -827,7 +827,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 12c
 
 **Reading**:
-- Chapter 12c: Risk Response Strategies (complete)
+- Chapter 07.1c: Risk Response Strategies (complete)
 
 **Deep Dive Activities**:
 - Practice risk response strategy selection
@@ -847,9 +847,9 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 12d, 12e, 12f
 
 **Reading**:
-- Chapter 12d: Issue Management (complete)
-- Chapter 12e: Change Management (complete)
-- Chapter 12f: Knowledge Check (complete)
+- Chapter 07.1d: Issue Management (complete)
+- Chapter 07.1e: Change Management (complete)
+- Chapter 07.1f: Knowledge Check (complete)
 
 **Deep Dive Activities**:
 - Practice issue escalation scenarios
@@ -864,7 +864,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 - Kotter's 8 Steps for change
 
 **Practice**: 25 questions on issues and change
-**Complete**: Chapter 12f Knowledge Check
+**Complete**: Chapter 07.1f Knowledge Check
 
 **Week 13 Checkpoint**: Complete 60 questions on risk management. Target: 80%+ correct. Risk is high-frequency on exam.
 
@@ -876,11 +876,11 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 13 (all subsections)
 
 **Reading**:
-- Chapter 13a: Coordinating Team Execution (complete)
-- Chapter 13b: Quality Assurance and Testing (complete)
-- Chapter 13c: Managing Scope During Execution (complete)
-- Chapter 13d: Vendor and Procurement Management (complete)
-- Chapter 13e: Team Performance and Accountability (complete)
+- Chapter 08.1: Coordinating Team Execution (complete)
+- Chapter 08.1: Quality Assurance and Testing (complete)
+- Chapter 08.1: Managing Scope During Execution (complete)
+- Chapter 08.1: Vendor and Procurement Management (complete)
+- Chapter 08.1: Team Performance and Accountability (complete)
 
 **Deep Dive Activities**:
 - Study execution best practices
@@ -900,8 +900,8 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 14a, 14b
 
 **Reading**:
-- Chapter 14a: Tracking Progress and Performance (complete)
-- Chapter 14b: Schedule and Cost Control (complete)
+- Chapter 09.1: Tracking Progress and Performance (complete)
+- Chapter 09.1: Schedule and Cost Control (complete)
 
 **Deep Dive Activities**:
 - Practice EVM calculations extensively (50+ problems)
@@ -924,10 +924,10 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 14c, 14d, 14e, 14f
 
 **Reading**:
-- Chapter 14c: Change Control and Configuration Management (complete)
-- Chapter 14d: Stakeholder Management During Execution (complete)
-- Chapter 14e: Project Closure and Transition (complete)
-- Chapter 14f: Knowledge Check (complete)
+- Chapter 09.1: Change Control and Configuration Management (complete)
+- Chapter 09.1: Stakeholder Management During Execution (complete)
+- Chapter 09.1: Project Closure and Transition (complete)
+- Chapter 09.1f: Knowledge Check (complete)
 
 **Key Takeaways**:
 - Change control board processes
@@ -936,7 +936,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 - Lessons learned capture
 
 **Practice**: 20 questions on control and closure
-**Complete**: Chapter 14f Knowledge Check
+**Complete**: Chapter 09.1f Knowledge Check
 
 **Week 14 Checkpoint**: Complete 70 Process domain questions covering execution and control. Target: 85%+ correct. Master EVM formulas.
 
@@ -949,14 +949,14 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 15 (all subsections)
 
 **Reading**:
-- Chapter 15a: Organizational Strategy and Project Selection (complete)
-- Chapter 15b: Portfolio Management Concepts (complete)
-- Chapter 15c: Project and Program Alignment (complete)
-- Chapter 15d: Benefits Realization and Value Creation (complete)
-- Chapter 15e: Strategic Planning and Roadmaps (complete)
-- Chapter 15f: Monitoring and Responding to External Business Environment Changes (complete)
-- Chapter 15g: Advanced Portfolio Management Domains (complete)
-- Chapter 15h: Project Management Offices (complete)
+- Chapter 02.1a: Organizational Strategy and Project Selection (complete)
+- Chapter 02.1b: Portfolio Management Concepts (complete)
+- Chapter 02.1c: Project and Program Alignment (complete)
+- Chapter 02.1d: Benefits Realization and Value Creation (complete)
+- Chapter 02.1e: Strategic Planning and Roadmaps (complete)
+- Chapter 02.1f: Monitoring and Responding to External Business Environment Changes (complete)
+- Chapter 02.1g: Advanced Portfolio Management Domains (complete)
+- Chapter 02.1h: Project Management Offices (complete)
 
 **Deep Dive Activities**:
 - Study project selection methods in detail
@@ -976,12 +976,12 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 16 (all subsections including 16f)
 
 **Reading**:
-- Chapter 16a: Benefits Realization Planning and Identification (complete)
-- Chapter 16b: Tracking and Measuring Benefits During and After Execution (complete)
-- Chapter 16c: Long-Term Value vs. Short-Term Delivery Pressure (complete)
-- Chapter 16d: Sustainability and ESG in Project Context (complete)
-- Chapter 16e: Balancing Stakeholder Needs, Competing Values, and Benefits Realization (complete)
-- Chapter 16f: Knowledge Check (complete)
+- Chapter 02.2: Benefits Realization Planning and Identification (complete)
+- Chapter 02.2: Tracking and Measuring Benefits During and After Execution (complete)
+- Chapter 02.2: Long-Term Value vs. Short-Term Delivery Pressure (complete)
+- Chapter 02.2: Sustainability and ESG in Project Context (complete)
+- Chapter 02.2: Balancing Stakeholder Needs, Competing Values, and Benefits Realization (complete)
+- Chapter 02.2: Knowledge Check (complete)
 
 **Deep Dive Activities**:
 - Create benefits realization plan
@@ -996,7 +996,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 - Balancing competing values
 
 **Practice**: 30 questions on benefits and value
-**Complete**: Chapter 16f Knowledge Check
+**Complete**: Chapter 02.2 Knowledge Check
 
 **Week 15 Checkpoint**: Complete 50 Business Environment questions. Target: 80%+ correct.
 
@@ -1008,11 +1008,11 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 17 (all subsections including 17e)
 
 **Reading**:
-- Chapter 17a: Regulatory and Legal Compliance (complete)
-- Chapter 17b: Data Privacy and Information Security (complete)
-- Chapter 17c: Organizational Policies and Standards (complete)
-- Chapter 17d: Enterprise Risk and Governance Frameworks (complete)
-- Chapter 17e: Knowledge Check (complete)
+- Chapter 02.3: Regulatory and Legal Compliance (complete)
+- Chapter 02.3: Data Privacy and Information Security (complete)
+- Chapter 02.3: Organizational Policies and Standards (complete)
+- Chapter 02.3: Enterprise Risk and Governance Frameworks (complete)
+- Chapter 02.3: Knowledge Check (complete)
 
 **Deep Dive Activities**:
 - Study compliance frameworks (GDPR, CCPA, industry-specific)
@@ -1027,18 +1027,18 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 - Governance structures and escalation
 
 **Practice**: 25 questions on compliance and governance
-**Complete**: Chapter 17e Knowledge Check
+**Complete**: Chapter 02.3 Knowledge Check
 
 #### Thursday-Sunday: Organizational Change Management (7 hours)
 **Chapters**: 18 (all subsections including 18f)
 
 **Reading**:
-- Chapter 18a: Change Impact Analysis and Readiness (complete)
-- Chapter 18b: Change Management Strategies and Frameworks (complete)
-- Chapter 18c: Communication and Training for Change (complete)
-- Chapter 18d: Managing Adoption and Resistance (complete)
-- Chapter 18e: Transitioning Ownership and Sustaining Change (complete)
-- Chapter 18f: Knowledge Check (complete)
+- Chapter 02.4: Change Impact Analysis and Readiness (complete)
+- Chapter 02.4: Change Management Strategies and Frameworks (complete)
+- Chapter 02.4: Communication and Training for Change (complete)
+- Chapter 02.4: Managing Adoption and Resistance (complete)
+- Chapter 02.4: Transitioning Ownership and Sustaining Change (complete)
+- Chapter 02.4: Knowledge Check (complete)
 
 **Deep Dive Activities**:
 - Create comprehensive change management plan
@@ -1053,7 +1053,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 - Sustainment strategies
 
 **Practice**: 30 questions on organizational change
-**Complete**: Chapter 18f Knowledge Check
+**Complete**: Chapter 02.4 Knowledge Check
 
 **Week 16 Checkpoint**: Complete 50 Business Environment questions. Target: 85%+ correct.
 
@@ -1103,9 +1103,9 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 22 (all subsections including 22g)
 
 **Reading**:
-- Chapter 22: Business Analysis Fundamentals for Project Managers (complete)
+- Chapter 05.2: Business Analysis Fundamentals for Project Managers (complete)
 - All subsections 22a-22f
-- Chapter 22g: Knowledge Check (complete)
+- Chapter 05.2: Knowledge Check (complete)
 
 **Deep Dive Activities**:
 - Study BACCM in detail
@@ -1120,15 +1120,15 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 - Solution evaluation methods
 
 **Practice**: 20 questions on business analysis
-**Complete**: Chapter 22g Knowledge Check
+**Complete**: Chapter 05.2 Knowledge Check
 
 #### Wednesday-Thursday: Process Groups Framework (5 hours)
 **Chapters**: 23 (all subsections including 23f)
 
 **Reading**:
-- Chapter 23: Process Groups Implementation Guide (complete)
+- Appendix A: Process Groups Implementation Guide (complete)
 - All subsections 23a-23e
-- Chapter 23f: Knowledge Check (complete)
+- Appendix A.6: Knowledge Check (complete)
 
 **Deep Dive Activities**:
 - Map all processes to Process Groups
@@ -1143,15 +1143,15 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 - Process tailoring for different approaches
 
 **Practice**: 25 questions on process groups
-**Complete**: Chapter 23f Knowledge Check
+**Complete**: Appendix A.6 Knowledge Check
 
 #### Friday-Sunday: Program Management and AI (4 hours)
 **Chapters**: 24 (all subsections), 20
 
 **Reading**:
-- Chapter 24: Program Management (all subsections)
-- Chapter 24h: Knowledge Check (complete)
-- Chapter 20: AI Essentials for Project Professionals (complete)
+- Chapter 02.5: Program Management (all subsections)
+- Chapter 02.5h: Knowledge Check (complete)
+- Chapter 10.2: AI Essentials for Project Professionals (complete)
 
 **Deep Dive Activities**:
 - Study program vs. project distinctions
@@ -1166,7 +1166,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 - Responsible AI use
 
 **Practice**: 20 questions on program management and AI
-**Complete**: Chapter 24h Knowledge Check
+**Complete**: Chapter 02.5h Knowledge Check
 
 **Week 18 Checkpoint**: Complete 50 mixed questions across all domains. Target: 85%+ correct.
 
@@ -1178,11 +1178,11 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 **Chapters**: 19 (all subsections)
 
 **Reading**:
-- Chapter 19a: Understanding the Exam Format and Structure (complete)
-- Chapter 19b: Analyzing and Approaching Scenario-Based Questions (complete)
-- Chapter 19c: Test-Taking Strategies and Techniques (complete)
-- Chapter 19d: Time Management and Exam-Day Logistics (complete)
-- Chapter 19e: Practice, Preparation, and Building Confidence (complete)
+- Chapter 10.1: Understanding the Exam Format and Structure (complete)
+- Chapter 10.1: Analyzing and Approaching Scenario-Based Questions (complete)
+- Chapter 10.1: Test-Taking Strategies and Techniques (complete)
+- Chapter 10.1: Time Management and Exam-Day Logistics (complete)
+- Chapter 10.1: Practice, Preparation, and Building Confidence (complete)
 
 **Deep Dive Activities**:
 - Practice three-layer method extensively
@@ -1246,7 +1246,7 @@ This comprehensive study plan is designed for thorough PMP exam preparation over
 
 **If Weak in Process Domain**:
 - Re-practice EVM calculations (50+ problems)
-- Review risk management (Chapter 12)
+- Review risk management (Chapter 07.1)
 - Practice schedule and cost management
 - Complete 100 additional Process questions
 
