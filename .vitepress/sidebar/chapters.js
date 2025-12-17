@@ -10,6 +10,7 @@ export function createSidebar() {
       text: '📖 Chapter 1 - Introduction & Fundamentals',
       collapsed: false,
       items: [
+        { text: 'Chapter Overview', link: '/guide/01-introduction/' },
         { text: '1.1 Understanding the New PMP Exam', link: '/guide/01-introduction/understanding-exam' },
         { text: '1.2 How To Use This Study Guide', link: '/guide/01-introduction/using-guide' },
         { text: '1.3 Ways of Working and Tailoring', link: '/guide/01-introduction/ways-of-working' },
