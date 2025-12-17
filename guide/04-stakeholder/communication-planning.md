@@ -1,47 +1,104 @@
 # 4.2 Communication Planning
 
-If you spend 90% of your time communicating, you better have a plan for it. The **Communications Management Plan** is the formal strategy for getting the right info to the right people.
+If you spend 90% of your time communicating, you better have a plan for it. The **Communications Management Plan** is the formal strategy for ensuring the right information reaches the right people at the right time.
 
 ---
 
 ## 🛠️ Communication Methods
-You must select the most efficient method for each audience:
+Choosing the wrong method leads to "Noise"—confusion, missed deadlines, and lost trust.
 
-| Method          | What it is                                        | Best For...                            |
-| :-------------- | :------------------------------------------------ | :------------------------------------- |
-| **Interactive** | Multi-directional (Meetings, Calls, IM).          | Complex problems; building trust.      |
-| **Push**        | Sent to specific recipients (Email, Memos).       | Routine updates; non-urgent docs.      |
-| **Pull**        | Recipient accesses info (Portals, Wikis, Trello). | Large audiences; technical references. |
+<div class="comm-grid">
+  <div class="comm-card">
+    <div class="comm-title">Interactive</div>
+    <div class="comm-type">Multi-Directional</div>
+    <p>Real-time meetings, video calls, and workshops. Best for complex problem-solving and trust building.</p>
+  </div>
+  <div class="comm-card">
+    <div class="comm-title">Push</div>
+    <div class="comm-type">One-Way (Sent)</div>
+    <p>Emails, memos, and newsletters sent to specific people. Best for routine updates and formal documentation.</p>
+  </div>
+  <div class="comm-card">
+    <div class="comm-title">Pull</div>
+    <div class="comm-type">One-Way (Fetched)</div>
+    <p>Project portals, Wikis, and Jira boards. Best for large audiences and static technical references.</p>
+  </div>
+</div>
 
 ---
 
-## 🧭 The Communication Flow
-In 2026, managing "Noise" is harder than ever. Noise isn't just a bad Wi-Fi connection; it's **Cultural Barriers**, **Time Zone Friction**, and **Information Overload**.
+## 🧭 The Channels Challenge
+Communication complexity grows exponentially with team size. If $N$ is the number of people, the number of channels is:
 
-### Communication Channels Formula
-If you have $N$ people on your team, the number of potential channels is:
-$$ \frac{N \times (N-1)}{2} $$
-- **Why it matters**: If you add 2 people to a team of 4, you don't just add 2 more lines of communication; you jump from 6 channels to 15. Complexity grows exponentially!
+<div class="formula-box">
+  $$ \frac{N \times (N-1)}{2} $$
+</div>
+
+*   **Impact**: On a team of 4, you have 6 channels. Add just 2 people, and you jump to 15 channels. As the PM, you must minimize "Noise" by establishing clear protocols in the Communications Plan.
 
 ---
 
-## 📡 Modern Communication Technology
-When choosing a tool (Slack vs. Email vs. Video), consider:
-- **Urgency**: Does it need to be solved in real-time?
-- **Stability**: Is the Wi-Fi reliable enough for video?
-- **Ease of Use**: Will the stakeholder actually open the tool?
-- **Sensitivity**: Does it need encryption or "Need to Know" access?
+## 📡 Selecting the Technology
+In the 2026 digital era, choosing a tool (Slack vs. Email vs. AI Dashboards) depends on:
+*   **Urgency & Latency**: Does the feedback need to be immediate?
+*   **Security & Data Privacy**: Is the content sensitive or regulated by GDPR/HIPAA?
+*   **Stability**: Can the infrastructure support the tool (e.g., high-def video)?
+*   **Asynchronous Need**: Does the message need to cross wide time-zone gaps?
 
-::: info 💡 2026 Focus: Virtual Facilitation
-A major exam topic is how to facilitate meetings for hybrid teams.
-- **Rule of One**: If one person is remote, everyone acts remote.
-- **Asynchronous First**: Record meetings for global team members to watch at their convenience.
+::: info 🌍 2026 Focus: Virtual Facilitation
+A core 2026 exam topic: If one person is remote, everyone is remote. Use "Chat-First" inclusion strategies and ensure all "Interactive" sessions are recorded for asynchronous equity.
 :::
+
+<style>
+.comm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.comm-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+}
+
+.comm-title {
+  font-weight: 700;
+  color: var(--vp-c-brand);
+  font-size: 1.15rem;
+  margin-bottom: 0.25rem;
+}
+
+.comm-type {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--vp-c-text-2);
+  margin-bottom: 1rem;
+}
+
+.comm-card p {
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.formula-box {
+  background: var(--vp-c-bg-alt);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.25rem;
+  margin: 1.5rem 0;
+}
+</style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a project is falling behind because information is late or incorrect, the first action is to <strong>Update the Communications Management Plan</strong> or <strong>Re-evaluate stakeholder requirements</strong>.
+  <strong>📝 Exam Insight:</strong> If a project is failing because information is late, incorrect, or reaching the wrong people, the first step is to <strong>Update the Communications Management Plan</strong>. Never go straight to disciplinary action.
 </div>
 
 <style>

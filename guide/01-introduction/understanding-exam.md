@@ -1,522 +1,123 @@
-# Understanding the New PMP Exam
+# 1.1 Understanding the 2026 PMP Exam
 
-The Project Management Professional (PMP) certification is one of the most widely recognized credentials in project management. In July 2026, the exam is being refreshed to reflect how work really gets done in modern organizations.
-
----
-
-::: info 🎯 The 2026 Mindset Shift
-PMI is moving away from a narrow, process-memorization focus and toward how project leaders actually deliver results:
-- **Agility everywhere**: Agile and hybrid ways of working are now the norm.
-- **Value over Outputs**: Emphasis on value, outcomes, and business benefits.
-- **Future-Ready**: Focus on AI, data, sustainability, and ethics.
-:::
-
-By the end of this chapter, you should be able to:
-
-- 📊 Describe the overall structure and format of the updated PMP exam
-- 🗣️ Explain the three exam domains in plain language
-- 🔄 Summarize how the exam is changing in 2026 and why
-- 🧠 Identify the type of project experience and mindset the exam assumes
-- ✅ Decide how this exam version aligns with your own background and goals
+The 2026 PMP exam is not a memory test; it is an **immersion test**. It simulates the complex, high-stakes decisions a project leader makes every day.
 
 ---
 
-## 1.1.1 What Is the PMP and Why Does It Matter?
-
-The Project Management Professional (PMP) is a globally recognized certification offered by the Project Management Institute (PMI). It is designed for people who lead or direct projects, regardless of industry or delivery approach (predictive, agile, or hybrid). It validates that you have the project leadership skills and experience to deliver results using any way of working, not just one specific methodology.
-
-Unlike an internal company title, the PMP is a standardized, external credential. It tells employers, clients, and peers that you have:
-
-- A minimum level of real project experience
-- Formal project management education
-- Successfully passed a rigorous, scenario-focused exam
-
-Because PMI operates worldwide and the PMP follows a common exam and code of ethics, a PMP in one country means essentially the same thing as a PMP in another. That is why it is often described as a "global standard" for project managers.
-
-### Who Is the PMP For?
-
-The PMP is aimed at practitioners who already:
-
-- Take responsibility for leading or directing project work
-- Coordinate people, budgets, schedules, and stakeholders
-- Make decisions under uncertainty, not just follow instructions
-
-Job titles vary (project manager, project leader, delivery lead, product owner, implementation manager, etc.), but the common thread is accountability for turning ideas into delivered outcomes.
-
-If you are earlier in your career and have limited project experience, PMI's CAPM certification or other entry-level credentials may be more appropriate stepping stones. The PMP is intentionally positioned as a more advanced, professional-level certification.
-
-### Eligibility Requirements
-
-To apply for the PMP exam, you must meet specific education and experience requirements. PMI has updated the eligibility pathways with a **10-year application window** for project management experience:
-
-| Education Level                                                      | Project Management Experience Required              | PM Education/Training    |
-| -------------------------------------------------------------------- | --------------------------------------------------- | ------------------------ |
-| **Four-year degree** (bachelor's or global equivalent)               | 36 months leading projects within the last 10 years | 35 hours of PM education |
-| **High school diploma** (or associate's degree or global equivalent) | 60 months leading projects within the last 10 years | 35 hours of PM education |
-
-Key points about experience:
-
-- **Leading projects** means directing and controlling project work, not just participating
-- Experience must be within the **10 years prior to application** (expanded from previous requirements)
-- Projects can use **any methodology**: predictive, agile, hybrid
-- The 35 hours of PM education can come from courses, training programs, or academic programs
-
-::: warning Verify Current Requirements
-PMI occasionally updates eligibility requirements. Always confirm the latest requirements in the PMP Handbook on pmi.org before applying.
-:::
-
-### Why It Matters to Organizations
-
-From an employer's perspective, PMP holders are attractive because:
-
-- The certification is based on a large, regularly updated body of knowledge and practice.
-- It signals that the person has invested serious effort into mastering project management, not just "picked it up" informally.
-- PMPs are expected to be able to step into complex initiatives and speak a common language with other project professionals.
-
-PMI's salary surveys consistently show that professionals with a PMP report noticeably higher median salaries than those without it (often cited around 16–33% higher globally, depending on the country and survey year). Because of this, many organizations:
-
-- List PMP as "required" or "strongly preferred" for senior project roles
-- Use it as one factor in promotion and pay decisions
-- Treat it as evidence of readiness to manage larger, riskier, or more visible projects
-
-### Why It Matters to You
-
-For you as a candidate, the PMP can:
-
-- Differentiate you in a competitive job market
-- Open doors to roles that specifically require or favor PMP holders
-- Provide a structured way to consolidate and formalize what you already know from experience
-- Support career progression, salary growth, and international mobility
-
-Perhaps most importantly, good PMP preparation sharpens how you think and act as a project leader. The exam is less about memorizing process names and more about demonstrating that you can make good decisions in realistic project situations:
-
-- When stakeholders conflict, who do you engage, and how?
-- When requirements change, how do you protect value without blocking progress?
-- When risks materialize, how do you respond in a way that is ethical, transparent, and aligned with organizational strategy?
-
-Working through these kinds of scenarios during your PMP study makes you more effective on the job, not just better at taking tests.
-
-### What the PMP Is Not
-
-It also helps to be clear about what the PMP does not do:
-
-- It does not lock you into "waterfall" project management; it explicitly covers predictive, agile, and hybrid approaches.
-- It does not replace real-world experience; instead, it builds on it and makes it more structured.
-- It does not guarantee a promotion by itself, but it strengthens your case when combined with performance and experience.
-
-In short, the PMP matters because it connects your experience, your knowledge, and a globally recognized standard into one clear signal: you can be trusted to lead projects that deliver value.
-
----
-
-## 1.1.2 The New PMP Exam at a Glance (July 2026 Version)
-
-Before you start studying, it helps to know exactly what you are preparing for. The July 2026 PMP exam update adjusts both the structure and the feel of the exam so that it mirrors real project environments more closely.
-
-Details such as question counts, timing, and domain weights in this chapter reflect PMI communications about the 2026 exam update as of late 2025. PMI sometimes refines its exams, so always confirm the latest information in the current PMP Exam Content Outline (ECO) and PMP Handbook on `pmi.org` before you schedule your exam.
-
-### Key Transition Dates
-
-Understanding the timeline helps you plan your preparation:
-
-| Date                   | Event                                                                                  |
-| ---------------------- | -------------------------------------------------------------------------------------- |
-| **January 5–30, 2026** | Pilot program for new exam (participants who don't pass receive a free retake in July) |
-| **April 2026**         | Updated PMP learning resources and training materials become available                 |
-| **June 30, 2026**      | Last day to take the current (2021 ECO) version of the PMP exam                        |
-| **July 2026**          | New PMP exam (2026 ECO) launches globally                                              |
-
-::: tip Planning Your Exam
-If you are planning to take the exam before July 2026, the current exam content (2021 ECO) with domain weights of People 42%, Process 50%, and Business Environment 8% still applies. This guide is designed for the 2026 ECO.
-:::
-
-### Question Count and Scoring
-
-Starting with the July 2026 launch, the PMP exam has the following high-level structure:
-
-- Total questions: 185
-  - 175 scored questions
-  - 10 pretest (unscored) questions mixed in
-
-The pretest questions:
-
-- Are experimental items PMI is testing for future exams
-- Are spread throughout the exam and are indistinguishable from scored questions
-- Do not affect your score, but you will not know which ones they are
-
-For your purposes, assume every question counts. This keeps your mindset consistent across the entire exam.
-
-### Time Limit and Breaks
-
-- Total exam time: 240 minutes (4 hours)
-- You will have two scheduled 5-minute breaks:
-  - One break after the case-study section
-  - A second break approximately midway through the independent-question portion
-
-Important:
-
-- Once you confirm the end of a section and start a break, you cannot return to that section's questions.
-- The tutorial before the exam and the brief survey afterward do not count toward the 240 minutes.
-
-In total, you have 240 minutes of "question time" to answer 185 questions. That averages to just under 1.3 minutes per question, so time management is critical.
-
-### Question Formats
-
-The new exam includes a mix of traditional and interactive question types described in the 2026 ECO:
-
-- Case/scenario sets (NEW) based on detailed project situations, sometimes with charts or other visuals
-- Multiple-choice (single correct answer)
-- Multiple-response (more than one correct answer)
-- Matching and enhanced matching / drag-and-drop items
-- Graphic-based questions that require interpreting charts, graphs, diagrams, or images
-- Point-and-click (hotspot) questions and pull-down list items (on computer-based testing)
-
-The exam may also include practicum-style, hands-on interactions with tools, data, and case-study content.
-
-You should expect to:
-
-- Interpret tables, charts, dashboards, logs, and other visuals
-- Work through case fragments and then answer several related questions
-- Manipulate on-screen elements (for example, dragging tasks into the correct sequence or choosing from pull-down lists)
-
-Practice questions in your prep should mimic these formats as much as possible, not just plain four-option multiple choice.
-
-### How the Exam Is Delivered and Organized
-
-Delivery options:
-
-- Computer-based testing at authorized test centers
-- Online proctored testing (where available)
-
-Exam organization:
-
-- The exam is divided into sections. One of these is typically a case-study block (a mini-scenario followed by a set of related questions).
-- After the case-study section, you will be offered a short break. Once you move on, you cannot go back to that section.
-- After you complete a later portion of independent questions, you will usually be offered a second break. Again, once you move on, you cannot return to earlier sections.
-
-This structure matters for strategy:
-
-- You need to fully review and confirm your answers in a section before accepting the break.
-- You cannot "flag and come back after break" to earlier sections, so treat the end of each section as final.
-
-### How the Exam Is Scored
-
-PMI does not publish a fixed passing score (for example, "get 70% correct"). Instead:
-
-- A psychometric model is used to determine the pass/fail threshold for each form of the exam.
-- Questions are weighted behind the scenes based on difficulty.
-- Your score report shows performance levels by domain rather than a numeric percentage.
-
-You will see one of four proficiency levels for each domain:
-
-- Above Target
-- Target
-- Below Target
-- Needs Improvement
-
-"Above Target" and "Target" indicate that your performance meets or exceeds PMI's standard in that domain. "Below Target" and "Needs Improvement" indicate areas where your performance did not meet the standard and where additional preparation is recommended.
-
-PMI combines your performance across all domains to determine whether you pass the exam overall. It is possible to be "Below Target" in one domain and still pass if you are strong in others, but your goal should be to aim for at least "Target" in every domain.
-
-### What This Means for Your Preparation
-
-Key implications for how you should study:
-
-- Train for stamina: you must stay focused over 185 questions across 4 hours.
-- Practice pacing: aim to answer most questions in about 75 seconds, leaving buffer time for harder items.
-- Get comfortable with interactive formats: don't just practice standard multiple-choice.
-- Focus on domains, not just overall score: track your practice performance by People, Process, and Business Environment.
-- Aim for "Target" or better across the board: treat "Above Target" as your stretch goal, not a bonus.
-
-In later chapters, we will translate these structural details into concrete exam-day strategies and practice routines. For now, your key takeaway is simple: you are preparing for a long, highly scenario-based, interactive exam that rewards consistent, domain-by-domain performance rather than rote memorization.
-
----
-
-## 1.1.3 The Three Exam Domains
-
-The PMP exam is built around three domains that describe the core responsibilities of a project manager. The 2026 update significantly shifts these weights:
-
-<div class="domain-grid">
-  <div class="domain-card people">
-    <div class="domain-percentage">33%</div>
-    <div class="domain-label">PEOPLE</div>
-    <p>Leadership, team performance, stakeholder engagement, and communication.</p>
+## 🏔️ The 2026 Shift
+The exam refreshed in July 2026 to mirror the reality of "Hybrid Everything" and the rise of AI in project leadership.
+
+<div class="shift-grid">
+  <div class="shift-card">
+    <div class="shift-title">Outcome Over Output</div>
+    <p>Success isn't just "finishing the task"; it is realizing the strategic <strong>Business Value</strong> of the project.</p>
   </div>
-  <div class="domain-card process">
-    <div class="domain-percentage">41%</div>
-    <div class="domain-label">PROCESS</div>
-    <p>Planning, execution, and monitoring across predictive, agile, and hybrid methods.</p>
+  <div class="shift-card">
+    <div class="shift-title">AI-Augmented PM</div>
+    <p>Understanding how to leverage AI tools for better estimation, risk detection, and stakeholder reporting.</p>
   </div>
-  <div class="domain-card business">
-    <div class="domain-percentage">26%</div>
-    <div class="domain-label">BUSINESS</div>
-    <p>Strategic alignment, governance, sustainability, and value delivery.</p>
+  <div class="shift-card">
+    <div class="shift-title">Sustainability (ESG)</div>
+    <p>Projects must now consider Environmental, Social, and Governance impacts as core constraints.</p>
   </div>
 </div>
 
-<style>
-.domain-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0;
-}
-.domain-card {
-  padding: 1.5rem;
-  border-radius: 0.75rem;
-  text-align: center;
-  border: 1px solid var(--vp-c-border);
-  transition: transform 0.2s;
-}
-.domain-card:hover {
-  transform: translateY(-5px);
-}
-.domain-percentage {
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin-bottom: 0.25rem;
-}
-.domain-label {
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  margin-bottom: 0.75rem;
-  font-size: 0.9rem;
-  opacity: 0.8;
-}
-.domain-card p {
-  font-size: 0.85rem;
-  line-height: 1.4;
-  margin: 0;
-}
-.people { background: rgba(59, 130, 246, 0.1); color: #3b82f6; border-color: rgba(59, 130, 246, 0.2); }
-.process { background: rgba(16, 185, 129, 0.1); color: #10b981; border-color: rgba(16, 185, 129, 0.2); }
-.business { background: rgba(245, 158, 11, 0.1); color: #f59e0b; border-color: rgba(245, 158, 11, 0.2); }
-</style>
+---
 
-::: info 📈 Significant Weight Change
-The **Business Environment** domain has increased from **8%** in the previous version to **26%** now. This reflects a massive shift toward ensuring projects deliver strategic value, respect sustainability goals, and navigate complex organizational governance.
+## 📊 Exam Structure at a Glance
+The exam is designed to test your mental stamina and situational judgment over a 4-hour window.
+
+| Feature             | Specification                              |
+| :------------------ | :----------------------------------------- |
+| **Total Questions** | 185 (175 scored, 10 unscored pretest)      |
+| **Total Time**      | 240 Minutes (4 Hours)                      |
+| **Breaks**          | Two optional 5-minute breaks               |
+| **Languages**       | Distributed globally in multiple languages |
+
+::: tip 💡 The "Review" Rule
+Once you finish a section and start your break, you **cannot** go back to those questions. You must complete your review before hitting the break button.
 :::
-
-### People Domain (33%)
-
-High-level meaning:
-
-- Focuses on leadership, team performance, stakeholder engagement, and communication.
-
-In practical terms, People questions ask how you:
-
-- Build and lead teams in different environments (co-located, remote, cross-functional).
-- Resolve conflicts, negotiate trade-offs, and manage stakeholder expectations.
-- Communicate clearly and transparently with sponsors, customers, and team members.
-- Support psychological safety, motivation, and collaboration.
-
-Typical scenarios might include:
-
-- Two key team members disagree on a technical approach and escalation is looming—what do you do first?
-- A senior stakeholder is bypassing agreed channels and giving conflicting direction to the team—how do you respond?
-
-This domain is where your "soft skills" and leadership behaviors get tested, but the exam expects you to apply them in the context of real project constraints, not in isolation.
-
-### Process Domain (41%)
-
-High-level meaning:
-
-- Focuses on methods and practices used to plan, execute, monitor, control, and close work in predictive, agile, and hybrid environments.
-
-This is the largest domain, covering the day-to-day mechanics of delivering value. Examples of what shows up here:
-
-- Selecting and tailoring the delivery approach (predictive, agile, hybrid).
-- Defining scope, schedule, and budget or planning product backlogs and releases.
-- Managing risks, issues, dependencies, and changes.
-- Ensuring quality, handling defects, and tracking performance using appropriate metrics.
-- Closing projects or phases and capturing lessons learned.
-
-You might be asked to:
-
-- Interpret a burn-down chart or an earned value report and decide what action to take.
-- Choose how to handle a major change request while protecting both value and commitments.
-
-Questions in this domain often blend technical concepts (like risk responses or schedule compression) with judgment about timing, communication, and stakeholder impact.
-
-### Business Environment Domain (26%)
-
-High-level meaning:
-
-- Focuses on strategy, benefits and value, compliance, governance, sustainability, and how projects fit into the larger organization.
-
-This domain looks beyond the project team to the organization and ecosystem around it. It includes topics such as:
-
-- Aligning projects with organizational strategy, portfolios, and programs.
-- Defining and tracking benefits and value realization, not just delivery of scope.
-- Ensuring compliance with laws, regulations, contracts, policies, and standards.
-- Understanding governance structures, audits, and decision-making bodies.
-- Considering sustainability, environmental and social impact, governance, and other long-term consequences in project decisions.
-
-Example scenarios:
-
-- A regulatory change occurs mid-project—how do you respond while protecting benefits and compliance?
-- Your project is "on time and on budget" but no longer aligned with strategy—what should you recommend?
-
-These questions test whether you think like someone responsible not just for "finishing a project," but for helping the organization succeed.
-
-### How Ways of Working Appear in the Domains
-
-The three domains are not separated by methodology. PMI's Exam Content Outline (ECO) indicates that predictive, agile, and hybrid approaches appear throughout all three domains, not in separate sections. Approximately 40% of the exam items represent predictive approaches, with the remaining 60% divided between adaptive/agile and hybrid approaches.
-
-That means:
-
-- You will see agile and hybrid situations in People questions (e.g., servant leadership with self-managing teams).
-- You will see predictive and agile planning in Process questions (e.g., WBS vs. product backlog).
-- You will see value, benefits, and strategy in Business Environment questions regardless of approach.
-
-### How the Domains Changed from the 2021–2025 Exam
-
-Compared to the previous version of the exam (2021–2025), the weights shift significantly:
-
-- People: from 42% down to 33%
-- Process: from 50% down to 41%
-- Business Environment: from 8% up to 26%
-
-In other words:
-
-- People and Process are still very important, but each loses 9 percentage points.
-- Business Environment more than triples in weight (from 8% to 26%), reflecting PMI's emphasis on strategic impact, governance, sustainability, and value delivery—not just task execution.
-
-This is why you will notice a strong through-line in this book around:
-
-- Value and benefits, not just scope and schedule
-- Strategy alignment and organizational context
-- Ethics, compliance, and long-term impact
-
-### What This Means for Your Study Plan
-
-For your preparation, the domain weights suggest:
-
-- You cannot ignore any domain—each is substantial.
-- You should expect the majority of questions to come from Process, but People and Business Environment together are just as important.
-- You must deliberately build strength in Business Environment, especially if your past experience has focused mainly on day-to-day execution rather than strategy, benefits, or compliance.
-
-As you work through the later parts of this guide, pay attention to which chapters map to which domain. Your goal is to reach at least "Target" performance in all three—not just the one that feels most familiar from your current role.
 
 ---
 
-## 1.1.4 What the New Exam Really Tests
+## 🎯 The Three Scoring Domains
+The 2026 ECO (Exam Content Outline) places high importance on the environment surrounding the project.
 
-You will still see questions that touch on classic project management concepts (scope, schedule, risk, quality, etc.), but the new PMP exam is not a vocabulary or formula quiz. It is a test of how you think and act as a project leader in messy, real-world situations.
+<div class="domain-grid">
+  <div class="domain-card people">
+    <div class="domain-pct">33%</div>
+    <div class="domain-name">PEOPLE</div>
+    <p>Managing conflict, leading teams, and supporting virtual collaboration.</p>
+  </div>
+  <div class="domain-card process">
+    <div class="domain-pct">41%</div>
+    <div class="domain-name">PROCESS</div>
+    <p>The "How": Planning, risk management, and delivery across methodologies.</p>
+  </div>
+  <div class="domain-card business">
+    <div class="domain-pct">26%</div>
+    <div class="domain-name">BUSINESS</div>
+    <p>Strategy alignment, compliance, and organizational change management.</p>
+  </div>
+</div>
 
-At a high level, the new exam focuses strongly on:
+---
 
-- Realistic situations and scenarios instead of isolated facts
-- Balancing predictive, agile, and hybrid ways of working in a single career
-- Decision-making that considers:
-  - Stakeholders and organizational politics
-  - Value, benefits, and business outcomes
-  - Risk, uncertainty, and change
-  - Sustainability and long-term impacts
-  - AI and automation as practical tools in planning, monitoring, and reporting
+## 📝 Modern Question Formats
+Forget simple multiple-choice. The 2026 exam uses **Interactive Simulations**:
+- **Scenario Sets**: Multiple questions linked to a single project case study.
+- **Drag-and-Drop**: Aligning risks to responses or team members to RACI roles.
+- **Hotspots**: Identifying elements on a chart or burn-down graph.
+- **AI Scenarios**: Deciding how to act when an AI model identifies a project risk.
 
-### From Memorizing Facts to Judging Situations
+---
 
-On earlier versions of the exam, many candidates tried to succeed by memorizing:
+## 🏛️ Eligibility: 10-Year Window
+PMI has expanded the window for qualifying experience:
+- **Degree Holders**: 36 months of leadership within the last 10 years + 35 contact hours.
+- **Non-Degree Holders**: 60 months of leadership within the last 10 years + 35 contact hours.
 
-- Lists of processes, inputs, tools and techniques, outputs
-- Long sets of definitions and formulae
+<style>
+.shift-grid, .domain-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
 
-While some of that knowledge is still useful, the new exam is designed so that you cannot pass by memorization alone. Instead, you will be asked to:
+.shift-card, .domain-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-border);
+  background: var(--vp-c-bg-soft);
+}
 
-- Read a scenario that looks like something you might encounter at work
-- Identify what is really going wrong or what is most important
-- Choose the response that best reflects good project management practice in that situation
+.shift-title {
+  font-weight: 700;
+  color: var(--vp-c-brand);
+  margin-bottom: 0.5rem;
+}
 
-This shift means you should expect to see:
+.shift-card p { font-size: 0.9rem; margin: 0; color: var(--vp-c-text-2); }
 
-- Fewer "What is the definition of X?" questions
-- More "What should the project manager do next?" questions
+.domain-pct {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--vp-c-brand);
+  margin-bottom: 0.25rem;
+}
 
-### Working Across Predictive, Agile, and Hybrid Approaches
+.domain-name {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
 
-The exam assumes that modern project managers do not live in a single methodology. Throughout the questions, you will move between:
+.domain-card p { font-size: 0.85rem; margin: 0; line-height: 1.4; }
 
-- Predictive situations (detailed upfront planning, baselines, change control)
-- Agile situations (iterative delivery, backlogs, self-managing teams, empirical feedback)
-- Hybrid situations (elements of both, tailored for context)
-
-You will be tested on:
-
-- Recognizing which way of working is being used in the scenario
-- Applying principles and practices that fit that context
-- Knowing when to recommend a more adaptive or more predictive approach
-
-For example:
-
-- In a highly uncertain environment with rapidly changing requirements, the "PMP answer" is unlikely to be "lock down the scope and resist all change."
-- In a tightly regulated context with fixed compliance milestones, the answer is unlikely to be "abandon planning and just iterate until stakeholders are happy."
-
-The exam rewards context-sensitive thinking rather than one-size-fits-all rules.
-
-### Decision-Making with Multiple Dimensions
-
-Real projects rarely present you with simple, one-dimensional choices. The exam reflects this by expecting you to consider several dimensions at once:
-
-- Stakeholders and organizational politics
-  - Who is affected, who has power, who is being left out?
-  - How will your action change perceptions, support, or resistance?
-
-- Value, benefits, and business outcomes
-  - Does this decision help or harm the project's intended benefits?
-  - Are you solving the right problem from a business point of view?
-
-- Risk, uncertainty, and change
-  - Are you proactively managing threats and opportunities, or reacting late?
-  - Are you acknowledging uncertainty and updating plans as you learn more?
-
-- Sustainability and long-term impacts
-  - Are you considering environmental, social, and governance implications?
-  - Are you making choices that are responsible beyond the short-term deadline?
-
-- AI and automation as practical tools
-  - Are you using available tools (dashboards, analytics, AI assistants) wisely?
-  - Are you aware of limitations, data quality issues, and ethical considerations?
-
-You will often see answer choices that address one dimension well (for example, pleasing a powerful stakeholder) but ignore others (such as risk, ethics, or long-term value). The best answer balances these dimensions in line with PMI's expectations.
-
-### The "Typical Question" Flavor
-
-Most questions on the new exam follow a similar pattern:
-
-1. You are given a short scenario
-   - Sometimes a few paragraphs of text
-   - Sometimes a mix of text and visuals (charts, Kanban boards, risk registers, logs)
-
-2. You must identify the best next action for the project manager
-   - Not what might work in theory
-   - Not what you personally do in your company if that conflicts with good practice
-   - But what a responsible PMP should do in that context
-
-3. Several options are "reasonable," but one is clearly better aligned with PMI's expectations
-   - Proactive rather than reactive
-   - Stakeholder-focused and transparent
-   - Value-focused and aligned with strategy
-   - Ethical, compliant, and respectful of the team
-
-Common wrong-answer patterns you'll see:
-
-- Ignoring the problem or delaying action
-- Acting aggressively but bypassing stakeholders or agreed process
-- Overreacting in a way that creates new issues
-- Focusing on a symptom instead of the root cause
-
-Your task is to recognize that "PMI best answer," even when other options feel tempting, faster, or more familiar from your specific workplace.
-
-### How to Practice for What the Exam Really Tests
-
-Because of this focus, effective preparation should include:
-
-- Regular practice with scenario-style questions, not just flashcards.
-- Reflecting on why the correct option is best, and what principles it demonstrates.
-- Noticing patterns in PMI's preferred behaviors:
-  - Engage stakeholders early and often.
-  - Communicate transparently and at the right level.
-  - Protect value, benefits, and ethics, even under pressure.
-  - Manage risk proactively and adjust plans as you learn.
-
-If you train your thinking around these patterns, the exam becomes less of a guessing game and more of a structured conversation: "Given PMI's view of good project management, what would a responsible project leader do next in this situation?"
+.people { border-left: 4px solid #3b82f6; }
+.process { border-left: 4px solid #10b981; }
+.business { border-left: 4px solid #f59e0b; }
+</style>

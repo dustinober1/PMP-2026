@@ -1,44 +1,88 @@
 # 4.4 Negotiation & Decision-Making
 
-Negotiation is a daily activity for PMs—whether you're negotiating for resources, scope, or budget. The PMP exam focuses on **Interest-Based Negotiation**.
+Negotiation is a daily activity for project leaders—whether you are competing for high-performers, defending a budget, or resolving a scope dispute with a vendor. The 2026 PMP exam focuses on **Interest-Based Negotiation**.
 
 ---
 
-## 🤝 Interest-Based Negotiation (Win-Win)
-Also known as "principled negotiation," the goal is to find a solution that satisfies all parties' underlying needs.
+## 🤝 Interest-Based Negotiation
+Also known as "Principled Negotiation," this approach focuses on a win-win outcome by addressing underlying needs rather than surface-level demands.
 
-| Principle                                | Advice for the PM                                                    |
-| :--------------------------------------- | :------------------------------------------------------------------- |
-| **Separate the People from the Problem** | Don't make it personal. Focus on the project goal.                   |
-| **Focus on Interests, Not Positions**    | Positions are "I want X." Interests are "I need to ensure security." |
-| **Invent Options for Mutual Gain**       | Look for a "third way" that solves both interests.                   |
-| **Use Objective Criteria**               | Base the decision on data, market rates, or industry standards.      |
+<div class="neg-grid">
+  <div class="neg-card">
+    <div class="neg-title">Focus on Interests</div>
+    <p>Distinguish "Positions" (what they say they want) from "Interests" (the underlying need they must solve).</p>
+  </div>
+  <div class="neg-card">
+    <div class="neg-title">Invent Options</div>
+    <p>Facilitate a "third way" that provides mutual gain, rather than simple compromise where both sides lose.</p>
+  </div>
+  <div class="neg-card">
+    <div class="neg-title">Objective Criteria</div>
+    <p>Base decisions on external standards (market rates, regulations) rather than a battle of wills.</p>
+  </div>
+  <div class="neg-card">
+    <div class="neg-title">Separate People</div>
+    <p>Attack the problem, not the person. Maintain trust even when the discussion is high-stakes.</p>
+  </div>
+</div>
 
 ---
 
-## 🧭 Negotiation Tactics
-- **Avoid "Hard" Bargaining**: This destroys long-term relationships.
-- **Identify BATNA**: (Best Alternative to a Negotiated Agreement). Know your walk-away point.
-- **Fairness**: Ensure the other party feels the process was just, even if they didn't get everything they wanted.
+## 🏛️ Decision-Making Models
+As a facilitator, you must guide the group toward a decision method that fits the urgency and complexity of the problem.
 
----
+*   **Unanimity**: 100% agreement. Ideal for core values but very slow.
+*   **Consensus**: "I can live with it." High buy-in; no one will sabotage the outcome.
+*   **Majority**: >50% agreement. Quick but can alienate the "losers."
+*   **Plurality**: The largest group wins. Efficient for choices with many options.
+*   **Autocratic**: One person decides. Used for emergencies or highly technical mandates.
 
-## 🏛️ Decision-Making Frameworks
-When a team or stakeholder group is stuck, the PM must facilitate a decision:
-- **Unanimity**: Everyone agrees (rare and slow).
-- **Consensus**: Everyone can *live* with the decision; no one actively blocks.
-- **Majority**: More than 50% agree.
-- **Plurality**: The largest block agrees (even if not 50%).
-- **Autocratic**: The PM decides (emergency use only).
-
-::: info 🛠️ 2026 Focus: Collaborative Decision Tools
-Use digital voting (Dot Voting, Fist-of-Five) to make decisions transparent and inclusive for virtual stakeholders.
+::: info 🛠️ 2026 Focus: Collaborative Voting
+For virtual teams, use **Low-Friction Voting Tools**:
+- **Dot Voting**: Visual priority setting.
+- **Fist of Five**: A quick gauge of consensus (5 = Full Support, 1 = Major Concern).
+- **Roman Voting**: Thumbs up/down for rapid binary choices.
 :::
 
 ---
 
+## 🧭 The PM's BATNA
+Before entering any negotiation, you must know your **BATNA** (Best Alternative to a Negotiated Agreement).
+- **Why?**: It gives you the "power of the walk-away." If a vendor's offer is worse than your BATNA, you cannot accept it.
+
+<style>
+.neg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.neg-card {
+  padding: 1.25rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+}
+
+.neg-title {
+  font-weight: 700;
+  color: var(--vp-c-brand);
+  margin-bottom: 0.5rem;
+}
+
+.neg-card p {
+  font-size: 0.85rem;
+  margin: 0;
+  line-height: 1.5;
+  color: var(--vp-c-text-2);
+}
+</style>
+
+---
+
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a vendor is not meeting requirements and a dispute arise, the BEST first step is <strong>Direct Negotiation</strong> between you and the vendor. Legal action or formal ADR (Alternative Dispute Resolution) are last resorts.
+  <strong>📝 Exam Insight:</strong> If a vendor is failing to meet requirements and a dispute arises, the BEST first step is <strong>Direct Negotiation</strong> between you and the vendor. Legal action or arbitration are last resorts that should only be used after internal negotiation fails.
 </div>
 
 <style>

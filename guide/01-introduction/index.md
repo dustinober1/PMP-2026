@@ -1,8 +1,60 @@
-# Chapter 1: Introduction and Fundamentals
+# Chapter 1: Fundamentals & Exam Overview
 
-Welcome to the first chapter of your PMP® Exam Prep journey. This foundation will help you understand the exam structure, how to use this study guide effectively, and the core concepts you'll need throughout your preparation.
+Welcome to the foundation of your PMP® journey. Before diving into tools and techniques, you must understand the "Rules of the Game"—the structure of the 2026 exam, the core mental models of modern project leadership, and how to navigate this guide for maximum throughput.
+
+::: info 🚀 The 2026 Update
+The PMP exam was refreshed in July 2026. It now places a massive **26% weight** on the Business Environment, emphasizing AI integration, sustainability (ESG), and strategic value delivery.
+:::
+
+## Your Learning Path
+- **The Exam Landscape**: Understanding domains, question types, and the "PMI Mindset."
+- **Ways of Working**: Master the spectrum between Predictive, Agile, and Hybrid delivery.
+- **Core Concepts**: The fundamental vocabulary and "Triple Constraint" of the modern era.
+- **Strategic Study**: How to tailor this guide to your specific experience level.
+
+<div class="section-grid">
+  <div class="section-card">
+    <div class="section-title">1.1 The 2026 Exam</div>
+    <p class="section-description">Breakdown of the 185 questions, scoring domains, and the new interactive case-study format.</p>
+    <a href="./understanding-exam" class="section-link">Explore the Exam →</a>
+  </div>
+  
+  <div class="section-card">
+    <div class="section-title">1.2 Study Strategy</div>
+    <p class="section-description">How to use this guide effectively based on whether you are a Waterfall veteran or an Agile native.</p>
+    <a href="./using-guide" class="section-link">Plan Your Path →</a>
+  </div>
+
+  <div class="section-card">
+    <div class="section-title">1.3 Ways of Working</div>
+    <p class="section-description">Selecting the right delivery approach: Predictive, Agile, or Hybrid. When to pivot and why.</p>
+    <a href="./ways-of-working" class="section-link">Select Approach →</a>
+  </div>
+
+  <div class="section-card">
+    <div class="section-title">1.4 Core Concepts</div>
+    <p class="section-description">Master the fundamental mental models: The Triple Constraint, Value-Based Delivery, and Ethics.</p>
+    <a href="./core-concepts" class="section-link">Master Fundamentals →</a>
+  </div>
+
+  <div class="section-card knowledge-check">
+    <div class="section-title">Knowledge Check</div>
+    <p class="section-description">Test your foundational knowledge with scenario-based practice questions.</p>
+    <a href="./knowledge-check" class="section-link">Verify Basics →</a>
+  </div>
+</div>
 
 ---
+
+## What Success Looks Like
+By the end of this chapter, you will be able to:
+- ✅ **Decode the ECO**: Understand exactly what is being tested in People, Process, and Business.
+- ✅ **Think Like a PMP**: Apply the "Proactive Leader" mindset to situational questions.
+- ✅ **Tailor the Approach**: Identify when a project requires a rigid vs. adaptive structure.
+
+<div class="action-bar">
+  <a href="./understanding-exam" class="action-button primary">Begin Foundation</a>
+</div>
 
 <style>
 .section-grid {
@@ -13,103 +65,69 @@ Welcome to the first chapter of your PMP® Exam Prep journey. This foundation wi
 }
 
 .section-card {
+  padding: 1.5rem;
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-border);
-  border-radius: 1rem;
-  padding: 1.5rem;
+  border-radius: 12px;
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
 }
 
 .section-card:hover {
-  border-color: var(--vp-c-brand);
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-color: var(--vp-c-brand);
+  background: var(--vp-c-bg-mute);
 }
 
 .section-title {
+  font-size: 1.25rem;
   font-weight: 700;
-  font-size: 1.1rem;
   margin-bottom: 0.75rem;
+  color: var(--vp-c-text-1);
+}
+
+.section-description {
+  font-size: 0.95rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.section-link {
+  font-weight: 600;
+  color: var(--vp-c-brand);
+  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-.section-description {
-  font-size: 0.95rem;
-  line-height: 1.5;
-  color: var(--vp-c-text-2);
-  flex-grow: 1;
-  margin-bottom: 1.25rem;
-}
-
-.section-link {
-  font-weight: 600;
-  font-size: 0.9rem;
-  color: var(--vp-c-brand);
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-}
-
 .section-link:hover {
   text-decoration: underline;
 }
+
+.knowledge-check {
+  background: var(--vp-c-brand-soft);
+}
+
+.action-bar {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.action-button.primary {
+  padding: 0.75rem 2rem;
+  background: var(--vp-c-brand);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.action-button.primary:hover {
+  opacity: 0.9;
+}
 </style>
-
-<div class="section-grid">
-  <div class="section-card">
-    <div class="section-title">📊 1.1 Understanding the New PMP Exam</div>
-    <div class="section-description">Learn about the July 2026 exam update, new question formats, domain weights, and what to expect on exam day.</div>
-    <a href="./understanding-exam" class="section-link">Read more →</a>
-  </div>
-  
-  <div class="section-card">
-    <div class="section-title">📖 1.2 How To Use This Study Guide</div>
-    <div class="section-description">Strategic study tips, recommended learning paths, and advice for different experience levels.</div>
-    <a href="./using-guide" class="section-link">Read more →</a>
-  </div>
-
-  <div class="section-card">
-    <div class="section-title">🗺️ 1.3 Ways of Working and Tailoring</div>
-    <div class="section-description">Understand predictive, agile, and hybrid approaches—and how to tailor for context.</div>
-    <a href="./ways-of-working" class="section-link">Read more →</a>
-  </div>
-
-  <div class="section-card">
-    <div class="section-title">🧱 1.4 Core Project Management Concepts</div>
-    <div class="section-description">Master the fundamental vocabulary, frameworks, and mental models underpinning project practice.</div>
-    <a href="./core-concepts" class="section-link">Read more →</a>
-  </div>
-
-  <div class="section-card">
-    <div class="section-title">📝 Chapter 1 Knowledge Check</div>
-    <div class="section-description">Test your understanding of Chapter 1 fundamentals with practice questions and scenarios.</div>
-    <a href="./knowledge-check" class="section-link">Test yourself →</a>
-  </div>
-</div>
-
----
-
-## Key Takeaways for Chapter 1
-
-By the end of this chapter, you should be able to:
-
-- ✅ Describe the structure and format of the 2026 PMP exam
-- ✅ Explain the three exam domains and their updated weights
-- ✅ Navigate this study guide efficiently based on your experience level
-- ✅ Distinguish between predictive, agile, and hybrid delivery approaches
-- ✅ Apply core project management vocabulary confidently
-
-::: tip Study Recommendation
-Start with **Understanding the New PMP Exam** to get a clear picture of what you're preparing for. This will help you prioritize your study time and set realistic expectations.
-:::
-
-<div style="text-align: center; margin-top: 3rem;">
-  <a href="./understanding-exam" style="background: linear-gradient(135deg, #9333ea, #7e22ce); color: white; padding: 0.8rem 2rem; border-radius: 9999px; text-decoration: none; font-weight: 600; font-size: 1.1rem; display: inline-block;">
-    Start the Chapter →
-  </a>
-</div>

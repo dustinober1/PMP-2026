@@ -1,44 +1,64 @@
 # Knowledge Check: Stakeholder & Communication
 
-Test your understanding of stakeholder identification, communication planning, engagement strategies, and negotiation.
+Test your understanding of stakeholder analysis, engagement strategies, and communication planning in the 2026 PMP context.
 
 <QuizComponent
-  title="Chapter 4 Knowledge Check"
+  title="Chapter 4: Stakeholders"
   :questions="[
     {
-      text: 'You discover a new stakeholder group mid-project that represents a regulatory body. They have high power to block the project but low interest in the day-to-day work. What is your best strategy?',
-      options: ['Manage Closely: Keep them involved in every technical decision', 'Keep Satisfied: Ensure they receive all required compliance reports and updates', 'Monitor: Watch them closely but do not initiate contact', 'Keep Informed: Send them the weekly team newsletter'],
+      text: 'A high-power, low-interest stakeholder suddenly discovers the project will impact their budget and is now openly resistant. What should you do FIRST?',
+      options: [
+        'Ask the sponsor to handle the communication with the stakeholder',
+        'Analyze the impact on the budget and update the Stakeholder Register',
+        'Inform the team to bypass this stakeholder for all future decisions',
+        'Update the project schedule to include a delay for budget re-evaluation'
+      ],
       correct: 1,
-      explanation: 'High Power, Low Interest stakeholders should be kept satisfied to prevent them from becoming blockers. Providing them exactly what they need for compliance is the best approach.',
+      explanation: 'When a stakeholder’s attitude or influence shifts, your first step is to analyze the change and update the Stakeholder Register to reflect the new reality.',
+      reference: 'Section 4.1'
+    },
+    {
+      text: 'Your project team has grown from 5 to 10 people. How many new communication channels have been added?',
+      options: ['5', '10', '25', '35'],
+      correct: 3,
+      explanation: 'With 5 people, channels = (5*4)/2 = 10. With 10 people, channels = (10*9)/2 = 45. The delta (45 - 10) is 35 new channels.',
+      reference: 'Section 4.2'
+    },
+    {
+      text: 'Which communication method is most effective for a global team working across multiple time zones needing to access large technical specification documents?',
+      options: [
+        'Interactive: Schedule a daily video call',
+        'Push: Email the documents to all team members',
+        'Pull: Upload documents to a shared project portal or wiki',
+        'Social: Use an instant messaging tool for all conversations'
+      ],
+      correct: 2,
+      explanation: 'Pull communication is best for large audiences needing access to static, high-volume information like technical specs.',
+      reference: 'Section 4.2'
+    },
+    {
+      text: 'A senior executive who is an influential stakeholder asks for a status update. According to the Power/Interest grid, which strategy is most appropriate for a High Power / Low Interest stakeholder?',
+      options: [
+        'Manage Closely',
+        'Keep Satisfied',
+        'Keep Informed',
+        'Monitor'
+      ],
+      correct: 1,
+      explanation: 'Stakeholders with High Power but Low Interest should be Kept Satisfied to prevent them from using their power negatively against the project.',
       reference: 'Section 4.1a'
     },
     {
-      text: 'Your project team has grown from 5 to 7 people. How many additional communication channels have been created?',
-      options: ['2', '11', '21', '10'],
-      correct: 1,
-      explanation: 'Channels = N(N-1)/2. For 5 people, it is 10 channels. For 7 people, it is 21 channels. 21 - 10 = 11 additional channels.',
-      reference: 'Section 4.2'
-    },
-    {
-      text: 'A critical stakeholder is resistant to the project because they fear the new AI system will automate their job. As a servant leader, what should you do?',
-      options: ['Tell the Sponsor to handle the situation as it is political', 'Ignore their resistance and focus on the technical delivery', 'Listen to their concerns and explore how they can be upskilled to work with the new system', 'Update the Stakeholder Register to monitor their sabotaging behavior'],
+      text: 'You notice that a key stakeholder has stopped attending sprint reviews and is becoming unresponsive. What is the most proactive servant leadership action?',
+      options: [
+        'Flag them as a risk in the next status report',
+        'Escalate to their manager to ensure attendance',
+        'Reach out to them directly to understand the root cause of their disengagement',
+        'Assume they are satisfied with the progress and focus on other stakeholders'
+      ],
       correct: 2,
-      explanation: 'Active engagement involves understanding the root cause of resistance. Upskilling turns a threat into an opportunity for the stakeholder.',
+      explanation: 'Direct engagement and active listening to find the root cause of resistance or disengagement is the hallmark of modern stakeholder management.',
       reference: 'Section 4.3'
-    },
-    {
-      text: 'You are negotiating with a vendor for a faster delivery date. They refuse, saying they don\'t have enough staff. You suggest sharing your own internal testers to help them finish sooner. What is this called?',
-      options: ['Positional Bargaining', 'Compromise', 'Interest-Based Negotiation', 'Forcing'],
-      correct: 2,
-      explanation: 'By looking at their underlying interest (staffing shortage) rather than their position (we can\'t deliver), you found a Win-Win solution.',
-      reference: 'Section 4.4'
-    },
-    {
-      text: 'Which communication method is BEST for a global team working across multiple time zones to ensure they can access technical documentation as needed?',
-      options: ['Interactive (Video Meetings)', 'Push (Email Blasts)', 'Pull (Centralized Wiki/Repository)', 'Face-to-Face'],
-      correct: 2,
-      explanation: 'Pull communication allows stakeholders to access information at their convenience, making it ideal for large or global audiences.',
-      reference: 'Section 4.2'
     }
   ]"
 />
@@ -47,27 +67,15 @@ Test your understanding of stakeholder identification, communication planning, e
 
 For complete mastery of Chapter 4, ensure you understand:
 
-1. **Stakeholder Analysis (4.1)**
-   - The Power/Interest Grid vs. the Salience Model.
-   - Maintaining a secure Stakeholder Register.
-   - Direction of influence (Upward, Downward, Outward, Sideward).
-
-2. **Comm. Planning (4.2)**
-   - Push, Pull, and Interactive methods.
-   - Managing "Noise" in virtual and cultural contexts.
-
-3. **Active Engagement (4.3)**
-   - Building trust and radical transparency.
-   - Moving stakeholders from Resistant to Leading.
-
-4. **Negotiation (4.4)**
-   - Principled negotiation (Separate people from the problem).
-   - Decision-making methods (Consensus, Plurality, etc.).
+1.  **Analytical Models**: Power/Interest Grid vs. Salience Model vs. Stakeholder Cube.
+2.  **Communication Flow**: Sender-Receiver models and the impact of "Noise" in virtual environments.
+3.  **Governance Layers**: Respecting the "Direction of Influence" (Upward, Downward, etc.).
+4.  **Expectation Management**: The difference between communication (sending) and engagement (result).
 
 ---
 
 <div class="study-tip">
-  <strong>💡 Pro Tip:</strong> If a stakeholder is unhappy, your answer should involve <strong>listening</strong> or <strong>updating a document</strong> (Register or Plan) before taking defensive action.
+  <strong>💡 Pro Tip:</strong> If an exam scenario describes a "political conflict" or "hidden agenda," look for an answer that involves <strong>Stakeholder Analysis</strong> or <strong>Engagement Assessment</strong>. Understanding the *Why* is always the first step.
 </div>
 
 <style>

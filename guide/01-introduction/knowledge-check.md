@@ -1,106 +1,88 @@
-# Knowledge Check: Introduction and Fundamentals
+# Knowledge Check: Fundamentals
 
-Test your understanding of the PMP exam basics and fundamental concepts covered in Chapter 1.
+Test your mastery of the 2026 PMP exam structure, ways of working, and core project management fundamentals.
 
 <QuizComponent
-  title="Chapter 1 Knowledge Check"
+  title="Chapter 1: Fundamentals"
   :questions="[
     {
-      text: 'What is the total number of questions on the July 2026 PMP exam?',
-      options: [
-        '180 questions',
-        '185 questions',
-        '190 questions',
-        '200 questions'
-      ],
-      correct: 1,
-      explanation: 'The July 2026 PMP exam has 185 total questions, including 175 scored questions and 10 pretest questions.',
-      reference: 'Section 1.1.2'
+      text: 'The 2026 PMP Exam Content Outline (ECO) places a significant weight on the Business Environment domain. What is the correct percentage for this domain?',
+      options: ['8%', '16%', '26%', '33%'],
+      correct: 2,
+      explanation: 'The Business Environment domain weight has increased from 8% in the previous version to 26% in the 2026 update, reflecting the importance of strategic value and compliance.',
+      reference: 'Section 1.1'
     },
     {
-      text: 'How much time is allocated for the PMP exam?',
+      text: 'A project manager is assigned to a high-priority software initiative where the stakeholders are uncertain of the final features but need a working version within 4 months. Which way of working is most appropriate?',
       options: [
-        '230 minutes',
-        '240 minutes',
-        '250 minutes',
-        '260 minutes'
-      ],
-      correct: 1,
-      explanation: 'The exam provides 240 minutes (4 hours) to answer 185 questions, including two scheduled 5-minute breaks.',
-      reference: 'Section 1.1.2'
-    },
-    {
-      text: 'Which domain has the highest weight on the 2026 PMP exam?',
-      options: [
-        'People (33%)',
-        'Process (41%)',
-        'Business Environment (26%)',
-        'All domains have equal weight'
-      ],
-      correct: 1,
-      explanation: 'The Process domain carries the highest weight at 41%, followed by People at 33% and Business Environment at 26%.',
-      reference: 'Section 1.1.3'
-    },
-    {
-      text: 'What is a key change in the 2026 PMP exam compared to previous versions?',
-      options: [
-        'More emphasis on process memorization',
-        'Increased focus on Business Environment topics',
-        'Removal of agile and hybrid approaches',
-        'Shorter exam duration'
-      ],
-      correct: 1,
-      explanation: 'The Business Environment domain weight increased from 8% to 26%, reflecting PMI\'s emphasis on strategy, governance, and value delivery.',
-      reference: 'Section 1.1.3'
-    },
-    {
-      text: 'What type of questions can you expect on the new PMP exam?',
-      options: [
-        'Only traditional multiple-choice questions',
-        'Only definition and formula-based questions',
-        'A mix of formats including case studies and interactive items',
-        'Only essay-style questions'
+        'Predictive: Perform detailed upfront planning to lock in the scope',
+        'Waterfall: Use phase-gates to ensure quality at each step',
+        'Adaptive (Agile): Use iterative cycles to discover value through feedback',
+        'Hybrid: Use a gantt chart for all technical tasks'
       ],
       correct: 2,
-      explanation: 'The exam includes multiple formats: case/scenario sets, multiple-choice, multiple-response, matching, graphic-based questions, and interactive items like drag-and-drop.',
-      reference: 'Section 1.1.2'
+      explanation: 'Adaptive (Agile) approaches are designed for high uncertainty where value is discovered through iterations and feedback.',
+      reference: 'Section 1.3'
+    },
+    {
+      text: 'You are managing an office relocation with a firm deadline. One month before the move, a stakeholder asks for a major change to the electrical layout. What should you do FIRST?',
+      options: [
+        'Tell the stakeholder changes are not allowed so close to the deadline',
+        'Submit a change request to the CCB immediately',
+        'Analyze the impact of the change on cost, schedule, and safety',
+        'Ask the team to work overtime to accommodate the request'
+      ],
+      correct: 2,
+      explanation: 'In a predictive/hybrid environment, the first step when a change is requested is to analyze the impact before taking any other action.',
+      reference: 'Section 1.4b'
+    },
+    {
+      text: 'Which eligibility pathway is correct for a candidate with a four-year university degree?',
+      options: [
+        '24 months of leadership + 35 contact hours',
+        '36 months of leadership within the last 10 years + 35 contact hours',
+        '60 months of leadership within the last 10 years + 35 contact hours',
+        'No leadership experience required if you have 70 contact hours'
+      ],
+      correct: 1,
+      explanation: 'Degree holders require 36 months of leadership experience within a 10-year window plus 35 contact hours of PM education.',
+      reference: 'Section 1.1'
+    },
+    {
+      text: 'Success in 2026 project management is primarily measured by:',
+      options: [
+        'Adherence to the original triple constraint',
+        'The number of processes followed from the PMBOK Guide',
+        'The delivery of strategic business value and outcomes',
+        'Minimizing the number of change requests'
+      ],
+      correct: 2,
+      explanation: 'The modern PMP mindset prioritizes the delivery of value and strategic outcomes over mere adherence to rigid plans.',
+      reference: 'Section 1.1'
     }
   ]"
 />
 
-## Additional Practice Topics
+## Additional Study Topics
 
-For comprehensive preparation, ensure you understand:
-
-1. **Exam Eligibility Requirements**
-   - Experience requirements based on education level
-   - 35 hours of project management education
-   - Leadership responsibility criteria
-
-2. **Domain-Specific Topics**
-   - **People**: Team leadership, stakeholder engagement, communication
-   - **Process**: Planning, execution, monitoring across methodologies
-   - **Business Environment**: Strategy alignment, compliance, value delivery
-
-3. **Question Types and Strategies**
-   - Scenario-based questions
-   - Best answer vs. correct answer distinctions
-   - Time management techniques
-
-4. **Ways of Working**
-   - Predictive (waterfall) approaches
-   - Agile and adaptive approaches
-   - Hybrid methodologies
-
-## Study Tips
-
-- Focus on understanding rather than memorization
-- Practice with scenario-based questions
-- Time yourself during practice sessions
-- Review all domains, especially Business Environment which has increased emphasis
+Ensure you can confidently discuss:
+1.  **Exam Logistics**: Question types, timing, and the "Review" mechanism.
+2.  **Tailoring Framework**: How to diagnose a project's "degree of change" and "frequency of delivery."
+3.  **The Triple Constraint**: How Scope, Schedule, and Cost are balanced in Agile vs. Predictive.
+4.  **Ethics**: Applying the four core values to resolve professional dilemmas.
 
 ---
 
 <div class="study-tip">
-  <strong>💡 Tip:</strong> Use the progress tracking feature to monitor your performance across different domains. Aim for at least "Target" level in all three domains before taking the exam.
+  <strong>📝 Exam Insight:</strong> If a question asks what to do "Next," remember the PMI hierarchy: 1) Analyze, 2) Discuss/Engage, 3) Act/Update. Never skip the Analysis!
 </div>
+
+<style>
+.study-tip {
+  background: var(--vp-c-brand-soft);
+  border-left: 4px solid var(--vp-c-brand);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+</style>
