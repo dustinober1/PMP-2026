@@ -1,52 +1,56 @@
-# Chapter 2: Strategy and Business Environment
+# Chapter 2: Strategy & Business Environment
 
-Welcome to Chapter 2 of the PMP Exam Prep 2026 study guide. This chapter focuses on the "Business Environment" domain, ensuring projects align with strategy and deliver sustainable value.
-
----
+Projects do not exist in a vacuum. A project manager's success in 2026 is measured by how well their work aligns with organizational strategy, complies with global governance, and delivers **sustainable value**.
 
 ::: info 📊 2026 Domain Shift
-The **Business Environment domain now represents 26% of the PMP exam** (up from 8% in 2021). This is the largest percentage increase in the 2026 update.
+The **Business Environment domain now represents 26% of the PMP exam**. This shift emphasizes that a "perfect" project that fails to deliver business value is ultimately a failure.
 :::
 
 ## What You'll Learn
-By the end of this chapter, you will be able to connect project decisions to organizational objectives, navigate complex governance, and ensure your work delivers measurable business value.
+- **Strategic Alignment**: How to bridge the gap between high-level ambition and daily execution.
+- **Value Delivery**: Moving beyond outputs to focus on outcomes, benefits, and ESG sustainability.
+- **Governance & Compliance**: Navigating regulatory landscapes and ethical frameworks.
+- **Organizational Change**: Mastering the "People" side of project implementation.
 
 <div class="section-grid">
-  <a href="./strategy-alignment" class="section-card">
+  <div class="section-card">
     <div class="section-title">2.1 Strategic Alignment</div>
-    <p class="section-description">How projects fit within organizational strategy and portfolio management.</p>
-    <span class="section-link">Explore Alignment →</span>
-  </a>
+    <p class="section-description">Understand how projects fit into portfolios and how strategy drives selection.</p>
+    <a href="./strategy-alignment" class="section-link">View Alignment →</a>
+  </div>
 
-  <a href="./benefits-value" class="section-card">
+  <div class="section-card">
     <div class="section-title">2.2 Benefits & Value</div>
-    <p class="section-description">Managing benefits realization, value delivery, and new sustainability requirements.</p>
-    <span class="section-link">Deliver Value →</span>
-  </a>
+    <p class="section-description">Explore benefits realization, value delivery systems, and new sustainability (ESG) mandates.</p>
+    <a href="./benefits-value" class="section-link">Explore Value →</a>
+  </div>
 
-  <a href="./compliance-governance" class="section-card">
+  <div class="section-card">
     <div class="section-title">2.3 Compliance & Governance</div>
-    <p class="section-description">Navigating regulatory requirements, data privacy, and ethical frameworks.</p>
-    <span class="section-link">Master Governance →</span>
-  </a>
+    <p class="section-description">Navigate regulatory requirements, data privacy (GDPR), and steering committee dynamics.</p>
+    <a href="./compliance-governance" class="section-link">Master Governance →</a>
+  </div>
 
-  <a href="./organizational-change" class="section-card">
+  <div class="section-card">
     <div class="section-title">2.4 Organizational Change</div>
-    <p class="section-description">Managing the human side of project implementation and change readiness.</p>
-    <span class="section-link">Lead Change →</span>
-  </a>
+    <p class="section-description">Manage the "Human Transition" using ADKAR and Kotter's change frameworks.</p>
+    <a href="./organizational-change" class="section-link">Lead Change →</a>
+  </div>
 
-  <a href="./program-management" class="section-card">
-    <div class="section-title">2.5 Program Management</div>
-    <p class="section-description">Understanding how projects contribute to broader programs and roadmaps.</p>
-    <span class="section-link">Scale Success →</span>
-  </a>
+  <div class="section-card knowledge-check">
+    <div class="section-title">Knowledge Check</div>
+    <p class="section-description">Test your ability to connect project decisions to business strategy and value.</p>
+    <a href="./knowledge-check" class="section-link">Verify Readiness →</a>
+  </div>
+</div>
 
-  <a href="./knowledge-check" class="section-card focus">
-    <div class="section-title">📝 Knowledge Check</div>
-    <p class="section-description">Test your understanding of Chapter 2 concepts with practice questions.</p>
-    <span class="section-link">Test Yourself →</span>
-  </a>
+---
+
+## Study Recommendation
+Focus heavily on the **ESG (Environmental, Social, and Governance)** section in 2026. This is a high-growth area on the exam that many traditional project managers overlook.
+
+<div class="action-bar">
+  <a href="./strategy-alignment" class="action-button primary">Start Strategy Review</a>
 </div>
 
 <style>
@@ -58,78 +62,70 @@ By the end of this chapter, you will be able to connect project decisions to org
 }
 
 .section-card {
-  display: flex;
-  flex-direction: column;
   padding: 1.5rem;
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-border);
   border-radius: 12px;
-  text-decoration: none !important;
   transition: all 0.3s ease;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
   border-color: var(--vp-c-brand);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  background: var(--vp-c-bg-mute);
 }
 
 .section-title {
   font-size: 1.25rem;
   font-weight: 700;
-  color: var(--vp-c-brand);
   margin-bottom: 0.75rem;
+  color: var(--vp-c-text-1);
 }
 
 .section-description {
   font-size: 0.95rem;
   color: var(--vp-c-text-2);
-  line-height: 1.5;
   margin-bottom: 1.5rem;
   flex-grow: 1;
 }
 
 .section-link {
-  font-size: 0.9rem;
   font-weight: 600;
   color: var(--vp-c-brand);
+  text-decoration: none;
   display: flex;
   align-items: center;
+  gap: 0.5rem;
 }
 
-.section-card.focus {
+.section-link:hover {
+  text-decoration: underline;
+}
+
+.knowledge-check {
   background: var(--vp-c-brand-soft);
   border-color: var(--vp-c-brand-light);
 }
-</style>
 
----
-
-## Study Recommendation
-If you're coming from a technical PM background, pay extra attention to **Section 2.2 (Sustainability)** and **Section 2.4 (Change Management)**. These are areas where the 2026 exam adds significant new expectations beyond traditional triple-constraint thinking.
-
-<div class="action-bar">
-  <a href="./strategy-alignment" class="start-btn">Start the Chapter</a>
-</div>
-
-<style>
 .action-bar {
-  margin-top: 3rem;
   display: flex;
   justify-content: center;
+  margin: 3rem 0;
 }
-.start-btn {
+
+.action-button.primary {
+  padding: 0.75rem 2rem;
   background: var(--vp-c-brand);
-  color: white !important;
-  padding: 0.8rem 2rem;
-  border-radius: 12px;
-  font-weight: 700;
-  text-decoration: none !important;
-  transition: all 0.2s;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s;
 }
-.start-btn:hover {
-  transform: scale(1.05);
-  background: var(--vp-c-brand-darker);
+
+.action-button.primary:hover {
+  opacity: 0.9;
 }
 </style>

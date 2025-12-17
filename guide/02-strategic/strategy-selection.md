@@ -5,56 +5,100 @@
 ---
 
 ## 🏗️ Strategic Planning Frameworks
-Organizations use multiple lenses to develop strategy and identify project needs.
+Organizations use multiple strategic lenses to identify project needs.
 
-### 1. SWOT Analysis
-Assessing **Strengths, Weaknesses, Opportunities, and Threats**.
-- **Strengths/Weaknesses**: Internal factors (e.g., proprietary tech vs. outdated infrastructure).
-- **Opportunities/Threats**: External factors (e.g., new market trends vs. regulatory changes).
-
-### 2. Balanced Scorecard
-Measuring performance across four critical perspectives:
-- 💰 **Financial**: Revenue, ROI, cost management.
-- 👥 **Customer**: Satisfaction, retention, market share.
-- ⚙️ **Internal Processes**: Efficiency, innovation, quality.
-- 🌱 **Learning & Growth**: Employee skills, culture, technology.
-
-### 3. OKRs (Objectives and Key Results)
-- **Objectives**: Qualitative goals (e.g., "Become the industry's digital leader").
-- **Key Results**: Quantitative measures (e.g., "90% of user processes automated").
+<div class="selection-grid">
+  <div class="selection-card">
+    <div class="selection-title">SWOT Analysis</div>
+    <ul class="selection-list">
+      <li><strong>Strengths</strong>: Internal advantages</li>
+      <li><strong>Weaknesses</strong>: Internal gaps</li>
+      <li><strong>Opportunities</strong>: External wins</li>
+      <li><strong>Threats</strong>: External risks</li>
+    </ul>
+  </div>
+  <div class="selection-card">
+    <div class="selection-title">Balanced Scorecard</div>
+    <ul class="selection-list">
+      <li>💰 Financial value</li>
+      <li>👥 Customer satisfaction</li>
+      <li>⚙️ Internal efficiency</li>
+      <li>🌱 Learning & Growth</li>
+    </ul>
+  </div>
+  <div class="selection-card">
+    <div class="selection-title">OKRs</div>
+    <ul class="selection-list">
+      <li><strong>Objectives</strong>: High-level qualitative goals</li>
+      <li><strong>Key Results</strong>: Measurable targets that prove success</li>
+    </ul>
+  </div>
+</div>
 
 ---
 
 ## 🚦 The Selection Filter
 Project selection isn't just about financial return; it's about strategic fit.
 
-### Selection Criteria
-| Criterion               | Focus Area                                                   |
-| :---------------------- | :----------------------------------------------------------- |
-| **Strategic Alignment** | Does this directly support our top 3 objectives?             |
-| **Financial Return**    | What is the ROI, Net Present Value (NPV), or Payback Period? |
-| **Compliance**          | Is this required by law or regulation?                       |
-| **Feasibility**         | Do we have the technical capability and resources?           |
-| **Risk**                | What is the probability and impact of failure?               |
+### Critical Selection Criteria
+| Criterion               | Focus Area                                                 |
+| :---------------------- | :--------------------------------------------------------- |
+| **Strategic Alignment** | Does this directly support our top 3 business objectives?  |
+| **Financial Return**    | ROI, Net Present Value (NPV), and Payback Period.          |
+| **Compliance**          | Non-discretionary work required by law or regulation.      |
+| **Feasibility**         | Do we have the technical capability and resource capacity? |
+| **Risk**                | What is the probability and potential impact of failure?   |
 
 ::: info 💡 Pro Tip: Strategic Categories
-- **Strategic Projects**: Transform capabilities or create new value (High risk, High visibility).
-- **Operational Projects**: Improve efficiency or maintain existing systems (Lower risk, proven methods).
-- **Compliance Projects**: Non-discretionary work required by law (Fixed deadlines, zero tolerance for delays).
+*   **Transformational**: Creating new markets (High risk, High reward).
+*   **Operational**: Improving existing processes (Lower risk).
+*   **Compliance**: Required by law (Must do, fixed deadlines).
 :::
 
 ---
 
-## 🔄 Alignment Across Methodologies
+## 🔄 Methodology-Specific Alignment
+- **Predictive (Waterfall)**: The **Business Case** locks in strategic rationale before work begins.
+- **Agile**: The **Product Vision** and **Value-Stream** mapping guide the prioritized Backlog.
+- **Hybrid**: Strategic milestones are set at the program level, while agile teams discover the best delivery path.
 
-- **Predictive (Waterfall)**: Strategy is translated into detailed requirements upfront. The business case "locks in" the strategic rationale before work begins.
-- **Agile**: Strategy guides the **Product Vision** and **Roadmap**. Backlog prioritization ensures the team is always working on the highest-value strategic features *right now*.
-- **Hybrid**: Strategic milestones are set at the program level, while teams use agile delivery to discover the best path to reach them.
+<style>
+.selection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.selection-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+}
+
+.selection-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--vp-c-brand);
+  margin-bottom: 1rem;
+}
+
+.selection-list {
+  padding-left: 1.25rem;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.selection-list li {
+  margin-bottom: 0.5rem;
+}
+</style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a scenario describes a project that no longer aligns with a shifting organizational strategy, the project manager should typically facilitate a review with the sponsor or steering committee. The "best" action isn't always to finish the project; it's to protect organizational value.
+  <strong>📝 Exam Insight:</strong> If a project no longer aligns with a shifting strategy, the PM should facilitate a review with the <strong>Sponsor or Steering Committee</strong>. The "best" action is to protect organizational resources, even if it means recommending cancellation.
 </div>
 
 <style>

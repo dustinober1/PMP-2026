@@ -1,51 +1,96 @@
 # 2.5 Program Management
 
-While the PMP exam focuses on individual projects, you must understand **Program Management** because projects often exist within these larger structures. As covered in [Section 2.1c](./project-alignment), programs coordinate related projects to achieve benefits that wouldn't be possible in isolation.
+While the PMP exam focus is on individual projects, modern work increasingly happens within **Programs**. A program is a group of related projects managed in a coordinated way to obtain benefits not available from managing them individually.
 
 ---
 
 ## 🏗️ The Program Manager's Perspective
-If a Project Manager asks "Are we building it right?", the Program Manager asks "Are we building the right set of things to achieve our strategic goal?"
+If a Project Manager asks "Are we building it right?", the Program Manager asks "Are we building the right **set** of things to achieve our overarching strategic goal?"
 
-| Aspect        | Project Management                         | Program Management                                  |
-| :------------ | :----------------------------------------- | :-------------------------------------------------- |
-| **Duration**  | Short-term; specific end date.             | Long-term; spans multiple lifecycles.               |
-| **Success**   | Deliverable quality and triple constraint. | **Benefit Realization** and ROI.                    |
-| **Change**    | PMs try to minimize or control change.     | Program Managers expect and embrace change.         |
-| **Resources** | Managing the immediate team.               | Resolving conflicts between multiple project teams. |
+| Aspect        | Project Management                      | Program Management                        |
+| :------------ | :-------------------------------------- | :---------------------------------------- |
+| **Duration**  | Short-term; specific goal & end date    | Long-term; spans multiple lifecycles      |
+| **Success**   | Deliverable quality & Triple Constraint | **Benefit Realization** & Strategic ROI   |
+| **Change**    | PMs control change to protect baseline  | Program Managers expect & embrace change  |
+| **Resources** | Managing the immediate project team     | Resolving conflicts between project teams |
 
 ---
 
 ## 🗺️ The Program Roadmap
-A **Program Roadmap** is a high-level visual timeline of the program's components.
-- It shows **interdependencies** (Project A must finish before Project B can start).
-- It highlights **Strategic Milestones** (e.g., "Market Launch" or "Regulatory Compliance").
-- It is **Outcome-focused**, not task-focused.
+A **Program Roadmap** is a high-level visual timeline of the program's components. In 2026, these are increasingly **Adaptive Roadmaps**:
+
+- **Interdependencies**: Mapping risks where Project A must finish for Project B to start.
+- **Strategic Milestones**: Focusing on outcomes (e.g., "Full Digital Migration") rather than technical tasks.
+- **Rolling Wave Focus**: Detailing the near-term (3 months) while maintaining flexibility for the long-term themes.
 
 ---
 
 ## 🏛️ Program Governance
-Programs have their own layer of governance, often a **Program Steering Committee**. This body:
-1. **Resolves Conflicts**: If two Project Managers both need the same Lead Architect, the Program Steering Committee makes the final call based on strategic priority.
-2. **Reallocates Budget**: Moving funds from a project that is under-performing to one that is high-priority.
-3. **Approves Scope Shifts**: If one project discovers a new feature is needed for the program to succeed, the Program level handles the strategic approval.
+Programs have a dedicated layer of oversight, usually a **Program Steering Committee**.
+
+<div class="governance-grid">
+  <div class="gov-item">
+    <div class="gov-icon">⚖️</div>
+    <div class="gov-name">Conflict Resolution</div>
+    <p>Deciding priority when two projects need the same expert resource.</p>
+  </div>
+  <div class="gov-item">
+    <div class="gov-icon">🔄</div>
+    <div class="gov-name">Budget Reallocation</div>
+    <p>Moving funds from a delayed project to a high-priority "sister" project.</p>
+  </div>
+  <div class="gov-item">
+    <div class="gov-icon">🚀</div>
+    <div class="gov-name">Strategic Pivots</div>
+    <p>Approving scope shifts to ensure the program still delivers its intended value.</p>
+  </div>
+</div>
 
 ---
 
-## ⚡ Being a Project Manager in a Program
-When you report to a Program Manager:
-- **Think Globally**: Understand that your project might be asked to wait or pivot to help a sister project succeed.
-- **Manage Interfaces**: You must spend more time coordinating with other Project Managers.
-- **Escalate Interdependencies**: If another project is late and it hits your timeline, flag it to the Program Manager immediately.
+## ⚡ Your Role as a Project Leader in a Program
+When your project is part of a program, your leadership style must shift:
+*   **Think Globally**: Accept that your project might need to pivot to support the program's success.
+*   **Manage Interfaces**: Spend more time communicating with other Project Managers to manage cross-project risks.
+*   **Escalate Dependencies**: Flag it immediately if another project's delay threatens your timeline.
 
-::: tip 💡 2026 Focus: Adaptive Roadmaps
-Traditional roadmaps were fixed years in advance. **2026 Adaptive Roadmaps** use a "Rolling Wave" approach: the next 3 months are detailed, but the next 3 years are flexible themes that change based on market feedback and AI insights.
-:::
+<style>
+.governance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.gov-item {
+  text-align: center;
+  padding: 1rem;
+  background: var(--vp-c-bg-soft);
+  border-radius: 8px;
+}
+
+.gov-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.gov-name {
+  font-weight: 700;
+  color: var(--vp-c-brand);
+  margin-bottom: 0.5rem;
+}
+
+.gov-item p {
+  font-size: 0.85rem;
+  margin: 0;
+  color: var(--vp-c-text-2);
+}
+</style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> On the exam, if you are a PM and your project's goal has changed because the <em>Program</em> strategy shifted, your best course of action is to <strong>evaluate the impact on your project's baseline</strong> and <strong>update your Project Management Plan</strong>.
+  <strong>📝 Exam Insight:</strong> If your project's goal changes because the <em>Program</em> strategy shifted, your best course of action is to <strong>perform an impact assessment</strong> on your project's baseline and <strong>update your Project Management Plan</strong>.
 </div>
 
 <style>
