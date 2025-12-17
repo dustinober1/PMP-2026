@@ -1,214 +1,100 @@
-# Knowledge Check: Monitoring, Control, and Closing
+# Knowledge Check: Monitoring & Closing
 
-Test your understanding of EVM, variance analysis, change control, and project closure.
+Test your mastery of performance metrics, change control, and the final handoff.
 
-## Practice Questions
+<QuizComponent
+  title="Chapter 9 Knowledge Check"
+  :questions="[
+    {
+      text: 'A project has a Planned Value (PV) of $200,000, an Earned Value (EV) of $180,000, and an Actual Cost (AC) of $190,000. What is the Cost Performance Index (CPI) and what does it tell you?',
+      options: [
+        'CPI = 0.95; the project is over budget',
+        'CPI = 0.90; the project is over budget',
+        'CPI = 1.05; the project is under budget',
+        'CPI = 1.11; the project is under budget'
+      ],
+      correct: 0,
+      explanation: 'CPI = EV / AC ($180,000 / $190,000 = 0.947, rounded to 0.95). Since it is less than 1.0, the project is over budget.',
+      reference: 'Section 9.1'
+    },
+    {
+      text: 'A critical stakeholder calls the project manager and requests a small addition to the project scope that they claim will take only a few hours. How should the PM respond?',
+      options: [
+        'Ask the team to do it immediately to maintain stakeholder satisfaction',
+        'Tell the stakeholder scope changes are not allowed during execution',
+        'Instruct the stakeholder to submit a formal change request for impact assessment',
+        'Add the task to the backlog and wait for the next sprint review'
+      ],
+      correct: 2,
+      explanation: 'All changes, regardless of size, must go through the formal Integrated Change Control process to assess impacts on schedule, cost, and risk.',
+      reference: 'Section 9.1'
+    },
+    {
+      text: 'What is the FIRST thing a project manager should do if a project is canceled mid-way through execution due to a change in organizational strategy?',
+      options: [
+        'Immediately stop all work and release the team',
+        'Conduct a lessons learned session and perform formal project closure',
+        'Ask the sponsor for a new project to keep the team busy',
+        'Delete all project files to save server space since the project is no longer valuable'
+      ],
+      correct: 1,
+      explanation: 'Every project must be formally closed, even canceled ones. This ensures lessons are captured and data is archived (OPA updates).',
+      reference: 'Section 9.2'
+    },
+    {
+      text: 'An SPI of 1.2 and a CPI of 0.8 indicate which of the following scenarios?',
+      options: [
+        'Ahead of schedule and under budget',
+        'Behind schedule and over budget',
+        'Ahead of schedule and over budget',
+        'Behind schedule and under budget'
+      ],
+      correct: 2,
+      explanation: 'SPI > 1.0 is ahead of schedule; CPI < 1.0 is over budget.',
+      reference: 'Section 9.1'
+    },
+    {
+      text: 'Who is officially responsible for ensuring that the benefits of the project are realized and sustained after the project has been handed over?',
+      options: [
+        'The Project Manager',
+        'The Operations/Business Owner',
+        'The Project Team',
+        'The PMO Director'
+      ],
+      correct: 1,
+      explanation: 'The PM transitions the project to operations. The business owner/operations team is responsible for ongoing benefits realization.',
+      reference: 'Section 9.2'
+    }
+  ]"
+/>
 
-### Question 1: EVM - Schedule Variance
+## EVM Multipliers & Quick Reference
 
-A project has PV = $100,000, EV = $90,000, and AC = $95,000. What is the Schedule Variance (SV)?
+| Acronym | Meaning           | High Level Result            |
+| :------ | :---------------- | :--------------------------- |
+| **CV**  | Cost Variance     | $EV - AC$ (Positive is Good) |
+| **SV**  | Schedule Variance | $EV - PV$ (Positive is Good) |
+| **CPI** | Cost Index        | $EV / AC$ (> 1.0 is Good)    |
+| **SPI** | Schedule Index    | $EV / PV$ (> 1.0 is Good)    |
 
-- A) $5,000
-- B) -$5,000
-- C) -$10,000 ✓
-- D) $10,000
-
-**Explanation**: SV = EV - PV = $90,000 - $100,000 = -$10,000. Negative SV means behind schedule.
-
----
-
-### Question 2: EVM - Cost Performance Index
-
-Using the same data (PV = $100,000, EV = $90,000, AC = $95,000), what is the CPI?
-
-- A) 0.90
-- B) 0.95 ✓
-- C) 1.05
-- D) 1.10
-
-**Explanation**: CPI = EV / AC = $90,000 / $95,000 = 0.947 ≈ 0.95. CPI < 1 means over budget.
-
----
-
-### Question 3: SPI Interpretation
-
-A project has SPI = 1.15. This means the project is:
-
-- A) 15% over budget
-- B) 15% under budget
-- C) 15% ahead of schedule ✓
-- D) 15% behind schedule
-
-**Explanation**: SPI > 1 means ahead of schedule. An SPI of 1.15 means getting 115% of planned work done.
-
----
-
-### Question 4: Estimate at Completion
-
-A project has BAC = $500,000, EV = $200,000, AC = $250,000, and CPI = 0.80. If current CPI continues, what is the EAC?
-
-- A) $400,000
-- B) $500,000
-- C) $550,000
-- D) $625,000 ✓
-
-**Explanation**: EAC = BAC / CPI = $500,000 / 0.80 = $625,000
-
----
-
-### Question 5: Change Control
-
-A stakeholder requests a change to add new features. What should the PM do FIRST?
-
-- A) Reject the change to protect scope
-- B) Implement the change to satisfy the stakeholder
-- C) Evaluate the impact of the change ✓
-- D) Schedule a CCB meeting immediately
-
-**Explanation**: Before approval or rejection, assess the change's impact on scope, schedule, cost, and quality. Then the change can be properly reviewed.
-
----
-
-### Question 6: Variance Threshold
-
-A project has a CPI of 0.92 and SPI of 0.88. The project is:
-
-- A) Under budget and ahead of schedule
-- B) Over budget and behind schedule ✓
-- C) Under budget and behind schedule
-- D) Over budget and ahead of schedule
-
-**Explanation**: CPI < 1 means over budget. SPI < 1 means behind schedule. Both indices below 1 indicate trouble.
-
----
-
-### Question 7: Lessons Learned
-
-When should lessons learned be captured?
-
-- A) Only at project closure
-- B) At each phase gate
-- C) Throughout the project lifecycle ✓
-- D) When problems occur
-
-**Explanation**: Best practice is to capture lessons throughout—not just at the end when details are forgotten.
+### The "EVM Cheat Sheet"
+- **Anything Variance (SV/CV)**: Always starts with **EV**. $EV - X$.
+- **Anything Index (SPI/CPI)**: Always starts with **EV**. $EV / X$.
+- **Negative/Under 1.0**: Bad.
+- **Positive/Over 1.0**: Good.
 
 ---
 
-### Question 8: Administrative Closure
+<div class="study-tip">
+  <strong>📝 Exam Insight:</strong> If a project is complete but a vendor has a pending claim (a dispute), you cannot fully close the project until the <strong>Procurement Closure</strong> is resolved or a formal settlement is reached.
+</div>
 
-Which of the following is NOT a typical administrative closure activity?
-
-- A) Obtaining formal acceptance of deliverables
-- B) Archiving project documents
-- C) Developing the project charter ✓
-- D) Releasing team members
-
-**Explanation**: The project charter is developed during initiation, not closure.
-
----
-
-### Question 9: TCPI Interpretation
-
-A project's TCPI (based on BAC) is 1.25. This indicates:
-
-- A) The project is performing well
-- B) Remaining work must be 25% more efficient than planned ✓
-- C) The project will be under budget
-- D) Current performance is excellent
-
-**Explanation**: TCPI > 1 means you need better-than-planned performance on remaining work to meet budget. At 1.25, you need 25% better efficiency—a serious challenge.
-
----
-
-### Question 10: Benefits Transition
-
-Who is typically responsible for tracking benefits AFTER project closure?
-
-- A) Project manager
-- B) Business owner/sponsor ✓
-- C) PMO
-- D) Project team
-
-**Explanation**: Benefits are realized in operations after project closure. The business owner/sponsor typically owns ongoing benefit tracking.
-
----
-
-## Additional Study Topics
-
-For complete mastery of Chapter 9, ensure you understand:
-
-### Earned Value Management
-- PV, EV, AC definitions
-- SV, CV calculations (EV-based)
-- SPI, CPI calculations
-- EAC formulas (three versions)
-- TCPI interpretation
-
-### Control Processes
-- Variance analysis
-- Trend analysis
-- Forecasting
-- When to take action vs. accept variance
-- Change control process
-
-### Change Management
-- Change request process
-- CCB roles and responsibilities
-- Configuration management
-- Impact assessment
-
-### Project Closure
-- Administrative vs. contractual closure
-- Lessons learned best practices
-- Benefits transition
-- Resource release
-
----
-
-## EVM Formula Quick Reference
-
-| Formula  | Calculation       | Interpretation          |
-| -------- | ----------------- | ----------------------- |
-| **SV**   | EV - PV           | + = ahead, - = behind   |
-| **CV**   | EV - AC           | + = under, - = over     |
-| **SPI**  | EV / PV           | >1 = ahead, <1 = behind |
-| **CPI**  | EV / AC           | >1 = under, <1 = over   |
-| **EAC**  | BAC / CPI         | If CPI continues        |
-| **ETC**  | EAC - AC          | Remaining cost          |
-| **VAC**  | BAC - EAC         | + = under, - = over     |
-| **TCPI** | (BAC-EV)/(BAC-AC) | Required efficiency     |
-
----
-
-## Exam Tips for Monitoring Questions
-
-::: tip Memory Aid
-For SV and CV, remember: "**EV is in Every formula**"
-- SV = **EV** - PV
-- CV = **EV** - AC
-- SPI = **EV** / PV
-- CPI = **EV** / AC
-:::
-
-### Common Wrong Answer Patterns
-
-- ❌ Confusing SV/CV positive/negative meanings
-- ❌ Using wrong EAC formula
-- ❌ Skipping impact analysis before approving changes
-- ❌ Only capturing lessons at project end
-- ❌ Declaring closure without formal acceptance
-
-### Right Answer Patterns
-
-- ✅ Negative variance = unfavorable
-- ✅ CPI/SPI < 1 = problem
-- ✅ Evaluate changes before approving
-- ✅ Capture lessons throughout
-- ✅ Get formal deliverable acceptance
-
----
-
-::: info Study Note
-EVM is heavily tested. Practice calculations until the formulas are automatic. Remember: the indices tell you efficiency (SPI/CPI), while the raw numbers (SV/CV) tell you dollars or time.
-:::
+<style>
+.study-tip {
+  background: var(--vp-c-brand-soft);
+  border-left: 4px solid var(--vp-c-brand);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+</style>

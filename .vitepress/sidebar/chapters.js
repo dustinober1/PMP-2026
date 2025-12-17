@@ -135,7 +135,7 @@ export function createSidebar() {
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/09-monitoring/' },
-        { text: '9.1 Monitoring, Controlling, and Closing', link: '/guide/09-monitoring/monitoring-closing' },
+        { text: '9.1 Monitoring & Controlling', link: '/guide/09-monitoring/monitoring-closing' },
         { text: '9.2 Project Closure', link: '/guide/09-monitoring/project-closure' },
         { text: '📝 Knowledge Check', link: '/guide/09-monitoring/knowledge-check' }
       ]

@@ -1,77 +1,118 @@
----
-title: Chapter 9 - Monitoring, Control, and Closing
----
+# Chapter 9: Monitoring & Closing
 
-# Chapter 9: Monitoring, Control, and Closing
+If planning is the "Blueprint" and Execution is the "Work," then Monitoring & Closing is the **"Guardrail."** In the 2026 PMP exam, your role is to ensure the project stays on track and ends with a clean, value-focused handoff.
 
-Welcome to Chapter 9 of the PMP Exam Prep 2026 study guide. This chapter covers tracking project performance, managing variances, implementing changes, and properly closing projects.
-
-::: info Process Domain
-Monitoring and controlling activities are core parts of the **Process domain (41% of exam)**. Understanding earned value, variance analysis, and change control is essential for PMP success.
+::: info 📊 The Process of Correction
+Monitoring isn't just about watching; it's about **Control**. It’s the constant adjustment of the project's rudder to ensure you arrive at the intended destination.
 :::
 
-## Why This Chapter Matters
+## What You'll Learn
+- **Monitoring & Controlling**: Mastering Earned Value Management (EVM) and handling variances.
+- **Change Control**: How to say "yes" or "no" to modifications without losing balance.
+- **Project Closure**: Ensuring that the project doesn't just "end," but is **harvested** for lessons and value.
 
-Projects rarely go exactly according to plan:
+<div class="section-grid">
+  <div class="section-card">
+    <div class="section-title">9.1 Monitoring & Controlling</div>
+    <p class="section-description">Tracking progress through data, mastering EVM (CPI/SPI), and implementing formal Change Control.</p>
+    <a href="./monitoring-closing" class="section-link">Navigate the Plan →</a>
+  </div>
 
-- **Monitoring** provides visibility into actual performance
-- **Controlling** keeps projects on track when variances occur
-- **Change control** manages scope, schedule, and cost changes
-- **Closing** ensures proper handoff and lessons learned
+  <div class="section-card">
+    <div class="section-title">9.2 Project Closure</div>
+    <p class="section-description">Final handoffs, administrative closure, and the critical capture of Lessons Learned for the organization.</p>
+    <a href="./project-closure" class="section-link">Harvest the Value →</a>
+  </div>
 
-## Chapter Sections
-
-### [9.1 – Monitoring and Controlling](./monitoring-closing)
-Tracking progress and managing variances.
-- Performance metrics and tracking
-- Earned Value Management (EVM)
-- Schedule and cost control
-- Change control and configuration management
-- Stakeholder engagement during execution
-
-### [9.2 – Project Closure](./project-closure)
-Properly ending projects and capturing lessons.
-- Administrative and contractual closure
-- Lessons learned
-- Benefits transition
-- Team recognition
-
-### [📝 Knowledge Check](./knowledge-check)
-Test your understanding of Chapter 9 concepts.
+  <div class="section-card knowledge-check">
+    <div class="section-title">Knowledge Check</div>
+    <p class="section-description">Test your ability to interpret performance metrics and closing requirements.</p>
+    <a href="./knowledge-check" class="section-link">Verify Your Control →</a>
+  </div>
+</div>
 
 ---
 
-## Key Concepts to Master
+## Study Recommendation
+Focus heavily on the **EVM Formulas**. You don't just need to know how to calculate them; you need to know what they **tell you** about the project's health. 
 
-| Concept                       | Description                        | Exam Relevance |
-| ----------------------------- | ---------------------------------- | -------------- |
-| **Earned Value (EV, PV, AC)** | Integrated performance measurement | Very High      |
-| **CPI and SPI**               | Cost and schedule efficiency       | Very High      |
-| **Variance Analysis**         | SV, CV, VAC                        | Very High      |
-| **Change Control**            | Formal process for changes         | High           |
-| **Lessons Learned**           | Capturing project knowledge        | High           |
+<div class="action-bar">
+  <a href="./monitoring-closing" class="action-button primary">Start Monitoring</a>
+</div>
 
-## Learning Objectives
+<style>
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
 
-By the end of this chapter, you will be able to:
+.section-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
 
-1. ✅ Calculate and interpret EVM metrics (PV, EV, AC, CPI, SPI)
-2. ✅ Forecast project completion using EAC formulas
-3. ✅ Apply appropriate control actions for variances
-4. ✅ Implement change control processes
-5. ✅ Conduct proper project closure activities
-6. ✅ Facilitate effective lessons learned
+.section-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--vp-c-brand);
+  background: var(--vp-c-bg-mute);
+}
 
----
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--vp-c-text-1);
+}
 
-::: tip Exam Strategy
-EVM calculations appear frequently on the exam. Know the formulas and what each index means:
-- SPI > 1 = ahead of schedule
-- CPI > 1 = under budget
-:::
+.section-description {
+  font-size: 0.95rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
 
-## Quick Navigation
+.section-link {
+  font-weight: 600;
+  color: var(--vp-c-brand);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 
-- [Previous: Chapter 8 – Execution and Value Delivery](../08-execution/)
-- [Next: Chapter 10 – AI and Project Management](../10-ai-pm/)
-- [Return to Home](/)
+.section-link:hover {
+  text-decoration: underline;
+}
+
+.knowledge-check {
+  background: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-brand-light);
+}
+
+.action-bar {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.action-button.primary {
+  padding: 0.75rem 2rem;
+  background: var(--vp-c-brand);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.action-button.primary:hover {
+  opacity: 0.9;
+}
+</style>
