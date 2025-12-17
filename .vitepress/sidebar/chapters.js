@@ -37,7 +37,10 @@ export function createSidebar() {
       items: [
         { text: 'Chapter Overview', link: '/guide/03-team-leadership/' },
         { text: '3.1 Building and Leading Teams', link: '/guide/03-team-leadership/building-teams' },
-        { text: '3.2 Coaching, Mentoring, and Servant Leadership', link: '/guide/03-team-leadership/coaching-mentoring' }
+        { text: '3.2 Coaching, Mentoring, and Servant Leadership', link: '/guide/03-team-leadership/coaching-mentoring' },
+        { text: '3.3 Conflict Management', link: '/guide/03-team-leadership/conflict-management' },
+        { text: '3.4 Motivation and Performance', link: '/guide/03-team-leadership/motivation-performance' },
+        { text: '📝 Knowledge Check', link: '/guide/03-team-leadership/knowledge-check' }
       ]
     },
     {
@@ -45,16 +48,22 @@ export function createSidebar() {
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/04-stakeholder/' },
-        { text: '4.1 Stakeholder and Communication Mastery', link: '/guide/04-stakeholder/stakeholder-communication' },
-        { text: '4.2 Conflict, Negotiation, and Decision-Making', link: '/guide/04-stakeholder/conflict-negotiation' }
+        { text: '4.1 Stakeholder Identification and Analysis', link: '/guide/04-stakeholder/stakeholder-communication' },
+        { text: '4.2 Communication Planning', link: '/guide/04-stakeholder/communication-planning' },
+        { text: '4.3 Stakeholder Engagement', link: '/guide/04-stakeholder/stakeholder-engagement' },
+        { text: '4.4 Negotiation and Decision-Making', link: '/guide/04-stakeholder/conflict-negotiation' },
+        { text: '📝 Knowledge Check', link: '/guide/04-stakeholder/knowledge-check' }
       ]
     },
     {
-      text: '🚀 Chapter 5 - Initiation & Requirements',
+      text: '🚀 Chapter 5 - Project Initiation',
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/05-initiation/' },
-        { text: '5.1 Starting the Project', link: '/guide/05-initiation/starting-project' }
+        { text: '5.1 Business Case and Project Selection', link: '/guide/05-initiation/starting-project' },
+        { text: '5.2 Project Charter', link: '/guide/05-initiation/project-charter' },
+        { text: '5.3 Initial Planning and Assumptions', link: '/guide/05-initiation/initial-planning' },
+        { text: '📝 Knowledge Check', link: '/guide/05-initiation/knowledge-check' }
       ]
     },
     {
@@ -62,14 +71,22 @@ export function createSidebar() {
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/06-project-planning/' },
-        { text: '6.1 Planning for Value Delivery', link: '/guide/06-project-planning/planning-value' }
+        { text: '6.1 Scope Planning', link: '/guide/06-project-planning/scope-planning' },
+        { text: '6.2 Schedule Planning', link: '/guide/06-project-planning/schedule-planning' },
+        { text: '6.3 Cost Planning', link: '/guide/06-project-planning/cost-planning' },
+        { text: '6.4 Resource and Procurement Planning', link: '/guide/06-project-planning/resource-planning' },
+        { text: '📝 Knowledge Check', link: '/guide/06-project-planning/knowledge-check' }
       ]
     },
     {
       text: '⚠️ Chapter 7 - Risk, Quality & Complexity',
       collapsed: true,
       items: [
-        { text: 'Chapter Overview', link: '/guide/07-risk-quality/' }
+        { text: 'Chapter Overview', link: '/guide/07-risk-quality/' },
+        { text: '7.1 Risk Management', link: '/guide/07-risk-quality/risk-management' },
+        { text: '7.2 Quality Management', link: '/guide/07-risk-quality/quality-management' },
+        { text: '7.3 Navigating Complexity', link: '/guide/07-risk-quality/navigating-complexity' },
+        { text: '📝 Knowledge Check', link: '/guide/07-risk-quality/knowledge-check' }
       ]
     },
     {
@@ -77,7 +94,9 @@ export function createSidebar() {
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/08-execution/' },
-        { text: '8.1 Value Delivery and Outcomes', link: '/guide/08-execution/value-delivery' }
+        { text: '8.1 Executing Project Work', link: '/guide/08-execution/executing-work' },
+        { text: '8.2 Value Delivery and Outcomes', link: '/guide/08-execution/value-delivery' },
+        { text: '📝 Knowledge Check', link: '/guide/08-execution/knowledge-check' }
       ]
     },
     {
@@ -85,19 +104,29 @@ export function createSidebar() {
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/09-monitoring/' },
-        { text: '9.1 Monitoring, Controlling, and Closing', link: '/guide/09-monitoring/monitoring-closing' }
+        { text: '9.1 Monitoring, Controlling, and Closing', link: '/guide/09-monitoring/monitoring-closing' },
+        { text: '9.2 Project Closure', link: '/guide/09-monitoring/project-closure' },
+        { text: '📝 Knowledge Check', link: '/guide/09-monitoring/knowledge-check' }
       ]
     },
     {
-      text: '🎓 Chapter 10 - Exam Preparation',
+      text: '🤖 Chapter 10 - AI & Project Management',
       collapsed: true,
       items: [
-        { text: 'Chapter Overview', link: '/guide/10-exam-prep/' },
-        { text: '10.1 Exam Strategy and Test-Taking Skills', link: '/guide/10-exam-prep/exam-strategy' },
-        { text: '10.2 AI Essentials for Project Professionals', link: '/guide/10-exam-prep/ai-essentials' },
-        { text: '📝 Practice Exam 1', link: '/guide/10-exam-prep/practice-exam-1' },
-        { text: '📝 Practice Exam 2', link: '/guide/10-exam-prep/practice-exam-2' },
-        { text: '📝 Practice Exam 3', link: '/guide/10-exam-prep/practice-exam-3' }
+        { text: 'Chapter Overview', link: '/guide/10-ai-pm/' },
+        { text: '10.1 AI Essentials for Project Professionals', link: '/guide/10-ai-pm/ai-essentials' },
+        { text: '📝 Knowledge Check', link: '/guide/10-ai-pm/knowledge-check' }
+      ]
+    },
+    {
+      text: '🎓 Chapter 11 - Exam Preparation',
+      collapsed: true,
+      items: [
+        { text: 'Chapter Overview', link: '/guide/11-exam-prep/' },
+        { text: '11.1 Exam Strategy and Test-Taking Skills', link: '/guide/11-exam-prep/exam-strategy' },
+        { text: '📝 Practice Exam 1', link: '/guide/11-exam-prep/practice-exam-1' },
+        { text: '📝 Practice Exam 2', link: '/guide/11-exam-prep/practice-exam-2' },
+        { text: '📝 Practice Exam 3', link: '/guide/11-exam-prep/practice-exam-3' }
       ]
     },
     {

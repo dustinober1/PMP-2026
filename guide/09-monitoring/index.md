@@ -73,5 +73,5 @@ EVM calculations appear frequently on the exam. Know the formulas and what each 
 ## Quick Navigation
 
 - [Previous: Chapter 8 – Execution and Value Delivery](../08-execution/)
-- [Next: Chapter 10 – Exam Preparation](../10-exam-prep/)
+- [Next: Chapter 10 – AI and Project Management](../10-ai-pm/)
 - [Return to Home](/)
