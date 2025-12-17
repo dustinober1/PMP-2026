@@ -1,175 +1,105 @@
 # Practice Exam 3
 
-Complete your preparation with this final practice exam.
+The final challenge: Integration, AI, Ethics, and high-stakes scenarios.
 
-::: info Exam Simulation
-This practice exam simulates the real PMP exam experience. Set a timer for 80 minutes and answer all questions without looking at the answers.
-:::
-
-## Instructions
-
-- **Questions**: 50 scenario-based questions
-- **Time Limit**: 80 minutes (same pace as real exam)
-- **Domains**: People (33%), Process (41%), Business (26%)
-- **Answer key**: Located at the end of this page
-
----
-
-## Questions
-
-### Question 1
-
-A project manager is asked to use an AI tool to generate the project risk register. What should the PM do?
-
-A) Accept the AI output as the final risk register  
-B) Use AI as a starting point and validate with the team and stakeholders  
-C) Refuse to use AI and create the register manually  
-D) Upload all confidential project data for better AI analysis  
-
----
-
-### Question 2
-
-The Estimate at Completion (EAC) formula EAC = BAC/CPI should be used when:
-
-A) Current variances are atypical and won't continue  
-B) Current cost performance is expected to continue  
-C) Both schedule and cost variances should be considered  
-D) The project is ahead of schedule  
-
----
-
-### Question 3
-
-A project manager notices declining team morale. According to Herzberg's motivation theory, which factor would MOST improve motivation?
-
-A) Providing better office furniture  
-B) Increasing recognition for good work  
-C) Improving the cafeteria food  
-D) Raising salaries across the board  
-
----
-
-### Question 4
-
-During project closure, which activity ensures organizational learning is captured?
-
-A) Releasing project resources  
-B) Archiving project documents  
-C) Conducting lessons learned  
-D) Processing final payments  
-
----
-
-### Question 5
-
-A project is using a hybrid approach. The development team uses two-week sprints while the infrastructure team follows a predictive approach. What challenge should the PM anticipate?
-
-A) The teams will have no challenges working together  
-B) Coordination and dependency management between different rhythms  
-C) The infrastructure team should switch to agile  
-D) The development team should switch to predictive  
+<QuizComponent
+  title="Practice Exam 3: Integration & Final Check"
+  :questions="[
+    {
+      text: 'A project manager is asked to use an AI tool to generate the preliminary risk register. What is the MOST appropriate way for the PM to use this output?',
+      options: [
+        'Accept the AI output as the final risk register to save time',
+        'Use the AI list as a starting point and validate it with the team and stakeholders',
+        'Refuse to use AI and create the register manually from scratch',
+        'Upload all raw project data to the AI for better analysis without checking security'
+      ],
+      correct: 1,
+      explanation: 'AI is a productivity tool, but the PM remains accountable. Validation with human experts (team/stakeholders) is essential.',
+      reference: 'Chapter 10'
+    },
+    {
+      text: 'The Estimate at Completion (EAC) formula EAC = BAC / CPI should be used in which of the following situations?',
+      options: [
+        'Current variances are atypical and unlikely to continue',
+        'Current cost performance is expected to continue until the end of the project',
+        'Both schedule and cost performances must be considered simultaneously',
+        'The project is ahead of schedule and under budget'
+      ],
+      correct: 1,
+      explanation: 'EAC = BAC / CPI is the formula used when you assume the current trend (CPI) will continue for the remainder of the work.',
+      reference: 'Chapter 9'
+    },
+    {
+      text: 'Declining team morale is reported. According to Herzberg\'s Motivation-Hygiene theory, which of the following would be the most effective "Motivator" to improve engagement?',
+      options: [
+        'Providing better office furniture and workstations',
+        'Increasing recognition for high-quality individual and team work',
+        'Improving the quality of the on-site cafeteria food',
+        'Raising base salaries across the entire team'
+      ],
+      correct: 1,
+      explanation: 'Recognition, growth, and responsibility are "Motivators." Salary, food, and workstations are "Hygiene" factors—improving them only prevents dissatisfaction but doesn\'t create true motivation.',
+      reference: 'Chapter 3'
+    },
+    {
+      text: 'A project manager discovers that their organization\'s new strategic plan makes the current project redundant. What should be their FIRST action?',
+      options: [
+        'Immediately stop all project activities and release the team',
+        'Conduct a thorough impact analysis and present the findings to the sponsor',
+        'Continue the project as planned to ensure the baseline is met',
+        'Assume the project will be canceled and stop updating the risk register'
+      ],
+      correct: 1,
+      explanation: 'Before taking action (like stopping work), the PM must analyze the impact of the strategic shift and provide a formal recommendation/report to the sponsor.',
+      reference: 'Chapter 2'
+    },
+    {
+      text: 'According to the PMI Code of Ethics, what should a project manager do if they discover a significant conflict of interest involving themselves?',
+      options: [
+        'Ignore it if the conflict doesn\'t directly harm the project budget',
+        'Disclose the conflict to appropriate stakeholders and follow company policy',
+        'Resign from the project immediately without explanation',
+        'Keep the conflict confidential to avoid unnecessary complications'
+      ],
+      correct: 1,
+      explanation: 'Transparency is a core value. Conflicts of interest must be disclosed to ensure ethical governance.',
+      reference: 'Chapter 1'
+    }
+  ]"
+/>
 
 ---
 
-### Question 6
+## 🏆 Final Readiness Checklist
 
-According to PMI's Code of Ethics, when a project manager discovers a conflict of interest, they should:
+- [ ] I can calculate CPI, SPI, and EAC from memory.
+- [ ] I understand the difference between a "Direct" and "Consulted" stakeholder.
+- [ ] I know when to use the Change Control Board (Waterfall) vs. the Product Owner (Agile).
+- [ ] I am comfortable with "Human-in-the-Loop" AI ethics.
+- [ ] I have set my "Target Time" for each 60-question block.
 
-A) Ignore it if it doesn't directly harm the project  
-B) Disclose the conflict to appropriate stakeholders  
-C) Resign from the project immediately  
-D) Keep it confidential to avoid complications  
+<div class="action-bar">
+  <a href="/" class="action-button primary">Finish Study Guide</a>
+</div>
 
----
+<style>
+.action-bar {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
 
-### Question 7
+.action-button.primary {
+  padding: 0.75rem 2rem;
+  background: var(--vp-c-brand);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
 
-A change has been approved through the CCB. What should the PM do NEXT?
-
-A) Archive the change request  
-B) Update the affected project documents and baselines  
-C) Wait for the sponsor to implement the change  
-D) Conduct another impact analysis  
-
----
-
-### Question 8
-
-In the RACI matrix, the "A" (Accountable) means:
-
-A) The person who does the work  
-B) The person ultimately answerable for the work  
-C) Someone who provides input  
-D) Someone who needs to be notified  
-
----
-
-### Question 9
-
-A sponsor asks the PM to fast-track the project. What is the PRIMARY risk of fast-tracking?
-
-A) Increased cost  
-B) Reduced quality  
-C) Increased rework and risk  
-D) Team burnout  
-
----
-
-### Question 10
-
-During stakeholder analysis, the PM discovers that a key stakeholder is "unaware" of the project. What engagement level should the PM target?
-
-A) Keep them unaware to avoid complications  
-B) Move them to at least "resistant" level  
-C) Move them to an appropriate supportive level  
-D) Remove them from the stakeholder register  
-
----
-
-*[More questions would continue here...]*
-
----
-
-## Answer Key
-
-| Question | Answer | Explanation                                                                                    |
-| -------- | ------ | ---------------------------------------------------------------------------------------------- |
-| 1        | B      | Use AI as a tool, but validate outputs with human judgment                                     |
-| 2        | B      | EAC = BAC/CPI assumes current cost performance continues                                       |
-| 3        | B      | Recognition is a motivator according to Herzberg; hygiene factors only prevent dissatisfaction |
-| 4        | C      | Lessons learned capture organizational knowledge for future projects                           |
-| 5        | B      | Different delivery rhythms create coordination challenges                                      |
-| 6        | B      | Conflicts of interest must be disclosed per PMI ethics                                         |
-| 7        | B      | After approval, update documents and baselines                                                 |
-| 8        | B      | Accountable = ultimately answerable (can delegate, not abdicate)                               |
-| 9        | C      | Fast-tracking overlaps activities, increasing risk and potential rework                        |
-| 10       | C      | Move unaware stakeholders to an appropriate supportive engagement level                        |
-
----
-
-## Scoring Guide
-
-- **45-50 correct (90%+)**: Excellent! You're ready for the exam
-- **40-44 correct (80-89%)**: Strong performance, review weak areas
-- **35-39 correct (70-79%)**: Good progress, continue studying
-- **Below 35**: More preparation needed, focus on fundamentals
-
----
-
-## Final Preparation Tips
-
-1. **Review wrong answers**: Understand why the correct answer is best
-2. **Focus on weak areas**: Target chapters where you missed questions
-3. **Get rest**: Adequate sleep before exam day is crucial
-4. **Trust yourself**: You've done the preparation—believe in it
-
----
-
-::: tip Good Luck!
-You've completed all three practice exams. Review your results, focus on weak areas, and approach the real exam with confidence. You've got this! 🎯
-:::
-
----
-
-**Return**: [Chapter 10 Overview](./index)
+.action-button.primary:hover {
+  opacity: 0.9;
+}
+</style>

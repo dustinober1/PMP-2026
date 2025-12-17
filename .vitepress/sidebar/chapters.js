@@ -156,7 +156,7 @@ export function createSidebar() {
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/11-exam-prep/' },
-        { text: '11.1 Exam Strategy and Test-Taking Skills', link: '/guide/11-exam-prep/exam-strategy' },
+        { text: '11.1 Exam Strategy', link: '/guide/11-exam-prep/exam-strategy' },
         { text: '📝 Practice Exam 1', link: '/guide/11-exam-prep/practice-exam-1' },
         { text: '📝 Practice Exam 2', link: '/guide/11-exam-prep/practice-exam-2' },
         { text: '📝 Practice Exam 3', link: '/guide/11-exam-prep/practice-exam-3' }
