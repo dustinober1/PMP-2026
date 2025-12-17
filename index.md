@@ -67,18 +67,23 @@ import { ref } from 'vue'
 
 .changes-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
   margin-bottom: 4rem;
 }
 
 .change-card {
   background: linear-gradient(135deg, var(--color-purple-50), white);
   border: 1px solid var(--color-purple-200);
-  border-radius: 1rem;
-  padding: 1.5rem;
+  border-radius: 1.25rem;
+  padding: 2.5rem 2rem;
   text-align: center;
   transition: all 0.3s ease;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .dark .change-card {
@@ -92,18 +97,22 @@ import { ref } from 'vue'
 }
 
 .change-number {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 800;
+  line-height: 1.1;
   background: linear-gradient(135deg, var(--color-purple-500), var(--color-purple-700));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  margin-bottom: 0.75rem;
 }
 
 .change-label {
+  font-size: 1rem;
   font-weight: 600;
-  color: var(--vp-c-text-1);
-  margin-top: 0.5rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.4;
+  max-width: 180px;
 }
 
 .domains-section {
