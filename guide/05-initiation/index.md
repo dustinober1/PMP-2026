@@ -1,82 +1,131 @@
----
-title: Chapter 5 - Project Initiation
----
-
 # Chapter 5: Project Initiation
 
-Welcome to Chapter 5 of the PMP Exam Prep 2026 study guide. This chapter focuses on the critical activities that launch a project—developing the business case, creating the project charter, and ensuring proper authorization.
+Initiation is the "Big Bang" of a project. It is the moment an idea transforms into a formal organizational commitment. In the 2026 PMP exam, initiation is about more than just paperwork; it's about establishing the **Strategic North Star**.
 
-::: info Process Domain
-Project initiation is part of the **Process domain**, which represents 41% of the 2026 PMP exam. Understanding how projects are properly initiated provides context for all subsequent planning and execution activities.
+::: info 🚀 Process Domain: The Starting Line
+Initiation is a core part of the **Process domain (41%)**. In 2026, the exam focuses on how well you can align a project's start with high-level value delivery and organizational readiness.
 :::
 
-## Why This Chapter Matters
+## What You'll Learn
+- How to justify a project using the **Business Case** and ROI metrics.
+- The power of the **Project Charter**: Formalizing your authority as PM.
+- Navigating **Constraints and Assumptions** before the first line of code is written.
+- Choosing the right **Delivery Approach** (Agile, Predictive, or Hybrid) from the start.
 
-Proper initiation sets the foundation for project success:
+<div class="section-grid">
+  <div class="section-card">
+    <div class="section-title">5.1 Business Case</div>
+    <p class="section-description">Project selection metrics (NPV, IRR) and the strategic justification for project existence.</p>
+    <a href="./business-case" class="section-link">Analyze the Value →</a>
+  </div>
 
-- **Establishes authority**: The charter formally authorizes the project and PM
-- **Defines purpose**: Clarifies why the project exists and what it should achieve
-- **Aligns stakeholders**: Creates shared understanding of project objectives
-- **Connects to strategy**: Links project to organizational goals and benefits
-- **Identifies constraints**: Surfaces initial assumptions, risks, and boundaries
+  <div class="section-card">
+    <div class="section-title">5.2 Project Charter</div>
+    <p class="section-description">Components of the charter, formal authorization, and the PM's appointed authority.</p>
+    <a href="./project-charter" class="section-link">Formalize the Project →</a>
+  </div>
 
-## Chapter Sections
+  <div class="section-card">
+    <div class="section-title">5.3 Constraints & Assumptions</div>
+    <p class="section-description">Identifying 'known unknowns' and the boundaries that define the project space.</p>
+    <a href="./constraints-assumptions" class="section-link">Define the Boundaries →</a>
+  </div>
 
-### [5.1 – Business Case and Project Selection](./starting-project)
-Understanding why projects are undertaken and how they are selected.
-- Business case development
-- Cost-benefit analysis
-- Project selection methods
-- Make-or-buy decisions
+  <div class="section-card">
+    <div class="section-title">5.4 Delivery Strategy</div>
+    <p class="section-description">Matching the delivery approach to the project's risk, complexity, and stability.</p>
+    <a href="./delivery-strategy" class="section-link">Choose the Path →</a>
+  </div>
 
-### [5.2 – Project Charter](./project-charter)
-The document that formally authorizes the project.
-- Charter components and purpose
-- High-level scope and objectives
-- Milestone schedule and budget
-- Stakeholder identification
-
-### [5.3 – Initial Planning and Assumptions](./initial-planning)
-Early planning activities that support initiation.
-- Assumptions and constraints
-- High-level risks
-- Success criteria
-- Initial stakeholder engagement
-
-### [📝 Knowledge Check](./knowledge-check)
-Test your understanding of Chapter 5 concepts.
+  <div class="section-card knowledge-check">
+    <div class="section-title">Knowledge Check</div>
+    <p class="section-description">Test your ability to handle initiation scenarios and charter approvals.</p>
+    <a href="./knowledge-check" class="section-link">Test Your Readiness →</a>
+  </div>
+</div>
 
 ---
 
-## Key Concepts to Master
+## Study Recommendation
+Expect many questions on the **sequence** of events. One common PMP trap is asking what to do when a project starts. Remember: **Charter first**, then identify stakeholders, then move to planning.
 
-| Concept               | Description                     | Exam Relevance |
-| --------------------- | ------------------------------- | -------------- |
-| **Business Case**     | Justification for the project   | Very High      |
-| **Project Charter**   | Formal authorization document   | Very High      |
-| **Project Selection** | Methods for choosing projects   | High           |
-| **Assumptions Log**   | Documented assumptions          | High           |
-| **Success Criteria**  | How project success is measured | High           |
+<div class="action-bar">
+  <a href="./business-case" class="action-button primary">Start the Chapter</a>
+</div>
 
-## Learning Objectives
+<style>
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
 
-By the end of this chapter, you will be able to:
+.section-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
 
-1. ✅ Explain the purpose and components of a business case
-2. ✅ Develop a project charter with appropriate content
-3. ✅ Apply project selection methods (NPV, IRR, payback)
-4. ✅ Identify and document assumptions and constraints
-5. ✅ Define measurable success criteria
-6. ✅ Understand the PM's role during initiation
+.section-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--vp-c-brand);
+  background: var(--vp-c-bg-mute);
+}
 
----
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--vp-c-text-1);
+}
 
-::: tip Exam Strategy
-Initiation questions test your understanding of what comes BEFORE detailed planning. The business case precedes the charter, and the charter precedes the project management plan. Know the sequence and purpose of each.
-:::
+.section-description {
+  font-size: 0.95rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
 
-## Quick Navigation
+.section-link {
+  font-weight: 600;
+  color: var(--vp-c-brand);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 
-- [Previous: Chapter 4 – Stakeholder Engagement](../04-stakeholder/)
-- [Next: Chapter 6 – Project Planning](../06-project-planning/)
-- [Return to Home](/)
+.section-link:hover {
+  text-decoration: underline;
+}
+
+.knowledge-check {
+  background: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-brand-light);
+}
+
+.action-bar {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.action-button.primary {
+  padding: 0.75rem 2rem;
+  background: var(--vp-c-brand);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.action-button.primary:hover {
+  opacity: 0.9;
+}
+</style>

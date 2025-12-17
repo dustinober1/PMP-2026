@@ -90,9 +90,10 @@ export function createSidebar() {
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/05-initiation/' },
-        { text: '5.1 Business Case and Project Selection', link: '/guide/05-initiation/starting-project' },
+        { text: '5.1 Business Case', link: '/guide/05-initiation/business-case' },
         { text: '5.2 Project Charter', link: '/guide/05-initiation/project-charter' },
-        { text: '5.3 Initial Planning and Assumptions', link: '/guide/05-initiation/initial-planning' },
+        { text: '5.3 Constraints & Assumptions', link: '/guide/05-initiation/constraints-assumptions' },
+        { text: '5.4 Delivery Strategy', link: '/guide/05-initiation/delivery-strategy' },
         { text: '📝 Knowledge Check', link: '/guide/05-initiation/knowledge-check' }
       ]
     },
