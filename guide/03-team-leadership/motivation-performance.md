@@ -1,51 +1,92 @@
 # 3.4 Motivation & Performance
 
-"You can't motivate people; you can only create the environment where they choose to be motivated." In the 2026 PMP exam, understanding human drive is the key to unlocking high performance.
+"You can't motivate people; you can only create the environment where they choose to be motivated." In the 2026 PMP exam, understanding human drive is the key to unlocking the hidden potential of your team.
 
 ---
 
 ## 🏗️ The Pillars of Motivation
-You must be familiar with these classic theories for the exam:
+For the exam, you must master the classic theories that explain why people show up and give their best.
 
-### 1. Herzberg’s Two-Factor Theory
-Motivation is not a single scale. It consists of:
-- **Hygiene Factors (Demotivators)**: Pay, job security, working conditions. If these are missing, people are unhappy. But if they are present, people aren't necessarily motivated—they are just "not unhappy."
-- **Motivators**: Achievement, recognition, the work itself. These are what actually drive performance.
-
-### 2. McClelland’s Theory of Needs
-People are driven by one of three dominant needs:
-- **Need for Achievement**: Desires to solve problems and master complex tasks.
-- **Need for Power**: Desires to influence others or control their environment.
-- **Need for Affiliation**: Desires friendly relationships and to be liked.
-
-### 3. Theory X & Theory Y (McGregor)
-- **Theory X**: Managers believe people are lazy and need to be micromanaged.
-- **Theory Y**: Managers believe people are self-motivated and seek responsibility.
-- **2026 Focus**: Agile and Hybrid teams operate almost exclusively on **Theory Y**.
-
----
-
-## 🏆 Recognition & Reward
-A Servant Leader uses recognition to reinforce positive behavior.
-
-| Principle              | Advice for the PM                                                                      |
-| :--------------------- | :------------------------------------------------------------------------------------- |
-| **Specificity**        | Don't say "Good job." Say "Your catch on that security bug saved the project 2 weeks." |
-| **Timeliness**         | Small rewards given *now* are better than a big bonus given in six months.             |
-| **Public vs. Private** | Know your team. Some love a public shoutout; others find it mortifying.                |
-| **Equitable**          | If only the "favorites" get rewards, you will destroy team morale.                     |
+<div class="theory-grid">
+  <div class="theory-card">
+    <div class="theory-title">Herzberg's Two-Factor</div>
+    <div class="theory-content">
+      <p><strong>Hygiene Factors</strong>: Pay and security. If missing, they demotivate, but if present, they don't inspire.</p>
+      <p><strong>Motivators</strong>: Achievement and recognition. These are the true drivers of performance.</p>
+    </div>
+  </div>
+  <div class="theory-card">
+    <div class="theory-title">McClelland's Needs</div>
+    <div class="theory-content">
+      <p><strong>Achievement</strong>: Drive to master complex tasks.</p>
+      <p><strong>Affiliation</strong>: Drive for social relationships.</p>
+      <p><strong>Power</strong>: Drive to influence and lead.</p>
+    </div>
+  </div>
+  <div class="theory-card">
+    <div class="theory-title">McGregor's X & Y</div>
+    <div class="theory-content">
+      <p><strong>Theory X</strong>: Believes people are lazy and need control.</p>
+      <p><strong>Theory Y</strong>: Believes people are self-directed. Modern PM involves 100% Theory Y.</p>
+    </div>
+  </div>
+</div>
 
 ---
 
-## 📊 Performance in 2026
-In a world of remote work and flexible hours, performance is measured by **Value**, not "Hours at Desk."
-- **Focus on Outcomes**: Did the feature solve the customer's problem?
-- **Leading Indicators**: Use velocity, cycle time, and team happiness scores to spot performance drops *before* they hit the deadline.
+## 🏆 Meaningful Recognition & Reward
+A Servant Leader uses recognition as a tool to reinforce high-value behaviors, not just as a "thank you."
+
+*   **Be Specific**: "Great job" is noise. "Your catch on that security bug saved the project two weeks" is recognition.
+*   **Be Timely**: A small shout-out *now* is more powerful than a formal award *next quarter*.
+*   **Be Equitable**: Rewards given to only "favorites" destroy the psychological safety of the entire team.
+
+---
+
+## 📈 Performance in the 2026 Era
+In virtual and hybrid environments, performance is measured by **Value Delivered**, not "Hours Logged."
+
+1.  **Focus on Outcomes**: Did the team solve the customer's pain point?
+2.  **Leading Indicators**: Monitor cycle time and team sentiment to spot drops *before* they impact delivery.
+3.  **Whole Person Leadership**: Acknowledge that life stress impacts project performance. Empathy is a performance multiplier.
+
+<style>
+.theory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.theory-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+}
+
+.theory-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--vp-c-brand);
+  margin-bottom: 1rem;
+}
+
+.theory-content p {
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.theory-content p:last-child {
+  margin-bottom: 0;
+}
+</style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If an exam scenario asks how to motivate a team that has already met its basic needs (salary/security), look for an answer that focuses on <strong>Recognition</strong>, <strong>Professional Growth</strong>, or <strong>Autonomy</strong>.
+  <strong>📝 Exam Insight:</strong> If a team is well-paid but unhappy, adding more money usually won't help (Herzberg). Look for an answer that focuses on <strong>Autonomy</strong>, <strong>Growth</strong>, or <strong>Involvement in Decision-Making</strong>.
 </div>
 
 <style>

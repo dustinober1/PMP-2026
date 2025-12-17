@@ -1,41 +1,75 @@
-# 3.1c Team Charters & Ground Rules
+# 3.1c Team Charters & Social Contracts
 
-High-performing teams don't assume how they will work; they define it. The **Team Charter** is the "North Star" for team behavior and collaboration.
+High-performing teams don't assume how they will work; they define it. The **Team Charter** is the "North Star" for team behavior, collaboration, and collective accountability.
 
 ---
 
 ## 📜 The Team Charter
-A living document created **by the team, for the team**. 
+A living document created **by the team, for the team**. It sets the guardrails for a high-trust culture.
 
-| Component               | What it defines                                                       |
-| :---------------------- | :-------------------------------------------------------------------- |
-| **Team Values**         | What do we stand for? (e.g., Transparency, Respect).                  |
-| **Ground Rules**        | Behavioral "laws" (e.g., "No phones in meetings").                    |
-| **Conflict Resolution** | How will we handle disagreements before they escalate?                |
-| **Communication**       | Which tools for what? (e.g., Slack for quick sync, Email for formal). |
-| **Decision Making**     | Majority vote? Consensus? PM final call?                              |
+<div class="charter-grid">
+  <div class="charter-card">
+    <div class="charter-title">Team Values</div>
+    <p>What do we stand for? (e.g., Integrity, Radical Transparency, Respect).</p>
+  </div>
+  <div class="charter-card">
+    <div class="charter-title">Ground Rules</div>
+    <p>Behavioral "laws" (e.g., "Always have cameras on," "No phones during standups").</p>
+  </div>
+  <div class="charter-card">
+    <div class="charter-title">Communication</div>
+    <p>Tools and norms: Slack for quick syncs, Email for formal updates, Jira for tasks.</p>
+  </div>
+  <div class="charter-card">
+    <div class="charter-title">Decision Making</div>
+    <p>How do we decide? (e.g., Majority vote, Consensus, or PM as tie-breaker).</p>
+  </div>
+</div>
 
 ---
 
 ## 🚦 Establishing Ground Rules
-Ground rules are only effective if they are:
-1. **Collaborative**: The team must write them to buy into them.
-2. **Visible**: Put them on the wall or the digital dashboard.
-3. **Consistently Applied**: The PM must follow them too!
+Ground rules are only effective if they follow these three principles:
+1.  **Collaborative**: The team must write them to "own" them.
+2.  **Visible**: Displayed prominently in the physical or digital project space.
+3.  **Self-Policing**: High-performing teams call out rule violations themselves, without needing the PM to play "police officer."
 
 ::: info 🛠️ 2026 Focus: Adaptive Agreements
-In an Agile or Hybrid context, the Team Charter is often reviewed during every **Retrospective**. If a rule isn't working, the team changes it immediately.
+In an Agile or Hybrid context, the Team Charter is not static. It is reviewed during every **Retrospective**. If a rule (e.g., "Meetings at 9:00 AM") is causing friction (e.g., child-care commutes), the team changes it immediately to optimize flow.
 :::
 
----
+<style>
+.charter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
 
-## 🏗️ Shared Responsibility
-A key 2026 concept is moving from "command and control" to **shared accountability**. The Team Charter shifts the burden of discipline from the Project Manager to the team itself (e.g., team members calling each other out on ground rule violations).
+.charter-card {
+  padding: 1.25rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+}
+
+.charter-title {
+  font-weight: 700;
+  color: var(--vp-c-brand);
+  margin-bottom: 0.5rem;
+}
+
+.charter-card p {
+  font-size: 0.85rem;
+  margin: 0;
+  line-height: 1.4;
+}
+</style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a team is having constant minor behavioral issues (e.g., people arriving late or speaking over each other), the correct action is to <strong>refer the team to the Ground Rules</strong> or have a session to <strong>create a Team Charter</strong>.
+  <strong>📝 Exam Insight:</strong> If a team is having constant minor behavioral issues (e.g., people interrupting each other), the correct action is to <strong>refer the team to the Ground Rules</strong> or facilitate a session to <strong>update the Team Charter</strong>.
 </div>
 
 <style>

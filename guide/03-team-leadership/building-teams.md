@@ -1,43 +1,55 @@
 # 3.1 Building High-Performing Teams
 
-Projects don't fail; teams do. Your primary responsibility in the People domain is to assemble a group of individuals and transform them into a cohesive, self-organizing unit.
+Projects don't fail; teams do. Your primary responsibility in the People domain is to assemble a diverse group of individuals and transform them into a cohesive, self-organizing unit that delivers value.
 
 ---
 
-## The Path to Performance
-Building a team is a structured journey. Explore the core components below:
+## 🛠️ The Construction Phases
+Building a team is a structured journey. Use the modules below to master each phase of the team lifecycle:
 
 <div class="concept-grid">
-  <a href="./team-formation" class="concept-card">
+  <div class="concept-card">
     <div class="concept-title">3.1a Formation</div>
-    <p>Skills matrix, RACI, and acquiring the right team members.</p>
-  </a>
+    <p class="concept-description">Skills gap analysis, RACI matrices, and acquiring the right talent for the mission.</p>
+    <a href="./team-formation" class="concept-link">Learn Formation →</a>
+  </div>
 
-  <a href="./team-development" class="concept-card">
+  <div class="concept-card">
     <div class="concept-title">3.1b Development</div>
-    <p>Moving through Tuckman's stages and fostering psychological safety.</p>
-  </a>
+    <p class="concept-description">Moving through Tuckman's stages (Forming to Performing) and psychological safety.</p>
+    <a href="./team-development" class="concept-link">Accelerate Growth →</a>
+  </div>
 
-  <a href="./team-charter" class="concept-card">
-    <div class="concept-title">3.1c Charters</div>
-    <p>Creating ground rules and team agreements that drive accountability.</p>
-  </a>
+  <div class="concept-card">
+    <div class="concept-title">3.1c Team Charters</div>
+    <p class="concept-description">Creating Social Contracts and Ground Rules that drive team accountability.</p>
+    <a href="./team-charter" class="concept-link">Build the Contract →</a>
+  </div>
 
-  <a href="./virtual-teams" class="concept-card focus">
+  <div class="concept-card highlight">
     <div class="concept-title">3.1d Virtual Teams</div>
-    <p>Leading global, distributed, and asynchronous teams in the 2026 digital era.</p>
-  </a>
+    <p class="concept-description">Leading global, distributed, and asynchronous teams in the 2026 digital era.</p>
+    <a href="./virtual-teams" class="concept-link">Scale Globally →</a>
+  </div>
 </div>
 
 ---
 
-## Practical Application
-As a leader, your role shifts from **Directing** (telling people what to do) to **Enabling** (removing their blockers). Use the navigation above to master each phase of the team lifecycle.
+## 💡 Leadership Shift
+In 2026, the leader's role shifts from **Command & Control** (telling people what to do) to **Enabling & Removing Blockers**. 
+
+*   **Formation** is about *clarity*: Does everyone know their role?
+*   **Development** is about *trust*: Do people feel safe to fail and learn?
+*   **Chartering** is about *culture*: How do we make decisions and handle failure?
+
+::: tip 🚀 2026 Focus: Global Collaboration
+With the rise of "Work from Anywhere," managing **asynchronous communication** and **cultural diversity** is no longer a "nice to have"—it is a core project success factor.
+:::
 
 <style>
 .concept-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
   margin: 2rem 0;
 }
@@ -47,31 +59,40 @@ As a leader, your role shifts from **Directing** (telling people what to do) to 
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-border);
   border-radius: 12px;
-  transition: all 0.2s ease;
-  text-decoration: none !important;
-  color: inherit !important;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .concept-card:hover {
+  transform: translateY(-4px);
   border-color: var(--vp-c-brand);
   background: var(--vp-c-bg-mute);
-  transform: translateY(-2px);
 }
 
 .concept-title {
+  font-size: 1.15rem;
   font-weight: 700;
+  margin-bottom: 0.75rem;
   color: var(--vp-c-brand);
-  margin-bottom: 0.5rem;
 }
 
-.concept-card p {
+.concept-description {
   font-size: 0.9rem;
-  margin: 0;
-  line-height: 1.4;
   color: var(--vp-c-text-2);
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
 }
 
-.concept-card.focus {
+.concept-link {
+  font-weight: 600;
+  color: var(--vp-c-brand);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.concept-card.highlight {
   background: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-brand-light);
 }
 </style>

@@ -1,56 +1,56 @@
-# Chapter 3: Team Leadership and Development
+# Chapter 3: Team Leadership & Development
 
-The **People domain** is the heartbeat of the PMP exam. While the weighting shifted slightly in 2026, the complexity of leading hybrid, global, and AI-augmented teams has never been higher.
+The **People domain** is the heartbeat of the PMP exam. In 2026, leading a project isn't about "command and control"—it's about orchestrating hybrid, global, and AI-augmented teams toward a common vision.
 
 ::: info 👥 People Domain: 2026 Shift
-The People domain represents **33%** of the PMP exam. In 2026, there is a massive emphasis on **Servant Leadership**, **Emotional Intelligence**, and managing **Virtual Teams** in a high-speed, adaptive environment.
+The People domain represents **33%** of the PMP exam. The 2026 focus has doubled down on **Servant Leadership**, **Emotional Intelligence**, and the ability to foster **Psychological Safety** in high-pressure, adaptive environments.
 :::
 
 ## What You'll Learn
-- How to move a team from **Forming to Performing** in record time.
-- The art of **Servant Leadership**: Removing blockers so your team can fly.
-- **Conflict Resolution**: Turning friction into creative fire.
-- **Motivation**: What actually makes people show up and give 100%.
+- **High-Performing Teams**: Moving from *Forming* to *Performing* in months, not years.
+- **Servant Leadership**: Mastering the "Coach" mindset to remove team blockers.
+- **Conflict Management**: Using friction as a catalyst for innovation.
+- **Motivation & EQ**: Leveraging Emotional Intelligence to drive 100% engagement.
 
 <div class="section-grid">
   <div class="section-card">
     <div class="section-title">3.1 Building Teams</div>
-    <p class="section-description">Stages of development, team charters, and the unique challenges of global virtual teams.</p>
+    <p class="section-description">Assemble the right talent, define team agreements, and master global virtual collaboration.</p>
     <a href="./building-teams" class="section-link">Assemble Your Team →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">3.2 Servant Leadership</div>
-    <p class="section-description">Applying the right style (Coaching, Mentoring, Directing) to the right situation.</p>
+    <p class="section-description">Situational leadership styles (Coaching, Mentoring, Supporting) for maximum impact.</p>
     <a href="./coaching-mentoring" class="section-link">Empower Performance →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">3.3 Conflict Management</div>
-    <p class="section-description">Mastering the five conflict resolution modes to maintain team harmony.</p>
+    <p class="section-description">Master the five resolution modes: Collaborate, Compromise, Accommodate, Avoid, and Force.</p>
     <a href="./conflict-management" class="section-link">Resolve Friction →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">3.4 Motivation & EQ</div>
-    <p class="section-description">Using Emotional Intelligence and motivation theories to drive engagement.</p>
+    <p class="section-description">Using Herzberg, Maslow, and Emotional Intelligence to lead through change.</p>
     <a href="./motivation-performance" class="section-link">Inspire Excellence →</a>
   </div>
 
   <div class="section-card knowledge-check">
     <div class="section-title">Knowledge Check</div>
-    <p class="section-description">Test your mastery of leadership scenarios and people management.</p>
-    <a href="./knowledge-check" class="section-link">Test Your EQ →</a>
+    <p class="section-description">Test your EQ and leadership mindset with scenario-based practice questions.</p>
+    <a href="./knowledge-check" class="section-link">Verify Readiness →</a>
   </div>
 </div>
 
 ---
 
 ## Study Recommendation
-Leadership questions on the exam are almost always **scenario-based**. Instead of memorizing definitions, ask yourself: *"As a Servant Leader, what is the most empathetic and empowering action I can take here?"*
+Leadership questions are 100% scenario-based. Instead of asking "What is the definition?", ask yourself: **"As a Servant Leader, what is the most empathetic, empowering, and team-centric action I can take right now?"**
 
 <div class="action-bar">
-  <a href="./building-teams" class="action-button primary">Start the Chapter</a>
+  <a href="./building-teams" class="action-button primary">Begin Leadership Journey</a>
 </div>
 
 <style>
