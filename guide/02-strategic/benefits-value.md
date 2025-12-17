@@ -1,0 +1,29 @@
+---
+title: 2.2 – Benefits, Value, and Sustainability
+description: 2.2 – Benefits, Value, and Sustainability
+---
+
+# 2.2 – Benefits, Value, and Sustainability
+
+## Overview
+
+This section consolidates concepts related to benefits realization, value delivery, and sustainability in project management. These topics are critical for ensuring projects contribute to organizational strategy and long-term success.
+
+### Key Concepts
+
+1.  **Benefits Realization Management (BRM):** The collective set of processes and practices for identifying benefits and aligning them with formal strategy, ensuring benefits are realized as project outcomes are delivered.
+2.  **Value Delivery:** Moving beyond "on time, on budget" to focus on whether the project delivers value to the organization and stakeholders.
+3.  **Sustainability:** Integrating environmental, social, and governance (ESG) considerations into project decision-making.
+
+### Structure
+
+*   **2.2a – Benefits Realization Planning:** Defining metrics and targets early.
+*   **2.2b – Tracking Benefits:** Monitoring value delivery during execution.
+*   **2.2c – Long-Term Value:** Balancing short-term pressure with long-term sustainability.
+*   **2.2d – Sustainability and ESG:** Managing environmental and social impact.
+
+*(Note: Detailed content for these topics has been integrated into Section 2.1d – Benefits Realization and Value Creation to streamline the flow of the book.)*
+
+---
+
+**Next**: [2.3 – Compliance, Risk, and Governance]($2)

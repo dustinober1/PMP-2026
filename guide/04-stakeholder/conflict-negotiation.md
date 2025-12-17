@@ -1,0 +1,50 @@
+---
+title: 4.2 – Conflict, Negotiation, and Decision-Making
+description: 4.2 – Conflict, Negotiation, and Decision-Making
+---
+
+# 4.2 – Conflict, Negotiation, and Decision-Making
+
+## Overview
+
+Conflict is inevitable in projects. The PMP exam tests your ability to view conflict as an opportunity for improvement rather than a failure. This section covers how to navigate disagreements and make robust decisions.
+
+### Key Concepts
+
+1.  **Sources of Conflict:** Schedules, priorities, and resources are the most common (personality is actually the least common source in project environments).
+2.  **Conflict Resolution Modes:**
+    *   **Collaborate/Problem Solve:** Win-Win. Best for complex problems.
+    *   **Compromise/Reconcile:** Lose-Lose (both give up something). Good for temporary fixes.
+    *   **Force/Direct:** Win-Lose. Necessary for emergencies.
+    *   **Smooth/Accommodate:** Lose-Win. Focuses on harmony.
+    *   **Withdraw/Avoid:** Lose-Lose. Postpones the issue.
+3.  **Negotiation:** Focusing on interests (needs), not positions (wants).
+
+### Structure
+
+*   **4.2a – Sources of Conflict:** Understanding the root causes.
+*   **4.2b – Resolution Styles:** Applying the Thomas-Kilmann modes.
+*   **4.2c – Negotiation:** Collaborative problem-solving techniques.
+*   **4.2d – Decision-Making:** Using frameworks like Voting, Autocratic, and Consensus.
+
+### 4.2e – Knowledge Check
+
+1.  **Conflict Source:** Which of the following is historically the most frequent source of conflict on projects?
+    *   A) Personality clashes
+    *   B) Schedules and priorities
+    *   C) Cost
+    *   D) Technical opinions
+
+2.  **Negotiation:** You are negotiating with a vendor who refuses to lower their price. Instead of arguing about the price, you ask, "Why is this price critical for you?" and discover they need to cover a specific material cost. You offer to supply the material yourself if they lower the labor rate. What negotiation technique is this?
+    *   A) Positional bargaining
+    *   B) Focusing on interests, not positions
+    *   C) Compromising
+    *   D) Forcing
+
+**Answers:**
+1.  **B** - Schedules, priorities, and resources are the top sources. Personality is rare.
+2.  **B** - By understanding their *interest* (covering costs), you found a creative solution that bypassed their *position* (high price).
+
+---
+
+**Next**: [5.1 – Starting the Project]($2)

@@ -1,0 +1,35 @@
+---
+title: 2.5 – Program Management
+description: 2.5 – Program Management
+---
+
+# 2.5 – Program Management
+
+## Overview
+
+While the PMP exam focuses on *Project* Management, many project managers work within or lead *Programs*. This section provides a foundational understanding of Program Management concepts, particularly how they relate to coordinating multiple projects to achieve strategic benefits.
+
+### Key Concepts
+
+1.  **Program:** A group of related projects, subsidiary programs, and program activities managed in a coordinated manner to obtain benefits not available from managing them individually.
+2.  **Program vs. Project:** Projects deliver outputs; Programs deliver outcomes and benefits.
+3.  **The Five Program Management Performance Domains:**
+    *   Strategy Alignment
+    *   Benefits Management
+    *   Stakeholder Engagement
+    *   Governance
+    *   Life Cycle Management
+
+### Structure
+
+*   **2.5a – Strategy Alignment:** (Covered in 2.1)
+*   **2.5b – Benefits Management:** (Covered in 2.1d)
+*   **2.5c – Stakeholder Engagement:** (Covered in 1.4a and 4.1)
+*   **2.5d – Governance:** (Covered in 2.3 and 2.1c)
+*   **2.5e – Life Cycle:** Understanding the program definition, delivery, and closure phases.
+
+*(Note: Comprehensive program management details have been integrated into the relevant sections of Chapter 2.1 to show the connection between Strategy, Portfolio, and Program layers.)*
+
+---
+
+**Next**: [2.5h – Knowledge Check]($2)

@@ -1,0 +1,403 @@
+/* Custom theme styles for PMP Exam Prep */
+
+/* Ensure WCAG AA compliance */
+.VPDoc h1,
+.VPDoc h2,
+.VPDoc h3,
+.VPDoc h4,
+.VPDoc h5,
+.VPDoc h6 {
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.VPDoc h1 {
+  font-size: 2.5rem;
+  border-bottom: 2px solid var(--color-5);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.VPDoc h2 {
+  font-size: 2rem;
+  color: var(--color-5);
+  margin-top: 2rem;
+}
+
+.VPDoc h3 {
+  font-size: 1.5rem;
+  color: var(--color-4);
+}
+
+.VPDoc p {
+  color: var(--vp-c-text-1);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.VPDoc a {
+  color: var(--color-5);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.VPDoc a:hover {
+  color: var(--color-4);
+  text-decoration: underline;
+}
+
+.VPDoc strong {
+  color: var(--color-5);
+  font-weight: 600;
+}
+
+.VPDoc blockquote {
+  border-left: 4px solid var(--color-5);
+  background-color: var(--color-1);
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.VPDoc blockquote p {
+  margin: 0;
+  color: var(--vp-c-text-2);
+}
+
+/* Custom lists */
+.VPDoc ul li::marker {
+  color: var(--color-5);
+}
+
+.VPDoc ol li::marker {
+  color: var(--color-5);
+  font-weight: 600;
+}
+
+/* Code blocks */
+.VPDoc div[class*='language-'] {
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.VPDoc code {
+  background-color: var(--color-1);
+  color: var(--color-5);
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+}
+
+.VPDoc pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+/* Tables */
+.VPDoc table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.VPDoc table th,
+.VPDoc table td {
+  border: 1px solid var(--vp-c-border);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.VPDoc table th {
+  background-color: var(--color-1);
+  color: var(--color-5);
+  font-weight: 600;
+}
+
+.VPDoc table tr:nth-child(even) {
+  background-color: rgba(243, 222, 245, 0.3);
+}
+
+/* Custom components */
+.custom-block {
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+}
+
+.custom-block.tip {
+  background-color: var(--color-1);
+  border-left: 4px solid var(--color-5);
+}
+
+.custom-block.warning {
+  background-color: #fffbeb;
+  border-left: 4px solid #f59e0b;
+}
+
+.custom-block.danger {
+  background-color: #fef2f2;
+  border-left: 4px solid #ef4444;
+}
+
+.custom-block.info {
+  background-color: var(--color-1);
+  border-left: 4px solid var(--color-5);
+}
+
+/* Sidebar improvements */
+.VPSidebar {
+  border-right: 1px solid var(--vp-c-border);
+}
+
+.VPSidebarItem {
+  margin: 0.125rem 0;
+}
+
+.VPSidebarItem .link {
+  color: var(--vp-c-text-2);
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.VPSidebarItem .link:hover {
+  background-color: var(--color-1);
+  color: var(--color-5);
+}
+
+.VPSidebarItem .link.active {
+  background-color: var(--color-5);
+  color: white;
+}
+
+/* Home page styles */
+.VPHome {
+  padding: 0;
+}
+
+.VPHomeHero {
+  background: linear-gradient(135deg, var(--color-1) 0%, var(--color-2) 100%);
+  padding: 5rem 2rem;
+  text-align: center;
+  color: var(--vp-c-text-1);
+}
+
+.VPHomeHero .name {
+  color: var(--color-5);
+}
+
+.VPHomeHero .tagline {
+  color: var(--vp-c-text-2);
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.VPHomeHero .actions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.VPButton {
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.VPButton.brand {
+  background-color: var(--color-5);
+  color: white;
+}
+
+.VPButton.brand:hover {
+  background-color: var(--color-4);
+  transform: translateY(-2px);
+}
+
+.VPButton.alt {
+  background-color: white;
+  color: var(--color-5);
+  border: 2px solid var(--color-5);
+}
+
+.VPButton.alt:hover {
+  background-color: var(--color-5);
+  color: white;
+}
+
+/* Feature grid */
+.VPFeatures {
+  padding: 3rem 2rem;
+}
+
+.VPFeature {
+  text-align: center;
+  padding: 2rem;
+}
+
+.VPFeature .icon {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto 1rem;
+  background-color: var(--color-1);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-5);
+  font-size: 2rem;
+}
+
+.VPFeature .title {
+  color: var(--color-5);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.VPFeature .details {
+  color: var(--vp-c-text-2);
+}
+
+/* Progress indicators */
+.progress-container {
+  margin: 1rem 0;
+}
+
+.progress-bar {
+  height: 8px;
+  background-color: var(--color-1);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0.5rem 0;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: var(--color-5);
+  transition: width 0.3s ease;
+}
+
+/* Quiz components */
+.quiz-container {
+  background-color: var(--color-1);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
+
+.quiz-question {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  margin-bottom: 1rem;
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.quiz-option {
+  background-color: white;
+  border: 2px solid var(--vp-c-border);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.quiz-option:hover {
+  border-color: var(--color-3);
+  background-color: rgba(176, 143, 200, 0.1);
+}
+
+.quiz-option.selected {
+  border-color: var(--color-5);
+  background-color: rgba(146, 77, 191, 0.1);
+}
+
+.quiz-option.correct {
+  border-color: #10b981;
+  background-color: rgba(16, 185, 129, 0.1);
+}
+
+.quiz-option.incorrect {
+  border-color: #ef4444;
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+.quiz-feedback {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.quiz-feedback.correct {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #047857;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.quiz-feedback.incorrect {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #b91c1c;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* Navigation improvements */
+.VPNav {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid var(--vp-c-border);
+}
+
+.dark .VPNav {
+  background-color: rgba(26, 26, 26, 0.95);
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .VPHomeHero {
+    padding: 3rem 1rem;
+  }
+
+  .VPHomeHero .name {
+    font-size: 2rem;
+  }
+
+  .VPHomeHero .tagline {
+    font-size: 1rem;
+  }
+
+  .VPFeatures {
+    padding: 2rem 1rem;
+  }
+
+  .VPFeature {
+    padding: 1rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  .VPNav,
+  .VPSidebar,
+  .VPButton,
+  .quiz-container {
+    display: none !important;
+  }
+
+  .VPDoc {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+}
