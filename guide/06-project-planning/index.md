@@ -1,90 +1,131 @@
----
-title: Chapter 6 - Project Planning
----
-
 # Chapter 6: Project Planning
 
-Welcome to Chapter 6 of the PMP Exam Prep 2026 study guide. This chapter covers the comprehensive planning activities that translate project initiation into actionable plans for execution.
+If initiation is the "Big Bang," Planning is the **Blueprint**. In the 2026 PMP exam, planning is no longer a rigid, one-time event; it is a continuous process of refinement and adaptation.
 
-::: info Process Domain
-Project planning is a major part of the **Process domain (41% of the 2026 exam)**. Understanding how to plan scope, schedule, cost, and other knowledge areas is fundamental to PMP success.
+::: info 📋 Process Domain: The Heart of the Exam
+Planning is the largest component of the **Process domain (41%)**. You must master how to integrate Scope, Schedule, Cost, and Resources into a cohesive strategy for delivery.
 :::
 
-## Why This Chapter Matters
+## What You'll Learn
+- **Scope**: Determining what is in, and more importantly, what is *out*.
+- **Schedule**: Mastering the Critical Path and Agile Release Planning.
+- **Cost**: Moving from rough estimates to a defensible Cost Baseline.
+- **Resource & Procurement**: Finding the right people and the right partners.
 
-Effective planning:
+<div class="section-grid">
+  <div class="section-card">
+    <div class="section-title">6.1 Scope Planning</div>
+    <p class="section-description">Requirements, the WBS, and the Scope Baseline—ensuring we build exactly what is needed.</p>
+    <a href="./scope-planning" class="section-link">Define the Work →</a>
+  </div>
 
-- **Establishes baselines** for scope, schedule, and cost
-- **Reduces uncertainty** through risk identification and mitigation
-- **Enables coordination** across team members and stakeholders
-- **Provides measurement framework** for progress tracking
-- **Supports decision-making** when changes occur
+  <div class="section-card">
+    <div class="section-title">6.2 Schedule Planning</div>
+    <p class="section-description">Network diagrams, Critical Path Method (CPM), and compression techniques like Crashing and Fast-Tracking.</p>
+    <a href="./schedule-planning" class="section-link">Build the Timeline →</a>
+  </div>
 
-## Chapter Sections
+  <div class="section-card">
+    <div class="section-title">6.3 Cost Planning</div>
+    <p class="section-description">Estimation techniques (Parametric, Bottom-up) and establishing the Cost Baseline for performance measurement.</p>
+    <a href="./cost-planning" class="section-link">Budget the Value →</a>
+  </div>
 
-### [6.1 – Scope Planning](./scope-planning)
-Defining and managing what the project will deliver.
-- Requirements collection and analysis
-- Scope statement development
-- Work Breakdown Structure (WBS)
-- Scope baseline
+  <div class="section-card">
+    <div class="section-title">6.4 Resource & Procurement</div>
+    <p class="section-description">Planning for people and materials, and choosing the right contract types for external vendors.</p>
+    <a href="./resource-planning" class="section-link">Secure the Support →</a>
+  </div>
 
-### [6.2 – Schedule Planning](./schedule-planning)
-Developing the project timeline.
-- Activity definition and sequencing
-- Duration estimation techniques
-- Critical Path Method (CPM)
-- Schedule compression
-- Agile release planning
-
-### [6.3 – Cost Planning](./cost-planning)
-Estimating and budgeting project costs.
-- Estimation techniques
-- Budget development
-- Cost baseline
-- Funding requirements
-
-### [6.4 – Resource and Procurement Planning](./resource-planning)
-Planning for people, materials, and external resources.
-- Resource requirements
-- Team acquisition
-- Procurement planning
-- Contract types
-
-### [📝 Knowledge Check](./knowledge-check)
-Test your understanding of Chapter 6 concepts.
+  <div class="section-card knowledge-check">
+    <div class="section-title">Knowledge Check</div>
+    <p class="section-description">Test your ability to handle planning tradeoffs and calculation scenarios.</p>
+    <a href="./knowledge-check" class="section-link">Verify Your Plan →</a>
+  </div>
+</div>
 
 ---
 
-## Key Concepts to Master
+## Study Recommendation
+Baselines are the most important concept in this chapter. A **Baseline** is the approved version of the plan. Once a baseline is set, any changes must go through formal **Change Control**.
 
-| Concept                   | Description                                   | Exam Relevance |
-| ------------------------- | --------------------------------------------- | -------------- |
-| **WBS**                   | Hierarchical decomposition of scope           | Very High      |
-| **Critical Path**         | Longest path through network                  | Very High      |
-| **Estimation Techniques** | Analogous, parametric, bottom-up, three-point | Very High      |
-| **Schedule Compression**  | Crashing and fast-tracking                    | High           |
-| **Cost Baseline**         | Time-phased budget                            | High           |
+<div class="action-bar">
+  <a href="./scope-planning" class="action-button primary">Start Planning</a>
+</div>
 
-## Learning Objectives
+<style>
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
 
-By the end of this chapter, you will be able to:
+.section-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
 
-1. ✅ Develop a scope statement and WBS
-2. ✅ Create a project schedule using CPM
-3. ✅ Apply schedule compression techniques appropriately
-4. ✅ Estimate costs using multiple techniques
-5. ✅ Develop a cost baseline and budget
-6. ✅ Plan for resources and procurement
+.section-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--vp-c-brand);
+  background: var(--vp-c-bg-mute);
+}
 
----
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--vp-c-text-1);
+}
 
-::: tip Exam Strategy
-Planning questions often present scenarios requiring calculation (critical path, estimates) or judgment (which technique to use). Practice both computational and scenario-based questions.
-:::
+.section-description {
+  font-size: 0.95rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
 
-## Quick Navigation
+.section-link {
+  font-weight: 600;
+  color: var(--vp-c-brand);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 
-- [Previous: Chapter 5 – Project Initiation](../05-initiation/)
-- [Next: Chapter 7 – Risk and Quality](../07-risk-quality/)
-- [Return to Home](/)
+.section-link:hover {
+  text-decoration: underline;
+}
+
+.knowledge-check {
+  background: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-brand-light);
+}
+
+.action-bar {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.action-button.primary {
+  padding: 0.75rem 2rem;
+  background: var(--vp-c-brand);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.action-button.primary:hover {
+  opacity: 0.9;
+}
+</style>
