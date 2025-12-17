@@ -35,7 +35,7 @@ By the end of this chapter, you will understand not only *what* the three approa
 
 ---
 
-## 4.1 What PMI Means by “Ways of Working”
+## 1.3.1 What PMI Means by “Ways of Working”
 
 PMI uses the phrase “ways of working” to emphasize that:
 
@@ -64,7 +64,7 @@ On the exam, you will rarely be asked to recite definitions. Instead, you will b
 
 ---
 
-## 4.2 Predictive Approaches in Practice
+## 1.3.2 Predictive Approaches in Practice
 
 Predictive approaches are structured, plan-driven methods where:
 
@@ -82,7 +82,7 @@ Examples of predictive environments:
 - Large procurements with fixed-price contracts and detailed specifications
 - Complex systems integration where the pieces must fit together precisely
 
-### 4.2.1 Story: Sarah's Office Renovation (Sarah's First Project)
+### 1.3.2.1 Story: Sarah's Office Renovation (Sarah's First Project)
 
 Sarah's first assignment is to manage the renovation of the corporate office building. The company is moving to a new location in 18 months. Here is what happens:
 
@@ -142,7 +142,7 @@ The board makes an informed decision: Either pay the $250,000 and slip the timel
 
 Sarah learned: Change control is not about saying "no." It is about making informed decisions when you understand the impact.
 
-### 4.2.2 The Predictive Mindset
+### 1.3.2.2 The Predictive Mindset
 
 In predictive projects, the thinking goes like this:
 
@@ -166,7 +166,7 @@ In predictive projects, the thinking goes like this:
 - Variance analysis (cost variance, schedule variance) tells you when to intervene
 - Earned value lets you forecast: If you are 30% done with 50% of the budget, you are heading toward cost overrun
 
-### 4.2.3 Predictive Planning and Control Mechanics
+### 1.3.2.3 Predictive Planning and Control Mechanics
 
 In predictive projects, you typically:
 
@@ -201,7 +201,7 @@ During execution:
   - If approved, you update the baseline and communicate the change to all stakeholders
   - If rejected, you explain why and discuss alternatives
 
-### 4.2.4 When Predictive Works Well
+### 1.3.2.4 When Predictive Works Well
 
 Predictive approaches shine when:
 
@@ -211,7 +211,7 @@ Predictive approaches shine when:
 - **Change is costly**: The cost of late changes is very high (safety, rework, schedule pressure)
 - **Stakeholders need certainty**: Contracts, budgets, timelines are fixed and committed
 
-### 4.2.5 When Predictive Struggles
+### 1.3.2.5 When Predictive Struggles
 
 Predictive approaches struggle when:
 
@@ -222,7 +222,7 @@ Predictive approaches struggle when:
 
 In these situations, predictive planning can create an illusion of certainty that does not match reality, leading to wasted effort on detailed plans that become obsolete.
 
-### 4.2.6 On the Exam: Recognizing Predictive Scenarios
+### 1.3.2.6 On the Exam: Recognizing Predictive Scenarios
 
 Exam questions signal a predictive environment through cues like:
 
@@ -242,7 +242,7 @@ When you see these cues, answers that follow the predictive playbook usually sco
 
 ---
 
-## 4.3 Agile and Adaptive Approaches in Practice
+## 1.3.3 Agile and Adaptive Approaches in Practice
 
 Agile/adaptive approaches are built around:
 
@@ -260,7 +260,7 @@ Examples of agile environments:
 - Innovation efforts with high uncertainty
 - Customer-facing work where market feedback shapes the direction
 
-### 4.3.1 Story: Sarah's Expense Reporting Redesign (Sarah's Second Project)
+### 1.3.3.1 Story: Sarah's Expense Reporting Redesign (Sarah's Second Project)
 
 A few weeks into her office renovation project, Sarah is assigned to lead the redesign of the company's internal expense reporting system. Her first instinct is to approach it like the office project:
 
@@ -324,7 +324,7 @@ If Sarah had used the predictive approach, she would have:
 - Spent months reworking it to fix problems that could have been caught earlier
 - Angered users by forcing them to use a system that did not fit their reality
 
-### 4.3.2 The Agile Mindset
+### 1.3.3.2 The Agile Mindset
 
 In agile projects, the thinking goes like this:
 
@@ -346,7 +346,7 @@ In agile projects, the thinking goes like this:
 - You cannot fake a working feature or delivered value
 - This creates transparency: If the team says "we are done," we have something to show
 
-### 4.3.3 Agile Planning and Control Mechanics
+### 1.3.3.3 Agile Planning and Control Mechanics
 
 In agile projects, you typically work in timeboxed iterations (sprints, typically 1–4 weeks) that follow a pattern:
 
@@ -388,7 +388,7 @@ During execution:
 - **Manage risk through early delivery**: By getting features to users early, you learn about risks before they become catastrophic
 - **Maintain transparency**: Burn-down charts and backlogs are visible to everyone
 
-### 4.3.4 When Agile Works Well
+### 1.3.3.4 When Agile Works Well
 
 Agile approaches shine when:
 
@@ -398,7 +398,7 @@ Agile approaches shine when:
 - **Time-to-value matters**: Delivering something usable every few weeks provides more value than waiting for a perfect product in six months
 - **The environment is changing**: You need flexibility to adapt to market shifts, technology changes, or new priorities
 
-### 4.3.5 When Agile Struggles
+### 1.3.3.5 When Agile Struggles
 
 Agile approaches struggle when:
 
@@ -409,7 +409,7 @@ Agile approaches struggle when:
 
 In these situations, agile can create chaos: teams delivering things that do not work together, or delivering work that cannot be integrated.
 
-### 4.3.6 On the Exam: Recognizing Agile Scenarios
+### 1.3.3.6 On the Exam: Recognizing Agile Scenarios
 
 Exam questions signal an agile environment through cues like:
 
@@ -431,7 +431,7 @@ When you see these cues, answers that follow the agile playbook usually score we
 
 ---
 
-## 4.4 Hybrid Approaches: Combining Predictive and Agile
+## 1.3.4 Hybrid Approaches: Combining Predictive and Agile
 
 Hybrid approaches recognize that many projects have:
 
@@ -455,7 +455,7 @@ A hybrid approach might:
   - Iterating on user experience
   - Solving uncertain technical problems
 
-### 4.4.1 Story: Sarah's Transformation Program (Sarah's Third Project)
+### 1.3.4.1 Story: Sarah's Transformation Program (Sarah's Third Project)
 
 At the end of her first month, Sarah's boss has an unexpected conversation with her: *"Sarah, you have handled the office renovation and the expense system well. But we have a bigger challenge. We are launching a new way of working across the company. We are moving people together into the new office at a specific date. But we also need to fundamentally change how teams work—from individual contributors to cross-functional collaboration. We are not sure what the new way of working will look like exactly, but we know the deadline is firm."*
 
@@ -558,7 +558,7 @@ The steering committee decides: Approve the tool, and defer some training that c
 
 Sarah learned: In hybrid programs, you use predictive governance to make high-level trade-offs, but you respect agile learning from the ground level.
 
-### 4.4.2 When Hybrid Works Well
+### 1.3.4.2 When Hybrid Works Well
 
 Hybrid approaches shine when:
 
@@ -568,7 +568,7 @@ Hybrid approaches shine when:
 - **Stakeholders need different communication**: Executives want a roadmap; teams want freedom to innovate
 - **Integration is critical**: Some work must be coordinated predictively; other work can proceed independently and adapt
 
-### 4.4.3 When Hybrid Struggles
+### 1.3.4.3 When Hybrid Struggles
 
 Hybrid approaches struggle when:
 
@@ -577,7 +577,7 @@ Hybrid approaches struggle when:
 - **Governance is ambiguous**: If it is unclear when decisions are made predictively (top-down by steering committee) and when they are made agilely (by teams), you get conflicts and delays
 - **Integration points are not managed**: If the agile teams' output does not integrate into the predictive program structure, you end up with disconnected pieces
 
-### 4.4.4 On the Exam: Recognizing Hybrid Scenarios
+### 1.3.4.4 On the Exam: Recognizing Hybrid Scenarios
 
 Exam questions signal a hybrid environment through cues like:
 
@@ -599,7 +599,7 @@ When you see these cues, answers that follow the hybrid playbook usually score w
 
 ---
 
-## 4.5 Tailoring: Choosing and Adapting Your Way of Working
+## 1.3.5 Tailoring: Choosing and Adapting Your Way of Working
 
 Tailoring means:
 
@@ -614,7 +614,7 @@ It is **not**:
 - Abandoning structure and discipline because "we are being agile"
 - Using "tailoring" as an excuse to skip critical practices like risk management or stakeholder engagement
 
-### 4.5.1 Sarah's Tailoring Framework
+### 1.3.5.1 Sarah's Tailoring Framework
 
 After managing three very different projects, Sarah realizes she needs a systematic way to think about tailoring. Here is the framework she develops:
 
@@ -642,17 +642,17 @@ After managing three very different projects, Sarah realizes she needs a systema
    - Are teams experienced with the approach you are considering? (Sarah's teams: Experienced with predictive. Learning agile. Some resistance to change.)
    - How much structure does the organization need to feel confident? (Sarah's company: Executives want roadmaps; teams want autonomy.)
 
-### 4.5.2 Tailoring Examples from Sarah's Experience
+### 1.3.5.2 Tailoring Examples from Sarah's Experience
 
 **Example 1: The Office Renovation (Predominantly Predictive)**
 
-| Factor | Finding | Implication |
-|--------|---------|-------------|
-| Uncertainty | Requirements stable and well-understood | Plan detailed upfront |
-| Incremental delivery | Cannot deliver in pieces | All-or-nothing delivery at the end |
-| Risk and impact | High financial and schedule impact | Careful planning and change control |
-| Constraints | Fixed deadline, fixed budget, fixed requirements in bids | Formal baselines and tracking |
-| Team capability | Traditional project management culture | Formal governance and documentation |
+| Factor               | Finding                                                  | Implication                         |
+| -------------------- | -------------------------------------------------------- | ----------------------------------- |
+| Uncertainty          | Requirements stable and well-understood                  | Plan detailed upfront               |
+| Incremental delivery | Cannot deliver in pieces                                 | All-or-nothing delivery at the end  |
+| Risk and impact      | High financial and schedule impact                       | Careful planning and change control |
+| Constraints          | Fixed deadline, fixed budget, fixed requirements in bids | Formal baselines and tracking       |
+| Team capability      | Traditional project management culture                   | Formal governance and documentation |
 
 **Tailored approach:**
 - Detailed upfront planning: WBS, schedule, budget, risk register
@@ -668,13 +668,13 @@ After managing three very different projects, Sarah realizes she needs a systema
 
 **Example 2: The Expense Reporting System (Predominantly Agile)**
 
-| Factor | Finding | Implication |
-|--------|---------|-------------|
-| Uncertainty | Requirements unknown; people do not know what they want | Learn by building and gathering feedback |
-| Incremental delivery | Can deliver features incrementally; users can use partially finished system | Iterate and release every few weeks |
-| Risk and impact | Medium impact; organization tolerates learning and adaptation | Can afford to experiment |
-| Constraints | Flexible timeline and budget | No hard deadline |
-| Team capability | Team new to agile; willing to learn | Structure with coaching and clear rituals |
+| Factor               | Finding                                                                     | Implication                               |
+| -------------------- | --------------------------------------------------------------------------- | ----------------------------------------- |
+| Uncertainty          | Requirements unknown; people do not know what they want                     | Learn by building and gathering feedback  |
+| Incremental delivery | Can deliver features incrementally; users can use partially finished system | Iterate and release every few weeks       |
+| Risk and impact      | Medium impact; organization tolerates learning and adaptation               | Can afford to experiment                  |
+| Constraints          | Flexible timeline and budget                                                | No hard deadline                          |
+| Team capability      | Team new to agile; willing to learn                                         | Structure with coaching and clear rituals |
 
 **Tailored approach:**
 - Light upfront design; focus on understanding user pain points, not detailing all features
@@ -691,13 +691,13 @@ After managing three very different projects, Sarah realizes she needs a systema
 
 **Example 3: The Transformation Program (Hybrid with Clear Layers)**
 
-| Factor | Finding | Implication |
-|--------|---------|-------------|
-| Uncertainty | Mix: move date is certain; new ways of working are uncertain | Predictive program structure; agile team practices |
-| Incremental delivery | Program must be integrated; teams can pilot and iterate | Predictive rollout schedule; agile discovery within gates |
-| Risk and impact | High impact if adoption fails; tolerance for learning in pilots | Pilot first, then scale predictively |
-| Constraints | Fixed move-in date; fixed training deadline; flexible on practices | Predictive deadlines; agile path to get there |
-| Team capability | Teams new to collaborative practices; need structure | Clear governance; safe-to-fail pilots; coaching |
+| Factor               | Finding                                                            | Implication                                               |
+| -------------------- | ------------------------------------------------------------------ | --------------------------------------------------------- |
+| Uncertainty          | Mix: move date is certain; new ways of working are uncertain       | Predictive program structure; agile team practices        |
+| Incremental delivery | Program must be integrated; teams can pilot and iterate            | Predictive rollout schedule; agile discovery within gates |
+| Risk and impact      | High impact if adoption fails; tolerance for learning in pilots    | Pilot first, then scale predictively                      |
+| Constraints          | Fixed move-in date; fixed training deadline; flexible on practices | Predictive deadlines; agile path to get there             |
+| Team capability      | Teams new to collaborative practices; need structure               | Clear governance; safe-to-fail pilots; coaching           |
 
 **Tailored approach:**
 - **Program level**: Three-phase roadmap (Foundation, Pilot, Rollout) aligned to move dates
@@ -709,7 +709,7 @@ After managing three very different projects, Sarah realizes she needs a systema
 
 **Why this works:** The firm move-in date requires a predictive program schedule. But the uncertainty about what new practices will work requires agile discovery. By piloting first (agile), then scaling (predictive), Sarah gets the benefits of both approaches.
 
-### 4.5.3 Tailoring Questions to Ask
+### 1.3.5.3 Tailoring Questions to Ask
 
 When you are designing your approach, ask yourself:
 
@@ -740,7 +740,7 @@ When you are designing your approach, ask yourself:
    - Experienced with approach → Can use it effectively
    - New to approach → Need training, coaching, or scaffolding
 
-### 4.5.4 Common Tailoring Mistakes
+### 1.3.5.4 Common Tailoring Mistakes
 
 **Mistake 1: "We'll use agile because it is trendy"**
 - Reality: Agile is not inherently better; it is better for specific contexts
@@ -762,7 +762,7 @@ When you are designing your approach, ask yourself:
 - Reality: If you start predictive and switch to agile mid-project (or vice versa), you often get the worst of both
 - Fix: Make a deliberate choice early, with permission to adapt if the context fundamentally changes
 
-### 4.5.5 On the Exam: Tailoring Scenarios
+### 1.3.5.5 On the Exam: Tailoring Scenarios
 
 Exam questions test tailoring by presenting a scenario and asking: *"Given this context, what is the most appropriate way to work?"*
 
@@ -781,11 +781,11 @@ You will see scenarios like:
 
 ---
 
-## 4.6 Governance, Cadence, and Communication Across Approaches
+## 1.3.6 Governance, Cadence, and Communication Across Approaches
 
 Different ways of working imply different rhythms, decision-making structures, and communication patterns. Understanding these differences is critical on the exam and in real projects.
 
-### 4.6.1 Governance: How Decisions Get Made
+### 1.3.6.1 Governance: How Decisions Get Made
 
 **In Predictive Contexts (Like Sarah's Office Renovation):**
 
@@ -823,7 +823,7 @@ Example from Sarah's project:
 - *"Pilot teams discover they need a different tool. Sarah escalates: Does this change the budget or timeline? Steering committee says: Approve, defer some other training."*
 - The escalation is needed because the program-level constraints (budget, timeline) are involved.
 
-### 4.6.2 Cadence: The Rhythm of Work
+### 1.3.6.2 Cadence: The Rhythm of Work
 
 **Predictive Cadence:**
 
@@ -863,7 +863,7 @@ Example from Sarah's project:
 - Team sprints within each phase (2 weeks per sprint)
 - Learning from pilots fed into program planning
 
-### 4.6.3 Communication: Speaking Different Languages
+### 1.3.6.3 Communication: Speaking Different Languages
 
 One of the biggest challenges in hybrid and complex projects is that different audiences need different information.
 
@@ -929,7 +929,7 @@ Sarah's communication strategy for each project:
   - Here is what early adopters are learning
   - Here is how this will roll out
 
-### 4.6.4 When Governance and Communication Misalign
+### 1.3.6.4 When Governance and Communication Misalign
 
 Sarah learns a hard lesson midway through the transformation: Poor communication about governance creates confusion.
 
@@ -947,7 +947,7 @@ Sarah learns: **Governance and communication must be aligned.** People need to k
 
 On the exam, questions test this by presenting scenarios where communication or governance is unclear, and asking you to identify the problem or recommend a fix.
 
-### 4.6.5 On the Exam: Governance and Communication Red Flags
+### 1.3.6.5 On the Exam: Governance and Communication Red Flags
 
 The exam often includes scenarios where governance or communication is broken. Watch for red flags like:
 
@@ -964,11 +964,11 @@ Good answers often include:
 
 ---
 
-## 4.7 Common Exam Traps About Ways of Working
+## 1.3.7 Common Exam Traps About Ways of Working
 
 Several recurring traps appear in PMP questions related to ways of working. Sarah encounters some of these in her first month and learns what not to do.
 
-### 4.7.1 Trap 1: "Method Evangelism" (Choosing Based on Preference, Not Context)
+### 1.3.7.1 Trap 1: "Method Evangelism" (Choosing Based on Preference, Not Context)
 
 **The trap:**
 - Options insist that one method is always better
@@ -993,7 +993,7 @@ Several recurring traps appear in PMP questions related to ways of working. Sara
 - *"Always use predictive for regulated industries"* → Might miss that even regulated industries have parts that need agile exploration
 - *"Use whatever method you prefer"* → No consideration of context at all
 
-### 4.7.2 Trap 2: Ignoring Context (Choosing Without Understanding the Scenario)
+### 1.3.7.2 Trap 2: Ignoring Context (Choosing Without Understanding the Scenario)
 
 **The trap:**
 - Options select an approach without considering industry, risk level, uncertainty, or regulatory requirements
@@ -1019,7 +1019,7 @@ Several recurring traps appear in PMP questions related to ways of working. Sara
 - Does not consider the team's experience level
 - Does not address integration challenges (parts must work together)
 
-### 4.7.3 Trap 3: Misusing Agile or Predictive Language (Calling It One Thing While Doing Another)
+### 1.3.7.3 Trap 3: Misusing Agile or Predictive Language (Calling It One Thing While Doing Another)
 
 **The trap:**
 - A scenario says "we are agile" but uses predictive practices (or vice versa)
@@ -1055,7 +1055,7 @@ Several recurring traps appear in PMP questions related to ways of working. Sara
 - *"We will use agile but never show work to users until it is complete"* → Contradictory
 - *"We will do both agile and predictive the same way"* → Misses the point of hybrid (selective use)
 
-### 4.7.4 Trap 4: "Tailoring" as an Excuse to Skip Critical Practices
+### 1.3.7.4 Trap 4: "Tailoring" as an Excuse to Skip Critical Practices
 
 **The trap:**
 - "Tailoring" is used to justify skipping critical practices like:
@@ -1089,7 +1089,7 @@ Several recurring traps appear in PMP questions related to ways of working. Sara
 - *"We will not document anything because we are doing a hybrid project"* → Wrong; documentation needs may be lighter, but some is still needed
 - *"We are tailoring, so we can ignore the regulatory requirement"* → Wrong; constraints are constraints
 
-### 4.7.5 Trap 5: Not Recognizing Hybrid Complexity (Treating Hybrid as One-Size-Fits-All)
+### 1.3.7.5 Trap 5: Not Recognizing Hybrid Complexity (Treating Hybrid as One-Size-Fits-All)
 
 **The trap:**
 - Thinking that hybrid means: *"Do 50% agile and 50% predictive everywhere"*
@@ -1122,7 +1122,7 @@ Several recurring traps appear in PMP questions related to ways of working. Sara
 - *"The team can decide whether to be agile or predictive as they go"* → Dangerous; lack of clarity creates conflict
 - *"We will do agile for some sprints and predictive for others"* → Unclear governance
 
-### 4.7.6 Trap 6: Confusing "Flexibility" with "No Structure"
+### 1.3.7.6 Trap 6: Confusing "Flexibility" with "No Structure"
 
 **The trap:**
 - Thinking that because a project is agile or flexible, there is no need for:
@@ -1152,7 +1152,7 @@ Several recurring traps appear in PMP questions related to ways of working. Sara
 - *"We will not define acceptance criteria; the customer will decide when it is done"* → Unclear success
 - *"We will change direction based on every whim"* → No prioritization or value focus
 
-### 4.7.7 Strategy: How to Avoid These Traps on the Exam
+### 1.3.7.7 Strategy: How to Avoid These Traps on the Exam
 
 When you encounter a ways-of-working question:
 
@@ -1189,7 +1189,7 @@ When you encounter a ways-of-working question:
 
 ---
 
-## 4.7.8 Sarah's Learning: One Month In
+## 1.3.8 Sarah's Learning: One Month In
 
 By the end of her first month, Sarah has experienced the differences between predictive, agile, and hybrid approaches firsthand. Here is what she has learned:
 

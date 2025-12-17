@@ -37,7 +37,7 @@ Use this chapter as a map: once you are clear on what the exam measures, the res
 
 ---
 
-## What Is the PMP and Why Does It Matter?
+## 1.1.1 What Is the PMP and Why Does It Matter?
 
 The Project Management Professional (PMP) is a globally recognized certification offered by the Project Management Institute (PMI). It is designed for people who lead or direct projects, regardless of industry or delivery approach (predictive, agile, or hybrid). It validates that you have the project leadership skills and experience to deliver results using any way of working, not just one specific methodology.
 
@@ -124,7 +124,7 @@ In short, the PMP matters because it connects your experience, your knowledge, a
 
 ---
 
-## The New PMP Exam at a Glance (July 2026 Version)
+## 1.1.2 The New PMP Exam at a Glance (July 2026 Version)
 
 Before you start studying, it helps to know exactly what you are preparing for. The July 2026 PMP exam update adjusts both the structure and the feel of the exam so that it mirrors real project environments more closely.
 
@@ -247,7 +247,7 @@ In later chapters, we will translate these structural details into concrete exam
 
 ---
 
-## The Three Exam Domains and Their Weights
+## 1.1.3 The Three Exam Domains and Their Weights
 
 The PMP exam is built around three high-level domains that describe the core areas of responsibility for a practicing project manager. For the July 2026 exam version described in PMI's updated ECO, this guide assumes the following weights:
 
@@ -360,7 +360,7 @@ As you work through the later parts of this guide, pay attention to which chapte
 
 ---
 
-## What the New Exam Really Tests
+## 1.1.4 What the New Exam Really Tests
 
 You will still see questions that touch on classic project management concepts (scope, schedule, risk, quality, etc.), but the new PMP exam is not a vocabulary or formula quiz. It is a test of how you think and act as a project leader in messy, real-world situations.
 
