@@ -91,6 +91,25 @@ body {
   box-shadow: 0 4px 12px rgba(147, 51, 234, 0.3);
 }
 
+.VPSidebarItem.is-link.is-active .link .text,
+.VPSidebarItem.is-link.is-active .link span,
+.VPSidebarItem.is-link.is-active .text {
+  color: white !important;
+  -webkit-text-fill-color: white !important;
+}
+
+.dark .VPSidebarItem.is-link.is-active .link {
+  background: linear-gradient(135deg, var(--color-purple-500), var(--color-purple-600));
+  box-shadow: 0 4px 12px rgba(147, 51, 234, 0.4);
+}
+
+.dark .VPSidebarItem.is-link.is-active .link .text,
+.dark .VPSidebarItem.is-link.is-active .link span,
+.dark .VPSidebarItem.is-link.is-active .text {
+  color: white !important;
+  -webkit-text-fill-color: white !important;
+}
+
 /* Content styling */
 .VPDoc h1,
 .VPDoc h2,
