@@ -32,7 +32,16 @@ export function createSidebar() {
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/02-strategic/' },
-        { text: '2.1 Strategy and Portfolio Alignment', link: '/guide/02-strategic/strategy-alignment' },
+        {
+          text: '2.1 Strategy and Portfolio Alignment', link: '/guide/02-strategic/strategy-alignment', items: [
+            { text: '2.1a Selection', link: '/guide/02-strategic/strategy-selection' },
+            { text: '2.1b Portfolio', link: '/guide/02-strategic/portfolio-concepts' },
+            { text: '2.1c Alignment', link: '/guide/02-strategic/project-alignment' },
+            { text: '2.1d Benefits', link: '/guide/02-strategic/benefits-realization' },
+            { text: '2.1f Environment', link: '/guide/02-strategic/external-environment' },
+            { text: '2.1h PMO', link: '/guide/02-strategic/pmo-role' }
+          ]
+        },
         { text: '2.2 Benefits, Value, and Sustainability', link: '/guide/02-strategic/benefits-value' },
         { text: '2.3 Compliance, Risk, and Governance', link: '/guide/02-strategic/compliance-governance' },
         { text: '2.4 Organizational Change and Readiness', link: '/guide/02-strategic/organizational-change' },

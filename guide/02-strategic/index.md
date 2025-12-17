@@ -1,96 +1,135 @@
+# Chapter 2: Strategy and Business Environment
+
+Welcome to Chapter 2 of the PMP Exam Prep 2026 study guide. This chapter focuses on the "Business Environment" domain, ensuring projects align with strategy and deliver sustainable value.
+
 ---
-title: Chapter 2 - Strategic Alignment and Business Environment
----
 
-# Chapter 2: Strategic Alignment and Business Environment
-
-Welcome to Chapter 2 of the PMP Exam Prep 2026 study guide. This chapter focuses on ensuring projects align with organizational strategy and deliver sustainable business value.
-
-::: warning 2026 Exam Focus
-The **Business Environment domain now represents 26% of the PMP exam** (up from 8% in the 2021 ECO). This is the largest percentage increase in the 2026 update, reflecting PMI's emphasis on strategic thinking and value delivery.
+::: info 📊 2026 Domain Shift
+The **Business Environment domain now represents 26% of the PMP exam** (up from 8% in 2021). This is the largest percentage increase in the 2026 update.
 :::
 
-## Why This Chapter Matters
+## What You'll Learn
+By the end of this chapter, you will be able to connect project decisions to organizational objectives, navigate complex governance, and ensure your work delivers measurable business value.
 
-The 2026 PMP exam expects you to:
+<div class="section-grid">
+  <a href="./strategy-alignment" class="section-card">
+    <div class="section-title">2.1 Strategic Alignment</div>
+    <p class="section-description">How projects fit within organizational strategy and portfolio management.</p>
+    <span class="section-link">Explore Alignment →</span>
+  </a>
 
-- **Think strategically**: Connect project decisions to organizational objectives
-- **Deliver value**: Focus on outcomes and benefits, not just outputs
-- **Consider sustainability**: Integrate ESG (Environmental, Social, Governance) factors
-- **Navigate governance**: Work within organizational structures and compliance requirements
-- **Manage change**: Address the human side of project implementation
+  <a href="./benefits-value" class="section-card">
+    <div class="section-title">2.2 Benefits & Value</div>
+    <p class="section-description">Managing benefits realization, value delivery, and new sustainability requirements.</p>
+    <span class="section-link">Deliver Value →</span>
+  </a>
 
-## Chapter Sections
+  <a href="./compliance-governance" class="section-card">
+    <div class="section-title">2.3 Compliance & Governance</div>
+    <p class="section-description">Navigating regulatory requirements, data privacy, and ethical frameworks.</p>
+    <span class="section-link">Master Governance →</span>
+  </a>
 
-### [2.1 – Strategy and Portfolio Alignment](./strategy-alignment)
-Understanding how projects fit within organizational strategy, portfolio management, and project selection.
-- Organizational strategy and project selection
-- Portfolio management concepts
-- Project and program alignment
-- Benefits realization and value creation
+  <a href="./organizational-change" class="section-card">
+    <div class="section-title">2.4 Organizational Change</div>
+    <p class="section-description">Managing the human side of project implementation and change readiness.</p>
+    <span class="section-link">Lead Change →</span>
+  </a>
 
-### [2.2 – Benefits, Value, and Sustainability](./benefits-value)
-Managing benefits realization, value delivery, and sustainability in projects.
-- Benefits realization management
-- Value delivery perspectives
-- Sustainability and ESG considerations
-- Balancing short-term and long-term value
+  <a href="./program-management" class="section-card">
+    <div class="section-title">2.5 Program Management</div>
+    <p class="section-description">Understanding how projects contribute to broader programs and roadmaps.</p>
+    <span class="section-link">Scale Success →</span>
+  </a>
 
-### [2.3 – Compliance, Risk, and Governance](./compliance-governance)
-Navigating regulatory requirements, governance frameworks, and ethical decision-making.
-- Regulatory compliance
-- Data privacy and security
-- Project governance
-- Ethical decision-making
+  <a href="./knowledge-check" class="section-card focus">
+    <div class="section-title">📝 Knowledge Check</div>
+    <p class="section-description">Test your understanding of Chapter 2 concepts with practice questions.</p>
+    <span class="section-link">Test Yourself →</span>
+  </a>
+</div>
 
-### [2.4 – Organizational Change and Readiness](./organizational-change)
-Managing the human side of project implementation and ensuring adoption.
-- Change readiness assessment
-- Change management frameworks (ADKAR, Kotter, Lewin)
-- Stakeholder impact analysis
-- Managing resistance to change
+<style>
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
 
-### [2.5 – Program Management](./program-management)
-Understanding program management and how projects fit within programs.
-- Programs vs. projects
-- Program management performance domains
-- Projects within programs
-- Program roadmaps
+.section-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+  height: 100%;
+}
 
-### [📝 Knowledge Check](./knowledge-check)
-Test your understanding of Chapter 2 concepts.
+.section-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--vp-c-brand);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--vp-c-brand);
+  margin-bottom: 0.75rem;
+}
+
+.section-description {
+  font-size: 0.95rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.section-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--vp-c-brand);
+  display: flex;
+  align-items: center;
+}
+
+.section-card.focus {
+  background: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-brand-light);
+}
+</style>
 
 ---
 
-## Key Concepts to Master
+## Study Recommendation
+If you're coming from a technical PM background, pay extra attention to **Section 2.2 (Sustainability)** and **Section 2.4 (Change Management)**. These are areas where the 2026 exam adds significant new expectations beyond traditional triple-constraint thinking.
 
-| Concept                  | Description                                    | Exam Relevance |
-| ------------------------ | ---------------------------------------------- | -------------- |
-| **Portfolio Management** | Selecting projects to maximize strategic value | High           |
-| **Benefits Realization** | Ensuring projects deliver intended value       | Very High      |
-| **Sustainability (ESG)** | Environmental, Social, Governance factors      | New for 2026   |
-| **Governance**           | Oversight, decision-making, accountability     | High           |
-| **Change Management**    | People adoption of project outcomes            | High           |
+<div class="action-bar">
+  <a href="./strategy-alignment" class="start-btn">Start the Chapter</a>
+</div>
 
-## Learning Objectives
-
-By the end of this chapter, you will be able to:
-
-1. ✅ Explain how projects align with organizational strategy and portfolio management
-2. ✅ Define and manage benefits realization throughout the project lifecycle
-3. ✅ Integrate sustainability and ESG considerations into project decisions
-4. ✅ Navigate compliance requirements and governance frameworks
-5. ✅ Apply change management principles to ensure project success
-6. ✅ Understand program management and its relationship to projects
-
----
-
-::: tip Study Strategy
-The Business Environment domain tests your ability to think beyond project execution. Focus on understanding how project decisions impact organizational value and strategic outcomes—not just deliverables.
-:::
-
-## Quick Navigation
-
-- [Previous: Chapter 1 – Introduction and Fundamentals](../01-introduction/)
-- [Next: Chapter 3 – Team Leadership and Development](../03-team-leadership/)
-- [Return to Home](/)
+<style>
+.action-bar {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.start-btn {
+  background: var(--vp-c-brand);
+  color: white !important;
+  padding: 0.8rem 2rem;
+  border-radius: 12px;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: all 0.2s;
+}
+.start-btn:hover {
+  transform: scale(1.05);
+  background: var(--vp-c-brand-darker);
+}
+</style>

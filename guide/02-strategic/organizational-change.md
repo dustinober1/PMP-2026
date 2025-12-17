@@ -1,211 +1,78 @@
+# 2.4 Organizational Change
+
+"Technology projects don't fail because of technology—they fail because people don't adopt the change." This is the core principle of **Organizational Change Management (OCM)**. 
+
 ---
-title: 2.4 – Organizational Change and Readiness
-description: Managing the human side of project implementation and change adoption
+
+## 👥 The Human Side of Projects
+In the 2026 PMP exam, you aren't just responsible for the software; you are responsible for the **Adoption**.
+
+| Output (Deliverable) | Outcome (Adoption)       | The OCM Gap                               |
+| :------------------- | :----------------------- | :---------------------------------------- |
+| A new CRM system.    | Sales reps use it daily. | Reps hate the UI and go back to Excel.    |
+| An AI assistant.     | Coding speed increases.  | Devs fear for their jobs and sabotage it. |
+| A new office.        | Higher collaboration.    | Commute is longer; employees quit.        |
+
 ---
 
-# 2.4 – Organizational Change and Readiness
+## 🪜 Change Frameworks
+You should be familiar with these three classic models for the exam:
 
-## 2.4.1 Introduction
+### 1. ADKAR (Individual Change)
+People change one at a time. They must move through:
+- **A**wareness: "Why are we changing?"
+- **D**esire: "What's in it for me (WIIFM)?"
+- **K**nowledge: "How do I use the new tool?"
+- **A**bility: "Can I do it under pressure?"
+- **R**einforcement: "Is the new way being rewarded?"
 
-Every project introduces change. Whether it's a new system, process, structure, or way of working, success depends not just on delivering the project—but on ensuring people adopt and sustain the change.
+### 2. Kotter’s 8 Steps (Organizational Change)
+Focuses on building momentum:
+1. Create Urgency.
+2. Build a Guiding Coalition.
+3. Form a Strategic Vision.
+4. Enlist a Volunteer Army.
+5. Enable Action (Remove barriers).
+6. Generate Short-term Wins.
+7. Sustain Acceleration.
+8. Institute Change (Make it part of the culture).
 
-Organizational Change Management (OCM) is the discipline of preparing, equipping, and supporting people to successfully adopt change and achieve desired outcomes.
+### 3. Lewin’s Model
+- **Unfreeze**: Breaking the status quo.
+- **Change**: Moving to the new state.
+- **Refreeze**: Making the new state permanent.
 
-::: tip Key Insight
-**Technology projects don't fail because of technology**—they fail because people don't adopt the change. OCM addresses the human side of project success.
+---
+
+## 🛑 Managing Resistance
+Resistance isn't "bad behavior"—it's a natural reaction to fear.
+
+### Common Root Causes
+- **Fear of Job Loss**: Especially relevant in AI projects.
+- **Change Fatigue**: Too many projects launching at once.
+- **Lack of Trust**: "Leaders never finish what they start."
+
+### Your Strategy
+- **Active Listening**: Don't dismiss concerns; hear them.
+- **Transparency**: Communicate early and often, even if you don't have all the answers.
+- **Involvement**: People support what they help create. Involve "resistors" in the testing or design phase.
+
+::: tip 💡 2026 Insight: Change Saturation
+As a PM, you must monitor **Change Saturation**. If the Finance team is already implementing three other projects, launching your new expense system now might lead to a 0% adoption rate. The correct strategic move might be to **delay your launch**.
 :::
 
 ---
 
-## 2.4.2 Why Change Management Matters
+<div class="study-tip">
+  <strong>📝 Exam Insight:</strong> If an exam scenario says stakeholders are unhappy with a change, the best answer is usually to <strong>identify the root cause of their resistance</strong> or <strong>involve them in the process</strong>, rather than "training them more" or "escalating to their manager."
+</div>
 
-### The Adoption Challenge
-
-Project success is measured by outcomes, not just outputs:
-
-| Project Output       | Desired Outcome                 | Risk Without OCM                    |
-| -------------------- | ------------------------------- | ----------------------------------- |
-| New CRM system       | Improved customer relationships | Staff revert to spreadsheets        |
-| New process          | Faster cycle time               | Workarounds emerge                  |
-| Office relocation    | Improved collaboration          | Productivity drops, attrition rises |
-| Agile transformation | Increased responsiveness        | Teams resist, old habits persist    |
-
-### Statistics on Change
-
-Research consistently shows:
-- ~70% of change initiatives fail to meet objectives
-- Resistance is the #1 obstacle to successful change
-- Projects with excellent OCM are 6x more likely to meet objectives
-
----
-
-## 2.4.3 Change Readiness Assessment
-
-Before introducing change, assess the organization's readiness:
-
-### Readiness Factors
-
-| Factor         | Questions to Ask                                      |
-| -------------- | ----------------------------------------------------- |
-| **Capacity**   | Does the organization have bandwidth for this change? |
-| **Capability** | Do people have skills to adopt the change?            |
-| **Culture**    | Does the culture support or resist change?            |
-| **History**    | What is the track record with past changes?           |
-| **Leadership** | Is leadership committed and visible?                  |
-| **Urgency**    | Do people understand why change is needed now?        |
-
-### Readiness Assessment Matrix
-
-Rate each factor to identify areas needing focus:
-
-| Factor     | Low Risk             | Medium Risk        | High Risk          |
-| ---------- | -------------------- | ------------------ | ------------------ |
-| Capacity   | ✓ Slack exists       | → Some strain      | ✗ Overwhelmed      |
-| Capability | ✓ Skills present     | → Training needed  | ✗ Major gaps       |
-| Culture    | ✓ Change-friendly    | → Cautious         | ✗ Change-averse    |
-| History    | ✓ Successful changes | → Mixed results    | ✗ Failed changes   |
-| Leadership | ✓ Committed sponsors | → Inconsistent     | ✗ Absent/resistant |
-| Urgency    | ✓ Burning platform   | → Moderate concern | ✗ Complacency      |
-
----
-
-## 2.4.4 Change Management Frameworks
-
-### ADKAR Model
-
-The ADKAR model (Prosci) describes five stages individuals move through:
-
-| Stage             | Description                        | PM Actions                             |
-| ----------------- | ---------------------------------- | -------------------------------------- |
-| **Awareness**     | Understanding why change is needed | Communicate the business case          |
-| **Desire**        | Personal motivation to participate | Address WIIFM ("What's In It For Me?") |
-| **Knowledge**     | How to change                      | Provide training and information       |
-| **Ability**       | Skills and behaviors to implement  | Practice, coaching, support            |
-| **Reinforcement** | Sustaining the change              | Recognition, accountability            |
-
-### Kotter's 8 Steps
-
-John Kotter's model outlines organizational change in phases:
-
-**Creating Climate for Change**
-1. Create urgency
-2. Build guiding coalition
-3. Form strategic vision
-
-**Engaging and Enabling**
-4. Enlist volunteer army
-5. Enable action by removing barriers
-6. Generate short-term wins
-
-**Implementing and Sustaining**
-7. Sustain acceleration
-8. Institute change
-
-### Lewin's Change Model
-
-Kurt Lewin's simple three-stage model:
-
-1. **Unfreeze**: Create motivation to change, challenge status quo
-2. **Change**: Implement the new way of working
-3. **Refreeze**: Stabilize and reinforce the new normal
-
----
-
-## 2.4.5 Stakeholder Impact Analysis
-
-### Identifying Who Is Affected
-
-Map stakeholders by:
-- **Type of impact** (process, role, skills, reporting, tools)
-- **Degree of change** (minor adjustment → fundamental shift)
-- **Current state** (supporter, neutral, resistor)
-- **Influence** (power to help or hinder adoption)
-
-### Impact Assessment Template
-
-| Stakeholder Group | Current State       | Future State         | Impact Level | Support Level |
-| ----------------- | ------------------- | -------------------- | ------------ | ------------- |
-| Sales team        | Manual tracking     | CRM system           | High         | Neutral       |
-| IT support        | Reactive tickets    | Self-service portal  | Medium       | Supportive    |
-| Finance           | Spreadsheet reports | Automated dashboards | High         | Resistant     |
-
----
-
-## 2.4.6 Managing Resistance
-
-### Why People Resist Change
-
-| Resistance Source           | Root Cause                    | Response Strategy             |
-| --------------------------- | ----------------------------- | ----------------------------- |
-| **Fear of unknown**         | Uncertainty                   | Information, transparency     |
-| **Loss of control**         | Change is imposed             | Involvement, participation    |
-| **Comfort with status quo** | Current state works           | Create urgency, show benefits |
-| **Lack of trust**           | Leadership credibility issues | Consistent actions, honesty   |
-| **Bad timing**              | Change fatigue                | Pace changes, prioritize      |
-| **Misalignment**            | Don't see personal benefit    | Address WIIFM                 |
-
-### Resistance Response Strategies
-
-1. **Listen actively**: Understand concerns before responding
-2. **Acknowledge emotions**: Resistance often masks legitimate concerns
-3. **Involve resistors**: People support what they help create
-4. **Address root causes**: Surface-level responses don't work
-5. **Provide support**: Training, coaching, resources
-6. **Celebrate wins**: Build momentum with early successes
-
-::: warning Exam Insight
-Resistance is a natural part of change. On the exam, avoid answers that dismiss or override resistance—instead, look for answers that engage and address concerns.
-:::
-
----
-
-## 2.4.7 Communication for Change
-
-### Key Principles
-
-- **Early and often**: Start communication before changes are implemented
-- **Multi-channel**: Different people prefer different formats
-- **Two-way**: Create opportunities for questions and feedback
-- **Consistent**: Aligned messages from all leaders
-- **Honest**: Acknowledge challenges and uncertainties
-
-### Communication Plan Elements
-
-| Element      | Description                                    |
-| ------------ | ---------------------------------------------- |
-| **Audience** | Who needs to know                              |
-| **Message**  | What they need to understand                   |
-| **Channel**  | How the message will be delivered              |
-| **Timing**   | When to communicate                            |
-| **Sender**   | Who delivers the message (credibility matters) |
-| **Feedback** | How responses will be captured                 |
-
----
-
-## 2.4.8 Sustaining Change
-
-Change doesn't stick automatically. Plan for sustainment:
-
-### Sustainment Strategies
-
-- **Accountability**: Performance metrics tied to new behaviors
-- **Reinforcement**: Recognition and rewards for adoption
-- **Support**: Help desk, coaching, refresher training
-- **Leadership modeling**: Leaders demonstrate the change
-- **Process integration**: Embed changes into standard procedures
-- **Monitoring**: Track adoption and address backsliding
-
----
-
-## 2.4.9 Key Takeaways
-
-1. **Projects deliver change**: Technical delivery alone isn't success—adoption is
-2. **Assess readiness first**: Understand organizational capacity and culture
-3. **Use proven frameworks**: ADKAR, Kotter, and Lewin provide structured approaches
-4. **Resistance is information**: Listen to and address concerns, don't dismiss them
-5. **Communication is critical**: Early, honest, two-way communication enables adoption
-6. **Plan for sustainment**: Change requires ongoing reinforcement
-
----
-
-**Next**: [2.5 – Program Management](./program-management)
+<style>
+.study-tip {
+  background: var(--vp-c-brand-soft);
+  border-left: 4px solid var(--vp-c-brand);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+</style>
