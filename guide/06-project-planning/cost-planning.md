@@ -1,55 +1,100 @@
 # 6.3 Cost Planning
 
-Cost management is about more than just staying under budget; it's about optimizing resource allocation to deliver the maximum possible value.
+Cost management ensures that the project is delivered within the approved budget. It is more than just spending; it is about **Value Engineering** and **Fiscal Ethics**.
 
 ---
 
-## 🏗️ The Path to the Baseline
-How does a folder full of estimates become a formal budget?
-1. **Activity Estimates**: How much does each task cost?
-2. **Work Package Estimates**: Summing the activities.
-3. **Contingency Reserve**: Money set aside for **"Known-Unknowns"** (Risks you've identified).
-4. **Cost Baseline**: The approved version of the time-phased project budget.
-5. **Management Reserve**: Money set aside for **"Unknown-Unknowns"** (Risks you haven't identified).
-6. **Project Budget**: The Cost Baseline + Management Reserve.
+## 🏗️ The Budget Architecture
+A PMP budget is built from the bottom up, with layers of protection.
 
-::: warning 🚦 Baseline vs. Budget
-The **Project Manager** controls the **Cost Baseline** (and the contingency reserve). The **Sponsor** or Management controls the **Management Reserve**.
+<div class="cost-grid">
+  <div class="cost-card activity">
+    <div class="cost-title">Activity Estimates</div>
+    <p>The base cost of work packages, including labor and materials.</p>
+  </div>
+  <div class="cost-card contingency">
+    <div class="cost-title">Contingency Reserve</div>
+    <p>For "Known Unknowns". Part of the <strong>Cost Baseline</strong>. Under PM control.</p>
+  </div>
+  <div class="cost-card baseline">
+    <div class="cost-title">Cost Baseline</div>
+    <div class="cost-subtitle">The Performance Mark</div>
+    <p>Used to measure EVM (Earned Value Management) performance.</p>
+  </div>
+  <div class="cost-card management">
+    <div class="cost-title">Management Reserve</div>
+    <p>For "Unknown Unknowns". NOT part of the baseline. Under Sponsor control.</p>
+  </div>
+</div>
+
+---
+
+## 📊 Estimation Techniques
+Which method is right for your project?
+
+| Technique       | Description                                                   | Stability       |
+| :-------------- | :------------------------------------------------------------ | :-------------- |
+| **Analogous**   | Based on past projects. Quick but less accurate.              | **Low**         |
+| **Parametric**  | Based on math ($ per sq foot). High accuracy if data is good. | **Medium**      |
+| **Bottom-Up**   | Estimating every activity and rolling it up. Most accurate.   | **High**        |
+| **Three-Point** | (Optimistic + Pessimistic + 4*Most Likely) / 6. (PERT).       | **Uncertainty** |
+
+---
+
+## 💰 The Total Project Budget
+**Total Budget = Cost Baseline + Management Reserve**.
+- If a major risk occurs that wasn't planned (Unknown Unknown), you must ask the **Sponsor** for the Management Reserve.
+- If a risk occurs that was in the risk register (Known Unknown), you use the **Contingency Reserve**.
+
+::: info 🛠️ 2026 Focus: Value Engineering
+Cost planning in 2026 is not just about cutting costs. It's about **Value Engineering**: Finding ways to deliver the same strategic value at a lower cost without sacrificing quality or sustainability (ESG).
 :::
 
----
+<style>
+.cost-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
 
-## 📊 Estimation Accuracy
-Accuracy is a journey, not a destination.
-- **Rough Order of Magnitude (ROM)**: Used during initiation. Range: **-25% to +75%**.
-- **Definitive Estimate**: Used during planning. Range: **-5% to +10%**.
+.cost-card {
+  padding: 1.25rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+}
 
----
+.cost-title {
+  font-weight: 700;
+  color: var(--vp-c-brand);
+  margin-bottom: 0.5rem;
+}
 
-## 🛠️ Cost of Quality (COQ)
-Spending money now to prevent spending much more later.
-| Category             | Examples                                        | Timing          |
-| :------------------- | :---------------------------------------------- | :-------------- |
-| **Prevention**       | Training, process documentation.                | Before/During   |
-| **Appraisal**        | Testing, destructive testing loss, inspections. | During          |
-| **Internal Failure** | Rework, scrap.                                  | Before delivery |
-| **External Failure** | Liabilities, warranty work, lost business.      | After delivery  |
+.cost-subtitle {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--vp-c-text-2);
+  margin-bottom: 0.5rem;
+}
 
-::: tip 🔍 Key Insight
-**External Failure** is always the most expensive cost of quality. In the 2026 exam, focus on **Prevention** over Inspection.
-:::
+.cost-card p {
+  font-size: 0.85rem;
+  margin: 0;
+  line-height: 1.5;
+}
 
----
-
-## 🔄 Cost in Agile
-In Agile, the cost is often **Fixed** (Team Salary $\times$ Time), and the **Scope** is the variable.
-- **Burn Rate**: The rate at which the project budget is being spent.
-- **Value-Based Prioritization**: Ensuring the most expensive "features" are only built if they provide the highest ROI.
+.activity { border-bottom: 4px solid #94a3b8; }
+.contingency { border-bottom: 4px solid #3b82f6; }
+.baseline { border-bottom: 4px solid #10b981; }
+.management { border-bottom: 4px solid #ef4444; }
+</style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a project is $10k over budget but the $10k was taken from the <strong>Contingency Reserve</strong> to handle a risk that actually happened, the project is technically <strong>On Budget</strong> relative to the formal project funding.
+  <strong>📝 Exam Insight:</strong> If an unforeseen disaster (not in the risk register) occurs, you need <strong>Management Reserve</strong>. This requires a formal change request and <strong>Sponsor approval</strong>.
 </div>
 
 <style>

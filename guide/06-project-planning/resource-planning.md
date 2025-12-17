@@ -1,49 +1,88 @@
-# 6.4 Resource & Procurement
+# 6.4 Resource Planning
 
-A project plan is just a dream until you have the people and materials to execute it. This section covers how to secure and optimize your resources.
+Project success depends on getting the right people, tools, and materials in the right place at the right time.
 
 ---
 
-## 👥 Resource Management
-Resources are more than just "headcount." They include people, equipment, materials, and facilities.
-- **Resource Leveling**: Adjusting the schedule (often extending it) to ensure no resource is over-allocated.
-- **Resource Smoothing**: Adjusting the schedule within the available **Float** so the finish date is not delayed.
+## 🏗️ The Resource Spectrum
+In PMP terms, "Resources" includes both human talent and physical materials.
 
-::: tip 💡 Pro Tip: The Resource Histogram
-A **Resource Histogram** is a bar chart showing the amount of time a resource is scheduled to work over a series of time periods. It is your best tool for spotting over-allocation before it happens.
+<div class="resource-grid">
+  <div class="resource-card">
+    <div class="resource-title">Team Resources</div>
+    <div class="resource-tag human">People</div>
+    <p>Managing skills, availability, and growth. Focus on <strong>Servant Leadership</strong> and team health.</p>
+  </div>
+  <div class="resource-card">
+    <div class="resource-title">Physical Resources</div>
+    <div class="resource-tag physical">Tools & Material</div>
+    <p>Managing equipment, rentals, software licenses, and facilities. Focus on <strong>Logistics</strong> and control.</p>
+  </div>
+</div>
+
+---
+
+## 📋 Key Planning Artifacts
+1.  **Resource Management Plan**: The strategy for how resources will be acquired, managed, and released.
+2.  **Resource Requirements**: A detailed list of what is needed (e.g., "3 Senior Developers for 2 months").
+3.  **Physical Resource Documentation**: Ensuring you have the legal right to use tools/materials.
+4.  **Team Charter**: Explicitly defined in Chapter 3, but legally part of Resource Planning because it defines how human resources will interact.
+
+---
+
+## 📈 Managing Constraints
+*   **Resource Leveling**: Adjusting the schedule based on resource limits. (Usually delays the finish date).
+*   **Resource Smoothing**: Adjusting activities within their **Float** so as not to exceed resource limits. (Does not delay the finish date).
+
+::: info 🛠️ 2026 Focus: Virtual Logistics
+Modern resource planning must account for **Digital Latency**. If your team is global, do they have the same cloud infrastructure? Is the physical hardware available in their specific region (e.g., chip shortages)?
 :::
 
----
+<style>
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
 
-## 🏗️ Procurement Strategy
-Sometimes you can't do it all yourself. **Make-or-Buy Analysis** is the process of deciding whether a particular work package can be produced by the project team or should be purchased from outside sources.
+.resource-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+}
 
----
+.resource-title {
+  font-weight: 700;
+  color: var(--vp-c-brand);
+  margin-bottom: 0.5rem;
+}
 
-## 🤝 Contract Types
-The type of contract determines who carries the financial **Risk**.
+.resource-tag {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
 
-| Contract Type                | Description                            | Who Carries Risk? |
-| :--------------------------- | :------------------------------------- | :---------------- |
-| **Fixed Price (FFP)**        | Seller completes work for a set price. | **Seller**        |
-| **Cost Reimbursable (CPFF)** | Buyer pays actual costs + a fee.       | **Buyer**         |
-| **Time & Materials (T&M)**   | Paid by the hour/unit.                 | **Shared**        |
+.human { background: #dcfce7; color: #166534; }
+.physical { background: #dbeafe; color: #1e40af; }
 
-::: info 🛠️ 2026 Focus: Agile Contracts
-Agile contracts often use a **"Money for Nothing, Change for Free"** model or tiered fixed-price models to allow for scope flexibility while protecting the vendor's costs.
-:::
-
----
-
-## 🧭 Source Selection
-How do you pick the right vendor?
-- **Weighting System**: Giving scores to different criteria (Price, Experience, Technical Approach).
-- **Independent Estimates**: The PMO creates its own estimate to ensure the vendor bids are realistic ("Sanity Check").
+.resource-card p {
+  font-size: 0.85rem;
+  margin: 0;
+  line-height: 1.5;
+}
+</style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a project's scope is unclear or likely to change significantly, **NEVER** use a Fixed Price contract. Use a <strong>Cost-Reimbursable</strong> or <strong>Time & Materials</strong> contract instead.
+  <strong>📝 Exam Insight:</strong> If a project is delayed because of "waiting for equipment," the root cause is poor <strong>Physical Resource Management</strong>. If it's delayed because of "unclear roles," the fix is the <strong>RACI Matrix</strong>.
 </div>
 
 <style>

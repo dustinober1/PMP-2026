@@ -1,40 +1,104 @@
 # 5.3 Constraints & Assumptions
 
-Every project operates within a "Box." **Constraints** are the walls of that box, and **Assumptions** are factors that you treat as true without proof—until you can prove them.
+Every project operates within a set of invisible walls. Identifying these early is critical for managing stakeholder expectations and project risk.
 
 ---
 
-## ⛓️ Constraints: The Unchangeable Limits
-A constraint is a limiting factor that affects the execution of a project.
-- **Schedule**: The project *must* be done by December 31st for a regulatory deadline.
-- **Budget**: You have $500,000 and not a penny more.
-- **Scope**: You must use the specific legacy database; you cannot buy a new one.
-- **Resources**: You only have 3 developers, and they are shared with another project.
+## 🏗️ Definitions: Know the Difference
+On the exam, you must distinguish between what is **Fact (Constraint)** and what is **Belief (Assumption)**.
 
-::: tip 💡 Pro Tip: The Triple Constraint
-Recall the **Triple Constraint** (Section 1.4b). A change in one constraint almost always forces a change in another. If the schedule is moved up, the budget or quality must likely change to compensate.
+<div class="ca-grid">
+  <div class="ca-card constraint">
+    <div class="ca-title">Constraints</div>
+    <div class="ca-subtitle">"The Walls"</div>
+    <p>Limiting factors that <strong>must</strong> be obeyed. They are not negotiable.</p>
+    <ul>
+      <li>Fixed Deadlines</li>
+      <li>Approved Budgets</li>
+      <li>Safety Regulations</li>
+      <li>Physical Limits</li>
+    </ul>
+  </div>
+  <div class="ca-card assumption">
+    <div class="ca-title">Assumptions</div>
+    <div class="ca-subtitle">"The Foundations"</div>
+    <p>Factors held to be true for planning purposes without proof.</p>
+    <ul>
+      <li>Resource Availability</li>
+      <li>Tool Reliability</li>
+      <li>Market Stability</li>
+      <li>Team Skill Levels</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+## 🚦 Managing the Log
+Both are documented in the **Assumption Log**, which is created during initiation.
+
+1.  **Assumptions are Risks**: If an assumption (e.g., "The server will arrive Tuesday") proves false, it becomes an issue or a risk realized.
+2.  **Constraints are Boundaries**: They define the "Triple Constraint" (Scope, Schedule, Cost) within which you must innovate.
+3.  **Active Monitoring**: The PM reviews the Assumption Log during every status meet or sprint planning to verify if beliefs are still valid.
+
+::: info 🛠️ 2026 Focus: Virtual Constraints
+In 2026, we add **Digital Constraints**:
+- **Data Privacy (GDPR/CCPA)**: Non-negotiable legal walls.
+- **API Latency**: Physical constraints of modern global software.
+- **Asynchronous Time Gaps**: The limitation of working across 12-hour zone differences.
 :::
 
----
+<style>
+.ca-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
 
-## 🌫️ Assumptions: The "Known Unknowns"
-An assumption is a factor that, for planning purposes, is considered to be true, real, or certain without proof or demonstration.
-- **Example**: "We assume the vendor will deliver the API by May 1st."
-- **The Catch**: Assumptions are a major source of **Risk**. If an assumption turns out to be false, it can derail your plan.
+.ca-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+}
 
----
+.ca-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
 
-## 📊 The Assumptions Log
-This is a project document used to record all assumptions and constraints throughout the project lifecycle.
-1. **Identify**: "What are we taking for granted?"
-2. **Document**: Write it down with a "proof date" (when we'll know if it's true).
-3. **Analyze**: What happens to our plan if this assumption is false?
-4. **Monitor**: Check the status of assumptions during every team sync.
+.ca-subtitle {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  letter-spacing: 0.05em;
+}
+
+.ca-card p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.ca-card ul {
+  padding-left: 1.25rem;
+  font-size: 0.85rem;
+}
+
+.constraint { border-top: 4px solid #ef4444; }
+.assumption { border-top: 4px solid #3b82f6; }
+
+.constraint .ca-title { color: #ef4444; }
+.assumption .ca-title { color: #3b82f6; }
+</style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If an exam scenario says a project is at risk because a key piece of information wasn't verified, the root cause is likely that the info was treated as an <strong>Assumption</strong> but was never <strong>validated</strong> or tracked in the <strong>Assumptions Log</strong>.
+  <strong>📝 Exam Insight:</strong> If a planner makes a decision based on a "belief" that resources will be available, and they aren't, the root cause is a <strong>failed assumption</strong>. Never treat assumptions as facts without validation.
 </div>
 
 <style>

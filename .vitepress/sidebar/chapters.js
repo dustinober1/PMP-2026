@@ -167,8 +167,8 @@ export function createSidebar() {
       collapsed: true,
       items: [
         { text: 'Appendix Overview', link: '/guide/appendices/' },
-        { text: 'Key Formulas and Definitions', link: '/guide/appendices/formulas-definitions' },
-        { text: 'Tools and Artifacts Index', link: '/guide/appendices/tools-artifacts' }
+        { text: 'Formula Mastery', link: '/guide/appendices/formulas-definitions' },
+        { text: 'Tools & Artifacts', link: '/guide/appendices/tools-artifacts' }
       ]
     }
   ]

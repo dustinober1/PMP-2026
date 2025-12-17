@@ -1,44 +1,87 @@
 # 6.1 Scope Planning
 
-Scope is the boundary of your project. It defines exactly what will be delivered, and just as importantly, what will **not** be delivered. In the 2026 PMP exam, scope is the foundation of the "Value Delivery" mindset.
+Scope defines the boundaries of the mission. It is the "What" the team will build and, just as importantly, the "What Not."
 
 ---
 
-## 🔍 Requirements vs. Scope
-- **Product Scope**: The features and functions that characterize a product, service, or result. (The "What").
-- **Project Scope**: The work performed to deliver a product, service, or result with the specified features and functions. (The "How").
+## 🛠️ The Scope Toolbox
+The way you define scope depends on the stability of your requirements.
 
-::: tip 💡 Pro Tip: Scope Creep
-Uncontrolled expansion of product or project scope without adjustments to time, cost, and resources is **Scope Creep**. The best defense is a strong **Scope Baseline**.
+<div class="scope-grid">
+  <div class="scope-card predictive">
+    <div class="scope-title">Predictive Tools</div>
+    <ul>
+      <li><strong>WBS (Work Breakdown Structure)</strong>: Decomposing work into manageable "Work Packages."</li>
+      <li><strong>WBS Dictionary</strong>: Detailed specs for every WBS element.</li>
+      <li><strong>Project Scope Statement</strong>: Written description of deliverables and exclusions.</li>
+    </ul>
+  </div>
+  <div class="scope-card agile">
+    <div class="scope-title">Agile Tools</div>
+    <ul>
+      <li><strong>Product Backlog</strong>: A dynamic, prioritized list of User Stories.</li>
+      <li><strong>User Stories</strong>: "As a [role], I want [action], so that [value]."</li>
+      <li><strong>Definition of Done (DoD)</strong>: The non-negotiable checklist for every story.</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+## 🏗️ The WBS: Foundation of Control
+In the PMP world, the **WBS** is the 100% rule: If it isn't in the WBS, it isn't in the project.
+
+1.  **Work Packages**: The lowest level of the WBS where cost and duration can be reliably estimated.
+2.  **Control Accounts**: Management points where scope, budget, and actual cost are integrated.
+3.  **Requirements Traceability Matrix (RTM)**: A table that links requirements to their origin and the deliverables that satisfy them. **(Crucial for 2026 Compliance!)**
+
+---
+
+## 🚦 Scope Creep vs. Gold Plating
+Two major risks every PM must fight:
+- **Scope Creep**: The uncontrolled expansion of scope without adjustments to time or cost.
+- **Gold Plating**: The team adding "extra" features that weren't requested. (Even if they are free, they are considered a waste of resources).
+
+::: info 🛠️ 2026 Shift: Continuous Backlog Refinement
+In modern practice, the Product Owner and Team perform **Backlog Refinement** (Grooming) continuously. They break down "Epics" into "User Stories" just-in-time for the next sprint, ensuring the team always works on the highest value items.
 :::
 
----
+<style>
+.scope-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
 
-## 🛠️ The Scope Baseline
-The Scope Baseline consists of three critical documents. If any of these change, you must follow formal Change Control.
-1. **Project Scope Statement**: The detailed description of the scope, major deliverables, assumptions, and constraints.
-2. **WBS (Work Breakdown Structure)**: A hierarchical decomposition of the total scope of work to be carried out by the project team.
-3. **WBS Dictionary**: Detailed information about each node in the WBS (e.g., description, owner, acceptance criteria).
+.scope-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+}
 
----
+.scope-title {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--vp-c-brand);
+}
 
-## 🧱 Developing the WBS
-Decomposition is the technique used to divide project deliverables into smaller, more manageable parts called **Work Packages**.
-- **The 100% Rule**: The WBS represents 100% of the work defined by the project scope and captures all deliverables—internal, external, and interim.
-- **Work Package**: The lowest level of the WBS. It should be small enough to be estimated for cost and duration (typically 8 to 80 hours of work).
+.scope-card ul {
+  padding-left: 1.25rem;
+  font-size: 0.9rem;
+}
 
----
+.scope-card li { margin-bottom: 0.5rem; }
 
-## 🔄 Scope in Agile (Adaptive)
-In Agile, scope isn't fixed at the start. Instead, it is managed through a **Product Backlog**.
-- **Product Backlog**: A prioritized list of everything that is known to be needed in the product.
-- **User Stories**: A small, user-valued increment of work. *Format: As a [user], I want [goal] so that [benefit].*
-- **Backlog Grooming (Refinement)**: The continuous process of adding detail, estimates, and order to items in the backlog.
+.predictive { border-left: 4px solid #3b82f6; }
+.agile { border-left: 4px solid #10b981; }
+</style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If an exam scenario says a stakeholder wants to add a "small feature" that isn't in the plan, the Project Manager must **Evaluate the impact** and then follow the **Change Management Process**. Never just say "Yes" to keep a stakeholder happy!
+  <strong>📝 Exam Insight:</strong> If an exam scenario says the team is "confused about what a specific task requires," the answer is usually to refer to the <strong>WBS Dictionary</strong>. If they are confused if a feature is "finished," refer to the <strong>Definition of Done</strong>.
 </div>
 
 <style>

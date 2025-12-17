@@ -1,57 +1,54 @@
 # Chapter 5: Project Initiation
 
-Initiation is the "Big Bang" of a project. It is the moment an idea transforms into a formal organizational commitment. In the 2026 PMP exam, initiation is about more than just paperwork; it's about establishing the **Strategic North Star**.
+Initiation is the "Big Bang" of a project—the transition from a strategic idea to a formal organizational commitment. In the 2026 PMP exam, initiation is about setting the **Project North Star** and ensuring the delivery approach matches the context.
 
-::: info 🚀 Process Domain: The Starting Line
-Initiation is a core part of the **Process domain (41%)**. In 2026, the exam focuses on how well you can align a project's start with high-level value delivery and organizational readiness.
-:::
+---
 
-## What You'll Learn
-- How to justify a project using the **Business Case** and ROI metrics.
-- The power of the **Project Charter**: Formalizing your authority as PM.
-- Navigating **Constraints and Assumptions** before the first line of code is written.
-- Choosing the right **Delivery Approach** (Agile, Predictive, or Hybrid) from the start.
+## The Initiation Pillars
+- **Strategic Justification**: Why does this project deserve internal investment?
+- **Formal Authorization**: Establishing the PM's "Social Contract" and power.
+- **Context Selection**: Choosing the right delivery approach (Predictive, Agile, or Hybrid).
 
 <div class="section-grid">
   <div class="section-card">
     <div class="section-title">5.1 Business Case</div>
-    <p class="section-description">Project selection metrics (NPV, IRR) and the strategic justification for project existence.</p>
-    <a href="./business-case" class="section-link">Analyze the Value →</a>
+    <p class="section-description">Project selection metrics (NPV, IRR) and the strategic justification for value delivery.</p>
+    <a href="./business-case" class="section-link">Analyze Value →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">5.2 Project Charter</div>
-    <p class="section-description">Components of the charter, formal authorization, and the PM's appointed authority.</p>
-    <a href="./project-charter" class="section-link">Formalize the Project →</a>
+    <p class="section-description">Formal authorization, PM authority, and the strategic guardrails for the project.</p>
+    <a href="./project-charter" class="section-link">Authorize Project →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">5.3 Constraints & Assumptions</div>
     <p class="section-description">Identifying 'known unknowns' and the boundaries that define the project space.</p>
-    <a href="./constraints-assumptions" class="section-link">Define the Boundaries →</a>
+    <a href="./constraints-assumptions" class="section-link">Define Boundaries →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">5.4 Delivery Strategy</div>
     <p class="section-description">Matching the delivery approach to the project's risk, complexity, and stability.</p>
-    <a href="./delivery-strategy" class="section-link">Choose the Path →</a>
+    <a href="./delivery-strategy" class="section-link">Choose Path →</a>
   </div>
 
   <div class="section-card knowledge-check">
     <div class="section-title">Knowledge Check</div>
     <p class="section-description">Test your ability to handle initiation scenarios and charter approvals.</p>
-    <a href="./knowledge-check" class="section-link">Test Your Readiness →</a>
+    <a href="./knowledge-check" class="section-link">Verify Readiness →</a>
   </div>
 </div>
 
 ---
 
-## Study Recommendation
-Expect many questions on the **sequence** of events. One common PMP trap is asking what to do when a project starts. Remember: **Charter first**, then identify stakeholders, then move to planning.
-
-<div class="action-bar">
-  <a href="./business-case" class="action-button primary">Start the Chapter</a>
-</div>
+## Key Takeaways
+By the end of this chapter, you will be able to:
+- ✅ **Justify the "Why"**: Use financial metrics and strategic alignment to defend project selection.
+- ✅ **Establish Power**: Define the PM's role and authority via the Project Charter.
+- ✅ **Set Boundaries**: Distinguish between Assumptions (beliefs) and Constraints (limitations).
+- ✅ **Select Approach**: Apply the Tailoring framework to choose Agile vs. Predictive at the start.
 
 <style>
 .section-grid {
@@ -106,26 +103,5 @@ Expect many questions on the **sequence** of events. One common PMP trap is aski
 
 .knowledge-check {
   background: var(--vp-c-brand-soft);
-  border-color: var(--vp-c-brand-light);
-}
-
-.action-bar {
-  display: flex;
-  justify-content: center;
-  margin: 3rem 0;
-}
-
-.action-button.primary {
-  padding: 0.75rem 2rem;
-  background: var(--vp-c-brand);
-  color: white;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: opacity 0.2s;
-}
-
-.action-button.primary:hover {
-  opacity: 0.9;
 }
 </style>

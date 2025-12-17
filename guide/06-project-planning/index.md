@@ -1,57 +1,55 @@
 # Chapter 6: Project Planning
 
-If initiation is the "Big Bang," Planning is the **Blueprint**. In the 2026 PMP exam, planning is no longer a rigid, one-time event; it is a continuous process of refinement and adaptation.
+Planning is not a one-time event; it is a **continuous process of refinement**. In the 2026 PMP exam, planning spans the spectrum from detailed predictive baselines to iterative agile backlogs.
 
-::: info 📋 Process Domain: The Heart of the Exam
-Planning is the largest component of the **Process domain (41%)**. You must master how to integrate Scope, Schedule, Cost, and Resources into a cohesive strategy for delivery.
-:::
+---
 
-## What You'll Learn
-- **Scope**: Determining what is in, and more importantly, what is *out*.
-- **Schedule**: Mastering the Critical Path and Agile Release Planning.
-- **Cost**: Moving from rough estimates to a defensible Cost Baseline.
-- **Resource & Procurement**: Finding the right people and the right partners.
+## The Planning Core
+Strategic planning is about creating a "Integrated Project Management Plan" that balances the competing needs of scope, time, cost, and quality.
 
 <div class="section-grid">
   <div class="section-card">
     <div class="section-title">6.1 Scope Planning</div>
-    <p class="section-description">Requirements, the WBS, and the Scope Baseline—ensuring we build exactly what is needed.</p>
-    <a href="./scope-planning" class="section-link">Define the Work →</a>
+    <p class="section-description">Defining the 'What'. WBS, Requirements Traceability, and Agile Backlogs.</p>
+    <a href="./scope-planning" class="section-link">Define Work →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">6.2 Schedule Planning</div>
-    <p class="section-description">Network diagrams, Critical Path Method (CPM), and compression techniques like Crashing and Fast-Tracking.</p>
-    <a href="./schedule-planning" class="section-link">Build the Timeline →</a>
+    <p class="section-description">Defining the 'When'. Critical Path, Float, and Sprint Cadence.</p>
+    <a href="./schedule-planning" class="section-link">Set Timeline →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">6.3 Cost Planning</div>
-    <p class="section-description">Estimation techniques (Parametric, Bottom-up) and establishing the Cost Baseline for performance measurement.</p>
-    <a href="./cost-planning" class="section-link">Budget the Value →</a>
+    <p class="section-description">Defining the 'How Much'. Budgeting, Contingency, and Value Engineering.</p>
+    <a href="./cost-planning" class="section-link">Allocate Budget →</a>
   </div>
 
   <div class="section-card">
-    <div class="section-title">6.4 Resource & Procurement</div>
-    <p class="section-description">Planning for people and materials, and choosing the right contract types for external vendors.</p>
-    <a href="./resource-planning" class="section-link">Secure the Support →</a>
+    <div class="section-title">6.4 Resource Planning</div>
+    <p class="section-description">Defining the 'Who'. Physical vs. Team resources and availability.</p>
+    <a href="./resource-planning" class="section-link">Find People →</a>
   </div>
 
   <div class="section-card knowledge-check">
     <div class="section-title">Knowledge Check</div>
-    <p class="section-description">Test your ability to handle planning tradeoffs and calculation scenarios.</p>
-    <a href="./knowledge-check" class="section-link">Verify Your Plan →</a>
+    <p class="section-description">Challenge your ability to integrate the different planning baselines.</p>
+    <a href="./knowledge-check" class="section-link">Test Strategy →</a>
   </div>
 </div>
 
 ---
 
-## Study Recommendation
-Baselines are the most important concept in this chapter. A **Baseline** is the approved version of the plan. Once a baseline is set, any changes must go through formal **Change Control**.
+## 2026 Mindset: The Integrated Plan
+A project falls apart when plans exist in silos. Integration means:
+- **Scope** changes trigger **Schedule** updates.
+- **Cost** limits force **Scope** prioritization.
+- **Resource** availability dictates **Schedule** feasibility.
 
-<div class="action-bar">
-  <a href="./scope-planning" class="action-button primary">Start Planning</a>
-</div>
+::: tip 💡 Study Recommendation
+On the exam, focus on **Progressive Elaboration**. You don't know everything on Day 1. Planning should grow more detailed as you learn more about the project environment.
+:::
 
 <style>
 .section-grid {
@@ -106,26 +104,5 @@ Baselines are the most important concept in this chapter. A **Baseline** is the 
 
 .knowledge-check {
   background: var(--vp-c-brand-soft);
-  border-color: var(--vp-c-brand-light);
-}
-
-.action-bar {
-  display: flex;
-  justify-content: center;
-  margin: 3rem 0;
-}
-
-.action-button.primary {
-  padding: 0.75rem 2rem;
-  background: var(--vp-c-brand);
-  color: white;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: opacity 0.2s;
-}
-
-.action-button.primary:hover {
-  opacity: 0.9;
 }
 </style>
