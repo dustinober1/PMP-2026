@@ -18,7 +18,7 @@ hero:
 features:
   - icon: 📚
     title: Comprehensive Content
-    details: 10 in-depth chapters covering all three domains — People (42%), Process (50%), and Business Environment (8%)
+    details: 10 in-depth chapters covering all three domains — People (33%), Process (41%), and Business Environment (26%)
   - icon: 🎯
     title: Exam-Focused Practice
     details: 3 full-length practice exams with 185 questions each, matching the new exam format with detailed explanations
@@ -163,6 +163,20 @@ import { ref } from 'vue'
   transition: width 1s ease;
 }
 
+.domain-note {
+  margin-top: 1.5rem;
+  padding: 1rem 1.25rem;
+  background: rgba(147, 51, 234, 0.1);
+  border-radius: 0.75rem;
+  font-size: 0.95rem;
+  color: var(--vp-c-text-1);
+  border-left: 4px solid var(--color-purple-500);
+}
+
+.dark .domain-note {
+  background: rgba(147, 51, 234, 0.2);
+}
+
 .steps-section {
   margin: 4rem 0;
 }
@@ -285,36 +299,37 @@ import { ref } from 'vue'
   </div>
 </div>
 
-## Exam Domain Breakdown
+## Exam Domain Breakdown (2026 ECO)
 
 <div class="domains-section">
   <div class="domain-bar">
     <div class="domain-label">
       <span class="domain-name">👥 People</span>
-      <span class="domain-percent">42%</span>
+      <span class="domain-percent">33%</span>
     </div>
     <div class="domain-track">
-      <div class="domain-fill" style="width: 42%;"></div>
+      <div class="domain-fill" style="width: 33%;"></div>
     </div>
   </div>
   <div class="domain-bar">
     <div class="domain-label">
       <span class="domain-name">⚙️ Process</span>
-      <span class="domain-percent">50%</span>
+      <span class="domain-percent">41%</span>
     </div>
     <div class="domain-track">
-      <div class="domain-fill" style="width: 50%;"></div>
+      <div class="domain-fill" style="width: 41%;"></div>
     </div>
   </div>
   <div class="domain-bar">
     <div class="domain-label">
       <span class="domain-name">🏢 Business Environment</span>
-      <span class="domain-percent">8%</span>
+      <span class="domain-percent">26%</span>
     </div>
     <div class="domain-track">
-      <div class="domain-fill" style="width: 8%;"></div>
+      <div class="domain-fill" style="width: 26%;"></div>
     </div>
   </div>
+  <p class="domain-note">📈 <strong>Key Change:</strong> Business Environment increased from 8% to 26%, reflecting the strategic role of project managers</p>
 </div>
 
 ## How to Use This Guide
