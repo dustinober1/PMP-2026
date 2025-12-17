@@ -61,6 +61,26 @@ Job titles vary (project manager, project leader, delivery lead, product owner, 
 
 If you are earlier in your career and have limited project experience, PMI's CAPM certification or other entry-level credentials may be more appropriate stepping stones. The PMP is intentionally positioned as a more advanced, professional-level certification.
 
+### Eligibility Requirements
+
+To apply for the PMP exam, you must meet specific education and experience requirements. PMI has updated the eligibility pathways with a **10-year application window** for project management experience:
+
+| Education Level                                                      | Project Management Experience Required              | PM Education/Training    |
+| -------------------------------------------------------------------- | --------------------------------------------------- | ------------------------ |
+| **Four-year degree** (bachelor's or global equivalent)               | 36 months leading projects within the last 10 years | 35 hours of PM education |
+| **High school diploma** (or associate's degree or global equivalent) | 60 months leading projects within the last 10 years | 35 hours of PM education |
+
+Key points about experience:
+
+- **Leading projects** means directing and controlling project work, not just participating
+- Experience must be within the **10 years prior to application** (expanded from previous requirements)
+- Projects can use **any methodology**: predictive, agile, hybrid
+- The 35 hours of PM education can come from courses, training programs, or academic programs
+
+::: warning Verify Current Requirements
+PMI occasionally updates eligibility requirements. Always confirm the latest requirements in the PMP Handbook on pmi.org before applying.
+:::
+
 ### Why It Matters to Organizations
 
 From an employer's perspective, PMP holders are attractive because:
@@ -109,6 +129,21 @@ In short, the PMP matters because it connects your experience, your knowledge, a
 Before you start studying, it helps to know exactly what you are preparing for. The July 2026 PMP exam update adjusts both the structure and the feel of the exam so that it mirrors real project environments more closely.
 
 Details such as question counts, timing, and domain weights in this chapter reflect PMI communications about the 2026 exam update as of late 2025. PMI sometimes refines its exams, so always confirm the latest information in the current PMP Exam Content Outline (ECO) and PMP Handbook on `pmi.org` before you schedule your exam.
+
+### Key Transition Dates
+
+Understanding the timeline helps you plan your preparation:
+
+| Date                   | Event                                                                                  |
+| ---------------------- | -------------------------------------------------------------------------------------- |
+| **January 5–30, 2026** | Pilot program for new exam (participants who don't pass receive a free retake in July) |
+| **April 2026**         | Updated PMP learning resources and training materials become available                 |
+| **June 30, 2026**      | Last day to take the current (2021 ECO) version of the PMP exam                        |
+| **July 2026**          | New PMP exam (2026 ECO) launches globally                                              |
+
+::: tip Planning Your Exam
+If you are planning to take the exam before July 2026, the current exam content (2021 ECO) with domain weights of People 42%, Process 50%, and Business Environment 8% still applies. This guide is designed for the 2026 ECO.
+:::
 
 ### Question Count and Scoring
 

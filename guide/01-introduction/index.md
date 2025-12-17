@@ -11,7 +11,7 @@ Welcome to the first chapter of your PMP® Exam Prep journey. This foundational 
 This chapter covers the essential building blocks for your PMP preparation:
 
 ### [1.1 Understanding the New PMP Exam](./understanding-exam)
-Learn about the July 2026 exam update, including the new question format, timing, domain weights, and what to expect on exam day.
+Learn about the July 2026 exam update, including the new question format, timing, domain weights, eligibility requirements, key transition dates, and what to expect on exam day.
 
 ### [1.2 How To Use This Study Guide](./using-guide)
 Get the most out of this guide with strategic study tips, recommended learning paths, and advice for different experience levels.
