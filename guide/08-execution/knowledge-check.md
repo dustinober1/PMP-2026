@@ -1,188 +1,76 @@
-# Knowledge Check: Execution and Value Delivery
+# Knowledge Check: Execution & Value Delivery
 
-Test your understanding of project execution and value delivery concepts.
+Test your ability to lead teams, manage knowledge, and ensure value-based delivery.
 
-## Practice Questions
-
-### Question 1: Output vs. Outcome
-
-A project delivers a new customer portal. Six months later, customer satisfaction has increased by 15%. The increased satisfaction is best described as:
-
-- A) An output
-- B) A deliverable
-- C) An outcome ✓
-- D) A work package
-
-**Explanation**: The portal is the output/deliverable. The increased customer satisfaction is an outcome—the change that results from using the output.
-
----
-
-### Question 2: Work Performance Data
-
-"Activity A is 75% complete" is an example of:
-
-- A) Work performance report
-- B) Work performance information
-- C) Work performance data ✓
-- D) Earned value
-
-**Explanation**: Work performance data is raw observation. It becomes information when analyzed in context (e.g., "Activity A is behind schedule").
-
----
-
-### Question 3: Value Delivery
-
-A project finishes on time and on budget, but customers don't use the product. From a value perspective, this project is:
-
-- A) A success because metrics were met
-- B) A failure because no value was delivered ✓
-- C) Partially successful
-- D) Neutral
-
-**Explanation**: Value delivery is about outcomes and benefits, not just scope/time/cost. If customers don't use the product, value is not delivered.
-
----
-
-### Question 4: Benefits Realization
-
-Who is typically responsible for realizing project benefits after the project closes?
-
-- A) Project manager
-- B) Project team
-- C) Business owner/sponsor ✓
-- D) PMO
-
-**Explanation**: Benefits are realized in operations after project closure. The business owner/sponsor typically owns benefit realization, though the PM ensures proper transition.
-
----
-
-### Question 5: Knowledge Management
-
-Which type of knowledge is hardest to capture and share?
-
-- A) Explicit knowledge
-- B) Documented knowledge
-- C) Tacit knowledge ✓
-- D) Process knowledge
-
-**Explanation**: Tacit knowledge is personal, experiential knowledge that's difficult to codify. It's best shared through mentoring, discussion, and observation.
-
----
-
-### Question 6: Project Success
-
-According to modern project management, project success should be measured by:
-
-- A) On-time, on-budget completion
-- B) Stakeholder sign-off
-- C) Deliverables meeting specifications
-- D) Value delivered to stakeholders ✓
-
-**Explanation**: The 2026 exam emphasizes value delivery. Success is measured by whether the project achieves its intended outcomes and creates value.
-
----
-
-### Question 7: Transition Planning
-
-When should transition planning to operations begin?
-
-- A) After project closure
-- B) During the closing phase
-- C) During project planning ✓
-- D) Only if requested
-
-**Explanation**: Transition planning should begin during planning to ensure operations is ready to receive and sustain deliverables. Late planning risks poor handoffs.
-
----
-
-### Question 8: Change Implementation
-
-After an approved change is implemented, the project manager should:
-
-- A) Archive the change request
-- B) Verify the change achieved its intended result ✓
-- C) Move on to the next activity
-- D) Wait for stakeholder feedback
-
-**Explanation**: After implementing a change, verify it worked as intended. This closes the loop on change control.
-
----
-
-### Question 9: Benefits vs. Value
-
-Benefits are:
-
-- A) The same as project outputs
-- B) Measurable improvements from outcomes ✓
-- C) Financial metrics only
-- D) Deliverables produced
-
-**Explanation**: Benefits are measurable improvements (reduced costs, increased satisfaction, improved performance) that result from outcomes (changes in behavior or condition).
-
----
-
-### Question 10: Execution Principle
-
-During agile execution, which principle is emphasized?
-
-- A) Follow the plan exactly
-- B) Deliver comprehensive documentation
-- C) Deliver working product frequently ✓
-- D) Complete all planning first
-
-**Explanation**: Agile emphasizes frequent delivery of working product. This enables feedback, learning, and value delivery throughout the project.
-
----
+<QuizComponent
+  title="Chapter 8 Knowledge Check"
+  :questions="[
+    {
+      text: 'A project manager is leading an Agile team. During the daily standup, one developer mentions they are blocked because they don\'t have access to the production server. What should the PM do?',
+      options: ['Tell the developer to work on something else for now', 'Immediately contact the IT department to escalate and remove the blocker', 'Update the Risk Register and wait for the next weekly status meeting', 'Schedule a meeting with the whole team to discuss why access wasn\'t requested earlier'],
+      correct: 1,
+      explanation: 'In Agile/Servant Leadership, the PM (or Scrum Master) should prioritize removing impediments so the team can maintain momentum.',
+      reference: 'Section 8.1'
+    },
+    {
+      text: 'A company has just finished a project to implement a new CRM system. On the target date, the system is live, but none of the sales staff have been trained to use it. Which part of the Value Chain is missing?',
+      options: ['Output', 'Outcome', 'Benefit', 'Strategy'],
+      correct: 1,
+      explanation: 'The system itself is the Output. The change in behavior (staff using it) is the Outcome. Without training, you have the Output but no Outcome.',
+      reference: 'Section 8.2'
+    },
+    {
+      text: 'What is the primary difference between Tacit Knowledge and Explicit Knowledge?',
+      options: ['Tacit is for Agile, Explicit is for Waterfall', 'Tacit is fact-based, Explicit is experience-based', 'Tacit is hard to codify (know-how), Explicit is easy to document', 'Explicit belongs to the sponsor, Tacit belongs to the team'],
+      correct: 2,
+      explanation: 'Tacit knowledge is personal experience/intuition. Explicit knowledge consists of documents, data, and manuals.',
+      reference: 'Section 8.1'
+    },
+    {
+      text: 'A project is six months into execution when the CEO announces a major shift in corporate strategy. The project manager realizes that the project\'s current objectives no longer align with the new strategy. What is the BEST course of action?',
+      options: ['Finish the project as planned to show high performance', 'Ignore the strategy shift until the project is closed', 'Recommend a re-evaluation of the business case to the project sponsor', 'Cancel the project immediately without consulting anyone'],
+      correct: 2,
+      explanation: 'Project managers must ensure strategic alignment. If alignment is lost, the business case must be reassessed for value.',
+      reference: 'Section 8.2'
+    },
+    {
+      text: 'A project manager uses a formal system where team members must get a signed document before starting work on a new task. What is this called?',
+      options: ['Work Authorization System', 'RACI Matrix', 'Issue Log', 'Backlog Refinement'],
+      correct: 0,
+      explanation: 'A Work Authorization System is a formal procedure for notifying the team that work should begin on a specific activity.',
+      reference: 'Section 8.1'
+    }
+  ]"
+/>
 
 ## Additional Study Topics
 
 For complete mastery of Chapter 8, ensure you understand:
 
-### Executing Project Work
-- Direct and manage project work activities
-- Work performance data → information → reports
-- Managing project knowledge (tacit vs. explicit)
-- Implementing approved changes
-- Resource management during execution
-- Quality activities during execution
+1. **Information Flow (8.1)**:
+   - **Data**: "The machine is off."
+   - **Information**: "The machine is off, causing a 2-hour delay."
+   - **Report**: "Project is 5% over budget due to machine downtime."
 
-### Value Delivery
-- Output → Outcome → Benefit → Value chain
-- Why "on time and on budget" is not enough
-- Projects, products, and operations relationship
-- Value delivery system concept
-- Benefits realization management lifecycle
-- Transition and sustainment planning
+2. **The "Value" Mindset (8.2)**:
+   - Always prioritize features based on **Return on Investment (ROI)** and **Strategic Fit**.
+   - Manage the **Handoff** to Operations carefully.
+
+3. **Vendor Management**:
+   - Building a **partnership** is more effective than just "policing a contract."
 
 ---
 
-## Exam Tips for Execution and Value Questions
+<div class="study-tip">
+  <strong>📝 Exam Insight:</strong> If an execution question asks what to do first when a team member isn't performing, the answer is usually to **Meet with them privately** to understand the root cause.
+</div>
 
-::: tip Value Focus
-For 2026 exam questions, always consider:
-1. What VALUE was the project supposed to deliver?
-2. Is the choice focused on deliverables OR outcomes?
-3. The right answer usually prioritizes value over just completing tasks
-:::
-
-### Common Wrong Answer Patterns
-
-- ❌ Focusing only on scope/time/cost
-- ❌ Declaring success without measuring outcomes
-- ❌ Ignoring transition to operations
-- ❌ Treating project completion as benefit realization
-- ❌ Managing outputs without considering outcomes
-
-### Right Answer Patterns
-
-- ✅ Consider value and benefits, not just deliverables
-- ✅ Plan for transition to operations
-- ✅ Measure outcomes, not just outputs
-- ✅ Involve operations early
-- ✅ Track benefits after project closure
-
----
-
-::: info Study Note
-Value delivery is a central theme of the 2026 exam. Every scenario should prompt you to think: "What value is at stake, and which choice best serves it?"
-:::
+<style>
+.study-tip {
+  background: var(--vp-c-brand-soft);
+  border-left: 4px solid var(--vp-c-brand);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+</style>

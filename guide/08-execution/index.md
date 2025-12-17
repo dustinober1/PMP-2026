@@ -1,75 +1,118 @@
----
-title: Chapter 8 - Execution and Value Delivery
----
+# Chapter 8: Execution & Value Delivery
 
-# Chapter 8: Execution and Value Delivery
+Execution is where strategy meets reality. In the 2026 PMP exam, a Project Manager doesn't just "execute tasks"—they **steward value**. Success is measured not just by a finished product, but by the meaningful outcomes it creates.
 
-Welcome to Chapter 8 of the PMP Exam Prep 2026 study guide. This chapter focuses on executing project work and delivering value—not just outputs, but meaningful outcomes and benefits.
-
-::: info 2026 Exam Focus
-The 2026 exam emphasizes **value delivery** over traditional metrics. Success isn't just scope/time/cost—it's whether the project creates value for stakeholders and the organization.
+::: info 🚀 The "Rubber Meets the Road" Domain
+Execution encompasses the bulk of your daily work. It requires balancing the discipline of predictive schedules with the flexibility of agile delivery.
 :::
 
-## Why This Chapter Matters
+## What You'll Learn
+- **Executing Project Work**: Coordination, Knowledge Management, and Resource Leadership across all methodologies.
+- **Value Delivery & Outcomes**: Understanding the "Value Chain" and ensuring the project actually solves the business problem.
+- **Benefits Realization**: Managing the transition to operations and ensuring long-term success.
 
-Project execution is where plans become reality. But modern project management goes beyond completing tasks:
+<div class="section-grid">
+  <div class="section-card">
+    <div class="section-title">8.1 Executing Project Work</div>
+    <p class="section-description">How to lead teams, manage knowledge, and coordinate work in Predictive, Agile, and Hybrid environments.</p>
+    <a href="./executing-work" class="section-link">Drive the Momentum →</a>
+  </div>
 
-- **Executing work** according to plans
-- **Managing resources** to deliver effectively
-- **Ensuring quality** throughout execution
-- **Communicating** with stakeholders
-- **Delivering value**, not just deliverables
+  <div class="section-card">
+    <div class="section-title">8.2 Value Delivery and Outcomes</div>
+    <p class="section-description">Moving from "Outputs" to "Outcomes." Understanding the value delivery system and benefits realization.</p>
+    <a href="./value-delivery" class="section-link">Deliver Results →</a>
+  </div>
 
-## Chapter Sections
-
-### [8.1 – Executing Project Work](./executing-work)
-Managing the work of the project to deliver outputs.
-- Directing and managing project work
-- Managing project knowledge
-- Implementing decisions
-- Work performance management
-
-### [8.2 – Value Delivery and Outcomes](./value-delivery)
-Ensuring projects create meaningful value.
-- Output vs. outcome vs. benefit vs. value
-- Value delivery system
-- Benefits realization management
-- Transition and sustainment
-
-### [📝 Knowledge Check](./knowledge-check)
-Test your understanding of Chapter 8 concepts.
+  <div class="section-card knowledge-check">
+    <div class="section-title">Knowledge Check</div>
+    <p class="section-description">Test your ability to handle execution challenges and value-based dilemmas.</p>
+    <a href="./knowledge-check" class="section-link">Verify Your Impact →</a>
+  </div>
+</div>
 
 ---
 
-## Key Concepts to Master
+## Study Recommendation
+On the exam, execution questions often focus on **Impediments**. If someone is blocked, what do you do? If the plan is failing, how do you adapt? Focus on the **Servant Leadership** mindset.
 
-| Concept                   | Description                          | Exam Relevance |
-| ------------------------- | ------------------------------------ | -------------- |
-| **Outputs vs. Outcomes**  | Deliverables vs. changes they create | Very High      |
-| **Value Delivery**        | Creating meaningful worth            | Very High      |
-| **Benefits Realization**  | Ensuring promised benefits occur     | High           |
-| **Work Performance Data** | Raw observations from execution      | High           |
-| **Transition Planning**   | Handoff to operations                | High           |
+<div class="action-bar">
+  <a href="./executing-work" class="action-button primary">Start Execution</a>
+</div>
 
-## Learning Objectives
+<style>
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
 
-By the end of this chapter, you will be able to:
+.section-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
 
-1. ✅ Distinguish between outputs, outcomes, benefits, and value
-2. ✅ Apply value-focused thinking in project decisions
-3. ✅ Understand the benefits realization management lifecycle
-4. ✅ Plan for successful transition to operations
-5. ✅ Manage project execution effectively
-6. ✅ Focus on value delivery beyond schedule and budget
+.section-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--vp-c-brand);
+  background: var(--vp-c-bg-mute);
+}
 
----
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--vp-c-text-1);
+}
 
-::: tip Exam Strategy
-The 2026 exam rewards thinking about value, not just tasks. When reading scenarios, ask: "What choice delivers the most value?" not just "What completes the work?"
-:::
+.section-description {
+  font-size: 0.95rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
 
-## Quick Navigation
+.section-link {
+  font-weight: 600;
+  color: var(--vp-c-brand);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 
-- [Previous: Chapter 7 – Risk, Quality, and Complexity](../07-risk-quality/)
-- [Next: Chapter 9 – Monitoring and Control](../09-monitoring/)
-- [Return to Home](/)
+.section-link:hover {
+  text-decoration: underline;
+}
+
+.knowledge-check {
+  background: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-brand-light);
+}
+
+.action-bar {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.action-button.primary {
+  padding: 0.75rem 2rem;
+  background: var(--vp-c-brand);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.action-button.primary:hover {
+  opacity: 0.9;
+}
+</style>
