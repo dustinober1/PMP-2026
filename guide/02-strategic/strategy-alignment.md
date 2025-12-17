@@ -39,28 +39,28 @@ By the end of this chapter, you will be able to:
 
 This section is organized into the following sub-sections:
 
-### [2.1a – Organizational Strategy and Project Selection]($2)
+### [2.1a – Organizational Strategy and Project Selection](#)
 Understanding how organizational strategy shapes project selection, strategic planning frameworks, and the criteria used to evaluate project proposals. Explores how projects support strategic objectives and how selection differs across organizational contexts.
 
-### [2.1b – Portfolio Management Concepts]($2)
+### [2.1b – Portfolio Management Concepts](#)
 Core concepts of portfolio management, including portfolio governance, balancing and optimization, resource allocation, and portfolio performance management. Examines how organizations manage collections of projects and programs to maximize strategic value.
 
-### [2.1c – Project and Program Alignment]($2)
+### [2.1c – Project and Program Alignment](#)
 The relationship between projects, programs, and portfolios. How programs coordinate related projects, how alignment is maintained throughout execution, and how governance ensures continued strategic fit.
 
-### [2.1d – Benefits Realization and Value Creation]($2)
+### [2.1d – Benefits Realization and Value Creation](#)
 Moving from project outputs to organizational outcomes. Benefits identification, planning, tracking, and realization. Understanding the difference between deliverables and value, and how to measure strategic contribution.
 
-### [2.1e – Strategic Planning and Roadmaps]($2)
+### [2.1e – Strategic Planning and Roadmaps](#)
 Creating strategic roadmaps that guide multi-year project and program planning. Balancing long-term vision with adaptive execution, especially in agile and hybrid contexts. Understanding how roadmaps evolve as strategy and market conditions change.
 
-### [2.1f – Monitoring and Responding to External Business Environment Changes]($2)
+### [2.1f – Monitoring and Responding to External Business Environment Changes](#)
 Establishing processes to monitor external environment (regulatory, market, technology, economic, geopolitical changes). Assessing impact of external changes on project viability. Responding strategically when environment shifts. Communicating external risks to decision-makers. Integrating environmental scanning across different delivery approaches.
 
-### [2.1g – Advanced Portfolio Management Domains]($2)
+### [2.1g – Advanced Portfolio Management Domains](#)
 Brief overview of advanced domains including Portfolio Stakeholder Engagement, Risk Management, and Capacity/Capability Management.
 
-### [2.1h – Project Management Offices]($2)
+### [2.1h – Project Management Offices](#)
 Understanding PMOs as strategic partners that enable organizational success. The PMO Value Ring™ framework for customer-centric value delivery. PMO types, services, and maturity levels. Implementing and evolving PMOs to meet organizational needs.
 
 ---
@@ -136,4 +136,4 @@ Strategic alignment is not a one-time activity during project selection. This ch
 
 ---
 
-**Next**: Begin with [2.1a – Organizational Strategy and Project Selection]($2) to understand how strategy drives project selection decisions.
+**Next**: Begin with [2.1a – Organizational Strategy and Project Selection](#) to understand how strategy drives project selection decisions.
