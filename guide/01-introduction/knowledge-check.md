@@ -15,7 +15,7 @@ Test your understanding of the PMP exam basics and fundamental concepts covered 
       ],
       correct: 1,
       explanation: 'The July 2026 PMP exam has 185 total questions, including 175 scored questions and 10 pretest questions.',
-      reference: 'Section 1.2.1'
+      reference: 'Section 1.1.2'
     },
     {
       text: 'How much time is allocated for the PMP exam?',
@@ -27,7 +27,7 @@ Test your understanding of the PMP exam basics and fundamental concepts covered 
       ],
       correct: 1,
       explanation: 'The exam provides 240 minutes (4 hours) to answer 185 questions, including two scheduled 5-minute breaks.',
-      reference: 'Section 1.2.2'
+      reference: 'Section 1.1.2'
     },
     {
       text: 'Which domain has the highest weight on the 2026 PMP exam?',
@@ -39,7 +39,7 @@ Test your understanding of the PMP exam basics and fundamental concepts covered 
       ],
       correct: 1,
       explanation: 'The Process domain carries the highest weight at 41%, followed by People at 33% and Business Environment at 26%.',
-      reference: 'Section 1.3'
+      reference: 'Section 1.1.3'
     },
     {
       text: 'What is a key change in the 2026 PMP exam compared to previous versions?',
@@ -51,7 +51,7 @@ Test your understanding of the PMP exam basics and fundamental concepts covered 
       ],
       correct: 1,
       explanation: 'The Business Environment domain weight increased from 8% to 26%, reflecting PMI\'s emphasis on strategy, governance, and value delivery.',
-      reference: 'Section 1.6.2'
+      reference: 'Section 1.1.3'
     },
     {
       text: 'What type of questions can you expect on the new PMP exam?',
@@ -63,7 +63,7 @@ Test your understanding of the PMP exam basics and fundamental concepts covered 
       ],
       correct: 2,
       explanation: 'The exam includes multiple formats: case/scenario sets, multiple-choice, multiple-response, matching, graphic-based questions, and interactive items like drag-and-drop.',
-      reference: 'Section 1.2.3'
+      reference: 'Section 1.1.2'
     }
   ]"
 />
