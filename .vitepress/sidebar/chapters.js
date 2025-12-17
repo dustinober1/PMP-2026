@@ -73,10 +73,15 @@ export function createSidebar() {
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/04-stakeholder/' },
-        { text: '4.1 Stakeholder Identification and Analysis', link: '/guide/04-stakeholder/stakeholder-communication' },
+        {
+          text: '4.1 Stakeholder Analysis', link: '/guide/04-stakeholder/stakeholder-analysis', items: [
+            { text: '4.1a Mapping', link: '/guide/04-stakeholder/stakeholder-mapping' },
+            { text: '4.1b Classification', link: '/guide/04-stakeholder/stakeholder-classification' }
+          ]
+        },
         { text: '4.2 Communication Planning', link: '/guide/04-stakeholder/communication-planning' },
-        { text: '4.3 Stakeholder Engagement', link: '/guide/04-stakeholder/stakeholder-engagement' },
-        { text: '4.4 Negotiation and Decision-Making', link: '/guide/04-stakeholder/conflict-negotiation' },
+        { text: '4.3 Active Engagement', link: '/guide/04-stakeholder/stakeholder-engagement' },
+        { text: '4.4 Negotiation & Decision-Making', link: '/guide/04-stakeholder/conflict-negotiation' },
         { text: '📝 Knowledge Check', link: '/guide/04-stakeholder/knowledge-check' }
       ]
     },
