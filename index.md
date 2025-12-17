@@ -370,7 +370,7 @@ import { ref } from 'vue'
 <div class="cta-section">
   <h2 class="cta-title">Ready to Pass the PMP Exam?</h2>
   <p class="cta-text">Start your journey to becoming a certified Project Management Professional today.</p>
-  <a href="/guide/01-introduction/understanding-exam" class="cta-button">
+  <a href="/PMP-2026/guide/01-introduction/understanding-exam.html" class="cta-button">
     Begin Chapter 1 →
   </a>
 </div>
