@@ -1,19 +1,16 @@
 ---
 layout: home
 hero:
-  name: PMP Exam Prep 2026
-  text: Comprehensive Study Guide
-  tagline: Master the Project Management Professional exam with our complete 2026 curriculum
-  image:
-    src: /hero-image.png
-    alt: PMP Exam Preparation
+  name: "PMP Exam Prep"
+  text: "2026 Edition"
+  tagline: Master the Project Management Professional exam with our comprehensive, interactive study guide aligned to the new 2026 Examination Content Outline
   actions:
     - theme: brand
-      text: Start Studying
-      link: /guide/01-introduction/understanding-exam.md
+      text: Start Studying →
+      link: /guide/01-introduction/understanding-exam
     - theme: alt
-      text: View Chapters
-      link: /guide/
+      text: View All Chapters
+      link: /guide/01-introduction/understanding-exam
     - theme: alt
       text: Practice Exams
       link: /guide/10-exam-prep/
@@ -21,61 +18,337 @@ hero:
 features:
   - icon: 📚
     title: Comprehensive Content
-    details: 10 chapters covering all three domains of the PMP exam with updated 2026 content
+    details: 10 in-depth chapters covering all three domains — People (42%), Process (50%), and Business Environment (8%)
   - icon: 🎯
-    title: Practice Focused
-    details: 3 full-length practice exams with 185 questions each, matching the new exam format
+    title: Exam-Focused Practice
+    details: 3 full-length practice exams with 185 questions each, matching the new exam format with detailed explanations
   - icon: 🔄
     title: All Methodologies
-    details: Covers predictive, agile, and hybrid approaches as tested in the exam
+    details: Master predictive, agile, and hybrid approaches as tested in the 2026 exam with real-world scenarios
   - icon: ✨
     title: Interactive Learning
-    details: Built-in quizzes, progress tracking, and immediate feedback
+    details: Built-in knowledge checks, progress tracking, and immediate feedback to reinforce your understanding
+  - icon: 🤖
+    title: AI & Innovation
+    details: New content on AI essentials for project professionals — a key addition to the 2026 exam blueprint
   - icon: 📱
-    title: Mobile Optimized
-    details: Study anywhere with our responsive design that works on all devices
-  - icon: ♿
-    title: WCAG Compliant
-    details: Fully accessible design with proper contrast ratios and screen reader support
+    title: Study Anywhere
+    details: Fully responsive design optimized for desktop, tablet, and mobile — study on any device, anytime
 ---
+
+<script setup>
+import { ref } from 'vue'
+</script>
+
+<style>
+.home-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--color-purple-600), var(--color-purple-800));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--vp-c-text-2);
+  margin-bottom: 3rem;
+  font-size: 1.125rem;
+}
+
+.changes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.change-card {
+  background: linear-gradient(135deg, var(--color-purple-50), white);
+  border: 1px solid var(--color-purple-200);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.dark .change-card {
+  background: linear-gradient(135deg, rgba(147, 51, 234, 0.1), var(--vp-c-bg-soft));
+  border-color: rgba(147, 51, 234, 0.3);
+}
+
+.change-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(147, 51, 234, 0.15);
+}
+
+.change-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--color-purple-500), var(--color-purple-700));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.change-label {
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  margin-top: 0.5rem;
+}
+
+.domains-section {
+  background: linear-gradient(135deg, var(--color-purple-50), var(--color-purple-100));
+  border-radius: 1.5rem;
+  padding: 3rem;
+  margin: 3rem 0;
+}
+
+.dark .domains-section {
+  background: linear-gradient(135deg, rgba(147, 51, 234, 0.15), rgba(147, 51, 234, 0.05));
+}
+
+.domain-bar {
+  margin-bottom: 1.5rem;
+}
+
+.domain-label {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.domain-name {
+  color: var(--vp-c-text-1);
+}
+
+.domain-percent {
+  color: var(--color-purple-600);
+}
+
+.domain-track {
+  height: 12px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.dark .domain-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.domain-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-purple-500), var(--color-purple-700));
+  border-radius: 9999px;
+  transition: width 1s ease;
+}
+
+.steps-section {
+  margin: 4rem 0;
+}
+
+.steps-grid {
+  display: grid;
+  gap: 1.5rem;
+  counter-reset: step;
+}
+
+.step-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding: 1.5rem;
+  background: white;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.dark .step-card {
+  background: var(--vp-c-bg-soft);
+}
+
+.step-card:hover {
+  border-color: var(--color-purple-300);
+  box-shadow: 0 8px 30px rgba(147, 51, 234, 0.1);
+}
+
+.step-number {
+  flex-shrink: 0;
+  width: 3rem;
+  height: 3rem;
+  background: linear-gradient(135deg, var(--color-purple-600), var(--color-purple-700));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.step-content h4 {
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  margin-bottom: 0.5rem;
+}
+
+.step-content p {
+  color: var(--vp-c-text-2);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, var(--color-purple-600), var(--color-purple-800));
+  border-radius: 1.5rem;
+  margin: 4rem 0;
+}
+
+.cta-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.cta-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2.5rem;
+  background: white;
+  color: var(--color-purple-700);
+  font-weight: 700;
+  font-size: 1.125rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+</style>
+
+<div class="home-content">
 
 ## What's New in 2026?
 
-The PMP exam is updating in July 2026 with significant changes:
+<p class="section-subtitle">The PMP exam is updating in July 2026 with significant changes</p>
 
-- **185 questions** (up from 180)
-- **240 minutes** duration with two 5-minute breaks
-- **Enhanced focus** on AI, data, and sustainability
-- **More scenarios** reflecting real-world project challenges
+<div class="changes-grid">
+  <div class="change-card">
+    <div class="change-number">185</div>
+    <div class="change-label">Questions (up from 180)</div>
+  </div>
+  <div class="change-card">
+    <div class="change-number">240</div>
+    <div class="change-label">Minutes with 2 breaks</div>
+  </div>
+  <div class="change-card">
+    <div class="change-number">AI</div>
+    <div class="change-label">Enhanced focus on AI & data</div>
+  </div>
+  <div class="change-card">
+    <div class="change-number">🌱</div>
+    <div class="change-label">Sustainability emphasis</div>
+  </div>
+</div>
 
-This guide has been completely updated to reflect these changes, ensuring you study the most current material.
+## Exam Domain Breakdown
+
+<div class="domains-section">
+  <div class="domain-bar">
+    <div class="domain-label">
+      <span class="domain-name">👥 People</span>
+      <span class="domain-percent">42%</span>
+    </div>
+    <div class="domain-track">
+      <div class="domain-fill" style="width: 42%;"></div>
+    </div>
+  </div>
+  <div class="domain-bar">
+    <div class="domain-label">
+      <span class="domain-name">⚙️ Process</span>
+      <span class="domain-percent">50%</span>
+    </div>
+    <div class="domain-track">
+      <div class="domain-fill" style="width: 50%;"></div>
+    </div>
+  </div>
+  <div class="domain-bar">
+    <div class="domain-label">
+      <span class="domain-name">🏢 Business Environment</span>
+      <span class="domain-percent">8%</span>
+    </div>
+    <div class="domain-track">
+      <div class="domain-fill" style="width: 8%;"></div>
+    </div>
+  </div>
+</div>
 
 ## How to Use This Guide
 
-1. **Start with Chapter 1** to understand the exam format and core concepts
-2. **Progress through each chapter** sequentially for comprehensive coverage
-3. **Use knowledge checks** to validate your understanding
-4. **Take the practice exams** to simulate the real test environment
-5. **Track your progress** with our built-in progress indicators
+<div class="steps-section">
+  <div class="steps-grid">
+    <div class="step-card">
+      <div class="step-number">1</div>
+      <div class="step-content">
+        <h4>Start with Chapter 1</h4>
+        <p>Understand the exam format, structure, and core project management concepts before diving into domain-specific content.</p>
+      </div>
+    </div>
+    <div class="step-card">
+      <div class="step-number">2</div>
+      <div class="step-content">
+        <h4>Progress Through Each Chapter</h4>
+        <p>Work through Chapters 2-9 sequentially for comprehensive coverage of all exam topics across all three domains.</p>
+      </div>
+    </div>
+    <div class="step-card">
+      <div class="step-number">3</div>
+      <div class="step-content">
+        <h4>Test Your Knowledge</h4>
+        <p>Use the knowledge checks at the end of each section to validate your understanding and identify areas for review.</p>
+      </div>
+    </div>
+    <div class="step-card">
+      <div class="step-number">4</div>
+      <div class="step-content">
+        <h4>Take Practice Exams</h4>
+        <p>Complete all three full-length practice exams to simulate the real test environment and build exam confidence.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-## Exam Domains
+<div class="cta-section">
+  <h2 class="cta-title">Ready to Pass the PMP Exam?</h2>
+  <p class="cta-text">Start your journey to becoming a certified Project Management Professional today.</p>
+  <a href="/guide/01-introduction/understanding-exam" class="cta-button">
+    Begin Chapter 1 →
+  </a>
+</div>
 
-The exam covers three domains:
-
-1. **People (42%)** - Leading teams, stakeholder engagement, communication
-2. **Process (50%)** - Planning, execution, monitoring, and closing
-3. **Business Environment (8%)** - Strategy, compliance, and value delivery
-
-Our guide aligns with these domains to ensure focused preparation.
-
----
-
-<style>
-.hero-image {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-}
-</style>
+</div>

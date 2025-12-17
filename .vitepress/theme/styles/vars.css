@@ -1,128 +1,199 @@
-/* Color Palette Variables */
+/* Professional Purple Color Palette */
 :root {
-  --color-1: #f3def5; /* Lightest - backgrounds */
-  --color-2: #cbaad8; /* Light accent - hover states */
-  --color-3: #b08fc8; /* Medium accent - sidebar */
-  --color-4: #9e72c3; /* Dark accent - headers */
-  --color-5: #924dbf; /* Darkest - primary actions */
+  /* Primary Purple Palette */
+  --color-purple-50: #faf5ff;
+  --color-purple-100: #f3e8ff;
+  --color-purple-200: #e9d5ff;
+  --color-purple-300: #d8b4fe;
+  --color-purple-400: #c084fc;
+  --color-purple-500: #a855f7;
+  --color-purple-600: #9333ea;
+  --color-purple-700: #7e22ce;
+  --color-purple-800: #6b21a8;
+  --color-purple-900: #581c87;
+  --color-purple-950: #3b0764;
+
+  /* Legacy color mappings for compatibility */
+  --color-1: var(--color-purple-100);
+  --color-2: var(--color-purple-200);
+  --color-3: var(--color-purple-400);
+  --color-4: var(--color-purple-600);
+  --color-5: var(--color-purple-700);
 
   /* Semantic color mappings */
   --vp-c-bg: #ffffff;
-  --vp-c-bg-soft: var(--color-1);
-  --vp-c-bg-alt: var(--color-1);
+  --vp-c-bg-soft: var(--color-purple-50);
+  --vp-c-bg-alt: var(--color-purple-50);
   --vp-c-bg-elv: #ffffff;
 
-  --vp-c-text-1: #2c2c2c;
-  --vp-c-text-2: #444444;
-  --vp-c-text-3: #666666;
-  --vp-c-text-4: #888888;
+  --vp-c-text-1: #1e1b4b;
+  --vp-c-text-2: #3730a3;
+  --vp-c-text-3: #6366f1;
+  --vp-c-text-4: #818cf8;
 
-  --vp-c-brand: var(--color-5);
-  --vp-c-brand-light: var(--color-4);
-  --vp-c-brand-lighter: var(--color-3);
-  --vp-c-brand-dark: #7a3ba7;
-  --vp-c-brand-darker: #5e2b85;
+  /* Brand colors */
+  --vp-c-brand-1: var(--color-purple-700);
+  --vp-c-brand-2: var(--color-purple-600);
+  --vp-c-brand-3: var(--color-purple-500);
+  --vp-c-brand-soft: var(--color-purple-100);
 
-  --vp-c-accent-bg: var(--color-1);
-  --vp-c-accent-hover: var(--color-2);
-  --vp-c-accent-active: var(--color-3);
+  --vp-c-brand: var(--color-purple-700);
+  --vp-c-brand-light: var(--color-purple-600);
+  --vp-c-brand-lighter: var(--color-purple-400);
+  --vp-c-brand-dark: var(--color-purple-800);
+  --vp-c-brand-darker: var(--color-purple-900);
 
-  --vp-c-border: #e2e2e2;
-  --vp-c-border-hard: #d1d1d1;
-  --vp-c-divider: #e2e2e2;
+  /* Accent colors */
+  --vp-c-accent-bg: var(--color-purple-100);
+  --vp-c-accent-hover: var(--color-purple-200);
+  --vp-c-accent-active: var(--color-purple-300);
 
-  --vp-c-bg-gutter: #f6f6f6;
+  /* Border colors */
+  --vp-c-border: #e5e7eb;
+  --vp-c-border-hard: #d1d5db;
+  --vp-c-divider: #e5e7eb;
+
+  /* Gutter colors */
+  --vp-c-bg-gutter: #f9fafb;
   --vp-c-bg-gutter-light: #fafafa;
   --vp-c-bg-gutter-lite: #fcfcfc;
 
-  --vp-c-shadow: #88888833;
-  --vp-c-shadow-light: #0000001a;
-  --vp-c-shadow-lighter: #0000000d;
+  /* Shadow colors */
+  --vp-c-shadow: rgba(59, 7, 100, 0.1);
+  --vp-c-shadow-light: rgba(59, 7, 100, 0.05);
+  --vp-c-shadow-lighter: rgba(59, 7, 100, 0.02);
 
+  /* Muted backgrounds */
   --vp-c-bg-soft-outset: #ffffff;
-  --vp-c-bg-mute: #f2f2f2;
-  --vp-c-bg-mute-dark: #e8e8e8;
-  --vp-c-bg-mute-darker: #dcdcdc;
-  --vp-c-bg-mute-darkest: #d0d0d0;
+  --vp-c-bg-mute: var(--color-purple-50);
+  --vp-c-bg-mute-dark: var(--color-purple-100);
+  --vp-c-bg-mute-darker: var(--color-purple-200);
+  --vp-c-bg-mute-darkest: var(--color-purple-300);
 
-  /* Custom component colors */
-  --vp-c-tip: var(--color-4);
-  --vp-c-tip-bg: var(--color-1);
-  --vp-c-tip-border: var(--color-3);
+  /* Custom container colors */
+  --vp-c-tip: var(--color-purple-600);
+  --vp-c-tip-bg: var(--color-purple-50);
+  --vp-c-tip-border: var(--color-purple-300);
 
-  --vp-c-warning: #e7c000;
-  --vp-c-warning-bg: #fffbde;
-  --vp-c-warning-border: #e7c000;
+  --vp-c-warning: #d97706;
+  --vp-c-warning-bg: #fffbeb;
+  --vp-c-warning-border: #fcd34d;
 
-  --vp-c-danger: #cc0000;
-  --vp-c-danger-bg: #ffeded;
-  --vp-c-danger-border: #ff4d4d;
+  --vp-c-danger: #dc2626;
+  --vp-c-danger-bg: #fef2f2;
+  --vp-c-danger-border: #fca5a5;
 
-  --vp-c-info: var(--color-4);
-  --vp-c-info-bg: var(--color-1);
-  --vp-c-info-border: var(--color-3);
+  --vp-c-info: var(--color-purple-600);
+  --vp-c-info-bg: var(--color-purple-50);
+  --vp-c-info-border: var(--color-purple-300);
 
   /* Button colors */
-  --vp-button-brand-bg: var(--color-5);
-  --vp-button-brand-hover-bg: var(--color-4);
-  --vp-button-brand-active-bg: var(--color-3);
+  --vp-button-brand-bg: linear-gradient(135deg, var(--color-purple-600) 0%, var(--color-purple-700) 100%);
+  --vp-button-brand-hover-bg: linear-gradient(135deg, var(--color-purple-500) 0%, var(--color-purple-600) 100%);
+  --vp-button-brand-active-bg: var(--color-purple-800);
   --vp-button-brand-text: #ffffff;
 
-  --vp-button-alt-bg: var(--color-1);
-  --vp-button-alt-hover-bg: var(--color-2);
-  --vp-button-alt-active-bg: var(--color-3);
-  --vp-button-alt-text: var(--color-5);
+  --vp-button-alt-bg: var(--color-purple-100);
+  --vp-button-alt-hover-bg: var(--color-purple-200);
+  --vp-button-alt-active-bg: var(--color-purple-300);
+  --vp-button-alt-text: var(--color-purple-700);
 
-  --vp-button-sponsor-bg: var(--color-5);
-  --vp-button-sponsor-hover-bg: var(--color-4);
-  --vp-button-sponsor-active-bg: var(--color-3);
+  --vp-button-sponsor-bg: linear-gradient(135deg, var(--color-purple-500) 0%, #ec4899 100%);
+  --vp-button-sponsor-hover-bg: linear-gradient(135deg, var(--color-purple-400) 0%, #f472b6 100%);
+  --vp-button-sponsor-active-bg: var(--color-purple-600);
   --vp-button-sponsor-text: #ffffff;
 
   /* Home page hero */
-  --vp-home-hero-name-color: var(--color-5);
-  --vp-home-hero-name-background: linear-gradient(120deg, var(--color-5) 30%, var(--color-4));
-  --vp-home-hero-image-background-image: linear-gradient(135deg, var(--color-1) 50%, var(--color-2) 50%);
-  --vp-home-hero-image-filter: blur(40px);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, var(--color-purple-600) 0%, var(--color-purple-900) 100%);
+  --vp-home-hero-image-background-image: linear-gradient(135deg, var(--color-purple-200) 50%, var(--color-purple-400) 50%);
+  --vp-home-hero-image-filter: blur(56px);
 
   /* Sidebar */
   --vp-sidebar-bg-color: #ffffff;
-  --vp-sidebar-width: 16rem;
-  --vp-sidebar-width-mobile: 256px;
+  --vp-sidebar-width: 280px;
+  --vp-sidebar-width-mobile: 280px;
 
   /* Content */
   --vp-content-width: 760px;
   --vp-content-wide-width: 1280px;
+
+  /* Navigation */
+  --vp-nav-height: 64px;
+  --vp-nav-bg-color: rgba(255, 255, 255, 0.9);
+  --vp-nav-screen-bg-color: var(--color-purple-50);
+
+  /* Code colors */
+  --vp-code-color: var(--color-purple-700);
+  --vp-code-bg: var(--color-purple-50);
+  --vp-code-block-bg: #1e1b4b;
+  --vp-code-line-highlight-color: rgba(147, 51, 234, 0.1);
 }
 
-/* Dark mode adjustments */
+/* Dark mode - Premium Purple */
 .dark {
-  --vp-c-bg: #1a1a1a;
-  --vp-c-bg-soft: #242424;
-  --vp-c-bg-alt: #1e1e1e;
-  --vp-c-bg-elv: #2a2a2a;
+  --vp-c-bg: #0f0a19;
+  --vp-c-bg-soft: #1a1228;
+  --vp-c-bg-alt: #150d22;
+  --vp-c-bg-elv: #1f1533;
 
-  --vp-c-text-1: #ffffff;
-  --vp-c-text-2: #e0e0e0;
-  --vp-c-text-3: #c0c0c0;
-  --vp-c-text-4: #a0a0a0;
+  --vp-c-text-1: #f3e8ff;
+  --vp-c-text-2: #d8b4fe;
+  --vp-c-text-3: #c084fc;
+  --vp-c-text-4: #a855f7;
 
-  --vp-c-border: #3a3a3a;
-  --vp-c-border-hard: #4a4a4a;
-  --vp-c-divider: #3a3a3a;
+  --vp-c-brand-1: var(--color-purple-400);
+  --vp-c-brand-2: var(--color-purple-500);
+  --vp-c-brand-3: var(--color-purple-600);
+  --vp-c-brand-soft: rgba(168, 85, 247, 0.16);
 
-  --vp-c-bg-gutter: #0f0f0f;
-  --vp-c-bg-gutter-light: #1a1a1a;
-  --vp-c-bg-gutter-lite: #202020;
+  --vp-c-brand: var(--color-purple-500);
+  --vp-c-brand-light: var(--color-purple-400);
+  --vp-c-brand-lighter: var(--color-purple-300);
+  --vp-c-brand-dark: var(--color-purple-600);
+  --vp-c-brand-darker: var(--color-purple-700);
 
-  --vp-c-shadow: #00000066;
-  --vp-c-shadow-light: #0000004d;
-  --vp-c-shadow-lighter: #00000033;
+  --vp-c-border: rgba(147, 51, 234, 0.2);
+  --vp-c-border-hard: rgba(147, 51, 234, 0.3);
+  --vp-c-divider: rgba(147, 51, 234, 0.15);
 
-  --vp-c-bg-soft-outset: #242424;
-  --vp-c-bg-mute: #2a2a2a;
-  --vp-c-bg-mute-dark: #333333;
-  --vp-c-bg-mute-darker: #3a3a3a;
-  --vp-c-bg-mute-darkest: #404040;
+  --vp-c-bg-gutter: #0c0715;
+  --vp-c-bg-gutter-light: #100b1c;
+  --vp-c-bg-gutter-lite: #150e24;
 
-  --vp-sidebar-bg-color: #1a1a1a;
+  --vp-c-shadow: rgba(147, 51, 234, 0.3);
+  --vp-c-shadow-light: rgba(147, 51, 234, 0.2);
+  --vp-c-shadow-lighter: rgba(147, 51, 234, 0.1);
+
+  --vp-c-bg-soft-outset: #1a1228;
+  --vp-c-bg-mute: #1f1533;
+  --vp-c-bg-mute-dark: #251a3d;
+  --vp-c-bg-mute-darker: #2e2149;
+  --vp-c-bg-mute-darkest: #382955;
+
+  --vp-sidebar-bg-color: #0f0a19;
+
+  --vp-c-tip: var(--color-purple-400);
+  --vp-c-tip-bg: rgba(168, 85, 247, 0.1);
+  --vp-c-tip-border: rgba(168, 85, 247, 0.3);
+
+  --vp-c-warning: #fbbf24;
+  --vp-c-warning-bg: rgba(251, 191, 36, 0.1);
+  --vp-c-warning-border: rgba(251, 191, 36, 0.3);
+
+  --vp-c-danger: #f87171;
+  --vp-c-danger-bg: rgba(248, 113, 113, 0.1);
+  --vp-c-danger-border: rgba(248, 113, 113, 0.3);
+
+  --vp-c-info: var(--color-purple-400);
+  --vp-c-info-bg: rgba(168, 85, 247, 0.1);
+  --vp-c-info-border: rgba(168, 85, 247, 0.3);
+
+  --vp-nav-bg-color: rgba(15, 10, 25, 0.9);
+  --vp-nav-screen-bg-color: #0f0a19;
+
+  --vp-code-color: var(--color-purple-300);
+  --vp-code-bg: rgba(147, 51, 234, 0.15);
+  --vp-code-block-bg: #0c0715;
+  --vp-code-line-highlight-color: rgba(147, 51, 234, 0.2);
 }
