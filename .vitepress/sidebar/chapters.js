@@ -145,7 +145,9 @@ export function createSidebar() {
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/10-ai-pm/' },
-        { text: '10.1 AI Essentials for Project Professionals', link: '/guide/10-ai-pm/ai-essentials' },
+        { text: '10.1 AI Essentials', link: '/guide/10-ai-pm/ai-essentials' },
+        { text: '10.2 Responsible AI', link: '/guide/10-ai-pm/responsible-ai' },
+        { text: '10.3 AI in the Lifecycle', link: '/guide/10-ai-pm/ai-lifecycle' },
         { text: '📝 Knowledge Check', link: '/guide/10-ai-pm/knowledge-check' }
       ]
     },
