@@ -1,84 +1,124 @@
----
-title: Chapter 7 - Risk, Quality, and Complexity
----
+# Chapter 7: Risk, Quality & Complexity
 
-# Chapter 7: Risk, Quality, and Complexity
+Modern projects live in a world of **V.U.C.A.** (Volatility, Uncertainty, Complexity, and Ambiguity). In the 2026 PMP exam, a Project Manager’s value is measured by how they navigate these waters while maintaining quality.
 
-Welcome to Chapter 7 of the PMP Exam Prep 2026 study guide. This chapter covers managing project uncertainty through risk management, ensuring deliverable quality, and navigating project complexity.
-
-::: info Process Domain
-Risk and quality management are key elements of the **Process domain (41% of exam)**. The 2026 exam also emphasizes navigating complexity and uncertainty—skills essential for modern project environments.
+::: info ⚠️ The Domain of Uncertainty
+Risk, Quality, and Complexity are interwoven. In 2026, the focus has shifted from "registering" risks to **Active Resilience** and **Quality at Source**.
 :::
 
-## Why This Chapter Matters
+## What You'll Learn
+- **Risk Management**: Moving from defensive mapping to offensive opportunity exploitation.
+- **Quality Management**: Understanding that "Quality is not an act, it's a habit."
+- **Complexity**: Navigating systems where the relationship between cause and effect is unclear.
 
-Projects operate in uncertain environments:
+<div class="section-grid">
+  <div class="section-card">
+    <div class="section-title">7.1 Risk Management</div>
+    <p class="section-description">Identification, Qualitative vs. Quantitative analysis, and the critical 2026 Response Strategies.</p>
+    <a href="./risk-management" class="section-link">Manage the Unknown →</a>
+  </div>
 
-- **Risks** threaten objectives if not identified and managed
-- **Quality** issues lead to rework, dissatisfaction, and failure
-- **Complexity** increases as projects involve more stakeholders, technologies, and dependencies
+  <div class="section-card">
+    <div class="section-title">7.2 Quality Management</div>
+    <p class="section-description">Quality Assurance vs. Control, the 7 Basic Quality Tools, and the mindset of Continuous Improvement.</p>
+    <a href="./quality-management" class="section-link">Ensure Deliverable Value →</a>
+  </div>
 
-Effective project managers proactively address all three.
+  <div class="section-card">
+    <div class="section-title">7.3 Navigating Complexity</div>
+    <p class="section-description">Handling human behavior, system interdependencies, and ambiguity using adaptive frameworks.</p>
+    <a href="./navigating-complexity" class="section-link">Tame the Chaos →</a>
+  </div>
 
-## Chapter Sections
-
-### [7.1 – Risk Management](./risk-management)
-Identifying and responding to project uncertainty.
-- Risk management planning
-- Risk identification techniques
-- Qualitative and quantitative analysis
-- Risk response strategies
-- Risk monitoring and control
-
-### [7.2 – Quality Management](./quality-management)
-Ensuring deliverables meet requirements.
-- Quality planning
-- Quality assurance vs. quality control
-- Quality tools and techniques
-- Cost of quality
-- Continuous improvement
-
-### [7.3 – Navigating Complexity](./navigating-complexity)
-Managing in complex and uncertain environments.
-- Sources of project complexity
-- Complexity assessment
-- Adaptive approaches
-- Managing ambiguity
-
-### [📝 Knowledge Check](./knowledge-check)
-Test your understanding of Chapter 7 concepts.
+  <div class="section-card knowledge-check">
+    <div class="section-title">Knowledge Check</div>
+    <p class="section-description">Apply your judgment to scenarios involving critical risks and quality failures.</p>
+    <a href="./knowledge-check" class="section-link">Verify Your Mastery →</a>
+  </div>
+</div>
 
 ---
 
-## Key Concepts to Master
+## Study Recommendation
+This chapter contains highly technical concepts (like Monte Carlo simulations) alongside highly soft skills (like navigating political complexity). Keep your focus on the **Impact on Value Delivery**.
 
-| Concept                      | Description                        | Exam Relevance |
-| ---------------------------- | ---------------------------------- | -------------- |
-| **Risk Response Strategies** | Avoid, mitigate, transfer, accept  | Very High      |
-| **Probability × Impact**     | Risk prioritization                | Very High      |
-| **Quality vs. Grade**        | Different concepts                 | High           |
-| **7 Quality Tools**          | Cause-effect, control charts, etc. | High           |
-| **Complexity Factors**       | Ambiguity, behavior, system        | Medium         |
+<div class="action-bar">
+  <a href="./risk-management" class="action-button primary">Start Risk Analysis</a>
+</div>
 
-## Learning Objectives
+<style>
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
 
-By the end of this chapter, you will be able to:
+.section-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
 
-1. ✅ Develop a risk management approach appropriate to the project
-2. ✅ Apply risk identification and analysis techniques
-3. ✅ Select appropriate risk response strategies
-4. ✅ Distinguish between quality assurance and quality control
-5. ✅ Apply quality tools for process improvement
-6. ✅ Navigate project complexity with adaptive approaches
+.section-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--vp-c-brand);
+  background: var(--vp-c-bg-mute);
+}
 
----
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--vp-c-text-1);
+}
 
-::: tip Exam Strategy
-Risk and quality questions often test your judgment about which technique or response is appropriate. Focus on understanding when to use each tool, not just what it is.
-:::
+.section-description {
+  font-size: 0.95rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
 
-## Quick Navigation
+.section-link {
+  font-weight: 600;
+  color: var(--vp-c-brand);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 
-- [Previous: Chapter 6 – Project Planning](../06-project-planning/)
-- [Next: Chapter 8 – Project Execution](../08-execution/)
-- [Return to Home](/)
+.section-link:hover {
+  text-decoration: underline;
+}
+
+.knowledge-check {
+  background: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-brand-light);
+}
+
+.action-bar {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.action-button.primary {
+  padding: 0.75rem 2rem;
+  background: var(--vp-c-brand);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.action-button.primary:hover {
+  opacity: 0.9;
+}
+</style>

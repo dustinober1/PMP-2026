@@ -1,202 +1,76 @@
-# Knowledge Check: Risk, Quality, and Complexity
+# Knowledge Check: Risk, Quality & Complexity
 
-Test your understanding of risk management, quality management, and navigating complexity.
+Test your ability to manage uncertainty, ensure quality, and navigate project messiness.
 
-## Practice Questions
-
-### Question 1: Risk Response Strategy
-
-A project team identifies a risk that a key vendor may go bankrupt. They decide to use a different vendor to eliminate this risk entirely. Which risk response strategy is this?
-
-- A) Mitigate
-- B) Transfer
-- C) Avoid ✓
-- D) Accept
-
-**Explanation**: Avoid eliminates the risk by changing the project plan. By using a different vendor, the bankruptcy risk is eliminated.
-
----
-
-### Question 2: EMV Calculation
-
-A risk has a 30% probability of occurring and would cost $50,000 if it happens. What is the Expected Monetary Value (EMV)?
-
-- A) $15,000 ✓
-- B) $50,000
-- C) $30,000
-- D) $35,000
-
-**Explanation**: EMV = Probability × Impact = 0.30 × $50,000 = $15,000
-
----
-
-### Question 3: Quality vs. Grade
-
-A software product has all required features working correctly, but it only supports 100 concurrent users (not enterprise-scale). This describes:
-
-- A) Low quality
-- B) Low grade ✓
-- C) Poor quality assurance
-- D) Defective product
-
-**Explanation**: The product meets its requirements (quality), but is lower grade (simpler category). Low grade can be acceptable; low quality is not.
-
----
-
-### Question 4: QA vs. QC
-
-A project manager conducts a process audit to ensure the team is following established procedures. This is an example of:
-
-- A) Quality Control
-- B) Quality Assurance ✓
-- C) Quality Planning
-- D) Continuous Improvement
-
-**Explanation**: QA focuses on processes (doing things right). Auditing procedures is QA. Testing deliverables would be QC.
-
----
-
-### Question 5: Seven Quality Tools
-
-Which quality tool would be MOST useful to identify the causes that contribute most to a problem?
-
-- A) Control Chart
-- B) Pareto Chart ✓
-- C) Histogram
-- D) Scatter Diagram
-
-**Explanation**: Pareto charts identify the "vital few" causes (80/20 rule). They help prioritize which causes to address first.
-
----
-
-### Question 6: Risk Transfer
-
-A company purchases insurance to cover potential project losses. This is an example of:
-
-- A) Risk avoidance
-- B) Risk mitigation
-- C) Risk transfer ✓
-- D) Risk acceptance
-
-**Explanation**: Insurance transfers the financial impact of a risk to the insurance company. You still pay for transfers (premiums).
-
----
-
-### Question 7: Control Chart
-
-On a control chart, data points fall within the control limits but show seven consecutive points above the mean. This indicates:
-
-- A) Process is in control
-- B) Normal variation
-- C) Process is out of control ✓
-- D) Random fluctuation
-
-**Explanation**: The "Rule of Seven" - seven consecutive points on one side of the mean indicates a non-random pattern, signaling the process may be out of control.
-
----
-
-### Question 8: Complexity vs. Complicated
-
-The difference between a complicated and complex project is:
-
-- A) Complex projects have more tasks
-- B) Complicated projects are harder
-- C) Complex projects have unpredictable emergent behavior ✓
-- D) Complicated projects cost more
-
-**Explanation**: Complicated projects can be analyzed and planned with expertise. Complex projects have emergent, unpredictable behavior requiring adaptive approaches.
-
----
-
-### Question 9: Residual Risk
-
-After implementing a risk response, the remaining risk is called:
-
-- A) Secondary risk
-- B) Residual risk ✓
-- C) Transferred risk
-- D) Accepted risk
-
-**Explanation**: Residual risk is what remains after the response. Secondary risk is NEW risk created by the response.
-
----
-
-### Question 10: Opportunity Response
-
-A project team identifies an opportunity to complete early if they add a skilled resource. They decide to assign their best developer to maximize this chance. This strategy is:
-
-- A) Accept
-- B) Enhance
-- C) Exploit ✓
-- D) Share
-
-**Explanation**: Exploit ensures the opportunity happens by taking definite action (assigning best resource).
-
----
+<QuizComponent
+  title="Chapter 7 Knowledge Check"
+  :questions="[
+    {
+      text: 'A critical risk has just occurred. The project manager identifies that the risk was already documented in the Risk Register and has a pre-planned response. What is the PM\'s FIRST action?',
+      options: ['Update the Risk Register to status: occurred', 'Inform the Sponsor and wait for instructions', 'Implement the planned Risk Response and update the Issue Log', 'Analyze the impact using a Monte Carlo simulation'],
+      correct: 2,
+      explanation: 'Once a risk occurs, it is an issue. The PM should immediately execute the response they planned and move the item to the Issue Log.',
+      reference: 'Section 7.1'
+    },
+    {
+      text: 'A team member is auditing the software development process to ensure that the team is following the mandated security protocols. What is this activity called?',
+      options: ['Quality Control', 'Quality Assurance', 'Scope Validation', 'Risk Mitigation'],
+      correct: 1,
+      explanation: 'Auditing processes to ensure they are being followed correctly is a proactive Quality Assurance (QA) activity.',
+      reference: 'Section 7.2'
+    },
+    {
+      text: 'The project team is dealing with a high number of defects. They want to identify which specific 20% of causes are creating 80% of the defects so they can prioritize their fixes. Which tool should they use?',
+      options: ['Cause-and-Effect Diagram', 'Pareto Chart', 'Control Chart', 'Scatter Diagram'],
+      correct: 1,
+      explanation: 'The Pareto Chart is based on the 80/20 rule and is used to prioritize the "vital few" over the "trivial many."',
+      reference: 'Section 7.2'
+    },
+    {
+      text: 'A project manager is working on a high-tech R&D project. The stakeholders agree on the vision, but no one is sure how to achieve it technically. The environment is highly unpredictable. Using the Cynefin framework, what is the best approach?',
+      options: ['Best Practice (Sense-Categorize-Respond)', 'Expert Analysis (Sense-Analyze-Respond)', 'Safe-to-Fail Experiments (Probe-Sense-Respond)', 'Immediate Action (Act-Sense-Respond)'],
+      correct: 2,
+      explanation: 'In a Complex environment (Probe-Sense-Respond), you must experiment because cause and effect are not clear upfront.',
+      reference: 'Section 7.3'
+    },
+    {
+      text: 'What is the most expensive cost of quality category?',
+      options: ['Prevention Costs', 'Appraisal Costs', 'Internal Failure Costs', 'External Failure Costs'],
+      correct: 3,
+      explanation: 'External Failure Costs (e.g., lawsuits, loss of reputation, warranty claims) are always the most expensive because they happen after the customer has received the product.',
+      reference: 'Section 7.2'
+    }
+  ]"
+/>
 
 ## Additional Study Topics
 
 For complete mastery of Chapter 7, ensure you understand:
 
-### Risk Management
-- Risk management plan components
-- Risk identification techniques
-- Qualitative analysis (P × I matrix)
-- Quantitative analysis (EMV, Monte Carlo)
-- Response strategies for threats and opportunities
-- Residual vs. secondary risk
-- Risk monitoring activities
+1. **Risk Strategies (7.1)**
+   - Difference between **Mitigate** (reduce) and **Avoid** (eliminate).
+   - **Secondary Risk**: A risk created by your response to another risk.
 
-### Quality Management
-- Quality vs. grade
-- QA (process) vs. QC (product)
-- Seven basic quality tools
-- Cost of quality categories
-- PDCA cycle
-- Continuous improvement approaches
+2. **The 7 Quality Tools (7.2)**
+   - **Control Charts**: Knowing the Rule of Seven (out of control).
+   - **Fishbone Diagram**: Identifying root causes via the 5 Whys.
 
-### Navigating Complexity
-- Simple vs. complicated vs. complex
-- Cynefin framework
-- Complexity sources and assessment
-- Handling ambiguity
-- Adaptive approaches
-- Systems thinking
+3. **Complexity Drivers (7.3)**
+   - Distinguishing between **Complicated** (solvable by experts) and **Complex** (needs experiments).
+   - The role of **Systems Thinking** in project integration.
 
 ---
 
-## Exam Tips for Risk and Quality Questions
+<div class="study-tip">
+  <strong>💡 Pro Tip:</strong> If the question mentions "Stakeholders disagreeing" and "Unclear tech," think <strong>Complexity</strong>. If it mentions "Math" and "Money," think <strong>Risk Analysis (EMV)</strong>.
+</div>
 
-::: tip Key Strategies
-For risk questions:
-1. Identify if it's a threat or opportunity
-2. Match the response strategy to the action described
-3. Know EMV = P × I
-
-For quality questions:
-1. Distinguish QA (process) from QC (product)
-2. Know what each of the 7 tools is used for
-3. Remember: prevention < failure cost
-:::
-
-### Common Wrong Answer Patterns
-
-- ❌ Confusing avoid with mitigate
-- ❌ Confusing transfer with acceptance
-- ❌ Confusing QA with QC
-- ❌ Thinking low grade = low quality
-- ❌ Treating complexity like just "harder"
-
-### Right Answer Patterns
-
-- ✅ Avoid = eliminate the risk entirely
-- ✅ Transfer = shift to third party (insurance, contracts)
-- ✅ QA = process focused, preventive
-- ✅ QC = product focused, detective
-- ✅ Complex = adaptive approach needed
-
----
-
-::: info Study Note
-Risk and quality are heavily tested. Know the response strategies by heart, and be able to identify which quality tool fits each scenario.
-:::
+<style>
+.study-tip {
+  background: var(--vp-c-brand-soft);
+  border-left: 4px solid var(--vp-c-brand);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+</style>
