@@ -14,7 +14,16 @@ export function createSidebar() {
         { text: '1.1 Understanding the New PMP Exam', link: '/guide/01-introduction/understanding-exam' },
         { text: '1.2 How To Use This Study Guide', link: '/guide/01-introduction/using-guide' },
         { text: '1.3 Ways of Working and Tailoring', link: '/guide/01-introduction/ways-of-working' },
-        { text: '1.4 Core Project Management Concepts', link: '/guide/01-introduction/core-concepts' },
+        {
+          text: '1.4 Core Project Management Concepts', link: '/guide/01-introduction/core-concepts', items: [
+            { text: '1.4a Stakeholders', link: '/guide/01-introduction/core-stakeholders' },
+            { text: '1.4b Triple Constraint', link: '/guide/01-introduction/core-triple-constraint' },
+            { text: '1.4c Quality', link: '/guide/01-introduction/core-quality' },
+            { text: '1.4d Risk', link: '/guide/01-introduction/core-risk' },
+            { text: '1.4e Data & Metrics', link: '/guide/01-introduction/core-data' },
+            { text: '1.4f Ethics', link: '/guide/01-introduction/core-ethics' }
+          ]
+        },
         { text: '📝 Knowledge Check', link: '/guide/01-introduction/knowledge-check' }
       ]
     },

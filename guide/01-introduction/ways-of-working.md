@@ -21,17 +21,78 @@ Use this section as your mental "toolbelt" for ways of working. While other part
 
 ## Opening Story: The New Project Manager's First Month
 
-Meet Sarah, a newly promoted project manager at a mid-size organization. In her first month, she is assigned three very different initiatives:
+<div class="sarah-intro">
+  <div class="sarah-card">
+    <div class="sarah-header">
+      <span class="sarah-emoji">👩‍💼</span>
+      <div>
+        <div class="sarah-name">Meet Sarah</div>
+        <div class="sarah-title">Newly Promoted Project Manager</div>
+      </div>
+    </div>
+    <p>In her first month, Sarah is assigned three very different initiatives. She quickly learns that a "one-size-fits-all" approach is the fastest way to fail.</p>
+    <div class="project-list">
+      <div class="project-pill predictive">🏢 Office Renovation</div>
+      <div class="project-pill agile">💻 Expense Software</div>
+      <div class="project-pill hybrid">🔄 Strategic Transformation</div>
+    </div>
+  </div>
+</div>
 
-1. A renovation of the corporate office building
-2. A redesign of the company's internal expense reporting software
-3. A strategic transformation project combining both the office redesign and new processes for how teams work together
+<style>
+.sarah-intro {
+  margin: 2rem 0;
+}
+.sarah-card {
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+.sarah-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.sarah-emoji {
+  font-size: 2.5rem;
+  background: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.sarah-name {
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: var(--vp-c-brand);
+}
+.sarah-title {
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+}
+.project-list {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.project-pill {
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.predictive { background: rgba(59, 130, 246, 0.1); color: #3b82f6; }
+.agile { background: rgba(16, 185, 129, 0.1); color: #10b981; }
+.hybrid { background: rgba(245, 158, 11, 0.1); color: #f59e0b; }
+</style>
 
-On her first day, Sarah thinks: *"I learned the PMBOK; I know how to manage projects. I'll use the same approach for all three."*
-
-By the end of her first month, Sarah realizes her mistake. Each project needed a different way of working, and she almost derailed one project by using the wrong approach. This chapter walks through Sarah's learning journey and explores why the approach that works beautifully for one project can actually hinder another.
-
-By the end of this chapter, you will understand not only *what* the three approaches are, but *why* Sarah needed to think differently about each project, and how to make similar choices on the exam.
+This chapter walks through Sarah's learning journey and explores why the approach that works beautifully for one project can actually hinder another. By the end, you'll have the diagnostic toolkit needed to make these same choices on the exam.
 
 ---
 

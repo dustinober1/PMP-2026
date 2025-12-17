@@ -1,39 +1,23 @@
 # Understanding the New PMP Exam
 
-The Project Management Professional (PMP) certification is one of the most widely recognized credentials in project management. It signals that you not only understand project management concepts, but that you can apply them to lead real projects, with real constraints and real stakeholders.
+The Project Management Professional (PMP) certification is one of the most widely recognized credentials in project management. In July 2026, the exam is being refreshed to reflect how work really gets done in modern organizations.
 
-In July 2026, the PMP exam is being refreshed to better reflect how projects are actually delivered today. PMI is moving the exam away from a narrow, process-memorization focus and toward how work really gets done in modern organizations:
+---
 
-- More agile and hybrid ways of working alongside predictive approaches
-- More emphasis on value, outcomes, and benefits instead of just outputs
-- More attention to AI, data, sustainability, and broader stakeholder expectations
-
-In practice, this means that the exam will ask you to think like a practicing project leader, not like a textbook reviewer. You will be given scenarios that look and feel like real life, including incomplete information, competing priorities, and organizational politics. Your job on the exam is to choose the response that best reflects good project management practice as defined by PMI and by the current Exam Content Outline.
-
-At the same time, the core purpose of the PMP has not changed. It still aims to verify that PMP-certified practitioners can:
-
-- Lead and support people and teams
-- Plan, execute, and control work effectively in different environments
-- Align projects with strategy, governance, and the broader business context
-
-This updated version of the exam simply recognizes that those responsibilities now live in a world where:
-
-- Agile and hybrid approaches are normal, not niche
-- Projects are judged on their contribution to value and impact
-- AI tools, data dashboards, and automation are part of everyday work
-- Organizations are expected to consider ethics, sustainability, and long-term consequences
-
-This chapter gives you a clear picture of what the new exam looks like, who it is for, and what it really tests so that your study time is focused and strategic. Before we dive into tools, techniques, and practice questions, you need a mental model of the target you are aiming at.
+::: info 🎯 The 2026 Mindset Shift
+PMI is moving away from a narrow, process-memorization focus and toward how project leaders actually deliver results:
+- **Agility everywhere**: Agile and hybrid ways of working are now the norm.
+- **Value over Outputs**: Emphasis on value, outcomes, and business benefits.
+- **Future-Ready**: Focus on AI, data, sustainability, and ethics.
+:::
 
 By the end of this chapter, you should be able to:
 
-- Describe the overall structure and format of the updated PMP exam
-- Explain the three exam domains in plain language
-- Summarize how the exam is changing in 2026 and why
-- Identify the type of project experience and mindset the exam assumes
-- Decide how this exam version aligns with your own background and goals
-
-Use this chapter as a map: once you are clear on what the exam measures, the rest of this guide will show you how to prepare for it efficiently and confidently.
+- 📊 Describe the overall structure and format of the updated PMP exam
+- 🗣️ Explain the three exam domains in plain language
+- 🔄 Summarize how the exam is changing in 2026 and why
+- 🧠 Identify the type of project experience and mindset the exam assumes
+- ✅ Decide how this exam version aligns with your own background and goals
 
 ---
 
@@ -247,15 +231,70 @@ In later chapters, we will translate these structural details into concrete exam
 
 ---
 
-## 1.1.3 The Three Exam Domains and Their Weights
+## 1.1.3 The Three Exam Domains
 
-The PMP exam is built around three high-level domains that describe the core areas of responsibility for a practicing project manager. For the July 2026 exam version described in PMI's updated ECO, this guide assumes the following weights:
+The PMP exam is built around three domains that describe the core responsibilities of a project manager. The 2026 update significantly shifts these weights:
 
-- People – 33%
-- Process – 41%
-- Business Environment – 26%
+<div class="domain-grid">
+  <div class="domain-card people">
+    <div class="domain-percentage">33%</div>
+    <div class="domain-label">PEOPLE</div>
+    <p>Leadership, team performance, stakeholder engagement, and communication.</p>
+  </div>
+  <div class="domain-card process">
+    <div class="domain-percentage">41%</div>
+    <div class="domain-label">PROCESS</div>
+    <p>Planning, execution, and monitoring across predictive, agile, and hybrid methods.</p>
+  </div>
+  <div class="domain-card business">
+    <div class="domain-percentage">26%</div>
+    <div class="domain-label">BUSINESS</div>
+    <p>Strategic alignment, governance, sustainability, and value delivery.</p>
+  </div>
+</div>
 
-These percentages indicate roughly how many questions you can expect from each area. They come from PMI's official Exam Content Outline (ECO) for the 2026 exam, which also defines "tasks" (what you do) and "enablers" (examples of how you do it) under each domain.
+<style>
+.domain-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.domain-card {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  border: 1px solid var(--vp-c-border);
+  transition: transform 0.2s;
+}
+.domain-card:hover {
+  transform: translateY(-5px);
+}
+.domain-percentage {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+.domain-label {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+.domain-card p {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin: 0;
+}
+.people { background: rgba(59, 130, 246, 0.1); color: #3b82f6; border-color: rgba(59, 130, 246, 0.2); }
+.process { background: rgba(16, 185, 129, 0.1); color: #10b981; border-color: rgba(16, 185, 129, 0.2); }
+.business { background: rgba(245, 158, 11, 0.1); color: #f59e0b; border-color: rgba(245, 158, 11, 0.2); }
+</style>
+
+::: info 📈 Significant Weight Change
+The **Business Environment** domain has increased from **8%** in the previous version to **26%** now. This reflects a massive shift toward ensuring projects deliver strategic value, respect sustainability goals, and navigate complex organizational governance.
+:::
 
 ### People Domain (33%)
 
