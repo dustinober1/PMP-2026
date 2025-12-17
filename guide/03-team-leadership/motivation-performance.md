@@ -1,208 +1,59 @@
----
-title: 3.4 – Motivation and Performance
-description: Understanding what drives team member engagement and performance
----
+# 3.4 Motivation & Performance
 
-# 3.4 – Motivation and Performance
-
-## 3.4.1 Introduction
-
-Motivated teams outperform unmotivated teams. Understanding what drives people helps you create environments where team members can do their best work.
-
-::: tip Key Insight
-**You can't motivate people directly**—you create conditions where motivation flourishes. Remove demotivators and enable intrinsic motivation.
-:::
+"You can't motivate people; you can only create the environment where they choose to be motivated." In the 2026 PMP exam, understanding human drive is the key to unlocking high performance.
 
 ---
 
-## 3.4.2 Understanding Motivation
+## 🏗️ The Pillars of Motivation
+You must be familiar with these classic theories for the exam:
 
-### Intrinsic vs. Extrinsic Motivation
+### 1. Herzberg’s Two-Factor Theory
+Motivation is not a single scale. It consists of:
+- **Hygiene Factors (Demotivators)**: Pay, job security, working conditions. If these are missing, people are unhappy. But if they are present, people aren't necessarily motivated—they are just "not unhappy."
+- **Motivators**: Achievement, recognition, the work itself. These are what actually drive performance.
 
-| Type          | Description                   | Examples                    | Effectiveness                       |
-| ------------- | ----------------------------- | --------------------------- | ----------------------------------- |
-| **Intrinsic** | Internal drive                | Mastery, purpose, autonomy  | Long-lasting, self-sustaining       |
-| **Extrinsic** | External rewards/consequences | Salary, bonuses, punishment | Short-term, can undermine intrinsic |
+### 2. McClelland’s Theory of Needs
+People are driven by one of three dominant needs:
+- **Need for Achievement**: Desires to solve problems and master complex tasks.
+- **Need for Power**: Desires to influence others or control their environment.
+- **Need for Affiliation**: Desires friendly relationships and to be liked.
 
-### Key Finding
-
-Research shows extrinsic rewards can actually *decrease* intrinsic motivation for creative, complex work (overjustification effect). For knowledge work, focus on creating conditions for intrinsic motivation.
-
----
-
-## 3.4.3 Motivation Theories
-
-### Maslow's Hierarchy of Needs
-
-| Level                     | Need                 | Project Environment Applications          |
-| ------------------------- | -------------------- | ----------------------------------------- |
-| 5. **Self-Actualization** | Reaching potential   | Challenging work, growth opportunities    |
-| 4. **Esteem**             | Respect, recognition | Recognition, meaningful contributions     |
-| 3. **Belonging**          | Connection, team     | Team activities, inclusion, collaboration |
-| 2. **Safety**             | Security, stability  | Job security, clear expectations          |
-| 1. **Physiological**      | Basic needs          | Adequate salary, reasonable hours         |
-
-**Key point**: Lower needs must be met before higher needs motivate.
-
-### Herzberg's Two-Factor Theory
-
-| Hygiene Factors (Demotivators) | Motivators      |
-| ------------------------------ | --------------- |
-| Poor salary                    | Achievement     |
-| Poor working conditions        | Recognition     |
-| Job insecurity                 | The work itself |
-| Poor supervision               | Responsibility  |
-| Bureaucracy                    | Advancement     |
-| Bad relationships              | Growth          |
-
-**Key point**: Fixing hygiene factors doesn't motivate—it just removes dissatisfaction. True motivation comes from motivator factors.
-
-### McGregor's Theory X and Theory Y
-
-| Theory X                      | Theory Y                     |
-| ----------------------------- | ---------------------------- |
-| People dislike work           | People find work natural     |
-| Must be forced/controlled     | Self-directed when committed |
-| Avoid responsibility          | Seek responsibility          |
-| Need security above all       | Seek challenge and growth    |
-| Motivation through punishment | Motivation through autonomy  |
-
-**Key point**: Theory Y assumptions typically lead to better outcomes for knowledge workers.
-
-### Pink's Drive Theory
-
-Daniel Pink identifies three elements of intrinsic motivation:
-
-| Element      | Description                          | How to Enable                             |
-| ------------ | ------------------------------------ | ----------------------------------------- |
-| **Autonomy** | Control over work                    | Let people choose how they work           |
-| **Mastery**  | Getting better at something          | Provide learning opportunities, challenge |
-| **Purpose**  | Contributing to something meaningful | Connect work to larger mission            |
+### 3. Theory X & Theory Y (McGregor)
+- **Theory X**: Managers believe people are lazy and need to be micromanaged.
+- **Theory Y**: Managers believe people are self-motivated and seek responsibility.
+- **2026 Focus**: Agile and Hybrid teams operate almost exclusively on **Theory Y**.
 
 ---
 
-## 3.4.4 Recognition and Rewards
+## 🏆 Recognition & Reward
+A Servant Leader uses recognition to reinforce positive behavior.
 
-### Types of Recognition
-
-| Type           | Examples                       | When Effective                 |
-| -------------- | ------------------------------ | ------------------------------ |
-| **Formal**     | Awards, bonuses, promotions    | Major achievements, milestones |
-| **Informal**   | Thank you, public appreciation | Daily good work, effort        |
-| **Individual** | Personal recognition           | Stand-out contributions        |
-| **Team**       | Celebrating together           | Collective achievements        |
-
-### Effective Recognition Practices
-
-1. **Be specific**: State exactly what the person did well
-2. **Be timely**: Recognize soon after the behavior
-3. **Be genuine**: Insincere recognition backfires
-4. **Match preferences**: Some want public praise; others prefer private
-5. **Tie to values**: Connect behavior to team/organizational values
-
-### Common Mistakes
-
-- Recognizing too rarely (or not at all)
-- Recognizing only results, not effort
-- Making recognition feel like favoritism
-- Using recognition as manipulation
-- Ignoring cultural preferences
+| Principle              | Advice for the PM                                                                      |
+| :--------------------- | :------------------------------------------------------------------------------------- |
+| **Specificity**        | Don't say "Good job." Say "Your catch on that security bug saved the project 2 weeks." |
+| **Timeliness**         | Small rewards given *now* are better than a big bonus given in six months.             |
+| **Public vs. Private** | Know your team. Some love a public shoutout; others find it mortifying.                |
+| **Equitable**          | If only the "favorites" get rewards, you will destroy team morale.                     |
 
 ---
 
-## 3.4.5 Performance Management
-
-### Setting Performance Expectations
-
-Effective expectations are:
-- **Clear**: No ambiguity about what success looks like
-- **Measurable**: Objective criteria when possible
-- **Achievable**: Challenging but realistic
-- **Relevant**: Connected to project/organizational goals
-- **Time-bound**: Clear deadlines
-
-### Providing Feedback
-
-| Ineffective Feedback    | Effective Feedback                                                                 |
-| ----------------------- | ---------------------------------------------------------------------------------- |
-| "You need to do better" | "When you miss deadlines, it impacts the team. Let's discuss what's blocking you." |
-| "Great job!" (vague)    | "Your analysis caught that critical error before it reached the customer."         |
-| Annual review only      | Regular, timely conversations                                                      |
-| Public criticism        | Private correction                                                                 |
-
-### Addressing Performance Issues
-
-1. **Gather facts**: Understand what's actually happening
-2. **Check for barriers**: Are there obstacles in their way?
-3. **Have a direct conversation**: Private, respectful, specific
-4. **Agree on improvement plan**: Clear expectations and support
-5. **Follow up**: Monitor progress, provide ongoing support
-6. **Escalate if needed**: If improvement doesn't occur
+## 📊 Performance in 2026
+In a world of remote work and flexible hours, performance is measured by **Value**, not "Hours at Desk."
+- **Focus on Outcomes**: Did the feature solve the customer's problem?
+- **Leading Indicators**: Use velocity, cycle time, and team happiness scores to spot performance drops *before* they hit the deadline.
 
 ---
 
-## 3.4.6 Empowerment
+<div class="study-tip">
+  <strong>📝 Exam Insight:</strong> If an exam scenario asks how to motivate a team that has already met its basic needs (salary/security), look for an answer that focuses on <strong>Recognition</strong>, <strong>Professional Growth</strong>, or <strong>Autonomy</strong>.
+</div>
 
-### What Is Empowerment?
-
-Empowerment means giving team members:
-- Authority to make decisions
-- Resources to do their work
-- Information to decide wisely
-- Accountability for outcomes
-- Support when they need help
-
-### Benefits of Empowerment
-
-- Faster decisions (no waiting for PM approval)
-- Higher engagement and ownership
-- Development of team capabilities
-- PM freed for higher-value work
-- Better solutions (people closest to work often know best)
-
-### Empowerment Barriers
-
-| Barrier                          | Solution                                     |
-| -------------------------------- | -------------------------------------------- |
-| PM doesn't trust team            | Build trust gradually, start small           |
-| Team doesn't want responsibility | Coach, provide support, build confidence     |
-| Organizational culture           | Work within constraints, advocate for change |
-| Unclear boundaries               | Define decision rights explicitly            |
-
----
-
-## 3.4.7 Team Morale
-
-### Signs of Low Morale
-
-- Increased absenteeism or disengagement
-- Reduced productivity and quality
-- More conflicts and complaints
-- Resistance to change
-- Turnover or requests to transfer
-
-### Maintaining Morale
-
-- **Communicate transparently**: Bad news is better than uncertainty
-- **Celebrate wins**: Both big and small
-- **Address problems**: Don't ignore issues affecting the team
-- **Show appreciation**: Regularly recognize contributions
-- **Remove obstacles**: Make it easier for people to do good work
-- **Be fair**: Consistent treatment builds trust
-- **Protect the team**: Shield from unnecessary organizational drama
-
----
-
-## 3.4.8 Key Takeaways
-
-1. **Intrinsic > Extrinsic**: Create conditions for internal motivation
-2. **Know the theories**: Maslow, Herzberg, McGregor, Pink show up on the exam
-3. **Remove demotivators first**: Hygiene factors must be addressed
-4. **Recognition matters**: Specific, timely, genuine appreciation
-5. **Feedback is ongoing**: Regular conversations, not annual events
-6. **Empower the team**: Authority + resources + accountability
-7. **Monitor morale**: Address issues before they become crises
-
----
-
-**Next**: [📝 Knowledge Check](./knowledge-check)
+<style>
+.study-tip {
+  background: var(--vp-c-brand-soft);
+  border-left: 4px solid var(--vp-c-brand);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+</style>

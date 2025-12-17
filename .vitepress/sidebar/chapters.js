@@ -54,7 +54,14 @@ export function createSidebar() {
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/03-team-leadership/' },
-        { text: '3.1 Building and Leading Teams', link: '/guide/03-team-leadership/building-teams' },
+        {
+          text: '3.1 Building and Leading Teams', link: '/guide/03-team-leadership/building-teams', items: [
+            { text: '3.1a Team Formation', link: '/guide/03-team-leadership/team-formation' },
+            { text: '3.1b Development', link: '/guide/03-team-leadership/team-development' },
+            { text: '3.1c Team Charter', link: '/guide/03-team-leadership/team-charter' },
+            { text: '3.1d Virtual Teams', link: '/guide/03-team-leadership/virtual-teams' }
+          ]
+        },
         { text: '3.2 Coaching, Mentoring, and Servant Leadership', link: '/guide/03-team-leadership/coaching-mentoring' },
         { text: '3.3 Conflict Management', link: '/guide/03-team-leadership/conflict-management' },
         { text: '3.4 Motivation and Performance', link: '/guide/03-team-leadership/motivation-performance' },
