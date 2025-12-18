@@ -1,98 +1,100 @@
 # 3.1 Building High-Performing Teams
 
-Projects don't fail; teams do. Your primary responsibility in the People domain is to assemble a diverse group of individuals and transform them into a cohesive, self-organizing unit that delivers value.
+Projects don't fail; teams do. Your primary accountability is to assemble a diverse group of strangers and transform them into a cohesive value-delivery engine.
 
 ---
 
-## 🛠️ The Construction Phases
-Building a team is a structured journey. Use the modules below to master each phase of the team lifecycle:
+## 🏗️ The Construction Phases
+Building a team is a structured journey, not an accident.
 
-<div class="concept-grid">
-  <div class="concept-card">
-    <div class="concept-title">3.1a Formation</div>
-    <p class="concept-description">Skills gap analysis, RACI matrices, and acquiring the right talent for the mission.</p>
-    <a href="./team-formation" class="concept-link">Learn Formation →</a>
+<div class="build-grid">
+  <div class="build-card left">
+    <div class="build-title">3.1a Formation</div>
+    <ul class="build-list">
+      <li>Skills Assessment</li>
+      <li>Virtual vs. Co-located</li>
+      <li>Diversity & Inclusion</li>
+    </ul>
+    <a href="./team-formation" class="build-link">Start Hiring →</a>
   </div>
-
-  <div class="concept-card">
-    <div class="concept-title">3.1b Development</div>
-    <p class="concept-description">Moving through Tuckman's stages (Forming to Performing) and psychological safety.</p>
-    <a href="./team-development" class="concept-link">Accelerate Growth →</a>
+  <div class="build-card right">
+    <div class="build-title">3.1b Development</div>
+    <ul class="build-list">
+      <li>Tuckman Ladder</li>
+      <li>Training Plans</li>
+      <li>Performance Reviews</li>
+    </ul>
+    <a href="./team-development" class="build-link">Grow Talent →</a>
   </div>
-
-  <div class="concept-card">
-    <div class="concept-title">3.1c Team Charters</div>
-    <p class="concept-description">Creating Social Contracts and Ground Rules that drive team accountability.</p>
-    <a href="./team-charter" class="concept-link">Build the Contract →</a>
+  <div class="build-card left">
+    <div class="build-title">3.1c Agreements</div>
+    <ul class="build-list">
+      <li>Team Charters</li>
+      <li>Ground Rules</li>
+      <li>Decision Models</li>
+    </ul>
+    <a href="./team-charter" class="build-link">Set Rules →</a>
   </div>
-
-  <div class="concept-card highlight">
-    <div class="concept-title">3.1d Virtual Teams</div>
-    <p class="concept-description">Leading global, distributed, and asynchronous teams in the 2026 digital era.</p>
-    <a href="./virtual-teams" class="concept-link">Scale Globally →</a>
+  <div class="build-card right">
+    <div class="build-title">3.1d Virtual Leadership</div>
+    <ul class="build-list">
+      <li>Timezone Management</li>
+      <li>Asynchronous Ops</li>
+      <li>Digital Culture</li>
+    </ul>
+    <a href="./virtual-teams" class="build-link">Go Global →</a>
   </div>
 </div>
 
 ---
 
-## 💡 Leadership Shift
-In 2026, the leader's role shifts from **Command & Control** (telling people what to do) to **Enabling & Removing Blockers**. 
+## ⚡ The 2026 Core Competency: Psychological Safety
+Building a team isn't just about hiring smart people. It's about creating an environment where **bad news travels fast**. If your team is afraid to tell you about a delay, you are failing.
 
-*   **Formation** is about *clarity*: Does everyone know their role?
-*   **Development** is about *trust*: Do people feel safe to fail and learn?
-*   **Chartering** is about *culture*: How do we make decisions and handle failure?
-
-::: tip 🚀 2026 Focus: Global Collaboration
-With the rise of "Work from Anywhere," managing **asynchronous communication** and **cultural diversity** is no longer a "nice to have"—it is a core project success factor.
-:::
+*   **Safety**: "I can ask a dumb question without being mocked."
+*   **Trust**: "I know you have my back when things go wrong."
+*   **Diversity**: "We solve problems better because we think differently."
 
 <style>
-.concept-grid {
+.build-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
-.concept-card {
+.build-card {
   padding: 1.5rem;
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-border);
   border-radius: 12px;
-  transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
 }
 
-.concept-card:hover {
-  transform: translateY(-4px);
-  border-color: var(--vp-c-brand);
-  background: var(--vp-c-bg-mute);
-}
+.left { border-left: 4px solid #8b5cf6; }
+.right { border-left: 4px solid #3b82f6; }
 
-.concept-title {
-  font-size: 1.15rem;
+.build-title {
   font-weight: 700;
-  margin-bottom: 0.75rem;
-  color: var(--vp-c-brand);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--vp-c-text-1);
 }
 
-.concept-description {
+.build-list {
+  padding-left: 1.25rem;
+  margin: 0 0 1rem 0;
   font-size: 0.9rem;
-  color: var(--vp-c-text-2);
-  margin-bottom: 1.5rem;
+  columns: 1; 
   flex-grow: 1;
 }
 
-.concept-link {
+.build-link {
   font-weight: 600;
   color: var(--vp-c-brand);
   text-decoration: none;
   font-size: 0.9rem;
-}
-
-.concept-card.highlight {
-  background: var(--vp-c-brand-soft);
-  border-color: var(--vp-c-brand-light);
+  align-self: flex-start;
 }
 </style>

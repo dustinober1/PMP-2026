@@ -1,103 +1,91 @@
 # 3.3 Conflict Management
 
-Conflict is not just inevitable in projects; it is often **necessary**. Friction surfaces different perspectives, identifies hidden risks, and drives innovation. The project manager's role is not to avoid conflict, but to manage its intensity and direction.
+Conflict is not a sign of failure; it is a sign of passion. If your team never fights, they probably don't care. Your job is to channel that energy into innovation.
 
 ---
 
-## 🚦 Common Sources of Friction
-Most project conflicts originate from a few predictable areas. Interestingly, **Personalities** are usually the *least* common source.
+## 🚦 The 5 Resolution Modes
+Success requires selecting the right tool for the job.
 
-| Source         | Example                                                     |
-| :------------- | :---------------------------------------------------------- |
-| **Schedules**  | "We need the database design by Monday, not Thursday."      |
-| **Priorities** | "The API work is more important than the UI polish."        |
-| **Resources**  | "I need the Senior Architect for the AI integration phase." |
-| **Technicals** | "We should use a NoSQL database for this module."           |
-
----
-
-## 🧭 The 5 Conflict Resolution Modes
-The Thomas-Kilmann model defines five ways to handle friction. Success requires selecting the right mode for the right situation.
-
-<div class="conflict-grid">
-  <div class="conflict-card">
-    <div class="conflict-title">Collaborate</div>
-    <div class="conflict-tag win-win">Win-Win</div>
-    <p>Finding a new solution together that meets everyone's core needs. Requires trust and time.</p>
+<div class="mode-grid">
+  <div class="mode-card collab">
+    <div class="mode-title">Collaborate</div>
+    <div class="mode-res">Win / Win</div>
+    <p>Finding a new solution that makes everyone happy. (Requires Time & Trust).</p>
   </div>
-  <div class="conflict-card">
-    <div class="conflict-title">Compromise</div>
-    <div class="conflict-tag lose-lose">Lose-Lose</div>
-    <p>Both parties give something up to reach a middle ground. Effective for temporary fixes.</p>
+  <div class="mode-card comp">
+    <div class="mode-title">Compromise</div>
+    <div class="mode-res">Lose / Lose</div>
+    <p>Everyone gives up something to reach a quick deal. (Good for temporary fixes).</p>
   </div>
-  <div class="conflict-card">
-    <div class="conflict-title">Smooth</div>
-    <div class="conflict-tag lose-win">Lose-Win</div>
-    <p>Downplaying differences and emphasizing areas of agreement. Use when harmony is vital.</p>
+  <div class="mode-card force">
+    <div class="mode-title">Force / Direct</div>
+    <div class="mode-res">Win / Lose</div>
+    <p>Using authority to end debate. (Limit to emergencies or safety issues).</p>
   </div>
-  <div class="conflict-card">
-    <div class="conflict-title">Force</div>
-    <div class="conflict-tag win-lose">Win-Lose</div>
-    <p>Using authority to push a decision. Use for <strong>emergencies</strong> or safety issues.</p>
+  <div class="mode-card smooth">
+    <div class="mode-title">Smooth</div>
+    <div class="mode-res">Lose / Win</div>
+    <p>Emphasizing agreement to preserve the relationship. (Yielding).</p>
   </div>
-  <div class="conflict-card">
-    <div class="conflict-title">Withdraw</div>
-    <div class="conflict-tag no-win">No Win</div>
-    <p>Tabling the issue for later or retreating. Use for trivial matters or cooling-off periods.</p>
+  <div class="mode-card withdraw">
+    <div class="mode-title">Withdraw</div>
+    <div class="mode-res">Yield</div>
+    <p>Retreating from the conflict. (Use when emotions are too high).</p>
   </div>
 </div>
 
 ---
 
-## 🪜 The Proactive Resolution Process
-1.  **Private First**: Resolve conflict in a **one-on-one** private setting whenever possible.
-2.  **Focus on Issues**: Attack the problem, not the individual.
-3.  **Data-Driven**: Shift the conversation from subjective opinions to objective project data.
-4.  **Escalate Last**: Only involve the sponsor or HR if all internal attempts have failed and the project is at risk.
+## 🧭 The Process of Peace
+When conflict erupts, follow this escalation ladder:
 
-::: info 🌍 2026 Focus: Cultural Intelligence (CQ)
-In global virtual teams, conflict often stems from different communication norms. Use the **Team Charter** to establish explicitly clear communication protocols (e.g., Response time expectations on Slack vs. Email).
+1.  **Self-Correction**: Let the team members try to solve it themselves first.
+2.  **Private Intervention**: Facilitate a safe, private conversation.
+3.  **Collaborative Session**: Use data to remove emotion and focus on the problem.
+4.  **Formal Authority**: Make a decision if the team remains deadlocked.
+
+::: warning ⚠️ The Personality Trap
+Most friction is caused by **Scope, Schedule, or Priorities**. Personality conflicts are rare. Always look for the *process* issue ("We have different deadlines") before blaming the *person* ("He is difficult").
 :::
 
 <style>
-.conflict-grid {
+.mode-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.25rem;
+  gap: 1rem;
   margin: 1.5rem 0;
 }
 
-.conflict-card {
+.mode-card {
   padding: 1.25rem;
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-border);
   border-radius: 12px;
-  position: relative;
+  text-align: center;
 }
 
-.conflict-title {
+.collab { border-top: 4px solid #10b981; }
+.comp { border-top: 4px solid #f59e0b; }
+.force { border-top: 4px solid #ef4444; }
+.smooth { border-top: 4px solid #3b82f6; }
+.withdraw { border-top: 4px solid #6b7280; }
+
+.mode-title {
   font-weight: 700;
-  color: var(--vp-c-brand);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+  color: var(--vp-c-text-1);
 }
 
-.conflict-tag {
-  font-size: 0.7rem;
-  font-weight: 700;
+.mode-res {
+  font-size: 0.75rem;
+  font-weight: 800;
   text-transform: uppercase;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-  display: inline-block;
+  color: var(--vp-c-text-2);
   margin-bottom: 0.75rem;
 }
 
-.win-win { background: #dcfce7; color: #166534; }
-.lose-lose { background: #fee2e2; color: #991b1b; }
-.lose-win { background: #fef9c3; color: #854d0e; }
-.win-lose { background: #ffedd5; color: #9a3412; }
-.no-win { background: #f3f4f6; color: #374151; }
-
-.conflict-card p {
+.mode-card p {
   font-size: 0.85rem;
   margin: 0;
   line-height: 1.4;
@@ -107,7 +95,7 @@ In global virtual teams, conflict often stems from different communication norms
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If an exam scenario says two team members are "bickering," the best sequence is: 1) Let them work it out, 2) Private conversation with each, 3) Collaborative session, 4) Disciplinary action (extreme cases only).
+  <strong>📝 Exam Insight:</strong> "Compromise" sounds positive in real life, but on the PMP exam, it is often a "Lose-Lose" trap answer. Always look for **Collaboration** (Problem Solving) first.
 </div>
 
 <style>

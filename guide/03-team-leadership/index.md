@@ -1,39 +1,38 @@
 # Chapter 3: Team Leadership & Development
 
-The **People domain** is the heartbeat of the PMP exam. In 2026, leading a project isn't about "command and control"—it's about orchestrating hybrid, global, and AI-augmented teams toward a common vision.
+In 2026, leading a project isn't about "command and control"—it's about orchestrating diverse, scattered, and sometimes robotic talent toward a shared vision.
 
-::: info 👥 People Domain: 2026 Shift
-The People domain represents **33%** of the PMP exam. The 2026 focus has doubled down on **Servant Leadership**, **Emotional Intelligence**, and the ability to foster **Psychological Safety** in high-pressure, adaptive environments.
+::: info 👥 People Domain Impact
+The People domain is **42% of the exam**. (People + Business > Process). If you can calculate EVM but can't resolve a conflict, you will **fail**.
 :::
 
-## What You'll Learn
-- **High-Performing Teams**: Moving from *Forming* to *Performing* in months, not years.
-- **Servant Leadership**: Mastering the "Coach" mindset to remove team blockers.
-- **Conflict Management**: Using friction as a catalyst for innovation.
-- **Motivation & EQ**: Leveraging Emotional Intelligence to drive 100% engagement.
+---
+
+## 🧭 The Leadership Compass
+From assembling the squad to navigating high-stakes conflict.
 
 <div class="section-grid">
   <div class="section-card">
     <div class="section-title">3.1 Building Teams</div>
-    <p class="section-description">Assemble the right talent, define team agreements, and master global virtual collaboration.</p>
+    <p class="section-description">Assemble the right talent, define team charters, and master virtual collaboration.</p>
     <a href="./building-teams" class="section-link">Assemble Your Team →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">3.2 Servant Leadership</div>
-    <p class="section-description">Situational leadership styles (Coaching, Mentoring, Supporting) for maximum impact.</p>
+    <p class="section-description">The "Coach" mindset. Situational leadership, training, and removing blockers.</p>
     <a href="./coaching-mentoring" class="section-link">Empower Performance →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">3.3 Conflict Management</div>
-    <p class="section-description">Master the five resolution modes: Collaborate, Compromise, Accommodate, Avoid, and Force.</p>
+    <p class="section-description">Master the 5 resolution modes: Collaborate, Compromise, Accommodate, Avoid, Force.</p>
     <a href="./conflict-management" class="section-link">Resolve Friction →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">3.4 Motivation & EQ</div>
-    <p class="section-description">Using Herzberg, Maslow, and Emotional Intelligence to lead through change.</p>
+    <p class="section-description">Using Herzberg, Maslow, and Emotional Intelligence to drive 100% engagement.</p>
     <a href="./motivation-performance" class="section-link">Inspire Excellence →</a>
   </div>
 
@@ -46,12 +45,10 @@ The People domain represents **33%** of the PMP exam. The 2026 focus has doubled
 
 ---
 
-## Study Recommendation
-Leadership questions are 100% scenario-based. Instead of asking "What is the definition?", ask yourself: **"As a Servant Leader, what is the most empathetic, empowering, and team-centric action I can take right now?"**
-
-<div class="action-bar">
-  <a href="./building-teams" class="action-button primary">Begin Leadership Journey</a>
-</div>
+## 2026 Mindset: The "Servant PM"
+*   **Don't Direct, Support**: Ask "What do you need?" instead of "Why isn't this done?"
+*   **Don't Blame, Learn**: Retrospectives are for process improvement, not finger-pointing.
+*   **Don't Ignore, Engage**: Conflict is healthy if it's task-based. Emotional conflict must be defused proactively.
 
 <style>
 .section-grid {
@@ -106,26 +103,5 @@ Leadership questions are 100% scenario-based. Instead of asking "What is the def
 
 .knowledge-check {
   background: var(--vp-c-brand-soft);
-  border-color: var(--vp-c-brand-light);
-}
-
-.action-bar {
-  display: flex;
-  justify-content: center;
-  margin: 3rem 0;
-}
-
-.action-button.primary {
-  padding: 0.75rem 2rem;
-  background: var(--vp-c-brand);
-  color: white;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: opacity 0.2s;
-}
-
-.action-button.primary:hover {
-  opacity: 0.9;
 }
 </style>

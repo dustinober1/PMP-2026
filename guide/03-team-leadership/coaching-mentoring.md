@@ -1,118 +1,106 @@
 # 3.2 Servant Leadership & Style
 
-In the 2026 PMP exam, the era of "Command & Control" is over. Success is driven by the **Servant Leader**—the project manager who views their primary mission as serving the team and removing blockers.
+In 2026, the era of "Command & Control" is dead. Success is driven by the **Servant Leader**—the one who carries food and water for the team.
 
 ---
 
 ## 🛡️ The Servant Leader Mindset
-The primary goal of a Servant Leader is to **remove obstacles** so the team can perform at their highest potential.
+Your job is to remove rocks from the road, not to crack the whip.
 
-| Traditional Manager                         | Servant Leader                                 |
-| :------------------------------------------ | :--------------------------------------------- |
-| Focuses on control and individual reporting | Focuses on **empowerment** and team service    |
-| Asks: "Why are you late with this task?"    | Asks: "What is blocking you from finishing?"   |
-| Claims credit for team successes            | Deflects credit to the team                    |
-| Cascades pressure down                      | **Shields the team** from organizational noise |
+| The Old Way (Manager)   | The New Way (Servant)       |
+| :---------------------- | :-------------------------- |
+| **"Why is this late?"** | **"What is blocking you?"** |
+| Focus on Output/Tasks   | Focus on Outcome/Value      |
+| Controls Information    | Radiates Information        |
+| Taking Credit           | Giving Credit               |
 
-::: info 🛠️ 2026 Focus: Removing Blockers
-Your most critical daily action is identifying and neutralizing **Impediments, Obstacles, and Blockers**. If you aren't clearing the path, you aren't leading.
+::: tip 💡 2026 Focus: Impediment Removal
+Your most critical daily action is neutralizing **Impediments**. If you aren't clearing the path, you aren't leading.
 :::
 
 ---
 
-## 🧭 Situational Leadership (The SLII Model)
-No single leadership style works for every person. You must adapt your style based on the **Follower's Readiness** (Skill + Will).
+## 🧭 Situational Leadership (SLII)
+You cannot treat every team member the same. You must adapt to their readiness.
 
-<div class="leadership-grid">
-  <div class="leadership-card">
-    <div class="style-title">Directing (S1)</div>
-    <div class="style-subtitle">Low Skill / High Will</div>
-    <p>Provide high direction and low support. Tell the learner exactly <strong>what</strong> to do and <strong>when</strong>.</p>
+<div class="style-grid">
+  <div class="style-card s1">
+    <div class="style-head">S1: Directing</div>
+    <div class="style-tag">Low Skill / High Will</div>
+    <p>Tell the learner exactly **what** to do and **how**. (e.g., A new hire on day 1).</p>
   </div>
-  <div class="leadership-card">
-    <div class="style-title">Coaching (S2)</div>
-    <div class="style-subtitle">Some Skill / Low Will</div>
-    <p>High direction and high support. Explain <strong>why</strong> decisions are made and encourage the team member.</p>
+  <div class="style-card s2">
+    <div class="style-head">S2: Coaching</div>
+    <div class="style-tag">Some Skill / Low Will</div>
+    <p>High direction + High support. Explain **why** and encourage them through failure.</p>
   </div>
-  <div class="leadership-card">
-    <div class="style-title">Supporting (S3)</div>
-    <div class="style-subtitle">High Skill / Variable Will</div>
-    <p>Low direction and high support. Facilitate their decision-making and share responsibility.</p>
+  <div class="style-card s3">
+    <div class="style-head">S3: Supporting</div>
+    <div class="style-tag">High Skill / Variable Will</div>
+    <p>Facilitate their decision-making. Don't tell them how; ask "How can I help?"</p>
   </div>
-  <div class="leadership-card highlight">
-    <div class="style-title">Delegating (S4)</div>
-    <div class="style-subtitle">High Skill / High Will</div>
-    <p>Low direction and low support. Give them the goal, trust their process, and stay out of the way.</p>
+  <div class="style-card s4">
+    <div class="style-head">S4: Delegating</div>
+    <div class="style-tag">High Skill / High Will</div>
+    <p>Give them the goal and get out of the way. Trust the expert.</p>
   </div>
 </div>
 
 ---
 
-## 🎓 Coaching vs. Mentoring
-While often confused, these serve distinct strategic purposes:
-
-*   **Coaching**: Short-term and **Task-focused**. It is about improving a specific skill (e.g., "Help a team member use a new AI tool").
-*   **Mentoring**: Long-term and **Career-focused**. It is about professional growth (e.g., "Advise a junior PM on their leadership path").
-
----
-
 ## 🧠 Emotional Intelligence (EQ)
-EQ is the "secret sauce" of leading through change. It consists of four quadrants:
-1.  **Self-Awareness**: Recognizing your triggers before you react.
-2.  **Self-Management**: Controlling your responses under project stress.
-3.  **Social Awareness**: Reading the "room" (Empathy) and sensing team burnout.
-4.  **Relationship Management**: influencing stakeholders and resolving team friction.
+EQ is the "secret sauce" of leading through crisis.
+*   **Self-Awareness**: "I am angry right now." (Recognizing triggers).
+*   **Self-Management**: "I will take a breath before replying." (Controlling impulses).
+*   **Social Awareness**: "The team looks exhausted." (Empathy).
+*   **Relationship Management**: "Let's take a break and reset." (Influencing others).
 
 <style>
-.leadership-grid {
+.style-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
   margin: 1.5rem 0;
 }
 
-.leadership-card {
+.style-card {
   padding: 1.5rem;
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-border);
   border-radius: 12px;
-  transition: all 0.3s ease;
 }
 
-.leadership-card:hover {
-  transform: translateY(-2px);
-  border-color: var(--vp-c-brand);
-}
+.s1 { border-top: 4px solid #ef4444; }
+.s2 { border-top: 4px solid #f59e0b; }
+.s3 { border-top: 4px solid #3b82f6; }
+.s4 { border-top: 4px solid #10b981; }
 
-.style-title {
-  font-size: 1.1rem;
+.style-head {
   font-weight: 700;
-  color: var(--vp-c-brand);
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  color: var(--vp-c-text-1);
 }
 
-.style-subtitle {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--vp-c-text-2);
+.style-tag {
+  font-size: 0.75rem;
+  font-weight: 800;
   text-transform: uppercase;
-  margin-bottom: 0.75rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 1rem;
 }
 
-.leadership-card p {
+.style-card p {
   font-size: 0.9rem;
   margin: 0;
   line-height: 1.5;
-}
-
-.leadership-card.highlight {
-  background: var(--vp-c-brand-soft);
 }
 </style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If an exam scenario describes a high-performer whose quality has suddenly dropped, the answer almost always involves <strong>Active Listening</strong> or <strong>Support (S3)</strong> to identify personal or systemic issues, rather than micromanagement.
+  <strong>📝 Exam Insight:</strong> If a high performer suddenly starts missing deadlines, do NOT micromanage (S1). Switch to **Supporting (S3)**. Ask open-ended questions to find out if they are burned out or facing personal issues.
 </div>
 
 <style>

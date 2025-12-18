@@ -1,100 +1,86 @@
 # Knowledge Check: Team Leadership
 
-Test your understanding of team leadership, servant leadership, conflict resolution, and motivation.
+Test your EQ and leadership mindset to handle the most unpredictable part of any project: People.
 
 <QuizComponent
-  title="Chapter 3: Team Leadership"
+  title="Chapter 3: Leadership"
   :questions="[
     {
-      text: 'A team member is frustrated because a technical blocker is preventing them from finishing a critical sprint task. As a servant leader, what should you do FIRST?',
+      text: 'A critical team member is blocked by a database issue. As a Servant Leader, what is your FIRST action?',
       options: [
-        'Tell them to research the solution on their own to build resilience',
-        'Add the issue to the blockers list and ask the team for volunteers to help',
-        'Actively work to remove the impediment or provide the resources needed to solve it',
-        'Escalate to the functional manager to report the delay'
+        'Ask them to figure it out to build resilience',
+        'Call the Database Admin yourself to clear the blocker',
+        'Add it to the risk register',
+        'Escalate to the sponsor'
       ],
-      correct: 2,
-      explanation: 'The primary role of a servant leader is to remove impediments and blockers so the team can maintain their flow.',
+      correct: 1,
+      explanation: 'Servant leaders remove blockers. If the team member is stuck, you use your influence to unstick them. You serve them.',
       reference: 'Section 3.2'
     },
     {
-      text: 'Your team is in the Storming stage of development. Two members are arguing over which AI tool to use for automated testing. What is the most appropriate leadership style?',
+      text: 'You overhear two engineers arguing about which AI library to use. The debate is heated but technical. What do you do?',
       options: [
-        'Directing (S1): Tell them exactly which tool to use',
-        'Coaching (S2): Facilitate a discussion to help them resolve the conflict',
-        'Supporting (S3): Let them decide while you provide moral support',
-        'Delegating (S4): Get out of the way and let them figure it out'
+        'Intervene immediately to stop the fighting',
+        'Do nothing; this is healthy creative friction',
+        'Send them to HR for unprofessional conduct',
+        'Decide the library for them to save time'
       ],
       correct: 1,
-      explanation: 'Teams in the Storming stage need a Coaching style (High Direction, High Support) to help them navigate conflict and build trust.',
-      reference: 'Section 3.1b'
-    },
-    {
-      text: 'Two senior stakeholders disagree on the project scope. This conflict is threatening the project timeline and you need a long-term, high-commitment solution. Which conflict resolution mode should you use?',
-      options: [
-        'Force: Use your authority to settle the matter',
-        'Compromise: Have each stakeholder give up one requirement',
-        'Collaborate: Work with both to find a solution that meets all their core needs',
-        'Smooth: Downplay the difference to maintain harmony'
-      ],
-      correct: 2,
-      explanation: 'Collaboration (Problem Solving) is the only mode that leads to a Win-Win outcome and high long-term commitment.',
+      explanation: 'Task conflict is healthy. As long as it doesn\'t become personal, you should let the team self-organize and resolve it.',
       reference: 'Section 3.3'
     },
     {
-      text: 'According to Herzberg’s Two-Factor Theory, which of the following will NOT motivate a team member if their basic salary is already considered fair?',
+      text: 'Your team is new and keeps missing deadlines because they are unsure of who is supposed to do what. Which document is missing?',
       options: [
-        'Giving them more responsibility over a work package',
-        'Publicly recognizing their contribution to a major milestone',
-        'Further increasing their salary by a small amount',
-        'Providing them with a mentor for career growth'
+        'The Project Charter',
+        'The Team Charter',
+        'The Business Case',
+        'The Risk Register'
+      ],
+      correct: 1,
+      explanation: 'The Team Charter (or Social Contract) defines roles, responsibilities, and "how we work together." Ambiguity here causes Storming.',
+      reference: 'Section 3.1'
+    },
+    {
+      text: 'According to Herzberg, which action will actually motivate a bored team (as opposed to just preventing dissatisfaction)?',
+      options: [
+        'Raising salaries by 3%',
+        'Installing a free coffee machine',
+        'Letting the team design their own solution (Autonomy)',
+        'Fixing the noisy air conditioner'
       ],
       correct: 2,
-      explanation: 'Salary is a Hygiene Factor. Once it is considered fair, further increases do not motivate. True motivation comes from motivators like responsibility and recognition.',
+      explanation: 'Autonomy, Mastery, and Purpose are Motivators. Pay, Coffee, and AC are Hygiene factors.',
       reference: 'Section 3.4'
     },
     {
-      text: 'Your project team is globally distributed across four time zones. Communication is breaking down and trust is low. What is the most effective way to address this?',
+      text: 'A remote team member in a different time zone feels isolated and is disengaging. What is the best virtual leadership response?',
       options: [
-        'Mandate that all team members work the same hours as the head office',
-        'Increase the frequency of formal status reports',
-        'Facilitate a session to create a Team Charter specifically for virtual collaboration',
-        'Replace the underperforming remote members with local staff'
+        'Mandate they attend the 3 AM (local time) daily standup',
+        'Schedule a 1-on-1 during their convenient hours to check in',
+        'Replace them with a local resource',
+        'Send them a written warning'
       ],
-      correct: 2,
-      explanation: 'A Team Charter or Ground Rules session specifically for virtual teams helps establish trust and communication norms.',
+      correct: 1,
+      explanation: 'Empathy (EQ) is key. Making a personal connection during *their* hours shows respect and inclusion.',
       reference: 'Section 3.1d'
     }
   ]"
 />
 
-## Additional Study Topics
-
-For complete mastery of Chapter 3, ensure you understand:
-
-1. **Building Teams (3.1)**
-   - The five stages of Tuckman's Model (Forming to Adjourning).
-   - Creating Psychological Safety (Safe to fail, Safe to speak).
-   - Leading Virtual and Global teams (Equitable meetings, Asynchronous focus).
-
-2. **Servant Leadership (3.2)**
-   - The shift from command-and-control to empowerment.
-   - Situational Leadership (Matching S1-S4 to D1-D4).
-   - Emotional Intelligence quadrants (Self vs. Social awareness).
-
-3. **Conflict Management (3.3)**
-   - The 5 Thomas-Kilmann conflict modes (Win-Win vs. Lose-Lose).
-   - The resolution ladder: Private first, Facilitate second, Escalate last.
-
-4. **Motivation (3.4)**
-   - Herzberg (Hygiene vs. Motivators).
-   - McClelland (Achievement, Affiliation, Power).
-   - Theory Y assumptions in Agile environments.
-
 ---
 
+## 🏆 Key Takeaways
+
+| Concept        | The "PMI Way"                                            |
+| :------------- | :------------------------------------------------------- |
+| **Leadership** | Servant. Support the team, remove blockers, carry water. |
+| **Conflict**   | Collaborate (Win-Win) > Compromise (Lose-Lose).          |
+| **Motivation** | Give them Autonomy and Recognition, not just money.      |
+| **Teams**      | Diverse, Psychological Safety, and Self-Organizing.      |
+
 <div class="study-tip">
-  <strong>💡 Pro Tip:</strong> In People domain questions, the "nicest" answer is often the correct one—but ONLY if it also solves the problem. Look for <strong>Empowered Problem Solving</strong>.
+  <strong>📝 Exam Insight:</strong> If you are ever unsure, choose the answer that sounds like the **"Nicest, most helpful human being in the room."** That is usually the Servant Leader answer.
 </div>
 
 <style>

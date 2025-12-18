@@ -1,61 +1,54 @@
 # 3.4 Motivation & Performance
 
-"You can't motivate people; you can only create the environment where they choose to be motivated." In the 2026 PMP exam, understanding human drive is the key to unlocking the hidden potential of your team.
+"You can't motivate people; you can only create the environment where they choose to be motivated."
 
 ---
 
-## 🏗️ The Pillars of Motivation
-For the exam, you must master the classic theories that explain why people show up and give their best.
+## 🏗️ Classic Motivational Theories
+You must master ONE of these for the exam.
 
 <div class="theory-grid">
-  <div class="theory-card">
+  <div class="theory-card herzberg">
     <div class="theory-title">Herzberg's Two-Factor</div>
     <div class="theory-content">
-      <p><strong>Hygiene Factors</strong>: Pay and security. If missing, they demotivate, but if present, they don't inspire.</p>
-      <p><strong>Motivators</strong>: Achievement and recognition. These are the true drivers of performance.</p>
+      <p><strong>Hygiene Factors</strong> (Pay, AC, Safety): Their absence causes pain, but their presence does not motivate. (Baseline).</p>
+      <p><strong>Motivators</strong> (Growth, Recognition, Responsibility): The fuel for high performance.</p>
     </div>
   </div>
-  <div class="theory-card">
+  <div class="theory-card nacc">
     <div class="theory-title">McClelland's Needs</div>
     <div class="theory-content">
-      <p><strong>Achievement</strong>: Drive to master complex tasks.</p>
-      <p><strong>Affiliation</strong>: Drive for social relationships.</p>
-      <p><strong>Power</strong>: Drive to influence and lead.</p>
+      <p><strong>Use for Hiring</strong>:</p>
+      <ul>
+        <li><strong>Achievement</strong>: Assign them challenging technical tasks.</li>
+        <li><strong>Affiliation</strong>: Assign them to coordinate stakeholders.</li>
+        <li><strong>Power</strong>: Assign them to lead larger groups.</li>
+      </ul>
     </div>
   </div>
-  <div class="theory-card">
+  <div class="theory-card xy">
     <div class="theory-title">McGregor's X & Y</div>
     <div class="theory-content">
-      <p><strong>Theory X</strong>: Believes people are lazy and need control.</p>
-      <p><strong>Theory Y</strong>: Believes people are self-directed. Modern PM involves 100% Theory Y.</p>
+      <p><strong>Theory X</strong>: "People hate work." (Manager = Dictator).</p>
+      <p><strong>Theory Y</strong>: "People want to contribute." (Manager = Servant Leader).</p>
     </div>
   </div>
 </div>
 
 ---
 
-## 🏆 Meaningful Recognition & Reward
-A Servant Leader uses recognition as a tool to reinforce high-value behaviors, not just as a "thank you."
-
-*   **Be Specific**: "Great job" is noise. "Your catch on that security bug saved the project two weeks" is recognition.
-*   **Be Timely**: A small shout-out *now* is more powerful than a formal award *next quarter*.
-*   **Be Equitable**: Rewards given to only "favorites" destroy the psychological safety of the entire team.
-
----
-
-## 📈 Performance in the 2026 Era
-In virtual and hybrid environments, performance is measured by **Value Delivered**, not "Hours Logged."
-
-1.  **Focus on Outcomes**: Did the team solve the customer's pain point?
-2.  **Leading Indicators**: Monitor cycle time and team sentiment to spot drops *before* they impact delivery.
-3.  **Whole Person Leadership**: Acknowledge that life stress impacts project performance. Empathy is a performance multiplier.
+## 🏆 The Art of Recognition
+Recognition is the cheapest, most powerful tool in your kit.
+*   **Specific**: "Great job" is noise. "Your fix on the API saved us 3 days" is signal.
+*   **Timely**: Feedback has a half-life. A compliment given 2 months later is worthless.
+*   **Public vs. Private**: Know your team. Introverts may hate public praise; extroverts crave it.
 
 <style>
 .theory-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 .theory-card {
@@ -65,28 +58,34 @@ In virtual and hybrid environments, performance is measured by **Value Delivered
   border-radius: 12px;
 }
 
+.herzberg { border-top: 4px solid #8b5cf6; }
+.nacc { border-top: 4px solid #3b82f6; }
+.xy { border-top: 4px solid #f59e0b; }
+
 .theory-title {
-  font-size: 1.1rem;
   font-weight: 700;
-  color: var(--vp-c-brand);
+  font-size: 1.1rem;
+  color: var(--vp-c-text-1);
   margin-bottom: 1rem;
 }
 
 .theory-content p {
-  font-size: 0.85rem;
-  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
   line-height: 1.4;
 }
 
-.theory-content p:last-child {
-  margin-bottom: 0;
+.theory-content ul {
+  padding-left: 1.25rem;
+  font-size: 0.85rem;
+  margin: 0;
 }
 </style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a team is well-paid but unhappy, adding more money usually won't help (Herzberg). Look for an answer that focuses on <strong>Autonomy</strong>, <strong>Growth</strong>, or <strong>Involvement in Decision-Making</strong>.
+  <strong>📝 Exam Insight:</strong> If a team is well-paid but morale is low, giving them a bonus is the wrong answer. According to Herzberg, money is hygiene. To fix morale, you must give them **Growth** (Training) or **Autonomy** (Self-Direction).
 </div>
 
 <style>
