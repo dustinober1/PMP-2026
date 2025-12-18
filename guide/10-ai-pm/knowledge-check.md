@@ -18,22 +18,22 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       reference: 'Section 10.2'
     },
     {
-      text: 'Your team uses an AI risk tool that flags a specific vendor as a "High Risk" for delays. The vendor has a perfect track record with your company individually. How should you proceed?',
+      text: 'Your team uses an AI risk tool that flags a specific vendor as a High Risk for delays. The vendor has a perfect track record with your company individually. How should you proceed?',
       options: [
-        'Ignore the AI alert as it is likely a "hallucination" based on bad data',
+        'Ignore the AI alert as it is likely a hallucination based on bad data',
         'Immediately fire the vendor and switch to the backup supplier',
-        'Use the alert as a trigger to investigate the vendor\'s current global supply chain status',
+        'Use the alert as a trigger to investigate the vendor global supply chain status',
         'Add a 2-week buffer to the schedule without telling the vendor'
       ],
       correct: 2,
-      explanation: 'In a HITL (Human-in-the-Loop) model, AI insights are triggers for human investigation. The AI may see global data (e.g., a strike at the vendor\'s parent company) that you cannot see.',
+      explanation: 'In a HITL (Human-in-the-Loop) model, AI insights are triggers for human investigation. The AI may see global data (e.g., a strike at the vendor parent company) that you cannot see.',
       reference: 'Section 10.1'
     },
     {
       text: 'What is the primary risk of using an LLM to generate a Project Charter without a thorough human review?',
       options: [
         'The charter document file size will be too large',
-        'The AI might "hallucinate" stakeholders or regulations that do not exist',
+        'The AI might hallucinate stakeholders or regulations that do not exist',
         'The sponsor will be upset that you saved time on the draft',
         'The AI will charge extra fees for commercial usage'
       ],
@@ -54,7 +54,7 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       reference: 'Section 10.2'
     },
     {
-      text: 'In a regulated industry, stakeholders demand to know why an AI model rejected a loan application. The current model gives a simple "Yes/No". What is missing?',
+      text: 'In a regulated industry, stakeholders demand to know why an AI model rejected a loan application. The current model gives a simple Yes/No. What is missing?',
       options: [
         'Generative AI',
         'Explainability (XAI)',

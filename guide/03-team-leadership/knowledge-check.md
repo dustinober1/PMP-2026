@@ -26,7 +26,7 @@ Test your EQ and leadership mindset to handle the most unpredictable part of any
         'Decide the library for them to save time'
       ],
       correct: 1,
-      explanation: 'Task conflict is healthy. As long as it doesn\'t become personal, you should let the team self-organize and resolve it.',
+      explanation: 'Task conflict is healthy. As long as it does not become personal, you should let the team self-organize and resolve it.',
       reference: 'Section 3.3'
     },
     {
@@ -38,7 +38,7 @@ Test your EQ and leadership mindset to handle the most unpredictable part of any
         'The Risk Register'
       ],
       correct: 1,
-      explanation: 'The Team Charter (or Social Contract) defines roles, responsibilities, and "how we work together." Ambiguity here causes Storming.',
+      explanation: 'The Team Charter (or Social Contract) defines roles, responsibilities, and how we work together. Ambiguity here causes Storming.',
       reference: 'Section 3.1'
     },
     {

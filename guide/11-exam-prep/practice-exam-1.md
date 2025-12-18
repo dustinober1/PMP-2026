@@ -62,7 +62,7 @@ Test your grasp of the core People, Process, and Business Environment domains.
         'Immediately fire the accused member'
       ],
       correct: 2,
-      explanation: 'The PM must investigate and validate serious ethical claims before taking disciplinary action. "Trust but verify."',
+      explanation: 'The PM must investigate and validate serious ethical claims before taking disciplinary action. Trust but verify.',
       reference: 'Chapter 3'
     }
   ]"

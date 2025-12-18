@@ -54,7 +54,7 @@ Test your ability to weave together scope, schedule, cost, and resource baseline
       reference: 'Section 6.3'
     },
     {
-      text: 'An agile team is struggling to finish their scope within the sprint. The Product Owner wants to add "one more tiny feature" to the current sprint. What is the best PM action?',
+      text: 'An agile team is struggling to finish their scope within the sprint. The Product Owner wants to add \'one more tiny feature\' to the current sprint. What is the best PM action?',
       options: [
         'Agree to the change to keep the Product Owner happy',
         'Add the feature to the current sprint but ask the team to work overtime',

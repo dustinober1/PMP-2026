@@ -6,7 +6,7 @@ Test your ability to manage uncertainty, ensure quality, and navigate project me
   title="Chapter 7: Risk & Quality"
   :questions="[
     {
-      text: 'A high-impact risk has just occurred. The project manager identifies it as a risk that was already in the Risk Register with a pre-planned response. What is the PM’s FIRST action?',
+      text: 'A high-impact risk has just occurred. The project manager identifies it as a risk that was already in the Risk Register with a pre-planned response. What is the First action?',
       options: [
         'Update the Risk Register status to: Occurred',
         'Inform the Sponsor and wait for approval to spend the contingency',
@@ -38,11 +38,11 @@ Test your ability to manage uncertainty, ensure quality, and navigate project me
         'Scatter Diagram'
       ],
       correct: 1,
-      explanation: 'A Pareto Chart ranks causes by frequency. It is based on the Pareto Principle (80/20 rule) to help PMs focus on the "vital few" problems.',
+      explanation: 'A Pareto Chart ranks causes by frequency. It is based on the Pareto Principle (80/20 rule) to help PMs focus on the vital few problems.',
       reference: 'Section 7.2'
     },
     {
-      text: 'You are working on a high-tech R&D project. Stakeholders agree on the goal, but the technical path is unpredictable and expertos disagree on the method. According to Cynefin, how should you manage this?',
+      text: 'You are working on a high-tech R&D project. Stakeholders agree on the goal, but the technical path is unpredictable and experts disagree on the method. According to Cynefin, how should you manage this?',
       options: [
         'Use Best Practices (Sense-Categorize-Respond)',
         'Hire more experts (Sense-Analyze-Respond)',
@@ -50,7 +50,7 @@ Test your ability to manage uncertainty, ensure quality, and navigate project me
         'Take immediate action to stabilize (Act-Sense-Respond)'
       ],
       correct: 2,
-      explanation: 'In a Complex environment (unclear cause and effect), the best approach is to "Probe" (experiment), "Sense" the result, and "Respond" (adapt).',
+      explanation: 'In a Complex environment (unclear cause and effect), the best approach is to Probe (experiment), Sense the result, and Respond (adapt).',
       reference: 'Section 7.3'
     },
     {

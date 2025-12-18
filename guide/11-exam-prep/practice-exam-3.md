@@ -10,11 +10,11 @@ The final challenge: Integration, AI, Ethics, and high-stakes scenarios.
       options: [
         'Accept the AI output as final to save the team 4 hours of meeting time',
         'Use the AI list as a collaborative starting point and validate it with the team',
-        'Refuse to use the tool due to the risk of "hallucination"',
+        'Refuse to use the tool due to the risk of hallucination',
         'Upload the company financials to the AI to get a better cost risk profile'
       ],
       correct: 1,
-      explanation: 'AI is a "Co-Pilot," not an "Autopilot." The output must be treated as a draft and validated by human experts (HITL model).',
+      explanation: 'AI is a Co-Pilot, not an Autopilot. The output must be treated as a draft and validated by human experts (HITL model).',
       reference: 'Chapter 10'
     },
     {
@@ -26,11 +26,11 @@ The final challenge: Integration, AI, Ethics, and high-stakes scenarios.
         'The project is under budget and ahead of schedule'
       ],
       correct: 1,
-      explanation: 'EAC = BAC / CPI assumes the current "Spend Rate" (CPI) will persist. If you are bad at spending now, you will likely be bad later.',
+      explanation: 'EAC = BAC / CPI assumes the current Spend Rate (CPI) will persist. If you are bad at spending now, you will likely be bad later.',
       reference: 'Chapter 9'
     },
     {
-      text: 'According to Herzberg\'s Motivation-Hygiene Theory, which action acts as a true "Motivator" (not just Hygiene)?',
+      text: 'According to Herzberg Motivation-Hygiene Theory, which action acts as a true Motivator (not just Hygiene)?',
       options: [
         'Buying new ergonomic chairs for the office',
         'Publicly recognizing the team for a complex milestone achievement',
@@ -42,15 +42,15 @@ The final challenge: Integration, AI, Ethics, and high-stakes scenarios.
       reference: 'Chapter 3'
     },
     {
-      text: 'You discover the organization\'s strategy has shifted, making your project redundant. What is the FIRST action?',
+      text: 'You discover the organization strategy has shifted, making your project redundant. What is the FIRST action?',
       options: [
         'Stop work immediately and send the team home',
         'Conduct a strategic alignment analysis and present it to the Sponsor',
-        'Keep the project running quietly to protect your team\'s jobs',
+        'Keep the project running quietly to protect your team jobs',
         'Delete the Project Charter'
       ],
       correct: 1,
-      explanation: 'You must analyze and communicate. You do not have the authority to cancel a project (that is likely the Sponsor\'s role), but you must trigger the decision.',
+      explanation: 'You must analyze and communicate. You do not have the authority to cancel a project (that is likely the Sponsor role), but you must trigger the decision.',
       reference: 'Chapter 2'
     },
     {

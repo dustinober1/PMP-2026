@@ -20,7 +20,7 @@ Test your ability to connect project decisions to business strategy, value, and 
     {
       text: 'Which statement best describes the difference between Portfolio and Program management?',
       options: [
-        'Portfolios focus on "doing the work right"; Programs focus on "doing the right work"',
+        'Portfolios focus on doing the work right; Programs focus on doing the right work',
         'Portfolios manage related projects; Programs manage the entire enterprise',
         'Portfolios maximize strategic value; Programs maximize synergistic benefits',
         'There is no difference; the terms are interchangeable'
@@ -42,7 +42,7 @@ Test your ability to connect project decisions to business strategy, value, and 
       reference: 'Section 2.2'
     },
     {
-      text: 'A user refuses to use the new software because "the old way was faster." According to the ADKAR model, which element is likely missing?',
+      text: 'A user refuses to use the new software because the old way was faster. According to the ADKAR model, which element is likely missing?',
       options: [
         'Awareness',
         'Desire',
@@ -50,7 +50,7 @@ Test your ability to connect project decisions to business strategy, value, and 
         'Ability'
       ],
       correct: 1,
-      explanation: 'If they simply "don\'t want to" (Desire) or "don\'t see the point" (Awareness), training (Knowledge/Ability) won\'t help. You must address the "WIIFM" (What\'s In It For Me).',
+      explanation: 'If they simply do not want to (Desire) or do not see the point (Awareness), training (Knowledge/Ability) will not help. You must address the WIIFM (What Is In It For Me).',
       reference: 'Section 2.4'
     },
     {
@@ -62,7 +62,7 @@ Test your ability to connect project decisions to business strategy, value, and 
         'Ask the sponsor for a waiver'
       ],
       correct: 1,
-      explanation: 'Compliance is non-negotiable. "Grandfather clauses" rarely apply to data privacy. You must submit a Change Request to update the baseline to remain legal.',
+      explanation: 'Compliance is non-negotiable. Grandfather clauses rarely apply to data privacy. You must submit a Change Request to update the baseline to remain legal.',
       reference: 'Section 2.3'
     }
   ]"

@@ -26,7 +26,7 @@ Test your ability to lead in adaptive environments and handle complex interperso
         'Reporting the daily status to the sponsor personally'
       ],
       correct: 1,
-      explanation: 'Servant leaders "carry food and water." They remove obstacles and let the team decide "how" to do the work.',
+      explanation: 'Servant leaders carry food and water. They remove obstacles and let the team decide how to do the work.',
       reference: 'Chapter 3'
     },
     {
@@ -42,7 +42,7 @@ Test your ability to lead in adaptive environments and handle complex interperso
       reference: 'Chapter 2'
     },
     {
-      text: 'Which conflict resolution technique results in a "Win-Win" situation?',
+      text: 'Which conflict resolution technique results in a Win-Win situation?',
       options: [
         'Forcing (Directing)',
         'Compromising (Give and Take)',
@@ -50,7 +50,7 @@ Test your ability to lead in adaptive environments and handle complex interperso
         'Smoothing (Accommodating)'
       ],
       correct: 2,
-      explanation: 'Collaborating attacks the problem, not the person. It finds a solution that fully satisfies all parties, whereas Compromising is a "Lose-Lose" (both give up something).',
+      explanation: 'Collaborating attacks the problem, not the person. It finds a solution that fully satisfies all parties, whereas Compromising is a Lose-Lose (both give up something).',
       reference: 'Chapter 3'
     },
     {

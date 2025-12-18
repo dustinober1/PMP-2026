@@ -18,7 +18,7 @@ Test your mastery of performance metrics, change control, and the final handoff 
       reference: 'Section 9.1'
     },
     {
-      text: 'A key stakeholder calls you to request a "small" change to the dashboard layout. They claim it will only take 2 hours. What is the correct PM response?',
+      text: 'A key stakeholder calls you to request a \'small\' change to the dashboard layout. They claim it will only take 2 hours. What is the correct PM response?',
       options: [
         'Implement the change immediately to keep the stakeholder happy',
         'Ask the team to squeeze it in during lunch',
@@ -26,7 +26,7 @@ Test your mastery of performance metrics, change control, and the final handoff 
         'Reject the request because the scope is frozen'
       ],
       correct: 2,
-      explanation: 'Every change, no matter how small, must go through Integrated Change Control to protect the project baseline from "Scope Creep" (Death by a thousand cuts).',
+      explanation: 'Every change, no matter how small, must go through Integrated Change Control to protect the project baseline from Scope Creep (Death by a thousand cuts).',
       reference: 'Section 9.1'
     },
     {
@@ -46,7 +46,7 @@ Test your mastery of performance metrics, change control, and the final handoff 
       options: [
         'Force the handover since the product works',
         'Delay the closure until the manuals are delivered and training is complete',
-        'Mark the project as "Closed" and let Operations figure it out',
+        'Mark the project as Closed and let Operations figure it out',
         'Escalate to the CEO'
       ],
       correct: 1,

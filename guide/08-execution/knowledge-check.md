@@ -34,11 +34,11 @@ Test your ability to lead teams, manage knowledge, and ensure value-based delive
       options: [
         'Tacit is for Agile; Explicit is for Waterfall',
         'Tacit is easy to document; Explicit is based on intuition',
-        'Tacit is hard to codify (it\'s personal experience); Explicit is easy to share via data/manuals',
+        'Tacit is hard to codify (it is personal experience); Explicit is easy to share via data/manuals',
         'Tacit belongs to the sponsor; Explicit belongs to the team'
       ],
       correct: 2,
-      explanation: 'Tacit knowledge is intuitive and experience-based (the "know-how"). Explicit knowledge is fact-based and easily codified (blueprints, data).',
+      explanation: 'Tacit knowledge is intuitive and experience-based (the \'know-how\'). Explicit knowledge is fact-based and easily codified (blueprints, data).',
       reference: 'Section 8.1'
     },
     {
