@@ -1,44 +1,39 @@
 # Chapter 8: Execution & Value Delivery
 
-Execution is where strategy meets reality. In the 2026 PMP exam, a Project Manager doesn't just "execute tasks"—they **steward value**. Success is measured not just by a finished product, but by the meaningful outcomes it creates.
+Execution is where strategy meets reality. In the 2026 PMP exam, a Project Manager doesn't just "execute tasks"—they **steward value**. Success is measured not just by a finished product, but by the meaningful outcomes it creates for the customer and the organization.
 
-::: info 🚀 The "Rubber Meets the Road" Domain
-Execution encompasses the bulk of your daily work. It requires balancing the discipline of predictive schedules with the flexibility of agile delivery.
-:::
+---
 
-## What You'll Learn
-- **Executing Project Work**: Coordination, Knowledge Management, and Resource Leadership across all methodologies.
-- **Value Delivery & Outcomes**: Understanding the "Value Chain" and ensuring the project actually solves the business problem.
-- **Benefits Realization**: Managing the transition to operations and ensuring long-term success.
+## 🚀 Driving Performance
+Execution is the bulk of the project lifecycle. It requires balancing the discipline of project baselines with the flexibility needed to handle real-world impediments.
 
 <div class="section-grid">
   <div class="section-card">
     <div class="section-title">8.1 Executing Project Work</div>
-    <p class="section-description">How to lead teams, manage knowledge, and coordinate work in Predictive, Agile, and Hybrid environments.</p>
-    <a href="./executing-work" class="section-link">Drive the Momentum →</a>
+    <p class="section-description">Leading teams, managing knowledge, and coordinating efforts across Predictive, Agile, and Hybrid models.</p>
+    <a href="./executing-work" class="section-link">Drive Momentum →</a>
   </div>
 
   <div class="section-card">
-    <div class="section-title">8.2 Value Delivery and Outcomes</div>
-    <p class="section-description">Moving from "Outputs" to "Outcomes." Understanding the value delivery system and benefits realization.</p>
+    <div class="section-title">8.2 Value Delivery</div>
+    <p class="section-description">Moving from "Outputs" to "Outcomes." Ensuring the project actually solves the business problem.</p>
     <a href="./value-delivery" class="section-link">Deliver Results →</a>
   </div>
 
   <div class="section-card knowledge-check">
     <div class="section-title">Knowledge Check</div>
     <p class="section-description">Test your ability to handle execution challenges and value-based dilemmas.</p>
-    <a href="./knowledge-check" class="section-link">Verify Your Impact →</a>
+    <a href="./knowledge-check" class="section-link">Verify Impact →</a>
   </div>
 </div>
 
 ---
 
-## Study Recommendation
-On the exam, execution questions often focus on **Impediments**. If someone is blocked, what do you do? If the plan is failing, how do you adapt? Focus on the **Servant Leadership** mindset.
-
-<div class="action-bar">
-  <a href="./executing-work" class="action-button primary">Start Execution</a>
-</div>
+## 2026 Focus: Impediment Management
+On the exam, execution is often about **Impediments**. You must show that you can:
+- **Clear the Path**: Remove blockers that stop the team from working.
+- **Manage Knowledge**: Ensure lessons learned are captured *during* execution, not just at the end.
+- **Adapt to Change**: Pivot the execution strategy when value delivery is at risk.
 
 <style>
 .section-grid {
@@ -93,26 +88,5 @@ On the exam, execution questions often focus on **Impediments**. If someone is b
 
 .knowledge-check {
   background: var(--vp-c-brand-soft);
-  border-color: var(--vp-c-brand-light);
-}
-
-.action-bar {
-  display: flex;
-  justify-content: center;
-  margin: 3rem 0;
-}
-
-.action-button.primary {
-  padding: 0.75rem 2rem;
-  background: var(--vp-c-brand);
-  color: white;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: opacity 0.2s;
-}
-
-.action-button.primary:hover {
-  opacity: 0.9;
 }
 </style>

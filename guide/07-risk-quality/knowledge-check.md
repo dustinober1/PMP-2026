@@ -1,43 +1,68 @@
 # Knowledge Check: Risk, Quality & Complexity
 
-Test your ability to manage uncertainty, ensure quality, and navigate project messiness.
+Test your ability to manage uncertainty, ensure quality, and navigate project messiness in the 2026 PMP context.
 
 <QuizComponent
-  title="Chapter 7 Knowledge Check"
+  title="Chapter 7: Risk & Quality"
   :questions="[
     {
-      text: 'A critical risk has just occurred. The project manager identifies that the risk was already documented in the Risk Register and has a pre-planned response. What is the PM\'s FIRST action?',
-      options: ['Update the Risk Register to status: occurred', 'Inform the Sponsor and wait for instructions', 'Implement the planned Risk Response and update the Issue Log', 'Analyze the impact using a Monte Carlo simulation'],
+      text: 'A high-impact risk has just occurred. The project manager identifies it as a risk that was already in the Risk Register with a pre-planned response. What is the PM’s FIRST action?',
+      options: [
+        'Update the Risk Register status to: Occurred',
+        'Inform the Sponsor and wait for approval to spend the contingency',
+        'Implement the planned Risk Response and update the Issue Log',
+        'Pause the project to update the risk probability of other items'
+      ],
       correct: 2,
-      explanation: 'Once a risk occurs, it is an issue. The PM should immediately execute the response they planned and move the item to the Issue Log.',
+      explanation: 'Once a risk occurs, it is an issue. The PM should immediately execute the response they planned during the risk planning phase and document the event in the Issue Log.',
       reference: 'Section 7.1'
     },
     {
-      text: 'A team member is auditing the software development process to ensure that the team is following the mandated security protocols. What is this activity called?',
-      options: ['Quality Control', 'Quality Assurance', 'Scope Validation', 'Risk Mitigation'],
+      text: 'A team member is auditing the software development workflow to ensure the team is following the mandated security protocols. What is this activity considered?',
+      options: [
+        'Quality Control',
+        'Quality Assurance',
+        'Risk Mitigation',
+        'Stakeholder Engagement'
+      ],
       correct: 1,
-      explanation: 'Auditing processes to ensure they are being followed correctly is a proactive Quality Assurance (QA) activity.',
+      explanation: 'Auditing processes to ensure they are being followed correctly is a proactive Quality Assurance (QA) activity. Quality Control (QC) would be testing the software itself.',
       reference: 'Section 7.2'
     },
     {
-      text: 'The project team is dealing with a high number of defects. They want to identify which specific 20% of causes are creating 80% of the defects so they can prioritize their fixes. Which tool should they use?',
-      options: ['Cause-and-Effect Diagram', 'Pareto Chart', 'Control Chart', 'Scatter Diagram'],
+      text: 'Your project is seeing a high number of defects. You want to identify which specific 20% of causes are creating 80% of the defects so you can prioritize fixes. Which tool should you use?',
+      options: [
+        'Fishbone Diagram',
+        'Pareto Chart',
+        'Control Chart',
+        'Scatter Diagram'
+      ],
       correct: 1,
-      explanation: 'The Pareto Chart is based on the 80/20 rule and is used to prioritize the "vital few" over the "trivial many."',
+      explanation: 'A Pareto Chart ranks causes by frequency. It is based on the Pareto Principle (80/20 rule) to help PMs focus on the "vital few" problems.',
       reference: 'Section 7.2'
     },
     {
-      text: 'A project manager is working on a high-tech R&D project. The stakeholders agree on the vision, but no one is sure how to achieve it technically. The environment is highly unpredictable. Using the Cynefin framework, what is the best approach?',
-      options: ['Best Practice (Sense-Categorize-Respond)', 'Expert Analysis (Sense-Analyze-Respond)', 'Safe-to-Fail Experiments (Probe-Sense-Respond)', 'Immediate Action (Act-Sense-Respond)'],
+      text: 'You are working on a high-tech R&D project. Stakeholders agree on the goal, but the technical path is unpredictable and expertos disagree on the method. According to Cynefin, how should you manage this?',
+      options: [
+        'Use Best Practices (Sense-Categorize-Respond)',
+        'Hire more experts (Sense-Analyze-Respond)',
+        'Run Safe-to-Fail Experiments (Probe-Sense-Respond)',
+        'Take immediate action to stabilize (Act-Sense-Respond)'
+      ],
       correct: 2,
-      explanation: 'In a Complex environment (Probe-Sense-Respond), you must experiment because cause and effect are not clear upfront.',
+      explanation: 'In a Complex environment (unclear cause and effect), the best approach is to "Probe" (experiment), "Sense" the result, and "Respond" (adapt).',
       reference: 'Section 7.3'
     },
     {
-      text: 'What is the most expensive cost of quality category?',
-      options: ['Prevention Costs', 'Appraisal Costs', 'Internal Failure Costs', 'External Failure Costs'],
+      text: 'What is the most expensive category of the Cost of Quality (COQ)?',
+      options: [
+        'Prevention (Training/Planning)',
+        'Appraisal (Testing/Inspections)',
+        'Internal Failure (Rework/Scrap)',
+        'External Failure (Lawsuits/Loss of Reputation)'
+      ],
       correct: 3,
-      explanation: 'External Failure Costs (e.g., lawsuits, loss of reputation, warranty claims) are always the most expensive because they happen after the customer has received the product.',
+      explanation: 'External Failure costs are the highest because they occur after the customer receives the product, leading to loss of brand equity, lawsuits, and warranty claims.',
       reference: 'Section 7.2'
     }
   ]"
@@ -45,24 +70,17 @@ Test your ability to manage uncertainty, ensure quality, and navigate project me
 
 ## Additional Study Topics
 
-For complete mastery of Chapter 7, ensure you understand:
+For full Chapter 7 proficiency, ensure you can:
 
-1. **Risk Strategies (7.1)**
-   - Difference between **Mitigate** (reduce) and **Avoid** (eliminate).
-   - **Secondary Risk**: A risk created by your response to another risk.
-
-2. **The 7 Quality Tools (7.2)**
-   - **Control Charts**: Knowing the Rule of Seven (out of control).
-   - **Fishbone Diagram**: Identifying root causes via the 5 Whys.
-
-3. **Complexity Drivers (7.3)**
-   - Distinguishing between **Complicated** (solvable by experts) and **Complex** (needs experiments).
-   - The role of **Systems Thinking** in project integration.
+1.  **Select the Response**: When to *Transfer* (Insurance) vs. *Mitigate* (Testing).
+2.  **Read the Chart**: Knowing the "Rule of 7" on a Control Chart.
+3.  **Root Cause**: Using the "5 Whys" in combination with a Fishbone diagram.
+4.  **Systems Thinking**: Identifying how a schedule delay in one department creates a "Feedback Loop" of stress in another.
 
 ---
 
 <div class="study-tip">
-  <strong>💡 Pro Tip:</strong> If the question mentions "Stakeholders disagreeing" and "Unclear tech," think <strong>Complexity</strong>. If it mentions "Math" and "Money," think <strong>Risk Analysis (EMV)</strong>.
+  <strong>📝 Exam Insight:</strong> If the question mentions "inconsistent results" or "process stability," the answer is likely <strong>Control Chart</strong>. If it mentions "ranking problems by frequency," the answer is <strong>Pareto Chart</strong>.
 </div>
 
 <style>

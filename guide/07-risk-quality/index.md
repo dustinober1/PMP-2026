@@ -1,50 +1,45 @@
 # Chapter 7: Risk, Quality & Complexity
 
-Modern projects live in a world of **V.U.C.A.** (Volatility, Uncertainty, Complexity, and Ambiguity). In the 2026 PMP exam, a Project Manager’s value is measured by how they navigate these waters while maintaining quality.
+Modern projects live in a world of **V.U.C.A.** (Volatility, Uncertainty, Complexity, and Ambiguity). In the 2026 PMP exam, your value is measured by how you navigate the unknown while maintaining unwavering quality.
 
-::: info ⚠️ The Domain of Uncertainty
-Risk, Quality, and Complexity are interwoven. In 2026, the focus has shifted from "registering" risks to **Active Resilience** and **Quality at Source**.
-:::
+---
 
-## What You'll Learn
-- **Risk Management**: Moving from defensive mapping to offensive opportunity exploitation.
-- **Quality Management**: Understanding that "Quality is not an act, it's a habit."
-- **Complexity**: Navigating systems where the relationship between cause and effect is unclear.
+## ⚠️ The Domain of Uncertainty
+Risk, Quality, and Complexity are interwoven. A failure in quality is a realized risk, and complexity is often the root cause of both.
 
 <div class="section-grid">
   <div class="section-card">
     <div class="section-title">7.1 Risk Management</div>
-    <p class="section-description">Identification, Qualitative vs. Quantitative analysis, and the critical 2026 Response Strategies.</p>
-    <a href="./risk-management" class="section-link">Manage the Unknown →</a>
+    <p class="section-description">Identification, Analysis, and Response Strategies for both Threats and Opportunities.</p>
+    <a href="./risk-management" class="section-link">Manage Uncertainty →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">7.2 Quality Management</div>
-    <p class="section-description">Quality Assurance vs. Control, the 7 Basic Quality Tools, and the mindset of Continuous Improvement.</p>
-    <a href="./quality-management" class="section-link">Ensure Deliverable Value →</a>
+    <p class="section-description">Quality Assurance vs. Control, and the mindset of 'Quality at the Source'.</p>
+    <a href="./quality-management" class="section-link">Ensure Value →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">7.3 Navigating Complexity</div>
-    <p class="section-description">Handling human behavior, system interdependencies, and ambiguity using adaptive frameworks.</p>
+    <p class="section-description">Handling human behavior, system dependencies, and organizational ambiguity.</p>
     <a href="./navigating-complexity" class="section-link">Tame the Chaos →</a>
   </div>
 
   <div class="section-card knowledge-check">
     <div class="section-title">Knowledge Check</div>
     <p class="section-description">Apply your judgment to scenarios involving critical risks and quality failures.</p>
-    <a href="./knowledge-check" class="section-link">Verify Your Mastery →</a>
+    <a href="./knowledge-check" class="section-link">Verify Mastery →</a>
   </div>
 </div>
 
 ---
 
-## Study Recommendation
-This chapter contains highly technical concepts (like Monte Carlo simulations) alongside highly soft skills (like navigating political complexity). Keep your focus on the **Impact on Value Delivery**.
-
-<div class="action-bar">
-  <a href="./risk-management" class="action-button primary">Start Risk Analysis</a>
-</div>
+## 2026 Mindset: Active Resilience
+The PMP exam no longer focuses on just "filling out a register." It focuses on:
+- **Agile Risk**: Handling risk via iterative feedback loops.
+- **Continuous Quality**: Integrating automated testing and user validation into every cycle.
+- **De-risking**: Proactively removing blockers before they become issues.
 
 <style>
 .section-grid {
@@ -99,26 +94,5 @@ This chapter contains highly technical concepts (like Monte Carlo simulations) a
 
 .knowledge-check {
   background: var(--vp-c-brand-soft);
-  border-color: var(--vp-c-brand-light);
-}
-
-.action-bar {
-  display: flex;
-  justify-content: center;
-  margin: 3rem 0;
-}
-
-.action-button.primary {
-  padding: 0.75rem 2rem;
-  background: var(--vp-c-brand);
-  color: white;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: opacity 0.2s;
-}
-
-.action-button.primary:hover {
-  opacity: 0.9;
 }
 </style>

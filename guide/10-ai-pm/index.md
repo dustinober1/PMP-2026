@@ -1,28 +1,23 @@
 # Chapter 10: AI & Project Management
 
-AI is the single most transformative force in modern project management. In the 2026 PMP exam, you aren't expected to be a data scientist, but you must be an **AI-Augmented Leader**.
+AI is the single most transformative force in modern project management. In the 2026 PMP exam, you aren't expected to be a data scientist, but you *must* be an **AI-Augmented Leader**.
 
-::: info 🤖 The New Co-Pilot
-AI doesn't replace the Project Manager; it replaces the *administrative burden* of project management. Your value shifts from tracking tasks to **interpreting insights** and **leading people**.
-:::
+---
 
-## What You'll Learn
-- **AI Essentials**: Understanding Generative AI, Predictive Analytics, and their role in your daily workflow.
-- **The AI Lifecycle**: Practical ways to use AI from Project Initiation to Closing.
-- **Responsible AI**: Ethics, data privacy, and the "Human-in-the-Loop" requirement.
-- **ROI & Future Trends**: How to measure the success of AI tools and what's coming next.
+## 🤖 The New Co-Pilot
+AI doesn't replace the Project Manager; it replaces the *administrative burden* of project management. Your value shifts from tracking tasks to **interpreting insights**, **making strategy**, and **leading people**.
 
 <div class="section-grid">
   <div class="section-card">
     <div class="section-title">10.1 AI Essentials</div>
-    <p class="section-description">Core concepts: LLMs, Predictive Analytics, and how AI assists in planning and decision-making.</p>
+    <p class="section-description">Core concepts: LLMs vs. Predictive Analytics, and how to prompt for PM success.</p>
     <a href="./ai-essentials" class="section-link">Meet Your Co-Pilot →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">10.2 Responsible AI</div>
-    <p class="section-description">Ethics, privacy, and bias. Ensuring your AI tools are fair, secure, and compliant with governance.</p>
-    <a href="./responsible-ai" class="section-link">Set the Guardrails →</a>
+    <p class="section-description">Ethics, privacy, bias, and the "Human-in-the-Loop" requirement.</p>
+    <a href="./responsible-ai" class="section-link">Set Guardrails →</a>
   </div>
 
   <div class="section-card">
@@ -34,18 +29,16 @@ AI doesn't replace the Project Manager; it replaces the *administrative burden* 
   <div class="section-card knowledge-check">
     <div class="section-title">Knowledge Check</div>
     <p class="section-description">Test your judgment on AI ethics and implementation scenarios.</p>
-    <a href="./knowledge-check" class="section-link">Verify Your Literacy →</a>
+    <a href="./knowledge-check" class="section-link">Verify Literacy →</a>
   </div>
 </div>
 
 ---
 
-## Study Recommendation
-On the exam, the answer isn't "Let the AI decide." The answer is always **"Use AI to analyze the data, then have the PM/Team make the final decision."**
-
-<div class="action-bar">
-  <a href="./ai-essentials" class="action-button primary">Explore AI Essentials</a>
-</div>
+## 2026 Mindset: Human + AI
+Success in this new era requires a dual mindset:
+*   **The Scientist**: Using AI to analyze massive datasets (e.g., "Predict the probability of a delay based on historical weather patterns").
+*   **The Artist**: Using human empathy to negotiate the conflicts that AI predicts but cannot solve.
 
 <style>
 .section-grid {
@@ -100,26 +93,5 @@ On the exam, the answer isn't "Let the AI decide." The answer is always **"Use A
 
 .knowledge-check {
   background: var(--vp-c-brand-soft);
-  border-color: var(--vp-c-brand-light);
-}
-
-.action-bar {
-  display: flex;
-  justify-content: center;
-  margin: 3rem 0;
-}
-
-.action-button.primary {
-  padding: 0.75rem 2rem;
-  background: var(--vp-c-brand);
-  color: white;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: opacity 0.2s;
-}
-
-.action-button.primary:hover {
-  opacity: 0.9;
 }
 </style>

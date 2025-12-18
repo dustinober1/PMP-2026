@@ -1,68 +1,68 @@
-# Practice Exam 3
+# Practice Exam 3: Integration & Final Challenge
 
 The final challenge: Integration, AI, Ethics, and high-stakes scenarios.
 
 <QuizComponent
-  title="Practice Exam 3: Integration & Final Check"
+  title="Practice Exam 3: Final Integration"
   :questions="[
     {
-      text: 'A project manager is asked to use an AI tool to generate the preliminary risk register. What is the MOST appropriate way for the PM to use this output?',
+      text: 'A project manager uses an AI tool to generate a Preliminary Risk Register. What is the MOST appropriate next step?',
       options: [
-        'Accept the AI output as the final risk register to save time',
-        'Use the AI list as a starting point and validate it with the team and stakeholders',
-        'Refuse to use AI and create the register manually from scratch',
-        'Upload all raw project data to the AI for better analysis without checking security'
+        'Accept the AI output as final to save the team 4 hours of meeting time',
+        'Use the AI list as a collaborative starting point and validate it with the team',
+        'Refuse to use the tool due to the risk of "hallucination"',
+        'Upload the company financials to the AI to get a better cost risk profile'
       ],
       correct: 1,
-      explanation: 'AI is a productivity tool, but the PM remains accountable. Validation with human experts (team/stakeholders) is essential.',
+      explanation: 'AI is a "Co-Pilot," not an "Autopilot." The output must be treated as a draft and validated by human experts (HITL model).',
       reference: 'Chapter 10'
     },
     {
-      text: 'The Estimate at Completion (EAC) formula EAC = BAC / CPI should be used in which of the following situations?',
+      text: 'The formula EAC = BAC / CPI is used when:',
       options: [
-        'Current variances are atypical and unlikely to continue',
-        'Current cost performance is expected to continue until the end of the project',
-        'Both schedule and cost performances must be considered simultaneously',
-        'The project is ahead of schedule and under budget'
+        'Current variances are atypical and unlikely to recur',
+        'Current cost performance is expected to continue for the future work',
+        'Schedule deadlines are legally fixed and cannot move',
+        'The project is under budget and ahead of schedule'
       ],
       correct: 1,
-      explanation: 'EAC = BAC / CPI is the formula used when you assume the current trend (CPI) will continue for the remainder of the work.',
+      explanation: 'EAC = BAC / CPI assumes the current "Spend Rate" (CPI) will persist. If you are bad at spending now, you will likely be bad later.',
       reference: 'Chapter 9'
     },
     {
-      text: 'Declining team morale is reported. According to Herzberg\'s Motivation-Hygiene theory, which of the following would be the most effective "Motivator" to improve engagement?',
+      text: 'According to Herzberg\'s Motivation-Hygiene Theory, which action acts as a true "Motivator" (not just Hygiene)?',
       options: [
-        'Providing better office furniture and workstations',
-        'Increasing recognition for high-quality individual and team work',
-        'Improving the quality of the on-site cafeteria food',
-        'Raising base salaries across the entire team'
+        'Buying new ergonomic chairs for the office',
+        'Publicly recognizing the team for a complex milestone achievement',
+        'Turning up the air conditioning during a heatwave',
+        'Increasing the base salary by 2%'
       ],
       correct: 1,
-      explanation: 'Recognition, growth, and responsibility are "Motivators." Salary, food, and workstations are "Hygiene" factors—improving them only prevents dissatisfaction but doesn\'t create true motivation.',
+      explanation: 'Recognition, Growth, and Responsibility are Motivators. Chairs, Salary, and AC are Hygiene factors—their absence causes pain, but their presence does not create passion.',
       reference: 'Chapter 3'
     },
     {
-      text: 'A project manager discovers that their organization\'s new strategic plan makes the current project redundant. What should be their FIRST action?',
+      text: 'You discover the organization\'s strategy has shifted, making your project redundant. What is the FIRST action?',
       options: [
-        'Immediately stop all project activities and release the team',
-        'Conduct a thorough impact analysis and present the findings to the sponsor',
-        'Continue the project as planned to ensure the baseline is met',
-        'Assume the project will be canceled and stop updating the risk register'
+        'Stop work immediately and send the team home',
+        'Conduct a strategic alignment analysis and present it to the Sponsor',
+        'Keep the project running quietly to protect your team\'s jobs',
+        'Delete the Project Charter'
       ],
       correct: 1,
-      explanation: 'Before taking action (like stopping work), the PM must analyze the impact of the strategic shift and provide a formal recommendation/report to the sponsor.',
+      explanation: 'You must analyze and communicate. You do not have the authority to cancel a project (that is likely the Sponsor\'s role), but you must trigger the decision.',
       reference: 'Chapter 2'
     },
     {
-      text: 'According to the PMI Code of Ethics, what should a project manager do if they discover a significant conflict of interest involving themselves?',
+      text: 'You discover a conflict of interest involving yourself and a potential vendor. According to the PMI Code of Ethics, what must you do?',
       options: [
-        'Ignore it if the conflict doesn\'t directly harm the project budget',
-        'Disclose the conflict to appropriate stakeholders and follow company policy',
-        'Resign from the project immediately without explanation',
-        'Keep the conflict confidential to avoid unnecessary complications'
+        'Ignore it if the vendor is the cheapest option',
+        'Disclose the conflict to stakeholders/Sponsor immediately',
+        'Resign from the company to save face',
+        'Ask a colleague to sign the contract for you'
       ],
       correct: 1,
-      explanation: 'Transparency is a core value. Conflicts of interest must be disclosed to ensure ethical governance.',
+      explanation: 'Transparency is non-negotiable. Conflicts of interest must be disclosed so the organization can decide how to handle them.',
       reference: 'Chapter 1'
     }
   ]"
@@ -72,14 +72,19 @@ The final challenge: Integration, AI, Ethics, and high-stakes scenarios.
 
 ## 🏆 Final Readiness Checklist
 
-- [ ] I can calculate CPI, SPI, and EAC from memory.
-- [ ] I understand the difference between a "Direct" and "Consulted" stakeholder.
-- [ ] I know when to use the Change Control Board (Waterfall) vs. the Product Owner (Agile).
-- [ ] I am comfortable with "Human-in-the-Loop" AI ethics.
-- [ ] I have set my "Target Time" for each 60-question block.
+| Domain       | Proficiency Check                                                                 |
+| :----------- | :-------------------------------------------------------------------------------- |
+| **People**   | Can you distinguish between *Servant Leadership* and *Command & Control*?         |
+| **Process**  | Can you explain the difference between *Quality Assurance* and *Quality Control*? |
+| **Business** | Do you know when to use *NPV* vs. *IRR* to select a project?                      |
+| **AI**       | Do you understand the *Human-in-the-Loop* requirement?                            |
+
+::: tip 🎓 Ready?
+If you scored **4/5** or higher on all three exams, you are ready to simulate a full 180-question test. If not, revisit the specific chapters linked in the "Reference" field of each question.
+:::
 
 <div class="action-bar">
-  <a href="/" class="action-button primary">Finish Study Guide</a>
+  <a href="/" class="action-button primary">Return to Home</a>
 </div>
 
 <style>

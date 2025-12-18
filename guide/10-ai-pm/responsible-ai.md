@@ -1,41 +1,90 @@
 # 10.2 Responsible AI: Ethics & Governance
 
-Using AI is not just a technical choice; it is an **ethical** one. Project Managers are stewards of their organization's data and their team's culture.
+Using AI is not just a technical choice; it is an **ethical** one. As a Project Manager, you are the steward of your organization's data, your client's secrets, and your team's integrity.
 
 ---
 
-## 🛡️ Data Privacy & Security
-The #1 rule of AI in Project Management: **Protect the Data.**
+## 🛡️ The 3 Pillars of Responsible AI
+To navigate the risks of AI, follow these pillars:
 
-- **Public vs. Private Models**: Never upload sensitive project data (financials, blueprints, PII) to a public, free AI tool. These tools often use your data to train their models.
-- **Enterprise Guardrails**: Only use tools approved by your IT/Security department that offer "Enterprise Data Privacy."
+<div class="resp-grid">
+  <div class="resp-card">
+    <div class="resp-title">1. Data Privacy</div>
+    <div class="resp-tag">The Red Line</div>
+    <p><strong>Rule:</strong> Never put sensitive data (PII, Financials, IP, Strategy) into a public, free AI model (like standard ChatGPT). It may be used to train the model.</p>
+  </div>
+  <div class="resp-card">
+    <div class="resp-title">2. Bias Awareness</div>
+    <div class="resp-tag">The Blind Spot</div>
+    <p><strong>Rule:</strong> AI is trained on history. If history was biased (e.g., hiring practices), the AI will be biased. You must actively audit outputs for fairness.</p>
+  </div>
+  <div class="resp-card">
+    <div class="resp-title">3. Accountability</div>
+    <div class="resp-tag">The Owner</div>
+    <p><strong>Rule:</strong> The AI is a tool, like a calculator. If a bridge collapses because of a calculation error, the engineer is blamed, not the calculator.</p>
+  </div>
+</div>
 
 ---
 
-## ⚖️ Bias and Fairness
-AI models are trained on historical data. If that data is biased, the AI's recommendations will be biased.
-- **Example**: If an AI predicts project success based on historical data from a male-dominated engineering firm, it might unfairly penalize projects led by different demographics.
-- **The PM's Role**: Constantly audit AI outputs for **fairness** and ensure diverse perspectives are included in the validation process.
+## 📜 The "AI Charter"
+Just as you create a Team Charter for human interactions, you need an **AI Working Agreement**. It should define:
+*   **Approved Tools**: Which specific engines (Enterprise versions) are safe to use?
+*   **Transparency**: When must a team member *disclose* that a document was written by AI?
+*   **Validation**: What is the mandatory review process before AI content leaves the team?
+
+::: danger 🚫 "Shadow AI"
+Using unapproved AI tools to bypass security protocols is known as "Shadow AI." This is a major compliance violation. The PM must provide safe, approved alternatives so the team isn't tempted to go rogue.
+:::
 
 ---
 
-## 📜 AI Working Agreements
-Just like you have a Team Charter, you should have an AI Working Agreement. This document defines:
-1. **Approved Tools**: Which LLMs or analyzers are we allowed to use?
-2. **Disclosure**: When must a team member admit they used AI to draft a document?
-3. **Accountability**: Who is responsible if the AI makes an error? (Answer: The Human author).
+## 🏛️ Explainability (XAI)
+In regulated industries (Healthcare, Finance), you cannot just say "The AI told me to reject this loan." You need **Explainability**.
+*   **Black Box AI**: Inputs go in, answers come out, no one knows why. (Avoid for critical decisions).
+*   **Explainable AI**: The system provides the "Why" behind the decision. (Required for Governance).
 
----
+<style>
+.resp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
 
-## 🏛️ Governance & Compliance
-AI projects must still follow organizational governance.
-- **PMO Role**: The PMO often provides the "approved list" of AI tools and templates.
-- **Regulatory Compliance**: In some industries (Finance, Healthcare), using AI to make decisions may require specialized "Explainable AI" to show *how* a decision was made.
+.resp-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+}
+
+.resp-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  color: var(--vp-c-brand);
+}
+
+.resp-tag {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--vp-c-text-2);
+  margin-bottom: 1rem;
+}
+
+.resp-card p {
+  font-size: 0.85rem;
+  margin: 0;
+  line-height: 1.5;
+}
+</style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a team wants to use a new, free AI tool to summarize client meetings, the PM must <strong>First consult with the Security/Legal department</strong> to ensure the tool complies with data privacy requirements.
+  <strong>📝 Exam Insight:</strong> If a team member uses a free online AI to summarize a confidential meeting with a client, they have committed a <strong>Security Breach</strong>. The PM's response is to immediateContain (notify IT/Security) and then Educate the team on proper tool usage.
 </div>
 
 <style>

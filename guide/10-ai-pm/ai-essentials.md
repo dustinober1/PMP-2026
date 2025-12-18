@@ -1,51 +1,95 @@
 # 10.1 AI Essentials for PMs
 
-Project Managers in 2026 don't need to be engineers, but they must understand the **capabilities** and **limitations** of the tools they use.
+Project Managers in 2026 don't need to code AI, but they must fluently "speak" AI. Understanding the **capabilities** and **limitations** of these tools is now a mandatory competency delta.
 
 ---
 
-## 🛠️ Core AI Capabilities
-Most AI tools you will use fall into three categories:
+## 🛠️ The New PM Toolbox
+Most AI tools you will use fall into three specific categories. You must know which to use when.
 
-1. **Generative AI (LLMs)**:
-   - **Drafting**: Charters, emails, user stories, and status reports.
-   - **Summarization**: Turning a 1-hour meeting transcript into 5 bullet points.
-   - **Brainstorming**: Generating a list of potential risks or technical options.
-
-2. **Predictive Analytics**:
-   - **Forecasting**: Using historical data to predict if a project will be late.
-   - **Risk Scoring**: Highlighting work items that look like past failures.
-
-3. **Automation & Assistants**:
-   - **Workflows**: Automatically moving a task to a different column based on a keyword.
-   - **Scheduling**: AI agents that negotiate meeting times across 10 calendars.
+<div class="ai-grid">
+  <div class="ai-card">
+    <div class="ai-title">Generative AI (LLMs)</div>
+    <div class="ai-tag">The Creator</div>
+    <p><strong>Goal:</strong> Drafting content.<br><strong>Uses:</strong> Writing Charters, User Stories, Emails, and Summarizing Meeting Minutes.</p>
+  </div>
+  <div class="ai-card">
+    <div class="ai-title">Predictive AI</div>
+    <div class="ai-tag">The Forecaster</div>
+    <p><strong>Goal:</strong> Seeing the future.<br><strong>Uses:</strong> Analyzing historical data to predict delays, cost overruns, and resource bottlenecks.</p>
+  </div>
+  <div class="ai-card">
+    <div class="ai-title">Automation Agents</div>
+    <div class="ai-tag">The Do-er</div>
+    <p><strong>Goal:</strong> Removing busywork.<br><strong>Uses:</strong> Scheduling meetings, updating ticket status, and sending reminders.</p>
+  </div>
+</div>
 
 ---
 
-## 🔍 The "Hallucination" Problem
-AI is a **Probabilistic** engine, not a **Deterministic** one. 
-- **Deterministic**: $1 + 1$ always equals $2$.
-- **Probabilistic**: AI predicts the *most likely* next word.
+## 🔍 The "Hallucination" Risk
+AI is a **Probabilistic** engine, not a **Deterministic** one.
+*   **Deterministic**: A Calculator. $2 + 2 = 4$ every time.
+*   **Probabilistic**: An LLM. It guesses the "next most likely word."
 
-::: warning ⚠️ Fact-Check Everything
-AI can "hallucinate"—it can invent facts, statistics, or requirements that sound perfectly confident but are completely made up. **Never submit an AI-generated artifact without a human review.**
+Because of this, AI can "hallucinate"—confidently stating facts, dates, or regulations that are completely false.
+
+::: warning ⚠️ The Golden Commandment
+**Trust, but Verify.** Never send an AI-generated artifact to a stakeholder without a human review. You are accountable for the output, not the bot.
 :::
 
 ---
 
-## 👤 The Human-in-the-Loop (HITL)
-PMI emphasizes the "Human-in-the-Loop" model. AI produces the **Draft**; the Human provides the **Judgment**.
+## 👤 Human-in-the-Loop (HITL)
+The 2026 standard is **HITL**. AI produces the draft; the Human provides the judgment.
 
-| AI Strengths          | Human Strengths           |
-| :-------------------- | :------------------------ |
-| Speed and Scale       | Empathy and Culture       |
-| Pattern Recognition   | Context and Ethics        |
-| Processing Large Data | Stakeholder Relationships |
+| AI Strengths (The Machine)                            | Human Strengths (The Leader)                            |
+| :---------------------------------------------------- | :------------------------------------------------------ |
+| **Speed**: Drafting 50 pages in seconds.              | **Empathy**: Negotiating with an angry user.            |
+| **Patterns**: Finding a trend in 10,000 rows of data. | **Context**: Understanding organizational politics.     |
+| **Logic**: Following a ruleset perfectly.             | **Ethics**: Deciding what is "right" vs. " profitable." |
+
+<style>
+.ai-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.ai-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+}
+
+.ai-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  color: var(--vp-c-brand);
+}
+
+.ai-tag {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--vp-c-text-2);
+  margin-bottom: 1rem;
+}
+
+.ai-card p {
+  font-size: 0.85rem;
+  margin: 0;
+  line-height: 1.5;
+}
+</style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If an exam question asks "How should a PM use an AI-generated risk list?", the correct answer is usually <strong>"Review the list with the project team to validate and prioritize the risks."</strong>
+  <strong>📝 Exam Insight:</strong> A question may ask: "Your AI tool identified a 95% chance of a schedule delay. What do you do?" The answer is <strong>"Analyze the data with the team to validate the root cause."</strong> Never blindly accept the prediction; use it as a trigger for human investigation.
 </div>
 
 <style>

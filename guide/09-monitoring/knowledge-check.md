@@ -1,92 +1,86 @@
 # Knowledge Check: Monitoring & Closing
 
-Test your mastery of performance metrics, change control, and the final handoff.
+Test your mastery of performance metrics, change control, and the final handoff in the 2026 PMP context.
 
 <QuizComponent
-  title="Chapter 9 Knowledge Check"
+  title="Chapter 9: Monitoring & Closing"
   :questions="[
     {
-      text: 'A project has a Planned Value (PV) of $200,000, an Earned Value (EV) of $180,000, and an Actual Cost (AC) of $190,000. What is the Cost Performance Index (CPI) and what does it tell you?',
+      text: 'A project reports a CPI of 0.95 and an SPI of 1.05. What is the status of the project?',
       options: [
-        'CPI = 0.95; the project is over budget',
-        'CPI = 0.90; the project is over budget',
-        'CPI = 1.05; the project is under budget',
-        'CPI = 1.11; the project is under budget'
+        'Over Budget and Ahead of Schedule',
+        'Under Budget and Ahead of Schedule',
+        'Over Budget and Behind Schedule',
+        'Under Budget and Behind Schedule'
       ],
       correct: 0,
-      explanation: 'CPI = EV / AC ($180,000 / $190,000 = 0.947, rounded to 0.95). Since it is less than 1.0, the project is over budget.',
+      explanation: 'CPI < 1.0 means Cost Efficiency is low (Over Budget). SPI > 1.0 means Schedule Efficiency is high (Ahead of Schedule).',
       reference: 'Section 9.1'
     },
     {
-      text: 'A critical stakeholder calls the project manager and requests a small addition to the project scope that they claim will take only a few hours. How should the PM respond?',
+      text: 'A key stakeholder calls you to request a "small" change to the dashboard layout. They claim it will only take 2 hours. What is the correct PM response?',
       options: [
-        'Ask the team to do it immediately to maintain stakeholder satisfaction',
-        'Tell the stakeholder scope changes are not allowed during execution',
-        'Instruct the stakeholder to submit a formal change request for impact assessment',
-        'Add the task to the backlog and wait for the next sprint review'
+        'Implement the change immediately to keep the stakeholder happy',
+        'Ask the team to squeeze it in during lunch',
+        'Direct the stakeholder to the formal Change Control process',
+        'Reject the request because the scope is frozen'
       ],
       correct: 2,
-      explanation: 'All changes, regardless of size, must go through the formal Integrated Change Control process to assess impacts on schedule, cost, and risk.',
+      explanation: 'Every change, no matter how small, must go through Integrated Change Control to protect the project baseline from "Scope Creep" (Death by a thousand cuts).',
       reference: 'Section 9.1'
     },
     {
-      text: 'What is the FIRST thing a project manager should do if a project is canceled mid-way through execution due to a change in organizational strategy?',
+      text: 'Your project was canceled mid-execution due to a market shift. What is your immediate next step?',
       options: [
-        'Immediately stop all work and release the team',
-        'Conduct a lessons learned session and perform formal project closure',
-        'Ask the sponsor for a new project to keep the team busy',
-        'Delete all project files to save server space since the project is no longer valuable'
+        'Release the team and delete the files',
+        'Perform Administrative Closure and archive the work completed so far',
+        'Wait for the sponsor to give you a new project',
+        'Continue working until the budget runs out'
       ],
       correct: 1,
-      explanation: 'Every project must be formally closed, even canceled ones. This ensures lessons are captured and data is archived (OPA updates).',
+      explanation: 'Canceled projects must still be formally closed. You must document *why* it failed/ended and archive the artifacts for future organizational learning.',
       reference: 'Section 9.2'
     },
     {
-      text: 'An SPI of 1.2 and a CPI of 0.8 indicate which of the following scenarios?',
+      text: 'The project is mechanically complete. The deliverables work. However, the Operations team refuses to accept the handover because they have not received the training manuals. What should the PM do?',
       options: [
-        'Ahead of schedule and under budget',
-        'Behind schedule and over budget',
-        'Ahead of schedule and over budget',
-        'Behind schedule and under budget'
-      ],
-      correct: 2,
-      explanation: 'SPI > 1.0 is ahead of schedule; CPI < 1.0 is over budget.',
-      reference: 'Section 9.1'
-    },
-    {
-      text: 'Who is officially responsible for ensuring that the benefits of the project are realized and sustained after the project has been handed over?',
-      options: [
-        'The Project Manager',
-        'The Operations/Business Owner',
-        'The Project Team',
-        'The PMO Director'
+        'Force the handover since the product works',
+        'Delay the closure until the manuals are delivered and training is complete',
+        'Mark the project as "Closed" and let Operations figure it out',
+        'Escalate to the CEO'
       ],
       correct: 1,
-      explanation: 'The PM transitions the project to operations. The business owner/operations team is responsible for ongoing benefits realization.',
+      explanation: 'Project Closure requires the *Transfer of Ownership*. If operations cannot support the product (due to lack of training), the transfer cannot occur.',
+      reference: 'Section 9.2'
+    },
+    {
+      text: 'Which document is updated constantly throughout the project and finalized during closure to become a key Organizational Process Asset?',
+      options: [
+        'The Project Charter',
+        'The Business Case',
+        'The Lessons Learned Register',
+        'The Cost Baseline'
+      ],
+      correct: 2,
+      explanation: 'The Lessons Learned Register is a living document that captures knowledge throughout the lifecycle and transfers it to the organization at closure.',
       reference: 'Section 9.2'
     }
   ]"
 />
 
-## EVM Multipliers & Quick Reference
+## EVM Cheatsheet
 
-| Acronym | Meaning           | High Level Result            |
-| :------ | :---------------- | :--------------------------- |
-| **CV**  | Cost Variance     | $EV - AC$ (Positive is Good) |
-| **SV**  | Schedule Variance | $EV - PV$ (Positive is Good) |
-| **CPI** | Cost Index        | $EV / AC$ (> 1.0 is Good)    |
-| **SPI** | Schedule Index    | $EV / PV$ (> 1.0 is Good)    |
-
-### The "EVM Cheat Sheet"
-- **Anything Variance (SV/CV)**: Always starts with **EV**. $EV - X$.
-- **Anything Index (SPI/CPI)**: Always starts with **EV**. $EV / X$.
-- **Negative/Under 1.0**: Bad.
-- **Positive/Over 1.0**: Good.
+| Metric                        | Formula   | Good Outcome |
+| :---------------------------- | :-------- | :----------- |
+| **CPI** (Cost Efficiency)     | $EV / AC$ | $> 1.0$      |
+| **SPI** (Schedule Efficiency) | $EV / PV$ | $> 1.0$      |
+| **CV** (Cost Variance)        | $EV - AC$ | Positive     |
+| **SV** (Schedule Variance)    | $EV - PV$ | Positive     |
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a project is complete but a vendor has a pending claim (a dispute), you cannot fully close the project until the <strong>Procurement Closure</strong> is resolved or a formal settlement is reached.
+  <strong>📝 Exam Insight:</strong> If you see a question about a "claim" or "dispute" with a vendor, you CANNOT close the project until that claim is resolved (Procurement Closure). Detailed closure often involves legal or financial settlement.
 </div>
 
 <style>

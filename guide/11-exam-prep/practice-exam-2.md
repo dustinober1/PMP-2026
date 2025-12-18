@@ -1,12 +1,12 @@
-# Practice Exam 2
+# Practice Exam 2: Agile & Hybrid Focus
 
-Focus on Agile, Hybrid, and more complex leadership challenges.
+Test your ability to lead in adaptive environments and handle complex interpersonal dynamics.
 
 <QuizComponent
-  title="Practice Exam 2: Agile & Leadership"
+  title="Practice Exam 2: Agility"
   :questions="[
     {
-      text: 'A project has a Budget at Completion (BAC) of $400,000. At the midpoint, the team has completed work worth $180,000 (EV) but has spent $220,000 (AC). What is the Cost Performance Index (CPI)?',
+      text: 'A project has a Budget at Completion (BAC) of $400,000. Currently, EV = $180,000 and AC = $220,000. What is the CPI?',
       options: [
         '0.82',
         '0.90',
@@ -14,55 +14,55 @@ Focus on Agile, Hybrid, and more complex leadership challenges.
         '1.22'
       ],
       correct: 0,
-      explanation: 'CPI = EV / AC ($180,000 / $220,000 = 0.818, rounded to 0.82).',
+      explanation: 'CPI = EV / AC ($180,000 / $220,000 = 0.818, rounded to 0.82). The project is getting 82 cents of value for every dollar spent.',
       reference: 'Chapter 9'
     },
     {
-      text: 'A servant leader would MOST likely perform which of the following actions?',
+      text: 'Which action best demonstrates Servant Leadership in an Agile team?',
       options: [
-        'Make all decisions for the team to ensure maximum efficiency',
-        'Remove impediments and support the team\'s self-organization',
-        'Direct team members on exactly how to complete their daily tasks',
-        'Prioritize schedule adherence over team well-being'
+        'Making technical decisions to speed up the team',
+        'Removing impediments (blockers) so the team can self-organize',
+        'Assigning tasks to developers based on their skill level',
+        'Reporting the daily status to the sponsor personally'
       ],
       correct: 1,
-      explanation: 'Servant leadership is about enabling the team by removing blockers and fostering an environment where they can succeed.',
+      explanation: 'Servant leaders "carry food and water." They remove obstacles and let the team decide "how" to do the work.',
       reference: 'Chapter 3'
     },
     {
-      text: 'During a project, the sponsor announces that the strategic priority has changed and the project benefits are now questionable. What should the PM do?',
+      text: 'The sponsor announces a major strategic shift, rendering the current project benefits questionable. What should the PM do?',
       options: [
-        'Continue the project as planned since it was already approved',
-        'Recommend reassessing the business case and project viability',
-        'Ignore the announcement and focus on internal deliverables',
-        'Cancel the project immediately without further analysis'
+        'Continue to the next phase gate as planned',
+        'Formally recommend a Business Case re-evaluation',
+        'Ignore the corporate noise and focus on the WBS',
+        'Cancel the project immediately'
       ],
       correct: 1,
-      explanation: 'If a strategic shift occurs, the business case must be re-evaluated to see if the project still provides value to the organization.',
+      explanation: 'Projects exist to deliver value. If the value proposition changes, the project justification must be re-checked. You cannot just cancel it yourself (that is a governance decision).',
       reference: 'Chapter 2'
     },
     {
-      text: 'Which conflict resolution technique results in a win-win outcome where both parties\' concerns are fully addressed?',
+      text: 'Which conflict resolution technique results in a "Win-Win" situation?',
       options: [
-        'Forcing',
-        'Compromising',
-        'Collaborating',
-        'Avoiding'
+        'Forcing (Directing)',
+        'Compromising (Give and Take)',
+        'Collaborating (Problem Solving)',
+        'Smoothing (Accommodating)'
       ],
       correct: 2,
-      explanation: 'Collaborating involves exploring multiple viewpoints and reaching a consensus that satisfies everyone—a true win-win.',
+      explanation: 'Collaborating attacks the problem, not the person. It finds a solution that fully satisfies all parties, whereas Compromising is a "Lose-Lose" (both give up something).',
       reference: 'Chapter 3'
     },
     {
-      text: 'A project\'s critical path has a duration of 45 days. The team identifies an opportunity to complete a non-critical activity (with 5 days of float) 3 days early. What impact does this have on the project duration?',
+      text: 'The Critical Path is 45 days. A non-critical task with 5 days of float is completed 3 days early. What is the new project duration?',
       options: [
-        'Project duration is reduced by 3 days',
-        'Project duration is reduced by 5 days',
-        'There is no impact on project duration',
-        'Project duration increases by 3 days'
+        '42 days',
+        '43 days',
+        '45 days',
+        '48 days'
       ],
       correct: 2,
-      explanation: 'Completing a non-critical activity early only increases its float; it does not shorten the critical path, which determines the project duration.',
+      explanation: 'Shortening a non-critical task only increases its float. It does not shorten the Critical Path, which determines the project end date.',
       reference: 'Chapter 6'
     }
   ]"
@@ -70,16 +70,16 @@ Focus on Agile, Hybrid, and more complex leadership challenges.
 
 ---
 
-## Performance Benchmark
+## 📊 Score Interpretation
 
-| Correct   | Level      | Strategy                                                                    |
-| :-------- | :--------- | :-------------------------------------------------------------------------- |
-| **5/5**   | Master     | You have a strong grasp of both math and leadership.                        |
-| **4/5**   | Proficient | Double-check your understanding of Float and Critical Path.                 |
-| **< 3/5** | Developing | Focus on the Difference between Servant Leadership and Command-and-Control. |
+| Score     | Status           | Recommendation                                          |
+| :-------- | :--------------- | :------------------------------------------------------ |
+| **5/5**   | **Agile Expert** | You are ready for the final challenge.                  |
+| **4/5**   | **Solid**        | Compomising vs. Collaboration is a common trap.         |
+| **< 3/5** | **Review**       | Review Chapter 3 (Leadership) and Chapter 6 (Schedule). |
 
 <div class="action-bar">
-  <a href="./practice-exam-3" class="action-button primary">Take Final Practice Exam</a>
+  <a href="./practice-exam-3" class="action-button primary">Next: The Final Challenge →</a>
 </div>
 
 <style>

@@ -1,53 +1,106 @@
 # 11.1 Exam Strategy & Test-Taking
 
-The PMP exam is not just a test of what you *know*—it's a test of how you **reason**. In 2026, the exam is approximately 50% Agile/Hybrid and 50% Predictive. Success requires shifting your mindset to match the PMI philosophy.
+The PMP exam is a test of **reasoning**, not just recall. In 2026, the exam is roughly 50% Agile/Hybrid and 50% Predictive. To pass, you must demonstrate the "PMI Mindset" in every choice you make.
 
 ---
 
-## 🧠 The PMI Mindset (The "Golden Rules")
-When in doubt, apply these three rules to every question:
-1. **Never Escalate Immediately**: If there's a problem, the PM should usually try to solve it (or analyze it) first before going to the Sponsor.
-2. **Analysis First, Action Second**: If something happens, the first step is almost always to "Analyze the impact" or "Review the plan," not to "Update the baseline."
-3. **Servant Leadership**: Always choose the answer that supports the team, removes blockers, and fosters collaboration.
+## 🧠 The PMI Mindset (The Golden Rules)
+When unsure, apply these filters. The correct answer almost always aligns with:
+
+<div class="mindset-grid">
+  <div class="mindset-card">
+    <div class="mindset-title">1. Analyze First</div>
+    <div class="mindset-tag">The Thinker</div>
+    <p>Never act without data. Before you "Fire the vendor," you must "Review the contract" or "Assess the impact."</p>
+  </div>
+  <div class="mindset-card">
+    <div class="mindset-title">2. Don't Escalate</div>
+    <div class="mindset-tag">The Owner</div>
+    <p>Do not run to the Sponsor with problems. Bring them <strong>solutions</strong>. Escalation is a last resort.</p>
+  </div>
+  <div class="mindset-card">
+    <div class="mindset-title">3. Servant Leader</div>
+    <div class="mindset-tag">The Helper</div>
+    <p>Support the team. Remove blockers. Provide training. Never "punish" or "dictate."</p>
+  </div>
+  <div class="mindset-card">
+    <div class="mindset-title">4. Follow Process</div>
+    <div class="mindset-tag">The Professional</div>
+    <p>You have a methodology for a reason. If scope changes, use the <strong>Change Control Process</strong>. Don't hack it.</p>
+  </div>
+</div>
 
 ---
 
-## 🏎️ Time Management: The 240-Minute Race
-The exam is divided into three sections (60, 60, and 65 questions). You get two optional 5-minute breaks.
+## 🏎️ Time Management: The 230-Minute Marathon
+The exam is 180 questions in 230 minutes. You get two 10-minute breaks.
 
-| Section       | Questions | Recommended Time |
-| :------------ | :-------- | :--------------- |
-| **Section 1** | 1 - 60    | 0 - 75 min       |
-| **Section 2** | 61 - 120  | 75 - 150 min     |
-| **Section 3** | 121 - 185 | 150 - 240 min    |
+*   **Section 1 (0-60)**: 75 Minutes. *Warm up.*
+*   **Break 1**: *Take it. Reset your brain.*
+*   **Section 2 (61-120)**: 75 Minutes. *The Grind.*
+*   **Break 2**: *Take it. Stretch.*
+*   **Section 3 (121-180)**: 80 Minutes. *The Sprint.*
 
-::: tip 💡 Strategy: The "Review" Lock
-Once you finish a section and start your break, you **cannot** go back to those questions. Review your flagged questions before you hit "Submit Section."
+::: tip 💡 The "Review" Lock
+Once you finish a section and start your break, **you cannot go back**. Review your flagged questions before hitting "Submit Section."
 :::
 
 ---
 
-## 🔍 Decoding Scenario Questions
-Most questions will be 3-5 sentences long. Use the **Reverse Reading** technique:
+## 🔍 Decoding Scenarios: The "Reverse Read"
+Most questions are long, confusing scenarios.
+1.  **Read the Last Sentence First**: "What should the project manager do *next*?"
+2.  **Read the Scenario**: Now scan for keywords (Agile? Waterfall? Behind schedule?).
+3.  **Eliminate the "Red Flags"**:
+    *   "Fire the team member..." (Too aggressive).
+    *   "Ignore the request..." (Too passive).
+    *   "Ask the sponsor to solve it..." (Escalation).
+4.  **Select the Best Remaining**: Usually the one that involves *Collaboration* or *Analysis*.
 
-1. **Read the Last Sentence First**: This is the actual question (e.g., "What should the PM do first?").
-2. **Read the Scenario**: Now you know what keywords to look for (Agile vs. Waterfall, Stakeholder vs. Team).
-3. **Eliminate 2 Options**: Usually, two answers are obviously wrong (aggressive, passive, or factually incorrect).
-4. **Choose the "Best" Remaining**: Between the last two, choose the one that moves the project forward or empowers the team.
+<style>
+.mindset-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
 
----
+.mindset-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+}
 
-## 🛠️ Elimination Techniques
-Avoid these "Red Flags" in answer choices:
-- "Assign a new task to a specific person" (PMs should facilitate, not just dictate).
-- "Stop the project immediately."
-- "Request more budget" (Before analyzing if you can optimize existing resources).
-- "Ignore the issue because it is minor."
+.mindset-title {
+  font-weight: 700;
+  color: var(--vp-c-brand);
+  margin-bottom: 0.25rem;
+}
+
+.mindset-tag {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--vp-c-text-2);
+  margin-bottom: 0.75rem;
+  display: inline-block;
+  padding: 0.1rem 0.4rem;
+  background: var(--vp-c-bg-mute);
+  border-radius: 4px;
+}
+
+.mindset-card p {
+  font-size: 0.85rem;
+  margin: 0;
+  line-height: 1.4;
+}
+</style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a question doesn't specify if the project is Agile or Waterfall, look for keywords like "Sprint," "Backlog," or "Scrum Master" (Agile) vs. "Baseline," "Phase Gate," or "Work Package" (Predictive). If no keywords exist, assume a <strong>Hybrid</strong> approach.
+  <strong>📝 Exam Insight:</strong> If a question doesn't specify the methodology, look for clues. "Sprint" = Agile. "Phase Gate" = Predictive. If NO clues exist, assume **Hybrid** and choose the answer that balances control with flexibility.
 </div>
 
 <style>
