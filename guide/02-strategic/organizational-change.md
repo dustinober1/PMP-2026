@@ -1,77 +1,71 @@
 # 2.4 Organizational Change
 
-"Technology projects don't fail because of technology—they fail because people don't adopt the change." This is the core principle of **Organizational Change Management (OCM)**. Success is measured by the transition from *output* to *outcome*.
+"Technology projects don't fail because of technology—they fail because people don't adopt the change." This is the core principle of **Organizational Change Management (OCM)**.
 
 ---
 
-## 👥 The Human Side of Success
-In the 2026 PMP exam, you aren't just responsible for the software "Go-Live"; you are responsible for the **Sustainable Adoption**.
+## 👥 The Adoption Gap
+The chasm between "Output" and "Outcome" is human adoption.
 
-| Deliverable (Output)  | Adoption (Outcome)      | The OCM Gap                                        |
-| :-------------------- | :---------------------- | :------------------------------------------------- |
-| **New CRM System**    | Sales reps use it daily | Reps stick to Excel; CRM becomes "shelfware"       |
-| **Proprietary AI**    | Coding speed increases  | Devs fear job loss and sabotage the implementation |
-| **New Hybrid Policy** | Higher collaboration    | Commute is longer; top talent leaves the company   |
+| The Deliverable (Output) | The Human Reality (Risk)                              | The OCM Solution                                         |
+| :----------------------- | :---------------------------------------------------- | :------------------------------------------------------- |
+| **New CRM System**       | Sales Reps stick to Excel because it's familiar.      | Early "Champion" program to build advocacy.              |
+| **New AI Coding Tool**   | Developers fear job loss and sabotage implementation. | Transparent communication on job security + re-skilling. |
+| **New Safety Protocol**  | Workers ignore it because it slows them down.         | "WIIFM" (What's in it for me) safety bonuses.            |
 
 ---
 
 ## 🪜 Change Frameworks
-The exam expects you to know how to move individuals and organizations through transitions.
+You must know the language of change dynamics.
 
 <div class="change-grid">
-  <div class="change-card">
+  <div class="change-card adkar">
     <div class="change-title">ADKAR</div>
-    <div class="change-subtitle">Individual Focus</div>
+    <div class="change-tag">Individual</div>
     <ul>
-      <li><strong>A</strong>wareness of need</li>
-      <li><strong>D</strong>esire to support</li>
-      <li><strong>K</strong>nowledge of how</li>
-      <li><strong>A</strong>bility to implement</li>
-      <li><strong>R</strong>einforcement to sustain</li>
+      <li><strong>A</strong>wareness: "I know why."</li>
+      <li><strong>D</strong>esire: "I want to do it."</li>
+      <li><strong>K</strong>nowledge: "I know how."</li>
+      <li><strong>A</strong>bility: "I can do it."</li>
+      <li><strong>R</strong>einforcement: "I will keep doing it."</li>
     </ul>
   </div>
-  <div class="change-card">
+  <div class="change-card kotter">
     <div class="change-title">Kotter's 8 Steps</div>
-    <div class="change-subtitle">Organizational Focus</div>
+    <div class="change-tag">Organizational</div>
     <ul>
       <li>Create Urgency</li>
-      <li>Build a Coalition</li>
-      <li>Strategic Vision</li>
-      <li>Enable Action</li>
-      <li>Short-term Wins</li>
+      <li>Form Coalition</li>
+      <li>Create Vision</li>
+      <li>Generate Short-term Wins</li>
     </ul>
   </div>
-  <div class="change-card">
+  <div class="change-card lewin">
     <div class="change-title">Lewin's Model</div>
-    <div class="change-subtitle">Process Focus</div>
+    <div class="change-tag">Process</div>
     <ul>
-      <li><strong>Unfreeze</strong>: Breaking status quo</li>
-      <li><strong>Change</strong>: Moving to new state</li>
-      <li><strong>Refreeze</strong>: Permanent adoption</li>
+      <li>🧊 <strong>Unfreeze</strong>: Break the status quo.</li>
+      <li>🌊 <strong>Change</strong>: The transition state.</li>
+      <li>❄️ <strong>Refreeze</strong>: Lock in the new state.</li>
     </ul>
   </div>
 </div>
 
 ---
 
-## 🛑 Managing Resistance & Saturation
-Resistance is a natural reaction to fear. A PM must be a "lead change agent."
+## 🛑 Managing Resistance
+Resistance is a natural reaction to fear. Do not punish it; manage it.
 
-### Strategies for High Adoption
-- **Identify Root Causes**: Use surveys or 1-on-1s to find out *why* people are resisting.
-- **WIIFM (What's In It For Me)**: Communicate benefits from the user's perspective, not just the company's.
-- **Involvement**: People support what they help build. Bring resistors into the UAT (User Acceptance Testing) phase.
-
-::: tip 💡 2026 Insight: Change Saturation
-Monitor for **Change Saturation**. If a department is already undergoing three major transformations, your project may fail regardless of its quality. The correct strategic recommendation might be to **delay the launch** to protect the organization's health.
-:::
+*   **Root Cause**: Are they resisting because they *can't* do it (Lack of Knowledge) or because they *won't* do it (Lack of Desire)?
+*   **WIIFM**: Communicate the benefits to *them*, not just the company.
+*   **Saturation Check**: If the org is undergoing 5 changes simultaneously, adding a 6th will fail regardless of quality. The strategic move is to **Delay**.
 
 <style>
 .change-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 .change-card {
@@ -81,37 +75,41 @@ Monitor for **Change Saturation**. If a department is already undergoing three m
   border-radius: 12px;
 }
 
+.adkar { border-top: 4px solid #10b981; }
+.kotter { border-top: 4px solid #3b82f6; }
+.lewin { border-top: 4px solid #f59e0b; }
+
 .change-title {
-  font-size: 1.25rem;
   font-weight: 700;
-  color: var(--vp-c-brand);
+  font-size: 1.1rem;
   margin-bottom: 0.25rem;
+  color: var(--vp-c-text-1);
 }
 
-.change-subtitle {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--vp-c-text-2);
+.change-tag {
+  font-size: 0.75rem;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  color: var(--vp-c-text-2);
   margin-bottom: 1rem;
 }
 
 .change-card ul {
   padding-left: 1.25rem;
-  font-size: 0.9rem;
   margin: 0;
+  font-size: 0.9rem;
 }
 
 .change-card li {
   margin-bottom: 0.5rem;
+  line-height: 1.4;
 }
 </style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If stakeholders are unhappy with a change, the best answer is usually to <strong>identify the root cause of resistance</strong> or <strong>involve them in the design process</strong>, rather than "increasing training" or "mandating use."
+  <strong>📝 Exam Insight:</strong> If a question says adoption is low despite great training, the problem is likely **Desire** (Lack of motivation/WIIFM). Training solves "Knowledge/Ability," but it cannot solve "Desire."
 </div>
 
 <style>

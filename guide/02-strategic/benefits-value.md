@@ -1,100 +1,87 @@
 # 2.2 Benefits, Value, and Sustainability
 
-Projects exist to create value, not just to deliver outputs. In the 2026 PMP exam, your role shifts from being a "task driver" to a "value engine." 
+Value is the net result of realized benefits minus the costs required to achieve them. In 2026, value includes ethical and sustainable dimensions, not just profit.
 
 ---
 
-## 💎 The Value Mindset
-Value is the net result of realized benefits minus the costs required to achieve them.
+## 💎 The Value Equation
+Traditional PM focused on Scope, Time, and Cost. The modern PM focuses on the **Triple Bottom Line**:
 
-::: info 📊 2026 Shift: Beyond the Triple Constraint
-Traditional PM focused on **Scope, Time, and Cost**. The modern PM focuses on **Strategic Alignment, Benefit Realization, and Sustainability**. Delivering a "perfect" project that no one uses is a failure.
-:::
-
-## 🔄 Benefits Realization (BRM)
-As covered in [Section 2.1d](./benefits-realization), BRM is the process of ensuring that project outputs lead to actual organizational outcomes.
-
-### The Benefits Register
-A critical document that tracks:
-- **Owner**: Who in the business is responsible for using the output?
-- **Metric**: How will we prove value? (e.g., "15% reduction in churn").
-- **Baseline**: Where are we starting from today?
-- **Target**: What is the goal post-implementation?
-
----
-
-## 🌱 Sustainability & ESG
-One of the most significant updates for 2026 is the integration of **ESG (Environmental, Social, and Governance)** factors into project decision-making.
-
-<div class="esg-grid">
-  <div class="esg-card">
-    <div class="esg-title">🍃 Environmental</div>
-    <ul>
-      <li>Carbon footprint reduction</li>
-      <li>Resource efficiency</li>
-      <li>Waste management</li>
-    </ul>
+<div class="value-grid">
+  <div class="value-card profit">
+    <div class="value-title">Profit</div>
+    <p>Does the project make financial sense? (ROI, NPV, Cost Savings).</p>
   </div>
-  <div class="esg-card">
-    <div class="esg-title">🤝 Social</div>
-    <ul>
-      <li>Diversity & Inclusion</li>
-      <li>Community impact</li>
-      <li>Workplace safety</li>
-    </ul>
+  <div class="value-card people">
+    <div class="value-title">People</div>
+    <p>Does it improve lives for the community and employees? (Social Impact).</p>
   </div>
-  <div class="esg-card">
-    <div class="esg-title">⚖️ Governance</div>
-    <ul>
-      <li>Ethical procurement</li>
-      <li>Anti-bribery/corruption</li>
-      <li>Data privacy/security</li>
-    </ul>
+  <div class="value-card planet">
+    <div class="value-title">Planet</div>
+    <p>Is it environmentally sustainable? (Carbon footprint, Waste reduction).</p>
   </div>
 </div>
 
+---
+
+## 🔄 Benefits Realization
+Value isn't usually realized until *after* the project ends. BRM bridges that gap.
+
+1.  **Identify**: Define the metric upfront (e.g., "Reduce processing time by 20%").
+2.  **Execute**: Focus the team on features that drive that metric.
+3.  **Sustain**: Hand over the "Benefits Plan" to operations so they can track it long-term.
+
+::: tip 💡 The Benefits Owner
+A critical role. This is the business person (not the PM) who is responsible for ensuring the deliverables actually generate revenue/savings after the project closes.
+:::
+
+---
+
+## 🌱 ESG: Integration, Not Add-on
+In 2026, ESG (Environmental, Social, Governance) is a **constraint**.
+
+*   **Environmental**: Choosing a "Green" cloud provider or reducing material waste.
+*   **Social**: Ensuring fair wages in the supply chain.
+*   **Governance**: Strict adherence to anti-corruption laws.
+
 <style>
-.esg-grid {
+.value-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
   margin: 1.5rem 0;
 }
-.esg-card {
-  padding: 1.25rem;
+
+.value-card {
+  padding: 1.5rem;
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-border);
-  border-radius: 8px;
+  border-radius: 12px;
+  text-align: center;
 }
-.esg-title {
+
+.profit { border-top: 4px solid #10b981; }
+.people { border-top: 4px solid #f59e0b; }
+.planet { border-top: 4px solid #3b82f6; }
+
+.value-title {
   font-weight: 700;
-  color: var(--vp-c-brand);
+  font-size: 1.1rem;
   margin-bottom: 0.5rem;
+  color: var(--vp-c-text-1);
 }
-.esg-card ul {
-  padding-left: 1.25rem;
-  font-size: 0.85rem;
+
+.value-card p {
+  font-size: 0.9rem;
   margin: 0;
+  color: var(--vp-c-text-2);
 }
 </style>
 
 ---
 
-## ⚖️ Balancing Short-Term vs. Long-Term Value
-Projects often face a conflict between **fast delivery** and **sustainable value**. 
-
-- **Technical Debt**: Cutting corners today to meet a deadline, which creates higher costs tomorrow.
-- **Sustainability Trade-offs**: Choosing a cheaper, high-emission material vs. an expensive, green one.
-
-**Your Role as PM**: 
-1. Surface these trade-offs to the steering committee.
-2. Quantify the long-term impact of short-term "hacks."
-3. Defend the strategic value of the project over simple "completion."
-
----
-
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If an exam question asks you to choose between two vendors—one who is 10% cheaper but has a poor human rights record, and one who is slightly more expensive but follows ESG standards—PMI's 2026 "Business Environment" stance typically favors the <strong>ethical and sustainable</strong> choice.
+  <strong>📝 Exam Insight:</strong> If a stakeholder suggests a cheaper vendor who has a history of human rights violations, the PM must **reject** the vendor based on the organization's ESG/Code of Ethics policy. Profit does not trump ethics on the PMP exam.
 </div>
 
 <style>

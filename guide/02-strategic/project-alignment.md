@@ -1,60 +1,90 @@
 # 2.1c Project and Program Alignment
 
-Programs exist because complex strategic outcomes often require multiple related projects working in harmony. Individual projects can fail in isolation if their interdependencies aren't managed.
+Individual projects can fail in isolation if their interdependencies aren't managed. **Programs** provide the connective tissue that ensures 1 + 1 = 3.
 
 ---
 
-## 🔗 Why Programs Matter
-Programs provide the **connective tissue** that ensures individual projects add up to collective value.
+## 🔗 The Synergy Engine
+Why group projects into a Program?
 
-| Challenge              | Program Solution                                                                |
-| :--------------------- | :------------------------------------------------------------------------------ |
-| **Silos**              | Unified roadmap prevent duplication of effort.                                  |
-| **Dependencies**       | Integrated scheduling ensures Project B doesn't wait for a delayed Project A.   |
-| **Shared Resources**   | Prioritizing a single architect's time across four related projects.            |
-| **Economies of Scale** | Shared procurement or technical infrastructure (e.g., a common Cloud platform). |
+<div class="synergy-grid">
+  <div class="synergy-card">
+    <div class="synergy-title">Silo Breaking</div>
+    <p>Prevents duplication of effort. (e.g., Two projects building the same login screen).</p>
+  </div>
+  <div class="synergy-card">
+    <div class="synergy-title">Dependency Management</div>
+    <p>Ensures Project B doesn't start until Project A finishes the prerequisite API.</p>
+  </div>
+  <div class="synergy-card">
+    <div class="synergy-title">Resource Optimization</div>
+    <p>Using one Data Architect across four projects instead of hiring four part-timers.</p>
+  </div>
+  <div class="synergy-card">
+    <div class="synergy-title">Benefits Realization</div>
+    <p>Delivering a "Platform" (Program Benefit) rather than just a collection of apps.</p>
+  </div>
+</div>
 
 ---
 
 ## 🚦 Managing Dependencies
-A dependency is a relationship where one project's output is required for another project's success.
+A dependency is where one project holds the key to another's success.
 
-- **Finish-to-Start**: The Platform Foundation must be complete before the Expense System starts its integration.
-- **Resource Dependency**: Both the Mobile App and the Web App need the same Lead Designer at the same time.
-- **External Dependency**: A project is waiting on a regulatory approval before it can go live.
+*   **Finish-to-Start**: The Platform Foundation (Project A) must be complete before the App (Project B) can launch.
+*   **Resource Lock**: Both projects need the Lead Security Engineer in Week 40.
+*   **External**: Project C is waiting for a government permit.
 
-::: tip 💡 Pro Tip: Integrated Roadmaps
-Without a program roadmap, projects plan independently, often missing critical hand-off dates. Program Managers use **Integrated Roadmaps** to visualize these dependencies across the entire collection of work.
+::: tip 💡 Integrated Roadmaps
+Program Managers use **Integrated Master Schedules** to visualize these dependencies. If Project A slips by 2 weeks, the software automatically highlights the crash in Project B.
 :::
 
 ---
 
-## 🏛️ Governance & Reporting
-Alignment is maintained through a **Program Steering Committee** that includes the executive sponsors of all component projects.
-
-### Integrated Status Reporting
-A program dashboard doesn't just show "on time/on budget" for each project; it highlights:
-1. **Program Health**: Overall status toward the strategic goal.
-2. **Critical Path**: Which project delay will derail the entire program?
-3. **Benefits realization**: Progress toward the *outcome* (e.g., "30% cost reduction") rather than just the *output* (e.g., "software delivered").
-
----
-
 ## 🔄 Delivery Contexts
+How alignment works in different methodologies:
 
-### Agile Programs (Scaled Agile)
-Uses frameworks like **SAFe** or **LeSS**. Alignment is achieved through **PI Planning** (Program Increment Planning) where all teams meet every 8-12 weeks to visualize dependencies and commit to shared objectives.
+| Method             | Alignment Mechanism                                                                                                        |
+| :----------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| **Agile (Scaled)** | **PI Planning** (Program Increment): All teams meet every 10 weeks to map dependencies on a physical board (String board). |
+| **Predictive**     | **Master Schedule**: A rigid Gantt chart linking critical paths across projects.                                           |
+| **Hybrid**         | **Guardrails**: Fixed milestones (Launch Date) with flexible execution (Sprints) inside.                                   |
 
-### Predictive Programs
-Uses a detailed, upfront **Master Schedule**. Alignment is maintained through strict change control and phase-gate reviews.
+<style>
+.synergy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
 
-### Hybrid Programs
-Milestones are fixed predictively (e.g., "Product Launch in Q4"), but teams use agile sprints to discover and build the features within those guardrails.
+.synergy-card {
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.synergy-title {
+  font-weight: 700;
+  color: var(--vp-c-brand);
+  margin-bottom: 0.5rem;
+}
+
+.synergy-card p {
+  font-size: 0.9rem;
+  margin: 0;
+  color: var(--vp-c-text-2);
+}
+</style>
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> On the exam, if a project manager discovers a dependency on another project that is outside their control, the first step is usually to <strong>communicate with the other project manager</strong> and then <strong>escalate to the Program Manager</strong> if a resolution can't be found.
+  <strong>📝 Exam Insight:</strong> If you discover a dependency on another project that you do not control:
+  1.  **Contact Peer PM**: Try to resolve it directly.
+  2.  **Escalate to Program Manager**: If you cannot resolve it peer-to-peer.
 </div>
 
 <style>

@@ -1,104 +1,99 @@
 # 2.3 Compliance & Governance
 
-Projects operate within a web of external laws and internal rules. In the 2026 PMP exam, **Compliance** is a major task in the Business Environment domain, requiring you to proactively manage non-negotiable constraints.
+Projects operate within a web of "Unwritten Rules" (Politics) and "Written Laws" (Compliance). The 2026 PMP Exam tests your ability to navigate both without crashing.
 
 ---
 
-## ⚖️ Regulatory Compliance
-Compliance is the adherence to laws, regulations, and standards. Non-compliance is not just a project risk; it is a business threat that can lead to fines, lawsuits, or project cancellation.
+## ⚖️ The Compliance Radar
+Compliance failures are **business threats**, not just risks.
 
 <div class="compliance-grid">
-  <div class="compliance-card">
-    <div class="compliance-icon">🔐</div>
-    <div class="compliance-title">Data Privacy</div>
-    <p>GDPR, CCPA, and AI data stewardship requirements.</p>
+  <div class="comp-card">
+    <div class="comp-icon">🔐</div>
+    <div class="comp-title">Data Privacy</div>
+    <p><strong>GDPR / CCPA</strong>. If you touch customer data (especially for AI training), you must have consent.</p>
   </div>
-  <div class="compliance-card">
-    <div class="compliance-icon">🌍</div>
-    <div class="compliance-title">Environmental</div>
-    <p>LEED, Carbon permits, and waste management mandates.</p>
+  <div class="comp-card">
+    <div class="comp-icon">🏭</div>
+    <div class="comp-title">EHS</div>
+    <p><strong>OSHA / ISO 14001</strong>. Environmental, Health, and Safety regulations are non-negotiable. Safety > Schedule.</p>
   </div>
-  <div class="compliance-card">
-    <div class="compliance-icon">💰</div>
-    <div class="compliance-title">Financial</div>
-    <p>Sarbanes-Oxley (SOX) and Anti-money laundering (AML).</p>
+  <div class="comp-card">
+    <div class="comp-icon">📊</div>
+    <div class="comp-title">Financial</div>
+    <p><strong>SOX / AML</strong>. Anti-bribery and accurate financial reporting. "Cooking the books" is an automatic fail.</p>
   </div>
-  <div class="compliance-card">
-    <div class="compliance-icon">🛡️</div>
-    <div class="compliance-title">Safety</div>
-    <p>OSHA, building codes, and worker protection laws.</p>
+  <div class="comp-card">
+    <div class="comp-icon">🏗️</div>
+    <div class="comp-title">Codes</div>
+    <p><strong>Building / Cyber</strong>. Technical standards (IEEE, Building Codes) that dictate minimum quality.</p>
   </div>
 </div>
 
-::: warning 📊 2026 Exam Alert: Data Privacy
-With the rise of AI, data privacy is a frequent exam topic. If your project involves training a model on customer data, you **must** ensure the data is anonymized and compliant with privacy laws before proceeding.
+::: warning ⚠️ The Retroactive Rule
+If a new law is passed in the middle of your project, you **must adopt it**, even if it wrecks your baseline. A project cannot be "successful" if it is illegal.
 :::
 
 ---
 
-## 🏛️ Project Governance
-Governance is the framework of **authority and accountability**. It answers the question: "Who has the right to make which decisions?"
+## 🏛️ Governance vs. Management
+Who makes the call?
 
-### Governance vs. Management
-- **Governance (Steering Committee/Board)**: Sets the "North Star," defines guardrails, and approves major budget shifts.
-- **Management (The PM & Team)**: Drives the project toward the goal within the established guardrails.
-
-### The Governance Hierarchy
-- **Portfolio Board**: High-level strategic oversight across all initiatives.
-- **Steering Committee**: Executive support and decision-making for a specific project.
-- **Project Governance Office (PMO)**: Standards, templates, and reporting consistency.
+| Role                                | Responsibility                              | Authority                                                     |
+| :---------------------------------- | :------------------------------------------ | :------------------------------------------------------------ |
+| **Governance** (Steering Committee) | "We are going North." (Direction)           | Can cancel the project or approve budget increases.           |
+| **Management** (Project Manager)    | "Here is the map to get North." (Execution) | Can manage the team and budget within the approved tolerance. |
 
 ---
 
-## 🧩 Ethical Decision-Making
-PMI expects you to uphold four core values: **Responsibility, Respect, Fairness, and Honesty**.
+## 🧩 The Ethical Compass
+PMI mandates four core values: **Responsibility, Respect, Fairness, and Honesty**.
 
-| Step            | Action                                                                 |
-| :-------------- | :--------------------------------------------------------------------- |
-| **1. Identify** | Is this a conflict of interest or unethical practice?                  |
-| **2. Consult**  | Refer to the **PMI Code of Ethics and Professional Conduct**.          |
-| **3. Disclose** | Transparently report the situation to the appropriate authority.       |
-| **4. Respond**  | Take the action that upholds integrity, even if it delays the project. |
-
----
-
-<div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If an exam scenario asks what to do if a new regulation is announced mid-project, the answer is almost always to <strong>perform an impact assessment</strong> first. You cannot ignore it, and you shouldn't change the scope without knowing the cost/schedule impact.
-</div>
+*   **Conflict of Interest**: If you own stock in a vendor, you must **Disclose** it and recuse yourself from the selection process.
+*   **Bribery**: Zero tolerance. Even a "facilitation payment" (grease payment) is questionable globally and strictly banned by PMI ethics.
+*   **Truth**: Never lie about project status (The "User-friendly" Traffic Light). If the project is Red, report Red.
 
 <style>
 .compliance-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
+  gap: 1.5rem;
   margin: 1.5rem 0;
 }
 
-.compliance-card {
-  padding: 1.25rem;
+.comp-card {
+  padding: 1.5rem;
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-border);
-  border-radius: 8px;
+  border-radius: 12px;
   text-align: center;
 }
 
-.compliance-icon {
-  font-size: 1.5rem;
+.comp-icon {
+  font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
-.compliance-title {
+.comp-title {
   font-weight: 700;
   color: var(--vp-c-brand);
   margin-bottom: 0.5rem;
 }
 
-.compliance-card p {
-  font-size: 0.85rem;
+.comp-card p {
+  font-size: 0.9rem;
   margin: 0;
   color: var(--vp-c-text-2);
 }
+</style>
 
+---
+
+<div class="study-tip">
+  <strong>📝 Exam Insight:</strong> You discover a team member is cutting safety corners to meet a deadline. What do you do? **Stop the work immediately.** Safety violations are never "mitigated"; they are "avoided."
+</div>
+
+<style>
 .study-tip {
   background: var(--vp-c-brand-soft);
   border-left: 4px solid var(--vp-c-brand);
