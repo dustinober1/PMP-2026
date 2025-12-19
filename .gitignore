@@ -45,3 +45,6 @@ coverage/
 
 # Legacy directories (content moved to assets/pdfs/)
 References/
+
+.gemini/
+gha-creds-*.json

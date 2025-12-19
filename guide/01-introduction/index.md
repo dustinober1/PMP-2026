@@ -21,7 +21,7 @@ The PMP exam was refreshed in July 2026. It now places a massive **26% weight** 
   
   <div class="section-card">
     <div class="section-title">1.2 Study Strategy</div>
-    <p class="section-description">How to use this guide effectively based on whether you are a Waterfall veteran or an Agile native.</p>
+    <p class="section-description">How to use this guide effectively based on whether you are a Predictive veteran or an Agile native.</p>
     <a href="./using-guide" class="section-link">Plan Your Path →</a>
   </div>
 

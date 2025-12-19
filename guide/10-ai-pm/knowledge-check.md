@@ -76,7 +76,7 @@ Always remember **Human-in-the-Loop**.
 *   **Human**: Provides context, ethics, and accountability.
 
 ### 2. AI as a Tool, Not a Methodology
-AI is not a replacement for Agile or Waterfall. It is a **Tech Enhancer** that sits on top of your existing methodology to remove friction.
+AI is not a replacement for Agile or Predictive. It is a **Tech Enhancer** that sits on top of your existing methodology to remove friction.
 
 ---
 

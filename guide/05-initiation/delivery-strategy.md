@@ -1,6 +1,6 @@
 # 5.4 Delivery Strategy
 
-One of the PM's first "process" decisions is selecting the high-level delivery strategy. In 2026, this is not a religious choice between Scrum or Waterfall—it is a logical choice based on **Risk** and **Frequency of Value**.
+One of the PM's first "process" decisions is selecting the high-level delivery strategy. In 2026, this is not a religious choice between Scrum or Predictive—it is a logical choice based on **Risk** and **Frequency of Value**.
 
 ---
 

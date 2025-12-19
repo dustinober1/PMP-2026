@@ -38,17 +38,27 @@ Sarah realizes: *Different stakeholders care about completely different things. 
 
 Sarah learns a framework for thinking about stakeholders systematically: **The Power/Interest Grid**
 
-| Power / Interest | High Interest                                                                                                                                                 | Low Interest                                                                                                                               |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **High Power**   | **Manage Closely** – These stakeholders shape the project significantly. Sarah must communicate frequently and involve them in decisions.                     | **Keep Satisfied** – These stakeholders have power but low current interest. Sarah must keep them informed so they do not become blockers. |
-| **Low Power**    | **Keep Informed** – These stakeholders care deeply but have limited ability to influence outcomes. Sarah should listen to them and communicate transparently. | **Monitor** – These stakeholders have neither high power nor high interest. Sarah monitors them to catch any changes.                      |
+<PowerInterestGrid>
+  <template #manage>
+    <strong>Sarah must communicate frequently and involve them in decisions.</strong><br><br>
+    <em>Example: CFO, CEO, VP of Facilities, General Contractor</em>
+  </template>
 
-**Sarah's office renovation stakeholder map:**
+  <template #satisfy>
+    <strong>Sarah must keep them informed so they do not become blockers.</strong><br><br>
+    <em>Example: VP of IT, Facilities manager's team, Major department heads</em>
+  </template>
 
-- **Manage Closely**: CFO, CEO, VP of Facilities, General Contractor
-- **Keep Satisfied**: VP of IT, Facilities manager's team, Major department heads
-- **Keep Informed**: Individual employees, Regulatory inspectors
-- **Monitor**: Current landlord, Competitors, Future employees
+  <template #inform>
+    <strong>Sarah should listen to them and communicate transparently.</strong><br><br>
+    <em>Example: Individual employees, Regulatory inspectors</em>
+  </template>
+
+  <template #monitor>
+    <strong>Sarah monitors them to catch any changes.</strong><br><br>
+    <em>Example: Current landlord, Competitors, Future employees</em>
+  </template>
+</PowerInterestGrid>
 
 ## 1.4a.4 Stakeholder Engagement: Beyond Just Informing
 
@@ -79,11 +89,13 @@ If Sarah does not actively manage these expectations, she ends up disappointing 
 
 ## 1.4a.6 Common Stakeholder Engagement Mistakes
 
+::: warning ⚠️ Common Pitfalls
 - **Mistake 1: Assuming you know what stakeholders care about.** (Fix: Ask them directly!)
 - **Mistake 2: Treating all stakeholders the same.** (Fix: Tailor communication.)
 - **Mistake 3: Engaging too late.** (Fix: Engage early and often.)
 - **Mistake 4: Not addressing conflicts.** (Fix: Surface conflicts and facilitate trade-offs.)
 - **Mistake 5: Assuming engagement is a one-time event.** (Fix: Engagement is continuous.)
+:::
 
 ## 1.4a.7 On the Exam: Stakeholder Scenarios
 

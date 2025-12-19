@@ -50,7 +50,7 @@ Once you finish a section and start your break, **you cannot go back**. Review y
 ## 🔍 Decoding Scenarios: The "Reverse Read"
 Most questions are long, confusing scenarios.
 1.  **Read the Last Sentence First**: "What should the project manager do *next*?"
-2.  **Read the Scenario**: Now scan for keywords (Agile? Waterfall? Behind schedule?).
+2.  **Read the Scenario**: Now scan for keywords (Agile? Predictive? Behind schedule?).
 3.  **Eliminate the "Red Flags"**:
     *   "Fire the team member..." (Too aggressive).
     *   "Ignore the request..." (Too passive).

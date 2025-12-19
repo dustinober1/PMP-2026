@@ -24,6 +24,8 @@ The classic view: **If you fix two of these, the third is determined.**
   - **Flexible**: Scope (features adjust based on priority)
 - **Hybrid projects**: A mix. Program level might have fixed scope/date, while team level has flexible scope within sprints.
 
+<TriangleViz />
+
 ## 1.4b.3 The Iron Triangle vs. The Diamond
 
 Sarah realizes that **scope, schedule, and cost are not the only success criteria.** Modern thinking adds:

@@ -16,7 +16,7 @@ Test your mastery of the 2026 PMP exam structure, ways of working, and core proj
       text: 'A project manager is assigned to a high-priority software initiative where the stakeholders are uncertain of the final features but need a working version within 4 months. Which way of working is most appropriate?',
       options: [
         'Predictive: Perform detailed upfront planning to lock in the scope',
-        'Waterfall: Use phase-gates to ensure quality at each step',
+        'Phased: Use phase-gates to ensure quality at each step',
         'Adaptive (Agile): Use iterative cycles to discover value through feedback',
         'Hybrid: Use a gantt chart for all technical tasks'
       ],
@@ -73,16 +73,6 @@ Ensure you can confidently discuss:
 
 ---
 
-<div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a question asks what to do "Next," remember the PMI hierarchy: 1) Analyze, 2) Discuss/Engage, 3) Act/Update. Never skip the Analysis!
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+::: tip 📝 Exam Insight
+If a question asks what to do "Next," remember the PMI hierarchy: 1) Analyze, 2) Discuss/Engage, 3) Act/Update. Never skip the Analysis!
+:::

@@ -25,7 +25,7 @@ In the 2026 PMP exam, the PMO is no longer just a "reporting center." A modern P
 
 ## 🚦 PMO Services
 A mature PMO provides several high-value services:
-- **Methodology (Tailoring)**: Helping teams decide whether to use Scrum, Waterfall, or Hybrid.
+- **Methodology (Tailoring)**: Helping teams decide whether to use Scrum, Predictive, or Hybrid.
 - **Resource Management**: Solving cross-project conflicts for specialist roles.
 - **Knowledge Management**: Capturing "lessons learned" from finished projects to prevent future mistakes.
 - **Tooling**: Providing AI assistants or project management software.
