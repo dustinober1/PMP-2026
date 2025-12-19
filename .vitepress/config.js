@@ -28,8 +28,7 @@ export default {
           { text: 'Chapter 11 - Exam Prep', link: '/guide/11-exam-prep/' }
         ]
       },
-      { text: 'Appendices', link: '/guide/appendices/' },
-      { text: 'PDF Resources', link: '/assets/pdfs/' }
+      { text: 'Appendices', link: '/guide/appendices/' }
     ],
 
     sidebar: createSidebar(),

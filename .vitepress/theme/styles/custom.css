@@ -684,3 +684,46 @@ body {
   background: var(--color-purple-700);
   color: white;
 }
+
+/* Search Bar Improvements */
+.VPNavBarSearch {
+  flex-grow: 1;
+  padding: 0 12px;
+}
+
+@media (min-width: 768px) {
+  .VPNavBarSearch .DocSearch-Button {
+    width: 100%;
+    max-width: 400px;
+    margin-left: 0;
+    justify-content: flex-start;
+    background-color: var(--vp-c-bg-alt);
+    border: 1px solid var(--vp-c-divider);
+    padding: 6px 10px;
+  }
+  
+  .VPNavBarSearch .DocSearch-Button-Placeholder {
+    padding-left: 8px;
+    font-weight: 500;
+  }
+  
+  .VPNavBarSearch .DocSearch-Button:hover {
+    border-color: var(--color-purple-500);
+    background-color: var(--vp-c-bg);
+  }
+}
+
+@media (max-width: 767px) {
+  .VPNavBarSearch {
+    flex-grow: 0;
+  }
+  
+  .VPNavBarSearch .DocSearch-Button {
+    padding: 8px;
+    background: transparent;
+  }
+  
+  .VPNavBarSearch .DocSearch-Button-Container {
+    margin: 0;
+  }
+}
