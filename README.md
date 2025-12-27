@@ -4,65 +4,84 @@ This repository contains a comprehensive study guide for the Project Management 
 
 ## Structure
 
-The guide is organized into 10 logical chapters covering all three domains (People, Process, Business Environment) and predictive, agile, and hybrid methodologies.
+The guide is organized into 11 logical chapters covering all three domains (People, Process, Business Environment) and predictive, agile, and hybrid methodologies. Canonical content lives under `guide/` (legacy source files are archived in `legacy/`).
 
-### [Chapter 01 - Introduction and Fundamentals](Chapter%2001%20-%20Introduction%20and%20Fundamentals/)
+### [Chapter 01 - Introduction and Fundamentals](guide/01-introduction/)
 - **01.1** – Understanding the New PMP Exam
 - **01.2** – How To Use This Study Guide
 - **01.3** – Ways of Working and Tailoring
 - **01.4** – Core Project Management Concepts and Tools
 
-### [Chapter 02 - Strategic Alignment and Business Environment](Chapter%2002%20-%20Strategic%20Alignment%20and%20Business%20Environment/)
+### [Chapter 02 - Strategic Alignment and Business Environment](guide/02-strategic/)
 - **02.1** – Strategy and Portfolio Alignment
 - **02.2** – Benefits, Value, and Sustainability
 - **02.3** – Compliance, Risk, and Governance
 - **02.4** – Organizational Change and Readiness
 - **02.5** – Program Management
 
-### [Chapter 03 - Team Leadership and Development](Chapter%2003%20-%20Team%20Leadership%20and%20Development/)
+### [Chapter 03 - Team Leadership and Development](guide/03-team-leadership/)
 - **03.1** – Building and Leading Teams
 - **03.2** – Coaching, Mentoring, and Servant Leadership
+- **03.3** – Conflict Management
+- **03.4** – Motivation and Performance
 
-### [Chapter 04 - Stakeholder Engagement and Communication](Chapter%2004%20-%20Stakeholder%20Engagement%20and%20Communication/)
-- **04.1** – Stakeholder and Communication Mastery
-- **04.2** – Conflict, Negotiation, and Decision-Making
+### [Chapter 04 - Stakeholder Engagement and Communication](guide/04-stakeholder/)
+- **04.1** – Stakeholder Analysis
+- **04.2** – Communication Planning
+- **04.3** – Active Engagement
+- **04.4** – Negotiation and Decision-Making
 
-### [Chapter 05 - Initiation and Requirements](Chapter%2005%20-%20Initiation%20and%20Requirements/)
-- **05.1** – Starting the Project (Charter, Business Case, Roadmap)
-- **05.2** – Business Analysis Fundamentals
+### [Chapter 05 - Project Initiation](guide/05-initiation/)
+- **05.1** – Business Case
+- **05.2** – Project Charter
+- **05.3** – Constraints and Assumptions
+- **05.4** – Delivery Strategy
 
-### [Chapter 06 - Project Planning](Chapter%2006%20-%20Project%20Planning/)
-- **06.1** – Planning for Value Delivery (Scope, Schedule, Cost, Quality, Resources)
+### [Chapter 06 - Project Planning](guide/06-project-planning/)
+- **06.1** – Scope Planning
+- **06.2** – Schedule Planning
+- **06.3** – Cost Planning
+- **06.4** – Resource and Procurement
 
-### [Chapter 07 - Risk, Quality, and Complexity](Chapter%2007%20-%20Risk%20Quality%20and%20Complexity/)
-- **07.1** – Risk, Issues, and Change Management
-- **07.2** – Navigating Complexity in Projects
+### [Chapter 07 - Risk, Quality, and Complexity](guide/07-risk-quality/)
+- **07.1** – Risk Management
+- **07.2** – Quality Management
+- **07.3** – Navigating Complexity in Projects
 
-### [Chapter 08 - Execution and Value Delivery](Chapter%2008%20-%20Execution%20and%20Value%20Delivery/)
-- **08.1** – Executing and Delivering Work (Coordination, Quality, Scope, Vendors, Team Performance)
+### [Chapter 08 - Execution and Value Delivery](guide/08-execution/)
+- **08.1** – Executing and Delivering Work
 - **08.2** – Value Delivery and Outcomes
 
-### [Chapter 09 - Monitoring and Closing](Chapter%2009%20-%20Monitoring%20and%20Closing/)
+### [Chapter 09 - Monitoring and Closing](guide/09-monitoring/)
 - **09.1** – Monitoring, Controlling, and Closing
+- **09.2** – Project Closure
 
-### [Chapter 10 - Exam Preparation and Future Trends](Chapter%2010%20-%20Exam%20Preparation%20and%20Future%20Trends/)
-- **10.1** – Exam Strategy and Test-Taking Skills
-- **10.2** – AI Essentials for Project Professionals
-- **10.3** – Practice Exams (3 Full-Length Simulated Exams)
+### [Chapter 10 - AI & Project Management](guide/10-ai-pm/)
+- **10.1** – AI Essentials
+- **10.2** – Responsible AI
+- **10.3** – AI in the Project Lifecycle
 
-### [Appendices](Appendices/)
-- **Appendix A** – Process Groups Implementation Guide
-- **Appendix B** – Key Formulas and Definitions
-- **Appendix C** – Sources and References
-- **Appendix D** – Tools and Artifacts Index
+### [Chapter 11 - Exam Preparation](guide/11-exam-prep/)
+- **11.1** – Exam Strategy and Test-Taking Skills
+- **11.2** – Practice Exam 1
+- **11.3** – Practice Exam 2
+- **11.4** – Practice Exam 3
+
+### [Appendices](guide/appendices/)
+- **Formula Mastery** – Key formulas and definitions
+- **Tools & Artifacts** – Logs, registers, and artifacts index
 
 ## How to Use This Guide
 
 1.  **Start with Chapter 01** to understand the exam format and core concepts.
 2.  **Proceed sequentially** through Chapters 02–09 for content mastery.
 3.  **Use the Knowledge Checks** at the end of each section to validate understanding.
-4.  **Review Chapter 10** for specific exam strategies and AI topics.
-5.  **Take the Practice Exams** in Chapter 10.3 to simulate the real test environment.
+4.  **Review Chapter 10** for AI topics, then Chapter 11 for exam strategy.
+5.  **Take the Practice Exams** in Chapter 11 to simulate the real test environment.
+
+## Automation
+
+GitHub workflows under `.github/workflows/` and command configs in `.github/commands/` support Gemini-assisted triage, review, and issue handling.
 
 ## License
 
