@@ -600,6 +600,226 @@ Monitoring communications ensures the right people get the right information at 
 If stakeholders are "surprised" by project status, the issue is usually that **work performance information** was collected but not effectively **communicated** via **work performance reports**. The PM should improve communication, not blame stakeholders.
 :::
 
+---
+
+## 🎯 Tailoring Monitoring by Methodology
+
+Different project approaches require different monitoring strategies. The 2026 PMP exam expects you to select the right metrics and control mechanisms based on the delivery approach.
+
+### Predictive (Waterfall) Monitoring
+
+| Focus Area | Primary Metrics | Control Mechanism |
+|---|---|---|
+| **Scope** | Requirements completion %, WBS progress | Change Control Board (CCB) |
+| **Schedule** | Critical path, milestone variance, SPI | Schedule baseline comparison |
+| **Cost** | EVM metrics (CPI, EAC, VAC) | Cost baseline, reserves |
+| **Quality** | Defect rates, inspection results | Quality control charts |
+
+**Key Exam Mindset:** In predictive, you measure against *fixed baselines*. Variance from the plan is "bad" and requires corrective action or formal change control.
+
+### Agile (Adaptive) Monitoring
+
+| Focus Area | Primary Metrics | Control Mechanism |
+|---|---|---|
+| **Value Delivery** | Stories completed, business value delivered | Product Owner prioritization |
+| **Flow** | Velocity, cycle time, lead time, WIP | Backlog refinement, WIP limits |
+| **Quality** | Escaped defects, Definition of Done compliance | Sprint Review, continuous testing |
+| **Predictability** | Velocity trend, burnup/burndown trajectory | Sprint planning, forecasting |
+
+**Key Exam Mindset:** In agile, you measure *flow and value*. The scope is expected to change; "control" means maintaining predictable throughput and high quality.
+
+### Hybrid Monitoring
+
+| Phase | Monitoring Approach | Metrics |
+|---|---|---|
+| **Planning Phase** | Predictive (milestone gates) | Schedule adherence, requirements sign-off |
+| **Development Phase** | Agile (iterative delivery) | Velocity, sprint completion rate |
+| **Deployment Phase** | Predictive (formal acceptance) | UAT results, go-live checklist |
+
+**Best Practice:** Use **rolling wave planning** with fixed milestones for governance and agile execution within phases. Monitor *both* milestone adherence and flow metrics.
+
+::: tip 💡 Exam Pattern
+If a question describes a hybrid environment and asks about monitoring, look for answers that combine **milestone-based governance** (predictive) with **iteration-based metrics** (agile). Avoid answers that force one approach exclusively.
+:::
+
+---
+
+## 📊 Probabilistic Forecasting (Monte Carlo Simulation)
+
+Traditional EVM provides a **deterministic** forecast (single-point estimate). **Monte Carlo simulation** provides a **probabilistic** forecast (range of outcomes with confidence levels).
+
+### When to Use Each Approach
+
+| Approach | Best For | Output |
+|---|---|---|
+| **EVM (Deterministic)** | Stable projects, single-point reporting | "EAC = $625,000" |
+| **Monte Carlo (Probabilistic)** | Complex projects, risk-informed decisions | "80% confident finish by July 15" |
+
+### How Monte Carlo Works (Conceptual)
+
+1. **Define uncertainty ranges** for task durations and costs (optimistic, most likely, pessimistic)
+2. **Run thousands of simulations** with random sampling from those ranges
+3. **Analyze the distribution** of outcomes to determine confidence levels
+
+### Interpreting Monte Carlo Results
+
+| Confidence Level | Interpretation | Use Case |
+|---|---|---|
+| **P50 (50th percentile)** | 50% chance of meeting this date/budget | Internal planning |
+| **P80 (80th percentile)** | 80% chance of meeting this date/budget | Commitment to stakeholders |
+| **P90 (90th percentile)** | 90% chance of meeting this date/budget | Contractual deadlines |
+
+**Example Output:**
+```
+Project Completion Date Analysis (Monte Carlo, 10,000 simulations):
+- P50: December 1, 2026 (50% confidence)
+- P80: December 15, 2026 (80% confidence)
+- P90: January 5, 2027 (90% confidence)
+
+Cost at Completion Analysis:
+- P50: $485,000
+- P80: $512,000
+- P90: $545,000
+```
+
+::: info 🔍 Exam Application
+If a question asks about forecasting for *high-uncertainty* projects or mentions "confidence levels," Monte Carlo is the appropriate technique. If the question asks for a single forecast value, use EVM formulas.
+:::
+
+### Monte Carlo vs PERT
+
+| Technique | Scope | Calculation |
+|---|---|---|
+| **PERT (3-point estimate)** | Single activity duration | (O + 4M + P) / 6 |
+| **Monte Carlo** | Entire project network | Full simulation of all paths |
+
+PERT gives you a weighted average for *one task*. Monte Carlo simulates the *entire project* considering all task uncertainties and dependencies.
+
+---
+
+## 📈 Data Visualization Best Practices
+
+Effective monitoring requires presenting data in ways that drive decisions. The 2026 PMP exam tests your ability to select the right visualization for the situation.
+
+### S-Curve Interpretation
+
+The **S-curve** plots cumulative planned value (PV), earned value (EV), and actual cost (AC) over time.
+
+```
+         Cumulative $
+              │
+    BAC ─ ─ ─ ┼─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┐
+              │                    │
+              │         PV ───────●│ (Planned completion)
+              │        /          /│
+              │       /   EV ────● │ (Actual progress)
+              │      /   /       / │
+              │     /   /  AC ──●  │ (Actual spending)
+              │    /   /   /       │
+              │   /   /   /        │
+              │──●───●───●─────────┼──────▶ Time
+              │                    │
+              Start              Finish
+```
+
+| Pattern | What It Means | Action |
+|---|---|---|
+| **EV < PV, AC < PV** | Behind schedule, under budget | May recover naturally; investigate blockers |
+| **EV < PV, AC > EV** | Behind schedule, over budget | High priority; analyze root cause immediately |
+| **EV > PV, AC < EV** | Ahead of schedule, under budget | Validate data; consider pulling work forward |
+| **EV > PV, AC > EV** | Ahead of schedule, over budget | Crashing may be causing cost overrun |
+
+### Dashboard Design Principles
+
+| Principle | Implementation | Exam Relevance |
+|---|---|---|
+| **Executive Summary First** | RAG status + 1-line summary at top | Status reports should be scannable |
+| **Trends Over Snapshots** | Show 3-5 periods of history | Trends reveal systemic issues |
+| **Decisions Required** | Highlight what needs action | WPR should drive decisions |
+| **Drill-Down Available** | Summary → detail on demand | Don't overwhelm with data |
+
+### Visual Selection Guide
+
+| Question Type | Best Visualization |
+|---|---|
+| "What's our cost/schedule status?" | S-curve, CPI/SPI trend chart |
+| "Where are our defects coming from?" | Pareto chart |
+| "Is this process stable?" | Control chart |
+| "Where's the bottleneck in our workflow?" | Cumulative Flow Diagram (CFD) |
+| "How much work is left?" | Burndown chart |
+| "How much have we completed vs. total scope?" | Burnup chart |
+| "What caused this problem?" | Fishbone (Ishikawa) diagram |
+
+::: tip 💡 Exam Pattern
+If stakeholders complain about "too much data" or "can't make decisions," the PM should **simplify reporting** and **focus on actionable insights**. The answer is never "provide more data."
+:::
+
+---
+
+## 🧮 Advanced EVM: Multi-Period Worked Example
+
+This example demonstrates how to track a project across multiple reporting periods and make recovery decisions.
+
+### Scenario Setup
+
+**Project:** Software implementation for billing system
+**BAC:** $400,000
+**Duration:** 20 weeks (100 days)
+**Measurement:** Every 4 weeks
+
+### Period-by-Period Analysis
+
+| Period | Planned % | Actual % | PV | EV | AC | CV | SV | CPI | SPI |
+|---|---|---|---|---|---|---|---|---|---|
+| **Week 4** | 20% | 18% | $80K | $72K | $85K | -$13K | -$8K | 0.85 | 0.90 |
+| **Week 8** | 40% | 35% | $160K | $140K | $175K | -$35K | -$20K | 0.80 | 0.88 |
+| **Week 12** | 60% | 50% | $240K | $200K | $270K | -$70K | -$40K | 0.74 | 0.83 |
+
+### Trend Analysis
+
+| Metric | Week 4 | Week 8 | Week 12 | Trend |
+|---|---|---|---|---|
+| **CPI** | 0.85 | 0.80 | 0.74 | 📉 Deteriorating |
+| **SPI** | 0.90 | 0.88 | 0.83 | 📉 Deteriorating |
+| **EAC** | $471K | $500K | $541K | 📈 Increasing |
+
+### Forecast at Week 12
+
+```
+EAC = BAC / CPI = $400,000 / 0.74 = $540,541 (≈ $541K)
+ETC = EAC - AC = $541K - $270K = $271K (remaining to complete)
+VAC = BAC - EAC = $400K - $541K = -$141K (forecast overrun)
+TCPI = (BAC - EV) / (BAC - AC) = ($400K - $200K) / ($400K - $270K) = $200K / $130K = 1.54
+```
+
+### Interpretation
+
+- **VAC of -$141K**: Project is forecast to exceed budget by 35%
+- **TCPI of 1.54**: To still meet BAC, you must perform 54% more efficiently than planned—**unrealistic**
+- **Both CPI and SPI declining**: This is a systemic problem, not a one-time variance
+
+### Recovery Decision Framework
+
+| Option | Cost Impact | Schedule Impact | Risk | Recommendation |
+|---|---|---|---|---|
+| **A: Continue as-is** | +$141K overrun | ~4 weeks late | Low | Only if sponsor approves variance |
+| **B: Crash schedule** | +$180K (add staff) | On-time possible | Medium | If deadline is critical |
+| **C: Reduce scope** | -$100K (defer features) | On-time | Medium | If some features are optional |
+| **D: Cancel project** | -$130K remaining | N/A | High | If ROI no longer positive |
+
+### What the PM Should Do (Exam Answer Pattern)
+
+1. **Analyze root cause** of declining CPI/SPI (why is efficiency dropping?)
+2. **Update forecast** (EAC/ETC/VAC) with realistic assumptions
+3. **Present options** to sponsor/CCB with impacts and recommendations
+4. **Submit change request** if baselines must change (scope, schedule, or cost)
+5. **Implement approved recovery** and communicate new plan
+6. **Monitor more frequently** until trend stabilizes
+
+::: warning ⚠️ Common Exam Trap
+"Increase overtime" or "work harder" is rarely the right answer when CPI is declining—it often indicates a *process* problem, not an *effort* problem. Investigate root cause first.
+:::
+
 <style>
 .change-process {
   display: flex;
