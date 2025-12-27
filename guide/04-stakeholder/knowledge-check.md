@@ -62,7 +62,7 @@ Test your understanding of stakeholder analysis, engagement strategies, communic
         'High Self-Orientation'
       ],
       correct: 3,
-      explanation: 'Self-Orientation is in the denominator. High self-orientation (\"I am trying to sell you something\") destroys trust faster than the positive factors can build it.',
+      explanation: 'Self-Orientation is in the denominator. High self-orientation (I am trying to sell you something) destroys trust faster than the positive factors can build it.',
       reference: 'Section 4.3 - Trust Equation'
     },
     {
@@ -74,7 +74,7 @@ Test your understanding of stakeholder analysis, engagement strategies, communic
         'Deliberate resistance from one of the teams'
       ],
       correct: 2,
-      explanation: 'High-context cultures (Japan) communicate meaning through relationship and tone, while low-context cultures (Germany) are explicit and direct. Neither is \"wrong\" - they need cultural bridging.',
+      explanation: 'High-context cultures (Japan) communicate meaning through relationship and tone, while low-context cultures (Germany) are explicit and direct. Neither is wrong - they need cultural bridging.',
       reference: 'Section 4.2 - Cross-Cultural Communication'
     },
     {
@@ -83,14 +83,14 @@ Test your understanding of stakeholder analysis, engagement strategies, communic
         'Accept the $150K to preserve the relationship',
         'Walk away or negotiate down using your BATNA as leverage',
         'Split the difference at $145K',
-        'Threaten to sue if they don\\'t lower the price'
+        'Threaten to sue if they don\'t lower the price'
       ],
       correct: 1,
       explanation: 'If the current offer is worse than your BATNA, you should not accept it. Use your BATNA as the walk-away point and try to negotiate better terms.',
       reference: 'Section 4.4 - BATNA'
     },
     {
-      text: 'In a negotiation, the stakeholder says \"I need 10 developers.\" You ask \"What are you trying to accomplish with 10 developers?\" This technique is designed to:',
+      text: 'In a negotiation, the stakeholder says: I need 10 developers. You ask: What are you trying to accomplish with 10 developers? This technique is designed to:',
       options: [
         'Challenge their authority to make requests',
         'Distinguish their position from their underlying interests',
@@ -134,7 +134,7 @@ Test your understanding of stakeholder analysis, engagement strategies, communic
         'Plurality'
       ],
       correct: 2,
-      explanation: 'Consensus (\"I can live with it\") produces strong commitment and reduces the risk of sabotage because everyone has agreed to support the outcome.',
+      explanation: 'Consensus (I can live with it) produces strong commitment and reduces the risk of sabotage because everyone has agreed to support the outcome.',
       reference: 'Section 4.4 - Decision-Making Models'
     },
     {
@@ -162,15 +162,15 @@ Test your understanding of stakeholder analysis, engagement strategies, communic
       reference: 'Section 4.2 - Communication Methods'
     },
     {
-      text: 'According to the Sender-Receiver model, a PM sends a technical email with jargon that a business stakeholder doesn\\'t understand. The stakeholder acknowledges receipt but misses the key point. Where did the breakdown occur?',
+      text: 'According to the Sender-Receiver model, a PM sends a technical email with jargon that a business stakeholder doesn\'t understand. The stakeholder acknowledges receipt but misses the key point. Where did the breakdown occur?',
       options: [
         'Transmission - the email failed to deliver',
-        'Encoding - the PM used language the receiver couldn\\'t decode',
+        'Encoding - the PM used language the receiver couldn\'t decode',
         'Feedback - the stakeholder should have asked questions',
         'Acknowledgment - the stakeholder lied about receiving it'
       ],
       correct: 1,
-      explanation: 'Encoding is translating thoughts into language. Using technical jargon for a non-technical audience is an encoding failure - the message wasn\\'t translated appropriately for the receiver.',
+      explanation: 'Encoding is translating thoughts into language. Using technical jargon for a non-technical audience is an encoding failure - the message wasn\'t translated appropriately for the receiver.',
       reference: 'Section 4.2 - Sender-Receiver Model'
     },
     {
@@ -194,11 +194,11 @@ Test your understanding of stakeholder analysis, engagement strategies, communic
         'Informed'
       ],
       correct: 1,
-      explanation: 'Accountable (the \"A\") is the single person who owns the outcome and makes the final call. There should be only one \"A\" per deliverable.',
+      explanation: 'Accountable (the A) is the single person who owns the outcome and makes the final call. There should be only one A per deliverable.',
       reference: 'Section 4.1 - RACI Matrix'
     },
     {
-      text: 'A stakeholder is currently \"Resistant\" but the project needs them to be \"Neutral\" to avoid blocking critical approvals. According to the Engagement Assessment Matrix, what is the engagement gap?',
+      text: 'A stakeholder is currently Resistant but the project needs them to be Neutral to avoid blocking critical approvals. According to the Engagement Assessment Matrix, what is the engagement gap?',
       options: [
         'No gap - they are already engaged',
         '1 level (from Resistant to Neutral)',
@@ -210,7 +210,7 @@ Test your understanding of stakeholder analysis, engagement strategies, communic
       reference: 'Section 4.1b - Engagement Assessment Matrix'
     },
     {
-      text: 'According to Cialdini\\'s principles of influence, which principle is being used when you say \"The CTO and VP of Engineering have already endorsed this approach\"?',
+      text: 'According to Cialdini\'s principles of influence, which principle is being used when you say: The CTO and VP of Engineering have already endorsed this approach?',
       options: [
         'Reciprocity',
         'Authority',
@@ -230,7 +230,7 @@ Test your understanding of stakeholder analysis, engagement strategies, communic
         'Cancel and reschedule when everyone can be co-located'
       ],
       correct: 1,
-      explanation: '2026 focus: \"If one person is remote, everyone is remote.\" Using shared digital tools and chat-first strategies prevents in-room bias and ensures equitable participation.',
+      explanation: '2026 focus: If one person is remote, everyone is remote. Using shared digital tools and chat-first strategies prevents in-room bias and ensures equitable participation.',
       reference: 'Section 4.2 - Virtual Meeting Best Practices'
     },
     {
@@ -270,7 +270,7 @@ Test your understanding of stakeholder analysis, engagement strategies, communic
       reference: 'Section 4.1b - Direction of Influence'
     },
     {
-      text: 'In the negotiation, the other party uses \"anchoring\" by stating an extremely high initial price. What is the BEST response?',
+      text: 'In the negotiation, the other party uses anchoring by stating an extremely high initial price. What is the BEST response?',
       options: [
         'Accept the anchor and negotiate small reductions',
         'Walk away immediately',
@@ -282,7 +282,7 @@ Test your understanding of stakeholder analysis, engagement strategies, communic
       reference: 'Section 4.4 - Negotiation Tactics'
     },
     {
-      text: 'A stakeholder who was \"Leading\" (actively driving project success) has become \"Supportive\" (helpful but passive). What is a likely cause?',
+      text: 'A stakeholder who was Leading (actively driving project success) has become Supportive (helpful but passive). What is a likely cause?',
       options: [
         'This is normal progression as projects mature',
         'Burnout, lack of recognition, or exclusion from decisions',
@@ -302,7 +302,7 @@ Test your understanding of stakeholder analysis, engagement strategies, communic
         'Individual performance warnings'
       ],
       correct: 1,
-      explanation: 'Ground Rules in the Team Charter set behavioral expectations before conflict starts. Examples: \"Attack problems, not people\" or \"We decide by consensus.\"',
+      explanation: 'Ground Rules in the Team Charter set behavioral expectations before conflict starts. Examples: Attack problems, not people; We decide by consensus.',
       reference: 'Section 4.4 - Ground Rules'
     }
   ]"

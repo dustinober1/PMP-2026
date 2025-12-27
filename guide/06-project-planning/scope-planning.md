@@ -28,12 +28,57 @@ The way you define scope depends on the stability of your requirements.
 
 ---
 
-## 🏗️ The WBS: Foundation of Control
-In the PMP world, the **WBS** is the 100% rule: If it isn't in the WBS, it isn't in the project.
+## 🎯 Project Scope vs. Product Scope
+The exam loves to test whether you understand these two scope concepts:
+- **Product Scope**: The features and functions of the product/service/result.
+- **Project Scope**: The work required to deliver the product scope.
 
-1.  **Work Packages**: The lowest level of the WBS where cost and duration can be reliably estimated.
-2.  **Control Accounts**: Management points where scope, budget, and actual cost are integrated.
-3.  **Requirements Traceability Matrix (RTM)**: A table that links requirements to their origin and the deliverables that satisfy them. **(Crucial for 2026 Compliance!)**
+Scope problems often begin when stakeholders request product features without acknowledging the extra project work (time/cost/resources) required to deliver them.
+
+---
+
+## 🧭 The Predictive Scope Flow (In Order)
+1.  **Plan Scope Management**: Defines how scope will be defined, validated, and controlled.
+2.  **Collect Requirements**: Produces **Requirements Documentation** and the **RTM**.
+3.  **Define Scope**: Produces the **Project Scope Statement** (deliverables, acceptance criteria, exclusions).
+4.  **Create WBS**: Produces the **WBS** and **WBS Dictionary**.
+
+::: tip 💡 Baseline Reality
+The **Scope Baseline** is the approved version of: **Scope Statement + WBS + WBS Dictionary**.
+:::
+
+---
+
+## 🗂️ Collect Requirements: Common Techniques
+When a question asks “how do we get clear requirements,” think facilitation and discovery:
+- **Interviews** and **surveys/questionnaires**
+- **Focus groups** (multiple users/stakeholders)
+- **Facilitated workshops/JAD** (fast alignment + conflict surfacing)
+- **Observation/job shadowing**
+- **Prototyping** (especially for UI/UX uncertainty)
+- **Document analysis** (policies, regulations, legacy systems)
+
+Key outputs to recognize:
+- **Requirements Documentation** (functional + nonfunctional requirements, assumptions, constraints)
+- **RTM** (trace requirements through delivery and verification)
+
+---
+
+## 🏗️ The WBS: Foundation of Control
+In the PMP world, the **WBS** follows the **100% rule**: it represents 100% of the project work (and only the project work). If it isn't in the WBS, it isn't in the project.
+
+- **Decomposition**: Breaking deliverables into smaller components until you can estimate and assign the work.
+- **Work Packages**: The lowest level of the WBS where cost and duration can be reliably estimated.
+- **Control Accounts**: Management points where scope, budget, and schedule are integrated for performance reporting.
+- **Planning Packages** (common in large programs): Work that is known at a high level but not decomposed yet (supports rolling wave planning).
+
+### RTM: Requirements Traceability Matrix (Why It Matters)
+The **RTM** is a table that links requirements to their origin and the deliverables/tests that satisfy them. It is a powerful defense against missed requirements and helps with compliance and audits.
+
+| Req ID | Requirement (What) | Source (Why) | Delivered By (Where) | Verified By (How) |
+| :----- | :----------------- | :----------- | :------------------- | :---------------- |
+| R-01   | MFA login required | Security     | WBS 2.1 Auth Module  | UAT-SEC-05        |
+| R-02   | Export to CSV      | Operations   | WBS 3.2 Reporting    | UAT-OPS-11        |
 
 ---
 
@@ -45,6 +90,19 @@ Two major risks every PM must fight:
 ::: info 🛠️ 2026 Shift: Continuous Backlog Refinement
 In modern practice, the Product Owner and Team perform **Backlog Refinement** (Grooming) continuously. They break down "Epics" into "User Stories" just-in-time for the next sprint, ensuring the team always works on the highest value items.
 :::
+
+---
+
+## ✅ Acceptance Criteria vs. Definition of Done (DoD)
+These get confused on the exam:
+- **Acceptance Criteria**: The specific conditions a stakeholder uses to accept a deliverable/story (often unique per item).
+- **Definition of Done**: The shared, non-negotiable quality checklist that applies to *every* story (coding standards, tests, documentation, review, etc.).
+
+---
+
+## 🔁 Controlling Scope Changes (Predictive vs. Agile)
+- **Predictive**: Scope changes go through **Integrated Change Control** (change request → impact analysis → approval/reject → update baselines and communicate).
+- **Agile**: Scope changes are managed through **backlog reprioritization**. The sprint scope is protected once the sprint starts; new work goes to the backlog for future planning.
 
 <style>
 .scope-grid {
@@ -81,7 +139,7 @@ In modern practice, the Product Owner and Team perform **Backlog Refinement** (G
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If an exam scenario says the team is "confused about what a specific task requires," the answer is usually to refer to the <strong>WBS Dictionary</strong>. If they are confused if a feature is "finished," refer to the <strong>Definition of Done</strong>.
+  <strong>📝 Exam Insight:</strong> If the team is confused about what a specific work package requires, refer to the <strong>WBS Dictionary</strong>. If stakeholders are debating whether something is in scope, use the <strong>Scope Statement</strong> / <strong>WBS</strong>. If you need to prove where a requirement came from (or what deliverable satisfies it), use the <strong>RTM</strong>. If the team is debating whether a story is “finished,” refer to the <strong>Definition of Done</strong> and the story’s <strong>Acceptance Criteria</strong>.
 </div>
 
 <style>

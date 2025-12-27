@@ -174,7 +174,7 @@ Test your ability to justify value, secure authorization, define boundaries, and
       reference: 'Section 5.3'
     },
     {
-      text: 'An assumption was recorded: "The lead architect will be available 30 hours per week." The architect later notifies you they accepted another role. Development work is blocked. What has this assumption become?',
+      text: 'An assumption was recorded: The lead architect will be available 30 hours per week. The architect later notifies you they accepted another role. Development work is blocked. What has this assumption become?',
       options: [
         'A validated assumption that can be closed',
         'An issue that requires immediate resolution',
@@ -246,7 +246,7 @@ Test your ability to justify value, secure authorization, define boundaries, and
       reference: 'Section 5.4'
     },
     {
-      text: 'In the Cynefin Framework, which domain requires a "Probe-Sense-Respond" approach?',
+      text: 'In the Cynefin Framework, which domain requires a Probe-Sense-Respond approach?',
       options: [
         'Clear (Obvious)',
         'Complicated',

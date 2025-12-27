@@ -1,4 +1,4 @@
-# 6.4 Resource Planning
+# 6.4 Resource & Procurement Planning
 
 Project success depends on getting the right people, tools, and materials in the right place at the right time.
 
@@ -30,13 +30,56 @@ In PMP terms, "Resources" includes both human talent and physical materials.
 
 ---
 
+## 🧩 Roles & Responsibility (RAM / RACI)
+When a question signals confusion about “who owns what,” you’re in responsibility assignment territory.
+
+- **RAM (Responsibility Assignment Matrix)**: The umbrella term that links WBS work to owners.
+- **RACI**: A common RAM format: **Responsible, Accountable, Consulted, Informed**.
+
+| Deliverable | R (Does Work) | A (Final Owner) | C (Input) | I (Aware) |
+| :---------- | :------------ | :-------------- | :-------- | :-------- |
+| Requirements baseline | BA | PM | Sponsor, Team | Ops |
+| Test plan | QA Lead | PM | Dev Lead | Sponsor |
+
+::: tip 💡 Exam Clue
+For a single deliverable, there should be **one Accountable** party (clear ownership).
+:::
+
+---
+
+## 📅 Resource Calendars (Availability Is a Constraint)
+Planning is not just “how many people” — it’s **when they are available**:
+- Vacations, part-time allocation, holidays, time zones, on-call rotations
+- Equipment delivery windows and facility access
+- Vendor lead times and shipping/customs risk for physical items
+
+---
+
 ## 📈 Managing Constraints
-*   **Resource Leveling**: Adjusting the schedule based on resource limits. (Usually delays the finish date).
-*   **Resource Smoothing**: Adjusting activities within their **Float** so as not to exceed resource limits. (Does not delay the finish date).
+*   **Resource Leveling**: Adjusting the schedule based on resource limits. Often changes the critical path and **usually delays** the finish date.
+*   **Resource Smoothing**: Adjusting activities within their **Float** so as not to exceed resource limits. **Does not** change the finish date (uses available slack).
 
 ::: info 🛠️ 2026 Focus: Virtual Logistics
 Modern resource planning must account for **Digital Latency**. If your team is global, do they have the same cloud infrastructure? Is the physical hardware available in their specific region (e.g., chip shortages)?
 :::
+
+---
+
+## 🧾 Procurement Planning (External Resources)
+When you cannot source resources internally, procurement planning helps you get the work done without uncontrolled risk.
+
+### Key Procurement Concepts
+- **Make-or-Buy Analysis**: Decide whether to build internally or purchase externally.
+- **Procurement SOW**: Defines what you want a seller to deliver (scope for the vendor).
+- **Source Selection Criteria**: How you’ll evaluate vendors (price, capability, past performance, ESG, etc.).
+- **RFP vs. RFQ**: RFP asks for approach/solution; RFQ asks for price for a defined item.
+
+### Contract Types (Exam Essentials)
+| Contract | Who Holds More Cost Risk? | When It Fits |
+| :------- | :------------------------ | :----------- |
+| **Fixed Price (FFP)** | Seller | Scope is clear/stable |
+| **Cost-Reimbursable (CP)** | Buyer | Scope is uncertain/R&D |
+| **Time & Materials (T&M)** | Shared | Staff augmentation / urgent work |
 
 <style>
 .resource-grid {
@@ -82,7 +125,7 @@ Modern resource planning must account for **Digital Latency**. If your team is g
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a project is delayed because of "waiting for equipment," the root cause is poor <strong>Physical Resource Management</strong>. If it's delayed because of "unclear roles," the fix is the <strong>RACI Matrix</strong>.
+  <strong>📝 Exam Insight:</strong> If a project is delayed because of "waiting for equipment," the root cause is poor <strong>Physical Resource Planning</strong> (availability/lead time). If it's delayed because of "unclear roles," the fix is a <strong>RAM/RACI</strong>. If the question is about shifting cost risk to a vendor, a <strong>Fixed-Price</strong> contract generally puts more risk on the seller (assuming scope is stable).
 </div>
 
 <style>

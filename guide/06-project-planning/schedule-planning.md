@@ -27,11 +27,58 @@ Modern scheduling requires a balance between mathematical precision and human fl
 
 ---
 
+## 🧭 The Predictive Schedule Flow (In Order)
+1.  **Plan Schedule Management**: Defines how the schedule will be developed, approved, and controlled.
+2.  **Define Activities**: Turns WBS work packages into a detailed **activity list** (the work to schedule).
+3.  **Sequence Activities**: Defines dependencies and builds the network logic.
+4.  **Estimate Durations**: Produces realistic activity durations (often with three-point/PERT).
+5.  **Develop Schedule**: Creates the schedule model and (when approved) the **Schedule Baseline**.
+
+---
+
+## 🔗 Dependencies (Precedence Diagramming Method)
+Most exam questions use these dependency types:
+
+| Type | Name | Meaning | Example |
+| :--- | :--- | :------ | :------ |
+| FS | Finish-to-Start | B starts after A finishes | Test after coding |
+| SS | Start-to-Start | B starts after A starts | Write docs while building |
+| FF | Finish-to-Finish | B finishes after A finishes | QA finishes when dev finishes |
+| SF | Start-to-Finish | B finishes after A starts | Rare (shift handoff) |
+
+::: tip 💡 Lead vs. Lag
+**Lead** accelerates a successor (e.g., FS with -2 days). **Lag** adds wait time (e.g., paint must dry for 2 days).
+:::
+
+---
+
+## 🧮 Critical Path (Mini Example)
+To find the critical path, compare the total duration of each path through the network:
+
+- Path 1: A (3d) → B (4d) → C (2d) = **9 days**
+- Path 2: A (3d) → D (6d) → C (2d) = **11 days**
+
+The **critical path** is the longest path (**A → D → C**). Activities on the critical path typically have **0 total float**.
+
+---
+
 ## 📈 Managing Float (Slack)
 Float is the amount of time an activity can be delayed without affecting the end date.
 *   **Total Float**: The "safety margin" for the overall project.
 *   **Free Float**: The delay allowed before the *next* activity is affected.
 *   **Negative Float**: A project manager's nightmare—it means the project is already late!
+
+::: tip 💡 Quick Math
+Total Float = **LS − ES** or **LF − EF**. If you need a formula refresher, see the Appendix: **Formulas & Definitions**.
+:::
+
+---
+
+## 📅 Agile Scheduling: Cadence + Forecasting
+In agile, time is often fixed and scope flexes:
+- **Sprint cadence** creates a predictable rhythm (e.g., 2-week sprints).
+- **Velocity** helps forecast future throughput (use it for planning, not for judging individuals/teams).
+- **Release planning** focuses on a date + MVP scope; detailed scope emerges via refinement.
 
 ---
 
@@ -83,7 +130,7 @@ In 2026, PMs use **AI-Augmented Estimation** to analyze historical performance a
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If an exam scenario asks how to fix a delay with "no extra budget," choose <strong>Fast Tracking</strong>. If they say "the end date is firm and budget is available," choose <strong>Crashing</strong>.
+  <strong>📝 Exam Insight:</strong> If an exam scenario asks how to fix a delay with "no extra budget," choose <strong>Fast Tracking</strong>. If they say "the end date is firm and budget is available," choose <strong>Crashing</strong>. If the schedule must be updated because resources are overallocated, think <strong>Resource Leveling</strong> (usually delays the project) or <strong>Resource Smoothing</strong> (uses float; does not change the finish date).
 </div>
 
 <style>

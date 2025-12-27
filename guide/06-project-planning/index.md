@@ -5,7 +5,7 @@ Planning is not a one-time event; it is a **continuous process of refinement**. 
 ---
 
 ## The Planning Core
-Strategic planning is about creating a "Integrated Project Management Plan" that balances the competing needs of scope, time, cost, and quality.
+Strategic planning is about creating an integrated **Project Management Plan** that balances the competing needs of scope, schedule, cost, quality, and resources.
 
 <div class="section-grid">
   <div class="section-card">
@@ -27,9 +27,9 @@ Strategic planning is about creating a "Integrated Project Management Plan" that
   </div>
 
   <div class="section-card">
-    <div class="section-title">6.4 Resource Planning</div>
-    <p class="section-description">Defining the 'Who'. Physical vs. Team resources and availability.</p>
-    <a href="./resource-planning" class="section-link">Find People →</a>
+    <div class="section-title">6.4 Resource & Procurement</div>
+    <p class="section-description">Defining the 'Who/With What'. Teams, materials, and vendor strategy.</p>
+    <a href="./resource-planning" class="section-link">Plan Resources →</a>
   </div>
 
   <div class="section-card knowledge-check">
@@ -40,6 +40,17 @@ Strategic planning is about creating a "Integrated Project Management Plan" that
 </div>
 
 ---
+
+## What Planning Produces (PMP Reality)
+On the exam and in practice, planning creates a **system of documents** that all support each other:
+
+- **Baselines (approved targets)**: Scope Baseline, Schedule Baseline, Cost Baseline
+- **Subsidiary plans (how you'll manage)**: Scope/Schedule/Cost/Resource/Procurement Management Plans
+- **Supporting documents (details & evidence)**: RTM, activity list, network logic, resource calendars, cost estimates, assumptions log
+
+::: tip 💡 Baseline vs. Draft
+If a question says a plan is **approved** or **baselined**, changes require formal **change control**. If it says **draft**, you're still refining.
+:::
 
 ## 2026 Mindset: The Integrated Plan
 A project falls apart when plans exist in silos. Integration means:
