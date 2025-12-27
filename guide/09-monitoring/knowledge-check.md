@@ -1,6 +1,6 @@
 # Knowledge Check: Monitoring & Closing
 
-Test your mastery of performance metrics, change control, configuration management, and project closure in the 2026 PMP context. These 25 scenario-based questions focus on the exam's favorite patterns: interpreting EVM data, choosing the right "log," managing baselines and change control, transition/handoff requirements, and doing the right thing first when variance appears.
+Test your mastery of performance metrics, change control, configuration management, and project closure in the 2026 PMP context. These 35 scenario-based questions focus on the exam's favorite patterns: interpreting EVM data, choosing the right "log," managing baselines and change control, transition/handoff requirements, and doing the right thing first when variance appears.
 
 <QuizComponent
   title="Chapter 9: Monitoring & Closing"
@@ -364,6 +364,66 @@ Test your mastery of performance metrics, change control, configuration manageme
       correct: 2,
       explanation: 'Crashing (adding resources) trades cost for time with low quality risk. Fast-tracking (overlapping work) trades cost and time for quality/rework risk. The right answer depends on: (1) Do you have $50K available? (2) Can you tolerate rework risk? (3) Are there other constraints? On the exam, the best answer often involves analyzing impacts and recommending based on the specific scenario.',
       reference: 'Section 9.1 - Schedule Compression: Crashing vs Fast-Tracking'
+    },
+    {
+      text: 'The sponsor asks for a completion date forecast on a complex project with high uncertainty. EVM shows an EAC date of June 15, but risk analysis suggests significant variability. What forecasting approach should you use?',
+      options: [
+        'Report only the EVM date because it is the standard method',
+        'Use Monte Carlo simulation to provide a range of dates with confidence levels (e.g., P50, P80, P90)',
+        'Provide the best-case date to keep stakeholders comfortable',
+        'Refuse to forecast until more work is complete'
+      ],
+      correct: 1,
+      explanation: 'Monte Carlo simulation is appropriate for high-uncertainty projects because it provides probabilistic forecasts (e.g., \"80% confident by July 1\") rather than a single deterministic date. This gives stakeholders a realistic view of the range of possible outcomes.',
+      reference: 'Section 9.1 - Probabilistic Forecasting (Monte Carlo Simulation)'
+    },
+    {
+      text: 'A CPIF contract has a target cost of $1,000,000, target fee of $80,000, and a 70/30 sharing ratio (buyer/seller). The seller completed the work for $950,000. What is the final fee?',
+      options: [
+        '$65,000',
+        '$80,000',
+        '$95,000',
+        '$120,000'
+      ],
+      correct: 2,
+      explanation: 'Cost underrun = $50,000. Seller share (30%) = $15,000. Final fee = Target fee + seller share = $80,000 + $15,000 = $95,000. In CPIF, the seller shares in cost savings (and overruns) according to the sharing ratio.',
+      reference: 'Section 9.2 - Contract Types & Closure Implications (CPIF)'
+    },
+    {
+      text: 'You are managing a hybrid project with fixed milestones for governance and agile sprints for development. Which combination of metrics should you monitor?',
+      options: [
+        'Only EVM metrics because they provide the most accurate forecast',
+        'Only velocity and burndown because this is an agile project',
+        'Milestone adherence for governance gates plus velocity and flow metrics for development phases',
+        'Customer satisfaction surveys only because value matters most'
+      ],
+      correct: 2,
+      explanation: 'Hybrid projects require both predictive metrics (milestone status, schedule adherence) for governance and agile metrics (velocity, burndown, flow) for development phases. Neither approach alone provides complete visibility.',
+      reference: 'Section 9.1 - Tailoring Monitoring by Methodology'
+    },
+    {
+      text: 'A healthcare software project is ready for go-live, but the compliance team has not completed the FDA 21 CFR Part 11 documentation review. The sponsor wants to close the project immediately. What should the PM do?',
+      options: [
+        'Close the project because the software is functional',
+        'Delay closure until regulatory documentation is complete and compliance sign-off is obtained',
+        'Close the project and handle compliance as a separate initiative',
+        'Transfer regulatory responsibility to the compliance team and close'
+      ],
+      correct: 1,
+      explanation: 'In regulated industries, compliance documentation is a mandatory closure requirement. The project cannot be considered complete until regulatory requirements are satisfied and documented. Closing without compliance sign-off creates legal and operational risk.',
+      reference: 'Section 9.2 - Regulatory & Compliance Closure'
+    },
+    {
+      text: 'A key stakeholder refuses to sign off on acceptance because they want additional features that were not in the original requirements. The documented acceptance criteria have been met. What should the PM do FIRST?',
+      options: [
+        'Implement the additional features to maintain the relationship',
+        'Reference the documented acceptance criteria and route the new requests as change requests',
+        'Escalate to legal to force acceptance',
+        'Delay closure indefinitely until the stakeholder is satisfied'
+      ],
+      correct: 1,
+      explanation: 'When acceptance criteria are met but a stakeholder wants more, the PM should reference the documented requirements and treat new requests as change requests. \"Moving goalposts\" is not a valid reason to reject formal acceptance if criteria are satisfied.',
+      reference: 'Section 9.2 - Stakeholder Sign-off Strategies'
     }
   ]"
 />
