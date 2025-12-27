@@ -53,6 +53,11 @@ This transformation is how you turn “noise” into decisions.
 | **Work Performance Information (WPI)** | Analyzed status/variance/trends | CPI/SPI, burnup trend, defect escape rate, forecast date | PM/core team |
 | **Work Performance Reports (WPR)** | Packaged communication | status reports, dashboards, steering decks | sponsor/stakeholders |
 
+### 🧠 Concrete Example: The "Quality Spike"
+1.  **Data (WPD):** The tester logs "5 defects found" in Jira today. (Raw number, no context).
+2.  **Information (WPI):** The PM analyzes this and notes, "Defect rate has jumped 20% this week; we are now projected to miss the UAT start date by 3 days." (Context + Implication).
+3.  **Report (WPR):** The Weekly Status Report to the Sponsor shows a "Yellow" quality status with a note: "Defect trend rising; conducting root cause analysis to protect UAT date." (Decision-ready).
+
 ::: warning ⚠️ Common Exam Trap
 Stakeholders being “surprised” by bad news usually means you collected **data** but didn’t transform it into **information** and communicate it via **reports**.
 :::
@@ -152,10 +157,12 @@ Results:
 When a variance appears, the PM’s job is not to “fix it fast.” The PM’s job is to **understand it** so the action actually works.
 
 Common analysis tools (often appear as answer choices):
-- **Variance analysis** (compare actual vs baseline)
-- **Trend analysis** (is it getting better/worse over time?)
-- **Root cause analysis** (**5 Whys**, **Fishbone/Ishikawa**)
-- **Pareto chart (80/20)** to prioritize the vital few causes
+- **Variance analysis** (compare actual vs baseline).
+- **Trend analysis** (is it getting better/worse over time?).
+- **Root cause analysis**:
+    - **5 Whys**: Ask "Why?" five times to drill down from the symptom to the fundamental cause.
+    - **Fishbone (Ishikawa) diagram**: Visualizes cause-and-effect, breaking causes into categories (e.g., People, Process, Technology).
+- **Pareto chart (80/20)**: A histogram ordered by frequency to highlight the “vital few” causes that generate most problems. Use this to prioritize *where* to fix things.
 
 ::: info 🧪 Control Charts (Quality Control)
 - **Control limits** (UCL/LCL) show whether a process is statistically stable.
@@ -292,12 +299,16 @@ Monitoring & Controlling touches every knowledge area. Think in terms of *what y
 
 In adaptive environments, control focuses on **value flow and predictability**, not variance from a fixed scope baseline.
 
-- **Burnup/Burndown**: progress vs remaining work
-- **Velocity**: how much a team typically delivers per iteration (used for forecasting, not as a target)
-- **Cycle Time / Lead Time**: how fast work moves from start → done / request → value
-- **Cumulative Flow Diagram (CFD)**: bottlenecks and WIP stability
-- **WIP Limits**: reduce multitasking and stabilize flow (Kanban)
-- **Escaped defects**: quality signal (defects found after “done”)
+- **Burnup/Burndown**:
+    - **Burndown**: Tracks work remaining. A "flat line" means work is stalled. A spike up means scope was added.
+    - **Burnup**: Tracks work completed vs. total scope. Better for visibility when scope is changing (you see the target line move).
+- **Velocity**: How much work the team gets "Done" per iteration. Use it to forecast *future* capacity, not as a performance target to be forced.
+- **Cycle Time vs. Lead Time**:
+    - **Lead Time**: Clock starts when the customer requests it (ticket created) → ends when value is delivered (deployment).
+    - **Cycle Time**: Clock starts when the team begins work (In Progress) → ends when work is Done.
+- **Cumulative Flow Diagram (CFD)**: Visualizes flow stability. Widening bands indicate bottlenecks. Vertical steps mean batch transfers (bad flow).
+- **WIP Limits**: Constraints placed on columns (e.g., "Doing") to force teams to finish starting before starting new work.
+- **Escaped defects**: quality signal (defects found after “done”).
 
 ::: tip 💡 Agile Change Control
 In agile, change is expected. “Control” is achieved by maintaining a transparent, ordered backlog, stable iteration cadence, clear acceptance criteria, and regular inspect/adapt events (review + retro).

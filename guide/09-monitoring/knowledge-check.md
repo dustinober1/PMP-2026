@@ -304,6 +304,18 @@ Test your mastery of performance metrics, change control, and project closure in
       correct: 2,
       explanation: 'The lessons learned register is updated throughout the lifecycle and finalized at closure so the organization can reuse knowledge on future projects.',
       reference: 'Section 9.2 - Harvesting Lessons'
+    },
+    {
+      text: 'What is the primary difference between a Sprint Retrospective and a Lessons Learned session?',
+      options: [
+        'Retrospectives focus on the team improving their own process immediately; Lessons Learned focus on organizational knowledge for future projects',
+        'Retrospectives are optional; Lessons Learned are mandatory',
+        'Retrospectives are led by the sponsor; Lessons Learned are led by the team',
+        'They are exactly the same thing, just different names'
+      ],
+      correct: 0,
+      explanation: 'Retrospectives are private, team-based events to improve the *next* sprint. Lessons Learned are typically documented for the *organization* (OPAs) to help future projects.',
+      reference: 'Section 9.2 - Lessons Learned vs Retrospectives'
     }
   ]"
 />

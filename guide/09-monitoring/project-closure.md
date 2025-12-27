@@ -147,6 +147,14 @@ Archiving typically includes: plans/baselines, registers/logs, change history, a
 
 The **lessons learned register** should be a living document throughout the project and then finalized at closure. A good lessons learned session is **blameless** and action-oriented.
 
+### Lessons Learned vs. Retrospectives (Know the Difference)
+| Aspect | Lessons Learned (Predictive) | Retrospective (Agile) |
+|---|---|---|
+| **Timing** | End of phase / end of project | End of every iteration/sprint |
+| **Scope** | Entire project lifecycle | The immediate past 2-4 weeks |
+| **Primary Goal** | Document knowledge for the *organization* (OPAs) | Improve the *team's* process immediately |
+| **Audience** | Future project teams | The current team (private space) |
+
 Suggested prompts:
 - **What went right?** (repeatable practices)
 - **What went wrong?** (root causes and early signals)
@@ -154,8 +162,22 @@ Suggested prompts:
 - **What assumptions were wrong?**
 - **What decisions saved time/cost?**
 
-::: tip 💡 2026 Shift: Canceled Projects
-If a project is canceled mid-flight, do not just walk away. Perform administrative closure: document why it was canceled, archive partial deliverables and contracts, and capture lessons so the organization gets value from the failure.
+---
+
+## 🚫 Canceled Projects (Premature Closure)
+
+If a project is canceled mid-flight (e.g., strategy shift, budget cut, technical obsolescence), you do **not** just stop and walk away. You must perform **administrative closure**.
+
+**Steps for a Canceled Project:**
+1.  **Document the status**: Record the exact extent of work completed vs. incomplete.
+2.  **Document the reason**: Why was it canceled? (Valuable context for future strategy).
+3.  **Archive partial deliverables**: Don't delete code/designs; store them in the repository (they might be useful later).
+4.  **Close contracts**: Pay vendors for work done to date and follow contract termination clauses.
+5.  **Release team**: Formally unassign them so they can work on new projects.
+6.  **Capture lessons learned**: Why did it fail? Or if it didn't fail (market changed), what did we learn about the market?
+
+::: tip 💡 2026 Shift
+The "sunk cost fallacy" (spending more because you already spent a lot) is a bias to avoid. Closing a project that no longer provides value is a **success**, not a failure, because it frees resources for higher-value work.
 :::
 
 ---
