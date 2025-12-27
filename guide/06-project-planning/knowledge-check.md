@@ -234,7 +234,7 @@ Test your ability to weave together scope, schedule, cost, quality, risk, resour
       reference: 'Section 6.1'
     },
     {
-      text: 'A developer adds an unrequested feature to \"delight the customer\" without approval. What is this called?',
+      text: 'A developer adds an unrequested feature to “delight the customer” without approval. What is this called?',
       options: [
         'Scope Creep',
         'Gold Plating',
@@ -242,7 +242,7 @@ Test your ability to weave together scope, schedule, cost, quality, risk, resour
         'Progressive Elaboration'
       ],
       correct: 1,
-      explanation: 'Gold Plating is adding extra features or work not requested or approved. Even if \"free,\" it wastes resources and can introduce risk.',
+      explanation: 'Gold Plating is adding extra features or work not requested or approved. Even if “free,” it wastes resources and can introduce risk.',
       reference: 'Section 6.1'
     },
     {
@@ -282,7 +282,7 @@ Test your ability to weave together scope, schedule, cost, quality, risk, resour
       reference: 'Section 6.3'
     },
     {
-      text: 'In a RACI chart, how many people should be \"Accountable\" for a single deliverable?',
+      text: 'In a RACI chart, how many people should be “Accountable” for a single deliverable?',
       options: [
         'At least one',
         'Exactly one',
@@ -290,7 +290,7 @@ Test your ability to weave together scope, schedule, cost, quality, risk, resour
         'As many as needed'
       ],
       correct: 1,
-      explanation: 'There should be exactly ONE Accountable person per deliverable to ensure clear ownership. Multiple \"A\"s create confusion about who has final authority.',
+      explanation: 'There should be exactly ONE Accountable person per deliverable to ensure clear ownership. Multiple “A”s create confusion about who has final authority.',
       reference: 'Section 6.6'
     },
     {

@@ -1,11 +1,25 @@
 # Chapter 7: Risk, Quality & Complexity
 
-Modern projects live in a world of **V.U.C.A.** (Volatility, Uncertainty, Complexity, and Ambiguity). In the 2026 PMP exam, your value is measured by how you navigate the unknown while maintaining unwavering quality.
+Modern projects live in a world of **V.U.C.A.** (Volatility, Uncertainty, Complexity, and Ambiguity). On the PMP exam, your value is measured by how you navigate the unknown while maintaining consistent quality.
 
 ---
 
 ## ⚠️ The Domain of Uncertainty
 Risk, Quality, and Complexity are interwoven. A failure in quality is a realized risk, and complexity is often the root cause of both.
+
+### What this chapter makes you exam-ready for
+- Choosing the *best* risk response (not just naming a register)
+- Knowing when the situation calls for **QA vs QC** (process vs product)
+- Recognizing when an environment is **complex** (and shifting to iterative/adaptive approaches)
+- Spotting classic traps like confusing **control limits vs specification limits** or **risk vs issue**
+
+### High-yield artifacts and “first moves”
+| If you see this in a question… | Think… |
+|---|---|
+| “A risk has occurred” | Execute the planned response → log as **issue** |
+| “Audit / ensure process compliance” | **Manage Quality (QA)** |
+| “Test/inspect deliverable” | **Control Quality (QC)** |
+| “High uncertainty / unclear solution” | **Iterate + experiment** (complex domain) |
 
 <div class="section-grid">
   <div class="section-card">
@@ -26,6 +40,12 @@ Risk, Quality, and Complexity are interwoven. A failure in quality is a realized
     <a href="./navigating-complexity" class="section-link">Tame the Chaos →</a>
   </div>
 
+  <div class="section-card">
+    <div class="section-title">7.4 Tools & Templates</div>
+    <p class="section-description">Copy/paste-ready risk registers, quality checklists, and quick picks for exam scenarios.</p>
+    <a href="./toolkit" class="section-link">Open Toolkit →</a>
+  </div>
+
   <div class="section-card knowledge-check">
     <div class="section-title">Knowledge Check</div>
     <p class="section-description">Apply your judgment to scenarios involving critical risks and quality failures.</p>
@@ -40,6 +60,7 @@ The PMP exam no longer focuses on just "filling out a register." It focuses on:
 - **Agile Risk**: Handling risk via iterative feedback loops.
 - **Continuous Quality**: Integrating automated testing and user validation into every cycle.
 - **De-risking**: Proactively removing blockers before they become issues.
+- **Systems Thinking**: Seeing how decisions (schedule, quality, scope) create ripple effects.
 
 <style>
 .section-grid {

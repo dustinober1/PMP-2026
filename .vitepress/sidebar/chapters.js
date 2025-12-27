@@ -120,6 +120,7 @@ export function createSidebar() {
         { text: '7.1 Risk Management', link: '/guide/07-risk-quality/risk-management' },
         { text: '7.2 Quality Management', link: '/guide/07-risk-quality/quality-management' },
         { text: '7.3 Navigating Complexity', link: '/guide/07-risk-quality/navigating-complexity' },
+        { text: '7.4 Tools & Templates', link: '/guide/07-risk-quality/toolkit' },
         { text: '📝 Knowledge Check', link: '/guide/07-risk-quality/knowledge-check' }
       ]
     },
