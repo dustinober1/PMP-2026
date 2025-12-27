@@ -52,33 +52,159 @@ Most exam questions use these dependency types:
 
 ---
 
-## 🧮 Critical Path (Mini Example)
-To find the critical path, compare the total duration of each path through the network:
+## 🧮 Critical Path Method (CPM): Complete Calculation
 
-- Path 1: A (3d) → B (4d) → C (2d) = **9 days**
-- Path 2: A (3d) → D (6d) → C (2d) = **11 days**
+### Step-by-Step CPM Example
 
-The **critical path** is the longest path (**A → D → C**). Activities on the critical path typically have **0 total float**.
+**Given Network:**
+```
+Start → A(3d) → B(4d) → E(2d) → End
+          ↓
+        C(5d) → D(3d) ↗
+```
+
+**Step 1: Forward Pass (Calculate Early Start and Early Finish)**
+
+| Activity | Duration | ES | EF = ES + Duration |
+|:---------|:---------|:---|:-------------------|
+| A | 3d | 0 | 3 |
+| B | 4d | 3 | 7 |
+| C | 5d | 3 | 8 |
+| D | 3d | 8 | 11 |
+| E | 2d | max(7, 11) = 11 | 13 |
+
+**Rule**: If an activity has multiple predecessors, ES = maximum EF of all predecessors.
+
+**Step 2: Backward Pass (Calculate Late Finish and Late Start)**
+
+Starting from the end, work backward:
+
+| Activity | Duration | LF | LS = LF − Duration |
+|:---------|:---------|:---|:-------------------|
+| E | 2d | 13 | 11 |
+| D | 3d | 11 | 8 |
+| B | 4d | 11 | 7 |
+| C | 5d | 8 | 3 |
+| A | 3d | min(7, 3) = 3 | 0 |
+
+**Rule**: If an activity has multiple successors, LF = minimum LS of all successors.
+
+**Step 3: Calculate Float**
+
+| Activity | ES | EF | LS | LF | Total Float = LS − ES | Free Float |
+|:---------|:---|:---|:---|:---|:---------------------|:-----------|
+| A | 0 | 3 | 0 | 3 | **0** | 0 |
+| B | 3 | 7 | 7 | 11 | 4 | 4 |
+| C | 3 | 8 | 3 | 8 | **0** | 0 |
+| D | 8 | 11 | 8 | 11 | **0** | 0 |
+| E | 11 | 13 | 11 | 13 | **0** | 0 |
+
+**Critical Path**: Activities with **0 total float** = **A → C → D → E** (13 days total)
+
+**Project Duration**: 13 days (the EF of the last activity)
 
 ---
 
 ## 📈 Managing Float (Slack)
-Float is the amount of time an activity can be delayed without affecting the end date.
-*   **Total Float**: The "safety margin" for the overall project.
-*   **Free Float**: The delay allowed before the *next* activity is affected.
-*   **Negative Float**: A project manager's nightmare—it means the project is already late!
 
-::: tip 💡 Quick Math
-Total Float = **LS − ES** or **LF − EF**. If you need a formula refresher, see the Appendix: **Formulas & Definitions**.
+Float is the amount of time an activity can be delayed without affecting the end date or successor activities.
+
+**Total Float** = LS − ES (or LF − EF)
+- Time an activity can slip without delaying project finish
+- Activities on the critical path have 0 total float
+
+**Free Float** = ES(successor) − EF(current)
+- Time an activity can slip without delaying its immediate successor
+- More restrictive than total float
+
+**Negative Float** = When LS < ES
+- Project is already behind schedule
+- Requires crashing, fast tracking, or formal schedule change
+
+::: tip 💡 Quick Math Reference
+- **Total Float = LS − ES** or **LF − EF**
+- **Free Float = ES(next) − EF(current)**
+- **Negative Float** signals the project must finish earlier than the network allows (sponsor imposed deadline before natural completion)
+:::
+
+---
+
+## 📊 Duration Estimation: PERT Three-Point
+
+When uncertainty is high, use **Three-Point Estimation** (PERT) to incorporate optimistic, pessimistic, and most likely scenarios:
+
+**PERT Formula:**
+```
+Expected Duration (tₑ) = (O + 4M + P) / 6
+```
+
+Where:
+- **O** = Optimistic (best case, ~10% probability)
+- **M** = Most Likely (most realistic estimate)
+- **P** = Pessimistic (worst case, ~10% probability)
+
+**Standard Deviation (σ):**
+```
+σ = (P − O) / 6
+```
+
+This measures the uncertainty/risk in the estimate.
+
+### PERT Worked Example
+
+**Activity: Database Migration**
+- Optimistic: 5 days (everything goes perfectly)
+- Most Likely: 8 days (realistic estimate)
+- Pessimistic: 17 days (major compatibility issues discovered)
+
+**Calculate Expected Duration:**
+```
+tₑ = (5 + 4×8 + 17) / 6
+tₑ = (5 + 32 + 17) / 6
+tₑ = 54 / 6 = 9 days
+```
+
+**Calculate Standard Deviation:**
+```
+σ = (17 − 5) / 6 = 12 / 6 = 2 days
+```
+
+**Interpretation:**
+- Use **9 days** for schedule planning
+- There's approximately **68% confidence** the task will finish between 7-11 days (±1σ)
+- There's approximately **95% confidence** it will finish between 5-13 days (±2σ)
+
+### Triangular Distribution (Simpler Alternative)
+
+Some organizations use simple averaging:
+```
+Expected Duration = (O + M + P) / 3
+```
+
+This gives equal weight to all three estimates (PERT emphasizes Most Likely 4×).
+
+**Same Example Using Triangular:**
+```
+tₑ = (5 + 8 + 17) / 3 = 30 / 3 = 10 days
+```
+
+::: tip 💡 Exam Tip
+The PMP exam typically uses **PERT (weighted)** unless explicitly stated otherwise. If you see "(O + 4M + P) / 6," it's PERT. If you see "(O + M + P) / 3," it's Triangular.
 :::
 
 ---
 
 ## 🌊 Rolling Wave Planning
+
 Planning is an iterative process. You don't need to plan the entire project in detail on Day 1.
 - **Near-term work**: Planned in detail (Work Packages).
 - **Future work**: Planned at a high level (Planning Packages).
 As the project progresses, future work is "rolled" into detail. This is a form of **Progressive Elaboration**.
+
+**Example:**
+- **Sprint 1-2**: Activities decomposed to individual tasks (8-16 hour estimates)
+- **Sprint 3-4**: Planned as work packages (40-80 hour estimates)
+- **Sprint 5-6**: Planned as planning packages (high-level epics, not yet decomposed)
 
 ---
 

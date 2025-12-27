@@ -69,6 +69,32 @@ When a question asks “how do we get clear requirements,” think facilitation 
     - **Autocratic**: One individual decides.
     - **Multivoting**: Prioritizing a long list of ideas to a manageable few.
 
+### Requirements Classification Framework
+
+**Functional Requirements** (What the system must do):
+- "The system shall export reports to CSV and PDF formats"
+- "Users shall be able to reset their password via email"
+- Testable, measurable, specific behaviors
+
+**Non-Functional Requirements** (How the system must perform):
+- **Performance**: "The dashboard must load in under 2 seconds"
+- **Security**: "All data must be encrypted at rest and in transit"
+- **Usability**: "The interface must be accessible to WCAG 2.1 AA standards"
+- **Reliability**: "System uptime must be 99.9%"
+- **Scalability**: "Must support 10,000 concurrent users"
+
+**Business Requirements** (High-level organizational needs):
+- "Increase customer retention by 15%"
+- "Reduce manual processing time by 40%"
+
+**Stakeholder Requirements** (Specific stakeholder needs):
+- "Operations needs a single-click report export"
+- "Compliance requires audit trails for all transactions"
+
+**Transition Requirements** (Temporary needs for adoption):
+- "Support parallel systems for 90 days during migration"
+- "Provide training for 200 users before go-live"
+
 Key outputs to recognize:
 - **Requirements Documentation** (functional + nonfunctional requirements, assumptions, constraints)
 - **RTM** (trace requirements through delivery and verification)
@@ -82,6 +108,65 @@ In the PMP world, the **WBS** follows the **100% rule**: it represents 100% of t
 - **Work Packages**: The lowest level of the WBS where cost and duration can be reliably estimated (8-80 hour rule is a common guideline).
 - **Control Accounts**: Management points where scope, budget, and schedule are integrated for performance reporting.
 - **Planning Packages** (common in large programs): Work that is known at a high level but not decomposed yet (supports rolling wave planning).
+
+### WBS Decomposition Example (E-commerce Platform)
+
+```
+1.0 E-Commerce Platform Project
+├── 1.1 Project Management
+│   ├── 1.1.1 Initiation & Planning
+│   ├── 1.1.2 Monitoring & Control
+│   └── 1.1.3 Closure & Lessons Learned
+├── 1.2 Requirements & Design
+│   ├── 1.2.1 Business Requirements
+│   ├── 1.2.2 Technical Architecture
+│   └── 1.2.3 UI/UX Design
+├── 1.3 Development
+│   ├── 1.3.1 Frontend Development
+│   │   ├── 1.3.1.1 Product Catalog (Work Package)
+│   │   ├── 1.3.1.2 Shopping Cart (Work Package)
+│   │   └── 1.3.1.3 Checkout Flow (Work Package)
+│   ├── 1.3.2 Backend Development
+│   │   ├── 1.3.2.1 User Authentication (Work Package)
+│   │   ├── 1.3.2.2 Payment Processing (Work Package)
+│   │   └── 1.3.2.3 Inventory Management (Work Package)
+│   └── 1.3.3 Database Design & Implementation (Work Package)
+├── 1.4 Testing & Quality Assurance
+│   ├── 1.4.1 Unit Testing (Work Package)
+│   ├── 1.4.2 Integration Testing (Work Package)
+│   ├── 1.4.3 User Acceptance Testing (Work Package)
+│   └── 1.4.4 Performance Testing (Work Package)
+├── 1.5 Deployment & Training
+│   ├── 1.5.1 Production Deployment (Work Package)
+│   ├── 1.5.2 User Training (Work Package)
+│   └── 1.5.3 Documentation (Work Package)
+└── 1.6 Procurement
+    ├── 1.6.1 Payment Gateway Integration
+    └── 1.6.2 Hosting Infrastructure
+```
+
+**Key WBS Principles:**
+1. **100% Rule**: All work must be included
+2. **Mutually Exclusive**: No overlap between elements at the same level
+3. **Outcome-Oriented**: Describe deliverables, not actions (e.g., "Shopping Cart" not "Code Shopping Cart")
+4. **Decompose to Manageable Size**: Work packages should be 8-80 hours (or 2 weeks max)
+
+### MoSCoW Prioritization (Requirements Management)
+
+When managing scope, especially in agile or hybrid environments, **MoSCoW** helps prioritize requirements:
+
+- **Must Have**: Critical for MVP/project success. Non-negotiable.
+  - _Example: User authentication, payment processing_
+- **Should Have**: Important but not critical. Workarounds exist.
+  - _Example: Advanced search filters, product recommendations_
+- **Could Have**: Nice to have if time/budget permits. First to cut.
+  - _Example: Social media sharing, wish lists_
+- **Won't Have (this time)**: Explicitly out of scope for this release.
+  - _Example: Multi-language support, AR product preview_
+
+::: tip 💡 Exam Insight
+When a scenario mentions "the team is running out of time and needs to reduce scope," look for **Could Have** items to defer. Never cut **Must Have** items without sponsor approval and formal change control.
+:::
 
 ### RTM: Requirements Traceability Matrix (Why It Matters)
 The **RTM** is a table that links requirements to their origin and the deliverables/tests that satisfy them. It is a powerful defense against missed requirements and helps with compliance and audits.

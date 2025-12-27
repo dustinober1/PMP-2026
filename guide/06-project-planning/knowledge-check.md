@@ -316,17 +316,233 @@ Test your ability to weave together scope, schedule, cost, and resource baseline
       correct: 0,
       explanation: 'Fixed-price contracts generally place more cost risk on the seller (assuming scope is clear and stable). Cost-reimbursable contracts place more risk on the buyer.',
       reference: 'Section 6.4'
+    },
+    {
+      text: 'A project has PV = $50,000, EV = $45,000, and AC = $48,000. What is the CPI?',
+      options: [
+        '0.90',
+        '0.94',
+        '1.07',
+        '1.11'
+      ],
+      correct: 1,
+      explanation: 'CPI = EV / AC = $45,000 / $48,000 = 0.94. This indicates the project is over budget (getting 94 cents of value for every dollar spent).',
+      reference: 'Section 6.3'
+    },
+    {
+      text: 'Given the same values (PV = $50,000, EV = $45,000, AC = $48,000), what is the SPI?',
+      options: [
+        '0.90',
+        '0.94',
+        '1.04',
+        '1.11'
+      ],
+      correct: 0,
+      explanation: 'SPI = EV / PV = $45,000 / $50,000 = 0.90. This indicates the project is behind schedule (only 90% of planned work completed).',
+      reference: 'Section 6.3'
+    },
+    {
+      text: 'A project has BAC = $200,000, EV = $100,000, and AC = $120,000. If current performance continues, what is the EAC?',
+      options: [
+        '$200,000',
+        '$220,000',
+        '$240,000',
+        '$280,000'
+      ],
+      correct: 2,
+      explanation: 'EAC = BAC / CPI. First calculate CPI = EV / AC = $100,000 / $120,000 = 0.833. Then EAC = $200,000 / 0.833 = $240,000.',
+      reference: 'Section 6.3'
+    },
+    {
+      text: 'Using PERT estimation, an activity has O=4 days, M=6 days, P=14 days. What is the expected duration?',
+      options: [
+        '6 days',
+        '7 days',
+        '8 days',
+        '10 days'
+      ],
+      correct: 1,
+      explanation: 'PERT = (O + 4M + P) / 6 = (4 + 24 + 14) / 6 = 42 / 6 = 7 days.',
+      reference: 'Section 6.2'
+    },
+    {
+      text: 'For the same activity (O=4, M=6, P=14), what is the standard deviation?',
+      options: [
+        '1.0 days',
+        '1.67 days',
+        '2.0 days',
+        '5.0 days'
+      ],
+      correct: 1,
+      explanation: 'Standard Deviation = (P − O) / 6 = (14 − 4) / 6 = 10 / 6 = 1.67 days.',
+      reference: 'Section 6.2'
+    },
+    {
+      text: 'In a network diagram, Activity A has ES=0, EF=5, LS=2, LF=7. What is the total float?',
+      options: [
+        '0 days',
+        '2 days',
+        '5 days',
+        '7 days'
+      ],
+      correct: 1,
+      explanation: 'Total Float = LS − ES = 2 − 0 = 2 days (or LF − EF = 7 − 5 = 2 days).',
+      reference: 'Section 6.2'
+    },
+    {
+      text: 'A vendor contract has: Target Cost = $80k, Target Fee = $8k, Share Ratio = 70/30 (Buyer/Seller). If the vendor completes for $70k, what is the final fee?',
+      options: [
+        '$5,000',
+        '$8,000',
+        '$11,000',
+        '$12,000'
+      ],
+      correct: 2,
+      explanation: 'Savings = $80k − $70k = $10k. Seller share = $10k × 30% = $3k. Final Fee = $8k + $3k = $11k.',
+      reference: 'Section 6.4'
+    },
+    {
+      text: 'Which requirement type describes "The system must support 10,000 concurrent users"?',
+      options: [
+        'Functional requirement',
+        'Non-functional requirement (performance)',
+        'Business requirement',
+        'Transition requirement'
+      ],
+      correct: 1,
+      explanation: 'This is a non-functional requirement specifically related to performance/scalability. Functional requirements describe what the system does; non-functional describe how well it must perform.',
+      reference: 'Section 6.1'
+    },
+    {
+      text: 'In MoSCoW prioritization, which category should be cut first when the project runs out of time?',
+      options: [
+        'Must Have',
+        'Should Have',
+        'Could Have',
+        'Won\'t Have'
+      ],
+      correct: 2,
+      explanation: 'Could Have items are the first to be deferred when time runs short. Must Have items are critical and non-negotiable. Won\'t Have items are already out of scope.',
+      reference: 'Section 6.1'
+    },
+    {
+      text: 'A project has BAC = $150,000, EV = $90,000, AC = $100,000. What is the TCPI needed to finish at the original budget?',
+      options: [
+        '0.90',
+        '1.00',
+        '1.20',
+        '1.67'
+      ],
+      correct: 2,
+      explanation: 'TCPI = (BAC − EV) / (BAC − AC) = ($150k − $90k) / ($150k − $100k) = $60k / $50k = 1.20. The team must be 20% more efficient than the baseline to finish at budget.',
+      reference: 'Section 6.3'
+    },
+    {
+      text: 'Which WBS principle states that all project work must be included in the WBS?',
+      options: [
+        'Mutually exclusive principle',
+        'Outcome-oriented principle',
+        '100% rule',
+        'Decomposition principle'
+      ],
+      correct: 2,
+      explanation: 'The 100% rule states that the WBS must include 100% of the work defined by the project scope and capture all deliverables—internal, external, interim—in terms of work to be completed.',
+      reference: 'Section 6.1'
+    },
+    {
+      text: 'When performing resource leveling, what typically happens to the project finish date?',
+      options: [
+        'It stays the same',
+        'It is reduced',
+        'It is extended',
+        'It is eliminated'
+      ],
+      correct: 2,
+      explanation: 'Resource leveling typically extends the project finish date because it delays activities to resolve resource over-allocation. Resource smoothing uses float and does not change the finish date.',
+      reference: 'Section 6.4'
+    },
+    {
+      text: 'What is the primary difference between Free Float and Total Float?',
+      options: [
+        'Free Float affects the project end date; Total Float does not',
+        'Total Float affects the project end date; Free Float only affects the next activity',
+        'They are the same thing',
+        'Free Float is always larger than Total Float'
+      ],
+      correct: 1,
+      explanation: 'Total Float is the time an activity can slip without affecting the project finish date. Free Float is the time an activity can slip without affecting the early start of its immediate successor. Free Float is typically equal to or less than Total Float.',
+      reference: 'Section 6.2'
+    },
+    {
+      text: 'Which cost estimation technique is most accurate but also most time-consuming?',
+      options: [
+        'Analogous (Top-down)',
+        'Parametric',
+        'Bottom-up',
+        'Three-point (PERT)'
+      ],
+      correct: 2,
+      explanation: 'Bottom-up estimating builds estimates at the work package or activity level and aggregates them. It is the most accurate but requires the most time and effort.',
+      reference: 'Section 6.3'
+    },
+    {
+      text: 'In a cost-plus contract, who typically bears more cost risk?',
+      options: [
+        'The seller',
+        'The buyer',
+        'Both equally',
+        'The project sponsor'
+      ],
+      correct: 1,
+      explanation: 'In cost-reimbursable (cost-plus) contracts, the buyer bears more cost risk because they reimburse the seller for all costs incurred, plus a fee. The seller has less incentive to control costs.',
+      reference: 'Section 6.4'
     }
   ]"
 />
 
 ## Additional Study Topics
+
 For full Chapter 6 proficiency, ensure you can:
-1.  **Identify Baselines**: Scope/Schedule/Cost baseline components and what “approved” implies.
-2.  **Calculate Critical Path & Float**: Knowing what negative float signals and how to respond.
-3.  **Choose the Right Lever**: Crashing vs. fast tracking, and smoothing vs. leveling.
-4.  **Trace Requirements**: Using the RTM for verification, audits, and scope control.
-5.  **Plan Resources & Procurement**: RACI/RAM ownership, calendars, and contract selection basics.
+
+### Scope Planning Mastery
+1. **Identify Baselines**: Know the three components of the Scope Baseline (Scope Statement + WBS + WBS Dictionary)
+2. **Trace Requirements**: Use the RTM to link requirements from origin through delivery and verification
+3. **Apply MoSCoW**: Prioritize requirements (Must/Should/Could/Won't Have) for agile and hybrid projects
+4. **Classify Requirements**: Distinguish functional, non-functional, business, stakeholder, and transition requirements
+5. **WBS Decomposition**: Apply the 100% rule, create work packages at 8-80 hour level
+
+### Schedule Planning Mastery
+1. **Calculate Critical Path**: Perform forward/backward pass, identify critical path, calculate project duration
+2. **Manage Float**: Calculate Total Float (LS−ES) and Free Float (ES_next − EF_current)
+3. **PERT Estimation**: Calculate expected duration [(O + 4M + P)/6] and standard deviation [(P−O)/6]
+4. **Interpret Float**: Know that 0 float = critical path, negative float = already late
+5. **Apply Compression**: Choose between crashing (add resources) and fast tracking (parallel work)
+6. **Resource Optimization**: Know leveling (extends date) vs. smoothing (uses float, keeps date)
+
+### Cost Planning Mastery
+1. **Master EVM Formulas**:
+   - Variances: SV = EV−PV, CV = EV−AC
+   - Indices: SPI = EV/PV, CPI = EV/AC
+   - Forecasts: EAC = BAC/CPI, ETC = EAC−AC, VAC = BAC−EAC
+   - Efficiency: TCPI = (BAC−EV)/(BAC−AC)
+2. **Interpret Performance**: CPI/SPI > 1.0 = good, < 1.0 = bad
+3. **Apply Cost Types**: Distinguish direct/indirect, fixed/variable costs
+4. **Use Estimation Techniques**: Analogous (quick, less accurate) → Parametric (formula-based) → Bottom-up (detailed, accurate)
+5. **Manage Reserves**: Contingency (known unknowns, PM control) vs. Management (unknown unknowns, sponsor control)
+
+### Resource & Procurement Mastery
+1. **RACI Clarity**: Assign Responsible (doer), Accountable (owner), Consulted (input), Informed (aware)
+2. **Contract Risk**: Know FFP (seller risk), Cost-Plus (buyer risk), T&M (shared risk)
+3. **Calculate FPIF**: Handle target cost/fee, share ratios, and ceiling prices
+4. **Make-or-Buy**: Evaluate strategic value, cost, capability, and risk
+5. **Source Selection**: Match method to situation (least cost, qualifications, quality-based, fixed budget)
+6. **Bidder Fairness**: Ensure all vendors receive the same information (no secret meetings)
+
+### Integration & Progressive Elaboration
+1. **Baseline vs. Draft**: Approved baselines require change control; drafts are still being refined
+2. **Rolling Wave Planning**: Detail near-term work, keep future work high-level until more is known
+3. **Estimate Accuracy**: ROM (−25/+75%) → Budget (−10/+25%) → Definitive (−5/+10%)
+4. **Triple to Hexagon**: Understand that scope, time, cost, quality, resources, and risk are all interconnected
 
 ---
 

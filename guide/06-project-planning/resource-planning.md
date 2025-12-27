@@ -85,11 +85,123 @@ A meeting with all prospective sellers to ensure everyone has a clear, common un
 - **Fairness Rule**: No secret meetings. If one vendor asks a question, the answer goes to everyone.
 
 ### Contract Types (Exam Essentials)
+
 | Contract | Who Holds More Cost Risk? | When It Fits |
 | :------- | :------------------------ | :----------- |
 | **Fixed Price (FFP)** | Seller | Scope is clear/stable |
 | **Cost-Reimbursable (CP)** | Buyer | Scope is uncertain/R&D |
 | **Time & Materials (T&M)** | Shared | Staff augmentation / urgent work |
+
+### Detailed Contract Types
+
+**1. Fixed-Price Contracts (Seller Bears Cost Risk)**
+
+**Firm Fixed Price (FFP)**
+- Seller delivers for a set price, regardless of actual costs
+- Buyer has minimal risk; seller has maximum risk
+- Best when: Scope is crystal clear, stable, and well-defined
+- **Example**: Build a website for exactly $50,000
+
+**Fixed Price Incentive Fee (FPIF)**
+- Fixed price with performance incentives
+- Seller can earn bonus for beating targets (cost, schedule, quality)
+- Shares cost savings between buyer and seller
+- **Example**: $50k base + $5k bonus if delivered 2 weeks early
+
+**Fixed Price with Economic Price Adjustment (FP-EPA)**
+- Fixed price but can adjust for inflation, currency fluctuations, commodity price changes
+- Protects both parties in long-term contracts
+- **Example**: $1M price with annual CPI adjustment over 3-year contract
+
+**2. Cost-Reimbursable Contracts (Buyer Bears More Risk)**
+
+**Cost Plus Fixed Fee (CPFF)**
+- Seller reimbursed for all costs + a fixed fee (profit)
+- Fee doesn't change based on performance
+- Best when: Scope uncertain, R&D work
+- **Example**: All costs + $20,000 fee (regardless of final cost)
+
+**Cost Plus Incentive Fee (CPIF)**
+- Seller reimbursed for costs + variable fee based on performance
+- Fee tied to meeting cost, schedule, or quality targets
+- **Example**: All costs + $15k-$25k fee based on performance
+
+**Cost Plus Award Fee (CPAF)**
+- Seller reimbursed for costs + subjective award fee
+- Fee determined by buyer based on satisfaction (subjective)
+- **Example**: All costs + $0-$30k award fee at buyer's discretion
+
+**3. Time and Materials (T&M)**
+- Hybrid: Pays for time (hourly rates) + materials
+- Risk increases with time (longer = more cost to buyer)
+- Often includes a "not-to-exceed" ceiling to cap risk
+- Best when: Uncertain scope, need immediate help, staff augmentation
+- **Example**: $150/hour for developers + cost of software licenses, max $100k
+
+### Contract Cost Calculations (Exam Scenarios)
+
+**FPIF Example:**
+- Target Cost: $100,000
+- Target Fee: $10,000
+- Share Ratio: 80/20 (Buyer/Seller)
+- Ceiling Price: $120,000
+
+**Scenario 1: Seller completes for $90,000 (Under target by $10,000)**
+```
+Cost Savings = $100,000 − $90,000 = $10,000
+Seller's Share of Savings = $10,000 × 20% = $2,000
+Final Fee = $10,000 + $2,000 = $12,000
+Total Price to Buyer = $90,000 + $12,000 = $102,000
+```
+
+**Scenario 2: Seller completes for $110,000 (Over target by $10,000)**
+```
+Cost Overrun = $110,000 − $100,000 = $10,000
+Seller's Share of Overrun = $10,000 × 20% = $2,000
+Final Fee = $10,000 − $2,000 = $8,000
+Total Price to Buyer = $110,000 + $8,000 = $118,000
+```
+
+**Scenario 3: Seller completes for $115,000 (Exceeds ceiling)**
+```
+Calculated Price = $115,000 + reduced fee
+But Ceiling Price = $120,000
+Buyer pays maximum $120,000
+Seller absorbs additional costs
+```
+
+### Make-or-Buy Analysis
+
+When deciding whether to build internally or procure externally, consider:
+
+**Build Internally (Make) When:**
+- Core competency of the organization
+- Sensitive IP or trade secrets
+- Long-term capability building desired
+- Available internal capacity and expertise
+- Lower total cost over time
+
+**Buy Externally (Outsource) When:**
+- Non-core work or one-time need
+- Specialized expertise not available internally
+- Need to transfer risk to vendor
+- Faster time to market
+- Cost-effective for short-term needs
+
+**Make-or-Buy Decision Matrix:**
+
+| Factor | Make | Buy |
+|:-------|:-----|:----|
+| **Initial Cost** | Higher (hire/train) | Lower (vendor ready) |
+| **Long-term Cost** | Lower (reusable) | Higher (ongoing fees) |
+| **Control** | High | Low |
+| **Risk** | Internal capacity risk | Vendor dependency risk |
+| **Quality** | Direct control | Contract-dependent |
+| **Speed** | Slower (ramp-up) | Faster (expertise ready) |
+
+::: tip 💡 Exam Insight
+Make-or-buy isn't just about cost. Consider **strategic value**, **risk tolerance**, and **organizational capability**. If a question mentions "core business capability" or "long-term investment," lean toward **Make**. If it mentions "one-time project" or "specialized expertise," lean toward **Buy**.
+:::
 
 <style>
 .resource-grid {

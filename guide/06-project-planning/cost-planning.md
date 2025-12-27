@@ -77,15 +77,165 @@ Project decisions should consider the "Total Cost of Ownership," not just the pr
 
 ---
 
-## 📈 EVM Connection (Why the Baseline Must Be Time-Phased)
-Earned Value compares what you planned to spend *by a point in time* vs. what you earned/spent:
-- **PV (Planned Value)**: what you planned to earn by now
-- **EV (Earned Value)**: value of work actually completed
-- **AC (Actual Cost)**: what you actually spent
+## 📈 Earned Value Management (EVM): Complete Guide
 
-::: tip 💡 Fast Interpretation
-**CPI < 1.0 = over budget**. **SPI < 1.0 = behind schedule**. Full formulas live in the Appendix: **Formulas & Definitions**.
+EVM is the exam's favorite way to test integrated planning (scope + schedule + cost). It compares planned progress vs. actual progress and cost.
+
+### The Three Core Values
+
+**PV (Planned Value)** = Budget for work scheduled to be completed by now
+- Also called **BCWS** (Budgeted Cost of Work Scheduled)
+- "What should we have earned by now according to the plan?"
+
+**EV (Earned Value)** = Budget for work actually completed
+- Also called **BCWP** (Budgeted Cost of Work Performed)
+- "What did we actually earn?"
+
+**AC (Actual Cost)** = Actual money spent so far
+- Also called **ACWP** (Actual Cost of Work Performed)
+- "How much did we actually spend?"
+
+**BAC (Budget at Completion)** = Total planned budget for the entire project
+
+---
+
+### EVM Variance Formulas
+
+**Schedule Variance (SV)** = EV − PV
+- **Positive = ahead of schedule**
+- **Negative = behind schedule**
+
+**Cost Variance (CV)** = EV − AC
+- **Positive = under budget**
+- **Negative = over budget**
+
+**Variance at Completion (VAC)** = BAC − EAC
+- Expected budget surplus or deficit at project end
+
+---
+
+### EVM Performance Indices
+
+**Schedule Performance Index (SPI)** = EV / PV
+- **SPI > 1.0** = ahead of schedule
+- **SPI < 1.0** = behind schedule
+- **SPI = 1.0** = on schedule
+
+**Cost Performance Index (CPI)** = EV / AC
+- **CPI > 1.0** = under budget (good)
+- **CPI < 1.0** = over budget (bad)
+- **CPI = 1.0** = on budget
+
+::: tip 💡 Quick Interpretation
+If someone asks "Are we over or under budget?" → Check **CPI**
+If they ask "Are we ahead or behind schedule?" → Check **SPI**
 :::
+
+---
+
+### EVM Forecasting Formulas
+
+**Estimate at Completion (EAC)** = How much we now expect the total project to cost
+
+**EAC (Typical Variance)**:
+```
+EAC = BAC / CPI
+```
+Use when: Current performance will continue
+
+**EAC (Atypical Variance)**:
+```
+EAC = AC + (BAC − EV)
+```
+Use when: Current variance was one-time event; future work will go as planned
+
+**EAC (Comp rehensive)**:
+```
+EAC = AC + [(BAC − EV) / (CPI × SPI)]
+```
+Use when: Both cost and schedule performance impact future work
+
+**Estimate to Complete (ETC)** = How much more money is needed
+```
+ETC = EAC − AC
+```
+
+**To-Complete Performance Index (TCPI)** = Efficiency needed for remaining work
+
+**TCPI (Based on BAC)**:
+```
+TCPI = (BAC − EV) / (BAC − AC)
+```
+Use when: You want to finish at the original budget
+
+**TCPI (Based on EAC)**:
+```
+TCPI = (BAC − EV) / (EAC − AC)
+```
+Use when: You've accepted a new budget (revised EAC)
+
+---
+
+### EVM Worked Example
+
+**Project Status at Month 6:**
+- **BAC**: $100,000 (total project budget)
+- **PV**: $50,000 (planned to be 50% complete by now)
+- **EV**: $40,000 (actually 40% complete)
+- **AC**: $45,000 (actually spent $45k)
+
+**Calculate Variances:**
+```
+SV = EV − PV = $40,000 − $50,000 = −$10,000 (behind schedule)
+CV = EV − AC = $40,000 − $45,000 = −$5,000 (over budget)
+```
+
+**Calculate Performance Indices:**
+```
+SPI = EV / PV = $40,000 / $50,000 = 0.80 (80% of planned progress)
+CPI = EV / AC = $40,000 / $45,000 = 0.89 (89 cents of value per dollar spent)
+```
+
+**Forecast Completion:**
+```
+EAC = BAC / CPI = $100,000 / 0.89 = $112,360
+ETC = EAC − AC = $112,360 − $45,000 = $67,360
+VAC = BAC − EAC = $100,000 − $112,360 = −$12,360 (expect to overrun)
+```
+
+**TCPI (to finish at original budget):**
+```
+TCPI = (BAC − EV) / (BAC − AC)
+TCPI = ($100,000 − $40,000) / ($100,000 − $45,000)
+TCPI = $60,000 / $55,000 = 1.09
+```
+
+**Interpretation:**
+- Project is **behind schedule** (SPI = 0.80) and **over budget** (CPI = 0.89)
+- At current performance, expect to finish at **$112,360** (12% over budget)
+- To finish at the original $100k budget, efficiency must improve to **1.09** (9% better than current)
+
+::: warning ⚠️ Exam Reality
+EVM questions often give you 3 of the 4 core values and ask you to calculate the 4th, then derive variances and indices. Practice deriving formulas from the relationships:
+- If you know EV, AC, and PV, you can calculate everything
+- **CPI** is the most important metric for cost performance
+- **TCPI > 1.0** means you need to become more efficient
+:::
+
+---
+
+### EVM Summary Table (Quick Reference)
+
+| Formula | Calculation | Interpretation |
+|:--------|:------------|:---------------|
+| **SV** | EV − PV | >0 = ahead, <0 = behind |
+| **CV** | EV − AC | >0 = under budget, <0 = over budget |
+| **SPI** | EV / PV | >1.0 = ahead, <1.0 = behind |
+| **CPI** | EV / AC | >1.0 = under budget, <1.0 = over |
+| **EAC** | BAC / CPI | Expected total cost (typical) |
+| **ETC** | EAC − AC | Money still needed |
+| **VAC** | BAC − EAC | Expected surplus/deficit |
+| **TCPI** | (BAC−EV)/(BAC−AC) | Efficiency needed to hit BAC |
 
 ::: info 🛠️ 2026 Focus: Value Engineering
 Cost planning in 2026 is not just about cutting costs. It's about **Value Engineering**: Finding ways to deliver the same strategic value at a lower cost without sacrificing quality or sustainability (ESG).
