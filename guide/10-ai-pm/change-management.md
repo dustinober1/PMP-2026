@@ -248,6 +248,279 @@ If something goes badly wrong (data breach, bias incident, major hallucination),
 
 ---
 
+## 📊 Resistance Metrics Dashboard
+
+Track these quantitative indicators to detect adoption problems early.
+
+### Leading Indicators (Early Warning)
+
+| Metric | How to Measure | Yellow Flag | Red Flag |
+|---|---|---|---|
+| **Training Completion** | % of team who completed AI onboarding | < 70% after 2 weeks | < 50% after 4 weeks |
+| **Tool Login Rate** | # of unique users logging into AI tool weekly | < 50% of team | < 30% of team |
+| **Prompt Submission Volume** | # of prompts submitted per user per week | < 2 per person | < 1 per person |
+| **Support Request Rate** | # of questions/issues raised weekly | Declining (apathy?) | None (avoidance?) |
+| **Feedback Provided** | # of suggestions or complaints submitted | Zero after 2 weeks | Complaints only (no suggestions) |
+
+### Lagging Indicators (Confirming Adoption)
+
+| Metric | How to Measure | Target | Action If Missed |
+|---|---|---|---|
+| **Time Saved (Reported)** | Monthly survey: hours saved per person | 2-5 hours/month | Investigate use case fit; provide better prompts |
+| **Rework Rate Change** | % of AI-assisted work requiring major revision | ≤ baseline (no increase) | Review HITL process; improve prompts |
+| **Shadow AI Incidents** | # of unapproved tool usage reports | Declining to zero | Enhance approved tools; increase training |
+| **Net Promoter Score (NPS)** | "Would you recommend AI tools to a peer PM?" | > +30 | Investigate detractors; address concerns |
+| **Scope of Use Expansion** | # of new use cases adopted after pilot | 2+ new use cases/quarter | Provide more templates; showcase wins |
+
+### Dashboard Template
+
+| Week | Training % | Login Rate | Prompts/User | Support Tickets | Incidents | NPS |
+|---|---|---|---|---|---|---|
+| Week 1 | 45% | 30% | 0.5 | 12 | 0 | N/A |
+| Week 2 | 75% | 55% | 1.2 | 8 | 1 | N/A |
+| Week 3 | 90% | 65% | 2.1 | 5 | 0 | +15 |
+| Week 4 | 95% | 70% | 3.5 | 3 | 0 | +25 |
+
+---
+
+## 🏆 Success Case Studies (Anonymized)
+
+### Case Study 1: Manufacturing PMO
+
+**Context:** 8 project managers, skeptical culture, highly regulated industry
+
+**Challenge:** Team feared AI would "make mistakes in compliance documentation"
+
+**Approach:**
+- Week 1: Demystification session with live demo (no mandate)
+- Week 2: Pilot with 2 volunteers on meeting minutes only
+- Week 3: Expanded to risk register pre-population
+- Week 4: Team voted to adopt; created own templates
+
+**Results:**
+| Metric | Before | After | Change |
+|---|---|---|---|
+| Status report time | 3 hours/week | 45 min/week | -75% |
+| Risk register setup | 8 hours | 2 hours | -75% |
+| Compliance errors | 2/month | 1/month | -50% |
+| Team satisfaction | 3.2/5 | 4.1/5 | +28% |
+
+**Key Success Factor:** Started with low-stakes task (meeting minutes); let volunteers become champions.
+
+---
+
+### Case Study 2: IT Services Firm
+
+**Context:** 25 PMs across 3 regions, remote-first, tech-savvy but time-constrained
+
+**Challenge:** "We don't have time to learn another tool"
+
+**Approach:**
+- Created 10 copy/paste prompt templates pre-loaded
+- 15-minute "AI Coffee Break" optional sessions (recorded)
+- ROI tracking from day 1 (visible to team)
+- Gamification: monthly "AI Win" awards
+
+**Results:**
+| Metric | Month 1 | Month 3 | Month 6 |
+|---|---|---|---|
+| Active users | 8 (32%) | 18 (72%) | 23 (92%) |
+| Hours saved/PM/month | 1.5 | 4.2 | 6.8 |
+| New templates created by team | 0 | 5 | 12 |
+
+**Key Success Factor:** Removed friction (pre-built templates); visible ROI; peer recognition.
+
+---
+
+### Case Study 3: Finance Sector (High Compliance)
+
+**Context:** 4 PMs, heavy audit requirements, Legal/Compliance approval needed
+
+**Challenge:** "What about data privacy and audit trails?"
+
+**Approach:**
+- IT/Security involved from day 0
+- Enterprise AI tool with zero-retention contract secured first
+- All prompts stored in SharePoint for audit purposes
+- Quarterly compliance review built into governance
+
+**Results:**
+| Metric | Before | After |
+|---|---|---|
+| Audit findings (AI-related) | N/A (new) | 0 in 6 months |
+| Time to draft board reports | 5 hours | 1.5 hours |
+| Stakeholder confidence (survey) | "Concerned" | "Confident" |
+
+**Key Success Factor:** Addressed compliance FIRST; transparent governance from start.
+
+---
+
+## ❌ Failure Mode Analysis (Why AI Rollouts Fail)
+
+Learn from common patterns of failure.
+
+### Failure Mode 1: "Mandate Without Support"
+
+**Pattern:** Executive mandates AI usage without training, templates, or governance.
+
+**Symptoms:**
+- Team uses AI incorrectly (or not at all)
+- Shadow AI increases (use unapproved tools because approved tool is hard)
+- Resentment toward leadership
+
+**Root Cause:** Change mandate without change enablement
+
+**Prevention:**
+- Mandate + training + templates + metrics + feedback loop
+- Never mandate without infrastructure
+
+---
+
+### Failure Mode 2: "Tool First, Use Case Second"
+
+**Pattern:** Organization buys AI tool, then figures out what to use it for.
+
+**Symptoms:**
+- Low adoption ("We have a hammer looking for nails")
+- Team can't articulate value
+- Tool eventually unused (shelfware)
+
+**Root Cause:** Solution before problem
+
+**Prevention:**
+- Start with pain points: "What takes too long? What's error-prone?"
+- Pilot specific use cases; measure ROI; then scale
+
+---
+
+### Failure Mode 3: "All In, Day One"
+
+**Pattern:** Full rollout across all projects immediately.
+
+**Symptoms:**
+- Some projects succeed, others fail spectacularly
+- Negative word-of-mouth spreads faster than positive
+- Rollback creates cynicism ("AI project failed")
+
+**Root Cause:** Skipped pilot phase; no controlled learning
+
+**Prevention:**
+- Pilot with 2-3 low-risk projects
+- Document learnings before scaling
+- Scale gradually with proven templates
+
+---
+
+### Failure Mode 4: "No Governance = Chaos"
+
+**Pattern:** AI used without policies, redaction rules, or approval gates.
+
+**Symptoms:**
+- Data leaks (someone pastes confidential info into public tool)
+- Incorrect artifacts shared externally
+- Blame game when things go wrong
+
+**Root Cause:** Freedom without guardrails
+
+**Prevention:**
+- AI Working Agreement from day 1
+- HITL review checklist mandatory
+- Data redaction training before access
+
+---
+
+### Failure Mode 5: "Champion Leaves"
+
+**Pattern:** One person drives adoption; when they leave, adoption collapses.
+
+**Symptoms:**
+- Knowledge concentrated in one person
+- No documentation of prompts/processes
+- Team reverts to old ways
+
+**Root Cause:** Single point of failure for change
+
+**Prevention:**
+- Document everything (prompts, lessons, governance)
+- Train multiple champions (at least 2 per team)
+- Embed into standard processes (not a personal workflow)
+
+---
+
+## 🎖️ Leadership Commitment Framework
+
+Executive sponsorship is critical for AI adoption. Here's how to secure and maintain it.
+
+### Getting Sponsor Buy-In
+
+| Question to Answer | How to Answer It |
+|---|---|
+| "What's the ROI?" | Use AI ROI calculator; show time savings projections |
+| "What are the risks?" | Present risk register with mitigations; show governance plan |
+| "Who else is doing this?" | Share industry benchmarks or case studies |
+| "What do you need from me?" | Be specific: budget, communication, time, or air cover |
+
+### Sponsor Communication Cadence
+
+| Touchpoint | Frequency | Content |
+|---|---|---|
+| **Launch Announcement** | Once | Vision, benefits, governance, expectations |
+| **Progress Update** | Monthly | Metrics, wins, challenges, needs |
+| **Escalation (as needed)** | Ad hoc | Specific blockers requiring executive action |
+| **Quarterly Review** | Quarterly | ROI analysis, scope expansion, lessons learned |
+
+### Sponsor Talking Points
+
+Provide these to executives for consistent messaging:
+
+> "We're introducing AI tools to help our project managers focus on what matters most: leading projects, managing stakeholders, and solving problems. AI handles the repetitive work—drafting reports, summarizing meetings, identifying risks. Our PMs review and approve everything. This is Human + AI, not AI replacing humans. We expect to see [X] hours saved per PM per month, and we're tracking this carefully. If you have questions or concerns, talk to [PM Lead]."
+
+---
+
+## 🧪 Cultural Readiness Assessment (Pre-Rollout Survey)
+
+Administer this survey before rolling out AI tools to identify adoption risks.
+
+### Survey Questions (1-5 Scale: Strongly Disagree to Strongly Agree)
+
+**Trust & Openness**
+1. I am generally open to using new technology tools in my work.
+2. I trust that AI tools can assist (not replace) me in my role.
+3. I believe leadership cares about how new tools affect my daily work.
+
+**Fear & Resistance**
+4. I am NOT concerned that AI will eliminate my job.
+5. I feel comfortable raising concerns about new tools without negative consequences.
+6. I believe I have the skills to learn new AI tools effectively.
+
+**Governance & Safety**
+7. I understand what data can and cannot be shared with AI tools.
+8. I know who to contact if I have a privacy or security concern.
+9. I believe the organization has thought through the risks of AI tools.
+
+**Support & Resources**
+10. I have enough time to learn new tools during my workweek.
+11. I know where to find training and templates for AI tools.
+12. I have colleagues I can ask for help with AI tools.
+
+### Scoring Interpretation
+
+| Average Score | Interpretation | Action |
+|---|---|---|
+| 4.0 - 5.0 | High readiness | Proceed with rollout; monitor adoption |
+| 3.0 - 3.9 | Moderate readiness | Address specific low-scoring areas before rollout |
+| 2.0 - 2.9 | Low readiness | Delay rollout; focus on education, trust-building, governance |
+| < 2.0 | Not ready | Do not proceed; address fundamental trust/fear issues first |
+
+### Follow-Up Actions by Low-Scoring Area
+
+| Low Score Area | Action |
+|---|---|
+| Trust & Openness (Q1-3) | Leadership communication; demo days; peer testimonials |
+| Fear & Resistance (Q4-6) | Address job security concerns; show ROI for role enhancement |
+| Governance & Safety (Q7-9) | Clarify policies; train on data redaction; show audit controls |
+| Support & Resources (Q10-12) | Provide protected learning time; create templates; assign mentors |
+
 <div class="study-tip">
   <strong>📝 Exam Insight:</strong> A question may ask: "Your team is resisting a new AI tool because they fear job loss. What do you do FIRST?" The answer combines <strong>Emotional Intelligence + Transparency</strong>. Listen to their concerns, explain the tool's purpose (removing drudgery, not eliminating jobs), show examples, and offer training. Mandates create resentment; partnerships create adoption.
 </div>
