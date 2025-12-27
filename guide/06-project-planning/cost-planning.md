@@ -63,6 +63,18 @@ Which method is right for your project?
 - If a major risk occurs that wasn't planned (Unknown Unknown), you must ask the **Sponsor** for the Management Reserve.
 - If a risk occurs that was in the risk register (Known Unknown), you use the **Contingency Reserve**.
 
+### Funding Limit Reconciliation
+Just because you have the *budget* doesn't mean you have the *cash*.
+- **Funding Limit Reconciliation** aligns the expenditure of funds with the commitment of funds (cash flow management).
+- If your planned spend for June is $1M but the organization only releases $500k/month, you must reschedule work (leveling) to match the funding limit.
+
+### Lifecycle Costing
+Project decisions should consider the "Total Cost of Ownership," not just the project build cost.
+- **Cost of Acquisition**: Design + Build.
+- **Cost of Operations**: Maintenance + Support + Utilities.
+- **Cost of Disposal**: Decommissioning + Cleanup.
+*A cheaper server (Acquisition) might cost 3x more in power (Operations) over 5 years. A good PM considers the full life.*
+
 ---
 
 ## 📈 EVM Connection (Why the Baseline Must Be Time-Phased)

@@ -58,6 +58,17 @@ When a question asks “how do we get clear requirements,” think facilitation 
 - **Prototyping** (especially for UI/UX uncertainty)
 - **Document analysis** (policies, regulations, legacy systems)
 
+### Advanced Group Creativity Techniques
+- **Affinity Diagrams**: Grouping large numbers of ideas into natural categories for review and analysis.
+- **Mind Mapping**: Consolidating ideas generated through individual brainstorming sessions into a single map to reflect commonality and differences in understanding and to generate new ideas.
+- **Context Diagrams**: Visualizing the product scope by showing a business system (process, equipment, computer system, etc.) and how people and other systems (actors) interact with it.
+- **Decision Making (Voting)**:
+    - **Unanimity**: Everyone agrees.
+    - **Majority**: More than 50% support.
+    - **Plurality**: The largest block supports (even if < 50%).
+    - **Autocratic**: One individual decides.
+    - **Multivoting**: Prioritizing a long list of ideas to a manageable few.
+
 Key outputs to recognize:
 - **Requirements Documentation** (functional + nonfunctional requirements, assumptions, constraints)
 - **RTM** (trace requirements through delivery and verification)
@@ -67,8 +78,8 @@ Key outputs to recognize:
 ## 🏗️ The WBS: Foundation of Control
 In the PMP world, the **WBS** follows the **100% rule**: it represents 100% of the project work (and only the project work). If it isn't in the WBS, it isn't in the project.
 
-- **Decomposition**: Breaking deliverables into smaller components until you can estimate and assign the work.
-- **Work Packages**: The lowest level of the WBS where cost and duration can be reliably estimated.
+- **Decomposition**: Breaking deliverables into manageable components.
+- **Work Packages**: The lowest level of the WBS where cost and duration can be reliably estimated (8-80 hour rule is a common guideline).
 - **Control Accounts**: Management points where scope, budget, and schedule are integrated for performance reporting.
 - **Planning Packages** (common in large programs): Work that is known at a high level but not decomposed yet (supports rolling wave planning).
 
@@ -97,6 +108,18 @@ In modern practice, the Product Owner and Team perform **Backlog Refinement** (G
 These get confused on the exam:
 - **Acceptance Criteria**: The specific conditions a stakeholder uses to accept a deliverable/story (often unique per item).
 - **Definition of Done**: The shared, non-negotiable quality checklist that applies to *every* story (coding standards, tests, documentation, review, etc.).
+
+---
+
+## 🔍 Validate Scope vs. Control Scope
+It is crucial to distinguish between these two monitoring processes:
+
+| Process | Goal | Who is Involved? | When? |
+| :--- | :--- | :--- | :--- |
+| **Validate Scope** | Formal **acceptance** of completed deliverables. | PM + Customer/Sponsor | At the end of a phase/project (or sprint review). |
+| **Control Scope** | Monitoring status and managing **changes** to the scope baseline. | PM + Team | Throughout the project. |
+
+*Note: Validate Scope is about "Acceptance". Control Quality is about "Correctness". You Control Quality **before** you Validate Scope.*
 
 ---
 

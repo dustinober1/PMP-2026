@@ -74,11 +74,34 @@ Total Float = **LS − ES** or **LF − EF**. If you need a formula refresher, s
 
 ---
 
+## 🌊 Rolling Wave Planning
+Planning is an iterative process. You don't need to plan the entire project in detail on Day 1.
+- **Near-term work**: Planned in detail (Work Packages).
+- **Future work**: Planned at a high level (Planning Packages).
+As the project progresses, future work is "rolled" into detail. This is a form of **Progressive Elaboration**.
+
+---
+
+## 📊 Visualizing the Schedule
+Different stakeholders need different views:
+- **Milestone Chart**: Shows only major events/deliverables (Start/Finish dates). Best for **Senior Management**.
+- **Bar Chart (Gantt)**: Shows activities with start/end dates and durations. Best for **Team tracking**.
+- **Project Schedule Network Diagram**: Shows dependencies and workflow logic. Best for **Project Manager analysis** (Critical Path).
+
+---
+
 ## 📅 Agile Scheduling: Cadence + Forecasting
 In agile, time is often fixed and scope flexes:
 - **Sprint cadence** creates a predictable rhythm (e.g., 2-week sprints).
 - **Velocity** helps forecast future throughput (use it for planning, not for judging individuals/teams).
 - **Release planning** focuses on a date + MVP scope; detailed scope emerges via refinement.
+
+### Agile Release Planning
+Agile release planning provides a high-level summary timeline of the release schedule (typically 3-6 months) based on the product roadmap and the product vision.
+- Determines the number of iterations required to complete a release.
+- **Roadmap**: Shows the "Big Picture" sequence of releases.
+- **Release Plan**: Shows the features expected in the next release.
+- **Iteration Plan**: Shows the tasks for the current 2-4 week cycle.
 
 ---
 

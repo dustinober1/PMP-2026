@@ -54,6 +54,18 @@ Test your ability to weave together scope, schedule, cost, and resource baseline
       reference: 'Section 6.3'
     },
     {
+      text: 'A project manager is evaluating the cost of a new server. They consider not just the purchase price, but the electricity, maintenance, and eventual disposal costs over 5 years. What technique is this?',
+      options: [
+        'Value Engineering',
+        'Lifecycle Costing',
+        'Sunk Cost Analysis',
+        'Opportunity Cost'
+      ],
+      correct: 1,
+      explanation: 'Lifecycle Costing looks at the total cost of ownership (acquisition, operation, disposal) rather than just the initial build cost.',
+      reference: 'Section 6.3'
+    },
+    {
       text: 'An agile team is struggling to finish their scope within the sprint. The Product Owner wants to add \'one more tiny feature\' to the current sprint. What is the best PM action?',
       options: [
         'Agree to the change to keep the Product Owner happy',
@@ -126,16 +138,16 @@ Test your ability to weave together scope, schedule, cost, and resource baseline
       reference: 'Section 6.1'
     },
     {
-      text: 'Key stakeholders disagree on requirements and you need fast alignment. Which technique is best?',
+      text: 'During a bidder conference, a vendor asks a question about the SOW that reveals a flaw in your requirements. What must you do?',
       options: [
-        'Parametric estimating',
-        'Facilitated workshop (JAD)',
-        'Resource leveling',
-        'Monte Carlo simulation'
+        'Answer the vendor privately to thank them for the catch',
+        'Update the SOW and send the answer/amendment to all potential bidders',
+        'Ignore the question to avoid embarrassment',
+        'Cancel the procurement immediately'
       ],
       correct: 1,
-      explanation: 'Facilitated workshops (often called JAD sessions) are designed to quickly build shared understanding, resolve conflicts, and produce agreed requirements.',
-      reference: 'Section 6.1'
+      explanation: 'Fairness dictates that all vendors must have access to the same information. You must update the documents and share the answer with everyone.',
+      reference: 'Section 6.4'
     },
     {
       text: 'In a Finish-to-Start (FS) dependency, when can the successor activity begin?',
@@ -174,27 +186,27 @@ Test your ability to weave together scope, schedule, cost, and resource baseline
       reference: 'Section 6.2'
     },
     {
-      text: 'Your schedule shows -5 days of total float. What does this indicate?',
+      text: 'Your budget for June is $50,000, but the schedule dictates $70,000 of work. You adjust the schedule to align the spend with the cash flow limits. What is this called?',
       options: [
-        'The project is ahead of schedule',
-        'The project has five days of buffer at the end',
-        'The schedule cannot meet the required finish date without changes',
-        'The activity durations are overestimated and should be reduced'
+        'Crashing',
+        'Funding Limit Reconciliation',
+        'Value Engineering',
+        'Reserve Analysis'
       ],
-      correct: 2,
-      explanation: 'Negative float usually means the imposed finish date (constraint) is earlier than the calculated finish date. The schedule is already late unless you compress, change scope, or adjust constraints.',
-      reference: 'Section 6.2'
+      correct: 1,
+      explanation: 'Funding Limit Reconciliation involves rescheduling work to ensure planned expenditures do not exceed the funds available (cash flow) for a given period.',
+      reference: 'Section 6.3'
     },
     {
-      text: 'Your sponsor will not approve additional budget, but the finish date must be pulled in. Which schedule compression technique fits best?',
+      text: 'You plan near-term work in detail and future work at a high level, waiting to decompose it until more information is known. What is this technique?',
       options: [
         'Crashing',
         'Fast tracking',
-        'Resource leveling',
-        'Adding management reserve'
+        'Rolling Wave Planning',
+        'Gold Plating'
       ],
-      correct: 1,
-      explanation: 'Fast tracking overlaps activities that were originally sequential. It may reduce duration without direct added cost, but it increases risk and can cause rework.',
+      correct: 2,
+      explanation: 'Rolling Wave Planning is a form of progressive elaboration where near-term work is planned in detail and future work is planned at a higher level.',
       reference: 'Section 6.2'
     },
     {
@@ -234,16 +246,16 @@ Test your ability to weave together scope, schedule, cost, and resource baseline
       reference: 'Section 6.3'
     },
     {
-      text: 'A team member says the draft schedule is the schedule baseline. The sponsor has not approved it yet. What is true?',
+      text: 'Your team is grouping a large number of brainstorming ideas into natural categories for review. What tool are they using?',
       options: [
-        'It is already a baseline because it includes dates',
-        'It becomes a baseline only after formal approval',
-        'It becomes a baseline after the first status meeting',
-        'It becomes a baseline when the PM signs it'
+        'Affinity Diagram',
+        'Mind Mapping',
+        'Context Diagram',
+        'Scatter Plot'
       ],
-      correct: 1,
-      explanation: 'A baseline is the approved version of a plan. Drafts are planning artifacts, but they are not baselines until formally approved.',
-      reference: 'Chapter 6 Overview'
+      correct: 0,
+      explanation: 'Affinity Diagrams are used to organize large amounts of data into groups or themes based on their natural relationships.',
+      reference: 'Section 6.1'
     },
     {
       text: 'Your schedule shows an engineer is overallocated. You must resolve the overallocation but cannot change the project finish date. What should you do?',

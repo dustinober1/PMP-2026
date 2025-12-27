@@ -71,8 +71,18 @@ When you cannot source resources internally, procurement planning helps you get 
 ### Key Procurement Concepts
 - **Make-or-Buy Analysis**: Decide whether to build internally or purchase externally.
 - **Procurement SOW**: Defines what you want a seller to deliver (scope for the vendor).
-- **Source Selection Criteria**: How you’ll evaluate vendors (price, capability, past performance, ESG, etc.).
 - **RFP vs. RFQ**: RFP asks for approach/solution; RFQ asks for price for a defined item.
+
+### Source Selection Analysis
+How do you pick the winner?
+- **Least Cost**: Standard item, price is king.
+- **Qualifications Only**: Small expert tasks (e.g., finding a doctor).
+- **Quality-Based (Technical/Management)**: Best solution, then negotiate price.
+- **Fixed Budget**: "We have $50k, tell us the most scope you can give us."
+
+### Bidder Conferences
+A meeting with all prospective sellers to ensure everyone has a clear, common understanding of the procurement (scope, requirements, etc.).
+- **Fairness Rule**: No secret meetings. If one vendor asks a question, the answer goes to everyone.
 
 ### Contract Types (Exam Essentials)
 | Contract | Who Holds More Cost Risk? | When It Fits |
