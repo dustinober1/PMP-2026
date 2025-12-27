@@ -205,6 +205,281 @@ Runs thousands of scenarios to produce probability distributions for cost and sc
 
 **When to use**: Stakeholders need confidence levels, or the project has many uncertainties that compound.
 
+### Monte Carlo Simulation: Step-by-Step Walkthrough
+
+Monte Carlo is the gold standard for quantitative risk analysis. Here's how it works in practice:
+
+#### Step 1: Define Three-Point Estimates
+For each task or cost element, estimate:
+- **O** = Optimistic (best case, 10% probability)
+- **M** = Most Likely (normal conditions)
+- **P** = Pessimistic (worst case, 10% probability)
+
+**Example Project (3 Tasks):**
+| Task | Optimistic | Most Likely | Pessimistic |
+|---|---|---|---|
+| Design | 10 days | 15 days | 25 days |
+| Build | 20 days | 30 days | 50 days |
+| Test | 5 days | 10 days | 20 days |
+
+#### Step 2: Define Probability Distributions
+Each task follows a distribution (triangular or beta):
+- **Triangular**: Equal weight to all three estimates
+- **Beta (PERT)**: More weight to Most Likely
+
+**PERT Formula**: 
+$$\text{Expected Duration} = \frac{O + 4M + P}{6}$$
+
+**PERT Standard Deviation**:
+$$\sigma = \frac{P - O}{6}$$
+
+**Example Calculation (Design Task)**:
+- Expected = (10 + 4×15 + 25) / 6 = **15.83 days**
+- σ = (25 - 10) / 6 = **2.5 days**
+
+#### Step 3: Run Simulations (1,000-10,000 iterations)
+The software randomly samples from each distribution and sums the results. After thousands of runs, you get a probability distribution of outcomes.
+
+#### Step 4: Interpret the S-Curve Output
+The cumulative distribution (S-curve) shows confidence levels:
+
+| Confidence Level | Meaning | Typical Use |
+|---|---|---|
+| **P50** (50th percentile) | 50% chance of meeting this target | Base estimate (equal chance of over/under) |
+| **P80** (80th percentile) | 80% chance of meeting this target | Conservative planning target |
+| **P90** (90th percentile) | 90% chance of meeting this target | High-confidence commitment |
+
+::: tip 💡 Exam Pattern
+"What confidence level should we report?" → If the sponsor wants a **commitment**, use P80 or P90. If they want a **target**, use P50.
+:::
+
+#### Sample Monte Carlo Output
+```
+Project Duration Analysis (1,000 iterations)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Minimum:     42 days
+P10:         48 days (10% chance of finishing by this date)
+P50:         56 days (50% chance - your base estimate)
+P80:         63 days (80% chance - recommended target)
+P90:         68 days (90% chance - high confidence)
+Maximum:     95 days
+
+Recommendation: Commit to 63 days (P80) with 7-day buffer to P90.
+```
+
+---
+
+### PERT Integration with Risk Analysis
+
+PERT (Program Evaluation and Review Technique) provides the foundation for Monte Carlo by calculating expected values and variance.
+
+#### Complete PERT Formulas
+
+| Formula | Purpose | Calculation |
+|---|---|---|
+| **Expected Value (E)** | Weighted average | (O + 4M + P) / 6 |
+| **Standard Deviation (σ)** | Task variability | (P - O) / 6 |
+| **Variance (σ²)** | For summing uncertainty | [(P - O) / 6]² |
+| **Project Variance** | Total uncertainty | Σ(individual variances on critical path) |
+| **Project σ** | For z-score calculation | √(Project Variance) |
+
+#### Z-Score Calculation (Probability of Meeting a Target)
+$$z = \frac{\text{Target} - \text{Expected}}{\sigma_{project}}$$
+
+Then look up z in a standard normal table:
+| z-score | Probability |
+|---|---|
+| 0.00 | 50% |
+| 0.84 | 80% |
+| 1.28 | 90% |
+| 1.64 | 95% |
+| 2.00 | 97.7% |
+
+**Example**: Expected project duration = 60 days, σ = 5 days. What's the probability of finishing in 65 days?
+- z = (65 - 60) / 5 = **1.0**
+- Look up z=1.0 → **84% probability** of meeting the target
+
+::: warning ⚠️ Exam Trap
+PERT assumes tasks are independent. In reality, risks often correlate (if one slips, others slip too). This is why Monte Carlo is more accurate for complex projects.
+:::
+
+---
+
+### Decision Tree Analysis: Complete Worked Example
+
+Decision trees help you choose between options with uncertain outcomes by calculating Expected Monetary Value (EMV) for each path.
+
+#### Problem Statement
+Your company must decide how to develop a new feature:
+- **Option A: Build In-House** - Lower cost but higher failure risk
+- **Option B: Outsource** - Higher cost but more reliable
+- **Option C: Hybrid** - Split the work (moderate cost and risk)
+
+#### Step 1: Map the Decision Tree
+```
+Decision: Feature Development
+│
+├── Build In-House (Cost: $100k)
+│   ├── Success (60%): Benefit $400k → Net: +$300k
+│   └── Failure (40%): Benefit $0 → Net: -$100k
+│
+├── Outsource (Cost: $180k)
+│   ├── Success (85%): Benefit $380k → Net: +$200k
+│   └── Failure (15%): Benefit $0 → Net: -$180k
+│
+└── Hybrid (Cost: $140k)
+    ├── Success (75%): Benefit $390k → Net: +$250k
+    └── Failure (25%): Benefit $50k → Net: -$90k
+```
+
+#### Step 2: Calculate EMV for Each Option
+
+**Option A: Build In-House**
+- EMV = (0.60 × $300k) + (0.40 × -$100k)
+- EMV = $180k - $40k = **+$140k**
+
+**Option B: Outsource**
+- EMV = (0.85 × $200k) + (0.15 × -$180k)
+- EMV = $170k - $27k = **+$143k**
+
+**Option C: Hybrid**
+- EMV = (0.75 × $250k) + (0.25 × -$90k)
+- EMV = $187.5k - $22.5k = **+$165k**
+
+#### Step 3: Make the Decision
+**Best Choice: Hybrid (Option C)** with EMV of +$165k
+
+::: tip 💡 Exam Insight
+Decision tree questions test whether you can calculate EMV correctly. Remember:
+1. Multiply each outcome by its probability
+2. Sum all outcomes for each option
+3. Choose the highest EMV (for opportunities) or lowest cost (for threats)
+:::
+
+#### When Decision Tree > Simple EMV
+Use decision trees when:
+- Multiple sequential decisions exist (tree with branches)
+- Outcomes affect future decisions
+- You need to compare distinct options
+
+---
+
+### Risk-Adjusted Budget Calculations
+
+The total project budget includes both base estimates and reserves. Understanding how to calculate risk-adjusted budgets is essential.
+
+#### Budget Structure
+```
+Total Project Funding
+├── Cost Baseline (what PM can authorize)
+│   ├── Work Package Estimates (base estimates)
+│   └── Contingency Reserve (for known risks)
+└── Management Reserve (for unknown risks - requires sponsor approval)
+```
+
+#### Calculating Contingency Reserve Using EMV
+
+**Step 1**: Identify all significant risks and their EMV
+
+| Risk ID | Description | Probability | Impact | EMV |
+|---|---|---|---|---|
+| R-001 | Vendor delay | 30% | $50,000 | $15,000 |
+| R-002 | Design rework | 40% | $30,000 | $12,000 |
+| R-003 | Integration issues | 25% | $80,000 | $20,000 |
+| R-004 | Resource shortage | 20% | $40,000 | $8,000 |
+
+**Step 2**: Sum the EMVs
+- Total Risk EMV = $15k + $12k + $20k + $8k = **$55,000**
+
+**Step 3**: Build the budget
+- Base Estimate: $500,000
+- Contingency Reserve: $55,000 (from EMV analysis)
+- **Cost Baseline**: $555,000
+- Management Reserve (typically 5-10%): $50,000
+- **Total Project Funding**: $605,000
+
+::: tip 💡 Exam Pattern
+"The sponsor asks why the budget is higher than the estimate" → Explain that the cost **baseline** includes contingency for identified risks, and management reserve covers unknown risks.
+:::
+
+#### Alternative Method: Percentage-Based Reserve
+When detailed EMV isn't available, use industry benchmarks:
+- **Low complexity projects**: 5-10% contingency
+- **Medium complexity**: 10-15% contingency
+- **High complexity**: 15-25% contingency
+- **Management reserve**: Additional 5-10%
+
+---
+
+### Probability Distributions in Risk Analysis
+
+Understanding distributions helps you choose appropriate inputs for quantitative analysis.
+
+#### Common Distributions
+
+| Distribution | Shape | When to Use | Example |
+|---|---|---|---|
+| **Triangular** | Equal weight to O, M, P | Quick estimates, limited data | "Based on team discussion, 10-15-25 days" |
+| **Beta (PERT)** | More weight to Most Likely | Historical data supports M | "Usually takes about 15 days" |
+| **Uniform** | Equal probability across range | True uncertainty, no information | "Could be anywhere from 10-30 days" |
+| **Normal** | Bell curve | Large sample historical data | "Average 20 days, σ = 3 days" |
+| **Lognormal** | Skewed right | Costs and durations (can't go negative) | "Typically 15 days but could extend significantly" |
+
+#### Visual Guide: Distribution Selection
+```
+Do you have historical data?
+├── YES → Use Normal or Beta distribution
+└── NO → Do you have expert estimates (O, M, P)?
+          ├── YES → Use Triangular or PERT
+          └── NO → Use Uniform (equal probability)
+```
+
+---
+
+### Agile Risk Tracking: Risk Burndown & Velocity
+
+In Agile environments, risk is tracked iteratively alongside delivery.
+
+#### Risk Burndown Chart
+Shows total risk exposure (sum of EMVs) decreasing over time as:
+- Risks are mitigated or avoided
+- Uncertain work is completed
+- Risks are realized (become issues) and handled
+
+```
+Risk Exposure Over Sprints
+$200k ████████████████████
+$180k ██████████████████
+$140k ██████████████
+$100k ██████████
+ $60k ██████
+ $30k ███
+      S1   S2   S3   S4   S5   S6
+```
+
+**Healthy Pattern**: Risk exposure decreases each sprint (uncertainty is being resolved)
+**Unhealthy Pattern**: Risk exposure flat or increasing → Need immediate intervention
+
+#### Risk Velocity
+Just as teams track story point velocity, track how much risk exposure is resolved per sprint:
+
+| Sprint | Starting Risk EMV | Ending Risk EMV | Risk Velocity |
+|---|---|---|---|
+| Sprint 1 | $200k | $180k | $20k resolved |
+| Sprint 2 | $180k | $140k | $40k resolved |
+| Sprint 3 | $140k | $100k | $40k resolved |
+| Sprint 4 | $100k | $80k | $20k resolved |
+
+**Avg Risk Velocity**: $30k per sprint
+
+Use this to forecast when risk exposure will reach acceptable levels.
+
+#### Sprint Risk Review Agenda (5 minutes in Planning)
+1. **New risks** identified since last sprint
+2. **Top 3 risks**: status, triggers observed?
+3. **Risks to target** this sprint (which uncertain work will we complete?)
+4. **Issues from last sprint**: lessons learned?
+
 ---
 
 ## 🛡️ Response Strategies (Choose the BEST One)
