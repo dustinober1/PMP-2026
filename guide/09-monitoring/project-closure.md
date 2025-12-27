@@ -433,6 +433,297 @@ The "sunk cost fallacy" (spending more because you already spent a lot) is a bia
 - **Predictive**: closure occurs at the end of each phase and at the final project conclusion (phase-gate acceptance + final closure).
 - **Agile**: “closure” happens continuously (reviews + retros). Final closure occurs when the product backlog is satisfied, funding ends, or the product is retired—*and you still do handoff/knowledge transfer*.
 
+---
+
+## 📋 Contract Types & Closure Implications
+
+Different contract types create different closure considerations. The 2026 PMP exam expects you to understand how contract structure affects final payment, risk allocation, and dispute resolution.
+
+### Contract Type Comparison for Closure
+
+| Contract Type | Final Payment Calculation | Buyer Risk | Seller Risk | Closure Complexity |
+|---|---|---|---|---|
+| **Fixed Price (FFP)** | Agreed price regardless of actual cost | Low (cost certainty) | High (cost overruns) | Low (straightforward) |
+| **Time & Materials (T&M)** | Actual hours × rate + materials | High (open-ended cost) | Low (paid for effort) | Medium (verify hours/rates) |
+| **Cost Plus Fixed Fee (CPFF)** | Actual costs + fixed fee | High (pays all costs) | Low (guaranteed profit) | High (audit all costs) |
+| **Cost Plus Incentive Fee (CPIF)** | Actual costs + fee based on performance | Medium (shared savings) | Medium (fee at risk) | High (calculate incentive) |
+| **Cost Plus Award Fee (CPAF)** | Actual costs + subjective award fee | Medium | Medium | High (performance evaluation) |
+
+### Fixed Price Closure
+
+**Key Considerations:**
+- Verify all deliverables meet contract acceptance criteria
+- Final payment is the contract price (no cost verification needed)
+- Warranty period begins at acceptance
+- Retainage release per contract terms
+
+**Common Exam Scenario:**
+> "The vendor completed the work but spent 20% more than they estimated. They want additional payment."
+
+**Answer:** In FFP, the seller bears cost risk. The buyer pays the contract price only. Additional payment would require a contract change order for added scope.
+
+### Time & Materials Closure
+
+**Key Considerations:**
+- Verify labor hours against timesheets and burn rate
+- Verify materials and expenses against receipts
+- Compare against "not to exceed" (NTE) ceiling if applicable
+- Final invoice reconciliation before payment
+
+**Common Exam Scenario:**
+> "The T&M contractor submitted a final invoice that exceeds the project estimate."
+
+**Answer:** If within the NTE ceiling, the buyer pays actual costs. If exceeds NTE, the contract terms govern (usually buyer approval required for overages).
+
+### Cost-Reimbursable Closure (CPFF/CPIF/CPAF)
+
+**Key Considerations:**
+- Audit all claimed costs for allowability
+- Calculate fee per contract formula
+- For CPIF: Calculate final incentive based on cost performance
+- For CPAF: Conduct performance evaluation for award fee
+
+**CPIF Fee Calculation Example:**
+
+```
+Contract terms:
+- Target Cost: $1,000,000
+- Target Fee: $80,000
+- Sharing Ratio: 70/30 (buyer/seller)
+- Maximum Fee: $120,000
+- Minimum Fee: $40,000
+
+Actual performance:
+- Actual Cost: $950,000 (under target by $50,000)
+
+Fee calculation:
+- Cost underrun: $50,000
+- Seller share (30%): $15,000
+- Final Fee: $80,000 + $15,000 = $95,000
+
+Total payment: $950,000 + $95,000 = $1,045,000
+```
+
+::: tip 💡 Exam Pattern
+CPIF questions often ask you to calculate the final fee. Know the formula: **Final Fee = Target Fee ± (Target Cost - Actual Cost) × Seller Share**. Apply max/min caps.
+:::
+
+### Contract Closeout Documentation
+
+| Document | Purpose | Retention |
+|---|---|---|
+| **Final acceptance certificate** | Proves deliverables met requirements | Permanent |
+| **Final invoice and payment record** | Proves financial closure | Per policy (7+ years) |
+| **Warranty terms** | Defines post-closure obligations | Duration of warranty |
+| **Lessons learned (vendor)** | Informs future vendor selection | OPA library |
+| **Performance evaluation** | Vendor rating for future bids | Procurement records |
+
+---
+
+## 🏛️ Regulatory & Compliance Closure
+
+Certain industries have specific closure requirements beyond standard project management practices. The 2026 PMP exam may present scenarios where regulatory compliance affects what "done" means.
+
+### Industry-Specific Closure Requirements
+
+| Industry | Regulatory Body | Closure Requirements |
+|---|---|---|
+| **Healthcare** | FDA, HIPAA | Validation documentation, audit trails, patient data handling |
+| **Financial Services** | SOX, SEC, PCI-DSS | Control documentation, data retention, audit evidence |
+| **Government** | FAR, OMB | Contract reporting, cost accounting standards, audit readiness |
+| **Construction** | OSHA, local codes | Inspections, certificates of occupancy, safety documentation |
+| **Pharmaceuticals** | FDA (21 CFR Part 11) | Electronic records validation, batch records, GxP compliance |
+
+### Common Compliance Closure Activities
+
+1. **Documentation Retention**
+   - Maintain records per legal and regulatory requirements (often 7+ years)
+   - Ensure electronic records meet integrity requirements
+   - Archive in accessible, auditable format
+
+2. **Audit Trail Verification**
+   - Confirm change history is complete and accurate
+   - Verify decision records are traceable
+   - Ensure approvals are documented
+
+3. **Third-Party Certifications**
+   - Obtain required inspections (building, safety, environmental)
+   - Complete regulatory filings
+   - Submit required reports to authorities
+
+4. **Data Handling**
+   - Transfer or archive sensitive data per policy
+   - Ensure data destruction is documented (if required)
+   - Verify access controls are removed for project team
+
+### Compliance Closure Checklist
+
+- [ ] All regulatory documentation complete and archived
+- [ ] Required certifications/inspections obtained
+- [ ] Data retention policy implemented
+- [ ] Audit trail verified and accessible
+- [ ] Sensitive data transferred or destroyed per policy
+- [ ] Compliance sign-off from legal/compliance team
+- [ ] Required regulatory filings submitted
+- [ ] Post-implementation monitoring plan established (if required)
+
+::: warning ⚠️ Exam Pattern
+If a scenario mentions a regulated industry (healthcare, finance, government), look for answers that include **compliance verification** and **documentation requirements** as part of closure. Skipping these steps is not an option.
+:::
+
+---
+
+## 🔄 Agile Product Retirement
+
+In agile environments, "closure" often means the product has reached the end of its lifecycle—either the backlog is complete, funding has ended, or the product is being retired. The PM (or delivery lead) still has formal closure responsibilities.
+
+### When Agile Products "Close"
+
+| Trigger | Situation | Closure Approach |
+|---|---|---|
+| **Backlog exhausted** | All valuable features delivered; ROI maximized | Planned sunset with knowledge transfer |
+| **Funding ends** | Budget consumed or redirected | Administrative closure; document what's incomplete |
+| **Product retirement** | Replaced by new system; market demand gone | Migration support; legacy documentation |
+| **Team dissolution** | Organization restructure; members reassigned | Knowledge capture before departure |
+
+### Agile Closure Responsibilities
+
+Even in continuous delivery environments, formal closure includes:
+
+1. **Final Retrospective**
+   - Broader scope than sprint retros (entire product/project lifecycle)
+   - Focus on organizational learnings, not just team process
+   - Document in lessons learned register (OPA)
+
+2. **Technical Debt Resolution**
+   - Document remaining technical debt
+   - Create maintenance backlog for operations
+   - Archive code and documentation
+
+3. **Feature Flag Cleanup**
+   - Remove or finalize feature toggles
+   - Document flag states in production
+   - Ensure no "zombie" code paths
+
+4. **Continuous Delivery Sunset**
+   - Disable deployment pipelines (after final release)
+   - Archive CI/CD configuration
+   - Document rollback procedures (in case of post-sunset issues)
+
+5. **Knowledge Transfer**
+   - Create operations runbooks
+   - Train support team
+   - Document "tribal knowledge" before team disbands
+
+### Product Backlog Disposition
+
+| Backlog Item Status | Disposition | Documentation |
+|---|---|---|
+| **Done** | Completed and deployed | Release notes, user documentation |
+| **Deferred** | Not valuable enough to implement | Archive with rationale |
+| **In Progress** | Partially complete | Document state; decide: finish, defer, or abandon |
+| **Won't Do** | Explicitly rejected | Archive decision and reason |
+
+::: info 🔍 Exam Pattern
+Agile closure questions often focus on **knowledge transfer** and **documentation** requirements—even when the delivery approach was informal. The organization needs to support the product after the team moves on.
+:::
+
+---
+
+## 🤝 Stakeholder Sign-off Strategies
+
+Getting stakeholder acceptance can be challenging, especially when expectations were unclear or relationships are strained. The 2026 PMP exam tests your ability to navigate difficult closure situations professionally.
+
+### Common Sign-off Challenges
+
+| Challenge | Root Cause | PM Response |
+|---|---|---|
+| **Moving goalposts** | Acceptance criteria not documented upfront | Reference original requirements; new requests are CRs |
+| **Perfectionism** | Stakeholder wants "more" even though criteria met | Separate "must have" from "nice to have"; close on requirements |
+| **Relationship damage** | Trust eroded during project | Focus on objective evidence; involve third party if needed |
+| **Political games** | Stakeholder using closure as leverage | Escalate to sponsor; follow contract/governance path |
+| **Genuine defects** | Real issues that weren't caught in testing | Log as defects; determine fix now vs. warranty |
+
+### The "Reluctant Stakeholder" Playbook
+
+When a stakeholder won't sign off, follow this escalation path:
+
+**Step 1: Clarify the Objection**
+- Ask: "What specifically is preventing acceptance?"
+- Document the specific concerns
+- Determine if concerns are in-scope or new requirements
+
+**Step 2: Reference Acceptance Criteria**
+- Present documented requirements and acceptance criteria
+- Show traceability from requirements → test results → acceptance
+- Highlight objective evidence (test reports, UAT sign-off)
+
+**Step 3: Categorize the Gap**
+- **In-scope defect**: Log, prioritize, and fix
+- **Out-of-scope enhancement**: This is a change request; current scope is complete
+- **Subjective preference**: Not grounds for rejecting acceptance if criteria met
+
+**Step 4: Escalate if Necessary**
+- Involve sponsor or governance authority
+- Present evidence and request decision
+- Document the escalation and outcome
+
+**Step 5: Formal Resolution**
+- If criteria are met: request formal sign-off with documentation
+- If criteria are not met: agree on remediation plan with timeline
+- If dispute continues: follow contract dispute resolution process
+
+### Acceptance Documentation Template
+
+```
+PROJECT: [Name]
+DELIVERABLE: [Description]
+ACCEPTANCE DATE: [Date]
+
+ACCEPTANCE CRITERIA STATUS:
+☑ Criteria 1: [Description] - PASS (Evidence: [Link])
+☑ Criteria 2: [Description] - PASS (Evidence: [Link])
+☑ Criteria 3: [Description] - PASS (Evidence: [Link])
+
+KNOWN ISSUES (if any):
+- [Issue description] - Severity: Low - Resolution: Warranty period
+
+STAKEHOLDER ACKNOWLEDGMENT:
+I confirm that the above deliverable meets the documented acceptance criteria
+and is accepted for use.
+
+Signature: _______________________
+Name: ___________________________
+Role: ___________________________
+Date: ___________________________
+```
+
+### Punch List Approach
+
+When minor issues exist but core acceptance criteria are met:
+
+1. **Document the punch list** (specific items, owners, due dates)
+2. **Obtain conditional acceptance** (acceptance with documented follow-up)
+3. **Set warranty period** for punch list resolution
+4. **Close the project** administratively
+5. **Track punch list to completion** (post-closure activity)
+
+::: tip 💡 Exam Pattern
+If a question describes a stakeholder refusing sign-off over a "minor issue," the correct answer usually involves:
+1. Verify if the issue was in the original requirements
+2. If yes: fix it before closure
+3. If no: route it as a change request; proceed with closure
+:::
+
+### When to Accept Partial Closure
+
+| Situation | Approach |
+|---|---|
+| **80% of scope complete, remaining 20% descoped** | Close completed scope; document descoped items formally |
+| **Warranty items identified** | Close with punch list; set warranty period |
+| **Phased delivery** | Close each phase individually; final closure after all phases |
+| **Early termination** | Administrative closure; document reason and incomplete work |
+
 <style>
 .closure-grid {
   display: grid;
