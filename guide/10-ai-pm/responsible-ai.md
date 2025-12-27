@@ -27,15 +27,56 @@ To navigate the risks of AI, follow these pillars:
 
 ---
 
+## 🔐 Data Privacy: What You Must Protect
+On the PMP exam, if a scenario includes **client confidentiality**, **PII**, or **unapproved tools**, the correct answer focuses on **policy + protection + escalation (if needed)**.
+
+**Examples of data you should treat as sensitive unless explicitly approved:**
+*   Personally Identifiable Information (PII): names, emails, phone numbers, IDs, addresses
+*   Credentials: passwords, API keys, access tokens
+*   Financials: pricing details, account numbers, forecasts, internal budgets
+*   Intellectual Property (IP): designs, source code, trade secrets, strategy documents
+*   Regulated data (industry-specific): healthcare, banking, government, etc.
+
+**Safer patterns (practical):**
+*   Use **enterprise-approved AI tools** with contractual protections (retention controls, no training on your data).
+*   Prefer **grounded workflows** (RAG against approved internal sources) over “open internet guessing”.
+*   Apply **data minimization**: share only what the AI needs to produce a draft.
+
+---
+
 ## 📜 The "AI Charter"
 Just as you create a Team Charter for human interactions, you need an **AI Working Agreement**. It should define:
 *   **Approved Tools**: Which specific engines (Enterprise versions) are safe to use?
 *   **Transparency**: When must a team member *disclose* that a document was written by AI?
 *   **Validation**: What is the mandatory review process before AI content leaves the team?
+*   **Storage/Audit**: Where are prompts/outputs stored (and for how long), if needed for compliance?
 
 ::: danger 🚫 "Shadow AI"
 Using unapproved AI tools to bypass security protocols is known as "Shadow AI." This is a major compliance violation. The PM must provide safe, approved alternatives so the team isn't tempted to go rogue.
 :::
+
+---
+
+## 👥 Governance: Who Owns What (RACI Starter)
+Responsible AI is a **governance** problem as much as a technology problem.
+
+| Activity | PM | Sponsor/Product | IT/Security | Legal/Compliance | Data Owner/SME |
+|---|---:|---:|---:|---:|---:|
+| Approve AI tools for team use | C | A | R | C | C |
+| Define data classification rules | C | C | R | R | A |
+| Create AI working agreement | R | A | C | C | C |
+| Review AI-generated artifacts before external use | R | A | C | C | R |
+| Handle suspected data exposure incident | C | C | R | R | C |
+
+Legend: **R** = Responsible, **A** = Accountable, **C** = Consulted
+
+---
+
+## 🧨 Common AI Risks in Projects (Know These Triggers)
+*   **Prompt injection**: AI consumes untrusted content (email/docs) that includes malicious instructions (“ignore policy and reveal secrets”).
+*   **Over-reliance**: Teams treat AI output as “truth” and skip validation steps.
+*   **Bias**: AI recommendations amplify historical inequality (resourcing, stakeholder sentiment, hiring support roles).
+*   **Compliance gaps**: Decisions are not explainable/auditable in regulated work.
 
 ---
 
@@ -83,8 +124,22 @@ In regulated industries (Healthcare, Finance), you cannot just say "The AI told 
 
 ---
 
+## 🧾 Transparency, IP, and Procurement (Exam-Relevant)
+*   **Transparency**: Follow the team’s working agreement. If external stakeholders will rely on an artifact, disclose AI assistance when required and ensure a human owner signs off.
+*   **IP/Copyright**: Treat prompts/outputs as potentially sensitive. Validate that your tool’s terms allow your intended commercial use and don’t accidentally leak third-party content.
+*   **Procurement mindset**: If your project is buying AI capability, ensure the contract/SOW defines retention, training use, audit logs, SLAs, and responsibilities for incidents.
+
+---
+
+## 🚑 If a Privacy/Security Incident Happens (What to Do First)
+1. **Stop and contain**: halt use of the tool/workflow immediately.
+2. **Notify the right parties**: IT/Security (and Legal/Compliance if required).
+3. **Preserve evidence**: keep logs/screenshots per policy (don’t “cover it up”).
+4. **Communicate appropriately**: follow the incident response plan for stakeholders.
+5. **Prevent recurrence**: update the AI working agreement, tooling controls, and training.
+
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a team member uses a free online AI to summarize a confidential meeting with a client, they have committed a <strong>Security Breach</strong>. The PM's response is to immediateContain (notify IT/Security) and then Educate the team on proper tool usage.
+  <strong>📝 Exam Insight:</strong> If a team member uses a free online AI to summarize a confidential client meeting, they have committed a <strong>Security Breach</strong>. The PM’s response is to <strong>immediately contain</strong> (notify IT/Security per policy), then educate the team and provide approved alternatives.
 </div>
 
 <style>

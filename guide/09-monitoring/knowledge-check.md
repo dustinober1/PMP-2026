@@ -342,7 +342,7 @@ Test your mastery of performance metrics, change control, configuration manageme
       reference: 'Section 9.1 - Quality Metrics During Monitoring'
     },
     {
-      text: 'At project closure, the sponsor asks, "How will we know if we achieved the 20% cost reduction benefit promised in the Business Case?" What should you do?',
+      text: 'At project closure, the sponsor asks: How will we know if we achieved the 20% cost reduction benefit promised in the Business Case? What should you do?',
       options: [
         'Promise to track benefits for the next 12 months as part of the PM role',
         'Assign measurement responsibility to the Operations owner, define the KPI and timeline, and document it as part of the handoff package',
@@ -374,7 +374,7 @@ Test your mastery of performance metrics, change control, configuration manageme
         'Refuse to forecast until more work is complete'
       ],
       correct: 1,
-      explanation: 'Monte Carlo simulation is appropriate for high-uncertainty projects because it provides probabilistic forecasts (e.g., \"80% confident by July 1\") rather than a single deterministic date. This gives stakeholders a realistic view of the range of possible outcomes.',
+      explanation: 'Monte Carlo simulation is appropriate for high-uncertainty projects because it provides probabilistic forecasts (e.g., 80% confident by July 1) rather than a single deterministic date. This gives stakeholders a realistic view of the range of possible outcomes.',
       reference: 'Section 9.1 - Probabilistic Forecasting (Monte Carlo Simulation)'
     },
     {
@@ -422,7 +422,7 @@ Test your mastery of performance metrics, change control, configuration manageme
         'Delay closure indefinitely until the stakeholder is satisfied'
       ],
       correct: 1,
-      explanation: 'When acceptance criteria are met but a stakeholder wants more, the PM should reference the documented requirements and treat new requests as change requests. \"Moving goalposts\" is not a valid reason to reject formal acceptance if criteria are satisfied.',
+      explanation: 'When acceptance criteria are met but a stakeholder wants more, the PM should reference the documented requirements and treat new requests as change requests. Moving goalposts is not a valid reason to reject formal acceptance if criteria are satisfied.',
       reference: 'Section 9.2 - Stakeholder Sign-off Strategies'
     }
   ]"

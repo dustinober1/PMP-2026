@@ -2,6 +2,10 @@
 
 AI is not just for "tech projects." It is a force multiplier that can be applied to every domain and process group in the PMP standard.
 
+::: warning ⚠️ Always sanitize inputs
+Use placeholders and remove sensitive data before prompting. If the scenario involves a public/unapproved tool, the correct PMP action is to **protect data first**.
+:::
+
 ---
 
 ## 🔄 The AI-Augmented Lifecycle
@@ -50,12 +54,86 @@ Here is how you apply AI tools practically across the 5 process groups:
 
 ---
 
+## 📄 High-Value Artifacts (With Example Prompts)
+Use these as “starter prompts” and tailor them to your environment and templates.
+
+### Initiation: Charter + Stakeholders
+**Best uses:** drafting the charter outline, clarifying objectives, and building an initial stakeholder list.
+
+```text
+Role: Act as a PMP-certified PM.
+Task: Draft a Project Charter (1 page) using the following sanitized notes.
+Include: purpose, measurable objectives, high-level scope, assumptions, constraints, risks, milestones, budget range, and approval requirements.
+Constraints: Do not invent facts or stakeholders; list clarifying questions first.
+Input: [PASTE SANITIZED NOTES]
+```
+
+### Planning: WBS + Risk Register + Comms Plan
+**Best uses:** breaking down work, identifying risks, and tailoring communications.
+
+```text
+Task: Propose a WBS (3 levels) and a milestone schedule for a [predictive/agile/hybrid] project.
+Constraints: Highlight dependencies and assumptions; include a “missing info” section.
+Input: Scope summary (sanitized): [PASTE]
+```
+
+```text
+Task: Create 12 risk statements (cause → event → impact) for this project and suggest responses, owners, triggers, and contingency actions.
+Constraints: Separate threats vs opportunities; do not invent regulations—ask if compliance applies.
+Input: Project context (sanitized): [PASTE]
+```
+
+### Execution: Meetings + Stakeholder Communication
+**Best uses:** turning messy conversations into actions and clear updates.
+
+```text
+Task: Convert this transcript into meeting minutes with: decisions, action items (owner + due date), risks/issues, and open questions.
+Constraints: If owners/dates are missing, write “TBD” and list questions to confirm.
+Input: [PASTE SANITIZED TRANSCRIPT]
+```
+
+### Monitoring & Controlling: Status + Forecasting
+**Best uses:** variance explanations, trend summaries, and leadership-ready status.
+
+```text
+Task: Draft an executive weekly status report (RAG status + top 3 risks + key decisions needed).
+Constraints: Explain variances and propose corrective actions; keep to 10 bullets max.
+Inputs: Schedule variance: [SV], Cost variance: [CV], key milestones: [PASTE], risks/issues: [PASTE]
+```
+
+### Closing: Lessons Learned + Final Report
+**Best uses:** clustering feedback into themes and producing closure artifacts.
+
+```text
+Task: Cluster these retrospective notes into 5 themes and propose “do/avoid/continue” recommendations.
+Constraints: Keep it constructive and specific; include 3 process improvements.
+Input: [PASTE SANITIZED NOTES]
+```
+
+---
+
+## 🏃 Agile + Hybrid Add-Ons (Where AI Helps a Lot)
+*   **Backlog refinement**: convert rough ideas into user stories with acceptance criteria.
+*   **Sprint planning**: identify dependencies, split oversized stories, and surface risks.
+*   **Retrospectives**: cluster comments into themes and propose experiments.
+*   **Definition of Done**: draft/update checklists to reduce escaped defects.
+
+---
+
+## 🧯 Guardrails for Automation Agents (Tool-Using AI)
+If an AI tool can take actions (create tickets, update schedules, send messages), treat it like a user with permissions:
+*   **Least privilege**: only the access it needs, nothing more.
+*   **Approval steps**: require human confirmation before external communication or baseline changes.
+*   **Logging**: keep audit logs of actions taken and inputs used.
+*   **Fallback**: define a manual process if the agent fails or behaves unexpectedly.
+
 ## 💡 Practical Prompt Engineering for PMs
 To get value, you must know how to ask.
 *   **The Persona**: "Act as a Senior Risk Manager..."
 *   **The Context**: "This is a construction project in a rainy climate..."
 *   **The Task**: "List 10 potential safety risks..."
 *   **The Constraint**: "Format the output as a Markdown table."
+*   **The Quality Bar**: "List assumptions, unknowns, and what needs human validation."
 
 ::: tip 🚀 Start Small
 Don't try to automate everything at once. Start with "Low Risk / High Value" tasks like **Meeting Summaries** or **Drafting Emails**. Gain confidence before moving to **Risk Analysis** or **Forecasting**.

@@ -27,6 +27,25 @@ Most AI tools you will use fall into three specific categories. You must know wh
 
 ---
 
+## 🧠 Key AI Concepts (Exam-Relevant, Plain English)
+You don't need math or model architecture for the PMP. You do need **good judgment** about what AI can/can't do, and how to use it safely.
+
+| Concept | What it means | PMP-relevant takeaway |
+|---|---|---|
+| **LLM (Large Language Model)** | A system that generates text by predicting likely word sequences | Great for drafting/summarizing; can sound confident while being wrong |
+| **Tokens / context window** | AI reads text in chunks (“tokens”) up to a limit | Longer prompts can lose earlier context; keep inputs clean and structured |
+| **Temperature** | Controls creativity vs consistency | Use lower creativity for formal artifacts; increase creativity for brainstorming |
+| **Grounding** | Forcing AI to use *your* provided sources | Reduces hallucinations when you supply approved reference material |
+| **RAG (Retrieval-Augmented Generation)** | AI pulls relevant internal docs at answer time | Best for enterprise PM work: up-to-date, more traceable, less guessing |
+| **Fine-tuning** | Training the model on custom examples | Higher effort/risk; governance-heavy; not the first move for most PM teams |
+| **Automation agents** | AI that can take actions (create tickets, send messages) | Requires least-privilege access and strict Human-in-the-Loop controls |
+
+::: tip 🎯 PMP lens
+AI knowledge is tested through scenario judgment: protect data, follow policy, validate outputs, and keep accountability with the PM/team.
+:::
+
+---
+
 ## 🔍 The "Hallucination" Risk
 AI is a **Probabilistic** engine, not a **Deterministic** one.
 *   **Deterministic**: A Calculator. $2 + 2 = 4$ every time.
@@ -40,6 +59,16 @@ Because of this, AI can "hallucinate"—confidently stating facts, dates, or reg
 
 ---
 
+## 🧷 How to Reduce Hallucinations (Grounding Checklist)
+Use these controls to make AI safer and more useful:
+*   **Provide approved source material** (sanitized notes, templates, policies) and ask the AI to stick to it.
+*   **Require assumptions and unknowns** (“List what you had to assume and what you need clarified”).
+*   **Ask for a verification plan** (“How would a PM validate this before publishing?”).
+*   **Use structure** (tables, required headings, acceptance criteria) to prevent omissions.
+*   **Treat outputs as drafts** (review with SMEs/team, then baseline through normal governance).
+
+---
+
 ## 👤 Human-in-the-Loop (HITL)
 The 2026 standard is **HITL**. AI produces the draft; the Human provides the judgment.
 
@@ -48,6 +77,24 @@ The 2026 standard is **HITL**. AI produces the draft; the Human provides the jud
 | **Speed**: Drafting 50 pages in seconds.              | **Empathy**: Negotiating with an angry user.            |
 | **Patterns**: Finding a trend in 10,000 rows of data. | **Context**: Understanding organizational politics.     |
 | **Logic**: Following a ruleset perfectly.             | **Ethics**: Deciding what is "right" vs. " profitable." |
+
+---
+
+## ✍️ Prompting Framework for PMs (Copy/Paste Pattern)
+High-quality prompts reduce rework and produce more exam-aligned artifacts.
+
+```text
+Role: Act as a PMP-certified project manager.
+Context (sanitized): Project type, constraints, stakeholders (roles), delivery approach.
+Task: Create [artifact] with [required sections].
+Constraints: Do not invent facts; ask clarifying questions if needed; keep within one page.
+Output: Provide Markdown with headings + a table for key data.
+Quality bar: Flag assumptions, risks, open questions, and what needs human validation.
+```
+
+::: tip 💡 When AI answers too fast
+If you get a “perfect” answer with no assumptions or questions, that’s a red flag. In real PM work (and on the exam), **clarifying questions** and **risk flags** are signs of maturity.
+:::
 
 <style>
 .ai-grid {

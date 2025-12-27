@@ -7,6 +7,13 @@ AI is the single most transformative force in modern project management. In the 
 ## 🤖 The New Co-Pilot
 AI doesn't replace the Project Manager; it replaces the *administrative burden* of project management. Your value shifts from tracking tasks to **interpreting insights**, **making strategy**, and **leading people**.
 
+## What You'll Master (PMP Lens)
+By the end of this chapter, you should be able to:
+*   **Choose the right AI tool** (GenAI vs predictive vs automation) for the job.
+*   **Spot the risks** (hallucinations, bias, privacy, over-reliance) and apply guardrails.
+*   **Use AI inside PMP workflows** (charters, plans, risks, comms, status, lessons learned) without breaking governance.
+*   **Answer exam scenarios** with the correct mindset: policy-first, human judgment always, accountability stays with the PM.
+
 <div class="section-grid">
   <div class="section-card">
     <div class="section-title">10.1 AI Essentials</div>
@@ -24,6 +31,12 @@ AI doesn't replace the Project Manager; it replaces the *administrative burden* 
     <div class="section-title">10.3 AI in the Lifecycle</div>
     <p class="section-description">Practical use cases: drafting charters, optimizing schedules, and automating status reports.</p>
     <a href="./ai-lifecycle" class="section-link">Apply AI Daily →</a>
+  </div>
+
+  <div class="section-card">
+    <div class="section-title">10.4 AI PM Toolkit</div>
+    <p class="section-description">Copy/paste templates: AI working agreement, redaction checklist, prompt patterns, and AI risk register add-ons.</p>
+    <a href="./toolkit" class="section-link">Use the Toolkit →</a>
   </div>
 
   <div class="section-card knowledge-check">

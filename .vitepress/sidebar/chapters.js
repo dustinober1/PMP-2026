@@ -154,6 +154,7 @@ export function createSidebar() {
         { text: '10.1 AI Essentials', link: '/guide/10-ai-pm/ai-essentials' },
         { text: '10.2 Responsible AI', link: '/guide/10-ai-pm/responsible-ai' },
         { text: '10.3 AI in the Lifecycle', link: '/guide/10-ai-pm/ai-lifecycle' },
+        { text: '10.4 Tools & Templates', link: '/guide/10-ai-pm/toolkit' },
         { text: '📝 Knowledge Check', link: '/guide/10-ai-pm/knowledge-check' }
       ]
     },
