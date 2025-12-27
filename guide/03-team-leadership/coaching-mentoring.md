@@ -20,6 +20,17 @@ Your most critical daily action is neutralizing **Impediments**. If you aren't c
 
 ---
 
+## 🧰 Servant Leadership in Practice (The Daily Behaviors)
+Servant leadership is not "being nice." It is a high-discipline leadership system.
+
+*   **Remove blockers**: dependencies, access issues, tool friction, unclear priorities.
+*   **Create clarity**: goals, acceptance criteria, decision rights, and constraints.
+*   **Protect focus**: prevent random work, interruptions, and stakeholder "scope sneak."
+*   **Grow people**: coaching, mentoring, and creating learning opportunities.
+*   **Model transparency**: communicate risks early and keep work visible.
+
+---
+
 ## 🧭 Situational Leadership (SLII)
 You cannot treat every team member the same. You must adapt to their readiness.
 
@@ -48,6 +59,21 @@ You cannot treat every team member the same. You must adapt to their readiness.
 
 ---
 
+## 🧑‍🏫 Coaching vs. Mentoring vs. Training
+These concepts are often mixed up in real life. The exam expects you to choose the right tool.
+
+| Mode | Primary goal | Best for | What you do |
+| :--- | :----------- | :------- | :---------- |
+| **Coaching** | Improve performance on current work | Skill gap, low confidence, unclear approach | Ask questions, guide, remove obstacles |
+| **Mentoring** | Long-term growth and judgment | Career development, organizational navigation | Connect to an experienced mentor |
+| **Training** | Build knowledge/skills | New tools, methods, or domain learning | Arrange training and practice opportunities |
+
+::: tip ✅ Exam Pattern: Support beats replacement
+If a team member is willing but struggling, the best answer is usually coaching/training (not reassigning the work or escalating immediately).
+:::
+
+---
+
 ## 🎭 Common Leadership Styles
 Beyond "Servant," you must recognize these other archetypes on the exam.
 
@@ -66,7 +92,7 @@ Beyond "Servant," you must recognize these other archetypes on the exam.
   </div>
   <div class="style-card s-form">
     <div class="style-head">Transformational</div>
-    <p>"Inspire change."Empowers the team to innovate and evolve the organization. High energy/enthusiasm.</p>
+    <p>"Inspire change." Empowers the team to innovate and evolve the organization. High energy/enthusiasm.</p>
   </div>
   <div class="style-card s-char">
     <div class="style-head">Charismatic</div>
@@ -80,12 +106,38 @@ Beyond "Servant," you must recognize these other archetypes on the exam.
 
 ---
 
+## 🧲 Influence Without Authority (Power on the PMP Exam)
+Project managers often lead in matrix environments where they cannot "command" resources.
+
+*   **Expert power**: credibility from knowledge and competence (high-value, ethical).
+*   **Referent power**: influence through trust and relationships (servant leadership fuel).
+*   **Legitimate power**: authority granted by role (limited in many orgs).
+*   **Reward power**: ability to give benefits (often indirect for PMs).
+*   **Coercive power**: threat/punishment (use rarely; damages trust; usually a trap answer).
+
+---
+
 ## 🧠 Emotional Intelligence (EQ)
 EQ is the "secret sauce" of leading through crisis.
 *   **Self-Awareness**: "I am angry right now." (Recognizing triggers).
 *   **Self-Management**: "I will take a breath before replying." (Controlling impulses).
 *   **Social Awareness**: "The team looks exhausted." (Empathy).
 *   **Relationship Management**: "Let's take a break and reset." (Influencing others).
+
+---
+
+## 🗣️ A PMP-Friendly Coaching Conversation (Fast Script)
+Use this when performance drops, conflict rises, or morale is slipping.
+
+1.  **Open**: "What is making this hard right now?"
+2.  **Listen**: paraphrase and confirm understanding (do not jump to solutions).
+3.  **Clarify**: agree on the desired outcome and the next smallest step.
+4.  **Support**: remove impediments, offer options, or arrange training/mentoring.
+5.  **Follow up**: schedule a check-in and recognize progress.
+
+::: info 💬 Feedback Model: SBI (Situation–Behavior–Impact)
+"In yesterday’s demo (Situation), you interrupted two teammates (Behavior), and it shut down discussion (Impact). Can we try a hand-raise rule?"
+:::
 
 <style>
 .style-grid {

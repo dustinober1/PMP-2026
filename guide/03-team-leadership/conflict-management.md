@@ -37,6 +37,23 @@ Success requires selecting the right tool for the job.
 
 ---
 
+## 🧠 Choosing the Right Mode (PMP Cheat Sheet)
+The exam often asks for the **best** technique, not the fastest.
+
+| Mode | Use when | What you gain | What you risk |
+| :--- | :------- | :------------ | :------------ |
+| **Collaborate (Problem Solve)** | Root cause matters and you have time | Best solution + commitment | Slower; requires facilitation |
+| **Compromise** | Temporary solution is acceptable | Quick agreement | Mediocre outcome; may return later |
+| **Force / Direct** | Emergency, safety, severe compliance | Immediate action | Damaged trust; resentment |
+| **Smooth (Accommodate)** | Issue is minor or you want to preserve relationship | Short-term harmony | Real issue stays unresolved |
+| **Withdraw (Avoid)** | Emotions are too high or facts are unclear | Cool-down time | Delays resolution; can fester |
+
+::: tip ✅ Exam Pattern: Collaborate is the default "best"
+If the scenario is not an emergency, look for choices that involve listening, using data, and jointly creating a solution.
+:::
+
+---
+
 ## 🧭 The Process of Peace
 When conflict erupts, follow this escalation ladder:
 
@@ -48,6 +65,18 @@ When conflict erupts, follow this escalation ladder:
 ::: warning ⚠️ The Personality Trap
 Most friction is caused by **Scope, Schedule, or Priorities**. Personality conflicts are rare. Always look for the *process* issue ("We have different deadlines") before blaming the *person* ("He is difficult").
 :::
+
+---
+
+## 🧩 A Simple Collaboration Agenda (15–30 Minutes)
+Use this structure to turn conflict into a decision:
+
+1.  **State the problem in neutral language** (facts, not accusations).
+2.  **Confirm interests**: what each side truly needs (time, quality, risk, autonomy).
+3.  **Generate options**: brainstorm first, evaluate second.
+4.  **Agree on criteria**: cost, schedule, risk, customer impact, compliance.
+5.  **Decide and assign actions**: owner + due date.
+6.  **Document**: capture the decision and update the team charter if a new rule is needed.
 
 <style>
 .mode-grid {

@@ -60,6 +60,35 @@ Recognition is the cheapest, most powerful tool in your kit.
 *   **Timely**: Feedback has a half-life. A compliment given 2 months later is worthless.
 *   **Public vs. Private**: Know your team. Introverts may hate public praise; extroverts crave it.
 
+---
+
+## 🧪 Motivation Diagnosis: What to Check First
+On the exam, the right answer is usually the one that diagnoses the environment before jumping to rewards.
+
+1.  **Fix hygiene blockers first** (Herzberg): tools, safety, unrealistic workload, unclear priorities, poor working conditions.
+2.  **Then increase motivators**: autonomy, mastery, purpose, responsibility, and meaningful recognition.
+3.  **Tailor the approach** (McClelland): some people want achievement, others affiliation, others influence/leadership.
+
+::: warning 🚫 Trap Answer: "Throw money at morale"
+Bonuses and perks can reduce dissatisfaction, but they rarely create sustained motivation by themselves.
+:::
+
+---
+
+## 📉 When Performance Drops (The PMI-Friendly Response)
+If a team member is missing deadlines, this is the typical best sequence:
+
+1.  **Meet privately**: seek to understand root cause (skill gap, unclear expectations, personal issues, blockers).
+2.  **Clarify expectations**: what "done" means, acceptance criteria, and priorities.
+3.  **Enable success**: coaching, training, pairing, or removing impediments.
+4.  **Agree on a plan**: small milestones + follow-up date.
+5.  **Escalate last**: involve functional manager/HR only after support and documentation.
+
+---
+
+## ⚖️ Fairness Is Fuel (Equity in Plain English)
+People compare their effort and rewards to others. If someone feels the system is unfair, motivation drops fast. Transparency in workload, recognition, and decision-making reduces this risk.
+
 <style>
 .theory-grid {
   display: grid;

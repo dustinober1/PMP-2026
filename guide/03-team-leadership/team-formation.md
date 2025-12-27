@@ -28,6 +28,23 @@ Before the work begins, the Project Manager must ensure the team has the right m
 
 ---
 
+## 🧮 A Simple Skills Matrix (Example)
+The exam often describes a team that is "missing a skill" or "struggling with new technology." Your first move is to make the gap visible.
+
+| Skill / Role | Dev A | Dev B | QA | Analyst |
+| :----------- | :---: | :---: | :-: | :-----: |
+| Domain knowledge | 2 | 1 | 1 | 3 |
+| API integration | 3 | 2 | 1 | 1 |
+| Test automation | 1 | 0 | 3 | 0 |
+| Stakeholder facilitation | 1 | 1 | 0 | 3 |
+
+**How to use it (Gap Analysis):**
+1.  Rate current capability (e.g., 0–3).
+2.  Identify the lowest-scoring skills that are critical-path or high-risk.
+3.  Pick a response: **train**, **coach/pair**, **acquire** (hire/contract), or **adjust scope/schedule**.
+
+---
+
 ## 📋 The RACI Matrix
 The gold standard for defining roles and responsibilities.
 
@@ -47,6 +64,30 @@ In matrix organizations, you often "borrow" your team.
 1.  **Alignment**: Show the functional manager how the project supports their department's goals.
 2.  **Strategic Value**: Present the project's high-level business case and impact.
 3.  **Escalation**: Only involve the Sponsor if a critical resource gap threatens project viability.
+
+---
+
+## 🧭 Team Acquisition Options (How You Actually Staff a Project)
+When a scenario says you "need a specialist" or "cannot get a key resource," think through these options in order:
+
+1.  **Pre-assigned**: Named resources already committed in the charter or contract.
+2.  **Negotiate**: Work with functional managers to secure time and clarify priorities.
+3.  **Acquire externally**: Contractors, vendors, or a shared services group.
+4.  **Upskill**: Training, mentoring, or pairing to close the gap.
+
+::: tip ✅ Exam Pattern: Present choices, not complaints
+The strongest PM answer is usually: identify the gap with data (skills/capacity), propose options (tradeoffs), then escalate only if needed.
+:::
+
+---
+
+## 🚀 Onboarding: Turning "Names on a Roster" Into a Team
+If you want to avoid a long Storming phase, do an intentional kickoff:
+
+*   **Set the mission**: what success looks like and why the project matters.
+*   **Clarify roles**: RACI for key deliverables and decision points.
+*   **Establish working agreements**: team charter, tools, communication norms, and conflict path.
+*   **Create an early win**: a small deliverable that builds confidence and trust quickly.
 
 <style>
 .formation-grid {

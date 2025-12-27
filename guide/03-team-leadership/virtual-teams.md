@@ -36,6 +36,32 @@ Virtual teams rely on two types of communication modes. High-performing teams ma
 
 ---
 
+## 📜 Remote Working Agreements (Put This in the Team Charter)
+Virtual work succeeds when expectations are explicit. These are the norms most commonly tested on the exam.
+
+*   **Core overlap hours**: the daily window where real-time meetings can happen.
+*   **Response-time rules**: e.g., chat within 2 hours, email within 24 hours (adjust to context).
+*   **Decision logging**: "If it is not written, it is not decided." Capture decisions in one place.
+*   **Async standup**: simple format: yesterday / today / blockers (posted at a consistent time).
+*   **Meeting etiquette**: agenda first, no side conversations, rotate facilitation, publish notes/actions.
+*   **Time zone fairness**: rotate meeting times so the same people are not always inconvenienced.
+
+::: tip ✅ Exam Pattern: Fix the system before blaming the person
+If a remote team member is "disengaged," the best first step is usually a private check-in plus improving clarity (tools, norms, charter) before any formal escalation.
+:::
+
+---
+
+## 🎥 Remote Facilitation: Preventing Misunderstanding
+Most virtual conflict comes from missing context and tone. Reduce it with these habits:
+
+*   **Use video for sensitive topics**: do not resolve emotional conflict in long email threads.
+*   **Summarize in writing after**: end meetings with a written recap of decisions and next actions.
+*   **Over-communicate status**: make risks and blockers visible early (bad news travels fast).
+*   **Assume positive intent**: ask clarifying questions before making judgments.
+
+---
+
 ## 🛰️ Leading from Anywhere
 As a remote leader, you must move from "monitoring hours" to **monitoring outcomes**.
 

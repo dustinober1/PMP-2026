@@ -48,6 +48,45 @@ Identified by Google as the **#1 predictor** of team success. It is the belief t
 Adding a new member or losing a key player will often knock a project team from **Performing** all the way back to **Storming**. Be prepared to shift your leadership style back to "Coaching" when this happens.
 :::
 
+---
+
+## 🛠️ Develop the Team: What Actually Works
+The PMP doesn't just test theory; it tests whether you know how to move a team forward.
+
+*   **Training**: close skill gaps with targeted learning (tools, domain, process).
+*   **Coaching & mentoring**: pair a learner with an expert; remove fear and build confidence.
+*   **Team-building**: workshops, retrospectives, and facilitated working sessions that build trust.
+*   **Ground rules**: clarify "how we work" so people stop guessing (see Team Charter).
+*   **Recognition**: reinforce the behaviors you want repeated.
+*   **Remove environmental blockers**: tools, access, unclear priorities, dependencies.
+
+---
+
+## 📈 Team Performance Assessments (TPAs)
+A TPA is a regular, intentional check-in on how well the team is functioning (not just whether tasks are "done").
+
+**Common inputs:**
+*   Observation and conversation (walk the board, 1-on-1s, listening sessions)
+*   Retrospectives (Agile/Hybrid)
+*   Team health surveys (psychological safety, clarity, workload)
+*   Delivery signals (rework, quality issues, missed commitments)
+
+**Outputs:**
+*   Improvement actions (process tweaks, working agreement updates)
+*   Targeted training/coaching plans
+*   Clearer roles and decision rights (RACI / Team Charter)
+
+---
+
+## 🧯 If Your Team Is Stuck in Storming
+Storming is normal. Your job is to keep it productive and time-boxed.
+
+1.  **Reset the goal**: confirm what success looks like and what "done" means.
+2.  **Clarify ownership**: RACI for the next set of deliverables.
+3.  **Facilitate collaboration**: bring data, surface assumptions, and align on a decision rule.
+4.  **Reinforce safety**: make it safe to disagree about ideas without attacking people.
+5.  **Recognize progress**: celebrate small wins to accelerate Norming.
+
 <style>
 .tuckman-grid {
   display: grid;

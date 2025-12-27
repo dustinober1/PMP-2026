@@ -55,6 +55,35 @@ Building a team isn't just about hiring smart people. It's about creating an env
 *   **Trust**: "I know you have my back when things go wrong."
 *   **Diversity**: "We solve problems better because we think differently."
 
+---
+
+## 🧩 PMI Lens: Acquire → Develop → Manage the Team
+On the PMP exam, most "people problems" are really asking which of these three verbs you should apply **first**.
+
+| PMI Verb | What you're trying to do | Artifacts you typically use | Common exam cues |
+| :------- | :----------------------- | :-------------------------- | :--------------- |
+| **Acquire Team** | Get the right people with the right availability | Resource management plan, staff assignments, resource calendars, **skills matrix**, **RACI** | Missing skills, no availability, matrix org negotiation |
+| **Develop Team** | Improve skills, trust, and collaboration | **Team charter**, ground rules, training, mentoring, team-building, recognition | New team, Storming, low trust, skill gaps |
+| **Manage Team** | Track performance and resolve issues | **1-on-1s**, issue log, conflict resolution, feedback, change requests | Underperformance, blockers, conflict, repeated missed commitments |
+
+::: tip 🧠 Exam Pattern: Clarity → Support → Escalate (last)
+If the choices include "meet privately," "clarify roles," "remove impediments," or "refer to the team charter," those are usually better than replacing people or escalating immediately.
+:::
+
+---
+
+## ✅ Week 1: Team Setup Checklist
+Use this as your "team operating system" to prevent avoidable People-domain problems.
+
+1.  **Align on purpose**: outcomes, success criteria, and constraints (time, budget, compliance).
+2.  **Clarify roles**: build a RACI for major deliverables and decision points.
+3.  **Create working agreements**: team charter + ground rules + conflict escalation path.
+4.  **Make work visible**: shared task board and a single "source of truth" for decisions.
+5.  **Define quality**: acceptance criteria / Definition of Done, review and testing expectations.
+6.  **Set communication norms**: channels, cadence, and response-time expectations.
+7.  **Proactively build trust**: kickoff, introductions, and regular 1-on-1s.
+8.  **Confirm capacity**: availability, vacations, time zones, and competing priorities.
+
 <style>
 .build-grid {
   display: grid;

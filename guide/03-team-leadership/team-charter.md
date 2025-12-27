@@ -28,6 +28,22 @@ A living document created **by the team, for the team**. It sets the guardrails 
 
 ---
 
+## 🧾 Team Charter Template (Copy/Paste)
+Your charter should be short, clear, and reviewed regularly. Use this checklist as a starting point:
+
+- [ ] **Purpose & outcomes**: what success looks like and why the work matters
+- [ ] **Roles & responsibilities**: link to (or embed) the RACI for major deliverables
+- [ ] **Working hours & availability**: time zones, core overlap hours, PTO rules
+- [ ] **Communication**: channels + response-time expectations (async vs sync)
+- [ ] **Meeting norms**: who facilitates, agenda rules, note-taking, decision recording
+- [ ] **Decision making**: how decisions are made and who breaks ties
+- [ ] **Conflict & escalation**: how we disagree, how we resolve, when we escalate
+- [ ] **Quality rules**: acceptance criteria / Definition of Done, review/testing expectations
+- [ ] **Tooling**: where work lives (board), where docs live, where decisions are captured
+- [ ] **Continuous improvement**: retro cadence and how the charter is updated
+
+---
+
 ## 🚦 Establishing Ground Rules
 Ground rules are only effective if they follow these three principles:
 1.  **Collaborative**: The team must write them to "own" them.
@@ -37,6 +53,29 @@ Ground rules are only effective if they follow these three principles:
 ::: info 🛠️ 2026 Focus: Adaptive Agreements
 In an Agile or Hybrid context, the Team Charter is not static. It is reviewed during every **Retrospective**. If a rule (e.g., "Meetings at 9:00 AM") is causing friction (e.g., child-care commutes), the team changes it immediately to optimize flow.
 :::
+
+---
+
+## 🗳️ Decision Models (When to Use Which)
+Decision rules prevent "hidden rework" caused by repeating the same debate.
+
+| Model | Best when | Risk |
+| :---- | :-------- | :--- |
+| **Consensus** | High-impact decisions that require buy-in | Slow if not time-boxed |
+| **Majority vote** | Time-boxed decisions with moderate impact | Minority may disengage |
+| **Expert / delegated** | Specialized technical decisions | Others may feel excluded |
+| **PM decides** | Emergencies, safety, severe compliance | Lower buy-in long term |
+| **Sponsor decides** | Cross-org tradeoffs beyond team authority | Over-escalation if used often |
+
+---
+
+## 🧯 Conflict & Escalation Path (Put This in the Charter)
+Conflict is inevitable. Chaos is optional.
+
+1.  **Direct conversation**: address the issue quickly and respectfully (assume positive intent).
+2.  **Facilitated session**: PM/Scrum Master helps clarify facts, options, and tradeoffs.
+3.  **Wider alignment**: involve functional managers or impacted stakeholders for constraints.
+4.  **Escalate (last)**: sponsor/steering committee decides when authority is required.
 
 <style>
 .charter-grid {

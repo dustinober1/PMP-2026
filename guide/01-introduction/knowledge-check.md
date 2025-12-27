@@ -145,7 +145,7 @@ Test your mastery of the 2026 PMP exam structure, ways of working, and core proj
       reference: 'Section 1.4f.1'
     },
     {
-      text: 'In an Agile project, what is fixed in the \"Inverted Triangle\" of constraints?',
+      text: 'In an Agile project, what is fixed in the Inverted Triangle of constraints?',
       options: [
         'Scope',
         'Cost and Schedule (Time)',
@@ -169,7 +169,7 @@ Test your mastery of the 2026 PMP exam structure, ways of working, and core proj
       reference: 'Section 1.4b.7'
     },
     {
-      text: 'Which domain of the exam covers \"Managing Conflict\" and \"Leading a Team\"?',
+      text: 'Which domain of the exam covers Managing Conflict and Leading a Team?',
       options: [
         'People',
         'Process',
@@ -193,7 +193,7 @@ Test your mastery of the 2026 PMP exam structure, ways of working, and core proj
       reference: 'Section 1.4c.3'
     },
     {
-      text: 'A team member is burnt out because the project is \"Red\" but the status report says \"Green.\" You have a duty to report truthfully under which PMI value?',
+      text: 'A team member is burnt out because the project is Red but the status report says Green. You have a duty to report truthfully under which PMI value?',
       options: [
         'Responsibility',
         'Respect',
@@ -253,10 +253,10 @@ Test your mastery of the 2026 PMP exam structure, ways of working, and core proj
       reference: 'Section 1.3.1'
     },
     {
-      text: 'What is \"Gold Plating\"?',
+      text: 'What is Gold Plating?',
       options: [
         'Delivering exactly what the customer asked for',
-        'Adding extra features that were not requested to \"delight\" the customer',
+        'Adding extra features that were not requested to delight the customer',
         'Using high-quality materials',
         'Finishing the project early'
       ],
@@ -289,7 +289,7 @@ Test your mastery of the 2026 PMP exam structure, ways of working, and core proj
       reference: 'Section 1.4b.7'
     },
     {
-      text: 'When using AI for \"Predictive Analytics\" in project management, what is the primary benefit?',
+      text: 'When using AI for Predictive Analytics in project management, what is the primary benefit?',
       options: [
         'To write project documents faster',
         'To replace human judgment in decision-making',

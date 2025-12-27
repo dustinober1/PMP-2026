@@ -8,6 +8,18 @@ The People domain is **42% of the exam**. (People + Business > Process). If you 
 
 ---
 
+## 🎯 What You'll Master (PMP-Style Skills)
+By the end of this chapter, you should be able to:
+
+*   Build a team using a skills matrix and clarify ownership with RACI
+*   Create a team charter with decision rules and conflict escalation
+*   Match leadership style to team readiness (Situational Leadership)
+*   Select the best conflict resolution mode for the situation
+*   Motivate knowledge workers with intrinsic drivers (autonomy, mastery, purpose)
+*   Lead distributed teams with explicit remote working agreements
+
+---
+
 ## 🧭 The Leadership Compass
 From assembling the squad to navigating high-stakes conflict.
 
