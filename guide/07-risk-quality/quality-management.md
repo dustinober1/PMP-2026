@@ -131,6 +131,205 @@ If the question asks "How should the PM ensure quality requirements are clear?",
 
 ---
 
+## 📈 Statistical Process Control (SPC) Deep Dive
+
+SPC uses statistics to determine if your process is stable and performing as expected. This is high-yield material for the PMP exam.
+
+### Sigma Levels and Defect Rates
+
+The sigma level (σ) indicates how many standard deviations fit between the process mean and specification limits.
+
+| Sigma Level | Defects Per Million Opportunities (DPMO) | Yield (% Good) | Industry Context |
+|---|---|---|---|
+| **1σ** | 691,462 | 30.85% | Very poor |
+| **2σ** | 308,538 | 69.15% | Poor |
+| **3σ** | 66,807 | 93.32% | Acceptable for some industries |
+| **4σ** | 6,210 | 99.38% | Good |
+| **5σ** | 233 | 99.977% | Excellent |
+| **6σ** | 3.4 | 99.99966% | World-class (Six Sigma goal) |
+
+**Exam Context**: Most organizations aim for **3σ to 4σ** as a baseline. Six Sigma (6σ) is the aspirational target for critical processes.
+
+### Process Capability Indices (Cp and Cpk)
+
+These indices measure whether your process can consistently meet specification requirements.
+
+#### Cp (Process Capability)
+$$C_p = \frac{USL - LSL}{6\sigma}$$
+
+- **USL** = Upper Specification Limit
+- **LSL** = Lower Specification Limit
+- **σ** = Process standard deviation
+
+**Interpretation**:
+- Cp < 1.0 → Process is NOT capable (too much variation)
+- Cp = 1.0 → Process barely fits within specs
+- Cp > 1.33 → Process is capable (good margin)
+- Cp > 2.0 → Excellent capability
+
+#### Cpk (Process Capability Index - Centered)
+$$C_{pk} = \min\left(\frac{USL - \bar{x}}{3\sigma}, \frac{\bar{x} - LSL}{3\sigma}\right)$$
+
+Cpk accounts for process centering:
+- **Cpk = Cp** → Process is perfectly centered
+- **Cpk < Cp** → Process is off-center (drifting toward one spec limit)
+
+::: warning ⚠️ Exam Trap
+A process can have high Cp but low Cpk if it's centered far from the middle of the specification range. The exam loves this distinction!
+:::
+
+### Worked Example: Process Capability
+
+**Scenario**: A machining process produces parts with a target diameter of 10.0mm.
+- Specification limits: 10.0 ± 0.3mm (LSL = 9.7mm, USL = 10.3mm)
+- Process mean: 10.1mm
+- Process σ: 0.08mm
+
+**Calculate Cp**:
+$$C_p = \frac{10.3 - 9.7}{6 × 0.08} = \frac{0.6}{0.48} = 1.25$$
+
+**Calculate Cpk**:
+$$C_{pk} = \min\left(\frac{10.3 - 10.1}{3 × 0.08}, \frac{10.1 - 9.7}{3 × 0.08}\right) = \min\left(\frac{0.2}{0.24}, \frac{0.4}{0.24}\right) = \min(0.83, 1.67) = 0.83$$
+
+**Interpretation**: 
+- Cp = 1.25 suggests the process could be capable
+- Cpk = 0.83 shows the process is off-center (too high) and is NOT capable
+- **Action**: Re-center the process toward 10.0mm
+
+---
+
+## 💰 Cost of Quality (CoQ): Detailed Calculation
+
+Understanding CoQ helps justify prevention investments to stakeholders.
+
+### CoQ Categories Expanded
+
+| Category | Type | Examples | Typical % of Total CoQ |
+|---|---|---|---|
+| **Prevention** | Conformance | Training, process design, quality planning, tools/automation, design reviews | 10-15% |
+| **Appraisal** | Conformance | Testing, inspections, audits, verification, calibration | 20-25% |
+| **Internal Failure** | Nonconformance | Rework, scrap, retest, failure analysis, downtime | 25-40% |
+| **External Failure** | Nonconformance | Warranty, recalls, legal fees, reputation loss, customer support | 25-40% |
+
+### Worked Example: CoQ Analysis
+
+**Scenario**: A software development project has the following quality costs:
+
+| Cost Item | Category | Amount |
+|---|---|---|
+| Developer training on secure coding | Prevention | $15,000 |
+| Code review tooling | Prevention | $5,000 |
+| Automated testing infrastructure | Appraisal | $20,000 |
+| QA team salaries (testing phase) | Appraisal | $45,000 |
+| Bugs found in development | Internal Failure | $30,000 |
+| Rework from failed UAT | Internal Failure | $25,000 |
+| Customer-reported defects (support) | External Failure | $40,000 |
+| Emergency patch deployment | External Failure | $15,000 |
+
+**CoQ Calculation**:
+- Prevention: $15k + $5k = **$20,000** (10%)
+- Appraisal: $20k + $45k = **$65,000** (33%)
+- Internal Failure: $30k + $25k = **$55,000** (28%)
+- External Failure: $40k + $15k = **$55,000** (28%)
+- **Total CoQ: $195,000**
+
+**Insight**: External failures equal internal failures, indicating quality escapes. **Recommendation**: Invest more in prevention (training, reviews) to shift costs left.
+
+::: tip 💡 The Quality Investment Principle
+Every $1 spent on **prevention** can save $10 in **appraisal** and $100 in **failure costs**. This is why "build quality in" is more cost-effective than "test quality in."
+:::
+
+---
+
+## 🎯 Voice of the Customer (VOC) Tools
+
+Quality starts with understanding what customers truly value.
+
+### Kano Model (Customer Satisfaction Analysis)
+
+The Kano Model categorizes requirements by their impact on customer satisfaction:
+
+| Category | Description | Customer Response | Example |
+|---|---|---|---|
+| **Basic (Must-Have)** | Expected features—absence causes dissatisfaction | "Of course it should have this" | Car has brakes |
+| **Performance (Linear)** | "More is better"—satisfaction scales with delivery | "The faster, the better" | Car acceleration |
+| **Delighters (Excitement)** | Unexpected features—create wow factor | "I didn't expect this!" | Car seat warmers |
+| **Indifferent** | Features customers don't care about | "Doesn't matter to me" | Engine color |
+| **Reverse** | Features that some customers actively dislike | "I hate this feature" | Automatic pop-up ads |
+
+**Exam Context**: 
+- **Basic features** must be delivered to avoid failure
+- **Delighters** differentiate your product but don't compensate for missing basics
+- Focus on **Performance features** for competitive advantage
+
+### Quality Function Deployment (QFD) - House of Quality
+
+QFD translates customer needs into technical specifications. The "House of Quality" matrix connects:
+
+1. **Customer Requirements** (WHATs) - left side
+2. **Technical Requirements** (HOWs) - top
+3. **Relationship Matrix** - center (how HOWs affect WHATs)
+4. **Competitive Analysis** - right side
+5. **Correlation Matrix** - roof (how HOWs affect each other)
+6. **Targets** - bottom
+
+**Simplified Example**:
+| Customer Need (WHAT) | Fast Load Time | Mobile Responsive | Easy Navigation |
+|---|---|---|---|
+| Quick access to information | ●●● Strong | ●● Medium | ● Weak |
+| Works on my phone | ● Weak | ●●● Strong | ●● Medium |
+| Find what I need easily | ● Weak | ● Weak | ●●● Strong |
+
+**Priority (weight × relationship)**: Fast Load Time gets highest priority for "quick access."
+
+---
+
+## 🔬 Design of Experiments (DoE)
+
+DoE is used when you need to optimize a process by testing multiple variables simultaneously.
+
+### When to Use DoE
+- Multiple factors may affect quality outcomes
+- Testing all combinations individually is too expensive
+- You need to find optimal settings
+
+### Types of Designs
+
+| Design | Description | When to Use |
+|---|---|---|
+| **Full Factorial** | Test all combinations of all factors | Small number of factors (2-3) |
+| **Fractional Factorial** | Test subset of combinations | Many factors; need efficiency |
+| **Taguchi Method** | Focus on reducing variation (robust design) | Manufacturing; reducing defects |
+| **Response Surface** | Find optimal settings for continuous factors | Fine-tuning process parameters |
+
+### DoE Example
+
+**Scenario**: A manufacturing process has 3 factors that might affect quality:
+- Temperature (Low/High)
+- Pressure (Low/High)
+- Speed (Low/High)
+
+**Full Factorial Design**: 2³ = 8 test runs covering all combinations
+
+| Run | Temp | Pressure | Speed | Quality Score |
+|---|---|---|---|---|
+| 1 | Low | Low | Low | 85 |
+| 2 | Low | Low | High | 78 |
+| 3 | Low | High | Low | 90 |
+| 4 | Low | High | High | 82 |
+| 5 | High | Low | Low | 88 |
+| 6 | High | Low | High | 75 |
+| 7 | High | High | Low | 95 |
+| 8 | High | High | High | 87 |
+
+**Analysis**: High Pressure + Low Speed yields highest quality (Run 7: 95)
+
+::: tip 💡 Exam Insight
+DoE appears when the scenario describes "multiple variables" and "need to find optimal settings." It's more efficient than testing one variable at a time.
+:::
+
+---
+
 ## 🔁 Continuous Improvement Frameworks
 
 ### Plan-Do-Check-Act (PDCA / Deming Cycle)
