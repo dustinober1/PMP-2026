@@ -1,6 +1,6 @@
 # Knowledge Check: AI & Project Management
 
-Test your AI literacy and judgment to navigate the modern, tech-augmented project environment. These 25 questions cover the major concepts from Chapter 10.
+Test your AI literacy and judgment to navigate the modern, tech-augmented project environment. These 25 questions cover the major concepts from Chapter 10, including ethics, prompting strategies, and lifecycle application.
 
 <QuizComponent
   title="Chapter 10: AI & PM"
@@ -42,16 +42,16 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       reference: 'Section 10.1 - Hallucination Risk'
     },
     {
-      text: 'A Project Manager wants to establish clear rules for how the team uses GenAI tools (including when to disclose usage). Which document should be updated?',
+      text: 'A Project Manager presents an AI-generated status report to the Steering Committee as their own original work, without disclosing the AI assistance. Which PMI Code of Ethics value is primarily violated?',
       options: [
-        'The Stakeholder Register',
-        'The Issue Log',
-        'The Team Working Agreement (Team Charter)',
-        'The Project Schedule'
+        'Responsibility',
+        'Fairness',
+        'Honesty',
+        'Respect'
       ],
       correct: 2,
-      explanation: 'Rules of engagement, including technology usage and ethical disclosure norms, belong in the Team Charter/Working Agreement.',
-      reference: 'Section 10.2 - AI Charter'
+      explanation: 'Honesty requires transparency. Presenting AI-generated work as your own original creation misleads stakeholders about the source of the information.',
+      reference: 'Section 10.2 - Alignment with PMI Code of Ethics'
     },
     {
       text: 'In a regulated industry, stakeholders demand to know why an AI model rejected a loan application. The current model gives a simple Yes/No. What is missing?',
@@ -78,16 +78,16 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       reference: 'Section 10.1 - The New PM Toolbox'
     },
     {
-      text: 'Which AI category is BEST suited for forecasting schedule delays using historical performance data?',
+      text: 'An AI tool calculates an Estimate at Completion (EAC) that is 15% higher than the current budget. What is the PM\'s BEST immediate next step?',
       options: [
-        'Generative AI (LLMs)',
-        'Predictive AI',
-        'Automation agents',
-        'Optical Character Recognition (OCR)'
+        'Immediately submit a Change Request for more budget',
+        'Analyze the root causes of the variance (CV/CPI) to validate the AI\'s forecast',
+        'Ignore the forecast until the SPI drops below 0.9',
+        'Ask the AI to recalculate using a more optimistic formula'
       ],
       correct: 1,
-      explanation: 'Predictive AI is used for forecasting outcomes from historical data (delays, cost overruns, bottlenecks).',
-      reference: 'Section 10.1 - The New PM Toolbox'
+      explanation: 'AI provides the calculation/forecast; the PM provides the analysis. You must validate the root cause of the variance before acting on the forecast.',
+      reference: 'Section 10.3 - AI & Earned Value Management'
     },
     {
       text: 'An AI tool suggests tasks and durations for your schedule. What should the PM do BEFORE baselining the schedule?',
@@ -105,7 +105,7 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       text: 'Which action BEST reduces the risk of hallucinations in AI-generated project artifacts?',
       options: [
         'Ask the AI to be more confident in its answers',
-        'Provide approved reference material and require the AI to stick to it',
+        'Provide approved reference material and require the AI to stick to it (Grounding)',
         'Use longer prompts to overwhelm the model with data',
         'Avoid specifying an output format'
       ],
@@ -138,16 +138,16 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       reference: 'Section 10.4 - Prompt Template / HITL Checklist'
     },
     {
-      text: 'Which prompt element MOST directly improves auditability and maturity in PMP-style AI usage?',
+      text: 'You need the AI to analyze a complex root cause for a quality failure. Which prompting technique is MOST likely to yield a high-quality result?',
       options: [
-        'A request for jokes and creative metaphors',
-        'A requirement to list assumptions, unknowns, and what needs human validation',
-        'A request to avoid asking any clarifying questions',
-        'A request to keep the output unstructured'
+        'Zero-Shot Prompting (asking without context)',
+        'Chain of Thought Prompting (asking the AI to explain its reasoning step-by-step)',
+        'Role Prompting (asking the AI to act as a comedian)',
+        'High Temperature Prompting (asking for maximum creativity)'
       ],
       correct: 1,
-      explanation: 'Strong prompts require assumptions/unknowns and validation steps, which aligns with professional judgment and governance.',
-      reference: 'Section 10.3 - Prompt Engineering'
+      explanation: 'Chain of Thought prompting encourages the model to break down complex logic steps, reducing errors in reasoning tasks like root cause analysis.',
+      reference: 'Section 10.1 - Advanced Prompting Techniques'
     },
     {
       text: 'A team proposes an AI tool that can automatically send stakeholder updates. What is the MOST appropriate guardrail?',
@@ -182,7 +182,7 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
         'Remove all governance rules to speed up staffing'
       ],
       correct: 1,
-      explanation: 'AI can reflect historical bias. The PM must audit outputs, use fair criteria, and ensure decisions are reviewed by humans.',
+      explanation: 'AI can reflect historical bias. The PM must audit outputs, use fair criteria, and ensure decisions are reviewed by humans (Fairness value).',
       reference: 'Section 10.2 - Bias Awareness'
     },
     {
@@ -194,20 +194,20 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
         'No one, because AI is experimental'
       ],
       correct: 2,
-      explanation: 'Accountability remains with humans. AI is a tool; the PM/organization is responsible for validating outputs before sharing.',
+      explanation: 'Accountability remains with humans (PMI Code of Ethics: Responsibility). AI is a tool; the PM/organization is responsible for validating outputs before sharing.',
       reference: 'Section 10.2 - Accountability'
     },
     {
-      text: 'According to the governance RACI concept, who is typically RESPONSIBLE for leading response to a suspected data exposure incident?',
+      text: 'You are using "Few-Shot Prompting" to help an AI draft a Risk Register. What does this involve?',
       options: [
-        'The AI model',
-        'IT/Security',
-        'The project scheduler',
-        'The newest team member who used the tool'
+        'Giving the AI zero context and asking for a list',
+        'Providing 2-3 examples of a "good" risk entry before asking it to generate new ones',
+        'Asking the AI to think step-by-step',
+        'Asking the AI to rewrite the response 10 times'
       ],
       correct: 1,
-      explanation: 'Incident response is typically led by IT/Security with Legal/Compliance involvement as required. The PM supports containment and communication.',
-      reference: 'Section 10.2 - Governance RACI'
+      explanation: 'Few-Shot prompting involves providing a few high-quality examples (shots) to guide the model\'s format and style.',
+      reference: 'Section 10.1 - Advanced Prompting Techniques'
     },
     {
       text: 'You want to prompt an AI tool with meeting notes. Which approach BEST follows data minimization and privacy best practices?',

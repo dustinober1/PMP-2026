@@ -96,6 +96,22 @@ Quality bar: Flag assumptions, risks, open questions, and what needs human valid
 If you get a “perfect” answer with no assumptions or questions, that’s a red flag. In real PM work (and on the exam), **clarifying questions** and **risk flags** are signs of maturity.
 :::
 
+---
+
+## 🚀 Advanced Prompting Techniques
+To get "Expert" level outputs, use these specific techniques.
+
+| Technique | How it works | When to use |
+| :--- | :--- | :--- |
+| **Few-Shot Prompting** | Give the AI 2-3 examples of "good" output before asking for the new one. | When you need a specific format for a Risk Register or Status Report. |
+| **Chain of Thought** | Ask the AI to "think step-by-step" or "explain your reasoning before giving the answer." | For complex calculations (budget/schedule) or logic problems (root cause analysis). |
+| **Role Prompting** | Assign a specific persona (e.g., "Act as a skeptical Auditor" or "Act as an empathetic Agile Coach"). | When you need a specific tone or perspective (e.g., identifying gaps in a plan). |
+| **Iterative Refinement** | Don't accept the first draft. Ask: "Critique this against the PMBOK Guide 7th Edition principles and suggest improvements." | For critical artifacts like the Project Charter or Quality Management Plan. |
+
+---
+
+## 🔍 The "Hallucination" Risk
+
 <style>
 .ai-grid {
   display: grid;

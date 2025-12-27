@@ -101,6 +101,17 @@ Constraints: Explain variances and propose corrective actions; keep to 10 bullet
 Inputs: Schedule variance: [SV], Cost variance: [CV], key milestones: [PASTE], risks/issues: [PASTE]
 ```
 
+### 📊 AI & Earned Value Management (EVM)
+AI excels at the *calculation* and *forecasting* parts of EVM, allowing you to focus on the *corrective action*.
+
+*   **Pattern Recognition**: "Based on the last 3 months of SPI < 1.0, the AI predicts a final delay of 2 weeks unless velocity increases by 15%."
+*   **Root Cause Analysis**: Feed the AI your raw performance data and ask: "Why is CPI degrading? Correlate with recent resource changes."
+*   **EAC Generation**: "Calculate Independent EAC (Estimate at Completion) using 3 different formulas (optimistic, pessimistic, current trend) and explain the difference."
+
+::: tip 💡 The PM's Job
+The AI calculates the **EAC** (Estimate at Completion). The PM decides if the **VAC** (Variance at Completion) is acceptable or if a Change Request is needed.
+:::
+
 ### Closing: Lessons Learned + Final Report
 **Best uses:** clustering feedback into themes and producing closure artifacts.
 
