@@ -43,7 +43,8 @@ coverage/
 .env.local
 .env.*.local
 
-# Legacy directories (content moved to assets/pdfs/)
+# Source PDFs (kept out of repo; link to official sources)
+assets/pdfs/
 References/
 
 .gemini/
