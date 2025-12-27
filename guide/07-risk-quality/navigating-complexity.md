@@ -174,6 +174,214 @@ Temperature rises → Heater turns off → Balance maintained
 
 ---
 
+## 🎯 Theory of Constraints (TOC)
+
+The Theory of Constraints states that every system has at least one constraint (bottleneck) that limits its performance. Improving anything other than the constraint will not improve overall system performance.
+
+### The Five Focusing Steps
+
+| Step | What to Do | Example |
+|---|---|---|
+| **1. Identify** | Find the constraint (what limits throughput?) | "Testing phase is always backed up" |
+| **2. Exploit** | Maximize the constraint's efficiency (don't waste any capacity) | "Ensure testers are never idle; prioritize their queue" |
+| **3. Subordinate** | Align everything else to support the constraint | "Developers slow down to avoid overwhelming QA" |
+| **4. Elevate** | Invest to increase constraint capacity | "Hire more testers or automate testing" |
+| **5. Repeat** | Once solved, find the new constraint | "Now deployment is the bottleneck" |
+
+### Drum-Buffer-Rope (DBR) Concept
+
+A scheduling method derived from TOC:
+- **Drum**: The constraint sets the pace (the "heartbeat" of the system)
+- **Buffer**: Protect the constraint with time/material buffers (ensure it never starves)
+- **Rope**: Pull work into the system at the constraint's pace (don't overload)
+
+**Exam Context**: If a question describes a team that is "always waiting on one person/process," the answer often involves **identifying and elevating the constraint**.
+
+### WIP Limits and TOC
+
+Work-in-Progress (WIP) limits directly support TOC by:
+- Preventing overloading of the constraint
+- Making bottlenecks visible
+- Forcing focus on completing work before starting new work
+
+**WIP Limit Formula (Little's Law)**:
+$$\text{Lead Time} = \frac{\text{WIP}}{\text{Throughput}}$$
+
+To reduce lead time:
+- Reduce WIP (less work in progress)
+- Increase throughput (usually by improving the constraint)
+
+---
+
+## 🔄 System Archetypes (Recurring Patterns)
+
+System archetypes are common patterns of behavior that repeat across different systems. Recognizing them helps you choose appropriate interventions.
+
+### Archetype 1: Shifting the Burden
+
+**Pattern**: A quick fix addresses symptoms but doesn't solve the root cause. Over time, the fundamental solution becomes harder to apply.
+
+**Structure**:
+```
+Problem Symptom
+├── Quick Fix (symptom relief) → Side Effect
+│                                    ↓
+│                            Delays/Reduces
+│                                    ↓
+└── Fundamental Solution ←← (becomes harder)
+```
+
+**Example**:
+- **Problem**: Team is behind schedule
+- **Quick Fix**: Add overtime (symptom relief)
+- **Side Effect**: Team burns out, quality drops
+- **Fundamental Solution**: Reduce scope, improve estimates
+
+**Intervention**: Focus on the fundamental solution; make quick fixes temporary.
+
+### Archetype 2: Limits to Growth
+
+**Pattern**: A reinforcing growth process encounters a constraint that stops or reverses growth.
+
+**Structure**:
+```
+Growing Action → Growth
+       ↑            ↓
+       └── Limit ←←─┘
+```
+
+**Example**:
+- **Growing Action**: Hiring more developers to increase output
+- **Limit**: Onboarding capacity; new hires slow down existing team
+- **Result**: Output plateaus or declines
+
+**Intervention**: Anticipate and address the limiting factor before it becomes critical.
+
+### Archetype 3: Fixes That Fail
+
+**Pattern**: A fix works initially but creates unintended consequences that make the problem worse.
+
+**Structure**:
+```
+Problem → Fix → Improvement (short-term)
+              ↓
+        Unintended Consequence
+              ↓
+        Problem Returns (worse)
+```
+
+**Example**:
+- **Problem**: Low code quality
+- **Fix**: Add mandatory code reviews
+- **Unintended Consequence**: Reviews become bottleneck; developers skip them
+- **Result**: Quality is now worse
+
+**Intervention**: Map secondary effects before implementing; test fixes at small scale.
+
+### Archetype 4: Tragedy of the Commons
+
+**Pattern**: Individuals acting in their own interest deplete a shared resource, harming everyone.
+
+**Example**:
+- Multiple teams share a test environment
+- Each team schedules long tests without coordination
+- Environment is always busy; everyone waits
+
+**Intervention**: Establish governance, coordinate access, or increase the shared resource.
+
+### Archetype 5: Success to the Successful
+
+**Pattern**: Initial success leads to more resources, which leads to more success—leaving others behind.
+
+**Example**:
+- High-performing team gets more budget and talent
+- Low-performing team loses resources
+- Gap widens; organization loses overall capacity
+
+**Intervention**: Monitor resource allocation fairness; invest in struggling teams.
+
+---
+
+## 🔄 Organizational Change Management
+
+Complex projects often require changing how people work. Understanding change management is essential for success.
+
+### ADKAR Model (Individual Change)
+
+ADKAR describes the stages an individual must go through to change successfully:
+
+| Stage | Question | What the PM Does |
+|---|---|---|
+| **A**wareness | "Why do we need to change?" | Communicate the business case and urgency |
+| **D**esire | "Do I want to participate?" | Build motivation; address WIIFM ("What's in it for me?") |
+| **K**nowledge | "How do I change?" | Provide training, coaching, and clear instructions |
+| **A**bility | "Can I do it?" | Give practice time, support, and remove barriers |
+| **R**einforcement | "Will it stick?" | Celebrate wins, hold people accountable, embed in processes |
+
+**Exam Context**: If a team is **resisting change**, identify which ADKAR stage is blocked:
+- No **Awareness** → Communicate more
+- No **Desire** → Address concerns, involve them in decisions
+- No **Knowledge** → Train them
+- No **Ability** → Provide hands-on support
+- No **Reinforcement** → Recognize success, address backsliding
+
+### Resistance Patterns
+
+| Resistance Type | What You'll See | Response |
+|---|---|---|
+| **Active Resistance** | Vocal opposition, sabotage | Engage directly; address concerns |
+| **Passive Resistance** | Agreeing but not acting | Clarify expectations; follow up on commitments |
+| **Compliance Without Commitment** | "Following the rules" without buy-in | Build understanding of the why |
+| **Fear-Based Resistance** | Anxiety about job security or failure | Provide psychological safety; communicate honestly |
+
+### Kotter's 8-Step Change Model
+
+For large-scale organizational change:
+
+1. **Create Urgency** - Why change now?
+2. **Build a Coalition** - Who will lead the change?
+3. **Form Strategic Vision** - Where are we going?
+4. **Enlist Volunteers** - Who will champion the change?
+5. **Enable Action** - Remove barriers
+6. **Generate Short-Term Wins** - Show progress
+7. **Sustain Acceleration** - Don't declare victory too early
+8. **Institute Change** - Embed in culture
+
+---
+
+## 📊 Complexity Assessment Matrix
+
+Use this framework to score project complexity and guide your delivery approach.
+
+### Complexity Dimensions
+
+| Dimension | Low (1) | Medium (2-3) | High (4-5) | Score |
+|---|---|---|---|---|
+| **Requirements Stability** | Fixed and clear | Some changes expected | Highly volatile | ___ |
+| **Technical Novelty** | Proven tech | Some new components | Cutting-edge/unproven | ___ |
+| **Stakeholder Alignment** | Single stakeholder, clear needs | Multiple stakeholders, aligned | Conflicting interests | ___ |
+| **Dependencies** | Self-contained | Some external dependencies | Many interdependencies | ___ |
+| **Regulatory/Compliance** | None | Standard industry regs | Complex/novel regulations | ___ |
+| **Team Distribution** | Co-located | Some remote members | Fully distributed, multi-timezone | ___ |
+| **Organizational Change** | No change required | Process changes | Cultural transformation | ___ |
+
+**Total Score**: ___ / 35
+
+### Score Interpretation
+
+| Total Score | Complexity Level | Recommended Approach |
+|---|---|---|
+| **7-14** | Low | Predictive/Waterfall works well |
+| **15-21** | Medium | Hybrid approach; iterate on high-risk areas |
+| **22-28** | High | Agile/Adaptive essential |
+| **29-35** | Very High | Probe with experiments; expect pivots |
+
+::: tip 💡 Exam Pattern
+When an exam question describes a project with "changing requirements, new technology, and conflicting stakeholders," the answer is almost never "more detailed upfront planning."
+:::
+
+---
+
 ## ⚠️ Complexity’s Impact on Risk & Quality (Why This Chapter Is Combined)
 Complexity increases both:
 
