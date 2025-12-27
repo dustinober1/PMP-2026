@@ -1,6 +1,6 @@
 # Knowledge Check: Monitoring & Closing
 
-Test your mastery of performance metrics, change control, and the final handoff in the 2026 PMP context.
+Test your mastery of performance metrics, change control, and project closure in the 2026 PMP context. These 25 questions focus on the exam’s favorite patterns: interpreting data, choosing the right “log,” and doing the right thing first when variance appears.
 
 <QuizComponent
   title="Chapter 9: Monitoring & Closing"
@@ -14,11 +14,11 @@ Test your mastery of performance metrics, change control, and the final handoff 
         'Under Budget and Behind Schedule'
       ],
       correct: 0,
-      explanation: 'CPI < 1.0 means Cost Efficiency is low (Over Budget). SPI > 1.0 means Schedule Efficiency is high (Ahead of Schedule).',
-      reference: 'Section 9.1'
+      explanation: 'CPI < 1.0 means you are getting less value per dollar than planned (over budget). SPI > 1.0 means you are earning value faster than planned (ahead of schedule). On the exam, you would typically update forecasts and investigate the cost variance root cause.',
+      reference: 'Section 9.1 - EVM'
     },
     {
-      text: 'A key stakeholder calls you to request a \'small\' change to the dashboard layout. They claim it will only take 2 hours. What is the correct PM response?',
+      text: 'A key stakeholder calls you to request a minor change to the dashboard layout. They claim it will only take 2 hours. What is the correct PM response?',
       options: [
         'Implement the change immediately to keep the stakeholder happy',
         'Ask the team to squeeze it in during lunch',
@@ -26,56 +26,304 @@ Test your mastery of performance metrics, change control, and the final handoff 
         'Reject the request because the scope is frozen'
       ],
       correct: 2,
-      explanation: 'Every change, no matter how small, must go through Integrated Change Control to protect the project baseline from Scope Creep (Death by a thousand cuts).',
-      reference: 'Section 9.1'
+      explanation: 'Uncontrolled small changes create scope creep. The correct approach is to document the request, analyze impacts, and route it through integrated change control (or backlog/product governance in agile).',
+      reference: 'Section 9.1 - Integrated Change Control'
     },
     {
-      text: 'Your project was canceled mid-execution due to a market shift. What is your immediate next step?',
+      text: 'You have collected defect counts, hours, and percent complete from the team. The sponsor asks for a dashboard showing current variance and a realistic forecasted finish date. What should you do?',
       options: [
-        'Release the team and delete the files',
-        'Perform Administrative Closure and archive the work completed so far',
-        'Wait for the sponsor to give you a new project',
-        'Continue working until the budget runs out'
+        'Send the raw data immediately so the sponsor can interpret it',
+        'Transform the data into work performance information and publish a work performance report',
+        'Wait until the end of the month to avoid distracting the team',
+        'Ask the sponsor to attend the daily standup to hear updates'
       ],
       correct: 1,
-      explanation: 'Canceled projects must still be formally closed. You must document *why* it failed/ended and archive the artifacts for future organizational learning.',
-      reference: 'Section 9.2'
+      explanation: 'Raw data (WPD) must be analyzed into information (WPI) and then communicated as a report (WPR). Dashboards and status reports are work performance reports.',
+      reference: 'Section 9.1 - WPD → WPI → WPR'
     },
     {
-      text: 'The project is mechanically complete. The deliverables work. However, the Operations team refuses to accept the handover because they have not received the training manuals. What should the PM do?',
+      text: 'A new regulatory requirement is discovered mid-project. It was not in the original scope and will increase cost. Contingency reserve is already allocated for known risks. What should the PM do?',
       options: [
-        'Force the handover since the product works',
-        'Delay the closure until the manuals are delivered and training is complete',
-        'Mark the project as Closed and let Operations figure it out',
-        'Escalate to the CEO'
+        'Use management reserve and submit a change request for approval to update baselines',
+        'Use contingency reserve because all reserves are interchangeable',
+        'Tell the team to implement the requirement without changing scope to avoid delays',
+        'Reject the requirement because scope is frozen'
       ],
-      correct: 1,
-      explanation: 'Project Closure requires the *Transfer of Ownership*. If operations cannot support the product (due to lack of training), the transfer cannot occur.',
-      reference: 'Section 9.2'
+      correct: 0,
+      explanation: 'This is a scope change and likely an unknown-unknown. Management reserve is not part of the baseline and typically requires sponsor/authority approval through change control. You cannot “sneak” new scope into the project.',
+      reference: 'Section 9.1 - Baselines and Reserves'
     },
     {
-      text: 'Which document is updated constantly throughout the project and finalized during closure to become a key Organizational Process Asset?',
+      text: 'Given PV = $100,000, EV = $90,000, and AC = $100,000, which statement is true?',
       options: [
-        'The Project Charter',
-        'The Business Case',
-        'The Lessons Learned Register',
-        'The Cost Baseline'
+        'CV = -$10,000 and SV = -$10,000 (over budget and behind schedule)',
+        'CV = $10,000 and SV = $10,000 (under budget and ahead of schedule)',
+        'CPI = 1.11 and SPI = 1.11 (under budget and ahead of schedule)',
+        'CPI = 0.90 and SPI = 0.90 (over budget and behind schedule)'
+      ],
+      correct: 3,
+      explanation: 'CPI = EV/AC = 90,000/100,000 = 0.90 and SPI = EV/PV = 90,000/100,000 = 0.90. Both are < 1.0, indicating over budget and behind schedule.',
+      reference: 'Section 9.1 - EVM'
+    },
+    {
+      text: 'BAC = $500,000, EV = $200,000, AC = $250,000. Assuming current cost performance continues, what is the EAC?',
+      options: [
+        '$450,000',
+        '$550,000',
+        '$625,000',
+        '$750,000'
       ],
       correct: 2,
-      explanation: 'The Lessons Learned Register is a living document that captures knowledge throughout the lifecycle and transfers it to the organization at closure.',
-      reference: 'Section 9.2'
+      explanation: 'CPI = EV/AC = 200,000/250,000 = 0.8. EAC = BAC/CPI = 500,000/0.8 = 625,000.',
+      reference: 'Section 9.1 - EVM Forecasting'
+    },
+    {
+      text: 'BAC = $500,000, EV = $200,000, AC = $250,000. What is the TCPI to meet the original BAC?',
+      options: [
+        '0.80',
+        '1.00',
+        '1.20',
+        '1.50'
+      ],
+      correct: 2,
+      explanation: 'TCPI(BAC) = (BAC - EV) / (BAC - AC) = (500,000 - 200,000) / (500,000 - 250,000) = 300,000/250,000 = 1.2. This means you must perform 20% better than planned from now on to still hit the original BAC.',
+      reference: 'Section 9.1 - EVM Forecasting'
+    },
+    {
+      text: 'A supplier strike caused a one-time cost spike early in the project. The PM believes the remaining work will follow the original estimates. Which EAC formula is most appropriate?',
+      options: [
+        'EAC = BAC / CPI',
+        'EAC = AC + (BAC - EV)',
+        'EAC = AC + (BAC - EV) / (CPI × SPI)',
+        'EAC = EV - AC'
+      ],
+      correct: 1,
+      explanation: 'When variances are considered atypical (not expected to continue), a common approach is EAC = AC + (BAC - EV), assuming future work will be performed at the planned rate.',
+      reference: 'Section 9.1 - EVM Forecasting'
+    },
+    {
+      text: 'CPI has declined from 1.05 → 0.98 → 0.92 over three reporting periods. What should the PM do FIRST?',
+      options: [
+        'Request additional budget approval immediately',
+        'Perform variance and root cause analysis to understand the drivers of the trend',
+        'Replace the cost engineer to improve reporting',
+        'Increase overtime to improve CPI'
+      ],
+      correct: 1,
+      explanation: 'A trend indicates a systemic issue. On the exam, the PM should analyze the variance and identify root causes before selecting corrective actions or requesting more funds.',
+      reference: 'Section 9.1 - Trend and Root Cause Analysis'
+    },
+    {
+      text: 'You want to visualize which defect categories account for the majority of defects so you can prioritize fixes. Which tool is best?',
+      options: [
+        'Pareto chart',
+        'Fishbone (Ishikawa) diagram',
+        'Stakeholder engagement assessment matrix',
+        'Milestone chart'
+      ],
+      correct: 0,
+      explanation: 'A Pareto chart applies the 80/20 rule to highlight the “vital few” causes that generate most problems.',
+      reference: 'Section 9.1 - Trend and Root Cause Analysis'
+    },
+    {
+      text: 'Defects are increasing due to inconsistent peer reviews. The PM introduces a standard peer-review checklist to reduce future defect probability. What is this?',
+      options: [
+        'Corrective action',
+        'Preventive action',
+        'Defect repair',
+        'Gold plating'
+      ],
+      correct: 1,
+      explanation: 'Preventive actions reduce the probability of future problems. The checklist improves the process to prevent defects before they happen.',
+      reference: 'Section 9.1 - Corrective vs Preventive vs Defect Repair'
+    },
+    {
+      text: 'A key SME is unexpectedly out sick for two weeks and assigned tasks are now blocked. Where should the PM record this FIRST?',
+      options: [
+        'Risk register',
+        'Issue log',
+        'Lessons learned register',
+        'Benefits management plan'
+      ],
+      correct: 1,
+      explanation: 'This is happening now, so it is an issue. Log it, assign an owner, and take action (e.g., reassign work, escalate for a replacement).',
+      reference: 'Section 9.1 - Issues vs Risks vs Change Requests'
+    },
+    {
+      text: 'The quality team completes internal testing and confirms the deliverable meets specifications. What must happen next before the phase can be closed?',
+      options: [
+        'Control Quality is complete; no further action is needed',
+        'The customer formally accepts the deliverable (Validate Scope)',
+        'The PM updates the risk register and closes the project',
+        'The team begins work on the next deliverable immediately'
+      ],
+      correct: 1,
+      explanation: 'Control Quality (inspection/testing) is not the same as Validate Scope (customer acceptance). Formal acceptance is typically required before closing a phase or project.',
+      reference: 'Section 9.2 - Formal Acceptance'
+    },
+    {
+      text: 'In a predictive environment, who typically has authority to approve changes to scope, schedule, or cost baselines?',
+      options: [
+        'The project manager alone',
+        'Any stakeholder requesting the change',
+        'The Change Control Board (or designated change authority)',
+        'The development team'
+      ],
+      correct: 2,
+      explanation: 'Baseline changes are approved by the CCB or another designated change authority. The PM facilitates the process but does not usually approve baseline changes unilaterally.',
+      reference: 'Section 9.1 - Integrated Change Control'
+    },
+    {
+      text: 'In Scrum, a stakeholder wants to add a new feature in the middle of the sprint. What is the best PM/Scrum approach?',
+      options: [
+        'Add it to the sprint backlog immediately to satisfy the stakeholder',
+        'Route it to the Product Owner for backlog refinement and prioritization',
+        'Submit it to the CCB for approval',
+        'Reject all changes during a sprint'
+      ],
+      correct: 1,
+      explanation: 'In agile, changes are managed through backlog prioritization. The Product Owner owns ordering and can decide when a new item should be scheduled.',
+      reference: 'Section 9.1 - Agile Change Control'
+    },
+    {
+      text: 'A control chart shows a data point outside the upper control limit (UCL). What does this indicate?',
+      options: [
+        'The process is stable and only needs more sampling',
+        'The process is out of control and requires investigation',
+        'The product is automatically unacceptable and must be scrapped',
+        'The process is out of specification but still in control'
+      ],
+      correct: 1,
+      explanation: 'A point outside control limits indicates special-cause variation: the process is not statistically stable and should be investigated for root cause.',
+      reference: 'Section 9.1 - Control Charts'
+    },
+    {
+      text: 'A process is within its control limits, but the output does not meet customer specification limits. What is the best interpretation?',
+      options: [
+        'The process is stable but not capable; it needs improvement',
+        'The process is unstable and must be stopped immediately',
+        'The process is capable because it is within control limits',
+        'Specification limits and control limits mean the same thing'
+      ],
+      correct: 0,
+      explanation: 'Control limits indicate stability; specification limits indicate customer tolerance. A stable process can still consistently produce results outside spec (not capable).',
+      reference: 'Section 9.1 - Control Charts'
+    },
+    {
+      text: 'All seller deliverables have been accepted, but the vendor has an unresolved claim for additional costs. Can you close the project?',
+      options: [
+        'Yes, because the deliverables are accepted',
+        'Yes, if the PM documents the claim as a lesson learned',
+        'No, not until the claim/dispute is resolved or formally settled per contract policy',
+        'Yes, but only if SPI is greater than 1.0'
+      ],
+      correct: 2,
+      explanation: 'Claims and disputes are contractual obligations. Procurement closure typically requires resolving them before final closure (or formally transferring responsibility per policy).',
+      reference: 'Section 9.2 - Closing Procurements'
+    },
+    {
+      text: 'A vendor delivers a module that fails acceptance testing defined in the contract. The vendor requests payment. What should the PM do?',
+      options: [
+        'Pay to maintain the relationship and fix it internally',
+        'Reject the deliverable, provide evidence, and require remediation per the contract',
+        'Accept the deliverable but log the defects as risks',
+        'Close the procurement to avoid delays'
+      ],
+      correct: 1,
+      explanation: 'Do not accept nonconforming deliverables. Follow the contract acceptance process: reject, document results, and require the seller to correct and resubmit.',
+      reference: 'Section 9.2 - Closing Procurements'
+    },
+    {
+      text: 'The deliverables work and meet requirements, but Operations refuses the handoff because training and runbooks are missing. The sponsor wants to close immediately. What should the PM do?',
+      options: [
+        'Close the project because functionality is complete',
+        'Delay closure until transition readiness items are completed and ownership can transfer',
+        'Force Operations to accept and escalate to the CEO',
+        'Mark the project as closed and convert remaining work into risks'
+      ],
+      correct: 1,
+      explanation: 'Closure is a transfer of ownership. If Operations cannot support the product, the project is not truly complete. Complete transition/handoff requirements before closure.',
+      reference: 'Section 9.2 - Transition & Handoff'
+    },
+    {
+      text: 'Your project is canceled mid-execution due to a strategy change. What should you do FIRST?',
+      options: [
+        'Release the team and delete project files to reduce liability',
+        'Perform administrative closure: document the reason, archive artifacts, and close contracts as applicable',
+        'Wait for the sponsor to assign a new project',
+        'Continue delivering until the budget is exhausted'
+      ],
+      correct: 1,
+      explanation: 'Canceled projects still require formal closure to protect the organization: document why it ended, archive partial deliverables, close procurements, and capture lessons learned.',
+      reference: 'Section 9.2 - Canceled Projects'
+    },
+    {
+      text: 'A steering committee complains that status reports are unclear and they cannot make decisions. What is the best PM action?',
+      options: [
+        'Keep the same report format to stay consistent',
+        'Stop reporting until the next phase gate to reduce noise',
+        'Tailor communications: update the communications and stakeholder engagement approach to include decision-focused reporting',
+        'Replace the sponsor because they should understand the reports'
+      ],
+      correct: 2,
+      explanation: 'Monitoring communications means ensuring information is usable by the audience. Tailor reports to stakeholder needs (e.g., decisions required, risks, options, forecasts).',
+      reference: 'Section 9.1 - Monitor Communications / Stakeholder Engagement'
+    },
+    {
+      text: 'A critical path activity is trending 10 days late. What should the PM do FIRST?',
+      options: [
+        'Crash the schedule by adding resources immediately',
+        'Fast-track by overlapping work without analyzing risk',
+        'Analyze the variance and root cause, confirm critical path impact, then evaluate corrective options',
+        'Request the sponsor extend the deadline immediately'
+      ],
+      correct: 2,
+      explanation: 'The first step is to confirm the impact (critical path/float) and diagnose why the slip is occurring. Then select appropriate corrective actions and use change control if the baseline must change.',
+      reference: 'Section 9.1 - Control Schedule and Root Cause Analysis'
+    },
+    {
+      text: 'A cumulative flow diagram (CFD) shows work piling up in “Testing,” WIP is increasing, and cycle time is rising. What is the best response?',
+      options: [
+        'Start more work to keep the team busy',
+        'Raise the velocity target so the team works faster',
+        'Swarm on the bottleneck, limit WIP, and address the constraint in the testing workflow',
+        'Stop tracking metrics because they create pressure'
+      ],
+      correct: 2,
+      explanation: 'A CFD bottleneck indicates flow constraints. The best action is to stabilize flow (WIP limits), focus the team on clearing the constrained step, and remove the root cause of the testing bottleneck.',
+      reference: 'Section 9.1 - Agile & Hybrid Visibility'
+    },
+    {
+      text: 'Which document is updated throughout the project and finalized during closure to become a key organizational asset?',
+      options: [
+        'Project charter',
+        'Business case',
+        'Lessons learned register',
+        'Cost baseline'
+      ],
+      correct: 2,
+      explanation: 'The lessons learned register is updated throughout the lifecycle and finalized at closure so the organization can reuse knowledge on future projects.',
+      reference: 'Section 9.2 - Harvesting Lessons'
     }
   ]"
 />
 
 ## EVM Cheatsheet
 
-| Metric                        | Formula   | Good Outcome |
-| :---------------------------- | :-------- | :----------- |
-| **CPI** (Cost Efficiency)     | $EV / AC$ | $> 1.0$      |
-| **SPI** (Schedule Efficiency) | $EV / PV$ | $> 1.0$      |
-| **CV** (Cost Variance)        | $EV - AC$ | Positive     |
-| **SV** (Schedule Variance)    | $EV - PV$ | Positive     |
+| Category | Metric | Formula | Good Sign |
+| :-- | :-- | :-- | :-- |
+| Inputs | **BAC** | total budget | n/a |
+| Inputs | **PV** | % planned complete × BAC | n/a |
+| Inputs | **EV** | % actually complete × BAC | n/a |
+| Inputs | **AC** | total spent | n/a |
+| Variance | **CV** | $EV - AC$ | positive |
+| Variance | **SV** | $EV - PV$ | positive |
+| Index | **CPI** | $EV / AC$ | $> 1.0$ |
+| Index | **SPI** | $EV / PV$ | $> 1.0$ |
+| Forecast | **EAC** | $BAC / CPI$ | lower is better |
+| Forecast | **ETC** | $EAC - AC$ | lower is better |
+| Forecast | **VAC** | $BAC - EAC$ | positive |
+| Forecast | **TCPI** | $(BAC - EV)/(BAC - AC)$ | $\\le 1.0$ preferred |
 
 ---
 

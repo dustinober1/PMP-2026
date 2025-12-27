@@ -18,7 +18,7 @@ Test your mastery of execution and value delivery concepts for the 2026 PMP exam
       reference: 'Section 8.1 - Executing Project Work'
     },
     {
-      text: 'Your project team is exhibiting these behaviors: polite interactions, uncertainty about roles, testing boundaries, and low productivity. According to Tuckman\\'s model, which stage is the team in, and what should you do?',
+      text: 'Your project team is exhibiting these behaviors: polite interactions, uncertainty about roles, testing boundaries, and low productivity. According to Tuckman\'s model, which stage is the team in, and what should you do?',
       options: [
         'Storming - Address conflicts directly and clarify roles',
         'Forming - Set clear goals and establish ground rules/working agreements',
@@ -30,7 +30,7 @@ Test your mastery of execution and value delivery concepts for the 2026 PMP exam
       reference: 'Section 8.3 - Team Development (Tuckman Model)'
     },
     {
-      text: 'A team member seems unmotivated despite being assigned challenging, interesting work. After investigation, you discover they are worried about recent company layoffs. According to Maslow\\'s Hierarchy of Needs, what should you address?',
+      text: 'A team member seems unmotivated despite being assigned challenging, interesting work. After investigation, you discover they are worried about recent company layoffs. According to Maslow\'s Hierarchy of Needs, what should you address?',
       options: [
         'Self-actualization needs by providing even more challenging assignments',
         'Esteem needs by publicly recognizing their achievements',
@@ -38,11 +38,11 @@ Test your mastery of execution and value delivery concepts for the 2026 PMP exam
         'Social needs by organizing team-building activities'
       ],
       correct: 2,
-      explanation: 'Maslow\\'s hierarchy shows people progress from lower to higher needs: Physiological → Safety → Social → Esteem → Self-actualization. The team member has an unmet Safety need (job security). You cannot motivate with higher-level needs (challenging work = self-actualization) when lower-level needs are unmet. Address the safety concern first through transparent communication about project stability.',
+      explanation: 'Maslow\'s hierarchy shows people progress from lower to higher needs: Physiological → Safety → Social → Esteem → Self-actualization. The team member has an unmet Safety need (job security). You cannot motivate with higher-level needs (challenging work = self-actualization) when lower-level needs are unmet. Address the safety concern first through transparent communication about project stability.',
       reference: 'Section 8.3 - Motivation Theories (Maslow)'
     },
     {
-      text: 'According to Herzberg\\'s Two-Factor Theory, which action would create true motivation (not just prevent dissatisfaction)?',
+      text: 'According to Herzberg\'s Two-Factor Theory, which action would create true motivation (not just prevent dissatisfaction)?',
       options: [
         'Upgrading team members to newer laptops',
         'Improving the office break room with better coffee',
@@ -50,7 +50,7 @@ Test your mastery of execution and value delivery concepts for the 2026 PMP exam
         'Ensuring competitive salary levels'
       ],
       correct: 2,
-      explanation: 'Herzberg distinguishes Hygiene Factors (prevent dissatisfaction: salary, working conditions, policies) from Motivators (create satisfaction: achievement, recognition, responsibility, growth). Better laptops and coffee are hygiene factors—they prevent dissatisfaction but don\\'t motivate. True motivation comes from recognition, achievement, and growth opportunities.',
+      explanation: 'Herzberg distinguishes Hygiene Factors (prevent dissatisfaction: salary, working conditions, policies) from Motivators (create satisfaction: achievement, recognition, responsibility, growth). Better laptops and coffee are hygiene factors—they prevent dissatisfaction but don\'t motivate. True motivation comes from recognition, achievement, and growth opportunities.',
       reference: 'Section 8.3 - Motivation Theories (Herzberg)'
     },
     {
@@ -62,11 +62,11 @@ Test your mastery of execution and value delivery concepts for the 2026 PMP exam
         'Smoothing - Emphasize areas of agreement and downplay the differences'
       ],
       correct: 2,
-      explanation: 'Collaborating/Problem-Solving is the best approach for high-stakes conflicts where both parties\\' needs are important and time permits. It addresses the root cause and creates durable solutions. Forcing creates win-lose resentment. Withdrawal delays resolution. Smoothing suppresses legitimate concerns. The collaborative approach might explore Technology C or a hybrid solution that satisfies both parties.',
+      explanation: 'Collaborating/Problem-Solving is the best approach for high-stakes conflicts where both parties\' needs are important and time permits. It addresses the root cause and creates durable solutions. Forcing creates win-lose resentment. Withdrawal delays resolution. Smoothing suppresses legitimate concerns. The collaborative approach might explore Technology C or a hybrid solution that satisfies both parties.',
       reference: 'Section 8.3 - Conflict Resolution Techniques'
     },
     {
-      text: 'You are procuring cloud infrastructure services. During the bidder conference, Vendor A emails asking, \"Can we propose a hybrid cloud solution instead of pure public cloud?\" What must you do?',
+      text: 'You are procuring cloud infrastructure services. During the bidder conference, Vendor A emails asking, “Can we propose a hybrid cloud solution instead of pure public cloud?” What must you do?',
       options: [
         'Reply privately to Vendor A to save time',
         'Ignore the question because the bidder conference has concluded',
@@ -83,10 +83,10 @@ Test your mastery of execution and value delivery concepts for the 2026 PMP exam
         'Always choose the lowest price to save money',
         'Always choose the highest technical score regardless of cost',
         'Use the weighted criteria to calculate total scores; highest total score wins',
-        'Negotiate with Vendor A to match Vendor C\\'s price'
+        'Negotiate with Vendor A to match Vendor C\'s price'
       ],
       correct: 2,
-      explanation: 'A weighted scoring system balances multiple criteria (technical, cost, past performance, management approach). Each criterion has a weight (e.g., technical 40%, cost 30%). Calculate total scores using the weights. The vendor with the highest total score wins—this reflects the organization\\'s priorities. Simply choosing lowest price ignores other important factors like quality and risk.',
+      explanation: 'A weighted scoring system balances multiple criteria (technical, cost, past performance, management approach). Each criterion has a weight (e.g., technical 40%, cost 30%). Calculate total scores using the weights. The vendor with the highest total score wins—this reflects the organization\'s priorities. Simply choosing lowest price ignores other important factors like quality and risk.',
       reference: 'Section 8.3 - Procurement Execution (Proposal Evaluation)'
     },
     {
@@ -98,7 +98,7 @@ Test your mastery of execution and value delivery concepts for the 2026 PMP exam
         'Immediately terminate the contract'
       ],
       correct: 1,
-      explanation: 'Never accept deliverables that don\\'t meet acceptance criteria just to \"keep the project moving.\" Once you accept, the vendor\\'s obligation is satisfied, and you lose leverage. Reject the deliverable, provide detailed feedback, and require the vendor to fix defects and resubmit. Only accept when acceptance criteria are met. The contract defines the acceptance process—follow it.',
+      explanation: 'Never accept deliverables that don\'t meet acceptance criteria just to “keep the project moving.” Once you accept, the vendor\'s obligation is satisfied, and you lose leverage. Reject the deliverable, provide detailed feedback, and require the vendor to fix defects and resubmit. Only accept when acceptance criteria are met. The contract defines the acceptance process—follow it.',
       reference: 'Section 8.3 - Procurement Execution (Inspections & Acceptance)'
     },
     {
@@ -122,7 +122,7 @@ Test your mastery of execution and value delivery concepts for the 2026 PMP exam
         'The RACI Matrix'
       ],
       correct: 1,
-      explanation: 'The system (Output) was delivered successfully. However, the Outcome (sales team using the system to change behavior) was not achieved. Without the Outcome, Benefits cannot be realized, and Value is zero. This is a classic \"successful failure\"—met project objectives but failed to deliver business value. The gap is likely validation during execution, change management (ADKAR), and operational readiness.',
+      explanation: 'The system (Output) was delivered successfully. However, the Outcome (sales team using the system to change behavior) was not achieved. Without the Outcome, Benefits cannot be realized, and Value is zero. This is a classic “successful failure”—met project objectives but failed to deliver business value. The gap is likely validation during execution, change management (ADKAR), and operational readiness.',
       reference: 'Section 8.2 - Value Delivery (Value Chain)'
     },
     {
@@ -170,7 +170,7 @@ Test your mastery of execution and value delivery concepts for the 2026 PMP exam
         'ROI calculated at project closure'
       ],
       correct: 2,
-      explanation: 'Leading indicators appear early and predict future outcomes (pilot adoption, training completion, user feedback during transition). Lagging indicators are outcomes that already happened (revenue, retention, ROI). By the time you measure lagging indicators, it\\'s too late to course-correct. Track leading indicators during execution to predict whether benefits will materialize, and adjust if needed.',
+      explanation: 'Leading indicators appear early and predict future outcomes (pilot adoption, training completion, user feedback during transition). Lagging indicators are outcomes that already happened (revenue, retention, ROI). By the time you measure lagging indicators, it\'s too late to course-correct. Track leading indicators during execution to predict whether benefits will materialize, and adjust if needed.',
       reference: 'Section 8.2 - Value Measurement (Leading vs. Lagging Indicators)'
     },
     {
@@ -182,35 +182,35 @@ Test your mastery of execution and value delivery concepts for the 2026 PMP exam
         'Scope creep'
       ],
       correct: 1,
-      explanation: 'Verification checks conformance to specifications (Did we build it right?). Validation checks whether the solution meets stakeholder needs and produces desired outcomes (Did we build the right thing?). This scenario shows a validation failure—requirements were met, but they were the wrong requirements or didn\\'t address the real problem. Solution: Re-engage users, validate outcomes, and adjust acceptance criteria.',
+      explanation: 'Verification checks conformance to specifications (Did we build it right?). Validation checks whether the solution meets stakeholder needs and produces desired outcomes (Did we build the right thing?). This scenario shows a validation failure—requirements were met, but they were the wrong requirements or didn\'t address the real problem. Solution: Re-engage users, validate outcomes, and adjust acceptance criteria.',
       reference: 'Section 8.2 - Verification vs. Validation'
     },
     {
       text: 'Operations is resisting adoption of a new system because they believe it will increase their workload. Using the ADKAR model, which element is missing?',
       options: [
-        'Awareness (they don\\'t know about the project)',
-        'Desire (they don\\'t want to support the change)',
-        'Ability (they can\\'t perform the new tasks)',
+        'Awareness (they don\'t know about the project)',
+        'Desire (they don\'t want to support the change)',
+        'Ability (they can\'t perform the new tasks)',
         'Reinforcement (incentives are not in place)'
       ],
       correct: 1,
-      explanation: 'ADKAR: Awareness (why change is needed) → Desire (willingness to support) → Knowledge (how to change) → Ability (capability to perform) → Reinforcement (sustain change). Operations is aware (they know about the system) but lacks Desire (they believe it will hurt them). Action: Address their concerns, emphasize WIIFM (What\\'s In It For Me), involve them in solution design, and demonstrate how the system will actually help (not hurt) them.',
+      explanation: 'ADKAR: Awareness (why change is needed) → Desire (willingness to support) → Knowledge (how to change) → Ability (capability to perform) → Reinforcement (sustain change). Operations is aware (they know about the system) but lacks Desire (they believe it will hurt them). Action: Address their concerns, emphasize WIIFM (What\'s In It For Me), involve them in solution design, and demonstrate how the system will actually help (not hurt) them.',
       reference: 'Section 8.2 - Adoption & Change Enablement (ADKAR)'
     },
     {
-      text: 'Your agile team\\'s velocity has declined over 3 sprints (32 → 28 → 24 story points). During the retrospective, the team identifies unplanned interruptions as the root cause. Using the PDCA cycle, what should you do NEXT?',
+      text: 'Your agile team\'s velocity has declined over 3 sprints (32 → 28 → 24 story points). During the retrospective, the team identifies unplanned interruptions as the root cause. Using the PDCA cycle, what should you do NEXT?',
       options: [
         'Plan - Continue analyzing the root cause for another sprint',
         'Do - Implement a solution (e.g., focus time blocks) on a small scale to test',
         'Check - Immediately measure velocity again without any changes',
-        'Act - Standardize the current process since it\\'s still delivering value'
+        'Act - Standardize the current process since it\'s still delivering value'
       ],
       correct: 1,
       explanation: 'PDCA Cycle: Plan (identify problem, analyze root cause, develop solution) → Do (implement on small scale, test hypothesis) → Check (measure results, compare to predictions) → Act (standardize if successful, adjust if not). The team has completed Plan (root cause = interruptions). Next is Do: implement a solution (focus time blocks, no meetings 9-12 AM) and test. Then Check (measure velocity after 2 sprints) and Act (standardize if successful).',
       reference: 'Section 8.2 - Continuous Improvement (PDCA Cycle)'
     },
     {
-      text: 'After a major system outage during execution, you facilitate a root cause analysis. The team asks \"Why?\" five times and identifies: \"Outage because backup failed → Backup failed because script had a bug → Bug because no peer review → No peer review because timeline pressure → Timeline pressure because requirements were unclear.\" What is the ROOT CAUSE?',
+      text: 'After a major system outage during execution, you facilitate a root cause analysis. The team asks “Why?” five times and identifies: “Outage because backup failed → Backup failed because script had a bug → Bug because no peer review → No peer review because timeline pressure → Timeline pressure because requirements were unclear.” What is the ROOT CAUSE?',
       options: [
         'The backup script had a bug',
         'There was no peer review process',
@@ -218,7 +218,7 @@ Test your mastery of execution and value delivery concepts for the 2026 PMP exam
         'Requirements were unclear'
       ],
       correct: 3,
-      explanation: '5 Whys drills down to the root cause. Each \"why\" is a symptom of a deeper issue. The ROOT CAUSE is unclear requirements—this created timeline pressure → skipped peer reviews → bugs escaped → backup failed → outage. Fixing the bug or adding peer reviews treats symptoms. Fixing requirement clarity prevents the cascade of issues. Action: Improve requirements validation process for future work.',
+      explanation: '5 Whys drills down to the root cause. Each “why” is a symptom of a deeper issue. The ROOT CAUSE is unclear requirements—this created timeline pressure → skipped peer reviews → bugs escaped → backup failed → outage. Fixing the bug or adding peer reviews treats symptoms. Fixing requirement clarity prevents the cascade of issues. Action: Improve requirements validation process for future work.',
       reference: 'Section 8.2 - Continuous Improvement (Root Cause Analysis)'
     },
     {
@@ -242,11 +242,11 @@ Test your mastery of execution and value delivery concepts for the 2026 PMP exam
         'The project charter was not updated'
       ],
       correct: 1,
-      explanation: 'Work Performance Data (raw observations) → Work Performance Information (analyzed insights: SV, CPI, trends) → Work Performance Reports (stakeholder communications). The PM collected data but failed to analyze it (information) and communicate it effectively (reports). Stakeholders don\\'t read raw data—they need insights packaged for their level (executive dashboard, status report, steering deck).',
+      explanation: 'Work Performance Data (raw observations) → Work Performance Information (analyzed insights: SV, CPI, trends) → Work Performance Reports (stakeholder communications). The PM collected data but failed to analyze it (information) and communicate it effectively (reports). Stakeholders don\'t read raw data—they need insights packaged for their level (executive dashboard, status report, steering deck).',
       reference: 'Section 8.1 - Data → Information → Reports'
     },
     {
-      text: 'A risk you identified 2 months ago (\"Vendor may deliver hardware late, Probability 0.5, Impact: 2-week delay\") has occurred. The vendor confirms they will be 3 weeks late. What should you do FIRST?',
+      text: 'A risk you identified 2 months ago (“Vendor may deliver hardware late, Probability 0.5, Impact: 2-week delay”) has occurred. The vendor confirms they will be 3 weeks late. What should you do FIRST?',
       options: [
         'Update the Risk Register with a new risk',
         'Execute the planned risk response, log it as an issue, and assess impact',
@@ -258,15 +258,15 @@ Test your mastery of execution and value delivery concepts for the 2026 PMP exam
       reference: 'Section 8.1 - Impediment vs. Issue vs. Risk vs. Change'
     },
     {
-      text: 'A stakeholder requests a \"small\" change: adding a button to the dashboard. The scope baseline is approved. What should you do FIRST?',
+      text: 'A stakeholder requests a “small” change: adding a button to the dashboard. The scope baseline is approved. What should you do FIRST?',
       options: [
-        'Implement the change immediately since it\\'s small',
-        'Ask the team to do it \"off the books\" to avoid bureaucracy',
+        'Implement the change immediately since it\'s small',
+        'Ask the team to do it “off the books” to avoid bureaucracy',
         'Assess impact (scope, schedule, cost, quality, risk) and follow the change control or backlog prioritization process',
         'Reject the request because scope is frozen'
       ],
       correct: 2,
-      explanation: 'Even \"small\" changes require impact analysis and formal change control. The FIRST action is: (1) Clarify what the button does (triage the request), (2) Assess impacts (often larger than estimated—requires testing, integration, documentation), (3) Follow the change approach (CCB in predictive, backlog refinement in agile). Never make informal changes—this leads to scope creep, cost overruns, and accountability gaps.',
+      explanation: 'Even “small” changes require impact analysis and formal change control. The FIRST action is: (1) Clarify what the button does (triage the request), (2) Assess impacts (often larger than estimated—requires testing, integration, documentation), (3) Follow the change approach (CCB in predictive, backlog refinement in agile). Never make informal changes—this leads to scope creep, cost overruns, and accountability gaps.',
       reference: 'Section 8.1 - Implementing Approved Changes'
     },
     {
@@ -278,7 +278,7 @@ Test your mastery of execution and value delivery concepts for the 2026 PMP exam
         'Ignore the metrics since EVM is only for predictive projects'
       ],
       correct: 1,
-      explanation: 'CPI = 0.82 means significant cost overruns (losing $0.18 per dollar). TCPI = 1.14 means you need 114% future efficiency to finish on budget—but you\\'ve only achieved 82% historically (unlikely to improve). This is a RED FLAG. Action: Escalate to sponsor with options: (1) Increase budget to accommodate current efficiency, (2) Reduce scope to fit budget, (3) Improve efficiency (challenging). Do NOT hide bad news—transparent reporting enables corrective action.',
+      explanation: 'CPI = 0.82 means significant cost overruns (losing $0.18 per dollar). TCPI = 1.14 means you need 114% future efficiency to finish on budget—but you\'ve only achieved 82% historically (unlikely to improve). This is a RED FLAG. Action: Escalate to sponsor with options: (1) Increase budget to accommodate current efficiency, (2) Reduce scope to fit budget, (3) Improve efficiency (challenging). Do NOT hide bad news—transparent reporting enables corrective action.',
       reference: 'Section 8.3 - EVM During Execution'
     },
     {

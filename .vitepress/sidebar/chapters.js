@@ -135,16 +135,17 @@ export function createSidebar() {
         { text: '📝 Knowledge Check', link: '/guide/08-execution/knowledge-check' }
       ]
     },
-    {
-      text: '📊 Chapter 9 - Monitoring & Closing',
-      collapsed: true,
-      items: [
-        { text: 'Chapter Overview', link: '/guide/09-monitoring/' },
-        { text: '9.1 Monitoring & Controlling', link: '/guide/09-monitoring/monitoring-closing' },
-        { text: '9.2 Project Closure', link: '/guide/09-monitoring/project-closure' },
-        { text: '📝 Knowledge Check', link: '/guide/09-monitoring/knowledge-check' }
-      ]
-    },
+	    {
+	      text: '📊 Chapter 9 - Monitoring & Closing',
+	      collapsed: true,
+	      items: [
+	        { text: 'Chapter Overview', link: '/guide/09-monitoring/' },
+	        { text: '9.1 Monitoring & Controlling', link: '/guide/09-monitoring/monitoring-closing' },
+	        { text: '9.2 Project Closure', link: '/guide/09-monitoring/project-closure' },
+	        { text: '9.3 Tools & Templates', link: '/guide/09-monitoring/toolkit' },
+	        { text: '📝 Knowledge Check', link: '/guide/09-monitoring/knowledge-check' }
+	      ]
+	    },
     {
       text: '🤖 Chapter 10 - AI & Project Management',
       collapsed: true,
