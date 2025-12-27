@@ -259,3 +259,161 @@ Use this to prevent “it works, so we are done” thinking.
 - [ ] Procurement audit completed (if applicable)
 - [ ] Vendor performance evaluation captured (OPA input)
 - [ ] Contract files archived
+
+---
+
+## 🔧 Configuration Management Log
+
+Track changes to configuration items (documents, code, deliverables).
+
+| Field | Example |
+|---|---|
+| **CI ID** | CI-042 |
+| **CI Name** | Requirements Specification |
+| **Current Version** | v2.3 |
+| **Previous Version** | v2.2 |
+| **Change Description** | Added acceptance criteria for dark mode feature |
+| **Change Date** | 2026-02-10 |
+| **Changed By** | Product Owner |
+| **Approved By** | CCB / PM |
+| **Related CR** | CR-014 |
+| **Location** | /docs/requirements/v2.3 |
+
+### Version Control Matrix (Quick Reference)
+
+| Configuration Item | Current Version | Status | Last Updated | Owner |
+|---|---|---|---|---|
+| Requirements Spec | v2.3 | Approved | 2026-02-10 | Product Owner |
+| Architecture Doc | v1.4 | Draft | 2026-02-08 | Tech Lead |
+| Build (Staging) | v1.5.2 | Tested | 2026-02-11 | Dev Lead |
+| Build (Production) | v1.4.7 | Live | 2026-01-28 | Dev Lead |
+| Test Plan | v1.2 | Approved | 2026-02-05 | QA Lead |
+
+---
+
+## 📊 Performance Review Template (Team/Vendor)
+
+Use for periodic performance reviews during monitoring.
+
+### Team Member Performance Review
+
+| Field | Content |
+|---|---|
+| **Name** | John Developer |
+| **Role** | Senior Developer |
+| **Review Period** | 2026-01-01 to 2026-02-14 |
+| **Objectives Assigned** | Complete API integration, mentor junior dev |
+| **Objectives Met** | API integration complete (on time); mentoring in progress |
+| **Quality of Work** | High – 0 defects escaped to UAT |
+| **Collaboration** | Effective team player; constructive in retros |
+| **Areas for Development** | Documentation consistency |
+| **PM Feedback** | Strong contributor; recommend for leadership track |
+| **Next Period Focus** | Lead testing automation initiative |
+
+### Vendor Performance Review
+
+| Field | Content |
+|---|---|
+| **Vendor Name** | TechPartner Solutions |
+| **Contract Ref** | CONTRACT-2026-001 |
+| **Review Period** | 2026-01-01 to 2026-02-14 |
+| **Deliverables Due** | Module A, Module B |
+| **Deliverables Accepted** | Module A (on time, passed all tests) |
+| **Deliverables Outstanding** | Module B (5 days delayed, in progress) |
+| **Quality Score** | 4/5 (minor defects found in Module A) |
+| **Communication Score** | 5/5 (responsive, proactive updates) |
+| **Issues** | Hardware delay caused 5-day slip |
+| **Corrective Actions** | Vendor expedited shipping; added resources |
+| **Overall Rating** | Good – recommend continued engagement |
+
+---
+
+## 🚨 Escalation Log Template
+
+Track issues that require escalation beyond the project team.
+
+| Field | Example |
+|---|---|
+| **Escalation ID** | ESC-003 |
+| **Related Issue/Risk** | I-021 (Test environment unavailable) |
+| **Description** | Test environment has been down for 5 business days; blocking UAT |
+| **Impact** | UAT delayed by 7 days; milestone at risk |
+| **Escalated To** | VP of Infrastructure |
+| **Escalated By** | Project Manager |
+| **Escalation Date** | 2026-02-05 |
+| **Response Required By** | 2026-02-06 |
+| **Resolution** | Emergency infra support assigned; environment restored 2026-02-06 |
+| **Resolution Date** | 2026-02-06 |
+| **Status** | Resolved |
+
+### Escalation Path Reference
+
+| Escalation Level | Trigger | Decision Maker | Timeframe |
+|---|---|---|---|
+| **Level 1** | Team-level blocker | Scrum Master / Team Lead | Same day |
+| **Level 2** | Cross-team dependency blocked | PM / Delivery Manager | 1-2 business days |
+| **Level 3** | Resource/budget constraint | Sponsor / Steering Committee | 2-3 business days |
+| **Level 4** | Strategic/contractual issue | Executive / Legal | As needed |
+
+---
+
+## 📋 Stakeholder Engagement Assessment Matrix
+
+Track stakeholder engagement levels and compare current vs. desired.
+
+| Stakeholder | Role | Current Level | Desired Level | Gap | Action |
+|---|---|---|---|---|---|
+| Sarah Chen | Sponsor | Supportive | Leading | +1 | Provide project wins to champion |
+| Mike Ops | Operations Director | Neutral | Supportive | +1 | Involve in transition planning |
+| Legal Team | Compliance | Resistant | Neutral | +1 | Address contract concerns |
+| End Users | Customer | Unaware | Supportive | +2 | Launch awareness campaign + demos |
+
+**Engagement Levels:** Unaware → Resistant → Neutral → Supportive → Leading
+
+---
+
+## 🎯 Threshold Alert Template
+
+Use when variance exceeds defined thresholds.
+
+| Field | Example |
+|---|---|
+| **Alert ID** | ALERT-007 |
+| **Metric** | CPI |
+| **Threshold** | Below 0.95 |
+| **Current Value** | 0.91 |
+| **Variance** | -4.2% |
+| **Trend** | Declining for 3 periods |
+| **Root Cause (Preliminary)** | Rework costs due to unclear requirements |
+| **Impact Assessment** | EAC increased by $45K; schedule unaffected |
+| **Recommended Action** | Corrective: add requirements workshop; preventive: update DoD |
+| **Escalation Required?** | Yes – Sponsor notification per threshold policy |
+| **Decision Needed** | Approve additional budget or descope |
+
+---
+
+## 🔄 Sprint/Iteration Metrics Dashboard (Agile)
+
+Use for agile project monitoring cadence.
+
+| Metric | Sprint 5 | Sprint 6 | Sprint 7 | Trend |
+|---|---|---|---|---|
+| **Velocity** | 42 pts | 38 pts | 40 pts | Stable |
+| **Committed** | 45 pts | 42 pts | 42 pts | — |
+| **Delivered** | 42 pts | 38 pts | 40 pts | — |
+| **Carryover** | 3 pts | 4 pts | 2 pts | Improving |
+| **Defects Found** | 8 | 12 | 6 | Improving |
+| **Defects Resolved** | 10 | 9 | 8 | Stable |
+| **Defect Backlog** | 15 | 18 | 16 | Watch |
+| **Cycle Time (avg)** | 3.2 days | 3.5 days | 3.1 days | Stable |
+| **Lead Time (avg)** | 8.5 days | 9.2 days | 8.1 days | Improving |
+
+### Sprint Health Indicators
+
+| Indicator | Good | Warning | Critical |
+|---|---|---|---|
+| Velocity variance | ±10% | ±20% | >±30% |
+| Defect escape rate | <5% | 5-15% | >15% |
+| Carryover | <10% | 10-25% | >25% |
+| Retrospective actions completed | >80% | 50-80% | <50% |
+

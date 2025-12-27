@@ -83,6 +83,103 @@ Stakeholders being “surprised” by bad news usually means you collected **dat
 
 ---
 
+## 📐 Performance Measurement Baseline (PMB)
+
+The **Performance Measurement Baseline** is the integrated combination of the scope baseline, schedule baseline, and cost baseline used as the single reference point for comparing project performance. This is your "truth" for EVM and variance analysis.
+
+### Components of the PMB
+
+| Component | Definition | Used to Measure |
+|---|---|---|
+| **Scope Baseline** | Scope statement + WBS + WBS Dictionary | What work is included/excluded |
+| **Schedule Baseline** | Approved schedule model with dates/logic | When work should be done |
+| **Cost Baseline** | Time-phased budget (often S-curve) | How much should be spent over time |
+
+### PMB vs. Project Budget
+
+```
+┌────────────────────────────────────────────┐
+│            PROJECT BUDGET                  │
+│  ┌──────────────────────────────────────┐  │
+│  │    Performance Measurement Baseline  │  │
+│  │  ┌────────────────────────────────┐  │  │
+│  │  │   Cost Baseline                │  │  │
+│  │  │   (Scope + Schedule + Budget)  │  │  │
+│  │  │   + Contingency Reserves       │  │  │
+│  │  └────────────────────────────────┘  │  │
+│  └──────────────────────────────────────┘  │
+│  + Management Reserve                      │
+└────────────────────────────────────────────┘
+```
+
+**Key Distinction:**
+- **PMB** = Cost Baseline + Contingency Reserve (what you measure performance against)
+- **Project Budget** = PMB + Management Reserve (total authorized funding)
+
+::: tip 💡 Exam Pattern
+If a question asks about "updating the PMB," this means the baselines are being changed—which requires **formal change control approval**.
+:::
+
+### When to Re-baseline
+
+Re-baselining is a serious governance decision. It resets the "truth" you measure against.
+
+| Trigger | Action | Authority |
+|---|---|---|
+| Minor variance within thresholds | No re-baseline; track and communicate | PM |
+| Significant variance but recoverable | Corrective/preventive action; may not need re-baseline | PM + Sponsor |
+| Structural change (scope, schedule, budget) | Submit change request; re-baseline if approved | CCB/Sponsor |
+| Management reserve used | Often requires CR to incorporate into PMB | Sponsor |
+| Project direction fundamentally changes | Full re-baseline with governance approval | Executive/CCB |
+
+---
+
+## 🔧 Configuration Management
+
+Configuration Management ensures that the project's deliverables and documentation are controlled, versioned, and auditable. It's the mechanism that prevents "which version is correct?" chaos.
+
+### Configuration Management Activities
+
+| Activity | Purpose | Exam Question Pattern |
+|---|---|---|
+| **Identification** | Define and label configuration items (CIs) | "What should be formally controlled?" |
+| **Status Accounting** | Track the current state and history of each CI | "Where is the latest version?" |
+| **Verification & Audit** | Ensure CIs match approved specifications | "Does this build match what was approved?" |
+| **Change Control** | Manage changes to CIs through formal process | "How do we protect the baseline?" |
+
+### Configuration Items (CIs) Typically Controlled
+
+- Requirements documents and specifications
+- Design documents and architecture diagrams
+- Source code and builds
+- Test plans and test cases
+- User manuals and operational runbooks
+- Contracts and SOWs
+- Project management plan and sub-plans
+
+### Configuration Management System vs. Change Control System
+
+| Aspect | Configuration Management System | Change Control System |
+|---|---|---|
+| **Focus** | Physical/logical items (documents, code, builds) | Decisions about changes to baselines |
+| **Question** | "What is the current state of deliverables?" | "Should we approve this change?" |
+| **Output** | Version control, audit trails, CI status | Approved/rejected CRs, updated baselines |
+
+::: info 🔍 Real-World Example
+A software project has the following CIs under configuration management:
+- **Requirements v2.3** (last approved specification)
+- **Build v1.4.7** (current production release)
+- **Test Plan v1.2** (matches Requirements v2.3)
+
+When a change request is approved, Configuration Management ensures:
+1. The new requirements are versioned (v2.4)
+2. The new build reflects the change (v1.5.0)
+3. Test plans are updated to match (v1.3)
+4. All versions are linked for traceability
+:::
+
+---
+
 ## 🏎️ Earned Value Management (EVM)
 
 EVM is an objective way to answer: **Are we getting the value we planned for the money and time we’re spending?** It’s most common in predictive/hybrid projects with a defined baseline.
@@ -432,10 +529,75 @@ In adaptive environments, control focuses on **value flow and predictability**, 
     - **Cycle Time**: Clock starts when the team begins work (In Progress) → ends when work is Done.
 - **Cumulative Flow Diagram (CFD)**: Visualizes flow stability. Widening bands indicate bottlenecks. Vertical steps mean batch transfers (bad flow).
 - **WIP Limits**: Constraints placed on columns (e.g., "Doing") to force teams to finish starting before starting new work.
-- **Escaped defects**: quality signal (defects found after “done”).
+- **Escaped defects**: quality signal (defects found after "done").
+
+### Interpreting Agile Metrics (Exam Scenarios)
+
+| Metric Pattern | What It Means | Recommended Action |
+|---|---|---|
+| Velocity declining sprint-over-sprint | Team capacity issue, impediments, or technical debt | Investigate, remove blockers, consider sustainability |
+| Burndown flat for 2+ days | Work is blocked or stories are too large | Daily standup focus, break down stories, swarm on blockers |
+| Burnup scope line keeps moving up | Scope creep or unclear backlog | Freeze scope for iteration, improve refinement quality |
+| Lead time increasing while cycle time stable | Queue time increasing; work waiting to start | Focus on prioritization, reduce WIP, improve flow |
+| CFD bands widening in one column | Bottleneck at that stage | Swarm resources, limit WIP upstream, clear the constraint |
+
+### Agile Definition of Done (DoD) as a Control Tool
+
+The **Definition of Done** is the quality gate for agile work. A clear DoD prevents:
+- **Undone work** being called "done" (hidden technical debt)
+- **Inconsistent quality** across team members
+- **Integration problems** at the end of the release
+
+**Example DoD for a User Story:**
+- [ ] Code complete and passes peer review
+- [ ] Unit tests written and passing (>80% coverage)
+- [ ] Integration tests passing
+- [ ] Code deployed to staging environment
+- [ ] Product Owner acceptance demo completed
+- [ ] Documentation updated (if applicable)
+- [ ] No critical/high defects outstanding
 
 ::: tip 💡 Agile Change Control
 In agile, change is expected. “Control” is achieved by maintaining a transparent, ordered backlog, stable iteration cadence, clear acceptance criteria, and regular inspect/adapt events (review + retro).
+:::
+
+---
+
+## 📢 Communication Performance Monitoring
+
+Monitoring communications ensures the right people get the right information at the right time. Poor communication is often the root cause of stakeholder dissatisfaction.
+
+### What to Monitor
+
+| Indicator | Good Sign | Warning Sign | Action |
+|---|---|---|---|
+| **Stakeholder feedback** | Positive, constructive | Complaints, confusion, surprises | Tailor messaging, increase frequency |
+| **Meeting effectiveness** | Decisions made, actions clear | No decisions, same topics repeated | Restructure agenda, right attendees |
+| **Report utilization** | Reports read, questions asked | Reports ignored, no questions | Simplify, focus on decisions needed |
+| **Information timeliness** | Updates before deadlines | Surprises at reviews | Increase cadence, push vs. pull |
+
+### Communication Barriers and Solutions
+
+| Barrier | Example | PM Response |
+|---|---|---|
+| **Information overload** | 50-page status report | Executive summary + details on demand |
+| **Wrong channel** | Detailed specs via Slack | Use appropriate tools (wiki, formal docs) |
+| **Timing issues** | Updates after decisions made | Align reporting cadence with governance |
+| **Language/jargon** | Technical terms to business stakeholders | Translate to business impact |
+| **Cultural differences** | Direct vs. indirect communication styles | Adapt approach, use visual aids |
+
+### Stakeholder Engagement Effectiveness
+
+| Engagement Level | Signs | Monitoring Action |
+|---|---|---|
+| **Unaware** | No knowledge of project | Increase awareness communications |
+| **Resistant** | Active opposition | Identify concerns, address root cause, escalate if needed |
+| **Neutral** | Passive, neither helping nor hindering | Engage, show value, seek input |
+| **Supportive** | Willing to help when asked | Leverage support, keep informed |
+| **Leading** | Actively champions the project | Utilize as advocates, protect relationship |
+
+::: warning ⚠️ Exam Pattern
+If stakeholders are "surprised" by project status, the issue is usually that **work performance information** was collected but not effectively **communicated** via **work performance reports**. The PM should improve communication, not blame stakeholders.
 :::
 
 <style>

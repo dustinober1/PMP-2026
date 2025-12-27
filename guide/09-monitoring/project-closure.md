@@ -196,6 +196,131 @@ Your final report is the “executive summary of record.” It often includes:
 
 Archiving typically includes: plans/baselines, registers/logs, change history, approvals, contracts, deliverables, and key decisions.
 
+### Final Report Structure (Detailed)
+
+| Section | Content | Audience |
+|---|---|---|
+| **Executive Summary** | 1-page overview: objectives, outcome, key metrics | Executives, Steering Committee |
+| **Scope Delivered** | What was delivered vs. planned; deferred items | Product Owner, Operations |
+| **Schedule Performance** | Baseline vs. actual dates; major milestones | Governance, PMO |
+| **Cost Performance** | Budget vs. actual; EVM summary (CPI, SV, VAC) | Finance, Sponsor |
+| **Quality Summary** | Defect trends, acceptance status, warranty items | Quality, Operations |
+| **Risk/Issue Disposition** | What was closed, transferred, or retired | Governance, Risk Management |
+| **Lessons Learned Summary** | Top 5-10 learnings with recommendations | PMO, Future Project Teams |
+| **Benefits Handoff** | Who measures what, when, with what data | Product Owner, Business Owner |
+
+---
+
+## 📊 Post-Project Review (The Governance Checkpoint)
+
+A **Post-Project Review** is a formal governance event that occurs after project closure to evaluate overall project success and organizational learning. While **Lessons Learned** focus on process improvement, the **Post-Project Review** evaluates strategic outcomes.
+
+### Post-Project Review vs. Lessons Learned
+
+| Aspect | Post-Project Review | Lessons Learned Session |
+|---|---|---|
+| **Timing** | 30-90 days after closure (benefits measurable) | During/immediately after closure |
+| **Focus** | Strategic value, ROI, benefits achievement | Process improvement, what worked/didn't |
+| **Participants** | Sponsor, executives, business owners | Core team, key stakeholders |
+| **Output** | Investment decision validation | OPA updates, recommendations |
+| **Primary Question** | "Did we achieve the expected value?" | "What should we do differently next time?" |
+
+### Post-Project Review Agenda
+
+1. **Business Case Review**
+   - Original justification and expected benefits
+   - Actual benefits achieved to date (if measurable)
+   - Variance analysis and explanation
+
+2. **Investment Analysis**
+   - Planned cost vs. actual cost
+   - ROI calculation (if applicable)
+   - Comparison to alternatives (was this the right project?)
+
+3. **Stakeholder Satisfaction**
+   - Customer/user feedback
+   - Sponsor assessment
+   - Operations readiness evaluation
+
+4. **Lessons for Portfolio**
+   - Should we do similar projects?
+   - What selection criteria should change?
+   - What estimation improvements are needed?
+
+### Benefits Realization Tracking (Post-Closure)
+
+The PM's job ends at handoff, but the **organization** continues tracking benefits:
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                 BENEFITS REALIZATION TIMELINE                   │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  Project       Go-Live        30 days        90 days   1 year  │
+│  Closure         │               │              │          │   │
+│     │            │               │              │          │   │
+│     ▼            ▼               ▼              ▼          ▼   │
+│  ┌──────┐    ┌───────┐     ┌─────────┐    ┌────────┐   ┌─────┐ │
+│  │Handoff│──▶│Adoption│───▶│ Early   │───▶│ Full   │──▶│ ROI │ │
+│  │       │    │ Phase │     │ Results │    │Benefits│   │Review│ │
+│  └──────┘    └───────┘     └─────────┘    └────────┘   └─────┘ │
+│      │            │               │              │          │   │
+│      │            │               │              │          │   │
+│   PM Role     Operations     Operations     Business    Finance │
+│   Ends        Monitors       Measures       Validates   Audits │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+::: tip 💡 2026 Exam Pattern
+Questions may ask "Who is responsible for benefits tracking after closure?" The answer is typically the **business owner, product owner, or operations** — NOT the project manager. The PM's role is to set up the tracking mechanism and hand it off.
+:::
+
+---
+
+## 🔐 Knowledge Transfer and Documentation
+
+Effective knowledge transfer prevents "brain drain" when the project team disbands.
+
+### Knowledge Transfer Matrix
+
+| Knowledge Type | Transfer Method | Recipient | Verification |
+|---|---|---|---|
+| **Technical/How-to** | Documentation, training sessions | Operations, Support | Can they perform the task? |
+| **Decision rationale** | Decision log, architecture docs | Future maintainers | Do they understand why? |
+| **Configuration** | Runbooks, config management | IT Operations | Can they troubleshoot? |
+| **Business context** | Business case, requirements | Product Owner | Can they prioritize enhancements? |
+| **Vendor relationships** | Contract summaries, contact info | Procurement, Legal | Can they manage the vendor? |
+
+### Documentation Completeness Checklist
+
+**Technical Documentation:**
+- [ ] Architecture diagrams (current state)
+- [ ] API documentation and integration guides
+- [ ] Database schema and data dictionary
+- [ ] Configuration management (environments, secrets)
+- [ ] Deployment procedures and rollback plans
+
+**Operational Documentation:**
+- [ ] Runbooks for common procedures
+- [ ] Monitoring and alerting configuration
+- [ ] Incident response procedures
+- [ ] SLA definitions and escalation paths
+- [ ] Backup and recovery procedures
+
+**Business Documentation:**
+- [ ] User guides and training materials
+- [ ] FAQ and known issues
+- [ ] Enhancement requests (deferred backlog)
+- [ ] Stakeholder contact list
+
+**Project Documentation (Archive):**
+- [ ] Project charter and business case
+- [ ] Final baselines (scope, schedule, cost)
+- [ ] Change history and decision log
+- [ ] Lessons learned register
+- [ ] Final project report
+
 ---
 
 ## 🧠 Harvesting Lessons (The Most Valuable Output of Closure)

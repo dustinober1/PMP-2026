@@ -1,6 +1,6 @@
 # Knowledge Check: Monitoring & Closing
 
-Test your mastery of performance metrics, change control, and project closure in the 2026 PMP context. These 25 questions focus on the exam’s favorite patterns: interpreting data, choosing the right “log,” and doing the right thing first when variance appears.
+Test your mastery of performance metrics, change control, configuration management, and project closure in the 2026 PMP context. These 25 scenario-based questions focus on the exam's favorite patterns: interpreting EVM data, choosing the right "log," managing baselines and change control, transition/handoff requirements, and doing the right thing first when variance appears.
 
 <QuizComponent
   title="Chapter 9: Monitoring & Closing"
