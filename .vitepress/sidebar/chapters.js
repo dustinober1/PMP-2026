@@ -105,7 +105,10 @@ export function createSidebar() {
         { text: '6.1 Scope Planning', link: '/guide/06-project-planning/scope-planning' },
         { text: '6.2 Schedule Planning', link: '/guide/06-project-planning/schedule-planning' },
         { text: '6.3 Cost Planning', link: '/guide/06-project-planning/cost-planning' },
-        { text: '6.4 Resource & Procurement', link: '/guide/06-project-planning/resource-planning' },
+        { text: '6.4 Quality Planning', link: '/guide/06-project-planning/quality-planning' },
+        { text: '6.5 Risk Planning', link: '/guide/06-project-planning/risk-planning' },
+        { text: '6.6 Resource & Procurement', link: '/guide/06-project-planning/resource-planning' },
+        { text: '6.7 Communications', link: '/guide/06-project-planning/communications-planning' },
         { text: '📝 Knowledge Check', link: '/guide/06-project-planning/knowledge-check' }
       ]
     },

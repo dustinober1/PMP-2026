@@ -28,31 +28,83 @@ Modern scheduling requires a balance between mathematical precision and human fl
 ---
 
 ## 🧭 The Predictive Schedule Flow (In Order)
-1.  **Plan Schedule Management**: Defines how the schedule will be developed, approved, and controlled.
-2.  **Define Activities**: Turns WBS work packages into a detailed **activity list** (the work to schedule).
-3.  **Sequence Activities**: Defines dependencies and builds the network logic.
-4.  **Estimate Durations**: Produces realistic activity durations (often with three-point/PERT).
-5.  **Develop Schedule**: Creates the schedule model and (when approved) the **Schedule Baseline**.
+
+### Step 1: Plan Schedule Management
+**Purpose**: Defines how the schedule will be developed, approved, and controlled
+**Key Outputs**:
+- Schedule Management Plan (methodology, tools, policies)
+- Schedule model approach (Gantt, network, milestone chart)
+
+### Step 2: Define Activities
+**Purpose**: Turns WBS work packages into a detailed activity list
+**Key Outputs**:
+- Activity list (work to schedule)
+- Activity attributes (constraints, predecessors, resources)
+- Milestone list (significant events)
+
+### Step 3: Sequence Activities
+**Purpose**: Defines dependencies and builds the network logic
+**Key Outputs**:
+- Project schedule network diagram
+- Updated activity attributes
+
+### Step 4: Estimate Activity Durations
+**Purpose**: Produces realistic activity durations
+**Key Outputs**:
+- Duration estimates (with ranges)
+- Basis of estimates (assumptions, data sources)
+
+### Step 5: Develop Schedule
+**Purpose**: Creates the schedule model
+**Key Outputs**:
+- Schedule model (network + durations + resources)
+- Schedule baseline (when approved)
+- Project schedule (Gantt, milestone chart)
 
 ---
 
 ## 🔗 Dependencies (Precedence Diagramming Method)
+
 Most exam questions use these dependency types:
 
-| Type | Name | Meaning | Example |
-| :--- | :--- | :------ | :------ |
-| FS | Finish-to-Start | B starts after A finishes | Test after coding |
-| SS | Start-to-Start | B starts after A starts | Write docs while building |
-| FF | Finish-to-Finish | B finishes after A finishes | QA finishes when dev finishes |
-| SF | Start-to-Finish | B finishes after A starts | Rare (shift handoff) |
+| Type | Name | Meaning | Memory Aid | Example |
+|:-----|:-----|:--------|:-----------|:--------|
+| **FS** | Finish-to-Start | B starts after A finishes | Most common (default) | Test after coding |
+| **SS** | Start-to-Start | B starts after A starts | Start together | Write docs while building |
+| **FF** | Finish-to-Finish | B finishes after A finishes | Finish together | QA finishes when dev finishes |
+| **SF** | Start-to-Finish | B finishes after A starts | Rare (shift handoff) | Night shift ends when day shift starts |
+
+### Dependency Classification
+
+| Type | Definition | Can You Change It? |
+|:-----|:-----------|:-------------------|
+| **Mandatory (Hard Logic)** | Inherent in the nature of work | No |
+| **Discretionary (Soft Logic)** | Preferred sequence, best practice | Yes, if needed |
+| **External** | Driven by outside factors | Negotiate with external parties |
+| **Internal** | Within project team's control | Yes, PM has authority |
 
 ::: tip 💡 Lead vs. Lag
-**Lead** accelerates a successor (e.g., FS with -2 days). **Lag** adds wait time (e.g., paint must dry for 2 days).
+**Lead** accelerates a successor (e.g., FS with -2 days means successor starts 2 days before predecessor finishes).
+**Lag** adds wait time (e.g., paint must dry for 2 days before next coat).
 :::
 
 ---
 
 ## 🧮 Critical Path Method (CPM): Complete Calculation
+
+The Critical Path Method identifies the longest path through the network—the minimum time to complete the project.
+
+### CPM Terminology
+
+| Term | Definition |
+|:-----|:-----------|
+| **ES (Early Start)** | Earliest an activity can start |
+| **EF (Early Finish)** | Earliest an activity can finish (ES + Duration) |
+| **LS (Late Start)** | Latest an activity can start without delaying the project |
+| **LF (Late Finish)** | Latest an activity can finish without delaying the project |
+| **Total Float** | Time an activity can slip without delaying project end (LS - ES) |
+| **Free Float** | Time an activity can slip without delaying next activity (ES_next - EF_current) |
+| **Critical Path** | Longest path through network (activities with zero float) |
 
 ### Step-by-Step CPM Example
 
@@ -103,23 +155,66 @@ Starting from the end, work backward:
 
 **Project Duration**: 13 days (the EF of the last activity)
 
+### CPM Practice Problem
+
+**Network:**
+```
+Start → X(4d) → Y(6d) → End
+          ↓
+        Z(8d) ↗
+```
+
+**Calculate:**
+1. Early/Late dates for each activity
+2. Total float for each activity
+3. Critical path
+4. Project duration
+
+<details>
+<summary>Click to reveal solution</summary>
+
+**Forward Pass:**
+- X: ES=0, EF=4
+- Y: ES=4, EF=10
+- Z: ES=4, EF=12
+
+**Merge at End:** Project duration = max(10, 12) = 12 days
+
+**Backward Pass:**
+- Y: LF=12, LS=6
+- Z: LF=12, LS=4
+- X: LF=min(6, 4)=4, LS=0
+
+**Float:**
+- X: LS-ES = 0-0 = **0** (Critical)
+- Y: LS-ES = 6-4 = 2 (Has float)
+- Z: LS-ES = 4-4 = **0** (Critical)
+
+**Critical Path**: X → Z (12 days)
+
+</details>
+
 ---
 
 ## 📈 Managing Float (Slack)
 
 Float is the amount of time an activity can be delayed without affecting the end date or successor activities.
 
-**Total Float** = LS − ES (or LF − EF)
-- Time an activity can slip without delaying project finish
-- Activities on the critical path have 0 total float
+### Types of Float
 
-**Free Float** = ES(successor) − EF(current)
-- Time an activity can slip without delaying its immediate successor
-- More restrictive than total float
+| Float Type | Formula | Meaning |
+|:-----------|:--------|:--------|
+| **Total Float** | LS − ES (or LF − EF) | Time to slip without delaying project |
+| **Free Float** | ES(successor) − EF(current) | Time to slip without delaying next activity |
+| **Project Float** | Contract deadline − Earliest finish | Buffer before deadline hit |
 
-**Negative Float** = When LS < ES
-- Project is already behind schedule
-- Requires crashing, fast tracking, or formal schedule change
+### Float Interpretation
+
+| Float Value | Interpretation | Action |
+|:------------|:---------------|:-------|
+| **Zero (0)** | Critical path activity | Monitor closely, no flexibility |
+| **Positive (>0)** | Has flexibility | Can use for resource leveling |
+| **Negative (<0)** | Project already late | Requires compression or scope change |
 
 ::: tip 💡 Quick Math Reference
 - **Total Float = LS − ES** or **LF − EF**
@@ -129,13 +224,29 @@ Float is the amount of time an activity can be delayed without affecting the end
 
 ---
 
-## 📊 Duration Estimation: PERT Three-Point
+## 📊 Duration Estimation Techniques
+
+### Estimation Methods Comparison
+
+| Technique | Description | Accuracy | When to Use |
+|:----------|:------------|:---------|:------------|
+| **Analogous** | Based on similar past projects | ±35% | Early planning, limited data |
+| **Parametric** | Mathematical model (units × rate) | ±15% | Historical data available |
+| **Bottom-Up** | Detailed task-level estimates | ±10% | Execution planning |
+| **Three-Point (PERT)** | Pessimistic/Most Likely/Optimistic | Risk-adjusted | Uncertainty is high |
+
+### PERT Three-Point Estimation
 
 When uncertainty is high, use **Three-Point Estimation** (PERT) to incorporate optimistic, pessimistic, and most likely scenarios:
 
-**PERT Formula:**
+**PERT Formula (Beta Distribution - Weighted):**
 ```
 Expected Duration (tₑ) = (O + 4M + P) / 6
+```
+
+**Triangular Distribution (Simple Average):**
+```
+Expected Duration = (O + M + P) / 3
 ```
 
 Where:
@@ -149,6 +260,11 @@ Where:
 ```
 
 This measures the uncertainty/risk in the estimate.
+
+**Variance:**
+```
+Variance = σ² = [(P − O) / 6]²
+```
 
 ### PERT Worked Example
 
@@ -173,19 +289,24 @@ tₑ = 54 / 6 = 9 days
 - Use **9 days** for schedule planning
 - There's approximately **68% confidence** the task will finish between 7-11 days (±1σ)
 - There's approximately **95% confidence** it will finish between 5-13 days (±2σ)
+- There's approximately **99.7% confidence** it will finish between 3-15 days (±3σ)
 
-### Triangular Distribution (Simpler Alternative)
+### Project Duration Uncertainty (Multiple Activities)
 
-Some organizations use simple averaging:
+When calculating uncertainty for the entire critical path:
+
+**Project Standard Deviation:**
 ```
-Expected Duration = (O + M + P) / 3
+σ_project = √(σ₁² + σ₂² + σ₃² + ... + σₙ²)
 ```
 
-This gives equal weight to all three estimates (PERT emphasizes Most Likely 4×).
+**Example:** Critical path has 4 activities with σ = 1, 2, 1.5, 2.5 days
 
-**Same Example Using Triangular:**
 ```
-tₑ = (5 + 8 + 17) / 3 = 30 / 3 = 10 days
+σ_project = √(1² + 2² + 1.5² + 2.5²)
+          = √(1 + 4 + 2.25 + 6.25)
+          = √13.5
+          = 3.67 days
 ```
 
 ::: tip 💡 Exam Tip
@@ -197,48 +318,276 @@ The PMP exam typically uses **PERT (weighted)** unless explicitly stated otherwi
 ## 🌊 Rolling Wave Planning
 
 Planning is an iterative process. You don't need to plan the entire project in detail on Day 1.
-- **Near-term work**: Planned in detail (Work Packages).
-- **Future work**: Planned at a high level (Planning Packages).
-As the project progresses, future work is "rolled" into detail. This is a form of **Progressive Elaboration**.
+
+### Levels of Planning Detail
+
+| Timeframe | Detail Level | Element |
+|:----------|:-------------|:--------|
+| **Near-term (0-4 weeks)** | High detail | Work packages, specific activities |
+| **Medium-term (1-3 months)** | Moderate detail | Work packages, estimated activities |
+| **Long-term (3+ months)** | Low detail | Planning packages (placeholders) |
 
 **Example:**
 - **Sprint 1-2**: Activities decomposed to individual tasks (8-16 hour estimates)
 - **Sprint 3-4**: Planned as work packages (40-80 hour estimates)
 - **Sprint 5-6**: Planned as planning packages (high-level epics, not yet decomposed)
 
+### Progressive Elaboration Benefits
+
+1. **Reduced Rework**: Don't waste time on detailed plans that may change
+2. **Better Accuracy**: More information available for near-term work
+3. **Flexibility**: Adapt to changes without massive re-planning
+4. **Focus**: Team concentrates on executable work
+
 ---
 
 ## 📊 Visualizing the Schedule
+
 Different stakeholders need different views:
-- **Milestone Chart**: Shows only major events/deliverables (Start/Finish dates). Best for **Senior Management**.
-- **Bar Chart (Gantt)**: Shows activities with start/end dates and durations. Best for **Team tracking**.
-- **Project Schedule Network Diagram**: Shows dependencies and workflow logic. Best for **Project Manager analysis** (Critical Path).
+
+| View | Shows | Best For | Detail Level |
+|:-----|:------|:---------|:-------------|
+| **Milestone Chart** | Major events/dates only | Senior Management | Very High Level |
+| **Bar Chart (Gantt)** | Activities with start/end dates | Team tracking | Medium Detail |
+| **Network Diagram** | Dependencies and workflow | PM analysis (Critical Path) | High Detail |
+
+### Schedule Presentation by Audience
+
+| Audience | What They Care About | Format |
+|:---------|:--------------------|:-------|
+| **Sponsor/Executive** | Key dates, milestones, on-track status | Milestone chart, summary Gantt |
+| **Customer** | Delivery dates, major features | Feature roadmap, release schedule |
+| **Project Team** | Daily work, dependencies | Detailed Gantt, sprint board |
+| **Resource Managers** | Resource allocation, availability | Resource histogram |
 
 ---
 
 ## 📅 Agile Scheduling: Cadence + Forecasting
+
 In agile, time is often fixed and scope flexes:
-- **Sprint cadence** creates a predictable rhythm (e.g., 2-week sprints).
-- **Velocity** helps forecast future throughput (use it for planning, not for judging individuals/teams).
-- **Release planning** focuses on a date + MVP scope; detailed scope emerges via refinement.
+
+### Agile Scheduling Principles
+
+| Principle | Description |
+|:----------|:------------|
+| **Fixed Cadence** | Sprints are timeboxed (e.g., 2 weeks) |
+| **Flexible Scope** | What gets done within the timebox may vary |
+| **Velocity-Based** | Historical data forecasts future throughput |
+| **Release Planning** | Multiple sprints combine into releases |
+
+### Velocity and Forecasting
+
+**Velocity** = Story points completed per sprint
+
+**Forecasting Releases:**
+```
+Sprints Required = Backlog Story Points / Average Velocity
+```
+
+**Example:**
+- Backlog: 120 story points
+- Average Velocity: 20 points/sprint
+- Sprints Needed: 120 / 20 = 6 sprints
+- With 2-week sprints: 12 weeks to complete backlog
+
+::: warning ⚠️ Velocity Guidelines
+- Use velocity for planning, not for judging individuals/teams
+- Track team velocity, not individual velocity
+- Expect variance; use ranges not single numbers
+- Re-baseline velocity after significant team changes
+:::
 
 ### Agile Release Planning
+
 Agile release planning provides a high-level summary timeline of the release schedule (typically 3-6 months) based on the product roadmap and the product vision.
-- Determines the number of iterations required to complete a release.
-- **Roadmap**: Shows the "Big Picture" sequence of releases.
-- **Release Plan**: Shows the features expected in the next release.
-- **Iteration Plan**: Shows the tasks for the current 2-4 week cycle.
+
+| Level | Scope | Timeframe |
+|:------|:------|:----------|
+| **Product Roadmap** | Strategic direction, major themes | 1-3 years |
+| **Release Plan** | Features expected in next release | 3-6 months |
+| **Sprint Plan** | Stories for current sprint | 1-4 weeks |
+| **Daily Plan** | Today's work | 1 day |
 
 ---
 
 ## 🏎️ Schedule Compression
+
 When you are behind, you have two primary levers:
-1.  **Crashing**: Adding resources to critical path tasks. (Increases cost, increases risk).
-2.  **Fast Tracking**: Performing sequential tasks in parallel. (No immediate cost, increases risk of rework).
+
+### Compression Techniques Comparison
+
+| Technique | How It Works | Cost Impact | Risk Impact | When to Use |
+|:----------|:-------------|:------------|:------------|:------------|
+| **Crashing** | Add resources to critical path | ↑ Increases | ↑ Moderate increase | Budget available, time critical |
+| **Fast Tracking** | Overlap sequential tasks | → No direct cost | ↑↑ High increase (rework) | No budget, accept rework risk |
+
+### Crashing Decision Process
+
+1. Identify critical path activities
+2. Calculate cost slope for each: (Crash Cost - Normal Cost) / (Normal Duration - Crash Duration)
+3. Crash activity with lowest cost slope first
+4. Recalculate critical path after each crash
+5. Stop when target date achieved or no more crashing possible
+
+**Example Cost Slope Calculation:**
+
+| Activity | Normal | Crash | Cost Slope |
+|:---------|:-------|:------|:-----------|
+| A | 10d, $5k | 7d, $8k | ($8k-$5k)/(10d-7d) = $1k/day |
+| B | 8d, $4k | 6d, $7k | ($7k-$4k)/(8d-6d) = $1.5k/day |
+| C | 12d, $6k | 10d, $9k | ($9k-$6k)/(12d-10d) = $1.5k/day |
+
+**Decision**: Crash activity A first (lowest cost slope of $1k/day)
+
+### Fast Tracking Considerations
+
+- Works best for activities that are mostly independent
+- Highest risk when activities share resources
+- Consider partial overlap (not full parallel)
+- Plan for rework iterations
+
+---
+
+## ⚖️ Resource Optimization
+
+### Resource Leveling vs. Resource Smoothing
+
+| Aspect | Resource Leveling | Resource Smoothing |
+|:-------|:------------------|:-------------------|
+| **Goal** | Eliminate overallocation | Optimize utilization |
+| **End Date** | Usually extends | Does not change |
+| **Uses Float** | May consume or create | Uses only available float |
+| **When to Use** | Resources are the constraint | Date is the constraint |
+
+### Resource Leveling Process
+
+1. Identify overallocated resources
+2. Delay non-critical activities using float
+3. If float consumed, delay critical activities (extends project)
+4. May also assign alternative resources
+5. Re-baseline schedule if end date changes
+
+### Resource Histogram
+
+A resource histogram shows resource allocation over time:
+
+```
+Resources
+   │
+ 3 │     ████████
+   │  ██████████████  ████
+ 2 │██████████████████████████
+   │██████████████████████████
+ 1 │██████████████████████████
+   │________________________________
+      Week 1  Week 2  Week 3  Week 4
+```
+
+Use histograms to identify:
+- Over-allocation (peaks above capacity)
+- Under-utilization (valleys below optimal)
+- Resource bottlenecks
+
+---
+
+## 📐 Schedule Network Analysis Techniques
+
+### Critical Chain Method (CCM)
+
+Unlike CPM which focuses on task dependencies, CCM considers **resource constraints** and uses **buffers**.
+
+| Buffer Type | Purpose | Placement |
+|:------------|:--------|:----------|
+| **Project Buffer** | Protects end date | End of critical chain |
+| **Feeding Buffer** | Protects critical chain from non-critical delays | Where non-critical feeds into critical |
+| **Resource Buffer** | Alerts resources to upcoming work | Before critical tasks needing specific resources |
+
+### What-If Scenario Analysis
+
+Test schedule sensitivity by varying:
+- Activity durations (±20%)
+- Resource availability
+- Dependency assumptions
+- External constraints
+
+### Monte Carlo Simulation
+
+For complex projects, use simulation to:
+- Generate probability distributions for project completion
+- Identify most likely finish date ranges
+- Quantify schedule risk
+- Support contingency reserve calculations
+
+---
+
+## 📋 Schedule Management Artifacts
+
+### Key Schedule Documents
+
+| Document | Purpose | Update Frequency |
+|:---------|:--------|:-----------------|
+| **Schedule Management Plan** | How schedule will be managed | Major phase changes |
+| **Activity List** | All activities to be scheduled | As WBS/scope changes |
+| **Activity Attributes** | Details about each activity | As activities are refined |
+| **Milestone List** | Significant events | As milestones added/changed |
+| **Network Diagram** | Dependencies and logic | When logic changes |
+| **Schedule Baseline** | Approved schedule for comparison | Through change control only |
+| **Project Schedule** | Current working schedule | Regular updates |
+
+---
+
+## 🧠 Schedule Planning Scenarios (Exam Practice)
+
+### Scenario 1: No Extra Budget
+**Situation**: Project is 3 weeks behind schedule. No additional budget available.
+**Answer**: **Fast Track** - overlap activities to compress schedule without adding cost (accept rework risk).
+
+### Scenario 2: Firm End Date with Budget
+**Situation**: Critical deadline is firm. Budget is available. PM needs to recover time.
+**Answer**: **Crash** - add resources to critical path activities.
+
+### Scenario 3: Resource Overallocation
+**Situation**: Developer is scheduled for 60 hours/week in March. Cannot hire additional resources.
+**Answer**: **Resource Leveling** - delay some activities using float. If end date is fixed, use **Resource Smoothing** instead.
+
+### Scenario 4: Identifying Most Risky Activity
+**Situation**: Which activity poses the greatest schedule risk?
+**Answer**: Activities on the **critical path** with **high duration uncertainty** (largest standard deviation).
+
+### Scenario 5: Interpreting Float
+**Situation**: Activity X has 5 days of total float. What does this mean?
+**Answer**: Activity X can be delayed up to 5 days without impacting the project end date. It is **not** on the critical path.
 
 ::: info 🛠️ 2026 Focus: AI in Estimation
 In 2026, PMs use **AI-Augmented Estimation** to analyze historical performance and identify "True" task durations. However, the PM must still facilitate **Bottom-Up Estimation** with the team to ensure buy-in and accuracy.
 :::
+
+---
+
+## 📚 Key Formulas & Quick Reference
+
+### Schedule Formulas
+
+| Formula | Purpose |
+|:--------|:--------|
+| **EF = ES + Duration** | Calculate early finish |
+| **LS = LF - Duration** | Calculate late start |
+| **Total Float = LS - ES** | Calculate total float |
+| **Free Float = ES(next) - EF(current)** | Calculate free float |
+| **PERT = (O + 4M + P) / 6** | Weighted average duration |
+| **σ = (P - O) / 6** | Standard deviation |
+| **σ_project = √Σσ²** | Project standard deviation |
+
+### Quick Decision Guide
+
+| Situation | Solution |
+|:----------|:---------|
+| Behind schedule, no budget | Fast Track |
+| Behind schedule, budget available | Crash |
+| Resource overallocated, date fixed | Resource Smoothing |
+| Resource overallocated, date flexible | Resource Leveling |
+| Uncertain duration | Three-Point Estimate |
+| Long-term work not detailed | Rolling Wave Planning |
 
 <style>
 .schedule-grid {

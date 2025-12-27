@@ -1,6 +1,6 @@
 # Knowledge Check: Integrated Planning
 
-Test your ability to weave together scope, schedule, cost, and resource baselines for the 2026 PMP exam.
+Test your ability to weave together scope, schedule, cost, quality, risk, resource, and communications baselines for the 2026 PMP exam.
 
 <QuizComponent
   title="Chapter 6: Planning"
@@ -42,43 +42,187 @@ Test your ability to weave together scope, schedule, cost, and resource baseline
       reference: 'Section 6.3'
     },
     {
-      text: 'You are managing a global team. A key task is delayed because equipment is stuck in customs. This specific risk was identified in the risk register last month. What should you use to cover the delay costs?',
+      text: 'A project has BAC = $200,000. At month 6, PV = $100,000, EV = $80,000, and AC = $90,000. What is the CPI and what does it indicate?',
       options: [
-        'The Management Reserve',
-        'The Project Sponsor\'s personal budget',
-        'The Contingency Reserve',
-        'The Quality Budget'
+        'CPI = 0.89, the project is over budget',
+        'CPI = 1.11, the project is under budget',
+        'CPI = 0.80, the project is behind schedule',
+        'CPI = 0.90, the project is ahead of schedule'
       ],
-      correct: 2,
-      explanation: 'Since the risk was identified (Known Unknown), the Contingency Reserve is the appropriate source of funding.',
+      correct: 0,
+      explanation: 'CPI = EV / AC = $80,000 / $90,000 = 0.89. CPI < 1.0 means the project is getting only 89 cents of value for every dollar spent (over budget).',
       reference: 'Section 6.3'
     },
     {
-      text: 'A project manager is evaluating the cost of a new server. They consider not just the purchase price, but the electricity, maintenance, and eventual disposal costs over 5 years. What technique is this?',
+      text: 'A stakeholder requests a new feature after the scope baseline is approved. What should the PM do FIRST?',
       options: [
-        'Value Engineering',
-        'Lifecycle Costing',
-        'Sunk Cost Analysis',
-        'Opportunity Cost'
+        'Add the feature to the WBS immediately',
+        'Submit a change request and perform impact analysis',
+        'Reject the request because baselines cannot change',
+        'Ask the team to absorb the work without updating documents'
       ],
       correct: 1,
-      explanation: 'Lifecycle Costing looks at the total cost of ownership (acquisition, operation, disposal) rather than just the initial build cost.',
-      reference: 'Section 6.3'
-    },
-    {
-      text: 'An agile team is struggling to finish their scope within the sprint. The Product Owner wants to add \'one more tiny feature\' to the current sprint. What is the best PM action?',
-      options: [
-        'Agree to the change to keep the Product Owner happy',
-        'Add the feature to the current sprint but ask the team to work overtime',
-        'Advise the Product Owner that the feature should be added to the backlog for prioritization in the next sprint planning',
-        'Immediately update the WBS to include the story'
-      ],
-      correct: 2,
-      explanation: 'In agile, the scope of a sprint is fixed once started. New items go to the backlog for future prioritization.',
+      explanation: 'Once baselined, changes require Integrated Change Control: document the change request, analyze impacts, seek approval, then update baselines if approved.',
       reference: 'Section 6.1'
     },
     {
-      text: 'Which set of documents makes up the Scope Baseline in a predictive project?',
+      text: 'An agile team discovers a defect pattern and wants to identify the root cause. The PM suggests organizing potential causes into categories like People, Process, Technology, and Environment. Which tool should the team use?',
+      options: [
+        'Pareto Chart',
+        'Control Chart',
+        'Cause-and-Effect Diagram (Fishbone)',
+        'Histogram'
+      ],
+      correct: 2,
+      explanation: 'The Cause-and-Effect (Fishbone/Ishikawa) Diagram organizes potential root causes into categories like the 6 Ms: Man, Machine, Method, Material, Measurement, and Mother Nature.',
+      reference: 'Section 6.4 (Quality)'
+    },
+    {
+      text: 'The quality team has collected data on 8 different defect types. They want to determine which defects to address first based on frequency. Which tool should they use?',
+      options: [
+        'Cause-and-Effect Diagram',
+        'Pareto Chart',
+        'Scatter Diagram',
+        'Control Chart'
+      ],
+      correct: 1,
+      explanation: 'A Pareto Chart orders defects by frequency, showing which 20% of causes create 80% of problems, helping prioritize improvement efforts.',
+      reference: 'Section 6.4 (Quality)'
+    },
+    {
+      text: 'A risk has been identified with a 40% probability and a potential impact of $150,000. What is the Expected Monetary Value (EMV)?',
+      options: [
+        '$37,500',
+        '$60,000',
+        '$90,000',
+        '$150,000'
+      ],
+      correct: 1,
+      explanation: 'EMV = Probability × Impact = 0.40 × $150,000 = $60,000. This is used for decision analysis and calculating contingency reserves.',
+      reference: 'Section 6.5 (Risk)'
+    },
+    {
+      text: 'A major risk occurs that was NOT identified in the risk register. The PM needs funds to address it. What reserve should be used?',
+      options: [
+        'Contingency Reserve (PM authority)',
+        'Management Reserve (Sponsor approval)',
+        'Quality Budget',
+        'Activity Estimates'
+      ],
+      correct: 1,
+      explanation: 'Management Reserve is for Unknown Unknowns (unidentified risks). Using it requires a formal change request and Sponsor approval.',
+      reference: 'Section 6.5 (Risk)'
+    },
+    {
+      text: 'The PM wants to eliminate a high-impact threat entirely by removing the risky component from the project scope. What risk response strategy is this?',
+      options: [
+        'Mitigate',
+        'Transfer',
+        'Avoid',
+        'Accept'
+      ],
+      correct: 2,
+      explanation: 'Avoid means eliminating the threat entirely, often by changing scope, schedule, or approach to remove the risk source.',
+      reference: 'Section 6.5 (Risk)'
+    },
+    {
+      text: 'A project team of 8 members adds 2 new members. How many communication channels exist after the addition?',
+      options: [
+        '28 channels',
+        '36 channels',
+        '45 channels',
+        '55 channels'
+      ],
+      correct: 2,
+      explanation: 'Communication channels = n(n-1)/2 = 10(9)/2 = 45 channels. With 10 team members, there are 45 potential channels.',
+      reference: 'Section 6.7 (Communications)'
+    },
+    {
+      text: 'A vendor asks a private question after the bidder conference regarding the SOW. What should the PM do?',
+      options: [
+        'Answer the vendor privately to maintain the relationship',
+        'Answer the question and share the answer with all bidders',
+        'Ignore the question to avoid favoritism',
+        'Disqualify the vendor for asking'
+      ],
+      correct: 1,
+      explanation: 'Fairness in procurement requires that all vendors receive the same information. Any Q&A must be shared with all prospective bidders.',
+      reference: 'Section 6.6 (Procurement)'
+    },
+    {
+      text: 'A contract has Target Cost = $500,000, Target Fee = $50,000, and Share Ratio = 80/20 (Buyer/Seller). If the vendor completes for $450,000, what is the final fee?',
+      options: [
+        '$40,000',
+        '$50,000',
+        '$60,000',
+        '$70,000'
+      ],
+      correct: 2,
+      explanation: 'Savings = $500k - $450k = $50k. Seller share = $50k × 20% = $10k. Final Fee = $50k + $10k = $60,000.',
+      reference: 'Section 6.6 (Procurement)'
+    },
+    {
+      text: 'Using PERT estimation, an activity has O=6 days, M=10 days, P=20 days. What is the expected duration?',
+      options: [
+        '10 days',
+        '11 days',
+        '12 days',
+        '14 days'
+      ],
+      correct: 1,
+      explanation: 'PERT = (O + 4M + P) / 6 = (6 + 40 + 20) / 6 = 66 / 6 = 11 days.',
+      reference: 'Section 6.2'
+    },
+    {
+      text: 'For the same activity (O=6, M=10, P=20), what is the standard deviation?',
+      options: [
+        '1.67 days',
+        '2.33 days',
+        '3.0 days',
+        '4.67 days'
+      ],
+      correct: 1,
+      explanation: 'Standard Deviation = (P − O) / 6 = (20 − 6) / 6 = 14 / 6 = 2.33 days.',
+      reference: 'Section 6.2'
+    },
+    {
+      text: 'In a network diagram, Activity B depends on Activity A with a Finish-to-Start relationship and a 2-day lag. What does this mean?',
+      options: [
+        'Activity B starts 2 days before A finishes',
+        'Activity B starts 2 days after A finishes',
+        'Activity B finishes 2 days after A finishes',
+        'Activity B and A finish at the same time'
+      ],
+      correct: 1,
+      explanation: 'A lag is a mandatory waiting period. FS with +2 days lag means B cannot start until 2 days AFTER A finishes.',
+      reference: 'Section 6.2'
+    },
+    {
+      text: 'A control chart shows 8 consecutive data points above the center line but within control limits. What should the PM do?',
+      options: [
+        'Nothing, the process is in control',
+        'Investigate for special cause variation',
+        'Expand the control limits',
+        'Stop production immediately'
+      ],
+      correct: 1,
+      explanation: 'The Rule of Seven states that 7+ consecutive points on one side of the mean indicates non-random variation (special cause) requiring investigation.',
+      reference: 'Section 6.4 (Quality)'
+    },
+    {
+      text: 'The PM is deciding between building a component internally or outsourcing. The work is a core competency and will be reused on future projects. What should the PM recommend?',
+      options: [
+        'Buy (outsource) for faster delivery',
+        'Make (internal) to build long-term capability',
+        'T&M contract with a vendor',
+        'Cost-plus contract with a vendor'
+      ],
+      correct: 1,
+      explanation: 'When work is a core competency with long-term reuse potential, making internally builds organizational capability and is usually preferred.',
+      reference: 'Section 6.6 (Procurement)'
+    },
+    {
+      text: 'Which set of documents makes up the Scope Baseline?',
       options: [
         'Requirements Documentation, RTM, and Activity List',
         'Project Scope Statement, WBS, and WBS Dictionary',
@@ -86,23 +230,11 @@ Test your ability to weave together scope, schedule, cost, and resource baseline
         'Product Backlog, Sprint Backlog, and Definition of Done'
       ],
       correct: 1,
-      explanation: 'The Scope Baseline is the approved version of the Project Scope Statement, the WBS, and the WBS Dictionary. It is the target used for controlling scope.',
+      explanation: 'The Scope Baseline consists of the approved Project Scope Statement, WBS, and WBS Dictionary.',
       reference: 'Section 6.1'
     },
     {
-      text: 'A compliance auditor asks you to show where each requirement originated and which deliverable/test proves it was met. Which artifact should you use?',
-      options: [
-        'Work Breakdown Structure (WBS)',
-        'Requirements Traceability Matrix (RTM)',
-        'Risk Register',
-        'Resource Calendar'
-      ],
-      correct: 1,
-      explanation: 'The RTM links requirements to their source, the work that delivers them, and how they will be verified and accepted.',
-      reference: 'Section 6.1'
-    },
-    {
-      text: 'A developer adds an unrequested feature to delight the customer without approval. What is this called?',
+      text: 'A developer adds an unrequested feature to \"delight the customer\" without approval. What is this called?',
       options: [
         'Scope Creep',
         'Gold Plating',
@@ -110,392 +242,68 @@ Test your ability to weave together scope, schedule, cost, and resource baseline
         'Progressive Elaboration'
       ],
       correct: 1,
-      explanation: 'Gold plating is adding extra features or work that was not requested or approved. It increases risk and wastes resources, even if it is free.',
+      explanation: 'Gold Plating is adding extra features or work not requested or approved. Even if \"free,\" it wastes resources and can introduce risk.',
       reference: 'Section 6.1'
     },
     {
-      text: 'Your scope is baselined. A stakeholder requests a new feature that will add two weeks of effort. What should the PM do next (predictive context)?',
+      text: 'A PM needs to determine if there is a correlation between lines of code and number of defects. Which tool should be used?',
       options: [
-        'Add the feature to the WBS immediately to avoid delays',
-        'Submit a change request and perform impact analysis before updating any baselines',
-        'Reject the request because baselines can never change',
-        'Ask the team to absorb the work without changing the schedule or budget'
-      ],
-      correct: 1,
-      explanation: 'Once a plan is baselined, changes require Integrated Change Control: document the change request, analyze impacts (scope/schedule/cost/resources/risk), then seek approval before updating baselines.',
-      reference: 'Section 6.1'
-    },
-    {
-      text: 'Which item is an example of Project Scope (not Product Scope)?',
-      options: [
-        'The mobile app supports Face ID login',
-        'The dashboard loads in under 2 seconds',
-        'Train 200 users on the new system',
-        'The report exports to CSV'
+        'Histogram',
+        'Pareto Chart',
+        'Scatter Diagram',
+        'Control Chart'
       ],
       correct: 2,
-      explanation: 'Project scope is the work required to deliver the product. Training, migration, installation, and deployment work are project scope. Features and performance requirements are product scope.',
-      reference: 'Section 6.1'
+      explanation: 'A Scatter Diagram shows the relationship between two variables, helping identify correlation (positive, negative, or none).',
+      reference: 'Section 6.4 (Quality)'
     },
     {
-      text: 'During a bidder conference, a vendor asks a question about the SOW that reveals a flaw in your requirements. What must you do?',
+      text: 'The project team is overallocated but the end date cannot change. Which technique should the PM use?',
       options: [
-        'Answer the vendor privately to thank them for the catch',
-        'Update the SOW and send the answer/amendment to all potential bidders',
-        'Ignore the question to avoid embarrassment',
-        'Cancel the procurement immediately'
-      ],
-      correct: 1,
-      explanation: 'Fairness dictates that all vendors must have access to the same information. You must update the documents and share the answer with everyone.',
-      reference: 'Section 6.4'
-    },
-    {
-      text: 'In a Finish-to-Start (FS) dependency, when can the successor activity begin?',
-      options: [
-        'After the predecessor starts',
-        'After the predecessor finishes',
-        'Before the predecessor finishes',
-        'Only when both activities finish at the same time'
-      ],
-      correct: 1,
-      explanation: 'Finish-to-Start means the successor cannot start until the predecessor finishes (the most common dependency type on the exam).',
-      reference: 'Section 6.2'
-    },
-    {
-      text: 'You must wait 48 hours after pouring concrete before you can start framing. What is this 48-hour delay called?',
-      options: [
-        'Lead',
-        'Lag',
-        'Float',
-        'Crashing'
-      ],
-      correct: 1,
-      explanation: 'A lag is a mandatory waiting period inserted between activities (e.g., cure time, dry time, regulatory waiting period).',
-      reference: 'Section 6.2'
-    },
-    {
-      text: 'A network has two paths: Path 1 totals 9 days and Path 2 totals 11 days. Which statement is true?',
-      options: [
-        'Path 1 is the critical path because it is shorter',
-        'Path 2 is the critical path because it is longer',
-        'Both paths are critical because they share a start activity',
-        'The critical path cannot be determined without cost data'
-      ],
-      correct: 1,
-      explanation: 'The critical path is the longest path through the network and determines the earliest possible finish date. Critical path activities typically have zero total float.',
-      reference: 'Section 6.2'
-    },
-    {
-      text: 'Your budget for June is $50,000, but the schedule dictates $70,000 of work. You adjust the schedule to align the spend with the cash flow limits. What is this called?',
-      options: [
+        'Resource Leveling',
+        'Resource Smoothing',
         'Crashing',
-        'Funding Limit Reconciliation',
-        'Value Engineering',
-        'Reserve Analysis'
+        'Fast Tracking'
       ],
       correct: 1,
-      explanation: 'Funding Limit Reconciliation involves rescheduling work to ensure planned expenditures do not exceed the funds available (cash flow) for a given period.',
+      explanation: 'Resource Smoothing adjusts activities within available float to balance resource usage WITHOUT changing the project end date.',
+      reference: 'Section 6.6'
+    },
+    {
+      text: 'A project has PV=$80,000, EV=$70,000, AC=$75,000. Which statement is correct?',
+      options: [
+        'The project is ahead of schedule and under budget',
+        'The project is behind schedule and over budget',
+        'The project is ahead of schedule and over budget',
+        'The project is behind schedule and under budget'
+      ],
+      correct: 1,
+      explanation: 'SV = EV-PV = -$10,000 (behind schedule). CV = EV-AC = -$5,000 (over budget). The project is behind schedule AND over budget.',
       reference: 'Section 6.3'
     },
     {
-      text: 'You plan near-term work in detail and future work at a high level, waiting to decompose it until more information is known. What is this technique?',
+      text: 'In a RACI chart, how many people should be \"Accountable\" for a single deliverable?',
       options: [
-        'Crashing',
-        'Fast tracking',
-        'Rolling Wave Planning',
-        'Gold Plating'
+        'At least one',
+        'Exactly one',
+        'One or more',
+        'As many as needed'
+      ],
+      correct: 1,
+      explanation: 'There should be exactly ONE Accountable person per deliverable to ensure clear ownership. Multiple \"A\"s create confusion about who has final authority.',
+      reference: 'Section 6.6'
+    },
+    {
+      text: 'The PM wants to shift cost risk to the vendor for a well-defined construction project. Which contract type is most appropriate?',
+      options: [
+        'Cost Plus Fixed Fee (CPFF)',
+        'Time and Materials (T&M)',
+        'Firm Fixed Price (FFP)',
+        'Cost Plus Incentive Fee (CPIF)'
       ],
       correct: 2,
-      explanation: 'Rolling Wave Planning is a form of progressive elaboration where near-term work is planned in detail and future work is planned at a higher level.',
-      reference: 'Section 6.2'
-    },
-    {
-      text: 'An agile team wants to forecast how much work they can complete over the next three sprints. Which metric is most useful?',
-      options: [
-        'Cost variance (CV)',
-        'Velocity',
-        'Total float',
-        'Management reserve'
-      ],
-      correct: 1,
-      explanation: 'Velocity is a measure of throughput over time. It helps teams forecast future delivery based on past performance (it is not meant to rank individuals).',
-      reference: 'Section 6.2'
-    },
-    {
-      text: 'Which estimation technique is typically the most accurate but also the most time-consuming?',
-      options: [
-        'Analogous',
-        'Parametric',
-        'Bottom-up',
-        'Three-point'
-      ],
-      correct: 2,
-      explanation: 'Bottom-up estimating builds estimates at the activity/work package level and rolls them up. It is usually the most accurate and also the most effort-intensive.',
-      reference: 'Section 6.3'
-    },
-    {
-      text: 'Which formula represents a PERT three-point estimate?',
-      options: [
-        '(O + M + P) / 3',
-        '(O + 4M + P) / 6',
-        '(P - O) / 2',
-        'EV / AC'
-      ],
-      correct: 1,
-      explanation: 'PERT uses a weighted average that emphasizes the Most Likely estimate: (Optimistic + 4×Most Likely + Pessimistic) / 6.',
-      reference: 'Section 6.3'
-    },
-    {
-      text: 'Your team is grouping a large number of brainstorming ideas into natural categories for review. What tool are they using?',
-      options: [
-        'Affinity Diagram',
-        'Mind Mapping',
-        'Context Diagram',
-        'Scatter Plot'
-      ],
-      correct: 0,
-      explanation: 'Affinity Diagrams are used to organize large amounts of data into groups or themes based on their natural relationships.',
-      reference: 'Section 6.1'
-    },
-    {
-      text: 'Your schedule shows an engineer is overallocated. You must resolve the overallocation but cannot change the project finish date. What should you do?',
-      options: [
-        'Resource leveling',
-        'Resource smoothing',
-        'Fast tracking',
-        'Reduce quality requirements'
-      ],
-      correct: 1,
-      explanation: 'Resource smoothing adjusts activities within available float so you do not exceed resource limits while keeping the finish date the same. Resource leveling may extend the schedule.',
-      reference: 'Section 6.4'
-    },
-    {
-      text: 'In a RACI chart, who is ultimately answerable for a deliverable and approves the work?',
-      options: [
-        'Responsible',
-        'Accountable',
-        'Consulted',
-        'Informed'
-      ],
-      correct: 1,
-      explanation: 'Accountable is the single party who owns the outcome for a deliverable. Responsible does the work; Consulted provides input; Informed is kept up to date.',
-      reference: 'Section 6.4'
-    },
-    {
-      text: 'Which artifact best documents when specific resources are available (vacations, time zones, equipment windows) for scheduling?',
-      options: [
-        'Resource calendar',
-        'Control chart',
-        'Burnup chart',
-        'Product backlog'
-      ],
-      correct: 0,
-      explanation: 'Resource calendars show availability constraints and help prevent unrealistic schedules (e.g., ignoring vacations, time zones, or equipment access windows).',
-      reference: 'Section 6.4'
-    },
-    {
-      text: 'You have a clearly defined item and primarily need vendor pricing. Which procurement document is most appropriate?',
-      options: [
-        'RFP (Request for Proposal)',
-        'RFQ (Request for Quotation)',
-        'Issue log',
-        'Change request'
-      ],
-      correct: 1,
-      explanation: 'RFQs are used when requirements are well-defined and you primarily need price quotes. RFPs are used when you need vendors to propose a solution/approach.',
-      reference: 'Section 6.4'
-    },
-    {
-      text: 'You want to shift more cost risk to the seller and the scope is well-defined. Which contract type fits best?',
-      options: [
-        'Fixed price (FFP)',
-        'Cost reimbursable',
-        'Time and materials (T&M)',
-        'Cost-plus award fee (CPAF)'
-      ],
-      correct: 0,
-      explanation: 'Fixed-price contracts generally place more cost risk on the seller (assuming scope is clear and stable). Cost-reimbursable contracts place more risk on the buyer.',
-      reference: 'Section 6.4'
-    },
-    {
-      text: 'A project has PV = $50,000, EV = $45,000, and AC = $48,000. What is the CPI?',
-      options: [
-        '0.90',
-        '0.94',
-        '1.07',
-        '1.11'
-      ],
-      correct: 1,
-      explanation: 'CPI = EV / AC = $45,000 / $48,000 = 0.94. This indicates the project is over budget (getting 94 cents of value for every dollar spent).',
-      reference: 'Section 6.3'
-    },
-    {
-      text: 'Given the same values (PV = $50,000, EV = $45,000, AC = $48,000), what is the SPI?',
-      options: [
-        '0.90',
-        '0.94',
-        '1.04',
-        '1.11'
-      ],
-      correct: 0,
-      explanation: 'SPI = EV / PV = $45,000 / $50,000 = 0.90. This indicates the project is behind schedule (only 90% of planned work completed).',
-      reference: 'Section 6.3'
-    },
-    {
-      text: 'A project has BAC = $200,000, EV = $100,000, and AC = $120,000. If current performance continues, what is the EAC?',
-      options: [
-        '$200,000',
-        '$220,000',
-        '$240,000',
-        '$280,000'
-      ],
-      correct: 2,
-      explanation: 'EAC = BAC / CPI. First calculate CPI = EV / AC = $100,000 / $120,000 = 0.833. Then EAC = $200,000 / 0.833 = $240,000.',
-      reference: 'Section 6.3'
-    },
-    {
-      text: 'Using PERT estimation, an activity has O=4 days, M=6 days, P=14 days. What is the expected duration?',
-      options: [
-        '6 days',
-        '7 days',
-        '8 days',
-        '10 days'
-      ],
-      correct: 1,
-      explanation: 'PERT = (O + 4M + P) / 6 = (4 + 24 + 14) / 6 = 42 / 6 = 7 days.',
-      reference: 'Section 6.2'
-    },
-    {
-      text: 'For the same activity (O=4, M=6, P=14), what is the standard deviation?',
-      options: [
-        '1.0 days',
-        '1.67 days',
-        '2.0 days',
-        '5.0 days'
-      ],
-      correct: 1,
-      explanation: 'Standard Deviation = (P − O) / 6 = (14 − 4) / 6 = 10 / 6 = 1.67 days.',
-      reference: 'Section 6.2'
-    },
-    {
-      text: 'In a network diagram, Activity A has ES=0, EF=5, LS=2, LF=7. What is the total float?',
-      options: [
-        '0 days',
-        '2 days',
-        '5 days',
-        '7 days'
-      ],
-      correct: 1,
-      explanation: 'Total Float = LS − ES = 2 − 0 = 2 days (or LF − EF = 7 − 5 = 2 days).',
-      reference: 'Section 6.2'
-    },
-    {
-      text: 'A vendor contract has: Target Cost = $80k, Target Fee = $8k, Share Ratio = 70/30 (Buyer/Seller). If the vendor completes for $70k, what is the final fee?',
-      options: [
-        '$5,000',
-        '$8,000',
-        '$11,000',
-        '$12,000'
-      ],
-      correct: 2,
-      explanation: 'Savings = $80k − $70k = $10k. Seller share = $10k × 30% = $3k. Final Fee = $8k + $3k = $11k.',
-      reference: 'Section 6.4'
-    },
-    {
-      text: 'Which requirement type describes "The system must support 10,000 concurrent users"?',
-      options: [
-        'Functional requirement',
-        'Non-functional requirement (performance)',
-        'Business requirement',
-        'Transition requirement'
-      ],
-      correct: 1,
-      explanation: 'This is a non-functional requirement specifically related to performance/scalability. Functional requirements describe what the system does; non-functional describe how well it must perform.',
-      reference: 'Section 6.1'
-    },
-    {
-      text: 'In MoSCoW prioritization, which category should be cut first when the project runs out of time?',
-      options: [
-        'Must Have',
-        'Should Have',
-        'Could Have',
-        'Won\'t Have'
-      ],
-      correct: 2,
-      explanation: 'Could Have items are the first to be deferred when time runs short. Must Have items are critical and non-negotiable. Won\'t Have items are already out of scope.',
-      reference: 'Section 6.1'
-    },
-    {
-      text: 'A project has BAC = $150,000, EV = $90,000, AC = $100,000. What is the TCPI needed to finish at the original budget?',
-      options: [
-        '0.90',
-        '1.00',
-        '1.20',
-        '1.67'
-      ],
-      correct: 2,
-      explanation: 'TCPI = (BAC − EV) / (BAC − AC) = ($150k − $90k) / ($150k − $100k) = $60k / $50k = 1.20. The team must be 20% more efficient than the baseline to finish at budget.',
-      reference: 'Section 6.3'
-    },
-    {
-      text: 'Which WBS principle states that all project work must be included in the WBS?',
-      options: [
-        'Mutually exclusive principle',
-        'Outcome-oriented principle',
-        '100% rule',
-        'Decomposition principle'
-      ],
-      correct: 2,
-      explanation: 'The 100% rule states that the WBS must include 100% of the work defined by the project scope and capture all deliverables—internal, external, interim—in terms of work to be completed.',
-      reference: 'Section 6.1'
-    },
-    {
-      text: 'When performing resource leveling, what typically happens to the project finish date?',
-      options: [
-        'It stays the same',
-        'It is reduced',
-        'It is extended',
-        'It is eliminated'
-      ],
-      correct: 2,
-      explanation: 'Resource leveling typically extends the project finish date because it delays activities to resolve resource over-allocation. Resource smoothing uses float and does not change the finish date.',
-      reference: 'Section 6.4'
-    },
-    {
-      text: 'What is the primary difference between Free Float and Total Float?',
-      options: [
-        'Free Float affects the project end date; Total Float does not',
-        'Total Float affects the project end date; Free Float only affects the next activity',
-        'They are the same thing',
-        'Free Float is always larger than Total Float'
-      ],
-      correct: 1,
-      explanation: 'Total Float is the time an activity can slip without affecting the project finish date. Free Float is the time an activity can slip without affecting the early start of its immediate successor. Free Float is typically equal to or less than Total Float.',
-      reference: 'Section 6.2'
-    },
-    {
-      text: 'Which cost estimation technique is most accurate but also most time-consuming?',
-      options: [
-        'Analogous (Top-down)',
-        'Parametric',
-        'Bottom-up',
-        'Three-point (PERT)'
-      ],
-      correct: 2,
-      explanation: 'Bottom-up estimating builds estimates at the work package or activity level and aggregates them. It is the most accurate but requires the most time and effort.',
-      reference: 'Section 6.3'
-    },
-    {
-      text: 'In a cost-plus contract, who typically bears more cost risk?',
-      options: [
-        'The seller',
-        'The buyer',
-        'Both equally',
-        'The project sponsor'
-      ],
-      correct: 1,
-      explanation: 'In cost-reimbursable (cost-plus) contracts, the buyer bears more cost risk because they reimburse the seller for all costs incurred, plus a fee. The seller has less incentive to control costs.',
-      reference: 'Section 6.4'
+      explanation: 'Firm Fixed Price (FFP) contracts put cost risk on the seller when scope is well-defined. The vendor delivers for a set price regardless of actual costs.',
+      reference: 'Section 6.6 (Procurement)'
     }
   ]"
 />
@@ -530,6 +338,20 @@ For full Chapter 6 proficiency, ensure you can:
 4. **Use Estimation Techniques**: Analogous (quick, less accurate) → Parametric (formula-based) → Bottom-up (detailed, accurate)
 5. **Manage Reserves**: Contingency (known unknowns, PM control) vs. Management (unknown unknowns, sponsor control)
 
+### Quality Planning Mastery
+1. **Cost of Quality**: Prevention + Appraisal (Conformance) vs. Internal + External Failure (Non-Conformance)
+2. **Seven Basic Tools**: Cause-Effect, Flowchart, Checksheet, Pareto, Histogram, Control Chart, Scatter
+3. **Control Chart Rules**: Points outside limits = out of control; Rule of Seven = investigate
+4. **Quality vs. Grade**: Low quality = always a problem; Low grade = may be acceptable
+5. **Prevention over Inspection**: Building quality in costs less than finding defects
+
+### Risk Planning Mastery
+1. **Risk Formulas**: Risk Score = P × I; EMV = Probability × Impact ($)
+2. **Threat Strategies**: Avoid, Mitigate, Transfer, Accept, Escalate
+3. **Opportunity Strategies**: Exploit, Enhance, Share, Accept, Escalate
+4. **Reserves**: Contingency (identified risks, PM) vs. Management (unidentified, Sponsor)
+5. **Quantitative Tools**: EMV, Decision Trees, Sensitivity Analysis, Monte Carlo
+
 ### Resource & Procurement Mastery
 1. **RACI Clarity**: Assign Responsible (doer), Accountable (owner), Consulted (input), Informed (aware)
 2. **Contract Risk**: Know FFP (seller risk), Cost-Plus (buyer risk), T&M (shared risk)
@@ -537,6 +359,13 @@ For full Chapter 6 proficiency, ensure you can:
 4. **Make-or-Buy**: Evaluate strategic value, cost, capability, and risk
 5. **Source Selection**: Match method to situation (least cost, qualifications, quality-based, fixed budget)
 6. **Bidder Fairness**: Ensure all vendors receive the same information (no secret meetings)
+
+### Communications Mastery
+1. **Channel Formula**: n(n-1)/2 for number of communication channels
+2. **Communication Types**: Interactive (meetings), Push (email), Pull (intranet)
+3. **Communication Model**: Sender → Encode → Message → Decode → Receiver → Feedback
+4. **Barriers**: Physical, semantic, cultural, psychological, technical
+5. **Virtual Teams**: Establish norms, use video, document decisions
 
 ### Integration & Progressive Elaboration
 1. **Baseline vs. Draft**: Approved baselines require change control; drafts are still being refined
@@ -546,8 +375,46 @@ For full Chapter 6 proficiency, ensure you can:
 
 ---
 
+## Formula Quick Reference
+
+### Earned Value Management
+| Formula | Purpose |
+|:--------|:--------|
+| **SV = EV − PV** | Schedule Variance (>0 = ahead) |
+| **CV = EV − AC** | Cost Variance (>0 = under budget) |
+| **SPI = EV / PV** | Schedule Performance (>1.0 = ahead) |
+| **CPI = EV / AC** | Cost Performance (>1.0 = under budget) |
+| **EAC = BAC / CPI** | Estimate at Completion |
+| **ETC = EAC − AC** | Estimate to Complete |
+| **VAC = BAC − EAC** | Variance at Completion |
+| **TCPI = (BAC−EV)/(BAC−AC)** | Required efficiency |
+
+### Schedule
+| Formula | Purpose |
+|:--------|:--------|
+| **PERT = (O+4M+P)/6** | Expected duration |
+| **σ = (P−O)/6** | Standard deviation |
+| **Total Float = LS − ES** | Float calculation |
+| **Free Float = ES_next − EF** | Float to next activity |
+
+### Communication & Risk
+| Formula | Purpose |
+|:--------|:--------|
+| **Channels = n(n-1)/2** | Communication paths |
+| **EMV = P × I** | Expected monetary value |
+| **Risk Score = P × I** | Risk prioritization |
+
+### Procurement (FPIF)
+| Formula | Purpose |
+|:--------|:--------|
+| **Final Fee = Target Fee ± (Variance × Seller Share)** | Fee adjustment |
+| **Total Price = Actual Cost + Final Fee** | Buyer payment |
+| **PTA = TC + [(CP−TP)/Buyer Share]** | Point of total assumption |
+
+---
+
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a planning document is "Drafted," it is not yet a **Baseline**. A plan only becomes a baseline after it is formally approved by the Sponsor or Change Control Board.
+  <strong>📝 Exam Insight:</strong> Planning questions often integrate multiple knowledge areas. A "scope change" question might require you to think about schedule impact, cost variance, risk implications, and stakeholder communication. Practice answering with the full project context in mind.
 </div>
 
 <style>
