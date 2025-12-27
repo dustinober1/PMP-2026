@@ -44,7 +44,13 @@ Execution is where you turn plans and backlogs into real deliverables. It requir
   </div>
 
   <div class="section-card">
-    <div class="section-title">8.3 Tools & Templates</div>
+    <div class="section-title">8.3 Engagement & Procurements</div>
+    <p class="section-description">Navigating stakeholder relationships, managing communications, and conducting procurements.</p>
+    <a href="./engagement-procurement" class="section-link">Connect & Contract →</a>
+  </div>
+
+  <div class="section-card">
+    <div class="section-title">8.4 Tools & Templates</div>
     <p class="section-description">Copy/paste-ready logs, agendas, and checklists for real execution scenarios.</p>
     <a href="./toolkit" class="section-link">Open Toolkit →</a>
   </div>

@@ -66,7 +66,7 @@ Test your ability to lead teams, manage knowledge, and ensure value-based delive
       reference: 'Section 8.1'
     },
     {
-      text: 'A risk response plan exists for “the supplier may miss the delivery date.” The supplier misses an interim milestone and delivery is now late. What should the PM do first?',
+      text: 'A risk response plan exists for \"the supplier may miss the delivery date.\" The supplier misses an interim milestone and delivery is now late. What should the PM do first?',
       options: [
         'Record the event in the Risk Register as a new risk',
         'Execute the planned response, log it as an issue, and assess impacts',
@@ -78,10 +78,10 @@ Test your ability to lead teams, manage knowledge, and ensure value-based delive
       reference: 'Section 8.1'
     },
     {
-      text: 'A stakeholder requests a “small” dashboard change and claims it will only take 2 hours. The scope baseline is approved. What should the PM do first?',
+      text: 'A stakeholder requests a \"small\" dashboard change and claims it will only take 2 hours. The scope baseline is approved. What should the PM do first?',
       options: [
         'Implement the change immediately to keep the stakeholder happy',
-        'Ask the team to do it “off the books”',
+        'Ask the team to do it \"off the books\"',
         'Assess impacts and follow the change control or backlog prioritization process',
         'Reject the request because scope is frozen'
       ],
@@ -198,7 +198,7 @@ Test your ability to lead teams, manage knowledge, and ensure value-based delive
       reference: 'Section 8.1'
     },
     {
-      text: 'Which statement is a “benefit” (not just an outcome)?',
+      text: 'Which statement is a \"benefit\" (not just an outcome)?',
       options: [
         'Users can reset passwords online',
         'A self-service portal is delivered',
@@ -285,7 +285,7 @@ Test your ability to lead teams, manage knowledge, and ensure value-based delive
       text: 'A team keeps re-arguing decisions made weeks ago, slowing progress. Which execution artifact best prevents this?',
       options: [
         'Risk register',
-        'Decision log (RAID “D”)',
+        'Decision log (RAID \"D\")',
         'Scope statement',
         'Cost baseline'
       ],
@@ -296,14 +296,74 @@ Test your ability to lead teams, manage knowledge, and ensure value-based delive
     {
       text: 'When escalating a critical blocker, which message content is most complete and PMP-aligned?',
       options: [
-        '“We have a blocker. Please help.”',
-        '“Team is blocked. Fix ASAP.”',
+        '\"We have a blocker. Please help.\"',
+        '\"Team is blocked. Fix ASAP.\"',
         'Context, impact, requested action, decision deadline, and owner/follow-up',
         'A detailed list of all project problems since initiation'
       ],
       correct: 2,
       explanation: 'Good escalations are specific: they describe impact, request a clear action/decision, and set a deadline and follow-up owner.',
       reference: 'Section 8.3'
+    },
+    {
+      text: 'After a bidder conference, one vendor emails the PM to ask if \"equivalent\" certifications are accepted. What must the PM do?',
+      options: [
+        'Reply privately to the vendor to save time',
+        'Ignore the question because the conference is over',
+        'Answer the question and send the Q&A to all potential bidders',
+        'Disqualify the vendor for breaking protocol'
+      ],
+      correct: 2,
+      explanation: 'Fairness dictates that all prospective sellers have access to the same information. If one asks a question, all must see the answer.',
+      reference: 'Section 8.4'
+    },
+    {
+      text: 'A key stakeholder has stopped attending meetings and is unresponsive to emails, risking a delay in approval. What is the best execution move?',
+      options: [
+        'Continue emailing them the status report weekly',
+        'Report them to the sponsor immediately',
+        'Use a different communication channel (e.g., phone, desk visit) to re-engage and understand the root cause',
+        'Remove them from the stakeholder register'
+      ],
+      correct: 2,
+      explanation: 'Managing engagement often requires changing tactics. If one channel fails, try another (face-to-face/voice) to uncover the real issue.',
+      reference: 'Section 8.4'
+    },
+    {
+      text: 'The PM sends a critical update email to the client. Two days later, the client claims they never knew about the update. What went wrong?',
+      options: [
+        'The client is lying',
+        'The PM failed to verify that the message was received and understood (feedback loop)',
+        'The email server failed',
+        'The Stakeholder Register is outdated'
+      ],
+      correct: 1,
+      explanation: 'Communication is not complete until the message is received and understood. Critical comms require a confirmation/feedback loop.',
+      reference: 'Section 8.4'
+    },
+    {
+      text: 'A vendor is underperforming and has missed two milestones. The PM wants to withhold payment, but the vendor argues. What is the FIRST document to check?',
+      options: [
+        'The Project Charter',
+        'The Lessons Learned Register',
+        'The Contract (Agreement)',
+        'The Risk Register'
+      ],
+      correct: 2,
+      explanation: 'The Contract is the binding authority on performance and payment terms. Disputes must be resolved based on what was signed.',
+      reference: 'Section 8.4'
+    },
+    {
+      text: 'During execution, you realize a stakeholder is \"Resistant\" to the project, but your plan requires them to be \"Supportive.\" What is this activity called?',
+      options: [
+        'Plan Stakeholder Engagement',
+        'Manage Stakeholder Engagement',
+        'Identify Stakeholders',
+        'Control Scope'
+      ],
+      correct: 1,
+      explanation: 'The act of influencing a stakeholder to move from their current state to the desired state is \"Managing Stakeholder Engagement.\"',
+      reference: 'Section 8.4'
     }
   ]"
 />
@@ -316,7 +376,7 @@ For full Chapter 8 proficiency, ensure you can:
 2.  **Flow control**: Cadences, WIP limits, and how to protect focus under pressure.
 3.  **Knowledge capture**: Lessons learned register + decision log as living artifacts.
 4.  **Value chain mastery**: Output → outcome → benefit → value (and how to measure each).
-5.  **Verification vs validation**: Why “met requirements” can still fail.
+5.  **Engagement & Procurements**: Managing the "people and paper" (stakeholders and contracts) to keep execution stable.
 6.  **Operational readiness**: Training, runbooks, support model, and benefits ownership after go-live.
 
 ---
