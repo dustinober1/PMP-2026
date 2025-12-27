@@ -241,6 +241,205 @@ AI generates in seconds; PM filters/prioritizes with team.
 
 ---
 
+## 🔄 Predictive vs. Agile AI Workflows
+
+AI applications differ based on your delivery approach. Match the tool to the methodology.
+
+### Predictive (Waterfall) AI Applications
+
+| Phase | AI Application | Value |
+|---|---|---|
+| **Initiation** | Draft Business Case from strategic docs | 2-3 hours → 20 minutes |
+| **Planning** | Generate WBS from scope statement; Critical Path analysis | Pattern-match from historical projects |
+| **Execution** | Status report generation from PM tools | Consistent, formatted outputs |
+| **Monitoring** | EVM forecasting (EAC, TCPI calculations) | Real-time variance alerts |
+| **Closing** | Lessons learned clustering; Final report draft | Theme extraction from retrospectives |
+
+**Key Governance Pattern (Predictive):**
+- AI drafts → PM reviews → CCB approves → Baseline locked
+- No AI changes to baseline without change control
+
+### Agile AI Applications
+
+| Practice | AI Application | Value |
+|---|---|---|
+| **Product Backlog** | Convert epic descriptions to user stories with acceptance criteria | Backlog grooming speed 3x |
+| **Sprint Planning** | Identify dependencies; flag over-committed sprints | Risk surfacing before commitment |
+| **Daily Scrum** | Summarize async standup messages into blockers/progress | Virtual team alignment |
+| **Sprint Review** | Draft demo notes; generate stakeholder summary | Communication efficiency |
+| **Retrospective** | Cluster feedback into themes; suggest experiments | Actionable insights from noise |
+
+**Key Governance Pattern (Agile):**
+- AI suggests → Team decides → Backlog reflects team consensus
+- Product Owner has final say on backlog priority, not AI
+
+### Comparison Table
+
+| Factor | Predictive AI Use | Agile AI Use |
+|---|---|---|
+| **Change frequency** | Low (baseline-driven) | High (backlog-driven) |
+| **Approval gate** | CCB / Formal Change Control | Product Owner / Team consensus |
+| **Primary value** | Forecasting, compliance documentation | Speed, communication, refinement |
+| **Risk focus** | Variance from plan | Sprint commitment feasibility |
+
+---
+
+## 🔀 AI in Hybrid Projects
+
+Hybrid methodologies combine predictive and agile elements. AI must be applied context-appropriately.
+
+### Common Hybrid Patterns
+
+| Pattern | Predictive Component | Agile Component | AI Application |
+|---|---|---|---|
+| **Water-Scrum-Fall** | Initiation/Closing | Development sprints | AI for governance docs (predictive) + sprint support (agile) |
+| **Agile with Predictive Governance** | Milestone reporting, budget | Feature delivery | AI forecasting for milestones; AI grooming for features |
+| **Phase-Gated Agile** | Stage gates, compliance | Within-phase agile | AI compliance checklists; AI sprint planning |
+
+### Worked Example: Hybrid ERP Implementation
+
+**Project Structure:**
+- Phase 1 (Predictive): Requirements, vendor selection, contract
+- Phase 2 (Agile): Configuration sprints, customization
+- Phase 3 (Predictive): UAT, deployment, training, cutover
+
+**AI Application by Phase:**
+
+| Phase | AI Tool | Governance |
+|---|---|---|
+| Phase 1 | Draft RFP, analyze vendor proposals, compare bids | Formal CCB review before vendor selection |
+| Phase 2 | Generate user stories from requirements, retrospective themes | Product Owner approves stories; team owns estimates |
+| Phase 3 | Training material draft, deployment checklist, cutover communications | PM reviews; sponsor approves external comms |
+
+---
+
+## 📈 Monte Carlo Simulation with AI
+
+Monte Carlo simulation runs thousands of scenarios to predict project outcomes. AI accelerates setup and interpretation.
+
+### Traditional Monte Carlo Process
+1. Define task duration ranges (optimistic, most likely, pessimistic)
+2. Run 1,000-10,000 simulations
+3. Generate probability distribution of project completion
+4. Identify confidence levels (e.g., "80% confident finish by June 15")
+
+### AI-Enhanced Monte Carlo
+
+| Enhancement | How AI Helps | PM Value |
+|---|---|---|
+| **Data Preparation** | Extract historical duration data from past projects | Minutes vs. hours of data gathering |
+| **Range Estimation** | Suggest O-M-P ranges based on similar tasks | Reduces estimation bias |
+| **Correlation Detection** | Identify task dependencies that affect outcomes together | More realistic simulations |
+| **Result Interpretation** | Explain simulation results in plain language | Stakeholder-ready insights |
+| **What-If Analysis** | Quickly re-run with changed assumptions | Faster decision support |
+
+### Practical Example: Schedule Risk Analysis
+
+**Scenario:** You have a 6-month project with 50 tasks. Need to determine probability of on-time delivery.
+
+**AI-Assisted Process:**
+1. **Prompt AI**: "Extract duration estimates from attached project plan. For each task, suggest optimistic and pessimistic ranges based on historical variance patterns."
+2. **AI Output**: Table with O-M-P estimates for each task
+3. **Run Simulation**: Use PM tool (Monte Carlo feature) or specialized software
+4. **AI Interpretation Prompt**: "Explain these Monte Carlo results to my sponsor. Focus on: probability of meeting deadline, top 5 risk-driving tasks, recommendation."
+
+**AI Interpretation Output Example:**
+> "Based on 10,000 simulations, there is a **62% probability** of completing by the target date. The **top risk drivers** are: (1) Integration Testing (high variance), (2) Vendor Delivery (external dependency), (3) UAT (scope uncertainty). **Recommendation**: Add 2-week buffer to integration; confirm vendor SLA in writing; freeze scope for UAT phase."
+
+::: tip 💡 Exam Insight
+Monte Carlo questions typically ask about **confidence levels** and **risk mitigation**. If simulation shows <80% confidence, the PM should investigate the highest-variance tasks and apply targeted mitigation.
+:::
+
+---
+
+## 🔍 Scope Creep Detection via AI (NLP Analysis)
+
+AI can analyze project communications to detect early signs of scope creep before formal change requests.
+
+### How It Works
+
+1. **Input Sources**: Emails, meeting transcripts, chat logs, ticket comments (sanitized)
+2. **NLP Analysis**: AI scans for keywords/patterns indicating scope expansion
+3. **Flagging**: AI surfaces concerning phrases for PM review
+4. **Action**: PM investigates, decides if change control is needed
+
+### Scope Creep Indicator Keywords
+
+| Category | Keywords/Phrases | Risk Level |
+|---|---|---|
+| **Feature Expansion** | "wouldn't it be nice if...", "while we're at it...", "can we also add..." | Medium |
+| **Unplanned Work** | "this wasn't in the original plan but...", "the client mentioned...", "we should probably..." | High |
+| **Assumption Changes** | "I thought we agreed...", "that's not what I meant...", "we need to revisit..." | Medium |
+| **Scope Confusion** | "is this in scope?", "I'm not sure if we're supposed to...", "who's responsible for..." | Low (early warning) |
+
+### Practical Implementation
+
+**AI Prompt for Scope Scan:**
+```text
+Role: Act as a scope management analyst.
+Task: Scan these meeting notes for scope creep indicators.
+Flag any phrases suggesting: (1) new features not in approved scope, (2) changed assumptions, (3) unplanned work.
+Output: Table with quote, page reference, risk level (L/M/H), and recommended action.
+```
+
+**Sample AI Output:**
+
+| Quote | Source | Risk | Recommended Action |
+|---|---|---|---|
+| "While we're building the dashboard, can we add a mobile view?" | Week 3 standup | M | Confirm if mobile is in scope; if not, route to change control |
+| "The vendor said they can also provide the analytics module" | Sponsor email | H | Verify contract scope; potential scope change or upsell |
+| "I thought the integration was bidirectional" | Dev team chat | M | Clarify requirements; may indicate misaligned expectations |
+
+---
+
+## 🤝 Vendor/Procurement AI Applications
+
+AI accelerates procurement processes while maintaining governance.
+
+### AI Use Cases in Procurement
+
+| Activity | AI Application | Governance Control |
+|---|---|---|
+| **RFP Drafting** | Generate RFP sections from requirements docs | PM + Procurement review before release |
+| **Proposal Analysis** | Compare vendor proposals against evaluation criteria | Human scoring committee makes final decision |
+| **Contract Review** | Flag unusual clauses, missing SLAs, risky terms | Legal review required for all flagged items |
+| **Supplier Risk Scoring** | Analyze supplier financial/reputation data | HITL validation; no auto-disqualification |
+| **Bid Comparison** | Create side-by-side comparison matrices | Procurement team validates accuracy |
+
+### Worked Example: AI-Assisted Vendor Selection
+
+**Scenario:** 5 vendors responded to your RFP. Need to shortlist to 3 for demos.
+
+**Step 1: AI Extraction**
+```text
+Task: Extract key data points from each vendor proposal attached.
+Data points: Price (implementation + annual), timeline, team size, relevant experience (# similar projects), SLA terms, contract flexibility.
+Output: Comparison table with citations to source page numbers.
+```
+
+**Step 2: AI Scoring (Draft)**
+```text
+Task: Score each vendor against these evaluation criteria:
+- Cost (25%)
+- Timeline (20%)
+- Experience (25%)
+- SLA (15%)
+- Contract terms (15%)
+Scoring: 1-5 scale per criterion. Calculate weighted total.
+Constraints: Flag any criteria where data was incomplete or unclear.
+```
+
+**Step 3: Human Validation**
+- Procurement committee reviews AI-generated scores
+- Validates cost interpretations (hidden fees, assumptions)
+- Checks reference quality (not just quantity)
+- Makes final shortlist decision
+
+**Step 4: Document Decision**
+- Record AI inputs and human adjustments
+- Note any criteria where human judgment overrode AI scoring
+- Maintain audit trail for procurement compliance
+
 <style>
 .lifecycle-grid {
   display: grid;
