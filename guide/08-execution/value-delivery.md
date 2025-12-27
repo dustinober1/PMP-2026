@@ -2,6 +2,10 @@
 
 In the 2026 PMP context, a project is only successful if it delivers **Value**. Finishing "on time and under budget" is meaningless if the final product doesn't solve the customer's problem or drive the organization forward.
 
+::: tip 🎯 PMP exam trap
+Many scenarios describe a project that met requirements but still “failed.” The hidden issue is usually **validation/adoption**: the output exists, but the outcome/benefit did not happen.
+:::
+
 ---
 
 ## 🔗 The Value Chain
@@ -32,6 +36,30 @@ To master value delivery, you must understand the distinction between these four
 
 ---
 
+## ✅ Defining Value (So You Can Prove It Later)
+Value is not a vibe—it needs a measurable definition.
+
+### Success criteria checklist
+- **Current state baseline** (what does “today” look like?)
+- **Target outcomes** (behavior/state change you want)
+- **Benefit metrics** (how you will measure improvement)
+- **Owner** (who is accountable for realizing the benefit after delivery)
+- **Measurement cadence** (when/how often value will be reviewed)
+
+### Practical mapping (what to measure and who owns it)
+| Item | Example | Primary owner |
+|---|---|---|
+| **Output** | New customer portal | Project team |
+| **Outcome** | Customers self-serve password resets | Product owner / business |
+| **Benefit** | 30% reduction in call center volume | Benefits owner / operations |
+| **Value** | Lower operating cost + higher customer satisfaction | Sponsor / organization |
+
+::: info 🔍 Leading vs lagging indicators
+Outcomes and benefits are often **lagging** (they appear later). Use **leading indicators** during execution (training completion, pilot adoption rate, usage telemetry) to predict whether value will actually happen.
+:::
+
+---
+
 ## 🏗️ The Value Delivery System
 Projects do not exist in a vacuum. They are part of a cascading flow of value:
 
@@ -54,6 +82,74 @@ How do we ensure the promise of value becomes a reality?
 2.  **Execute**: Focus the team on high-priority, high-value user stories.
 3.  **Monitor**: Use **Benefits Realization Reports** to track if value is emerging.
 4.  **Sustain**: Ensure the organization is ready to adopt the change (ADKAR).
+
+### Benefits register (mini-template)
+| Field | Example |
+|---|---|
+| **Benefit** | Reduce customer onboarding time |
+| **Metric** | Avg onboarding time (minutes) |
+| **Baseline** | 45 minutes |
+| **Target** | 15 minutes |
+| **Measurement method** | Analytics + support ticket tags |
+| **Owner** | Customer operations manager |
+| **When measured** | 2 weeks, 1 month, 3 months after go-live |
+| **Dependencies** | Training, updated SOPs, support model |
+
+---
+
+## 🧭 Prioritizing for Value (Agile + Hybrid)
+Execution decisions should maximize outcomes, not activity.
+
+High-yield prioritization methods you’ll see on the exam:
+- **MoSCoW**: Must / Should / Could / Won’t (fast stakeholder alignment)
+- **Value + risk first**: Deliver the highest value items early, especially when uncertainty is high
+- **WSJF (Scaled Agile)**: Prioritize by **Cost of Delay ÷ Job Size** (useful mental model even if not named)
+
+::: tip 💡 Exam shortcut
+If the scenario describes uncertainty, prioritize work that **reduces risk and validates assumptions early** (spikes, prototypes, pilots, demos).
+:::
+
+---
+
+## 🔎 Verification vs. Validation (Classic PMP Trap)
+- **Verify**: “Did we build it right?” (meets documented requirements/specs)
+- **Validate**: “Did we build the right thing?” (meets stakeholder needs and produces outcomes)
+
+If users are unhappy, the best answers usually involve **validating needs**, clarifying acceptance criteria, and re-aligning priorities—not arguing that the requirements were met.
+
+---
+
+## 🧩 Adoption & Change Enablement (ADKAR)
+Even perfect deliverables can fail if people don’t adopt them.
+
+ADKAR provides a simple adoption lens:
+1. **Awareness** (why the change is needed)
+2. **Desire** (willingness to participate/support)
+3. **Knowledge** (how to change)
+4. **Ability** (capability to perform in the new way)
+5. **Reinforcement** (sustain the change)
+
+**Exam pattern**: If operations or users resist, strengthen the change enablement plan (communications, training, champions), not just the technical solution.
+
+---
+
+## 🏁 Transition to Operations (Operational Readiness)
+To make the “tail” real, confirm readiness across people, process, and technology.
+
+| Readiness area | What “ready” looks like |
+|---|---|
+| **People** | Training complete, champions identified, support staffed |
+| **Process** | SOPs updated, escalation path defined, SLAs agreed |
+| **Technology** | Monitoring in place, runbooks complete, access/provisioning ready |
+| **Governance** | Ownership transferred (RACI), benefits reviews scheduled |
+
+---
+
+## 📊 Measuring Value After Delivery
+Benefits may appear after the project is “done.” Strong answers ensure:
+- A scheduled **benefits review cadence** (post go-live)
+- Clear **ownership** (who reports value)
+- A feedback loop to refine the product/operations if outcomes lag
 
 <style>
 .chain-grid {

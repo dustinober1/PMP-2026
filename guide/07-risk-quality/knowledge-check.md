@@ -32,7 +32,7 @@ Test your ability to manage uncertainty, ensure quality, and navigate project co
     {
       text: 'A risk has just occurred and was previously identified in the Risk Register with a pre-planned contingency response. What should the project manager do FIRST?',
       options: [
-        'Update the Risk Register to mark the risk as \"Occurred\"',
+        'Update the Risk Register to mark the risk as “Occurred”',
         'Request sponsor approval before spending contingency funds',
         'Implement the planned response and update the Issue Log',
         'Conduct a root cause analysis to understand why it occurred'
@@ -66,7 +66,7 @@ Test your ability to manage uncertainty, ensure quality, and navigate project co
       reference: 'Section 7.2 - Process Capability'
     },
     {
-      text: 'The project sponsor asks: \"What is the probability we finish this project by our target date of August 31?\" Which quantitative analysis technique should the PM use?',
+      text: 'The project sponsor asks: “What is the probability we finish this project by our target date of August 31?” Which quantitative analysis technique should the PM use?',
       options: [
         'Expected Monetary Value (EMV) calculation',
         'Probability/Impact Matrix',
@@ -242,7 +242,7 @@ Test your ability to manage uncertainty, ensure quality, and navigate project co
         'Ability'
       ],
       correct: 1,
-      explanation: 'If people understand (Awareness) but do not want to participate, the Desire stage is blocked. The PM should address \"What is in it for me?\" and involve them in decision-making.',
+      explanation: 'If people understand (Awareness) but do not want to participate, the Desire stage is blocked. The PM should address “What is in it for me?” and involve them in decision-making.',
       reference: 'Section 7.3 - ADKAR Model'
     },
     {
@@ -282,7 +282,7 @@ Test your ability to manage uncertainty, ensure quality, and navigate project co
       reference: 'Section 7.1 - Cognitive Biases'
     },
     {
-      text: 'The organization risk threshold states: \"Any risk with >30% probability AND >$100k impact requires immediate mitigation.\" Risk X has 50% probability and $80k impact. What action should be taken?',
+      text: 'The organization risk threshold states: “Any risk with >30% probability AND >$100k impact requires immediate mitigation.” Risk X has 50% probability and $80k impact. What action should be taken?',
       options: [
         'Mitigate immediately (exceeds probability threshold)',
         'Accept or watch (does not meet BOTH threshold conditions)',

@@ -2,10 +2,33 @@
 
 Execution is where strategy meets reality. In the 2026 PMP exam, a Project Manager doesn't just "execute tasks"—they **steward value**. Success is measured not just by a finished product, but by the meaningful outcomes it creates for the customer and the organization.
 
+::: tip 🎯 PMP Exam Reality
+Most exam scenarios are execution scenarios: blocked team members, changing stakeholder expectations, quality defects, vendor delays, and “small” change requests. The test is usually about **what you do first** to protect flow and value.
+:::
+
 ---
 
-## 🚀 Driving Performance
-Execution is the bulk of the project lifecycle. It requires balancing the discipline of project baselines with the flexibility needed to handle real-world impediments.
+## 🚀 Driving Performance (Without Losing Value)
+Execution is where you turn plans and backlogs into real deliverables. It requires balancing:
+
+- **Discipline** (baselines, policies, governance, quality standards)
+- **Adaptability** (feedback loops, fast decisions, removing blockers)
+- **People leadership** (coaching, conflict resolution, stakeholder alignment)
+
+### What this chapter makes you exam-ready for
+- Removing **impediments** while protecting team focus (servant leadership)
+- Turning noise into insight (work performance **data → information → reports**)
+- Managing **issues, risks, and changes** without “death by a thousand cuts”
+- Proving value via **outcomes, benefits, and adoption** (not just deliverables)
+
+### High-yield artifacts and “first moves” (execution quick picks)
+| If a question says… | Think… | Best first move |
+|---|---|---|
+| “A team member is blocked” | Impediment | Remove/escalate blocker immediately; update impediment/issue log |
+| “A risk occurred” | Issue now | Execute response → log as issue → assess impact |
+| “Stakeholder asks for a small change” | Change control | Triage the request; assess impacts; follow change process/backlog rules |
+| “We met requirements but users are unhappy” | Validation gap | Re-engage users; clarify outcomes; adjust acceptance criteria/priorities |
+| “Operations won’t accept handoff” | Transition risk | Close readiness gaps (training, support, documentation) before closure |
 
 <div class="section-grid">
   <div class="section-card">
@@ -20,6 +43,12 @@ Execution is the bulk of the project lifecycle. It requires balancing the discip
     <a href="./value-delivery" class="section-link">Deliver Results →</a>
   </div>
 
+  <div class="section-card">
+    <div class="section-title">8.3 Tools & Templates</div>
+    <p class="section-description">Copy/paste-ready logs, agendas, and checklists for real execution scenarios.</p>
+    <a href="./toolkit" class="section-link">Open Toolkit →</a>
+  </div>
+
   <div class="section-card knowledge-check">
     <div class="section-title">Knowledge Check</div>
     <p class="section-description">Test your ability to handle execution challenges and value-based dilemmas.</p>
@@ -29,11 +58,13 @@ Execution is the bulk of the project lifecycle. It requires balancing the discip
 
 ---
 
-## 2026 Focus: Impediment Management
-On the exam, execution is often about **Impediments**. You must show that you can:
-- **Clear the Path**: Remove blockers that stop the team from working.
-- **Manage Knowledge**: Ensure lessons learned are captured *during* execution, not just at the end.
-- **Adapt to Change**: Pivot the execution strategy when value delivery is at risk.
+## 2026 Focus: Impediments + Value at Risk
+On the exam, execution questions often hide a simple truth: **value is threatened** because flow is blocked, quality is slipping, or adoption is failing. Your job is to:
+
+- **Clear the path**: Remove blockers fast (or escalate) so work can continue.
+- **Protect the system**: Use logs, cadences, and policies so you don’t “wing it” under pressure.
+- **Manage knowledge continuously**: Update the lessons learned register during execution, not after.
+- **Adapt with intent**: Re-plan/re-prioritize when value delivery is at risk, using the right governance.
 
 <style>
 .section-grid {

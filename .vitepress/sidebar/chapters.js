@@ -131,6 +131,7 @@ export function createSidebar() {
         { text: 'Chapter Overview', link: '/guide/08-execution/' },
         { text: '8.1 Executing Project Work', link: '/guide/08-execution/executing-work' },
         { text: '8.2 Value Delivery and Outcomes', link: '/guide/08-execution/value-delivery' },
+        { text: '8.3 Tools & Templates', link: '/guide/08-execution/toolkit' },
         { text: '📝 Knowledge Check', link: '/guide/08-execution/knowledge-check' }
       ]
     },

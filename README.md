@@ -51,6 +51,7 @@ The guide is organized into 11 logical chapters covering all three domains (Peop
 ### [Chapter 08 - Execution and Value Delivery](guide/08-execution/)
 - **08.1** – Executing and Delivering Work
 - **08.2** – Value Delivery and Outcomes
+- **08.3** – Tools & Templates
 
 ### [Chapter 09 - Monitoring and Closing](guide/09-monitoring/)
 - **09.1** – Monitoring, Controlling, and Closing
