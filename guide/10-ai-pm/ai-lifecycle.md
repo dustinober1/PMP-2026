@@ -150,6 +150,97 @@ To get value, you must know how to ask.
 Don't try to automate everything at once. Start with "Low Risk / High Value" tasks like **Meeting Summaries** or **Drafting Emails**. Gain confidence before moving to **Risk Analysis** or **Forecasting**.
 :::
 
+---
+
+## 🏆 AI & Quality Management
+
+While quality management isn't explicitly named as a process group, it spans all phases. AI adds tremendous value here.
+
+### Quality Planning & Standards
+- **AI strength**: Draft quality standards aligned with industry best practices
+- **Example prompt**: "Draft quality acceptance criteria for a web API (availability, latency, error rates). Base it on SLA best practices."
+- **PM responsibility**: Validate criteria match business requirements; don't let AI invent regulations
+
+### Quality Assurance (Prevention & Compliance)
+- **AI strength**: Scan project artifacts for consistency against baselines
+- **Example**: AI compares new scope changes against the approved project charter to flag conflicts
+- **PM action**: Review flagged conflicts; decide if scope change or charter update is needed
+
+### Quality Control (Inspection & Testing)
+- **AI strength**: Analyze test results, defect patterns, and predict where bugs escape
+- **Defect Escape Rate**: Calculate `(Defects Found in Production) / (Total Defects Found)`. If = 15%, that means 15% of bugs get past QA into production.
+- **Example**: AI analyzes 6 months of defects and predicts: "Phase containment rate is dropping (65% → 55%). Critical path dependencies in new feature are escape risk factors."
+- **PM action**: Add buffer to UAT; increase review rigor; consider additional test cycle
+
+### Process Capability vs Control
+- **Control Charts** (Predictive Analytics):
+  - **In Control**: Variation is random (normal). Process is stable.
+  - **Out of Control**: Variation shows trend or pattern. Something changed (staffing, requirements, tools).
+  - **AI can monitor**: Automatically flag when process goes out of control
+  - **PM acts**: Investigate root cause (staffing change? New tool? Complexity spike?)
+
+**Worked Example: Defect Escape in Software Release**
+- Month 1: 80 defects found in testing, 8 escape to production → Escape rate = 10%
+- Month 2: 75 defects found in testing, 12 escape to production → Escape rate = 16%
+- Month 3: 70 defects found in testing, 18 escape to production → Escape rate = 26%
+
+AI detects trend: Escape rate is degrading (out of control). Root cause?
+- Reduced test cycles? Rushed UAT? New developers? Scope creep increasing complexity?
+
+PM investigates and acts (add testing time, hire more QA, scope discipline).
+
+---
+
+## 🚨 AI & Risk Management Throughout Project Lifecycle
+
+Risk management is continuous. AI accelerates threat identification and monitoring.
+
+### Initiation: Rapid Risk Brainstorm
+```text
+Prompt: List 20 potential risks for a [project type] project in [domain/geography].
+Include: cause → event → impact statements. Separate threats vs opportunities.
+```
+AI generates in seconds; PM filters/prioritizes with team.
+
+### Planning: Risk Register + Automation
+- AI can pre-populate a risk register based on historical projects
+- PM reviews: "Are these relevant? Any missing?"
+- Cost: 2-3 hours to refine instead of 8-10 hours from scratch
+
+### Execution: Trigger Monitoring
+- AI scans project dashboards, emails, meeting notes for **trigger keywords** ("delay", "conflict", "unavailable", "scope change")
+- Alerts PM: "Found 3 new risk triggers this week—review the flagged items?"
+- PM investigates escalates if needed
+
+### Monitoring: Trend Analysis
+- AI analyzes risk response effectiveness
+- Example: "Mitigation response for Vendor Dependency—assigned 3 months ago. Has vendor capacity improved? Current probability = still 70%?"
+- PM decides: Is the response working? Need new approach?
+
+---
+
+## 🎯 Decision Tree: "Should I Use AI for This?"
+
+```
+┌─ Is the data volume large (100+ records)?
+│  ├─ NO → Go manual / stay manual
+│  └─ YES → Continue...
+│
+├─ Is the risk of AI error LOW or MEDIUM? (not safety-critical)
+│  ├─ NO (Safety-critical) → Avoid; use AI for analysis only, human approves go/no-go
+│  └─ YES → Continue...
+│
+├─ Can the output be reviewed by a human in < 10% of AI time saved?
+│  ├─ NO → Probably not worth it (review overhead > AI time savings)
+│  └─ YES → Continue...
+│
+├─ Is there approved, contractually safe tooling available?
+│  ├─ NO → Stop; do not use public/unapproved AI
+│  └─ YES → Use AI + HITL review
+```
+
+---
+
 <style>
 .lifecycle-grid {
   display: grid;

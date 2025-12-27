@@ -151,8 +151,54 @@ To get "Expert" level outputs, use these specific techniques.
 
 ---
 
+## 🎯 AI Selection Decision Framework
+
+Not every task needs AI. Use this framework to decide whether AI is worth the risk.
+
+| Factor | Use AI | Avoid AI |
+|---|---|---|
+| **Data volume** | Large datasets (100+ records) | Small/sparse data (< 20 records) |
+| **Risk of error** | Low-stakes drafts, summaries | High-stakes decisions (safety, legal) |
+| **Explainability needed?** | Drafting, brainstorming, analysis | Regulated decisions (black-box outputs) |
+| **Privacy/Compliance** | Approved tools, sanitized inputs | Confidential data, unapproved vendors |
+| **Time value** | Saves 10+ hours per month | Saves < 2 hours per month |
+| **Team confidence** | Team trained + skeptical of output | Team treats AI as oracle |
+
+**Example: Project Charter Drafting**
+- ✅ Use AI: Drafts charter outline from sanitized notes (1-2 hours → 10 minutes). Heavy HITL review catches hallucinations. **Time-value = HIGH**
+- ❌ Avoid: Using AI to generate vendor contracts without SME review. **Risk = TOO HIGH**
+
+---
+
+## 🧠 Cognitive Biases When Using AI
+
+Even experienced PMs fall victim to these traps:
+
+| Bias | Risk | Mitigation |
+|---|---|---|
+| **Automation Bias** | Trusting AI outputs without validation | Require HITL sign-off; validate assumptions |
+| **Confirmation Bias** | Cherry-picking AI insights that match your beliefs | Ask the team: "What am I missing?" |
+| **Overconfidence** | Assuming AI eliminates risk | Plan for failure; keep manual fallbacks |
+| **Recency Bias** | Over-weighting recent AI predictions | Validate trends over 3+ cycles |
+
+---
+
+## 📊 Practical Worked Example: Temperature & Creativity
+
+**Scenario:** You're using AI to draft meeting minutes vs. brainstorm new ideas.
+
+- **Meeting Minutes** (Low creativity): Temperature = 0.2 (consistent, factual)
+  - Output: "Jane reported the database migration completed on Friday at 3 PM."
+
+- **Risk Brainstorm** (High creativity): Temperature = 0.8 (explorative, diverse ideas)
+  - Output: "What if we use AI to predict failure modes? Or run simulations? Or..."
+
+The temperature setting changes the tool's behavior; know your goal first.
+
+---
+
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> A question may ask: "Your AI tool identified a 95% chance of a schedule delay. What do you do?" The answer is <strong>"Analyze the data with the team to validate the root cause."</strong> Never blindly accept the prediction; use it as a trigger for human investigation.
+  <strong>📝 Exam Insight:</strong> A question may ask: "Your AI tool identified a 95% chance of a schedule delay. What do you do?" The answer is <strong>"Analyze the data with the team to validate the root cause."</strong> Never blindly accept the prediction; use it as a trigger for human investigation. This is the core of Human-in-the-Loop thinking.
 </div>
 
 <style>

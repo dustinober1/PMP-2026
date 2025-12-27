@@ -304,6 +304,90 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       correct: 1,
       explanation: 'A controlled pilot with clear metrics and training supports change management, reduces risk, and creates evidence for scaling.',
       reference: 'Section 10.4 - Pilot-to-Production'
+    },
+    {
+      text: 'A team member expresses fear that "AI will replace my job." What is the PM\'s BEST response using emotional intelligence?',
+      options: [
+        'Ignore the concern and mandate AI usage to show progress',
+        'Acknowledge the concern, explain that AI removes drudgery (not judgment), and show examples of how tools enhance roles',
+        'Promise that no one will be fired (even if uncertain)',
+        'Switch to a different tool to avoid the conversation'
+      ],
+      correct: 1,
+      explanation: 'Emotional intelligence requires listening, validating, and then providing transparency and proof. This builds trust and adoption.',
+      reference: 'Section 10.5 - Change Management & Team Adoption'
+    },
+    {
+      text: 'Your team discovers that a member used a public, unapproved AI tool to summarize a confidential client meeting. What should the PM do FIRST?',
+      options: [
+        'Publicly reprimand the team member to set an example',
+        'Quietly ask them to delete the conversation and move on',
+        'Stay calm, contain the behavior, notify IT/Security per policy, and then investigate why the unapproved tool seemed like the right choice',
+        'Assume the data is compromised and sue the vendor'
+      ],
+      correct: 2,
+      explanation: 'Shadow AI (unauthorized tool use) is a governance issue, not a character flaw. Containment, escalation per policy, and providing safe alternatives prevents recurrence.',
+      reference: 'Section 10.5 - Change Management & Crisis Response'
+    },
+    {
+      text: 'An AI tool analyzing test results predicts a 15% defect escape rate for the next release (bugs getting past QA into production). How should the PM respond?',
+      options: [
+        'Accept the prediction and immediately add 3 weeks to the schedule',
+        'Ignore the prediction because the team is confident',
+        'Use the prediction as a trigger to investigate root causes (staffing? Complexity? New tools?) and adjust QA intensity or timeline accordingly',
+        'Pressure the team to work faster to ignore the prediction'
+      ],
+      correct: 2,
+      explanation: 'AI provides data/forecast. PM provides context and decision-making. A 15% escape rate is out of the team\'s historical control; this warrants investigation, not blind acceptance or denial.',
+      reference: 'Section 10.3 - AI & Quality Management'
+    },
+    {
+      text: 'Your healthcare project is using AI to predict patient admission patterns to optimize staffing. What governance requirement is MOST critical?',
+      options: [
+        'Fast-track approvals to beat competitors',
+        'Use a HIPAA Business Associate Agreement (BAA) with the AI vendor; sanitize all inputs; maintain audit logs',
+        'Only use the AI if the vendor guarantees 100% accuracy',
+        'Skip documentation to save time'
+      ],
+      correct: 1,
+      explanation: 'Healthcare (HIPAA) is regulated. A BAA, data sanitization, and auditability are non-negotiable governance requirements, not optional.',
+      reference: 'Section 10.2 - Industry-Specific Compliance'
+    },
+    {
+      text: 'You are rolling out AI to your team in a 4-week adoption plan. Which action is MOST critical in Week 1 (Awareness)?',
+      options: [
+        'Mandate all PMs use AI effective immediately',
+        'Host a 30-min demo day (optional attendance) showing concrete examples, answer concerns openly, and explain that this is a pilot, not forced',
+        'Provide 40 hours of technical AI training',
+        'Start with legal/compliance deep-dives'
+      ],
+      correct: 1,
+      explanation: 'Week 1 is about building interest and addressing fear (not creating it with mandates). Demo + honest dialogue + optionality = interest and readiness.',
+      reference: 'Section 10.5 - The 4-Week Adoption Playbook'
+    },
+    {
+      text: 'A project manager is deciding whether to use AI to draft a complex vendor contract. Which factor from the AI Selection Decision Framework should trigger "Avoid AI"?',
+      options: [
+        'The task will save 8 hours of work',
+        'The data volume is small (3 past contracts)',
+        'It is a low-stakes deliverable with simple requirements',
+        'The team is trained on the tool'
+      ],
+      correct: 1,
+      explanation: 'AI excels on large datasets. With only 3 examples, hallucination risk is high. Vendor contracts are also high-stakes (legal/financial)—avoid black-box AI for critical decisions.',
+      reference: 'Section 10.1 - AI Selection Decision Framework'
+    },
+    {
+      text: 'During a monthly AI check-in, a team member says: "The AI suggested 5 potential bugs for the next phase, but 4 were false positives." What should the PM do?',
+      options: [
+        'Stop using the tool immediately because it failed',
+        'Celebrate that the team caught the false positives (HITL working), then investigate why and refine the prompt/tool',
+        'Blame the team member for not using the tool correctly',
+        'Ignore the feedback and continue as is'
+      ],
+      correct: 1,
+      explanation: 'False positives are learning data. This is HITL working perfectly: AI generates ideas, humans validate. The PM iterates and improves.',
+      reference: 'Section 10.5 - Feedback Loop: Iterate & Improve'
     }
   ]"
 />

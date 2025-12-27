@@ -39,6 +39,12 @@ By the end of this chapter, you should be able to:
     <a href="./toolkit" class="section-link">Use the Toolkit →</a>
   </div>
 
+  <div class="section-card">
+    <div class="section-title">10.5 Change Management & Adoption</div>
+    <p class="section-description">Overcome team resistance, build confidence, and drive successful AI adoption through emotional intelligence.</p>
+    <a href="./change-management" class="section-link">Lead the Change →</a>
+  </div>
+
   <div class="section-card knowledge-check">
     <div class="section-title">Knowledge Check</div>
     <p class="section-description">Test your judgment on AI ethics and implementation scenarios.</p>

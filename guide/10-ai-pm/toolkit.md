@@ -130,10 +130,53 @@ Use this to introduce AI without chaos.
 
 ---
 
+---
+
+## 📊 AI Risk Register Template (Copy/Paste)
+
+Use this as a starting point for AI-specific risks (add to your main Risk Register).
+
+| Risk ID | Risk Statement | Probability | Impact | Owner | Response Strategy | Trigger | Status |
+|---|---|---|---|---|---|---|---|
+| AI-1 | Data leakage: Team uses unapproved public AI with confidential data | M | H | PM | **Avoid/Mitigate**: Approved tools only; redaction training; audit logs | Shadow AI detected | Monitor |
+| AI-2 | Hallucination: AI generates incorrect stakeholder names in Charter | M | L | BA | **Mitigate**: HITL review + SME sign-off before external | AI output accepted without review | Watch |
+| AI-3 | Bias in scheduling: AI recommends fewer shifts to certain team members | L | H | HR/PM | **Mitigate**: Monthly fairness audits; diverse review panel | Bias detected in analysis | Monitor |
+| AI-4 | Over-reliance: Team treats AI forecast as certainty instead of input | M | M | PM | **Mitigate**: Mandatory validation step; decision log required | Forecast accepted without analysis | Watch |
+| AI-5 | Vendor SaaS outage: AI tool becomes unavailable during critical phase | L | H | IT | **Mitigate**: SLA verification; manual fallback process | Tool downtime > 30min | Monitor |
+
+---
+
+## 🧪 AI Quality & Defect Escape Monitoring Checklist
+
+Use this for projects leveraging AI in test automation or defect analysis:
+
+- [ ] **Baseline established**: Defect escape rate from last 3 releases documented
+- [ ] **Defect classification**: AI understands your defect priority levels (Critical/High/Med/Low)
+- [ ] **Phase containment metric**: Know target % of bugs to catch in each phase (e.g., 90% by UAT)
+- [ ] **Monthly AI review**: Analyze trends—is escape rate improving or degrading?
+- [ ] **Bias check**: Are AI-predicted "risky areas" spread across all teams, or does one team get flagged more?
+- [ ] **Human override**: QA lead reviews AI predictions; can disagree and override
+- [ ] **Root cause tracking**: When AI misses a bug, log why (tool limitation, data gap, process issue)
+- [ ] **Escalation rule**: If escape rate > 20%, escalate to PM/sponsor for timeline/quality trade-off discussion
+
+---
+
+## 🎯 AI Decision Log Template
+
+For high-stakes AI decisions, maintain a record (useful for audits):
+
+| Date | Decision | AI Tool | AI Recommendation | Human Decision | Rationale | Outcome (when known) |
+|---|---|---|---|---|---|---|
+| 2026-01-15 | Vendor selection for procurement | Supplier Analysis AI | Vendor C (lowest cost, high risk score) | Selected Vendor B (moderate cost, lower risk) | Risk score aligns with our risk appetite; cost savings not worth supply disruption probability | TBD |
+| 2026-01-20 | Schedule compression (delay risk flagged) | Forecasting AI | Add 2-week buffer; slow feature set | Agreed to 1-week buffer; prioritize features instead | Partial AI recommendation; balances schedule and scope better | In progress |
+
+---
+
 ## 🧠 Exam Quick Picks (AI Scenarios)
 - If confidentiality is at risk: **Stop, contain, notify, and follow policy**.
 - If AI provides an answer/prediction: **Validate with the team/data** before acting.
-- If outputs affect stakeholders: **Use EI and human judgment**; don’t auto-send.
+- If outputs affect stakeholders: **Use EI and human judgment**; don't auto-send.
 - If governance is missing: **Create/update the working agreement** and define approvals.
 - If compliance is required: **Prefer explainable/auditable approaches** and document decisions.
+- If team resists AI: **Use emotional intelligence; address fears; show low-risk pilots** before large rollouts.
 

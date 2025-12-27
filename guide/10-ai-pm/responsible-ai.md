@@ -97,6 +97,40 @@ In regulated industries (Healthcare, Finance), you cannot just say "The AI told 
 *   **Black Box AI**: Inputs go in, answers come out, no one knows why. (Avoid for critical decisions).
 *   **Explainable AI**: The system provides the "Why" behind the decision. (Required for Governance).
 
+---
+
+## 📋 Industry-Specific Compliance Requirements (Exam-Relevant)
+
+Compliance is part of PMP scope management. AI decisions in regulated domains have guardrails:
+
+| Industry | Key Regulation | AI Implication | PM Action |
+|---|---|---|---|
+| **Healthcare** | HIPAA | No PII/PHI in public AI tools; audit logs required | Use enterprise AI with BAA (Business Associate Agreement); sanitize all inputs |
+| **Finance** | SOX, Fair Lending | Decisions must be explainable; no algorithmic bias | Use XAI; audit for bias; log all AI-influenced decisions |
+| **Government** | Federal Acquisition Regulation (FAR) 52.204-21 | AI systems in contracts must meet security/transparency rules | Document AI usage in contracts; get client approval before using AI on their data |
+| **Aviation/Safety** | FAA regulations | Critical safety decisions cannot be delegated to black-box AI | Use AI for analysis/prediction only; humans approve go/no-go |
+| **EU/GDPR** | EU AI Act, GDPR | Users have right to explanation; data residency matters | Maintain audit trail; ensure data stays in EU if required; disclose AI usage |
+
+---
+
+## 🎯 Practical Compliance Scenario: Healthcare Project
+
+**Scenario:** Your healthcare project uses AI to optimize nursing schedules. You want to minimize burnout predictions.
+
+**Compliance Risks:**
+- AI might use historical bias (e.g., assigning more shifts to certain demographics)
+- Patient data (PHI) touches the AI system
+- Nurses have a right to understand why their shift was assigned
+
+**PMP's Mitigation:**
+1. Ensure the AI vendor has a **HIPAA Business Associate Agreement (BAA)**
+2. Sanitize inputs: no patient names, medical record #s—use aggregated metrics only
+3. Require **explainability**: "Nurses assigned these hours because predicted fatigue < 60% based on recent patterns"
+4. Audit monthly for bias: "Are certain groups systematically assigned fewer desirable shifts?"
+5. Document all AI-assisted decisions in the project log for compliance audits
+
+---
+
 <style>
 .resp-grid {
   display: grid;
