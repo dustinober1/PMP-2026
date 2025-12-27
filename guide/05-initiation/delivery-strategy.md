@@ -39,6 +39,21 @@ Use these diagnostic markers to choose the right path for your project.
 
 ---
 
+## 🎛️ What the Strategy Choice Changes
+Your delivery strategy sets expectations for *how planning, change, and delivery will work*.
+
+- **How you plan**: Predictive baseline planning vs. rolling-wave planning and iterative refinement.
+- **How you describe scope**: WBS/work packages vs. product backlog/user stories.
+- **How change is handled**: Formal change control vs. reprioritization within timeboxes (with guardrails).
+- **How value is delivered**: Single release vs. frequent increments and demos.
+- **How progress is measured**: % complete vs. working increments and outcomes.
+
+::: tip 🧠 Exam Pattern
+If stakeholders need **frequent feedback** and requirements are evolving, an adaptive approach is usually best. If the environment is **safety-critical** or **highly regulated**, predictive guardrails increase control and auditability.
+:::
+
+---
+
 ## 🛠️ Tailoring Factors
 When determining the strategy during initiation, consider the **Tailoring Matrix**:
 
@@ -46,6 +61,10 @@ When determining the strategy during initiation, consider the **Tailoring Matrix
 2.  **Risk**: Can you afford to fail fast? If yes, use Agile. If failure is catastrophic (Bridge Building), use Predictive.
 3.  **Frequency of Delivery**: Does the customer need value every 2 weeks, or can they wait 1 year?
 4.  **Resource Availability**: Do you have a dedicated cross-functional team (Agile) or shared resources (Predictive)?
+5.  **Requirements Volatility**: Stable requirements favor Predictive; uncertain/emerging requirements favor Agile.
+6.  **Compliance & Audit Needs**: Heavy documentation and formal approvals push toward Predictive or Hybrid.
+7.  **Stakeholder Availability**: Agile needs fast feedback; limited customer time can push toward Hybrid/Predictive with planned review gates.
+8.  **External Dependencies**: Vendor lead times and integration points often benefit from Predictive milestones even if internal work is Agile.
 
 ::: info 💡 The 2026 Standard
 Most modern enterprise projects are **Hybrid**. They use Predictive milestones for the "Business Case" and "Go-Live" while allowing teams to use Agile "Sprints" for execution and refinement.

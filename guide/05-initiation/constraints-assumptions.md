@@ -34,12 +34,44 @@ On the exam, you must distinguish between what is **Fact (Constraint)** and what
 
 ---
 
+## 🧱 Common Constraint Types (Exam-Friendly)
+Constraints can come from almost anywhere. When you see these in scenarios, treat them as **non-negotiable** unless the sponsor changes them.
+
+| Constraint Type | Examples |
+| --- | --- |
+| **Schedule** | Regulatory deadline, fixed launch date, seasonal window |
+| **Cost/Funding** | Budget ceiling, fixed funding tranche, cost cap in a grant |
+| **Scope/Features** | Must include a specific capability for compliance or contract |
+| **Quality/Safety** | Safety certification standards, zero-tolerance defect areas |
+| **Resources** | Only 2 SMEs available, shared equipment, union rules |
+| **Technology/Architecture** | Must use approved platform, data residency requirements |
+
+::: tip 🧠 Exam Pattern
+If a stakeholder asks you to “just change the deadline” or “just add budget,” your best next step is usually to **analyze impacts** and **escalate to the sponsor** (because constraints are set by authority, not by the PM).
+:::
+
+---
+
 ## 🚦 Managing the Log
 Both are documented in the **Assumption Log**, which is created during initiation.
 
-1.  **Assumptions are Risks**: If an assumption (e.g., "The server will arrive Tuesday") proves false, it becomes an issue or a risk realized.
-2.  **Constraints are Boundaries**: They define the "Triple Constraint" (Scope, Schedule, Cost) within which you must innovate.
-3.  **Active Monitoring**: The PM reviews the Assumption Log during every status meet or sprint planning to verify if beliefs are still valid.
+1.  **Assumptions are Risk Sources**: Until validated, every assumption is a potential risk.
+2.  **Constraints Set the Sandbox**: They define boundaries for scope/schedule/cost/quality decisions.
+3.  **Validate, Don’t Hope**: Put a date/owner on assumptions and actively confirm them.
+4.  **Promote Quickly**:
+    - If an assumption is uncertain and could harm outcomes → document it as a **risk** (with response).
+    - If an assumption is proven false and work is impacted → it becomes an **issue** to resolve now.
+
+### A Simple Assumption Log Template
+| Field | What to Capture |
+| --- | --- |
+| **Statement** | “The vendor can deliver the API by July 15.” |
+| **Type** | Assumption or Constraint |
+| **Owner** | Who validates/monitors it |
+| **Validation Date** | When you will confirm it (not “someday”) |
+| **Impact if False** | Cost/schedule/scope/quality consequences |
+| **Response** | Fallback/contingency (what you’ll do if it fails) |
+| **Status** | Open → Validated → Retired / Invalid |
 
 ::: info 🛠️ 2026 Focus: Virtual Constraints
 In 2026, we add **Digital Constraints**:

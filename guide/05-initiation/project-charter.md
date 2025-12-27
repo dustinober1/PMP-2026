@@ -24,6 +24,31 @@ The Charter is not just paperwork; it is the foundation of your authority. Witho
 
 ---
 
+## 🧠 The Charter as an Initiation Gate
+On the exam, the charter is the “start line.” It tells you:
+- **The organization is committing resources**
+- **You are authorized to lead**
+- **Planning can begin**
+
+### Common Inputs (What Feeds the Charter)
+*   **Business Case / Benefits Management Plan**: The value justification and how benefits will be measured.
+*   **Agreements**: Contracts, MOUs (Memorandums of Understanding), or SLAs (Service Level Agreements). If you are doing work for an external customer, the **Contract** precedes the Charter.
+*   **Enterprise Environmental Factors (EEF)**: *Conditions not under your control.*
+    *   *Examples*: Market conditions, government regulations, AI governance policies, organizational culture, remote work infrastructure.
+*   **Organizational Process Assets (OPA)**: *Processes and knowledge bases you can use.*
+    *   *Examples*: Templates, historical data (lessons learned), standard policies, financial control procedures.
+
+::: tip 🧠 EEF vs. OPA Hint
+If it **constrains** you (laws, culture, systems), it's an **EEF**.
+If it **helps** you (templates, prior project files), it's an **OPA**.
+:::
+
+::: warning 🚦 Exam Trap: “Start Work Immediately”
+If you’re asked to begin execution (hire vendors, build deliverables, spend budget) **without an approved charter**, the best next step is to **work with the sponsor to finalize and approve the charter**.
+:::
+
+---
+
 ## 📋 Standard Charter Components
 While every company has its own template, the PMP exam expects these core elements:
 
@@ -33,11 +58,30 @@ While every company has its own template, the PMP exam expects these core elemen
 *   **High-Level Risks**: Known threats identified during initiation.
 *   **Summary Milestone Schedule**: Major phase endpoints.
 *   **Pre-approved Budget**: The high-level funding envelope.
+*   **Key Stakeholder List**: Who cares? (Sponsor, Customers, Functional Managers).
 *   **Assumptions & Constraints**: The project boundaries.
 
 ::: info 🛠️ 2026 Shift: Collaborative Evolution
 Traditional PMBOK implies the Sponsor writes the charter. In modern 2026 practice, the **Project Manager** often drafts it in collaboration with the Sponsor. This ensures the PM has empathy for the business goals before planning starts.
 :::
+
+---
+
+## 🏃 Agile Chartering: The "Elevator Pitch"
+In Adaptive/Agile environments, the charter is often lighter and focused on **Vision**.
+*   **Vision Statement**: "For [target customer], who [statement of need], the [product name] is a [product category] that [key benefit]."
+*   **Mission**: What are we doing *now* to achieve the vision?
+*   **Success Criteria**: Often expressed as **OKRs** (Objectives and Key Results) rather than fixed scope.
+
+---
+
+## 🔍 Charter vs Other Documents
+| Document | What It’s For | What It’s Not For |
+| --- | --- | --- |
+| **Project Charter** | Authorization + high-level guardrails | Detailed plan, schedule baseline, task list |
+| **Project Management Plan** | Execution strategy + baselines | Formal authorization to exist |
+| **Business Case** | Investment justification (value) | Assigning the PM authority |
+| **Contract / SOW** | External deliverables and legal obligations | Internal governance and PM authority |
 
 ---
 

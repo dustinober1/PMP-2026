@@ -5,36 +5,48 @@ Stakeholders are the "Why" behind every "What." In the 2026 PMP exam, success is
 ---
 
 ## 👂 The Engagement Cycle
-Moving people from "Unaware" to "Leads."
+Moving people from "Unaware" to "Leading."
 
 <div class="section-grid">
   <div class="section-card">
     <div class="section-title">4.1 Stakeholder Analysis</div>
-    <p class="section-description">Power/Interest grids, the Salience Model, and finding the "Hidden" stakeholders.</p>
+    <p class="section-description">Power/Interest grids, the Salience Model, RACI integration, and finding the "Hidden" stakeholders.</p>
     <a href="./stakeholder-analysis" class="section-link">Map the Landscape →</a>
   </div>
 
   <div class="section-card">
+    <div class="section-title">4.1a Stakeholder Mapping</div>
+    <p class="section-description">Power/Interest Grid, Salience Model, Stakeholder Cube, and practical mapping examples.</p>
+    <a href="./stakeholder-mapping" class="section-link">Prioritize Attention →</a>
+  </div>
+
+  <div class="section-card">
+    <div class="section-title">4.1b Classification & Register</div>
+    <p class="section-description">Building the Stakeholder Register, Engagement Assessment Matrix, and closing engagement gaps.</p>
+    <a href="./stakeholder-classification" class="section-link">Document Intelligence →</a>
+  </div>
+
+  <div class="section-card">
     <div class="section-title">4.2 Comm. Planning</div>
-    <p class="section-description">Push vs. Pull, feedback loops, and global asynchronous communication.</p>
+    <p class="section-description">Push/Pull/Interactive, feedback loops, cultural context, and global async communication.</p>
     <a href="./communication-planning" class="section-link">Plan the Message →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">4.3 Active Engagement</div>
-    <p class="section-description">Building trust, managing difficult expectations, and the Assessment Matrix.</p>
+    <p class="section-description">Building trust, influence strategies, coalition building, and managing expectations.</p>
     <a href="./stakeholder-engagement" class="section-link">Drive Support →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">4.4 Negotiation</div>
-    <p class="section-description">Interest-based negotiation and techniques for consensus-driven decisions.</p>
+    <p class="section-description">Interest-based negotiation, BATNA, conflict resolution, and decision-making models.</p>
     <a href="./conflict-negotiation" class="section-link">Reach Agreement →</a>
   </div>
 
   <div class="section-card knowledge-check">
     <div class="section-title">Knowledge Check</div>
-    <p class="section-description">Test your ability to navigate politics and communication breakdowns.</p>
+    <p class="section-description">25 comprehensive questions covering stakeholder analysis, engagement, communication, and negotiation.</p>
     <a href="./knowledge-check" class="section-link">Test Influence →</a>
   </div>
 </div>
@@ -43,9 +55,37 @@ Moving people from "Unaware" to "Leads."
 
 ## 2026 Mindset: Influence without Authority
 You cannot "order" a stakeholder to like your project. You must earn it.
+
+### Core Competencies
 *   **Inclusion**: Proactively inviting the quiet voices to speak.
 *   **Transparency**: Sharing bad news early to build trust.
 *   **Empathy**: Understanding that "Resistance" is usually just "Fear of the Unknown."
+*   **Cultural Intelligence**: Adapting communication style to global, diverse teams.
+
+### Key Models to Master
+| Model | Purpose | When to Use |
+| :--- | :--- | :--- |
+| **Power/Interest Grid** | Prioritize engagement approach | Initial mapping, ongoing review |
+| **Salience Model** | Analyze Power + Legitimacy + Urgency | Complex stakeholder ecosystems |
+| **Stakeholder Cube** | Add Attitude dimension | Understanding resistors and supporters |
+| **Engagement Assessment** | Current vs Desired state | Planning engagement tactics |
+| **RACI Matrix** | Clarify accountability | Role assignment and communication |
+
+### Critical Formulas
+**Communication Channels**: $N \times (N-1) / 2$
+
+| Team Size | Channels |
+| :---: | :---: |
+| 5 | 10 |
+| 10 | 45 |
+| 15 | 105 |
+
+### Exam Patterns
+- **"New stakeholder identified..."** → Update Stakeholder Register first
+- **"Stakeholder is resistant..."** → Direct engagement + root cause + update engagement plan
+- **"Communication breakdown..."** → Update Communications Management Plan
+- **"Conflict between parties..."** → Default to Collaborate unless emergency
+- **"Vendor dispute..."** → Direct negotiation first using contract terms
 
 <style>
 .section-grid {

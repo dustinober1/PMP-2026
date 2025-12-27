@@ -5,6 +5,7 @@ Communication is the *act* of sending information; **Engagement** is the *result
 ---
 
 ## 🏗️ The Pillars of Trust
+
 Trust is the currency of leadership. In the 2026 PMP mindset, transparency is your most effective tool for building long-term engagement.
 
 <div class="engagement-grid">
@@ -22,9 +23,69 @@ Trust is the currency of leadership. In the 2026 PMP mindset, transparency is yo
   </div>
 </div>
 
+### The Trust Equation
+
+**Trustworthiness = (Credibility + Reliability + Intimacy) / Self-Orientation**
+
+| Factor | Description | How to Build It |
+| :--- | :--- | :--- |
+| **Credibility** | They believe you know what you're doing | Demonstrate expertise, admit boundaries, cite evidence |
+| **Reliability** | They believe you do what you say | Meet commitments, follow through, be consistent |
+| **Intimacy** | They feel safe sharing with you | Keep confidences, show empathy, create safe spaces |
+| **Self-Orientation** | (Low is good) They believe you care about them | Listen first, put their needs forward, don't sell |
+
+::: tip 🧠 Trust Math
+High self-orientation ("I'm trying to sell you something") destroys trust faster than the other factors can build it. **Listen before you pitch.**
+:::
+
+---
+
+## 🎯 Influence Strategies (Without Authority)
+
+Project managers rarely have formal authority over all stakeholders. These strategies help you influence effectively:
+
+### The Six Principles of Influence (Cialdini)
+
+<div class="influence-grid">
+  <div class="influence-card">
+    <div class="influence-title">Reciprocity</div>
+    <p>Give first. Help stakeholders before asking for help. Create obligations through value.</p>
+  </div>
+  <div class="influence-card">
+    <div class="influence-title">Commitment/Consistency</div>
+    <p>Get small yeses first. Once committed publicly, people honor their commitments.</p>
+  </div>
+  <div class="influence-card">
+    <div class="influence-title">Social Proof</div>
+    <p>Show that respected peers already support the initiative. "Others like you are already on board."</p>
+  </div>
+  <div class="influence-card">
+    <div class="influence-title">Authority</div>
+    <p>Leverage experts and credible sources. Use sponsor endorsement strategically.</p>
+  </div>
+  <div class="influence-card">
+    <div class="influence-title">Liking</div>
+    <p>People say yes to people they like. Build genuine rapport before making requests.</p>
+  </div>
+  <div class="influence-card">
+    <div class="influence-title">Scarcity</div>
+    <p>Highlight unique opportunity or time constraints. "This window closes soon."</p>
+  </div>
+</div>
+
+### Practical Influence Tactics for PMs
+
+| Situation | Tactic | Example |
+| :--- | :--- | :--- |
+| Need resource commitment | Reciprocity + Authority | Help their project first; get sponsor support |
+| Building coalition | Social Proof + Liking | Show who's already on board; invest in relationship |
+| Getting decision | Scarcity + Commitment | Frame deadline clearly; get public commitment |
+| Overcoming skepticism | Authority + Reciprocity | Bring expert evidence; offer to address their concerns first |
+
 ---
 
 ## 🚦 Navigating Resistance
+
 Resistance is usually a symptom of unmanaged fear or a loss of control.
 
 | Strategy                | Action Plan                                                                          |
@@ -34,13 +95,58 @@ Resistance is usually a symptom of unmanaged fear or a loss of control.
 | **WIIFM**               | Clearly communicate "What's In It For Me" from *their* specific perspective.         |
 | **Sponsor Support**     | Use the Sponsor for "high-level" political alignment if a peer is blocking progress. |
 
+### The Resistance Diagnosis Framework
+
+| Symptom | Likely Root Cause | Intervention |
+| :--- | :--- | :--- |
+| "This will never work" | Past failures, lack of confidence | Address history, show different approach |
+| "We weren't consulted" | Exclusion, lack of respect | Apologize, include now, demonstrate listening |
+| "This threatens my team" | Fear of job loss or status | Clarify future state, highlight new opportunities |
+| "I don't have time for this" | Competing priorities, overwhelm | Reduce their burden, show ease of participation |
+| "The data is wrong" | Control issues, technical disagreement | Validate together, co-create approach |
+| Silent withdrawal | Calculated opposition or disengagement | Direct 1:1, create safe space for honesty |
+
+### WIIFM Mapping Template
+
+| Stakeholder | What They Care About | Project Impact | WIIFM Message |
+| :--- | :--- | :--- | :--- |
+| VP Operations | Efficiency, team stability | New system reduces manual work | "Your team spends 30% less time on reports" |
+| End Users | Job security, learning curve | New skills required | "You become certified in market-leading platform" |
+| Finance | Budget accuracy, audit readiness | Better data integration | "Real-time financial visibility, faster close" |
+
 ::: info 🛠️ 2026 Shift: Continuous Validation
 Forget the "one-time" sign-off. Modern engagement uses **Demos** and **Reviews** as continuous validity checks. If a stakeholder's engagement slips, you find out in two weeks, not two months.
 :::
 
 ---
 
+## 🤝 Coalition Building
+
+Major projects require coalitions—groups of stakeholders who collectively support project success.
+
+### Coalition Building Steps
+
+1. **Map the Power Structure**: Identify who influences whom
+2. **Identify Your Champions**: Find early supporters with credibility
+3. **Build the Core**: Start with 3-5 committed supporters
+4. **Expand Strategically**: Add stakeholders based on influence gaps
+5. **Maintain the Coalition**: Regular check-ins, recognition, shared wins
+6. **Protect Against Fracture**: Address internal disagreements early
+
+### Coalition Strategy Matrix
+
+| Stakeholder Type | Your Approach | Why |
+| :--- | :--- | :--- |
+| **Early Champion** | Empower and feature | They advocate when you're not in the room |
+| **Influential Neutral** | Invest heavily | Their shift signals to others |
+| **Quiet Supporter** | Activate strategically | Ask for specific visible support |
+| **Potential Opponent** | Neutralize or convert | Reduce friction, address concerns |
+| **Active Opponent** | Contain or outflank | Build coalition strength around them |
+
+---
+
 ## 🔄 Agile vs. Predictive Engagement
+
 The exam will test your ability to adapt engagement based on the project life cycle.
 
 | Feature | Predictive (Waterfall) | Adaptive (Agile) |
@@ -49,6 +155,18 @@ The exam will test your ability to adapt engagement based on the project life cy
 | **Key Event** | Monthly Status Report | Sprint Review / Demo |
 | **Feedback** | Formal Change Request | Direct feedback on working software |
 | **Relationships** | PM is the "Hub" managing all comms | Team speaks directly to Business Owners |
+| **Stakeholder Role** | Reviewer/Approver | Active Participant/Collaborator |
+| **Document Emphasis** | Plans, specifications, sign-offs | Working software, conversations |
+
+### Agile Engagement Ceremonies
+
+| Ceremony | Stakeholder Role | Engagement Value |
+| :--- | :--- | :--- |
+| **Sprint Planning** | Product Owner participates; others optional | Priority clarity, realistic commitments |
+| **Daily Standup** | Stakeholders observe only (no interruption) | Transparency, progress visibility |
+| **Sprint Review** | Active participation, feedback | Validation, course correction, buy-in |
+| **Retrospective** | Team only (unless invited) | Safe space for improvement |
+| **Backlog Refinement** | Product Owner + SMEs as needed | Requirement clarity, early engagement |
 
 ::: tip 🧠 Agile Mindset
 In Agile, **Stakeholders are Participants**, not just observers. Invite them to the Daily Standup (as listeners) and the Sprint Review (as active feedback givers).
@@ -57,19 +175,36 @@ In Agile, **Stakeholders are Participants**, not just observers. Invite them to 
 ---
 
 ## 📊 From Analysis to Action (Engagement Plan)
+
 Stakeholder analysis tells you **who matters**. Engagement planning tells you **what you will do** to earn and maintain support.
 
-### Engagement assessment (Current vs Desired)
+### Engagement Assessment (Current vs Desired)
 This is the fastest way to spot where projects fail: the project needs someone to be *Supportive*, but they are currently *Resistant*.
 
-| Stakeholder | Current | Desired | Your action |
-| :--- | :--- | :--- | :--- |
-| Compliance lead | Neutral | Supportive | Invite early review; clarify non-negotiables; agree on cadence |
-| Dept head | Resistant | Neutral | 1:1 listening; clarify WIIFM; reduce perceived loss of control |
-| Power user | Supportive | Leading | Empower as champion; include in demos/UAT; amplify feedback |
+| Stakeholder | Current | Desired | Gap | Your Action |
+| :--- | :--- | :--- | :--- | :--- |
+| Compliance lead | Neutral | Supportive | +1 | Invite early review; clarify non-negotiables; agree on cadence |
+| Dept head | Resistant | Neutral | +1 | 1:1 listening; clarify WIIFM; reduce perceived loss of control |
+| Power user | Supportive | Leading | +1 | Empower as champion; include in demos/UAT; amplify feedback |
+| CTO | Neutral | Leading | +2 | Strategic alignment meetings; show technology innovation value |
 
-### Signs engagement is slipping (leading indicators)
-- Stakeholders stop attending demos/reviews, response times increase, decisions stall, rumors escalate, or “side conversations” replace formal governance.
+### Stakeholder Engagement Plan Template
+
+| Stakeholder | Gap | Strategy | Specific Actions | Owner | Timeline | Success Metric |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| VP Finance | Resistant → Neutral | Address concerns | 1:1 meeting, share business case | PM + Sponsor | Week 2 | Attends steering committee |
+| IT Director | Neutral → Supportive | Show value | Technical deep-dive, involve in architecture | PM + Tech Lead | Weeks 2-4 | Publicly endorses approach |
+| End Users | Unaware → Supportive | Build awareness | Town hall, demo, training preview | Change Lead | Weeks 3-6 | 80% attend training |
+
+### Signs Engagement is Slipping (Leading Indicators)
+
+- Stakeholders stop attending demos/reviews
+- Response times increase
+- Decisions stall or get revisited
+- Rumors escalate
+- "Side conversations" replace formal governance
+- Feedback becomes perfunctory or absent
+- Body language disengagement in meetings
 
 ::: warning ⚠️ The Risk Connection
 A **Resistant** stakeholder is a **Risk**. If you identify a high-power resistor, you must:
@@ -78,38 +213,81 @@ A **Resistant** stakeholder is a **Risk**. If you identify a high-power resistor
 3.  Update the **Issue Log** (if they are actively blocking progress).
 :::
 
+---
+
+## 📊 Managing Expectations
+
+Expectation management is the #1 job of a PM.
+
+### The Expectation Management Framework
+
+1. **Surface Expectations**: Ask explicitly what stakeholders expect (don't assume)
+2. **Validate Against Reality**: Compare expectations to project constraints
+3. **Align Early**: Address gaps before they become conflicts
+4. **Document Agreements**: Create shared understanding in writing
+5. **Monitor Continuously**: Check in regularly on expectation drift
+6. **Adjust Proactively**: When reality changes, reset expectations quickly
+
+### Expectation Management Best Practices
+
+| Practice | Why It Works |
+| :--- | :--- |
+| **Define Done**: Ensure everyone has the same mental picture of the final outcome | Prevents "that's not what I expected" at delivery |
+| **Regular Cadence**: Consistency in communication reduces anxiety and builds trust | Predictability creates comfort |
+| **No Surprises**: The hallmark of a great PM is that no stakeholder is ever surprised by a major project event | Trust is protected |
+| **Under-promise, Over-deliver**: Set conservative expectations, then exceed them | Creates positive surprise instead of disappointment |
+| **Visualize Progress**: Show don't tell—demos beat status reports | Concrete evidence builds confidence |
+
+### Common Expectation Gaps
+
+| Expectation Area | Common Gap | Prevention |
+| :--- | :--- | :--- |
+| **Scope** | "I thought we were getting X feature" | Requirements sign-off, scope statements |
+| **Timeline** | "I expected this sooner" | Published milestones, regular updates |
+| **Quality** | "This doesn't meet my standards" | Acceptance criteria, early demos |
+| **Involvement** | "I wanted to be consulted" | RACI matrix, engagement planning |
+| **Communication** | "I didn't know about this change" | Communications plan, stakeholder register |
+
+---
+
+## 🔄 Feedback Loops
+
+Engagement requires continuous feedback mechanisms:
+
+| Feedback Type | Method | Frequency | Purpose |
+| :--- | :--- | :--- | :--- |
+| **Formal Reviews** | Steering committee, gate reviews | Monthly/Quarterly | Governance, major decisions |
+| **Demos/Reviews** | Working product demonstrations | Sprint-level | Validation, course correction |
+| **Surveys** | Stakeholder satisfaction surveys | Quarterly | Sentiment tracking |
+| **1:1 Check-ins** | Individual stakeholder meetings | As needed | Relationship, deep concerns |
+| **Retrospectives** | Team/stakeholder retrospectives | End of phase | Lessons learned |
+
 ::: tip 🧠 Exam Pattern
 When a stakeholder is unhappy, the best answers usually involve **direct engagement + plan updates** (Stakeholder Register, Engagement Plan, Communications Plan) before escalation.
 :::
 
-## 📊 Managing Expectations
-Expectation management is the #1 job of a PM. 
-1.  **Define Done**: Ensure everyone has the same mental picture of the final outcome.
-2.  **Regular Cadence**: Consistency in communication reduces anxiety and builds trust.
-3.  **No Surprises**: The hallmark of a great PM is that no stakeholder is ever surprised by a major project event.
-
 <style>
-.engagement-grid {
+.engagement-grid, .influence-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1.5rem;
   margin: 2rem 0;
 }
 
-.engagement-card {
+.engagement-card, .influence-card {
   padding: 1.5rem;
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-border);
   border-radius: 12px;
 }
 
-.engagement-title {
+.engagement-title, .influence-title {
   font-weight: 700;
   color: var(--vp-c-brand);
   margin-bottom: 0.5rem;
 }
 
-.engagement-card p {
+.engagement-card p, .influence-card p {
   font-size: 0.85rem;
   margin: 0;
   line-height: 1.5;

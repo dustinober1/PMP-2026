@@ -1,9 +1,9 @@
 # Knowledge Check: Initiation
 
-Test your ability to authorize projects, justify value, and establish a clear delivery foundation for the 2026 PMP exam.
+Test your ability to justify value, secure authorization, define boundaries, and tailor the delivery strategy. These 25 questions cover the full breadth of Chapter 5 content in the 2026 PMP context.
 
 <QuizComponent
-  title="Chapter 5: Initiation"
+  title="Chapter 5: Comprehensive Review (25 Questions)"
   :questions="[
     {
       text: 'You are helping a sponsor choose between two projects. Project Alpha has an NPV of $50,000 and an IRR of 12%. Project Beta has an NPV of $75,000 and an IRR of 8%. Which project should you recommend solely based on financial value?',
@@ -18,62 +18,302 @@ Test your ability to authorize projects, justify value, and establish a clear de
       reference: 'Section 5.1'
     },
     {
-      text: 'A functional manager and the project manager are in a dispute over resource allocation. The functional manager claims the project has not been formally approved. What document should the PM show to resolve this?',
+      text: 'A sponsor is comparing two projects. Project A has a 12-month payback but an NPV of $10,000. Project B has a 36-month payback but an NPV of $80,000. If the goal is to maximize value, which should be selected?',
       options: [
+        'Project A, because shorter payback always beats higher NPV',
+        'Project B, because NPV represents the total value in today’s dollars',
+        'Neither, because payback is the only valid metric',
+        'Both, because payback and NPV cannot be compared'
+      ],
+      correct: 1,
+      explanation: 'Payback measures how quickly cash is recovered, but NPV measures total value after discounting. When value maximization is the goal, higher NPV is preferred.',
+      reference: 'Section 5.1'
+    },
+    {
+      text: 'You have a fixed capital budget and can only fund one of two independent initiatives. Project X has a BCR of 1.8 and Project Y has a BCR of 1.3. Which is the best choice based on efficiency of spend?',
+      options: [
+        'Project X, because it returns more benefit per dollar invested',
+        'Project Y, because lower BCR indicates lower risk',
+        'Neither, because BCR must be less than 1.0 to be profitable',
+        'Select both projects and request more budget later'
+      ],
+      correct: 0,
+      explanation: 'Benefit-Cost Ratio (BCR) helps rank options when capital is constrained. Higher BCR = more value per unit of cost.',
+      reference: 'Section 5.1'
+    },
+    {
+      text: 'A project has an IRR of 14% and the organization’s hurdle rate is 11%. What does this usually imply?',
+      options: [
+        'The project should generally be accepted because return exceeds the cost of capital',
+        'The project should be rejected because IRR is not a valid metric',
+        'The project is only acceptable if Payback is under 12 months',
+        'The project must be Agile to achieve that IRR'
+      ],
+      correct: 0,
+      explanation: 'If IRR exceeds the hurdle rate (cost of capital), the investment generally meets the organization’s minimum return requirement.',
+      reference: 'Section 5.1'
+    },
+    {
+      text: 'A project’s NPV is negative, but it is required to meet a non-negotiable regulatory compliance deadline. What is the best recommendation?',
+      options: [
+        'Reject the project because negative NPV always means no value',
+        'Proceed and document compliance as the value driver, even if financial return is negative',
+        'Proceed only if the project is converted to Agile',
+        'Delay the decision until the PM completes a detailed schedule'
+      ],
+      correct: 1,
+      explanation: 'Compliance work can be mandatory regardless of NPV. The “value” is maintaining license to operate and avoiding legal/financial penalties.',
+      reference: 'Section 5.1'
+    },
+    {
+      text: 'Which document primarily answers: “Why should the organization invest in this initiative?”',
+      options: [
+        'Project Charter',
+        'Business Case',
+        'Project Management Plan',
+        'Issue Log'
+      ],
+      correct: 1,
+      explanation: 'The Business Case is the pre-project justification document that explains the “why” of the investment.',
+      reference: 'Section 5.1'
+    },
+    {
+      text: 'Which document formally authorizes the project and grants the PM authority to use organizational resources?',
+      options: [
+        'The Communications Management Plan',
         'The Business Case',
-        'The Project Management Plan',
         'The Project Charter',
-        'The Communications Management Plan'
+        'The Benefits Management Plan'
       ],
       correct: 2,
-      explanation: 'The Project Charter is the formal document that authorizes the project and names the PM, granting them authority to use organizational resources.',
+      explanation: 'The Project Charter is the authorization document. It names the PM and establishes authority.',
       reference: 'Section 5.2'
     },
     {
-      text: 'During a kick-off meeting, a stakeholder asks for the specific daily tasks of the engineering team for the next six months. The project has just been chartered. What should the PM do?',
+      text: 'In the Benefits Management Plan, who is typically accountable for measuring benefits after project closure?',
       options: [
-        'Refer them to the Project Charter schedule',
-        'Explain that the charter only contains summary milestones and detailed planning will follow',
-        'Draft a Gantt chart immediately to satisfy the stakeholder',
-        'Ask the engineering lead to provide their personal calendar'
+        'The Project Manager',
+        'The Benefit Owner (often an operational leader or product owner)',
+        'The Scrum Master',
+        'The entire project team equally'
       ],
       correct: 1,
-      explanation: 'The Project Charter is a high-level document. It contains summary milestones, not detailed task lists. Detailed planning occurs AFTER initiation.',
+      explanation: 'Benefits are usually realized after delivery, so a benefits owner (not the PM) is accountable for measurement and sustainment.',
+      reference: 'Section 5.1'
+    },
+    {
+      text: 'When are many business benefits most commonly realized and measured?',
+      options: [
+        'Only during initiation',
+        'Mostly after the project deliverable is transitioned into operations',
+        'Only during execution',
+        'Only after the PM writes the schedule baseline'
+      ],
+      correct: 1,
+      explanation: 'A key initiation concept is that outcomes and benefits often occur after the project closes, during adoption and operations.',
+      reference: 'Section 5.1'
+    },
+    {
+      text: 'Mid-project, you discover the market has changed and the Business Case assumptions are no longer valid. What is the best immediate PM action?',
+      options: [
+        'Continue the project to avoid wasting sunk costs',
+        'Quietly adjust scope so the Business Case becomes valid again',
+        'Inform the sponsor and revalidate the Business Case before continuing major spend',
+        'Ignore it and focus on meeting the schedule baseline'
+      ],
+      correct: 2,
+      explanation: 'When value justification changes, the PM should inform the sponsor and revalidate the Business Case. Protect organizational resources.',
+      reference: 'Section 5.1'
+    },
+    {
+      text: 'A sponsor asks you to begin purchasing equipment and assigning staff, but the charter has not been approved. What should you do next?',
+      options: [
+        'Start work to show progress while the charter is being drafted',
+        'Ask the team to begin “unofficially” to avoid delays',
+        'Work with the sponsor to finalize and approve the Project Charter first',
+        'Create the full project schedule and then request approval'
+      ],
+      correct: 2,
+      explanation: 'Without an approved charter, the project is not formally authorized. The next step is to get charter approval before committing resources.',
       reference: 'Section 5.2'
     },
     {
-      text: 'A Project Manager is documenting that the project relies on the availability of a specific cloud server by July. Since the contract is not yet signed, how should this be classified in the log?',
+      text: 'Which item belongs in the Project Charter (not in the detailed plan)?',
       options: [
-        'As a Constraint, because it is a fixed requirement',
-        'As an Assumption, because it is believed to be true for planning but not yet proven',
-        'As a Risk Response, because it addresses a budget deficit',
-        'As a Quality Metric, because it impacts speed'
+        'Daily task assignments for the team',
+        'A complete WBS Dictionary',
+        'Summary milestones and high-level success criteria',
+        'A fully baselined schedule with critical path analysis'
+      ],
+      correct: 2,
+      explanation: 'The charter contains high-level scope, milestones, budget envelope, and success criteria—not detailed plans or baselines.',
+      reference: 'Section 5.2'
+    },
+    {
+      text: 'A functional manager refuses to release a key engineer and claims the project has not been formally approved. What should the PM show first?',
+      options: [
+        'The Business Case',
+        'The Project Charter',
+        'The Product Backlog',
+        'The Risk Register'
       ],
       correct: 1,
-      explanation: 'Assumptions are items held to be true for planning purposes without proof. If the server is not yet contracted/guaranteed, it is an assumption.',
+      explanation: 'The charter is the formal authorization that proves the PM has authority to request resources.',
+      reference: 'Section 5.2'
+    },
+    {
+      text: 'During a kickoff meeting, a stakeholder asks for the detailed day-by-day task plan for the next six months. The project has just been chartered. What is the best response?',
+      options: [
+        'Explain that detailed planning and task sequencing follow initiation; the charter only includes summary milestones',
+        'Commit to delivering a full task plan by end of day',
+        'Ask the stakeholder to create the task plan so you can approve it',
+        'Reject the request because planning is not required in Agile projects'
+      ],
+      correct: 0,
+      explanation: 'The charter is a high-level authorization document. Detailed planning occurs after initiation.',
+      reference: 'Section 5.2'
+    },
+    {
+      text: 'You are documenting that the project relies on the availability of a specific cloud server by July. The contract is not signed yet. How should this be classified?',
+      options: [
+        'Constraint, because it is a requirement',
+        'Assumption, because it is believed true for planning but not yet proven',
+        'Work package, because it is a deliverable',
+        'Quality metric, because it relates to performance'
+      ],
+      correct: 1,
+      explanation: 'If something is believed for planning but not confirmed, it is an assumption. Unvalidated assumptions are risk sources.',
       reference: 'Section 5.3'
     },
     {
-      text: 'The Project Sponsor asks the PM why they have chosen a Hybrid approach for a new product launch. Which response best aligns with the 2026 PMP mindset?',
+      text: 'A new regulation requires customer data to remain in-country (data residency). How should this be treated in initiation?',
       options: [
-        'Hybrid is used because it allows us to avoid the complexity of full documentation',
-        'Hybrid allows us to use stable predictive dates for the launch event while iterating on feature value via agile cycles',
-        'Hybrid is only for projects where the team is too small for Scrum',
-        'Hybrid is the default approach for all projects regardless of context'
+        'As an assumption, because regulations might change later',
+        'As a constraint, because it is a non-negotiable legal boundary',
+        'As an issue, because it will definitely delay the project',
+        'As a benefit, because it improves security'
       ],
       correct: 1,
-      explanation: 'The modern justification for Hybrid is balancing fixed business constraints (dates/budgets) with the need for flexible, high-value delivery of content.',
+      explanation: 'Regulatory requirements are constraints—non-negotiable boundaries the project must comply with.',
+      reference: 'Section 5.3'
+    },
+    {
+      text: 'You have an assumption that a vendor can deliver a key component in 30 days. Delivery date is uncertain. What is the best action?',
+      options: [
+        'Treat it as fact and build the schedule around it',
+        'Document it in the Assumption Log with an owner and validation date, and plan a fallback',
+        'Ignore it until planning is complete',
+        'Move it to the Lessons Learned Register'
+      ],
+      correct: 1,
+      explanation: 'Good initiation practice is to capture assumptions with owners and validation dates, and plan responses if they fail.',
+      reference: 'Section 5.3'
+    },
+    {
+      text: 'An assumption was recorded: “The SME will be available 10 hours/week.” The SME later informs you they are not available at all. Work is blocked. What does this become?',
+      options: [
+        'A closed assumption',
+        'An issue that must be addressed now (and may also trigger new risks)',
+        'A change request automatically approved',
+        'A benefit realization event'
+      ],
+      correct: 1,
+      explanation: 'When an assumption is proven false and work is impacted, it becomes an issue to resolve immediately.',
+      reference: 'Section 5.3'
+    },
+    {
+      text: 'A project has stable requirements, high cost of change, and a single final release. Which delivery approach is most appropriate?',
+      options: [
+        'Predictive',
+        'Adaptive (Agile)',
+        'Hybrid',
+        'Randomized'
+      ],
+      correct: 0,
+      explanation: 'Stable environments with high change cost and a single release align with predictive approaches.',
       reference: 'Section 5.4'
+    },
+    {
+      text: 'A product has unclear requirements and needs frequent stakeholder feedback and incremental releases. Which delivery approach is best?',
+      options: [
+        'Predictive',
+        'Adaptive (Agile)',
+        'Hybrid',
+        'Only predictive because requirements are unclear'
+      ],
+      correct: 1,
+      explanation: 'Agile approaches are designed for emerging requirements and frequent delivery/feedback loops.',
+      reference: 'Section 5.4'
+    },
+    {
+      text: 'A project has high uncertainty but a non-negotiable legal deadline. What delivery strategy best fits the 2026 mindset?',
+      options: [
+        'Predictive only',
+        'Adaptive (Agile) only',
+        'Hybrid: predictive guardrails for the deadline with agile cycles for evolving scope',
+        'No strategy can handle fixed deadlines'
+      ],
+      correct: 2,
+      explanation: 'Hybrid balances fixed constraints (deadline) with iterative delivery for uncertain scope.',
+      reference: 'Section 5.4'
+    },
+    {
+      text: 'A project has spent $2M so far but is failing to meet the current market need. Completing it requires another $1M. A competitor has just released a better product for free. What should be done with the $2M spent when deciding whether to continue?',
+      options: [
+        'Factor it into the ROI calculation to ensure the money is not wasted',
+        'Ignore it as Sunk Cost and evaluate the project solely on future value vs. future cost',
+        'Continue the project to justify the $2M investment',
+        'Subtract the $2M from the new budget request'
+      ],
+      correct: 1,
+      explanation: 'Sunk Costs (money already spent) should not influence future decisions. Decisions must be based on future investment vs. future value.',
+      reference: 'Section 5.1'
+    },
+    {
+      text: 'In an Agile environment, what is the primary focus of the project chartering process?',
+      options: [
+        'Defining a detailed WBS and fixed scope',
+        'Establishing a clear Vision and Mission to guide self-organizing teams',
+        'Assigning detailed tasks to developers',
+        'Locking down the budget for the entire year'
+      ],
+      correct: 1,
+      explanation: 'Agile charters focus on the "North Star" (Vision/Mission) to give teams direction while allowing scope to emerge.',
+      reference: 'Section 5.2'
+    },
+    {
+      text: 'During chartering, you are reviewing government safety regulations that mandate specific testing procedures. How should these regulations be classified?',
+      options: [
+        'Organizational Process Assets (OPA)',
+        'Enterprise Environmental Factors (EEF)',
+        'Project Assumptions',
+        'Stakeholder Register'
+      ],
+      correct: 1,
+      explanation: 'Government regulations are external conditions outside the project team’s control, making them Enterprise Environmental Factors (EEF).',
+      reference: 'Section 5.2'
+    },
+    {
+      text: 'You must choose between two exclusive projects. Project Alpha has a value of $90,000. Project Beta has a value of $60,000. If you select Project Alpha, what is the Opportunity Cost?',
+      options: [
+        '$90,000',
+        '$60,000',
+        '$30,000',
+        '$150,000'
+      ],
+      correct: 1,
+      explanation: 'Opportunity Cost is the value of the option NOT selected. Since you picked Alpha, you gave up the $60,000 value of Beta.',
+      reference: 'Section 5.1'
     }
   ]"
 />
 
-## Additional Study Topics
-For full Chapter 5 proficiency, ensure you can:
-1.  **Select the correct metric**: NPV vs BCR vs IRR.
-2.  **Sequence the Start**: Why the Charter usually happens before the Register.
-3.  **Audit the Log**: Knowing when to promote an Assumption to a Risk.
-4.  **Identify the Authority**: The difference between a Sponsor (Authority/Funding) and a PM (Leadership/Execution).
+## Next Steps
+
+If you scored:
+- **< 60%**: Re-read Sections 5.1–5.4 and write your own one-sentence definitions for Business Case, Charter, Constraint, Assumption, and Hybrid delivery.
+- **60-79%**: Review the explanations for each missed question and focus on the “why” behind each choice.
+- **≥ 80%**: You are ready to move on to **[Chapter 6: Project Planning](/guide/06-project-planning/)**.
 
 ---
 

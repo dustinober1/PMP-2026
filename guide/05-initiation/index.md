@@ -9,6 +9,22 @@ Initiation is the "Big Bang" of a project—the transition from a strategic idea
 - **Formal Authorization**: Establishing the PM's "Social Contract" and power.
 - **Context Selection**: Choosing the right delivery approach (Predictive, Agile, or Hybrid).
 
+## The Initiation Questions (Your North Star Checklist)
+If you can’t answer these, you aren’t ready to plan.
+1.  **Why now?** What business problem/opportunity is driving this?
+2.  **Who owns value?** Who funds it, decides, and benefits after delivery?
+3.  **What is success?** How will we measure outcomes (not just outputs)?
+4.  **What are the boundaries?** Constraints (facts) and assumptions (beliefs).
+5.  **How will we deliver?** Predictive vs Agile vs Hybrid—based on risk and uncertainty.
+
+::: info 🤝 The Other Initiation Process
+While this chapter focuses on authorization and strategy, the **Initiating Process Group** formally includes two processes:
+1.  **Develop Project Charter** (Covered here)
+2.  **Identify Stakeholders** (Covered in **[Chapter 4: Stakeholder & Communication](/guide/04-stakeholder/)**)
+
+You cannot start a project without knowing who cares about it.
+:::
+
 <div class="section-grid">
   <div class="section-card">
     <div class="section-title">5.1 Business Case</div>
