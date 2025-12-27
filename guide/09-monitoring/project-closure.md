@@ -101,7 +101,7 @@ Minor items can be documented as a punch list/warranty items **only if** accepta
 
 ## Transition & Handoff (How You Make Value Real)
 
-The “handoff” is where many projects fail in the real world—and where the PMP exam expects you to be rigorous.
+The "handoff" is where many projects fail in the real world—and where the PMP exam expects you to be rigorous.
 
 Typical handoff components:
 - **Transition plan**: who owns what, and when ownership transfers
@@ -110,13 +110,37 @@ Typical handoff components:
 - **Support model**: warranty period, SLAs, escalation paths, service desk intake
 - **Benefits ownership**: who measures benefits after the project is closed (often the product/operations owner)
 
+#### 🧠 Benefits Realization Management (During Closure)
+
+The **Business Case** promised benefits (e.g., "reduce support costs by 20%" or "increase customer satisfaction by 15%"). Your job at closure is to **transfer measurement responsibility**, not to prove benefits were achieved (that's post-project).
+
+**Key Questions at Closure:**
+1. Who owns benefits measurement after the project closes? (Typically Operations, Product Management, Finance)
+2. What metrics prove the benefit was achieved? (KPIs defined in the Business Case)
+3. When will benefits be measured? (Often 3, 6, or 12 months post-go-live)
+4. How will measurement happen? (Dashboard, survey, financial system extract, etc.)
+
+**Benefits Handoff Template** (from toolkit):
+```
+Benefit: Reduce support costs by 20%
+Owner: Operations Director
+Success metric: cost per ticket
+Target: -20% vs baseline
+When measured: Monthly, starting 30 days post-go-live
+Data source: Finance system (cost tracking)
+Responsibility transfer: From PM to Ops Director on 2026-02-15
+```
+
+**On the Exam:**
+If a question asks "What should you do at closure?" and the answer involves "track benefits," make sure the **ownership is transferred** to someone else. The PM's role in benefits is to hand it off; the organization's role is to measure it post-closure.
+
 ::: info 🔍 Exam Pattern
 If operations cannot support the deliverable (missing training, missing runbooks, missing access), the project is not truly “done,” even if the software “works.”
 :::
 
 ---
 
-## Closing Procurements (You Can’t Close With Open Claims)
+## Closing Procurements (You Can't Close With Open Claims)
 
 Procurement closure typically includes:
 - Formal acceptance of seller deliverables per contract
@@ -125,8 +149,39 @@ Procurement closure typically includes:
 - Procurement audit and vendor performance evaluation (an OPA input)
 
 ::: warning ⚠️ Common Exam Trap
-If a scenario mentions a **claim/dispute**, you generally **cannot** close the project until it’s resolved (or formally transferred per organizational policy).
+If a scenario mentions a **claim/dispute**, you generally **cannot** close the project until it's resolved (or formally transferred per organizational policy).
 :::
+
+#### 🧠 Claims & Disputes Management
+
+A **claim** is a seller's assertion for payment or relief that may be contractual or legal.
+
+**Common Claim Scenarios:**
+- Vendor requests payment for work outside the original scope
+- Vendor claims change orders should be backcharged due to delays caused by buyer
+- Vendor seeks compensation for early termination
+- Buyer refuses payment due to non-conformance with acceptance criteria
+
+**Procurement Closure Protocol for Claims:**
+
+| Step | Action | Exam mindset |
+|---|---|---|
+| **1. Verify contract terms** | Check what the contract says about claims, disputes, and payment | Reference the contract first; don't make up policy |
+| **2. Assess validity** | Is the claim legitimate per the contract? (e.g., "Was this really out of scope?") | Objective evidence (change order, acceptance criteria, documentation) |
+| **3. Negotiate / Mediate** | Try to resolve with the vendor (avoid litigation) | Collaboration, win-win if possible |
+| **4. Document the decision** | Whatever is decided—payment, partial payment, rejection—document it | Never leave "open claim" at closure |
+| **5. Formal settlement** | Obtain signed settlement agreement if compromising | Closes legal/financial exposure |
+| **6. Close procurement** | Update procurement records and financial system | Project cannot be closed until this is done |
+
+**If Claim Cannot Be Resolved Before Project Closure:**
+- **Formally transfer claim responsibility** to a post-project legal/finance team (document who owns it)
+- **Document the claim fully** in project records and procurement archive
+- **Note in the final project report** that a claim is outstanding and who is managing it
+- **Close project administratively** but flag that financial settlement may change final costs
+
+**Exam Pattern:**
+- If the scenario says "claim is unresolved," look for answers that involve **deferring closure** or **formally transferring responsibility**
+- "Pay to avoid delay" is a red flag answer (avoids governance and may set bad precedent)
 
 ---
 
@@ -154,13 +209,48 @@ The **lessons learned register** should be a living document throughout the proj
 | **Scope** | Entire project lifecycle | The immediate past 2-4 weeks |
 | **Primary Goal** | Document knowledge for the *organization* (OPAs) | Improve the *team's* process immediately |
 | **Audience** | Future project teams | The current team (private space) |
+| **Output format** | Structured register (topic, lesson, recommendation, owner) | Action items for next sprint |
+| **Reusability** | High (stored in OPA library for years) | Team-specific (may not apply to other teams) |
 
-Suggested prompts:
-- **What went right?** (repeatable practices)
-- **What went wrong?** (root causes and early signals)
-- **What should we stop/start/continue?**
-- **What assumptions were wrong?**
-- **What decisions saved time/cost?**
+#### 🧠 Effective Lessons Learned Session (Checklist)
+
+**Before the Session:**
+- [ ] Schedule it **while memory is fresh** (within 1-2 weeks of closure)
+- [ ] Invite the **core team + key stakeholders** (not just executives)
+- [ ] Create a **safe, blameless environment** (this is not a performance review)
+- [ ] Provide the project charter, baselines, and final metrics for reference
+- [ ] Set **60-90 minutes** with clear agenda
+
+**During the Session:**
+1. **Frame the objectives** (Why are we doing this? What do we want to learn?)
+2. **Review what we planned vs. what we delivered** (scope, schedule, cost, quality)
+3. **Discuss what went well** (repeatable practices)
+   - Example: "Our definition of done checklist prevented late defects"
+   - Action: Continue using DoD; refine based on lessons
+4. **Discuss what didn't go well** (root causes, early signals)
+   - Example: "UAT started late because requirements weren't clear"
+   - Action: Require written acceptance criteria sign-off by stakeholders before dev starts
+5. **Identify patterns** (Was this a one-off or systemic?)
+   - Example: "Acceptance criteria were unclear on 5 stories; that caused rework"
+   - Action: Add acceptance criteria to definition of ready; add PO review step
+6. **Capture actionable recommendations** (Who will do what by when?)
+   - Example: "Update requirements template to include mandatory AC section" (Owner: PMO Lead, Due: 2026-03-01)
+
+**Output Template:**
+| Topic | Lesson | Recommendation | Owner | Due date | Status |
+|---|---|---|---|---|---|
+| Scope | Acceptance criteria were often unclear until coding started | Require written AC for ALL stories during backlog refinement | Product Owner | 2026-02-15 | Pending |
+| Schedule | UAT started 2 weeks late due to dev delays that were not communicated early | Implement daily standup metrics (blockers, risks) and escalate >3-day slips immediately | Delivery Lead | 2026-02-20 | Pending |
+| Quality | 8 defects escaped to UAT; root cause was insufficient peer review | Require peer review for all code; add code review checklist | Dev Lead | 2026-02-15 | Pending |
+
+**After the Session:**
+- [ ] Circulate lessons learned register to team for feedback/validation
+- [ ] Store in **OPA library** with metadata (project, date, category) for future searches
+- [ ] Assign owners and create calendar reminders for follow-up actions
+- [ ] Reference lessons learned in closing report as "continuous improvement commitment"
+
+**On the Exam:**
+Questions about lessons learned often ask: "What is the OUTPUT of a lessons learned session?" Answer: **Organizational Process Assets (OPAs)** that can be used by future projects. This is why it's stored in the organizational library, not kept private to the team.
 
 ---
 
@@ -176,8 +266,39 @@ If a project is canceled mid-flight (e.g., strategy shift, budget cut, technical
 5.  **Release team**: Formally unassign them so they can work on new projects.
 6.  **Capture lessons learned**: Why did it fail? Or if it didn't fail (market changed), what did we learn about the market?
 
+#### 🧠 Canceled Project Scenarios (Common Exam Patterns)
+
+**Scenario A: Strategic Shift (Market Changed)**
+- Reason: "New competitor entered the market; this feature is no longer strategically important"
+- Closure approach: **No blame**; this is a business decision, not a failure
+- Lessons learned: "Our market analysis assumed competitors would remain stable; we should increase market monitoring"
+- Archive: All designs, code, requirements for potential future reference
+- Example on exam: "The team feels bad about cancellation. How should you respond?" → Focus on the business value and freed resources
+
+**Scenario B: Budget Cut (Financial Constraint)**
+- Reason: "Company revenue miss; all non-essential projects halted"
+- Closure approach: Pay vendors for work-to-date per contract; release team to higher-priority work
+- Lessons learned: "Our estimate was accurate, but we didn't plan for budget volatility; add contingency planning for next projects"
+- Archive: Final status (% complete), budget spent, invoice history
+- Example on exam: "Should we continue to meet the original deadline?" → No; accept that the project is canceled and focus on clean closure
+
+**Scenario C: Technical Obsolescence**
+- Reason: "The technology stack became unsupported; reimplementing would cost more than the original plan"
+- Closure approach: Document the decision, archive code for reference, capture technical lessons
+- Lessons learned: "We chose a technology without long-term support commitments; future projects should verify vendor stability"
+- Example on exam: "What should you tell the sponsor?" → Present the business case for cancellation (cost of continuance vs. cost of cancellation)
+
+**Administrative Closure Checklist for Canceled Projects:**
+- [ ] Final project status report (% complete, budget spent vs. remaining, explanation of cancellation)
+- [ ] Vendor contract closeout (payment for work-to-date per contract; follow termination clauses)
+- [ ] Team release and transition to other projects (formal reassignment)
+- [ ] Partial deliverables archived (code repos, designs, requirements for future use)
+- [ ] Risk/issues/change requests formally closed or transferred (if applicable)
+- [ ] Lessons learned session conducted (why canceled, what to do differently next time)
+- [ ] Final records filed in organizational repository (for audit and future reference)
+
 ::: tip 💡 2026 Shift
-The "sunk cost fallacy" (spending more because you already spent a lot) is a bias to avoid. Closing a project that no longer provides value is a **success**, not a failure, because it frees resources for higher-value work.
+The "sunk cost fallacy" (spending more because you already spent a lot) is a bias to avoid. **Closing a project that no longer provides value is a success**, not a failure, because it frees resources for higher-value work. On the exam, expect questions that frame cancellation as a positive governance decision.
 :::
 
 ---

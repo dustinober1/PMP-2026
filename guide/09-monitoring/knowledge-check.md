@@ -316,6 +316,54 @@ Test your mastery of performance metrics, change control, and project closure in
       correct: 0,
       explanation: 'Retrospectives are private, team-based events to improve the *next* sprint. Lessons Learned are typically documented for the *organization* (OPAs) to help future projects.',
       reference: 'Section 9.2 - Lessons Learned vs Retrospectives'
+    },
+    {
+      text: 'Activity A on the critical path has ES=0, EF=10, LS=5, LF=15. The activity is now taking 12 days instead of the planned 10. Does the project end date change?',
+      options: [
+        'Yes, because Activity A is on the critical path and any delay extends the project',
+        'No, because Activity A still has 3 days of float and the delay does not exceed it',
+        'No, if Activity A can overlap with Activity B to recover time',
+        'Yes, because we must immediately crash the schedule'
+      ],
+      correct: 1,
+      explanation: 'Activity A has Total Float = LS - ES = 5 - 0 = 5 days (or LF - EF = 15 - 10 = 5). A 2-day slip (12 vs 10) is within the 5-day float, so it does not impact the project end date. No change request is required; just communicate the status. This is a common exam pattern: not every variance requires a baseline change.',
+      reference: 'Section 9.1 - Critical Path, Float, and Control Schedule'
+    },
+    {
+      text: 'Your development team created 50 defects this phase. Testing found 40 of them (80% found) before handing off to UAT. UAT found 8 more, and 2 escaped to production. What is the phase containment rate?',
+      options: [
+        '80% (defects found / total created)',
+        '94% (defects found before hand-off / defects created)',
+        '60% (escapes / hand-offs)',
+        '75% (total found before production / total created)'
+      ],
+      correct: 0,
+      explanation: 'Phase containment rate = Defects found in the current phase / Total defects created in that phase = 40/50 = 80%. This metric measures how effectively the phase catches its own defects before they propagate. A rising trend in escape rate (low containment) is a quality signal to escalate.',
+      reference: 'Section 9.1 - Quality Metrics During Monitoring'
+    },
+    {
+      text: 'At project closure, the sponsor asks, "How will we know if we achieved the 20% cost reduction benefit promised in the Business Case?" What should you do?',
+      options: [
+        'Promise to track benefits for the next 12 months as part of the PM role',
+        'Assign measurement responsibility to the Operations owner, define the KPI and timeline, and document it as part of the handoff package',
+        'Defer all benefits tracking to a separate post-project program',
+        'Decline, because benefits measurement is outside the PM scope'
+      ],
+      correct: 1,
+      explanation: 'Benefits Realization Management during closure means transferring ownership. You define who will measure (Ops owner), what metric proves the benefit (cost per transaction), when it will be measured (monthly for 12 months post-go-live), and how (finance system). The PM hands it off; the organization tracks it post-closure.',
+      reference: 'Section 9.2 - Benefits Realization Management'
+    },
+    {
+      text: 'A critical path activity is 10 days behind schedule. The sponsor will not accept a deadline extension. You can either (A) add 3 developers for $50K to finish in 7 days, or (B) start testing while development wraps up for a 3-day saving. Which approach should you recommend FIRST?',
+      options: [
+        'Crashing (Option A) because it minimizes quality risk',
+        'Fast-tracking (Option B) because it is cheaper',
+        'Analyze both options and recommend based on your risk tolerance, available budget, and quality requirements',
+        'Escalate to the sponsor because you cannot recover 10 days'
+      ],
+      correct: 2,
+      explanation: 'Crashing (adding resources) trades cost for time with low quality risk. Fast-tracking (overlapping work) trades cost and time for quality/rework risk. The right answer depends on: (1) Do you have $50K available? (2) Can you tolerate rework risk? (3) Are there other constraints? On the exam, the best answer often involves analyzing impacts and recommending based on the specific scenario.',
+      reference: 'Section 9.1 - Schedule Compression: Crashing vs Fast-Tracking'
     }
   ]"
 />

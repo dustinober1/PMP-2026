@@ -167,8 +167,43 @@ Common analysis tools (often appear as answer choices):
 ::: info 🧪 Control Charts (Quality Control)
 - **Control limits** (UCL/LCL) show whether a process is statistically stable.
 - A process can be **in control but out of spec** (customer limits ≠ control limits).
-- “Out of control” signals include points outside limits or non-random patterns (e.g., a sustained run on one side of the mean).
+- "Out of control" signals include points outside limits or non-random patterns (e.g., a sustained run on one side of the mean).
 :::
+
+#### 🧠 Quality Metrics During Monitoring
+
+**Common Quality Metrics to Monitor:**
+
+| Metric | What it measures | Why it matters | Action if bad |
+|---|---|---|---|
+| **Defect escape rate** | % defects that escape to production/UAT | quality signal; rework cost | RCA; improve review process |
+| **Rework rate** | % effort spent fixing defects vs new work | productivity impact; schedule risk | identify root causes; adjust estimates |
+| **Defect density** | defects per 1000 lines of code (KLOC) | code quality signal | compare to baseline; escalate if rising |
+| **Test coverage %** | % of code/features tested | quality visibility | increase coverage for high-risk areas |
+| **Mean time to resolution (MTTR)** | avg time from defect found to closed | development efficiency | identify blockers; staffing needs |
+| **Phase containment rate** | % defects found/fixed in the phase they're created | process effectiveness | earlier phases should catch more |
+
+**Control Chart Interpretation:**
+- **Point outside control limits** → Process is out of control (special-cause variation; investigate immediately)
+- **Run of 7+ points on one side of mean** → Process drifting; investigate
+- **Trends or cycles** → Systematic change; not random variation
+- **Points within control limits** → Process is stable (predictable)
+
+**BUT: Stable doesn't mean capable.** A process can be in statistical control while consistently producing defects outside customer spec. You need both **stability** (control chart) and **capability** (Cpk, Pp metrics) for true quality.
+
+#### 🧠 Defect Escape Scenario
+
+**Scenario**:
+- Phase 1 (Dev): 20 defects created
+- Phase 1 testing: Find 15, escape 5 to Phase 2
+- Phase 2 testing: Find 4, escape 1 to UAT
+- UAT: Find 1 (total escaped = 1)
+
+**Phase Containment Rate** (Phase 1): 15/20 = 75% (good target: 85%+)
+
+**Defect Escape Rate** (Phase 1 → later): 5/20 = 25% (escalating signal)
+
+**Action**: If escape rate is rising trend (25% → 35% → 45%), escalate and implement preventive action (peer review process, definition of done clarity, automated testing).
 
 ---
 
@@ -178,8 +213,26 @@ Many exam questions hide the real issue in schedule logic. Before you “fix the
 
 - **Critical path**: the longest path through the network; activities on it typically have **zero total float**.
 - **Float (slack)**: allowable delay without delaying the project end date (or the next dependent activity).
+- **Total Float**: How much an activity can slip without delaying the project end date.
+- **Free Float**: How much an activity can slip without delaying the next dependent activity (more restrictive for successor tasks).
 - **If the slipped activity has float**: you may not need a baseline change; you may need replanning/resequencing and communication.
 - **If the slipped activity is on the critical path**: you need a recovery decision (scope trade-off, schedule compression, or a baseline change via CR).
+
+#### 🧠 Worked Example: Float & Critical Path Analysis
+
+**Scenario**:
+- Forward pass (ES → EF): Activity A ends at day 10, Activity B (dependent) ends at day 15
+- Backward pass (LS → LF): Activity A must start by day 5 (LF = day 10 to meet day 15 deadline)
+- Activity A: ES = 0, EF = 10, LS = 5, LF = 10 → **Total Float = 5 days** (can slip from day 0 to day 5 start without impacting project end date)
+
+**Applied to Monitoring**:
+- If Activity A slips by 2 days, you still have 3 days of buffer → no change request needed (just communicate)
+- If Activity A slips by 6 days, you exceed the float → cascade to Activity B and potentially the project end date → **change request/baseline change likely**
+
+**For Critical Path Activities** (Total Float = 0):
+- Any slip = project delay
+- Monitor relentlessly; even small variances require mitigation
+- Use float trending as an early warning indicator
 
 ### Schedule Compression (Know the Two Levers)
 
@@ -188,15 +241,39 @@ Many exam questions hide the real issue in schedule logic. Before you “fix the
 | **Crashing** | add resources/cost to shorten duration | increases cost; may increase coordination risk |
 | **Fast tracking** | overlap activities previously sequential | increases rework/defect risk; adds uncertainty |
 
+#### 🧠 Worked Example: Crashing vs Fast-Tracking
+
+**Scenario**: A critical path activity is 10 days and is slipping. Original plan: $50K, 10 days. Sponsor cannot move deadline.
+
+**Option A: Crash (Add Resources/Cost)**
+- Add an extra developer for $30K
+- Reduces duration from 10 → 7 days
+- Total cost impact: +$30K
+- Rework risk: low (same people, parallel work on same task)
+- Best when: cost is available and you want to minimize quality risk
+
+**Option B: Fast-Track (Overlap Activities)**
+- Start testing while development wraps up (normally sequential)
+- Reduces total path by 3 days (dev 7 days + test 4 days in parallel vs 10 + 4 sequential)
+- Cost impact: minimal (maybe +$10K for QA to prep early)
+- Rework risk: high (defects found in parallel work must be reworked)
+- Best when: cost is constrained and you can accept quality risk
+
+**Decision on the Exam**: Crashing is preferred when money is available; fast-tracking is preferred when money is tight. Both require monitoring because they increase risk.
+
+::: warning ⚠️ Critical Path Dependency
+Only compressing critical path activities reduces project duration. If a slipped activity has **float/slack**, you may not need compression—you may just need **replanning/resequencing**.
+:::
+
 ::: tip 💡 Exam Pattern
-If the question says “What should the PM do FIRST?” the safest first step is usually: **analyze the variance + confirm critical path impact** before choosing crash/fast-track or requesting more time.
+If the question says "What should the PM do FIRST?" the safest first step is usually: **analyze the variance + confirm critical path impact** before choosing crash/fast-track or requesting more time.
 :::
 
 ---
 
 ## Issues vs Risks vs Change Requests (Stop Mixing These Up)
 
-Exam questions often test whether you can choose the right “container” for the problem.
+Exam questions often test whether you can choose the right "container" for the problem.
 
 | Item | Time horizon | Where you track it | What you do next |
 |---|---|---|---|
@@ -205,6 +282,53 @@ Exam questions often test whether you can choose the right “container” for t
 | **Change request** | decision needed | **Change log / change control system** | analyze impacts, route to change authority/CCB, update baselines if approved |
 
 Key relationship: a **risk becomes an issue** when it occurs; issues and variances often **generate change requests** when the baseline must be updated.
+
+#### 🧠 Decision Tree: Where Do I Log This?
+
+```
+Is the problem HAPPENING RIGHT NOW?
+├─ YES → ISSUE LOG
+│  └─ Example: Test environment is down today
+│  └─ Example: Key developer called in sick
+│  └─ Example: UAT data is corrupted
+│
+└─ NO, it MIGHT happen later → Continue…
+   └─ Is it a known risk we identified in the Risk Register?
+      ├─ YES → Monitor RISK REGISTER (check triggers, execute response)
+      │  └─ Example: Vendor delays > 6 weeks
+      │  └─ Example: Technical integration risk with legacy system
+      │
+      └─ NO, it's a NEW risk → Add to RISK REGISTER
+         └─ Example: New regulatory requirement discovered
+         └─ Example: Team attrition risk (wasn't planned for)
+
+AFTER you address the issue/risk, does it require changing scope/schedule/cost/contracts?
+├─ YES → Submit CHANGE REQUEST
+│  └─ If approved: update baselines (scope/schedule/cost)
+│  └─ If rejected/deferred: log decision and communicate
+│
+└─ NO → Close issue/update risk register and communicate
+```
+
+#### 🧯 Real-World Scenarios
+
+**Scenario 1**: "UAT failed because acceptance criteria were missing"
+- Current status: UAT is blocked RIGHT NOW
+- Log: **Issue log** (and escalate to get criteria defined)
+- Follow-up: May become a **change request** if rework changes schedule/cost
+- May prevent in future: Add **preventive action** (always document acceptance criteria before dev starts)
+
+**Scenario 2**: "Vendor might delay shipment if lead times extend beyond 6 weeks"
+- Current status: Not happening yet; we identified this risk
+- Log: **Risk register** (with trigger, response plan, owner)
+- Monitor: Watch for the trigger (supplier ETA becomes 6+ weeks)
+- If triggered: Execute response (e.g., pre-order, find alternate supplier) and possibly log an **issue** or **change request**
+
+**Scenario 3**: "Customer suddenly wants dark mode added"
+- Current status: Request just came in (happening now)
+- Log: **Change request** (not an issue, not a risk; it's a change decision)
+- Process: Analyze impacts → route to CCB/product governance → decide approve/reject/defer
+- If approved: Update backlog/schedule baseline
 
 ### 🧯 Risk Monitoring Essentials (Triggers, Residual, Secondary)
 
