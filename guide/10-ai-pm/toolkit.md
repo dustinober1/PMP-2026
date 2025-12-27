@@ -180,3 +180,267 @@ For high-stakes AI decisions, maintain a record (useful for audits):
 - If compliance is required: **Prefer explainable/auditable approaches** and document decisions.
 - If team resists AI: **Use emotional intelligence; address fears; show low-risk pilots** before large rollouts.
 
+---
+
+## 📚 Expanded Prompt Library (Copy/Paste Ready)
+
+Use these prompts across all process groups. Customize the `[PLACEHOLDERS]` for your context.
+
+### Initiation Prompts
+
+**Business Case Outline:**
+```text
+Role: Act as a PMP-certified PM with business analysis experience.
+Task: Create a Business Case outline for [PROJECT TYPE] project.
+Include: Problem statement, proposed solution, benefits (quantified), costs (estimate range), risks, success criteria, go/no-go recommendation.
+Constraints: Do not invent financial figures; use [BUDGET RANGE] as placeholder. Flag assumptions.
+```
+
+**Stakeholder Identification:**
+```text
+Role: Act as a stakeholder management expert.
+Task: Based on this project description, identify potential stakeholders.
+For each: Name the role (not person), their interest, influence level (L/M/H), and engagement strategy.
+Input: [PASTE PROJECT DESCRIPTION]
+Constraints: Organize by internal vs external. Flag any gaps in the org structure you notice.
+```
+
+### Planning Prompts
+
+**WBS Generation:**
+```text
+Role: Act as a senior project planner.
+Task: Create a 3-level WBS for this scope statement.
+Format: Outline with numbering (1.0, 1.1, 1.1.1).
+Include: Work packages at level 3 with brief descriptions.
+Constraints: Flag any scope areas that seem ambiguous or incomplete.
+Input: [PASTE SCOPE STATEMENT]
+```
+
+**Risk Brainstorm (Pre-Mortem):**
+```text
+Role: Act as a risk management consultant.
+Task: Imagine this project has failed spectacularly. What went wrong?
+Generate 15 risk statements using: "Because [cause], [event] may occur, resulting in [impact]."
+Separate into: 10 threats, 5 opportunities.
+Input: [PASTE PROJECT SUMMARY]
+```
+
+**Communication Plan Draft:**
+```text
+Role: Act as a communications specialist.
+Task: Draft a communication plan for this project.
+Include: Stakeholder group, information need, frequency, channel, owner.
+Format: Table with 5 columns.
+Input: [PASTE STAKEHOLDER LIST]
+```
+
+### Execution Prompts
+
+**Meeting Minutes:**
+```text
+Role: Act as a project coordinator.
+Task: Convert this meeting transcript into structured minutes.
+Include: Attendees, decisions made, action items (owner + due date), risks/issues raised, parking lot items.
+Constraints: If owner or date is unclear, mark as "TBD - Confirm with [role]".
+Input: [PASTE TRANSCRIPT]
+```
+
+**Status Report (Executive):**
+```text
+Role: Act as a PMO reporting specialist.
+Task: Draft a 1-page executive status report from these inputs.
+Include: Overall RAG status, key accomplishments, upcoming milestones, top 3 risks, decisions needed.
+Format: Bullet points with bolded headers.
+Constraints: Keep to 10 bullets max. Explain any RED or YELLOW items.
+Inputs: SV=[VALUE], CV=[VALUE], Milestones=[PASTE], Issues=[PASTE]
+```
+
+**Stakeholder Update Email:**
+```text
+Role: Act as a project manager with excellent stakeholder communication skills.
+Task: Draft an email update for [STAKEHOLDER ROLE] summarizing project progress.
+Tone: Professional, confident, transparent about challenges.
+Include: Progress summary, key risks, what you need from them, next touchpoint.
+Constraints: Keep under 200 words. Do not use jargon.
+```
+
+### Monitoring & Controlling Prompts
+
+**Variance Analysis:**
+```text
+Role: Act as an EVM analyst.
+Task: Analyze these project metrics and explain the variances.
+Metrics: PV=[VALUE], EV=[VALUE], AC=[VALUE], BAC=[VALUE]
+Calculate: SV, CV, SPI, CPI, EAC (using current performance), TCPI.
+Explain: What do these numbers mean? What action should the PM take?
+```
+
+**Root Cause Analysis:**
+```text
+Role: Act as a quality management consultant.
+Task: Perform a root cause analysis for this problem using the 5 Whys technique.
+Problem: [DESCRIBE ISSUE]
+Show: Each "Why" question and answer. Identify the root cause. Propose corrective action.
+```
+
+### Closing Prompts
+
+**Lessons Learned Clustering:**
+```text
+Role: Act as a knowledge management specialist.
+Task: Cluster these retrospective comments into 5 key themes.
+For each theme: Summarize the insight, categorize as "Do Again" / "Avoid" / "Improve", and propose one action.
+Input: [PASTE RETRO NOTES]
+```
+
+**Final Report Draft:**
+```text
+Role: Act as a project closure specialist.
+Task: Draft an executive summary for the project final report.
+Include: Original objectives vs. actual outcomes, key successes, lessons learned (top 3), recommendations for future projects.
+Input: [PASTE PROJECT SUMMARY AND OUTCOMES]
+```
+
+---
+
+## 💰 AI ROI Calculator
+
+Use this formula to estimate whether AI is worth the investment for a given task.
+
+### The Formula
+
+```
+Net AI Value = (Time Saved per Use × Uses per Month × Hourly Cost) - (AI Tool Cost + HITL Review Time × Hourly Cost)
+```
+
+### Worked Example
+
+| Variable | Value | Notes |
+|---|---|---|
+| Time saved per use | 1.5 hours | Drafting status report: 2 hours → 30 min |
+| Uses per month | 8 | Weekly reports × 2 projects |
+| Hourly cost (loaded) | $75 | Salary + benefits / 2,080 hours |
+| AI tool cost (monthly) | $50 | Enterprise subscription share |
+| HITL review time per use | 15 min | Quick review and edit |
+| HITL reviews per month | 8 | Same as uses |
+
+**Calculation:**
+```
+Gross savings = 1.5 hours × 8 uses × $75 = $900/month
+HITL overhead = 0.25 hours × 8 uses × $75 = $150/month
+Tool cost = $50/month
+Net AI Value = $900 - $150 - $50 = $700/month saved
+Annual ROI = $8,400 saved
+```
+
+### Quick Decision Table
+
+| Net AI Value | Decision |
+|---|---|
+| > $500/month | Strong ROI; scale usage |
+| $100-500/month | Positive ROI; continue and monitor |
+| $0-100/month | Marginal; evaluate if worth complexity |
+| < $0/month | Negative ROI; reconsider or optimize |
+
+---
+
+## 📊 Tool Comparison Matrix (Enterprise AI Features)
+
+Use this framework when evaluating AI tools for your organization.
+
+| Feature | Must Have | Nice to Have | Questions to Ask |
+|---|---|---|---|
+| **Zero Data Retention** | ✅ | | "Is our data used for training? Can we opt out contractually?" |
+| **SOC2 / ISO27001** | ✅ | | "Provide compliance certifications." |
+| **SSO/SAML** | ✅ | | "Integrate with our identity provider?" |
+| **Audit Logging** | ✅ | | "Can we export logs? How long retained?" |
+| **Role-Based Access** | ✅ | | "Can we restrict who uses which features?" |
+| **API Access** | | ✅ | "Programmatic access for automation?" |
+| **Custom Prompts/Templates** | | ✅ | "Can we save and share prompts organization-wide?" |
+| **Data Residency Options** | ✅ (regulated) | | "Where is data processed? EU-only option?" |
+| **Explainability Features** | ✅ (regulated) | | "Can we see why the AI gave this answer?" |
+| **SLA/Uptime Guarantee** | | ✅ | "What's the SLA? Incident response process?" |
+| **Integration (Jira, Confluence, etc.)** | | ✅ | "Native integrations vs. copy/paste?" |
+
+---
+
+## 🚨 Escalation Decision Tree
+
+When to escalate AI issues beyond the project team.
+
+```
+┌─ Is there a data exposure (confidential data in unapproved tool)?
+│  └─ YES → ESCALATE IMMEDIATELY to IT/Security. Contain. Document.
+│
+├─ Is there a bias/fairness concern affecting people decisions?
+│  └─ YES → ESCALATE to HR/Legal. Pause AI use. Investigate.
+│
+├─ Is the AI tool down during critical project phase?
+│  └─ YES → Activate manual fallback. Escalate to vendor (per SLA). Inform sponsor.
+│
+├─ Did AI generate output that caused stakeholder harm (wrong info shared externally)?
+│  └─ YES → ESCALATE to sponsor/PMO. Correct with stakeholders. Update governance.
+│
+├─ Is team resistance blocking adoption despite training?
+│  └─ YES → Escalate to sponsor for executive messaging. Provide additional support.
+│
+└─ Routine issues (prompts not working, minor errors)?
+   └─ Handle at team level. Log lessons. Update templates. No escalation needed.
+```
+
+---
+
+## 🎯 AI Maturity Assessment (Self-Evaluation Checklist)
+
+Use this to assess your team's readiness for AI adoption.
+
+### Level 1: Awareness (Score: 0-2 per item)
+
+- [ ] Team understands what AI can and cannot do (0=No, 1=Some, 2=All)
+- [ ] Team knows the difference between GenAI, Predictive AI, and Automation
+- [ ] Team is aware of hallucination and bias risks
+- [ ] Leadership has communicated AI strategy
+- [ ] Data classification policy exists and is known
+
+**Level 1 Score: ___ / 10** (Pass = 6+)
+
+### Level 2: Experimentation (Score: 0-2 per item)
+
+- [ ] Approved AI tools are available and accessible
+- [ ] Team has run at least one AI pilot successfully
+- [ ] Prompt templates exist for common tasks
+- [ ] HITL review process is defined and followed
+- [ ] Data redaction checklist is used consistently
+
+**Level 2 Score: ___ / 10** (Pass = 6+)
+
+### Level 3: Optimization (Score: 0-2 per item)
+
+- [ ] AI usage is tracked (hours saved, tasks automated)
+- [ ] ROI is measured and positive
+- [ ] AI Working Agreement is documented and updated
+- [ ] Team shares successful prompts and lessons learned
+- [ ] Governance includes regular bias/quality audits
+
+**Level 3 Score: ___ / 10** (Pass = 6+)
+
+### Level 4: Transformation (Score: 0-2 per item)
+
+- [ ] AI is integrated into standard workflows (not "extra step")
+- [ ] Team proactively identifies new AI use cases
+- [ ] Cross-functional AI governance is in place
+- [ ] Organization shares AI best practices across projects
+- [ ] Continuous improvement loop for AI tooling exists
+
+**Level 4 Score: ___ / 10** (Pass = 6+)
+
+### Interpretation
+
+| Total Score | Maturity Level | Recommended Action |
+|---|---|---|
+| 0-10 | Awareness | Focus on education; don't force adoption |
+| 11-20 | Experimentation | Run controlled pilots; build confidence |
+| 21-30 | Optimization | Scale best practices; measure ROI |
+| 31-40 | Transformation | Lead organizational AI initiatives |
+
