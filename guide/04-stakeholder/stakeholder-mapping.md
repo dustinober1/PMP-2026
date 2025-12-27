@@ -32,12 +32,44 @@ This is the most critical tool for the PMP exam. It helps you categorize stakeho
 
 ---
 
+## ✅ How to Place Stakeholders (Fast and Defensible)
+On the PMP exam, “power” is not just job title—it is the ability to **influence decisions, resources, or acceptance**.
+
+**Power signals**
+- Controls budget, approvals, or sign-off authority
+- Can reassign people or change priorities
+- Has the sponsor’s ear (informal influence)
+- Can create delays through governance or compliance gates
+
+**Interest signals**
+- The project changes their KPIs, workflow, or reputation
+- They have direct benefit or direct downside risk
+- They are accountable for outcomes the project impacts
+
+::: tip 🔎 Quick Calibration
+If they can **stop** the project, treat them as **High Power**. If the project changes their day-to-day work or metrics, treat them as **High Interest**.
+:::
+
+**Re-map when**
+- Sponsor/leadership changes, major scope change, re-orgs, vendor changes, regulatory scrutiny, or public/customer impact increases.
+
 ## 🎯 The Salience Model
 For complex projects with large ecosystems, simple grids aren't enough. The **Salience Model** analyzes three overlapping attributes:
 
 1.  **Power**: Their level of formal or informal authority.
 2.  **Legitimacy**: Their legal or moral right to influence the outcome.
 3.  **Urgency**: How quickly they require your attention.
+
+### Salience “types” (what PMP scenarios often imply)
+| Type | Attributes | Practical meaning |
+| :--- | :--- | :--- |
+| **Dormant** | Power | Low engagement now, but can become decisive quickly. |
+| **Discretionary** | Legitimacy | Ethical/values stakeholders; keep informed and respectful. |
+| **Demanding** | Urgency | Loud but not necessarily influential; manage expectations. |
+| **Dominant** | Power + Legitimacy | Core governance stakeholders; keep satisfied/manage closely. |
+| **Dangerous** | Power + Urgency | High-risk blockers; engage carefully and use objective criteria. |
+| **Dependent** | Legitimacy + Urgency | They need an advocate; pair with sponsor/governance support. |
+| **Definitive** | Power + Legitimacy + Urgency | Top priority—highest attention and fastest response. |
 
 ::: tip 💡 2026 Shift: The Community Stakeholder
 In 2026, **Legitimacy** and **Urgency** are rising in importance. A community group may have low formal power but high legitimacy regarding environmental impact. Ignoring them is a major strategic risk.
@@ -50,6 +82,10 @@ The Cube adds a critical third dimension: **Attitude**.
 - **The Supporter**: Empower them to champion the project.
 - **The Neutral**: Move them toward support by showing project value.
 - **The Resistant**: Listen to their concerns to mitigate potential sabotage.
+
+::: info 🧠 Using the Cube on the Exam
+If a stakeholder is **High Power** and **Resistant**, the best answers usually involve **direct engagement**, **root-cause discovery**, and an **updated engagement plan** (not avoidance or bypassing).
+:::
 
 <style>
 .mapping-grid {

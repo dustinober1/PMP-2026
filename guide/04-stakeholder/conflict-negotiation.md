@@ -28,6 +28,32 @@ Also known as "Principled Negotiation," this approach focuses on a win-win outco
 
 ---
 
+## ⚡ Conflict Management (Tools PMP Loves)
+Conflict is normal. The exam tests whether you choose a response that preserves **relationships** while resolving the **root cause**.
+
+### The First Line of Defense: Ground Rules
+Before conflict starts, you prevent it with **Ground Rules** (part of the **Team Charter**).
+*   "We attack problems, not people."
+*   "We respect time zones."
+*   "We decide by consensus."
+
+::: tip 🧠 Exam Insight
+If a question asks how to *prevent* conflict or what you should have done *before* a dispute arose, the answer is almost always **Establish Ground Rules** or **Review the Team Charter**.
+:::
+
+### The five conflict resolution techniques (memorize)
+| Technique | What it looks like | When it’s best (Exam Scenarios) |
+| :--- | :--- | :--- |
+| **Collaborate / Problem Solve** | "Let's sit down and find a solution that meets both our needs." | **Strategic alignment**: When both parties' views are too important to compromise. Long-term relationships. |
+| **Compromise / Reconcile** | "We will do it your way this time, but my way next time." | **Deadlocks**: When two parties of equal power are stuck. Temporary fixes or time-boxed decisions. |
+| **Smooth / Accommodate** | "I value our relationship more than this issue. We'll do it your way." | **Harmony**: When you are wrong, or the issue matters more to the other party than to you. |
+| **Force / Direct** | "Do it this way because I said so." | **Emergencies**: Health/Safety risks, compliance violations, or immediate "stop the bleeding" moments. |
+| **Withdraw / Avoid** | "Let's discuss this tomorrow when we have more data." | **Cooling off**: When emotions are too high, or you need more information to have a productive discussion. |
+
+::: tip 🧠 Exam Pattern
+Default to **Collaborate** unless the scenario clearly signals **emergency/safety/compliance** (Force), or **high emotion/lack of data** (Withdraw).
+:::
+
 ## 🏛️ Decision-Making Models
 As a facilitator, you must guide the group toward a decision method that fits the urgency and complexity of the problem.
 
@@ -49,6 +75,16 @@ For virtual teams, use **Low-Friction Voting Tools**:
 ## 🧭 The PM's BATNA
 Before entering any negotiation, you must know your **BATNA** (Best Alternative to a Negotiated Agreement).
 - **Why?**: It gives you the "power of the walk-away." If a vendor's offer is worse than your BATNA, you cannot accept it.
+
+---
+
+## 📑 Dispute Resolution Ladder (Vendor/Contract Scenarios)
+Most PMP-style questions assume you start with the **lowest-friction** option first:
+1. **Direct negotiation** (PM ↔ vendor) using the contract terms and objective criteria
+2. **Escalation** (vendor manager ↔ sponsor/procurement) if authority is required
+3. **Mediation** (neutral facilitator) to restore collaboration
+4. **Arbitration** (binding third-party decision)
+5. **Litigation** (last resort)
 
 <style>
 .neg-grid {

@@ -35,10 +35,52 @@ Resistance is usually a symptom of unmanaged fear or a loss of control.
 | **Sponsor Support**     | Use the Sponsor for "high-level" political alignment if a peer is blocking progress. |
 
 ::: info 🛠️ 2026 Shift: Continuous Validation
-Forget the "one-time" sign-off. Modern engagement uses **Demos** and **Reviews** as continuous validity checks. If a stakeholder's needs haven't been met, you find out in two weeks, not two months.
+Forget the "one-time" sign-off. Modern engagement uses **Demos** and **Reviews** as continuous validity checks. If a stakeholder's engagement slips, you find out in two weeks, not two months.
 :::
 
 ---
+
+## 🔄 Agile vs. Predictive Engagement
+The exam will test your ability to adapt engagement based on the project life cycle.
+
+| Feature | Predictive (Waterfall) | Adaptive (Agile) |
+| :--- | :--- | :--- |
+| **Timing** | Heavy upfront (planning) + Milestones | Continuous (daily/biweekly) |
+| **Key Event** | Monthly Status Report | Sprint Review / Demo |
+| **Feedback** | Formal Change Request | Direct feedback on working software |
+| **Relationships** | PM is the "Hub" managing all comms | Team speaks directly to Business Owners |
+
+::: tip 🧠 Agile Mindset
+In Agile, **Stakeholders are Participants**, not just observers. Invite them to the Daily Standup (as listeners) and the Sprint Review (as active feedback givers).
+:::
+
+---
+
+## 📊 From Analysis to Action (Engagement Plan)
+Stakeholder analysis tells you **who matters**. Engagement planning tells you **what you will do** to earn and maintain support.
+
+### Engagement assessment (Current vs Desired)
+This is the fastest way to spot where projects fail: the project needs someone to be *Supportive*, but they are currently *Resistant*.
+
+| Stakeholder | Current | Desired | Your action |
+| :--- | :--- | :--- | :--- |
+| Compliance lead | Neutral | Supportive | Invite early review; clarify non-negotiables; agree on cadence |
+| Dept head | Resistant | Neutral | 1:1 listening; clarify WIIFM; reduce perceived loss of control |
+| Power user | Supportive | Leading | Empower as champion; include in demos/UAT; amplify feedback |
+
+### Signs engagement is slipping (leading indicators)
+- Stakeholders stop attending demos/reviews, response times increase, decisions stall, rumors escalate, or “side conversations” replace formal governance.
+
+::: warning ⚠️ The Risk Connection
+A **Resistant** stakeholder is a **Risk**. If you identify a high-power resistor, you must:
+1.  Update the **Stakeholder Register** (to reflect the attitude).
+2.  Update the **Risk Register** (to track the threat to project objectives).
+3.  Update the **Issue Log** (if they are actively blocking progress).
+:::
+
+::: tip 🧠 Exam Pattern
+When a stakeholder is unhappy, the best answers usually involve **direct engagement + plan updates** (Stakeholder Register, Engagement Plan, Communications Plan) before escalation.
+:::
 
 ## 📊 Managing Expectations
 Expectation management is the #1 job of a PM. 

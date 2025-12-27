@@ -13,6 +13,20 @@ This document is created during Initiation and must be updated **continuously** 
 | **Assessment**     | Primary Requirements, Expectations, and Potential Influence.          |
 | **Classification** | Internal/External, Power/Interest levels, and Direction of Influence. |
 
+### What “good” looks like (PMP-ready detail)
+Beyond “who they are,” strong registers capture what you need to **make decisions and prevent surprises**:
+- **Decision authority**: What can they approve/reject? What is the escalation path?
+- **Acceptance influence**: Whose opinion defines “done” or “usable”?
+- **Engagement level**: Current vs desired (and why there is a gap).
+- **Communication needs**: Channel, cadence, format, language/time zone, accessibility needs.
+- **Primary success criteria**: What outcome matters to them (and what they fear losing).
+- **Risks/issues sensitivity**: Topics that trigger urgency (budget, compliance, reputation, safety).
+
+#### Lightweight register template (copy/paste friendly)
+| Stakeholder | Role / Org | Power/Interest | Current → Desired | Key needs & concerns | Preferred comms | Engagement strategy |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Sponsor | Exec | High/High | Supportive → Leading | ROI, timeline risk | Monthly 1:1 | Options + recommendation |
+
 ::: warning 🔒 Data Privacy & Ethics
 The Stakeholder Register often containing sensitive "political" analysis. In the 2026 PMP exam, you must treat this as a **confidential** document. Unauthorized access can damage trust and sabotage engagement.
 :::
@@ -55,6 +69,25 @@ This tool identifies the "Engagement Gap"—where a stakeholder is versus where 
 *   **Neutral**: Neither supportive nor opposed.
 *   **Supportive**: Helpful and supportive of the project's goals.
 *   **Leading**: Actively ensuring the project delivers value.
+
+### Closing the engagement gap (practical actions)
+| Current state | What it usually means | Best first moves |
+| :--- | :--- | :--- |
+| **Unaware** | No context; surprises likely | Build awareness with targeted messaging and a clear “why now” |
+| **Resistant** | Fear, loss, or mistrust | 1:1 listening, clarify WIIFM, involve early, use sponsor strategically |
+| **Neutral** | Competing priorities | Show value, clarify impact, reduce friction to participate |
+| **Supportive** | Wants you to succeed | Invite feedback, make them visible advocates, keep them informed |
+| **Leading** | Driving success with you | Empower decision-making, co-create outcomes, protect their time |
+
+---
+
+## Stakeholder Engagement Plan vs Communications Plan
+These are related but not the same:
+
+| Plan | Focus | Typical contents |
+| :--- | :--- | :--- |
+| **Stakeholder Engagement Plan** | Behavior + buy-in | Engagement gaps, tactics, ownership, measurement, escalation |
+| **Communications Management Plan** | Information flow | What/when/how, audience, channels, cadence, feedback loops |
 
 <style>
 .dir-grid {

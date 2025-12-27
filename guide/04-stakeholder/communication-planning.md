@@ -27,6 +27,43 @@ Choosing the wrong method leads to "Noise"—confusion, missed deadlines, and lo
 
 ---
 
+## 📡 The Sender-Receiver Model
+The PMP exam views communication as a technical process. Breakdowns happen when "Noise" disrupts this loop.
+
+1.  **Encode**: The Sender translates a thought into language/symbols.
+2.  **Transmit**: The message travels via a medium (email, voice).
+3.  **Decode**: The Receiver interprets the message based on *their* experience.
+4.  **Acknowledge**: Receiver signals receipt (does *not* imply agreement).
+5.  **Feedback**: Receiver responds, closing the loop.
+
+::: warning ⚠️ The "Noise" Factor
+**Noise** is anything that distorts the message: language barriers, cultural differences, technical jargon, or even a bad internet connection. As a PM, your job is to **Minimize Noise**.
+:::
+
+## 🌍 Global & Cross-Cultural Communication
+In 2026, teams are global. You must adjust your style based on **Cultural Context** (Hall’s Model).
+
+| Style | Characteristics | Strategy |
+| :--- | :--- | :--- |
+| **High-Context** (e.g., Japan, Arab world, Latin America) | Meaning is in the *relationship* and *tone*, not just words. "Yes" might mean "I hear you," not "I agree." | Build trust first. Read between the lines. Avoid blunt "No." |
+| **Low-Context** (e.g., USA, Germany, Scandinavia) | Meaning is explicit. "Yes" means "Yes." Speed and clarity are valued over ritual. | Be direct, written, and precise. Don't rely on "implied" agreements. |
+
+---
+
+## 📄 What Goes in the Communications Management Plan (Exam-Ready)
+Think “**who needs what, when, and how**”—plus how you confirm the message landed.
+
+| Audience | Information | Frequency | Format | Channel | Owner |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Sponsor | Status + key risks + decisions needed | Biweekly | 1-page summary | Interactive (30 min) | PM |
+| Team | Priorities, blockers, decisions | Daily | Standup + board | Interactive + Pull | Team/PM |
+| Stakeholders | Progress, impact, upcoming changes | Monthly | Newsletter | Push | PM |
+| Customers/Users | Release notes, training, support | Per release | Guides + demo | Pull + Interactive | Product/Change lead |
+
+::: info 🔁 The Feedback Loop (often tested)
+Communication is not complete when you *send* it—it is complete when the receiver **understands** it. Plans should include feedback channels (Q&A time, confirmation, read receipts, demos, acceptance criteria).
+:::
+
 ## 🧭 The Channels Challenge
 Communication complexity grows exponentially with team size. If $N$ is the number of people, the number of channels is:
 
@@ -37,6 +74,13 @@ Communication complexity grows exponentially with team size. If $N$ is the numbe
 *   **Impact**: On a team of 4, you have 6 channels. Add just 2 people, and you jump to 15 channels. As the PM, you must minimize "Noise" by establishing clear protocols in the Communications Plan.
 
 ---
+
+## 🔇 Reducing “Noise” (Practical Checklist)
+- **Single source of truth**: One place for decisions, plans, and latest status.
+- **Decision logging**: Record decisions + owner + date + rationale.
+- **Right level of detail**: Executives get “options + recommendation”; teams get “tasks + constraints.”
+- **Time-zone equity**: Rotate meeting times; increase async updates when teams are global.
+- **Working agreements**: Response-time norms, meeting etiquette, escalation paths.
 
 ## 📡 Selecting the Technology
 In the 2026 digital era, choosing a tool (Slack vs. Email vs. AI Dashboards) depends on:

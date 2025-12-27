@@ -7,39 +7,41 @@ The PMP exam was refreshed in July 2026. It now places a massive **26% weight** 
 :::
 
 ## Your Learning Path
-- **The Exam Landscape**: Understanding domains, question types, and the "PMI Mindset."
-- **Ways of Working**: Master the spectrum between Predictive, Agile, and Hybrid delivery.
-- **Core Concepts**: The fundamental vocabulary and "Triple Constraint" of the modern era.
-- **Strategic Study**: How to tailor this guide to your specific experience level.
+This chapter is structured in four core sections, each building your foundation:
+
+1. **Understanding the Exam** - Decode the 2026 Examination Content Outline (ECO)
+2. **How To Use This Guide** - Tailor your study path to your background
+3. **Ways of Working** - Master Predictive, Agile, and Hybrid delivery approaches
+4. **Core Concepts** - Master the "Big 6" foundational frameworks (Stakeholders, Triple Constraint, Quality, Risk, Data & AI, Ethics)
 
 <div class="section-grid">
   <div class="section-card">
-    <div class="section-title">1.1 The 2026 Exam</div>
-    <p class="section-description">Breakdown of the 185 questions, scoring domains, and the new interactive case-study format.</p>
+    <div class="section-title">1.1 Understanding the New PMP Exam</div>
+    <p class="section-description">Breakdown of the 185 questions, 2026 domain distribution (People 33%, Process 41%, Business 26%), scoring, and the new interactive case-study format.</p>
     <a href="./understanding-exam" class="section-link">Explore the Exam →</a>
   </div>
-  
+
   <div class="section-card">
-    <div class="section-title">1.2 Study Strategy</div>
-    <p class="section-description">How to use this guide effectively based on whether you are a Predictive veteran or an Agile native.</p>
+    <div class="section-title">1.2 How To Use This Study Guide</div>
+    <p class="section-description">Strategic study paths based on your background: Predictive veteran, Agile native, or Hybrid practitioner. Maximize your study ROI.</p>
     <a href="./using-guide" class="section-link">Plan Your Path →</a>
   </div>
 
   <div class="section-card">
-    <div class="section-title">1.3 Ways of Working</div>
-    <p class="section-description">Selecting the right delivery approach: Predictive, Agile, or Hybrid. When to pivot and why.</p>
+    <div class="section-title">1.3 Ways of Working & Tailoring</div>
+    <p class="section-description">Master the full spectrum: Predictive (plan-driven), Agile (adaptive), and Hybrid approaches. When to pivot, why, and how to tailor based on context.</p>
     <a href="./ways-of-working" class="section-link">Select Approach →</a>
   </div>
 
   <div class="section-card">
-    <div class="section-title">1.4 Core Concepts</div>
-    <p class="section-description">Master the fundamental mental models: The Triple Constraint, Value-Based Delivery, and Ethics.</p>
+    <div class="section-title">1.4 Core Project Management Concepts & Tools</div>
+    <p class="section-description">The "Big 6" mental models that apply to every project: Stakeholders, Triple Constraint, Quality, Risk, Data & AI, and Professional Ethics.</p>
     <a href="./core-concepts" class="section-link">Master Fundamentals →</a>
   </div>
 
   <div class="section-card knowledge-check">
-    <div class="section-title">Knowledge Check</div>
-    <p class="section-description">Test your foundational knowledge with scenario-based practice questions.</p>
+    <div class="section-title">Chapter 1 Knowledge Check</div>
+    <p class="section-description">Test your foundational knowledge with scenario-based practice questions covering the 2026 exam landscape and core concepts.</p>
     <a href="./knowledge-check" class="section-link">Verify Basics →</a>
   </div>
 </div>

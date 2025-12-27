@@ -6,7 +6,7 @@
 
 ## 🧠 The PMP Decision Rule
 Selection questions test whether you can distinguish between:
-- **Desirable work** (interesting, popular, "nice to have")
+- **Desirable work** (interesting, pop
 - **Viable work** (fits capacity, timing, risk appetite)
 - **Mandatory work** (compliance, safety, legal)
 - **Strategic work** (directly supports objectives and measurable value)

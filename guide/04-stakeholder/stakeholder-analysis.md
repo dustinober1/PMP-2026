@@ -4,6 +4,32 @@
 
 ---
 
+## The PMP Mental Model (Continuous Loop)
+Stakeholder analysis is not a one-time kickoff exercise. It is a cycle you repeat whenever the project environment shifts:
+
+1. **Identify** stakeholders (including “shadow” stakeholders with informal power).
+2. **Analyze** power, interest, influence, and attitude (supportive vs resistant).
+3. **Prioritize** where to spend time and political capital.
+4. **Plan** engagement + communications (how you build and maintain support).
+5. **Monitor & Update** as roles, risks, scope, and priorities change.
+
+### Inputs you’ll see in exam scenarios
+- **Project Charter / Business Case**: Why the project exists and who sponsors value.
+- **Org structure & governance**: Who can approve, block, or accelerate decisions.
+- **Requirements / product vision**: Who defines “done” and accepts deliverables.
+- **Agreements / vendors**: External stakeholders with contract leverage.
+- **Regulatory / community constraints**: Legitimacy and urgency can outweigh formal authority.
+
+### Outputs (what you update first)
+- **Stakeholder Register**: The living ledger of stakeholder intelligence.
+- **Engagement Assessment Matrix**: Current vs desired engagement.
+- **Stakeholder Engagement Plan**: Actions to close engagement gaps.
+- **Communications Management Plan**: The “what/when/how” of information flow.
+
+::: tip 🧠 Exam Pattern
+If the scenario says **new stakeholder**, **changed attitude**, **political conflict**, or **unclear decision authority**, the best “first” action is usually to **update the Stakeholder Register** and **reanalyze** before escalating or changing the plan.
+:::
+
 ## The Analysis Journey
 Identifying stakeholders is more than just a list of names; it's about understanding the hidden power dynamics of the organization.
 
