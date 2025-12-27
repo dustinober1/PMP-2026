@@ -90,16 +90,16 @@ Test your mastery of performance metrics, change control, and project closure in
       reference: 'Section 9.1 - EVM Forecasting'
     },
     {
-      text: 'A supplier strike caused a one-time cost spike early in the project. The PM believes the remaining work will follow the original estimates. Which EAC formula is most appropriate?',
+      text: 'A risk trigger has been detected: a key supplier ETA is now 8 weeks (trigger threshold was 6 weeks). What should the PM do FIRST?',
       options: [
-        'EAC = BAC / CPI',
-        'EAC = AC + (BAC - EV)',
-        'EAC = AC + (BAC - EV) / (CPI × SPI)',
-        'EAC = EV - AC'
+        'Wait until the delivery is actually late so you have proof of impact',
+        'Implement the planned risk response and update the risk register (and issue log if it becomes an issue)',
+        'Use management reserve immediately because supplier delays are unknown-unknowns',
+        'Close the risk because the trigger means the risk has already occurred'
       ],
       correct: 1,
-      explanation: 'When variances are considered atypical (not expected to continue), a common approach is EAC = AC + (BAC - EV), assuming future work will be performed at the planned rate.',
-      reference: 'Section 9.1 - EVM Forecasting'
+      explanation: 'A trigger is your cue to execute the agreed risk response plan. Update the risk register and communicate per the plan. If the response requires baseline/contract changes, route that through change control.',
+      reference: 'Section 9.1 - Risk Monitoring Essentials'
     },
     {
       text: 'CPI has declined from 1.05 → 0.98 → 0.92 over three reporting periods. What should the PM do FIRST?',
@@ -270,16 +270,16 @@ Test your mastery of performance metrics, change control, and project closure in
       reference: 'Section 9.1 - Monitor Communications / Stakeholder Engagement'
     },
     {
-      text: 'A critical path activity is trending 10 days late. What should the PM do FIRST?',
+      text: 'You confirm a 10-day delay on a critical path activity will push the project end date. The sponsor insists the deadline cannot move and approves additional budget. What is the BEST corrective option?',
       options: [
-        'Crash the schedule by adding resources immediately',
-        'Fast-track by overlapping work without analyzing risk',
-        'Analyze the variance and root cause, confirm critical path impact, then evaluate corrective options',
-        'Request the sponsor extend the deadline immediately'
+        'Crash the schedule (add resources/cost to shorten duration)',
+        'Fast-track by overlapping sequential activities to save time',
+        'Update the schedule baseline without change control approval',
+        'Reduce quality standards so work completes faster'
       ],
-      correct: 2,
-      explanation: 'The first step is to confirm the impact (critical path/float) and diagnose why the slip is occurring. Then select appropriate corrective actions and use change control if the baseline must change.',
-      reference: 'Section 9.1 - Control Schedule and Root Cause Analysis'
+      correct: 0,
+      explanation: 'Crashing trades cost for time and is typically preferred when additional budget is available. Fast tracking saves time by overlapping work but increases rework/defect risk. Any baseline changes still require formal change control.',
+      reference: 'Section 9.1 - Control Schedule: Critical Path, Float, and Compression'
     },
     {
       text: 'A cumulative flow diagram (CFD) shows work piling up in “Testing,” WIP is increasing, and cycle time is rising. What is the best response?',

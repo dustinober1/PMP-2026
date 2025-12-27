@@ -19,19 +19,19 @@ Monitoring isn't just about watching; it's about **Proactive Adjustment**. It’
 <div class="section-grid">
   <div class="section-card">
     <div class="section-title">9.1 Control & Change</div>
-    <p class="section-description">Tracking progress through data, mastering EVM metrics, and implementing Integrated Change Control.</p>
+    <p class="section-description">Turn data into decisions: EVM, critical path & schedule compression, reserves, and Integrated Change Control.</p>
     <a href="./monitoring-closing" class="section-link">Manage Deviation →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">9.2 Project Closure</div>
-    <p class="section-description">Final handoffs, administrative closure, and the critical capture of lessons for the PPM ecosystem.</p>
+    <p class="section-description">Formal acceptance, transition readiness, procurement closure/claims, and turning project work into reusable OPAs.</p>
     <a href="./project-closure" class="section-link">Harvest Value →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">9.3 Tools & Templates</div>
-    <p class="section-description">Copy/paste status reporting, EVM worksheets, change requests, and closure checklists.</p>
+    <p class="section-description">Copy/paste templates: status reporting, EVM worksheet, variance/issue logs, change requests, decision log, and closure artifacts.</p>
     <a href="./toolkit" class="section-link">Use the Toolkit →</a>
   </div>
 

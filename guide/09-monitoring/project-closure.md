@@ -24,6 +24,23 @@ A project is ready to close when:
 
 ---
 
+## 📦 Key Closure Outputs (What You Produce)
+
+Think of closure as generating a “package of record” for the organization: proof of acceptance, proof of contractual/financial completion, and reusable knowledge.
+
+| Output | Why it matters (exam logic) |
+|---|---|
+| **Formal acceptance/sign-off** | proves deliverables met acceptance criteria (Validate Scope) |
+| **Handoff/transition package** | enables operations to run/support the deliverable (value transfer) |
+| **Procurement closure records** | proves contract obligations and payments are complete; closes claims |
+| **Final report** | documents results vs objectives, variances, and final performance |
+| **Lessons learned register + OPA updates** | transfers reusable knowledge (templates, metrics, decisions, vendor evaluations) |
+| **Archived artifacts (PMIS/OPA library)** | preserves baselines, registers/logs, approvals, and decisions for audit/reuse |
+| **Resource release + recognition** | formally ends assignments and reinforces culture |
+| **Benefits handoff** | assigns who measures benefits after the project is closed |
+
+---
+
 ## 🏁 The Final Protocol (High-Level Checklist)
 
 A project must be closed formally, even if it was terminated early or canceled due to strategic shifts.
@@ -68,8 +85,17 @@ A project must be closed formally, even if it was terminated early or canceled d
 - **Validate Scope** is about accepting completed deliverables (often incremental).
 - **Close Project or Phase** is the administrative process of finalizing *everything* (records, contracts, transition).
 
-If the customer refuses to sign-off:
-1) confirm whether acceptance criteria were met, 2) resolve legitimate defects, 3) if criteria were met, escalate through the agreed governance/contract path.
+### If the Customer Refuses to Sign Off (High-Scoring Exam Response)
+
+1) **Refer to acceptance criteria** (requirements/backlog + definition of done + contract terms).  
+2) **Validate scope** with objective evidence (inspection results, UAT outcomes, traceability).  
+3) If criteria were **not** met: log defects/issues and perform **defect repair**.  
+4) If criteria **were** met: document the refusal and escalate using the agreed **governance/contract** path (claims/dispute process if applicable).  
+5) If the customer wants “extras” not in scope: treat as a **change request**, not as “minor fixes.”  
+
+::: tip 💡 Exam Pattern: “Punch List”
+Minor items can be documented as a punch list/warranty items **only if** acceptance criteria are met and the organization/customer agrees to accept with documented follow-up.
+:::
 
 ---
 

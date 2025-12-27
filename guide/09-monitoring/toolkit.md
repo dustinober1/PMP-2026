@@ -111,6 +111,24 @@ If it is happening **now**, it is usually an **issue** (issue log). If it might 
 
 ---
 
+## ⚠️ Risk Register (Monitoring Template)
+
+| Field | Example |
+|---|---|
+| **Risk ID** | R-013 |
+| **Risk (cause → event → impact)** | If vendor lead times increase → hardware arrives late → schedule slip to go-live |
+| **Probability** | Medium |
+| **Impact** | High |
+| **Response strategy** | mitigate / avoid / transfer / accept |
+| **Response actions** | pre-order critical parts; add alternate supplier |
+| **Owner** | Procurement lead |
+| **Trigger** | supplier ETA > 6 weeks |
+| **Status** | Open / Monitoring / Triggered / Closed |
+| **Residual risk** | remaining delay risk after response |
+| **Secondary risks** | e.g., alternate supplier quality risk |
+
+---
+
 ## 🏗️ Change Request Form (Copy/Paste Template)
 
 | Field | Example |
@@ -134,6 +152,36 @@ If it is happening **now**, it is usually an **issue** (issue log). If it might 
 |---|---|---|---|---|---|
 |  |  |  |  |  |  |
 
+### Change Impact Analysis (Quick Matrix)
+Use this when the exam says “analyze impact” and provides multiple options.
+
+| Dimension | Impact (Low/Med/High) | Notes |
+|---|---|---|
+| Scope |  |  |
+| Schedule |  |  |
+| Cost |  |  |
+| Quality |  |  |
+| Risk |  |  |
+| Benefits/value |  |  |
+| Resources |  |  |
+| Procurements/contracts |  |  |
+
+## 🗳️ Decision Log (Copy/Paste Template)
+
+Use this to keep governance clean: what was decided, by whom, when, and why.
+
+| Field | Example |
+|---|---|
+| **Decision ID** | D-006 |
+| **Decision needed** | Approve CR-014 (audit logging) |
+| **Options considered** | A implement now / B defer / C descope |
+| **Decision** | Defer to next release |
+| **Decision-maker** | Sponsor / CCB / Product governance |
+| **Decision date** | 2026-02-03 |
+| **Rationale** | avoids rework; compliance deadline is next quarter |
+| **Impacts/assumptions** | no baseline change this release |
+| **Actions created** | update roadmap + communicate to Ops |
+
 ---
 
 ## 🧳 Transition / Handoff Checklist
@@ -149,6 +197,12 @@ Use this to prevent “it works, so we are done” thinking.
 - [ ] Residual risks/issues disposition agreed (closed vs handed over)
 - [ ] Benefits ownership assigned (who measures outcomes after closure)
 
+## 📈 Benefits Handoff (Mini Template)
+
+| Benefit | Metric | Target | Owner | When measured | Data source |
+|---|---|---|---|---|---|
+| Reduce support costs | cost per ticket | -20% | Ops director | monthly | finance system |
+
 ---
 
 ## ✅ Close Project or Phase Checklist
@@ -163,6 +217,19 @@ Use this to prevent “it works, so we are done” thinking.
 - [ ] Lessons learned finalized and stored as OPAs
 - [ ] Project artifacts archived (PMIS/OPA library)
 - [ ] Resources formally released (and recognition provided)
+
+## 🧾 Final Report (One-Page Template)
+
+| Section | What to include |
+|---|---|
+| Objectives | what success meant; key KPIs |
+| Outcome | what was delivered + acceptance status |
+| Schedule | baseline vs actual; major variances |
+| Cost | baseline vs actual; EAC/VAC summary |
+| Scope changes | approved CRs and what changed |
+| Quality | defect/rework summary; residual issues |
+| Risks/issues | what remained and how it was disposed |
+| Benefits handoff | owner + measurement cadence |
 
 ---
 

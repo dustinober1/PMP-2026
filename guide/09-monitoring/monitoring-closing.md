@@ -61,10 +61,20 @@ Stakeholders being “surprised” by bad news usually means you collected **dat
 
 ## Baselines, Thresholds, and Reserves (How “Control” Actually Works)
 
-- **Baselines** are the approved versions of **scope, schedule, and cost** used for comparison.
+- **Baselines** are the approved versions of **scope, schedule, and cost** used for comparison (your “truth” for variance).
+  - **Scope baseline**: scope statement + WBS + WBS dictionary (or an approved requirements baseline/backlog in adaptive).
+  - **Schedule baseline**: the approved schedule model (logic, dates, milestones).
+  - **Cost baseline**: the time-phased budget used to measure performance (often shown as an S-curve).
 - **Thresholds** are “trigger points” (e.g., “>10% schedule variance requires sponsor notification”) defined in the PM plan.
-- **Contingency reserve** is for *identified risks* (part of the cost baseline).
-- **Management reserve** is for *unknown-unknowns* (not in the baseline; requires approval to use).
+  - Thresholds enable **management by exception**: you don’t escalate every wobble—only variances beyond agreed limits.
+- **Contingency reserve** is for *identified risks* (typically part of the cost baseline). When a known risk occurs, you execute the risk response and use contingency as planned.
+- **Management reserve** is for *unknown-unknowns* (not in the baseline; typically requires sponsor approval to use and often triggers a change request).
+
+::: warning ⚠️ Common Exam Trap
+“Using a reserve” is not the same as “changing the baseline.”
+- If the plan already included **contingency** for a known risk, using it can be acceptable without re-baselining.
+- If you need **more time/money/scope** than the baselines allow (or you need **management reserve**), you normally go through **change control**.
+:::
 
 ---
 
@@ -89,6 +99,19 @@ EVM is an objective way to answer: **Are we getting the value we planned for the
 | **SV** (Schedule Variance) | `EV - PV` | positive = ahead of schedule |
 | **CPI** (Cost Performance Index) | `EV / AC` | > 1.0 = under budget |
 | **SPI** (Schedule Performance Index) | `EV / PV` | > 1.0 = ahead |
+
+::: info 🔍 CPI/SPI Combo Quick Read (Know the Story)
+| CPI | SPI | What it usually means | Exam-appropriate move |
+|---:|---:|---|---|
+| `< 1` | `< 1` | over budget + behind schedule | analyze root cause, update forecast (EAC), propose recovery options; submit CR if baselines must change |
+| `< 1` | `> 1` | over budget but ahead of schedule | confirm cost drivers (crashing/overtime/vendor rates); decide corrective action; CR if baseline needs change |
+| `> 1` | `< 1` | under budget but behind schedule | validate schedule logic/critical path; remove constraints; CR if finish date must move |
+| `> 1` | `> 1` | under budget + ahead of schedule | confirm data quality; communicate; consider pulling value forward (if governance allows) |
+:::
+
+::: tip 💡 Schedule Nuance (Exam Clarity)
+EVM **SV** and **SPI** indicate schedule performance in “planned value” terms. If the question is about *calendar impact*, verify the **critical path/float** in the schedule model.
+:::
 
 ### Forecasting (Shows Up in “What happens at the end?” Questions)
 
@@ -142,6 +165,28 @@ Common analysis tools (often appear as answer choices):
 
 ---
 
+## 🗓️ Control Schedule: Critical Path, Float, and Compression
+
+Many exam questions hide the real issue in schedule logic. Before you “fix the date,” confirm whether the slip is actually threatening the end date.
+
+- **Critical path**: the longest path through the network; activities on it typically have **zero total float**.
+- **Float (slack)**: allowable delay without delaying the project end date (or the next dependent activity).
+- **If the slipped activity has float**: you may not need a baseline change; you may need replanning/resequencing and communication.
+- **If the slipped activity is on the critical path**: you need a recovery decision (scope trade-off, schedule compression, or a baseline change via CR).
+
+### Schedule Compression (Know the Two Levers)
+
+| Technique | What it is | Trade-off / risk |
+|---|---|---|
+| **Crashing** | add resources/cost to shorten duration | increases cost; may increase coordination risk |
+| **Fast tracking** | overlap activities previously sequential | increases rework/defect risk; adds uncertainty |
+
+::: tip 💡 Exam Pattern
+If the question says “What should the PM do FIRST?” the safest first step is usually: **analyze the variance + confirm critical path impact** before choosing crash/fast-track or requesting more time.
+:::
+
+---
+
 ## Issues vs Risks vs Change Requests (Stop Mixing These Up)
 
 Exam questions often test whether you can choose the right “container” for the problem.
@@ -153,6 +198,16 @@ Exam questions often test whether you can choose the right “container” for t
 | **Change request** | decision needed | **Change log / change control system** | analyze impacts, route to change authority/CCB, update baselines if approved |
 
 Key relationship: a **risk becomes an issue** when it occurs; issues and variances often **generate change requests** when the baseline must be updated.
+
+### 🧯 Risk Monitoring Essentials (Triggers, Residual, Secondary)
+
+- **Triggers**: warning signs that a risk is about to occur (your cue to implement the planned response).
+- **Residual risk**: what remains after response actions (still needs monitoring).
+- **Secondary risk**: new risks created by your response (e.g., fast-tracking creates rework risk).
+- **Risk reassessment**: periodic review to update probability/impact and identify new risks.
+- **Risk audit**: verify whether risk responses were implemented and whether they worked.
+
+If a risk occurs (becomes an issue), execute the response plan, update the **risk register** and **issue log**, and submit a **change request** if the response changes baselines/contracts.
 
 ---
 
@@ -200,6 +255,16 @@ Changes are normal. **Uncontrolled** changes are project killers.
     <p>Execute the approved change via project work. Update baselines/plans and communicate to stakeholders.</p>
   </div>
 </div>
+
+### What Gets Updated After an Approved Change (Outputs You Should “See”)
+
+When a change is approved, you typically update:
+- **Change log** (status + decision) and often a **decision log**
+- **Project management plan** (including **scope/schedule/cost baselines** if impacted)
+- **Project documents** (requirements/backlog, schedule model, risk register, issue log, communications plan, forecasts)
+- **Work**: implement the approved change and communicate the new expectations
+
+On the exam, “implement the change” is rarely correct until you also see **approval**, **baseline/document updates**, and **communication**.
 
 ::: warning ⚠️ Another Common Exam Trap
 If stakeholders ask for “a small change,” you don’t do it “to be nice.” You route it through the **change control process**. “Death by a thousand cuts” is still scope creep.
