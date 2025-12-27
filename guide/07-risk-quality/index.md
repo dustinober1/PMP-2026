@@ -36,31 +36,31 @@ Think of these three domains as interconnected:
 <div class="section-grid">
   <div class="section-card">
     <div class="section-title">7.1 Risk Management</div>
-    <p class="section-description">Identification, Analysis, and Response Strategies for both Threats and Opportunities.</p>
+    <p class="section-description">Complete risk lifecycle: identification techniques, qualitative/quantitative analysis (EMV, Monte Carlo, PERT, Decision Trees), response strategies, and Agile risk tracking.</p>
     <a href="./risk-management" class="section-link">Manage Uncertainty →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">7.2 Quality Management</div>
-    <p class="section-description">Quality Assurance vs. Control, and the mindset of 'Quality at the Source'.</p>
+    <p class="section-description">QA vs QC, Cost of Quality calculations, SPC with sigma levels and process capability (Cp/Cpk), the 7 quality tools, Kano Model, and continuous improvement frameworks.</p>
     <a href="./quality-management" class="section-link">Ensure Value →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">7.3 Navigating Complexity</div>
-    <p class="section-description">Handling human behavior, system dependencies, and organizational ambiguity.</p>
+    <p class="section-description">Cynefin framework, Theory of Constraints, system archetypes, ADKAR change management, adaptive leadership styles, and complexity assessment scoring.</p>
     <a href="./navigating-complexity" class="section-link">Tame the Chaos →</a>
   </div>
 
   <div class="section-card">
     <div class="section-title">7.4 Tools & Templates</div>
-    <p class="section-description">Copy/paste-ready risk registers, quality checklists, and quick picks for exam scenarios.</p>
+    <p class="section-description">Copy/paste risk registers, Monte Carlo interpretation guides, PERT formulas, response selection flowcharts, process capability reference, and review templates.</p>
     <a href="./toolkit" class="section-link">Open Toolkit →</a>
   </div>
 
   <div class="section-card knowledge-check">
     <div class="section-title">Knowledge Check</div>
-    <p class="section-description">Apply your judgment to scenarios involving critical risks and quality failures.</p>
+    <p class="section-description">25 scenario-based questions covering EMV calculations, Monte Carlo interpretation, QA vs QC, Cynefin, system archetypes, and PMP exam patterns.</p>
     <a href="./knowledge-check" class="section-link">Verify Mastery →</a>
   </div>
 </div>
