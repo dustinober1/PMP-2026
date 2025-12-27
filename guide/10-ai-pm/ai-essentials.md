@@ -197,6 +197,165 @@ The temperature setting changes the tool's behavior; know your goal first.
 
 ---
 
+## 🏗️ AI Model Types Deep Dive
+
+Understanding the architecture helps you select the right tool and set appropriate expectations.
+
+| Model Type | What It Is | PM Use Case | Governance Consideration |
+|---|---|---|---|
+| **Foundation Model (LLM)** | General-purpose model trained on internet-scale data (GPT-4, Claude, Gemini) | Drafting, summarizing, analysis, brainstorming | Highest hallucination risk; requires HITL review |
+| **Fine-Tuned Model** | Foundation model customized with organization-specific data | Industry-specific terminology, company templates | Higher governance (training data security); more accurate for domain |
+| **Retrieval-Augmented (RAG)** | LLM + real-time document retrieval | Answering questions from project docs, policies | Most traceable; lower hallucination; requires approved document sources |
+| **Specialized Agent** | AI that takes actions (creates tickets, sends messages, updates systems) | Workflow automation, status updates | Highest risk; requires least-privilege access + approval gates |
+| **Predictive/ML Model** | Statistical model trained on historical patterns | Schedule forecasting, cost prediction, risk scoring | Needs explainability for regulated decisions; prone to historical bias |
+
+::: tip 💡 PMP Exam Pattern
+When a scenario asks "which AI approach should the PM recommend?", match the **task type** to the **model strength**. Drafting = LLM. Forecasting = Predictive. Internal Q&A = RAG. Automation = Agent with guardrails.
+:::
+
+---
+
+## 📏 Context Window Limitations (Practical Limits)
+
+Every AI model has a **context window**—the maximum amount of text it can "see" at once. Understanding this prevents wasted effort and missed context.
+
+| Model Family | Approximate Limit | What This Means for PMs |
+|---|---|---|
+| GPT-4 Turbo | ~128,000 tokens (~96K words) | Can analyze a full 100-page project plan in one prompt |
+| Claude 3.5 | ~200,000 tokens (~150K words) | Entire project documentation library feasible |
+| Gemini 1.5 Pro | ~1,000,000 tokens (~750K words) | Multi-year project archives in a single context |
+| Smaller/Free Models | ~4,000-32,000 tokens | Only 1-5 pages; requires chunking large documents |
+
+**Practical Implications:**
+- **Long documents**: Break into logical sections if exceeding limits; process sequentially
+- **Conversation memory**: Earlier parts of a long conversation may be "forgotten" (dropped from context)
+- **Quality degrades at edges**: Models perform best on content in the middle of the context; put critical instructions at the beginning AND end
+
+**Worked Example: Processing a 200-page RFP**
+1. Summarize each section independently (10-page chunks)
+2. Combine summaries into a master analysis prompt
+3. Use the master summary to draft the response outline
+4. Expand each section with focused prompts
+
+---
+
+## 🔌 API vs. UI Tools (Governance Implications)
+
+| Aspect | Web UI (e.g., ChatGPT.com) | API (Programmatic Access) |
+|---|---|---|
+| **Ease of use** | Anyone can use; no technical setup | Requires developer integration |
+| **Data control** | Terms vary; may train on inputs | Enterprise contracts; no training on your data |
+| **Audit logging** | Limited; depends on vendor | Full logging possible; integrate with SIEM |
+| **Access control** | Individual accounts; hard to govern | Centralized; role-based; revocable |
+| **Cost** | Per-seat subscription | Pay-per-token; scales with usage |
+| **Compliance** | Higher risk for regulated industries | Preferred for healthcare, finance, government |
+
+::: warning ⚠️ Exam Relevance
+If a scenario mentions "team using free AI tools" with confidential data, the correct answer always involves: **(1) Stop/contain, (2) Provide approved alternative, (3) Update policy/training**. API-based enterprise tools are the governance-compliant pattern.
+:::
+
+---
+
+## 🎯 Advanced Prompting Patterns (Expanded)
+
+### Negative Prompting
+Tell the AI what NOT to do. This reduces common failure modes.
+
+```text
+Task: Draft a risk register for a construction project.
+Constraints:
+- Do NOT invent specific dates, costs, or regulations.
+- Do NOT use generic placeholders like "TBD" without flagging them.
+- Do NOT exceed 15 risk items.
+```
+
+### Constraint Injection
+Embed hard rules that the AI must follow, especially for regulated work.
+
+```text
+Role: Act as a compliance-aware PM.
+Hard constraints (non-negotiable):
+- All cost estimates must include ±15% contingency range
+- All regulatory references must cite specific statute numbers
+- Flag any assumption about vendor capacity for SME validation
+```
+
+### Multi-Persona Debate
+Have the AI argue multiple perspectives to surface risks you might miss.
+
+```text
+Task: Evaluate this project schedule.
+First, act as the optimistic PM and defend the timeline.
+Then, act as the skeptical auditor and critique it.
+Finally, synthesize both views into a balanced assessment.
+```
+
+### Output Format Control
+Precise format instructions reduce rework and enable automation.
+
+```text
+Output format:
+| Risk ID | Risk Statement | Probability | Impact | Owner | Response |
+|---|---|---|---|---|---|
+
+Rules:
+- Risk ID format: RSK-001, RSK-002, etc.
+- Probability: L/M/H only
+- Impact: L/M/H only
+- Owner: Role only (not name)
+```
+
+---
+
+## 📝 Complete Worked Example: Risk Brainstorm Prompt
+
+**Scenario:** You're leading a new software implementation project and need to identify risks quickly.
+
+### The Prompt (Copy/Paste Ready)
+
+```text
+Role: Act as a senior PMP-certified project manager with 15 years of experience in enterprise software implementations.
+
+Context:
+- Project type: ERP implementation (cloud-based)
+- Industry: Manufacturing
+- Duration: 18 months
+- Key constraints: Fixed budget ($2M), integration with legacy systems, union labor force
+- Delivery approach: Hybrid (Agile for development, Predictive for infrastructure)
+
+Task:
+1. Generate 15 risk statements using the format: "Because [cause], [event] may occur, resulting in [impact]."
+2. Separate into Threats (10) and Opportunities (5).
+3. For each risk, suggest: probability (L/M/H), impact (L/M/H), and one response strategy.
+
+Constraints:
+- Do NOT invent specific vendor names, dates, or cost figures.
+- Flag any assumptions you made.
+- If you need clarification on any constraint, ask before generating.
+
+Output format: Markdown table with columns: Risk ID | Category | Risk Statement | Prob | Impact | Response Strategy
+```
+
+### What Good Output Looks Like
+
+| Risk ID | Category | Risk Statement | Prob | Impact | Response Strategy |
+|---|---|---|---|---|---|
+| RSK-001 | Threat | Because legacy systems use outdated APIs, integration failures may occur, resulting in 4-6 week delays | M | H | Mitigate: Early integration spike; allocate buffer |
+| RSK-002 | Threat | Because union agreements restrict weekend work, deployment windows are limited, resulting in extended cutover period | H | M | Accept: Plan deployment in contractual windows |
+| OPP-001 | Opportunity | Because cloud vendor offers training credits, we may reduce training costs, resulting in 10-15% budget savings | M | M | Exploit: Claim credits in first 90 days |
+
+**Assumptions flagged by AI:**
+- Assumed standard manufacturing shift patterns (not 24/7)
+- Assumed no pending labor negotiations
+- Assumed legacy systems are documented
+
+**PM's HITL Review Actions:**
+1. ✅ Validate union constraint with HR
+2. ✅ Confirm legacy API documentation exists (or add documentation risk)
+3. ✅ Add missing risks: cybersecurity, change resistance, vendor SLA
+
+---
+
 <div class="study-tip">
   <strong>📝 Exam Insight:</strong> A question may ask: "Your AI tool identified a 95% chance of a schedule delay. What do you do?" The answer is <strong>"Analyze the data with the team to validate the root cause."</strong> Never blindly accept the prediction; use it as a trigger for human investigation. This is the core of Human-in-the-Loop thinking.
 </div>
