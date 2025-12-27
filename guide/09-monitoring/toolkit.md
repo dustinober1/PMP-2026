@@ -417,3 +417,187 @@ Use for agile project monitoring cadence.
 | Carryover | <10% | 10-25% | >25% |
 | Retrospective actions completed | >80% | 50-80% | <50% |
 
+---
+
+## 📊 Monte Carlo Summary Template
+
+Use this template to document probabilistic forecasting results for stakeholder communication.
+
+| Field | Value |
+|---|---|
+| **Analysis Date** | 2026-02-15 |
+| **Simulation Runs** | 10,000 |
+| **Data Source** | Schedule model + task-level estimates |
+
+### Schedule Forecast
+
+| Confidence Level | Completion Date | Days from Today |
+|---|---|---|
+| **P50 (50%)** | 2026-06-15 | 120 days |
+| **P80 (80%)** | 2026-07-01 | 136 days |
+| **P90 (90%)** | 2026-07-15 | 150 days |
+
+### Cost Forecast
+
+| Confidence Level | Total Cost | Variance from BAC |
+|---|---|---|
+| **P50 (50%)** | $485,000 | -$15,000 (under) |
+| **P80 (80%)** | $512,000 | +$12,000 (over) |
+| **P90 (90%)** | $545,000 | +$45,000 (over) |
+
+### Key Risks Affecting Forecast
+
+| Risk | Impact on P90 | Mitigation Status |
+|---|---|---|
+| Vendor delay | +14 days | Response in progress |
+| Resource availability | +7 days | Mitigated |
+| Integration complexity | +$25,000 | Monitoring |
+
+### Recommendation
+
+Based on Monte Carlo analysis:
+- **Commit to P80 date** (2026-07-01) for external stakeholders
+- **Plan to P50 date** (2026-06-15) for internal targets
+- **Reserve $27,000 contingency** to cover P80 cost scenario
+
+---
+
+## 📋 Contract Closure Checklist by Type
+
+### Fixed Price (FFP) Closure
+
+- [ ] All deliverables verified against contract specifications
+- [ ] Acceptance certificate signed
+- [ ] Final payment processed (contract price only)
+- [ ] Warranty period documented and communicated
+- [ ] Retainage released per contract terms
+- [ ] Vendor performance evaluation completed
+- [ ] Contract file archived
+
+### Time & Materials (T&M) Closure
+
+- [ ] All timesheets verified against work performed
+- [ ] Labor rates match contract terms
+- [ ] Materials and expenses verified against receipts
+- [ ] Total cost compared against NTE ceiling (if applicable)
+- [ ] Final invoice reconciled and approved
+- [ ] Overage approval obtained (if applicable)
+- [ ] Vendor performance evaluation completed
+- [ ] Contract file archived
+
+### Cost Plus Fixed Fee (CPFF) Closure
+
+- [ ] All claimed costs audited for allowability
+- [ ] Unallowable costs identified and excluded
+- [ ] Fixed fee confirmed (per contract)
+- [ ] Final cost report prepared
+- [ ] Any cost adjustments documented
+- [ ] Final payment calculated and processed
+- [ ] Vendor performance evaluation completed
+- [ ] Contract file archived
+
+### Cost Plus Incentive Fee (CPIF) Closure
+
+- [ ] All claimed costs audited for allowability
+- [ ] Target cost vs. actual cost variance calculated
+- [ ] Sharing ratio applied correctly
+- [ ] Incentive fee calculated per formula
+- [ ] Fee cap (max/min) applied if triggered
+- [ ] Final fee determination documented
+- [ ] Final payment calculated and processed
+- [ ] Vendor performance evaluation completed
+- [ ] Contract file archived
+
+### CPIF Fee Calculation Worksheet
+
+| Parameter | Contract Value | Actual Value |
+|---|---|---|
+| Target Cost | $ | $ |
+| Target Fee | $ | n/a |
+| Sharing Ratio (Buyer/Seller) | __/__ | n/a |
+| Maximum Fee | $ | n/a |
+| Minimum Fee | $ | n/a |
+
+| Calculation | Result |
+|---|---|
+| Cost Variance (Target - Actual) | $ |
+| Seller Share of Variance | $ |
+| Preliminary Fee (Target ± Share) | $ |
+| Final Fee (after caps) | $ |
+| **Total Payment (Cost + Fee)** | **$** |
+
+---
+
+## 🏛️ Regulatory Compliance Closure Matrix
+
+Use this matrix to track industry-specific closure requirements.
+
+### Healthcare (FDA/HIPAA)
+
+| Requirement | Status | Evidence | Owner |
+|---|---|---|---|
+| System validation documentation complete | ☐ | Validation report | QA Lead |
+| Audit trail verified | ☐ | Audit log review | IT Compliance |
+| Patient data handling per HIPAA | ☐ | Privacy impact assessment | Privacy Officer |
+| FDA 21 CFR Part 11 compliance | ☐ | Electronic records audit | Regulatory |
+| User training documented | ☐ | Training records | Training Lead |
+
+### Financial Services (SOX/PCI-DSS)
+
+| Requirement | Status | Evidence | Owner |
+|---|---|---|---|
+| Control documentation complete | ☐ | Control matrix | Internal Audit |
+| Access controls verified | ☐ | Access review report | IT Security |
+| Data retention policy implemented | ☐ | Retention schedule | Compliance |
+| PCI-DSS scope documented | ☐ | Scope attestation | Security |
+| Audit evidence archived | ☐ | Evidence repository | Audit |
+
+### Government (FAR/OMB)
+
+| Requirement | Status | Evidence | Owner |
+|---|---|---|---|
+| Cost accounting standards met | ☐ | CAS compliance report | Finance |
+| Contract deliverables accepted | ☐ | DD250 or equivalent | Contracting |
+| Final cost report submitted | ☐ | Incurred cost submission | Finance |
+| Property disposition complete | ☐ | Property records | Property Admin |
+| Closeout audit complete | ☐ | Audit findings resolved | Contracts |
+
+### Construction (OSHA/Local Codes)
+
+| Requirement | Status | Evidence | Owner |
+|---|---|---|---|
+| Final inspection passed | ☐ | Inspection certificate | Site Lead |
+| Certificate of occupancy obtained | ☐ | CO document | Owner/GC |
+| Safety documentation archived | ☐ | OSHA logs, training | Safety |
+| As-built drawings delivered | ☐ | Drawing package | Engineering |
+| Warranty documentation provided | ☐ | Warranty package | Contracts |
+
+---
+
+## 🎯 Closure Readiness Assessment
+
+Use this quick assessment to determine if the project is ready for formal closure.
+
+| Category | Ready? | Blocker (if No) |
+|---|---|---|
+| **Deliverables Accepted** | ☐ Yes / ☐ No | |
+| **All Change Requests Closed** | ☐ Yes / ☐ No | |
+| **All Issues Resolved or Transferred** | ☐ Yes / ☐ No | |
+| **Procurements Closed** | ☐ Yes / ☐ No | |
+| **Claims/Disputes Resolved** | ☐ Yes / ☐ No | |
+| **Final Budget Reconciled** | ☐ Yes / ☐ No | |
+| **Lessons Learned Captured** | ☐ Yes / ☐ No | |
+| **Knowledge Transfer Complete** | ☐ Yes / ☐ No | |
+| **Regulatory Requirements Met** | ☐ Yes / ☐ No / ☐ N/A | |
+| **Benefits Ownership Transferred** | ☐ Yes / ☐ No | |
+
+**Readiness Score:** ___ / 10
+
+| Score | Recommendation |
+|---|---|
+| 10/10 | Proceed with formal closure |
+| 8-9/10 | Address minor items; close within 1 week |
+| 5-7/10 | Significant blockers; develop closure plan |
+| <5/10 | Not ready for closure; prioritize blockers |
+
+
