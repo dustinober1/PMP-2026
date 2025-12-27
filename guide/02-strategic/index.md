@@ -55,7 +55,13 @@ This chapter helps you bridge the gap between high-level ambition and daily exec
   </div>
 
   <div class="section-card">
-    <div class="section-title">2.2 Benefits & Value</div>
+    <div class="section-title">2.2 Sustainability in PM (NEW)</div>
+    <p class="section-description">Critical 2026 topic: Triple Bottom Line, P5 Framework, ESG integration, green PM, and sustainability metrics.</p>
+    <a href="./sustainability" class="section-link">Master Sustainability →</a>
+  </div>
+
+  <div class="section-card">
+    <div class="section-title">2.3 Benefits & Value</div>
     <p class="section-description">Value delivery systems, MVP vs. MBI, Triple Bottom Line (Profit, People, Planet), and ESG integration.</p>
     <a href="./benefits-value" class="section-link">Explore Value →</a>
   </div>

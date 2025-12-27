@@ -34,7 +34,13 @@ This chapter is structured in four core sections, each building your foundation:
   </div>
 
   <div class="section-card">
-    <div class="section-title">1.4 Core Project Management Concepts & Tools</div>
+    <div class="section-title">1.4 PMBOK 8th Edition Principles</div>
+    <p class="section-description">Master the 6 new consolidated principles: Adopt a Holistic View, Focus on Value, Embed Quality, Be an Accountable Leader, Integrate Sustainability, Build an Empowered Culture.</p>
+    <a href="./pmbok8-principles" class="section-link">Learn Principles →</a>
+  </div>
+
+  <div class="section-card">
+    <div class="section-title">1.5 Core Project Management Concepts & Tools</div>
     <p class="section-description">The "Big 6" mental models that apply to every project: Stakeholders, Triple Constraint, Quality, Risk, Data & AI, and Professional Ethics.</p>
     <a href="./core-concepts" class="section-link">Master Fundamentals →</a>
   </div>
