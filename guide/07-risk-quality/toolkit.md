@@ -129,10 +129,93 @@ Key concept pair:
 
 ---
 
-## 🗓️ Weekly “Risk + Quality” Review Agenda (10 Minutes)
+## 🗓️ Weekly "Risk + Quality" Review Agenda (10 Minutes)
 - New risks/opportunities since last review
 - Top risks: triggers, actions progress, owner updates
 - Recent defects: trend, root cause themes, corrective actions
 - Any complexity signals (dependency surprises, stakeholder misalignment)
 - Updates needed: Risk Register, Issue Log, quality checklist/DoD
+
+---
+
+## 🎯 Risk Response Decision Matrix
+Use this to quickly select the best response strategy:
+
+| If the risk… | And you have… | Best Strategy |
+|---|---|---|
+| Is **high probability** and **high impact** | Authority and budget | **Avoid** (eliminate) or **Mitigate** (reduce) |
+| Is **high impact** but **low probability** | Budget for insurance/contracts | **Transfer** (insurance, warranty, fixed-price contract) |
+| Is **low impact** or **low probability** | Limited budget | **Accept** (active: plan contingency; passive: do nothing) |
+| Is **outside your authority** | Escalation path | **Escalate** to program/portfolio/management |
+| Is an **opportunity** you want guaranteed | Resources available | **Exploit** (make it certain) |
+| Is an **opportunity** but uncertain | Some resources | **Enhance** (increase probability/impact) |
+| Is an **opportunity** too big for you alone | Partnership potential | **Share** (joint venture, alliance) |
+
+---
+
+## 📊 Quality vs. Grade Decision Table
+| Scenario | Quality | Grade | Acceptable? |
+|---|---|---|---|
+| Economy car with no defects, meets all specs | High | Low | ✅ Yes |
+| Luxury car with defects, doesn't meet specs | Low | High | ❌ No |
+| Economy car with defects | Low | Low | ❌ No |
+| Luxury car with no defects, exceeds specs | High | High | ✅ Yes |
+
+**Key Takeaway**: Low grade can be acceptable (if that's what was purchased). Low quality is never acceptable.
+
+---
+
+## 🔍 Root Cause Analysis Template (5 Whys)
+
+**Problem Statement**: Deliverable was rejected by customer
+
+1. **Why?** The feature didn't meet acceptance criteria.
+2. **Why?** Acceptance criteria were misunderstood by the team.
+3. **Why?** Acceptance criteria were not documented clearly.
+4. **Why?** The Definition of Done doesn't require written acceptance criteria.
+5. **Why?** The team never updated the DoD after the last project retrospective.
+
+**Root Cause**: DoD is incomplete and not maintained.
+
+**Corrective Action**: Update DoD to require documented acceptance criteria for all user stories; review and update DoD quarterly.
+
+---
+
+## 🧭 Complexity Decision Framework
+
+| Question | Answer | Implication |
+|---|---|---|
+| Are requirements clear and stable? | No | Use **iterative/adaptive** delivery |
+| Can we predict outcomes with analysis? | No | Move to **experimentation** (probe-sense-respond) |
+| Do we have multiple experts disagreeing? | Yes | Run **safe-to-fail experiments** to test hypotheses |
+| Are there many dependencies and hand-offs? | Yes | **Map dependencies**; reduce coupling; use WIP limits |
+| Is the environment changing rapidly? | Yes | **Shorten feedback cycles**; build in buffers |
+
+---
+
+## 📋 Risk Audit Checklist
+Use this to verify risk management effectiveness:
+
+- [ ] Is the Risk Register reviewed at least monthly (or every sprint)?
+- [ ] Are all high-priority risks assigned to owners?
+- [ ] Are response actions integrated into the schedule/backlog?
+- [ ] Are triggers defined and monitored for top risks?
+- [ ] Have we identified new risks since the last review?
+- [ ] Are issues being logged when risks occur?
+- [ ] Is contingency reserve usage tracked and reported?
+- [ ] Have we conducted assumption analysis recently?
+
+---
+
+## 🎯 When to Use Which Quality Tool (Quick Reference)
+
+| Situation | Tool | Why |
+|---|---|---|
+| "We don't know the root cause" | **Fishbone + 5 Whys** | Structured brainstorming to find causes |
+| "Which defect types are most common?" | **Pareto Chart** | Prioritize the vital few (80/20 rule) |
+| "Is our process stable over time?" | **Control Chart** | Detect variation patterns and special causes |
+| "What's the distribution of our data?" | **Histogram** | Visualize spread and shape |
+| "Need to collect defect counts in real-time" | **Checksheet** | Tally sheet for data collection |
+| "How do two variables relate?" | **Scatter Diagram** | Show correlation (not causation) |
+| "Where are the bottlenecks in the process?" | **Flowchart** | Map process steps and identify waste |
 

@@ -108,6 +108,58 @@ You cannot always have everything. The PM must make conscious choices:
 
 ---
 
+## 📋 Quality Planning (Setting the Foundation)
+
+Quality planning happens during the **Planning Process Group** and defines:
+1. **Quality standards** (industry standards, regulations, internal policies)
+2. **Quality metrics** (measurable targets like defect density, test pass rate)
+3. **Quality checklists** (verification steps)
+4. **Acceptance criteria** (how we know it's done)
+5. **Quality control measurements** (inspection/test approach)
+
+### Key Quality Planning Outputs
+| Output | Purpose | Example |
+|---|---|---|
+| **Quality Management Plan** | How quality will be managed (standards, tools, roles) | "All code requires peer review; automated tests must pass before merge" |
+| **Quality Metrics** | Measurable quality targets | "Defect density <0.5 per KLOC; 95% test pass rate" |
+| **Test Strategy** | Approach to verification/validation | "Unit tests + integration tests + UAT" |
+| **Acceptance Criteria** | Definition of "acceptable" deliverable | "Passes all security scans; <2s page load; zero critical bugs" |
+
+::: tip 💡 Exam Insight
+If the question asks "How should the PM ensure quality requirements are clear?", the answer often involves **defining acceptance criteria** and **quality metrics** during planning (not waiting until execution).
+:::
+
+---
+
+## 🔁 Continuous Improvement Frameworks
+
+### Plan-Do-Check-Act (PDCA / Deming Cycle)
+The foundational continuous improvement loop:
+1. **Plan**: Identify the problem and plan the change
+2. **Do**: Implement the change on a small scale (test)
+3. **Check**: Measure results and compare to expectations
+4. **Act**: If successful, standardize; if not, learn and adjust
+
+**Exam Context**: PDCA is the basis for Agile retrospectives and Kaizen.
+
+### Six Sigma & DMAIC
+Six Sigma aims for near-perfect quality (3.4 defects per million opportunities). The DMAIC methodology is used for process improvement:
+
+| Phase | What it means | Key Activities |
+|---|---|---|
+| **Define** | Define the problem and project goals | Project charter, VOC (Voice of Customer), SIPOC diagram |
+| **Measure** | Measure current performance | Collect baseline data, define metrics |
+| **Analyze** | Identify root causes | Fishbone, Pareto, statistical analysis |
+| **Improve** | Implement solutions | Test solutions, pilot changes |
+| **Control** | Sustain improvements | Control charts, updated procedures, training |
+
+**Exam Tip**: If the scenario describes **recurring defects** and asks for a **structured improvement approach**, DMAIC or root cause analysis (Fishbone + 5 Whys) are strong choices.
+
+### Kaizen (Continuous Improvement)
+Japanese philosophy of continuous, incremental improvement involving everyone. In Agile, this is embodied in **retrospectives**.
+
+---
+
 ## 🛠️ The Quality Toolbox (7 Basic Tools)
 You must know **when** to use each tool:
 
@@ -121,11 +173,47 @@ You must know **when** to use each tool:
 | **Histogram** | See distribution/spread of results (shape, variance) |
 | **Checksheet** | Collect frequency data in real time (defect counts) |
 
-### Control chart essentials (what the exam tests)
-- **Control limits (UCL/LCL)**: process stability limits (statistical)  
-- **Specification limits**: customer/requirement limits (contractual)  
-- A process can be **in control** but still **out of specification** (stable, but wrong target)
-- A “run” (e.g., 7+ points on one side of the mean) suggests **special cause** investigation
+### Control Chart Essentials (What the Exam Tests)
+A control chart tracks process performance over time to detect variation.
+
+#### Key Components
+- **Center line (mean)**: The process average
+- **Upper Control Limit (UCL)**: +3 sigma from mean (statistical limit)
+- **Lower Control Limit (LCL)**: -3 sigma from mean (statistical limit)
+- **Specification limits**: Customer/contract requirements (different from control limits!)
+
+#### Rule of Seven (Special Cause Detection)
+If you see **7 or more consecutive points** on one side of the mean (even if all are within control limits), investigate for **special cause variation**.
+
+#### Control vs. Specification (Critical Distinction)
+| Scenario | In Control? | Meets Spec? | Action |
+|---|---|---|---|
+| All points within UCL/LCL, centered on mean | Yes | Depends | Check if mean aligns with spec limits |
+| All points within UCL/LCL, but many outside spec limits | Yes | No | **Process is stable but not capable** → Improve process |
+| Points outside UCL/LCL | No | N/A | **Investigate special cause** → Fix the outlier |
+
+::: warning ⚠️ Exam Trap
+A process can be "in control" (stable) but still produce defects (not capable). The exam loves this scenario!
+:::
+
+### Statistical Sampling
+When inspecting 100% of deliverables is impractical, use sampling:
+
+| Sampling Method | When to Use | Example |
+|---|---|---|
+| **Attribute Sampling** | Pass/fail inspection (conforming vs non-conforming) | "20 out of 100 units inspected are defective" |
+| **Variable Sampling** | Continuous measurement (degree of conformance) | "Average weight of sampled units is 10.2 oz ± 0.3 oz" |
+
+**Sample Size Principle**: Larger samples give more confidence but cost more. Use statistical methods (confidence level, margin of error) to determine appropriate sample size.
+
+### Marginal Analysis
+Used to determine the optimal quality level:
+- **Marginal Cost**: cost of one more unit of quality (e.g., additional testing)
+- **Marginal Benefit**: benefit of one more unit of quality (e.g., fewer defects)
+
+**Optimal Quality Point**: Where marginal cost = marginal benefit (spending more on prevention/appraisal yields no additional value).
+
+**Exam Context**: "Continuing to test yields diminishing returns" → suggests you've reached the marginal analysis threshold.
 
 ---
 

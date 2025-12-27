@@ -2,10 +2,22 @@
 
 Modern projects live in a world of **V.U.C.A.** (Volatility, Uncertainty, Complexity, and Ambiguity). On the PMP exam, your value is measured by how you navigate the unknown while maintaining consistent quality.
 
+::: tip 🎯 PMP Exam Weight
+Risk and Quality topics comprise **approximately 15-20%** of the PMP exam. Combined with project planning and execution questions, your ability to identify risks early, choose the best response, apply the right quality tool, and recognize complex environments is critical to passing.
+:::
+
 ---
 
 ## ⚠️ The Domain of Uncertainty
 Risk, Quality, and Complexity are interwoven. A failure in quality is a realized risk, and complexity is often the root cause of both.
+
+### The Integration Triangle
+Think of these three domains as interconnected:
+- **Risk** increases when **complexity** rises and **quality** processes are weak
+- **Quality** defects become **risks** (if not caught) and **issues** (when they escape)
+- **Complexity** drives both **risk** (unknown-unknowns) and **quality** challenges (more failure points)
+
+**Exam Insight**: The best answers often combine risk mitigation + quality built-in + adaptive delivery (iteration/feedback).
 
 ### What this chapter makes you exam-ready for
 - Choosing the *best* risk response (not just naming a register)
@@ -61,6 +73,16 @@ The PMP exam no longer focuses on just "filling out a register." It focuses on:
 - **Continuous Quality**: Integrating automated testing and user validation into every cycle.
 - **De-risking**: Proactively removing blockers before they become issues.
 - **Systems Thinking**: Seeing how decisions (schedule, quality, scope) create ripple effects.
+
+### V.U.C.A. Expanded (What It Means for PMs)
+| Element | What it means | PM Response |
+|---|---|---|
+| **Volatility** | Rapid, unpredictable change | Build in buffers; shorten feedback cycles |
+| **Uncertainty** | Limited predictability of events | Use iterative delivery; validate assumptions early |
+| **Complexity** | Many interconnected parts with emergent behavior | Systems thinking; reduce coupling; experiment |
+| **Ambiguity** | Unclear cause-effect relationships | Clarify definitions; run safe-to-fail probes |
+
+**Exam Pattern**: If the scenario describes high V.U.C.A., favor adaptive/iterative answers over detailed upfront planning.
 
 <style>
 .section-grid {

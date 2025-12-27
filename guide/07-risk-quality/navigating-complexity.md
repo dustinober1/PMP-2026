@@ -78,25 +78,99 @@ Most “project messiness” stems from these:
 
 ## 🧠 Leadership for Complexity
 You cannot "command and control" your way through complexity. You need Power Skills:
-*   **Adaptive Leadership**: Changing your style based on the team's needs.
-*   **Psychological Safety**: Ensuring the team feels safe to report bad news early (essential for complex systems where small errors cascade).
-*   **Resilience**: Helping the team bounce back from the inevitable failures of experimentation.
 
----
+### Adaptive Leadership (Situational Leadership)
+Match your leadership style to the situation and team maturity:
+
+| Situation | Team State | Leadership Style | Actions |
+|---|---|---|---|
+| **Crisis / Chaotic** | Overwhelmed, unclear | **Directive** | Take charge, give clear orders, stabilize |
+| **Complicated / Unknown** | Capable but uncertain | **Coaching** | Guide analysis, bring in experts, facilitate |
+| **Complex / Learning** | Motivated, experimenting | **Supporting** | Enable autonomy, remove blockers, encourage risk-taking |
+| **Clear / Routine** | Experienced, confident | **Delegating** | Set goals, step back, trust the team |
+
+**Exam Pattern**: If the scenario shows a team that is **struggling and unclear**, the best first move is often **directive** (provide clarity, take decisive action). If the team is **capable but needs support**, favor **coaching** or **supporting** styles.
+
+### Psychological Safety (Essential for Complexity)
+In complex environments, **early warnings** are critical. Teams must feel safe to:
+- Report bad news without punishment
+- Admit mistakes and learn from them
+- Challenge assumptions and speak up
+- Experiment and fail safely
+
+**How to Build It**:
+- Model vulnerability ("I don't have all the answers")
+- Reward transparency ("Thank you for raising that risk early")
+- Treat failures as learning (blameless retrospectives)
+
+### Resilience (Bouncing Back from Failure)
+Complexity guarantees some experiments will fail. Resilient teams:
+- View failure as feedback (not a personal flaw)
+- Adapt quickly to new information
+- Maintain energy and focus despite setbacks
+
+**PM Actions**:
+- Celebrate learning (not just success)
+- Timebox experiments (limit exposure to failure)
+- Build in recovery time (don't run teams at 100% utilization)
 
 ---
 
 ## 🔬 Systems Thinking (How PMs Prevent Cascading Failure)
-Systems thinking is seeing the **relationships** (not just tasks).
+Systems thinking is seeing the **relationships** (not just tasks). A system is more than the sum of its parts—behavior emerges from interactions.
 
-### Two common loops the exam loves
-- **Reinforcing loop (vicious cycle)**: quality shortcuts → more defects → more rework → less time → more shortcuts
-- **Balancing loop (stabilizing)**: workload increases → WIP limits → flow improves → defects decrease
+### Feedback Loops (The Core of System Behavior)
 
-### Practical systems-thinking moves
-- Map **dependencies** (people + technical + approvals)
-- Identify constraints (“the bottleneck controls throughput”)
-- Reduce hand-offs and queueing (limits variability and defects)
+#### Reinforcing Loop (Amplifying / Vicious or Virtuous Cycle)
+Change compounds in the same direction (either positive or negative).
+
+**Vicious Cycle Example:**
+```
+Quality shortcuts → More defects → More rework →
+Less time available → More shortcuts → MORE defects
+```
+
+**Virtuous Cycle Example:**
+```
+Team learns new skills → Higher productivity →
+Earlier delivery → More time to learn → HIGHER productivity
+```
+
+**Exam Clue**: "The problem keeps getting worse" suggests a **reinforcing loop** that must be broken.
+
+#### Balancing Loop (Stabilizing / Self-Correcting)
+The system resists change and seeks equilibrium.
+
+**Example:**
+```
+Workload increases → Team applies WIP limits →
+Flow improves → Defects decrease → Workload stabilizes
+```
+
+**Example (Thermostat Analogy):**
+```
+Room gets cold → Heater turns on →
+Temperature rises → Heater turns off → Balance maintained
+```
+
+**Exam Clue**: "The process self-corrects" or "natural stabilization" suggests a **balancing loop**.
+
+### Systems Thinking Principles (Exam-Ready)
+
+| Principle | What it means | PM Action |
+|---|---|---|
+| **Emergence** | System behavior emerges from interactions, not individual parts | Don't optimize parts in isolation; look at the whole |
+| **Delays** | Actions take time to show effects (lag) | Don't overreact to early signals; wait for feedback |
+| **Bottlenecks** | The constraint controls throughput (Theory of Constraints) | Identify and elevate the constraint (don't optimize non-constraints) |
+| **Leverage Points** | Small changes in the right place can have big impacts | Find high-leverage interventions (e.g., simplify hand-offs) |
+| **Unintended Consequences** | Fixing one problem can create another | Map secondary effects before acting |
+
+### Practical Systems-Thinking Moves
+- **Map dependencies** (people + technical + approvals)
+- **Identify constraints** ("the bottleneck controls throughput")
+- **Reduce hand-offs and queueing** (limits variability and defects)
+- **Visualize flow** (use value stream maps or Kanban boards)
+- **Test for unintended consequences** ("If we do X, what else changes?")
 
 ---
 

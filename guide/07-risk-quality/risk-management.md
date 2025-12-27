@@ -90,12 +90,47 @@ Use multiple techniques because each has bias.
 | Technique | Best for | PMP clues |
 |---|---|---|
 | **Workshops / brainstorming** | Broad coverage fast | Early phases; cross-functional sessions |
-| **Pre-mortem** | Hidden risks + human factors | “Imagine the project failed…” |
-| **Interviews** | Deep technical/SME risk | “Experts disagree / complex integration” |
-| **Prompt lists** (RBS, PESTLE, contract clauses) | Structured completeness | “We keep missing risks” |
-| **Assumption analysis** | Fragile plans | “We assumed X would be available…” |
-| **SWOT** | Strategic uncertainty | “Market/competition/regulations” |
-| **Root cause analysis** | Pattern-based risks | “Recurring defect / recurring slip” |
+| **Pre-mortem** | Hidden risks + human factors | "Imagine the project failed…" |
+| **Interviews** | Deep technical/SME risk | "Experts disagree / complex integration" |
+| **Prompt lists** (RBS, PESTLE, contract clauses) | Structured completeness | "We keep missing risks" |
+| **Assumption analysis** | Fragile plans | "We assumed X would be available…" |
+| **SWOT** | Strategic uncertainty | "Market/competition/regulations" |
+| **Root cause analysis** | Pattern-based risks | "Recurring defect / recurring slip" |
+
+### Risk Breakdown Structure (RBS) (Categorization Framework)
+The RBS organizes risks by category to ensure complete coverage and identify patterns.
+
+**Example RBS for a Software Project:**
+```
+Project Risks
+├─ Technical
+│  ├─ Architecture complexity
+│  ├─ Integration challenges
+│  ├─ New/untested technology
+│  └─ Performance/scalability
+├─ External
+│  ├─ Vendor/supplier dependency
+│  ├─ Regulatory/compliance changes
+│  ├─ Market shifts
+│  └─ Third-party API availability
+├─ Organizational
+│  ├─ Resource availability
+│  ├─ Funding/budget cuts
+│  ├─ Competing priorities
+│  └─ Organizational change
+├─ Project Management
+│  ├─ Estimation uncertainty
+│  ├─ Scope creep
+│  ├─ Communication breakdown
+│  └─ Stakeholder misalignment
+└─ People
+   ├─ Key person departure
+   ├─ Skill gaps
+   ├─ Team conflict
+   └─ Motivation/morale
+```
+
+**Exam Tip**: If the question mentions "we keep missing risks in the same category," suggest using an **RBS** or **prompt list** to ensure structured coverage.
 
 ### ⚠️ Cognitive Biases in Risk
 The exam may test your ability to spot why a team is missing risks:
@@ -122,10 +157,53 @@ You prioritize where to spend limited management energy.
   </div>
 </div>
 
-### Quant basics: Expected Monetary Value (EMV)
+### Quantitative Analysis Techniques (Exam-Ready)
+
+#### Expected Monetary Value (EMV)
 **EMV = Probability × Impact**
 
 Example: 30% chance of a $200k impact → EMV = 0.30 × $200,000 = **$60,000**.
+
+::: tip 💡 Multi-Risk EMV
+When evaluating multiple risks, sum their EMVs to determine total risk exposure:
+- Risk A: 40% × $50k = $20k
+- Risk B: 20% × $100k = $20k
+- **Total EMV = $40k** (minimum contingency reserve needed)
+:::
+
+#### Decision Tree Analysis
+Used when you have multiple decision paths with uncertain outcomes. Calculate EMV for each branch and choose the path with the best expected value.
+
+**Example**: Should we build in-house or outsource?
+```
+Decision: Build In-House
+├─ Success (70%): -$100k cost + $500k benefit = +$400k × 0.70 = +$280k
+└─ Failure (30%): -$100k cost + $0 benefit = -$100k × 0.30 = -$30k
+EMV (In-House) = +$280k - $30k = +$250k
+
+Decision: Outsource
+├─ Success (90%): -$150k cost + $450k benefit = +$300k × 0.90 = +$270k
+└─ Failure (10%): -$150k cost + $0 benefit = -$150k × 0.10 = -$15k
+EMV (Outsource) = +$270k - $15k = +$255k
+
+BEST CHOICE: Outsource (higher EMV)
+```
+
+#### Sensitivity Analysis (Tornado Diagram)
+Identifies which variables have the most impact on project outcomes. Variables with the widest bars (most variance) are the highest-priority risks to monitor.
+
+**Typical High-Sensitivity Variables**:
+- Labor rates
+- Material costs
+- Productivity assumptions
+- Exchange rates (for global projects)
+
+#### Monte Carlo Simulation
+Runs thousands of scenarios to produce probability distributions for cost and schedule.
+
+**Typical Output**: "We have an 80% confidence of finishing by June 30 and staying under $2M."
+
+**When to use**: Stakeholders need confidence levels, or the project has many uncertainties that compound.
 
 ---
 
@@ -163,6 +241,31 @@ How you manage risk changes based on the delivery approach.
 | **Hybrid** | Program-level = Predictive; Team-level = Agile | High-level buffers + Team velocity adjustments | Escalation from Team to Program if buffers breached |
 
 ---
+
+---
+
+## 🎯 Risk Thresholds & Appetite (When to Act)
+
+Before managing risk, you must define **when** to act. This is captured in the Risk Management Plan.
+
+### Key Concepts
+| Term | Definition | Example |
+|---|---|---|
+| **Risk Appetite** | The degree of uncertainty an organization is willing to accept | "We accept up to 10% budget variance" |
+| **Risk Threshold** | The specific point at which a risk requires action | "Any risk with EMV >$50k requires executive review" |
+| **Risk Tolerance** | The acceptable range of variation for an objective | "Schedule slip <2 weeks is acceptable" |
+
+### Threshold-Based Responses (Exam Pattern)
+The exam loves scenarios where you must decide **whether to act** based on thresholds:
+
+**Example**: Your organization's risk threshold is "any risk with >30% probability AND >$100k impact requires mitigation."
+- Risk A: 40% × $80k = Does not meet threshold (accept/watch)
+- Risk B: 25% × $150k = Does not meet threshold (only one condition met)
+- Risk C: 50% × $120k = **Meets threshold** → Mitigate immediately
+
+::: warning ⚠️ Exam Trap
+Thresholds are **AND** conditions (both probability and impact must exceed the limit), unless the question explicitly says "OR."
+:::
 
 ---
 
