@@ -131,6 +131,158 @@ Compliance is part of PMP scope management. AI decisions in regulated domains ha
 
 ---
 
+## 🔍 Bias Detection Framework
+
+Bias doesn't just happen at deployment—it can enter at multiple stages. PMs must understand where to look.
+
+### The Bias Lifecycle
+
+| Stage | What Goes Wrong | PM Action |
+|---|---|---|
+| **Training Data** | Historical data reflects past discrimination (e.g., only promoted certain groups) | Ask vendor: "What data was the model trained on? Any known biases?" |
+| **Model Design** | Algorithm optimizes for metrics that disadvantage groups (e.g., "efficiency" = overworking junior staff) | Understand success metrics; validate with diverse stakeholders |
+| **Deployment Context** | Model works in lab but fails for edge cases in production | Pilot with representative sample; monitor early outcomes |
+| **Feedback Loop** | Biased outputs become training data for future versions | Log corrections; don't let AI "learn" from unchallenged decisions |
+
+### Bias Detection Checklist
+
+- [ ] **Pre-deployment**: Review training data documentation for known gaps/biases
+- [ ] **Pre-deployment**: Test model on synthetic edge cases (diverse demographics, unusual scenarios)
+- [ ] **Post-deployment**: Monitor output distribution (who benefits? Who's disadvantaged?)
+- [ ] **Post-deployment**: Establish feedback channel for users to report perceived unfairness
+- [ ] **Ongoing**: Monthly audit of decisions for pattern analysis
+- [ ] **Ongoing**: Compare AI recommendations vs. human overrides—patterns reveal bias
+
+::: warning ⚠️ Exam Pattern
+If a scenario asks "AI consistently recommends fewer overtime hours for one team," the correct answer involves **audit for bias, validate with diverse review, and address root cause**—never "accept because AI is objective."
+:::
+
+---
+
+## 📊 AI Fairness Metrics (Simplified for PMs)
+
+You don't need to calculate these yourself, but you must know when to ask for them.
+
+| Metric | What It Measures | When to Use |
+|---|---|---|
+| **Disparate Impact Ratio** | `(Rate for disadvantaged group) / (Rate for advantaged group)`. If < 0.8, likely bias. | Hiring, promotions, resource allocation |
+| **Equalized Odds** | Model accuracy is the same across groups (false positive/negative rates equal) | Risk scoring, loan approvals, performance predictions |
+| **Demographic Parity** | Positive outcomes distributed proportionally to group representation | Selection/recommendation systems |
+| **Individual Fairness** | Similar individuals receive similar outcomes | Case-by-case decisions (vendor selection, staffing) |
+
+**Practical Example: Resource Allocation AI**
+- AI recommends training budgets per team
+- Team A (mostly senior engineers): $50K average
+- Team B (mostly junior engineers): $15K average
+- **Disparate Impact Ratio**: $15K / $50K = 0.30 (< 0.8 threshold)
+- **Action**: Investigate. Is this justified (skill gap)? Or bias (investing only in already-advantaged)?
+
+---
+
+## 📋 Model Cards & Data Sheets (What to Ask Vendors)
+
+When procuring AI tools, require documentation that enables governance:
+
+### Model Card (for AI Models)
+| Element | What to Ask | Why It Matters |
+|---|---|---|
+| **Intended Use** | "What tasks is this model designed for?" | Avoid misuse; validate fit for purpose |
+| **Training Data** | "What data was used? Any known gaps?" | Understand bias sources |
+| **Performance Metrics** | "How accurate is it? For which populations?" | Know where it fails |
+| **Ethical Considerations** | "What risks did you identify and mitigate?" | Validate vendor responsibility |
+| **Limitations** | "Where should this NOT be used?" | Avoid costly mistakes |
+
+### Data Sheet (for Training Data)
+| Element | What to Ask | Why It Matters |
+|---|---|---|
+| **Collection Method** | "How was data gathered? Consent obtained?" | Privacy/compliance |
+| **Composition** | "What populations are represented? What's missing?" | Bias risk assessment |
+| **Preprocessing** | "What cleaning/filtering was done?" | Hidden assumptions |
+| **Maintenance** | "How often is data updated? Who owns it?" | Freshness and accountability |
+
+::: tip 💡 Procurement Integration
+Add Model Card requirements to your AI vendor SOW/RFP. If a vendor can't provide this documentation, that's a red flag for governance-conscious organizations.
+:::
+
+---
+
+## 🇪🇺 The EU AI Act (2024-2026) – PM Implications
+
+The EU AI Act is the world's first comprehensive AI law. Even non-EU projects may be affected (data from EU citizens, EU customers, global companies).
+
+### Risk Classification System
+
+| Risk Level | Examples | Requirements | PM Action |
+|---|---|---|---|
+| **Unacceptable** | Social scoring, real-time facial recognition (most cases) | **Banned** | Do not use; no exceptions |
+| **High-Risk** | Hiring/HR, credit scoring, critical infrastructure, education admissions | Strict compliance: risk assessments, documentation, human oversight | Full governance framework required; document everything |
+| **Limited Risk** | Chatbots, emotion recognition | Transparency obligations | Disclose AI use to users |
+| **Minimal Risk** | Spam filters, game AI, recommendation engines | No specific requirements | Standard best practices |
+
+### Key Requirements for High-Risk AI (PM Responsibilities)
+
+1. **Risk Management System**: Document risks throughout lifecycle
+2. **Data Governance**: Ensure training data is relevant, representative, error-free
+3. **Technical Documentation**: Maintain records of design, development, testing
+4. **Record-Keeping**: Log AI system actions for auditability
+5. **Transparency**: Provide clear instructions for users
+6. **Human Oversight**: Ensure humans can intervene, override, or shut down
+7. **Accuracy/Robustness**: Test and validate system performance
+
+### Timeline
+
+| Date | Milestone |
+|---|---|
+| August 2024 | AI Act entered into force |
+| February 2025 | Bans on unacceptable-risk AI take effect |
+| August 2025 | High-risk AI obligations begin |
+| August 2026 | Full enforcement for all provisions |
+
+::: warning ⚠️ Exam Relevance
+If a scenario mentions "AI used for hiring decisions" or "loan approval," the correct answer emphasizes **explainability, documentation, human oversight, and bias audit**—these are now legal requirements in many jurisdictions.
+:::
+
+---
+
+## 🔬 Worked Example: Bias Investigation Scenario
+
+**Scenario:** Your project uses AI to rank candidates for a technical training program. After 3 months, stakeholders notice that female candidates are selected at half the rate of male candidates.
+
+### Step 1: Contain (Don't Panic, Don't Delete)
+- Pause the AI ranking system immediately
+- Document current state (don't delete logs)
+- Communicate to stakeholders: "We've identified a potential bias issue and are investigating"
+
+### Step 2: Investigate Root Cause
+| Hypothesis | Investigation | Finding |
+|---|---|---|
+| Training data bias | Review historical selection data | Historical selections were 70% male → AI learned this pattern |
+| Feature bias | Check if certain features correlate with gender | "Years of experience" correlated with gender due to industry history |
+| Outcome definition bias | How was "successful candidate" defined? | Defined by past manager ratings, who showed bias |
+
+### Step 3: Quantify the Impact
+- Calculate Disparate Impact Ratio: Female selection rate / Male selection rate = 0.50
+- This is below the 0.8 threshold → confirms adverse impact
+
+### Step 4: Remediate
+| Action | Owner | Timeline |
+|---|---|---|
+| Remove "years of experience" from model inputs (or weight differently) | Data Science | 2 weeks |
+| Retrain model on de-biased dataset | Data Science | 4 weeks |
+| Add human review step for all selections | PM/HR | Immediate |
+| Monthly bias audit going forward | PM | Ongoing |
+
+### Step 5: Prevent Recurrence
+- Update AI Working Agreement to require bias testing before deployment
+- Add Disparate Impact Ratio check to Definition of Done for AI features
+- Training for team on AI fairness principles
+
+### Step 6: Communicate Resolution
+- To stakeholders: "We identified bias in historical training data. We've paused the system, retrained on balanced data, added human oversight, and will audit monthly. We take fairness seriously."
+- Document lessons learned for organizational knowledge base
+
+---
+
 <style>
 .resp-grid {
   display: grid;
