@@ -219,3 +219,234 @@ Use this to verify risk management effectiveness:
 | "How do two variables relate?" | **Scatter Diagram** | Show correlation (not causation) |
 | "Where are the bottlenecks in the process?" | **Flowchart** | Map process steps and identify waste |
 
+---
+
+## 📈 Monte Carlo Interpretation Guide
+
+How to read and use Monte Carlo simulation outputs:
+
+### Reading the S-Curve (Cumulative Distribution)
+
+| Position on Curve | Confidence Level | Use Case |
+|---|---|---|
+| **Left tail (10-20%)** | Low confidence | Best-case scenarios (rarely commit to these) |
+| **P50 (middle)** | 50% confidence | Base estimate (equal chance over/under) |
+| **P80** | 80% confidence | Typical commitment for external stakeholders |
+| **P90** | 90% confidence | High-confidence commitments; fixed-price bids |
+| **Right tail (95%+)** | Very high confidence | Safety margin; worst-case planning |
+
+### Common Questions Answered by Monte Carlo
+
+| Question | Monte Carlo Answer |
+|---|---|
+| "What's the chance we finish by June 30?" | Look up June 30 on the S-curve; read the % |
+| "When can we commit with 80% confidence?" | Find P80 on the chart; read the date |
+| "How much contingency do we need?" | P80 - P50 (or P90 - P50 for more buffer) |
+| "Which risks drive the most variance?" | Check sensitivity analysis (tornado chart) |
+
+---
+
+## 📐 PERT Formulas Quick Reference
+
+| Formula | Purpose | Calculation |
+|---|---|---|
+| **Expected Value** | Weighted average duration | (O + 4M + P) / 6 |
+| **Standard Deviation** | Single task variability | (P - O) / 6 |
+| **Variance** | For adding uncertainties | σ² = [(P - O) / 6]² |
+| **Project Variance** | Total critical path variance | Σ(task variances on CP) |
+| **Project σ** | For z-score calculation | √(Project Variance) |
+| **Z-Score** | Probability calculation | (Target - Expected) / σ |
+
+### Z-Score to Probability Table
+
+| z-score | Probability | Meaning |
+|---|---|---|
+| -1.64 | 5% | Very unlikely to meet target |
+| -1.28 | 10% | Unlikely |
+| 0.00 | 50% | Even chance |
+| 0.84 | 80% | Likely |
+| 1.00 | 84% | Good chance |
+| 1.28 | 90% | Very likely |
+| 1.64 | 95% | Almost certain |
+| 2.00 | 97.7% | Nearly guaranteed |
+
+---
+
+## 🎯 Risk Response Selection Flowchart
+
+Use this decision tree to select the best response strategy for threats:
+
+```
+Is the risk OUTSIDE your authority?
+├── YES → ESCALATE to program/portfolio level
+└── NO → Is the impact SEVERE and probability HIGH?
+         ├── YES → Can you ELIMINATE the cause?
+         │         ├── YES → AVOID (change approach/scope)
+         │         └── NO → Can you REDUCE impact OR probability?
+         │                  ├── YES → MITIGATE (reduce exposure)
+         │                  └── NO → Can you TRANSFER to third party?
+         │                           ├── YES → TRANSFER (insurance/contract)
+         │                           └── NO → ACCEPT (active: plan contingency)
+         └── NO → Is monitoring cost-effective?
+                  ├── YES → ACCEPT (active: monitor with triggers)
+                  └── NO → ACCEPT (passive: acknowledge only)
+```
+
+### Opportunity Response Selection
+
+```
+Is the opportunity OUTSIDE your control?
+├── YES → ESCALATE (let higher-ups pursue it)
+└── NO → Can you GUARANTEE the opportunity happens?
+         ├── YES → EXPLOIT (eliminate uncertainty, make it certain)
+         └── NO → Can you INCREASE the probability or impact?
+                  ├── YES → ENHANCE (take actions to boost it)
+                  └── NO → Can you PARTNER with others to realize it?
+                           ├── YES → SHARE (joint venture)
+                           └── NO → ACCEPT (take advantage if it occurs)
+```
+
+---
+
+## 📊 Process Capability Quick Reference
+
+### Interpreting Cp and Cpk
+
+| Scenario | Cp | Cpk | Diagnosis | Action |
+|---|---|---|---|---|
+| Capable & centered | ≥1.33 | ≈ Cp | Process is good | Maintain |
+| Capable but off-center | ≥1.33 | < Cp | Process is drifting | Re-center the mean |
+| Not capable | <1.33 | N/A | Too much variation | Reduce variation (improve process) |
+| Barely capable | 1.0-1.33 | N/A | At risk of defects | Investigate and improve |
+
+### Control Chart Signal Guide
+
+| Signal | What It Means | Action |
+|---|---|---|
+| Point outside UCL/LCL | Special cause (assignable) | Investigate immediately |
+| 7+ points on one side of mean | Non-random pattern (shift) | Investigate for systematic cause |
+| 7+ points trending up/down | Trend (drift) | Investigate before it goes OOC |
+| Points alternating up-down-up-down | Instability or tampering | Reduce over-adjustment |
+| Points clustered near the mean | Low variation (good!) | Maintain process |
+| Points clustered near control limits | High variation (bad) | Reduce variability |
+
+---
+
+## 💰 EMV and Decision Tree Calculator
+
+### Single Risk EMV
+```
+EMV = Probability × Impact
+
+Example: 30% chance of $100,000 loss
+EMV = 0.30 × (-$100,000) = -$30,000
+```
+
+### Multiple Risks (Sum EMVs)
+| Risk | Probability | Impact | EMV |
+|---|---|---|---|
+| R1 | 25% | -$80,000 | -$20,000 |
+| R2 | 40% | -$50,000 | -$20,000 |
+| R3 | 15% | -$200,000 | -$30,000 |
+| **Total** | | | **-$70,000** |
+
+**Contingency Reserve**: At minimum $70,000 for these known risks.
+
+### Decision Tree EMV Template
+```
+Decision: [Your Choice]
+├── Option A (Cost: $X)
+│   ├── Success (P%): Net Value = $Y × P% = $_
+│   └── Failure (1-P%): Net Value = $Z × (1-P%) = $_
+│   EMV(A) = Sum of above = $_
+│
+├── Option B (Cost: $X)
+│   ├── Success (P%): Net Value = $Y × P% = $_
+│   └── Failure (1-P%): Net Value = $Z × (1-P%) = $_
+│   EMV(B) = Sum of above = $_
+
+BEST CHOICE: Option with highest EMV
+```
+
+---
+
+## 📋 Integrated Risk-Quality-Complexity Review Template
+
+### Weekly Combined Review (15 minutes)
+
+**1. Risk Status Update (5 min)**
+- Any risks triggered or realized this week?
+- Top 3 risks: update status, actions taken
+- New risks identified?
+- Issue log: any issues requiring escalation?
+
+**2. Quality Status Update (5 min)**
+- Defects found this week (internal vs escaped)
+- Any quality audits or reviews conducted?
+- Process improvements implemented or needed?
+- DoD compliance: any stories that skipped quality steps?
+
+**3. Complexity Check (5 min)**
+- Any new dependencies or blockers discovered?
+- Stakeholder alignment: any conflicts emerging?
+- Technical surprises: anything harder than expected?
+- Team health: signs of burnout, confusion, or resistance?
+
+**4. Actions and Updates**
+- Update Risk Register
+- Update Issue Log
+- Update Lessons Learned
+- Adjust sprint backlog if needed
+
+---
+
+## 🧭 Cynefin Quick Decision Guide
+
+| If the situation feels... | You're in... | Do this... |
+|---|---|---|
+| Clear, obvious, everyone agrees | **Clear** | Apply best practice; standardize |
+| Needs expert analysis but solvable | **Complicated** | Analyze → decide → execute |
+| Unpredictable, learning required | **Complex** | Experiment → learn → adapt |
+| Crisis, chaos, no time to think | **Chaotic** | Act now → stabilize → reassess |
+| People disagree on which of the above | **Disorder** | Break it down; classify each part |
+
+---
+
+## 📊 Sigma Level Quick Reference
+
+| Sigma | DPMO | Yield | Is it good? |
+|---|---|---|---|
+| 1σ | 691,462 | 30.85% | Terrible |
+| 2σ | 308,538 | 69.15% | Poor |
+| 3σ | 66,807 | 93.32% | Acceptable |
+| 4σ | 6,210 | 99.38% | Good |
+| 5σ | 233 | 99.977% | Excellent |
+| 6σ | 3.4 | 99.99966% | World-class |
+
+---
+
+## ✅ Pre-Flight Checklists
+
+### Before Risk Planning Session
+- [ ] Risk Register template ready
+- [ ] Historical risks from similar projects reviewed
+- [ ] RBS (Risk Breakdown Structure) selected
+- [ ] Stakeholders invited (diverse perspectives)
+- [ ] Risk thresholds defined (from Risk Management Plan)
+
+### Before Quality Gate
+- [ ] All acceptance criteria documented
+- [ ] Checklists prepared
+- [ ] Inspectors/reviewers identified
+- [ ] Defect logging process ready
+- [ ] Root cause analysis tools available (if needed)
+
+### Before Complexity Decision
+- [ ] Project complexity scored
+- [ ] Delivery approach aligned with complexity level
+- [ ] Feedback loops designed
+- [ ] Experiment safe-to-fail boundaries defined
+- [ ] Escalation path clear
+
+
+
