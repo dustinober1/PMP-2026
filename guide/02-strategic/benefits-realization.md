@@ -15,6 +15,25 @@ Understand clearly the difference between what you build and the value it create
 
 ---
 
+## 📄 The Benefits Realization Plan (What “Good” Looks Like)
+On the exam, benefits are not “hopeful outcomes.” They are **planned, measured, and owned**.
+
+A strong benefits realization plan typically defines:
+- **Benefit statement** (what changes, for whom, and why it matters)
+- **Metric/KPI** and **baseline** (where we start)
+- **Target** and **timeframe** (what “success” means and when)
+- **Benefits owner** (accountable business role)
+- **Measurement method and frequency** (how often and how)
+- **Assumptions and risks** (what must be true)
+- **Sustainment actions** (training, support model, process changes)
+
+### Example KPI Definition
+| KPI | Baseline | Target | Owner | Measure |
+| :-- | :-- | :-- | :-- | :-- |
+| Expense approval cycle time | 10 days | 6 days within 90 days of rollout | Finance Ops Lead | System timestamps |
+
+---
+
 ## 🔄 The Benefits Lifecycle
 Benefits realization isn't a single event; it's a process that continues long after the project team disbands.
 
@@ -29,6 +48,14 @@ Benefits realization isn't a single event; it's a process that continues long af
 - **Business Owner / Sponsor**: Owns the realization of the **Benefit**.
 - *Example*: The PM builds the gym (Output), but the Sponsor is responsible for the users getting fit (Benefit).
 :::
+
+---
+
+## 📈 Leading vs. Lagging Indicators (Exam Favorite)
+- **Leading indicators** show early movement (training completion, adoption rate, usage).
+- **Lagging indicators** confirm final value (cost savings, revenue, NPS lift).
+
+If benefits are not appearing, PMI expects you to look first at **adoption and process change** (often a leading indicator problem), not just “more features.”
 
 ---
 

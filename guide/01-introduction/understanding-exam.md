@@ -31,8 +31,10 @@ The exam is designed to test your mental stamina and situational judgment over a
 | :------------------ | :----------------------------------------- |
 | **Total Questions** | 185 (175 scored, 10 unscored pretest)      |
 | **Total Time**      | 240 Minutes (4 Hours)                      |
-| **Breaks**          | Two optional 5-minute breaks               |
+| **Breaks**          | Two optional 10-minute breaks              |
+| **Sections**        | Three sections of ~60 questions each       |
 | **Languages**       | Distributed globally in multiple languages |
+| **Passing Score**   | Not disclosed; competency-based scoring    |
 
 ::: tip 💡 The "Review" Rule
 Once you finish a section and start your break, you **cannot** go back to those questions. You must complete your review before hitting the break button.
@@ -61,21 +63,184 @@ The 2026 ECO (Exam Content Outline) places high importance on the environment su
   </div>
 </div>
 
+### Domain Task Breakdown
+
+| Domain | Key Tasks Tested |
+|--------|------------------|
+| **People** | Managing conflict, leading teams, supporting team performance, empowering team members, ensuring team members are trained, building virtual teams, defining team ground rules, negotiating with stakeholders, collaborating with stakeholders, building shared understanding, engaging and supporting virtual teams, defining communication strategies, addressing impediments/obstacles/blockers, mentoring relevant stakeholders, applying emotional intelligence |
+| **Process** | Executing project with urgency, managing communications, assessing and managing risks, engaging stakeholders, planning and managing budget/resources/schedule/quality, integrating project activities, managing project changes, managing project artifacts, managing procurement, managing project knowledge |
+| **Business Environment** | Planning and managing project compliance, evaluating and delivering project benefits, evaluating and addressing internal and external changes, supporting organizational change, contributing to continuous improvement |
+
 ---
 
 ## 📝 Modern Question Formats
 Forget simple multiple-choice. The 2026 exam uses **Interactive Simulations**:
-- **Scenario Sets**: Multiple questions linked to a single project case study.
-- **Drag-and-Drop**: Aligning risks to responses or team members to RACI roles.
-- **Hotspots**: Identifying elements on a chart or burn-down graph.
-- **AI Scenarios**: Deciding how to act when an AI model identifies a project risk.
+
+### Question Types You'll Encounter
+
+| Type | Description | Time Allocation |
+|------|-------------|-----------------|
+| **Multiple Choice** | Traditional 4-option, single answer | ~60% of exam |
+| **Multiple Response** | Select 2-3 correct answers from 5-6 options | ~10% of exam |
+| **Matching** | Match items from two columns | ~10% of exam |
+| **Drag-and-Drop** | Sequence steps or categorize items | ~10% of exam |
+| **Hotspot** | Click on the correct area of an image/diagram | ~5% of exam |
+| **Fill-in-the-Blank** | Complete a statement or calculation | ~5% of exam |
+
+### Scenario Sets (Mini Case Studies)
+Some questions come in sets of 3-5 questions tied to a single project scenario. The scenario appears on the left, and questions appear on the right.
+
+**Example Scenario:**
+> *"Sarah is managing a hybrid software deployment project. The team uses 2-week sprints for development but follows a predictive approach for hardware installation. Three weeks before go-live, the vendor announces a 4-week delay in server delivery..."*
+
+Questions then test different aspects:
+1. What should Sarah do FIRST? *(Process)*
+2. How should Sarah communicate with the sponsor? *(People)*
+3. What is the impact on the business case? *(Business Environment)*
+
+### Sample Question Formats
+
+**Standard Multiple Choice:**
+> A project manager discovers the project is 15% over budget at the 50% completion point. The CPI is 0.87. What should the project manager do FIRST?
+> 
+> A. Inform the sponsor and request additional funding  
+> B. Reduce scope to bring costs back in line  
+> C. Analyze the root cause of the cost variance  
+> D. Document the variance and update the risk register
+
+*Correct: C - Always analyze before taking action.*
+
+**Multiple Response (Select Two):**
+> A Scrum Master notices that the team's velocity has declined for three consecutive sprints. Which TWO actions should the Scrum Master take?
+> 
+> A. Assign additional resources to the team  
+> B. Facilitate a retrospective to identify root causes  
+> C. Report the decline to the Product Owner immediately  
+> D. Observe the Daily Scrum for impediments  
+> E. Increase the sprint duration to allow more work
+
+*Correct: B and D - Facilitate discussion and observe before acting.*
+
+**Drag-and-Drop (Sequencing):**
+> Arrange the following change management steps in the correct order:
+> 
+> - Evaluate impact on baseline
+> - Submit change request
+> - Implement approved change
+> - Update project documents
+> - CCB reviews and decides
+
+*Correct Order: Submit → Evaluate → CCB reviews → Implement → Update*
+
+**Hotspot Example:**
+> Given the burn-down chart below, click on the area that indicates when the team first fell behind the ideal line.
+
+*You would click on the exact point where the actual line diverges above the ideal line.*
+
+---
+
+## 🧠 The PMP Mindset
+Passing the exam requires adopting a specific "Servant Leader" mental model. When answering questions, always filter your choices through these principles:
+
+### The "FIRST" Test
+When a question asks "What should you do FIRST?":
+1. **Analyze/Assess** before acting
+2. **Consult** stakeholders before escalating
+3. **Address the root cause**, not symptoms
+4. **Follow process** before improvising
+
+### The Servant Leader Framework
+
+| Traditional Manager 🚫 | Servant Leader ✅ |
+|------------------------|-------------------|
+| Directs and controls | Coaches and facilitates |
+| Punishes mistakes | Creates learning opportunities |
+| Hoards information | Shares knowledge openly |
+| Makes all decisions | Empowers team decisions |
+| Focuses on tasks | Focuses on people |
+| Avoids conflict | Addresses conflict constructively |
+
+### The 5 Pillars of the PMP Mindset
+
+1.  **Analyze First**: Never take action (like firing a vendor or crashing a schedule) before assessing the impact. If "Analyze" or "Assess" is an option, it is usually the first step.
+2.  **Servant Leadership**: Empower the team. Remove blockers. Don't "direct" or "punish."
+3.  **Face-to-Face**: Direct collaboration is better than emails or rigid documents.
+4.  **Be Proactive**: Don't wait for a risk to happen. Don't escalate a problem to the sponsor until you have a solution or have exhausted your authority.
+5.  **Integrity**: Never lie, hide info, or cut corners on quality/safety.
+
+### Common Exam Traps
+
+| Trap | Why It's Wrong | Better Answer |
+|------|----------------|---------------|
+| "Tell the team to work overtime" | Violates sustainable pace; treats symptoms | Address root cause; negotiate scope |
+| "Escalate to the sponsor immediately" | Bypasses your authority; no analysis | Analyze first, then propose solutions |
+| "Update the project plan to reflect actual" | Changes baseline without approval | Follow change control process |
+| "Document the issue and continue" | Passive; doesn't solve problem | Take proactive corrective action |
+| "Fire/replace the underperformer" | Punitive; no root cause analysis | Coach, mentor, find root cause |
+| "Add resources to speed up" | May not help; Brooks's Law | Analyze critical path first |
+
+---
+
+## ⏱️ Time Management Strategy
+
+You have **240 minutes** for **185 questions** = ~1.3 minutes per question.
+
+### Recommended Pacing
+
+| Phase | Questions | Time | Strategy |
+|-------|-----------|------|----------|
+| **Section 1** | ~60 | 75-80 min | Get into rhythm; mark uncertain questions |
+| **Break 1** | - | 10 min | Stand, stretch, hydrate |
+| **Section 2** | ~60 | 75-80 min | Core content; most intensive |
+| **Break 2** | - | 10 min | Mental reset |
+| **Section 3** | ~65 | 70-75 min | Final push; may feel harder due to fatigue |
+| **Buffer** | - | ~10 min | Review marked questions |
+
+### Time Management Tips
+
+1. **Don't dwell**: If stuck after 90 seconds, mark and move on
+2. **First instinct**: Your first answer is usually correct; don't change without clear reason
+3. **Read completely**: Many wrong answers are designed to trap speed-readers
+4. **Eliminate obviously wrong**: Remove 1-2 options to improve odds
+5. **Answer everything**: No penalty for guessing; never leave blanks
+6. **Watch the clock**: Check time after every 20 questions
 
 ---
 
 ## 🏛️ Eligibility: 10-Year Window
 PMI has expanded the window for qualifying experience:
-- **Degree Holders**: 36 months of leadership within the last 10 years + 35 contact hours.
-- **Non-Degree Holders**: 60 months of leadership within the last 10 years + 35 contact hours.
+
+| Pathway | Education | Experience Required | Training |
+|---------|-----------|---------------------|----------|
+| **Path 1** | Four-year degree | 36 months leading projects (within last 10 years) | 35 contact hours |
+| **Path 2** | High school/secondary | 60 months leading projects (within last 10 years) | 35 contact hours |
+
+### What Counts as "Leading Projects"?
+- Managing project scope, schedule, cost, or quality
+- Leading teams or workstreams
+- Managing stakeholder expectations
+- **Note**: You don't need the title "Project Manager"
+
+---
+
+## 🎓 Exam Day Logistics
+
+### Before the Exam
+- **ID**: Government-issued photo ID required
+- **Prometric Testing**: Arrive 30 minutes early
+- **Online Proctored**: Test your system 24 hours before
+- **Review policies**: Know what's allowed in the testing room
+
+### During the Exam
+- **Calculator**: On-screen calculator provided
+- **Scratch paper**: Virtual whiteboard provided
+- **Breaks**: Optional; clock stops during breaks
+- **Flags**: Mark questions for review within section
+
+### After the Exam
+- **Results**: Immediate pass/fail displayed on screen
+- **Score Report**: Detailed breakdown by domain within a few days
+- **Certification**: Certificate mailed within 4-6 weeks
 
 <style>
 .shift-grid, .domain-grid {

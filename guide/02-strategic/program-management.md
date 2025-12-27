@@ -16,6 +16,17 @@ If a Project Manager asks "Are we building it right?", the Program Manager asks 
 
 ---
 
+## 📄 Program Artifacts (What Shows Up in Exam Scenarios)
+| Artifact | Purpose | Typical owner |
+| :-- | :-- | :-- |
+| **Program charter** | Authorizes the program and defines intended benefits | Sponsor / Program steering |
+| **Program roadmap** | Sequencing, outcomes, and major milestones | Program manager |
+| **Benefits register** | Lists benefits, measures, owners, timelines | Program manager + benefits owners |
+| **Program risk register** | Cross-project risks and systemic risks | Program manager |
+| **Dependency log** | Cross-project blockers and interface points | Program manager + project managers |
+
+---
+
 ## 🗺️ The Program Roadmap
 A **Program Roadmap** is a high-level visual timeline of the program's components. In 2026, these are increasingly **Adaptive Roadmaps**:
 
@@ -53,6 +64,10 @@ When your project is part of a program, your leadership style must shift:
 *   **Think Globally**: Accept that your project might need to pivot to support the program's success.
 *   **Manage Interfaces**: Spend more time communicating with other Project Managers to manage cross-project risks.
 *   **Escalate Dependencies**: Flag it immediately if another project's delay threatens your timeline.
+
+::: warning 🚦 Common Trap
+Do not optimize your project at the expense of the program. On the exam, the right move is usually to **coordinate and escalate**, not to “win” a resource conflict.
+:::
 
 <style>
 .governance-grid {

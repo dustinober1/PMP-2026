@@ -3,7 +3,7 @@
 Projects do not exist in a vacuum. A project manager's success in 2026 is measured by how well their work aligns with organizational strategy, complies with global governance, and delivers **sustainable value**.
 
 ::: info 📊 2026 Domain Shift
-The **Business Environment domain is 8% of the exam**, but it influences 100% of your decisions. A "perfect" project that fails to align with strategy is a failed project.
+The **Business Environment domain is 26% of the exam**, but it influences 100% of your decisions. A "perfect" project that fails to align with strategy is a failed project.
 :::
 
 ---
@@ -36,6 +36,12 @@ This chapter helps you bridge the gap between high-level ambition and daily exec
     <a href="./organizational-change" class="section-link">Lead Change →</a>
   </div>
 
+  <div class="section-card">
+    <div class="section-title">2.5 Program Management</div>
+    <p class="section-description">Understand how benefits and interdependencies are managed across multiple related projects.</p>
+    <a href="./program-management" class="section-link">Think in Programs →</a>
+  </div>
+
   <div class="section-card knowledge-check">
     <div class="section-title">Knowledge Check</div>
     <p class="section-description">Test your ability to connect project decisions to business strategy.</p>
@@ -50,6 +56,15 @@ You are no longer just a technical executor. You are a **Business Leader**.
 *   **Sustainability**: Every project must have an [ESG] component.
 *   **Compliance**: You are the first line of defense for data privacy and regulatory adherence.
 *   **Change**: You don't just build the tool; you ensure the organization is ready to *use* it.
+
+::: tip 💡 How to Study This Chapter
+If you're short on time, focus on this sequence:
+1. `strategy-selection` (how work gets chosen)
+2. `portfolio-concepts` + `program-management` (how work gets coordinated)
+3. `benefits-realization` + `benefits-value` (how success is measured)
+4. `compliance-governance` + `external-environment` (how constraints and changes impact delivery)
+5. `organizational-change` (how value actually gets adopted)
+:::
 
 <style>
 .section-grid {

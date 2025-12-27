@@ -4,6 +4,12 @@
 
 ---
 
+## 🧭 The PMP Mindset: Adoption Is Part of “Done”
+If the project delivers the tool but nobody uses it, value is not realized. PMI expects you to plan for:
+- **Readiness** (are people prepared?)
+- **Adoption** (are people actually using it?)
+- **Sustainment** (will the behavior stick?)
+
 ## 👥 The Adoption Gap
 The chasm between "Output" and "Outcome" is human adoption.
 
@@ -34,10 +40,14 @@ You must know the language of change dynamics.
     <div class="change-title">Kotter's 8 Steps</div>
     <div class="change-tag">Organizational</div>
     <ul>
-      <li>Create Urgency</li>
-      <li>Form Coalition</li>
-      <li>Create Vision</li>
-      <li>Generate Short-term Wins</li>
+      <li>Create a sense of urgency</li>
+      <li>Build a guiding coalition</li>
+      <li>Form a strategic vision</li>
+      <li>Enlist a volunteer army</li>
+      <li>Enable action by removing barriers</li>
+      <li>Generate short-term wins</li>
+      <li>Sustain acceleration</li>
+      <li>Institute change</li>
     </ul>
   </div>
   <div class="change-card lewin">
@@ -53,12 +63,51 @@ You must know the language of change dynamics.
 
 ---
 
+## 📄 The Change Management Plan (What It Typically Contains)
+In practice (and on the exam), change is supported by a set of coordinated plans:
+- **Change impact assessment** (who is impacted and how)
+- **Stakeholder engagement and communications** (messages, channels, cadence)
+- **Training and support model** (learning paths, job aids, help desk)
+- **Change champion network** (local advocates)
+- **Resistance management approach** (how feedback is captured and acted on)
+- **Adoption and benefit metrics** (how you measure readiness and usage)
+
+### Example Adoption Metrics
+| Metric | Why it matters | Example |
+| :-- | :-- | :-- |
+| Training completion | Readiness signal | 95% complete before go-live |
+| Active usage | Adoption signal | 80% weekly active users |
+| Process compliance | Behavior signal | 90% of requests in new system |
+| Support tickets trend | Friction signal | Tickets decrease after week 4 |
+
+---
+
 ## 🛑 Managing Resistance
 Resistance is a natural reaction to fear. Do not punish it; manage it.
 
 *   **Root Cause**: Are they resisting because they *can't* do it (Lack of Knowledge) or because they *won't* do it (Lack of Desire)?
 *   **WIIFM**: Communicate the benefits to *them*, not just the company.
 *   **Saturation Check**: If the org is undergoing 5 changes simultaneously, adding a 6th will fail regardless of quality. The strategic move is to **Delay**.
+
+::: tip 💡 ADKAR Diagnosis Shortcut
+If training is excellent but adoption is still low, you usually have a **Desire** problem (motivation, fear, incentives), not a Knowledge problem.
+:::
+
+---
+
+## 🧬 Culture vs. Strategy
+Peter Drucker famously said, *"Culture eats strategy for breakfast."*
+
+*   **Culture**: The shared values and "unwritten rules" of the organization (e.g., "We value speed over perfection" or "We never deliver bad news upwards").
+*   **Strategy**: The plan to achieve goals.
+
+**Exam Insight**: If your project strategy conflicts with the culture (e.g., trying to implement "Fail Fast" Agile in a culture that punishes all errors), the project will fail unless you address the culture first. You cannot install a tool that violates the culture.
+
+## 🔄 Agile Change Management
+In predictive projects, change is often a "Big Bang" at the end. In Agile, change is **iterative**:
+*   **Continuous Feedback**: Users see the tool every 2 weeks, so resistance is caught early.
+*   **Co-Creation**: Stakeholders help build the solution, so "Desire" (from ADKAR) is built-in.
+*   **Minimal Viable Change**: Introduce small shifts incrementally rather than one massive shock.
 
 <style>
 .change-grid {

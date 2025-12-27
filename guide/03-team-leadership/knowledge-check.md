@@ -64,6 +64,66 @@ Test your EQ and leadership mindset to handle the most unpredictable part of any
       correct: 1,
       explanation: 'Empathy (EQ) is key. Making a personal connection during *their* hours shows respect and inclusion.',
       reference: 'Section 3.1d'
+    },
+    {
+      text: 'A highly cohesive team has been working together for 6 months and is in the Performing stage. A new key technical lead joins the team today. What stage is the team likely in now?',
+      options: [
+        'Performing (they absorb the new member)',
+        'Norming (they explain the rules)',
+        'Storming (dynamics shift and roles are tested)',
+        'Adjourning (the old team is gone)'
+      ],
+      correct: 2,
+      explanation: 'Teams are fragile ecosystems. Adding or removing a key member almost always regresses the team back to Forming or Storming as they re-establish social dominance and roles.',
+      reference: 'Section 3.1b'
+    },
+    {
+      text: 'A safety violation has occurred on the construction site that puts lives at risk. The team is debating the best way to fix the safety guard. What is the appropriate leadership style?',
+      options: [
+        'Servant Leadership (ask the team what they want to do)',
+        'Laissez-faire (let the experts handle it)',
+        'Democratic (take a vote)',
+        'Directing (order the work stopped immediately)'
+      ],
+      correct: 3,
+      explanation: 'While Servant Leadership is the default, in matters of SAFETY or severe compliance, a Directive/Autocratic style is required to protect people immediately.',
+      reference: 'Section 3.2'
+    },
+    {
+      text: 'Two department heads have a fundamental disagreement about the project scope. Both are powerful. You want a solution that resolves the root cause so it does not happen again. Which technique is best?',
+      options: [
+        'Smoothing (emphasize areas of agreement)',
+        'Collaborate / Problem Solve',
+        'Compromise (split the difference)',
+        'Forcing (ask the sponsor to decide)'
+      ],
+      correct: 1,
+      explanation: 'Collaborate (Problem Solving) is the only technique that leads to a Win-Win and resolves the root cause. Compromise is often a temporary fix (Lose-Lose).',
+      reference: 'Section 3.3'
+    },
+    {
+      text: 'During a sprint retrospective, a usually vocal team member is silent and looking at the floor. You suspect they are upset about a comment made earlier. Which EQ domain are you using?',
+      options: [
+        'Self-Management',
+        'Social Awareness',
+        'Relationship Management',
+        'Self-Awareness'
+      ],
+      correct: 1,
+      explanation: 'Social Awareness is the ability to perceive the emotions of others (reading the room). Relationship Management would be the *action* you take next.',
+      reference: 'Section 3.2'
+    },
+    {
+      text: 'A team member is struggling to complete a task because they lack specific technical knowledge. They are hardworking and eager to learn. What is your BEST course of action?',
+      options: [
+        'Assign the task to a senior developer instead',
+        'Schedule training or pair programming for them',
+        'Put them on a Performance Improvement Plan',
+        'Ask them to figure it out (Autonomy)'
+      ],
+      correct: 1,
+      explanation: 'If a team member has “Low Skill” but “High Will”, the Servant Leader provides Coaching and Training (S2 style). Replacing them ignores the opportunity for growth.',
+      reference: 'Section 3.2'
     }
   ]"
 />

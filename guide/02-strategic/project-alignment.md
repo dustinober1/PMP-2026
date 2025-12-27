@@ -4,6 +4,16 @@ Individual projects can fail in isolation if their interdependencies aren't mana
 
 ---
 
+## 🧭 What “Alignment” Looks Like Inside a Program
+Program alignment is about keeping multiple projects moving toward the **same outcomes and benefits**.
+
+Common alignment mechanisms:
+- **Program roadmap** (sequencing + outcomes)
+- **Benefits map / benefits register** (why each project exists)
+- **Dependency log** (what is blocked by what)
+- **Integrated change control at the program level** (so one project’s change does not break another)
+- **Regular cross-project coordination** (syncs, demos, roadmap reviews)
+
 ## 🔗 The Synergy Engine
 Why group projects into a Program?
 
@@ -38,6 +48,16 @@ A dependency is where one project holds the key to another's success.
 ::: tip 💡 Integrated Roadmaps
 Program Managers use **Integrated Master Schedules** to visualize these dependencies. If Project A slips by 2 weeks, the software automatically highlights the crash in Project B.
 :::
+
+---
+
+## 🧩 Dependency Types (And How They Fail)
+| Dependency type | Example | Common failure mode | PMI-aligned response |
+| :-- | :-- | :-- | :-- |
+| **Finish-to-start** | API must exist before app integration | Upstream delay cascades | Re-plan, escalate, adjust milestones |
+| **Resource** | Same architect needed in two projects | Hidden conflict / double-booking | Escalate through program governance |
+| **External** | Permit, vendor delivery, regulator approval | Outside your control | Early engagement + risk response plans |
+| **Technical interface** | Data format contracts | Teams make incompatible changes | Interface agreements + integration testing |
 
 ---
 

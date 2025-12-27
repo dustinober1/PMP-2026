@@ -4,6 +4,25 @@ Value is the net result of realized benefits minus the costs required to achieve
 
 ---
 
+## 🧭 Value Delivery System (How Value Actually Reaches Customers)
+Projects create value when deliverables flow through a **value delivery system**:
+
+1. **Idea / Opportunity** → identified through strategy and environmental scanning
+2. **Selection** → funded because it supports objectives and benefits
+3. **Delivery** → outputs created (product, process, capability)
+4. **Adoption** → people use it (change management)
+5. **Realization** → benefits measured and sustained (operations ownership)
+
+This is why the PMP exam increasingly rewards **incremental delivery** and early validation: value is discovered and confirmed over time.
+
+## 📦 Agile Value: MVP vs. MBI
+In Agile, we deliver value in small packages. Know the difference:
+
+*   **MVP (Minimum Viable Product)**: The smallest thing you can build to **learn** if your hypothesis is true. (Focus: Learning/Risk Reduction).
+*   **MBI (Minimum Business Increment)**: The smallest piece of value that can be **released** to a customer to generate ROI. (Focus: Value/Revenue).
+
+**Exam Insight**: You might build an internal MVP to test a theory, but you release an MBI to the market to get paid.
+
 ## 💎 The Value Equation
 Traditional PM focused on Scope, Time, and Cost. The modern PM focuses on the **Triple Bottom Line**:
 
@@ -37,12 +56,29 @@ A critical role. This is the business person (not the PM) who is responsible for
 
 ---
 
+## 💰 Financial Value (Fast Exam Reference)
+- **ROI**: (Benefits − Costs) / Costs. Higher is better.
+- **NPV**: Present value of future cash flows minus initial investment. Positive NPV is usually desirable.
+- **Payback period**: How fast you recover the investment. Shorter is usually preferred.
+
+::: info 📌 Reminder
+Financial metrics help compare options, but **compliance, safety, and ethics can override** them.
+:::
+
+---
+
 ## 🌱 ESG: Integration, Not Add-on
 In 2026, ESG (Environmental, Social, Governance) is a **constraint**.
 
 *   **Environmental**: Choosing a "Green" cloud provider or reducing material waste.
 *   **Social**: Ensuring fair wages in the supply chain.
 *   **Governance**: Strict adherence to anti-corruption laws.
+
+### Where ESG Gets “Baked In”
+- **Requirements and acceptance criteria** (what must be true at delivery)
+- **Procurement criteria** (vendor due diligence, ethical sourcing)
+- **Design decisions** (energy usage, data minimization, accessibility)
+- **Reporting** (how the organization proves compliance)
 
 <style>
 .value-grid {

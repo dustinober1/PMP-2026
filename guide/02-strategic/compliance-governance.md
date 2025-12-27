@@ -4,6 +4,13 @@ Projects operate within a web of "Unwritten Rules" (Politics) and "Written Laws"
 
 ---
 
+## 📚 Compliance vs. Standards vs. Policy (Know the Difference)
+- **Law / regulation**: External, mandatory (e.g., privacy regulations, safety requirements).
+- **Standard**: Agreed minimum practices (industry, security, quality). May be optional until adopted by contract or regulation.
+- **Organizational policy**: Internal rules (procurement thresholds, approval paths, code of conduct).
+
+On the exam, when these conflict: **laws and safety win**.
+
 ## ⚖️ The Compliance Radar
 Compliance failures are **business threats**, not just risks.
 
@@ -46,12 +53,45 @@ Who makes the call?
 
 ---
 
+## 🔄 Agile Governance (Adaptive Oversight)
+Governance does not go away in Agile; it changes shape.
+*   **Instead of "Phase Gates":** We have **System Demos** and **Retrospectives**.
+*   **Instead of "Detailed Plans":** We govern against the **Product Vision** and **Roadmap**.
+*   **Empirical Control**: Decisions are made based on observed data (working software), not predicted data (Gantt charts).
+
+---
+
+## 🧭 Who Does What? (Governance Bodies You’ll See in Questions)
+| Group / role | Typical focus | Typical authority |
+| :-- | :-- | :-- |
+| **Sponsor** | Funding, business outcomes | Approves charter; escalations |
+| **Steering committee** | Strategic direction | Continue/pivot/stop; major funding decisions |
+| **PMO** | Standards, templates, reporting | Enforces process; supports governance |
+| **CCB (Change Control Board)** | Baseline changes | Approves/rejects change requests (scope/schedule/cost) |
+| **Legal / Compliance** | Regulatory interpretation | Confirms requirements; audits; escalations |
+
+::: tip 💡 Exam Shortcut
+If the decision is about **strategy or funding**, think “steering committee / portfolio.” If it is about **baseline change**, think “change control.”
+:::
+
+---
+
 ## 🧩 The Ethical Compass
 PMI mandates four core values: **Responsibility, Respect, Fairness, and Honesty**.
 
 *   **Conflict of Interest**: If you own stock in a vendor, you must **Disclose** it and recuse yourself from the selection process.
 *   **Bribery**: Zero tolerance. Even a "facilitation payment" (grease payment) is questionable globally and strictly banned by PMI ethics.
 *   **Truth**: Never lie about project status (The "User-friendly" Traffic Light). If the project is Red, report Red.
+
+---
+
+## 🔐 Data Privacy & AI (Common 2026 Exam Theme)
+If your project collects or uses personal data (especially for AI training), exam-safe behaviors include:
+- **Minimize** data collection (collect only what is needed)
+- **Obtain consent** (and honor opt-out where required)
+- **Secure** data (access control, encryption, logging)
+- **Control retention** (do not keep data forever “just in case”)
+- **Document** decisions (traceability to requirements and approvals)
 
 <style>
 .compliance-grid {

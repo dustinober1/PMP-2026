@@ -4,6 +4,15 @@
 
 ---
 
+## 🧠 The PMP Decision Rule
+Selection questions test whether you can distinguish between:
+- **Desirable work** (interesting, popular, “nice to have”)
+- **Viable work** (fits capacity, timing, risk appetite)
+- **Mandatory work** (compliance, safety, legal)
+- **Strategic work** (directly supports objectives and measurable value)
+
+If work is **not aligned**, the PMI-aligned response is to **re-evaluate the business case**, **re-prioritize**, or **recommend termination**.
+
 ## 🏗️ Strategic Lenses
 Leaders use these frameworks to find gaps in their strategy.
 
@@ -42,6 +51,46 @@ Not all projects are created equal. They fall into three buckets:
 ::: danger 🛑 The Compliance Trap
 **Compliance projects are non-negotiable.** Even if they have a negative NPV (they cost money and generate zero revenue), they must be done to keep the license to operate.
 :::
+
+---
+
+## 🧮 Benefit Measurement Methods (How Organizations Compare Options)
+Selection is often a combination of **financial** and **strategic** criteria.
+
+| Method | What it means (plain English) | When it is useful | Common exam clue |
+| :-- | :-- | :-- | :-- |
+| **NPV** | Future money, converted to today’s dollars | Comparing long-term investments | Mentions “discount rate” or “present value” |
+| **ROI** | Return relative to cost | Quick financial sanity check | Mentions “benefits vs costs” |
+| **Payback Period** | How fast you recover the investment | Cash-constrained organizations | Mentions “time to recoup” |
+| **Benefit/Cost Ratio** | Benefits divided by costs | Ranking multiple options | Mentions “ratio” or “BCR” |
+| **Scoring Model** | Weighted criteria (value, risk, compliance, capacity) | Comparing mixed/uncertain options | Mentions “score”, “ranking”, “weights” |
+
+::: tip 💡 Scoring Model Example
+If “Strategic Fit” is weighted at 40% and “Risk” is weighted at 20%, a project with perfect ROI but poor fit may still lose.
+:::
+
+---
+
+## 💰 Critical Financial Concepts (The "Trap" Concepts)
+The exam loves to trick you with these. Know them cold:
+
+| Concept | Definition | The Exam Rule |
+| :-- | :-- | :-- |
+| **Sunk Cost** | Money already spent that cannot be recovered. | **Ignore it.** Never make a future decision based on "saving" past spend. If a project is failing, the $1M you already spent is irrelevant. |
+| **Opportunity Cost** | The value of the "next best alternative" you didn't choose. | If you choose Project A ($100k value) over Project B ($80k value), the Opportunity Cost is **$80k**. |
+| **IRR (Internal Rate of Return)** | The projected annual growth rate of the investment. | **Higher is better.** If choosing between Project A (IRR 12%) and Project B (IRR 8%), choose A (all else being equal). |
+| **Law of Diminishing Returns** | The point where adding more input (money/people) yields less output. | Adding more people to a late project often makes it later (Brooks' Law). |
+
+---
+
+## 🧩 Non-Financial Selection Filters (Often the Real Deciders)
+Even a high-ROI idea can be rejected if it fails critical constraints:
+
+- **Risk appetite / risk threshold** (is the organization willing to take this risk now?)
+- **Capacity** (do we have the people and skills?)
+- **Time criticality** (regulatory deadlines, competitive window)
+- **Dependencies** (blocked by another program/project)
+- **ESG / ethics** (vendor behavior, sustainability constraints)
 
 ---
 

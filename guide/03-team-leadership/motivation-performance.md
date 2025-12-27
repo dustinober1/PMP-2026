@@ -33,6 +33,23 @@ You must master ONE of these for the exam.
       <p><strong>Theory Y</strong>: "People want to contribute." (Manager = Servant Leader).</p>
     </div>
   </div>
+  <div class="theory-card maslow">
+    <div class="theory-title">Maslow's Hierarchy</div>
+    <div class="theory-content">
+      <p>People cannot focus on "Self-Actualization" (Creativity/Problem Solving) if they are worried about "Safety" (Job Security) or "Physiological" needs.</p>
+    </div>
+  </div>
+  <div class="theory-card drive">
+    <div class="theory-title">Pink's Drive</div>
+    <div class="theory-content">
+      <p>Modern knowledge workers are motivated by:</p>
+      <ul>
+        <li><strong>Autonomy</strong>: Self-direction.</li>
+        <li><strong>Mastery</strong>: Getting better at stuff.</li>
+        <li><strong>Purpose</strong>: Contributing to a cause.</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 ---

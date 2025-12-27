@@ -48,6 +48,38 @@ You cannot treat every team member the same. You must adapt to their readiness.
 
 ---
 
+## 🎭 Common Leadership Styles
+Beyond "Servant," you must recognize these other archetypes on the exam.
+
+<div class="style-grid">
+  <div class="style-card s-lazy">
+    <div class="style-head">Laissez-Faire</div>
+    <p>"Hands-off." The team makes their own decisions. Effective with experts, but chaos with junior teams.</p>
+  </div>
+  <div class="style-card s-trans">
+    <div class="style-head">Transactional</div>
+    <p>"Do X, get Y." Management by exception. Focuses on goals, rewards, and penalties.</p>
+  </div>
+  <div class="style-card s-serv">
+    <div class="style-head">Servant</div>
+    <p>"Team first." Focuses on growth, learning, well-being, and removing blockers. (Agile preference).</p>
+  </div>
+  <div class="style-card s-form">
+    <div class="style-head">Transformational</div>
+    <p>"Inspire change."Empowers the team to innovate and evolve the organization. High energy/enthusiasm.</p>
+  </div>
+  <div class="style-card s-char">
+    <div class="style-head">Charismatic</div>
+    <p>"Follow me." Driven by the leader's strong personality and conviction. High energy but can be ego-driven.</p>
+  </div>
+  <div class="style-card s-inter">
+    <div class="style-head">Interactional</div>
+    <p>"Hybrid." A blend of transactional, transformational, and charismatic based on the situation.</p>
+  </div>
+</div>
+
+---
+
 ## 🧠 Emotional Intelligence (EQ)
 EQ is the "secret sauce" of leading through crisis.
 *   **Self-Awareness**: "I am angry right now." (Recognizing triggers).

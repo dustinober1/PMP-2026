@@ -4,6 +4,18 @@ Strategic alignment is the discipline of ensuring that the **right work** gets d
 
 ---
 
+## 🎯 What Strategic Alignment Means (On the PMP Exam)
+On the exam, “strategic alignment” is not a slogan. It is a **decision filter** you use every time you:
+
+- Approve, reject, or re-prioritize work
+- Recommend a scope change (or *refuse* one)
+- Escalate a major risk or regulatory change
+- Recommend a project be paused or closed because the expected value is gone
+
+::: tip 💡 The PMI Mindset
+If a project is “green” (on time/budget) but is no longer valuable or compliant, it is **not successful**. The right answer is usually: **raise it to governance and recommend a strategic decision**.
+:::
+
 ## 🔭 The Strategic Hierarchy
 Great project management connects daily execution to organizational objectives.
 
@@ -24,6 +36,20 @@ Great project management connects daily execution to organizational objectives.
     <p>Delivering specific deliverables that contribute to the broader vision. (Doing the work right).</p>
   </div>
 </div>
+
+---
+
+## 🧰 The Alignment Toolkit (Artifacts You Must Recognize)
+These artifacts show up in exam questions as clues for *where you are* in the lifecycle and *who decides what*.
+
+| Artifact | What it answers | Owned by (primary) | Used when |
+| :-- | :-- | :-- | :-- |
+| **Business Case** | “Should we invest, and why?” | Sponsor / Business | Selection & funding decisions |
+| **Project Charter** | “Are we authorized to start?” | Sponsor (authorizes) / PM (uses) | Initiating; formal start |
+| **Benefits Realization Plan** | “How will value be measured and sustained?” | Benefits Owner / Business | Planning through sustainment |
+| **Roadmap** (Product/Program) | “What outcomes come when?” | Product Owner / Program | Coordinating delivery & dependencies |
+| **KPIs / OKRs** | “How do we know we are winning?” | Business leadership | Ongoing value validation |
+| **Governance Reviews** | “Continue, pivot, pause, or stop?” | Steering committee / Portfolio | Stage gates / periodic reviews |
 
 ---
 
@@ -48,6 +74,24 @@ How does strategy actually reach the project team?
     <p class="section-description">Maintaining the thread between the PMO, strategic roadmaps, and daily task execution.</p>
     <a href="./project-alignment" class="section-link">Verify Alignment →</a>
   </div>
+
+  <div class="section-card">
+    <div class="section-title">2.1d Benefits</div>
+    <p class="section-description">Translate deliverables into measurable outcomes and benefits owned by the business.</p>
+    <a href="./benefits-realization" class="section-link">Track Benefits →</a>
+  </div>
+
+  <div class="section-card">
+    <div class="section-title">2.1f Environment</div>
+    <p class="section-description">Monitor external changes (PESTLE) and respond with impact assessments and change control.</p>
+    <a href="./external-environment" class="section-link">Scan the Horizon →</a>
+  </div>
+
+  <div class="section-card">
+    <div class="section-title">2.1h PMO</div>
+    <p class="section-description">Use the PMO as a force-multiplier for standards, governance, templates, and value tracking.</p>
+    <a href="./pmo-role" class="section-link">Leverage the PMO →</a>
+  </div>
 </div>
 
 ---
@@ -56,6 +100,21 @@ How does strategy actually reach the project team?
 Strategic alignment is not a "set it and forget it" activity.
 *   **Pivot or Persevere**: Having the courage to recommend project cancellation if the strategic value evaporates.
 *   **PESTLE Scanning**: Watching the horizon (Political, Economic, Social) for shifts that impact project viability.
+
+---
+
+## 🔁 The Continuous Alignment Loop (A Simple Decision Model)
+Use this when an exam question introduces “new information” mid-project (market shift, regulatory change, leadership pivot).
+
+1. **Detect**: Identify the change (signal, trigger, new constraint).
+2. **Assess**: Evaluate impacts to scope/cost/schedule *and* value/benefits.
+3. **Escalate**: Bring options to governance (continue, pivot, pause, stop).
+4. **Decide**: Governance chooses; the PM executes the decision.
+5. **Update**: Update baselines, risks, and communications; reinforce adoption.
+
+::: warning 🚦 Common Trap
+Do not “self-cancel” a project unless you have explicit authority. The PMI-aligned move is to **recommend** cancellation and support an orderly closure.
+:::
 
 <style>
 .hierarchy-grid {

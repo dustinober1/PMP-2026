@@ -30,6 +30,20 @@ A mature PMO provides several high-value services:
 - **Knowledge Management**: Capturing "lessons learned" from finished projects to prevent future mistakes.
 - **Tooling**: Providing AI assistants or project management software.
 
+---
+
+## 🧭 When the PMO Is the Best Answer (Common Exam Scenarios)
+Go to the PMO when you need:
+- **A template, standard, or policy** (how the organization expects work to be done)
+- **Help tailoring a methodology** to fit constraints (hybrid guardrails, required artifacts)
+- **Portfolio visibility** (reporting, metrics, governance cadence)
+- **Cross-project support** (resource conflicts, dependency coordination)
+- **Assurance** (health checks, audits, coaching)
+
+::: info 📌 PMO vs Governance
+The PMO often *supports* governance with standards and reporting. The **steering committee** makes strategic decisions; the **CCB** approves baseline changes.
+:::
+
 ::: tip 💡 Pro Tip: PMO as a Servant Leader
 Think of the PMO as a **servant leader** to your project. Its goal is to remove organizational roadblocks and provide you with the tools you need to succeed.
 :::
