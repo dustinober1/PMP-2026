@@ -329,6 +329,150 @@ Do not allow work to start "informally" because "we have time" or "we can get a 
 
 ---
 
+## 🏃 Agile Ceremonies Deep Dive (Exam-Critical)
+
+The PMP exam tests your understanding of agile ceremonies—not just what they are, but how to run them effectively and diagnose problems.
+
+### Sprint Planning
+
+**Purpose**: Define what will be delivered and how the work will be achieved.
+
+| Aspect | Details |
+|---|---|
+| **Duration** | 2-4 hours for a 2-week sprint (proportional to sprint length) |
+| **Participants** | Product Owner, Scrum Master, Development Team |
+| **Inputs** | Product Backlog (prioritized), Team velocity, Definition of Done |
+| **Outputs** | Sprint Goal, Sprint Backlog (selected items + plan to deliver) |
+
+**Two-Part Structure**:
+1. **WHAT**: Product Owner presents top-priority items; team asks clarifying questions; team selects items based on capacity
+2. **HOW**: Team decomposes stories into tasks; estimates effort; creates initial plan
+
+**Anti-Patterns (Exam Red Flags)**:
+- PM/PO assigning stories instead of team self-selecting → Violates self-organization
+- No sprint goal → Team lacks focus; no way to measure success
+- Overcommitting based on pressure → Unsustainable; leads to burnout
+- Skipping technical planning → Team doesn't know HOW to deliver
+
+::: tip 💡 Exam Tip
+If a scenario describes a team that consistently misses sprint commitments, look for answers that address **capacity planning** (right-sizing commitments) or **Definition of Ready** (stories aren't clear enough to estimate).
+:::
+
+### Daily Scrum (Daily Standup)
+
+**Purpose**: Inspect progress toward the Sprint Goal and adapt the plan for the day.
+
+| Aspect | Details |
+|---|---|
+| **Duration** | 15 minutes maximum (strictly timeboxed) |
+| **Participants** | Development Team (primarily); PO and SM optional observers |
+| **Frequency** | Same time, same place, every day |
+| **Format** | Each team member answers 3 questions |
+
+**The Three Questions**:
+1. What did I accomplish yesterday that helps meet the Sprint Goal?
+2. What will I work on today to help meet the Sprint Goal?
+3. Do I have any blockers/impediments?
+
+**Anti-Patterns (Exam Red Flags)**:
+- Status report TO the PM → Should be team-to-team coordination
+- Exceeding 15 minutes → Problem-solving should happen offline
+- Skipping standups → Team loses visibility and alignment
+- PM assigns work during standup → Violates self-organization
+
+::: warning ⚠️ Key Principle
+The Daily Scrum is FOR the team, BY the team. The PM/Scrum Master removes impediments raised but does NOT run the meeting or assign tasks.
+:::
+
+### Sprint Review (Demo)
+
+**Purpose**: Inspect the increment and adapt the Product Backlog based on feedback.
+
+| Aspect | Details |
+|---|---|
+| **Duration** | 1-2 hours for a 2-week sprint |
+| **Participants** | Development Team, Product Owner, Scrum Master, Key Stakeholders |
+| **Focus** | Working software (not slides); gathering feedback; building shared understanding |
+| **Outputs** | Updated Product Backlog; stakeholder feedback; go/no-go for release |
+
+**What Happens**:
+1. Team demonstrates working increment (not a PowerPoint!)
+2. Stakeholders provide feedback and ask questions
+3. PO reviews remaining backlog; discusses priorities
+4. Team and stakeholders discuss what to do next
+
+**Anti-Patterns (Exam Red Flags)**:
+- Showing incomplete work → Only "Done" items per Definition of Done
+- No stakeholder attendance → Missed opportunity for feedback
+- PM defending the work → Team should present; let stakeholders react
+- No changes to backlog after feedback → Defeats the purpose
+
+### Sprint Retrospective
+
+**Purpose**: Inspect the team's processes and create a plan for improvements.
+
+| Aspect | Details |
+|---|---|
+| **Duration** | 45-90 minutes for a 2-week sprint |
+| **Participants** | Development Team, Scrum Master (PO optional based on topic) |
+| **Focus** | How the team works together; process improvements; team health |
+| **Outputs** | Action items for process improvement (added to next sprint) |
+
+**Common Formats**:
+- **Start/Stop/Continue**: What should we start doing, stop doing, keep doing?
+- **Mad/Sad/Glad**: Emotional check-in on how the sprint felt
+- **4 Ls**: Liked, Learned, Lacked, Longed For
+- **Sailboat**: Wind (what's propelling us), Anchor (what's slowing us), Rocks (risks ahead)
+
+**Anti-Patterns (Exam Red Flags)**:
+- Skipping retrospectives → Team stops improving
+- No actionable items → Venting without changing
+- Same issues sprint after sprint → Not implementing improvements
+- Blaming individuals → Retrospectives should be blameless; focus on system
+
+::: tip 💡 Exam Pattern
+If a scenario describes recurring team problems (missed deadlines, low morale, quality issues), the answer often involves **implementing or improving retrospectives** to identify root causes and improvements.
+:::
+
+### Ceremony Summary Table
+
+| Ceremony | When | Duration | Who Runs | Primary Outcome |
+|---|---|---|---|---|
+| **Sprint Planning** | Sprint start | 2-4 hours | Scrum Master (facilitates) | Sprint Goal + Sprint Backlog |
+| **Daily Scrum** | Every day | 15 min max | Team (self) | Aligned daily plan |
+| **Sprint Review** | Sprint end | 1-2 hours | Product Owner | Stakeholder feedback + Backlog updates |
+| **Sprint Retrospective** | Sprint end | 45-90 min | Scrum Master | Improvement action items |
+
+---
+
+## 🏛️ Organizational Culture Impact on Execution
+
+Organizational culture significantly affects how execution happens. The PM must adapt their approach based on the culture while gently influencing toward better practices.
+
+### Culture Types and Execution Impact
+
+| Culture Type | Characteristics | Execution Impact | PM Adaptation |
+|---|---|---|---|
+| **Hierarchical** | Top-down decisions; formal processes; clear authority | Decisions require approvals; changes slow; documentation heavy | Use formal channels; escalate through hierarchy; document thoroughly |
+| **Collaborative** | Consensus-driven; team input valued; flat structure | Decisions take time but have buy-in; change easier | Facilitate discussions; involve stakeholders early; build consensus |
+| **Innovative** | Risk-tolerant; experimentation encouraged; failure accepted | Agile fits naturally; rapid iteration; change welcomed | Encourage experimentation; celebrate learning from failure |
+| **Process-Oriented** | Procedures followed strictly; compliance focus | Predictive fits well; change control rigorous; documentation required | Follow processes exactly; get formal approvals; maintain documentation |
+| **Results-Oriented** | Outcomes over process; autonomy given; accountability high | Flexibility in approach; focus on delivery | Focus on value delivery; minimize unnecessary process; measure outcomes |
+
+### Cultural Considerations for Agile Adoption
+
+| Cultural Factor | Low Readiness Signs | High Readiness Signs |
+|---|---|---|
+| **Trust in teams** | Micromanagement prevalent; detailed status demands | Empowerment of teams; trust to self-organize |
+| **Failure tolerance** | Blame culture; fear of mistakes | Learning from failure; psychological safety |
+| **Customer focus** | Internal stakeholders dominate; users distant | Direct user involvement; customer-centric decisions |
+| **Flexibility** | Rigid processes; "we've always done it this way" | Willingness to experiment; continuous improvement |
+| **Collaboration** | Siloed departments; "throw over the wall" mentality | Cross-functional teams; shared accountability |
+
+::: warning ⚠️ Exam Insight
+If a scenario describes an organization struggling with agile adoption, look for **cultural barriers** (lack of trust, fear of failure, siloed teams) and answers that address these through **change management** (training, executive sponsorship, pilot programs).
+:::
+
 ## ✅ Implementing Approved Changes (Step-by-Step)
 
 Changes are inevitable. The key is to implement them **systematically** so you don't lose control of scope, schedule, or budget.

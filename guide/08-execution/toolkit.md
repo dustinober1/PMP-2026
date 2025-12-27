@@ -230,6 +230,151 @@ Use to ensure procurement stays on track.
 
 ---
 
+## 📋 Team Charter Template (Agile/Hybrid Teams)
+
+Use at project/team kickoff to establish working agreements.
+
+| Section | Content |
+|---|---|
+| **Team Name** | [e.g., "Product Delivery Team Alpha"] |
+| **Purpose / Vision** | [What this team exists to accomplish] |
+| **Success Measures** | [How we'll know we're succeeding - OKRs, KPIs] |
+
+### Team Members & Roles
+| Name | Role | Key Responsibilities | Availability |
+|---|---|---|---|
+| [Name] | Product Owner | Prioritization, stakeholder liaison, backlog ownership | Full-time |
+| [Name] | Scrum Master | Facilitation, impediment removal, process improvement | Full-time |
+| [Name] | Developer | Feature development, code review, testing | Full-time |
+| [Name] | UX Designer | User research, UI design, prototypes | Part-time (50%) |
+
+### Working Agreements
+- [ ] **Core hours**: [e.g., 10am-3pm EST everyone available]
+- [ ] **Communication preference**: [e.g., Slack for urgent, email for FYI]
+- [ ] **Meeting norms**: [e.g., cameras on, start on time, 5-min late = recap provided]
+- [ ] **Decision-making**: [e.g., consent-based, majority vote, PM decides if stuck]
+- [ ] **Conflict resolution**: [e.g., address directly first, then escalate to SM/PM]
+- [ ] **Definition of Done**: [e.g., coded, tested, reviewed, documented, demoed]
+
+### Ground Rules & Values
+| Value | Behavior |
+|---|---|
+| **Respect** | Listen to understand; give everyone voice; assume good intent |
+| **Ownership** | Take responsibility; don't wait to be told; follow through |
+| **Transparency** | Share problems early; no surprises; ask for help when stuck |
+| **Quality** | Don't cut corners; review thoroughly; automate where possible |
+| **Improvement** | Learn from mistakes; celebrate wins; always get better |
+
+::: tip 💡 Exam Application
+Team charters establish **clear expectations** and **working agreements** at kickoff. If a scenario describes team confusion about roles or conflict about how to work, the answer often involves **creating or revisiting the team charter**.
+:::
+
+---
+
+## 🏃 Sprint Planning Checklist
+
+Use to ensure effective sprint planning meetings.
+
+### Before Sprint Planning
+- [ ] **Product Backlog groomed**: Top items refined, estimated, and prioritized
+- [ ] **Velocity known**: Team knows their average capacity from past sprints
+- [ ] **Definition of Ready met**: Stories have acceptance criteria, estimates, and are clear
+- [ ] **Stakeholder availability**: PO and key stakeholders available for questions
+- [ ] **Technical constraints identified**: Dependencies, environments, tools confirmed
+
+### During Sprint Planning
+- [ ] **Sprint Goal defined**: One clear objective for the sprint (not just a list of items)
+- [ ] **Team selects work**: Team pulls stories (not PM/PO assigning)
+- [ ] **Capacity discussed**: Account for vacations, meetings, other commitments
+- [ ] **Stories decomposed**: Break items into tasks (max 1 day each)
+- [ ] **Dependencies identified**: Note any external dependencies or handoffs
+- [ ] **Risks discussed**: What could block us this sprint?
+- [ ] **Team commits**: Team agrees they can deliver the selected scope
+
+### After Sprint Planning
+- [ ] **Sprint Backlog visible**: All items and tasks on the board
+- [ ] **Sprint Goal posted**: Visible to team and stakeholders
+- [ ] **First day's work clear**: Everyone knows what to start tomorrow
+- [ ] **Retrospective scheduled**: End of sprint meeting on calendar
+
+::: warning ⚠️ Anti-Pattern Alert
+If sprint planning takes too long (>4 hours for 2-week sprint) or ends without a clear sprint goal, the team lacks backlog refinement practices. The fix is **better grooming before planning**, not longer planning meetings.
+:::
+
+---
+
+## 📊 Team Performance Assessment Template
+
+Use quarterly or after major milestones to assess team effectiveness.
+
+### Quantitative Metrics
+| Metric | Baseline | Current | Target | Trend |
+|---|---|---|---|---|
+| **Velocity** (story points/sprint) | [ ] | [ ] | [ ] | ↑ / → / ↓ |
+| **Sprint Commitment Met** (%) | [ ] | [ ] | 85%+ | ↑ / → / ↓ |
+| **Defect Escape Rate** (prod bugs) | [ ] | [ ] | Decreasing | ↑ / → / ↓ |
+| **Cycle Time** (days to complete) | [ ] | [ ] | Decreasing | ↑ / → / ↓ |
+| **Lead Time** (request to delivery) | [ ] | [ ] | Decreasing | ↑ / → / ↓ |
+
+### Qualitative Assessment (1-5 Scale)
+| Dimension | Score | Evidence / Notes |
+|---|---|---|
+| **Collaboration**: Works well together; helps each other | [ ] | |
+| **Communication**: Clear, timely, transparent | [ ] | |
+| **Problem-solving**: Resolves issues independently | [ ] | |
+| **Continuous Improvement**: Implements retrospective actions | [ ] | |
+| **Stakeholder Satisfaction**: Users/sponsors are happy | [ ] | |
+| **Technical Excellence**: Code quality, testing, documentation | [ ] | |
+| **Morale/Engagement**: Team is motivated and engaged | [ ] | |
+
+### Improvement Actions
+| Area | Issue | Action | Owner | Target Date |
+|---|---|---|---|---|
+| [e.g., Velocity] | [Declining last 3 sprints] | [Reduce WIP; focus on finishing] | [Team] | [Next sprint] |
+
+---
+
+## 💹 Benefits Tracking Dashboard Template
+
+Use to track whether the project is delivering expected value.
+
+### Benefit Summary
+| Benefit ID | Description | Target Value | Baseline | Current | Status |
+|---|---|---|---|---|---|
+| B-001 | Reduce customer wait time | 50% reduction | 10 min avg | 6 min avg | 🟢 On Track |
+| B-002 | Increase online conversions | +15% | 3.2% | 3.8% | 🟡 At Risk |
+| B-003 | Reduce manual processing | -30 FTEs | 50 FTEs | 45 FTEs | 🟡 At Risk |
+| B-004 | Improve NPS score | +20 points | 42 | 55 | 🟢 Achieved |
+
+### Measurement Plan
+| Benefit | Measure | Data Source | Frequency | Owner |
+|---|---|---|---|---|
+| B-001 | Average wait time | Call center system | Weekly | Operations |
+| B-002 | Conversion rate | Web analytics | Daily | Marketing |
+| B-003 | FTE count | HR reports | Monthly | HR |
+| B-004 | NPS survey results | Customer survey tool | Quarterly | Customer Success |
+
+### Benefit Realization Timeline
+```
+Project Delivery ──────────────► Operational Handoff ──────────────► Benefits Realized
+      │                                  │                                  │
+   Launch                           +3 months                          +12 months
+   Features                        Full adoption                       Full value
+   Completed                       Change embedded                     Measured & verified
+```
+
+### Risk to Benefits
+| Risk | Impact on Benefit | Mitigation |
+|---|---|---|
+| Low user adoption | B-001, B-003 may not be realized | Training program, adoption incentives |
+| Data quality issues | B-002 can't be measured accurately | Data cleansing, validation checks |
+
+::: tip 💡 Exam Insight
+Benefits are often realized **after project closure**. The PM's role during execution is to ensure the project is set up for benefit realization by tracking leading indicators, ensuring adoption, and documenting the benefits measurement approach.
+:::
+
+---
+
 ## 🎯 Risk Response Execution Checklist
 
 Use when a risk trigger occurs and you need to execute the planned response.

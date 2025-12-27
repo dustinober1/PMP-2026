@@ -148,6 +148,103 @@ Execution often reveals new information that requires re-planning:
 
 ---
 
+## 🧠 Emotional Intelligence (EQ) in Execution
+
+Emotional Intelligence is **critical** for project success during execution. Research shows EQ is often a better predictor of PM effectiveness than technical skills.
+
+### Goleman's Five Components of EQ
+
+| Component | Definition | PM Application in Execution |
+|---|---|---|
+| **Self-Awareness** | Recognizing your own emotions, strengths, weaknesses, values | Know when you're stressed; recognize your biases; ask for feedback |
+| **Self-Regulation** | Controlling disruptive impulses; thinking before acting | Stay calm under pressure; don't react emotionally to bad news; model professionalism |
+| **Motivation** | Drive to achieve beyond expectations; passion for work | Set high standards; stay positive during setbacks; inspire the team |
+| **Empathy** | Understanding others' emotional makeup; treating people according to their reactions | Listen to stakeholder concerns; recognize team stress; adapt communication style |
+| **Social Skills** | Building rapport; finding common ground; building networks | Influence without authority; resolve conflicts; build coalitions for decisions |
+
+::: tip 💡 Exam Pattern
+If a scenario describes a PM who reacts emotionally, makes decisions without listening, or fails to recognize team stress, the answer often involves applying **emotional intelligence skills** (self-regulation, empathy, active listening).
+:::
+
+### EQ in Common Execution Scenarios
+
+| Scenario | Low EQ Response | High EQ Response |
+|---|---|---|
+| **Team member makes a costly mistake** | Public criticism; blame assignment | Private conversation; understand root cause; coach for improvement |
+| **Stakeholder becomes angry about delays** | Defensive justification; minimizing concerns | Acknowledge frustration; actively listen; focus on solutions |
+| **Team conflict escalates in meeting** | Ignore it or take sides | Call a break; facilitate private discussion; address underlying concerns |
+| **PM feels overwhelmed by scope changes** | React with visible stress; snap at team | Step back; reframe as problem to solve; seek sponsor guidance |
+| **Team morale drops during crunch time** | Push harder; emphasize deadlines | Recognize exhaustion; provide support; celebrate small wins |
+
+---
+
+## ⚡ Power Types in Project Execution
+
+PMs often have **responsibility without authority**. Understanding power types helps you influence effectively.
+
+### Five Types of Power
+
+| Power Type | Source | Example | Effectiveness | Sustainability |
+|---|---|---|---|---|
+| **Legitimate / Positional** | Formal position or title | "I'm the Project Manager" | Medium | Limited to formal scope |
+| **Reward** | Ability to give benefits | Bonuses, recognition, preferred assignments | Medium | Limited by resources |
+| **Coercive / Penalty** | Ability to punish | Threats, poor reviews, removal | Low | Builds resentment |
+| **Expert** | Knowledge and skills | "I've done this 10 times successfully" | High | Builds respect |
+| **Referent** | Personal relationships; charisma | "People trust and like me" | Highest | Builds loyalty |
+
+::: warning ⚠️ PMP Best Practice
+Rely on **Expert** and **Referent** power rather than **Coercive** power. Coercive power damages relationships and team morale. The best PMs influence through competence and trust, not threats.
+:::
+
+### Power Application During Execution
+
+| Situation | Recommended Power Type | Why |
+|---|---|---|
+| **Negotiating with functional manager** | Expert + Referent | Build relationship; demonstrate value to their team |
+| **Requesting team overtime** | Referent + Reward | Personal connection + recognition/compensation |
+| **Enforcing safety standards** | Legitimate + Expert | Authority backed by expertise justifies the rule |
+| **Resolving technical dispute** | Expert | Technical credibility earns trust in decision |
+| **Urgent escalation to sponsor** | Legitimate + Expert | Position gives access; expertise gives credibility |
+
+---
+
+## 📐 Communications Channels Formula
+
+During execution, communication complexity increases with team size. The **Communications Channels Formula** helps you plan communication overhead.
+
+### Formula
+```
+Channels = n(n-1) ÷ 2
+```
+Where **n** = number of stakeholders/team members
+
+### Examples
+
+| Team Size (n) | Calculation | Channels | Impact |
+|---|---|---|---|
+| 5 | 5 × 4 ÷ 2 | 10 | Manageable |
+| 10 | 10 × 9 ÷ 2 | 45 | Moderate complexity |
+| 15 | 15 × 14 ÷ 2 | 105 | High complexity |
+| 20 | 20 × 19 ÷ 2 | 190 | Very high complexity |
+| 50 | 50 × 49 ÷ 2 | 1,225 | Requires structured communication |
+
+::: tip 💡 Exam Application
+If a question asks about communication complexity when **adding team members**, calculate the before/after channel count:
+- Team of 10: 45 channels
+- Add 2 members (now 12): 12 × 11 ÷ 2 = **66 channels** (47% increase!)
+
+Adding just 2 people to a 10-person team creates 21 new communication paths.
+:::
+
+### Reducing Communication Overhead
+When channels become unwieldy:
+- **Hierarchical communication**: Team leads summarize to PM; PM reports to stakeholders
+- **Structured meetings**: Replace ad-hoc channels with planned touchpoints
+- **Information radiators**: Dashboards, boards, status pages (pull vs. push)
+- **Communication matrix**: Define who needs what information and when
+
+---
+
 ## 🚀 Driving Performance (Without Losing Value)
 Execution is where you turn plans and backlogs into real deliverables. It requires balancing:
 

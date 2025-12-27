@@ -229,6 +229,150 @@ Smoothing can **suppress legitimate concerns**. If used repeatedly on significan
 
 **Outcome**: Team agrees to refactor the authentication module (highest risk) immediately and schedule the rest for a post-release sprint.
 
+### Thomas-Kilmann Conflict Mode Instrument (TKI)
+
+The **TKI Model** maps conflict styles along two axes: **Assertiveness** (satisfying your own concerns) and **Cooperativeness** (satisfying others' concerns).
+
+```
+                    HIGH ASSERTIVENESS
+                          ↑
+           ┌──────────────┼──────────────┐
+           │              │              │
+           │   COMPETING  │ COLLABORATING│
+           │   (Forcing)  │  (Win-Win)   │
+           │              │              │
+LOW ←──────┼──────────────┼──────────────┼──────→ HIGH
+COOPERAT-  │              │              │    COOPERAT-
+IVENESS    │  AVOIDING    │ ACCOMMODATING│    IVENESS
+           │ (Withdrawal) │  (Smoothing) │
+           │              │              │
+           └──────────────┼──────────────┘
+                    ↓ COMPROMISING ↓
+                    (in the middle)
+                    
+                   LOW ASSERTIVENESS
+```
+
+| Mode | Assertiveness | Cooperativeness | When Appropriate |
+|---|---|---|---|
+| **Competing** | High | Low | Emergencies, ethical issues, when you're right and stakes are high |
+| **Collaborating** | High | High | Complex problems, important relationships, time available for exploration |
+| **Compromising** | Medium | Medium | Time pressure, equal power, moderate importance, interim solutions |
+| **Avoiding** | Low | Low | Trivial issues, cooling off, no chance of winning, gathering information |
+| **Accommodating** | Low | High | You're wrong, relationship matters more, building goodwill |
+
+::: tip 💡 Exam Application
+The exam often presents conflict scenarios and asks which approach to use. Map the scenario to the TKI axes:
+- **High stakes + creative solution needed** → Collaborating
+- **Emergency + clear authority** → Competing
+- **Minor issue + preserve relationship** → Accommodating
+- **Need time to calm emotions** → Avoiding
+- **Both parties must give up something** → Compromising
+:::
+
+---
+
+## 📜 Contract Types Deep Dive (Execution Context)
+
+During procurement execution, understanding contract types helps you manage vendor relationships and assess risk allocation.
+
+### Contract Type Comparison
+
+| Contract Type | Risk Allocation | When to Use | Example |
+|---|---|---|---|
+| **Fixed Price (FP)** | Seller bears cost risk | Clear scope, low uncertainty | Building construction per blueprints |
+| **Cost Reimbursable (CR)** | Buyer bears cost risk | Unclear scope, high uncertainty | R&D, prototype development |
+| **Time & Materials (T&M)** | Shared risk | Unknown duration, known skill needs | Staff augmentation, maintenance |
+
+### Fixed-Price Incentive Fee (FPIF) Calculations
+
+**FPIF** shares cost savings/overruns between buyer and seller within a range.
+
+**Components:**
+- **Target Cost**: Expected cost to complete work
+- **Target Fee**: Profit margin if target cost is met
+- **Target Price**: Target Cost + Target Fee
+- **Share Ratio**: How savings/overruns are split (e.g., 80/20)
+- **Ceiling Price**: Maximum buyer pays (Price Ceiling)
+- **Point of Total Assumption (PTA)**: Where seller assumes all additional cost
+
+**PTA Formula:**
+```
+PTA = ((Ceiling Price - Target Price) / Buyer's Share Ratio) + Target Cost
+```
+
+**Example:**
+```
+Target Cost: $100,000
+Target Fee: $10,000
+Target Price: $110,000
+Ceiling Price: $130,000
+Share Ratio: 80/20 (Buyer 80%, Seller 20%)
+
+PTA = (($130,000 - $110,000) / 0.80) + $100,000
+PTA = ($20,000 / 0.80) + $100,000
+PTA = $25,000 + $100,000 = $125,000
+
+Interpretation: If actual costs exceed $125,000, the seller absorbs 
+100% of additional costs up to the ceiling price.
+```
+
+### Cost Plus Incentive Fee (CPIF) Calculations
+
+**CPIF** reimburses costs plus a fee that varies based on cost performance.
+
+**Example:**
+```
+Target Cost: $100,000
+Target Fee: $10,000
+Share Ratio: 70/30 (Buyer 70%, Seller 30%)
+Minimum Fee: $5,000
+Maximum Fee: $15,000
+
+Scenario A: Actual Cost = $90,000 (under target)
+- Cost Savings: $10,000
+- Seller's Share: 30% × $10,000 = $3,000 bonus
+- Final Fee: $10,000 + $3,000 = $13,000
+- Total Price: $90,000 + $13,000 = $103,000
+
+Scenario B: Actual Cost = $120,000 (over target)
+- Cost Overrun: $20,000
+- Seller's Share: 30% × $20,000 = $6,000 penalty
+- Final Fee: $10,000 - $6,000 = $4,000 (but min fee applies)
+- Adjusted Fee: $5,000 (minimum)
+- Total Price: $120,000 + $5,000 = $125,000
+```
+
+### Cost Plus Award Fee (CPAF)
+
+**CPAF** includes a fee determined by subjective evaluation of seller performance.
+
+**Structure:**
+- **Base Fee**: Fixed amount paid regardless of performance
+- **Award Fee Pool**: Available for excellent performance
+- **Award Fee**: Determined by Award Fee Board based on criteria
+
+**Example:**
+```
+Target Cost: $200,000
+Base Fee (fixed): $10,000 (5%)
+Award Fee Pool: $20,000 (available for excellence)
+Actual Cost: $195,000
+
+Award Board Evaluation:
+- Technical Performance: Excellent (4/5)
+- Schedule Performance: Good (3/5)
+- Communication: Excellent (4/5)
+- Overall: 85% award fee earned
+
+Final Fee: $10,000 (base) + (0.85 × $20,000) = $27,000
+Total Price: $195,000 + $27,000 = $222,000
+```
+
+::: warning ⚠️ Exam Tip
+CPAF award fees are **subjective** and **not subject to dispute**. The Award Fee Board's decision is final. This differs from CPIF, where incentive calculations are objective and auditable.
+:::
+
 ---
 
 ## 🧑‍💼 Servant Leadership in Execution

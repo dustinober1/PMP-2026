@@ -250,6 +250,142 @@ High-yield prioritization methods you’ll see on the exam:
 If the scenario describes uncertainty, prioritize work that **reduces risk and validates assumptions early** (spikes, prototypes, pilots, demos).
 :::
 
+### Weighted Shortest Job First (WSJF) - Deep Dive
+
+**WSJF** is a SAFe prioritization technique that maximizes economic value by accounting for the cost of waiting.
+
+**Formula:**
+```
+WSJF = Cost of Delay ÷ Job Duration (Size)
+```
+
+**Cost of Delay Components:**
+- **User-Business Value**: How much value does this deliver to users/business?
+- **Time Criticality**: How urgent is this? Are there deadlines or market windows?
+- **Risk Reduction / Opportunity Enablement**: Does this reduce risk or enable future value?
+
+**Calculation Example:**
+
+| Feature | User Value | Time Critical | Risk/Opp | CoD Total | Duration | WSJF |
+|---|---|---|---|---|---|---|
+| Feature A | 8 | 5 | 3 | 16 | 8 | **2.0** |
+| Feature B | 5 | 8 | 5 | 18 | 3 | **6.0** ⬅️ High Priority |
+| Feature C | 3 | 3 | 8 | 14 | 2 | **7.0** ⬅️ Highest Priority |
+| Feature D | 8 | 2 | 2 | 12 | 13 | **0.9** |
+
+**Interpretation**: Feature C and B have the highest WSJF (deliver value quickly relative to effort). Feature D, despite high user value, is deprioritized because of long duration.
+
+::: info 📊 WSJF Best Practices
+- Use **relative sizing** (Fibonacci: 1, 2, 3, 5, 8, 13) rather than absolute numbers
+- Compare features **within the same context** (don't compare across products)
+- Re-calculate periodically as time criticality changes
+- Focus on **highest WSJF first** to maximize economic value over time
+:::
+
+---
+
+## 💰 Additional Financial Value Formulas
+
+### Net Present Value (NPV)
+
+**NPV** calculates the present value of future cash flows, accounting for the time value of money.
+
+**Formula:**
+```
+NPV = Σ [Cash Flow / (1 + r)^t] - Initial Investment
+```
+Where: r = discount rate, t = time period
+
+**Interpretation:**
+- **NPV > 0**: Project adds value; accept
+- **NPV = 0**: Project breaks even; consider other factors
+- **NPV < 0**: Project destroys value; reject
+
+**Example:**
+```
+Initial Investment: $100,000
+Annual Cash Flows: $40,000 for 4 years
+Discount Rate: 10%
+
+Year 1: $40,000 / 1.10 = $36,364
+Year 2: $40,000 / 1.21 = $33,058
+Year 3: $40,000 / 1.331 = $30,053
+Year 4: $40,000 / 1.464 = $27,322
+
+Total PV of Cash Flows: $126,797
+NPV = $126,797 - $100,000 = +$26,797 ✅ Accept
+```
+
+::: tip 💡 Exam Application
+When comparing multiple projects with the same investment, choose the project with the **higher NPV**—it creates more value.
+:::
+
+### Internal Rate of Return (IRR)
+
+**IRR** is the discount rate at which NPV equals zero. It represents the project's expected rate of return.
+
+**Decision Rule:**
+- **IRR > Required Rate of Return**: Accept the project
+- **IRR < Required Rate of Return**: Reject the project
+
+**Example:**
+```
+If a company's required rate of return is 12% and Project A has IRR = 18%:
+→ Accept Project A (18% > 12%)
+
+If Project B has IRR = 9%:
+→ Reject Project B (9% < 12%)
+```
+
+::: warning ⚠️ IRR Limitations
+IRR can be misleading for projects with non-conventional cash flows (multiple sign changes). When comparing mutually exclusive projects, NPV is generally more reliable.
+:::
+
+### Opportunity Cost
+
+**Opportunity Cost** is the value of the best alternative foregone when making a decision.
+
+**Exam Application:**
+- If you have resources for only one project, the opportunity cost of choosing Project A is the value you would have gained from Project B
+- Always consider what you're giving up, not just what you're getting
+
+**Example:**
+```
+You can assign your top developer to Project A (expected benefit: $50K) 
+or Project B (expected benefit: $70K).
+
+If you choose Project A:
+- Opportunity Cost = $70K (the benefit you missed from Project B)
+- Net Value = $50K - $70K = -$20K relative to best choice
+```
+
+### Sunk Cost Fallacy (Exam Trap!)
+
+**Sunk costs** are costs already incurred that cannot be recovered. They should **NOT** influence future decisions.
+
+**The Fallacy:** "We've already spent $500K, so we should keep going."
+
+**Correct Thinking:** Only consider **future costs and future benefits**. Past spending is irrelevant to the decision.
+
+**Example Scenario:**
+```
+Project Status:
+- Spent so far: $500K (sunk cost)
+- Estimated to complete: $300K more
+- Expected benefit if completed: $400K
+- Expected benefit if cancelled: $0
+
+Decision Analysis:
+- Continue: Spend $300K, get $400K → Net value = +$100K
+- Cancel: Spend $0, get $0 → Net value = $0
+
+Decision: Continue (based on future value, NOT sunk costs)
+```
+
+::: warning ⚠️ Exam Pattern
+If a scenario mentions large investments already made and asks whether to continue, **ignore sunk costs**. Only compare future costs to future benefits. "We've come too far to stop now" is NEVER the right answer.
+:::
+
 ---
 
 ## 🔎 Verification vs. Validation (Classic PMP Trap)
