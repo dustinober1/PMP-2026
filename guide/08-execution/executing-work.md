@@ -174,6 +174,405 @@ See `guide/08-execution/toolkit.md` for copy/paste templates.
 
 ---
 
+## 🔐 Work Authorization System (Predictive Control)
+In predictive projects, a **Work Authorization System** ensures that work begins only when predecessors are complete, resources are available, and funding is approved.
+
+### Key Components
+| Component | Purpose | Example |
+|---|---|---|
+| **Work Authorization Form** | Formal permission to start a work package | "Work Package 4.2.1 (Database Schema) is approved to begin on 15-Mar with $45K budget" |
+| **Work Package ID** | Unique identifier tied to WBS | WBS 4.2.1 → Work Authorization #WA-421-2026 |
+| **Prerequisites** | Dependencies that must be met | "WP 4.1 (Requirements) must be 100% complete and approved" |
+| **Resource Assignment** | Who can do the work | "Assigned to Database Team (3 FTEs); Lead: Sarah Chen" |
+| **Budget Release** | Funding available for this work | "$45K released from Project Budget Account 1205" |
+| **Approval Authority** | Who signed off | "PM: Alex Torres; Sponsor: Maria Singh" |
+
+### Work Authorization Process Flow
+```
+1. Work Package Ready
+   ↓
+2. Verify Prerequisites Complete
+   ↓
+3. Confirm Resources Available
+   ↓
+4. Verify Budget Allocated
+   ↓
+5. Issue Work Authorization
+   ↓
+6. Team Begins Work
+   ↓
+7. Collect Work Performance Data
+   ↓
+8. Complete & Close Work Package
+```
+
+::: warning ⚠️ Common Mistake
+Do not allow work to start "informally" because "we have time" or "we can get a head start." Unauthorized work creates **scope creep**, budget overruns, and accountability gaps. Always follow the authorization process.
+:::
+
+---
+
+## 🔄 Work Execution Process Flows
+
+### Predictive Work Execution Flow
+```
+┌─────────────────────────────────────────────────────────┐
+│ 1. Authorize Work (Work Authorization System)          │
+└───────────────────┬─────────────────────────────────────┘
+                    ↓
+┌─────────────────────────────────────────────────────────┐
+│ 2. Assign Resources & Communicate Expectations          │
+│    • Review work package scope, quality criteria        │
+│    • Confirm schedule & budget constraints              │
+│    • Clarify Definition of Done                         │
+└───────────────────┬─────────────────────────────────────┘
+                    ↓
+┌─────────────────────────────────────────────────────────┐
+│ 3. Execute Work & Monitor Progress                      │
+│    • Daily/weekly status updates                        │
+│    • Track actual vs. planned (EVM if applicable)       │
+│    • Identify issues/risks early                        │
+└───────────────────┬─────────────────────────────────────┘
+                    ↓
+┌─────────────────────────────────────────────────────────┐
+│ 4. Implement Approved Changes                           │
+│    • Follow change control process (CCB)                │
+│    • Update baselines if approved                       │
+│    • Communicate impacts to stakeholders                │
+└───────────────────┬─────────────────────────────────────┘
+                    ↓
+┌─────────────────────────────────────────────────────────┐
+│ 5. Perform Quality Control                              │
+│    • Verify deliverable meets acceptance criteria       │
+│    • Conduct inspections, reviews, testing              │
+│    • Log defects; implement corrections                 │
+└───────────────────┬─────────────────────────────────────┘
+                    ↓
+┌─────────────────────────────────────────────────────────┐
+│ 6. Validate Deliverable with Customer/Sponsor           │
+│    • Formal acceptance or rejection                     │
+│    • Document feedback and action items                 │
+└───────────────────┬─────────────────────────────────────┘
+                    ↓
+┌─────────────────────────────────────────────────────────┐
+│ 7. Capture Lessons Learned & Update Knowledge           │
+│    • What worked? What didn't?                          │
+│    • Update Lessons Learned Register                    │
+└─────────────────────────────────────────────────────────┘
+```
+
+### Agile Work Execution Flow (Sprint-Based)
+```
+┌─────────────────────────────────────────────────────────┐
+│ Sprint Planning                                         │
+│ • Product Owner presents prioritized backlog           │
+│ • Team selects stories for sprint                      │
+│ • Team defines sprint goal & commits to work           │
+└───────────────────┬─────────────────────────────────────┘
+                    ↓
+┌─────────────────────────────────────────────────────────┐
+│ Daily Standup (Every Day)                               │
+│ • What did I do yesterday?                              │
+│ • What will I do today?                                 │
+│ • What blockers do I have?                              │
+│ → PM/Scrum Master removes impediments immediately       │
+└───────────────────┬─────────────────────────────────────┘
+                    ↓
+┌─────────────────────────────────────────────────────────┐
+│ Execute User Stories                                    │
+│ • Break stories into tasks                              │
+│ • Work collaboratively; pair/mob if needed              │
+│ • Move tasks across board: To Do → In Progress → Done  │
+│ • Continuous integration & testing                      │
+└───────────────────┬─────────────────────────────────────┘
+                    ↓
+┌─────────────────────────────────────────────────────────┐
+│ Sprint Review/Demo (End of Sprint)                      │
+│ • Demonstrate working increment to stakeholders         │
+│ • Gather feedback                                       │
+│ • Accept or reject stories (Definition of Done)        │
+└───────────────────┬─────────────────────────────────────┘
+                    ↓
+┌─────────────────────────────────────────────────────────┐
+│ Sprint Retrospective                                    │
+│ • What went well?                                       │
+│ • What could be improved?                               │
+│ • What actions will we take next sprint?               │
+│ → Update Lessons Learned Register                      │
+└───────────────────┬─────────────────────────────────────┘
+                    ↓
+            Next Sprint Planning
+```
+
+### Hybrid Work Execution Flow
+```
+┌─────────────────────────────────────────────────────────┐
+│ Portfolio/Program Governance (Predictive Layer)         │
+│ • Phase gates, milestone reviews, budget approvals      │
+│ • Strategic alignment & risk oversight                  │
+└───────────────────┬─────────────────────────────────────┘
+                    ↓
+┌─────────────────────────────────────────────────────────┐
+│ Agile Team Execution (Adaptive Layer)                   │
+│ • Teams work in sprints/iterations                      │
+│ • Deliver incremental value                             │
+│ • Re-prioritize backlog based on feedback               │
+└───────────────────┬─────────────────────────────────────┘
+                    ↓
+┌─────────────────────────────────────────────────────────┐
+│ Integration Points (Bridge)                             │
+│ • Teams demo to governance at milestones                │
+│ • Portfolio adjusts funding/priorities if needed        │
+│ • Teams adjust execution based on strategic guidance    │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+## ✅ Implementing Approved Changes (Step-by-Step)
+
+Changes are inevitable. The key is to implement them **systematically** so you don't lose control of scope, schedule, or budget.
+
+### Step-by-Step Change Implementation Guide
+
+| Step | Action | Example |
+|---|---|---|
+| **1. Receive Approval** | Confirm the change request has been approved by the CCB (predictive) or Product Owner (agile/hybrid) | "Change Request #CR-042 approved by CCB on 12-Mar: Add two-factor authentication to login module" |
+| **2. Update Baselines** | Revise scope, schedule, cost baselines as needed | Scope Baseline v1.3: Add WBS 3.4.2 (2FA Module); Schedule: +3 weeks; Budget: +$15K |
+| **3. Update Project Documents** | Revise affected documents (requirements, WBS, schedule, budget, risk register, etc.) | Update Requirements Traceability Matrix: Add REQ-087 (2FA); Update Risk Register: Add risk of integration delays |
+| **4. Communicate Changes** | Notify all affected stakeholders per the communications plan | Email to Development Team, QA, Security Team, Sponsor: "CR-042 approved; work begins 15-Mar; new deliverable due 5-Apr" |
+| **5. Authorize New/Modified Work** | Issue work authorization for new or changed work packages | Issue Work Authorization #WA-342 for WBS 3.4.2 (2FA Module) |
+| **6. Execute the Change** | Team implements the approved change | Development Team builds 2FA module; QA tests integration |
+| **7. Verify Change Completion** | Confirm the change deliverable meets acceptance criteria | 2FA module passes security review and integration testing |
+| **8. Update Lessons Learned** | Capture what worked and what didn't during change implementation | "Lesson: Early security team involvement reduced rework. Action: Invite security to all design reviews." |
+
+::: tip 💡 Exam Insight
+If a scenario says "The sponsor approved a change verbally," the best answer is usually to **formalize the approval** (get it in writing, log it in the change log, update baselines) before implementing. Verbal approvals create accountability gaps.
+:::
+
+### Example: Approved Change Implementation
+**Scenario**: A major stakeholder requests adding a "reporting dashboard" feature to the product. The CCB approves the change.
+
+**Implementation Steps**:
+1. **Update Scope Baseline**: Add WBS 5.3 (Reporting Dashboard Module)
+2. **Update Schedule**: Add 4 weeks to the schedule; adjust downstream tasks
+3. **Update Budget**: Allocate additional $25K for development and testing
+4. **Update Risk Register**: Add risk of data integration complexity (Prob: 0.4, Impact: $10K delay)
+5. **Update Requirements Traceability Matrix**: Add 8 new requirements (REQ-101 through REQ-108)
+6. **Communicate**: Notify Development, QA, Data Team, Sponsor, and End Users
+7. **Authorize Work**: Issue Work Authorization #WA-530 for WBS 5.3
+8. **Execute**: Development Team builds dashboard; QA tests; stakeholders validate
+9. **Close**: Dashboard accepted; lessons learned captured
+
+---
+
+## 📊 Work Performance Data Collection Framework
+
+**Work Performance Data** is raw, unanalyzed observations collected during execution. It becomes **Work Performance Information** when analyzed and contextualized.
+
+### What to Collect (By Knowledge Area)
+
+| Knowledge Area | Work Performance Data Examples |
+|---|---|
+| **Integration** | Deliverables completed, change requests submitted, issues logged, decisions made |
+| **Scope** | User stories completed, acceptance criteria met/not met, scope change requests |
+| **Schedule** | Actual start/finish dates, percent complete, critical path status, delays |
+| **Cost** | Actual cost (AC), committed costs, invoices, budget burn rate |
+| **Quality** | Defects found, defects resolved, test pass rates, rework hours, customer satisfaction scores |
+| **Resources** | Resource utilization rates, team velocity, absenteeism, overtime hours |
+| **Communications** | Stakeholder engagement levels, meeting attendance, feedback received |
+| **Risk** | New risks identified, risk responses implemented, risks that occurred (became issues) |
+| **Procurement** | Vendor deliveries (on-time/late), contract amendments, vendor performance ratings |
+| **Stakeholders** | Stakeholder satisfaction scores, feedback themes, escalations |
+
+### Data Collection Methods
+
+| Method | When to Use | Example |
+|---|---|---|
+| **Automated tracking** | For objective metrics (cost, time, defects) | Project management software tracks actual hours, costs, and percent complete automatically |
+| **Manual logs** | For subjective observations (stakeholder feedback, team morale) | PM logs stakeholder concerns in Issue Log after weekly status meeting |
+| **Surveys/feedback forms** | For sentiment and satisfaction | Post-sprint survey: "Rate your satisfaction with this sprint's deliverables (1-5)" |
+| **Inspections/reviews** | For quality metrics | Code review finds 12 defects; peer review finds 3 missing requirements |
+| **Team reports** | For progress and blockers | Daily standup: "I completed 2 tasks; I'm blocked by database access issue" |
+
+### Converting Data to Information to Reports
+
+```
+Work Performance DATA
+(Raw observations)
+    ↓
+ANALYSIS
+(Compare to baselines, identify trends, calculate variances)
+    ↓
+Work Performance INFORMATION
+(Meaningful insights)
+    ↓
+PACKAGING
+(Tailor to audience, add context, recommend actions)
+    ↓
+Work Performance REPORTS
+(Stakeholder communications)
+```
+
+**Example**:
+- **Data**: "Actual Cost = $120K; Planned Value = $100K; Earned Value = $90K"
+- **Information**: "We are over budget ($120K spent vs. $100K planned) AND behind schedule (only $90K of work completed). CPI = 0.75 (losing $0.25 per dollar). SPI = 0.90 (10% behind)."
+- **Report**: "Executive Summary: Project is 10% behind schedule and 25% over budget. Root cause: Database migration took 3 weeks longer than planned due to data quality issues. Recommended action: Request additional $30K budget; adjust go-live date by 2 weeks; implement data quality controls."
+
+---
+
+## 🏗️ Deliverable Production Examples & Quality Execution Practices
+
+### Example 1: Producing a Software Module (Agile)
+**Deliverable**: User Authentication Module
+
+**Execution Steps**:
+1. **Sprint Planning**: Product Owner presents User Story: "As a user, I want to log in securely so that my data is protected."
+2. **Team Breakdown**: Team decomposes story into tasks:
+   - Design login UI
+   - Implement backend authentication logic
+   - Write unit tests
+   - Perform integration testing
+   - Conduct security review
+3. **Daily Execution**: Team works on tasks; updates Kanban board; removes blockers at daily standup
+4. **Quality Practices**:
+   - **Peer Code Review**: All code reviewed by at least one other developer
+   - **Automated Testing**: Unit tests achieve 95% code coverage
+   - **Definition of Done**: Story is not "Done" until all tests pass, code is reviewed, and security scan shows no critical vulnerabilities
+5. **Sprint Review**: Product Owner validates the module; provides feedback: "Login works, but add 'Forgot Password' link"
+6. **Retrospective**: Team captures lesson: "Security review earlier in sprint would prevent last-minute rework"
+
+**Quality Execution Practices Applied**:
+- ✅ Peer review (catches defects early)
+- ✅ Automated testing (ensures functionality)
+- ✅ Definition of Done (enforces quality standards)
+- ✅ Continuous integration (detects integration issues immediately)
+
+---
+
+### Example 2: Producing a Construction Deliverable (Predictive)
+**Deliverable**: Foundation for Office Building
+
+**Execution Steps**:
+1. **Work Authorization**: Issue Work Authorization #WA-210 for WBS 2.1 (Foundation)
+2. **Resource Assignment**: Assign Foundation Crew (8 workers) and Concrete Supplier (Vendor #V-012)
+3. **Execution**:
+   - Pour concrete per engineering specifications
+   - Monitor curing process (7 days)
+   - Conduct daily inspections
+4. **Quality Practices**:
+   - **Inspection**: Structural engineer inspects formwork before concrete pour
+   - **Testing**: Concrete samples tested for compressive strength (meets 4000 PSI requirement)
+   - **Acceptance Criteria**: Foundation must be level within 1/4 inch tolerance
+5. **Validation**: City building inspector approves foundation; issues permit for next phase
+6. **Lessons Learned**: "Lesson: Rain delay added 2 days. Action: Add weather contingency to future outdoor work packages."
+
+**Quality Execution Practices Applied**:
+- ✅ Inspections (prevents defects)
+- ✅ Testing (validates specifications met)
+- ✅ Acceptance criteria (clear definition of success)
+- ✅ Expert validation (third-party approval)
+
+---
+
+### Quality Execution Checklist (Universal)
+Before marking any deliverable "complete," verify:
+- [ ] **Acceptance criteria met**: Does it meet the Definition of Done?
+- [ ] **Quality standards met**: Does it pass inspections, tests, reviews?
+- [ ] **Requirements traced**: Can you trace this deliverable back to a requirement?
+- [ ] **Stakeholder validated**: Has the customer/sponsor/Product Owner accepted it?
+- [ ] **Documentation complete**: Are design docs, test results, and manuals ready?
+- [ ] **Lessons captured**: What did we learn? What should we repeat or avoid?
+
+---
+
+## ⚠️ Common Execution Challenges & Solutions
+
+| Challenge | Root Cause | Best First Move | Example Solution |
+|---|---|---|---|
+| **Team member blocked by technical issue** | Lack of expertise, tool access, or dependencies | Remove blocker immediately or escalate | Assign senior developer to pair; request admin access from IT; escalate to functional manager if not resolved in 24 hours |
+| **Scope creep (uncontrolled changes)** | Weak change control; stakeholders bypass process | Enforce change control process | Politely redirect stakeholder: "Let's log this as a change request so we can assess impacts and get CCB approval" |
+| **Quality defects discovered late** | Insufficient testing, inspections, or peer reviews | Implement quality controls earlier in process | Add peer reviews after each task; run automated tests daily; conduct design reviews before implementation |
+| **Stakeholders surprised by delays** | Poor communication; data not converted to information | Increase communication frequency and clarity | Send weekly status report showing schedule variance (SPI = 0.85 means 15% behind); highlight risks to critical path |
+| **Resource overallocation** | Functional managers double-booking resources | Negotiate with functional manager; adjust plan | Meet with functional manager: "Maria is 150% allocated. Can we reduce her scope or add another resource?" |
+| **Vendor delivery late** | Contract ambiguity, vendor capacity issues, dependencies | Review contract; escalate to vendor management | Review contract terms: Is there a late delivery penalty? Escalate to vendor account manager; request recovery plan |
+| **Change request backlog overwhelming team** | Too many changes approved without impact analysis | Triage change requests by value and urgency | Prioritize changes using MoSCoW (Must/Should/Could/Won't); defer low-value changes to next phase |
+| **Team conflict over approach** | Lack of shared understanding or working agreements | Facilitate collaborative discussion; focus on interests, not positions | Hold team meeting: "Let's list pros/cons of each approach and agree on decision criteria"; use team working agreements to guide resolution |
+| **Approved change implemented incorrectly** | Miscommunication, insufficient detail in change request | Clarify requirements before implementation; add acceptance criteria | Review change request with team: "What exactly must be delivered? What are the acceptance criteria?"; get written confirmation from requester |
+| **Knowledge loss when team member leaves** | Tacit knowledge not captured | Conduct knowledge transfer before departure | Schedule pairing sessions; document key decisions; update lessons learned register; record video walkthroughs |
+
+---
+
+## 🎯 Real-World Execution Scenarios
+
+### Scenario 1: The "Small" Change Request
+**Situation**: A key stakeholder approaches you at the coffee machine and says, "Can you just add a small button to the dashboard? It'll only take 30 minutes."
+
+**Wrong Response**: "Sure, I'll ask the team to add it today."
+
+**Right Response**:
+1. **Acknowledge politely**: "Thanks for the suggestion. Let's make sure we handle this correctly."
+2. **Triage the request**: Ask clarifying questions: "What problem does this button solve? Who will use it? Is this a must-have for this release or could it wait?"
+3. **Follow the process**: "Let me log this as a change request so we can assess the impacts on scope, schedule, and budget. I'll bring it to the CCB meeting on Thursday."
+4. **Assess impacts**: Work with the team to estimate effort (turns out it's 8 hours, not 30 minutes, because of testing and integration)
+5. **Get approval**: Present to CCB with impacts: "+8 hours (0.5% budget increase); no schedule impact if we defer lower-priority task"
+6. **Implement if approved**: If CCB approves, update baselines, authorize work, execute, and validate
+
+**Lesson**: Even "small" changes deserve impact analysis and formal approval. Uncontrolled changes lead to scope creep and budget overruns.
+
+---
+
+### Scenario 2: Team Member Blocked for 2 Days
+**Situation**: During the daily standup, a developer says, "I've been blocked for 2 days waiting for database credentials from IT."
+
+**Wrong Response**: "Okay, keep waiting. Let me know when you get them."
+
+**Right Response**:
+1. **Act immediately**: "That's too long. I'll escalate this to IT within the next hour."
+2. **Remove the blocker**: Contact IT manager: "Our developer has been waiting 2 days for database access. This is blocking critical path work. Can we expedite this?"
+3. **Escalate if needed**: If IT doesn't respond within 1 day, escalate to sponsor or functional manager
+4. **Find workaround if possible**: "While we wait, can you work on the UI mockups or write unit tests with a mock database?"
+5. **Update logs**: Log this as an impediment/issue; track time lost; capture lesson learned
+6. **Follow up**: Verify the blocker is removed; thank IT for their help
+
+**Lesson**: Servant leadership means **removing blockers fast**. Every day a team member is blocked is a day of lost productivity and schedule delay.
+
+---
+
+### Scenario 3: Deliverable Meets Requirements but Customer is Unhappy
+**Situation**: You deliver a software module that meets all documented requirements. During the sprint review, the Product Owner says, "This isn't what I wanted. It's too complicated."
+
+**Wrong Response**: "But we built exactly what you asked for. Look at the requirements!"
+
+**Right Response**:
+1. **Validate the concern**: "Thank you for the feedback. Help me understand: What were you expecting, and how does this differ?"
+2. **Clarify the gap**: Turns out the requirements were written at a high level, and the team made assumptions about the UI design
+3. **Re-engage stakeholders**: "Let's schedule a working session tomorrow to review the UI together and identify what needs to change."
+4. **Assess impact**: "Making these changes will add 1 week to the schedule. Should we defer other features or extend the sprint?"
+5. **Adjust approach**: Implement more frequent reviews (daily if needed) to prevent future misalignment
+6. **Update lessons learned**: "Lesson: High-level requirements led to misalignment. Action: Create UI mockups and validate with Product Owner before development starts."
+
+**Lesson**: Meeting documented requirements is not enough. You must validate with the customer/Product Owner to ensure the deliverable solves the actual problem (outcomes, not just outputs).
+
+---
+
+### Scenario 4: Risk Becomes an Issue
+**Situation**: You identified a risk 2 months ago: "Vendor may deliver hardware late (Probability: 0.5; Impact: 2-week schedule delay)." Today, the vendor calls and says, "We're going to be 3 weeks late."
+
+**Wrong Response**: Panic and scramble to figure out what to do.
+
+**Right Response**:
+1. **Execute the risk response plan**: You already planned a contingency: "If vendor is late, we'll use temporary loaner hardware from Vendor B to keep work flowing."
+2. **Log the issue**: Move the risk from Risk Register to Issue Log: "Vendor delay confirmed; 3 weeks late; impact = 3-week schedule delay if no mitigation"
+3. **Implement mitigation**: Contact Vendor B: "Can you provide loaner hardware for 4 weeks starting next Monday?"
+4. **Communicate**: Notify stakeholders: "Vendor A is late. We've activated our contingency plan (loaner hardware from Vendor B). Net impact: 1-week schedule delay instead of 3 weeks."
+5. **Update schedule**: Adjust schedule baseline to reflect 1-week delay (if CCB approves)
+6. **Capture lesson**: "Lesson: Having a backup vendor saved us 2 weeks. Action: Maintain relationships with backup vendors for all critical equipment."
+
+**Lesson**: When a risk occurs, it becomes an **issue**. Execute the response plan you already prepared, log the issue, and communicate impacts.
+
+---
+
 <div class="study-tip">
   <strong>📝 Exam Insight:</strong> If a team member is blocked by a technical issue or an overbearing functional manager, the PM acting as a <strong>Servant Leader</strong> must prioritize removing that impediment. If you can't fix it yourself, escalate it.
 </div>
