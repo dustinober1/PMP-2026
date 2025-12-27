@@ -231,7 +231,80 @@ Smoothing can **suppress legitimate concerns**. If used repeatedly on significan
 
 ---
 
+## 🧑‍💼 Servant Leadership in Execution
+
+Servant leadership is critical during execution—the PM's job is to **clear the path** so the team can deliver value. This means prioritizing team needs, removing impediments, and coaching rather than commanding.
+
+### Core Servant Leadership Behaviors
+
+| Behavior | Description | Example |
+|---|---|---|
+| **Removing impediments** | Clear blockers so work can flow | PM contacts IT to expedite server access for blocked developer |
+| **Shielding the team** | Protect from distractions and unnecessary demands | PM filters stakeholder requests through proper channels; says "let me handle that" |
+| **Facilitating decisions** | Help team reach consensus; don't impose solutions | PM facilitates design discussion; lets team decide approach |
+| **Coaching and developing** | Invest in team skills and growth | PM arranges training; pairs junior with senior developers |
+| **Active listening** | Understand needs before acting | PM asks "What do you need?" before offering solutions |
+| **Building trust** | Be transparent, reliable, and supportive | PM admits mistakes openly; follows through on commitments |
+
+### Servant Leadership vs. Traditional Management
+
+| Aspect | Servant Leadership | Traditional Management |
+|---|---|---|
+| **Focus** | Team's success | Project's success (may overlook team needs) |
+| **Decision-making** | Facilitate team decisions | Manager decides, team executes |
+| **Problem-solving** | "How can I help you solve this?" | "Here's what you should do" |
+| **Impediments** | PM removes immediately | Team escalates; waits for manager |
+| **Information** | Transparent and shared | Filtered and controlled |
+| **Development** | Investing in people is priority | Getting work done is priority |
+
+### Practical Servant Leadership Scenarios
+
+**Scenario 1: Team Member Blocked for 2 Days**
+- **Situation**: Developer blocked waiting for database access from IT.
+- **Traditional Approach**: Log the issue, wait for next status meeting to escalate.
+- **Servant Leader Approach**: 
+  1. Immediately contact IT lead: "Our developer has been blocked for 2 days. Can we resolve this today?"
+  2. Escalate if no response within 4 hours
+  3. While waiting, help developer find workaround (mock database, other tasks)
+  4. Once resolved, log lesson learned
+
+**Scenario 2: Stakeholder Making Unreasonable Demands**
+- **Situation**: Stakeholder emails the team directly demanding scope additions without PM knowledge.
+- **Traditional Approach**: Team addresses the stakeholder; PM finds out later.
+- **Servant Leader Approach**:
+  1. Shield the team by redirecting communication through proper channels
+  2. "Thanks for your request. Let me assess the impact and get back to you."
+  3. Protect team focus; handle stakeholder relationship directly
+  4. If request is valid, follow change control; if not, manage stakeholder expectation
+
+**Scenario 3: Team Conflict Over Technical Approach**
+- **Situation**: Two developers disagree strongly on architecture; work is stalled.
+- **Traditional Approach**: PM makes the decision and assigns the approach.
+- **Servant Leader Approach**:
+  1. Facilitate a discussion: "Let's hear both perspectives and understand the trade-offs."
+  2. Ask questions: "What are the pros/cons? What risks does each approach carry?"
+  3. Let team reach consensus if possible
+  4. Only decide if team cannot agree and decision is time-critical
+
+**Scenario 4: Team Member Underperforming**
+- **Situation**: One developer consistently delivers late with quality issues.
+- **Traditional Approach**: Document issues, reprimand, potentially escalate for removal.
+- **Servant Leader Approach**:
+  1. Meet privately, listen first: "I've noticed some challenges. What's going on?"
+  2. Understand root cause (personal issues? skill gap? unclear expectations?)
+  3. Offer support: training, reduced workload, pair programming
+  4. Set clear expectations and timeline
+  5. Coach and check in frequently
+  6. If no improvement after support, then escalate (documented pattern)
+
+::: tip 💡 Exam Insight
+If a scenario describes a blocked or struggling team member, look for answers that involve **active problem-solving and support** rather than logging and waiting. Servant leadership means the PM acts immediately to help the team.
+:::
+
+---
+
 ## 🤝 Manage Stakeholder Engagement
+
 This is the process of communicating and working with stakeholders to meet their needs, address issues, and foster appropriate involvement.
 
 ::: tip 💡 Planning vs. Execution

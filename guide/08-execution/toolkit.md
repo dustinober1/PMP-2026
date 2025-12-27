@@ -228,13 +228,107 @@ Use to ensure procurement stays on track.
 - [ ] **Documentation**: Keep records of all decisions, changes, and acceptance
 - [ ] **Dispute resolution**: Use ADR (Alternative Dispute Resolution) before litigation
 
-::: warning ⚠️ Common Pitfall
-Do not "informally" ask the vendor for extra features. All scope changes must go through **formal procurement change control** (contract amendment).
+---
+
+## 🎯 Risk Response Execution Checklist
+
+Use when a risk trigger occurs and you need to execute the planned response.
+
+### Step 1: Confirm Trigger
+- [ ] Verify the risk has actually occurred (not just a similar event)
+- [ ] Confirm the trigger matches what was defined in the Risk Register
+- [ ] Document the actual trigger conditions
+
+### Step 2: Execute Response
+- [ ] Retrieve the risk response plan from the Risk Register
+- [ ] Execute the planned response immediately (avoid delays)
+- [ ] If planned response isn't possible, escalate for alternative decision
+- [ ] Document actions taken with timestamps
+
+### Step 3: Convert to Issue
+- [ ] Create an Issue Log entry (Issue ID, description, date, owner)
+- [ ] Update Risk Register: Mark as "Occurred" or close the risk
+- [ ] Link the Issue to the original Risk for traceability
+
+### Step 4: Assess Actual Impact
+- [ ] Compare actual impact to planned impact
+- [ ] If impact exceeds contingency reserve, prepare change request
+- [ ] Identify any secondary risks created by the response
+
+### Step 5: Communicate
+- [ ] Notify stakeholders per the Communications Plan
+- [ ] Provide: What happened, actions taken, current status, next steps
+- [ ] Update status reports and dashboards
+
+### Step 6: Capture Lessons
+- [ ] What worked in the response? What didn't?
+- [ ] Was the risk correctly assessed? Was the response effective?
+- [ ] Update Lessons Learned Register
+- [ ] Recommend process improvements if needed
+
+::: tip 💡 Exam Shortcut
+If a risk occurs, your FIRST action is **execute the pre-planned response**, not "analyze the situation" or "create a new plan." Risk planning exists precisely for this moment.
+:::
+
+---
+
+## 🌐 Virtual Team Management Checklist
+
+Use for distributed, remote, or hybrid teams to maintain productivity and cohesion.
+
+### Communication Setup
+- [ ] **Primary video platform confirmed** (Zoom, Teams, Meet)
+- [ ] **Backup communication channel available** (phone, alternate platform)
+- [ ] **Async communication tool agreed** (Slack, Teams, email)
+- [ ] **Project board visible to all** (Jira, Trello, Azure DevOps)
+- [ ] **Shared documentation repository** (Confluence, SharePoint, Notion)
+
+### Time Zone Management
+- [ ] **Team timezone overlay created** (World Time Buddy, shared calendar)
+- [ ] **Core overlap hours identified** (when everyone can meet)
+- [ ] **Meeting rotation schedule** (fair distribution across time zones)
+- [ ] **Async-first default** (minimize meetings, maximize documentation)
+
+### Communication Cadence
+- [ ] **Daily standup scheduled** (video on; consistent time or rotating)
+- [ ] **Weekly team sync** (longer agenda; blockers, priorities, demos)
+- [ ] **1-on-1s scheduled** (every 1-2 weeks with each team member)
+- [ ] **Retrospectives scheduled** (end of each sprint/phase)
+
+### Trust Building Activities
+- [ ] **Virtual team-building scheduled** (not just work; social connection)
+- [ ] **Personal check-ins incorporated** (brief "how are you?" in meetings)
+- [ ] **Recognition rituals established** (kudos channel, celebration of wins)
+- [ ] **Informal channels created** (virtual coffee, non-work chat)
+
+### Meeting Effectiveness
+- [ ] **Agenda shared in advance** (no surprise topics)
+- [ ] **Video default for all meetings** (cameras on when feasible)
+- [ ] **Engagement techniques used** (polls, reactions, call on quiet members)
+- [ ] **Meetings recorded** (for async viewers in other time zones)
+- [ ] **Action items captured** (who, what, when—before ending)
+
+### Onboarding New Virtual Team Members
+- [ ] **Welcome video call scheduled** (meet the team)
+- [ ] **Documentation shared** (project context, decisions, culture)
+- [ ] **Buddy/mentor assigned** (connection for questions)
+- [ ] **Tool access verified** (all platforms, repos, boards)
+- [ ] **Early 1-on-1 with PM** (check-in after first week)
+
+### Monitoring Engagement
+- [ ] **Participation tracked** (who is quieter than usual?)
+- [ ] **1-on-1 pulse checks** (ask about blockers, workload, morale)
+- [ ] **Action on silence** (reach out to disengaged team members)
+- [ ] **Retrospective feedback reviewed** (trends in team health)
+
+::: warning ⚠️ Virtual Team Red Flags
+Watch for: Cameras always off, declining response times, reduced meeting participation, isolation patterns. Don't assume "no news is good news"—proactively check in.
 :::
 
 ---
 
 ## 🎯 Value Delivery Assessment (Fast Checklist)
+
 Use during execution to ensure the project is on track to deliver value (not just outputs).
 
 | Question | Status | Notes / Action |

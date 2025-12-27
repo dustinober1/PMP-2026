@@ -573,7 +573,156 @@ Before marking any deliverable "complete," verify:
 
 ---
 
+## 🎯 Implement Risk Responses (Risk Execution)
+
+While risk identification and planning happen earlier, **Implement Risk Responses** is an Executing process. When risk triggers occur, the PM must execute the planned response and manage the transition from risk to issue.
+
+### Risk Response Strategies in Execution
+
+| Strategy | For Threats | For Opportunities | Execution Action |
+|---|---|---|---|
+| **Avoid / Exploit** | Eliminate the threat entirely | Ensure the opportunity happens | Change scope, schedule, or approach; remove uncertainty |
+| **Mitigate / Enhance** | Reduce probability or impact | Increase probability or impact | Implement contingency actions before trigger |
+| **Transfer / Share** | Shift risk to third party | Partner with third party to capture benefit | Execute contract, insurance, or partnership agreement |
+| **Accept** | Acknowledge and monitor | Acknowledge and monitor | If active: execute contingency when triggered. If passive: deal with it if it happens |
+
+### Risk Trigger Recognition
+
+**Risk triggers** are conditions or events that indicate a risk is about to occur or has occurred.
+
+| Risk Example | Trigger | Response Execution |
+|---|---|---|
+| "Vendor may deliver late" | Vendor misses first milestone by 3 days | Activate backup vendor per contingency plan |
+| "Key resource may be pulled to other project" | Functional manager schedules resource for another project | Execute pre-negotiated resource protection agreement |
+| "Technology may not scale" | Performance tests show 50% of target capacity | Execute fallback to alternative technology per plan |
+| "Regulatory approval may be delayed" | Regulator requests additional documentation | Execute parallel path (continue work while pursuing approval) |
+
+::: tip 💡 Exam Insight
+The PMP exam often presents scenarios where a risk has "just happened." The best first action is usually to **execute the pre-planned risk response**, not to start analyzing or creating a new response. That's why risk planning matters.
+:::
+
+### Risk-to-Issue Conversion Process
+
+When a risk occurs, it becomes an **issue**. Follow this process:
+
+```
+1. TRIGGER DETECTED
+   ↓
+2. VERIFY: Is this the planned trigger? Has the risk actually occurred?
+   ↓
+3. EXECUTE RESPONSE: Implement the risk response plan immediately
+   ↓
+4. LOG AS ISSUE: Move from Risk Register to Issue Log
+   • Record: Issue ID, description, actual impact, response taken
+   ↓
+5. ASSESS ACTUAL IMPACT: Compare to planned impact
+   • Did the response work as expected?
+   • Is actual impact larger/smaller than planned?
+   ↓
+6. COMMUNICATE: Notify stakeholders per communications plan
+   • Report: What happened, what you did, current status, next steps
+   ↓
+7. UPDATE DOCUMENTS:
+   • Risk Register: Mark risk as "Occurred" or close it
+   • Issue Log: Track resolution
+   • Lessons Learned: What worked? What didn't?
+   ↓
+8. ADJUST BASELINES (if needed):
+   • If impact exceeds contingency, follow change control process
+```
+
+### Risk Response Execution Scenarios
+
+**Scenario A: Planned Response Works**
+- **Risk**: "Vendor may deliver late" (Probability: 0.5, Impact: 2-week delay)
+- **Response Plan**: Backup vendor pre-qualified and ready
+- **Trigger**: Vendor confirms 2-week delay
+- **Execution**: Activate backup vendor; switch delivery to them
+- **Actual Impact**: 3-day transition delay (vs. 2-week delay without response)
+- **Outcome**: Risk response successful; project continues with minimal impact
+
+**Scenario B: Actual Impact Exceeds Plan**
+- **Risk**: "Key resource may leave" (Probability: 0.3, Impact: 4-week delay)
+- **Response Plan**: Cross-train backup resource
+- **Trigger**: Key resource resigns with 2 weeks notice
+- **Execution**: Activate backup resource
+- **Actual Impact**: Backup not fully trained; actual delay is 6 weeks
+- **Outcome**: Escalate to sponsor; request schedule extension via change control; capture lesson learned (need more cross-training time)
+
+### Residual and Secondary Risks
+
+- **Residual Risk**: Risk remaining after response is implemented. *Example*: After transferring construction risk to contractor, you still have contractual risk if they default.
+- **Secondary Risk**: New risk created by implementing a response. *Example*: Switching to a backup vendor introduces new integration risk.
+
+**Execution Action**: Monitor residual risks and identify secondary risks when executing responses. Add secondary risks to Risk Register.
+
+---
+
+## 🌐 Virtual Team Leadership
+
+With the shift toward distributed and hybrid work, the 2026 PMP exam emphasizes **virtual team leadership**. The same team development principles apply, but with additional challenges.
+
+### Virtual Team Challenges
+
+| Challenge | Impact | PM Response |
+|---|---|---|
+| **Time zone differences** | Limited overlap for real-time collaboration | Establish core hours; rotate meeting times fairly; use async communication |
+| **Communication barriers** | Misunderstandings, missed context, delayed responses | Over-communicate; use multiple channels; prefer video over audio over text |
+| **Reduced visibility** | Hard to detect struggles, conflicts, or disengagement | Regular 1-on-1s; ask open questions; watch for changes in participation |
+| **Trust building** | Takes longer without in-person interaction | Invest in virtual team-building; celebrate wins; share personal context |
+| **Technology issues** | Connectivity, tool access, security constraints | Ensure all team members have reliable tools; have backup communication channels |
+
+### Virtual Team Best Practices
+
+**Communication Cadence:**
+- **Daily standup** (video on): 15 minutes, same time daily; rotate time zones periodically
+- **Weekly sync**: 30-60 minutes; review progress, blockers, priorities
+- **1-on-1s**: 15-30 minutes per team member weekly or bi-weekly
+- **Async updates**: Use shared boards (Kanban, Jira) for continuous visibility
+
+**Building Trust Remotely:**
+- **Start meetings with personal check-ins**: "How is everyone doing?" (not just project status)
+- **Create virtual "water cooler" spaces**: Slack channels, virtual coffee chats
+- **Celebrate wins publicly**: Recognize contributions in team forums
+- **Be transparent**: Share decisions, context, and challenges openly
+- **Default to video**: Seeing faces builds connection faster than voice-only
+
+**Virtual Meeting Best Practices:**
+- **Have an agenda**: Share in advance; stick to time
+- **Use visual collaboration tools**: Miro, Mural, shared documents
+- **Engage everyone**: Call on quieter team members; use polls and reactions
+- **Record for async viewers**: Those in difficult time zones can catch up
+- **End with clear action items**: Who does what by when
+
+### Virtual Team Tools
+
+| Category | Purpose | Examples |
+|---|---|---|
+| **Video conferencing** | Real-time meetings | Zoom, Teams, Google Meet |
+| **Chat/messaging** | Quick async communication | Slack, Teams, Discord |
+| **Project management** | Work tracking, visibility | Jira, Asana, Monday, Azure DevOps |
+| **Visual collaboration** | Brainstorming, workshops | Miro, Mural, FigJam |
+| **Documentation** | Knowledge sharing | Confluence, Notion, SharePoint |
+| **Time zone management** | Scheduling across zones | World Time Buddy, Every Time Zone |
+
+### Virtual Team Tuckman Application
+
+| Stage | Virtual-Specific Challenges | PM Actions |
+|---|---|---|
+| **Forming** | People haven't met in person; uncertain about norms | Intro meeting with video; share bios/fun facts; over-communicate expectations |
+| **Storming** | Conflicts harder to detect; text misunderstandings | Encourage video for difficult discussions; facilitate directly; clarify often |
+| **Norming** | Trust takes longer to build remotely | Invest extra time in team-building; create virtual rituals; recognize progress |
+| **Performing** | Risk of isolation even when productive | Maintain social connection; celebrate wins; watch for burnout |
+| **Adjourning** | Transition feels abrupt without final gathering | Virtual celebration; recognition; formal closure activities |
+
+::: warning ⚠️ Common Virtual Team Mistake
+Don't assume "no news is good news" when team members go quiet. In virtual environments, silence often indicates disengagement, confusion, or being overwhelmed. **Proactively check in.**
+:::
+
+---
+
 <div class="study-tip">
+
   <strong>📝 Exam Insight:</strong> If a team member is blocked by a technical issue or an overbearing functional manager, the PM acting as a <strong>Servant Leader</strong> must prioritize removing that impediment. If you can't fix it yourself, escalate it.
 </div>
 

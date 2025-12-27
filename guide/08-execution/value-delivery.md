@@ -473,7 +473,105 @@ The Balanced Scorecard measures performance across four perspectives, preventing
 If a scenario asks how to predict whether benefits will be realized, focus on **leading indicators** during execution, not waiting for lagging indicators post-implementation.
 :::
 
-### 5. Value Dashboards and Reporting
+### 5. Net Promoter Score (NPS) Formula
+
+**NPS** measures customer loyalty and satisfaction, commonly used to track value delivery.
+
+**Formula:**
+```
+NPS = % Promoters - % Detractors
+```
+
+**Categories (based on 0-10 scale question: "How likely are you to recommend...?"):**
+- **Promoters (9-10)**: Loyal enthusiasts who drive growth
+- **Passives (7-8)**: Satisfied but unenthusiastic; vulnerable to competitors
+- **Detractors (0-6)**: Unhappy customers who can damage brand
+
+**Calculation Example:**
+| Response | Count | Percentage |
+|---|---|---|
+| Promoters (9-10) | 45 | 45% |
+| Passives (7-8) | 30 | 30% |
+| Detractors (0-6) | 25 | 25% |
+
+**NPS = 45% - 25% = +20**
+
+**Interpretation Guide:**
+| NPS Range | Interpretation | Action |
+|---|---|---|
+| **70+** | Excellent | Maintain and leverage for growth |
+| **50-69** | Strong | Continue improvements, address specific feedback |
+| **30-49** | Good | Identify and address detractor concerns |
+| **0-29** | Needs improvement | Investigate root causes, prioritize improvements |
+| **< 0** | Critical | Immediate intervention required; major issues |
+
+::: info 📊 NPS vs. CSAT
+- **NPS**: Measures loyalty and likelihood to recommend (relationship)
+- **CSAT**: Measures satisfaction with specific interaction (transactional)
+- Use both: NPS for overall value delivery; CSAT for specific deliverable acceptance
+:::
+
+---
+
+## 🔧 Quality Execution in Value Context
+
+Quality is not just about defect detection—it's about building value into every deliverable. Quality issues during execution directly threaten value delivery.
+
+### Quality vs. Grade
+
+| Concept | Definition | Example |
+|---|---|---|
+| **Quality** | Degree to which deliverable meets requirements | Software has no critical bugs, meets acceptance criteria |
+| **Grade** | Category assigned based on features/characteristics | Basic vs. Premium versions; economy vs. luxury |
+
+**Key Insight**: Low quality is always a problem (defects, rework). Low grade may be acceptable if it meets the project's needs (basic version may be sufficient for MVP).
+
+### Prevention vs. Inspection Costs
+
+| Approach | Definition | Cost Profile | Examples |
+|---|---|---|---|
+| **Prevention** | Avoid defects from occurring | High upfront, low ongoing | Training, peer reviews, standards, design reviews |
+| **Inspection/Detection** | Find defects after they occur | Low upfront, high ongoing | Testing, audits, inspections, rework |
+
+**PMP Principle**: **Prevention is preferred over inspection**. It's cheaper to prevent defects than to find and fix them later. This is why agile emphasizes built-in quality (TDD, CI/CD, DoD).
+
+### Cost of Quality (COQ)
+
+| Category | Type | Purpose | Examples |
+|---|---|---|---|
+| **Prevention Costs** | Conformance | Prevent defects | Training, process design, tool investment |
+| **Appraisal Costs** | Conformance | Detect defects | Testing, inspections, audits, reviews |
+| **Internal Failure Costs** | Non-conformance | Fix defects before delivery | Rework, scrap, retest, root cause analysis |
+| **External Failure Costs** | Non-conformance | Fix defects after delivery | Warranty, support, recalls, reputation damage |
+
+**Exam Insight**: External failure costs are the most expensive because they include customer impact, reputation damage, and potential legal liability.
+
+### 7 Basic Quality Tools in Execution
+
+Use these tools during execution to identify, analyze, and solve quality problems.
+
+| Tool | Purpose | When to Use | Example Application |
+|---|---|---|---|
+| **Cause-and-Effect Diagram (Fishbone/Ishikawa)** | Identify root causes | Major defect or recurring issue | "Why are customers reporting login failures?" → Categories: People, Process, Technology, Environment |
+| **Flowchart** | Map a process to find inefficiencies | Process improvement, understanding workflow | Map deployment process to find bottlenecks |
+| **Check Sheet** | Collect data systematically | Tracking defect types, frequencies | Tally defects by category each sprint |
+| **Pareto Chart** | Identify vital few causes (80/20 rule) | Prioritizing which issues to fix first | Top 20% of defect types cause 80% of failures |
+| **Histogram** | Show frequency distribution | Understanding variation in data | Distribution of response times |
+| **Control Chart** | Monitor process stability over time | Continuous monitoring; SPC | Track defect rate sprint-over-sprint |
+| **Scatter Diagram** | Show relationship between two variables | Investigating correlations | Does code complexity correlate with defect rate? |
+
+**Control Chart Details:**
+- **UCL (Upper Control Limit)**: Maximum acceptable value
+- **LCL (Lower Control Limit)**: Minimum acceptable value
+- **Mean**: Expected average
+- **Rule of 7**: Seven consecutive points on one side of the mean indicates a process shift (assignable cause)
+
+::: tip 💡 Exam Application
+If a scenario describes recurring quality issues during execution, look for answers that use **root cause analysis** (5 Whys, Fishbone) and **prevention** (process improvement, training, standards) rather than just adding more testing.
+:::
+
+### 6. Value Dashboards and Reporting
+
 
 **Dashboard Design Principles:**
 - **Audience-specific**: Executives need summaries; teams need details
