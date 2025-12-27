@@ -1,6 +1,6 @@
 # Knowledge Check: AI & Project Management
 
-Test your AI literacy and judgment to navigate the modern, tech-augmented project environment. These 25 questions cover the major concepts from Chapter 10, including ethics, prompting strategies, and lifecycle application.
+Test your AI literacy and judgment to navigate the modern, tech-augmented project environment. These 33 questions cover the major concepts from Chapter 10, including ethics, bias detection, EU AI Act compliance, Monte Carlo simulation, lifecycle application, and change management.
 
 <QuizComponent
   title="Chapter 10: AI & PM"
@@ -388,6 +388,102 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       correct: 1,
       explanation: 'False positives are learning data. This is HITL working perfectly: AI generates ideas, humans validate. The PM iterates and improves.',
       reference: 'Section 10.5 - Feedback Loop: Iterate & Improve'
+    },
+    {
+      text: 'Your organization is implementing AI to analyze job applications for initial screening. Under the EU AI Act, how should this system be classified?',
+      options: [
+        'Minimal Risk - no specific requirements apply',
+        'Limited Risk - only transparency disclosure required',
+        'High-Risk - requires risk management, documentation, human oversight, and bias audits',
+        'Unacceptable - this use case is banned under the EU AI Act'
+      ],
+      correct: 2,
+      explanation: 'The EU AI Act classifies AI used in employment/hiring decisions as High-Risk, requiring comprehensive governance including risk management systems, documentation, human oversight, and bias testing.',
+      reference: 'Section 10.2 - EU AI Act Risk Classification'
+    },
+    {
+      text: 'An AI tool is helping your team run a Monte Carlo simulation for schedule risk analysis. The simulation shows 62% probability of meeting the deadline. What should the PM do FIRST?',
+      options: [
+        'Accept the 62% probability and communicate the delay risk to stakeholders immediately',
+        'Investigate the highest-variance tasks identified by the simulation and determine if targeted mitigations can improve confidence',
+        'Ask the AI to recalculate using more optimistic assumptions',
+        'Ignore the simulation because 62% is close enough to acceptable'
+      ],
+      correct: 1,
+      explanation: 'Monte Carlo results show probability, but PM action should focus on root cause. Investigate highest-variance tasks (the risk drivers) and apply targeted mitigation to improve confidence level.',
+      reference: 'Section 10.3 - Monte Carlo Simulation with AI'
+    },
+    {
+      text: 'After 3 months of using AI for training program candidate selection, stakeholders notice female candidates are selected at half the rate of male candidates. What is the PM\\'s FIRST action?',
+      options: [
+        'Continue using the AI because any bias reflects historical patterns',
+        'Pause the AI system, document the current state, and communicate to stakeholders that you are investigating',
+        'Immediately retrain the model without investigation',
+        'Blame the AI vendor and demand a refund'
+      ],
+      correct: 1,
+      explanation: 'Bias incidents require: (1) Contain - pause the system, (2) Document - preserve logs, (3) Communicate - inform stakeholders. Investigation and remediation follow after containment.',
+      reference: 'Section 10.2 - Worked Example: Bias Investigation Scenario'
+    },
+    {
+      text: 'In a Water-Scrum-Fall hybrid project, AI is being used to support both governance documentation and sprint activities. Which governance pattern is MOST appropriate?',
+      options: [
+        'Use AI freely without restrictions since hybrid projects are flexible',
+        'Apply different governance patterns: formal change control for predictive phases, Product Owner approval for agile phases',
+        'Require CCB approval for all AI outputs regardless of phase',
+        'Let each team member decide their own AI governance approach'
+      ],
+      correct: 1,
+      explanation: 'Hybrid projects require context-appropriate AI governance. Predictive phases use formal change control; agile phases use PO/team consensus. Match governance to the delivery approach of each phase.',
+      reference: 'Section 10.3 - AI in Hybrid Projects'
+    },
+    {
+      text: 'You are trying to use AI to analyze a 200-page RFP document, but the AI tool you\\'re using has a 32,000 token limit. What is the BEST approach?',
+      options: [
+        'Paste the entire document and hope the AI processes it correctly',
+        'Break the document into logical sections, summarize each independently, then combine summaries for master analysis',
+        'Use a different AI tool without checking its limits',
+        'Give up and do the analysis manually'
+      ],
+      correct: 1,
+      explanation: 'Context window limits require chunking strategies. Break documents into sections, process independently, combine summaries. This maintains quality while working within AI constraints.',
+      reference: 'Section 10.1 - Context Window Limitations'
+    },
+    {
+      text: 'An AI tool is scanning your project communications and flags the phrase \"while we\\'re at it, can we also add...\" from a meeting transcript. What type of risk is this indicator most likely detecting?',
+      options: [
+        'Schedule variance risk',
+        'Scope creep - potential unauthorized scope expansion',
+        'Resource allocation risk',
+        'Stakeholder engagement risk'
+      ],
+      correct: 1,
+      explanation: 'AI-based scope creep detection uses NLP to identify phrases suggesting unauthorized scope expansion. \"While we\\'re at it, can we also add...\" is a classic scope creep indicator requiring investigation.',
+      reference: 'Section 10.3 - Scope Creep Detection via AI'
+    },
+    {
+      text: 'Before rolling out AI tools to your team, you administer a cultural readiness survey. The average score is 2.5 out of 5.0. What action should the PM take?',
+      options: [
+        'Proceed with rollout since any score above 2.0 is acceptable',
+        'Delay rollout and focus on trust-building, education, and governance clarity before trying again',
+        'Roll out anyway but track adoption closely',
+        'Cancel the AI initiative permanently'
+      ],
+      correct: 1,
+      explanation: 'A cultural readiness score of 2.5 indicates low readiness. Rolling out will likely fail. Address trust, fear, governance, and support gaps first, then reassess readiness before proceeding.',
+      reference: 'Section 10.5 - Cultural Readiness Assessment'
+    },
+    {
+      text: 'An organization\\'s AI adoption failed after the single PM champion who drove it left the company. Which failure mode does this represent, and what could have prevented it?',
+      options: [
+        'Mandate Without Support - should have required executive mandate',
+        'Champion Leaves - should have documented processes, trained multiple champions, and embedded AI into standard workflows',
+        'Tool First Use Case Second - should have identified use cases first',
+        'All In Day One - should have started with a pilot'
+      ],
+      correct: 1,
+      explanation: 'The \"Champion Leaves\" failure mode occurs when knowledge is concentrated in one person. Prevention requires documentation, multiple trained champions, and embedding AI into standard processes (not personal workflows).',
+      reference: 'Section 10.5 - Failure Mode 5: Champion Leaves'
     }
   ]"
 />
