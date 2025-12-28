@@ -198,10 +198,10 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       reference: 'Section 10.2 - Accountability'
     },
     {
-      text: 'You are using "Few-Shot Prompting" to help an AI draft a Risk Register. What does this involve?',
+      text: 'You are using “Few-Shot Prompting” to help an AI draft a Risk Register. What does this involve?',
       options: [
         'Giving the AI zero context and asking for a list',
-        'Providing 2-3 examples of a "good" risk entry before asking it to generate new ones',
+        'Providing 2-3 examples of a “good” risk entry before asking it to generate new ones',
         'Asking the AI to think step-by-step',
         'Asking the AI to rewrite the response 10 times'
       ],
@@ -306,7 +306,7 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       reference: 'Section 10.4 - Pilot-to-Production'
     },
     {
-      text: 'A team member expresses fear that "AI will replace my job." What is the PM\'s BEST response using emotional intelligence?',
+      text: 'A team member expresses fear that “AI will replace my job.” What is the PM\'s BEST response using emotional intelligence?',
       options: [
         'Ignore the concern and mandate AI usage to show progress',
         'Acknowledge the concern, explain that AI removes drudgery (not judgment), and show examples of how tools enhance roles',
@@ -366,7 +366,7 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       reference: 'Section 10.5 - The 4-Week Adoption Playbook'
     },
     {
-      text: 'A project manager is deciding whether to use AI to draft a complex vendor contract. Which factor from the AI Selection Decision Framework should trigger "Avoid AI"?',
+      text: 'A project manager is deciding whether to use AI to draft a complex vendor contract. Which factor from the AI Selection Decision Framework should trigger “Avoid AI”?',
       options: [
         'The task will save 8 hours of work',
         'The data volume is small (3 past contracts)',
@@ -378,7 +378,7 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       reference: 'Section 10.1 - AI Selection Decision Framework'
     },
     {
-      text: 'During a monthly AI check-in, a team member says: "The AI suggested 5 potential bugs for the next phase, but 4 were false positives." What should the PM do?',
+      text: 'During a monthly AI check-in, a team member says: “The AI suggested 5 potential bugs for the next phase, but 4 were false positives.” What should the PM do?',
       options: [
         'Stop using the tool immediately because it failed',
         'Celebrate that the team caught the false positives (HITL working), then investigate why and refine the prompt/tool',
@@ -414,7 +414,7 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       reference: 'Section 10.3 - Monte Carlo Simulation with AI'
     },
     {
-      text: 'After 3 months of using AI for training program candidate selection, stakeholders notice female candidates are selected at half the rate of male candidates. What is the PM\\'s FIRST action?',
+      text: 'After 3 months of using AI for training program candidate selection, stakeholders notice female candidates are selected at half the rate of male candidates. What is the PM\'s FIRST action?',
       options: [
         'Continue using the AI because any bias reflects historical patterns',
         'Pause the AI system, document the current state, and communicate to stakeholders that you are investigating',
@@ -438,7 +438,7 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       reference: 'Section 10.3 - AI in Hybrid Projects'
     },
     {
-      text: 'You are trying to use AI to analyze a 200-page RFP document, but the AI tool you\\'re using has a 32,000 token limit. What is the BEST approach?',
+      text: 'You are trying to use AI to analyze a 200-page RFP document, but the AI tool you\'re using has a 32,000 token limit. What is the BEST approach?',
       options: [
         'Paste the entire document and hope the AI processes it correctly',
         'Break the document into logical sections, summarize each independently, then combine summaries for master analysis',
@@ -450,7 +450,7 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       reference: 'Section 10.1 - Context Window Limitations'
     },
     {
-      text: 'An AI tool is scanning your project communications and flags the phrase \"while we\\'re at it, can we also add...\" from a meeting transcript. What type of risk is this indicator most likely detecting?',
+      text: 'An AI tool is scanning your project communications and flags the phrase “while we\'re at it, can we also add…” from a meeting transcript. What type of risk is this indicator most likely detecting?',
       options: [
         'Schedule variance risk',
         'Scope creep - potential unauthorized scope expansion',
@@ -458,7 +458,7 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
         'Stakeholder engagement risk'
       ],
       correct: 1,
-      explanation: 'AI-based scope creep detection uses NLP to identify phrases suggesting unauthorized scope expansion. \"While we\\'re at it, can we also add...\" is a classic scope creep indicator requiring investigation.',
+      explanation: 'AI-based scope creep detection uses NLP to identify phrases suggesting unauthorized scope expansion. “While we\'re at it, can we also add…” is a classic scope creep indicator requiring investigation.',
       reference: 'Section 10.3 - Scope Creep Detection via AI'
     },
     {
@@ -474,7 +474,7 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
       reference: 'Section 10.5 - Cultural Readiness Assessment'
     },
     {
-      text: 'An organization\\'s AI adoption failed after the single PM champion who drove it left the company. Which failure mode does this represent, and what could have prevented it?',
+      text: 'An organization\'s AI adoption failed after the single PM champion who drove it left the company. Which failure mode does this represent, and what could have prevented it?',
       options: [
         'Mandate Without Support - should have required executive mandate',
         'Champion Leaves - should have documented processes, trained multiple champions, and embedded AI into standard workflows',
@@ -482,7 +482,7 @@ Test your AI literacy and judgment to navigate the modern, tech-augmented projec
         'All In Day One - should have started with a pilot'
       ],
       correct: 1,
-      explanation: 'The \"Champion Leaves\" failure mode occurs when knowledge is concentrated in one person. Prevention requires documentation, multiple trained champions, and embedding AI into standard processes (not personal workflows).',
+      explanation: 'The “Champion Leaves” failure mode occurs when knowledge is concentrated in one person. Prevention requires documentation, multiple trained champions, and embedding AI into standard processes (not personal workflows).',
       reference: 'Section 10.5 - Failure Mode 5: Champion Leaves'
     }
   ]"

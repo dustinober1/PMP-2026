@@ -17,6 +17,12 @@ Master the technical documentation and mathematical foundations of project manag
     <p class="appendix-description">A deep dive into the logs, registers, and dashboards that power modern projects.</p>
     <a href="./tools-artifacts" class="appendix-link">Learn the Ledger →</a>
   </div>
+
+  <div class="appendix-card">
+    <div class="appendix-title">2026 ECO Task Map</div>
+    <p class="appendix-description">The July 2026 exam blueprint and a crosswalk from ECO tasks to the best sections of this guide.</p>
+    <a href="./eco-2026-task-map" class="appendix-link">Use the Crosswalk →</a>
+  </div>
 </div>
 
 ---

@@ -31,13 +31,17 @@ The exam is designed to test your mental stamina and situational judgment over a
 | :------------------ | :----------------------------------------- |
 | **Total Questions** | 185 (175 scored, 10 unscored pretest)      |
 | **Total Time**      | 240 Minutes (4 Hours)                      |
-| **Breaks**          | Two optional 10-minute breaks              |
-| **Sections**        | Three sections of ~60 questions each       |
+| **Breaks**          | Two 5-minute breaks (center-based exam)    |
+| **Sections**        | Case-study section + independent questions |
 | **Languages**       | Distributed globally in multiple languages |
 | **Passing Score**   | Not disclosed; competency-based scoring    |
 
 ::: tip 💡 The "Review" Rule
 Once you finish a section and start your break, you **cannot** go back to those questions. You must complete your review before hitting the break button.
+:::
+
+::: info 🧩 New Section Structure (2026)
+The July 2026 exam includes a **case-study section**, followed by independent questions. The first 5-minute break occurs after the case-study section; the second break occurs about halfway through the independent question portion.
 :::
 
 ---
@@ -67,9 +71,9 @@ The 2026 ECO (Exam Content Outline) places high importance on the environment su
 
 | Domain | Key Tasks Tested |
 |--------|------------------|
-| **People** | Managing conflict, leading teams, supporting team performance, empowering team members, ensuring team members are trained, building virtual teams, defining team ground rules, negotiating with stakeholders, collaborating with stakeholders, building shared understanding, engaging and supporting virtual teams, defining communication strategies, addressing impediments/obstacles/blockers, mentoring relevant stakeholders, applying emotional intelligence |
-| **Process** | Executing project with urgency, managing communications, assessing and managing risks, engaging stakeholders, planning and managing budget/resources/schedule/quality, integrating project activities, managing project changes, managing project artifacts, managing procurement, managing project knowledge |
-| **Business Environment** | Planning and managing project compliance, evaluating and delivering project benefits, evaluating and addressing internal and external changes, supporting organizational change, contributing to continuous improvement |
+| **People** | Develop a common vision; manage conflicts; lead the project team; engage stakeholders; align stakeholder expectations; manage stakeholder expectations; help ensure knowledge transfer; plan and manage communication |
+| **Process** | Develop an integrated project management plan and plan delivery; develop and manage project scope; help ensure value-based delivery; plan and manage resources; plan and manage procurement; plan and manage finance; plan and optimize quality of products/deliverables; plan and manage schedule; evaluate project status; manage project closure |
+| **Business Environment** | Define and establish project governance; plan and manage project compliance; manage and control changes; remove impediments and manage issues; plan and manage risk; continuous improvement; support organizational change; evaluate external business environment changes |
 
 ---
 
@@ -78,14 +82,14 @@ Forget simple multiple-choice. The 2026 exam uses **Interactive Simulations**:
 
 ### Question Types You'll Encounter
 
-| Type | Description | Time Allocation |
-|------|-------------|-----------------|
-| **Multiple Choice** | Traditional 4-option, single answer | ~60% of exam |
-| **Multiple Response** | Select 2-3 correct answers from 5-6 options | ~10% of exam |
-| **Matching** | Match items from two columns | ~10% of exam |
-| **Drag-and-Drop** | Sequence steps or categorize items | ~10% of exam |
-| **Hotspot** | Click on the correct area of an image/diagram | ~5% of exam |
-| **Fill-in-the-Blank** | Complete a statement or calculation | ~5% of exam |
+| Type | What it looks like (in practice) |
+|------|----------------------------------|
+| **Case / Scenario (NEW)** | A longer scenario (often with visuals) followed by a set of questions |
+| **Graphic-Based (NEW)** | Interpret charts/graphs/diagrams/images and answer questions |
+| **Enhanced Matching** | Drag items into the correct places (may include images/diagrams) |
+| **Point and Click** | Select the correct hotspot area on an image |
+| **Multiple Choice (Single Response)** | 1 correct answer |
+| **Multiple Response** | Select all that apply (more than 1 correct answer) |
 
 ### Scenario Sets (Mini Case Studies)
 Some questions come in sets of 3-5 questions tied to a single project scenario. The scenario appears on the left, and questions appear on the right.
@@ -132,7 +136,7 @@ Questions then test different aspects:
 
 *Correct Order: Submit → Evaluate → CCB reviews → Implement → Update*
 
-**Hotspot Example:**
+**Point-and-Click Example:**
 > Given the burn-down chart below, click on the area that indicates when the team first fell behind the ideal line.
 
 *You would click on the exact point where the actual line diverges above the ideal line.*
@@ -187,14 +191,14 @@ You have **240 minutes** for **185 questions** = ~1.3 minutes per question.
 
 ### Recommended Pacing
 
-| Phase | Questions | Time | Strategy |
-|-------|-----------|------|----------|
-| **Section 1** | ~60 | 75-80 min | Get into rhythm; mark uncertain questions |
-| **Break 1** | - | 10 min | Stand, stretch, hydrate |
-| **Section 2** | ~60 | 75-80 min | Core content; most intensive |
-| **Break 2** | - | 10 min | Mental reset |
-| **Section 3** | ~65 | 70-75 min | Final push; may feel harder due to fatigue |
-| **Buffer** | - | ~10 min | Review marked questions |
+| Phase | Time | Strategy |
+|-------|------|----------|
+| **Case-study section** | ~70-85 min | Read once; answer the full set while the scenario is fresh |
+| **Break 1** | 5 min | Stand, stretch, hydrate |
+| **Independent questions (Part 1)** | ~70-80 min | Steady pace; mark uncertain questions and move on |
+| **Break 2** | 5 min | Mental reset |
+| **Independent questions (Part 2)** | ~65-75 min | Protect focus; avoid second-guess spirals |
+| **Buffer** | ~5-10 min | Review flagged questions before submitting |
 
 ### Time Management Tips
 

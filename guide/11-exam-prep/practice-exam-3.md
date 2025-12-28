@@ -80,7 +80,7 @@ The final challenge: Integration, AI, Ethics, and high-stakes scenarios.
 | **AI**       | Do you understand the *Human-in-the-Loop* requirement?                            |
 
 ::: tip 🎓 Ready?
-If you scored **4/5** or higher on all three exams, you are ready to simulate a full 180-question test. If not, revisit the specific chapters linked in the "Reference" field of each question.
+If you scored **4/5** or higher on all three exams, you are ready to simulate a full **185-question / 240-minute** test with **two 5-minute breaks**. If not, revisit the specific chapters linked in the "Reference" field of each question.
 :::
 
 <div class="action-bar">

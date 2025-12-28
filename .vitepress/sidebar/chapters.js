@@ -174,6 +174,7 @@ export function createSidebar() {
       collapsed: true,
       items: [
         { text: 'Appendix Overview', link: '/guide/appendices/' },
+        { text: '2026 ECO Task Map', link: '/guide/appendices/eco-2026-task-map' },
         { text: 'Formula Mastery', link: '/guide/appendices/formulas-definitions' },
         { text: 'Tools & Artifacts', link: '/guide/appendices/tools-artifacts' }
       ]

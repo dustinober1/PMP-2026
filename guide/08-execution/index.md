@@ -2,8 +2,8 @@
 
 Execution is where strategy meets reality. In the 2026 PMP exam, a Project Manager doesn't just "execute tasks"—they **steward value**. Success is measured not just by a finished product, but by the meaningful outcomes it creates for the customer and the organization.
 
-::: tip 🎯 PMP Exam Weight
-**Execution accounts for approximately 31% of the PMP exam** (roughly 55-60 questions out of 180). This is the largest domain by question count, reflecting the reality that most project work happens during execution—and most problems surface here.
+::: tip 🎯 PMP Exam Reality (2026)
+The 2026 ECO doesn’t have a separate “Execution” domain, but many **Process (41%)** and **Business Environment (26%)** questions are set during execution—where blockers, change requests, vendor delays, and quality issues surface.
 :::
 
 ::: info 📊 What the Exam Tests

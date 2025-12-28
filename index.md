@@ -21,7 +21,7 @@ features:
     details: 10 in-depth chapters covering all three domains — People (33%), Process (41%), and Business Environment (26%)
   - icon: 🎯
     title: Exam-Focused Practice
-    details: 3 full-length practice exams with 185 questions each, matching the new exam format with detailed explanations
+    details: 3 exam-style practice exams with detailed explanations to build speed, confidence, and the PMI mindset
   - icon: 🔄
     title: All Methodologies
     details: Master predictive, agile, and hybrid approaches as tested in the 2026 exam with real-world scenarios
@@ -362,7 +362,7 @@ import { withBase } from 'vitepress'
       <div class="step-number">4</div>
       <div class="step-content">
         <h4>Take Practice Exams</h4>
-        <p>Complete all three full-length practice exams to simulate the real test environment and build exam confidence.</p>
+        <p>Complete the practice exams to build speed, confidence, and a strong sense of the PMI mindset.</p>
       </div>
     </div>
   </div>

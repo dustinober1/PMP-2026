@@ -1,6 +1,6 @@
 # 11.1 Exam Strategy & Test-Taking
 
-The PMP exam is a test of **reasoning**, not just recall. In 2026, the exam is roughly 50% Agile/Hybrid and 50% Predictive. To pass, you must demonstrate the "PMI Mindset" in every choice you make.
+The PMP exam is a test of **reasoning**, not just recall. In 2026, approximately **40%** of the items represent **predictive** approaches and the remaining **60%** are split between **adaptive/agile** and **hybrid** approaches. To pass, you must demonstrate the "PMI Mindset" in every choice you make.
 
 ---
 
@@ -32,14 +32,14 @@ When unsure, apply these filters. The correct answer almost always aligns with:
 
 ---
 
-## 🏎️ Time Management: The 230-Minute Marathon
-The exam is 180 questions in 230 minutes. You get two 10-minute breaks.
+## 🏎️ Time Management: The 240-Minute Marathon
+The exam is **185 questions in 240 minutes**. For the center-based exam, you get **two 5-minute breaks**. The first break occurs after the **case-study section**, and the second occurs about halfway through the **independent question** portion.
 
-*   **Section 1 (0-60)**: 75 Minutes. *Warm up.*
-*   **Break 1**: *Take it. Reset your brain.*
-*   **Section 2 (61-120)**: 75 Minutes. *The Grind.*
-*   **Break 2**: *Take it. Stretch.*
-*   **Section 3 (121-180)**: 80 Minutes. *The Sprint.*
+*   **Segment 1 (Case studies)**: Don't over-read; answer the full set while the scenario is fresh.
+*   **Break 1 (5 min)**: Reset, hydrate, breathe.
+*   **Segment 2 (Independent questions)**: Maintain steady pace; mark and move.
+*   **Break 2 (5 min)**: Quick reset; protect your focus.
+*   **Segment 3 (Independent questions)**: Keep momentum; avoid second-guess spirals.
 
 ::: tip 💡 The "Review" Lock
 Once you finish a section and start your break, **you cannot go back**. Review your flagged questions before hitting "Submit Section."
