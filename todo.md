@@ -33,6 +33,13 @@
 
 - [x] **Confirm redistribution rights for PDFs** in `References/` before publishing publicly (handled by not distributing PDFs in the repo; cite/link to official sources instead).
 
+## 2026 Alignment & Modernization
+- [x] **2026 PMP Exam Alignment Determination**: Confirmed 11-chapter structure is sufficient for PMBOK 8 and the July 2026 ECO.
+- [x] **Update Legacy Terminology**: Modernized `legacy/appendices/Terminology-Master-List.md` and `Content-Quality-Checklist.md` for PMBOK 8.
+- [ ] **Finalize Guide Glossary**: Finish migrating and stylizing the A-Z terminology into `guide/appendices/glossary.md`.
+- [ ] **Fix ECO Task Map Links**: Update `guide/appendices/eco-2026-task-map.md` to point to existing files (currently has many placeholder links).
+- [ ] **AI Scenario Review**: Ensure Chapter 10 has the "Case Study" sets mentioned in the 2026 ECO.
+
 ## Editorial / Consistency (High Value)
 
 - [x] Normalize internal section numbering so headings match file numbering (example: `legacy/chapters/Chapter 01 - Introduction and Fundamentals/01.4a – Stakeholders and Communication.md` uses `5.1.x` headings).

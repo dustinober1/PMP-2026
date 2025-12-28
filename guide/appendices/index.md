@@ -19,6 +19,12 @@ Master the technical documentation and mathematical foundations of project manag
   </div>
 
   <div class="appendix-card">
+    <div class="appendix-title">Global Glossary</div>
+    <p class="appendix-description">The standardized A-Z language of the PMP exam, aligned with PMBOK 8th Edition definitions.</p>
+    <a href="./glossary" class="appendix-link">Speak the Language →</a>
+  </div>
+
+  <div class="appendix-card">
     <div class="appendix-title">2026 ECO Task Map</div>
     <p class="appendix-description">The July 2026 exam blueprint and a crosswalk from ECO tasks to the best sections of this guide.</p>
     <a href="./eco-2026-task-map" class="appendix-link">Use the Crosswalk →</a>

@@ -60,8 +60,8 @@ This checklist ensures consistency, accuracy, and quality across all PMP study g
 ## Peer Review Checklist
 
 ### Content Accuracy
-- [ ] Content aligns with PMI standards and PMBOK 7th Edition
-- [ ] Information reflects 2026 ECO requirements
+- [ ] Content aligns with PMI standards and PMBOK 8th Edition
+- [ ] Content reflects the 2026 PMP Exam Content Outline (ECO) tasks and enablers
 - [ ] No contradictions with existing chapters
 - [ ] Technical accuracy verified
 - [ ] Best practices align with PMI philosophy
