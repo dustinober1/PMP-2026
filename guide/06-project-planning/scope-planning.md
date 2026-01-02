@@ -1,7 +1,7 @@
 # 6.1 Scope Planning
 
-**ECO Task**: Plan and manage scope
-**ECO Task**: Integrate project planning activities
+**ECO Task**: Develop an integrated project management plan and plan delivery
+**ECO Task**: Develop and manage project scope
 
 Scope defines the boundaries of the mission. It is the "What" the team will build and, just as importantly, the "What Not."
 

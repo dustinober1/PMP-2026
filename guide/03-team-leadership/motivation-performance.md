@@ -1,6 +1,6 @@
 # 3.4 Motivation, Engagement & Performance Management
 
-**ECO Task**: Support team performance
+**ECO Task**: Lead the project team
 
 "You can't motivate people; you can only create the environment where they choose to be motivated."
 

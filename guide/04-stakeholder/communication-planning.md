@@ -1,6 +1,7 @@
-# 4.2 Communication Planning
+# 4.4 Negotiation & Decision-Making
 
-**ECO Task**: Manage communications
+**ECO Task**: Manage conflictsage communication
+**ECO Task**: Align stakeholder expectations
 
 If you spend 90% of your time communicating, you better have a plan for it. The **Communications Management Plan** is the formal strategy for ensuring the right information reaches the right people at the right time.
 

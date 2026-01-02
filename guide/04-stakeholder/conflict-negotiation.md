@@ -1,6 +1,6 @@
 # 4.4 Negotiation & Decision-Making
 
-**ECO Task**: Negotiate project agreements
+**ECO Task**: Manage conflicts
 
 Negotiation is a daily activity for project leaders—whether you are competing for high-performers, defending a budget, or resolving a scope dispute with a vendor. The 2026 PMP exam focuses on **Interest-Based Negotiation**.
 

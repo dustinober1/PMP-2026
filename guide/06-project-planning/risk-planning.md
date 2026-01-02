@@ -1,6 +1,6 @@
 # 6.5 Risk Planning
 
-**ECO Task**: Assess and manage risks
+**ECO Task**: Plan and manage risk
 
 Risk management is about **proactive uncertainty management**—identifying what could go wrong (threats) or right (opportunities) and planning responses in advance.
 

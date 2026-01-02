@@ -1,6 +1,6 @@
 # 7.1 Risk Management
 
-**ECO Task**: Assess and manage risks
+**ECO Task**: Plan and manage risk
 
 Risk is **uncertainty that matters**—it can help you (opportunities) or hurt you (threats). The PMP exam tests whether you can:
 

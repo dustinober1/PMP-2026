@@ -1,7 +1,7 @@
 # 2.3 Compliance & Governance
 
 **ECO Task**: Plan and manage project compliance
-**ECO Task**: Support organizational governance frameworks
+**ECO Task**: Define and establish project governance
 
 Projects operate within a web of "Unwritten Rules" (Politics) and "Written Laws" (Compliance). The 2026 PMP Exam tests your ability to navigate both without crashing.
 

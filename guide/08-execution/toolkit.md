@@ -1,6 +1,6 @@
 # 8.3 Tools & Templates (One-Stop Reference)
 
-**ECO Task**: Address and remove impediments
+**ECO Task**: Remove impediments and manage issues
 
 Use this page as a copy/paste toolkit for execution and value delivery scenarios. It’s designed to match how the PMP exam phrases problems (“what should you do first?”).
 

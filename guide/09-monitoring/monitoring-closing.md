@@ -1,8 +1,13 @@
 # 9.1 Monitoring & Controlling (Control & Change)
 
-**ECO Task**: Manage project changes
-**ECO Task**: Manage project issues
-**ECO Task**: Plan and manage project/phase closure or transitions
+**ECO Task**: Manage and control changes
+**ECO Task**: Remove impediments and manage issues
+**ECO Task**: Manage project closure
+**ECO Task**: Manage stakeholder expectations
+**ECO Task**: Plan and manage finance
+**ECO Task**: Plan and manage schedule
+**ECO Task**: Help ensure knowledge transfer
+**ECO Task**: Evaluate project status
 
 Monitoring is about **observing** performance; controlling is about **taking action** when performance deviates from the plan. In the 2026 PMP exam, this is where you prove you can run a project with discipline: detect problems early, diagnose the cause, act appropriately, and communicate transparently.
 

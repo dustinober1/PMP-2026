@@ -1,6 +1,6 @@
 # 3.1a Team Formation & Resource Acquisition
 
-**ECO Task**: Build a team
+**ECO Task**: Lead the project team
 
 A high-performing team is more than just a group of talented individuals; it is a balanced ecosystem of skills, personalities, and shared goals. The project manager's task is to assemble and acquire the right mix of capabilities for the mission.
 

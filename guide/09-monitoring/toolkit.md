@@ -1,6 +1,6 @@
 # 9.3 Tools & Templates (Monitoring & Closing Toolkit)
 
-**ECO Task**: Manage project changes
+**ECO Task**: Manage and control changes
 
 Use this page as a copy/paste toolkit for Monitoring & Controlling and Project Closure scenarios. It’s designed to match how the PMP exam phrases problems (“what should you do first?”).
 

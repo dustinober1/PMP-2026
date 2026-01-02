@@ -1,6 +1,6 @@
 # 3.1b Tuckman's Model & Team Development
 
-**ECO Task**: Lead a team
+**ECO Task**: Lead the project team
 
 Every team goes through a predictable lifecycle. As a project leader, your style must shift from **Directing** to **Empowering** as the team builds trust and autonomous capability.
 

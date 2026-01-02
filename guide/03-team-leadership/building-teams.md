@@ -1,6 +1,7 @@
-# 3.1 Building High-Performing Teams
+# 3.3 Conflict Management & Negotiation
 
-**ECO Task**: Build a team
+**ECO Task**: Manage conflictshe project team
+**ECO Task**: Plan and manage resources
 
 Projects don't fail; teams do. Your primary accountability is to assemble a diverse group of strangers and transform them into a cohesive value-delivery engine.
 

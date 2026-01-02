@@ -1,6 +1,6 @@
 # 3.3 Conflict Management & Negotiation
 
-**ECO Task**: Manage conflict
+**ECO Task**: Manage conflicts
 
 Conflict is not a sign of failure; it is a sign of passion. If your team never fights, they probably don't care. Your job is to channel that energy into innovation.
 

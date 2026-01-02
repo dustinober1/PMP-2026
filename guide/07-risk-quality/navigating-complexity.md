@@ -1,6 +1,6 @@
 # 7.3 Navigating Complexity
 
-**ECO Task**: Assess and manage risks
+**ECO Task**: Plan and manage risk
 
 Complexity is not just a project being “hard.” A rocket engine can be *complicated* (many parts, but predictable). Changing an organization’s culture is *complex* (people adapt, cause/effect shifts, and outcomes emerge).
 
