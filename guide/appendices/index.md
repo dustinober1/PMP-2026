@@ -67,6 +67,21 @@ Master the technical documentation and mathematical foundations of project manag
       <li><a href="./flashcards-process-task10-closure" class="appendix-link">Task 10: Project Closure</a></li>
     </ul>
   </div>
+
+  <div class="appendix-card">
+    <div class="appendix-title">Business Environment Decks</div>
+    <p class="appendix-description">Strategic flashcards for all 8 Business Domain tasks. Covers Governance, Compliance, Value, and Change.</p>
+    <ul style="list-style: none; padding: 0; margin-top: 10px;">
+      <li><a href="./flashcards-business-task1-governance" class="appendix-link">Task 1: Governance</a></li>
+      <li><a href="./flashcards-business-task2-compliance" class="appendix-link">Task 2: Compliance</a></li>
+      <li><a href="./flashcards-business-task3-changes" class="appendix-link">Task 3: Manage Changes</a></li>
+      <li><a href="./flashcards-business-task4-issues" class="appendix-link">Task 4: Issues & Impediments</a></li>
+      <li><a href="./flashcards-business-task5-risk" class="appendix-link">Task 5: Risk Planning</a></li>
+      <li><a href="./flashcards-business-task6-improvement" class="appendix-link">Task 6: Continuous Improvement</a></li>
+      <li><a href="./flashcards-business-task7-external" class="appendix-link">Task 7: External Environment</a></li>
+      <li><a href="./flashcards-business-task8-org-change" class="appendix-link">Task 8: Organizational Change</a></li>
+    </ul>
+  </div>
 </div>
 
 ---
