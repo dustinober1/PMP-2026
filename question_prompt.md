@@ -1,92 +1,112 @@
-# PMP Practice Question Generator: Business Task 3
+# MASTER PROMPT: PMP Exam Factory (Business Task 4: Remove impediments and manage issues)
 
-## Role
+Use a swarm of agents for this task
 
-You are an expert PMP Content Engineer and Instructional Designer. Your task is to generate a 50-question "Hard-Mode" practice exam document for **Business Task 3: Evaluate and Address External Business Environment Changes for Impact on Scope**.
+## PHASE 1: INITIALIZATION & CONTEXT CRAWL
 
-## Execution Instructions
+**Role:** Senior PMP Content Architect & Data Engineer.
+**Objective:** Create a 50-question "Hard-Mode" practice exam for **Business Task 4: Remove impediments and manage issues**.
 
-Perform this task in **three phases** to ensure maximum quality and technical accuracy.
+**Source of Truth Files:**
+You must read and extract the logic, rules, and escalation thresholds from:
 
-### Phase 1: Generation (The Author Agent)
+* `guide/08-execution/executing-work.md`
+* `guide/08-execution/toolkit.md`
+* `guide/03-team-leadership/conflict-management.md`
 
-Generate 50 questions divided into 5 distinct thematic batches. Each question must follow the **Standard Format** below.
+**ECO Mapping:**
+Ensure questions are mapped to these enablers from the `eco_coverage_report.md`:
 
-* **Batch 1 (Political/Economic):** Focus on trade tariffs, inflation, currency fluctuations, and geopolitical instability.
-* **Batch 2 (Technological/Social):** Focus on AI disruption, shifting consumer demographics, and rapid tech obsolescence.
-* **Batch 3 (Legal/Environmental):** Focus on new privacy laws (GDPR/CCPA), carbon footprint mandates, and industry-specific safety regulations.
-* **Batch 4 (Agile/Market):** Focus on competitor product launches and pivoting the Product Backlog.
-* **Batch 5 (Hybrid/Organizational):** Focus on mergers, acquisitions, and third-party vendor failures.
-
-### Phase 2: The Audit (The Quality Agent)
-
-Review the generated questions and verify:
-
-1. **Distractor Quality:** Every question must have at least one "Trap" answer (e.g., jumping to a solution before doing an impact analysis).
-2. **Methodology Balance:** Ensure a 50/50 split between Predictive and Agile/Hybrid scenarios.
-3. **Answer Distribution:** Ensure a near-even distribution of A, B, C, and D.
-
-### Phase 3: Assembly & Styling (The Cleanup Agent)
-
-Assemble the final document: `guide/11-exam-prep/business-task3-environment-practice.md`.
+1. Evaluate the impact of impediments.
+2. Prioritize and highlight impediments.
+3. Determine and apply an intervention strategy to remove/minimize impediments.
+4. Reassess continually to help ensure impediments, obstacles, and blockers for the team are being addressed.
+5. Recognize when a risk becomes an issue.
+6. Collaborate with relevant stakeholders on an approach to resolve the issues.
 
 ---
 
-## Standard Question Format
+## PHASE 2: GENERATION (DATABASE-READY FORMAT)
+
+Generate **50 unique, scenario-based questions** in batches.
+**CRITICAL:** To support future database randomization, **DO NOT USE LETTERS (A, B, C, D)** in the rationales or scenarios.
+
+**Formatting Instructions:**
+
+* **Methodology Mix:** 40% Predictive, 35% Agile, 25% Hybrid.
+* **Difficulty:** Level 4/5 (Analysis/Evaluation).
+* **Correct Answer Logic:** Ensure the correct answer is not always the longest string.
+
+**Question Structure:**
 
 ```markdown
 ### Question [N]
 
-**Topic:** [Enabler Name] | **Methodology:** [Agile/Predictive/Hybrid]
+**Enabler:** [Enabler #] | **Methodology:** [Methodology]
 
 **Scenario:**
-[3-4 sentence realistic, high-stakes scenario involving an external change.]
+[3-4 sentence complex scenario based on the local source files.]
 
 **Question:**
 What is the [BEST/FIRST/MOST IMPORTANT] action for the project manager to take?
 
-A) [Option A]
-B) [Option B]
-C) [Option C]
-D) [Option D]
+- **Correct:** [Correct Answer Text]
+- **Distractor 1:** [Plausible but incorrect action]
+- **Distractor 2:** [Plausible but incorrect action]
+- **Distractor 3:** [Plausible but incorrect action]
 
 <details>
-<summary>View Answer</summary>
+<summary>Detailed Remediation</summary>
 
-**Correct Answer:** [LETTER]
+| Aspect | Details |
+| :--- | :--- |
+| **Core Logic** | [Explain why the 'Correct' option is the best path forward based on governance rules.] |
+| **PMI Mindset** | [The mental model tested. Use content-based references, not letters.] |
+| **The Trap** | [Why 'Distractor 1' is tempting (e.g., 'This is a common reactive mistake') and why it fails.] |
+| **Source Link** | [The specific local file that provided the logic for this question.] |
 
-**Rationales:**
-- **[LETTER] (Correct):** [Explanation referencing 2026 ECO principles and PMBOK 7 / Process Groups / Agile Practice Guide.]
-- **[DISTRACTOR LETTER] (Incorrect):** [Explain why this is a common trap or why it's a secondary step.]
-
-**Reference:** ECO Business Task 3; [Specific Guide Reference]
 </details>
 
 ---
 
 ```
 
-## Required Document Structure
+---
 
-1. **Header:** Title, Domain (Business Environment - 26%), and Task Description.
-2. **Questions:** The 50 questions in sequence.
-3. **Topic Summary Table:**
-| Topic / Enabler | Question Numbers |
-| :--- | :--- |
-| Survey External Changes | [List] |
-| Assess Scope Impact | [List] |
-| Recommend Options/Pivots | [List] |
-| Continual Environment Review | [List] |
-4. **Statistics:**
-* Agile/Hybrid Coverage: [X]%
-* Answer Distribution: A:[X], B:[X], C:[X], D:[X]
+## PHASE 3: THE DISTRIBUTION & STRING AUDITOR
+
+**Role:** Statistical Auditor.
+**Task:** Review the 50 generated questions and perform the following "evening out" tasks:
+
+1. **Length Balancing:** If the correct answer is consistently more detailed than distractors, rewrite distractors to match the length and complexity.
+2. **Action Balancing:** Ensure an even split between questions where the answer is "Analyze/Assess" vs. "Execute/Implement."
+3. **Verbiage Check:** Ensure no rationale refers to "Option A" or "The first choice." Use descriptors like "The choice to escalate..." or "The action of reviewing the charter..."
+
+---
+
+## PHASE 4: THE CLEANUP AGENT
+
+**Role:** Final Assembler.
+**Task:** Finalize the document `guide/11-exam-prep/business-task1-governance-practice.md`.
+
+**Required Final Sections:**
+
+1. **Topic Summary Table:** Cross-reference Question # to the 3 Enablers.
+2. **Database Stats:**
+* Correct Answer Length Average: [Word Count]
+* Distractor Length Average: [Word Count]
+* Methodology Split: [Agile/Predictive/Hybrid %]
 
 
-5. **Key Takeaways:** 5-6 bullet points on handling external scope changes (e.g., PESTLE analysis, Integrated Change Control, Backlog Refinement).
-6. **Style Block:** Include the CSS `<style>` for the collapsible `<details>` tags at the end of the file.
+3. **Key Takeaways:** 5-6 high-level "Governance Pro-Tips" distilled from your local files.
+4. **CSS Style Block:** Include the styling for the `<details>` and `<table>` tags.
 
-## Final Goal
+---
 
-The final output must be a single, perfectly formatted Markdown file that is ready for student use. Do not cut corners on the rationales for questions 40-50.
+**BEGIN EXECUTION.**
 
-**Go.**
+---
+
+Place the documents in a folder called testbank/
+
+Commit and push all changes to the repo.
