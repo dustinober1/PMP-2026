@@ -33,6 +33,27 @@ Master the technical documentation and mathematical foundations of project manag
 
 ---
 
+## ⚡ Mastery Flashcards
+
+<div class="appendix-grid">
+  <div class="appendix-card">
+    <div class="appendix-title">People Domain Decks</div>
+    <p class="appendix-description">Deep-dive flashcards for all 8 People Domain tasks. Covers Conflict, Leadership, Stakeholders, and more.</p>
+    <ul style="list-style: none; padding: 0; margin-top: 10px;">
+      <li><a href="./flashcards-people-task1-vision" class="appendix-link">Task 1: Common Vision</a></li>
+      <li><a href="./flashcards-people-task2-conflicts" class="appendix-link">Task 2: Manage Conflicts</a></li>
+      <li><a href="./flashcards-people-task3-lead-team" class="appendix-link">Task 3: Lead Team</a></li>
+      <li><a href="./flashcards-people-task4-stakeholders" class="appendix-link">Task 4: Engage Stakeholders</a></li>
+      <li><a href="./flashcards-people-task5-align-expectations" class="appendix-link">Task 5: Align Expectations</a></li>
+      <li><a href="./flashcards-people-task6-manage-expectations" class="appendix-link">Task 6: Manage Expectations</a></li>
+      <li><a href="./flashcards-people-task7-knowledge-transfer" class="appendix-link">Task 7: Knowledge Transfer</a></li>
+      <li><a href="./flashcards-people-task8-communication" class="appendix-link">Task 8: Communication</a></li>
+    </ul>
+  </div>
+</div>
+
+---
+
 ## How to Use These References
 These pages are designed to be used as **active study tools**, not just passive reading.
 - **Formulas**: Don't just memorize; understand the *Implication*. If CPI is 0.8, what does that *feel* like for the budget?
