@@ -406,9 +406,389 @@
 
 ---
 
+---
+
+## Agile & Hybrid Expectations (Advanced)
+
+### Card 71
+**Front**: A stakeholder asks: "In Agile, does 'Welcome Change' mean I can change anything at any time?"
+**Back**: No. Changes are welcomed *into the Backlog*. Changes to the *current Sprint* are generally not allowed if they endanger the Sprint Goal (unless extreme emergency).
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 72
+**Front**: What is the "Cone of Uncertainty"?
+**Back**: A graphical representation showing that estimates are highly uncertain at the beginning of a project (Initiation) and become more precise over time.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 73
+**Front**: A stakeholder demands a "Fixed Scope" AND "Fixed Date" on an Agile project.
+**Back**: Actively manage this expectation. Explain the Iron Triangle. In Agile, if Time (Sprints) is fixed, Scope (Features) must be variable.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 74
+**Front**: Define "Velocity" as an expectation tool.
+**Back**: A measure of the amount of work a team can tackle during a single Sprint. It helps forecast *future* capacity for stakeholders.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 75
+**Front**: Can you compare Velocity between two different teams?
+**Back**: No. Velocity is unique to each team's estimation baseline. Doing so creates false expectations and toxic competition.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 76
+**Front**: What is a "Burnup Chart" best for showing stakeholders?
+**Back**: It shows Total Scope vs. Completed Work. It clearly visualizes if "Scope Creep" is the reason the finish line is moving further away.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 77
+**Front**: What is a "Burndown Chart"?
+**Back**: It tracks work remaining across time. Good for the Team to manage their Sprint, less useful for long-term stakeholder forecasting.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 78
+**Front**: A stakeholder wants to skip the "Retrospective" to save time.
+**Back**: Push back. The Retrospective is the engine of improvement. Skipping it aligns expectations with "stagnation" rather than "efficiency."
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 79
+**Front**: Define "Definition of Done (DoD)" regarding expectations.
+**Back**: A shared agreement on the criteria that must be met for a product increment to be considered release-ready (e.g., Tested, Documented, Compliant).
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 80
+**Front**: Define "Definition of Ready (DoR)".
+**Back**: Criteria work must meet *before* it can be accepted into a Sprint (e.g., Clear acceptance criteria, dependencies resolved). Prevents teams from starting vague work.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 81
+**Front**: A stakeholder says, "I don't need to see the demo; just email me when it's live."
+**Back**: High risk. Without the feedback loop of the Demo, there is no validation of their expectations until it's too late. Encourage participation.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 82
+**Front**: In Hybrid, how do you handle a "Fixed Milestone" (e.g., Trade Show)?
+**Back**: Treat the Date as a constraint. Use Agile to prioritize the "Must Haves" for that date and cut "Nice to Haves" (Scope flexibility).
+**Domain**: People | **Task**: Align stakeholder expectations
+
+---
+
+## Soft Skills & Political Awareness
+
+### Card 83
+**Front**: Define "Political Awareness" in project management.
+**Back**: Understanding the power dynamics, hidden agendas, and informal alliances that influence project success.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 84
+**Front**: What is "Cultural Awareness"?
+**Back**: Understanding how personal beliefs, values, and norms affect communication and behavior (e.g., attitudes toward authority or time).
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 85
+**Front**: What are the 3 dimensions of "Active Listening"?
+**Back**: 1) Listening to the words, 2) Understanding the content, 3) Observing non-verbal cues (and avoiding autobiographical listening).
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 86
+**Front**: What is "Empathy" vs "Sympathy"?
+**Back**: Sympathy is feeling *for* someone. Empathy is feeling *with* someone (understanding their perspective). Empathy builds trust closer.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 87
+**Front**: How do you handle a "Power Play" by a senior stakeholder?
+**Back**: Stay professional. Focus on project objectives/Charter. Do not react emotionally. Use your Sponsor for cover if needed.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 88
+**Front**: What is "Mirroring" in communication?
+**Back**: Subtly mimicking the body language or speech patterns of the other person to build rapport (use with caution).
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 89
+**Front**: A stakeholder is angry. What is the "De-escalation" first step?
+**Back**: Validate their feelings. "I can see you are frustrated." Do not argue facts until emotions are lowered.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 90
+**Front**: What is the "Platinum Rule"?
+**Back**: Treat others as *they* want to be treated (an upgrade to the Golden Rule, "Treat others as you want to be treated").
+**Domain**: People | **Task**: Align stakeholder expectations
+
+---
+
+## Reporting & Knowledge Transfer
+
+### Card 91
+**Front**: What is the difference between "Work Performance Data" and "Work Performance Information"?
+**Back**: Data = Raw numbers (e.g., "5 defects"). Information = Analyzed context (e.g., "Defects are up 20% vs last month"). Stakeholders need Information.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 92
+**Front**: Who needs "Work Performance Reports"?
+**Back**: Stakeholders (Sponsors, Customers). It is the physical/digital representation of the Information (e.g., The Dashboard).
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 93
+**Front**: What is a "Trend Report"?
+**Back**: A report showing performance over time to predict future status (e.g., CPI trend over 6 months).
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 94
+**Front**: What is an "Earned Value Report"?
+**Back**: A report integrating Scope, Schedule, and Cost to give a true picture of progress (e.g., using SPI and CPI).
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 95
+**Front**: Why is "Knowledge Transfer" a stakeholder expectation?
+**Back**: Operations/Support teams expect to know how to run the product after you leave. If you don't plan for this, they will resist the handover.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 96
+**Front**: What is "Explicit Knowledge"?
+**Back**: Knowledge that can be readily codified via words, numbers, and manuals (Easy to transfer).
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 97
+**Front**: What is "Tacit Knowledge"?
+**Back**: Knowledge that is difficult to transfer (experience, intuition, "muscle memory"). Requires shadowing or mentoring to transfer.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 98
+**Front**: A Dashboard is a form of...
+**Back**: ...Pull Communication (usually). Stakeholders "pull" the data when they want to see it.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 99
+**Front**: "Traffic Light Reporting" (R/A/G). What does "Amber/Yellow" usually mean?
+**Back**: The project has issues, but the team has a plan to fix them. (Red usually means "We need help/escalation").
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 100
+**Front**: What risks come with "Traffic Light Reporting"?
+**Back**: "Watermelon Projects" (Green on the outside, Red on the inside). Stakeholders may not see the true rot until it's too late.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+---
+
+## Scenarios: Conflict & Misalignment
+
+### Card 101
+**Front**: Scenario: Marketing promised a feature you didn't know about.
+**Back**: Expectation Gap. Validate with the Charter/Backlog. If not there, it's a Change Request. Do not just absorb the work.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 102
+**Front**: Scenario: Stakeholder A says "Fast", Stakeholder B says "Cheap".
+**Back**: Competing Expectations. You must facilitate a negotiation. Use the "Iron Triangle" to show the trade-off. They cannot have everything.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 103
+**Front**: Scenario: You find a technical error. The fix will delay the project 1 week.
+**Back**: Radical Transparency. Tell stakeholders immediately. Hiding it creates a "Surprise" later, which destroys trust.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 104
+**Front**: Scenario: Stakeholders keep calling your team members directly for updates.
+**Back**: This causes "Context Switching" and reporting confusion. Re-route them to the PM or appropriate channels defined in the Comm Plan.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 105
+**Front**: Scenario: A stakeholder claims they "didn't approve" the design, but they signed the document.
+**Back**: They signed but didn't *understand*. Sign-off is not enough. You should have used Demos or Prototypes (Interactive comms).
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 106
+**Front**: Scenario: A stakeholder is "Ghosting" you (not replying).
+**Back**: Check the Engagement Matrix. If they are critical, escalate or change methods (visit their desk). If low-power, move to "Monitor."
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 107
+**Front**: Scenario: The team is using Agile jargon (Spike, Velocity) that confuses the Sponsor.
+**Back**: Semantic Noise. Translate the jargon into business terms (Risk Reduction, Capacity) for the Executive audience.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 108
+**Front**: Scenario: A stakeholder wants a "Daily Status Report."
+**Back**: Push back appropriately. Explain the overhead cost. Offer a real-time Dashboard (Pull) instead.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 109
+**Front**: Scenario: Your project relies on another project which is delayed.
+**Back**: Manage the expectation of the *External* dependency. Communicate the slip immediately to your stakeholders as a Risk realization.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 110
+**Front**: Scenario: Users hate the new interface during UAT.
+**Back**: Expectation Failure. UAT is too late for first feedback. Should have engaged them in Design or earlier Demos.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+---
+
+## Channels & Noise Tuning
+
+### Card 111
+**Front**: What is the "Medium" of communication?
+**Back**: The method used to convey the message (e.g., Phone, Email, In-person).
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 112
+**Front**: Rich Media vs Lean Media. When do you use Rich Media (Face-to-Face)?
+**Back**: For complex, ambiguous, or emotional situations.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 113
+**Front**: When do you use Lean Media (Email/Report)?
+**Back**: For simple, routine, factual updates explicitly requiring a paper trail.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 114
+**Front**: What is "Cognitive Load"?
+**Back**: The mental effort required to process information. Great PMs minimize cognitive load by keeping reports simple and visual.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 115
+**Front**: Is "Silence" a form of communication?
+**Back**: Yes. It communicates disengagement, agreement, or fear, depending on context. You must interpret it.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 116
+**Front**: What is the "Feedback Loop" in a conversation?
+**Back**: The receiver reflecting back understanding. Without it, you are just "Broadcasting," not communicating.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 117
+**Front**: How do you reduce "Cross-Cultural Noise"?
+**Back**: Avoid idioms ("hit it out of the park"), speak clearly, use visuals, and confirm understanding frequently.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 118
+**Front**: What is the risk of "Reply All"?
+**Back**: Creates noise and can accidentally disclose sensitive info. Discourage its overuse in the Comm Plan.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 119
+**Front**: What is "Version Control" as an expectation tool?
+**Back**: Ensuring everyone is looking at the *same* document (e.g., Specs v2.0). Using v1.0 creates massive misalignment.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 120
+**Front**: A "Risk Register" aligns expectations on...
+**Back**: ...What *might* go wrong. It prevents "Shock" if a risk occurs.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+---
+
+## 2026 Emerging Trends
+
+### Card 121
+**Front**: What is "Asynchronous Equity"?
+**Back**: Ensuring that people who work asynchronously (different time zones) have the same access to info/decisions as those in the meeting.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 122
+**Front**: How do you "Facilitate" a hybrid meeting successfully?
+**Back**: "Remote First." Engage the remote participants *before* the people in the room to counter recency/proximity bias.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 123
+**Front**: What is the impact of "Deepfakes" on communication?
+**Back**: A 2026 security concern. Verification of source identity for sensitive communications is becoming a standard project protocol.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 124
+**Front**: What is "Information Overload"?
+**Back**: When the volume of communication exceeds the receiver's capacity to process it. Leads to missed expectations.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 125
+**Front**: How do you "ESG" (Environmental, Social, Governance) affect reporting?
+**Back**: Stakeholders now expect "Non-Financial" reporting (Carbon footprint, Diversity metrics) alongside budget/schedule.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+---
+
+## Final Drill Scenarios
+
+### Card 126
+**Front**: Scenario: You are replaced as PM. The new PM has no idea what's going on.
+**Back**: Meaning you failed "Knowledge Transfer" and documentation. Expectations were stored in your head, not the project artifacts.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 127
+**Front**: Scenario: The team is working hard, but the "Percent Complete" hasn't moved.
+**Back**: The "90% Done Syndrome." Expectations were mismanaged by tracking activity instead of outcomes. Switch to "0/100" (Done or Not Done).
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 128
+**Front**: Scenario: A stakeholder claims a "verbal agreement" from 3 months ago.
+**Back**: "If it isn't written down, it didn't happen." Always send "Meeting Minutes" to align expectations after a verbal chat.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 129
+**Front**: Scenario: You have a meeting with 20 people to "write" a document.
+**Back**: Inefficient. Use a small group to write, and the large group to "Review." Align expectations on the *purpose* of the meeting.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 130
+**Front**: What is the "Parking Lot" in a meeting?
+**Back**: A tool to acknowledge off-topic ideas without derailing the current expectation (Agenda). "Let's park that for later."
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 131
+**Front**: Scenario: The Sponsor asks "Are we Agile or Waterfall?"
+**Back**: Don't get trapped in labels. Explain the *approach* aimed at their expectations (e.g., "We use fixed milestones with iterative delivery").
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 132
+**Front**: Scenario: You have to deliver bad news to a "High Power" stakeholder.
+**Back**: Go prepared with: 1) The Facts, 2) The Impact, 3) Options/Recommendations. Don't just dump the problem.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 133
+**Front**: Scenario: The project is green, but the customer is unhappy.
+**Back**: KPI misalignment. You are tracking "Outputs" ( deliverables), they care about "Outcomes" (value). Update your metrics.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 134
+**Front**: Scenario: A new regulation is fast-tracked.
+**Back**: Immediately align expectations on the impact to Scope/Schedule. This is a mandatory external constraint.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 135
+**Front**: Scenario: The team is "Storming" and arguing. Stakeholders are worried.
+**Back**: Normalize it. Explain the "Tuckman Ladder" to stakeholders so they expect this as a natural phase, not a failure.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 136
+**Front**: Scenario: You need a decision by Friday. No one replies.
+**Back**: You didn't align on "Escalation." Trigger the escalation path defined in the Comm Plan.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 137
+**Front**: Scenario: Stakeholder A wants "Blue," Stakeholder B wants "Red."
+**Back**: Do not pick a side. Bring them together (Interactive Comms) to resolve the conflict. You are the facilitator.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 138
+**Front**: Scenario: You are taking over a project with zero documentation.
+**Back**: Reset expectations. Your first phase is "Discovery." Don't commit to dates until you know the baseline.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 139
+**Front**: Scenario: The product is technically perfect but no one uses it.
+**Back**: Failed "Organizational Change Management" (OCM). Stakeholders weren't prepared for the *change* in their workflow.
+**Domain**: People | **Task**: Align stakeholder expectations
+
+### Card 140
+**Front**: Scenario: How do you know when to stop communicating?
+**Back**: When the "Marginal Value" of the next report is less than the effort to produce it. (Or when the project closes).
+**Domain**: People | **Task**: Align stakeholder expectations
+
+---
+
 ## Summary
 
-**Total Flashcards**: 70
+**Total Flashcards**: 140
 **Domain**: People (33%)
 **Task**: Align stakeholder expectations
 **Key Topics Covered**:
@@ -418,3 +798,4 @@
 - Communication Channels & Noise
 - Global/Cultural Communication (Context)
 - Expectation Management Tactics
+- **Advanced**: Agile Metrics (Velocity, Burnup), Soft Skills, Political Awareness, Conflict Scenarios, and Knowledge Transfer
