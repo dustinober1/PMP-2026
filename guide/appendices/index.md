@@ -50,6 +50,23 @@ Master the technical documentation and mathematical foundations of project manag
       <li><a href="./flashcards-people-task8-communication" class="appendix-link">Task 8: Communication</a></li>
     </ul>
   </div>
+
+  <div class="appendix-card">
+    <div class="appendix-title">Process Domain Decks</div>
+    <p class="appendix-description">Comprehensive flashcards for all 10 Process Domain tasks. Covers Planning, Execution, Monitoring, and Closure.</p>
+    <ul style="list-style: none; padding: 0; margin-top: 10px;">
+      <li><a href="./flashcards-process-task1-integrated-plan" class="appendix-link">Task 1: Integrated Planning</a></li>
+      <li><a href="./flashcards-process-task2-scope" class="appendix-link">Task 2: Scope Management</a></li>
+      <li><a href="./flashcards-process-task3-value" class="appendix-link">Task 3: Value Delivery</a></li>
+      <li><a href="./flashcards-process-task4-resources" class="appendix-link">Task 4: Resource Management</a></li>
+      <li><a href="./flashcards-process-task5-procurement" class="appendix-link">Task 5: Procurement</a></li>
+      <li><a href="./flashcards-process-task6-cost" class="appendix-link">Task 6: Cost & Budgeting</a></li>
+      <li><a href="./flashcards-process-task7-quality" class="appendix-link">Task 7: Quality Management</a></li>
+      <li><a href="./flashcards-process-task8-schedule" class="appendix-link">Task 8: Schedule Management</a></li>
+      <li><a href="./flashcards-process-task9-status" class="appendix-link">Task 9: Monitor Status</a></li>
+      <li><a href="./flashcards-process-task10-closure" class="appendix-link">Task 10: Project Closure</a></li>
+    </ul>
+  </div>
 </div>
 
 ---
