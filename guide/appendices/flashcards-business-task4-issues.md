@@ -452,3 +452,321 @@ Are issues increasing or decreasing? Use to forecast.
 
 **Back:**
 By becoming a **Lesson Learned** (Asset) to prevent it on future projects.
+
+---
+
+## 🌐 Advanced Scenarios & Virtual Teams
+
+### Card 61
+**Front:**
+**Scenario**: A team member in a different time zone hasn't attended standups for 3 days. What do you do first?
+
+**Back:**
+Reach out **privately** via 1-on-1 message/call. Don't assume—check if they're blocked, sick, or disengaged. "No news" in virtual teams is a red flag, not a sign things are fine.
+
+### Card 62
+**Front:**
+**Scenario**: During Sprint Review, stakeholders say "This isn't what we wanted" despite meeting requirements. What do you do?
+
+**Back:**
+**Listen first**. Ask: "What were you expecting?" Then re-validate outcomes (not outputs). This reveals a gap in requirements elicitation, not necessarily a delivery failure.
+
+### Card 63
+**Front:**
+**Scenario**: A vendor is 2 weeks late on a deliverable. The contract has a $1,000/day penalty clause. What do you do first?
+
+**Back:**
+**Check the contract** (SLA terms). Document the issue, formally notify the vendor per contract terms, and invoke penalty if applicable. Contracts are the rulebook for vendor issues.
+
+### Card 64
+**Front:**
+**Scenario**: Two team members conflict during a remote meeting. The chat is getting heated. What is your FIRST action?
+
+**Back:**
+**Intervene immediately**—pause the meeting, suggest a cool-down break, then address offline. Never let relationship conflict fester in a group setting.
+
+### Card 65
+**Front:**
+What is the difference between a **Change Request** and an **Issue**?
+
+**Back:**
+- **Change Request**: Proposed modification to baselines (scope/schedule/cost) — hasn't happened yet.
+- **Issue**: Current problem actively affecting the project — already happening.
+
+### Card 66
+**Front:**
+**Scenario**: The team keeps "re-litigating" a decision from 2 weeks ago. What artifact is missing?
+
+**Back:**
+**Decision Log**. Documenting the decision, who made it, and why prevents circular debates.
+
+### Card 67
+**Front:**
+**Scenario**: A functional manager pulls your key developer for "emergency" work during sprint execution. What do you do?
+
+**Back:**
+**Negotiate**. Explain impact on sprint commitment. If that fails, **escalate** to the Sponsor per the resource management plan. Protect the team's focus.
+
+### Card 68
+**Front:**
+**Scenario**: The team's velocity is dropping 20% each sprint. Morale seems low. What do you do?
+
+**Back:**
+Conduct a **Team Assessment** or **Retrospective** to find the root cause. Velocity issues are often symptoms (burnout, blockers, unclear requirements), not the problem itself.
+
+### Card 69
+**Front:**
+What is **BATNA** in negotiation and when do you use it?
+
+**Back:**
+**Best Alternative to a Negotiated Agreement** — your "Plan B" if talks fail. Never negotiate without knowing your BATNA; the stronger it is, the more leverage you have.
+
+### Card 70
+**Front:**
+**Scenario**: A stakeholder emails you with "Urgent: add this feature by Friday." You're at capacity. What do you do?
+
+**Back:**
+**Respond quickly** but don't promise. Assess impact, then follow the change process: "I'll evaluate this and bring options to the CCB/backlog refinement." Never bypass impact analysis.
+
+---
+
+## 🔀 Cross-Task & Risk Integration
+
+### Card 71
+**Front:**
+**Scenario**: Product Owner and Scrum Master argue constantly about prioritization. The team is stuck in the middle. What do you do?
+
+**Back:**
+Facilitate a **collaborative session**. Use data (value, risk, dependency) to create prioritization criteria. Most "priority fights" are actually missing objective criteria.
+
+### Card 72
+**Front:**
+**Scenario**: A risk you identified (Prob: 0.3, Impact: $50K) has occurred. Your contingency reserve was $15K. What do you do?
+
+**Back:**
+Execute the planned response, log the issue, then submit a **Change Request** for the remaining $35K from management reserve. Actual impact exceeded your contingency.
+
+### Card 73
+**Front:**
+What is a **Secondary Risk**?
+
+**Back:**
+A new risk **created by implementing a risk response**. Example: Switching to a backup vendor (response) creates a new integration risk (secondary risk).
+
+### Card 74
+**Front:**
+**Scenario**: A team member says "I don't have access to the repository." This has happened 3 times this sprint. What is the real issue?
+
+**Back:**
+A **process issue**, not just an access problem. The onboarding/checklist is broken. Fix the systemic root cause (update checklist) so it doesn't recur.
+
+### Card 75
+**Front:**
+**Scenario**: You discover technical debt is accumulating. The team says "we'll fix it later." What do you do?
+
+**Back:**
+Make it **visible**. Track it, allocate capacity each sprint to pay it down, and educate stakeholders on the risk of ignoring it. Technical debt is an impediment to future velocity.
+
+---
+
+## 🔄 Agile Execution Patterns
+
+### Card 76
+**Front:**
+**Scenario**: During a Daily Standup, a technical debate erupts and time is running out. What do you do?
+
+**Back:**
+**Park it**. "Let's take this offline after the standup." The Daily Scrum is for synchronization, not problem-solving.
+
+### Card 77
+**Front:**
+**Scenario**: Your Kanban board shows WIP increasing across all columns. Flow is slowing. What does this indicate?
+
+**Back:**
+**Bottleneck**. Too much work-in-progress prevents completion. Reduce WIP limits, focus on finishing, swarm on blocked items.
+
+### Card 78
+**Front:**
+**Scenario**: A senior team member dominates retrospectives. Junior members stay quiet. What do you do?
+
+**Back:**
+Use **facilitation techniques**: round-robin, silent brainstorming, anonymous input. Ensure all voices are heard—dominance kills psychological safety.
+
+### Card 79
+**Front:**
+**Scenario**: Stakeholder says "Why wasn't I told about this delay?" You sent weekly status reports. What went wrong?
+
+**Back:**
+**Communication method mismatch**. Reports were push; stakeholder needed interactive (meetings) or pull (dashboard). Tailor communication to the stakeholder.
+
+### Card 80
+**Front:**
+What is the difference between **Tacit** and **Explicit Knowledge**?
+
+**Back:**
+- **Explicit**: Codified knowledge that can be written down (manuals, code, documents).
+- **Tacit**: Experience-based "know-how" transferred through social interaction (mentoring, collaboration, shadowing).
+
+---
+
+## 👥 Team Performance & People Issues
+
+### Card 81
+**Front:**
+**Scenario**: A team member's performance is declining. They were a star performer. What do you do FIRST?
+
+**Back:**
+Meet **privately** and listen. Ask: "How are things going? What blockers do you have?" Performance issues are often personal issues or systemic blockers, not capability problems.
+
+### Card 82
+**Front:**
+**Scenario**: You take over a project mid-execution. There's no Issue Log. Team says "we just fix things as they come up." What do you do?
+
+**Back:**
+**Create an Issue Log immediately**. Then interview the team to capture known issues. "No issues logged" usually means issues are being handled reactively without tracking.
+
+### Card 83
+**Front:**
+**Scenario**: A defect is found in production. The same defect was reported 3 months ago. What failed?
+
+**Back:**
+**Quality control AND knowledge management**. The defect wasn't fixed properly, and the lesson wasn't captured. Root cause the fix, update DoD, log the lesson.
+
+### Card 84
+**Front:**
+What is **MoSCoW** prioritization and when is it used?
+
+**Back:**
+- **M**ust have: Critical for release
+- **S**hould have: Important but not critical
+- **C**ould have: Nice to have if time permits
+- **W**on't have: Deferred to future
+Used for backlog prioritization and change request triage.
+
+### Card 85
+**Front:**
+**Scenario**: Operations refuses to accept the project deliverable. "We're not ready to support this." What do you do?
+
+**Back:**
+Don't force handoff. Assess **readiness gaps** (training, docs, support staffing) and close them. Value collapses without operational adoption.
+
+### Card 86
+**Front:**
+**Scenario**: A team member says "I don't know why we're building this. It seems pointless." What issue is this?
+
+**Back:**
+A **vision/alignment** issue. The team doesn't understand the product vision or value proposition. Reconnect the team to the "why"—purpose drives engagement.
+
+---
+
+## 🤝 Advanced Negotiation & Decision-Making
+
+### Card 87
+**Front:**
+What is **ZOPA** and why does it matter in negotiation?
+
+**Back:**
+**Zone of Possible Agreement** — the overlap between what a buyer will pay and what a seller will accept. If there's no ZOPA, no deal is possible without changing terms.
+
+### Card 88
+**Front:**
+**Scenario**: During Sprint Planning, the Product Owner tries to assign specific tasks to specific team members. What do you do?
+
+**Back:**
+**Intervene**. Remind PO that teams are **self-organizing**—the team pulls work and assigns tasks. PO defines WHAT; team decides HOW and WHO.
+
+### Card 89
+**Front:**
+**Scenario**: Multiple stakeholders request competing features. Each says theirs is "highest priority." What technique do you use?
+
+**Back:**
+**Multi-Criteria Decision Analysis** or **Value-Based Prioritization**. Use objective criteria (business value, risk, dependency, cost) to prioritize, not just volume of requests.
+
+### Card 90
+**Front:**
+What is **Reservation Price** in negotiation?
+
+**Back:**
+The **worst acceptable outcome** — your "walk-away" point. If the deal is worse than this, you decline and execute your BATNA.
+
+---
+
+## 🌐 Virtual Team & Hybrid Challenges
+
+### Card 91
+**Front:**
+**Scenario**: A virtual team member's camera is always off, they type "OK" a lot, and haven't spoken in weeks. What do you do?
+
+**Back:**
+**Schedule a 1-on-1**. Check for disengagement, blockers, or personal issues. In virtual teams, silence ≠ agreement—it often means disengagement.
+
+### Card 92
+**Front:**
+**Scenario**: The team completes all sprint commitments but velocity dropped 30%. Is this a problem?
+
+**Back:**
+Maybe. If story point estimates changed (recalibration), it's fine. If the team is actually delivering less value, investigate: burnout, gold-plating, or scope creep within stories.
+
+### Card 93
+**Front:**
+What is the **5 Whys** technique used for?
+
+**Back:**
+**Root Cause Analysis**. Ask "why" five times to drill down from symptom to underlying cause. Example: "Why did the deployment fail? → Tests weren't run. → Why? → No time. → Why? → Scope too large..." Root cause: poor estimation/sizing.
+
+### Card 94
+**Front:**
+**Scenario**: A stakeholder resists the project actively. They question every decision in meetings. What approach do you take?
+
+**Back:**
+**Active listening 1-on-1**. Understand their interests (not positions). Resistance often comes from fear, unaddressed concern, or feeling excluded. Involve them in solutions.
+
+### Card 95
+**Front:**
+**Scenario**: Your CCB (Change Control Board) meets monthly. A critical change request needs approval now. What do you do?
+
+**Back:**
+Check if **PM has delegation authority** for this impact level. If not, convene an **emergency CCB meeting** or use email/phone decision per governance framework. Don't bypass formal approval.
+
+---
+
+## 🧠 Final Exam Mastery Cards
+
+### Card 96
+**Front:**
+**Scenario**: Team says "We can't start Story B because we're waiting for Story A from another team." What is this?
+
+**Back:**
+A **dependency impediment**. Log it, make it visible, coordinate with the other team's PM/SM, and escalate if the dependency threatens the sprint.
+
+### Card 97
+**Front:**
+What is **Integrative Negotiation** and when is it used?
+
+**Back:**
+**"Expand the pie"** negotiation — finding win-win solutions by creating value for both parties. Used for most project situations (partnerships, long-term contracts, team agreements). Focuses on **interests, not positions**.
+
+### Card 98
+**Front:**
+**Scenario**: After implementing a risk response, a NEW risk emerges. What is this called?
+
+**Back:**
+**Secondary Risk**. It must be identified, analyzed, and added to the Risk Register. Example: Using a backup vendor (response) creates integration risk (secondary risk).
+
+### Card 99
+**Front:**
+**Scenario**: The team consistently skips retrospectives because "we're too busy." What is the risk?
+
+**Back:**
+**Continuous improvement stops**. The team stops learning and will repeat mistakes. Retrospectives are the agile engine for improvement—skipping them is false economy.
+
+### Card 100
+**Front:**
+**Exam Tip**: When you see "What should the PM do FIRST?" in an issue/impediment scenario, what's usually the best answer?
+
+**Back:**
+- If blocked: **Remove/escalate immediately**
+- If conflict: **Understand before acting** (listen, gather facts)
+- If change request: **Assess impact before deciding**
+- If stakeholder issue: **Engage 1-on-1 first**
+- If risk occurred: **Execute the planned response**
