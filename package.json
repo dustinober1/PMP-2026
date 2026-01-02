@@ -1,6 +1,6 @@
 {
   "name": "pmp-exam-prep-2026",
-  "version": "1.21.0",
+  "version": "1.22.0",
   "description": "Comprehensive PMP Exam Study Guide - 2026 Edition",
   "scripts": {
     "dev": "vitepress dev",
