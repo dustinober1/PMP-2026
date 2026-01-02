@@ -1,5 +1,7 @@
 # 3.4 Motivation, Engagement & Performance Management
 
+**ECO Task**: Support team performance
+
 "You can't motivate people; you can only create the environment where they choose to be motivated."
 
 ---
@@ -347,3 +349,4 @@ Motivation is not a one-time fix. It requires ongoing attention.
   margin: 2rem 0;
 }
 </style>
+

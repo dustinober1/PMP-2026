@@ -1,5 +1,7 @@
 # 1.4e – Data-Informed Decision-Making
 
+**ECO Task**: Manage project artifacts
+
 Project management increasingly uses data and metrics to support better decisions. Sarah learns to move beyond "gut feel" to evidence-based management. **The 2026 exam dedicates significant weight to data literacy and AI integration.**
 
 ---
@@ -341,3 +343,4 @@ A single data point can be an outlier. Always look for **trends** (3+ data point
 - EV is always in the numerator of indices
 - EV is always on the left side of variance formulas
 :::
+

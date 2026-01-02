@@ -1,5 +1,9 @@
 # 9.1 Monitoring & Controlling (Control & Change)
 
+**ECO Task**: Manage project changes
+**ECO Task**: Manage project issues
+**ECO Task**: Plan and manage project/phase closure or transitions
+
 Monitoring is about **observing** performance; controlling is about **taking action** when performance deviates from the plan. In the 2026 PMP exam, this is where you prove you can run a project with discipline: detect problems early, diagnose the cause, act appropriately, and communicate transparently.
 
 ::: tip 🎯 What the Exam Tests
@@ -877,3 +881,14 @@ TCPI = (BAC - EV) / (BAC - AC) = ($400K - $200K) / ($400K - $270K) = $200K / $13
   margin: 2rem 0;
 }
 </style>
+
+
+
+
+
+
+
+
+
+
+

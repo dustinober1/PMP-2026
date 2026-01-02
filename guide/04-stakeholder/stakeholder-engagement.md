@@ -1,5 +1,8 @@
 # 4.3 Active Engagement
 
+**ECO Task**: Engage stakeholders
+**ECO Task**: Collaborate with stakeholders
+
 Communication is the *act* of sending information; **Engagement** is the *result* of that information. It is the art of building and maintaining trust so that stakeholders actively support the project's vision.
 
 ---
@@ -310,3 +313,8 @@ When a stakeholder is unhappy, the best answers usually involve **direct engagem
   margin: 2rem 0;
 }
 </style>
+
+
+
+
+

@@ -1,5 +1,8 @@
 # 6.1 Scope Planning
 
+**ECO Task**: Plan and manage scope
+**ECO Task**: Integrate project planning activities
+
 Scope defines the boundaries of the mission. It is the "What" the team will build and, just as importantly, the "What Not."
 
 ---
@@ -564,3 +567,6 @@ Many organizations use a tiered change authority:
   margin: 2rem 0;
 }
 </style>
+
+
+

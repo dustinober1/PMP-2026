@@ -1,5 +1,8 @@
 # 7.2 Quality Management
 
+**ECO Task**: Plan and manage quality
+**ECO Task**: Employ continuous process improvement
+
 In the PMP exam context, **Quality** is defined as the *degree to which a set of inherent characteristics fulfills requirements*. Put simply: quality is **meeting requirements and acceptance criteria consistently** (and preventing defects before they escape).
 
 ### Two Critical Dimensions
@@ -506,3 +509,6 @@ Use [7.4 Tools & Templates](./toolkit) for a starter DoD checklist and quick “
 | “Recurring defects / defect trend” | **Root cause analysis** |
 | “Process instability / inconsistent results” | **Control chart investigation** |
 | “Most frequent defect types” | **Pareto chart** |
+
+
+

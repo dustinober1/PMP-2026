@@ -1,5 +1,7 @@
 # 3.1d Virtual, Distributed & Hybrid Team Collaboration
 
+**ECO Task**: Engage and support virtual teams
+
 In 2026, finding a project team that is 100% co-located is a rarity. Leading **Distributed Teams** requires an explicit strategy to overcome the "Distance Tax"—the loss of trust and clarity that happens when we aren't in the same room.
 
 ---

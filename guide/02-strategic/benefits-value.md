@@ -1,5 +1,7 @@
 # 2.2 Benefits, Value, and Sustainability
 
+**ECO Task**: Evaluate and deliver project benefits and value
+
 Value is the net result of realized benefits minus the costs required to achieve them. In 2026, value includes ethical and sustainable dimensions, not just profit.
 
 ---
@@ -129,3 +131,4 @@ In 2026, ESG (Environmental, Social, Governance) is a **constraint**.
   margin: 2rem 0;
 }
 </style>
+

@@ -1,5 +1,7 @@
 # 8.4 Engagement & Procurements
 
+**ECO Task**: Plan and manage procurement
+
 Execution is not just about the team; it's about navigating the web of **Stakeholders**, **Communications**, and **Vendors**. This section covers the "people and contracts" side of execution.
 
 ::: info 📋 PMP Exam Context
@@ -905,3 +907,4 @@ Successful execution requires mastering three critical domains:
   margin: 2rem 0;
 }
 </style>
+

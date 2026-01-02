@@ -1,5 +1,7 @@
 # 4.1a Stakeholder Mapping
 
+**ECO Task**: Engage stakeholders
+
 Identifying who your stakeholders are is the first step, but **mapping** them tells you where to spend your limited energy and political capital. Effective leaders use these models to prioritize their attention.
 
 ---

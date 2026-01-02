@@ -1,5 +1,7 @@
 # 7.1 Risk Management
 
+**ECO Task**: Assess and manage risks
+
 Risk is **uncertainty that matters**—it can help you (opportunities) or hurt you (threats). The PMP exam tests whether you can:
 
 - Identify risk early (before it becomes an issue)
@@ -648,3 +650,8 @@ In Agile, risk management is continuous and built into feedback loops:
   margin: 2rem 0;
 }
 </style>
+
+
+
+
+

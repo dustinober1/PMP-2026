@@ -1,5 +1,7 @@
 # 3.1 Building High-Performing Teams
 
+**ECO Task**: Build a team
+
 Projects don't fail; teams do. Your primary accountability is to assemble a diverse group of strangers and transform them into a cohesive value-delivery engine.
 
 ---
@@ -127,3 +129,6 @@ Use this as your "team operating system" to prevent avoidable People-domain prob
   align-self: flex-start;
 }
 </style>
+
+
+

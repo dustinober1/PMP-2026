@@ -1,5 +1,7 @@
 # 10.2 Responsible AI: Ethics & Governance
 
+**ECO Task**: Plan and manage project compliance
+
 Using AI is not just a technical choice; it is an **ethical** one. As a Project Manager, you are the steward of your organization's data, your client's secrets, and your team's integrity.
 
 ---

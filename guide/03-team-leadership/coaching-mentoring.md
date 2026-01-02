@@ -1,5 +1,8 @@
 # 3.2 Servant Leadership, Coaching & Mentoring
 
+**ECO Task**: Mentor relevant stakeholders
+**ECO Task**: Support team performance
+
 In 2026, the era of "Command & Control" is dead. Success is driven by the **Servant Leader**—the one who carries food and water for the team.
 
 ---

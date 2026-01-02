@@ -1,5 +1,8 @@
 # 6.6 Resource & Procurement Planning
 
+**ECO Task**: Plan and manage budget and resources
+**ECO Task**: Plan and manage procurement
+
 Project success depends on getting the right people, tools, and materials in the right place at the right time.
 
 ---
@@ -578,3 +581,6 @@ PTA = $100,000 + $12,500 = $112,500
   margin: 2rem 0;
 }
 </style>
+
+
+

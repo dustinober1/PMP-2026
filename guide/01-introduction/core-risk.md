@@ -1,5 +1,7 @@
 # 1.4d – Risk Management: Threats and Opportunities
 
+**ECO Task**: Assess and manage risks
+
 Managing projects is fundamentally about managing uncertainty. Some uncertainty is a **threat** (things that could go wrong); some is an **opportunity** (things that could go better than expected). The 2026 PMP exam tests both your ability to identify risks and your skill in responding appropriately.
 
 ---

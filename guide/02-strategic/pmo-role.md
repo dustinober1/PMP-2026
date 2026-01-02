@@ -1,5 +1,7 @@
 # 2.1h The Strategic PMO
 
+**ECO Task**: Support organizational governance frameworks
+
 A **Project Management Office (PMO)** is an organizational structure that standardizes project-related governance and facilitates the sharing of resources and methodologies. 
 
 ---
@@ -319,3 +321,4 @@ Think of the PMO as a **servant leader** to your project. Its goal is to remove 
   margin: 2rem 0;
 }
 </style>
+

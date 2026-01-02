@@ -1,5 +1,9 @@
 # 9.2 Project Closure (Close Project or Phase)
 
+**ECO Task**: Plan and manage project/phase closure or transitions
+**ECO Task**: Ensure knowledge transfer for project continuity
+**ECO Task**: Employ continuous process improvement
+
 Closure is not just the end of work; it is the **transfer of value**. In the 2026 PMP exam, your job as a Project Manager ends only when ownership is transferred, obligations are fulfilled, records are archived, and the organization can reuse what you learned.
 
 ::: tip 🎯 What the Exam Tests
@@ -775,3 +779,8 @@ If a question describes a stakeholder refusing sign-off over a "minor issue," th
   margin: 2rem 0;
 }
 </style>
+
+
+
+
+

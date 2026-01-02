@@ -1,5 +1,7 @@
 # 7.3 Navigating Complexity
 
+**ECO Task**: Assess and manage risks
+
 Complexity is not just a project being “hard.” A rocket engine can be *complicated* (many parts, but predictable). Changing an organization’s culture is *complex* (people adapt, cause/effect shifts, and outcomes emerge).
 
 On the PMP exam, complexity shows up as questions where the “best” answer depends on **uncertainty level**, **stakeholder dynamics**, and **how predictable the system is**.

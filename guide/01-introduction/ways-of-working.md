@@ -1,5 +1,7 @@
 # 1.3 Ways of Working & Tailoring
 
+**ECO Task**: Determine appropriate project methodology/methods and practices
+
 Modern project leaders must be "methodology agnostic." The 2026 PMP exam rewards the ability to select and tailor the right approach—Predictive, Agile, or Hybrid—based on the unique context of the work.
 
 ---

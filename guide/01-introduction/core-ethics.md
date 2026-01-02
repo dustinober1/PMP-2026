@@ -1,5 +1,7 @@
 # 1.4f – Professional Responsibility and Ethics
 
+**ECO Task**: Plan and manage project compliance
+
 Project management is not just about mechanics; it is about doing the right thing for stakeholders, the team, and the organization. The PMI Code of Ethics is foundational to the PMP certification and is **tested on the exam**.
 
 ---

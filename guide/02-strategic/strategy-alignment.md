@@ -1,5 +1,7 @@
 # 2.1 Strategic Alignment
 
+**ECO Task**: Assess project alignment with organizational strategy
+
 Strategic alignment is the discipline of ensuring that the **right work** gets done in the first place and stays relevant as the business environment shifts.
 
 ---
@@ -192,3 +194,4 @@ Do not “self-cancel” a project unless you have explicit authority. The PMI-a
   text-decoration: none;
 }
 </style>
+

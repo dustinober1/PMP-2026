@@ -1,5 +1,7 @@
 # 2.1a Organizational Strategy & Project Selection
 
+**ECO Task**: Assess project alignment with organizational strategy
+
 "Why are we doing this?" Organizations have unlimited ideas but limited resources. **Project Selection** is the strategic filter that separates the "Good ideas" from the "Right ideas."
 
 ---

@@ -1,5 +1,8 @@
 # 3.1c Team Charters, Working Agreements & Social Contracts
 
+**ECO Task**: Define team ground rules
+**ECO Task**: Build shared understanding
+
 High-performing teams don't assume how they will work; they define it. The **Team Charter** is the "North Star" for team behavior, collaboration, and collective accountability.
 
 ---
@@ -242,3 +245,4 @@ A charter that's created and forgotten is worthless.
   margin: 2rem 0;
 }
 </style>
+

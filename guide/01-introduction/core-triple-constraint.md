@@ -1,5 +1,9 @@
 # 1.4b – Scope, Schedule, and Cost: The Triple Constraint
 
+**ECO Task**: Plan and manage scope
+**ECO Task**: Plan and manage schedule
+**ECO Task**: Plan and manage budget and resources
+
 Sarah quickly learns that scope, schedule, and cost are interconnected. Every project has constraints on all three, and trade-offs are unavoidable. The relationship between these three has evolved as organizations adopt agile and hybrid approaches.
 
 ---

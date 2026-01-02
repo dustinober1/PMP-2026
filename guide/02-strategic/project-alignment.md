@@ -1,5 +1,7 @@
 # 2.1c Project and Program Alignment
 
+**ECO Task**: Assess project alignment with organizational strategy
+
 Individual projects can fail in isolation if their interdependencies aren't managed. **Programs** provide the connective tissue that ensures 1 + 1 = 3.
 
 ---

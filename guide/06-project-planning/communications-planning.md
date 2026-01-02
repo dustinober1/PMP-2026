@@ -1,5 +1,7 @@
 # 6.7 Communications Planning
 
+**ECO Task**: Manage communications
+
 Communication is the **oil that keeps the project machine running**. The PM spends approximately 90% of their time communicating—yet poor communication remains the leading cause of project failure.
 
 ---
@@ -385,3 +387,4 @@ Typical status report structure:
   margin: 2rem 0;
 }
 </style>
+

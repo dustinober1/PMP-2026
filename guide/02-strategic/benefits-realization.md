@@ -1,5 +1,7 @@
 # 2.1d Benefits Realization & Value Creation
 
+**ECO Task**: Evaluate and deliver project benefits and value
+
 Delivering a project on time and under budget is a failure if it doesn't create value. This section explores how to ensure project **Outputs** lead to organizational **Benefits**.
 
 ---
@@ -96,3 +98,4 @@ In the 2026 exam, AI is often a tool for value creation.
   margin: 2rem 0;
 }
 </style>
+

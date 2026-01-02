@@ -1,5 +1,7 @@
 # 5.3 Constraints & Assumptions
 
+**ECO Task**: Plan and manage scope
+
 Every project operates within a set of invisible walls. Identifying these early is critical for managing stakeholder expectations and project risk.
 
 ---

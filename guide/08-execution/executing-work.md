@@ -1,5 +1,10 @@
 # 8.1 Executing Project Work
 
+**ECO Task**: Execute project with urgency required to deliver business value
+**ECO Task**: Lead a team
+**ECO Task**: Manage project changes
+**ECO Task**: Address and remove impediments
+
 Execution is where project leaders coordinate people, vendors, and resources to create deliverables **and** protect value. It requires balancing formal control (plans, baselines, governance) with the real-world need for speed, collaboration, and rapid problem-solving.
 
 ---
@@ -879,3 +884,10 @@ Don't assume "no news is good news" when team members go quiet. In virtual envir
   margin: 2rem 0;
 }
 </style>
+
+
+
+
+
+
+

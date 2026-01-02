@@ -1,5 +1,7 @@
 # 10.1 AI Essentials for PMs
 
+**ECO Task**: Determine appropriate project methodology/methods and practices
+
 Project Managers in 2026 don't need to code AI, but they must fluently "speak" AI. Understanding the **capabilities** and **limitations** of these tools is now a mandatory competency delta.
 
 ---

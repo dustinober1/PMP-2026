@@ -1,5 +1,7 @@
 # 1.4c – Quality: Ensuring Deliverables Solve the Problem
 
+**ECO Task**: Plan and manage quality
+
 Sarah realizes: *A project can come in on time and on budget and still fail if the deliverable does not actually work or does not solve the real problem.* Quality is not optional—it's essential for value delivery.
 
 ---

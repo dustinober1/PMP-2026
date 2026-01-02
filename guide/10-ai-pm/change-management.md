@@ -1,5 +1,7 @@
 # 10.5 Change Management & Team Adoption
 
+**ECO Task**: Support organizational change
+
 Introducing AI into your project is a **change initiative**. Like any change, it requires stakeholder engagement, clear communication, and emotional intelligence. The technology is only half the battle; the people side determines success or failure.
 
 ---

@@ -1,5 +1,7 @@
 # 6.5 Risk Planning
 
+**ECO Task**: Assess and manage risks
+
 Risk management is about **proactive uncertainty management**—identifying what could go wrong (threats) or right (opportunities) and planning responses in advance.
 
 ---
@@ -496,3 +498,4 @@ Difference between P50 and desired confidence level (e.g., P80)
   margin: 2rem 0;
 }
 </style>
+

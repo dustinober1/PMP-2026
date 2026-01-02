@@ -1,5 +1,8 @@
 # 5.2 The Project Charter
 
+**ECO Task**: Build shared understanding
+**ECO Task**: Establish project governance structure
+
 The **Project Charter** is the "Birth Certificate" of the project. It is the formal document that authorizes the project manager to exist and use company resources.
 
 ---
@@ -415,3 +418,6 @@ PROJECT OFFICIALLY BEGINS
   margin: 2rem 0;
 }
 </style>
+
+
+

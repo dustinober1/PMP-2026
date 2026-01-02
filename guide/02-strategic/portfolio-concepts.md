@@ -1,5 +1,7 @@
 # 2.1b Portfolio Management
 
+**ECO Task**: Demonstrate an understanding of how projects fit within programs and portfolios
+
 While Project Management is about "Doing things right," **Portfolio Management** is about **"Doing the right things."** It is the centralized management of projects to achieve strategic objectives.
 
 ---

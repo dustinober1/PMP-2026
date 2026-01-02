@@ -1,5 +1,7 @@
 # 6.4 Quality Planning
 
+**ECO Task**: Plan and manage quality
+
 Quality management ensures that the project meets the requirements and delivers value. It is not just about finding defects—it is about **preventing them** and continuously improving.
 
 ---
@@ -491,3 +493,4 @@ A comprehensive Quality Management Plan includes:
   margin: 2rem 0;
 }
 </style>
+

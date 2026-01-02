@@ -411,3 +411,6 @@ The exam often presents scenarios where planning has gone wrong. Recognize these
   background: var(--vp-c-brand-soft);
 }
 </style>
+
+
+**ECO Task**: Develop an integrated project management plan and plan delivery

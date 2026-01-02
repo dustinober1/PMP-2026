@@ -1,5 +1,7 @@
 # 2.2 Sustainability in Project Management
 
+**ECO Task**: Evaluate and recommend sustainability practices
+
 Sustainability is one of the **six core principles of PMBOK 8th Edition** and a **major 2026 PMP exam topic**. The Business Environment domain now accounts for 26% of the exam, and sustainability is a central theme throughout.
 
 ::: tip 🎯 PMP 2026 Context
@@ -277,3 +279,4 @@ Sustainability questions on the 2026 PMP exam may include:
   margin: 2rem 0;
 }
 </style>
+

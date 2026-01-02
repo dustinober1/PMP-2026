@@ -1,5 +1,7 @@
 # 2.5 Program Management
 
+**ECO Task**: Demonstrate an understanding of how projects fit within programs and portfolios
+
 While the PMP exam focus is on individual projects, modern work increasingly happens within **Programs**. A program is a group of related projects managed in a coordinated way to obtain benefits not available from managing them individually.
 
 ---

@@ -1,5 +1,7 @@
 # 10.3 AI in the Project Lifecycle
 
+**ECO Task**: Determine appropriate project methodology/methods and practices
+
 AI is not just for "tech projects." It is a force multiplier that can be applied to every domain and process group in the PMP standard.
 
 ::: warning ⚠️ Always sanitize inputs

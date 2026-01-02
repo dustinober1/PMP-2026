@@ -1,5 +1,7 @@
 # 6.3 Cost Planning
 
+**ECO Task**: Plan and manage budget and resources
+
 Cost management ensures that the project is delivered within the approved budget. It is more than just spending; it is about **Value Engineering** and **Fiscal Ethics**.
 
 ---
@@ -617,3 +619,6 @@ $ Cumulative Cost
   margin: 2rem 0;
 }
 </style>
+
+
+

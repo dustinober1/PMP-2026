@@ -1,5 +1,7 @@
 # 4.1b Classification & The Register
 
+**ECO Task**: Engage stakeholders
+
 Once identified and mapped, stakeholders must be formally documented. The **Stakeholder Register** is the central repository for all stakeholder intelligence—their needs, their influence, and your strategy for managing them.
 
 ---
@@ -284,3 +286,4 @@ Modern stakeholder management includes measurement:
   margin: 2rem 0;
 }
 </style>
+

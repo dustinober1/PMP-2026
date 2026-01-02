@@ -1,5 +1,7 @@
 # 4.1 Stakeholder Analysis
 
+**ECO Task**: Engage stakeholders
+
 "You can't manage what you haven't identified." Stakeholder analysis is the process of systematically gathering and analyzing qualitative and quantitative information to determine whose interests should be taken into account throughout the project.
 
 ---
@@ -256,3 +258,4 @@ The most dangerous stakeholder is the one you didn't find. Always ask your known
   color: var(--vp-c-text-2);
 }
 </style>
+

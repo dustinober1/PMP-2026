@@ -1,5 +1,7 @@
 # 5.1 Business Case & Strategic Selection
 
+**ECO Task**: Evaluate and deliver project benefits and value
+
 Before a project is authorized, it must be justified. The organization needs to know: *Is this investment better than all the other options?* In the 2026 era, this choice is driven by **Value Realization**.
 
 ---

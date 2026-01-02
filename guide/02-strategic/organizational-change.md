@@ -1,5 +1,7 @@
 # 2.4 Organizational Change
 
+**ECO Task**: Support organizational change
+
 "Technology projects don't fail because of technology—they fail because people don't adopt the change." This is the core principle of **Organizational Change Management (OCM)**.
 
 ---
@@ -434,3 +436,4 @@ In predictive projects, change is often a "Big Bang" at the end. In Agile, chang
   margin: 2rem 0;
 }
 </style>
+

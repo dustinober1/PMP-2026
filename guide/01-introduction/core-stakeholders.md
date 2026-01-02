@@ -1,5 +1,7 @@
 # 1.4a – Stakeholders and Stakeholder Engagement
 
+**ECO Task**: Engage stakeholders
+
 Sarah quickly learns that the technical side of project management (creating schedules, tracking budgets) is only part of the job. The harder part is understanding *people*: who cares about this project, what do they care about, how much influence do they have, and how do I keep them engaged and aligned?
 
 ## 1.4a.1 Who Are Stakeholders?

@@ -1,5 +1,7 @@
 # 5.4 Delivery Strategy
 
+**ECO Task**: Determine appropriate project methodology/methods and practices
+
 One of the PM's first "process" decisions is selecting the high-level delivery strategy. In 2026, this is not a religious choice between Scrum or Predictive—it is a logical choice based on **Risk** and **Frequency of Value**.
 
 ---
@@ -353,3 +355,4 @@ Most modern enterprise projects are **Hybrid**. They use Predictive milestones f
   margin: 2rem 0;
 }
 </style>
+

@@ -1,5 +1,7 @@
 # 8.2 Value Delivery and Outcomes
 
+**ECO Task**: Evaluate and deliver project benefits and value
+
 In the 2026 PMP context, a project is only successful if it delivers **Value**. Finishing "on time and under budget" is meaningless if the final product doesn't solve the customer's problem or drive the organization forward.
 
 ::: tip 🎯 PMP exam trap
@@ -1426,3 +1428,4 @@ Why wasn't this identified earlier?
   margin-bottom: 0.35rem;
 }
 </style>
+

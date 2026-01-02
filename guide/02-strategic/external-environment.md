@@ -1,5 +1,7 @@
 # 2.1f External Business Environment
 
+**ECO Task**: Evaluate and address external business environment changes
+
 Projects do not exist in a vacuum. Even a perfectly executed project can fail if the world around it changes. The 2026 PMP exam places heavy emphasis on your ability to monitor and respond to external shifts.
 
 ---
@@ -452,3 +454,4 @@ When documenting an external change impact, include:
   margin: 2rem 0;
 }
 </style>
+

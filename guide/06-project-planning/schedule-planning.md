@@ -1,5 +1,7 @@
 # 6.2 Schedule Planning
 
+**ECO Task**: Plan and manage schedule
+
 Scheduling is the "Pulse" of the project. It defines the sequence of activities and the timeline for delivery.
 
 ---
@@ -640,3 +642,4 @@ In 2026, PMs use **AI-Augmented Estimation** to analyze historical performance a
   margin: 2rem 0;
 }
 </style>
+
