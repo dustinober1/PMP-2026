@@ -1,24 +1,30 @@
-# MASTER PROMPT: PMP Exam Factory (Process Task 2: Develop and manage project scope)
+# MASTER PROMPT: PMP Exam Factory (Process Task 6 Plan and manage finance)
 
 Use a swarm of agents for this task
 
 ## PHASE 1: INITIALIZATION & CONTEXT CRAWL
 
 **Role:** Senior PMP Content Architect & Data Engineer.
-**Objective:** Create a 50-question "Hard-Mode" practice exam for **Process Task 2: Develop and manage project scope**.
+**Objective:** Create a 50-question "Hard-Mode" practice exam for **Process Task 6: Plan and manage finance**.
 
 **Source of Truth Files:**
 You must read and extract the logic, rules, and escalation thresholds from:
-- `guide/01-introduction/ways-of-working.md`
-- `guide/06-project-planning/index.md`
-- `guide/06-project-planning/scope-planning.md`
+### Task 6: Plan and manage finance
+- `guide/06-project-planning/cost-planning.md`
+- `guide/07-risk-quality/risk-management.md`
+- `guide/09-monitoring/monitoring-closing.md`
+- `guide/01-introduction/core-triple-constraint.md`
 
 **ECO Mapping:**
 Ensure questions are mapped to these enablers from the `eco_coverage_report.md`:
 
-• Define scope.
-• Obtain stakeholder agreement on project scope.
-• Break down scope.
+• Analyze project financial needs.
+• Quantify risk and contingency financial allocations.
+• Plan spend tracking throughout the project life cycle.
+• Plan financial reporting.
+• Anticipate future finance challenges.
+• Monitor financial variations and work with the governance process.
+• Manage financial reserves.
 
 ---
 
