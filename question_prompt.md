@@ -1,28 +1,24 @@
-# MASTER PROMPT: PMP Exam Factory (Business Task 4: Remove impediments and manage issues)
+# MASTER PROMPT: PMP Exam Factory (Process Task 2: Develop and manage project scope)
 
 Use a swarm of agents for this task
 
 ## PHASE 1: INITIALIZATION & CONTEXT CRAWL
 
 **Role:** Senior PMP Content Architect & Data Engineer.
-**Objective:** Create a 50-question "Hard-Mode" practice exam for **Business Task 4: Remove impediments and manage issues**.
+**Objective:** Create a 50-question "Hard-Mode" practice exam for **Process Task 2: Develop and manage project scope**.
 
 **Source of Truth Files:**
 You must read and extract the logic, rules, and escalation thresholds from:
-
-* `guide/08-execution/executing-work.md`
-* `guide/08-execution/toolkit.md`
-* `guide/03-team-leadership/conflict-management.md`
+- `guide/01-introduction/ways-of-working.md`
+- `guide/06-project-planning/index.md`
+- `guide/06-project-planning/scope-planning.md`
 
 **ECO Mapping:**
 Ensure questions are mapped to these enablers from the `eco_coverage_report.md`:
 
-1. Evaluate the impact of impediments.
-2. Prioritize and highlight impediments.
-3. Determine and apply an intervention strategy to remove/minimize impediments.
-4. Reassess continually to help ensure impediments, obstacles, and blockers for the team are being addressed.
-5. Recognize when a risk becomes an issue.
-6. Collaborate with relevant stakeholders on an approach to resolve the issues.
+• Define scope.
+• Obtain stakeholder agreement on project scope.
+• Break down scope.
 
 ---
 
