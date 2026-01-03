@@ -2,6 +2,9 @@
 
 This repository contains a comprehensive, interactive study guide for the Project Management Professional (PMP)® exam, specifically updated for the **July 2026 Examination Content Outline (ECO)** and **PMBOK 8 Principles**.
 
+**Current Version:** 1.22.0
+**Live Site:** [https://dustinober.github.io/PMP-2026/](https://dustinober.github.io/PMP-2026/)
+
 ## Project Overview
 
 The project is a static documentation site built using **VitePress** (powered by Vue 3). It serves as an educational resource covering the three PMP domains: People (33%), Process (41%), and Business Environment (26%).
@@ -14,7 +17,7 @@ The project is a static documentation site built using **VitePress** (powered by
 
 - `guide/`: **The Source of Truth.** Contains 11 chapters of markdown content aligned with the 2026 ECO.
 - `legacy/`: Archive of older content and draft files. Do not modify these for 2026 updates.
-- `testbank/`: Collection of practice questions and task-specific practice exams.
+- `testbank/`: Collection of practice questions, task-specific exams, and "Hard-Mode" variants.
 - `.vitepress/`: Site configuration, custom Vue components (quizzes, charts), and theme logic.
 - `scripts/`: Utility scripts (e.g., flashcard conversion).
 - `.github/`: AI automation workflows (Gemini) and command configurations.
@@ -55,3 +58,4 @@ This project is optimized for AI-assisted development.
 - **2026 Alignment:** Ensure all exam metrics reflect the 2026 specs: **185 questions, 240 minutes, two 5-minute breaks**.
 - **Cross-Links:** Maintain relative markdown links for internal navigation (e.g., `[Link](/guide/chapter/page)`).
 - **Styling:** Adhere to the purple brand color (`#924dbf`) and responsive design principles.
+- **Commitment:** Always commit and push after each task and subtask completion.
