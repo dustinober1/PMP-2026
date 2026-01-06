@@ -45,7 +45,6 @@ The following NPM scripts are available in `package.json`:
 - **`flashcards/`**: Contains all flashcard files organized by ECO domain and task (People, Process, Business Environment).
 - **`scripts/`**: Utility scripts (e.g., converting flashcards/testbanks to JSON).
 - **`guide/appendices/`**: Supplementary material like glossary, formulas, ECO task map, and PMBOK process map.
-- **`legacy/`**: Archived content from previous versions.
 
 ## Development Conventions
 - **Content:** Written in Markdown (`.md`).
@@ -57,6 +56,7 @@ The following NPM scripts are available in `package.json`:
 The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/workflows/` handles automated deployment on push, or it can be triggered manually via `npm run deploy`.
 
 ## Recent Changes
+- **2026-01-06**: Removed `legacy/` folder containing archived source material and migration scripts, as all content has been successfully migrated to the current VitePress structure.
 - **2026-01-06**: Reorganized flashcard files by moving all 28 flashcard files (26 markdown files and 2 JSON files) from `guide/appendices/` to a new dedicated `flashcards/` folder at the project root for better organization.
 - **2026-01-06**: Completed comprehensive reformatting of all Chapter 7 (Risk, Quality and Complexity) pages, including 6 markdown files. Replaced legacy grids with interactive `ConceptGrid`, `ConceptCard`, `FlashcardGrid`, and updated the knowledge check with the `QuizComponent`. Verified successful build.
 - **2026-01-06**: Completed comprehensive reformatting of all Chapter 6 (Project Planning) pages, including 9 markdown files. Replaced legacy grids with interactive `ConceptGrid`, `ConceptCard`, `FlashcardGrid`, and added an `EVMCalculator` to the cost planning section. Verified successful build.
