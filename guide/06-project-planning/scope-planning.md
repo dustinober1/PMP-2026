@@ -455,36 +455,32 @@ Build → Control Quality → Validate Scope → Close
 
 ### Predictive (Change Control Board)
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                 INTEGRATED CHANGE CONTROL                    │
-├─────────────────────────────────────────────────────────────┤
-│  1. Change Request Submitted                                 │
-│           ↓                                                  │
-│  2. Impact Analysis (Scope, Schedule, Cost, Risk, Quality)  │
-│           ↓                                                  │
-│  3. CCB Review (or PM if delegated)                         │
-│           ↓                                                  │
-│  4. Approve / Reject / Defer                                 │
-│           ↓                                                  │
-│  5. Update Baselines & Communicate                           │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+graph TD
+    A[1. Change Request Submitted] --> B[2. Impact Analysis\nScope, Schedule, Cost, Risk, Quality]
+    B --> C[3. CCB Review\nor PM if delegated]
+    C --> D{4. Decision}
+    D -->|Approve| E[5. Update Baselines & Communicate]
+    D -->|Reject| F[Notify Requester]
+    D -->|Defer| G[Log for Future Review]
+
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
+    classDef decision fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    class D decision;
 ```
 
 ### Agile (Backlog Refinement)
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                 AGILE SCOPE MANAGEMENT                       │
-├─────────────────────────────────────────────────────────────┤
-│  Sprint Scope: FIXED (protected once sprint starts)         │
-│           ↓                                                  │
-│  New Request? → Add to Product Backlog                       │
-│           ↓                                                  │
-│  Product Owner prioritizes in next refinement                │
-│           ↓                                                  │
-│  Team pulls into Sprint Planning when ready                  │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+graph TD
+    A[Sprint Scope: FIXED\nProtected once sprint starts] --> B{New Request?}
+    B -->|Yes| C[Add to Product Backlog]
+    C --> D[Product Owner prioritizes\nin next refinement]
+    D --> E[Team pulls into Sprint Planning\nwhen ready]
+
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
+    classDef decision fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    class B decision;
 ```
 
 ### Hybrid Approach
