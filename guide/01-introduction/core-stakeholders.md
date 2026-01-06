@@ -1,5 +1,12 @@
 # 1.4a – Stakeholders and Stakeholder Engagement
 
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 **ECO Task**: Engage stakeholders
 
 Sarah quickly learns that the technical side of project management (creating schedules, tracking budgets) is only part of the job. The harder part is understanding *people*: who cares about this project, what do they care about, how much influence do they have, and how do I keep them engaged and aligned?
@@ -10,15 +17,26 @@ A **stakeholder** is anyone who has an interest in, is affected by, or can affec
 
 This sounds simple, but it is deceptively broad. Stakeholders include:
 
-- **Project sponsors** – who fund the work and have strategic interest
-- **Project team members** – who do the work
-- **Business stakeholders** – who use or benefit from the outcome
-- **End users** – who ultimately use the deliverable
-- **Regulatory bodies** – who enforce compliance
-- **Vendors and contractors** – who supply goods or services
-- **Community members** – who might be affected by the project's outcomes
-- **Competitors** – who might be interested in the project's success or failure
-- **Internal support functions** – like HR, IT, Finance, who enable the work
+<ConceptGrid>
+  <ConceptCard title="Project Sponsors">
+    Who fund the work and have strategic interest.
+  </ConceptCard>
+  <ConceptCard title="Project Team">
+    Who do the work.
+  </ConceptCard>
+  <ConceptCard title="Business Stakeholders">
+    Who use or benefit from the outcome.
+  </ConceptCard>
+  <ConceptCard title="End Users">
+    Who ultimately use the deliverable.
+  </ConceptCard>
+  <ConceptCard title="Regulatory Bodies">
+    Who enforce compliance.
+  </ConceptCard>
+  <ConceptCard title="Vendors">
+    Who supply goods or services.
+  </ConceptCard>
+</ConceptGrid>
 
 ## 1.4a.2 Sarah's Stakeholder Challenge: The Office Renovation
 
@@ -40,27 +58,24 @@ Sarah realizes: *Different stakeholders care about completely different things. 
 
 Sarah learns a framework for thinking about stakeholders systematically: **The Power/Interest Grid**
 
-<PowerInterestGrid>
-  <template #manage>
-    <strong>Sarah must communicate frequently and involve them in decisions.</strong><br><br>
-    <em>Example: CFO, CEO, VP of Facilities, General Contractor</em>
-  </template>
-
-  <template #satisfy>
-    <strong>Sarah must keep them informed so they do not become blockers.</strong><br><br>
-    <em>Example: VP of IT, Facilities manager's team, Major department heads</em>
-  </template>
-
-  <template #inform>
-    <strong>Sarah should listen to them and communicate transparently.</strong><br><br>
-    <em>Example: Individual employees, Regulatory inspectors</em>
-  </template>
-
-  <template #monitor>
-    <strong>Sarah monitors them to catch any changes.</strong><br><br>
-    <em>Example: Current landlord, Competitors, Future employees</em>
-  </template>
-</PowerInterestGrid>
+<ConceptGrid>
+  <ConceptCard title="Manage Closely (High Power, High Interest)">
+    <strong>Strategy:</strong> Involve them in planning and decision-making. Seek input before finalizing major decisions.<br>
+    <em>Example: CFO, CEO, VP of Facilities</em>
+  </ConceptCard>
+  <ConceptCard title="Keep Satisfied (High Power, Low Interest)">
+    <strong>Strategy:</strong> Provide regular updates. Solicit feedback and acknowledge it focused on their needs.<br>
+    <em>Example: VP of IT, Department Heads</em>
+  </ConceptCard>
+  <ConceptCard title="Keep Informed (Low Power, High Interest)">
+    <strong>Strategy:</strong> Provide clear, transparent communication. Create forums for questions.<br>
+    <em>Example: Individual Employees, End Users</em>
+  </ConceptCard>
+  <ConceptCard title="Monitor (Low Power, Low Interest)">
+    <strong>Strategy:</strong> Track their level of interest. Monitor for changes in status.<br>
+    <em>Example: Competitors, General Public</em>
+  </ConceptCard>
+</ConceptGrid>
 
 ## 1.4a.4 Stakeholder Engagement: Beyond Just Informing
 
@@ -77,9 +92,17 @@ Sarah learns that *stakeholder engagement is not the same as stakeholder communi
 
 Sarah encounters a subtle but critical issue: *Different stakeholders have different expectations about what success looks like.*
 
-- **CEO**: Success = move-in on the announced date
-- **CFO**: Success = stay within budget
-- **Employees**: Success = a modern, comfortable office
+<ConceptGrid>
+  <ConceptCard title="CEO">
+    <strong>Success =</strong> Move-in on the announced date (schedule focused).
+  </ConceptCard>
+  <ConceptCard title="CFO">
+    <strong>Success =</strong> Stay within budget (cost focused).
+  </ConceptCard>
+  <ConceptCard title="Employees">
+    <strong>Success =</strong> A modern, comfortable office (quality/scope focused).
+  </ConceptCard>
+</ConceptGrid>
 
 If Sarah does not actively manage these expectations, she ends up disappointing people. Sarah learns: **You must surface and align expectations early.**
 
@@ -115,3 +138,48 @@ Exam questions test stakeholder engagement by presenting conflict or misalignmen
 ::: tip Pro Tip
 Always address stakeholder issues directly and humanly before escalating. Empathy and clear communication are your best tools.
 :::
+
+## 1.4a.8 Quick Review
+
+<FlashcardGrid>
+  <Flashcard 
+    front="What is a stakeholder?" 
+    back="Anyone who has an interest in, is affected by, or can affect the project." 
+  />
+  <Flashcard 
+    front="How should you engage High Power / High Interest stakeholders?" 
+    back="Manage Closely. Involve them in decision-making and planning." 
+  />
+  <Flashcard 
+    front="How should you engage High Power / Low Interest stakeholders?" 
+    back="Keep Satisfied. Keep them informed to ensure they don't become blockers." 
+  />
+  <Flashcard 
+    front="How should you engage Low Power / High Interest stakeholders?" 
+    back="Keep Informed. Listen to their concerns and communicate transparently." 
+  />
+  <Flashcard 
+    front="How should you engage Low Power / Low Interest stakeholders?" 
+    back="Monitor. Watch for changes in their influence or interest." 
+  />
+  <Flashcard 
+    front="What is the difference between Communication and Engagement?" 
+    back="Communication is often one-way (sharing info). Engagement is two-way (involving in decisions and dialogue)." 
+  />
+  <Flashcard 
+    front="What is the first step in managing stakeholder expectations?" 
+    back="Uncover them by asking what success looks like for each group." 
+  />
+  <Flashcard 
+    front="What should a PM do if stakeholders have conflicting expectations?" 
+    back="Facilitate trade-off discussions and align on a shared definition of success." 
+  />
+  <Flashcard 
+    front="Why is it important to engage vendors as stakeholders?" 
+    back="They supply critical goods/services and their performance directly impacts project constraints." 
+  />
+  <Flashcard 
+    front="True or False: Stakeholder engagement continues throughout the entire project." 
+    back="True. It is not a one-time event." 
+  />
+</FlashcardGrid>
