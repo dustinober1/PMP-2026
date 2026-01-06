@@ -1,3 +1,8 @@
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+</script>
+
 # 8.1 Executing Project Work
 
 **ECO Task**: Execute project with urgency required to deliver business value
@@ -8,6 +13,17 @@
 Execution is where project leaders coordinate people, vendors, and resources to create deliverables **and** protect value. It requires balancing formal control (plans, baselines, governance) with the real-world need for speed, collaboration, and rapid problem-solving.
 
 ---
+
+<ConceptCard type="study-tip">
+<strong>Exam Insight</strong>
+<p>If a scenario describes a team struggling with execution, look for answers that strengthen the <strong>system of work</strong>. This often means:</p>
+<ul>
+  <li>Making work and blockers <strong>visible</strong> (Kanban, daily syncs)</li>
+  <li>Establishing a clear <strong>change process</strong> (change log, CCB)</li>
+  <li>Using <strong>retrospectives</strong> to find and fix root causes</li>
+  <li>Protecting the team from <strong>interruptions</strong> so they can focus</li>
+</ul>
+</ConceptCard>
 
 ##  “Direct and Manage Project Work” (In Plain English)
 This is the integration heartbeat of execution. You’re coordinating work so the team can produce deliverables while you keep stakeholders aligned and the project under control.
@@ -30,23 +46,17 @@ If a scenario mentions a baseline and someone wants to change scope/schedule/cos
 ##  Leading the Flow (Predictive, Agile, Hybrid)
 The way you execute should match the level of uncertainty and the organization’s governance.
 
-<div class="exec-grid">
-  <div class="exec-card predictive">
-    <div class="exec-title">Predictive Execution</div>
-    <div class="exec-tag">Control-Oriented</div>
-    <p>Using a <strong>Work Authorization System</strong> to ensure tasks start strictly according to the schedule and budget baselines.</p>
-  </div>
-  <div class="exec-card agile">
-    <div class="exec-title">Agile Execution</div>
-    <div class="exec-tag">Flow-Oriented</div>
-    <p>Using <strong>Daily Standups</strong> and <strong>Kanban Boards</strong> to visualize progress and remove impediments in real-time.</p>
-  </div>
-  <div class="exec-card hybrid">
-    <div class="exec-title">Hybrid Execution</div>
-    <div class="exec-tag">Bridge-Oriented</div>
-    <p>Using <strong>predictive governance</strong> (milestones, budgets, approvals) while agile teams deliver <strong>iterative increments</strong> and re-prioritize for value.</p>
-  </div>
-</div>
+<ConceptGrid>
+  <ConceptCard title="Predictive Execution" tag="Control-Oriented" variant="predictive">
+    Using a <strong>Work Authorization System</strong> to ensure tasks start strictly according to the schedule and budget baselines.
+  </ConceptCard>
+  <ConceptCard title="Agile Execution" tag="Flow-Oriented" variant="agile">
+    Using <strong>Daily Standups</strong> and <strong>Kanban Boards</strong> to visualize progress and remove impediments in real-time.
+  </ConceptCard>
+  <ConceptCard title="Hybrid Execution" tag="Bridge-Oriented" variant="hybrid">
+    Using <strong>predictive governance</strong> (milestones, budgets, approvals) while agile teams deliver <strong>iterative increments</strong> and re-prioritize for value.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -84,16 +94,14 @@ Execution questions frequently test whether you put the problem in the right “
 ##  Knowledge Management
 Projects produce two distinct types of value: **Deliverables** and **Knowledge**.
 
-<div class="knowledge-grid">
-  <div class="knowledge-card">
-    <div class="knowledge-title">Explicit Knowledge</div>
-    <p>Facts, blueprints, and data that can be written down and easily shared (e.g., Code, Manuals).</p>
-  </div>
-  <div class="knowledge-card">
-    <div class="knowledge-title">Tacit Knowledge</div>
-    <p>Experience, "know-how," and intuition. Shared through <strong>Social Interaction</strong> and <strong>Collaboration</strong>.</p>
-  </div>
-</div>
+<ConceptGrid>
+  <ConceptCard title="Explicit Knowledge">
+    Facts, blueprints, and data that can be written down and easily shared (e.g., Code, Manuals).
+  </ConceptCard>
+  <ConceptCard title="Tacit Knowledge">
+    Experience, "know-how," and intuition. Shared through <strong>Social Interaction</strong> and <strong>Collaboration</strong>.
+  </ConceptCard>
+</ConceptGrid>
 
 ### How to capture knowledge without slowing delivery
 - Keep a **Lessons Learned Register** as a living document (add small entries weekly)
@@ -137,45 +145,6 @@ Execution is where leadership becomes observable. Typical “best answers” emp
 - **Servant leadership**: The most important “tool.” Clear the path so the team can deliver.
 
 See `guide/08-execution/toolkit.md` for copy/paste templates.
-
-<style>
-.exec-grid, .knowledge-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.exec-card, .knowledge-card {
-  padding: 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-}
-
-.exec-title, .knowledge-title {
-  font-weight: 700;
-  font-size: 1.1rem;
-  margin-bottom: 0.25rem;
-}
-
-.exec-tag {
-  font-size: 0.75rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
-
-.predictive { border-top: 4px solid #3b82f6; }
-.agile { border-top: 4px solid #10b981; }
-.hybrid { border-top: 4px solid #f59e0b; }
-
-.exec-card p, .knowledge-card p {
-  font-size: 0.85rem;
-  margin: 0;
-  line-height: 1.5;
-}
-</style>
 
 ---
 
@@ -867,27 +836,3 @@ With the shift toward distributed and hybrid work, the 2026 PMP exam emphasizes 
 ::: warning  Common Virtual Team Mistake
 Don't assume "no news is good news" when team members go quiet. In virtual environments, silence often indicates disengagement, confusion, or being overwhelmed. **Proactively check in.**
 :::
-
----
-
-<div class="study-tip">
-
-  <strong> Exam Insight:</strong> If a team member is blocked by a technical issue or an overbearing functional manager, the PM acting as a <strong>Servant Leader</strong> must prioritize removing that impediment. If you can't fix it yourself, escalate it.
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
-
-
-
-
-
-
-

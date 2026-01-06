@@ -1,3 +1,8 @@
+<script setup>
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import QuizComponent from '../../.vitepress/theme/components/QuizComponent.vue'
+</script>
+
 # Knowledge Check: Execution & Value Delivery
 
 Test your mastery of execution and value delivery concepts for the 2026 PMP exam. These 25 comprehensive questions cover team development, motivation, conflict resolution, procurement execution, value frameworks, continuous improvement, and adaptive vs. predictive execution.
@@ -430,16 +435,6 @@ To achieve mastery of Chapter 8: Execution & Value Delivery for the PMP exam, en
 
 ---
 
-<div class="study-tip">
+<ConceptCard type="study-tip">
   <strong> Final Exam Insight:</strong> Execution questions often test whether you prioritize <strong>value delivery over process compliance</strong>. If a scenario describes completed deliverables but unhappy stakeholders, the answer almost always involves <strong>validation, outcomes, adoption, and benefits</strong>—not just verification of requirements.
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+</ConceptCard>

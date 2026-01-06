@@ -1,3 +1,7 @@
+<script setup>
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+</script>
+
 # 9.1 Monitoring & Controlling (Control & Change)
 
 **ECO Task**: Manage and control changes
@@ -11,16 +15,16 @@
 
 Monitoring is about **observing** performance; controlling is about **taking action** when performance deviates from the plan. In the 2026 PMP exam, this is where you prove you can run a project with discipline: detect problems early, diagnose the cause, act appropriately, and communicate transparently.
 
-::: tip  What the Exam Tests
+::: tip What the Exam Tests
 Most Monitoring & Controlling questions are scenario-based and ask **“What should the PM do FIRST?”** A safe pattern is:
 1) confirm the variance is real (data) → 2) analyze impact/root cause → 3) choose an action (corrective, preventive, defect repair) → 4) submit a change request if baselines/contracts must change → 5) implement approved changes and communicate.
 :::
 
-::: info  Templates (Copy/Paste)
+::: info Templates (Copy/Paste)
 Need a status report, change request form, variance log, or closure checklist? Use [9.3 Tools & Templates](./toolkit).
 :::
 
-::: info  The Control Loop (Mental Model)
+::: info The Control Loop (Mental Model)
 ```
 Work happens → Collect WPD → Analyze (WPI) → Decide → Act → Communicate (WPR) → Repeat
 
@@ -67,7 +71,7 @@ This transformation is how you turn “noise” into decisions.
 2.  **Information (WPI):** The PM analyzes this and notes, "Defect rate has jumped 20% this week; we are now projected to miss the UAT start date by 3 days." (Context + Implication).
 3.  **Report (WPR):** The Weekly Status Report to the Sponsor shows a "Yellow" quality status with a note: "Defect trend rising; conducting root cause analysis to protect UAT date." (Decision-ready).
 
-::: warning  Common Exam Trap
+::: warning Common Exam Trap
 Stakeholders being “surprised” by bad news usually means you collected **data** but didn’t transform it into **information** and communicate it via **reports**.
 :::
 
@@ -84,7 +88,7 @@ Stakeholders being “surprised” by bad news usually means you collected **dat
 - **Contingency reserve** is for *identified risks* (typically part of the cost baseline). When a known risk occurs, you execute the risk response and use contingency as planned.
 - **Management reserve** is for *unknown-unknowns* (not in the baseline; typically requires sponsor approval to use and often triggers a change request).
 
-::: warning  Common Exam Trap
+::: warning Common Exam Trap
 “Using a reserve” is not the same as “changing the baseline.”
 - If the plan already included **contingency** for a known risk, using it can be acceptable without re-baselining.
 - If you need **more time/money/scope** than the baselines allow (or you need **management reserve**), you normally go through **change control**.
@@ -92,7 +96,7 @@ Stakeholders being “surprised” by bad news usually means you collected **dat
 
 ---
 
-##  Performance Measurement Baseline (PMB)
+## Performance Measurement Baseline (PMB)
 
 The **Performance Measurement Baseline** is the integrated combination of the scope baseline, schedule baseline, and cost baseline used as the single reference point for comparing project performance. This is your "truth" for EVM and variance analysis.
 
@@ -125,7 +129,7 @@ The **Performance Measurement Baseline** is the integrated combination of the sc
 - **PMB** = Cost Baseline + Contingency Reserve (what you measure performance against)
 - **Project Budget** = PMB + Management Reserve (total authorized funding)
 
-::: tip  Exam Pattern
+::: tip Exam Pattern
 If a question asks about "updating the PMB," this means the baselines are being changed—which requires **formal change control approval**.
 :::
 
@@ -143,7 +147,7 @@ Re-baselining is a serious governance decision. It resets the "truth" you measur
 
 ---
 
-##  Configuration Management
+## Configuration Management
 
 Configuration Management ensures that the project's deliverables and documentation are controlled, versioned, and auditable. It's the mechanism that prevents "which version is correct?" chaos.
 
@@ -174,7 +178,7 @@ Configuration Management ensures that the project's deliverables and documentati
 | **Question** | "What is the current state of deliverables?" | "Should we approve this change?" |
 | **Output** | Version control, audit trails, CI status | Approved/rejected CRs, updated baselines |
 
-::: info  Real-World Example
+::: info Real-World Example
 A software project has the following CIs under configuration management:
 - **Requirements v2.3** (last approved specification)
 - **Build v1.4.7** (current production release)
@@ -189,7 +193,7 @@ When a change request is approved, Configuration Management ensures:
 
 ---
 
-##  Earned Value Management (EVM)
+## Earned Value Management (EVM)
 
 EVM is an objective way to answer: **Are we getting the value we planned for the money and time we’re spending?** It’s most common in predictive/hybrid projects with a defined baseline.
 
@@ -211,7 +215,7 @@ EVM is an objective way to answer: **Are we getting the value we planned for the
 | **CPI** (Cost Performance Index) | `EV / AC` | > 1.0 = under budget |
 | **SPI** (Schedule Performance Index) | `EV / PV` | > 1.0 = ahead |
 
-::: info  CPI/SPI Combo Quick Read (Know the Story)
+::: info CPI/SPI Combo Quick Read (Know the Story)
 | CPI | SPI | What it usually means | Exam-appropriate move |
 |---:|---:|---|---|
 | `< 1` | `< 1` | over budget + behind schedule | analyze root cause, update forecast (EAC), propose recovery options; submit CR if baselines must change |
@@ -220,7 +224,7 @@ EVM is an objective way to answer: **Are we getting the value we planned for the
 | `> 1` | `> 1` | under budget + ahead of schedule | confirm data quality; communicate; consider pulling value forward (if governance allows) |
 :::
 
-::: tip  Schedule Nuance (Exam Clarity)
+::: tip Schedule Nuance (Exam Clarity)
 EVM **SV** and **SPI** indicate schedule performance in “planned value” terms. If the question is about *calendar impact*, verify the **critical path/float** in the schedule model.
 :::
 
@@ -235,7 +239,7 @@ EVM **SV** and **SPI** indicate schedule performance in “planned value” term
 | **TCPI** | “How efficient must we be from now on?” | `(BAC - EV) / (BAC - AC)` (to meet BAC) |
 | **TCPI** (alt) | “…to meet the new EAC?” | `(BAC - EV) / (EAC - AC)` |
 
-::: tip  2026 Strategy: Trend > Snapshot
+::: tip 2026 Strategy: Trend > Snapshot
 A single CPI/SPI is a snapshot. A **trend** (e.g., CPI has declined 4 reporting periods) is the early-warning signal. Treat trend breaks as “investigate now,” not “wait until it’s bad.”
 :::
 
@@ -270,7 +274,7 @@ Common analysis tools (often appear as answer choices):
     - **Fishbone (Ishikawa) diagram**: Visualizes cause-and-effect, breaking causes into categories (e.g., People, Process, Technology).
 - **Pareto chart (80/20)**: A histogram ordered by frequency to highlight the “vital few” causes that generate most problems. Use this to prioritize *where* to fix things.
 
-::: info  Control Charts (Quality Control)
+::: info Control Charts (Quality Control)
 - **Control limits** (UCL/LCL) show whether a process is statistically stable.
 - A process can be **in control but out of spec** (customer limits ≠ control limits).
 - "Out of control" signals include points outside limits or non-random patterns (e.g., a sustained run on one side of the mean).
@@ -313,7 +317,7 @@ Common analysis tools (often appear as answer choices):
 
 ---
 
-##  Control Schedule: Critical Path, Float, and Compression
+## Control Schedule: Critical Path, Float, and Compression
 
 Many exam questions hide the real issue in schedule logic. Before you “fix the date,” confirm whether the slip is actually threatening the end date.
 
@@ -367,11 +371,11 @@ Many exam questions hide the real issue in schedule logic. Before you “fix the
 
 **Decision on the Exam**: Crashing is preferred when money is available; fast-tracking is preferred when money is tight. Both require monitoring because they increase risk.
 
-::: warning  Critical Path Dependency
+::: warning Critical Path Dependency
 Only compressing critical path activities reduces project duration. If a slipped activity has **float/slack**, you may not need compression—you may just need **replanning/resequencing**.
 :::
 
-::: tip  Exam Pattern
+::: tip Exam Pattern
 If the question says "What should the PM do FIRST?" the safest first step is usually: **analyze the variance + confirm critical path impact** before choosing crash/fast-track or requesting more time.
 :::
 
@@ -462,7 +466,7 @@ These terms show up constantly in Monitoring & Controlling questions.
 
 ---
 
-##  Integrated Change Control (How to Change Without Chaos)
+## Integrated Change Control (How to Change Without Chaos)
 
 Changes are normal. **Uncontrolled** changes are project killers.
 
@@ -471,26 +475,18 @@ Changes are normal. **Uncontrolled** changes are project killers.
 - The **CCB** (Change Control Board) is the *decision authority* in many predictive environments. In agile/hybrid, approval is often handled through **product ownership/governance** and **backlog prioritization** (but it’s still a decision process).
 
 <div class="change-process">
-  <div class="process-step">
-    <div class="step-num">1</div>
-    <div class="step-title">Capture</div>
-    <p>Document the request (don’t accept hallway changes). Update the change log.</p>
-  </div>
-  <div class="process-step">
-    <div class="step-num">2</div>
-    <div class="step-title">Analyze</div>
-    <p>Assess impact to <strong>scope, schedule, cost, quality, risk, and benefits</strong>. Include options.</p>
-  </div>
-  <div class="process-step">
-    <div class="step-num">3</div>
-    <div class="step-title">Decide</div>
-    <p>CCB/sponsor/product governance approves, rejects, or defers. Define funding and timeline impacts.</p>
-  </div>
-  <div class="process-step">
-    <div class="step-num">4</div>
-    <div class="step-title">Implement</div>
-    <p>Execute the approved change via project work. Update baselines/plans and communicate to stakeholders.</p>
-  </div>
+  <ConceptCard title="1. Capture">
+    Document the request (don’t accept hallway changes). Update the change log.
+  </ConceptCard>
+  <ConceptCard title="2. Analyze">
+    Assess impact to <strong>scope, schedule, cost, quality, risk, and benefits</strong>. Include options.
+  </ConceptCard>
+  <ConceptCard title="3. Decide">
+    CCB/sponsor/product governance approves, rejects, or defers. Define funding and timeline impacts.
+  </ConceptCard>
+  <ConceptCard title="4. Implement">
+    Execute the approved change via project work. Update baselines/plans and communicate to stakeholders.
+  </ConceptCard>
 </div>
 
 ### What Gets Updated After an Approved Change (Outputs You Should “See”)
@@ -503,7 +499,7 @@ When a change is approved, you typically update:
 
 On the exam, “implement the change” is rarely correct until you also see **approval**, **baseline/document updates**, and **communication**.
 
-::: warning  Another Common Exam Trap
+::: warning Another Common Exam Trap
 If stakeholders ask for “a small change,” you don’t do it “to be nice.” You route it through the **change control process**. “Death by a thousand cuts” is still scope creep.
 :::
 
@@ -525,7 +521,7 @@ Monitoring & Controlling touches every knowledge area. Think in terms of *what y
 
 ---
 
-##  Agile & Hybrid Visibility
+## Agile & Hybrid Visibility
 
 In adaptive environments, control focuses on **value flow and predictability**, not variance from a fixed scope baseline.
 
@@ -566,13 +562,13 @@ The **Definition of Done** is the quality gate for agile work. A clear DoD preve
 - [ ] Documentation updated (if applicable)
 - [ ] No critical/high defects outstanding
 
-::: tip  Agile Change Control
+::: tip Agile Change Control
 In agile, change is expected. “Control” is achieved by maintaining a transparent, ordered backlog, stable iteration cadence, clear acceptance criteria, and regular inspect/adapt events (review + retro).
 :::
 
 ---
 
-##  Communication Performance Monitoring
+## Communication Performance Monitoring
 
 Monitoring communications ensures the right people get the right information at the right time. Poor communication is often the root cause of stakeholder dissatisfaction.
 
@@ -605,13 +601,13 @@ Monitoring communications ensures the right people get the right information at 
 | **Supportive** | Willing to help when asked | Leverage support, keep informed |
 | **Leading** | Actively champions the project | Utilize as advocates, protect relationship |
 
-::: warning  Exam Pattern
+::: warning Exam Pattern
 If stakeholders are "surprised" by project status, the issue is usually that **work performance information** was collected but not effectively **communicated** via **work performance reports**. The PM should improve communication, not blame stakeholders.
 :::
 
 ---
 
-##  Tailoring Monitoring by Methodology
+## Tailoring Monitoring by Methodology
 
 Different project approaches require different monitoring strategies. The 2026 PMP exam expects you to select the right metrics and control mechanisms based on the delivery approach.
 
@@ -647,13 +643,13 @@ Different project approaches require different monitoring strategies. The 2026 P
 
 **Best Practice:** Use **rolling wave planning** with fixed milestones for governance and agile execution within phases. Monitor *both* milestone adherence and flow metrics.
 
-::: tip  Exam Pattern
+::: tip Exam Pattern
 If a question describes a hybrid environment and asks about monitoring, look for answers that combine **milestone-based governance** (predictive) with **iteration-based metrics** (agile). Avoid answers that force one approach exclusively.
 :::
 
 ---
 
-##  Probabilistic Forecasting (Monte Carlo Simulation)
+## Probabilistic Forecasting (Monte Carlo Simulation)
 
 Traditional EVM provides a **deterministic** forecast (single-point estimate). **Monte Carlo simulation** provides a **probabilistic** forecast (range of outcomes with confidence levels).
 
@@ -691,7 +687,7 @@ Cost at Completion Analysis:
 - P90: $545,000
 ```
 
-::: info  Exam Application
+::: info Exam Application
 If a question asks about forecasting for *high-uncertainty* projects or mentions "confidence levels," Monte Carlo is the appropriate technique. If the question asks for a single forecast value, use EVM formulas.
 :::
 
@@ -706,7 +702,7 @@ PERT gives you a weighted average for *one task*. Monte Carlo simulates the *ent
 
 ---
 
-##  Data Visualization Best Practices
+## Data Visualization Best Practices
 
 Effective monitoring requires presenting data in ways that drive decisions. The 2026 PMP exam tests your ability to select the right visualization for the situation.
 
@@ -759,13 +755,13 @@ The **S-curve** plots cumulative planned value (PV), earned value (EV), and actu
 | "How much have we completed vs. total scope?" | Burnup chart |
 | "What caused this problem?" | Fishbone (Ishikawa) diagram |
 
-::: tip  Exam Pattern
+::: tip Exam Pattern
 If stakeholders complain about "too much data" or "can't make decisions," the PM should **simplify reporting** and **focus on actionable insights**. The answer is never "provide more data."
 :::
 
 ---
 
-##  Advanced EVM: Multi-Period Worked Example
+## Advanced EVM: Multi-Period Worked Example
 
 This example demonstrates how to track a project across multiple reporting periods and make recovery decisions.
 
@@ -825,75 +821,12 @@ TCPI = (BAC - EV) / (BAC - AC) = ($400K - $200K) / ($400K - $270K) = $200K / $13
 5. **Implement approved recovery** and communicate new plan
 6. **Monitor more frequently** until trend stabilizes
 
-::: warning  Common Exam Trap
+::: warning Common Exam Trap
 "Increase overtime" or "work harder" is rarely the right answer when CPI is declining—it often indicates a *process* problem, not an *effort* problem. Investigate root cause first.
 :::
 
-<style>
-.change-process {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin: 2rem 0;
-}
-
-.process-step {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.5rem;
-  padding: 1rem;
-  background: var(--vp-c-bg-mute);
-  border-radius: 8px;
-}
-
-.step-num {
-  background: var(--vp-c-brand);
-  color: white;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 800;
-  flex-shrink: 0;
-}
-
-.step-title {
-  font-weight: 700;
-  margin-bottom: 0.25rem;
-}
-
-.process-step p {
-  margin: 0;
-  font-size: 0.9rem;
-  color: var(--vp-c-text-2);
-}
-</style>
-
 ---
 
-<div class="study-tip">
+<ConceptCard type="study-tip">
   <strong> Exam Insight:</strong> “Gold plating” (adding extras the customer didn’t ask for) is not a kindness—it's an uncontrolled scope change that increases risk and can violate contract terms. Deliver what was agreed, then submit enhancements as formal change requests.
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
-
-
-
-
-
-
-
-
-
-
-
+</ConceptCard>
