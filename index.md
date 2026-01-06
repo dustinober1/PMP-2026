@@ -11,27 +11,24 @@ hero:
     - theme: alt
       text: View All Chapters
       link: /guide/01-introduction/
-    - theme: alt
-      text: Practice Exams
-      link: /guide/11-exam-prep/
 
 features:
-  - icon: ""
+  - icon: 📚
     title: Comprehensive Content
     details: 10 in-depth chapters covering all three domains — People (33%), Process (41%), and Business Environment (26%)
-  - icon: ""
+  - icon: 🎯
     title: Exam-Focused Practice
-    details: 3 exam-style practice exams with detailed explanations to build speed, confidence, and the PMI mindset
-  - icon: ""
+    details: Exam-style quizzes with detailed explanations to build speed, confidence, and the PMI mindset
+  - icon: 🔄
     title: All Methodologies
     details: Master predictive, agile, and hybrid approaches as tested in the 2026 exam with real-world scenarios
-  - icon: ""
+  - icon: ⚡
     title: Interactive Learning
     details: Built-in knowledge checks, progress tracking, and immediate feedback to reinforce your understanding
-  - icon: ""
+  - icon: 🤖
     title: AI & Innovation
     details: New content on AI essentials for project professionals — a key addition to the 2026 exam blueprint
-  - icon: ""
+  - icon: 📱
     title: Study Anywhere
     details: Fully responsive design optimized for desktop, tablet, and mobile — study on any device, anytime
 ---
@@ -74,38 +71,64 @@ import { withBase } from 'vitepress'
 }
 
 .change-card {
-  background: linear-gradient(135deg, var(--color-purple-50), white);
-  border: 1px solid var(--color-purple-200);
-  border-radius: 1.25rem;
-  padding: 2.5rem 2rem;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), var(--color-purple-50));
+  border: 2px solid var(--color-purple-200);
+  border-radius: 1.5rem;
+  padding: 2rem 1.5rem;
   text-align: center;
-  transition: all 0.3s ease;
-  min-height: 180px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 4px 20px rgba(147, 51, 234, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.change-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-purple-400), var(--color-purple-600));
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .dark .change-card {
-  background: linear-gradient(135deg, rgba(147, 51, 234, 0.1), var(--vp-c-bg-soft));
-  border-color: rgba(147, 51, 234, 0.3);
+  background: linear-gradient(145deg, rgba(147, 51, 234, 0.15), var(--vp-c-bg-soft));
+  border-color: rgba(147, 51, 234, 0.35);
 }
 
 .change-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 40px rgba(147, 51, 234, 0.15);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 50px rgba(147, 51, 234, 0.2);
+  border-color: var(--color-purple-400);
+}
+
+.change-card:hover::before {
+  opacity: 1;
+}
+
+.change-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
 }
 
 .change-number {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 800;
   line-height: 1.1;
   background: linear-gradient(135deg, var(--color-purple-500), var(--color-purple-700));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .change-label {
@@ -283,19 +306,23 @@ import { withBase } from 'vitepress'
 
 <div class="changes-grid">
   <div class="change-card">
+    <div class="change-icon">📝</div>
     <div class="change-number">185</div>
     <div class="change-label">Questions (up from 180)</div>
   </div>
   <div class="change-card">
+    <div class="change-icon">⏱️</div>
     <div class="change-number">240</div>
     <div class="change-label">Minutes with 2 breaks</div>
   </div>
   <div class="change-card">
+    <div class="change-icon">🤖</div>
     <div class="change-number">AI</div>
-    <div class="change-label">Enhanced focus on AI & data</div>
+    <div class="change-label">Enhanced focus on AI and data</div>
   </div>
   <div class="change-card">
-    <div class="change-number"></div>
+    <div class="change-icon">🌱</div>
+    <div class="change-number">Green</div>
     <div class="change-label">Sustainability emphasis</div>
   </div>
 </div>
