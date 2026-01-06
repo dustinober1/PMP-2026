@@ -71,9 +71,9 @@ The 2026 ECO (Exam Content Outline) places high importance on the environment su
 
 | Domain | Key Tasks Tested |
 |--------|------------------|
-| **People** | Develop a common vision; manage conflicts; lead the project team; engage stakeholders; align stakeholder expectations; manage stakeholder expectations; help ensure knowledge transfer; plan and manage communication |
-| **Process** | Develop an integrated project management plan and plan delivery; develop and manage project scope; help ensure value-based delivery; plan and manage resources; plan and manage procurement; plan and manage finance; plan and optimize quality of products/deliverables; plan and manage schedule; evaluate project status; manage project closure |
-| **Business Environment** | Define and establish project governance; plan and manage project compliance; manage and control changes; remove impediments and manage issues; plan and manage risk; continuous improvement; support organizational change; evaluate external business environment changes |
+| **People (33%)** | • Develop a common vision<br>• Manage conflicts<br>• Lead the project team<br>• Engage stakeholders<br>• Align stakeholder expectations<br>• Manage stakeholder expectations<br>• Help ensure knowledge transfer<br>• Plan and manage communication |
+| **Process (41%)** | • Develop an integrated project management plan and plan delivery<br>• Develop and manage project scope<br>• Help ensure value-based delivery<br>• Plan and manage resources<br>• Plan and manage procurement<br>• Plan and manage finance<br>• Plan and optimize quality of products/deliverables<br>• Plan and manage schedule<br>• Evaluate project status<br>• Manage project closure |
+| **Business Environment (26%)** | • Define and establish project governance<br>• Plan and manage project compliance<br>• Manage and control changes<br>• Remove impediments and manage issues<br>• Plan and manage risk<br>• Continuous improvement<br>• Support organizational change<br>• Evaluate external business environment changes |
 
 ---
 
