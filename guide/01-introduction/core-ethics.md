@@ -1,3 +1,10 @@
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # 1.4f – Professional Responsibility and Ethics
 
 **ECO Task**: Plan and manage project compliance
@@ -132,47 +139,84 @@ Ethical practices can vary across cultures, but PMI standards are universal.
 
 ## 1.4f.5 Ethical Dilemma Scenarios
 
-### Scenario 1: The Generous Vendor
-> A vendor you're evaluating for a major contract invites you to an all-expenses-paid conference at a resort, saying it's "educational."
+<FlashcardGrid>
+  <Flashcard>
+    <template #front>
+      <h3>Scenario 1: The Generous Vendor</h3>
+      <p>A vendor you're evaluating for a major contract invites you to an all-expenses-paid conference at a resort, saying it's "educational."</p>
+    </template>
+    <template #back>
+      <p><strong>Analysis:</strong> This could be perceived as a bribe to influence your decision.</p>
+      <p><strong>Action:</strong> Decline the invitation. Disclose the offer to your supervisor. Document the situation.</p>
+    </template>
+  </Flashcard>
 
-**Analysis**: This could be perceived as a bribe to influence your decision.
-**Action**: Decline the invitation. Disclose the offer to your supervisor. Document the situation.
+  <Flashcard>
+    <template #front>
+      <h3>Scenario 2: The Pressure to Cut Corners</h3>
+      <p>Your sponsor insists you skip final testing to meet a deadline, saying "it's good enough" and the testing can happen after launch.</p>
+    </template>
+    <template #back>
+      <p><strong>Analysis:</strong> This compromises quality and could harm users.</p>
+      <p><strong>Action:</strong> Explain the risks clearly. Document the conversation. If overruled, document the decision and who made it.</p>
+    </template>
+  </Flashcard>
 
-### Scenario 2: The Pressure to Cut Corners
-> Your sponsor insists you skip final testing to meet a deadline, saying "it's good enough" and the testing can happen after launch.
+  <Flashcard>
+    <template #front>
+      <h3>Scenario 3: The Hidden Scope Change</h3>
+      <p>A key stakeholder asks you to add a small feature "off the books" to avoid the change control process.</p>
+    </template>
+    <template #back>
+      <p><strong>Analysis:</strong> This violates change management and is potentially fraudulent.</p>
+      <p><strong>Action:</strong> Decline. Explain the proper change request process. Offer to expedite if urgent.</p>
+    </template>
+  </Flashcard>
 
-**Analysis**: This compromises quality and could harm users.
-**Action**: Explain the risks clearly. Document the conversation. If overruled, document the decision and who made it.
+  <Flashcard>
+    <template #front>
+      <h3>Scenario 4: The Inaccurate Resume</h3>
+      <p>You discover a team member exaggerated their qualifications on their resume after they were hired.</p>
+    </template>
+    <template #back>
+      <p><strong>Analysis:</strong> This is a fraud matter; it's not your decision alone.</p>
+      <p><strong>Action:</strong> Report to HR. Don't ignore it or handle it yourself.</p>
+    </template>
+  </Flashcard>
 
-### Scenario 3: The Hidden Scope Change
-> A key stakeholder asks you to add a small feature "off the books" to avoid the change control process.
+  <Flashcard>
+    <template #front>
+      <h3>Scenario 5: The Personal Relationship</h3>
+      <p>Your best friend's company is one of three finalists for a project contract. You're on the selection committee.</p>
+    </template>
+    <template #back>
+      <p><strong>Analysis:</strong> Clear conflict of interest.</p>
+      <p><strong>Action:</strong> Disclose the relationship immediately. Recuse yourself from the evaluation.</p>
+    </template>
+  </Flashcard>
 
-**Analysis**: This violates change management and is potentially fraudulent.
-**Action**: Decline. Explain the proper change request process. Offer to expedite if urgent.
+  <Flashcard>
+    <template #front>
+      <h3>Scenario 6: The Cultural Gift</h3>
+      <p>While working in a country where gift-giving is customary, a government official offers you an expensive watch.</p>
+    </template>
+    <template #back>
+      <p><strong>Analysis:</strong> Acceptance could be seen as bribery, even if culturally normal.</p>
+      <p><strong>Action:</strong> Politely decline. Explain your organization's policies. Offer a modest, compliant alternative exchange.</p>
+    </template>
+  </Flashcard>
 
-### Scenario 4: The Inaccurate Resume
-> You discover a team member exaggerated their qualifications on their resume after they were hired.
-
-**Analysis**: This is a fraud matter; it's not your decision alone.
-**Action**: Report to HR. Don't ignore it or handle it yourself.
-
-### Scenario 5: The Personal Relationship
-> Your best friend's company is one of three finalists for a project contract. You're on the selection committee.
-
-**Analysis**: Clear conflict of interest.
-**Action**: Disclose the relationship immediately. Recuse yourself from the evaluation.
-
-### Scenario 6: The Cultural Gift
-> While working in a country where gift-giving is customary, a government official offers you an expensive watch.
-
-**Analysis**: Acceptance could be seen as bribery, even if culturally normal.
-**Action**: Politely decline. Explain your organization's policies. Offer a modest, compliant alternative exchange.
-
-### Scenario 7: Data Privacy Breach
-> A team member uses a public AI tool to summarize confidential project data, improving efficiency.
-
-**Analysis**: Sensitive data is now in a public system—violation of data privacy.
-**Action**: Report the incident. Follow data breach protocols. Educate the team on approved tools.
+  <Flashcard>
+    <template #front>
+      <h3>Scenario 7: Data Privacy Breach</h3>
+      <p>A team member uses a public AI tool to summarize confidential project data, improving efficiency.</p>
+    </template>
+    <template #back>
+      <p><strong>Analysis:</strong> Sensitive data is now in a public system—violation of data privacy.</p>
+      <p><strong>Action:</strong> Report the incident. Follow data breach protocols. Educate the team on approved tools.</p>
+    </template>
+  </Flashcard>
+</FlashcardGrid>
 
 ---
 

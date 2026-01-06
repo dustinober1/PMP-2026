@@ -1,3 +1,10 @@
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # 1.4 Core Project Management Concepts
 
 Beyond methodology choice, every project leader must master a set of fundamental "Constants." These are the mental models and tools that apply whether you are building a skyscraper or a mobile app.

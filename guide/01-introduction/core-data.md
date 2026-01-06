@@ -1,3 +1,10 @@
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # 1.4e – Data-Informed Decision-Making
 
 **ECO Task**: Manage project artifacts
@@ -326,16 +333,87 @@ A single data point can be an outlier. Always look for **trends** (3+ data point
 
 ## 1.4e.9 Quick Reference: Formula Cheat Sheet
 
-| Formula | Calculation | Memory Trick |
-|---------|-------------|--------------|
-| CV | EV - AC | **C**ost **V**ariance = Earned - Actual Cost |
-| SV | EV - PV | **S**chedule **V**ariance = Earned - Planned Value |
-| CPI | EV ÷ AC | **C**ost efficiency = EV / AC |
-| SPI | EV ÷ PV | **S**chedule efficiency = EV / PV |
-| EAC | BAC ÷ CPI | Estimate At Completion (typical formula) |
-| ETC | EAC - AC | Estimate To Complete |
-| VAC | BAC - EAC | Variance At Completion |
-| TCPI | (BAC - EV) ÷ (BAC - AC) | To-Complete Performance Index |
+<FlashcardGrid>
+  <Flashcard>
+    <template #front>
+      CV (Cost Variance)
+    </template>
+    <template #back>
+      <strong>EV - AC</strong><br><br>
+      <em>Cost Variance = Earned - Actual Cost</em>
+    </template>
+  </Flashcard>
+
+  <Flashcard>
+    <template #front>
+      SV (Schedule Variance)
+    </template>
+    <template #back>
+      <strong>EV - PV</strong><br><br>
+      <em>Schedule Variance = Earned - Planned Value</em>
+    </template>
+  </Flashcard>
+
+  <Flashcard>
+    <template #front>
+      CPI (Cost Performance Index)
+    </template>
+    <template #back>
+      <strong>EV ÷ AC</strong><br><br>
+      <em>Cost efficiency = EV / AC</em>
+    </template>
+  </Flashcard>
+
+  <Flashcard>
+    <template #front>
+      SPI (Schedule Performance Index)
+    </template>
+    <template #back>
+      <strong>EV ÷ PV</strong><br><br>
+      <em>Schedule efficiency = EV / PV</em>
+    </template>
+  </Flashcard>
+
+  <Flashcard>
+    <template #front>
+      EAC (Estimate At Completion)
+    </template>
+    <template #back>
+      <strong>BAC ÷ CPI</strong><br><br>
+      <em>Estimate At Completion (typical formula)</em>
+    </template>
+  </Flashcard>
+
+  <Flashcard>
+    <template #front>
+      ETC (Estimate To Complete)
+    </template>
+    <template #back>
+      <strong>EAC - AC</strong><br><br>
+      <em>Estimate To Complete</em>
+    </template>
+  </Flashcard>
+
+  <Flashcard>
+    <template #front>
+      VAC (Variance At Completion)
+    </template>
+    <template #back>
+      <strong>BAC - EAC</strong><br><br>
+      <em>Variance At Completion</em>
+    </template>
+  </Flashcard>
+
+  <Flashcard>
+    <template #front>
+      TCPI (To-Complete Performance Index)
+    </template>
+    <template #back>
+      <strong>(BAC - EV) ÷ (BAC - AC)</strong><br><br>
+      <em>To-Complete Performance Index</em>
+    </template>
+  </Flashcard>
+</FlashcardGrid>
 
 ::: info Quick Memory Check
 - **Variance**: Negative = Bad
@@ -343,4 +421,3 @@ A single data point can be an outlier. Always look for **trends** (3+ data point
 - EV is always in the numerator of indices
 - EV is always on the left side of variance formulas
 :::
-
