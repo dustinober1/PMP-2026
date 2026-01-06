@@ -303,32 +303,14 @@ When these conditions are true, set an exam date within the next 4–6 weeks.
 ## 1.2.8 Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What are the three domains of the 2026 PMP ECO?', 
-    back: 'People (33%), Process (41%), and Business Environment (26%)' 
-  },
-  { 
-    front: 'Which study path is recommended for candidates with 10-15 hours/week?', 
-    back: 'The Fast-Track Plan (4–6 weeks)' 
-  },
-  { 
-    front: 'What is the recommended weekly study pattern?', 
-    back: '2–3 Reading Sessions, 2 Practice Sessions, and 1 Review Session' 
-  },
-  { 
-    front: 'What should you do if you are uncomfortable with scenario-based exams?', 
-    back: 'Spend extra time on practice questions and reviewing answer explanations' 
-  }
+  { front: `What study path should a Predictive veteran take?`, back: `Focus on Agile practices, stakeholder engagement, and Business Environment (26% of exam).` },
+  { front: `What study path should an Agile native take?`, back: `Master Predictive planning, cost accounting, and earned value management.` },
+  { front: `What study path should a Hybrid practitioner take?`, back: `Deepen understanding of both approaches and when to tailor the delivery model.` },
+  { front: `How are the chapters organized in this guide?`, back: `11 chapters covering Intro, Strategy, Leadership, Stakeholders, Initiation, Planning, Risk/Quality, Execution, Monitoring, AI, and Exam Prep.` },
+  { front: `Should I use the flashcards for study?`, back: `Yes - use daily for spaced repetition to reinforce exam-relevant definitions and concepts.` },
+  { front: `What is the recommended study timeline?`, back: `6-8 weeks of dedicated study with daily flashcard review and weekly practice exams.` },
+  { front: `What resources does this guide provide?`, back: `Concept explanations, flashcards, knowledge checks, toolkits, formulas, and practice exams.` },
+  { front: `Can I skip the appendices?`, back: `No - appendices contain the ECO Task Map, formulas, and tools frequently tested on the exam.` },
+  { front: `What is the fast-track study plan?`, back: `4-6 weeks for candidates with strong experience who can dedicate 10-15 hours per week.` },
+  { front: `What is the standard study plan?`, back: `8-12 weeks for working professionals balancing projects and other commitments with 6-10 hours per week.` }
 ]" />
-
----
-
-## 1.2.9 Summary
-
-This section has given you a practical framework for using this guide:
-
-- You understand the **11-Chapter structure** and how it maps to the exam.
-- You have chosen a **study path** (Fast-Track or Standard).
-- You know how to integrate **practice questions** and **real-world experience**.
-
-In the next section, **1.3 Ways of Working**, we will dive into the fundamental approaches—Predictive, Agile, and Hybrid—that underpin all project management.

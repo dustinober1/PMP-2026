@@ -1,3 +1,7 @@
+<script setup>
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
+</script>
+
 # Practice Exam 3: Integration & Final Challenge
 
 The final challenge: Integration, AI, Ethics, and high-stakes scenarios.
@@ -108,3 +112,16 @@ If you scored **4/5** or higher on all three exams, you are ready to simulate a 
   opacity: 0.9;
 }
 </style>
+
+<FlashcardCarousel :cards="[
+  { front: `What is scenario-based questioning on the PMP exam?`, back: `Questions presenting a project situation and asking what action the PM should take - tests application, not memorization.` },
+  { front: `How do I approach a scenario question?`, back: `Understand the situation, identify the core issue, consider PMBOK guidance, and choose the best PM response.` },
+  { front: `What is a situational question asking about?`, back: `Usually testing PM judgment and decision-making - not just factual recall but 'what would you do'.` },
+  { front: `How do I distinguish between similar-sounding answers?`, back: `Look at context: predictive vs Agile, stakeholder type, project phase, and organizational culture.` },
+  { front: `What is the PMBOK perspective on most questions?`, back: `PMI favors proactive approaches, stakeholder engagement, risk management, and integrated thinking.` },
+  { front: `Should I apply real-world experience or PMBOK theory?`, back: `Apply PMBOK theory - the exam tests standard practices, not what works in specific companies.` },
+  { front: `How do I spot the 'best' answer among 4 options?`, back: `The best answer aligns with PMI values: proactive, stakeholder-focused, process-based, integrated thinking.` },
+  { front: `What topics appear most frequently in scenario questions?`, back: `Stakeholder management, risk response, scope/schedule/cost trade-offs, leadership, and integration.` },
+  { front: `How should I study for scenario questions?`, back: `Practice with real questions, discuss reasoning with peers, understand 'why' answers are correct.` },
+  { front: `What percentage of the exam is scenario-based?`, back: `Approximately 60-70% of questions are scenario-based, testing application beyond basic knowledge.` }
+]" />

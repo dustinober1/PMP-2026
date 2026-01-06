@@ -1,0 +1,1084 @@
+{
+  "pages": [
+    {
+      "path": "01-introduction/core-concepts.md",
+      "cards": [
+        {
+          "front": "What are the 'Big 6' core project management concepts?",
+          "back": "1. Stakeholders - Managing people who influence project success\n2. Triple Constraint - Balancing Scope, Schedule, and Cost\n3. Quality - Ensuring 'Fit for Purpose' and ESG standards\n4. Risk - Identifying threats and opportunities proactively\n5. Data & AI - Using metrics and AI insights for decisions\n6. Ethics - Upholding the PMI Code of Ethics and Integrity"
+        },
+        {
+          "front": "What does the PM Mindset of Integration mean?",
+          "back": "Recognizing that the Big 6 concepts are interconnected. A risk materializes, forcing scope change, which triggers stakeholder concern about quality. The PM uses data and ethical conduct to facilitate transparent resolution."
+        },
+        {
+          "front": "How does Quality relate to the Triple Constraint?",
+          "back": "Quality is often called the fourth constraint. Changes in Scope, Schedule, or Cost impact Quality. A PM must balance delivering value ('Fit for Purpose') with meeting ESG and sustainability standards."
+        },
+        {
+          "front": "What is the relationship between Stakeholders and Risk?",
+          "back": "Stakeholders can create risks (conflicting priorities, unrealistic expectations). They also have influence over risk mitigation. Stakeholder analysis is a risk identification technique."
+        },
+        {
+          "front": "How should Data inform decision-making?",
+          "back": "Be data-informed, not data-driven. Use metrics as a key input combined with context, judgment, and experience. Never blindly follow the numbers; always ask 'Why?' before reacting to metrics."
+        },
+        {
+          "front": "How do Ethics and Professional Conduct apply in project management?",
+          "back": "The PMI Code of Ethics has four pillars: Responsibility (own your decisions), Respect (value others), Fairness (impartial decisions), and Honesty (communicate truthfully). Ethics always trumps efficiency or profit."
+        },
+        {
+          "front": "What is the Systems Thinking approach in project management?",
+          "back": "Recognizing that projects exist within complex systems. Changing one part affects other parts. PMs must understand how their project connects to organizational strategy, other projects, and the broader environment."
+        },
+        {
+          "front": "How do the Big 6 concepts interact in a real project scenario?",
+          "back": "Example: A schedule delay (constraint) emerges due to quality defects (quality). A key stakeholder (stakeholder) raises concerns. You use data analysis to identify root cause and leverage ethical transparency to gain sponsor support for corrective action."
+        },
+        {
+          "front": "What does 'Value Delivery' mean in the context of core concepts?",
+          "back": "Value delivery means ensuring that the project's output (scope delivered) achieves the intended outcome (change realized) and benefits (strategic value). It requires integration of all Big 6 concepts to succeed."
+        },
+        {
+          "front": "How should a PM approach a conflict between Cost savings and Ethical conduct?",
+          "back": "Ethics always wins. If a cost-saving option involves unethical practices (poor labor conditions, data privacy violations), reject it. Explain the risks and propose compliant alternatives. You are accountable for the decision."
+        }
+      ]
+    },
+    {
+      "path": "01-introduction/core-data.md",
+      "cards": [
+        {
+          "front": "What is the difference between Data-Informed and Data-Driven decision-making?",
+          "back": "Data-Informed: Use data as a key input combined with context, judgment, and experience. Data-Driven: Let data make decisions automatically. The PMP exam expects data-informed decisions."
+        },
+        {
+          "front": "What are the three core EVM metrics?",
+          "back": "1. Planned Value (PV) - Budgeted cost of work scheduled\n2. Earned Value (EV) - Budgeted cost of work performed\n3. Actual Cost (AC) - Actual cost of work performed"
+        },
+        {
+          "front": "What do the four performance indices mean?",
+          "back": "CV (Cost Variance) = EV - AC (positive is good)\nSV (Schedule Variance) = EV - PV (positive is good)\nCPI = EV / AC (>1.0 is good)\nSPI = EV / PV (>1.0 is good)"
+        },
+        {
+          "front": "How do you calculate EAC (Estimate at Completion)?",
+          "back": "EAC = BAC / CPI. This is the typical formula assuming current cost efficiency continues. BAC is the original total budget."
+        },
+        {
+          "front": "What does TCPI (To-Complete Performance Index) tell you?",
+          "back": "TCPI = (BAC - EV) / (BAC - AC). It shows the required efficiency needed to complete within budget. If TCPI > CPI, the project cannot meet budget without reducing remaining work."
+        },
+        {
+          "front": "What is the relationship between Lagging and Leading indicators?",
+          "back": "Lagging indicators measure outcomes after the fact (final cost, items delivered). Leading indicators predict future performance (velocity trends, team morale, risk exposure). PMs use leading indicators to be proactive."
+        },
+        {
+          "front": "Give an example of a vanity metric and why it's misleading.",
+          "back": "Lines of Code (LOC) - More code doesn't mean better code. Better metric: Story points completed. Vanity metrics look impressive but don't correlate with actual project success."
+        },
+        {
+          "front": "What is the 'human in the loop' principle for AI in project management?",
+          "back": "AI is a tool, not a replacement for judgment. The PM must verify AI outputs, provide domain expertise, check for bias, and make final decisions. The PM owns accountability, not the AI."
+        },
+        {
+          "front": "What are the four types of AI used in project management?",
+          "back": "1. Generative AI (GenAI) - Creates new content (drafting documents)\n2. Predictive AI - Forecasts future outcomes (schedule predictions)\n3. Natural Language Processing (NLP) - Understands human language (sentiment analysis)\n4. Machine Learning (ML) - Learns patterns from data (anomaly detection)"
+        },
+        {
+          "front": "What dashboard design principles should a PM follow?",
+          "back": "1. Show the right information for the audience\n2. Keep it simple (5-7 key metrics max)\n3. Update in real-time\n4. Make trends visible (show history)\n5. Link to actions (what should viewers do?)"
+        }
+      ]
+    },
+    {
+      "path": "01-introduction/core-ethics.md",
+      "cards": [
+        {
+          "front": "What are the four core values of the PMI Code of Ethics?",
+          "back": "1. Responsibility - Own your decisions and seek continuous improvement\n2. Respect - Value others, their time, and diverse perspectives\n3. Fairness - Make impartial decisions based on facts and merit\n4. Honesty - Communicate truthfully, even when the news is bad"
+        },
+        {
+          "front": "What is the difference between Aspirational and Mandatory standards?",
+          "back": "Aspirational: Ideals we strive for; best practices (character development). Mandatory: Required conduct; non-negotiable (violations result in PMI sanctions). On the exam, mandatory standards always apply."
+        },
+        {
+          "front": "How should a PM handle a conflict of interest?",
+          "back": "1. Disclose the relationship immediately to relevant parties\n2. Recuse yourself from decision-making where appropriate\n3. Document the disclosure\n4. Follow organizational policies on conflicts"
+        },
+        {
+          "front": "What is your obligation if you observe unethical behavior?",
+          "back": "You have a professional obligation to act. Escalation path: (1) Gather facts, (2) Speak directly (if safe), (3) Report to supervisor, (4) Report to management/sponsor, (5) Report to HR/Ethics Hotline, (6) Report to external authority if laws broken."
+        },
+        {
+          "front": "True or False: If an answer choice violates a mandatory ethical standard, it can still be correct if it saves time or money.",
+          "back": "False. On the PMP exam, mandatory standards always apply. If an answer is legally or ethically questionable, it is NEVER correct, no matter how much time or money it saves."
+        },
+        {
+          "front": "How should a PM respond to pressure to cut corners on quality or safety?",
+          "back": "Explain the risks clearly. Document the conversation. If overruled, document who made the decision. Do not proceed without escalating and documenting. Quality and safety are non-negotiable."
+        },
+        {
+          "front": "What is the PM's responsibility regarding data privacy when using AI tools?",
+          "back": "Do not put sensitive data into public AI models. Use enterprise AI tools only. Anonymize data. Follow organizational policies. Violations of data privacy are ethics breaches and legal violations."
+        },
+        {
+          "front": "How do cultural differences affect ethical standards on global projects?",
+          "back": "Respect cultural differences in communication style, but PMI Code of Ethics standards are universal and non-negotiable. When in doubt, disclose. Document cross-cultural decisions for clarity."
+        },
+        {
+          "front": "What should a PM do if a sponsor requests a hidden scope change to avoid formal change control?",
+          "back": "Decline. Explain the proper change request process. Offer to expedite if urgent. Hidden changes violate change management and are potentially fraudulent. Document the conversation."
+        },
+        {
+          "front": "What are the possible consequences of a PMP violating the Code of Ethics?",
+          "back": "Minor: Letter of reprimand\nModerate: Probation; required ethics training\nSerious: Suspension of certification\nSevere: Revocation of certification"
+        }
+      ]
+    },
+    {
+      "path": "01-introduction/index.md",
+      "cards": [
+        {
+          "front": "What is the structure of the 2026 PMP exam in terms of chapters?",
+          "back": "11 chapters: (1) Introduction, (2) Strategy & Business Environment, (3) Team Leadership, (4) Stakeholder & Communication, (5) Initiation, (6) Planning, (7) Risk/Quality, (8) Execution, (9) Monitoring/Closing, (10) AI in PM, (11) Exam Preparation."
+        },
+        {
+          "front": "What update was made to the PMP exam in July 2026?",
+          "back": "The exam was refreshed to emphasize: (1) Hybrid Everything - mixing predictive and agile approaches, (2) AI integration - understanding how to leverage AI as a force multiplier, (3) ESG/Sustainability - environmental, social, and governance impacts as core constraints."
+        },
+        {
+          "front": "What does the 2026 exam weight distribution look like?",
+          "back": "People: 33%, Process: 41%, Business Environment: 26%. Note: People + Business = 59%, showing that soft skills and strategic alignment matter more than pure process mechanics."
+        },
+        {
+          "front": "What is the focus of each chapter grouping in the guide?",
+          "back": "Chapters 1-4: Foundation (exam, mindset, core concepts, teams, stakeholders). Chapters 5-9: Execution cycle (initiation, planning, execution, monitoring, closing). Chapters 10-11: Modern era (AI, exam strategy, practice tests)."
+        },
+        {
+          "front": "What are the success criteria for completing Chapter 1?",
+          "back": "1. Decode the ECO - Understand what is tested in People, Process, Business\n2. Think Like a PMP - Apply the 'Proactive Leader' mindset to scenarios\n3. Tailor the Approach - Identify when to use rigid vs. adaptive structure"
+        },
+        {
+          "front": "How should a PM integrate the Big 6 concepts?",
+          "back": "The PM Mindset of Integration: Recognizing that Stakeholders (1.4a), Triple Constraint (1.4b), Quality (1.4c), Risk (1.4d), Data & AI (1.4e), and Ethics (1.4f) are interconnected. A change in one creates ripples across all others."
+        },
+        {
+          "front": "What is Sarah's Lesson in Chapter 1?",
+          "back": "By month three, Sarah realized that a change in office floor plan (Scope) wasn't just a technical update\u2014it was a social risk requiring stakeholder empathy and data-driven communication. This illustrates integration."
+        },
+        {
+          "front": "What does the 2026 exam expect in terms of domain emphasis?",
+          "back": "26% weight on Business Environment (up from traditional exam). This emphasizes AI, sustainability (ESG), strategic value delivery, compliance, and change management\u2014not just process execution."
+        },
+        {
+          "front": "How do the concepts of Integration apply to passing the exam?",
+          "back": "Success requires understanding how Stakeholders influence Risk, how Quality affects Cost and Schedule, how Data informs Ethics-based decisions, and how all Big 6 concepts support Value Delivery."
+        },
+        {
+          "front": "What should a PM do when facing conflicting priorities between Scope, Schedule, and Cost?",
+          "back": "Use integration thinking: Assess stakeholder impacts, quality implications, risk consequences, data-driven analysis, and ethical considerations. The solution that best serves overall value, not just one constraint, is the right answer."
+        }
+      ]
+    },
+    {
+      "path": "01-introduction/pmbok8-principles.md",
+      "cards": [
+        {
+          "front": "What are the six PMBOK 8 principles?",
+          "back": "1. Adopt a Holistic View - Systems thinking; see the big picture\n2. Focus on Value - Outcomes over outputs\n3. Embed Quality - Build quality in from the start\n4. Be an Accountable Leader - Integrity, stewardship, responsibility\n5. Integrate Sustainability - Environmental, social, economic responsibility (NEW)\n6. Build an Empowered Culture - Trust, collaboration, psychological safety"
+        },
+        {
+          "front": "How does 'Adopt a Holistic View' apply in practice?",
+          "back": "Recognize that projects exist within complex systems. Understand how your project connects to organizational strategy, other projects, operations, and external environment. Consider interdependencies before changing scope."
+        },
+        {
+          "front": "What does 'Focus on Value' mean beyond delivering scope?",
+          "back": "Value includes financial returns, customer satisfaction, strategic positioning, learning, and sustainability impact. Track: Inputs \u2192 Outputs \u2192 Outcomes \u2192 Benefits \u2192 Value. Pivot when original outputs won't deliver expected value."
+        },
+        {
+          "front": "What is the difference between Prevention and Inspection in quality?",
+          "back": "Prevention: Build it right the first time (code reviews, standards, training). Lower total cost. Inspection: Find defects after the fact (testing, audits). Higher total cost. Embed Quality principle favors prevention."
+        },
+        {
+          "front": "How does 'Be an Accountable Leader' differ from 'Do the work'?",
+          "back": "Accountability includes: Integrity (honest, ethical, transparent), Stewardship (responsible resource management), Ownership (take responsibility for outcomes), Ethical behavior (follow PMI Code). You own decisions even when pressured to cut corners."
+        },
+        {
+          "front": "What is the Triple Bottom Line in Sustainability?",
+          "back": "Planet (environmental): Carbon footprint, waste, biodiversity. People (social): Labor practices, community impact, DEI, well-being. Prosperity (economic): Long-term financial viability, local economy. Balance all three."
+        },
+        {
+          "front": "How do you assess and minimize negative sustainability impacts?",
+          "back": "Conduct Environmental & Social Governance (ESG) impact assessment. Choose low-carbon options. Reduce waste. Engage communities. Track and disclose sustainability metrics. Transparency prevents future backlash."
+        },
+        {
+          "front": "What does 'Build an Empowered Culture' mean for the PM's role?",
+          "back": "Create psychological safety (safe to take risks and speak up). Build trust (be consistent, follow through). Enable collaboration (remove silos). Delegate authority (avoid micromanagement). Support growth (invest in learning)."
+        },
+        {
+          "front": "How does Servant Leadership connect to 'Build an Empowered Culture'?",
+          "back": "The leader serves the team (not vice versa). Remove obstacles so the team can focus on work. Coach and mentor rather than command and control. Build capability that lasts beyond the project."
+        },
+        {
+          "front": "On the 2026 exam, how would you apply the six principles to resolve a conflict between cost-cutting and employee well-being?",
+          "back": "Apply: (1) Holistic View - See long-term impact on culture and retention. (2) Accountable Leader - Be transparent about trade-offs. (3) Build Empowered Culture - Protect sustainable pace. (4) Integrate Sustainability - Well-being is part of social responsibility. Cost-cutting that harms people is not value delivery."
+        }
+      ]
+    },
+    {
+      "path": "01-introduction/understanding-exam.md",
+      "cards": [
+        {
+          "front": "How many questions are on the 2026 PMP exam and how much time do you have?",
+          "back": "185 questions total (175 scored, 10 unscored pretest). 240 minutes (4 hours). Two 5-minute breaks. That's approximately 1.3 minutes per question."
+        },
+        {
+          "front": "What are the five key shifts in the 2026 PMP exam?",
+          "back": "1. Outcome Over Output - Success is realized value, not just finished tasks\n2. AI-Augmented PM - Leverage AI for estimation, risk, and reporting\n3. Sustainability (ESG) - Environmental, social, governance impacts\n4. Hybrid Everything - Mix predictive and agile approaches\n5. Interactive Scenarios - Case studies and graphic-based questions (not just multiple choice)"
+        },
+        {
+          "front": "What are the three scoring domains and their weights?",
+          "back": "People (33%), Process (41%), Business Environment (26%). Note: People + Business = 59%, showing soft skills and strategy matter more than pure process mechanics."
+        },
+        {
+          "front": "What is the 'FIRST' test when answering exam questions?",
+          "back": "When a question asks 'What should you do FIRST?':\n1. Analyze/Assess before acting\n2. Consult stakeholders before escalating\n3. Address root cause, not symptoms\n4. Follow process before improvising"
+        },
+        {
+          "front": "What is the Servant Leader framework emphasized on the 2026 exam?",
+          "back": "Traditional Manager: Directs/controls, Punishes mistakes, Hoards info, Makes all decisions, Focuses on tasks, Avoids conflict.\nServant Leader: Coaches/facilitates, Creates learning, Shares knowledge, Empowers decisions, Focuses on people, Addresses conflict constructively."
+        },
+        {
+          "front": "What are the five pillars of the PMP Mindset?",
+          "back": "1. Analyze First - Never take action without assessing impact\n2. Servant Leadership - Empower the team, remove blockers\n3. Face-to-Face - Direct collaboration beats emails/docs\n4. Be Proactive - Don't wait for problems; take initiative\n5. Integrity - Never lie, hide info, or cut corners on quality"
+        },
+        {
+          "front": "What are common exam traps to avoid?",
+          "back": "'Tell team to work overtime' (violates sustainable pace), 'Escalate immediately' (bypasses your authority), 'Update plan without CCB' (changes baseline), 'Document and continue' (passive), 'Fire underperformer' (no analysis), 'Add resources to speed up' (may not help, Brooks's Law)."
+        },
+        {
+          "front": "What time management strategy should you use for the 240-minute exam?",
+          "back": "Case-study section (~70-85 min), Break 1 (5 min), Independent questions Part 1 (~70-80 min), Break 2 (5 min), Independent questions Part 2 (~65-75 min), Buffer for review (~5-10 min). Don't dwell on hard questions; mark and move on."
+        },
+        {
+          "front": "What is the new section structure for the 2026 PMP exam?",
+          "back": "Case-study section followed by independent questions. The first 5-minute break occurs after the case-study section; the second break occurs about halfway through the independent question portion. You cannot go back to a section once you leave it."
+        },
+        {
+          "front": "What is the key insight about PMP exam questions that describe a problem?",
+          "back": "Most scenarios are execution scenarios: blocked team members, changing expectations, quality defects, vendor delays, change requests. The test is usually about 'What do you do FIRST?' to protect flow and value, not just recognizing the problem."
+        }
+      ]
+    },
+    {
+      "path": "01-introduction/using-guide.md",
+      "cards": [
+        {
+          "front": "What are the three domains of the 2026 PMP ECO and where are they covered?",
+          "back": "People (33%) - Chapters 3, 4, 8. Process (41%) - Chapters 5, 6, 7, 8, 9. Business Environment (26%) - Chapter 2."
+        },
+        {
+          "front": "What is the Fast-Track study plan timeline and who is it for?",
+          "back": "4-6 weeks of intensive study (10-15 hours/week). Best for candidates with strong project experience, comfort with exams, and ability to dedicate significant weekly hours."
+        },
+        {
+          "front": "What is the Standard study plan timeline and who is it for?",
+          "back": "8-12 weeks of steady study (6-10 hours/week). Best for most working professionals juggling projects, family, and other commitments. More forgiving pace."
+        },
+        {
+          "front": "What should you do when you discover a weak spot through practice exams?",
+          "back": "Keep a 'mistake log' documenting: (1) What the question tested, (2) Why your reasoning was off, (3) What principle to apply next time. Review this log regularly to build pattern recognition."
+        },
+        {
+          "front": "How should you combine this guide with other study resources?",
+          "back": "Use PMBOK for deeper dives into fuzzy concepts. Use practice questions to build exam familiarity and identify weak spots. Use your own project experience to bridge real scenarios to PMI expectations."
+        },
+        {
+          "front": "What is the recommended weekly study rhythm?",
+          "back": "2-3 Reading Sessions (30-60 mins each): Read one section, take notes. 2 Practice Sessions (30-45 mins each): Do end-of-chapter questions. 1 Review Session (30-45 mins): Update progress tracker, review mistake log."
+        },
+        {
+          "front": "How should you track your progress across the three domains?",
+          "back": "Create a simple table with dates, activities, and checkmarks for each domain (People, Process, Bus Env). Every 1-2 weeks, ask: 'Which domain have I neglected?' This ensures balanced coverage."
+        },
+        {
+          "front": "When are you ready to schedule the PMP exam?",
+          "back": "When you: (1) Regularly score at/above target on full-length practice exams (70%+), (2) Have fewer conceptual misunderstandings, more careless reading errors, (3) Can articulate the core problem and 'best next action' in new scenarios. Schedule within 4-6 weeks."
+        },
+        {
+          "front": "What does each chapter of the guide cover?",
+          "back": "Ch1: Exam & Fundamentals. Ch2: Strategy & Business. Ch3: Teams. Ch4: Stakeholders. Ch5: Initiation. Ch6: Planning. Ch7: Risk/Quality. Ch8: Execution. Ch9: Monitoring/Closing. Ch10: AI. Ch11: Exam Prep & Practice."
+        },
+        {
+          "front": "What is the purpose of the Knowledge Check at the end of each chapter?",
+          "back": "Test your foundational knowledge with scenario-based practice questions covering that chapter's topics. Use these to identify gaps before moving to the next chapter."
+        }
+      ]
+    },
+    {
+      "path": "02-strategic/index.md",
+      "cards": [
+        {
+          "front": "What is the Business Environment domain's weight on the 2026 PMP exam?",
+          "back": "26% of the exam. This is a significant increase from traditional exams, emphasizing that strategy, compliance, sustainability, and change management are critical to PM success."
+        },
+        {
+          "front": "What are the key financial metrics for project selection?",
+          "back": "NPV (Net Present Value) - Generally more reliable. IRR (Internal Rate of Return) - Assumes reinvestment at IRR rate. BCR (Benefit-Cost Ratio) = Benefits / Costs. Payback Period = Time to recover investment."
+        },
+        {
+          "front": "Why is NPV considered more reliable than IRR for project selection?",
+          "back": "NPV accounts for all cash flows and the time value of money without assuming reinvestment at the IRR rate. NPV is additive (can compare multiple projects). IRR can give misleading results with unconventional cash flows."
+        },
+        {
+          "front": "What does ADKAR stand for in Change Management?",
+          "back": "Awareness, Desire, Knowledge, Ability, Reinforcement. This is a model for managing organizational change and measuring readiness for adoption."
+        },
+        {
+          "front": "What are the three tiers of the Triple Bottom Line?",
+          "back": "People (social: labor practices, community impact, DEI, well-being). Planet (environmental: carbon, waste, biodiversity). Profit (economic: long-term viability, local economy)."
+        },
+        {
+          "front": "How does strategy alignment influence project selection?",
+          "back": "A project must support organizational strategy to be justified. Even if financially attractive, it must align with strategic direction. A perfect project that misses strategy is a failed project."
+        },
+        {
+          "front": "What is Portfolio Management?",
+          "back": "Strategic management of multiple projects/programs to balance investments, optimize resource allocation, and achieve organizational objectives. Portfolio decisions prioritize which projects advance strategy."
+        },
+        {
+          "front": "What does a Benefits Realization Plan track?",
+          "back": "Output \u2192 Outcome \u2192 Benefit \u2192 Value. When will benefits be realized? Who owns them? What leading/lagging indicators prove realization? How is adoption measured?"
+        },
+        {
+          "front": "How should a PM approach Compliance requirements?",
+          "back": "Identify applicable regulations (GDPR, SOX, HIPAA, etc.) early in initiation. Embed compliance requirements in project scope. Audit regularly. Document compliance decisions. Ethics + compliance = non-negotiable."
+        },
+        {
+          "front": "What is the role of the PMO (Project Management Office)?",
+          "back": "Varies by type: Supportive (coaching, best practices), Controlling (standards, governance), Directive (decision-making). Strategic PMOs enable AI-driven insights and capability building across the portfolio."
+        }
+      ]
+    },
+    {
+      "path": "03-team-leadership/index.md",
+      "cards": [
+        {
+          "front": "What are the five stages of Tuckman's Team Development model?",
+          "back": "Forming (orientation, uncertainty), Storming (conflict, testing), Norming (cohesion, standards), Performing (productivity, trust), Adjourning (closure, transition). Note: Regression happens when members change."
+        },
+        {
+          "front": "What is Situational Leadership II (SLII)?",
+          "back": "Matching leadership style to the team member's development level: D1 (Low competence/high commitment) \u2192 Directing. D2 (Low/low) \u2192 Coaching. D3 (High/low) \u2192 Supporting. D4 (High/high) \u2192 Delegating."
+        },
+        {
+          "front": "What are the Thomas-Kilmann conflict resolution modes?",
+          "back": "Avoiding, Accommodating, Competing, Compromising, Collaborating. Collaborate (Win-Win) is preferred. Force/Compete is for emergencies only. The exam expects servant leaders to collaborate, not dominate."
+        },
+        {
+          "front": "What are Herzberg's Hygiene Factors vs. Motivators?",
+          "back": "Hygiene (do not motivate but prevent dissatisfaction): Pay, security, working conditions. Motivators (create motivation): Achievement, recognition, growth. Fix hygiene first; then motivators work."
+        },
+        {
+          "front": "What does a RACI matrix do?",
+          "back": "Clarifies roles: Responsible (does the work), Accountable (owns the outcome), Consulted (provides input), Informed (kept updated). Clear RACI prevents confusion and enables empowerment."
+        },
+        {
+          "front": "What is Psychological Safety in a team context?",
+          "back": "Team members feel safe to take risks, speak up, ask questions, and admit mistakes without fear of punishment or ridicule. It's foundational to high-performing teams and innovation."
+        },
+        {
+          "front": "How should a PM lead virtual/distributed teams?",
+          "back": "Use Hofstede's dimensions to understand cultural communication styles. Establish async-first communication. Clarify expectations. Create psychological safety remotely. Over-communicate to prevent isolation."
+        },
+        {
+          "front": "What is the Definition of Done (DoD) and why does it matter?",
+          "back": "A shared agreement on what 'complete' means: code reviewed, tested, documented, deployed. DoD ensures quality is built in and prevents incomplete work from slipping through."
+        },
+        {
+          "front": "How does a Servant Leader differ from a Command-and-Control manager?",
+          "back": "Servant Leader: Asks 'What do you need?', Facilitates problem-solving, Removes blockers, Develops people. Command-and-Control: Tells what to do, Makes all decisions, Micromanages. The exam expects servant leadership."
+        },
+        {
+          "front": "What is the purpose of a Team Charter?",
+          "back": "Documents working agreements, ground rules, decision models, escalation paths, and DoD. Clarifies how the team will work together. Prevents future conflicts by setting expectations upfront."
+        }
+      ]
+    },
+    {
+      "path": "04-stakeholder/index.md",
+      "cards": [
+        {
+          "front": "What is the Communications Channels formula?",
+          "back": "N(N-1)/2, where N = number of stakeholders. A 10-person team has 45 channels. Add 2 people = 66 channels (47% increase!). This shows why structured communication is critical."
+        },
+        {
+          "front": "When you discover a new stakeholder, what are your first steps?",
+          "back": "Step 1: Update the Stakeholder Register. Step 2: Perform analysis/mapping (Power, Interest, Attitude). Step 3: Plan engagement approach."
+        },
+        {
+          "front": "What is the Stakeholder Engagement Assessment Matrix?",
+          "back": "Tracks Current vs. Desired engagement status for each stakeholder. Current: Unaware, Resistant, Neutral, Supportive, Leading. Use it to identify who needs more engagement effort."
+        },
+        {
+          "front": "What does BATNA mean in negotiation?",
+          "back": "Best Alternative To a Negotiated Agreement. It's your 'walk-away' point. Know your BATNA before negotiating. If the deal doesn't beat BATNA, walk away."
+        },
+        {
+          "front": "What are the three dimensions of the Salience Model?",
+          "back": "Power (influence over outcomes), Legitimacy (rightful claim to involvement), Urgency (time-sensitive needs). Stakeholders with all three need immediate attention."
+        },
+        {
+          "front": "What is the Power/Interest Grid and how should you prioritize?",
+          "back": "High Power/High Interest: Manage closely. High Power/Low Interest: Keep satisfied. Low Power/High Interest: Keep informed. Low Power/Low Interest: Monitor. This helps you allocate limited stakeholder management time."
+        },
+        {
+          "front": "What should you do if a communication breaks down?",
+          "back": "Update the Communications Management Plan. Identify the barrier (channel issue, frequency issue, format issue). Test a new approach. Confirm the stakeholder received/understood the message."
+        },
+        {
+          "front": "What should you do if a stakeholder becomes disengaged?",
+          "back": "Update the Stakeholder Engagement Plan. Reach out directly to understand their concerns. Address root causes (unmet expectations, lack of communication). Re-engage proactively."
+        },
+        {
+          "front": "What is the difference between Push, Pull, and Interactive communication?",
+          "back": "Push: Send info out (email, report). Pull: Stakeholders access info (dashboard, wiki). Interactive: Two-way conversation (meeting, call). Mix all three for effective engagement."
+        },
+        {
+          "front": "How do you influence stakeholders without authority?",
+          "back": "Build trust (be transparent, follow through). Use expert power (demonstrate competence). Find common ground. Listen actively. Explain benefits in their language. Be consistent."
+        }
+      ]
+    },
+    {
+      "path": "05-initiation/index.md",
+      "cards": [
+        {
+          "front": "What are the five Initiation Questions (North Star Checklist)?",
+          "back": "1. Why now? What business problem/opportunity drives this?\n2. Who owns value? Who funds, decides, and benefits?\n3. What is success? How will we measure outcomes?\n4. What are the boundaries? Constraints (facts) vs. Assumptions (beliefs).\n5. How will we deliver? Predictive vs. Agile vs. Hybrid?"
+        },
+        {
+          "front": "What is the purpose of the Project Charter?",
+          "back": "Formal authorization of the project and the PM's authority. Establishes high-level scope, objectives, success criteria, constraints, and the PM's 'Social Contract' with the sponsor."
+        },
+        {
+          "front": "What is the Business Case and why does it matter?",
+          "back": "Strategic justification for project investment. Documents problem/opportunity, proposed solution, financial analysis (NPV, IRR, ROI), and expected benefits. Answers 'Why does this project deserve internal investment?'"
+        },
+        {
+          "front": "What is the difference between a Constraint and an Assumption?",
+          "back": "Constraint: A limitation or fact (fixed budget, regulatory requirement, technology limitation). Assumption: A belief presumed true (team has AI skills, partner will deliver on time). Document both to manage risk."
+        },
+        {
+          "front": "How do you decide between Predictive, Agile, or Hybrid delivery?",
+          "back": "Consider: Requirements stability (clear \u2192 Predictive, unclear \u2192 Agile). Risk/uncertainty (low \u2192 Predictive, high \u2192 Agile). Stakeholder involvement (periodic \u2192 Predictive, continuous \u2192 Agile). Complexity (simple \u2192 Predictive, complex \u2192 Agile/Hybrid)."
+        },
+        {
+          "front": "What is the Initiating Process Group?",
+          "back": "Two formal processes: (1) Develop Project Charter - Formal authorization, PM authority, scope, objectives. (2) Identify Stakeholders - Map who influences/is influenced by the project."
+        },
+        {
+          "front": "What should you include in a Project Charter?",
+          "back": "Project name, business case summary, objectives, success criteria, high-level scope, constraints, assumptions, PM authority, key stakeholders, approval signatures."
+        },
+        {
+          "front": "How does a project charter differ from a Project Management Plan?",
+          "back": "Charter: Authorization and guardrails (what/why/who). Management Plan: Detailed how (scope plan, schedule plan, cost plan, risk plan, etc.). Charter comes first in initiation."
+        },
+        {
+          "front": "What is the role of the sponsor during Initiation?",
+          "back": "Provides business case justification, authorizes the project and PM, clarifies success criteria, resolves scope conflicts, secures funding and resources."
+        },
+        {
+          "front": "What constraints should you document during Initiation?",
+          "back": "Budget constraints, schedule deadlines, resource availability, regulatory/compliance requirements, technology limitations, stakeholder availability, risk constraints (e.g., 'no cutting quality')."
+        }
+      ]
+    },
+    {
+      "path": "06-project-planning/index.md",
+      "cards": [
+        {
+          "front": "What is the Project Management Plan and what does it include?",
+          "back": "Master document describing how the project will be executed, monitored, and controlled. Includes 9 component plans (Scope, Schedule, Cost, Quality, Resource, Comm, Risk, Procurement, Stakeholder Engagement) plus 3 baselines (Scope, Schedule, Cost)."
+        },
+        {
+          "front": "What are the three baselines and how are they used?",
+          "back": "Scope Baseline: Approved scope statement + WBS. Schedule Baseline: Approved schedule. Cost Baseline: Time-phased budget for EVM. Changes to baselines require formal change control (CCB approval)."
+        },
+        {
+          "front": "What is progressive elaboration and how does it apply to planning?",
+          "back": "Details become clearer as the project progresses. Plan with detail for near-term work (Rolling Wave), high-level for future work. Allows adaptation while maintaining overall direction."
+        },
+        {
+          "front": "What does the Scope Management Plan answer?",
+          "back": "How will scope be defined, validated, and controlled? How will scope changes be requested and approved? What is the WBS decomposition approach?"
+        },
+        {
+          "front": "What does the Schedule Management Plan answer?",
+          "back": "How will the schedule be developed, monitored, and controlled? What are schedule metrics? How will schedule changes be managed? What is the critical path approach?"
+        },
+        {
+          "front": "What does the Cost Management Plan answer?",
+          "back": "How will costs be estimated, budgeted, and controlled? What is the rounding approach? How will contingency/management reserves be managed? How will actuals be tracked?"
+        },
+        {
+          "front": "What does the Quality Management Plan answer?",
+          "back": "What quality standards apply? How will quality be assured (QA)? How will quality be controlled (QC)? What metrics measure quality? How will continuous improvement happen?"
+        },
+        {
+          "front": "What does the Resource Management Plan answer?",
+          "back": "How will resources be acquired? How will team performance be managed? How will training/development happen? How will resources be released? What is the organizational structure?"
+        },
+        {
+          "front": "What does the Risk Management Plan answer?",
+          "back": "How will risks be identified, analyzed, and responded to? What are the risk categories? How will risks be monitored? What are the contingency and fallback strategies?"
+        },
+        {
+          "front": "What is the key difference between Planning (predictive) and Backlog Refinement (agile)?",
+          "back": "Planning: Comprehensive upfront documentation of baselines and plans. Backlog Refinement: Continuous clarification of requirements in upcoming sprints. Both are planning; different timing and formality."
+        }
+      ]
+    },
+    {
+      "path": "07-risk-quality/index.md",
+      "cards": [
+        {
+          "front": "What is the integration between Risk, Quality, and Complexity?",
+          "back": "Risk increases when complexity rises and quality processes are weak. Quality defects become risks (if not caught) and issues (when they escape). Complexity drives both risk and quality challenges."
+        },
+        {
+          "front": "When should you log something in the Risk Register vs. Issue Log?",
+          "back": "Risk Register: A potential event that MAY impact the project (identified, analyzed, response planned). Issue Log: An actual event that IS impacting the project NOW (realized risk, blockers, decisions needed)."
+        },
+        {
+          "front": "What is the difference between QA (Quality Assurance) and QC (Quality Control)?",
+          "back": "QA: Process-focused. Audits, reviews, standards enforcement. Prevents problems. QC: Product-focused. Testing, inspections, measurement. Detects problems. Both are needed."
+        },
+        {
+          "front": "What are the four key EVM-related risk questions on the exam?",
+          "back": "(1) How do you calculate project completion metrics (EAC, ETC, VAC)? (2) What does a trend tell you about future performance? (3) When should you escalate based on metrics? (4) How do you use TCPI to decide if budget is achievable?"
+        },
+        {
+          "front": "What is the Cost of Quality (COQ)?",
+          "back": "Prevention (conformance): Training, design, process improvement. Appraisal (conformance): Testing, inspections, reviews. Internal Failure (non-conformance): Rework, scrap. External Failure (non-conformance): Warranty, recalls, reputation damage. Prevention is cheapest."
+        },
+        {
+          "front": "What are control limits vs. specification limits?",
+          "back": "Specification Limits: What the customer accepts (Quality requirement). Control Limits: What the process produces (SPC limits). A process can be in control but outside spec (needs improvement), or out of control but inside spec (lucky, unreliable)."
+        },
+        {
+          "front": "What is the Cynefin Framework and when do you use it?",
+          "back": "Clear (Known): Follow procedures. Complicated (Known-unknowns): Analyze, expertise. Complex (Unknowns): Probe, sense, respond (experiment/iterate). Chaotic (Unknown-unknowns): Act, sense, respond (stabilize first). High uncertainty \u2192 use Agile/Adaptive."
+        },
+        {
+          "front": "What is the Theory of Constraints?",
+          "back": "Every process has a bottleneck limiting throughput. Identify the constraint. Focus improvement effort there first. Relieve the constraint. Find the next constraint. Continuous improvement."
+        },
+        {
+          "front": "What is the purpose of a Risk Register and what fields should it include?",
+          "back": "Primary tool for tracking identified risks. Minimum fields: Risk ID, Risk statement, Category, Probability, Impact, Owner, Strategy (Avoid/Mitigate/Transfer/Accept), Response actions, Trigger, Status."
+        },
+        {
+          "front": "How do you decide if a quality defect should be reworked or logged?",
+          "back": "If the defect violates the Definition of Done: Fix immediately in current iteration/phase. If minor and low-impact: Log in backlog for future refinement. If critical to quality/acceptance: Fix or escalate."
+        }
+      ]
+    },
+    {
+      "path": "08-execution/index.md",
+      "cards": [
+        {
+          "front": "What is the Work Performance Data \u2192 Information \u2192 Reports transformation chain?",
+          "back": "Data (raw): Task dates, defect counts, hours worked. Information (analyzed): SV, CPI, quality trends. Reports (formatted): Status reports, dashboards. If stakeholders are surprised, you collected data but failed to transform/communicate."
+        },
+        {
+          "front": "How should an approved change request be executed?",
+          "back": "Flow: Change Request \u2192 Perform Integrated Change Control \u2192 Approved Changes \u2192 Direct and Manage Project Work (implement) \u2192 Update Documents/Baselines. In execution, you implement approved changes only."
+        },
+        {
+          "front": "What is the difference between a Deliverable, Outcome, and Value?",
+          "back": "Deliverable: Tangible output (software, manual). Outcome: Behavioral change (users self-serve). Value: Strategic benefit (30% cost reduction). Completing deliverables \u2260 project success if outcomes/value aren't realized."
+        },
+        {
+          "front": "What is the Servant Leadership role during Execution?",
+          "back": "Remove impediments so the team can deliver value. Shield from interruptions. Facilitate decisions. Escalate what you can't resolve. Coach and support (not command/control). Build capability."
+        },
+        {
+          "front": "What is Rolling Wave Planning and when is it used?",
+          "back": "Plan in detail for near-term work (next sprint/phase), high-level for future. Allows adaptation while maintaining direction. Used in Agile and Hybrid projects. Progressive elaboration."
+        },
+        {
+          "front": "What are the five types of power and which are most effective?",
+          "back": "Legitimate (position), Reward (benefits), Coercive (threats), Expert (knowledge), Referent (relationships). Expert and Referent power are most effective and sustainable. Coercive power damages relationships."
+        },
+        {
+          "front": "What should you do first if a team member is blocked?",
+          "back": "Remove/escalate the blocker immediately. Update impediment/issue log. Address root cause. Don't wait for next status meeting. Servant leaders clear the path so work can continue."
+        },
+        {
+          "front": "How does Predictive execution differ from Adaptive execution?",
+          "back": "Predictive: Execute per plan; changes require CCB. Adaptive: Execute highest-value work; adapt continuously. Hybrid: Core deliverables predictive; component work adaptive."
+        },
+        {
+          "front": "What is Emotional Intelligence (EQ) and why does it matter in execution?",
+          "back": "Five components: Self-Awareness, Self-Regulation, Motivation, Empathy, Social Skills. EQ is often a better predictor of PM success than technical skills. High EQ helps resolve conflicts, motivate teams, and adapt under pressure."
+        },
+        {
+          "front": "What should you do if a stakeholder requests a scope change during execution?",
+          "back": "Triage (is it urgent/valuable?). Follow change process (predictive: CCB; agile: backlog refinement). Assess impact (scope, cost, schedule, risk). Propose trade-offs (what gets deprioritized?). No 'hidden' changes."
+        }
+      ]
+    },
+    {
+      "path": "09-monitoring/index.md",
+      "cards": [
+        {
+          "front": "What is the difference between Monitoring and Controlling?",
+          "back": "Monitoring: Observe and collect data on project performance (data collection). Controlling: Compare to baselines, identify variances, recommend corrective actions (data analysis/decision). Both happen continuously."
+        },
+        {
+          "front": "How do you interpret EVM metrics to recommend actions?",
+          "back": "CPI < 1.0: Over budget \u2192 Improve efficiency, reduce scope, request funding. SV < 1.0: Behind schedule \u2192 Analyze critical path, consider crashing/fast-tracking. Declining trend: Worsening efficiency \u2192 Investigate root cause immediately."
+        },
+        {
+          "front": "What is Integrated Change Control?",
+          "back": "Formal process for evaluating, approving, and implementing changes. Steps: (1) Change request submitted, (2) Impact analysis performed, (3) CCB reviews, (4) Decision made, (5) Approved changes implemented, (6) Baselines updated."
+        },
+        {
+          "front": "What is the purpose of the Stakeholder Engagement Plan during Monitoring?",
+          "back": "Track engagement level changes. If stakeholders become disengaged, increase engagement activities. If a resister becomes supportive, recognize progress. Proactively manage sentiment shifts."
+        },
+        {
+          "front": "What is Validate Scope and how does it differ from Control Quality?",
+          "back": "Validate Scope: Customer/sponsor acceptance of deliverables (Did we build the right thing?). Control Quality: Testing/inspections against requirements (Did we build it right?). Both must pass for acceptance."
+        },
+        {
+          "front": "What should you do if a deliverable is rejected during Validate Scope?",
+          "back": "Assess root cause (requirements mismatch, quality defect, acceptance criteria unclear). Log as rework. Update requirements if acceptance criteria were wrong. Rework deliverable. Re-validate with stakeholder."
+        },
+        {
+          "front": "What is the Risk Register's role during Monitoring & Controlling?",
+          "back": "Update status (active/watchlist/closed/realized). Monitor triggers. If a trigger occurs, implement the risk response. If a risk is realized, log as issue and execute contingency plan. Add new risks as discovered."
+        },
+        {
+          "front": "How should you handle an issue that emerges during execution?",
+          "back": "Log in Issue Log (Risk ID, status, owner, due date). Assess impact. Develop action plan. Assign owner. Follow up until resolved. Update baselines if necessary."
+        },
+        {
+          "front": "What is the relationship between Monitoring & Controlling and Execution?",
+          "back": "Continuous loop: Execution (produce data) \u2192 M&C (analyze data) \u2192 Recommend corrections \u2192 Execution (implement). M&C informs execution decisions; execution implements corrections."
+        },
+        {
+          "front": "What should you do before the project closes?",
+          "back": "Ensure all deliverables are accepted. Verify acceptance criteria met. Complete rework. Close procurements. Archive records. Conduct lessons learned. Transition to operations. Formal closure by sponsor."
+        }
+      ]
+    },
+    {
+      "path": "10-ai-pm/index.md",
+      "cards": [
+        {
+          "front": "What is the fundamental principle of AI in project management?",
+          "back": "AI doesn't replace the PM; it replaces the administrative burden. The PM's value shifts from tracking tasks to interpreting insights, making strategy, and leading people. Human judgment always required."
+        },
+        {
+          "front": "What are the four types of AI and their PM use cases?",
+          "back": "GenAI: Drafting documents, summarizing meetings. Predictive: Schedule forecasts, cost overrun alerts. NLP: Sentiment analysis, automated reports. ML: Historical analysis, anomaly detection, recommendations."
+        },
+        {
+          "front": "What is the 'Human in the Loop' principle?",
+          "back": "AI is a tool. PM must verify outputs, provide domain expertise, check for bias, and make final decisions. PM owns accountability, not the AI. 'The AI told me to' is never an acceptable excuse."
+        },
+        {
+          "front": "What are the key risks of using AI in project management?",
+          "back": "Hallucinations (AI makes up facts), Bias (reflects historical prejudice), Privacy (data in public models), IP (training data may include copyrighted material), Over-reliance (ignoring human judgment)."
+        },
+        {
+          "front": "What data should NEVER be put into public AI tools?",
+          "back": "Sensitive project data, confidential client information, personal employee data, financial details, IP/trade secrets, data subject to GDPR/compliance. Use enterprise AI tools only for sensitive work."
+        },
+        {
+          "front": "How should you use GenAI to draft a Project Charter?",
+          "back": "Provide context (project name, business case, constraints). GenAI generates initial structure and content. You verify accuracy, add organizational context, ensure alignment with sponsor. Always review before sharing."
+        },
+        {
+          "front": "How can Predictive AI help with Schedule Risk?",
+          "back": "AI analyzes historical projects to predict delays. Identifies patterns (e.g., requirements churn leads to schedule slip). PM validates prediction, takes proactive action if warranted. Not a replacement for professional judgment."
+        },
+        {
+          "front": "What is the PM's responsibility if AI recommends an unethical action?",
+          "back": "Reject the recommendation. Explain why it violates ethics/compliance. You are accountable. Use AI for analysis; use human judgment for decisions, especially ethical ones."
+        },
+        {
+          "front": "What should a team agreement on AI use include?",
+          "back": "Approved tools and use cases. Data sensitivity policy (what can/cannot be put in AI). Review and approval process for AI-generated output. Confidentiality agreements. Training on responsible use."
+        },
+        {
+          "front": "How does AI enable better estimation in projects?",
+          "back": "ML analyzes historical projects (similar scope, team size, complexity) to predict durations and costs. Reduces bias (better than guessing). PM validates against current context (changes since history, unique risks). AI informs; PM decides."
+        }
+      ]
+    },
+    {
+      "path": "11-exam-prep/practice-exam-1.md",
+      "cards": [
+        {
+          "front": "How should you approach a question where a key stakeholder stops engaging?",
+          "back": "FIRST: Reach out directly to understand their concerns (not escalate, not document passively). Then assess root cause (unmet expectations, lack of communication, competing priorities). Re-engage proactively."
+        },
+        {
+          "front": "If SPI = 0.85 and CPI = 0.92 at 60% complete, what is the status?",
+          "back": "Behind schedule and over budget. SPI < 1.0 = Behind. CPI < 1.0 = Over. Both metrics are red flags indicating efficiency problems. Investigate root cause and recommend corrective action."
+        },
+        {
+          "front": "What should a Scrum Master recommend if user stories are too vague and causing rework?",
+          "back": "Refine the Definition of Ready (DoR). DoR is a quality gate before stories enter a sprint. Vague stories fail the gate. Requires Product Owner to clarify acceptance criteria before refinement meeting."
+        },
+        {
+          "front": "When you receive a change request affecting scope and resources, what is your FIRST step?",
+          "back": "Perform comprehensive Impact Analysis (Scope, Cost, Schedule, Risk). Data comes before decision. You cannot approve, reject, or convene CCB until you understand the impact."
+        },
+        {
+          "front": "If a team member alleges another is stealing materials, what should you do FIRST?",
+          "back": "Listen privately and gather facts before taking action. Investigate and validate serious ethical claims. Never ignore or immediately fire. Trust but verify. Document the investigation."
+        },
+        {
+          "front": "What is the exam pattern for '_____ FIRST?' questions?",
+          "back": "Analyze/Assess before acting. Consult stakeholders before escalating. Address root cause, not symptoms. Follow process before improvising. These are the core exam mindset principles."
+        },
+        {
+          "front": "What does the 'Servant Leader' framework emphasize?",
+          "back": "Ask 'What do you need?' instead of directing. Facilitate problem-solving instead of solving alone. Remove blockers so work can continue. Develop people, not just complete tasks."
+        },
+        {
+          "front": "How should you score your performance on Practice Exam 1?",
+          "back": "5/5: Ready (move to Exam 2). 4/5: Good (review the chapter for that error). <3/5: Review (re-read Chapters 4 and 9 on stakeholders and control)."
+        },
+        {
+          "front": "What is the relationship between Definition of Done and Quality?",
+          "back": "DoD is a quality gate preventing incomplete work from advancing. When DoD is violated (vague stories, untested code, undocumented features), quality degrades and rework increases."
+        },
+        {
+          "front": "How do the five exam-scenario questions test integrated thinking?",
+          "back": "Each scenario tests different domains (People, Process, Business) with a common theme. Success requires recognizing the integration: stakeholder issues affect scope, quality, and risk; changes cascade across constraints."
+        }
+      ]
+    },
+    {
+      "path": "11-exam-prep/practice-exam-2.md",
+      "cards": [
+        {
+          "front": "What is the focus of Practice Exam 2?",
+          "back": "Agility - Heavy emphasis on Scrum, Hybrid models, and adaptive servant leadership. Tests your ability to recognize when Agile approaches are best and apply adaptive principles."
+        },
+        {
+          "front": "What is a common Agile scenario on the exam?",
+          "back": "Team velocity declining, stakeholder pressure to accelerate, requirements changing mid-sprint. The exam tests whether you analyze root cause (impediments, skill gaps, scope creep) before prescribing action."
+        },
+        {
+          "front": "How should you handle a mid-sprint scope change in an Agile project?",
+          "back": "Do NOT add to current sprint (violates sprint commitment). Discuss with Product Owner. Prioritize in backlog for next sprint. If urgent, remove lower-priority work from current sprint and reprioritize."
+        },
+        {
+          "front": "What is the relationship between Product Owner and Scrum Master?",
+          "back": "PO: Owns requirements, prioritization, value delivery. SM: Owns process, servant leadership, impediment removal, team health. Neither has authority over the other; they collaborate."
+        },
+        {
+          "front": "How do you decide if a project should use Agile vs. Predictive?",
+          "back": "Agile: Unclear requirements, high uncertainty, need frequent feedback. Predictive: Clear requirements, stable scope, fixed contract. Hybrid: Complex with some uncertain components."
+        },
+        {
+          "front": "What is the purpose of a Sprint Retrospective?",
+          "back": "Team reflects on how work was done (process, collaboration, challenges). Identifies improvements for next sprint. Actions: What will we start/stop/continue? These actions guide process improvement."
+        },
+        {
+          "front": "How should you respond if a team wants to skip Retrospectives to save time?",
+          "back": "Resist. Retrospectives are how teams improve continuously. Skipping them abandons learning and compounds problems. Respect the Agile principle of continuous improvement."
+        },
+        {
+          "front": "What is the difference between Burndown and Burnup charts?",
+          "back": "Burndown: Work remaining over time. Shows if on pace to finish sprint. Burnup: Work completed + scope line. Shows scope creep visually. Both are useful; choose based on what you want to emphasize."
+        },
+        {
+          "front": "How do you manage stakeholder expectations in a Scrum project?",
+          "back": "Establish sprint cadence for reviews (every 1-2 weeks). Demos show working software. Stakeholders participate in refinement for feedback. Frequent visibility prevents surprises and keeps alignment."
+        },
+        {
+          "front": "What should a PM do if the team cannot commit to a sprint goal due to external blockers?",
+          "back": "Remove the blockers FIRST (impediment removal is highest PM priority). If unresolvable, reduce sprint scope (don't commit to work blocked by external dependencies). Protect the team's ability to succeed."
+        }
+      ]
+    },
+    {
+      "path": "11-exam-prep/practice-exam-3.md",
+      "cards": [
+        {
+          "front": "What is the focus of Practice Exam 3?",
+          "back": "Integration - High-complexity scenarios combining risk, quality, and stakeholder conflict. Tests your ability to think systemically: how do decisions in one area ripple across all constraints and domains?"
+        },
+        {
+          "front": "What is a complex integration scenario on the exam?",
+          "back": "Example: A quality defect discovered at 80% project completion. Fixing requires schedule delay. Stakeholder pressures to skip the fix. Risk of external failure (customer impact). The exam tests: (1) Risk assessment, (2) Ethical decision, (3) Stakeholder management, (4) Change control."
+        },
+        {
+          "front": "How should you handle a scenario where cost savings conflict with quality?",
+          "back": "Cost-cutting that compromises quality violates the Embed Quality principle. Recommend alternative savings: negotiate vendor, reduce scope, or extend timeline. Never sacrifice quality for cost. Escalate with risk analysis."
+        },
+        {
+          "front": "What is the PM's responsibility if a team member reports an ethical violation?",
+          "back": "Listen privately. Gather facts (who, what, when, where). Document. Follow escalation path: supervisor \u2192 management \u2192 HR/Ethics if needed. Investigate before accusing. Report in good faith. Support whistleblower."
+        },
+        {
+          "front": "How do you decide whether to escalate a problem to the sponsor?",
+          "back": "First: Analyze and attempt resolution within your authority. Second: Consult stakeholders and team. Third: If unresolvable or strategic impact, escalate with analysis and recommended solution. Don't escalate unanalyzed problems."
+        },
+        {
+          "front": "What is the relationship between Risk, Quality, and Scope changes?",
+          "back": "A quality defect creates risk of external failure (customer impact, reputation). Scope changes introduce risk of schedule impact. All three are interdependent. Changes in one require assessment of the other two."
+        },
+        {
+          "front": "How should you manage a conflict between a vendor and your sponsor?",
+          "back": "First: Understand both perspectives privately. Second: Mediate discussion focused on project value/constraints. Third: Recommend win-win solution. Fourth: If unresolved, escalate with analysis. Use interest-based negotiation (BATNA)."
+        },
+        {
+          "front": "What should you do if a risk materializes and you don't have a planned response?",
+          "back": "Treat it as an issue (log in Issue Log). Assess immediate impact (scope, cost, schedule, quality, risk). Assemble team/stakeholders. Develop contingency plan. Execute contingency. Escalate if beyond your authority."
+        },
+        {
+          "front": "How do the six PMBOK 8 principles apply to a complex, integrated scenario?",
+          "back": "(1) Holistic View - See the ripple effects across constraints. (2) Focus on Value - Prioritize decisions that protect overall value. (3) Embed Quality - Never compromise quality. (4) Accountable Leader - Transparent, ethical decisions. (5) Integrate Sustainability - Consider ESG impacts. (6) Empowered Culture - Team collaborates on solutions."
+        },
+        {
+          "front": "What is the 'integration test' on the PMP exam?",
+          "back": "Complex scenarios that force you to consider People (stakeholders, team dynamics), Process (baselines, change control, quality), and Business (value, compliance, strategy) simultaneously. Success requires systems thinking."
+        }
+      ]
+    },
+    {
+      "path": "11-exam-prep/business-task4-impediments-practice.md",
+      "cards": [
+        {
+          "front": "What is an impediment in Agile/Scrum?",
+          "back": "An obstacle blocking the team from completing work or achieving the sprint goal. Examples: missing resource, unclear requirement, technical blocker, dependency from another team, lack of approval. NOT team member personal issues."
+        },
+        {
+          "front": "What is the PM/Scrum Master's primary responsibility regarding impediments?",
+          "back": "Remove impediments immediately. Don't wait for next standup. Escalate if the blocker is outside your authority (but remain engaged). Track impediment resolution. Protect the team's focus."
+        },
+        {
+          "front": "How should you track impediments?",
+          "back": "Impediment Log: ID, description, owner, due date, status. Review in standups. Close when resolved. Analyze trends (recurring impediments indicate systemic problems that need process improvements)."
+        },
+        {
+          "front": "What types of impediments are most common?",
+          "back": "Resource constraints (missing skills, overallocation). Dependency delays (waiting on another team). Requirement clarification (unclear acceptance criteria). Technical blockers (infrastructure, tools). Approval delays (stakeholder/manager sign-off)."
+        },
+        {
+          "front": "How do you distinguish between an impediment and a risk?",
+          "back": "Impediment: Blocking work NOW. Risk: May block work later. Impediment requires immediate removal. Risk requires monitoring and response planning. An unmanaged risk becomes an impediment."
+        },
+        {
+          "front": "What should you do if a team member repeatedly creates impediments?",
+          "back": "First: Investigate root cause (skill gap, overload, unclear expectations). Second: Provide support (training, mentoring, reduced workload). Third: If pattern continues, address in one-on-one conversation. Coach before escalating."
+        },
+        {
+          "front": "How do you escalate an impediment?",
+          "back": "Document clearly (what is blocked, why, impact). Identify who has authority to resolve (manager, sponsor, PMO). Present with context and urgency. Stay engaged; don't just 'throw it over the fence'."
+        },
+        {
+          "front": "What is the relationship between impediments and velocity?",
+          "back": "Unresolved impediments \u2192 work incomplete \u2192 velocity drops. Persistent impediments \u2192 declining velocity trend \u2192 leading indicator of problems. Address impediments to maintain velocity."
+        },
+        {
+          "front": "How should you handle an impediment that requires a decision from the sponsor?",
+          "back": "Collect data (impact, options, trade-offs). Present to sponsor with recommendation. If sponsor delays decision, the delay itself becomes an impediment\u2014escalate its impact to the schedule."
+        },
+        {
+          "front": "What is a preventive vs. reactive approach to impediments?",
+          "back": "Reactive: Remove impediments as they arise (firefighting). Preventive: Anticipate blockers during planning (unclear requirements, external dependencies). Address upfront before they block work."
+        }
+      ]
+    },
+    {
+      "path": "07-risk-quality/toolkit.md",
+      "cards": [
+        {
+          "front": "What are the minimum fields in a Risk Register?",
+          "back": "Risk ID, Risk statement (cause \u2192 event \u2192 impact), Category, Probability, Impact, Owner, Strategy, Response actions, Trigger, Status."
+        },
+        {
+          "front": "How should you prioritize risks using P\u00d7I matrix?",
+          "back": "High\u00d7High: Critical (immediate mitigation + monitoring). High\u00d7Low: High/Med (reduce probability). Low\u00d7High: High/Med (insure/transfer or contingency). Low\u00d7Low: Low (watchlist only)."
+        },
+        {
+          "front": "What is the difference between Contingency and Fallback plans?",
+          "back": "Contingency: Planned response when the trigger occurs (immediate action). Fallback: Plan B if contingency isn't enough (escalation or alternative approach)."
+        },
+        {
+          "front": "What are the two types of reserves?",
+          "back": "Contingency Reserve: For identified risks (known-unknowns). Included in cost baseline. Approved by PM. Management Reserve: For unidentified risks (unknown-unknowns). NOT in baseline. Approved via change control."
+        },
+        {
+          "front": "What is Defect Density and why does it matter?",
+          "back": "Defects per unit (per 1000 lines of code, per module). Allows comparison across projects/teams. Helps identify areas needing improvement. Trending defect density shows quality trajectory."
+        },
+        {
+          "front": "What is an Escaped Defect?",
+          "back": "A defect found by customers after release. Indicates weak prevention/appraisal processes. Should be near zero. High escaped defects suggest QA/QC processes are inadequate."
+        },
+        {
+          "front": "What is a Risk Response Mini-Plan?",
+          "back": "Executable plan: (1) Owner, (2) Specific actions, (3) Trigger, (4) Contingency plan, (5) Fallback plan, (6) Residual/secondary risks. Not just naming strategy; actually planning the response."
+        },
+        {
+          "front": "How do you decide if a risk response needs to be scheduled as work?",
+          "back": "If the response requires effort (time, resources, money), it belongs in the schedule/backlog with an owner and due date. 'We have a plan' is meaningless without planned work."
+        },
+        {
+          "front": "What quality metrics should a PM track during execution?",
+          "back": "Defect density, escaped defects, test pass rate, rework %, first pass yield %. All should have targets and be monitored for trends. Rising defect rates signal quality problems early."
+        },
+        {
+          "front": "How does Risk Register differ from Issue Log?",
+          "back": "Risk Register: Potential event that MAY happen (analyzed, response planned, monitoring underway). Issue Log: Actual event happening NOW (requires immediate action/resolution). A realized risk becomes an issue."
+        }
+      ]
+    },
+    {
+      "path": "07-risk-quality/index.md",
+      "cards": [
+        {
+          "front": "What is the integration between Risk, Quality, and Complexity?",
+          "back": "Risk increases when complexity rises and quality processes are weak. Quality defects become risks (if not caught) and issues (when they escape). Complexity drives both risk and quality challenges."
+        },
+        {
+          "front": "When should you log something as a risk vs. an issue?",
+          "back": "Risk: Potential event that MAY impact project (hasn't happened yet; response is planned). Issue: Actual problem happening NOW (a realized risk or unexpected blocker; requires immediate action)."
+        },
+        {
+          "front": "What are the four key elements of a Risk Statement?",
+          "back": "Cause (why): Due to [root cause]... Event (what): ...there is a risk that [threat/opportunity]... Impact (so what): ...which could cause [consequence]. Probability: [likelihood]. Impact: [effect on objectives]."
+        },
+        {
+          "front": "What is qualitative vs. quantitative risk analysis?",
+          "back": "Qualitative: Probability and Impact rated (High/Med/Low) or (1-5 scale). Fast, good for prioritization. Quantitative: Precise values ($, days), uses PERT/Monte Carlo. More rigorous for high-risk projects."
+        },
+        {
+          "front": "What are the five risk response strategies?",
+          "back": "Avoid: Eliminate the risk (change scope/approach). Mitigate: Reduce probability or impact. Transfer: Shift to third party (insurance, vendor, outsource). Accept: Do nothing (or contingency plan). Escalate: Beyond PM authority."
+        },
+        {
+          "front": "What does a Risk Register look like during execution?",
+          "back": "Status changes from 'Active' to 'Watchlist' (trigger approaching) to 'Closed' (no longer a threat) or 'Realized' (happened, becomes issue). Monitoring is continuous; register is living document."
+        },
+        {
+          "front": "What is the Theory of Constraints in the context of complex projects?",
+          "back": "Every process has a bottleneck limiting throughput. Identify it. Improve there. When relieved, find next bottleneck. Continuous improvement focuses on constraints, not random improvements."
+        },
+        {
+          "front": "What is the Cynefin Framework and when to use each domain?",
+          "back": "Clear: Procedures/standards. Complicated: Expert analysis. Complex: Iterate/probe/sense/respond (Agile). Chaotic: Stabilize first. High complexity \u2192 use Agile/Adaptive approaches."
+        },
+        {
+          "front": "How do you manage secondary risks created by risk responses?",
+          "back": "When you mitigate a risk, the mitigation action can create new risks. Document these secondary risks. Example: Adding a backup supplier (mitigate) creates risk of coordination complexity (secondary)."
+        },
+        {
+          "front": "What is the difference between Risk Acceptance and Risk Tolerance?",
+          "back": "Risk Acceptance: Consciously deciding not to respond (accept the consequence). Risk Tolerance: Organization's willingness to accept risk in general (risk appetite). Accept only what is within organizational tolerance."
+        }
+      ]
+    },
+    {
+      "path": "11-exam-prep/index.md",
+      "cards": [
+        {
+          "front": "What are the four sections of Chapter 11?",
+          "back": "(1) Exam Strategy - How to deconstruct scenarios, spot distractors, identify PMI mindset. (2) Practice Exam 1 - Foundation (People, Process, Business). (3) Practice Exam 2 - Agility focus. (4) Practice Exam 3 - Integration (complex scenarios)."
+        },
+        {
+          "front": "What is the 2026 PMI Mindset in one sentence?",
+          "back": "Servant Leadership + Proactivity + Formal Process = PMI-style answers. Always support the team, initiate solutions, follow governance."
+        },
+        {
+          "front": "What is the goal of Practice Exam 1?",
+          "back": "Test your grasp of core People, Process, and Business Environment domains. Foundation-level questions on stakeholders, scheduling, change control, and ethics. Score 4+ to pass."
+        },
+        {
+          "front": "What is the goal of Practice Exam 2?",
+          "back": "Test Agile/Adaptive competencies. Heavy on Scrum, Hybrid models, servant leadership in adaptive environments. Shows you can apply principles beyond traditional predictive PM."
+        },
+        {
+          "front": "What is the goal of Practice Exam 3?",
+          "back": "Test integration thinking. Complex scenarios combining risk, quality, stakeholder conflict, and business impact. Shows you can see ripple effects across constraints and make holistic decisions."
+        },
+        {
+          "front": "How should you use the practice exams as learning tools?",
+          "back": "Take in exam conditions (4 hours, no phone, no breaks except scheduled). Review explanations, not just answers. Keep a mistake log. Identify patterns (which topics, which domains are weak). Re-read relevant chapters."
+        },
+        {
+          "front": "What is the relationship between the three practice exams?",
+          "back": "Exam 1: Foundation (can I do traditional PM?). Exam 2: Agility (can I do adaptive PM?). Exam 3: Integration (can I think like a strategic PM?). Progressive difficulty; each builds on previous."
+        },
+        {
+          "front": "What score on each practice exam indicates readiness for the real exam?",
+          "back": "Exam 1: 4-5/5 (foundation secure). Exam 2: 70%+ (agility competency). Exam 3: 70%+ (integration competency). Consistent 70%+ across all three \u2192 ready to schedule real exam."
+        },
+        {
+          "front": "What is the difference between answering right and understanding right?",
+          "back": "Right answer: Guessed or got lucky. Understanding right: Can explain WHY that answer is correct and why others are wrong. Use explanation reviews to build deep understanding."
+        },
+        {
+          "front": "How much time should you spend on exam preparation total?",
+          "back": "Fast-track: 4-6 weeks (10-15 hours/week). Standard: 8-12 weeks (6-10 hours/week). Core preparation includes reading chapters, practice questions, AND full-length exams, not just reading."
+        }
+      ]
+    },
+    {
+      "path": "05-initiation/index.md",
+      "cards": [
+        {
+          "front": "What are the Initiation Questions (North Star Checklist)?",
+          "back": "1. Why now? 2. Who owns value? 3. What is success? 4. What are the boundaries? 5. How will we deliver? If you can't answer these, you aren't ready to plan."
+        },
+        {
+          "front": "What is the Project Charter and why is it critical?",
+          "back": "Formal authorization. PM's 'Social Contract' with the sponsor. Establishes scope, objectives, success criteria, constraints. Answers 'why, what, who, success'. Used throughout project to resolve disputes."
+        },
+        {
+          "front": "What is the Business Case and what does it justify?",
+          "back": "Strategic justification for why the project deserves investment. Documents problem/opportunity, proposed solution, financial metrics (NPV, IRR, ROI), expected benefits. Answers 'should we do this?'"
+        },
+        {
+          "front": "What is the difference between Project Initiation and Project Planning?",
+          "back": "Initiation: Authorization (charter, business case, stakeholder identification). Why are we doing this? Planning: Detailed how (scope plan, schedule, budget, risk plan, etc.). How will we do it?"
+        },
+        {
+          "front": "What should a charter include?",
+          "back": "Project name, business justification, objectives, success criteria, high-level scope, constraints, assumptions, PM authority, key stakeholders, approval signatures. Simple but comprehensive."
+        },
+        {
+          "front": "What is a Constraint vs. an Assumption in project context?",
+          "back": "Constraint: A fact/limitation (fixed budget, regulatory requirement, technology limit). Assumption: A belief presumed true (team has skills, partner will deliver on time). Both must be documented."
+        },
+        {
+          "front": "How do you decide between Predictive, Agile, or Hybrid during Initiation?",
+          "back": "Predictive: Clear requirements, low uncertainty, fixed contract. Agile: Unclear requirements, high uncertainty, innovation focus. Hybrid: Mix of both (core predictive, details adaptive). Context determines approach."
+        },
+        {
+          "front": "What is the two-process Initiating Process Group?",
+          "back": "1. Develop Project Charter - Authorization and guardrails. 2. Identify Stakeholders - Map who influences/is influenced by project. Both must complete before moving to planning."
+        },
+        {
+          "front": "Who are the key participants in charter development?",
+          "back": "Sponsor (funds, authorizes), PM (executes, consults), Business analyst (translates business problem), Key stakeholders (represent perspectives), Finance (validates ROI). Sponsor and PM sign-off."
+        },
+        {
+          "front": "What happens after the charter is approved?",
+          "back": "Move to Planning. Develop detailed management plans (scope, schedule, cost, risk, quality, resource, communications, procurement, stakeholder engagement). The charter provides guardrails; planning fills in details."
+        }
+      ]
+    }
+  ]
+}

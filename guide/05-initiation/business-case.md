@@ -211,46 +211,16 @@ When comparing mutually exclusive projects, **always use NPV** as the tiebreaker
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Sunk Cost', 
-    back: 'Money already spent; ignore it in future decisions.' 
-  },
-  { 
-    front: 'Opportunity Cost', 
-    back: 'The value of the alternative choice given up.' 
-  },
-  { 
-    front: 'NPV Rule', 
-    back: 'Choose the project with the highest NPV; must be > 0.' 
-  },
-  { 
-    front: 'BCR > 1.0', 
-    back: 'Benefits exceed costs; a good investment.' 
-  },
-  { 
-    front: 'IRR vs Hurdle Rate', 
-    back: 'Accept if IRR is greater than the hurdle rate.' 
-  },
-  { 
-    front: 'Business Case vs Project Charter', 
-    back: 'Business Case justifies investment; Charter authorizes work and PM power.' 
-  },
-  { 
-    front: 'Needs Assessment', 
-    back: 'Conducted before the Business Case to understand the problem or opportunity.' 
-  },
-  { 
-    front: 'Benefits Owner', 
-    back: 'Accountable for realizing and measuring benefits after project closure.' 
-  },
-  { 
-    front: 'Murder Board', 
-    back: 'A panel of executives that rigorously challenges project proposals.' 
-  },
-  { 
-    front: 'Payback Period', 
-    back: 'Time required to recover the initial investment; shorter is better.' 
-  }
+  { front: `Sunk Cost`, back: `Money already spent; ignore it in future decisions.` },
+  { front: `Opportunity Cost`, back: `The value of the alternative choice given up.` },
+  { front: `NPV Rule`, back: `Choose the project with the highest NPV; must be > 0.` },
+  { front: `BCR > 1.0`, back: `Benefits exceed costs; a good investment.` },
+  { front: `IRR vs Hurdle Rate`, back: `Accept if IRR is greater than the hurdle rate.` },
+  { front: `Business Case vs Project Charter`, back: `Business Case justifies investment; Charter authorizes work and PM power.` },
+  { front: `Needs Assessment`, back: `Conducted before the Business Case to understand the problem or opportunity.` },
+  { front: `Benefits Owner`, back: `Accountable for realizing and measuring benefits after project closure.` },
+  { front: `Murder Board`, back: `A panel of executives that rigorously challenges project proposals.` },
+  { front: `Payback Period`, back: `Time required to recover the initial investment; shorter is better.` }
 ]" />
 
 ---

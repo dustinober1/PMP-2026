@@ -288,45 +288,15 @@ Sustainability questions on the 2026 PMP exam may include:
 
 ##  Quick Review
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What is the \'Triple Bottom Line\'?', 
-    back: 'A framework that measures success based on Profit, People, and Planet.' 
-  },
-  { 
-    front: 'What does ESG stand for?', 
-    back: 'Environmental, Social, and Governance.' 
-  },
-  { 
-    front: 'What is \'Life Cycle Assessment\' (LCA)?', 
-    back: 'A process to evaluate the environmental impacts of a product through its entire life cycle (cradle to grave).' 
-  },
-  { 
-    front: 'Why is sustainability important for a PMP?', 
-    back: 'It ensures long-term value, compliance with emerging laws, and alignment with organizational ethics.' 
-  },
-  { 
-    front: 'What should a PM do if a sustainability requirement is being ignored?', 
-    back: 'Remind the team of its importance to the business case and escalate to the sponsor if necessary.' 
-  },
-  { 
-    front: 'What are the 5 elements of the P5 Framework?', 
-    back: 'Product, Process, People, Planet, and Prosperity.' 
-  },
-  { 
-    front: 'What are the three scopes of carbon footprint measurement?', 
-    back: 'Scope 1 (direct emissions), Scope 2 (purchased energy), and Scope 3 (value chain emissions).' 
-  },
-  { 
-    front: 'What is Green Procurement?', 
-    back: 'Applying sustainability criteria (environmental, social, local, circular) to vendor selection and purchasing.' 
-  },
-  { 
-    front: 'How does Agile naturally support sustainability?', 
-    back: 'Through waste reduction (MVP, continuous feedback) and sustainable pace (protecting team well-being).' 
-  },
-  { 
-    front: 'What is a Sustainability Management Plan (SMP)?', 
-    back: 'A formal document integrating sustainability objectives, P5 assessment, mitigation strategies, KPIs, and reporting requirements into project planning.' 
-  }
+  { front: `What is the \\'Triple Bottom Line\\'?`, back: `A framework that measures success based on Profit, People, and Planet.` },
+  { front: `What does ESG stand for?`, back: `Environmental, Social, and Governance.` },
+  { front: `What is \\'Life Cycle Assessment\\' (LCA)?`, back: `A process to evaluate the environmental impacts of a product through its entire life cycle (cradle to grave).` },
+  { front: `Why is sustainability important for a PMP?`, back: `It ensures long-term value, compliance with emerging laws, and alignment with organizational ethics.` },
+  { front: `What should a PM do if a sustainability requirement is being ignored?`, back: `Remind the team of its importance to the business case and escalate to the sponsor if necessary.` },
+  { front: `What are the 5 elements of the P5 Framework?`, back: `Product, Process, People, Planet, and Prosperity.` },
+  { front: `What are the three scopes of carbon footprint measurement?`, back: `Scope 1 (direct emissions), Scope 2 (purchased energy), and Scope 3 (value chain emissions).` },
+  { front: `What is Green Procurement?`, back: `Applying sustainability criteria (environmental, social, local, circular) to vendor selection and purchasing.` },
+  { front: `How does Agile naturally support sustainability?`, back: `Through waste reduction (MVP, continuous feedback) and sustainable pace (protecting team well-being).` },
+  { front: `What is a Sustainability Management Plan (SMP)?`, back: `A formal document integrating sustainability objectives, P5 assessment, mitigation strategies, KPIs, and reporting requirements into project planning.` }
 ]" />
 

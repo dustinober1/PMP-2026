@@ -1,4 +1,5 @@
 <script setup>
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 </script>
@@ -57,3 +58,16 @@ Success in Monitoring & Closing is measured by:
 - **Change Agility**: Balancing the need for a stable baseline with the need to pivot when requirements change.
 - **Operational Readiness**: Ensuring the organization can support what you built (training, runbooks, support model).
 - **Value Harvest**: Ensuring the organization actually receives the benefits promised in the Business Case (ownership transfer + benefits tracking).
+
+<FlashcardCarousel :cards="[
+  { front: `What is project monitoring and controlling?`, back: `Tracking, reviewing, and regulating project progress toward planned objectives, making corrective actions as needed.` },
+  { front: `What are the key controlling activities?`, back: `Monitor Work Performance, Control Scope (changes), Control Schedule, Control Cost, Control Quality, Manage Changes.` },
+  { front: `What is Monitor Work Performance?`, back: `Collecting and analyzing project data to understand status and identify areas needing corrective/preventive action.` },
+  { front: `What is Control Scope?`, back: `Preventing unauthorized scope additions and managing approved scope changes through formal change control.` },
+  { front: `What is Control Schedule?`, back: `Monitoring schedule progress, identifying delays, assessing impact, and executing corrective actions.` },
+  { front: `What is Control Cost?`, back: `Monitoring spending vs budget, identifying cost variances, and managing cost control through change control.` },
+  { front: `What is an Integrated Change Control process?`, back: `Formal approval process for changes: request > impact analysis > decision > approval > communication > implementation.` },
+  { front: `What should a Change Request include?`, back: `Description, business justification, impact on scope/schedule/cost/quality, alternatives considered, recommendation.` },
+  { front: `When should changes be rejected?`, back: `When impact exceeds organizational tolerance, contradicts strategy, or alternatives are better.` },
+  { front: `How does Agile approach change management differently?`, back: `Changes are expected - handled through backlog reprioritization, sprint planning, and feedback loops rather than formal CCBs.` }
+]" />

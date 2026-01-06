@@ -279,3 +279,16 @@ If a PMP violates the Code of Ethics, PMI can take action:
 ::: info Ethics First
 On the PMP exam, if an answer is legally or ethically questionable, it is **never** the correct answer, no matter how much time or money it saves. When in doubt, choose the most transparent, honest, and respectful option.
 :::
+
+<FlashcardCarousel :cards="[
+  { front: `What is the PMI Code of Ethics?`, back: `Four principles: Responsibility, Respect, Fairness, and Honesty guiding ethical PM conduct.` },
+  { front: `What does Responsibility mean in PM ethics?`, back: `Owning decisions and outcomes, admitting mistakes, and being accountable for your actions.` },
+  { front: `What does Respect mean in PM ethics?`, back: `Valuing team members, stakeholders, and diverse perspectives; listening actively.` },
+  { front: `What does Fairness mean in PM ethics?`, back: `Making unbiased decisions, treating people equitably, and avoiding conflicts of interest.` },
+  { front: `What does Honesty mean in PM ethics?`, back: `Being truthful in communications, reporting actual status, and not hiding bad news.` },
+  { front: `What is a conflict of interest?`, back: `A situation where personal or financial interests could influence your judgment as a PM.` },
+  { front: `How should you handle a conflict of interest?`, back: `Disclose it immediately to your sponsor, step back from decision-making, and let others resolve it.` },
+  { front: `What should you do if a team member is underperforming?`, back: `Address it directly with feedback, coaching, and clear expectations - not by ignoring it.` },
+  { front: `What should you do if you discover scope creep due to organizational politics?`, back: `Document it, communicate impact to sponsor, propose alternatives, and let sponsor decide on trade-offs.` },
+  { front: `Why is ethical conduct important for PM success?`, back: `Trust enables stakeholder buy-in, team morale, and organizational support - without trust, projects fail.` }
+]" />

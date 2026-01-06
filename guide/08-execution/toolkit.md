@@ -982,15 +982,15 @@ For deeper dives into execution topics:
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { front: 'What is a RAID Log?', back: 'Risks, Actions, Issues, Decisions - a central tracker for project execution.' },
-  { front: 'Issue Log vs. Risk Register?', back: 'Issue = Happening NOW (Problem). Risk = Might happen (Uncertainty).' },
-  { front: 'Best Conflict Resolution Technique?', back: 'Collaborate/Problem Solve (Win-Win). Addresses the root cause.' },
-  { front: 'When to use \'Force/Direct\'?', back: 'In emergencies (e.g., safety violations) or when quick decisive action is required.' },
-  { front: 'Explicit vs. Tacit Knowledge?', back: 'Explicit = Documents/Manuals. Tacit = Experience/Intuition (requires sharing via interaction).' },
-  { front: 'Definition of Done (DoD) purpose?', back: 'Ensures quality and prevents technical debt by defining criteria for \'complete\' work.' },
-  { front: 'Leading vs. Lagging Indicators?', back: 'Leading = Predicts future (e.g., adoption rate). Lagging = Confirms past (e.g., ROI).' },
-  { front: 'First step when a Vendor fails?', back: 'Review the Contract (analyze rights/obligations) before taking action.' },
-  { front: 'Virtual Team Best Practice?', back: 'Establish a Team Charter with clear communication norms and overlap hours.' },
-  { front: 'Change Request Assessment Order?', back: '1. Clarify (is it scope?) 2. Analyze Impact (Tripple Constraint) 3. Recommend 4. Decide (CCB/PM).' }
+  { front: `What is a RAID Log?`, back: `Risks, Actions, Issues, Decisions - a central tracker for project execution.` },
+  { front: `Issue Log vs. Risk Register?`, back: `Issue = Happening NOW (Problem). Risk = Might happen (Uncertainty).` },
+  { front: `Best Conflict Resolution Technique?`, back: `Collaborate/Problem Solve (Win-Win). Addresses the root cause.` },
+  { front: `When to use \\'Force/Direct\\'?`, back: `In emergencies (e.g., safety violations) or when quick decisive action is required.` },
+  { front: `Explicit vs. Tacit Knowledge?`, back: `Explicit = Documents/Manuals. Tacit = Experience/Intuition (requires sharing via interaction).` },
+  { front: `Definition of Done (DoD) purpose?`, back: `Ensures quality and prevents technical debt by defining criteria for \\'complete\\' work.` },
+  { front: `Leading vs. Lagging Indicators?`, back: `Leading = Predicts future (e.g., adoption rate). Lagging = Confirms past (e.g., ROI).` },
+  { front: `First step when a Vendor fails?`, back: `Review the Contract (analyze rights/obligations) before taking action.` },
+  { front: `Virtual Team Best Practice?`, back: `Establish a Team Charter with clear communication norms and overlap hours.` },
+  { front: `Change Request Assessment Order?`, back: `1. Clarify (is it scope?) 2. Analyze Impact (Tripple Constraint) 3. Recommend 4. Decide (CCB/PM).` }
 ]" />
 

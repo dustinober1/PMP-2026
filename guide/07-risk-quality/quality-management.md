@@ -466,46 +466,16 @@ Use [7.4 Tools & Templates](./toolkit) for a starter DoD checklist and quick “
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'QA vs. QC?', 
-    back: 'QA is process-focused and proactive (prevention). QC is product-focused and reactive (inspection).' 
-  },
-  { 
-    front: 'Quality vs. Grade?', 
-    back: 'Quality is how well it meets specs (must be high). Grade is the rank/category (can be low).' 
-  },
-  { 
-    front: 'Cost of Quality (CoQ) components?', 
-    back: 'Conformance (Prevention + Appraisal) and Nonconformance (Internal + External Failure).' 
-  },
-  { 
-    front: 'What is the Rule of Seven in Control Charts?', 
-    back: '7 consecutive points on one side of the mean indicates a non-random shift requiring investigation.' 
-  },
-  { 
-    front: 'Variable vs. Attribute Sampling?', 
-    back: 'Variable = continuous (measurement). Attribute = discrete (pass/fail).' 
-  },
-  { 
-    front: 'What are the 7 Basic Quality Tools?', 
-    back: 'Cause-Effect, Flowchart, Checksheet, Pareto, Histogram, Control Chart, Scatter Diagram.' 
-  },
-  { 
-    front: 'What is DMAIC?', 
-    back: 'Six Sigma methodology: Define, Measure, Analyze, Improve, Control - for process improvement.' 
-  },
-  { 
-    front: 'What is the Kano Model?', 
-    back: 'Categorizes requirements by customer satisfaction impact: Basic (must-have), Performance (linear), Delighters (excitement).' 
-  },
-  { 
-    front: 'What is the Definition of Done (DoD)?', 
-    back: 'A team-level quality checklist that applies to ALL stories - ensures consistent completeness standards.' 
-  },
-  { 
-    front: 'What is marginal analysis in quality?', 
-    back: 'Finding the optimal quality level where marginal cost equals marginal benefit - more investment yields no additional value.' 
-  }
+  { front: `QA vs. QC?`, back: `QA is process-focused and proactive (prevention). QC is product-focused and reactive (inspection).` },
+  { front: `Quality vs. Grade?`, back: `Quality is how well it meets specs (must be high). Grade is the rank/category (can be low).` },
+  { front: `Cost of Quality (CoQ) components?`, back: `Conformance (Prevention + Appraisal) and Nonconformance (Internal + External Failure).` },
+  { front: `What is the Rule of Seven in Control Charts?`, back: `7 consecutive points on one side of the mean indicates a non-random shift requiring investigation.` },
+  { front: `Variable vs. Attribute Sampling?`, back: `Variable = continuous (measurement). Attribute = discrete (pass/fail).` },
+  { front: `What are the 7 Basic Quality Tools?`, back: `Cause-Effect, Flowchart, Checksheet, Pareto, Histogram, Control Chart, Scatter Diagram.` },
+  { front: `What is DMAIC?`, back: `Six Sigma methodology: Define, Measure, Analyze, Improve, Control - for process improvement.` },
+  { front: `What is the Kano Model?`, back: `Categorizes requirements by customer satisfaction impact: Basic (must-have), Performance (linear), Delighters (excitement).` },
+  { front: `What is the Definition of Done (DoD)?`, back: `A team-level quality checklist that applies to ALL stories - ensures consistent completeness standards.` },
+  { front: `What is marginal analysis in quality?`, back: `Finding the optimal quality level where marginal cost equals marginal benefit - more investment yields no additional value.` }
 ]" />
 
 ::: tip  Exam Insight

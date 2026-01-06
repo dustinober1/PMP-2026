@@ -549,15 +549,15 @@ Administer this survey before rolling out AI tools to identify adoption risks.
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { front: 'Adoption Curve: Denial Response?', back: 'Acknowledge concerns and show small, concrete wins.' },
-  { front: 'Adoption Curve: Resistance Response?', back: 'Address fears directly (e.g., job loss); emphasize automation of drudgery, not judgment.' },
-  { front: 'Fear Archetype: \'I\'ll lose my job\'?', back: 'Response: AI upgrades your role to focus on strategy/relationships, replacing only repetitive admin work.' },
-  { front: 'Fear Archetype: \'I don\'t trust it\'?', back: 'Response: Emphasize Human-in-the-Loop (HITL) - the AI drafts, YOU decide.' },
-  { front: 'Fear Archetype: \'Data leaks\'?', back: 'Response: Show the Data Redaction rules and enterprise tool contracts.' },
-  { front: 'Week 1 of AI Rollout Goal?', back: 'Awareness & Interest - Demos (no mandate), \'AI 101\' education.' },
-  { front: 'Week 4 of AI Rollout Goal?', back: 'Scale & Standardization - Formalize in Team Charter, set standards, track metrics.' },
-  { front: 'Leading Indicators of Resistance?', back: 'Low training completion, low login rate, zero feedback.' },
-  { front: 'Lagging Indicators of Success?', back: 'Time saved (2-5 hrs/mo), Satisfaction scores, reduced Shadow AI incidents.' },
-  { front: 'Crisis Response: \'Red Alert\' Protocol?', back: 'Stop immediately > Isolate > Investigate > Escalate > Communicate > Prevent > Rebuild.' }
+  { front: `Adoption Curve: Denial Response?`, back: `Acknowledge concerns and show small, concrete wins.` },
+  { front: `Adoption Curve: Resistance Response?`, back: `Address fears directly (e.g., job loss); emphasize automation of drudgery, not judgment.` },
+  { front: `Fear Archetype: \\'I\\'ll lose my job\\'?`, back: `Response: AI upgrades your role to focus on strategy/relationships, replacing only repetitive admin work.` },
+  { front: `Fear Archetype: \\'I don\\'t trust it\\'?`, back: `Response: Emphasize Human-in-the-Loop (HITL) - the AI drafts, YOU decide.` },
+  { front: `Fear Archetype: \\'Data leaks\\'?`, back: `Response: Show the Data Redaction rules and enterprise tool contracts.` },
+  { front: `Week 1 of AI Rollout Goal?`, back: `Awareness & Interest - Demos (no mandate), \\'AI 101\\' education.` },
+  { front: `Week 4 of AI Rollout Goal?`, back: `Scale & Standardization - Formalize in Team Charter, set standards, track metrics.` },
+  { front: `Leading Indicators of Resistance?`, back: `Low training completion, low login rate, zero feedback.` },
+  { front: `Lagging Indicators of Success?`, back: `Time saved (2-5 hrs/mo), Satisfaction scores, reduced Shadow AI incidents.` },
+  { front: `Crisis Response: \\'Red Alert\\' Protocol?`, back: `Stop immediately > Isolate > Investigate > Escalate > Communicate > Prevent > Rebuild.` }
 ]" />
 

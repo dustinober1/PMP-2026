@@ -1,5 +1,6 @@
 
 <script setup>
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
@@ -479,5 +480,15 @@ BEST CHOICE: Option with highest EMV
 - Experiment safe-to-fail boundaries defined
 - Escalation path clear
 
-
-
+<FlashcardCarousel :cards="[
+  { front: `What is included in a Risk Register?`, back: `Risk ID, description, probability, impact, EMV, response strategy, action owner, due date, status.` },
+  { front: `What is a Risk Probability-Impact Matrix?`, back: `Grid showing how risks plot based on probability (0-100%) and impact (Low-Medium-High) to prioritize responses.` },
+  { front: `How do you interpret a Monte Carlo output?`, back: `The distribution shows most likely outcome (peak), range of possibilities, and probability of overrun.` },
+  { front: `What is a Decision Tree?`, back: `Visual showing decision nodes and probability branches to calculate expected value of different choices.` },
+  { front: `What is a Sensitivity Analysis?`, back: `Identifying which project variables have greatest impact on success - focus mitigation efforts on those.` },
+  { front: `What should a Quality Checklist include?`, back: `Acceptance criteria, test cases, quality standards, inspection points, and sign-off requirements.` },
+  { front: `What is a Quality Audit?`, back: `Independent review of compliance with quality standards, processes, and requirements across project.` },
+  { front: `What should a Risk Trigger Log include?`, back: `Risk ID, trigger description, owner who monitors, action if triggered, and escalation path.` },
+  { front: `What is a Lessons Learned Log?`, back: `Document capturing what worked, what didn't, and improvements for future projects throughout execution.` },
+  { front: `How should a Risk Register be maintained?`, back: `Updated at least weekly, reviewed in status meetings, owners assigned for each risk, and escalated when needed.` }
+]" />

@@ -281,46 +281,16 @@ If your project collects or uses personal data (especially for AI training), exa
 
 ## Quick Review
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Who is ultimately responsible for project compliance?', 
-    back: 'The Project Manager, though they may delegate actual monitoring to specific leads.' 
-  },
-  { 
-    front: 'What is a \'Compliance Register\'?', 
-    back: 'A dedicated document tracking all legal, regulatory, and safety requirements for the project.' 
-  },
-  { 
-    front: 'What are \'Cost of Quality\' components in compliance?', 
-    back: 'Prevention (Training), Appraisal (Audits), and Failure (Fine/Lawsuits).' 
-  },
-  { 
-    front: 'How does a Project Governance Board differ from a PMO?', 
-    back: 'Governance focuses on authority and decision-making for a specific project; PMO focuses on standardization across all projects.' 
-  },
-  { 
-    front: 'What is \'Quality Audit\' in the context of compliance?', 
-    back: 'A structured, independent process to determine if project activities comply with organizational and project policies.' 
-  },
-  { 
-    front: 'What is the Priority Rule when laws and policies conflict?', 
-    back: 'Laws and safety always win. You cannot trade safety or legality for schedule or cost.' 
-  },
-  { 
-    front: 'What are PMI\'s four core ethical values?', 
-    back: 'Responsibility, Respect, Fairness, and Honesty.' 
-  },
-  { 
-    front: 'What is the difference between Governance and Management?', 
-    back: 'Governance sets direction (We are going North); Management executes (Here is the map to get North).' 
-  },
-  { 
-    front: 'How does Agile governance differ from Traditional governance?', 
-    back: 'Agile uses System Demos and Retrospectives instead of Phase Gates, focusing on working software rather than documents.' 
-  },
-  { 
-    front: 'What are the 5 principles of Data Privacy?', 
-    back: 'Minimize, Consent, Secure, Retention, and Document.' 
-  }
+  { front: `Who is ultimately responsible for project compliance?`, back: `The Project Manager, though they may delegate actual monitoring to specific leads.` },
+  { front: `What is a \\'Compliance Register\\'?`, back: `A dedicated document tracking all legal, regulatory, and safety requirements for the project.` },
+  { front: `What are \\'Cost of Quality\\' components in compliance?`, back: `Prevention (Training), Appraisal (Audits), and Failure (Fine/Lawsuits).` },
+  { front: `How does a Project Governance Board differ from a PMO?`, back: `Governance focuses on authority and decision-making for a specific project; PMO focuses on standardization across all projects.` },
+  { front: `What is \\'Quality Audit\\' in the context of compliance?`, back: `A structured, independent process to determine if project activities comply with organizational and project policies.` },
+  { front: `What is the Priority Rule when laws and policies conflict?`, back: `Laws and safety always win. You cannot trade safety or legality for schedule or cost.` },
+  { front: `What are PMI\\'s four core ethical values?`, back: `Responsibility, Respect, Fairness, and Honesty.` },
+  { front: `What is the difference between Governance and Management?`, back: `Governance sets direction (We are going North); Management executes (Here is the map to get North).` },
+  { front: `How does Agile governance differ from Traditional governance?`, back: `Agile uses System Demos and Retrospectives instead of Phase Gates, focusing on working software rather than documents.` },
+  { front: `What are the 5 principles of Data Privacy?`, back: `Minimize, Consent, Secure, Retention, and Document.` }
 ]" />
 
 

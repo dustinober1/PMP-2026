@@ -1188,44 +1188,14 @@ Why wasn't this identified earlier?
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Output vs. Outcome vs. Benefit vs. Value?', 
-    back: 'Output = deliverable. Outcome = behavior change. Benefit = measurable improvement. Value = strategic worth.' 
-  },
-  { 
-    front: 'What is WSJF?', 
-    back: 'Weighted Shortest Job First = Cost of Delay / Job Duration - prioritizes highest value, lowest effort.' 
-  },
-  { 
-    front: 'NPV Rule for project selection?', 
-    back: 'NPV > 0 = accept (adds value). NPV = 0 = break even. NPV < 0 = reject (destroys value).' 
-  },
-  { 
-    front: 'What is ADKAR for change enablement?', 
-    back: 'Awareness, Desire, Knowledge, Ability, Reinforcement - for individual adoption.' 
-  },
-  { 
-    front: 'Verify vs. Validate?', 
-    back: 'Verify = did we build it right? (meets specs). Validate = did we build the right thing? (meets needs).' 
-  },
-  { 
-    front: 'What are leading vs. lagging indicators?', 
-    back: 'Leading = predict future (adoption trends). Lagging = measure past (revenue realized).' 
-  },
-  { 
-    front: 'What is the Kano Model?', 
-    back: 'Categorizes features by satisfaction impact: Basic (must-have), Performance (linear), Delighters (excitement).' 
-  },
-  { 
-    front: 'What are the 4 Balanced Scorecard perspectives?', 
-    back: 'Financial, Customer, Internal Process, Learning and Growth.' 
-  },
-  { 
-    front: 'What is PDCA?', 
-    back: 'Plan-Do-Check-Act - continuous improvement cycle (Deming Cycle).' 
-  },
-  { 
-    front: 'NPS Formula?', 
-    back: 'NPS = % Promoters (9-10) minus % Detractors (0-6).' 
-  }
+  { front: `Output vs. Outcome vs. Benefit vs. Value?`, back: `Output = deliverable. Outcome = behavior change. Benefit = measurable improvement. Value = strategic worth.` },
+  { front: `What is WSJF?`, back: `Weighted Shortest Job First = Cost of Delay / Job Duration - prioritizes highest value, lowest effort.` },
+  { front: `NPV Rule for project selection?`, back: `NPV > 0 = accept (adds value). NPV = 0 = break even. NPV < 0 = reject (destroys value).` },
+  { front: `What is ADKAR for change enablement?`, back: `Awareness, Desire, Knowledge, Ability, Reinforcement - for individual adoption.` },
+  { front: `Verify vs. Validate?`, back: `Verify = did we build it right? (meets specs). Validate = did we build the right thing? (meets needs).` },
+  { front: `What are leading vs. lagging indicators?`, back: `Leading = predict future (adoption trends). Lagging = measure past (revenue realized).` },
+  { front: `What is the Kano Model?`, back: `Categorizes features by satisfaction impact: Basic (must-have), Performance (linear), Delighters (excitement).` },
+  { front: `What are the 4 Balanced Scorecard perspectives?`, back: `Financial, Customer, Internal Process, Learning and Growth.` },
+  { front: `What is PDCA?`, back: `Plan-Do-Check-Act - continuous improvement cycle (Deming Cycle).` },
+  { front: `NPS Formula?`, back: `NPS = % Promoters (9-10) minus % Detractors (0-6).` }
 ]" />

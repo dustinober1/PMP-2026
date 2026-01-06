@@ -413,3 +413,16 @@ A single data point can be an outlier. Always look for **trends** (3+ data point
 - EV is always in the numerator of indices
 - EV is always on the left side of variance formulas
 :::
+
+<FlashcardCarousel :cards="[
+  { front: `Why is data important in project management?`, back: `Data provides objective evidence to replace gut feelings and enable evidence-based decision-making.` },
+  { front: `What are project metrics?`, back: `Measurable indicators tracking project performance (schedule, cost, quality, scope) against baselines.` },
+  { front: `What is Earned Value Management (EVM)?`, back: `A method integrating scope, schedule, and cost using metrics like Earned Value, Planned Value, and Actual Cost.` },
+  { front: `What is Schedule Performance Index (SPI)?`, back: `EV / PV - measures schedule efficiency. >1 means ahead of schedule, <1 means behind.` },
+  { front: `What is Cost Performance Index (CPI)?`, back: `EV / AC - measures cost efficiency. >1 means under budget, <1 means over budget.` },
+  { front: `What is a performance baseline?`, back: `An approved, frozen plan (scope, schedule, cost) used to measure and track project progress.` },
+  { front: `How is data used in decision-making?`, back: `PMs compare actual performance to baselines, identify variances, and make informed decisions about corrective action.` },
+  { front: `What is a variance?`, back: `The difference between planned performance (baseline) and actual performance (current status).` },
+  { front: `Should you make project decisions on data or intuition?`, back: `Data first - use metrics and trends to drive decisions. Intuition can supplement but not replace data.` },
+  { front: `How does AI/analytics support project management?`, back: `AI can forecast schedule/cost, identify risk patterns, optimize resource allocation, and flag anomalies.` }
+]" />

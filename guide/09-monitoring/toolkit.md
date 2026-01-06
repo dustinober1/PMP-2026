@@ -613,16 +613,16 @@ Use this quick assessment to determine if the project is ready for formal closur
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { front: 'Monitoring vs. Controlling?', back: 'Monitoring = Collecting data/tracking. Controlling = Correcting variances (Action).' },
-  { front: 'Variance vs. Trend Analysis?', back: 'Variance = Snapshot (Actual vs. Planned). Trend = Over time (improving or degrading?).' },
-  { front: 'What is a Burnup Chart?', back: 'Tracks work COMPLETED over time (shows scope changes clearly). Better than Burndown for scope creep visibility.' },
-  { front: 'Definition of Done (DoD) in Monitoring?', back: 'The primary quality gate. Work is not \'complete\' until it meets DoD.' },
-  { front: 'Control Chart: Rule of 7?', back: 'Process is out of control if 7 consecutive data points are on one side of the mean.' },
-  { front: 'Ishikawa (Fishbone) Diagram?', back: 'Cause-and-effect tool used for Root Cause Analysis (RCA).' },
-  { front: 'Pareto Chart (80/20 Rule)?', back: 'Histogram ordered by frequency. Shows that 80% of defects come from 20% of causes.' },
-  { front: 'Validate Scope vs. Control Quality?', back: 'Validate Scope = Customer accepts deliverables. Control Quality = Internally verifying correctness first.' },
-  { front: 'What goes in the Final Report?', back: 'Summary of performance (Scope/Schedule/Cost), whether objectives were met, and benefits realization status.' },
-  { front: 'Escalation Path for Issues?', back: 'Team -> PM -> Functional Manager (Resources) or Sponsor (Budget/Strategy).' }
+  { front: `Monitoring vs. Controlling?`, back: `Monitoring = Collecting data/tracking. Controlling = Correcting variances (Action).` },
+  { front: `Variance vs. Trend Analysis?`, back: `Variance = Snapshot (Actual vs. Planned). Trend = Over time (improving or degrading?).` },
+  { front: `What is a Burnup Chart?`, back: `Tracks work COMPLETED over time (shows scope changes clearly). Better than Burndown for scope creep visibility.` },
+  { front: `Definition of Done (DoD) in Monitoring?`, back: `The primary quality gate. Work is not \\'complete\\' until it meets DoD.` },
+  { front: `Control Chart: Rule of 7?`, back: `Process is out of control if 7 consecutive data points are on one side of the mean.` },
+  { front: `Ishikawa (Fishbone) Diagram?`, back: `Cause-and-effect tool used for Root Cause Analysis (RCA).` },
+  { front: `Pareto Chart (80/20 Rule)?`, back: `Histogram ordered by frequency. Shows that 80% of defects come from 20% of causes.` },
+  { front: `Validate Scope vs. Control Quality?`, back: `Validate Scope = Customer accepts deliverables. Control Quality = Internally verifying correctness first.` },
+  { front: `What goes in the Final Report?`, back: `Summary of performance (Scope/Schedule/Cost), whether objectives were met, and benefits realization status.` },
+  { front: `Escalation Path for Issues?`, back: `Team -> PM -> Functional Manager (Resources) or Sponsor (Budget/Strategy).` }
 ]" />
 
 

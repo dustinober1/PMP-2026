@@ -184,44 +184,14 @@ Think of the PMO as a **servant leader** to your project. Its goal is to remove 
 
 ## Quick Review
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Which PMO type provides templates but has low control?', 
-    back: 'Supportive PMO.' 
-  },
-  { 
-    front: 'In which PMO type do Project Managers report directly to the PMO?', 
-    back: 'Directive PMO.' 
-  },
-  { 
-    front: 'What is the PMO\'s role in methodology tailoring?', 
-    back: 'Providing governance and expert advice on the best approach (Agile, Waterfall, or Hybrid) for a specific project.' 
-  },
-  { 
-    front: 'True or False: A PMO provides the project budget.', 
-    back: 'False. The Sponsor or Functional Manager typically provides the budget; the PMO provides standardization and support.' 
-  },
-  { 
-    front: 'What is a \'Center of Excellence\' PMO?', 
-    back: 'A PMO model that focuses on capability building and knowledge sharing rather than direct project oversight.' 
-  },
-  { 
-    front: 'What is a Controlling PMO?', 
-    back: 'A PMO with moderate control that mandates frameworks, tools, and performs audits.' 
-  },
-  { 
-    front: 'What are the four focus areas of a Modern PMO?', 
-    back: 'Strategic Alignment, Benefits Tracking, Capability Building, and Change Management.' 
-  },
-  { 
-    front: 'When should you go to the PMO vs the Sponsor?', 
-    back: 'PMO for templates, methodology, and cross-project resources; Sponsor for budget approval and business decisions.' 
-  },
-  { 
-    front: 'What is the Hub-and-Spoke PMO model?', 
-    back: 'A model where a central PMO sets standards while local PMOs execute, balancing control and flexibility.' 
-  },
-  { 
-    front: 'How can AI enhance PMO services?', 
-    back: 'Through predictive analytics, automated reporting, resource optimization, risk identification, and lessons learned mining.' 
-  }
+  { front: `Which PMO type provides templates but has low control?`, back: `Supportive PMO.` },
+  { front: `In which PMO type do Project Managers report directly to the PMO?`, back: `Directive PMO.` },
+  { front: `What is the PMO\\'s role in methodology tailoring?`, back: `Providing governance and expert advice on the best approach (Agile, Waterfall, or Hybrid) for a specific project.` },
+  { front: `True or False: A PMO provides the project budget.`, back: `False. The Sponsor or Functional Manager typically provides the budget; the PMO provides standardization and support.` },
+  { front: `What is a \\'Center of Excellence\\' PMO?`, back: `A PMO model that focuses on capability building and knowledge sharing rather than direct project oversight.` },
+  { front: `What is a Controlling PMO?`, back: `A PMO with moderate control that mandates frameworks, tools, and performs audits.` },
+  { front: `What are the four focus areas of a Modern PMO?`, back: `Strategic Alignment, Benefits Tracking, Capability Building, and Change Management.` },
+  { front: `When should you go to the PMO vs the Sponsor?`, back: `PMO for templates, methodology, and cross-project resources; Sponsor for budget approval and business decisions.` },
+  { front: `What is the Hub-and-Spoke PMO model?`, back: `A model where a central PMO sets standards while local PMOs execute, balancing control and flexibility.` },
+  { front: `How can AI enhance PMO services?`, back: `Through predictive analytics, automated reporting, resource optimization, risk identification, and lessons learned mining.` }
 ]" />

@@ -535,46 +535,16 @@ Many organizations use a tiered change authority:
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What is the 100% Rule in a WBS?', 
-    back: 'The WBS must include 100% of the work defined by the project scope—and only the project work.' 
-  },
-  { 
-    front: 'What 3 items make up the Scope Baseline?', 
-    back: '1. Project Scope Statement, 2. WBS, 3. WBS Dictionary.' 
-  },
-  { 
-    front: 'What is Scope Creep?', 
-    back: 'The uncontrolled expansion of project scope without adjustments to time, cost, and resources.' 
-  },
-  { 
-    front: 'What is Gold Plating?', 
-    back: 'When the team adds extra features not requested by the customer (even if they think it adds value).' 
-  },
-  { 
-    front: 'Product Scope vs. Project Scope?', 
-    back: 'Product Scope = Features/functions of the result. Project Scope = Work required to deliver those features.' 
-  },
-  { 
-    front: 'What does the WBS Dictionary contain?', 
-    back: 'Detailed specs for each WBS element: description, acceptance criteria, cost, duration, resources, and dependencies.' 
-  },
-  { 
-    front: 'What is the RTM used for?', 
-    back: 'Requirements Traceability Matrix links requirements to their origin and the deliverables and tests that satisfy them.' 
-  },
-  { 
-    front: 'What does MoSCoW stand for?', 
-    back: 'Must Have, Should Have, Could Have, and Won\'t Have - a prioritization method for requirements.' 
-  },
-  { 
-    front: 'What is the difference between Acceptance Criteria and DoD?', 
-    back: 'Acceptance Criteria is specific to one story; Definition of Done applies to ALL stories (team quality checklist).' 
-  },
-  { 
-    front: 'Validate Scope vs. Control Scope?', 
-    back: 'Validate Scope = formal acceptance of deliverables. Control Scope = monitoring status and managing changes.' 
-  }
+  { front: `What is the 100% Rule in a WBS?`, back: `The WBS must include 100% of the work defined by the project scope—and only the project work.` },
+  { front: `What 3 items make up the Scope Baseline?`, back: `1. Project Scope Statement, 2. WBS, 3. WBS Dictionary.` },
+  { front: `What is Scope Creep?`, back: `The uncontrolled expansion of project scope without adjustments to time, cost, and resources.` },
+  { front: `What is Gold Plating?`, back: `When the team adds extra features not requested by the customer (even if they think it adds value).` },
+  { front: `Product Scope vs. Project Scope?`, back: `Product Scope = Features/functions of the result. Project Scope = Work required to deliver those features.` },
+  { front: `What does the WBS Dictionary contain?`, back: `Detailed specs for each WBS element: description, acceptance criteria, cost, duration, resources, and dependencies.` },
+  { front: `What is the RTM used for?`, back: `Requirements Traceability Matrix links requirements to their origin and the deliverables and tests that satisfy them.` },
+  { front: `What does MoSCoW stand for?`, back: `Must Have, Should Have, Could Have, and Won\\'t Have - a prioritization method for requirements.` },
+  { front: `What is the difference between Acceptance Criteria and DoD?`, back: `Acceptance Criteria is specific to one story; Definition of Done applies to ALL stories (team quality checklist).` },
+  { front: `Validate Scope vs. Control Scope?`, back: `Validate Scope = formal acceptance of deliverables. Control Scope = monitoring status and managing changes.` }
 ]" />
 
 ::: tip  Exam Insight

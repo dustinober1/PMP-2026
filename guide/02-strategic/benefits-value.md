@@ -52,45 +52,15 @@ Traditional PM focused on Scope, Time, and Cost. The modern PM focuses on the **
 
 ##  Quick Review
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What is the difference between MVP and MBI?', 
-    back: 'MVP (Minimum Viable Product) is for learning/risk reduction; MBI (Minimum Business Increment) is for releasing value/generating ROI.' 
-  },
-  { 
-    front: 'What is the Benefits Owner responsible for?', 
-    back: 'Ensuring the project deliverables actually generate the promised revenue or savings after the project closes.' 
-  },
-  { 
-    front: 'What are the three pillars of the Triple Bottom Line?', 
-    back: 'Profit, People, and Planet.' 
-  },
-  { 
-    front: 'Should a PM choose a cheaper vendor who violates human rights?', 
-    back: 'No. Ethics and ESG policies trump financial profit on the PMP exam.' 
-  },
-  { 
-    front: 'When is value usually realized in a project lifecycle?', 
-    back: 'Usually after the project ends, once the deliverables are adopted and used by the business.' 
-  },
-  { 
-    front: 'What are the five stages of the Value Delivery System?', 
-    back: 'Idea/Opportunity, Selection, Delivery, Adoption, and Realization.' 
-  },
-  { 
-    front: 'Why does the PMP exam reward incremental delivery?', 
-    back: 'Because value is discovered and confirmed over time through early validation and feedback.' 
-  },
-  { 
-    front: 'What is the \'Profit\' pillar of the Triple Bottom Line?', 
-    back: 'Financial viability including ROI, NPV, and cost savings.' 
-  },
-  { 
-    front: 'What is the \'People\' pillar of the Triple Bottom Line?', 
-    back: 'Social impact including improved lives for employees and the community.' 
-  },
-  { 
-    front: 'What is the \'Planet\' pillar of the Triple Bottom Line?', 
-    back: 'Environmental sustainability including carbon footprint reduction and waste management.' 
-  }
+  { front: `What is the difference between MVP and MBI?`, back: `MVP (Minimum Viable Product) is for learning/risk reduction; MBI (Minimum Business Increment) is for releasing value/generating ROI.` },
+  { front: `What is the Benefits Owner responsible for?`, back: `Ensuring the project deliverables actually generate the promised revenue or savings after the project closes.` },
+  { front: `What are the three pillars of the Triple Bottom Line?`, back: `Profit, People, and Planet.` },
+  { front: `Should a PM choose a cheaper vendor who violates human rights?`, back: `No. Ethics and ESG policies trump financial profit on the PMP exam.` },
+  { front: `When is value usually realized in a project lifecycle?`, back: `Usually after the project ends, once the deliverables are adopted and used by the business.` },
+  { front: `What are the five stages of the Value Delivery System?`, back: `Idea/Opportunity, Selection, Delivery, Adoption, and Realization.` },
+  { front: `Why does the PMP exam reward incremental delivery?`, back: `Because value is discovered and confirmed over time through early validation and feedback.` },
+  { front: `What is the \\'Profit\\' pillar of the Triple Bottom Line?`, back: `Financial viability including ROI, NPV, and cost savings.` },
+  { front: `What is the \\'People\\' pillar of the Triple Bottom Line?`, back: `Social impact including improved lives for employees and the community.` },
+  { front: `What is the \\'Planet\\' pillar of the Triple Bottom Line?`, back: `Environmental sustainability including carbon footprint reduction and waste management.` }
 ]" />
 

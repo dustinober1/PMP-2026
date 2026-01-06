@@ -87,46 +87,16 @@ A healthy portfolio is a balanced mix of investments.
 
 ##  Quick Review
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What is the primary focus of Portfolio Management?', 
-    back: 'Investment decisions: prioritizing and balancing projects to achieve strategic objectives.' 
-  },
-  { 
-    front: 'What are WIP Limits in Portfolio Management?', 
-    back: 'Reducing the number of active projects to prevent spreading resources too thin (\'resource peanut-butter\').' 
-  },
-  { 
-    front: 'What is a \'transform\' investment in a balanced portfolio?', 
-    back: 'A high-risk, high-reward initiative or \'moonshot\' aimed at creating new markets.' 
-  },
-  { 
-    front: 'When should a Portfolio Manager recommend stopping a project?', 
-    back: 'When it no longer aligns with organizational strategy or the expected value has evaporated.' 
-  },
-  { 
-    front: 'True or False: Programs are broader in scope than Portfolios.', 
-    back: 'False. Portfolios are the broadest, containing multiple programs and projects.' 
-  },
-  { 
-    front: 'What are the three investment categories in portfolio balancing?', 
-    back: 'Transform (high-risk moonshots), Grow (medium-risk expansion), and Run (low-risk maintenance).' 
-  },
-  { 
-    front: 'What are the 7 steps of the Portfolio Governance Cycle?', 
-    back: 'Intake, Evaluate, Prioritize, Authorize, Monitor, Rebalance, and Retire.' 
-  },
-  { 
-    front: 'What can a Portfolio include besides projects?', 
-    back: 'Programs (coordinated projects for benefits) and Operational work (ongoing business investments).' 
-  },
-  { 
-    front: 'What is the difference between Project success and Portfolio success?', 
-    back: 'Project success is Time, Cost, Quality; Portfolio success is aggregate investment performance and strategic value.' 
-  },
-  { 
-    front: 'What does \'rebalancing\' mean in portfolio management?', 
-    back: 'Reallocating budget and resources when strategy or constraints change.' 
-  }
+  { front: `What is the primary focus of Portfolio Management?`, back: `Investment decisions: prioritizing and balancing projects to achieve strategic objectives.` },
+  { front: `What are WIP Limits in Portfolio Management?`, back: `Reducing the number of active projects to prevent spreading resources too thin (\\'resource peanut-butter\\').` },
+  { front: `What is a \\'transform\\' investment in a balanced portfolio?`, back: `A high-risk, high-reward initiative or \\'moonshot\\' aimed at creating new markets.` },
+  { front: `When should a Portfolio Manager recommend stopping a project?`, back: `When it no longer aligns with organizational strategy or the expected value has evaporated.` },
+  { front: `True or False: Programs are broader in scope than Portfolios.`, back: `False. Portfolios are the broadest, containing multiple programs and projects.` },
+  { front: `What are the three investment categories in portfolio balancing?`, back: `Transform (high-risk moonshots), Grow (medium-risk expansion), and Run (low-risk maintenance).` },
+  { front: `What are the 7 steps of the Portfolio Governance Cycle?`, back: `Intake, Evaluate, Prioritize, Authorize, Monitor, Rebalance, and Retire.` },
+  { front: `What can a Portfolio include besides projects?`, back: `Programs (coordinated projects for benefits) and Operational work (ongoing business investments).` },
+  { front: `What is the difference between Project success and Portfolio success?`, back: `Project success is Time, Cost, Quality; Portfolio success is aggregate investment performance and strategic value.` },
+  { front: `What does \\'rebalancing\\' mean in portfolio management?`, back: `Reallocating budget and resources when strategy or constraints change.` }
 ]" />
 
 ---

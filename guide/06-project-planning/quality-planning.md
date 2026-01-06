@@ -464,46 +464,16 @@ A comprehensive Quality Management Plan includes:
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'QA vs. QC?', 
-    back: 'QA (Manage Quality) is process-focused (preventing defects). QC (Control Quality) is product-focused (finding defects).' 
-  },
-  { 
-    front: 'What is the Rule of Seven in a Control Chart?', 
-    back: 'Seven consecutive points on one side of the mean indicates the process is \'out of control\' and needs investigation.' 
-  },
-  { 
-    front: 'What is a Pareto Chart used for?', 
-    back: 'To prioritize problems by frequency or impact, based on the 80/20 rule (80% of problems come from 20% of causes).' 
-  },
-  { 
-    front: 'Quality vs. Grade?', 
-    back: 'High Quality = meets requirements (defects are low). High Grade = extra features. Low grade is okay, low quality is NOT.' 
-  },
-  { 
-    front: 'What is the goal of a Fishbone Diagram?', 
-    back: 'To identify the root cause of a specific problem or defect.' 
-  },
-  { 
-    front: 'What are the four categories of Cost of Quality?', 
-    back: 'Prevention costs, Appraisal costs, Internal failure costs, and External failure costs.' 
-  },
-  { 
-    front: 'What is a Control Chart used to monitor?', 
-    back: 'Process stability over time - it shows whether variation is within normal limits (common cause) or abnormal (special cause).' 
-  },
-  { 
-    front: 'What is a Histogram used for?', 
-    back: 'To show the frequency distribution of data and identify patterns like normal distribution or skewness.' 
-  },
-  { 
-    front: 'Prevention vs. Appraisal costs?', 
-    back: 'Prevention = training, design reviews (before defects). Appraisal = testing, inspections (finding defects).' 
-  },
-  { 
-    front: 'What is the key quality principle for PMP?', 
-    back: 'Prevention over Inspection - build quality in from the start, as prevention costs less than finding/fixing defects later.' 
-  }
+  { front: `QA vs. QC?`, back: `QA (Manage Quality) is process-focused (preventing defects). QC (Control Quality) is product-focused (finding defects).` },
+  { front: `What is the Rule of Seven in a Control Chart?`, back: `Seven consecutive points on one side of the mean indicates the process is \\'out of control\\' and needs investigation.` },
+  { front: `What is a Pareto Chart used for?`, back: `To prioritize problems by frequency or impact, based on the 80/20 rule (80% of problems come from 20% of causes).` },
+  { front: `Quality vs. Grade?`, back: `High Quality = meets requirements (defects are low). High Grade = extra features. Low grade is okay, low quality is NOT.` },
+  { front: `What is the goal of a Fishbone Diagram?`, back: `To identify the root cause of a specific problem or defect.` },
+  { front: `What are the four categories of Cost of Quality?`, back: `Prevention costs, Appraisal costs, Internal failure costs, and External failure costs.` },
+  { front: `What is a Control Chart used to monitor?`, back: `Process stability over time - it shows whether variation is within normal limits (common cause) or abnormal (special cause).` },
+  { front: `What is a Histogram used for?`, back: `To show the frequency distribution of data and identify patterns like normal distribution or skewness.` },
+  { front: `Prevention vs. Appraisal costs?`, back: `Prevention = training, design reviews (before defects). Appraisal = testing, inspections (finding defects).` },
+  { front: `What is the key quality principle for PMP?`, back: `Prevention over Inspection - build quality in from the start, as prevention costs less than finding/fixing defects later.` }
 ]" />
 
 ::: tip  Exam Insight

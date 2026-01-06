@@ -15,18 +15,9 @@ Delivering a project on time and under budget is a failure if it doesn't create 
 ---
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Output (Project Deliverable)', 
-    back: 'What you build (e.g., automated software deployed).' 
-  },
-  { 
-    front: 'Outcome (Behavior Change)', 
-    back: 'How users respond (e.g., employees stop using spreadsheets).' 
-  },
-  { 
-    front: 'Benefit (Strategic Value)', 
-    back: 'Measurable result (e.g., $250k annual administrative savings).' 
-  }
+  { front: `Output (Project Deliverable)`, back: `What you build (e.g., automated software deployed).` },
+  { front: `Outcome (Behavior Change)`, back: `How users respond (e.g., employees stop using spreadsheets).` },
+  { front: `Benefit (Strategic Value)`, back: `Measurable result (e.g., $250k annual administrative savings).` }
 ]" />
 
 ---
@@ -103,45 +94,15 @@ In the 2026 exam, AI is often a tool for value creation.
 
 ##  Quick Review
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What is a \'Leading Indicator\' for benefits?', 
-    back: 'Early signals such as training completion or adoption rate that suggest benefits will eventually be realized.' 
-  },
-  { 
-    front: 'What is a \'Lagging Indicator\' for benefits?', 
-    back: 'Final confirmation of value, such as revenue increase or cost savings.' 
-  },
-  { 
-    front: 'Who owns the realization of the benefit after project transition?', 
-    back: 'The Business Owner or Sponsor (The PM owns the Output).' 
-  },
-  { 
-    front: 'What should a PM do if benefits don\'t appear after project closure?', 
-    back: 'Recommend a Post-Implementation Review to identify adoption barriers.' 
-  },
-  { 
-    front: 'Give an example of a non-financial benefit.', 
-    back: 'Customer Satisfaction (NPS), Employee Engagement, or Risk Mitigation.' 
-  },
-  { 
-    front: 'What is the difference between an Output and an Outcome?', 
-    back: 'Output is what you build (deliverable); Outcome is how users respond (behavior change).' 
-  },
-  { 
-    front: 'What are the key elements of a Benefits Realization Plan?', 
-    back: 'Benefit statement, KPI/baseline, target/timeframe, benefits owner, measurement method, assumptions, and sustainment actions.' 
-  },
-  { 
-    front: 'What is the relationship between ROI and NPV?', 
-    back: 'ROI measures return relative to cost ((Benefits-Costs)/Costs); NPV measures future cash flows in today\'s dollars.' 
-  },
-  { 
-    front: 'What is the Benefits Lifecycle?', 
-    back: 'Identification, Planning, Execution, Transition, and Sustainment.' 
-  },
-  { 
-    front: 'How does AI contribute to value creation in projects?', 
-    back: 'AI can automate detection (Output), change user behavior (Outcome), and deliver measurable improvements like cost reduction (Benefit).' 
-  }
+  { front: `What is a \\'Leading Indicator\\' for benefits?`, back: `Early signals such as training completion or adoption rate that suggest benefits will eventually be realized.` },
+  { front: `What is a \\'Lagging Indicator\\' for benefits?`, back: `Final confirmation of value, such as revenue increase or cost savings.` },
+  { front: `Who owns the realization of the benefit after project transition?`, back: `The Business Owner or Sponsor (The PM owns the Output).` },
+  { front: `What should a PM do if benefits don\\'t appear after project closure?`, back: `Recommend a Post-Implementation Review to identify adoption barriers.` },
+  { front: `Give an example of a non-financial benefit.`, back: `Customer Satisfaction (NPS), Employee Engagement, or Risk Mitigation.` },
+  { front: `What is the difference between an Output and an Outcome?`, back: `Output is what you build (deliverable); Outcome is how users respond (behavior change).` },
+  { front: `What are the key elements of a Benefits Realization Plan?`, back: `Benefit statement, KPI/baseline, target/timeframe, benefits owner, measurement method, assumptions, and sustainment actions.` },
+  { front: `What is the relationship between ROI and NPV?`, back: `ROI measures return relative to cost ((Benefits-Costs)/Costs); NPV measures future cash flows in today\\'s dollars.` },
+  { front: `What is the Benefits Lifecycle?`, back: `Identification, Planning, Execution, Transition, and Sustainment.` },
+  { front: `How does AI contribute to value creation in projects?`, back: `AI can automate detection (Output), change user behavior (Outcome), and deliver measurable improvements like cost reduction (Benefit).` }
 ]" />
 

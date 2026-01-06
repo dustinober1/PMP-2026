@@ -97,46 +97,16 @@ A TPA is a regular, intentional check-in on how well the team is functioning.
 ## Quick Review: Team Development
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Forming Style', 
-    back: 'Directing (S1). Provide clear structure and defined roles for a new team.' 
-  },
-  { 
-    front: 'Storming Goal', 
-    back: 'Facilitate conflict and build trust/psychological safety to reach Norming.' 
-  },
-  { 
-    front: 'Performing Style', 
-    back: 'Delegating (S4). Trust the team to self-organize and stay out of their way.' 
-  },
-  { 
-    front: 'Project Aristotle #1 Factor', 
-    back: 'Psychological Safety—the belief that one won\'t be punished for speaking up.' 
-  },
-  { 
-    front: 'What are the five Tuckman stages?', 
-    back: 'Forming, Storming, Norming, Performing, and Adjourning.' 
-  },
-  { 
-    front: 'What happens when a new member joins a Performing team?', 
-    back: 'The team often regresses back to Storming - be prepared to shift back to Coaching style.' 
-  },
-  { 
-    front: 'What is the Norming stage leadership style?', 
-    back: 'Supporting (S3) - Low direction, high support. Facilitate shared decision-making.' 
-  },
-  { 
-    front: 'What are the 4 factors from Project Aristotle?', 
-    back: 'Psychological Safety, Dependability, Structure and Clarity, and Meaning and Impact.' 
-  },
-  { 
-    front: 'What are key Team Performance Assessment metrics?', 
-    back: 'Velocity, Cycle Time, Defect Rate, and Escaped Defects.' 
-  },
-  { 
-    front: 'What should a PM do during the Adjourning stage?', 
-    back: 'Focus on recognition, lessons learned, and transition support for team members.' 
-  }
+  { front: `Forming Style`, back: `Directing (S1). Provide clear structure and defined roles for a new team.` },
+  { front: `Storming Goal`, back: `Facilitate conflict and build trust/psychological safety to reach Norming.` },
+  { front: `Performing Style`, back: `Delegating (S4). Trust the team to self-organize and stay out of their way.` },
+  { front: `Project Aristotle #1 Factor`, back: `Psychological Safety—the belief that one won\\'t be punished for speaking up.` },
+  { front: `What are the five Tuckman stages?`, back: `Forming, Storming, Norming, Performing, and Adjourning.` },
+  { front: `What happens when a new member joins a Performing team?`, back: `The team often regresses back to Storming - be prepared to shift back to Coaching style.` },
+  { front: `What is the Norming stage leadership style?`, back: `Supporting (S3) - Low direction, high support. Facilitate shared decision-making.` },
+  { front: `What are the 4 factors from Project Aristotle?`, back: `Psychological Safety, Dependability, Structure and Clarity, and Meaning and Impact.` },
+  { front: `What are key Team Performance Assessment metrics?`, back: `Velocity, Cycle Time, Defect Rate, and Escaped Defects.` },
+  { front: `What should a PM do during the Adjourning stage?`, back: `Focus on recognition, lessons learned, and transition support for team members.` }
 ]" />
 
 ::: tip  Exam Insight

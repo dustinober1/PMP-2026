@@ -83,25 +83,14 @@ You cannot "order" a stakeholder to like your project. You must earn it.
 ## Quick Review: Stakeholders & Comm
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Communication Channels', 
-    back: 'Formula: N(N-1)/2. Complexity grows exponentially with every new team member.' 
-  },
-  { 
-    front: 'New Stakeholder Found', 
-    back: 'Step 1: Update Stakeholder Register. Step 2: Perform analysis/mapping.' 
-  },
-  { 
-    front: 'Engagement Assessment', 
-    back: 'Used to track \'Current\' vs \'Desired\' engagement status of key people.' 
-  },
-  { 
-    front: 'BATNA', 
-    back: 'Best Alternative To a Negotiated Agreement. Your \'walk-away\' point in negotiation.' 
-  }
+  { front: `What is stakeholder engagement?`, back: `Active involvement of stakeholders in project decisions, planning, and execution to gain buy-in and support.` },
+  { front: `What is the Salience Model?`, back: `Classifying stakeholders by Power (influence), Legitimacy (right), and Urgency (immediacy).` },
+  { front: `What are engagement levels for stakeholders?`, back: `Unaware, Resistant, Neutral, Supportive, and Leading (increasingly engaged).` },
+  { front: `What is a Stakeholder Engagement Matrix?`, back: `Grid mapping stakeholder interest vs influence to determine appropriate engagement strategies.` },
+  { front: `What should a Stakeholder Engagement Plan include?`, back: `Communication needs, engagement activities, responsible parties, timeline, and success measures.` },
+  { front: `How do you manage a hostile stakeholder?`, back: `Engage early, listen to concerns, address legitimate issues, and build understanding of project value.` },
+  { front: `What is stakeholder negotiation in project context?`, back: `Finding mutually acceptable solutions when stakeholder interests conflict with project objectives.` },
+  { front: `Why is early stakeholder identification critical?`, back: `Late discovery of powerful stakeholders can derail projects - early identification enables proactive engagement.` },
+  { front: `How do you manage expectations with stakeholders?`, back: `Be transparent about what can be delivered, set realistic timelines, and communicate trade-offs early.` },
+  { front: `What should you do if a stakeholder blocks the project?`, back: `Understand their concerns, offer alternatives, escalate if needed, and engage sponsors to build support.` }
 ]" />
-
-::: tip Exam Pattern
-If the question is about a **communication breakdown**, update the **Communications Management Plan**. If the question is about a **disengaged person**, update the **Stakeholder Engagement Plan**.
-:::
-

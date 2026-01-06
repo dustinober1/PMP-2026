@@ -1,3 +1,7 @@
+<script setup>
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
+</script>
+
 # 1.4 PMBOK 8th Edition Principles
 
 The PMBOK 8th Edition (released November 2025) consolidates the 12 principles from PMBOK 7 into **6 actionable core principles**. These principles form the foundation for the 2026 PMP exam and represent behaviors and mindsets that effective project managers should embody.
@@ -330,3 +334,19 @@ Principles-based questions on the 2026 exam may include:
   margin: 2rem 0;
 }
 </style>
+
+
+## Quick Review
+
+<FlashcardCarousel :cards="[
+  { front: `What is Embed Quality?`, back: `Building quality into processes and deliverables from the start, preventing defects rather than inspecting them out.` },
+  { front: `What does Be an Accountable Leader mean?`, back: `Taking responsibility for team outcomes, modeling integrity, and creating psychological safety for the team.` },
+  { front: `How does Integrate Sustainability apply?`, back: `Considering environmental impact, social responsibility, and long-term organizational value in all project decisions.` },
+  { front: `What is Build an Empowered Culture?`, back: `Creating an environment where team members have autonomy, clear authority, and trust to make decisions.` },
+  { front: `How do the 6 PMBOK principles integrate?`, back: `Holistic view provides context, Value guides decisions, Quality ensures delivery, Accountability drives execution, Sustainability ensures impact, Empowerment enables performance.` },
+  { front: `Which principle addresses business emphasis?`, back: `Focus on Value - aligning projects with strategic business outcomes and demonstrating measurable benefits.` },
+  { front: `How does Holistic View differ from traditional PM?`, back: `Traditional: manage project in isolation. Holistic: understand project role in broader organizational system and ecosystem.` },
+  { front: `How does Accountable Leader affect team performance?`, back: `Leaders create trust and psychological safety, enabling teams to take appropriate risks, learn from failures, and deliver quality.` },
+  { front: `How do PMBOK principles support exam decisions?`, back: `When facing competing priorities, evaluate options against all 6 principles to select the most balanced response.` },
+  { front: `Why is Embed Quality important in all delivery modes?`, back: `Predictive: prevents rework and cost overruns. Agile: ensures each increment meets standards and builds stakeholder confidence.` }
+]" />

@@ -112,45 +112,15 @@ If a question says adoption is low despite great training, the problem is likely
 
 ## Quick Review
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What is the first step in the ADKAR model?', 
-    back: 'Awareness (of the need for change).' 
-  },
-  { 
-    front: 'Which model uses \'Unfreeze, Change, Refreeze\'?', 
-    back: 'Lewin\'s Three-Stage Model.' 
-  },
-  { 
-    front: 'What does \'WIIFM\' stand for?', 
-    back: '\'What\'s In It For Me\' - the personal benefit that drives Desire in change.' 
-  },
-  { 
-    front: 'How many steps are in Kotter\'s change model?', 
-    back: '8 steps.' 
-  },
-  { 
-    front: 'What should a PM do if an organization is overwhelmed by 5 simultaneous changes?', 
-    back: 'Evaluate \'Change Saturation\' and recommend delaying or sequencing the changes to ensure adoption.' 
-  },
-  { 
-    front: 'What does the \'D\' in ADKAR stand for?', 
-    back: 'Desire - the personal motivation to participate in the change.' 
-  },
-  { 
-    front: 'If training is excellent but adoption is still low, what is likely the problem?', 
-    back: 'A Desire problem (motivation, fear, incentives), not a Knowledge problem.' 
-  },
-  { 
-    front: 'What is the \'Adoption Gap\'?', 
-    back: 'The chasm between Output (deliverable) and Outcome (behavior change) caused by lack of human adoption.' 
-  },
-  { 
-    front: 'What is the solution for a \'Won\'t Do It\' resistance type?', 
-    back: 'Address the Desire gap through WIIFM, addressing fears, and providing incentives.' 
-  },
-  { 
-    front: 'What is \'Reinforcement\' in the ADKAR model?', 
-    back: 'Actions to sustain the change and prevent people from reverting to old ways.' 
-  }
+  { front: `What is the first step in the ADKAR model?`, back: `Awareness (of the need for change).` },
+  { front: `Which model uses \\'Unfreeze, Change, Refreeze\\'?`, back: `Lewin\\'s Three-Stage Model.` },
+  { front: `What does \\'WIIFM\\' stand for?`, back: `\\'What\\'s In It For Me\\' - the personal benefit that drives Desire in change.` },
+  { front: `How many steps are in Kotter\\'s change model?`, back: `8 steps.` },
+  { front: `What should a PM do if an organization is overwhelmed by 5 simultaneous changes?`, back: `Evaluate \\'Change Saturation\\' and recommend delaying or sequencing the changes to ensure adoption.` },
+  { front: `What does the \\'D\\' in ADKAR stand for?`, back: `Desire - the personal motivation to participate in the change.` },
+  { front: `If training is excellent but adoption is still low, what is likely the problem?`, back: `A Desire problem (motivation, fear, incentives), not a Knowledge problem.` },
+  { front: `What is the \\'Adoption Gap\\'?`, back: `The chasm between Output (deliverable) and Outcome (behavior change) caused by lack of human adoption.` },
+  { front: `What is the solution for a \\'Won\\'t Do It\\' resistance type?`, back: `Address the Desire gap through WIIFM, addressing fears, and providing incentives.` },
+  { front: `What is \\'Reinforcement\\' in the ADKAR model?`, back: `Actions to sustain the change and prevent people from reverting to old ways.` }
 ]" />
 

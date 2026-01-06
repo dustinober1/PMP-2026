@@ -82,46 +82,16 @@ The gold standard for defining roles and responsibilities. RACI prevents the #1 
 ## Quick Review: Formation & Resource
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Resource Leveling', 
-    back: 'Delays tasks to resolve overallocation. Can extend the project schedule.' 
-  },
-  { 
-    front: 'Resource Smoothing', 
-    back: 'Adjusts activities within their float. Does NOT extend the schedule.' 
-  },
-  { 
-    front: 'Accountable (A) Rule', 
-    back: 'There must be exactly ONE Accountable person assigned per RACI task.' 
-  },
-  { 
-    front: 'Skills Gap Analysis', 
-    back: 'Assess first → Identify gaps → Choose options (Train/Hire) → Execute.' 
-  },
-  { 
-    front: 'What does RACI stand for?', 
-    back: 'Responsible (doer), Accountable (owner), Consulted (input), Informed (updated).' 
-  },
-  { 
-    front: 'What is the Multiple Accountables anti-pattern?', 
-    back: 'When more than one person is Accountable - leads to no clear ownership. Fix by reducing to ONE.' 
-  },
-  { 
-    front: 'What is a Skills Matrix used for?', 
-    back: 'To identify capability gaps early and plan for targeted training or external acquisition.' 
-  },
-  { 
-    front: 'What are the three Team Acquisition Options?', 
-    back: 'Pre-assigned (guaranteed), Negotiate (functional managers), and Acquire Externally (contractors).' 
-  },
-  { 
-    front: 'Why is Diversity important in team formation?', 
-    back: 'To avoid Groupthink and increase creative problem-solving capability.' 
-  },
-  { 
-    front: 'What should a PM do if the team lacks authority?', 
-    back: 'Negotiate and influence first - do not escalate immediately.' 
-  }
+  { front: `Resource Leveling`, back: `Delays tasks to resolve overallocation. Can extend the project schedule.` },
+  { front: `Resource Smoothing`, back: `Adjusts activities within their float. Does NOT extend the schedule.` },
+  { front: `Accountable (A) Rule`, back: `There must be exactly ONE Accountable person assigned per RACI task.` },
+  { front: `Skills Gap Analysis`, back: `Assess first → Identify gaps → Choose options (Train/Hire) → Execute.` },
+  { front: `What does RACI stand for?`, back: `Responsible (doer), Accountable (owner), Consulted (input), Informed (updated).` },
+  { front: `What is the Multiple Accountables anti-pattern?`, back: `When more than one person is Accountable - leads to no clear ownership. Fix by reducing to ONE.` },
+  { front: `What is a Skills Matrix used for?`, back: `To identify capability gaps early and plan for targeted training or external acquisition.` },
+  { front: `What are the three Team Acquisition Options?`, back: `Pre-assigned (guaranteed), Negotiate (functional managers), and Acquire Externally (contractors).` },
+  { front: `Why is Diversity important in team formation?`, back: `To avoid Groupthink and increase creative problem-solving capability.` },
+  { front: `What should a PM do if the team lacks authority?`, back: `Negotiate and influence first - do not escalate immediately.` }
 ]" />
 
 ::: tip  Exam Insight

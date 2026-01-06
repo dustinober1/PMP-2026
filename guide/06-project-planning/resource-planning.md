@@ -538,46 +538,16 @@ PTA = $100,000 + $12,500 = $112,500
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What is a RACI Chart?', 
-    back: 'A matrix showing who is Responsible, Accountable, Consulted, and Informed for project work.' 
-  },
-  { 
-    front: 'R in RACI vs. A in RACI?', 
-    back: 'Responsible = who does the work. Accountable = the single owner who approves the work.' 
-  },
-  { 
-    front: 'What is a Bidder Conference?', 
-    back: 'A meeting with all potential sellers to ensure common understanding of the procurement.' 
-  },
-  { 
-    front: 'FFP vs. Cost-Reimbursable Contracts?', 
-    back: 'Fixed Price = Seller has risk (clear scope). Cost-Plus = Buyer has risk (uncertain scope).' 
-  },
-  { 
-    front: 'What is Make-or-Buy Analysis?', 
-    back: 'The process of deciding whether to build a deliverable internally or buy it from an external source.' 
-  },
-  { 
-    front: 'What is a T&M contract?', 
-    back: 'Time and Materials - hybrid contract paying hourly rates plus materials; risk shared between buyer and seller.' 
-  },
-  { 
-    front: 'What is the Point of Total Assumption (PTA)?', 
-    back: 'The cost point in FPIF contracts where the seller assumes 100% of remaining cost risk.' 
-  },
-  { 
-    front: 'When should you use Cost-Reimbursable contracts?', 
-    back: 'When scope is uncertain or R&D work - the buyer bears more cost risk but gets flexibility.' 
-  },
-  { 
-    front: 'What is a Resource Calendar?', 
-    back: 'A calendar showing when resources are available, including holidays, vacations, and allocation percentages.' 
-  },
-  { 
-    front: 'What is a key challenge with virtual teams?', 
-    back: 'Communication barriers, time zone differences, cultural differences, and difficulty building trust.' 
-  }
+  { front: `What is a RACI Chart?`, back: `A matrix showing who is Responsible, Accountable, Consulted, and Informed for project work.` },
+  { front: `R in RACI vs. A in RACI?`, back: `Responsible = who does the work. Accountable = the single owner who approves the work.` },
+  { front: `What is a Bidder Conference?`, back: `A meeting with all potential sellers to ensure common understanding of the procurement.` },
+  { front: `FFP vs. Cost-Reimbursable Contracts?`, back: `Fixed Price = Seller has risk (clear scope). Cost-Plus = Buyer has risk (uncertain scope).` },
+  { front: `What is Make-or-Buy Analysis?`, back: `The process of deciding whether to build a deliverable internally or buy it from an external source.` },
+  { front: `What is a T&M contract?`, back: `Time and Materials - hybrid contract paying hourly rates plus materials; risk shared between buyer and seller.` },
+  { front: `What is the Point of Total Assumption (PTA)?`, back: `The cost point in FPIF contracts where the seller assumes 100% of remaining cost risk.` },
+  { front: `When should you use Cost-Reimbursable contracts?`, back: `When scope is uncertain or R&D work - the buyer bears more cost risk but gets flexibility.` },
+  { front: `What is a Resource Calendar?`, back: `A calendar showing when resources are available, including holidays, vacations, and allocation percentages.` },
+  { front: `What is a key challenge with virtual teams?`, back: `Communication barriers, time zone differences, cultural differences, and difficulty building trust.` }
 ]" />
 
 ::: tip  Exam Insight

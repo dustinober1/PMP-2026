@@ -1,3 +1,7 @@
+<script setup>
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
+</script>
+
 # PMP Practice Exam: Business Task 4 (Remove Impediments and Manage Issues)
 
 **Domain**: Business Environment (ECO Task 4) / People (ECO Task 7) / Process (ECO Task 12)  
@@ -1525,3 +1529,16 @@ th {
   background: var(--vp-c-bg-mute);
 }
 </style>
+
+<FlashcardCarousel :cards="[
+  { front: `What is a business task on the PMP exam?`, back: `Scenario presenting a business problem requiring PM thinking across multiple knowledge areas.` },
+  { front: `What does the Impediments task test?`, back: `Ability to identify obstacles, analyze impact, and recommend solutions proactively.` },
+  { front: `How should you approach an impediment blocking your team?`, back: `Understand root cause, develop mitigation, escalate if needed, and document for organizational learning.` },
+  { front: `What are common project impediments?`, back: `Unclear scope, resource constraints, stakeholder misalignment, technical risks, and organizational barriers.` },
+  { front: `How do you distinguish between risk and impediment?`, back: `Risk: uncertain event that may occur. Impediment: current obstacle blocking progress.` },
+  { front: `What is the PM's role in removing impediments?`, back: `Remove within authority, escalate beyond authority, communicate status, and prevent recurrence.` },
+  { front: `How should you communicate impediments to leadership?`, back: `Clearly state impact on project, propose solutions with trade-offs, and recommend course of action.` },
+  { front: `What if an impediment affects multiple projects?`, back: `Escalate to PMO or executive sponsor who can make portfolio-level decisions.` },
+  { front: `How do impediments relate to risk management?`, back: `Some impediments may trigger risk responses; tracking impediments helps identify systemic issues.` },
+  { front: `Should you wait for impediments to be resolved or work around them?`, back: `Do both: work around while escalating - don't let impediments become excuses for inaction.` }
+]" />

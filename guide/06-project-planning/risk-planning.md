@@ -468,46 +468,16 @@ Difference between P50 and desired confidence level (e.g., P80)
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What are the 5 response strategies for threats?', 
-    back: '1. Avoid, 2. Mitigate, 3. Transfer, 4. Accept, 5. Escalate.' 
-  },
-  { 
-    front: 'What is Residual Risk?', 
-    back: 'The risk that remains after a response strategy has been implemented.' 
-  },
-  { 
-    front: 'What is a Watch List?', 
-    back: 'A list of low-priority risks that are monitored for changes in probability or impact.' 
-  },
-  { 
-    front: 'What does a Tornado Diagram show?', 
-    back: 'Sensitivity analysis—it ranks risks by their potential impact on a project outcome.' 
-  },
-  { 
-    front: 'What is a Risk Trigger?', 
-    back: 'An early warning sign or event that indicates a risk is about to occur.' 
-  },
-  { 
-    front: 'What is EMV (Expected Monetary Value)?', 
-    back: 'EMV = Probability × Impact in dollars - used for decision trees and calculating contingency reserves.' 
-  },
-  { 
-    front: 'What is Secondary Risk?', 
-    back: 'A new risk created by implementing a risk response (e.g., backup vendor may have quality issues).' 
-  },
-  { 
-    front: 'What does Monte Carlo simulation produce?', 
-    back: 'Probability distributions for project completion - showing P50, P80, P90 confidence levels.' 
-  },
-  { 
-    front: 'What are the 5 response strategies for opportunities?', 
-    back: '1. Exploit, 2. Enhance, 3. Share, 4. Accept, 5. Escalate.' 
-  },
-  { 
-    front: 'Who is the Risk Owner?', 
-    back: 'The person assigned responsibility for monitoring the risk and implementing the response if triggered.' 
-  }
+  { front: `What are the 5 response strategies for threats?`, back: `1. Avoid, 2. Mitigate, 3. Transfer, 4. Accept, 5. Escalate.` },
+  { front: `What is Residual Risk?`, back: `The risk that remains after a response strategy has been implemented.` },
+  { front: `What is a Watch List?`, back: `A list of low-priority risks that are monitored for changes in probability or impact.` },
+  { front: `What does a Tornado Diagram show?`, back: `Sensitivity analysis—it ranks risks by their potential impact on a project outcome.` },
+  { front: `What is a Risk Trigger?`, back: `An early warning sign or event that indicates a risk is about to occur.` },
+  { front: `What is EMV (Expected Monetary Value)?`, back: `EMV = Probability × Impact in dollars - used for decision trees and calculating contingency reserves.` },
+  { front: `What is Secondary Risk?`, back: `A new risk created by implementing a risk response (e.g., backup vendor may have quality issues).` },
+  { front: `What does Monte Carlo simulation produce?`, back: `Probability distributions for project completion - showing P50, P80, P90 confidence levels.` },
+  { front: `What are the 5 response strategies for opportunities?`, back: `1. Exploit, 2. Enhance, 3. Share, 4. Accept, 5. Escalate.` },
+  { front: `Who is the Risk Owner?`, back: `The person assigned responsibility for monitoring the risk and implementing the response if triggered.` }
 ]" />
 
 ::: tip  Exam Insight

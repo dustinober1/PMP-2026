@@ -133,22 +133,10 @@ These concepts are often mixed up. The exam expects you to choose the right tool
 PMs often lead in matrix environments without "command" authority. Success depends on influence.
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Expert Power', 
-    back: 'Credibility from knowledge and competence. Ethical and highly effective.' 
-  },
-  { 
-    front: 'Referent Power', 
-    back: 'Based on trust and relationships. Ethical and excellent for long-term influence.' 
-  },
-  { 
-    front: 'Legitimate Power', 
-    back: 'Authority granted by formal role or position. Neutral effectiveness.' 
-  },
-  { 
-    front: 'Coercive Power', 
-    back: 'Threat/punishment. Avoid on exam; it damages trust and psychological safety.' 
-  }
+  { front: `Expert Power`, back: `Credibility from knowledge and competence. Ethical and highly effective.` },
+  { front: `Referent Power`, back: `Based on trust and relationships. Ethical and excellent for long-term influence.` },
+  { front: `Legitimate Power`, back: `Authority granted by formal role or position. Neutral effectiveness.` },
+  { front: `Coercive Power`, back: `Threat/punishment. Avoid on exam; it damages trust and psychological safety.` }
 ]" />
 
 ---
@@ -179,46 +167,16 @@ EQ is the "secret sauce" of leading through crisis. You need all five Goleman co
 ## Quick Review: Leadership & Coaching
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'GROW Model Steps', 
-    back: 'Goal, Reality, Options, Will (or Way Forward).' 
-  },
-  { 
-    front: 'Gap Analysis: Knowledge vs. Will', 
-    back: 'Knowledge gap needs training; Will gap needs motivation or counseling.' 
-  },
-  { 
-    front: 'SBI Feedback Model', 
-    back: 'Situation, Behavior, Impact. Use it for specific, actionable feedback.' 
-  },
-  { 
-    front: 'PMI\'s Preferred Power', 
-    back: 'Expert and Referent. They build lasting influence and team trust.' 
-  },
-  { 
-    front: 'What is Servant Leadership?', 
-    back: 'A leadership style focused on removing blockers, creating clarity, protecting focus, and growing people.' 
-  },
-  { 
-    front: 'What is the SLII S2 (Coaching) style?', 
-    back: 'High Direction plus High Support - used for D2 team members who have some skill but low will.' 
-  },
-  { 
-    front: 'What are the five EQ (Emotional Intelligence) competencies?', 
-    back: 'Self-Awareness, Self-Regulation, Empathy, Social Skills, and Motivation.' 
-  },
-  { 
-    front: 'When should a PM use Transformational leadership?', 
-    back: 'When inspiring change and empowering the team to innovate and evolve the organization.' 
-  },
-  { 
-    front: 'What is the difference between Coaching and Mentoring?', 
-    back: 'Coaching improves current work performance (short-term); Mentoring focuses on career growth and wisdom (long-term).' 
-  },
-  { 
-    front: 'What should a PM do if a high performer suddenly misses deadlines?', 
-    back: 'Switch to Supporting (S3) style - ask open-ended questions to understand burnout or personal issues.' 
-  }
+  { front: `GROW Model Steps`, back: `Goal, Reality, Options, Will (or Way Forward).` },
+  { front: `Gap Analysis: Knowledge vs. Will`, back: `Knowledge gap needs training; Will gap needs motivation or counseling.` },
+  { front: `SBI Feedback Model`, back: `Situation, Behavior, Impact. Use it for specific, actionable feedback.` },
+  { front: `PMI\\'s Preferred Power`, back: `Expert and Referent. They build lasting influence and team trust.` },
+  { front: `What is Servant Leadership?`, back: `A leadership style focused on removing blockers, creating clarity, protecting focus, and growing people.` },
+  { front: `What is the SLII S2 (Coaching) style?`, back: `High Direction plus High Support - used for D2 team members who have some skill but low will.` },
+  { front: `What are the five EQ (Emotional Intelligence) competencies?`, back: `Self-Awareness, Self-Regulation, Empathy, Social Skills, and Motivation.` },
+  { front: `When should a PM use Transformational leadership?`, back: `When inspiring change and empowering the team to innovate and evolve the organization.` },
+  { front: `What is the difference between Coaching and Mentoring?`, back: `Coaching improves current work performance (short-term); Mentoring focuses on career growth and wisdom (long-term).` },
+  { front: `What should a PM do if a high performer suddenly misses deadlines?`, back: `Switch to Supporting (S3) style - ask open-ended questions to understand burnout or personal issues.` }
 ]" />
 
 ::: tip  Exam Insight

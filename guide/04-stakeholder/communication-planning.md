@@ -92,46 +92,16 @@ Meetings are the most common—and most abused—communication method.
 ## Quick Review: Communication Planning
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Comm. Channels Formula', 
-    back: 'N(N-1)/2. Adding 1 person to a team of 10 adds 10 new channels.' 
-  },
-  { 
-    front: 'Acknowledgment', 
-    back: 'Signals that the message was RECEIVED, not necessarily that the receiver AGREES with it.' 
-  },
-  { 
-    front: 'Pull Communication', 
-    back: 'Best for large audiences or static info (Wikis, Jira boards, Portals).' 
-  },
-  { 
-    front: 'Feedback Loop', 
-    back: 'The only way to ensure the message was UNDERSTOOD as intended.' 
-  },
-  { 
-    front: 'What are the three communication methods?', 
-    back: 'Interactive (multi-directional), Push (one-way sent), and Pull (one-way fetched).' 
-  },
-  { 
-    front: 'What is Noise in communication?', 
-    back: 'Anything that distorts the message: language barriers, cultural differences, jargon, or distractions.' 
-  },
-  { 
-    front: 'What is a High-Context culture?', 
-    back: 'Cultures like Japan where meaning is in relationships and tone; trust must be built before business.' 
-  },
-  { 
-    front: 'What is the Virtual Equity rule?', 
-    back: 'If one is remote, all are remote - use chat-first strategies for equal contribution.' 
-  },
-  { 
-    front: 'What should a PM do if info is late or reaching wrong people?', 
-    back: 'Update the Communications Management Plan first, never go straight to disciplinary action.' 
-  },
-  { 
-    front: 'What is Push Communication best for?', 
-    back: 'Routine updates and formal documentation sent to specific people (emails, memos).' 
-  }
+  { front: `Comm. Channels Formula`, back: `N(N-1)/2. Adding 1 person to a team of 10 adds 10 new channels.` },
+  { front: `Acknowledgment`, back: `Signals that the message was RECEIVED, not necessarily that the receiver AGREES with it.` },
+  { front: `Pull Communication`, back: `Best for large audiences or static info (Wikis, Jira boards, Portals).` },
+  { front: `Feedback Loop`, back: `The only way to ensure the message was UNDERSTOOD as intended.` },
+  { front: `What are the three communication methods?`, back: `Interactive (multi-directional), Push (one-way sent), and Pull (one-way fetched).` },
+  { front: `What is Noise in communication?`, back: `Anything that distorts the message: language barriers, cultural differences, jargon, or distractions.` },
+  { front: `What is a High-Context culture?`, back: `Cultures like Japan where meaning is in relationships and tone; trust must be built before business.` },
+  { front: `What is the Virtual Equity rule?`, back: `If one is remote, all are remote - use chat-first strategies for equal contribution.` },
+  { front: `What should a PM do if info is late or reaching wrong people?`, back: `Update the Communications Management Plan first, never go straight to disciplinary action.` },
+  { front: `What is Push Communication best for?`, back: `Routine updates and formal documentation sent to specific people (emails, memos).` }
 ]" />
 
 ::: tip  Exam Insight

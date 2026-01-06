@@ -326,15 +326,15 @@ Output format: Markdown table with columns: Risk ID | Category | Risk Statement 
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { front: 'What is Generative AI (LLM) best used for in PM?', back: 'Drafting content (charters, stories, emails) and summarizing large texts.' },
-  { front: 'Deterministic vs. Probabilistic?', back: 'Deterministic = Calculator (always same answer). Probabilistic = AI (guesses next likely word, can vary).' },
-  { front: 'What is \'Hallucination\' in AI?', back: 'When an AI confidently states false facts, dates, or regulations.' },
-  { front: 'What is the \'Human-in-the-Loop\' (HITL) rule?', back: 'AI drafts, Human reviews/approves. You are accountable for the output, not the bot.' },
-  { front: 'What is RAG (Retrieval-Augmented Generation)?', back: 'Forcing the AI to use YOUR approved internal documents to answer questions, reducing hallucinations.' },
-  { front: 'Temperature Setting: Low vs. High?', back: 'Low (0.1) = Consistent/Factual (Status Reports). High (0.8) = Creative/Diverse (Brainstorming).' },
-  { front: 'What is Prompt Grounding?', back: 'providing approved source material in the prompt and asking the AI to stick to it.' },
-  { front: 'What is \'Shadow AI\'?', back: 'Using unapproved/public AI tools with enterprise data - a major security/compliance violation.' },
-  { front: 'Chain of Thought Prompting?', back: 'Asking the AI to \'think step-by-step\' or explain reasoning before giving the final answer.' },
-  { front: 'Automation Bias?', back: 'The cognitive trap of trusting AI outputs blindly without validation.' }
+  { front: `What is Generative AI (LLM) best used for in PM?`, back: `Drafting content (charters, stories, emails) and summarizing large texts.` },
+  { front: `Deterministic vs. Probabilistic?`, back: `Deterministic = Calculator (always same answer). Probabilistic = AI (guesses next likely word, can vary).` },
+  { front: `What is \\'Hallucination\\' in AI?`, back: `When an AI confidently states false facts, dates, or regulations.` },
+  { front: `What is the \\'Human-in-the-Loop\\' (HITL) rule?`, back: `AI drafts, Human reviews/approves. You are accountable for the output, not the bot.` },
+  { front: `What is RAG (Retrieval-Augmented Generation)?`, back: `Forcing the AI to use YOUR approved internal documents to answer questions, reducing hallucinations.` },
+  { front: `Temperature Setting: Low vs. High?`, back: `Low (0.1) = Consistent/Factual (Status Reports). High (0.8) = Creative/Diverse (Brainstorming).` },
+  { front: `What is Prompt Grounding?`, back: `providing approved source material in the prompt and asking the AI to stick to it.` },
+  { front: `What is \\'Shadow AI\\'?`, back: `Using unapproved/public AI tools with enterprise data - a major security/compliance violation.` },
+  { front: `Chain of Thought Prompting?`, back: `Asking the AI to \\'think step-by-step\\' or explain reasoning before giving the final answer.` },
+  { front: `Automation Bias?`, back: `The cognitive trap of trusting AI outputs blindly without validation.` }
 ]" />
 

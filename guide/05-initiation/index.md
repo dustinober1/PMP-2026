@@ -1,6 +1,7 @@
 <script setup>
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 </script>
 
 # Chapter 5: Project Initiation
@@ -56,3 +57,19 @@ By the end of this chapter, you will be able to:
 -  **Establish Power**: Define the PM's role and authority via the Project Charter.
 -  **Set Boundaries**: Distinguish between Assumptions (beliefs) and Constraints (limitations).
 -  **Select Approach**: Apply the Tailoring framework to choose Agile vs. Predictive at the start.
+
+
+## Quick Review
+
+<FlashcardCarousel :cards="[
+  { front: `What is the purpose of project initiation?`, back: `Formally authorizing the project, defining scope, identifying stakeholders, and establishing governance structure.` },
+  { front: `What is a business case?`, back: `A document justifying the project by showing business need, benefits, costs, timeline, risks, and recommended approach.` },
+  { front: `What is a project charter?`, back: `A high-level authorization document signed by sponsor, formally initiating the project and granting PM authority.` },
+  { front: `What are project constraints and assumptions?`, back: `Constraints: limiting factors (budget, schedule, resources, regulations). Assumptions: statements assumed true but unverified.` },
+  { front: `What is delivery strategy selection?`, back: `Choosing the approach (Predictive, Agile, Hybrid) based on project uncertainty, culture, and stakeholder preferences.` },
+  { front: `Why is early stakeholder identification critical?`, back: `Late discovery of powerful stakeholders can derail projects. Early identification ensures all parties are represented.` },
+  { front: `What is the relationship between objectives and success?`, back: `Objectives define WHAT will be delivered (scope). Success criteria define HOW we know we succeeded (metrics).` },
+  { front: `What is the project scope statement?`, back: `A high-level description of what the project will deliver (and will NOT deliver), establishing boundaries.` },
+  { front: `Why does delivery strategy selection matter?`, back: `It shapes all downstream planning decisions - choose wrong approach and all planning and execution will be misaligned.` },
+  { front: `What is the purpose of an assumptions log?`, back: `Documenting assumptions (team availability, technology viability), assigning owners, and monitoring for changes.` }
+]" />

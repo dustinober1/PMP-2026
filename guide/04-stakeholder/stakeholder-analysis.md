@@ -68,46 +68,16 @@ Effective stakeholder identification uses multiple techniques to ensure no one i
 ## Quick Review: Stakeholder Analysis
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Shadow Stakeholder', 
-    back: 'A person with informal power who can influence the project despite not having a formal title.' 
-  },
-  { 
-    front: 'Stakeholder Register', 
-    back: 'The primary living document used to record identification, assessment, and classification details.' 
-  },
-  { 
-    front: 'Frequent Analysis', 
-    back: 'Analysis should be repeated at every phase gate, or when major scope/resource changes occur.' 
-  },
-  { 
-    front: 'Identification Goal', 
-    back: 'Identify 100% of stakeholders early, especially those with high power and high resistance.' 
-  },
-  { 
-    front: 'What are four stakeholder identification techniques?', 
-    back: 'Brainstorming, Expert Judgment, RACI Review, and Snowball Effect.' 
-  },
-  { 
-    front: 'What is the Snowball Effect technique?', 
-    back: 'Ask every identified stakeholder: Who else should I be talking to about this project?' 
-  },
-  { 
-    front: 'What is the RACI Consulted role?', 
-    back: 'SMEs and departments providing input; requires two-way interactive communication.' 
-  },
-  { 
-    front: 'What is the RACI Informed role?', 
-    back: 'Parties needing updates but not contributing input; best served by one-way push communication.' 
-  },
-  { 
-    front: 'What should a PM do first for a new stakeholder or changed attitude?', 
-    back: 'Update the Stakeholder Register and reanalyze before escalating.' 
-  },
-  { 
-    front: 'Who should be Accountable in a RACI matrix?', 
-    back: 'Only ONE person per task - usually the Sponsor or Product Owner.' 
-  }
+  { front: `Shadow Stakeholder`, back: `A person with informal power who can influence the project despite not having a formal title.` },
+  { front: `Stakeholder Register`, back: `The primary living document used to record identification, assessment, and classification details.` },
+  { front: `Frequent Analysis`, back: `Analysis should be repeated at every phase gate, or when major scope/resource changes occur.` },
+  { front: `Identification Goal`, back: `Identify 100% of stakeholders early, especially those with high power and high resistance.` },
+  { front: `What are four stakeholder identification techniques?`, back: `Brainstorming, Expert Judgment, RACI Review, and Snowball Effect.` },
+  { front: `What is the Snowball Effect technique?`, back: `Ask every identified stakeholder: Who else should I be talking to about this project?` },
+  { front: `What is the RACI Consulted role?`, back: `SMEs and departments providing input; requires two-way interactive communication.` },
+  { front: `What is the RACI Informed role?`, back: `Parties needing updates but not contributing input; best served by one-way push communication.` },
+  { front: `What should a PM do first for a new stakeholder or changed attitude?`, back: `Update the Stakeholder Register and reanalyze before escalating.` },
+  { front: `Who should be Accountable in a RACI matrix?`, back: `Only ONE person per task - usually the Sponsor or Product Owner.` }
 ]" />
 
 ::: tip  Exam Insight

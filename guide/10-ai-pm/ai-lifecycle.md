@@ -454,15 +454,15 @@ Constraints: Flag any criteria where data was incomplete or unclear.
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { front: 'AI in Initiation?', back: 'Drafting Project Charter from notes, analyzing market trends for Business Case.' },
-  { front: 'AI in Planning (WBS)?', back: 'Suggesting task breakdowns based on historical projects or standard templates.' },
-  { front: 'AI for Risk Identification?', back: 'Rapid brainstorming of potential threats/opportunities using \'Pre-mortem\' prompts.' },
-  { front: 'AI in Execution (Meetings)?', back: 'Transcribing audio and auto-generating action items and decisions.' },
-  { front: 'AI in Monitoring (Sentiment)?', back: 'Scanning communication channels to detect team burnout or frustration trends early.' },
-  { front: 'AI in Closing (Lessons Learned)?', back: 'Clustering hundreds of retrospective comments into key themes and actionable recommendations.' },
-  { front: 'Predictive vs. Agile AI Use?', back: 'Predictive = Forecasting/Compliance docs. Agile = Backlog refinement/Sprint planning support.' },
-  { front: 'How does AI help with Scope Creep?', back: 'NLP analysis of emails/chats can flag phrases like \'wouldn\'t it be nice\' or \'add this feature\'.' },
-  { front: 'AI-Enhanced Monte Carlo?', back: 'Accelerates data prep and range estimation (O-M-P) based on historicals, then interprets results.' },
-  { front: 'Least Privilege for AI Agents?', back: 'Granting AI automation tools only the minimum access needed (e.g., read-only) and requiring approval gates.' }
+  { front: `AI in Initiation?`, back: `Drafting Project Charter from notes, analyzing market trends for Business Case.` },
+  { front: `AI in Planning (WBS)?`, back: `Suggesting task breakdowns based on historical projects or standard templates.` },
+  { front: `AI for Risk Identification?`, back: `Rapid brainstorming of potential threats/opportunities using \\'Pre-mortem\\' prompts.` },
+  { front: `AI in Execution (Meetings)?`, back: `Transcribing audio and auto-generating action items and decisions.` },
+  { front: `AI in Monitoring (Sentiment)?`, back: `Scanning communication channels to detect team burnout or frustration trends early.` },
+  { front: `AI in Closing (Lessons Learned)?`, back: `Clustering hundreds of retrospective comments into key themes and actionable recommendations.` },
+  { front: `Predictive vs. Agile AI Use?`, back: `Predictive = Forecasting/Compliance docs. Agile = Backlog refinement/Sprint planning support.` },
+  { front: `How does AI help with Scope Creep?`, back: `NLP analysis of emails/chats can flag phrases like \\'wouldn\\'t it be nice\\' or \\'add this feature\\'.` },
+  { front: `AI-Enhanced Monte Carlo?`, back: `Accelerates data prep and range estimation (O-M-P) based on historicals, then interprets results.` },
+  { front: `Least Privilege for AI Agents?`, back: `Granting AI automation tools only the minimum access needed (e.g., read-only) and requiring approval gates.` }
 ]" />
 

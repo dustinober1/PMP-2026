@@ -333,44 +333,14 @@ For detailed formulas on Critical Path and Earned Value, see [Appendix B: Key Fo
 ## 1.4b.11 Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What are the three constraints in the Iron Triangle?', 
-    back: 'Scope, Schedule, and Cost.' 
-  },
-  { 
-    front: 'In Agile, which constraint is variable?', 
-    back: 'Scope. (Time and Cost are fixed per sprint/team).' 
-  },
-  { 
-    front: 'What is Gold Plating?', 
-    back: 'Adding unrequested features to \'delight\' the customer (Bad practice!).' 
-  },
-  { 
-    front: 'What is Scope Creep?', 
-    back: 'Uncontrolled expansion of scope without adjustments to time, cost, or resources.' 
-  },
-  { 
-    front: 'Which dependency type is most common?', 
-    back: 'Finish-to-Start (FS).' 
-  },
-  { 
-    front: 'What is the Critical Path?', 
-    back: 'The longest path through the project network, determining the minimum project duration.' 
-  },
-  { 
-    front: 'What is Float (Slack)?', 
-    back: 'The amount of time an activity can be delayed without delaying the project.' 
-  },
-  { 
-    front: 'What is Crashing?', 
-    back: 'Adding resources to critical path activities to shorten schedule (increases cost).' 
-  },
-  { 
-    front: 'What is Fast-Tracking?', 
-    back: 'Performing sequential activities in parallel to shorten schedule (increases risk).' 
-  },
-  { 
-    front: 'What does Brooks\'s Law state?', 
-    back: '\'Adding manpower to a late software project makes it later.\'' 
-  }
+  { front: `What are the three constraints in the Iron Triangle?`, back: `Scope, Schedule, and Cost.` },
+  { front: `In Agile, which constraint is variable?`, back: `Scope. (Time and Cost are fixed per sprint/team).` },
+  { front: `What is Gold Plating?`, back: `Adding unrequested features to \\'delight\\' the customer (Bad practice!).` },
+  { front: `What is Scope Creep?`, back: `Uncontrolled expansion of scope without adjustments to time, cost, or resources.` },
+  { front: `Which dependency type is most common?`, back: `Finish-to-Start (FS).` },
+  { front: `What is the Critical Path?`, back: `The longest path through the project network, determining the minimum project duration.` },
+  { front: `What is Float (Slack)?`, back: `The amount of time an activity can be delayed without delaying the project.` },
+  { front: `What is Crashing?`, back: `Adding resources to critical path activities to shorten schedule (increases cost).` },
+  { front: `What is Fast-Tracking?`, back: `Performing sequential activities in parallel to shorten schedule (increases risk).` },
+  { front: `What does Brooks\\'s Law state?`, back: `\\'Adding manpower to a late software project makes it later.\\'` }
 ]" />

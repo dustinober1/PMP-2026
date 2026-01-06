@@ -605,46 +605,16 @@ In 2026, PMs use **AI-Augmented Estimation** to analyze historical performance a
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What is the Critical Path?', 
-    back: 'The longest sequence of activities in a project network, representing the shortest possible project duration.' 
-  },
-  { 
-    front: 'What is Total Float?', 
-    back: 'The amount of time an activity can be delayed without delaying the project finish date.' 
-  },
-  { 
-    front: 'Crashing vs. Fast Tracking?', 
-    back: 'Crashing = Adding resources (increases cost). Fast Tracking = Overlapping sequential tasks (increases risk of rework).' 
-  },
-  { 
-    front: 'Lead vs. Lag?', 
-    back: 'Lead = Acceleration a successor starts before predecessor ends. Lag = Mandatory wait time between tasks.' 
-  },
-  { 
-    front: 'Resource Leveling vs. Smoothing?', 
-    back: 'Leveling = Date flexes to fix overallocation. Smoothing = Resource use balanced within available float (date fixed).' 
-  },
-  { 
-    front: 'What is the PERT formula?', 
-    back: 'Expected Duration = (Optimistic + 4×Most Likely + Pessimistic) / 6. Standard Deviation = (P-O)/6.' 
-  },
-  { 
-    front: 'What are the four dependency types?', 
-    back: 'FS (Finish-to-Start), SS (Start-to-Start), FF (Finish-to-Finish), and SF (Start-to-Finish).' 
-  },
-  { 
-    front: 'What is Mandatory vs. Discretionary dependency?', 
-    back: 'Mandatory = Hard logic, physically required. Discretionary = Soft logic, preferred sequence or best practice.' 
-  },
-  { 
-    front: 'What is Velocity in Agile?', 
-    back: 'Story points completed per sprint - used to forecast how many sprints to complete the backlog.' 
-  },
-  { 
-    front: 'What does negative float indicate?', 
-    back: 'The project must finish earlier than the network allows - requires compression or scope change.' 
-  }
+  { front: `What is the Critical Path?`, back: `The longest sequence of activities in a project network, representing the shortest possible project duration.` },
+  { front: `What is Total Float?`, back: `The amount of time an activity can be delayed without delaying the project finish date.` },
+  { front: `Crashing vs. Fast Tracking?`, back: `Crashing = Adding resources (increases cost). Fast Tracking = Overlapping sequential tasks (increases risk of rework).` },
+  { front: `Lead vs. Lag?`, back: `Lead = Acceleration a successor starts before predecessor ends. Lag = Mandatory wait time between tasks.` },
+  { front: `Resource Leveling vs. Smoothing?`, back: `Leveling = Date flexes to fix overallocation. Smoothing = Resource use balanced within available float (date fixed).` },
+  { front: `What is the PERT formula?`, back: `Expected Duration = (Optimistic + 4×Most Likely + Pessimistic) / 6. Standard Deviation = (P-O)/6.` },
+  { front: `What are the four dependency types?`, back: `FS (Finish-to-Start), SS (Start-to-Start), FF (Finish-to-Finish), and SF (Start-to-Finish).` },
+  { front: `What is Mandatory vs. Discretionary dependency?`, back: `Mandatory = Hard logic, physically required. Discretionary = Soft logic, preferred sequence or best practice.` },
+  { front: `What is Velocity in Agile?`, back: `Story points completed per sprint - used to forecast how many sprints to complete the backlog.` },
+  { front: `What does negative float indicate?`, back: `The project must finish earlier than the network allows - requires compression or scope change.` }
 ]" />
 
 ::: tip  Exam Insight

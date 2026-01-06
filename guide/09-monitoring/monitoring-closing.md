@@ -837,14 +837,14 @@ TCPI = (BAC - EV) / (BAC - AC) = ($400K - $200K) / ($400K - $270K) = $200K / $13
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { front: 'What is the Performance Measurement Baseline (PMB)?', back: 'The integrated scope, schedule, and cost baselines used as the single reference point for comparing project performance.' },
-  { front: 'CPI = 0.8 and SPI = 0.9 - What does this mean?', back: 'Project is over budget (getting 80 cents of value per dollar spent) and behind schedule (only 90% of planned progress achieved).' },
-  { front: 'EAC Formula (most common)?', back: 'EAC = BAC / CPI - Used when current cost performance is expected to continue.' },
-  { front: 'Issue vs. Risk vs. Change Request?', back: 'Issue = happening now (Issue Log). Risk = might happen (Risk Register). Change Request = needs decision (Change Log).' },
-  { front: 'Crashing vs. Fast Tracking?', back: 'Crashing = add resources (increases cost). Fast Tracking = overlap activities (increases rework risk).' },
-  { front: 'What is Gold Plating?', back: 'Adding extras the customer did not request - an uncontrolled scope change that increases risk and may violate contracts.' },
-  { front: 'Contingency Reserve vs. Management Reserve?', back: 'Contingency = for known risks (part of baseline). Management = for unknown-unknowns (requires sponsor approval).' },
-  { front: 'What does TCPI measure?', back: 'To-Complete Performance Index - the required efficiency to meet BAC or EAC from this point forward.' },
-  { front: 'What is Validate Scope?', back: 'The process of getting formal acceptance of completed deliverables from the customer or sponsor.' },
-  { front: 'Control Chart: What indicates out of control?', back: 'Points outside control limits OR 7+ consecutive points on one side of the mean (non-random pattern).' }
+  { front: `What is the Performance Measurement Baseline (PMB)?`, back: `The integrated scope, schedule, and cost baselines used as the single reference point for comparing project performance.` },
+  { front: `CPI = 0.8 and SPI = 0.9 - What does this mean?`, back: `Project is over budget (getting 80 cents of value per dollar spent) and behind schedule (only 90% of planned progress achieved).` },
+  { front: `EAC Formula (most common)?`, back: `EAC = BAC / CPI - Used when current cost performance is expected to continue.` },
+  { front: `Issue vs. Risk vs. Change Request?`, back: `Issue = happening now (Issue Log). Risk = might happen (Risk Register). Change Request = needs decision (Change Log).` },
+  { front: `Crashing vs. Fast Tracking?`, back: `Crashing = add resources (increases cost). Fast Tracking = overlap activities (increases rework risk).` },
+  { front: `What is Gold Plating?`, back: `Adding extras the customer did not request - an uncontrolled scope change that increases risk and may violate contracts.` },
+  { front: `Contingency Reserve vs. Management Reserve?`, back: `Contingency = for known risks (part of baseline). Management = for unknown-unknowns (requires sponsor approval).` },
+  { front: `What does TCPI measure?`, back: `To-Complete Performance Index - the required efficiency to meet BAC or EAC from this point forward.` },
+  { front: `What is Validate Scope?`, back: `The process of getting formal acceptance of completed deliverables from the customer or sponsor.` },
+  { front: `Control Chart: What indicates out of control?`, back: `Points outside control limits OR 7+ consecutive points on one side of the mean (non-random pattern).` }
 ]" />

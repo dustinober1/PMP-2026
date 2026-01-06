@@ -62,46 +62,16 @@ A **Program Roadmap** is a high-level visual timeline of the program's component
 
 ##  Quick Review
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What is a \'Program\' in PMP terms?', 
-    back: 'A group of related projects managed in a coordinated way to obtain synergistic benefits.' 
-  },
-  { 
-    front: 'What is the primary measure of success for a Program?', 
-    back: 'Benefit Realization and Strategic ROI (not just output quality).' 
-  },
-  { 
-    front: 'What does a Program Roadmap show?', 
-    back: 'A high-level timeline of sequencing, major outcomes, and dependencies across projects.' 
-  },
-  { 
-    front: 'What should a PM do if their project is part of a program?', 
-    back: 'Think globally, manage interfaces with other PMs, and escalate dependencies to the Program Manager.' 
-  },
-  { 
-    front: 'What is the purpose of a Program Steering Committee?', 
-    back: 'Dedicated oversight layer for conflict resolution, budget reallocation, and strategic pivots.' 
-  },
-  { 
-    front: 'What is the difference between Project and Program change management?', 
-    back: 'PMs control change to protect baseline; Program Managers expect and embrace change.' 
-  },
-  { 
-    front: 'What are the key Program artifacts?', 
-    back: 'Program Charter, Program Roadmap, Benefits Register, Program Risk Register, and Dependency Log.' 
-  },
-  { 
-    front: 'What is an Adaptive Roadmap?', 
-    back: 'A roadmap with detailed near-term planning (3 months) while maintaining flexibility for long-term themes.' 
-  },
-  { 
-    front: 'What is the Program Manager\'s job regarding projects?', 
-    back: 'To manage the space between projects - resolving conflicts, reallocating resources, and managing dependencies.' 
-  },
-  { 
-    front: 'What is the typical duration of a Program vs a Project?', 
-    back: 'Programs are long-term spanning multiple lifecycles; Projects are short-term with specific goals and end dates.' 
-  }
+  { front: `What is a \\'Program\\' in PMP terms?`, back: `A group of related projects managed in a coordinated way to obtain synergistic benefits.` },
+  { front: `What is the primary measure of success for a Program?`, back: `Benefit Realization and Strategic ROI (not just output quality).` },
+  { front: `What does a Program Roadmap show?`, back: `A high-level timeline of sequencing, major outcomes, and dependencies across projects.` },
+  { front: `What should a PM do if their project is part of a program?`, back: `Think globally, manage interfaces with other PMs, and escalate dependencies to the Program Manager.` },
+  { front: `What is the purpose of a Program Steering Committee?`, back: `Dedicated oversight layer for conflict resolution, budget reallocation, and strategic pivots.` },
+  { front: `What is the difference between Project and Program change management?`, back: `PMs control change to protect baseline; Program Managers expect and embrace change.` },
+  { front: `What are the key Program artifacts?`, back: `Program Charter, Program Roadmap, Benefits Register, Program Risk Register, and Dependency Log.` },
+  { front: `What is an Adaptive Roadmap?`, back: `A roadmap with detailed near-term planning (3 months) while maintaining flexibility for long-term themes.` },
+  { front: `What is the Program Manager\\'s job regarding projects?`, back: `To manage the space between projects - resolving conflicts, reallocating resources, and managing dependencies.` },
+  { front: `What is the typical duration of a Program vs a Project?`, back: `Programs are long-term spanning multiple lifecycles; Projects are short-term with specific goals and end dates.` }
 ]" />
 
 ---

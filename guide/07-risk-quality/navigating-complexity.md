@@ -446,46 +446,16 @@ If the environment is described as “out of control”:
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Complicated vs. Complex?', 
-    back: 'Complicated has known cause-effect (use experts). Complex has emergent cause-effect (use experiments).' 
-  },
-  { 
-    front: 'What are the 4 domains of Cynefin?', 
-    back: 'Clear, Complicated, Complex, Chaotic.' 
-  },
-  { 
-    front: 'What is a Reinforcing Loop?', 
-    back: 'A feedback loop that amplifies change in one direction (vicious or virtuous cycle).' 
-  },
-  { 
-    front: 'What is a Balancing Loop?', 
-    back: 'A feedback loop that self-corrects and maintains stability/equilibrium.' 
-  },
-  { 
-    front: 'What is the Theory of Constraints (TOC) goal?', 
-    back: 'To identify and elevate the single bottleneck that limits system throughput.' 
-  },
-  { 
-    front: 'What does the ADKAR model stand for?', 
-    back: 'Awareness, Desire, Knowledge, Ability, Reinforcement - for individual change management.' 
-  },
-  { 
-    front: 'What is the Stacey Matrix?', 
-    back: 'Maps projects by Agreement (on requirements) and Certainty (on technology) to determine delivery approach.' 
-  },
-  { 
-    front: 'What is Shifting the Burden archetype?', 
-    back: 'A quick fix addresses symptoms but makes the fundamental solution harder to apply over time.' 
-  },
-  { 
-    front: 'What is psychological safety?', 
-    back: 'Team members feel safe to report bad news, admit mistakes, and speak up without punishment.' 
-  },
-  { 
-    front: 'How do WIP limits support complexity management?', 
-    back: 'Prevent overloading, make bottlenecks visible, and force focus on completing work before starting new work.' 
-  }
+  { front: `Complicated vs. Complex?`, back: `Complicated has known cause-effect (use experts). Complex has emergent cause-effect (use experiments).` },
+  { front: `What are the 4 domains of Cynefin?`, back: `Clear, Complicated, Complex, Chaotic.` },
+  { front: `What is a Reinforcing Loop?`, back: `A feedback loop that amplifies change in one direction (vicious or virtuous cycle).` },
+  { front: `What is a Balancing Loop?`, back: `A feedback loop that self-corrects and maintains stability/equilibrium.` },
+  { front: `What is the Theory of Constraints (TOC) goal?`, back: `To identify and elevate the single bottleneck that limits system throughput.` },
+  { front: `What does the ADKAR model stand for?`, back: `Awareness, Desire, Knowledge, Ability, Reinforcement - for individual change management.` },
+  { front: `What is the Stacey Matrix?`, back: `Maps projects by Agreement (on requirements) and Certainty (on technology) to determine delivery approach.` },
+  { front: `What is Shifting the Burden archetype?`, back: `A quick fix addresses symptoms but makes the fundamental solution harder to apply over time.` },
+  { front: `What is psychological safety?`, back: `Team members feel safe to report bad news, admit mistakes, and speak up without punishment.` },
+  { front: `How do WIP limits support complexity management?`, back: `Prevent overloading, make bottlenecks visible, and force focus on completing work before starting new work.` }
 ]" />
 
 ::: tip  Exam Insight

@@ -363,44 +363,14 @@ Never "ship and pray." Quality issues discovered by the customer are exponential
 ## 1.4c.10 Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What is the difference between Quality and Grade?', 
-    back: 'Quality is fulfilling requirements (bug-free); Grade is a category of features (Economy vs. First Class). Low grade is okay; low quality is never okay.' 
-  },
-  { 
-    front: 'What is the difference between QA and QC?', 
-    back: 'QA is Process-focused (preventing defects during work). QC is Product-focused (finding defects in deliverables).' 
-  },
-  { 
-    front: 'Which Quality Tool identifies the root cause of a problem?', 
-    back: 'The Cause-and-Effect (Fishbone/Ishikawa) Diagram.' 
-  },
-  { 
-    front: 'Which Quality Tool prioritizes problems using the 80/20 rule?', 
-    back: 'The Pareto Chart.' 
-  },
-  { 
-    front: 'What does a Control Chart measure?', 
-    back: 'It measures if a process is stable and within defined limits over time.' 
-  },
-  { 
-    front: 'What is the Cost of Quality (COQ)?', 
-    back: 'The specific cost of preventing defects plus the cost of dealing with defects (failures).' 
-  },
-  { 
-    front: 'Which type of Cost of Quality is the most expensive?', 
-    back: 'External Failure Costs (defects found by the customer).' 
-  },
-  { 
-    front: 'What involves \'checking work against the spec as it completes\'?', 
-    back: 'Inspection (a key QC activity).' 
-  },
-  { 
-    front: 'What is Gold Plating?', 
-    back: 'Adding extra features not in the requirements. It is a bad practice because it increases cost/risk without approval.' 
-  },
-  { 
-    front: 'What is the \'Shift-Left\' principle?', 
-    back: 'Moving quality activities earlier in the project (e.g., preventing defects in design) to save costs.' 
-  }
+  { front: `What is the difference between Quality and Grade?`, back: `Quality is fulfilling requirements (bug-free); Grade is a category of features (Economy vs. First Class). Low grade is okay; low quality is never okay.` },
+  { front: `What is the difference between QA and QC?`, back: `QA is Process-focused (preventing defects during work). QC is Product-focused (finding defects in deliverables).` },
+  { front: `Which Quality Tool identifies the root cause of a problem?`, back: `The Cause-and-Effect (Fishbone/Ishikawa) Diagram.` },
+  { front: `Which Quality Tool prioritizes problems using the 80/20 rule?`, back: `The Pareto Chart.` },
+  { front: `What does a Control Chart measure?`, back: `It measures if a process is stable and within defined limits over time.` },
+  { front: `What is the Cost of Quality (COQ)?`, back: `The specific cost of preventing defects plus the cost of dealing with defects (failures).` },
+  { front: `Which type of Cost of Quality is the most expensive?`, back: `External Failure Costs (defects found by the customer).` },
+  { front: `What involves \\'checking work against the spec as it completes\\'?`, back: `Inspection (a key QC activity).` },
+  { front: `What is Gold Plating?`, back: `Adding extra features not in the requirements. It is a bad practice because it increases cost/risk without approval.` },
+  { front: `What is the \\'Shift-Left\\' principle?`, back: `Moving quality activities earlier in the project (e.g., preventing defects in design) to save costs.` }
 ]" />

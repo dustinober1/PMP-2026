@@ -594,46 +594,16 @@ Use this interactive tool to practice the formulas and logic of Earned Value Man
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What is the difference between Contingency and Management Reserves?', 
-    back: 'Contingency = for known unknowns (identified risks), part of baseline. Management = for unknown unknowns, NOT part of baseline.' 
-  },
-  { 
-    front: 'CPI < 1.0 means what?', 
-    back: 'The project is over budget (spending more than earning).' 
-  },
-  { 
-    front: 'What are Sunk Costs?', 
-    back: 'Money already spent. They should be IGNORED when making decisions about the future of a project.' 
-  },
-  { 
-    front: 'Analogous vs. Parametric Estimating?', 
-    back: 'Analogous = based on past similar projects (quick). Parametric = math model based on units (e.g., $ per sq ft).' 
-  },
-  { 
-    front: 'What does TCPI > 1.0 indicate?', 
-    back: 'The team must be MORE efficient than originally planned to hit the target budget.' 
-  },
-  { 
-    front: 'What is the most common EAC formula?', 
-    back: 'EAC = BAC / CPI - assumes current cost performance continues for remaining work.' 
-  },
-  { 
-    front: 'What is VAC (Variance at Completion)?', 
-    back: 'VAC = BAC - EAC. Shows expected surplus (positive) or deficit (negative) at project end.' 
-  },
-  { 
-    front: 'What is Opportunity Cost?', 
-    back: 'The value of the next best alternative not chosen - should be considered when comparing options.' 
-  },
-  { 
-    front: 'SV and CV formulas?', 
-    back: 'SV = EV - PV (schedule variance). CV = EV - AC (cost variance). Positive is good.' 
-  },
-  { 
-    front: 'What is Lifecycle Costing?', 
-    back: 'Total Cost of Ownership including acquisition, operations, maintenance, and disposal costs.' 
-  }
+  { front: `What is the difference between Contingency and Management Reserves?`, back: `Contingency = for known unknowns (identified risks), part of baseline. Management = for unknown unknowns, NOT part of baseline.` },
+  { front: `CPI < 1.0 means what?`, back: `The project is over budget (spending more than earning).` },
+  { front: `What are Sunk Costs?`, back: `Money already spent. They should be IGNORED when making decisions about the future of a project.` },
+  { front: `Analogous vs. Parametric Estimating?`, back: `Analogous = based on past similar projects (quick). Parametric = math model based on units (e.g., $ per sq ft).` },
+  { front: `What does TCPI > 1.0 indicate?`, back: `The team must be MORE efficient than originally planned to hit the target budget.` },
+  { front: `What is the most common EAC formula?`, back: `EAC = BAC / CPI - assumes current cost performance continues for remaining work.` },
+  { front: `What is VAC (Variance at Completion)?`, back: `VAC = BAC - EAC. Shows expected surplus (positive) or deficit (negative) at project end.` },
+  { front: `What is Opportunity Cost?`, back: `The value of the next best alternative not chosen - should be considered when comparing options.` },
+  { front: `SV and CV formulas?`, back: `SV = EV - PV (schedule variance). CV = EV - AC (cost variance). Positive is good.` },
+  { front: `What is Lifecycle Costing?`, back: `Total Cost of Ownership including acquisition, operations, maintenance, and disposal costs.` }
 ]" />
 
 ::: tip  Exam Insight

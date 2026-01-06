@@ -388,46 +388,16 @@ Typical status report structure:
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What is the Communication Channel Formula?', 
-    back: 'n(n-1)/2, where n is the number of stakeholders.' 
-  },
-  { 
-    front: 'What is Interactive Communication?', 
-    back: 'Real-time, two-way exchange (meetings, calls). Best for complex/sensitive topics.' 
-  },
-  { 
-    front: 'What is Push Communication?', 
-    back: 'One-way distribution (emails, reports). Good for updates but doesn\'t guarantee understanding.' 
-  },
-  { 
-    front: 'What is Pull Communication?', 
-    back: 'Information made available for recipients to access (wiki, intranet). Best for large datasets.' 
-  },
-  { 
-    front: 'Active Listening vs. Passive Listening?', 
-    back: 'Active = confirming understanding, asking questions, body language. Passive = hearing without engagement.' 
-  },
-  { 
-    front: 'If team grows from 5 to 6, how many new total channels?', 
-    back: 'From 10 to 15 total channels. Calculate: 6(5)/2 = 15.' 
-  },
-  { 
-    front: 'What is Noise in communication?', 
-    back: 'Any interference that distorts the message: physical, semantic, cultural, or psychological barriers.' 
-  },
-  { 
-    front: 'What percentage of time does a PM spend communicating?', 
-    back: 'Approximately 90% of their time is spent on communication activities.' 
-  },
-  { 
-    front: 'What is Formal vs. Informal communication?', 
-    back: 'Formal = contracts, reports, presentations. Informal = email, chat, hallway conversations.' 
-  },
-  { 
-    front: 'When should you use Interactive communication?', 
-    back: 'For complex discussions, problem-solving, conflict resolution, and relationship building.' 
-  }
+  { front: `What is the Communication Channel Formula?`, back: `n(n-1)/2, where n is the number of stakeholders.` },
+  { front: `What is Interactive Communication?`, back: `Real-time, two-way exchange (meetings, calls). Best for complex/sensitive topics.` },
+  { front: `What is Push Communication?`, back: `One-way distribution (emails, reports). Good for updates but doesn\\'t guarantee understanding.` },
+  { front: `What is Pull Communication?`, back: `Information made available for recipients to access (wiki, intranet). Best for large datasets.` },
+  { front: `Active Listening vs. Passive Listening?`, back: `Active = confirming understanding, asking questions, body language. Passive = hearing without engagement.` },
+  { front: `If team grows from 5 to 6, how many new total channels?`, back: `From 10 to 15 total channels. Calculate: 6(5)/2 = 15.` },
+  { front: `What is Noise in communication?`, back: `Any interference that distorts the message: physical, semantic, cultural, or psychological barriers.` },
+  { front: `What percentage of time does a PM spend communicating?`, back: `Approximately 90% of their time is spent on communication activities.` },
+  { front: `What is Formal vs. Informal communication?`, back: `Formal = contracts, reports, presentations. Informal = email, chat, hallway conversations.` },
+  { front: `When should you use Interactive communication?`, back: `For complex discussions, problem-solving, conflict resolution, and relationship building.` }
 ]" />
 
 ::: tip  Exam Insight

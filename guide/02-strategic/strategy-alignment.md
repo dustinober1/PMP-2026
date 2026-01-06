@@ -105,45 +105,15 @@ How does strategy actually reach the project team?
 
 ##  Quick Review
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What is the difference between Portfolio and Program management?', 
-    back: 'Portfolio management is about \'doing the right things\' (strategic selection), while Program management is about \'doing things right\' across related projects (synergy/benefits).' 
-  },
-  { 
-    front: 'Who owns the Business Case?', 
-    back: 'The Sponsor/Business (it answers \'Should we invest?\').' 
-  },
-  { 
-    front: 'What should a PM do if a \'green\' project no longer aligns with strategy?', 
-    back: 'Raise it to governance and recommend a strategic decision (pivot, pause, or stop).' 
-  },
-  { 
-    front: 'What does PESTLE stand for?', 
-    back: 'Political, Economic, Social, Technological, Legal, Environmental.' 
-  },
-  { 
-    front: 'Is a PM authorized to \'self-cancel\' a project?', 
-    back: 'No. The PM should perform an impact assessment and recommend cancellation to governance.' 
-  },
-  { 
-    front: 'What does a Project Charter answer?', 
-    back: 'Are we authorized to start? It formally starts the project.' 
-  },
-  { 
-    front: 'What is the purpose of a Benefits Realization Plan?', 
-    back: 'To define how value will be measured and sustained after project completion.' 
-  },
-  { 
-    front: 'What is strategic alignment used for as a decision filter?', 
-    back: 'To approve, reject, or re-prioritize work; recommend scope changes; escalate risks; or recommend project closure.' 
-  },
-  { 
-    front: 'What do KPIs and OKRs answer in strategic alignment?', 
-    back: 'How do we know we are winning? They validate ongoing value.' 
-  },
-  { 
-    front: 'What do Governance Reviews decide?', 
-    back: 'Continue, pivot, pause, or stop the project at stage gates or periodic reviews.' 
-  }
+  { front: `What is the difference between Portfolio and Program management?`, back: `Portfolio management is about \\'doing the right things\\' (strategic selection), while Program management is about \\'doing things right\\' across related projects (synergy/benefits).` },
+  { front: `Who owns the Business Case?`, back: `The Sponsor/Business (it answers \\'Should we invest?\\').` },
+  { front: `What should a PM do if a \\'green\\' project no longer aligns with strategy?`, back: `Raise it to governance and recommend a strategic decision (pivot, pause, or stop).` },
+  { front: `What does PESTLE stand for?`, back: `Political, Economic, Social, Technological, Legal, Environmental.` },
+  { front: `Is a PM authorized to \\'self-cancel\\' a project?`, back: `No. The PM should perform an impact assessment and recommend cancellation to governance.` },
+  { front: `What does a Project Charter answer?`, back: `Are we authorized to start? It formally starts the project.` },
+  { front: `What is the purpose of a Benefits Realization Plan?`, back: `To define how value will be measured and sustained after project completion.` },
+  { front: `What is strategic alignment used for as a decision filter?`, back: `To approve, reject, or re-prioritize work; recommend scope changes; escalate risks; or recommend project closure.` },
+  { front: `What do KPIs and OKRs answer in strategic alignment?`, back: `How do we know we are winning? They validate ongoing value.` },
+  { front: `What do Governance Reviews decide?`, back: `Continue, pivot, pause, or stop the project at stage gates or periodic reviews.` }
 ]" />
 

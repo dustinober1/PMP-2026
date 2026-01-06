@@ -76,46 +76,16 @@ The exam tests whether you choose a response that preserves **relationships** wh
 ## Quick Review: Negotiation & Decision
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Ground Rules', 
-    back: 'The primary tool for PREVENTING conflict before it starts. Found in the Team Charter.' 
-  },
-  { 
-    front: 'Consensus', 
-    back: 'A decision method where everyone can \'live with\' the outcome, even if they don\'t love it.' 
-  },
-  { 
-    front: 'Fist-to-Five', 
-    back: 'A quick tool for gauging consensus (5 fingers = full support; 1 = major concerns; 0 = block).' 
-  },
-  { 
-    front: 'Negotiation Step 1', 
-    back: 'Understand the underlying INTERESTS of both parties before proposing options.' 
-  },
-  { 
-    front: 'What is BATNA?', 
-    back: 'Best Alternative to a Negotiated Agreement - your fallback plan and walk-away point.' 
-  },
-  { 
-    front: 'What is ZOPA?', 
-    back: 'Zone of Possible Agreement - where buyer and seller acceptable limits overlap.' 
-  },
-  { 
-    front: 'What is the Collaborate conflict mode?', 
-    back: 'Win-Win: Deep problem-solving to meet both parties needs. Best for strategic alignment.' 
-  },
-  { 
-    front: 'When should Force mode be used?', 
-    back: 'Only for emergencies, safety issues, or compliance - when speed matters more than buy-in.' 
-  },
-  { 
-    front: 'What is Interest-Based Negotiation?', 
-    back: 'Focuses on underlying needs (interests) rather than surface-level demands (positions).' 
-  },
-  { 
-    front: 'What is the first step if a vendor dispute arises?', 
-    back: 'Direct negotiation between PM and vendor - legal action is a last resort.' 
-  }
+  { front: `Ground Rules`, back: `The primary tool for PREVENTING conflict before it starts. Found in the Team Charter.` },
+  { front: `Consensus`, back: `A decision method where everyone can \\'live with\\' the outcome, even if they don\\'t love it.` },
+  { front: `Fist-to-Five`, back: `A quick tool for gauging consensus (5 fingers = full support; 1 = major concerns; 0 = block).` },
+  { front: `Negotiation Step 1`, back: `Understand the underlying INTERESTS of both parties before proposing options.` },
+  { front: `What is BATNA?`, back: `Best Alternative to a Negotiated Agreement - your fallback plan and walk-away point.` },
+  { front: `What is ZOPA?`, back: `Zone of Possible Agreement - where buyer and seller acceptable limits overlap.` },
+  { front: `What is the Collaborate conflict mode?`, back: `Win-Win: Deep problem-solving to meet both parties needs. Best for strategic alignment.` },
+  { front: `When should Force mode be used?`, back: `Only for emergencies, safety issues, or compliance - when speed matters more than buy-in.` },
+  { front: `What is Interest-Based Negotiation?`, back: `Focuses on underlying needs (interests) rather than surface-level demands (positions).` },
+  { front: `What is the first step if a vendor dispute arises?`, back: `Direct negotiation between PM and vendor - legal action is a last resort.` }
 ]" />
 
 ::: tip  Exam Insight

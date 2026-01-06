@@ -1,3 +1,7 @@
+<script setup>
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
+</script>
+
 # Practice Exam 2: Agile & Hybrid Focus
 
 Test your ability to lead in adaptive environments and handle complex interpersonal dynamics.
@@ -103,3 +107,16 @@ Test your ability to lead in adaptive environments and handle complex interperso
   opacity: 0.9;
 }
 </style>
+
+<FlashcardCarousel :cards="[
+  { front: `What makes a good multiple-choice test strategy?`, back: `Read question fully before answers, identify what's being asked, eliminate wrong options systematically.` },
+  { front: `How do I avoid trap answers?`, back: `Recognize plausible-but-wrong answers, watch for absolutes (always/never), and focus on PMI's philosophy.` },
+  { front: `What if two answers seem correct?`, back: `Look for nuances - one is typically more specific, covers broader context, or aligns better with PMI guidance.` },
+  { front: `Should I change my first answer?`, back: `Only if you have a good reason - studies show first instincts are often correct, but re-read if unsure.` },
+  { front: `How do I manage test anxiety?`, back: `Practice deep breathing, visualize success, remember preparation, focus on one question at a time.` },
+  { front: `What should I do if I get stuck on a question?`, back: `Flag it, make your best guess, move on - don't lose time that could help with later questions.` },
+  { front: `How do I verify I'm answering the right question?`, back: `Reread the question stem carefully - many students misread and answer the wrong thing.` },
+  { front: `What time management approach works best?`, back: `Scan all questions first (1 min), answer confident questions (1.2 min each), review flagged ones (2-3 min each).` },
+  { front: `Is it better to go fast or slow?`, back: `Balance is key - rushed answers are careless, but overthinking costs time. Aim for 1.3 min per question.` },
+  { front: `What should I do in the last 10 minutes?`, back: `Review flagged questions, check for skipped questions, verify answers are recorded, and don't panic.` }
+]" />

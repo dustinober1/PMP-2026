@@ -1,3 +1,7 @@
+<script setup>
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
+</script>
+
 # Practice Exam 1: Fundamentals
 
 Test your grasp of the core People, Process, and Business Environment domains.
@@ -103,3 +107,16 @@ Test your grasp of the core People, Process, and Business Environment domains.
   opacity: 0.9;
 }
 </style>
+
+<FlashcardCarousel :cards="[
+  { front: `What is the purpose of practice exams?`, back: `To assess readiness, identify weak areas, and practice time management under exam conditions.` },
+  { front: `How should I approach practice exam questions?`, back: `Read carefully, eliminate obviously wrong answers, flag uncertain ones, and review after completion.` },
+  { front: `What should I do if I don't know the answer?`, back: `Eliminate wrong options using context, make educated guess, flag for review, and move on.` },
+  { front: `How long should each question take?`, back: `Approximately 1.3 minutes per question (4 hours / 185 questions).` },
+  { front: `What if my practice exam score is below 70%?`, back: `Identify weak topics, review those chapters thoroughly, and take another practice exam after study.` },
+  { front: `Should I review answers immediately after the exam?`, back: `Yes - understand why correct answers are right and why your choices were wrong.` },
+  { front: `How many practice exams should I take?`, back: `At least 3-4 full practice exams during study period to build confidence and identify patterns.` },
+  { front: `Can I use external resources for practice questions?`, back: `Yes - PMI-approved resources, study guides, and online platforms supplement this guide well.` },
+  { front: `What should I track across practice exams?`, back: `Score trends, domain breakdown, time per question, and topic areas that need more study.` },
+  { front: `How do I simulate exam conditions?`, back: `Take full 4-hour exam blocks, no breaks except scheduled time, quiet environment, limited resources.` }
+]" />

@@ -100,22 +100,10 @@ When conflict erupts, follow this escalation ladder:
 ##  De-escalation & Resolution Tools
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Acknowledge & Validate', 
-    back: 'Identify emotions and confirm concerns are legitimate to lower the temperature.' 
-  },
-  { 
-    front: 'Separate People from Problems', 
-    back: 'Focus on the issue (timeline, quality) rather than personal behavior or identity.' 
-  },
-  { 
-    front: 'Interests vs. Positions', 
-    back: 'Ask \'WHY\' someone wants something (interest) rather than \'WHAT\' they want (position).' 
-  },
-  { 
-    front: 'Structural Solutions', 
-    back: 'Recurring conflict needs a fix in the system: update RACI, DoD, or the Team Charter.' 
-  }
+  { front: `Acknowledge & Validate`, back: `Identify emotions and confirm concerns are legitimate to lower the temperature.` },
+  { front: `Separate People from Problems`, back: `Focus on the issue (timeline, quality) rather than personal behavior or identity.` },
+  { front: `Interests vs. Positions`, back: `Ask \\'WHY\\' someone wants something (interest) rather than \\'WHAT\\' they want (position).` },
+  { front: `Structural Solutions`, back: `Recurring conflict needs a fix in the system: update RACI, DoD, or the Team Charter.` }
 ]" />
 
 ---
@@ -123,46 +111,16 @@ When conflict erupts, follow this escalation ladder:
 ## Quick Review: Conflict & Negotiation
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Thomas-Kilmann for Emergencies', 
-    back: 'Force / Direct. Use it when speed and safety are more important than Buy-in.' 
-  },
-  { 
-    front: 'Lose / Lose Mode', 
-    back: 'Compromise. Both sides give up something; the root cause often remains.' 
-  },
-  { 
-    front: 'Integrative Negotiation Goal', 
-    back: 'Find mutual value and preserve long-term project relationships.' 
-  },
-  { 
-    front: 'When to intervene?', 
-    back: 'Intervene privately if self-correction fails or if the conflict is personality-based.' 
-  },
-  { 
-    front: 'What is BATNA?', 
-    back: 'Best Alternative to a Negotiated Agreement - your Plan B that defines leverage and walk-away point.' 
-  },
-  { 
-    front: 'What is ZOPA?', 
-    back: 'Zone of Possible Agreement - the overlap between buyer maximum and seller minimum.' 
-  },
-  { 
-    front: 'What is the difference between Task and Relationship Conflict?', 
-    back: 'Task conflict is about work (healthy if facilitated); Relationship conflict is personal friction (always harmful).' 
-  },
-  { 
-    front: 'What are the 5 steps of the Conflict Resolution Process?', 
-    back: 'Self-Correction, Private Intervention, Collaborative Session, Formal Authority, and Escalation (last).' 
-  },
-  { 
-    front: 'What is the Collaborate (Problem Solve) mode?', 
-    back: 'Win-Win: Finding a new solution that satisfies all interests with high assertiveness and cooperation.' 
-  },
-  { 
-    front: 'What often looks like a personality conflict but is actually a process issue?', 
-    back: 'Friction caused by Scope, Schedule, or Priorities - always look for the process issue first.' 
-  }
+  { front: `Thomas-Kilmann for Emergencies`, back: `Force / Direct. Use it when speed and safety are more important than Buy-in.` },
+  { front: `Lose / Lose Mode`, back: `Compromise. Both sides give up something; the root cause often remains.` },
+  { front: `Integrative Negotiation Goal`, back: `Find mutual value and preserve long-term project relationships.` },
+  { front: `When to intervene?`, back: `Intervene privately if self-correction fails or if the conflict is personality-based.` },
+  { front: `What is BATNA?`, back: `Best Alternative to a Negotiated Agreement - your Plan B that defines leverage and walk-away point.` },
+  { front: `What is ZOPA?`, back: `Zone of Possible Agreement - the overlap between buyer maximum and seller minimum.` },
+  { front: `What is the difference between Task and Relationship Conflict?`, back: `Task conflict is about work (healthy if facilitated); Relationship conflict is personal friction (always harmful).` },
+  { front: `What are the 5 steps of the Conflict Resolution Process?`, back: `Self-Correction, Private Intervention, Collaborative Session, Formal Authority, and Escalation (last).` },
+  { front: `What is the Collaborate (Problem Solve) mode?`, back: `Win-Win: Finding a new solution that satisfies all interests with high assertiveness and cooperation.` },
+  { front: `What often looks like a personality conflict but is actually a process issue?`, back: `Friction caused by Scope, Schedule, or Priorities - always look for the process issue first.` }
 ]" />
 
 ::: tip  Exam Insight

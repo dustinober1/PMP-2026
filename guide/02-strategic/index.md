@@ -179,35 +179,16 @@ You are no longer just a technical executor. You are a **Business Leader**.
 ---
 
 ##  Quick Review
-<FlashcardCarousel :cards="[
-  { 
-    front: 'What is the Business Environment domain\'s weight on the 2026 PMP exam?', 
-    back: '26% of the exam.' 
-  },
-  { 
-    front: 'Which financial metric is generally considered more reliable for project selection: IRR or NPV?', 
-    back: 'NPV (Net Present Value).' 
-  },
-  { 
-    front: 'What does ADKAR stand for in Change Management?', 
-    back: 'Awareness, Desire, Knowledge, Ability, Reinforcement.' 
-  },
-  { 
-    front: 'True or False: A project can be successful if it is \'green\' but no longer strategically aligned.', 
-    back: 'False. A project that lacks strategic alignment or compliance is a failed project.' 
-  },
-  { 
-    front: 'What are the three tiers of the Triple Bottom Line?', 
-    back: 'People, Planet, and Profit (Social, Environmental, and Economic).' 
-  }
-]" />
 
-::: tip  How to Study This Chapter
-If you're short on time, focus on this sequence:
-1. `strategy-selection` (how work gets chosen + financial formulas)
-2. `portfolio-concepts` + `program-management` (how work gets coordinated)
-3. `benefits-realization` + `benefits-value` (how success is measured)
-4. `compliance-governance` + `external-environment` (how constraints and changes impact delivery)
-5. `organizational-change` (how value actually gets adopted)
-6. `knowledge-check` (test your understanding with 25 exam-style questions)
-:::
+<FlashcardCarousel :cards="[
+  { front: `What is Strategic Alignment?`, back: `Ensuring project objectives align with organizational strategy and deliver measurable business value.` },
+  { front: `What is portfolio management?`, back: `Managing multiple projects together to achieve strategic objectives efficiently.` },
+  { front: `What is benefits realization?`, back: `Ensuring projects deliver measurable business outcomes, not just outputs.` },
+  { front: `What does the PMO (Project Management Office) do?`, back: `Standardizes PM practices, manages portfolio, allocates resources, ensures strategic alignment.` },
+  { front: `What is Program Management?`, back: `Coordinating related projects to achieve strategic objectives no single project can achieve alone.` },
+  { front: `Why is sustainability (ESG) important in project delivery?`, back: `Organizations increasingly require projects to balance economic, environmental, and social responsibility.` },
+  { front: `What is strategic selection?`, back: `The process of choosing which projects to fund based on alignment with strategy and available resources.` },
+  { front: `What is organizational change management?`, back: `Managing people, process, and culture changes required for projects to deliver sustainable value.` },
+  { front: `What is Compliance and Governance?`, back: `Ensuring projects follow regulatory requirements, organizational policies, and stakeholder expectations.` },
+  { front: `Why must projects be aligned with strategy?`, back: `Misaligned projects waste resources, create organizational conflict, and fail to deliver business value.` }
+]" />

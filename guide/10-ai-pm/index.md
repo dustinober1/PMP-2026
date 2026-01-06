@@ -1,4 +1,5 @@
 <script setup>
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 </script>
@@ -65,3 +66,16 @@ By the end of this chapter, you should be able to:
 Success in this new era requires a dual mindset:
 *   **The Scientist**: Using AI to analyze massive datasets (e.g., "Predict the probability of a delay based on historical weather patterns").
 *   **The Artist**: Using human empathy to negotiate the conflicts that AI predicts but cannot solve.
+
+<FlashcardCarousel :cards="[
+  { front: `What is AI in project management?`, back: `Using artificial intelligence tools and techniques for scheduling, resource optimization, risk prediction, and insights.` },
+  { front: `How can AI improve project forecasting?`, back: `AI models analyze historical data to predict schedule/cost outcomes more accurately than manual methods.` },
+  { front: `What is AI-powered resource optimization?`, back: `Using machine learning to allocate resources efficiently, predict burnout, and optimize team composition.` },
+  { front: `How can AI identify risks earlier?`, back: `Pattern recognition in project data can surface risks before they become visible to human PMs.` },
+  { front: `What is responsible AI?`, back: `Using AI ethically: ensuring fairness, transparency, avoiding bias, and using AI to augment (not replace) PM judgment.` },
+  { front: `What data does AI need to work well?`, back: `Historical project data (schedules, costs, team performance), along with domain knowledge and clear objectives.` },
+  { front: `What are limitations of AI in PM?`, back: `Cannot replace human judgment, requires good data, may perpetuate historical biases, needs ongoing monitoring.` },
+  { front: `How should PMs approach AI integration?`, back: `Start with specific use cases, validate outputs, ensure transparency, maintain human oversight, and build organizational capability.` },
+  { front: `What is AI-driven change impact analysis?`, back: `Using AI to simulate scenarios and forecast impacts of proposed changes more comprehensively than manual analysis.` },
+  { front: `Can AI manage stakeholder communication?`, back: `AI can assist with status report generation, meeting scheduling, and sentiment analysis - but PM must maintain relationships.` }
+]" />

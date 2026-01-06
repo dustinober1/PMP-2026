@@ -97,46 +97,16 @@ Your organization spent $5M (Sunk Cost). It will cost $2M more to finish a proje
 
 ## Quick Review
 <FlashcardCarousel :cards="[
-  { 
-    front: 'What is Net Present Value (NPV)?', 
-    back: 'The total value of a project in today\'s dollars. Higher positive NPV is always preferred.' 
-  },
-  { 
-    front: 'What is Internal Rate of Return (IRR)?', 
-    back: 'The interest rate at which the project breaks even. Higher IRR is better.' 
-  },
-  { 
-    front: 'What is \'Opportunity Cost\'?', 
-    back: 'The value of the project you *didn\'t* choose when you selected another one.' 
-  },
-  { 
-    front: 'What is a Benefit-Cost Ratio (BCR)?', 
-    back: 'Ratio of benefits to costs. A BCR > 1 means the project provides more value than it costs.' 
-  },
-  { 
-    front: 'What is Sunk Cost?', 
-    back: 'Money already spent that cannot be recovered. It should NOT be considered when deciding whether to continue a project.' 
-  },
-  { 
-    front: 'What does SWOT stand for?', 
-    back: 'Strengths and Weaknesses (Internal) vs Opportunities and Threats (External).' 
-  },
-  { 
-    front: 'What does a Balanced Scorecard measure?', 
-    back: 'Performance across four perspectives: Financial, Customer, Internal Process, and Learning/Growth.' 
-  },
-  { 
-    front: 'Are compliance projects optional if they have negative NPV?', 
-    back: 'No. Compliance projects are non-negotiable even with negative NPV - they keep the license to operate.' 
-  },
-  { 
-    front: 'What is the NPV decision rule?', 
-    back: 'NPV > 0 means ACCEPT; NPV < 0 means REJECT.' 
-  },
-  { 
-    front: 'What is the Law of Diminishing Returns?', 
-    back: 'The point where adding more input yields less output - e.g., adding more people to a late project often makes it later.' 
-  }
+  { front: `What is Net Present Value (NPV)?`, back: `The total value of a project in today\\'s dollars. Higher positive NPV is always preferred.` },
+  { front: `What is Internal Rate of Return (IRR)?`, back: `The interest rate at which the project breaks even. Higher IRR is better.` },
+  { front: `What is \\'Opportunity Cost\\'?`, back: `The value of the project you *didn\\'t* choose when you selected another one.` },
+  { front: `What is a Benefit-Cost Ratio (BCR)?`, back: `Ratio of benefits to costs. A BCR > 1 means the project provides more value than it costs.` },
+  { front: `What is Sunk Cost?`, back: `Money already spent that cannot be recovered. It should NOT be considered when deciding whether to continue a project.` },
+  { front: `What does SWOT stand for?`, back: `Strengths and Weaknesses (Internal) vs Opportunities and Threats (External).` },
+  { front: `What does a Balanced Scorecard measure?`, back: `Performance across four perspectives: Financial, Customer, Internal Process, and Learning/Growth.` },
+  { front: `Are compliance projects optional if they have negative NPV?`, back: `No. Compliance projects are non-negotiable even with negative NPV - they keep the license to operate.` },
+  { front: `What is the NPV decision rule?`, back: `NPV > 0 means ACCEPT; NPV < 0 means REJECT.` },
+  { front: `What is the Law of Diminishing Returns?`, back: `The point where adding more input yields less output - e.g., adding more people to a late project often makes it later.` }
 ]" />
 
 ---

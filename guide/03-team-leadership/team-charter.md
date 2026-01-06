@@ -91,22 +91,10 @@ These agreements are critical quality gates that prevent rework.
 ##  Decision Models: When to Use Which
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Consensus', 
-    back: 'Everyone agrees or consents. Best for high-impact decisions requiring deep buy-in.' 
-  },
-  { 
-    front: 'Majority Vote', 
-    back: '50%+1 wins. Best for time-boxed decisions with moderate impact.' 
-  },
-  { 
-    front: 'Consensus (Sociocracy)', 
-    back: 'Based on principled objections. Faster than 100% agreement but still collaborative.' 
-  },
-  { 
-    front: 'PM/Expert Decides', 
-    back: 'For highly specialized technical decisions or when the team is deadlocked.' 
-  }
+  { front: `Consensus`, back: `Everyone agrees or consents. Best for high-impact decisions requiring deep buy-in.` },
+  { front: `Majority Vote`, back: `50%+1 wins. Best for time-boxed decisions with moderate impact.` },
+  { front: `Consensus (Sociocracy)`, back: `Based on principled objections. Faster than 100% agreement but still collaborative.` },
+  { front: `PM/Expert Decides`, back: `For highly specialized technical decisions or when the team is deadlocked.` }
 ]" />
 
 ---
@@ -114,46 +102,16 @@ These agreements are critical quality gates that prevent rework.
 ## Quick Review: Charters & Agreements
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Charter Source', 
-    back: 'Must be created by the TEAM, for the team (not dictated by the PM).' 
-  },
-  { 
-    front: 'When to update Charter', 
-    back: 'Update during every Retrospective based on team feedback and flow.' 
-  },
-  { 
-    front: 'Ground Rules Purpose', 
-    back: 'To set behavioral expectations and create a safe, high-trust environment.' 
-  },
-  { 
-    front: 'Conflict Step 1', 
-    back: 'Team Charter escalation path: Start with direct conversation between parties.' 
-  },
-  { 
-    front: 'What is Definition of Done (DoD)?', 
-    back: 'A standard checklist that applies to ALL work items (e.g., code reviewed, tests passed, docs updated).' 
-  },
-  { 
-    front: 'What is Acceptance Criteria (AC)?', 
-    back: 'Specific requirements that apply to ONE work item (e.g., button must be blue, load in less than 2s).' 
-  },
-  { 
-    front: 'What are the four key Team Charter components?', 
-    back: 'Team Values, Ground Rules, Communication Norms, and Decision Making processes.' 
-  },
-  { 
-    front: 'What are three properties of effective Ground Rules?', 
-    back: 'Collaborative (written by team), Visible (displayed prominently), and Self-Policing (team enforces them).' 
-  },
-  { 
-    front: 'When should Consensus be used for decisions?', 
-    back: 'For high-impact decisions requiring deep buy-in where everyone agrees or consents.' 
-  },
-  { 
-    front: 'What should a PM do when team has behavioral issues?', 
-    back: 'Refer the team to the Ground Rules or facilitate a session to update the Team Charter.' 
-  }
+  { front: `Charter Source`, back: `Must be created by the TEAM, for the team (not dictated by the PM).` },
+  { front: `When to update Charter`, back: `Update during every Retrospective based on team feedback and flow.` },
+  { front: `Ground Rules Purpose`, back: `To set behavioral expectations and create a safe, high-trust environment.` },
+  { front: `Conflict Step 1`, back: `Team Charter escalation path: Start with direct conversation between parties.` },
+  { front: `What is Definition of Done (DoD)?`, back: `A standard checklist that applies to ALL work items (e.g., code reviewed, tests passed, docs updated).` },
+  { front: `What is Acceptance Criteria (AC)?`, back: `Specific requirements that apply to ONE work item (e.g., button must be blue, load in less than 2s).` },
+  { front: `What are the four key Team Charter components?`, back: `Team Values, Ground Rules, Communication Norms, and Decision Making processes.` },
+  { front: `What are three properties of effective Ground Rules?`, back: `Collaborative (written by team), Visible (displayed prominently), and Self-Policing (team enforces them).` },
+  { front: `When should Consensus be used for decisions?`, back: `For high-impact decisions requiring deep buy-in where everyone agrees or consents.` },
+  { front: `What should a PM do when team has behavioral issues?`, back: `Refer the team to the Ground Rules or facilitate a session to update the Team Charter.` }
 ]" />
 
 ::: tip  Exam Insight

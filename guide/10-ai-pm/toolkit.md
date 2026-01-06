@@ -455,16 +455,16 @@ Use this to assess your team's readiness for AI adoption.
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { front: 'What is the purpose of an AI Charter?', back: 'To define approved tools, prohibited data, and human review requirements for the team.' },
-  { front: 'What is the most critical AI risk to mitigate?', back: 'Data leakage (confidential info in public tools) - mitigate with policy and redaction.' },
-  { front: 'What is \'Zero Data Retention\'?', back: 'An enterprise feature where the AI vendor does NOT store or train on your data.' },
-  { front: 'What is the \'Human in the Loop\' (HITL) requirement?', back: 'A human must review and approve all AI outputs before they are used or shared.' },
-  { front: 'Describe the \'Pre-Mortem\' Prompt?', back: 'Asking AI to imagine a future where the project failed and generate potential causes (Risks).' },
-  { front: 'How do you mitigate AI Hallucinations?', back: 'Use RAG (Retrieval Augmented Generation), prompt grounding, and mandatory verification.' },
-  { front: 'What is Prompt Engineering?', back: 'Structuring inputs (Role, Context, Constraints) to get better quality outputs from AI.' },
-  { front: 'Why measure AI ROI?', back: 'To justify the cost of tools vs. time saved. Formula: (Time Saved * Rate) - Tool Cost.' },
-  { front: 'What is Shadow AI?', back: 'Employees using unapproved AI tools without IT oversight.' },
-  { front: 'Explainable AI (XAI) importance?', back: 'In regulated industries, you must be able to explain WHY an AI model made a decision.' }
+  { front: `What is the purpose of an AI Charter?`, back: `To define approved tools, prohibited data, and human review requirements for the team.` },
+  { front: `What is the most critical AI risk to mitigate?`, back: `Data leakage (confidential info in public tools) - mitigate with policy and redaction.` },
+  { front: `What is \\'Zero Data Retention\\'?`, back: `An enterprise feature where the AI vendor does NOT store or train on your data.` },
+  { front: `What is the \\'Human in the Loop\\' (HITL) requirement?`, back: `A human must review and approve all AI outputs before they are used or shared.` },
+  { front: `Describe the \\'Pre-Mortem\\' Prompt?`, back: `Asking AI to imagine a future where the project failed and generate potential causes (Risks).` },
+  { front: `How do you mitigate AI Hallucinations?`, back: `Use RAG (Retrieval Augmented Generation), prompt grounding, and mandatory verification.` },
+  { front: `What is Prompt Engineering?`, back: `Structuring inputs (Role, Context, Constraints) to get better quality outputs from AI.` },
+  { front: `Why measure AI ROI?`, back: `To justify the cost of tools vs. time saved. Formula: (Time Saved * Rate) - Tool Cost.` },
+  { front: `What is Shadow AI?`, back: `Employees using unapproved AI tools without IT oversight.` },
+  { front: `Explainable AI (XAI) importance?`, back: `In regulated industries, you must be able to explain WHY an AI model made a decision.` }
 ]" />
 
 

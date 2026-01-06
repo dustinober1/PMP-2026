@@ -124,43 +124,14 @@ From assembling the squad to navigating high-stakes conflict.
 ### Quick Review: Core Concepts
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Tuckman\'s Model Stages', 
-    back: 'Forming → Storming → Norming → Performing. Note: Regression happens when members change.' 
-  },
-  { 
-    front: 'Situational Leadership II (SLII)', 
-    back: 'The mindset of matching leadership style to the team\'s development level.' 
-  },
-  { 
-    front: 'Thomas-Kilmann Favorite', 
-    back: 'Collaborate (Win-Win) is usually preferred. Force for emergencies only.' 
-  },
-  { 
-    front: 'Herzberg\'s Hygiene Factors', 
-    back: 'Pay, security, working conditions. Must be fixed before motivators work.' 
-  }
+  { front: `What are Tuckman's stages of team development?`, back: `Forming (establishing), Storming (conflict), Norming (cohesion), Performing (productivity).` },
+  { front: `What is Servant Leadership?`, back: `A style where the PM enables team success, removes obstacles, and supports growth.` },
+  { front: `What is the difference between coaching and mentoring?`, back: `Coaching: improving current performance. Mentoring: long-term development and career guidance.` },
+  { front: `How should a PM handle team conflict?`, back: `Address promptly, listen to perspectives, find common ground, and focus on project objectives.` },
+  { front: `What motivates high-performing teams?`, back: `Clear goals, autonomy, recognition, growth opportunities, and alignment with meaningful work.` },
+  { front: `What is virtual team management?`, back: `Enabling distributed teams through over-communication, collaboration tools, and relationship building.` },
+  { front: `What should a PM do in the Forming stage?`, back: `Clarify roles, establish ground rules, build psychological safety, and create team identity.` },
+  { front: `What should a PM do in the Storming stage?`, back: `Address conflicts directly, clarify expectations, coach individuals, and maintain focus on goals.` },
+  { front: `What should a PM do in the Performing stage?`, back: `Enable autonomy, focus on continuous improvement, handle exceptions, and develop future leaders.` },
+  { front: `How does a PM build psychological safety on a team?`, back: `Create an environment where team members feel safe to take risks, admit mistakes, and ask questions without fear.` }
 ]" />
-
----
-
-##  Chapter Coverage Map
-
-This chapter directly supports these PMP Exam Content Outline tasks:
-
-| ECO Task | Topic | Section |
-| :------- | :---- | :------ |
-| **Task 2** | Lead a team | 3.2 Servant Leadership |
-| **Task 3** | Support team performance | 3.1b Development, 3.4 Motivation |
-| **Task 4** | Empower team members | 3.2 Coaching, 3.4 Motivation |
-| **Task 5** | Ensure training and development | 3.2 Training Needs Analysis |
-| **Task 6** | Build a team | 3.1a Formation, 3.1c Charter |
-| **Task 7** | Address impediments | 3.2 Servant Leadership |
-| **Task 8** | Negotiate project agreements | 3.3 Negotiation (BATNA/ZOPA) |
-| **Task 9** | Collaborate with stakeholders | 3.1d Virtual Teams |
-| **Task 10** | Build shared understanding | 3.1c Charter, 3.1a RACI |
-| **Task 11** | Engage stakeholders | 3.1d Hofstede, Communication |
-| **Task 12** | Address conflict | 3.3 Conflict Management |
-| **Task 13** | Mentoring and coaching | 3.2 GROW Model |
-| **Task 14** | Apply EI | 3.2 Emotional Intelligence |
-

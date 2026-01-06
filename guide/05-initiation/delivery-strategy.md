@@ -119,46 +119,16 @@ If stakeholders need **frequent feedback** and requirements are evolving, an ada
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { 
-    front: 'Predictive Approach', 
-    back: 'Plan-driven; best when requirements are stable and cost of change is high.' 
-  },
-  { 
-    front: 'Agile Approach', 
-    back: 'Change-driven; best for high uncertainty and frequent value delivery.' 
-  },
-  { 
-    front: 'Hybrid Approach', 
-    back: 'A combination of predictive and agile; common in enterprise environments.' 
-  },
-  { 
-    front: 'Stacey Matrix', 
-    back: 'A tool for choosing an approach based on requirements and technical certainty.' 
-  },
-  { 
-    front: 'Cynefin Framework', 
-    back: 'A complexity model used to understand if a situation is Clear, Complicated, Complex, or Chaotic.' 
-  },
-  { 
-    front: 'Iterative Lifecycle', 
-    back: 'Planning and scope defined early, but time and cost estimates are refilled as the team\'s understanding increases.' 
-  },
-  { 
-    front: 'Incremental Lifecycle', 
-    back: 'A deliverable is produced through a series of iterations that successively add functionality.' 
-  },
-  { 
-    front: 'Rolling Wave Planning', 
-    back: 'High-level planning for the long term; detailed planning for the near term (common in Hybrid/Predictive).' 
-  },
-  { 
-    front: 'Product Vision', 
-    back: 'The \'North Star\' for an agile project, defining the target customer and key benefit.' 
-  },
-  { 
-    front: 'Empiricism', 
-    back: 'The agile principle of making decisions based on observed results (Probe-Sense-Respond).' 
-  }
+  { front: `Predictive Approach`, back: `Plan-driven; best when requirements are stable and cost of change is high.` },
+  { front: `Agile Approach`, back: `Change-driven; best for high uncertainty and frequent value delivery.` },
+  { front: `Hybrid Approach`, back: `A combination of predictive and agile; common in enterprise environments.` },
+  { front: `Stacey Matrix`, back: `A tool for choosing an approach based on requirements and technical certainty.` },
+  { front: `Cynefin Framework`, back: `A complexity model used to understand if a situation is Clear, Complicated, Complex, or Chaotic.` },
+  { front: `Iterative Lifecycle`, back: `Planning and scope defined early, but time and cost estimates are refilled as the team\\'s understanding increases.` },
+  { front: `Incremental Lifecycle`, back: `A deliverable is produced through a series of iterations that successively add functionality.` },
+  { front: `Rolling Wave Planning`, back: `High-level planning for the long term; detailed planning for the near term (common in Hybrid/Predictive).` },
+  { front: `Product Vision`, back: `The \\'North Star\\' for an agile project, defining the target customer and key benefit.` },
+  { front: `Empiricism`, back: `The agile principle of making decisions based on observed results (Probe-Sense-Respond).` }
 ]" />
 
 ---
