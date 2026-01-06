@@ -163,7 +163,8 @@ In predictive projects, a **Work Authorization System** ensures that work begins
 | **Approval Authority** | Who signed off | "PM: Alex Torres; Sponsor: Maria Singh" |
 
 ### Work Authorization Process Flow
-```
+<ConceptCard title="Work Authorization Process Flow">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 1. Work Package Ready
    ↓
 2. Verify Prerequisites Complete
@@ -179,7 +180,8 @@ In predictive projects, a **Work Authorization System** ensures that work begins
 7. Collect Work Performance Data
    ↓
 8. Complete & Close Work Package
-```
+  </div>
+</ConceptCard>
 
 ::: warning  Common Mistake
 Do not allow work to start "informally" because "we have time" or "we can get a head start." Unauthorized work creates **scope creep**, budget overruns, and accountability gaps. Always follow the authorization process.
@@ -190,7 +192,8 @@ Do not allow work to start "informally" because "we have time" or "we can get a 
 ##  Work Execution Process Flows
 
 ### Predictive Work Execution Flow
-```
+<ConceptCard title="Predictive Work Execution Flow">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 ┌─────────────────────────────────────────────────────────┐
 │ 1. Authorize Work (Work Authorization System)          │
 └───────────────────┬─────────────────────────────────────┘
@@ -234,10 +237,12 @@ Do not allow work to start "informally" because "we have time" or "we can get a 
 │    • What worked? What didn't?                          │
 │    • Update Lessons Learned Register                    │
 └─────────────────────────────────────────────────────────┘
-```
+  </div>
+</ConceptCard>
 
 ### Agile Work Execution Flow (Sprint-Based)
-```
+<ConceptCard title="Agile Work Execution Flow (Sprint-Based)">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 ┌─────────────────────────────────────────────────────────┐
 │ Sprint Planning                                         │
 │ • Product Owner presents prioritized backlog           │
@@ -277,10 +282,12 @@ Do not allow work to start "informally" because "we have time" or "we can get a 
 └───────────────────┬─────────────────────────────────────┘
                     ↓
             Next Sprint Planning
-```
+  </div>
+</ConceptCard>
 
 ### Hybrid Work Execution Flow
-```
+<ConceptCard title="Hybrid Work Execution Flow">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 ┌─────────────────────────────────────────────────────────┐
 │ Portfolio/Program Governance (Predictive Layer)         │
 │ • Phase gates, milestone reviews, budget approvals      │
@@ -300,7 +307,8 @@ Do not allow work to start "informally" because "we have time" or "we can get a 
 │ • Portfolio adjusts funding/priorities if needed        │
 │ • Teams adjust execution based on strategic guidance    │
 └─────────────────────────────────────────────────────────┘
-```
+  </div>
+</ConceptCard>
 
 ---
 
@@ -516,7 +524,8 @@ If a scenario says "The sponsor approved a change verbally," the best answer is 
 
 ### Converting Data to Information to Reports
 
-```
+<ConceptCard title="Data to Information to Reports Flow">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto; text-align: center;">
 Work Performance DATA
 (Raw observations)
     ↓
@@ -531,7 +540,8 @@ PACKAGING
     ↓
 Work Performance REPORTS
 (Stakeholder communications)
-```
+  </div>
+</ConceptCard>
 
 **Example**:
 - **Data**: "Actual Cost = $120K; Planned Value = $100K; Earned Value = $90K"
@@ -724,7 +734,8 @@ The PMP exam often presents scenarios where a risk has "just happened." The best
 
 When a risk occurs, it becomes an **issue**. Follow this process:
 
-```
+<ConceptCard title="Risk-to-Issue Conversion Process">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 1. TRIGGER DETECTED
    ↓
 2. VERIFY: Is this the planned trigger? Has the risk actually occurred?
@@ -748,7 +759,8 @@ When a risk occurs, it becomes an **issue**. Follow this process:
    ↓
 8. ADJUST BASELINES (if needed):
    • If impact exceeds contingency, follow change control process
-```
+  </div>
+</ConceptCard>
 
 ### Risk Response Execution Scenarios
 

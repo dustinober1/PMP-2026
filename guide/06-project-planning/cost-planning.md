@@ -77,7 +77,8 @@ A PMP budget is built from the bottom up, with layers of protection.
 
 ### Budget Component Structure
 
-```
+<ConceptCard title="Budget Component Structure">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 ┌─────────────────────────────────────────────────────────────┐
 │                    TOTAL PROJECT BUDGET                      │
 ├─────────────────────────────────────────────────────────────┤
@@ -97,7 +98,8 @@ A PMP budget is built from the bottom up, with layers of protection.
 │  │   Sponsor Authority - For unidentified risks          │  │
 │  └───────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────┘
-```
+  </div>
+</ConceptCard>
 
 ---
 
@@ -507,7 +509,8 @@ TCPI = (BAC - EV) / (BAC - AC)
 
 The cost baseline is often shown as an S-curve—cumulative planned expenditure over time.
 
-```
+<ConceptCard title="Cost Baseline S-Curve">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 $ Cumulative Cost
 │
 │                             ╭───── BAC (Budget at Completion)
@@ -521,7 +524,8 @@ $ Cumulative Cost
 │──────────────────────────────→ Time
         Early    Middle    Late
       (Slow)   (Fast)   (Slow)
-```
+  </div>
+</ConceptCard>
 
 **S-Curve Characteristics**:
 - **Early Project**: Slower spending (planning, ramp-up)

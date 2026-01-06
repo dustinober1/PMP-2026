@@ -224,7 +224,8 @@ AI generates in seconds; PM filters/prioritizes with team.
 
 ## Decision Tree: "Should I Use AI for This?"
 
-```
+<ConceptCard title="Decision Tree: Should I Use AI?">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 ┌─ Is the data volume large (100+ records)?
 │  ├─ NO → Go manual / stay manual
 │  └─ YES → Continue...
@@ -240,7 +241,8 @@ AI generates in seconds; PM filters/prioritizes with team.
 ├─ Is there approved, contractually safe tooling available?
 │  ├─ NO → Stop; do not use public/unapproved AI
 │  └─ YES → Use AI + HITL review
-```
+  </div>
+</ConceptCard>
 
 ---
 

@@ -127,7 +127,8 @@ The Risk Register is the primary artifact for tracking risks throughout the proj
 
 Organize risks by category for comprehensive coverage:
 
-```
+<ConceptCard title="Risk Breakdown Structure (RBS) Example">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 1.0 Project Risks
 ├── 1.1 Technical Risks
 │   ├── 1.1.1 Technology maturity
@@ -145,7 +146,8 @@ Organize risks by category for comprehensive coverage:
     ├── 1.4.1 Estimation uncertainty
     ├── 1.4.2 Scope definition
     └── 1.4.3 Communication gaps
-```
+  </div>
+</ConceptCard>
 
 ---
 
@@ -177,7 +179,8 @@ Define probability and impact scales:
 
 ### Probability-Impact Matrix
 
-```
+<ConceptCard title="Probability-Impact Matrix">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
                IMPACT
           Low    Med    High
        ┌───────┬───────┬───────┐
@@ -187,7 +190,8 @@ Med    │ Low   │ Med   │ High  │  R
        ├───────┼───────┼───────┤  O
 Low    │ V.Low │ Low   │ Med   │  B
        └───────┴───────┴───────┘
-```
+  </div>
+</ConceptCard>
 
 ### Risk Score Calculation
 
@@ -243,7 +247,8 @@ Visual tool for evaluating decisions under uncertainty.
 
 **Example: Build vs. Buy Decision**
 
-```
+<ConceptCard title="Decision Tree Example">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
                                     EMV
                               ┌─ Success (70%): +$500k  │ = $350k
             ┌─ Build ($200k) ─┤                         │
@@ -256,7 +261,8 @@ Decision ───┤                       Build EMV = $290k - $200k = $90k
                                     Buy EMV = $250k - $150k = $100k
 
 Decision: Buy (EMV = $100k) > Build (EMV = $90k)
-```
+  </div>
+</ConceptCard>
 
 ---
 
@@ -265,16 +271,48 @@ Decision: Buy (EMV = $100k) > Build (EMV = $90k)
 Identifies which risks have the greatest impact on project outcomes.
 
 <strong>Tornado Diagram:</strong>
-```
-                    Project Cost Variance
-                    -$100k        0      +$100k
-                    ├────────────┼────────────┤
-Vendor Pricing      ████████████████████████████
-Resource Costs      ██████████████████
-Scope Changes       ████████████
-Timeline Slip       ████████
-Exchange Rate       ████
-```
+<ConceptCard title="Tornado Diagram: Project Cost Variance">
+  <div style="font-family: var(--vp-font-family-base); color: var(--vp-c-text-1);">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8em; margin-bottom: 5px; color: var(--vp-c-text-2);">
+      <span>-$100k</span><span>0</span><span>+$100k</span>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <div style="font-size: 0.9em; margin-bottom: 2px;">Vendor Pricing</div>
+      <div style="height: 24px; background: var(--vp-c-bg-soft); position: relative; border-radius: 4px;">
+        <div style="position: absolute; left: 10%; width: 80%; background-color: var(--vp-c-brand); height: 100%; border-radius: 4px;"></div>
+      </div>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <div style="font-size: 0.9em; margin-bottom: 2px;">Resource Costs</div>
+      <div style="height: 24px; background: var(--vp-c-bg-soft); position: relative; border-radius: 4px;">
+        <div style="position: absolute; left: 25%; width: 50%; background-color: var(--vp-c-brand-light); height: 100%; border-radius: 4px;"></div>
+      </div>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <div style="font-size: 0.9em; margin-bottom: 2px;">Scope Changes</div>
+      <div style="height: 24px; background: var(--vp-c-bg-soft); position: relative; border-radius: 4px;">
+        <div style="position: absolute; left: 35%; width: 30%; background-color: var(--vp-c-brand-lighter); height: 100%; border-radius: 4px;"></div>
+      </div>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <div style="font-size: 0.9em; margin-bottom: 2px;">Timeline Slip</div>
+      <div style="height: 24px; background: var(--vp-c-bg-soft); position: relative; border-radius: 4px;">
+        <div style="position: absolute; left: 40%; width: 20%; background-color: var(--vp-c-text-2); height: 100%; border-radius: 4px;"></div>
+      </div>
+    </div>
+
+    <div style="margin-bottom: 0px;">
+      <div style="font-size: 0.9em; margin-bottom: 2px;">Exchange Rate</div>
+      <div style="height: 24px; background: var(--vp-c-bg-soft); position: relative; border-radius: 4px;">
+        <div style="position: absolute; left: 45%; width: 10%; background-color: var(--vp-c-text-3); height: 100%; border-radius: 4px;"></div>
+      </div>
+    </div>
+  </div>
+</ConceptCard>
 
 **Interpretation**: Vendor pricing has the greatest potential impact on cost variance.
 
@@ -285,9 +323,8 @@ Exchange Rate       ████
 Runs thousands of project simulations to generate probability distributions.
 
 <strong>Output Example:</strong>
-```
-Probability of Completion
-
+<ConceptCard title="Monte Carlo Output: Probability of Completion">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 100%│                    ___________
     │                ___/
  80%│            ___/
@@ -304,7 +341,8 @@ Probability of Completion
 P50 (50% confidence): $980,000
 P80 (80% confidence): $1,030,000
 P90 (90% confidence): $1,050,000
-```
+  </div>
+</ConceptCard>
 
 **Interpretation**: 
 - There's an 80% chance the project will cost $1.03M or less

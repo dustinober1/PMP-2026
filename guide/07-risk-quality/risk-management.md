@@ -120,7 +120,8 @@ Use multiple techniques because each has bias.
 The RBS organizes risks by category to ensure complete coverage and identify patterns.
 
 <strong>Example RBS for a Software Project:</strong>
-```
+<ConceptCard title="Risk Breakdown Structure (RBS) Example">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 Project Risks
 ├─ Technical
 │  ├─ Architecture complexity
@@ -147,7 +148,8 @@ Project Risks
    ├─ Skill gaps
    ├─ Team conflict
    └─ Motivation/morale
-```
+  </div>
+</ConceptCard>
 
 **Exam Tip**: If the question mentions "we keep missing risks in the same category," suggest using an **RBS** or **prompt list** to ensure structured coverage.
 
@@ -200,7 +202,8 @@ When evaluating multiple risks, sum their EMVs to determine total risk exposure:
 Used when you have multiple decision paths with uncertain outcomes. Calculate EMV for each branch and choose the path with the best expected value.
 
 **Example**: Should we build in-house or outsource?
-```
+<ConceptCard title="Decision Tree Example: Build vs Outsource">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 Decision: Build In-House
 ├─ Success (70%): -$100k cost + $500k benefit = +$400k × 0.70 = +$280k
 └─ Failure (30%): -$100k cost + $0 benefit = -$100k × 0.30 = -$30k
@@ -212,7 +215,8 @@ Decision: Outsource
 EMV (Outsource) = +$270k - $15k = +$255k
 
 BEST CHOICE: Outsource (higher EMV)
-```
+  </div>
+</ConceptCard>
 
 #### Sensitivity Analysis (Tornado Diagram)
 Identifies which variables have the most impact on project outcomes. Variables with the widest bars (most variance) are the highest-priority risks to monitor.
@@ -279,7 +283,8 @@ The cumulative distribution (S-curve) shows confidence levels:
 :::
 
 #### Sample Monte Carlo Output
-```
+<ConceptCard title="Monte Carlo Output: Project Duration">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 Project Duration Analysis (1,000 iterations)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Minimum:     42 days
@@ -290,7 +295,8 @@ P90:         68 days (90% chance - high confidence)
 Maximum:     95 days
 
 Recommendation: Commit to 63 days (P80) with 7-day buffer to P90.
-```
+  </div>
+</ConceptCard>
 
 ---
 
@@ -341,7 +347,8 @@ Your company must decide how to develop a new feature:
 - **Option C: Hybrid** - Split the work (moderate cost and risk)
 
 #### Step 1: Map the Decision Tree
-```
+<ConceptCard title="Decision Tree Example: Feature Development">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 Decision: Feature Development
 │
 ├── Build In-House (Cost: $100k)
@@ -355,7 +362,8 @@ Decision: Feature Development
 └── Hybrid (Cost: $140k)
     ├── Success (75%): Benefit $390k → Net: +$250k
     └── Failure (25%): Benefit $50k → Net: -$90k
-```
+  </div>
+</ConceptCard>
 
 #### Step 2: Calculate EMV for Each Option
 
@@ -394,13 +402,15 @@ Use decision trees when:
 The total project budget includes both base estimates and reserves. Understanding how to calculate risk-adjusted budgets is essential.
 
 #### Budget Structure
-```
+<ConceptCard title="Budget Structure Hierarchy">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 Total Project Funding
 ├── Cost Baseline (what PM can authorize)
 │   ├── Work Package Estimates (base estimates)
 │   └── Contingency Reserve (for known risks)
 └── Management Reserve (for unknown risks - requires sponsor approval)
-```
+  </div>
+</ConceptCard>
 
 #### Calculating Contingency Reserve Using EMV
 
@@ -451,13 +461,15 @@ Understanding distributions helps you choose appropriate inputs for quantitative
 | **Lognormal** | Skewed right | Costs and durations (can't go negative) | "Typically 15 days but could extend significantly" |
 
 #### Visual Guide: Distribution Selection
-```
+<ConceptCard title="Distribution Selection Logic">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 Do you have historical data?
 ├── YES → Use Normal or Beta distribution
 └── NO → Do you have expert estimates (O, M, P)?
           ├── YES → Use Triangular or PERT
           └── NO → Use Uniform (equal probability)
-```
+  </div>
+</ConceptCard>
 
 ---
 
@@ -471,16 +483,61 @@ Shows total risk exposure (sum of EMVs) decreasing over time as:
 - Uncertain work is completed
 - Risks are realized (become issues) and handled
 
-```
-Risk Exposure Over Sprints
-$200k ████████████████████
-$180k ██████████████████
-$140k ██████████████
-$100k ██████████
- $60k ██████
- $30k ███
-      S1   S2   S3   S4   S5   S6
-```
+<ConceptCard title="Risk Burndown: Risk Exposure Over Sprints">
+  <div style="font-family: var(--vp-font-family-base); color: var(--vp-c-text-1);">
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+
+      <!-- Sprint 1 -->
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <div style="width: 50px; text-align: right; font-size: 0.9em;">$200k</div>
+        <div style="flex-grow: 1; background: var(--vp-c-bg-soft); height: 20px; border-radius: 4px;">
+          <div style="width: 100%; background: var(--vp-c-danger); height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.8em;">S1</div>
+        </div>
+      </div>
+
+      <!-- Sprint 2 -->
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <div style="width: 50px; text-align: right; font-size: 0.9em;">$180k</div>
+        <div style="flex-grow: 1; background: var(--vp-c-bg-soft); height: 20px; border-radius: 4px;">
+           <div style="width: 90%; background: var(--vp-c-danger); height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.8em;">S2</div>
+        </div>
+      </div>
+
+      <!-- Sprint 3 -->
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <div style="width: 50px; text-align: right; font-size: 0.9em;">$140k</div>
+        <div style="flex-grow: 1; background: var(--vp-c-bg-soft); height: 20px; border-radius: 4px;">
+          <div style="width: 70%; background: var(--vp-c-warning); height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: black; font-size: 0.8em;">S3</div>
+        </div>
+      </div>
+
+      <!-- Sprint 4 -->
+      <div style="display: flex; align-items: center; gap: 10px;">
+         <div style="width: 50px; text-align: right; font-size: 0.9em;">$100k</div>
+         <div style="flex-grow: 1; background: var(--vp-c-bg-soft); height: 20px; border-radius: 4px;">
+           <div style="width: 50%; background: var(--vp-c-warning); height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: black; font-size: 0.8em;">S4</div>
+         </div>
+      </div>
+
+       <!-- Sprint 5 -->
+      <div style="display: flex; align-items: center; gap: 10px;">
+         <div style="width: 50px; text-align: right; font-size: 0.9em;">$60k</div>
+         <div style="flex-grow: 1; background: var(--vp-c-bg-soft); height: 20px; border-radius: 4px;">
+           <div style="width: 30%; background: var(--vp-c-brand); height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.8em;">S5</div>
+         </div>
+      </div>
+
+       <!-- Sprint 6 -->
+      <div style="display: flex; align-items: center; gap: 10px;">
+         <div style="width: 50px; text-align: right; font-size: 0.9em;">$30k</div>
+         <div style="flex-grow: 1; background: var(--vp-c-bg-soft); height: 20px; border-radius: 4px;">
+           <div style="width: 15%; background: var(--vp-c-brand); height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.8em;">S6</div>
+         </div>
+      </div>
+
+    </div>
+  </div>
+</ConceptCard>
 
 **Healthy Pattern**: Risk exposure decreases each sprint (uncertainty is being resolved)
 **Unhealthy Pattern**: Risk exposure flat or increasing → Need immediate intervention

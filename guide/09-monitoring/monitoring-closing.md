@@ -26,12 +26,14 @@ Need a status report, change request form, variance log, or closure checklist? U
 :::
 
 ::: info The Control Loop (Mental Model)
-```
+<ConceptCard title="The Control Loop (Mental Model)">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 Work happens → Collect WPD → Analyze (WPI) → Decide → Act → Communicate (WPR) → Repeat
 
 If the decision changes a baseline or contract:
 Change Request → Integrated Change Control → Approved Change → Implement → Re-baseline
-```
+  </div>
+</ConceptCard>
 :::
 
 ---
@@ -111,7 +113,8 @@ The **Performance Measurement Baseline** is the integrated combination of the sc
 
 ### PMB vs. Project Budget
 
-```
+<ConceptCard title="PMB vs. Project Budget Structure">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 ┌────────────────────────────────────────────┐
 │            PROJECT BUDGET                  │
 │  ┌──────────────────────────────────────┐  │
@@ -124,7 +127,8 @@ The **Performance Measurement Baseline** is the integrated combination of the sc
 │  └──────────────────────────────────────┘  │
 │  + Management Reserve                      │
 └────────────────────────────────────────────┘
-```
+  </div>
+</ConceptCard>
 
 <strong>Key Distinction:</strong>
 - **PMB** = Cost Baseline + Contingency Reserve (what you measure performance against)
@@ -396,7 +400,8 @@ Key relationship: a **risk becomes an issue** when it occurs; issues and varianc
 
 ####  Decision Tree: Where Do I Log This?
 
-```
+<ConceptCard title="Decision Tree: Where Do I Log This?">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 Is the problem HAPPENING RIGHT NOW?
 ├─ YES → ISSUE LOG
 │  └─ Example: Test environment is down today
@@ -419,7 +424,8 @@ AFTER you address the issue/risk, does it require changing scope/schedule/cost/c
 │  └─ If rejected/deferred: log decision and communicate
 │
 └─ NO → Close issue/update risk register and communicate
-```
+  </div>
+</ConceptCard>
 
 ####  Real-World Scenarios
 
@@ -711,7 +717,8 @@ Effective monitoring requires presenting data in ways that drive decisions. The 
 
 The **S-curve** plots cumulative planned value (PV), earned value (EV), and actual cost (AC) over time.
 
-```
+<ConceptCard title="S-Curve Interpretation">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
          Cumulative $
               │
     BAC ─ ─ ─ ┼─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┐
@@ -726,7 +733,8 @@ The **S-curve** plots cumulative planned value (PV), earned value (EV), and actu
               │──●───●───●─────────┼────── Time
               │                    │
               Start              Finish
-```
+  </div>
+</ConceptCard>
 
 | Pattern | What It Means | Action |
 |---|---|---|
