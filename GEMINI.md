@@ -56,6 +56,8 @@ The following NPM scripts are available in `package.json`:
 The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/workflows/` handles automated deployment on push, or it can be triggered manually via `npm run deploy`.
 
 ## Recent Changes
+- **2026-01-06**: Removed all interactive checkboxes from `guide/01-introduction/using-guide.md` (not functional in static site) and updated chapter outline from 10 to 11 chapters, separating AI in Project Management (Chapter 10) from Exam Preparation (Chapter 11) to match actual directory structure.
 - **2026-01-06**: Added visual spacing between sample questions and their answer explanations in `guide/01-introduction/understanding-exam.md` to improve readability.
 - **2026-01-06**: Reformatted domain task breakdown table in `guide/01-introduction/understanding-exam.md` to display all tasks in bullet format with line breaks for improved readability, aligned with the official 2026 PMP ECO.
 - **2026-01-06**: Added comprehensive domain task breakdown table to homepage (`index.md`) listing all key tasks tested in each of the three domains (People, Process, Business Environment) in bullet format, aligned with the official 2026 PMP ECO.
+
