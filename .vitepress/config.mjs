@@ -1,6 +1,7 @@
-import { createSidebar } from './sidebar/chapters.js'
+import { createSidebar } from './sidebar/chapters.mjs'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default {
+export default withMermaid({
   title: 'PMP Exam Prep 2026',
   description: 'Comprehensive Study Guide for the Project Management Professional Exam',
   lang: 'en-US',
@@ -62,10 +63,16 @@ export default {
     }
   },
 
+  mermaid: {
+    // mermaidConfig: {
+    //   securityLevel: 'loose',
+    // }
+  },
+
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#924dbf' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['meta', { property: 'og:title', content: 'PMP Exam Prep 2026' }]
   ]
-}
+})

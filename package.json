@@ -9,9 +9,11 @@
     "deploy": "vitepress build && gh-pages -d .vitepress/dist --repo https://github.com/dustinober/PMP-2026.git --branch gh-pages"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "mermaid": "^11.12.2",
     "vitepress": "^1.0.0-rc.40",
-    "vue": "^3.4.21",
-    "gh-pages": "^6.1.1"
+    "vitepress-plugin-mermaid": "^2.0.17",
+    "vue": "^3.4.21"
   },
   "dependencies": {
     "chart.js": "^4.4.1",
