@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -13,20 +14,20 @@ Delivering a project on time and under budget is a failure if it doesn't create 
 
 ---
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Output (Project Deliverable)" 
-    back="What you build (e.g., automated software deployed)." 
-  />
-  <Flashcard 
-    front="Outcome (Behavior Change)" 
-    back="How users respond (e.g., employees stop using spreadsheets)." 
-  />
-  <Flashcard 
-    front="Benefit (Strategic Value)" 
-    back="Measurable result (e.g., $250k annual administrative savings)." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Output (Project Deliverable)', 
+    back: 'What you build (e.g., automated software deployed).' 
+  },
+  { 
+    front: 'Outcome (Behavior Change)', 
+    back: 'How users respond (e.g., employees stop using spreadsheets).' 
+  },
+  { 
+    front: 'Benefit (Strategic Value)', 
+    back: 'Measurable result (e.g., $250k annual administrative savings).' 
+  }
+]" />
 
 ---
 
@@ -101,26 +102,26 @@ In the 2026 exam, AI is often a tool for value creation.
 ---
 
 ##  Quick Review
-<FlashcardGrid>
-  <Flashcard 
-    front="What is a 'Leading Indicator' for benefits?" 
-    back="Early signals such as training completion or adoption rate that suggest benefits will eventually be realized." 
-  />
-  <Flashcard 
-    front="What is a 'Lagging Indicator' for benefits?" 
-    back="Final confirmation of value, such as revenue increase or cost savings." 
-  />
-  <Flashcard 
-    front="Who owns the realization of the benefit after project transition?" 
-    back="The Business Owner or Sponsor (The PM owns the Output)." 
-  />
-  <Flashcard 
-    front="What should a PM do if benefits don't appear after project closure?" 
-    back="Recommend a Post-Implementation Review to identify adoption barriers." 
-  />
-  <Flashcard 
-    front="Give an example of a non-financial benefit." 
-    back="Customer Satisfaction (NPS), Employee Engagement, or Risk Mitigation." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is a \'Leading Indicator\' for benefits?', 
+    back: 'Early signals such as training completion or adoption rate that suggest benefits will eventually be realized.' 
+  },
+  { 
+    front: 'What is a \'Lagging Indicator\' for benefits?', 
+    back: 'Final confirmation of value, such as revenue increase or cost savings.' 
+  },
+  { 
+    front: 'Who owns the realization of the benefit after project transition?', 
+    back: 'The Business Owner or Sponsor (The PM owns the Output).' 
+  },
+  { 
+    front: 'What should a PM do if benefits don\'t appear after project closure?', 
+    back: 'Recommend a Post-Implementation Review to identify adoption barriers.' 
+  },
+  { 
+    front: 'Give an example of a non-financial benefit.', 
+    back: 'Customer Satisfaction (NPS), Employee Engagement, or Risk Mitigation.' 
+  }
+]" />
 

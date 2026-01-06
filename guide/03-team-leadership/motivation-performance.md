@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -97,24 +98,24 @@ On the PMP exam, jumping to a Performance Improvement Plan (PIP) or formal disci
 
 ## Quick Review: Motivation & Performance
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Adams' Equity Theory" 
-    back="People compare their effort/reward ratio to others. Inequity leads to reduced effort." 
-  />
-  <Flashcard 
-    front="Ouchi's Theory Z" 
-    back="Focuses on long-term employment, collective decisions, and holistic well-being." 
-  />
-  <Flashcard 
-    front="Leading indicator of Engagement" 
-    back="Active participation in meetings and proactive initiatives beyond the minimum." 
-  />
-  <Flashcard 
-    front="Maslow's Social Level" 
-    back="The need for belonging and connection. Critical for remote team health." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Adams\' Equity Theory', 
+    back: 'People compare their effort/reward ratio to others. Inequity leads to reduced effort.' 
+  },
+  { 
+    front: 'Ouchi\'s Theory Z', 
+    back: 'Focuses on long-term employment, collective decisions, and holistic well-being.' 
+  },
+  { 
+    front: 'Leading indicator of Engagement', 
+    back: 'Active participation in meetings and proactive initiatives beyond the minimum.' 
+  },
+  { 
+    front: 'Maslow\'s Social Level', 
+    back: 'The need for belonging and connection. Critical for remote team health.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If a team is well-paid but morale is low, giving them a bonus is the wrong answer. According to Herzberg, money is hygiene. To fix morale, you must provide **Growth** (Training), **Autonomy** (Self-Direction), or **Recognition** (Meaningful acknowledgment).

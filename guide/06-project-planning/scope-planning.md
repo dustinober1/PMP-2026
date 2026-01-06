@@ -3,6 +3,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -533,28 +534,28 @@ Many organizations use a tiered change authority:
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="What is the 100% Rule in a WBS?" 
-    back="The WBS must include 100% of the work defined by the project scope—and only the project work." 
-  />
-  <Flashcard 
-    front="What 3 items make up the Scope Baseline?" 
-    back="1. Project Scope Statement, 2. WBS, 3. WBS Dictionary." 
-  />
-  <Flashcard 
-    front="What is Scope Creep?" 
-    back="The uncontrolled expansion of project scope without adjustments to time, cost, and resources." 
-  />
-  <Flashcard 
-    front="What is Gold Plating?" 
-    back="When the team adds extra features not requested by the customer (even if they think it adds value)." 
-  />
-  <Flashcard 
-    front="Product Scope vs. Project Scope?" 
-    back="Product Scope = Features/functions of the result. Project Scope = Work required to deliver those features." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is the 100% Rule in a WBS?', 
+    back: 'The WBS must include 100% of the work defined by the project scope—and only the project work.' 
+  },
+  { 
+    front: 'What 3 items make up the Scope Baseline?', 
+    back: '1. Project Scope Statement, 2. WBS, 3. WBS Dictionary.' 
+  },
+  { 
+    front: 'What is Scope Creep?', 
+    back: 'The uncontrolled expansion of project scope without adjustments to time, cost, and resources.' 
+  },
+  { 
+    front: 'What is Gold Plating?', 
+    back: 'When the team adds extra features not requested by the customer (even if they think it adds value).' 
+  },
+  { 
+    front: 'Product Scope vs. Project Scope?', 
+    back: 'Product Scope = Features/functions of the result. Project Scope = Work required to deliver those features.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If the team is confused about what a specific work package requires, refer to the **WBS Dictionary**. If stakeholders are debating whether something is in scope, use the **Scope Statement** / **WBS**. If you need to prove where a requirement came from (or what deliverable satisfies it), use the **RTM**. If the team is debating whether a story is "finished," refer to the **Definition of Done** and the story's **Acceptance Criteria**.

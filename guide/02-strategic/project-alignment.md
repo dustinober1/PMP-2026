@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -41,24 +42,24 @@ A **Program** is managed to achieve benefits not available from managing project
 ---
 
 ## Quick Review
-<FlashcardGrid>
-  <Flashcard 
-    front="What is a dependency in a program context?" 
-    back="When one project holds the key to another's success (e.g., Project A must finish a prerequisite for Project B)." 
-  />
-  <Flashcard 
-    front="How does Agile handle alignment at scale?" 
-    back="Through PI (Program Increment) Planning, where all teams meet to map dependencies." 
-  />
-  <Flashcard 
-    front="What is an Integrated Master Schedule?" 
-    back="A tool used by Program Managers to visualize critical paths and dependencies across multiple projects." 
-  />
-  <Flashcard 
-    front="What should a PM do if they discover a dependency they don't control?" 
-    back="1. Contact peer PM directly. 2. Escalate to Program Manager if unresolved." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is a dependency in a program context?', 
+    back: 'When one project holds the key to another\'s success (e.g., Project A must finish a prerequisite for Project B).' 
+  },
+  { 
+    front: 'How does Agile handle alignment at scale?', 
+    back: 'Through PI (Program Increment) Planning, where all teams meet to map dependencies.' 
+  },
+  { 
+    front: 'What is an Integrated Master Schedule?', 
+    back: 'A tool used by Program Managers to visualize critical paths and dependencies across multiple projects.' 
+  },
+  { 
+    front: 'What should a PM do if they discover a dependency they don\'t control?', 
+    back: '1. Contact peer PM directly. 2. Escalate to Program Manager if unresolved.' 
+  }
+]" />
 
 ---
 

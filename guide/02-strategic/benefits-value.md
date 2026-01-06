@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -50,26 +51,26 @@ Traditional PM focused on Scope, Time, and Cost. The modern PM focuses on the **
 ---
 
 ##  Quick Review
-<FlashcardGrid>
-  <Flashcard 
-    front="What is the difference between MVP and MBI?" 
-    back="MVP (Minimum Viable Product) is for learning/risk reduction; MBI (Minimum Business Increment) is for releasing value/generating ROI." 
-  />
-  <Flashcard 
-    front="What is the Benefits Owner responsible for?" 
-    back="Ensuring the project deliverables actually generate the promised revenue or savings after the project closes." 
-  />
-  <Flashcard 
-    front="What are the three pillars of the Triple Bottom Line?" 
-    back="Profit, People, and Planet." 
-  />
-  <Flashcard 
-    front="Should a PM choose a cheaper vendor who violates human rights?" 
-    back="No. Ethics and ESG policies trump financial profit on the PMP exam." 
-  />
-  <Flashcard 
-    front="When is value usually realized in a project lifecycle?" 
-    back="Usually after the project ends, once the deliverables are adopted and used by the business." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is the difference between MVP and MBI?', 
+    back: 'MVP (Minimum Viable Product) is for learning/risk reduction; MBI (Minimum Business Increment) is for releasing value/generating ROI.' 
+  },
+  { 
+    front: 'What is the Benefits Owner responsible for?', 
+    back: 'Ensuring the project deliverables actually generate the promised revenue or savings after the project closes.' 
+  },
+  { 
+    front: 'What are the three pillars of the Triple Bottom Line?', 
+    back: 'Profit, People, and Planet.' 
+  },
+  { 
+    front: 'Should a PM choose a cheaper vendor who violates human rights?', 
+    back: 'No. Ethics and ESG policies trump financial profit on the PMP exam.' 
+  },
+  { 
+    front: 'When is value usually realized in a project lifecycle?', 
+    back: 'Usually after the project ends, once the deliverables are adopted and used by the business.' 
+  }
+]" />
 

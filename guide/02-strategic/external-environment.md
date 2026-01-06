@@ -49,6 +49,7 @@ A classic tool for environmental scanning is the **PESTLE** analysis:
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -96,50 +97,50 @@ Passive monitoring—waiting for your sponsor to call with news—is a recipe fo
 
 ### Alert Categories
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Immediate Alert" 
-    back="Stop-Work Trigger: New law makes current work illegal; safety incident; data breach. Action: Stop, assess, escalate immediately." 
-  />
-  <Flashcard 
-    front="Urgent Alert" 
-    back="Near-Term Impact: Regulation passed with 90-day deadline; competitor launch; supplier bankruptcy. Action: Impact assessment within 48 hours." 
-  />
-  <Flashcard 
-    front="Watch Alert" 
-    back="Developing Situation: Proposed regulation; economic trends; technology evolution. Action: Monitor; prepare contingency plans." 
-  />
-  <Flashcard 
-    front="Informational Alert" 
-    back="Future Consideration: Industry trends; long-term forecasts; emerging technologies. Action: Log for future planning cycles." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Immediate Alert', 
+    back: 'Stop-Work Trigger: New law makes current work illegal; safety incident; data breach. Action: Stop, assess, escalate immediately.' 
+  },
+  { 
+    front: 'Urgent Alert', 
+    back: 'Near-Term Impact: Regulation passed with 90-day deadline; competitor launch; supplier bankruptcy. Action: Impact assessment within 48 hours.' 
+  },
+  { 
+    front: 'Watch Alert', 
+    back: 'Developing Situation: Proposed regulation; economic trends; technology evolution. Action: Monitor; prepare contingency plans.' 
+  },
+  { 
+    front: 'Informational Alert', 
+    back: 'Future Consideration: Industry trends; long-term forecasts; emerging technologies. Action: Log for future planning cycles.' 
+  }
+]" />
 
 ---
 
 ## Quick Review
-<FlashcardGrid>
-  <Flashcard 
-    front="What does PESTLE stand for?" 
-    back="Political, Economic, Social, Technological, Legal, and Environmental." 
-  />
-  <Flashcard 
-    front="How should a PM handle a sudden 15% inflation spike?" 
-    back="Analyze impact on budget/procurement, update the Risk Register, and notify the Sponsor." 
-  />
-  <Flashcard 
-    front="What is a 'Step' change in the external environment?" 
-    back="A fundamental shift that renders current strategy obsolete (e.g., a new competitor launching a disruptive tech)." 
-  />
-  <Flashcard 
-    front="What is the PM's primary tool for monitoring the external environment?" 
-    back="Environmental Scanning (Market research, industry news, competitor analysis)." 
-  />
-  <Flashcard 
-    front="If a law changes in the middle of a project, what comes first?" 
-    back="Assess the impact on the project and initiate a Change Request to ensure compliance." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What does PESTLE stand for?', 
+    back: 'Political, Economic, Social, Technological, Legal, and Environmental.' 
+  },
+  { 
+    front: 'How should a PM handle a sudden 15% inflation spike?', 
+    back: 'Analyze impact on budget/procurement, update the Risk Register, and notify the Sponsor.' 
+  },
+  { 
+    front: 'What is a \'Step\' change in the external environment?', 
+    back: 'A fundamental shift that renders current strategy obsolete (e.g., a new competitor launching a disruptive tech).' 
+  },
+  { 
+    front: 'What is the PM\'s primary tool for monitoring the external environment?', 
+    back: 'Environmental Scanning (Market research, industry news, competitor analysis).' 
+  },
+  { 
+    front: 'If a law changes in the middle of a project, what comes first?', 
+    back: 'Assess the impact on the project and initiate a Change Request to ensure compliance.' 
+  }
+]" />
 
 ::: warning 2026 Exam Focus: Regulatory Change
 If a new law is passed mid-project that makes your current design illegal, you cannot simply "finish the work." You must immediately **assess the impact**, **notify the sponsor**, and **initiate a change request** to bring the project into compliance.

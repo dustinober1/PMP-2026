@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -80,24 +81,24 @@ The Cube adds a critical third dimension to the Power/Interest Grid: **Attitude*
 
 ## Quick Review: Stakeholder Mapping
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Power (Fast Definition)" 
-    back="The ability to influence decisions, budget, resources, or final acceptance of deliverables." 
-  />
-  <Flashcard 
-    front="Salience: Dormant" 
-    back="A stakeholder with Power only. A 'sleeping giant' who can become decisive if triggered." 
-  />
-  <Flashcard 
-    front="Salience: Demanding" 
-    back="A stakeholder with Urgency only. High noise but low influence; manage their expectations." 
-  />
-  <Flashcard 
-    front="Trigger: Re-Map" 
-    back="Re-map stakeholders during phase gates, leadership changes, or major scope shifts." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Power (Fast Definition)', 
+    back: 'The ability to influence decisions, budget, resources, or final acceptance of deliverables.' 
+  },
+  { 
+    front: 'Salience: Dormant', 
+    back: 'A stakeholder with Power only. A \'sleeping giant\' who can become decisive if triggered.' 
+  },
+  { 
+    front: 'Salience: Demanding', 
+    back: 'A stakeholder with Urgency only. High noise but low influence; manage their expectations.' 
+  },
+  { 
+    front: 'Trigger: Re-Map', 
+    back: 'Re-map stakeholders during phase gates, leadership changes, or major scope shifts.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If a high-power stakeholder is unhappy, you likely failed to <strong>Keep them Satisfied</strong>. The first step is to <strong>analyze their needs</strong> and update the <strong>Stakeholder Register</strong>.

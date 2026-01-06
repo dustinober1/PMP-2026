@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -462,28 +463,28 @@ A comprehensive Quality Management Plan includes:
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="QA vs. QC?" 
-    back="QA (Manage Quality) is process-focused (preventing defects). QC (Control Quality) is product-focused (finding defects)." 
-  />
-  <Flashcard 
-    front="What is the Rule of Seven in a Control Chart?" 
-    back="Seven consecutive points on one side of the mean indicates the process is 'out of control' and needs investigation." 
-  />
-  <Flashcard 
-    front="What is a Pareto Chart used for?" 
-    back="To prioritize problems by frequency or impact, based on the 80/20 rule (80% of problems come from 20% of causes)." 
-  />
-  <Flashcard 
-    front="Quality vs. Grade?" 
-    back="High Quality = meets requirements (defects are low). High Grade = extra features. Low grade is okay, low quality is NOT." 
-  />
-  <Flashcard 
-    front="What is the goal of a Fishbone Diagram?" 
-    back="To identify the root cause of a specific problem or defect." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'QA vs. QC?', 
+    back: 'QA (Manage Quality) is process-focused (preventing defects). QC (Control Quality) is product-focused (finding defects).' 
+  },
+  { 
+    front: 'What is the Rule of Seven in a Control Chart?', 
+    back: 'Seven consecutive points on one side of the mean indicates the process is \'out of control\' and needs investigation.' 
+  },
+  { 
+    front: 'What is a Pareto Chart used for?', 
+    back: 'To prioritize problems by frequency or impact, based on the 80/20 rule (80% of problems come from 20% of causes).' 
+  },
+  { 
+    front: 'Quality vs. Grade?', 
+    back: 'High Quality = meets requirements (defects are low). High Grade = extra features. Low grade is okay, low quality is NOT.' 
+  },
+  { 
+    front: 'What is the goal of a Fishbone Diagram?', 
+    back: 'To identify the root cause of a specific problem or defect.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 When a question mentions finding the "root cause" of defects, think **Cause-and-Effect Diagram**. When it mentions "prioritizing which defects to fix first," think **Pareto Chart**. When it mentions "monitoring process stability," think **Control Chart**. Prevention is always preferred over inspection!

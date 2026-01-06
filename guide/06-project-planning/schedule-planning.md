@@ -3,6 +3,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -603,28 +604,28 @@ In 2026, PMs use **AI-Augmented Estimation** to analyze historical performance a
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="What is the Critical Path?" 
-    back="The longest sequence of activities in a project network, representing the shortest possible project duration." 
-  />
-  <Flashcard 
-    front="What is Total Float?" 
-    back="The amount of time an activity can be delayed without delaying the project finish date." 
-  />
-  <Flashcard 
-    front="Crashing vs. Fast Tracking?" 
-    back="Crashing = Adding resources (increases cost). Fast Tracking = Overlapping sequential tasks (increases risk of rework)." 
-  />
-  <Flashcard 
-    front="Lead vs. Lag?" 
-    back="Lead = Acceleration a successor starts before predecessor ends. Lag = Mandatory wait time between tasks." 
-  />
-  <Flashcard 
-    front="Resource Leveling vs. Smoothing?" 
-    back="Leveling = Date flexes to fix overallocation. Smoothing = Resource use balanced within available float (date fixed)." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is the Critical Path?', 
+    back: 'The longest sequence of activities in a project network, representing the shortest possible project duration.' 
+  },
+  { 
+    front: 'What is Total Float?', 
+    back: 'The amount of time an activity can be delayed without delaying the project finish date.' 
+  },
+  { 
+    front: 'Crashing vs. Fast Tracking?', 
+    back: 'Crashing = Adding resources (increases cost). Fast Tracking = Overlapping sequential tasks (increases risk of rework).' 
+  },
+  { 
+    front: 'Lead vs. Lag?', 
+    back: 'Lead = Acceleration a successor starts before predecessor ends. Lag = Mandatory wait time between tasks.' 
+  },
+  { 
+    front: 'Resource Leveling vs. Smoothing?', 
+    back: 'Leveling = Date flexes to fix overallocation. Smoothing = Resource use balanced within available float (date fixed).' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If an exam scenario asks how to fix a delay with "no extra budget," choose **Fast Tracking**. If they say "the end date is firm and budget is available," choose **Crashing**. If the schedule must be updated because resources are overallocated, think **Resource Leveling** (usually delays the project) or **Resource Smoothing** (uses float; does not change the finish date).

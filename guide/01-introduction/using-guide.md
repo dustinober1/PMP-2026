@@ -7,6 +7,7 @@ description: 1.2 – How to Use This Study Guide
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -301,24 +302,24 @@ When these conditions are true, set an exam date within the next 4–6 weeks.
 
 ## 1.2.8 Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="What are the three domains of the 2026 PMP ECO?" 
-    back="People (33%), Process (41%), and Business Environment (26%)" 
-  />
-  <Flashcard 
-    front="Which study path is recommended for candidates with 10-15 hours/week?" 
-    back="The Fast-Track Plan (4–6 weeks)" 
-  />
-  <Flashcard 
-    front="What is the recommended weekly study pattern?" 
-    back="2–3 Reading Sessions, 2 Practice Sessions, and 1 Review Session" 
-  />
-  <Flashcard 
-    front="What should you do if you are uncomfortable with scenario-based exams?" 
-    back="Spend extra time on practice questions and reviewing answer explanations" 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What are the three domains of the 2026 PMP ECO?', 
+    back: 'People (33%), Process (41%), and Business Environment (26%)' 
+  },
+  { 
+    front: 'Which study path is recommended for candidates with 10-15 hours/week?', 
+    back: 'The Fast-Track Plan (4–6 weeks)' 
+  },
+  { 
+    front: 'What is the recommended weekly study pattern?', 
+    back: '2–3 Reading Sessions, 2 Practice Sessions, and 1 Review Session' 
+  },
+  { 
+    front: 'What should you do if you are uncomfortable with scenario-based exams?', 
+    back: 'Spend extra time on practice questions and reviewing answer explanations' 
+  }
+]" />
 
 ---
 

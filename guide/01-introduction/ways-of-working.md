@@ -4,6 +4,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -350,45 +351,45 @@ There is no "perfect" methodology. The correct answer is the one that minimizes 
 
 ## 1.3.10 Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="When should you use a Predictive approach?" 
-    back="When requirements are well-understood, fixed, and rework is expensive (e.g., construction)." 
-  />
-  <Flashcard 
-    front="When is Agile most effective?" 
-    back="When uncertainty is high, requirements evolve, and customer feedback is needed frequently." 
-  />
-  <Flashcard 
-    front="What is a Hybrid approach?" 
-    back="A blend of predictive and agile methods, often used in complex programs with both fixed and evolving elements." 
-  />
-  <Flashcard 
-    front="What are the two key variables in the Stacey Matrix?" 
-    back="Requirements Certainty (what to build) and Technical Certainty (how to build)." 
-  />
-  <Flashcard 
-    front="What does the Agile Manifesto value over 'following a plan'?" 
-    back="Responding to change." 
-  />
-  <Flashcard 
-    front="What is the primary responsibility of a Scrum Master?" 
-    back="To facilitate the process, remove impediments, and coach the team (Servant Leader)." 
-  />
-  <Flashcard 
-    front="What is Velocity in Agile?" 
-    back="The average number of story points completed per sprint, used for capacity planning." 
-  />
-  <Flashcard 
-    front="What is the main focus of Kanban?" 
-    back="Visualizing work, limiting Work In Progress (WIP), and improving flow." 
-  />
-  <Flashcard 
-    front="What Agile framework focuses on engineering practices like TDD and Pair Programming?" 
-    back="Extreme Programming (XP)." 
-  />
-  <Flashcard 
-    front="What is 'Tailoring'?" 
-    back="The deliberate adaptation of the project management approach to fit the specific needs and context of the project." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'When should you use a Predictive approach?', 
+    back: 'When requirements are well-understood, fixed, and rework is expensive (e.g., construction).' 
+  },
+  { 
+    front: 'When is Agile most effective?', 
+    back: 'When uncertainty is high, requirements evolve, and customer feedback is needed frequently.' 
+  },
+  { 
+    front: 'What is a Hybrid approach?', 
+    back: 'A blend of predictive and agile methods, often used in complex programs with both fixed and evolving elements.' 
+  },
+  { 
+    front: 'What are the two key variables in the Stacey Matrix?', 
+    back: 'Requirements Certainty (what to build) and Technical Certainty (how to build).' 
+  },
+  { 
+    front: 'What does the Agile Manifesto value over \'following a plan\'?', 
+    back: 'Responding to change.' 
+  },
+  { 
+    front: 'What is the primary responsibility of a Scrum Master?', 
+    back: 'To facilitate the process, remove impediments, and coach the team (Servant Leader).' 
+  },
+  { 
+    front: 'What is Velocity in Agile?', 
+    back: 'The average number of story points completed per sprint, used for capacity planning.' 
+  },
+  { 
+    front: 'What is the main focus of Kanban?', 
+    back: 'Visualizing work, limiting Work In Progress (WIP), and improving flow.' 
+  },
+  { 
+    front: 'What Agile framework focuses on engineering practices like TDD and Pair Programming?', 
+    back: 'Extreme Programming (XP).' 
+  },
+  { 
+    front: 'What is \'Tailoring\'?', 
+    back: 'The deliberate adaptation of the project management approach to fit the specific needs and context of the project.' 
+  }
+]" />

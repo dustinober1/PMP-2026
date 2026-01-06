@@ -4,6 +4,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -331,45 +332,45 @@ For detailed formulas on Critical Path and Earned Value, see [Appendix B: Key Fo
 
 ## 1.4b.11 Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="What are the three constraints in the Iron Triangle?" 
-    back="Scope, Schedule, and Cost." 
-  />
-  <Flashcard 
-    front="In Agile, which constraint is variable?" 
-    back="Scope. (Time and Cost are fixed per sprint/team)." 
-  />
-  <Flashcard 
-    front="What is Gold Plating?" 
-    back="Adding unrequested features to 'delight' the customer (Bad practice!)." 
-  />
-  <Flashcard 
-    front="What is Scope Creep?" 
-    back="Uncontrolled expansion of scope without adjustments to time, cost, or resources." 
-  />
-  <Flashcard 
-    front="Which dependency type is most common?" 
-    back="Finish-to-Start (FS)." 
-  />
-  <Flashcard 
-    front="What is the Critical Path?" 
-    back="The longest path through the project network, determining the minimum project duration." 
-  />
-  <Flashcard 
-    front="What is Float (Slack)?" 
-    back="The amount of time an activity can be delayed without delaying the project." 
-  />
-  <Flashcard 
-    front="What is Crashing?" 
-    back="Adding resources to critical path activities to shorten schedule (increases cost)." 
-  />
-  <Flashcard 
-    front="What is Fast-Tracking?" 
-    back="Performing sequential activities in parallel to shorten schedule (increases risk)." 
-  />
-  <Flashcard 
-    front="What does Brooks's Law state?" 
-    back="'Adding manpower to a late software project makes it later.'" 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What are the three constraints in the Iron Triangle?', 
+    back: 'Scope, Schedule, and Cost.' 
+  },
+  { 
+    front: 'In Agile, which constraint is variable?', 
+    back: 'Scope. (Time and Cost are fixed per sprint/team).' 
+  },
+  { 
+    front: 'What is Gold Plating?', 
+    back: 'Adding unrequested features to \'delight\' the customer (Bad practice!).' 
+  },
+  { 
+    front: 'What is Scope Creep?', 
+    back: 'Uncontrolled expansion of scope without adjustments to time, cost, or resources.' 
+  },
+  { 
+    front: 'Which dependency type is most common?', 
+    back: 'Finish-to-Start (FS).' 
+  },
+  { 
+    front: 'What is the Critical Path?', 
+    back: 'The longest path through the project network, determining the minimum project duration.' 
+  },
+  { 
+    front: 'What is Float (Slack)?', 
+    back: 'The amount of time an activity can be delayed without delaying the project.' 
+  },
+  { 
+    front: 'What is Crashing?', 
+    back: 'Adding resources to critical path activities to shorten schedule (increases cost).' 
+  },
+  { 
+    front: 'What is Fast-Tracking?', 
+    back: 'Performing sequential activities in parallel to shorten schedule (increases risk).' 
+  },
+  { 
+    front: 'What does Brooks\'s Law state?', 
+    back: '\'Adding manpower to a late software project makes it later.\'' 
+  }
+]" />

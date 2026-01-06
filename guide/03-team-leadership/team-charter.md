@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -89,47 +90,47 @@ These agreements are critical quality gates that prevent rework.
 
 ##  Decision Models: When to Use Which
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Consensus" 
-    back="Everyone agrees or consents. Best for high-impact decisions requiring deep buy-in." 
-  />
-  <Flashcard 
-    front="Majority Vote" 
-    back="50%+1 wins. Best for time-boxed decisions with moderate impact." 
-  />
-  <Flashcard 
-    front="Consensus (Sociocracy)" 
-    back="Based on principled objections. Faster than 100% agreement but still collaborative." 
-  />
-  <Flashcard 
-    front="PM/Expert Decides" 
-    back="For highly specialized technical decisions or when the team is deadlocked." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Consensus', 
+    back: 'Everyone agrees or consents. Best for high-impact decisions requiring deep buy-in.' 
+  },
+  { 
+    front: 'Majority Vote', 
+    back: '50%+1 wins. Best for time-boxed decisions with moderate impact.' 
+  },
+  { 
+    front: 'Consensus (Sociocracy)', 
+    back: 'Based on principled objections. Faster than 100% agreement but still collaborative.' 
+  },
+  { 
+    front: 'PM/Expert Decides', 
+    back: 'For highly specialized technical decisions or when the team is deadlocked.' 
+  }
+]" />
 
 ---
 
 ## Quick Review: Charters & Agreements
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Charter Source" 
-    back="Must be created by the TEAM, for the team (not dictated by the PM)." 
-  />
-  <Flashcard 
-    front="When to update Charter" 
-    back="Update during every Retrospective based on team feedback and flow." 
-  />
-  <Flashcard 
-    front="Ground Rules Purpose" 
-    back="To set behavioral expectations and create a safe, high-trust environment." 
-  />
-  <Flashcard 
-    front="Conflict Step 1" 
-    back="Team Charter escalation path: Start with direct conversation between parties." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Charter Source', 
+    back: 'Must be created by the TEAM, for the team (not dictated by the PM).' 
+  },
+  { 
+    front: 'When to update Charter', 
+    back: 'Update during every Retrospective based on team feedback and flow.' 
+  },
+  { 
+    front: 'Ground Rules Purpose', 
+    back: 'To set behavioral expectations and create a safe, high-trust environment.' 
+  },
+  { 
+    front: 'Conflict Step 1', 
+    back: 'Team Charter escalation path: Start with direct conversation between parties.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If a team is having constant minor behavioral issues (e.g., people interrupting each other), the correct action is to <strong>refer the team to the Ground Rules</strong> or facilitate a session to <strong>update the Team Charter</strong>. If they're confused about what "done" means, they need a <strong>Definition of Done</strong>.

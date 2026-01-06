@@ -3,6 +3,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -621,32 +622,32 @@ In Agile, risk management is continuous and built into feedback loops:
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="What is the difference between a Risk and an Issue?" 
-    back="Risk is a future uncertainty (Risk Register). Issue is a present reality (Issue Log)." 
-  />
-  <Flashcard 
-    front="What are the 5 response strategies for Threats?" 
-    back="Avoid, Mitigate, Transfer, Accept, Escalate." 
-  />
-  <Flashcard 
-    front="What are the 5 response strategies for Opportunities?" 
-    back="Exploit, Enhance, Share, Accept, Escalate." 
-  />
-  <Flashcard 
-    front="What does a Tornado Diagram show?" 
-    back="Sensitivity analysis—it shows which variables have the greatest impact on the project." 
-  />
-  <Flashcard 
-    front="Contingency Reserve vs. Management Reserve?" 
-    back="Contingency is for identified risks (PM controlled). Management is for unknown risks (Sponsor controlled)." 
-  />
-  <Flashcard 
-    front="What is EMV?" 
-    back="Expected Monetary Value = Probability x Impact ($)." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is the difference between a Risk and an Issue?', 
+    back: 'Risk is a future uncertainty (Risk Register). Issue is a present reality (Issue Log).' 
+  },
+  { 
+    front: 'What are the 5 response strategies for Threats?', 
+    back: 'Avoid, Mitigate, Transfer, Accept, Escalate.' 
+  },
+  { 
+    front: 'What are the 5 response strategies for Opportunities?', 
+    back: 'Exploit, Enhance, Share, Accept, Escalate.' 
+  },
+  { 
+    front: 'What does a Tornado Diagram show?', 
+    back: 'Sensitivity analysis—it shows which variables have the greatest impact on the project.' 
+  },
+  { 
+    front: 'Contingency Reserve vs. Management Reserve?', 
+    back: 'Contingency is for identified risks (PM controlled). Management is for unknown risks (Sponsor controlled).' 
+  },
+  { 
+    front: 'What is EMV?', 
+    back: 'Expected Monetary Value = Probability x Impact ($).' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If an exam scenario says a risk has occurred, the FIRST action is to <strong>implement the planned response</strong> and update the <strong>Issue Log</strong>. The time for analysis was when it was still a risk.

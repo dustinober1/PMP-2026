@@ -3,6 +3,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -536,28 +537,28 @@ PTA = $100,000 + $12,500 = $112,500
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="What is a RACI Chart?" 
-    back="A matrix showing who is Responsible, Accountable, Consulted, and Informed for project work." 
-  />
-  <Flashcard 
-    front="R in RACI vs. A in RACI?" 
-    back="Responsible = who does the work. Accountable = the single owner who approves the work." 
-  />
-  <Flashcard 
-    front="What is a Bidder Conference?" 
-    back="A meeting with all potential sellers to ensure common understanding of the procurement." 
-  />
-  <Flashcard 
-    front="FFP vs. Cost-Reimbursable Contracts?" 
-    back="Fixed Price = Seller has risk (clear scope). Cost-Plus = Buyer has risk (uncertain scope)." 
-  />
-  <Flashcard 
-    front="What is Make-or-Buy Analysis?" 
-    back="The process of deciding whether to build a deliverable internally or buy it from an external source." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is a RACI Chart?', 
+    back: 'A matrix showing who is Responsible, Accountable, Consulted, and Informed for project work.' 
+  },
+  { 
+    front: 'R in RACI vs. A in RACI?', 
+    back: 'Responsible = who does the work. Accountable = the single owner who approves the work.' 
+  },
+  { 
+    front: 'What is a Bidder Conference?', 
+    back: 'A meeting with all potential sellers to ensure common understanding of the procurement.' 
+  },
+  { 
+    front: 'FFP vs. Cost-Reimbursable Contracts?', 
+    back: 'Fixed Price = Seller has risk (clear scope). Cost-Plus = Buyer has risk (uncertain scope).' 
+  },
+  { 
+    front: 'What is Make-or-Buy Analysis?', 
+    back: 'The process of deciding whether to build a deliverable internally or buy it from an external source.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If a project is delayed because of "waiting for equipment," the root cause is poor **Physical Resource Planning** (availability/lead time). If it's delayed because of "unclear roles," the fix is a **RAM/RACI**. If the question is about shifting cost risk to a vendor, a **Fixed-Price** contract generally puts more risk on the seller (assuming scope is stable).

@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -117,18 +118,48 @@ If stakeholders need **frequent feedback** and requirements are evolving, an ada
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard front="Predictive Approach" back="Plan-driven; best when requirements are stable and cost of change is high." />
-  <Flashcard front="Agile Approach" back="Change-driven; best for high uncertainty and frequent value delivery." />
-  <Flashcard front="Hybrid Approach" back="A combination of predictive and agile; common in enterprise environments." />
-  <Flashcard front="Stacey Matrix" back="A tool for choosing an approach based on requirements and technical certainty." />
-  <Flashcard front="Cynefin Framework" back="A complexity model used to understand if a situation is Clear, Complicated, Complex, or Chaotic." />
-  <Flashcard front="Iterative Lifecycle" back="Planning and scope defined early, but time and cost estimates are refilled as the team's understanding increases." />
-  <Flashcard front="Incremental Lifecycle" back="A deliverable is produced through a series of iterations that successively add functionality." />
-  <Flashcard front="Rolling Wave Planning" back="High-level planning for the long term; detailed planning for the near term (common in Hybrid/Predictive)." />
-  <Flashcard front="Product Vision" back="The 'North Star' for an agile project, defining the target customer and key benefit." />
-  <Flashcard front="Empiricism" back="The agile principle of making decisions based on observed results (Probe-Sense-Respond)." />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Predictive Approach', 
+    back: 'Plan-driven; best when requirements are stable and cost of change is high.' 
+  },
+  { 
+    front: 'Agile Approach', 
+    back: 'Change-driven; best for high uncertainty and frequent value delivery.' 
+  },
+  { 
+    front: 'Hybrid Approach', 
+    back: 'A combination of predictive and agile; common in enterprise environments.' 
+  },
+  { 
+    front: 'Stacey Matrix', 
+    back: 'A tool for choosing an approach based on requirements and technical certainty.' 
+  },
+  { 
+    front: 'Cynefin Framework', 
+    back: 'A complexity model used to understand if a situation is Clear, Complicated, Complex, or Chaotic.' 
+  },
+  { 
+    front: 'Iterative Lifecycle', 
+    back: 'Planning and scope defined early, but time and cost estimates are refilled as the team\'s understanding increases.' 
+  },
+  { 
+    front: 'Incremental Lifecycle', 
+    back: 'A deliverable is produced through a series of iterations that successively add functionality.' 
+  },
+  { 
+    front: 'Rolling Wave Planning', 
+    back: 'High-level planning for the long term; detailed planning for the near term (common in Hybrid/Predictive).' 
+  },
+  { 
+    front: 'Product Vision', 
+    back: 'The \'North Star\' for an agile project, defining the target customer and key benefit.' 
+  },
+  { 
+    front: 'Empiricism', 
+    back: 'The agile principle of making decisions based on observed results (Probe-Sense-Respond).' 
+  }
+]" />
 
 ---
 

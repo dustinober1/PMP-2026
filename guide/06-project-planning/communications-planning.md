@@ -3,6 +3,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -386,28 +387,28 @@ Typical status report structure:
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="What is the Communication Channel Formula?" 
-    back="n(n-1)/2, where n is the number of stakeholders." 
-  />
-  <Flashcard 
-    front="What is Interactive Communication?" 
-    back="Real-time, two-way exchange (meetings, calls). Best for complex/sensitive topics." 
-  />
-  <Flashcard 
-    front="What is Push Communication?" 
-    back="One-way distribution (emails, reports). Good for updates but doesn't guarantee understanding." 
-  />
-  <Flashcard 
-    front="What is Pull Communication?" 
-    back="Information made available for recipients to access (wiki, intranet). Best for large datasets." 
-  />
-  <Flashcard 
-    front="Active Listening vs. Passive Listening?" 
-    back="Active = confirming understanding, asking questions, body language. Passive = hearing without engagement." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is the Communication Channel Formula?', 
+    back: 'n(n-1)/2, where n is the number of stakeholders.' 
+  },
+  { 
+    front: 'What is Interactive Communication?', 
+    back: 'Real-time, two-way exchange (meetings, calls). Best for complex/sensitive topics.' 
+  },
+  { 
+    front: 'What is Push Communication?', 
+    back: 'One-way distribution (emails, reports). Good for updates but doesn\'t guarantee understanding.' 
+  },
+  { 
+    front: 'What is Pull Communication?', 
+    back: 'Information made available for recipients to access (wiki, intranet). Best for large datasets.' 
+  },
+  { 
+    front: 'Active Listening vs. Passive Listening?', 
+    back: 'Active = confirming understanding, asking questions, body language. Passive = hearing without engagement.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If the team size increases from 5 to 10, the number of channels increases from 10 to 45. This explains why **communication complexity** grows exponentially, not linearly. Always choose the most **interactive** method for resolving conflict or clarifying complex requirements.

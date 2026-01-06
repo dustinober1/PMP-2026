@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -90,24 +91,24 @@ Meetings are the most common—and most abused—communication method.
 
 ## Quick Review: Communication Planning
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Comm. Channels Formula" 
-    back="N(N-1)/2. Adding 1 person to a team of 10 adds 10 new channels." 
-  />
-  <Flashcard 
-    front="Acknowledgment" 
-    back="Signals that the message was RECEIVED, not necessarily that the receiver AGREES with it." 
-  />
-  <Flashcard 
-    front="Pull Communication" 
-    back="Best for large audiences or static info (Wikis, Jira boards, Portals)." 
-  />
-  <Flashcard 
-    front="Feedback Loop" 
-    back="The only way to ensure the message was UNDERSTOOD as intended." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Comm. Channels Formula', 
+    back: 'N(N-1)/2. Adding 1 person to a team of 10 adds 10 new channels.' 
+  },
+  { 
+    front: 'Acknowledgment', 
+    back: 'Signals that the message was RECEIVED, not necessarily that the receiver AGREES with it.' 
+  },
+  { 
+    front: 'Pull Communication', 
+    back: 'Best for large audiences or static info (Wikis, Jira boards, Portals).' 
+  },
+  { 
+    front: 'Feedback Loop', 
+    back: 'The only way to ensure the message was UNDERSTOOD as intended.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If a project is failing because information is late, incorrect, or reaching the wrong people, the first step is to <strong>Update the Communications Management Plan</strong>. Never go straight to disciplinary action.

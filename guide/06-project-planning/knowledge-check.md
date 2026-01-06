@@ -3,6 +3,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 import QuizComponent from '../../.vitepress/theme/components/QuizComponent.vue'
 </script>
@@ -376,14 +377,32 @@ Test your ability to weave together scope, schedule, cost, quality, risk, resour
 
 ## Quick Reference Flashcards
 
-<FlashcardGrid>
-  <Flashcard front="SV and CV Formulas" back="SV = EV - PV; CV = EV - AC" />
-  <Flashcard front="SPI and CPI Formulas" back="SPI = EV / PV; CPI = EV / AC" />
-  <Flashcard front="PERT and Std Deviation" back="PERT = (O+4M+P)/6; σ = (P-O)/6" />
-  <Flashcard front="Communication Channels" back="n(n-1)/2" />
-  <Flashcard front="EMV Formula" back="Probability x Impact ($)" />
-  <Flashcard front="TCPI Formula" back="(BAC-EV) / (BAC-AC)" />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'SV and CV Formulas', 
+    back: 'SV = EV - PV; CV = EV - AC' 
+  },
+  { 
+    front: 'SPI and CPI Formulas', 
+    back: 'SPI = EV / PV; CPI = EV / AC' 
+  },
+  { 
+    front: 'PERT and Std Deviation', 
+    back: 'PERT = (O+4M+P)/6; σ = (P-O)/6' 
+  },
+  { 
+    front: 'Communication Channels', 
+    back: 'n(n-1)/2' 
+  },
+  { 
+    front: 'EMV Formula', 
+    back: 'Probability x Impact ($)' 
+  },
+  { 
+    front: 'TCPI Formula', 
+    back: '(BAC-EV) / (BAC-AC)' 
+  }
+]" />
 
 ::: tip  Exam Insight
 Planning questions often integrate multiple knowledge areas. A "scope change" question might require you to think about schedule impact, cost variance, risk implications, and stakeholder communication. Practice answering with the full project context in mind.

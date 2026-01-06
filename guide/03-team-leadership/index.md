@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -122,24 +123,24 @@ From assembling the squad to navigating high-stakes conflict.
 
 ### Quick Review: Core Concepts
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Tuckman's Model Stages" 
-    back="Forming → Storming → Norming → Performing. Note: Regression happens when members change." 
-  />
-  <Flashcard 
-    front="Situational Leadership II (SLII)" 
-    back="The mindset of matching leadership style to the team's development level." 
-  />
-  <Flashcard 
-    front="Thomas-Kilmann Favorite" 
-    back="Collaborate (Win-Win) is usually preferred. Force for emergencies only." 
-  />
-  <Flashcard 
-    front="Herzberg's Hygiene Factors" 
-    back="Pay, security, working conditions. Must be fixed before motivators work." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Tuckman\'s Model Stages', 
+    back: 'Forming → Storming → Norming → Performing. Note: Regression happens when members change.' 
+  },
+  { 
+    front: 'Situational Leadership II (SLII)', 
+    back: 'The mindset of matching leadership style to the team\'s development level.' 
+  },
+  { 
+    front: 'Thomas-Kilmann Favorite', 
+    back: 'Collaborate (Win-Win) is usually preferred. Force for emergencies only.' 
+  },
+  { 
+    front: 'Herzberg\'s Hygiene Factors', 
+    back: 'Pay, security, working conditions. Must be fixed before motivators work.' 
+  }
+]" />
 
 ---
 

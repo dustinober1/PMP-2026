@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -64,24 +65,24 @@ A remote leader must proactively mitigate the predictable challenges of virtual 
 
 ## Quick Review: Virtual Collaboration
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Fishbowl Window" 
-    back="A persistent video channel kept open to mimic the 'sitting together' feel of an office." 
-  />
-  <Flashcard 
-    front="Power Distance (PDI)" 
-    back="Hofstede dimension: High PDI cultures may hesitate to challenge the PM's authority." 
-  />
-  <Flashcard 
-    front="Distance Tax" 
-    back="The loss of trust, context, and clarity caused by geographic and temporal separation." 
-  />
-  <Flashcard 
-    front="Hybrid Team Rule" 
-    back="'If one is remote, all are remote'—everyone joins on their own device to ensure equality." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Fishbowl Window', 
+    back: 'A persistent video channel kept open to mimic the \'sitting together\' feel of an office.' 
+  },
+  { 
+    front: 'Power Distance (PDI)', 
+    back: 'Hofstede dimension: High PDI cultures may hesitate to challenge the PM\'s authority.' 
+  },
+  { 
+    front: 'Distance Tax', 
+    back: 'The loss of trust, context, and clarity caused by geographic and temporal separation.' 
+  },
+  { 
+    front: 'Hybrid Team Rule', 
+    back: '\'If one is remote, all are remote\'—everyone joins on their own device to ensure equality.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If a virtual team is struggling with communication, the best answer is usually to <strong>improve the tools/infrastructure</strong> or <strong>facilitate a reset of the Team Charter</strong> specifically for remote norms. Look for answers that address <strong>system issues</strong>, not individual blame.

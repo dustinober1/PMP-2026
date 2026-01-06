@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -80,24 +81,24 @@ The gold standard for defining roles and responsibilities. RACI prevents the #1 
 
 ## Quick Review: Formation & Resource
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Resource Leveling" 
-    back="Delays tasks to resolve overallocation. Can extend the project schedule." 
-  />
-  <Flashcard 
-    front="Resource Smoothing" 
-    back="Adjusts activities within their float. Does NOT extend the schedule." 
-  />
-  <Flashcard 
-    front="Accountable (A) Rule" 
-    back="There must be exactly ONE Accountable person assigned per RACI task." 
-  />
-  <Flashcard 
-    front="Skills Gap Analysis" 
-    back="Assess first → Identify gaps → Choose options (Train/Hire) → Execute." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Resource Leveling', 
+    back: 'Delays tasks to resolve overallocation. Can extend the project schedule.' 
+  },
+  { 
+    front: 'Resource Smoothing', 
+    back: 'Adjusts activities within their float. Does NOT extend the schedule.' 
+  },
+  { 
+    front: 'Accountable (A) Rule', 
+    back: 'There must be exactly ONE Accountable person assigned per RACI task.' 
+  },
+  { 
+    front: 'Skills Gap Analysis', 
+    back: 'Assess first → Identify gaps → Choose options (Train/Hire) → Execute.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If the team is confused about who does what, the first step is to create or review the <strong>RACI Matrix</strong>. If the team is missing a critical skill, the first step is to perform a <strong>Gap Analysis</strong>. If the PM lacks authority, the answer is <strong>negotiate and influence</strong>, not escalate.

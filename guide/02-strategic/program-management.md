@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -60,28 +61,28 @@ A **Program Roadmap** is a high-level visual timeline of the program's component
 ---
 
 ##  Quick Review
-<FlashcardGrid>
-  <Flashcard 
-    front="What is a 'Program' in PMP terms?" 
-    back="A group of related projects managed in a coordinated way to obtain synergistic benefits." 
-  />
-  <Flashcard 
-    front="What is the primary measure of success for a Program?" 
-    back="Benefit Realization and Strategic ROI (not just output quality)." 
-  />
-  <Flashcard 
-    front="What does a Program Roadmap show?" 
-    back="A high-level timeline of sequencing, major outcomes, and dependencies across projects." 
-  />
-  <Flashcard 
-    front="What should a PM do if their project is part of a program?" 
-    back="Think globally, manage interfaces with other PMs, and escalate dependencies to the Program Manager." 
-  />
-  <Flashcard 
-    front="What is the purpose of a Program Steering Committee?" 
-    back="Dedicated oversight layer for conflict resolution, budget reallocation, and strategic pivots." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is a \'Program\' in PMP terms?', 
+    back: 'A group of related projects managed in a coordinated way to obtain synergistic benefits.' 
+  },
+  { 
+    front: 'What is the primary measure of success for a Program?', 
+    back: 'Benefit Realization and Strategic ROI (not just output quality).' 
+  },
+  { 
+    front: 'What does a Program Roadmap show?', 
+    back: 'A high-level timeline of sequencing, major outcomes, and dependencies across projects.' 
+  },
+  { 
+    front: 'What should a PM do if their project is part of a program?', 
+    back: 'Think globally, manage interfaces with other PMs, and escalate dependencies to the Program Manager.' 
+  },
+  { 
+    front: 'What is the purpose of a Program Steering Committee?', 
+    back: 'Dedicated oversight layer for conflict resolution, budget reallocation, and strategic pivots.' 
+  }
+]" />
 
 ---
 

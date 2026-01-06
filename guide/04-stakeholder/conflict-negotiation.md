@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -74,24 +75,24 @@ The exam tests whether you choose a response that preserves **relationships** wh
 
 ## Quick Review: Negotiation & Decision
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Ground Rules" 
-    back="The primary tool for PREVENTING conflict before it starts. Found in the Team Charter." 
-  />
-  <Flashcard 
-    front="Consensus" 
-    back="A decision method where everyone can 'live with' the outcome, even if they don't love it." 
-  />
-  <Flashcard 
-    front="Fist-to-Five" 
-    back="A quick tool for gauging consensus (5 fingers = full support; 1 = major concerns; 0 = block)." 
-  />
-  <Flashcard 
-    front="Negotiation Step 1" 
-    back="Understand the underlying INTERESTS of both parties before proposing options." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Ground Rules', 
+    back: 'The primary tool for PREVENTING conflict before it starts. Found in the Team Charter.' 
+  },
+  { 
+    front: 'Consensus', 
+    back: 'A decision method where everyone can \'live with\' the outcome, even if they don\'t love it.' 
+  },
+  { 
+    front: 'Fist-to-Five', 
+    back: 'A quick tool for gauging consensus (5 fingers = full support; 1 = major concerns; 0 = block).' 
+  },
+  { 
+    front: 'Negotiation Step 1', 
+    back: 'Understand the underlying INTERESTS of both parties before proposing options.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If a vendor is failing to meet requirements and a dispute arises, the BEST first step is <strong>Direct Negotiation</strong> between you and the vendor. Legal action or arbitration are last resorts that should only be used after internal negotiation fails.

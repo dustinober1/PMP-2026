@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 import EVMCalculator from '../../.vitepress/theme/components/EVMCalculator.vue'
 </script>
@@ -209,18 +210,48 @@ When comparing mutually exclusive projects, **always use NPV** as the tiebreaker
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard front="Sunk Cost" back="Money already spent; ignore it in future decisions." />
-  <Flashcard front="Opportunity Cost" back="The value of the alternative choice given up." />
-  <Flashcard front="NPV Rule" back="Choose the project with the highest NPV; must be > 0." />
-  <Flashcard front="BCR > 1.0" back="Benefits exceed costs; a good investment." />
-  <Flashcard front="IRR vs Hurdle Rate" back="Accept if IRR is greater than the hurdle rate." />
-  <Flashcard front="Business Case vs Project Charter" back="Business Case justifies investment; Charter authorizes work and PM power." />
-  <Flashcard front="Needs Assessment" back="Conducted before the Business Case to understand the problem or opportunity." />
-  <Flashcard front="Benefits Owner" back="Accountable for realizing and measuring benefits after project closure." />
-  <Flashcard front="Murder Board" back="A panel of executives that rigorously challenges project proposals." />
-  <Flashcard front="Payback Period" back="Time required to recover the initial investment; shorter is better." />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Sunk Cost', 
+    back: 'Money already spent; ignore it in future decisions.' 
+  },
+  { 
+    front: 'Opportunity Cost', 
+    back: 'The value of the alternative choice given up.' 
+  },
+  { 
+    front: 'NPV Rule', 
+    back: 'Choose the project with the highest NPV; must be > 0.' 
+  },
+  { 
+    front: 'BCR > 1.0', 
+    back: 'Benefits exceed costs; a good investment.' 
+  },
+  { 
+    front: 'IRR vs Hurdle Rate', 
+    back: 'Accept if IRR is greater than the hurdle rate.' 
+  },
+  { 
+    front: 'Business Case vs Project Charter', 
+    back: 'Business Case justifies investment; Charter authorizes work and PM power.' 
+  },
+  { 
+    front: 'Needs Assessment', 
+    back: 'Conducted before the Business Case to understand the problem or opportunity.' 
+  },
+  { 
+    front: 'Benefits Owner', 
+    back: 'Accountable for realizing and measuring benefits after project closure.' 
+  },
+  { 
+    front: 'Murder Board', 
+    back: 'A panel of executives that rigorously challenges project proposals.' 
+  },
+  { 
+    front: 'Payback Period', 
+    back: 'Time required to recover the initial investment; shorter is better.' 
+  }
+]" />
 
 ---
 

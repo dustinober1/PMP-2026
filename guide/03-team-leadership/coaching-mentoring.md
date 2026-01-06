@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -131,24 +132,24 @@ These concepts are often mixed up. The exam expects you to choose the right tool
 ##  Influence Without Authority
 PMs often lead in matrix environments without "command" authority. Success depends on influence.
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Expert Power" 
-    back="Credibility from knowledge and competence. Ethical and highly effective." 
-  />
-  <Flashcard 
-    front="Referent Power" 
-    back="Based on trust and relationships. Ethical and excellent for long-term influence." 
-  />
-  <Flashcard 
-    front="Legitimate Power" 
-    back="Authority granted by formal role or position. Neutral effectiveness." 
-  />
-  <Flashcard 
-    front="Coercive Power" 
-    back="Threat/punishment. Avoid on exam; it damages trust and psychological safety." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Expert Power', 
+    back: 'Credibility from knowledge and competence. Ethical and highly effective.' 
+  },
+  { 
+    front: 'Referent Power', 
+    back: 'Based on trust and relationships. Ethical and excellent for long-term influence.' 
+  },
+  { 
+    front: 'Legitimate Power', 
+    back: 'Authority granted by formal role or position. Neutral effectiveness.' 
+  },
+  { 
+    front: 'Coercive Power', 
+    back: 'Threat/punishment. Avoid on exam; it damages trust and psychological safety.' 
+  }
+]" />
 
 ---
 
@@ -177,24 +178,24 @@ EQ is the "secret sauce" of leading through crisis. You need all five Goleman co
 
 ## Quick Review: Leadership & Coaching
 
-<FlashcardGrid>
-  <Flashcard 
-    front="GROW Model Steps" 
-    back="Goal, Reality, Options, Will (or Way Forward)." 
-  />
-  <Flashcard 
-    front="Gap Analysis: Knowledge vs. Will" 
-    back="Knowledge gap needs training; Will gap needs motivation or counseling." 
-  />
-  <Flashcard 
-    front="SBI Feedback Model" 
-    back="Situation, Behavior, Impact. Use it for specific, actionable feedback." 
-  />
-  <Flashcard 
-    front="PMI's Preferred Power" 
-    back="Expert and Referent. They build lasting influence and team trust." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'GROW Model Steps', 
+    back: 'Goal, Reality, Options, Will (or Way Forward).' 
+  },
+  { 
+    front: 'Gap Analysis: Knowledge vs. Will', 
+    back: 'Knowledge gap needs training; Will gap needs motivation or counseling.' 
+  },
+  { 
+    front: 'SBI Feedback Model', 
+    back: 'Situation, Behavior, Impact. Use it for specific, actionable feedback.' 
+  },
+  { 
+    front: 'PMI\'s Preferred Power', 
+    back: 'Expert and Referent. They build lasting influence and team trust.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If a high performer suddenly starts missing deadlines, do NOT micromanage (S1). Switch to **Supporting (S3)**. Ask open-ended questions to find out if they are burned out or facing personal issues. Your first move is **empathy and inquiry**, not direction.

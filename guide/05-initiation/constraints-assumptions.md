@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -112,18 +113,48 @@ Identified → Documented → Assigned Owner → Validated → Status Updated
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard front="Constraint" back="A limiting factor that is a fact and non-negotiable (e.g., budget)." />
-  <Flashcard front="Assumption" back="Something believed to be true for planning purposes until proven otherwise." />
-  <Flashcard front="Triple Constraint" back="The trade-off between Scope, Time, and Cost (plus Quality)." />
-  <Flashcard front="Assumption Log" back="The project document used to track and validate assumptions throughout the lifecycle." />
-  <Flashcard front="Assumption as Risk" back="If an assumption is uncertain and has high impact, it should be moved to the Risk Register." />
-  <Flashcard front="PESTLE" back="Analysis framework (Political, Economic, Social, Technological, Legal, Environmental) for identifying external constraints." />
-  <Flashcard front="Mandatory Dependency" back="A 'Hard Logic' dependency that is legally or physically required." />
-  <Flashcard front="Discretionary Dependency" back="A 'Soft Logic' dependency based on best practices or preferred sequences." />
-  <Flashcard front="Failed Assumption" back="When an assumption is proven false, it becomes an Issue for the project manager to resolve." />
-  <Flashcard front="Constraint Authority" back="Constraints are typically set by the Sponsor or external bodies, not the PM." />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Constraint', 
+    back: 'A limiting factor that is a fact and non-negotiable (e.g., budget).' 
+  },
+  { 
+    front: 'Assumption', 
+    back: 'Something believed to be true for planning purposes until proven otherwise.' 
+  },
+  { 
+    front: 'Triple Constraint', 
+    back: 'The trade-off between Scope, Time, and Cost (plus Quality).' 
+  },
+  { 
+    front: 'Assumption Log', 
+    back: 'The project document used to track and validate assumptions throughout the lifecycle.' 
+  },
+  { 
+    front: 'Assumption as Risk', 
+    back: 'If an assumption is uncertain and has high impact, it should be moved to the Risk Register.' 
+  },
+  { 
+    front: 'PESTLE', 
+    back: 'Analysis framework (Political, Economic, Social, Technological, Legal, Environmental) for identifying external constraints.' 
+  },
+  { 
+    front: 'Mandatory Dependency', 
+    back: 'A \'Hard Logic\' dependency that is legally or physically required.' 
+  },
+  { 
+    front: 'Discretionary Dependency', 
+    back: 'A \'Soft Logic\' dependency based on best practices or preferred sequences.' 
+  },
+  { 
+    front: 'Failed Assumption', 
+    back: 'When an assumption is proven false, it becomes an Issue for the project manager to resolve.' 
+  },
+  { 
+    front: 'Constraint Authority', 
+    back: 'Constraints are typically set by the Sponsor or external bodies, not the PM.' 
+  }
+]" />
 
 ---
 

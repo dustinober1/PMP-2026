@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -261,9 +262,21 @@ PMI has expanded the window for qualifying experience:
 ## Quick Review
 Flip the cards to test your memory of the key exam stats!
 
-<FlashcardGrid>
-  <Flashcard front="Total Questions" back="185 Questions (175 Scored, 10 Unscored)" />
-  <Flashcard front="Time Limit" back="240 Minutes (4 Hours)" />
-  <Flashcard front="Three Domains" back="People (33%), Process (41%), Business Environment (26%)" />
-  <Flashcard front="Passing Score" back="Not Disclosed (Competency-Based)" />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Total Questions', 
+    back: '185 Questions (175 Scored, 10 Unscored)' 
+  },
+  { 
+    front: 'Time Limit', 
+    back: '240 Minutes (4 Hours)' 
+  },
+  { 
+    front: 'Three Domains', 
+    back: 'People (33%), Process (41%), Business Environment (26%)' 
+  },
+  { 
+    front: 'Passing Score', 
+    back: 'Not Disclosed (Competency-Based)' 
+  }
+]" />

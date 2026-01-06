@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -110,26 +111,26 @@ If a question says adoption is low despite great training, the problem is likely
 ---
 
 ## Quick Review
-<FlashcardGrid>
-  <Flashcard 
-    front="What is the first step in the ADKAR model?" 
-    back="Awareness (of the need for change)." 
-  />
-  <Flashcard 
-    front="Which model uses 'Unfreeze, Change, Refreeze'?" 
-    back="Lewin's Three-Stage Model." 
-  />
-  <Flashcard 
-    front="What does 'WIIFM' stand for?" 
-    back="'What's In It For Me' - the personal benefit that drives Desire in change." 
-  />
-  <Flashcard 
-    front="How many steps are in Kotter's change model?" 
-    back="8 steps." 
-  />
-  <Flashcard 
-    front="What should a PM do if an organization is overwhelmed by 5 simultaneous changes?" 
-    back="Evaluate 'Change Saturation' and recommend delaying or sequencing the changes to ensure adoption." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is the first step in the ADKAR model?', 
+    back: 'Awareness (of the need for change).' 
+  },
+  { 
+    front: 'Which model uses \'Unfreeze, Change, Refreeze\'?', 
+    back: 'Lewin\'s Three-Stage Model.' 
+  },
+  { 
+    front: 'What does \'WIIFM\' stand for?', 
+    back: '\'What\'s In It For Me\' - the personal benefit that drives Desire in change.' 
+  },
+  { 
+    front: 'How many steps are in Kotter\'s change model?', 
+    back: '8 steps.' 
+  },
+  { 
+    front: 'What should a PM do if an organization is overwhelmed by 5 simultaneous changes?', 
+    back: 'Evaluate \'Change Saturation\' and recommend delaying or sequencing the changes to ensure adoption.' 
+  }
+]" />
 

@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -114,20 +115,20 @@ If the choices include "meet privately," "clarify roles," "remove impediments," 
 
 ## Quick Review: Building Teams
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Skills Matrix vs. RACI" 
-    back="Matrix shows WHO has the skill; RACI shows WHO is doing the specific work/deciding." 
-  />
-  <Flashcard 
-    front="Psychological Safety Source" 
-    back="Google's Project Aristotle identified it as the #1 factor in high-performing teams." 
-  />
-  <Flashcard 
-    front="First step in Team Building" 
-    back="Identify requirements (skills matrix) and then negotiate/acquire resources." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Skills Matrix vs. RACI', 
+    back: 'Matrix shows WHO has the skill; RACI shows WHO is doing the specific work/deciding.' 
+  },
+  { 
+    front: 'Psychological Safety Source', 
+    back: 'Google\'s Project Aristotle identified it as the #1 factor in high-performing teams.' 
+  },
+  { 
+    front: 'First step in Team Building', 
+    back: 'Identify requirements (skills matrix) and then negotiate/acquire resources.' 
+  }
+]" />
 
 
 

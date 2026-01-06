@@ -4,6 +4,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -338,45 +339,45 @@ Risk management is not about *eliminating* risk (which is impossible); it's abou
 
 ## 1.4d.9 Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="What is the difference between an Issue and a Risk?" 
-    back="A Risk is an uncertain future event. An Issue is a risk that has ALREADY happened." 
-  />
-  <Flashcard 
-    front="What is the difference between a Threat and an Opportunity?" 
-    back="Threat = Negative risk (harmful). Opportunity = Positive risk (beneficial)." 
-  />
-  <Flashcard 
-    front="Which strategy involves shifting the negative impact of a threat to a third party?" 
-    back="Transfer (e.g., insurance, warranty)." 
-  />
-  <Flashcard 
-    front="Which strategy involves doing everything possible to ensure a positive opportunity happens?" 
-    back="Exploit." 
-  />
-  <Flashcard 
-    front="What is a Residual Risk?" 
-    back="A risk that remains after a risk response has been implemented." 
-  />
-  <Flashcard 
-    front="What is a Secondary Risk?" 
-    back="A new risk that arises as a direct result of implementing a risk response." 
-  />
-  <Flashcard 
-    front="In Qualitative Risk Analysis, what are the two main factors assessed?" 
-    back="Probability (Likelihood) and Impact (Consequence)." 
-  />
-  <Flashcard 
-    front="Calculate the Expected Monetary Value (EMV) if a risk has a 20% probability and $10,000 impact." 
-    back="$2,000 (0.20 * $10,000)." 
-  />
-  <Flashcard 
-    front="What does a Monte Carlo analysis provide that a single-point estimate does not?" 
-    back="A range of possible outcomes and the probability (confidence level) of achieving them." 
-  />
-  <Flashcard 
-    front="What is the purpose of a Risk Register?" 
-    back="To track all identified risks, their analysis, responses, and owners throughout the project." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is the difference between an Issue and a Risk?', 
+    back: 'A Risk is an uncertain future event. An Issue is a risk that has ALREADY happened.' 
+  },
+  { 
+    front: 'What is the difference between a Threat and an Opportunity?', 
+    back: 'Threat = Negative risk (harmful). Opportunity = Positive risk (beneficial).' 
+  },
+  { 
+    front: 'Which strategy involves shifting the negative impact of a threat to a third party?', 
+    back: 'Transfer (e.g., insurance, warranty).' 
+  },
+  { 
+    front: 'Which strategy involves doing everything possible to ensure a positive opportunity happens?', 
+    back: 'Exploit.' 
+  },
+  { 
+    front: 'What is a Residual Risk?', 
+    back: 'A risk that remains after a risk response has been implemented.' 
+  },
+  { 
+    front: 'What is a Secondary Risk?', 
+    back: 'A new risk that arises as a direct result of implementing a risk response.' 
+  },
+  { 
+    front: 'In Qualitative Risk Analysis, what are the two main factors assessed?', 
+    back: 'Probability (Likelihood) and Impact (Consequence).' 
+  },
+  { 
+    front: 'Calculate the Expected Monetary Value (EMV) if a risk has a 20% probability and $10,000 impact.', 
+    back: '$2,000 (0.20 * $10,000).' 
+  },
+  { 
+    front: 'What does a Monte Carlo analysis provide that a single-point estimate does not?', 
+    back: 'A range of possible outcomes and the probability (confidence level) of achieving them.' 
+  },
+  { 
+    front: 'What is the purpose of a Risk Register?', 
+    back: 'To track all identified risks, their analysis, responses, and owners throughout the project.' 
+  }
+]" />

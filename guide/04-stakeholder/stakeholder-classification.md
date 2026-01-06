@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -79,24 +80,24 @@ This tool identifies the "Engagement Gap"—where a stakeholder is versus where 
 
 ## Quick Review: Classification & Register
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Engagement Gap" 
-    back="The difference between a stakeholder's 'Current' state and the 'Desired' state required for success." 
-  />
-  <Flashcard 
-    front="Register Sensitivity" 
-    back="The Stakeholder Register contains private political analysis and must be kept CONFIDENTIAL." 
-  />
-  <Flashcard 
-    front="Outward Influence" 
-    back="Refers to stakeholders outside the project team, such as vendors, regulators, and end-users." 
-  />
-  <Flashcard 
-    front="Trigger: New Person" 
-    back="When a new stakeholder is found, the VERY FIRST step is to update the Stakeholder Register." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Engagement Gap', 
+    back: 'The difference between a stakeholder\'s \'Current\' state and the \'Desired\' state required for success.' 
+  },
+  { 
+    front: 'Register Sensitivity', 
+    back: 'The Stakeholder Register contains private political analysis and must be kept CONFIDENTIAL.' 
+  },
+  { 
+    front: 'Outward Influence', 
+    back: 'Refers to stakeholders outside the project team, such as vendors, regulators, and end-users.' 
+  },
+  { 
+    front: 'Trigger: New Person', 
+    back: 'When a new stakeholder is found, the VERY FIRST step is to update the Stakeholder Register.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If a stakeholder's influence shifts or a new one is discovered, the <strong>Stakeholder Register</strong> is the VERY FIRST document you update. It is a living ledger, not a static report.

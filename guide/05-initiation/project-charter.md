@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -127,18 +128,48 @@ our product [key differentiation].
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard front="Birth Certificate" back="Metaphor for the Project Charter; it authorizes the project." />
-  <Flashcard front="Sponsor" back="The person who provides resources and signs the Charter." />
-  <Flashcard front="EEF" back="Enterprise Environmental Factors; constraints you can't control (e.g., laws)." />
-  <Flashcard front="OPA" back="Organizational Process Assets; things you can use (e.g., templates)." />
-  <Flashcard front="PM Authority" back="Defined in the Charter; allows the PM to use company resources." />
-  <Flashcard front="High-Level Risks" back="Initial threats documented in the Charter before detailed planning." />
-  <Flashcard front="Agile Vision Statement" back="The core focus of an agile charter; defines target and benefit." />
-  <Flashcard front="Charter vs Project Plan" back="Charter authorizes the project; Plan defines HOW it will be done." />
-  <Flashcard front="Success Criteria" back="Measurable outcomes defined in the Charter to judge project success." />
-  <Flashcard front="Authorization Gate" back="The point where a project is formally allowed to begin work." />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Birth Certificate', 
+    back: 'Metaphor for the Project Charter; it authorizes the project.' 
+  },
+  { 
+    front: 'Sponsor', 
+    back: 'The person who provides resources and signs the Charter.' 
+  },
+  { 
+    front: 'EEF', 
+    back: 'Enterprise Environmental Factors; constraints you can\'t control (e.g., laws).' 
+  },
+  { 
+    front: 'OPA', 
+    back: 'Organizational Process Assets; things you can use (e.g., templates).' 
+  },
+  { 
+    front: 'PM Authority', 
+    back: 'Defined in the Charter; allows the PM to use company resources.' 
+  },
+  { 
+    front: 'High-Level Risks', 
+    back: 'Initial threats documented in the Charter before detailed planning.' 
+  },
+  { 
+    front: 'Agile Vision Statement', 
+    back: 'The core focus of an agile charter; defines target and benefit.' 
+  },
+  { 
+    front: 'Charter vs Project Plan', 
+    back: 'Charter authorizes the project; Plan defines HOW it will be done.' 
+  },
+  { 
+    front: 'Success Criteria', 
+    back: 'Measurable outcomes defined in the Charter to judge project success.' 
+  },
+  { 
+    front: 'Authorization Gate', 
+    back: 'The point where a project is formally allowed to begin work.' 
+  }
+]" />
 
 ---
 

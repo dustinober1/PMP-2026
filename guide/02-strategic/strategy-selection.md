@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -95,28 +96,28 @@ Your organization spent $5M (Sunk Cost). It will cost $2M more to finish a proje
 ---
 
 ## Quick Review
-<FlashcardGrid>
-  <Flashcard 
-    front="What is Net Present Value (NPV)?" 
-    back="The total value of a project in today's dollars. Higher positive NPV is always preferred." 
-  />
-  <Flashcard 
-    front="What is Internal Rate of Return (IRR)?" 
-    back="The interest rate at which the project breaks even. Higher IRR is better." 
-  />
-  <Flashcard 
-    front="What is 'Opportunity Cost'?" 
-    back="The value of the project you *didn't* choose when you selected another one." 
-  />
-  <Flashcard 
-    front="What is a Benefit-Cost Ratio (BCR)?" 
-    back="Ratio of benefits to costs. A BCR > 1 means the project provides more value than it costs." 
-  />
-  <Flashcard 
-    front="What is Sunk Cost?" 
-    back="Money already spent that cannot be recovered. It should NOT be considered when deciding whether to continue a project." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is Net Present Value (NPV)?', 
+    back: 'The total value of a project in today\'s dollars. Higher positive NPV is always preferred.' 
+  },
+  { 
+    front: 'What is Internal Rate of Return (IRR)?', 
+    back: 'The interest rate at which the project breaks even. Higher IRR is better.' 
+  },
+  { 
+    front: 'What is \'Opportunity Cost\'?', 
+    back: 'The value of the project you *didn\'t* choose when you selected another one.' 
+  },
+  { 
+    front: 'What is a Benefit-Cost Ratio (BCR)?', 
+    back: 'Ratio of benefits to costs. A BCR > 1 means the project provides more value than it costs.' 
+  },
+  { 
+    front: 'What is Sunk Cost?', 
+    back: 'Money already spent that cannot be recovered. It should NOT be considered when deciding whether to continue a project.' 
+  }
+]" />
 
 ---
 

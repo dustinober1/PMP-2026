@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -81,24 +82,24 @@ You cannot "order" a stakeholder to like your project. You must earn it.
 
 ## Quick Review: Stakeholders & Comm
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Communication Channels" 
-    back="Formula: N(N-1)/2. Complexity grows exponentially with every new team member." 
-  />
-  <Flashcard 
-    front="New Stakeholder Found" 
-    back="Step 1: Update Stakeholder Register. Step 2: Perform analysis/mapping." 
-  />
-  <Flashcard 
-    front="Engagement Assessment" 
-    back="Used to track 'Current' vs 'Desired' engagement status of key people." 
-  />
-  <Flashcard 
-    front="BATNA" 
-    back="Best Alternative To a Negotiated Agreement. Your 'walk-away' point in negotiation." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Communication Channels', 
+    back: 'Formula: N(N-1)/2. Complexity grows exponentially with every new team member.' 
+  },
+  { 
+    front: 'New Stakeholder Found', 
+    back: 'Step 1: Update Stakeholder Register. Step 2: Perform analysis/mapping.' 
+  },
+  { 
+    front: 'Engagement Assessment', 
+    back: 'Used to track \'Current\' vs \'Desired\' engagement status of key people.' 
+  },
+  { 
+    front: 'BATNA', 
+    back: 'Best Alternative To a Negotiated Agreement. Your \'walk-away\' point in negotiation.' 
+  }
+]" />
 
 ::: tip Exam Pattern
 If the question is about a **communication breakdown**, update the **Communications Management Plan**. If the question is about a **disengaged person**, update the **Stakeholder Engagement Plan**.

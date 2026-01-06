@@ -3,6 +3,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 import QuizComponent from '../../.vitepress/theme/components/QuizComponent.vue'
 </script>
@@ -353,24 +354,24 @@ Test your ability to manage uncertainty, ensure quality, and navigate project co
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="P50 vs. P80 in Monte Carlo?" 
-    back="P50 is the 50% confidence target. P80 is the 80% confidence commitment." 
-  />
-  <Flashcard 
-    front="What is the difference between Cp and Cpk?" 
-    back="Cp measures potential capability. Cpk measures actual capability (accounts for centering)." 
-  />
-  <Flashcard 
-    front="Proactive vs. Reactive Quality?" 
-    back="QA (Manage Quality) is proactive/prevention. QC (Control Quality) is reactive/inspection." 
-  />
-  <Flashcard 
-    front="What is the Cynefin probe-sense-respond move for?" 
-    back="The Complex domain, where you must experiment to learn." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'P50 vs. P80 in Monte Carlo?', 
+    back: 'P50 is the 50% confidence target. P80 is the 80% confidence commitment.' 
+  },
+  { 
+    front: 'What is the difference between Cp and Cpk?', 
+    back: 'Cp measures potential capability. Cpk measures actual capability (accounts for centering).' 
+  },
+  { 
+    front: 'Proactive vs. Reactive Quality?', 
+    back: 'QA (Manage Quality) is proactive/prevention. QC (Control Quality) is reactive/inspection.' 
+  },
+  { 
+    front: 'What is the Cynefin probe-sense-respond move for?', 
+    back: 'The Complex domain, where you must experiment to learn.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 The PMP exam tests your ability to <strong>apply</strong> these concepts in scenarios, not just recall definitions. Focus on understanding <strong>when</strong> to use each tool and <strong>why</strong> one answer is better than another in a given situation.

@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -66,24 +67,24 @@ Effective stakeholder identification uses multiple techniques to ensure no one i
 
 ## Quick Review: Stakeholder Analysis
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Shadow Stakeholder" 
-    back="A person with informal power who can influence the project despite not having a formal title." 
-  />
-  <Flashcard 
-    front="Stakeholder Register" 
-    back="The primary living document used to record identification, assessment, and classification details." 
-  />
-  <Flashcard 
-    front="Frequent Analysis" 
-    back="Analysis should be repeated at every phase gate, or when major scope/resource changes occur." 
-  />
-  <Flashcard 
-    front="Identification Goal" 
-    back="Identify 100% of stakeholders early, especially those with high power and high resistance." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Shadow Stakeholder', 
+    back: 'A person with informal power who can influence the project despite not having a formal title.' 
+  },
+  { 
+    front: 'Stakeholder Register', 
+    back: 'The primary living document used to record identification, assessment, and classification details.' 
+  },
+  { 
+    front: 'Frequent Analysis', 
+    back: 'Analysis should be repeated at every phase gate, or when major scope/resource changes occur.' 
+  },
+  { 
+    front: 'Identification Goal', 
+    back: 'Identify 100% of stakeholders early, especially those with high power and high resistance.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If the scenario says **new stakeholder**, **changed attitude**, or **political conflict**, the best "first" action is usually to **update the Stakeholder Register** and **reanalyze** before escalating.

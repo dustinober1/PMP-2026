@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -68,24 +69,24 @@ Resistance is usually a symptom of unmanaged fear or a loss of control.
 
 ## Quick Review: Active Engagement
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Trust Equation" 
-    back="(Credibility + Reliability + Intimacy) / Self-Orientation. Lowering self-orientation is the fastest way to build trust." 
-  />
-  <Flashcard 
-    front="Leading Indicator" 
-    back="Decreased meeting attendance or increased response times are early signs that engagement is slipping." 
-  />
-  <Flashcard 
-    front="Resistant Stakeholder" 
-    back="Must be recorded in BOTH the Stakeholder Register (attitude) and the Risk Register (threat to goals)." 
-  />
-  <Flashcard 
-    front="Agile vs Predictive" 
-    back="Predictive relies on milestones/status; Agile relies on continuous demos and direct collaboration." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Trust Equation', 
+    back: '(Credibility + Reliability + Intimacy) / Self-Orientation. Lowering self-orientation is the fastest way to build trust.' 
+  },
+  { 
+    front: 'Leading Indicator', 
+    back: 'Decreased meeting attendance or increased response times are early signs that engagement is slipping.' 
+  },
+  { 
+    front: 'Resistant Stakeholder', 
+    back: 'Must be recorded in BOTH the Stakeholder Register (attitude) and the Risk Register (threat to goals).' 
+  },
+  { 
+    front: 'Agile vs Predictive', 
+    back: 'Predictive relies on milestones/status; Agile relies on continuous demos and direct collaboration.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If a stakeholder is unhappy with a deliverable, the answer is rarely "work harder." The correct answer is usually to <strong>increase the frequency of their involvement</strong> or <strong>update the Stakeholder Engagement Plan</strong> to provide more visibility.

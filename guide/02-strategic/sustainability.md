@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -286,26 +287,26 @@ Sustainability questions on the 2026 PMP exam may include:
 ---
 
 ##  Quick Review
-<FlashcardGrid>
-  <Flashcard 
-    front="What is the 'Triple Bottom Line'?" 
-    back="A framework that measures success based on Profit, People, and Planet." 
-  />
-  <Flashcard 
-    front="What does ESG stand for?" 
-    back="Environmental, Social, and Governance." 
-  />
-  <Flashcard 
-    front="What is 'Life Cycle Assessment' (LCA)?" 
-    back="A process to evaluate the environmental impacts of a product through its entire life cycle (cradle to grave)." 
-  />
-  <Flashcard 
-    front="Why is sustainability important for a PMP?" 
-    back="It ensures long-term value, compliance with emerging laws, and alignment with organizational ethics." 
-  />
-  <Flashcard 
-    front="What should a PM do if a sustainability requirement is being ignored?" 
-    back="Remind the team of its importance to the business case and escalate to the sponsor if necessary." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is the \'Triple Bottom Line\'?', 
+    back: 'A framework that measures success based on Profit, People, and Planet.' 
+  },
+  { 
+    front: 'What does ESG stand for?', 
+    back: 'Environmental, Social, and Governance.' 
+  },
+  { 
+    front: 'What is \'Life Cycle Assessment\' (LCA)?', 
+    back: 'A process to evaluate the environmental impacts of a product through its entire life cycle (cradle to grave).' 
+  },
+  { 
+    front: 'Why is sustainability important for a PMP?', 
+    back: 'It ensures long-term value, compliance with emerging laws, and alignment with organizational ethics.' 
+  },
+  { 
+    front: 'What should a PM do if a sustainability requirement is being ignored?', 
+    back: 'Remind the team of its importance to the business case and escalate to the sponsor if necessary.' 
+  }
+]" />
 

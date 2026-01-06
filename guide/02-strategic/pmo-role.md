@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -182,25 +183,25 @@ Think of the PMO as a **servant leader** to your project. Its goal is to remove 
 ---
 
 ## Quick Review
-<FlashcardGrid>
-  <Flashcard 
-    front="Which PMO type provides templates but has low control?" 
-    back="Supportive PMO." 
-  />
-  <Flashcard 
-    front="In which PMO type do Project Managers report directly to the PMO?" 
-    back="Directive PMO." 
-  />
-  <Flashcard 
-    front="What is the PMO's role in methodology tailoring?" 
-    back="Providing governance and expert advice on the best approach (Agile, Waterfall, or Hybrid) for a specific project." 
-  />
-  <Flashcard 
-    front="True or False: A PMO provides the project budget." 
-    back="False. The Sponsor or Functional Manager typically provides the budget; the PMO provides standardization and support." 
-  />
-  <Flashcard 
-    front="What is a 'Center of Excellence' PMO?" 
-    back="A PMO model that focuses on capability building and knowledge sharing rather than direct project oversight." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Which PMO type provides templates but has low control?', 
+    back: 'Supportive PMO.' 
+  },
+  { 
+    front: 'In which PMO type do Project Managers report directly to the PMO?', 
+    back: 'Directive PMO.' 
+  },
+  { 
+    front: 'What is the PMO\'s role in methodology tailoring?', 
+    back: 'Providing governance and expert advice on the best approach (Agile, Waterfall, or Hybrid) for a specific project.' 
+  },
+  { 
+    front: 'True or False: A PMO provides the project budget.', 
+    back: 'False. The Sponsor or Functional Manager typically provides the budget; the PMO provides standardization and support.' 
+  },
+  { 
+    front: 'What is a \'Center of Excellence\' PMO?', 
+    back: 'A PMO model that focuses on capability building and knowledge sharing rather than direct project oversight.' 
+  }
+]" />

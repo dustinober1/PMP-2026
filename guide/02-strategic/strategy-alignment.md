@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -103,26 +104,26 @@ How does strategy actually reach the project team?
 ---
 
 ##  Quick Review
-<FlashcardGrid>
-  <Flashcard 
-    front="What is the difference between Portfolio and Program management?" 
-    back="Portfolio management is about 'doing the right things' (strategic selection), while Program management is about 'doing things right' across related projects (synergy/benefits)." 
-  />
-  <Flashcard 
-    front="Who owns the Business Case?" 
-    back="The Sponsor/Business (it answers 'Should we invest?')." 
-  />
-  <Flashcard 
-    front="What should a PM do if a 'green' project no longer aligns with strategy?" 
-    back="Raise it to governance and recommend a strategic decision (pivot, pause, or stop)." 
-  />
-  <Flashcard 
-    front="What does PESTLE stand for?" 
-    back="Political, Economic, Social, Technological, Legal, Environmental." 
-  />
-  <Flashcard 
-    front="Is a PM authorized to 'self-cancel' a project?" 
-    back="No. The PM should perform an impact assessment and recommend cancellation to governance." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is the difference between Portfolio and Program management?', 
+    back: 'Portfolio management is about \'doing the right things\' (strategic selection), while Program management is about \'doing things right\' across related projects (synergy/benefits).' 
+  },
+  { 
+    front: 'Who owns the Business Case?', 
+    back: 'The Sponsor/Business (it answers \'Should we invest?\').' 
+  },
+  { 
+    front: 'What should a PM do if a \'green\' project no longer aligns with strategy?', 
+    back: 'Raise it to governance and recommend a strategic decision (pivot, pause, or stop).' 
+  },
+  { 
+    front: 'What does PESTLE stand for?', 
+    back: 'Political, Economic, Social, Technological, Legal, Environmental.' 
+  },
+  { 
+    front: 'Is a PM authorized to \'self-cancel\' a project?', 
+    back: 'No. The PM should perform an impact assessment and recommend cancellation to governance.' 
+  }
+]" />
 

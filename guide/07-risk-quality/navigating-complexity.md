@@ -3,6 +3,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -444,32 +445,32 @@ If the environment is described as “out of control”:
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Complicated vs. Complex?" 
-    back="Complicated has known cause-effect (use experts). Complex has emergent cause-effect (use experiments)." 
-  />
-  <Flashcard 
-    front="What are the 4 domains of Cynefin?" 
-    back="Clear, Complicated, Complex, Chaotic." 
-  />
-  <Flashcard 
-    front="What is a Reinforcing Loop?" 
-    back="A feedback loop that amplifies change in one direction (vicious or virtuous cycle)." 
-  />
-  <Flashcard 
-    front="What is a Balancing Loop?" 
-    back="A feedback loop that self-corrects and maintains stability/equilibrium." 
-  />
-  <Flashcard 
-    front="What is the Theory of Constraints (TOC) goal?" 
-    back="To identify and elevate the single bottleneck that limits system throughput." 
-  />
-  <Flashcard 
-    front="What does the ADKAR model stand for?" 
-    back="Awareness, Desire, Knowledge, Ability, Reinforcement." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Complicated vs. Complex?', 
+    back: 'Complicated has known cause-effect (use experts). Complex has emergent cause-effect (use experiments).' 
+  },
+  { 
+    front: 'What are the 4 domains of Cynefin?', 
+    back: 'Clear, Complicated, Complex, Chaotic.' 
+  },
+  { 
+    front: 'What is a Reinforcing Loop?', 
+    back: 'A feedback loop that amplifies change in one direction (vicious or virtuous cycle).' 
+  },
+  { 
+    front: 'What is a Balancing Loop?', 
+    back: 'A feedback loop that self-corrects and maintains stability/equilibrium.' 
+  },
+  { 
+    front: 'What is the Theory of Constraints (TOC) goal?', 
+    back: 'To identify and elevate the single bottleneck that limits system throughput.' 
+  },
+  { 
+    front: 'What does the ADKAR model stand for?', 
+    back: 'Awareness, Desire, Knowledge, Ability, Reinforcement.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If the environment is described as “high uncertainty with no clear solution,” the BEST approach is <strong>iterative/adaptive</strong>. Avoid answers that suggest “freeze requirements and plan in detail” when the situation is clearly complex.

@@ -3,6 +3,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -466,28 +467,28 @@ Difference between P50 and desired confidence level (e.g., P80)
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="What are the 5 response strategies for threats?" 
-    back="1. Avoid, 2. Mitigate, 3. Transfer, 4. Accept, 5. Escalate." 
-  />
-  <Flashcard 
-    front="What is Residual Risk?" 
-    back="The risk that remains after a response strategy has been implemented." 
-  />
-  <Flashcard 
-    front="What is a Watch List?" 
-    back="A list of low-priority risks that are monitored for changes in probability or impact." 
-  />
-  <Flashcard 
-    front="What does a Tornado Diagram show?" 
-    back="Sensitivity analysis—it ranks risks by their potential impact on a project outcome." 
-  />
-  <Flashcard 
-    front="What is a Risk Trigger?" 
-    back="An early warning sign or event that indicates a risk is about to occur." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What are the 5 response strategies for threats?', 
+    back: '1. Avoid, 2. Mitigate, 3. Transfer, 4. Accept, 5. Escalate.' 
+  },
+  { 
+    front: 'What is Residual Risk?', 
+    back: 'The risk that remains after a response strategy has been implemented.' 
+  },
+  { 
+    front: 'What is a Watch List?', 
+    back: 'A list of low-priority risks that are monitored for changes in probability or impact.' 
+  },
+  { 
+    front: 'What does a Tornado Diagram show?', 
+    back: 'Sensitivity analysis—it ranks risks by their potential impact on a project outcome.' 
+  },
+  { 
+    front: 'What is a Risk Trigger?', 
+    back: 'An early warning sign or event that indicates a risk is about to occur.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 For threats: **Avoid** eliminates, **Mitigate** reduces, **Transfer** shifts (insurance, contracts), **Accept** acknowledges. For opportunities, the matching strategies are **Exploit**, **Enhance**, **Share**, and **Accept**. Use **Contingency Reserve** for identified risks (PM authority) and **Management Reserve** for unknown risks (sponsor approval).

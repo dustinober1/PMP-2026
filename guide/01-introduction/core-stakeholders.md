@@ -4,6 +4,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -141,45 +142,45 @@ Always address stakeholder issues directly and humanly before escalating. Empath
 
 ## 1.4a.8 Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="What is a stakeholder?" 
-    back="Anyone who has an interest in, is affected by, or can affect the project." 
-  />
-  <Flashcard 
-    front="How should you engage High Power / High Interest stakeholders?" 
-    back="Manage Closely. Involve them in decision-making and planning." 
-  />
-  <Flashcard 
-    front="How should you engage High Power / Low Interest stakeholders?" 
-    back="Keep Satisfied. Keep them informed to ensure they don't become blockers." 
-  />
-  <Flashcard 
-    front="How should you engage Low Power / High Interest stakeholders?" 
-    back="Keep Informed. Listen to their concerns and communicate transparently." 
-  />
-  <Flashcard 
-    front="How should you engage Low Power / Low Interest stakeholders?" 
-    back="Monitor. Watch for changes in their influence or interest." 
-  />
-  <Flashcard 
-    front="What is the difference between Communication and Engagement?" 
-    back="Communication is often one-way (sharing info). Engagement is two-way (involving in decisions and dialogue)." 
-  />
-  <Flashcard 
-    front="What is the first step in managing stakeholder expectations?" 
-    back="Uncover them by asking what success looks like for each group." 
-  />
-  <Flashcard 
-    front="What should a PM do if stakeholders have conflicting expectations?" 
-    back="Facilitate trade-off discussions and align on a shared definition of success." 
-  />
-  <Flashcard 
-    front="Why is it important to engage vendors as stakeholders?" 
-    back="They supply critical goods/services and their performance directly impacts project constraints." 
-  />
-  <Flashcard 
-    front="True or False: Stakeholder engagement continues throughout the entire project." 
-    back="True. It is not a one-time event." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is a stakeholder?', 
+    back: 'Anyone who has an interest in, is affected by, or can affect the project.' 
+  },
+  { 
+    front: 'How should you engage High Power / High Interest stakeholders?', 
+    back: 'Manage Closely. Involve them in decision-making and planning.' 
+  },
+  { 
+    front: 'How should you engage High Power / Low Interest stakeholders?', 
+    back: 'Keep Satisfied. Keep them informed to ensure they don\'t become blockers.' 
+  },
+  { 
+    front: 'How should you engage Low Power / High Interest stakeholders?', 
+    back: 'Keep Informed. Listen to their concerns and communicate transparently.' 
+  },
+  { 
+    front: 'How should you engage Low Power / Low Interest stakeholders?', 
+    back: 'Monitor. Watch for changes in their influence or interest.' 
+  },
+  { 
+    front: 'What is the difference between Communication and Engagement?', 
+    back: 'Communication is often one-way (sharing info). Engagement is two-way (involving in decisions and dialogue).' 
+  },
+  { 
+    front: 'What is the first step in managing stakeholder expectations?', 
+    back: 'Uncover them by asking what success looks like for each group.' 
+  },
+  { 
+    front: 'What should a PM do if stakeholders have conflicting expectations?', 
+    back: 'Facilitate trade-off discussions and align on a shared definition of success.' 
+  },
+  { 
+    front: 'Why is it important to engage vendors as stakeholders?', 
+    back: 'They supply critical goods/services and their performance directly impacts project constraints.' 
+  },
+  { 
+    front: 'True or False: Stakeholder engagement continues throughout the entire project.', 
+    back: 'True. It is not a one-time event.' 
+  }
+]" />

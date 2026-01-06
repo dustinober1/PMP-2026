@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -98,47 +99,47 @@ When conflict erupts, follow this escalation ladder:
 
 ##  De-escalation & Resolution Tools
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Acknowledge & Validate" 
-    back="Identify emotions and confirm concerns are legitimate to lower the temperature." 
-  />
-  <Flashcard 
-    front="Separate People from Problems" 
-    back="Focus on the issue (timeline, quality) rather than personal behavior or identity." 
-  />
-  <Flashcard 
-    front="Interests vs. Positions" 
-    back="Ask 'WHY' someone wants something (interest) rather than 'WHAT' they want (position)." 
-  />
-  <Flashcard 
-    front="Structural Solutions" 
-    back="Recurring conflict needs a fix in the system: update RACI, DoD, or the Team Charter." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Acknowledge & Validate', 
+    back: 'Identify emotions and confirm concerns are legitimate to lower the temperature.' 
+  },
+  { 
+    front: 'Separate People from Problems', 
+    back: 'Focus on the issue (timeline, quality) rather than personal behavior or identity.' 
+  },
+  { 
+    front: 'Interests vs. Positions', 
+    back: 'Ask \'WHY\' someone wants something (interest) rather than \'WHAT\' they want (position).' 
+  },
+  { 
+    front: 'Structural Solutions', 
+    back: 'Recurring conflict needs a fix in the system: update RACI, DoD, or the Team Charter.' 
+  }
+]" />
 
 ---
 
 ## Quick Review: Conflict & Negotiation
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Thomas-Kilmann for Emergencies" 
-    back="Force / Direct. Use it when speed and safety are more important than Buy-in." 
-  />
-  <Flashcard 
-    front="Lose / Lose Mode" 
-    back="Compromise. Both sides give up something; the root cause often remains." 
-  />
-  <Flashcard 
-    front="Integrative Negotiation Goal" 
-    back="Find mutual value and preserve long-term project relationships." 
-  />
-  <Flashcard 
-    front="When to intervene?" 
-    back="Intervene privately if self-correction fails or if the conflict is personality-based." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Thomas-Kilmann for Emergencies', 
+    back: 'Force / Direct. Use it when speed and safety are more important than Buy-in.' 
+  },
+  { 
+    front: 'Lose / Lose Mode', 
+    back: 'Compromise. Both sides give up something; the root cause often remains.' 
+  },
+  { 
+    front: 'Integrative Negotiation Goal', 
+    back: 'Find mutual value and preserve long-term project relationships.' 
+  },
+  { 
+    front: 'When to intervene?', 
+    back: 'Intervene privately if self-correction fails or if the conflict is personality-based.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 "Compromise" sounds positive in real life, but on the PMP exam, it is often a "Lose-Lose" trap answer. Always look for <strong>Collaboration (Problem Solving)</strong> first. Compromise is only correct when time pressure makes collaboration impossible and the stakes are moderate.

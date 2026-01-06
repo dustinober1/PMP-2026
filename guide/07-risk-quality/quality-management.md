@@ -3,6 +3,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -464,32 +465,32 @@ Use [7.4 Tools & Templates](./toolkit) for a starter DoD checklist and quick “
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="QA vs. QC?" 
-    back="QA is process-focused and proactive (prevention). QC is product-focused and reactive (inspection)." 
-  />
-  <Flashcard 
-    front="Quality vs. Grade?" 
-    back="Quality is how well it meets specs (must be high). Grade is the rank/category (can be low)." 
-  />
-  <Flashcard 
-    front="Cost of Quality (CoQ) components?" 
-    back="Conformance (Prevention + Appraisal) and Nonconformance (Internal + External Failure)." 
-  />
-  <Flashcard 
-    front="What is the Rule of Seven in Control Charts?" 
-    back="7 consecutive points on one side of the mean indicates a non-random shift requiring investigation." 
-  />
-  <Flashcard 
-    front="Variable vs. Attribute Sampling?" 
-    back="Variable = continuous (measurement). Attribute = discrete (pass/fail)." 
-  />
-  <Flashcard 
-    front="What are the 7 Basic Quality Tools?" 
-    back="Cause-Effect, Flowchart, Checksheet, Pareto, Histogram, Control Chart, Scatter Diagram." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'QA vs. QC?', 
+    back: 'QA is process-focused and proactive (prevention). QC is product-focused and reactive (inspection).' 
+  },
+  { 
+    front: 'Quality vs. Grade?', 
+    back: 'Quality is how well it meets specs (must be high). Grade is the rank/category (can be low).' 
+  },
+  { 
+    front: 'Cost of Quality (CoQ) components?', 
+    back: 'Conformance (Prevention + Appraisal) and Nonconformance (Internal + External Failure).' 
+  },
+  { 
+    front: 'What is the Rule of Seven in Control Charts?', 
+    back: '7 consecutive points on one side of the mean indicates a non-random shift requiring investigation.' 
+  },
+  { 
+    front: 'Variable vs. Attribute Sampling?', 
+    back: 'Variable = continuous (measurement). Attribute = discrete (pass/fail).' 
+  },
+  { 
+    front: 'What are the 7 Basic Quality Tools?', 
+    back: 'Cause-Effect, Flowchart, Checksheet, Pareto, Histogram, Control Chart, Scatter Diagram.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If defects are recurring, the FIRST step is <strong>Root Cause Analysis</strong> (often <strong>Fishbone + 5 Whys</strong>). Fixing symptoms (e.g., “test more”) without fixing causes leads to rework and higher Cost of Quality.

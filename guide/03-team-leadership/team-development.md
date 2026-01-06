@@ -2,6 +2,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
@@ -95,24 +96,24 @@ A TPA is a regular, intentional check-in on how well the team is functioning.
 
 ## Quick Review: Team Development
 
-<FlashcardGrid>
-  <Flashcard 
-    front="Forming Style" 
-    back="Directing (S1). Provide clear structure and defined roles for a new team." 
-  />
-  <Flashcard 
-    front="Storming Goal" 
-    back="Facilitate conflict and build trust/psychological safety to reach Norming." 
-  />
-  <Flashcard 
-    front="Performing Style" 
-    back="Delegating (S4). Trust the team to self-organize and stay out of their way." 
-  />
-  <Flashcard 
-    front="Project Aristotle #1 Factor" 
-    back="Psychological Safety—the belief that one won't be punished for speaking up." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Forming Style', 
+    back: 'Directing (S1). Provide clear structure and defined roles for a new team.' 
+  },
+  { 
+    front: 'Storming Goal', 
+    back: 'Facilitate conflict and build trust/psychological safety to reach Norming.' 
+  },
+  { 
+    front: 'Performing Style', 
+    back: 'Delegating (S4). Trust the team to self-organize and stay out of their way.' 
+  },
+  { 
+    front: 'Project Aristotle #1 Factor', 
+    back: 'Psychological Safety—the belief that one won\'t be punished for speaking up.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If team members are "arguing over technical approaches" or "challenging the PM's authority," they are in <strong>Storming</strong>. This isn't a failure—it is a mandatory step toward <strong>Performing</strong>. Your job is to coach them through it, not to suppress the conflict.

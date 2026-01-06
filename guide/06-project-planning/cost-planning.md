@@ -3,6 +3,7 @@
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 import EVMCalculator from '../../.vitepress/theme/components/EVMCalculator.vue'
 </script>
@@ -592,28 +593,28 @@ Use this interactive tool to practice the formulas and logic of Earned Value Man
 
 ## Quick Review
 
-<FlashcardGrid>
-  <Flashcard 
-    front="What is the difference between Contingency and Management Reserves?" 
-    back="Contingency = for known unknowns (identified risks), part of baseline. Management = for unknown unknowns, NOT part of baseline." 
-  />
-  <Flashcard 
-    front="CPI < 1.0 means what?" 
-    back="The project is over budget (spending more than earning)." 
-  />
-  <Flashcard 
-    front="What are Sunk Costs?" 
-    back="Money already spent. They should be IGNORED when making decisions about the future of a project." 
-  />
-  <Flashcard 
-    front="Analogous vs. Parametric Estimating?" 
-    back="Analogous = based on past similar projects (quick). Parametric = math model based on units (e.g., $ per sq ft)." 
-  />
-  <Flashcard 
-    front="What does TCPI > 1.0 indicate?" 
-    back="The team must be MORE efficient than originally planned to hit the target budget." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is the difference between Contingency and Management Reserves?', 
+    back: 'Contingency = for known unknowns (identified risks), part of baseline. Management = for unknown unknowns, NOT part of baseline.' 
+  },
+  { 
+    front: 'CPI < 1.0 means what?', 
+    back: 'The project is over budget (spending more than earning).' 
+  },
+  { 
+    front: 'What are Sunk Costs?', 
+    back: 'Money already spent. They should be IGNORED when making decisions about the future of a project.' 
+  },
+  { 
+    front: 'Analogous vs. Parametric Estimating?', 
+    back: 'Analogous = based on past similar projects (quick). Parametric = math model based on units (e.g., $ per sq ft).' 
+  },
+  { 
+    front: 'What does TCPI > 1.0 indicate?', 
+    back: 'The team must be MORE efficient than originally planned to hit the target budget.' 
+  }
+]" />
 
 ::: tip  Exam Insight
 If an unforeseen disaster (not in the risk register) occurs, you need **Management Reserve**. This requires a formal change request and **Sponsor approval**. For identified risks that occur, use **Contingency Reserve** under PM authority.
