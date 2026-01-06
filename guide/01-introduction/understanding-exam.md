@@ -112,6 +112,8 @@ Questions then test different aspects:
 > C. Analyze the root cause of the cost variance  
 > D. Document the variance and update the risk register
 
+<br>
+
 *Correct: C - Always analyze before taking action.*
 
 **Multiple Response (Select Two):**
@@ -122,6 +124,8 @@ Questions then test different aspects:
 > C. Report the decline to the Product Owner immediately  
 > D. Observe the Daily Scrum for impediments  
 > E. Increase the sprint duration to allow more work
+
+<br>
 
 *Correct: B and D - Facilitate discussion and observe before acting.*
 
@@ -134,10 +138,14 @@ Questions then test different aspects:
 > - Update project documents
 > - CCB reviews and decides
 
+<br>
+
 *Correct Order: Submit → Evaluate → CCB reviews → Implement → Update*
 
 **Point-and-Click Example:**
 > Given the burn-down chart below, click on the area that indicates when the team first fell behind the ideal line.
+
+<br>
 
 *You would click on the exact point where the actual line diverges above the ideal line.*
 
