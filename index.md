@@ -393,13 +393,7 @@ import { withBase } from 'vitepress'
         <p>Use the knowledge checks at the end of each section to validate your understanding and identify areas for review.</p>
       </div>
     </div>
-    <div class="step-card">
-      <div class="step-number">4</div>
-      <div class="step-content">
-        <h4>Take Practice Exams</h4>
-        <p>Complete the practice exams to build speed, confidence, and a strong sense of the PMI mindset.</p>
-      </div>
-    </div>
+
   </div>
 </div>
 

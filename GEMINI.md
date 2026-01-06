@@ -56,6 +56,7 @@ The following NPM scripts are available in `package.json`:
 The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/workflows/` handles automated deployment on push, or it can be triggered manually via `npm run deploy`.
 
 ## Recent Changes
+- **2026-01-06**: Removed "Take Practice Exams" step from homepage "How to Use This Guide" section since practice exams are not ready for launch.
 - **2026-01-06**: Enhanced homepage by removing "Practice Exams" link (not ready for launch), adding emojis/icons to feature cards and "What's New in 2026" section, and improving card styling with better hover effects and visual distinction.
 - **2026-01-06**: Converted all 53 flashcard sections site-wide from `FlashcardGrid` to `FlashcardCarousel` format, providing a consistent one-at-a-time learning experience with navigation controls across all study guide pages.
 - **2026-01-06**: Created new `FlashcardCarousel.vue` component that displays flashcards one at a time with navigation controls (Previous/Next buttons), progress indicator, keyboard navigation support (arrow keys), and smooth transitions. Updated `compliance-governance.md` to demonstrate the new carousel functionality. Both `FlashcardGrid` (grid view) and `FlashcardCarousel` (one-at-a-time view) are now available for use throughout the site.
