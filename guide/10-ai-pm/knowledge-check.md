@@ -1,3 +1,8 @@
+<script setup>
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import QuizComponent from '../../.vitepress/theme/components/QuizComponent.vue'
+</script>
+
 # Knowledge Check: AI & Project Management
 
 Test your AI literacy and judgment to navigate the modern, tech-augmented project environment. These 33 questions cover the major concepts from Chapter 10, including ethics, bias detection, EU AI Act compliance, Monte Carlo simulation, lifecycle application, and change management.
@@ -500,16 +505,6 @@ AI is not a replacement for Agile or Predictive. It is a **Tech Enhancer** that 
 
 ---
 
-<div class="study-tip">
+<ConceptCard type="study-tip">
   <strong> Exam Insight:</strong> If a team is resisting a new AI tool because they fear job loss, the PM should use <strong>Emotional Intelligence</strong> to address their concerns, educate them on the tool's benefits (removing drudgery), and reassure them of their human value.
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+</ConceptCard>
