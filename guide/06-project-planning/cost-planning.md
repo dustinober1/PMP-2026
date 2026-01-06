@@ -1,3 +1,12 @@
+```html
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+import EVMCalculator from '../../.vitepress/theme/components/EVMCalculator.vue'
+</script>
+
 # 6.3 Cost Planning
 
 **ECO Task**: Plan and manage finance
@@ -37,25 +46,33 @@ Cost management ensures that the project is delivered within the approved budget
 
 A PMP budget is built from the bottom up, with layers of protection.
 
-<div class="cost-grid">
-  <div class="cost-card activity">
-    <div class="cost-title">Activity Estimates</div>
-    <p>The base cost of work packages, including labor, materials, equipment, and services.</p>
-  </div>
-  <div class="cost-card contingency">
-    <div class="cost-title">Contingency Reserve</div>
-    <p>For "Known Unknowns". Part of the <strong>Cost Baseline</strong>. Under PM control.</p>
-  </div>
-  <div class="cost-card baseline">
-    <div class="cost-title">Cost Baseline</div>
-    <div class="cost-subtitle">The Performance Mark</div>
-    <p>A time-phased budget used to measure EVM (Earned Value Management) performance.</p>
-  </div>
-  <div class="cost-card management">
-    <div class="cost-title">Management Reserve</div>
-    <p>For "Unknown Unknowns". NOT part of the baseline. Under Sponsor control.</p>
-  </div>
-</div>
+<ConceptGrid>
+  <ConceptCard 
+    title="Activity Estimates"
+    variant="primary"
+  >
+    The base cost of work packages, including labor, materials, equipment, and services.
+  </ConceptCard>
+  <ConceptCard 
+    title="Contingency Reserve"
+    variant="secondary"
+  >
+    For "Known Unknowns". Part of the <strong>Cost Baseline</strong>. Under PM control.
+  </ConceptCard>
+  <ConceptCard 
+    title="Cost Baseline"
+    subtitle="The Performance Mark"
+    variant="primary"
+  >
+    A time-phased budget used to measure EVM (Earned Value Management) performance.
+  </ConceptCard>
+  <ConceptCard 
+    title="Management Reserve"
+    variant="secondary"
+  >
+    For "Unknown Unknowns". NOT part of the baseline. Under Sponsor control.
+  </ConceptCard>
+</ConceptGrid>
 
 ### Budget Component Structure
 
@@ -564,62 +581,43 @@ $ Cumulative Cost
 | TCPI > 1.0 | Must become more efficient |
 | TCPI impossible | Consider scope/budget change |
 
-<style>
-.cost-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.25rem;
-  margin: 1.5rem 0;
-}
 
-.cost-card {
-  padding: 1.25rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-}
+### Test Your Knowledge with the EVM Calculator
 
-.cost-title {
-  font-weight: 700;
-  color: var(--vp-c-brand);
-  margin-bottom: 0.5rem;
-}
+Use this interactive tool to practice the formulas and logic of Earned Value Management.
 
-.cost-subtitle {
-  font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: var(--vp-c-text-2);
-  margin-bottom: 0.5rem;
-}
-
-.cost-card p {
-  font-size: 0.85rem;
-  margin: 0;
-  line-height: 1.5;
-}
-
-.activity { border-bottom: 4px solid #94a3b8; }
-.contingency { border-bottom: 4px solid #3b82f6; }
-.baseline { border-bottom: 4px solid #10b981; }
-.management { border-bottom: 4px solid #ef4444; }
-</style>
+<EVMCalculator />
 
 ---
 
-<div class="study-tip">
-  <strong> Exam Insight:</strong> If an unforeseen disaster (not in the risk register) occurs, you need <strong>Management Reserve</strong>. This requires a formal change request and <strong>Sponsor approval</strong>. For identified risks that occur, use <strong>Contingency Reserve</strong> under PM authority.
-</div>
+## Quick Review
 
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+<FlashcardGrid>
+  <Flashcard 
+    front="What is the difference between Contingency and Management Reserves?" 
+    back="Contingency = for known unknowns (identified risks), part of baseline. Management = for unknown unknowns, NOT part of baseline." 
+  />
+  <Flashcard 
+    front="CPI < 1.0 means what?" 
+    back="The project is over budget (spending more than earning)." 
+  />
+  <Flashcard 
+    front="What are Sunk Costs?" 
+    back="Money already spent. They should be IGNORED when making decisions about the future of a project." 
+  />
+  <Flashcard 
+    front="Analogous vs. Parametric Estimating?" 
+    back="Analogous = based on past similar projects (quick). Parametric = math model based on units (e.g., $ per sq ft)." 
+  />
+  <Flashcard 
+    front="What does TCPI > 1.0 indicate?" 
+    back="The team must be MORE efficient than originally planned to hit the target budget." 
+  />
+</FlashcardGrid>
+
+::: tip  Exam Insight
+If an unforeseen disaster (not in the risk register) occurs, you need **Management Reserve**. This requires a formal change request and **Sponsor approval**. For identified risks that occur, use **Contingency Reserve** under PM authority.
+:::
 
 
 

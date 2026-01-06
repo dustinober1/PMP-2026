@@ -1,3 +1,10 @@
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # 6.4 Quality Planning
 
 **ECO Task**: Plan and manage quality
@@ -10,20 +17,26 @@ Quality management ensures that the project meets the requirements and delivers 
 
 The PMP exam tests your understanding of quality principles, not just tools. Master these core concepts:
 
-<div class="quality-grid">
-  <div class="quality-card prevention">
-    <div class="quality-title">Prevention over Inspection</div>
-    <p>Building quality in from the start is cheaper than finding defects later. <strong>Cost of prevention < Cost of failure</strong>.</p>
-  </div>
-  <div class="quality-card continuous">
-    <div class="quality-title">Continuous Improvement</div>
-    <p>Quality is never "done." Use <strong>Kaizen</strong> (small improvements) and retrospectives to keep improving.</p>
-  </div>
-  <div class="quality-card customer">
-    <div class="quality-title">Customer Focus</div>
-    <p>Quality is defined by the <strong>customer</strong>, not the team. Meet requirements, not just specs.</p>
-  </div>
-</div>
+<ConceptGrid>
+  <ConceptCard 
+    title="Prevention over Inspection"
+    variant="primary"
+  >
+    Building quality in from the start is cheaper than finding defects later. <strong>Cost of prevention is less than Cost of failure</strong>.
+  </ConceptCard>
+  <ConceptCard 
+    title="Continuous Improvement"
+    variant="secondary"
+  >
+    Quality is never "done." Use <strong>Kaizen</strong> (small improvements) and retrospectives to keep improving.
+  </ConceptCard>
+  <ConceptCard 
+    title="Customer Focus"
+    variant="primary"
+  >
+    Quality is defined by the <strong>customer</strong>, not the team. Meet requirements, not just specs.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -446,51 +459,33 @@ A comprehensive Quality Management Plan includes:
 | **Control Chart** | Monitor process stability |
 | **Scatter Diagram** | Show variable correlation |
 
-<style>
-.quality-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
 
-.quality-card {
-  padding: 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-}
+## Quick Review
 
-.quality-title {
-  font-weight: 700;
-  color: var(--vp-c-brand);
-  margin-bottom: 0.75rem;
-}
+<FlashcardGrid>
+  <Flashcard 
+    front="QA vs. QC?" 
+    back="QA (Manage Quality) is process-focused (preventing defects). QC (Control Quality) is product-focused (finding defects)." 
+  />
+  <Flashcard 
+    front="What is the Rule of Seven in a Control Chart?" 
+    back="Seven consecutive points on one side of the mean indicates the process is 'out of control' and needs investigation." 
+  />
+  <Flashcard 
+    front="What is a Pareto Chart used for?" 
+    back="To prioritize problems by frequency or impact, based on the 80/20 rule (80% of problems come from 20% of causes)." 
+  />
+  <Flashcard 
+    front="Quality vs. Grade?" 
+    back="High Quality = meets requirements (defects are low). High Grade = extra features. Low grade is okay, low quality is NOT." 
+  />
+  <Flashcard 
+    front="What is the goal of a Fishbone Diagram?" 
+    back="To identify the root cause of a specific problem or defect." 
+  />
+</FlashcardGrid>
 
-.quality-card p {
-  font-size: 0.9rem;
-  margin: 0;
-  line-height: 1.6;
-}
-
-.prevention { border-left: 4px solid #10b981; }
-.continuous { border-left: 4px solid #3b82f6; }
-.customer { border-left: 4px solid #8b5cf6; }
-</style>
-
----
-
-<div class="study-tip">
-  <strong> Exam Insight:</strong> When a question mentions finding the "root cause" of defects, think <strong>Cause-and-Effect Diagram</strong>. When it mentions "prioritizing which defects to fix first," think <strong>Pareto Chart</strong>. When it mentions "monitoring process stability," think <strong>Control Chart</strong>. Prevention is always preferred over inspection!
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+::: tip  Exam Insight
+When a question mentions finding the "root cause" of defects, think **Cause-and-Effect Diagram**. When it mentions "prioritizing which defects to fix first," think **Pareto Chart**. When it mentions "monitoring process stability," think **Control Chart**. Prevention is always preferred over inspection!
+:::
 

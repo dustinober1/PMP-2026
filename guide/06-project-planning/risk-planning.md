@@ -1,4 +1,10 @@
-# 6.5 Risk Planning
+
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
 
 **ECO Task**: Plan and manage risk
 
@@ -10,20 +16,26 @@ Risk management is about **proactive uncertainty management**—identifying what
 
 The PMP exam heavily tests risk management. Master these foundational concepts:
 
-<div class="risk-grid">
-  <div class="risk-card threat">
-    <div class="risk-title">Threats</div>
-    <p>Negative risks that could harm the project. Goal: <strong>Minimize impact or probability</strong>.</p>
-  </div>
-  <div class="risk-card opportunity">
-    <div class="risk-title">Opportunities</div>
-    <p>Positive risks that could benefit the project. Goal: <strong>Maximize impact or probability</strong>.</p>
-  </div>
-  <div class="risk-card overall">
-    <div class="risk-title">Overall Project Risk</div>
-    <p>Net effect of all uncertainties on project objectives. More than sum of individual risks.</p>
-  </div>
-</div>
+<ConceptGrid>
+  <ConceptCard 
+    title="Threats"
+    variant="primary"
+  >
+    Negative risks that could harm the project. Goal: <strong>Minimize impact or probability</strong>.
+  </ConceptCard>
+  <ConceptCard 
+    title="Opportunities"
+    variant="secondary"
+  >
+    Positive risks that could benefit the project. Goal: <strong>Maximize impact or probability</strong>.
+  </ConceptCard>
+  <ConceptCard 
+    title="Overall Project Risk"
+    variant="primary"
+  >
+    Net effect of all uncertainties on project objectives. More than just the sum of individual risks.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -451,51 +463,33 @@ Difference between P50 and desired confidence level (e.g., P80)
 | Accept | Acknowledge | Accept |
 | Escalate | Raise to management | Escalate |
 
-<style>
-.risk-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
 
-.risk-card {
-  padding: 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-}
+## Quick Review
 
-.risk-title {
-  font-weight: 700;
-  color: var(--vp-c-brand);
-  margin-bottom: 0.75rem;
-}
+<FlashcardGrid>
+  <Flashcard 
+    front="What are the 5 response strategies for threats?" 
+    back="1. Avoid, 2. Mitigate, 3. Transfer, 4. Accept, 5. Escalate." 
+  />
+  <Flashcard 
+    front="What is Residual Risk?" 
+    back="The risk that remains after a response strategy has been implemented." 
+  />
+  <Flashcard 
+    front="What is a Watch List?" 
+    back="A list of low-priority risks that are monitored for changes in probability or impact." 
+  />
+  <Flashcard 
+    front="What does a Tornado Diagram show?" 
+    back="Sensitivity analysis—it ranks risks by their potential impact on a project outcome." 
+  />
+  <Flashcard 
+    front="What is a Risk Trigger?" 
+    back="An early warning sign or event that indicates a risk is about to occur." 
+  />
+</FlashcardGrid>
 
-.risk-card p {
-  font-size: 0.9rem;
-  margin: 0;
-  line-height: 1.6;
-}
-
-.threat { border-left: 4px solid #ef4444; }
-.opportunity { border-left: 4px solid #10b981; }
-.overall { border-left: 4px solid #8b5cf6; }
-</style>
-
----
-
-<div class="study-tip">
-  <strong> Exam Insight:</strong> For threats: <strong>Avoid</strong> eliminates, <strong>Mitigate</strong> reduces, <strong>Transfer</strong> shifts (insurance, contracts), <strong>Accept</strong> acknowledges. For opportunities, the matching strategies are <strong>Exploit</strong>, <strong>Enhance</strong>, <strong>Share</strong>, and <strong>Accept</strong>. Use <strong>Contingency Reserve</strong> for identified risks (PM authority) and <strong>Management Reserve</strong> for unknown risks (sponsor approval).
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+::: tip  Exam Insight
+For threats: **Avoid** eliminates, **Mitigate** reduces, **Transfer** shifts (insurance, contracts), **Accept** acknowledges. For opportunities, the matching strategies are **Exploit**, **Enhance**, **Share**, and **Accept**. Use **Contingency Reserve** for identified risks (PM authority) and **Management Reserve** for unknown risks (sponsor approval).
+:::
 

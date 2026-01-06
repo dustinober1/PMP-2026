@@ -1,4 +1,10 @@
-# 6.1 Scope Planning
+
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
 
 **ECO Task**: Develop an integrated project management plan and plan delivery
 **ECO Task**: Develop and manage project scope
@@ -10,24 +16,28 @@ Scope defines the boundaries of the mission. It is the "What" the team will buil
 ##  The Scope Toolbox
 The way you define scope depends on the stability of your requirements.
 
-<div class="scope-grid">
-  <div class="scope-card predictive">
-    <div class="scope-title">Predictive Tools</div>
+<ConceptGrid>
+  <ConceptCard 
+    title="Predictive Tools"
+    variant="primary"
+  >
     <ul>
       <li><strong>WBS (Work Breakdown Structure)</strong>: Decomposing work into manageable "Work Packages."</li>
       <li><strong>WBS Dictionary</strong>: Detailed specs for every WBS element.</li>
       <li><strong>Project Scope Statement</strong>: Written description of deliverables and exclusions.</li>
     </ul>
-  </div>
-  <div class="scope-card agile">
-    <div class="scope-title">Agile Tools</div>
+  </ConceptCard>
+  <ConceptCard 
+    title="Agile Tools"
+    variant="secondary"
+  >
     <ul>
       <li><strong>Product Backlog</strong>: A dynamic, prioritized list of User Stories.</li>
       <li><strong>User Stories</strong>: "As a [role], I want [action], so that [value]."</li>
       <li><strong>Definition of Done (DoD)</strong>: The non-negotiable checklist for every story.</li>
     </ul>
-  </div>
-</div>
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -520,53 +530,35 @@ Many organizations use a tiered change authority:
 | Specify story success | Acceptance Criteria |
 | Control scope changes | Change Management Plan |
 
-<style>
-.scope-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
 
-.scope-card {
-  padding: 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-}
+## Quick Review
 
-.scope-title {
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: var(--vp-c-brand);
-}
+<FlashcardGrid>
+  <Flashcard 
+    front="What is the 100% Rule in a WBS?" 
+    back="The WBS must include 100% of the work defined by the project scope—and only the project work." 
+  />
+  <Flashcard 
+    front="What 3 items make up the Scope Baseline?" 
+    back="1. Project Scope Statement, 2. WBS, 3. WBS Dictionary." 
+  />
+  <Flashcard 
+    front="What is Scope Creep?" 
+    back="The uncontrolled expansion of project scope without adjustments to time, cost, and resources." 
+  />
+  <Flashcard 
+    front="What is Gold Plating?" 
+    back="When the team adds extra features not requested by the customer (even if they think it adds value)." 
+  />
+  <Flashcard 
+    front="Product Scope vs. Project Scope?" 
+    back="Product Scope = Features/functions of the result. Project Scope = Work required to deliver those features." 
+  />
+</FlashcardGrid>
 
-.scope-card ul {
-  padding-left: 1.25rem;
-  font-size: 0.9rem;
-}
-
-.scope-card li { margin-bottom: 0.5rem; }
-
-.predictive { border-left: 4px solid #3b82f6; }
-.agile { border-left: 4px solid #10b981; }
-</style>
-
----
-
-<div class="study-tip">
-  <strong> Exam Insight:</strong> If the team is confused about what a specific work package requires, refer to the <strong>WBS Dictionary</strong>. If stakeholders are debating whether something is in scope, use the <strong>Scope Statement</strong> / <strong>WBS</strong>. If you need to prove where a requirement came from (or what deliverable satisfies it), use the <strong>RTM</strong>. If the team is debating whether a story is "finished," refer to the <strong>Definition of Done</strong> and the story's <strong>Acceptance Criteria</strong>.
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+::: tip  Exam Insight
+If the team is confused about what a specific work package requires, refer to the **WBS Dictionary**. If stakeholders are debating whether something is in scope, use the **Scope Statement** / **WBS**. If you need to prove where a requirement came from (or what deliverable satisfies it), use the **RTM**. If the team is debating whether a story is "finished," refer to the **Definition of Done** and the story's **Acceptance Criteria**.
+:::
 
 
 

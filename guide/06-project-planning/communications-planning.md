@@ -1,4 +1,10 @@
-# 6.7 Communications Planning
+
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
 
 **ECO Task**: Plan and manage communication
 
@@ -10,20 +16,26 @@ Communication is the **oil that keeps the project machine running**. The PM spen
 
 Effective communication is about getting the **right information** to the **right people** at the **right time** in the **right format**.
 
-<div class="comm-grid">
-  <div class="comm-card interactive">
-    <div class="comm-title">Interactive</div>
-    <p>Real-time, two-way exchange. Best for complex or sensitive topics. <strong>Meetings, calls, video conferencing</strong>.</p>
-  </div>
-  <div class="comm-card push">
-    <div class="comm-title">Push</div>
-    <p>Sender distributes, recipient receives. Does not guarantee understanding. <strong>Email, reports, memos</strong>.</p>
-  </div>
-  <div class="comm-card pull">
-    <div class="comm-title">Pull</div>
-    <p>Recipient retrieves when needed. Best for reference material. <strong>Intranet, wiki, document repository</strong>.</p>
-  </div>
-</div>
+<ConceptGrid>
+  <ConceptCard 
+    title="Interactive"
+    variant="primary"
+  >
+    Real-time, two-way exchange. Best for complex or sensitive topics. <strong>Meetings, calls, video conferencing</strong>.
+  </ConceptCard>
+  <ConceptCard 
+    title="Push"
+    variant="secondary"
+  >
+    Sender distributes, recipient receives. Does not guarantee understanding. <strong>Email, reports, memos</strong>.
+  </ConceptCard>
+  <ConceptCard 
+    title="Pull"
+    variant="primary"
+  >
+    Recipient retrieves when needed. Best for reference material. <strong>Intranet, wiki, document repository</strong>.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -371,6 +383,35 @@ Typical status report structure:
 .push { border-left: 4px solid #10b981; }
 .pull { border-left: 4px solid #8b5cf6; }
 </style>
+
+## Quick Review
+
+<FlashcardGrid>
+  <Flashcard 
+    front="What is the Communication Channel Formula?" 
+    back="n(n-1)/2, where n is the number of stakeholders." 
+  />
+  <Flashcard 
+    front="What is Interactive Communication?" 
+    back="Real-time, two-way exchange (meetings, calls). Best for complex/sensitive topics." 
+  />
+  <Flashcard 
+    front="What is Push Communication?" 
+    back="One-way distribution (emails, reports). Good for updates but doesn't guarantee understanding." 
+  />
+  <Flashcard 
+    front="What is Pull Communication?" 
+    back="Information made available for recipients to access (wiki, intranet). Best for large datasets." 
+  />
+  <Flashcard 
+    front="Active Listening vs. Passive Listening?" 
+    back="Active = confirming understanding, asking questions, body language. Passive = hearing without engagement." 
+  />
+</FlashcardGrid>
+
+::: tip  Exam Insight
+If the team size increases from 5 to 10, the number of channels increases from 10 to 45. This explains why **communication complexity** grows exponentially, not linearly. Always choose the most **interactive** method for resolving conflict or clarifying complex requirements.
+:::
 
 ---
 
