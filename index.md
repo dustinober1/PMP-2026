@@ -16,22 +16,22 @@ hero:
       link: /guide/11-exam-prep/
 
 features:
-  - icon: 
+  - icon: ""
     title: Comprehensive Content
     details: 10 in-depth chapters covering all three domains — People (33%), Process (41%), and Business Environment (26%)
-  - icon: 
+  - icon: ""
     title: Exam-Focused Practice
     details: 3 exam-style practice exams with detailed explanations to build speed, confidence, and the PMI mindset
-  - icon: 
+  - icon: ""
     title: All Methodologies
     details: Master predictive, agile, and hybrid approaches as tested in the 2026 exam with real-world scenarios
-  - icon: 
+  - icon: ""
     title: Interactive Learning
     details: Built-in knowledge checks, progress tracking, and immediate feedback to reinforce your understanding
-  - icon: 
+  - icon: ""
     title: AI & Innovation
     details: New content on AI essentials for project professionals — a key addition to the 2026 exam blueprint
-  - icon: 
+  - icon: ""
     title: Study Anywhere
     details: Fully responsive design optimized for desktop, tablet, and mobile — study on any device, anytime
 ---
