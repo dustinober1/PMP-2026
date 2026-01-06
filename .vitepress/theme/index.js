@@ -22,7 +22,7 @@ export default {
     app.component('TriangleViz', TriangleViz)
 
     // Scroll to top on route change
-    if (router) {
+    if (router && typeof window !== 'undefined') {
       router.onAfterRouteChanged = () => {
         window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
       }

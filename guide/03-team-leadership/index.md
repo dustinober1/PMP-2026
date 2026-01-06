@@ -28,55 +28,72 @@ By the end of this chapter, you should be able to:
 ##  The Leadership Compass
 From assembling the squad to navigating high-stakes conflict.
 
-<div class="section-grid">
-  <div class="section-card">
-    <div class="section-title">3.1a Team Formation</div>
-    <p class="section-description">Skills matrix, gap analysis, RACI, resource negotiation, and DEI considerations.</p>
-    <a href="./team-formation" class="section-link">Assemble Your Team →</a>
-  </div>
+<ConceptGrid>
+  <ConceptCard 
+    title="3.1a Team Formation" 
+    link="./team-formation"
+    linkText="Assemble Your Team →"
+  >
+    Skills matrix, gap analysis, RACI, resource negotiation, and DEI considerations.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">3.1b Team Development</div>
-    <p class="section-description">Tuckman's model, psychological safety, Project Aristotle, and performance assessments.</p>
-    <a href="./team-development" class="section-link">Grow the Team →</a>
-  </div>
+  <ConceptCard 
+    title="3.1b Team Development" 
+    link="./team-development"
+    linkText="Grow the Team →"
+  >
+    Tuckman's model, psychological safety, Project Aristotle, and performance assessments.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">3.1c Team Charter</div>
-    <p class="section-description">Working agreements, ground rules, Definition of Done, decision models, and escalation paths.</p>
-    <a href="./team-charter" class="section-link">Set the Rules →</a>
-  </div>
+  <ConceptCard 
+    title="3.1c Team Charter" 
+    link="./team-charter"
+    linkText="Set the Rules →"
+  >
+    Working agreements, ground rules, Definition of Done, decision models, and escalation paths.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">3.1d Virtual Teams</div>
-    <p class="section-description">Hofstede's dimensions, async-first communication, hybrid challenges, and remote working agreements.</p>
-    <a href="./virtual-teams" class="section-link">Go Global →</a>
-  </div>
+  <ConceptCard 
+    title="3.1d Virtual Teams" 
+    link="./virtual-teams"
+    linkText="Go Global →"
+  >
+    Hofstede's dimensions, async-first communication, hybrid challenges, and remote working agreements.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">3.2 Servant Leadership</div>
-    <p class="section-description">SLII, coaching with GROW, EQ competencies, leadership styles, and power types.</p>
-    <a href="./coaching-mentoring" class="section-link">Empower Performance →</a>
-  </div>
+  <ConceptCard 
+    title="3.2 Servant Leadership" 
+    link="./coaching-mentoring"
+    linkText="Empower Performance →"
+  >
+    SLII, coaching with GROW, EQ competencies, leadership styles, and power types.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">3.3 Conflict Management</div>
-    <p class="section-description">Thomas-Kilmann modes, BATNA/ZOPA, de-escalation, and negotiation strategies.</p>
-    <a href="./conflict-management" class="section-link">Resolve Friction →</a>
-  </div>
+  <ConceptCard 
+    title="3.3 Conflict Management" 
+    link="./conflict-management"
+    linkText="Resolve Friction →"
+  >
+    Thomas-Kilmann modes, BATNA/ZOPA, de-escalation, and negotiation strategies.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">3.4 Motivation & EQ</div>
-    <p class="section-description">Herzberg, Vroom, McClelland, Maslow, Pink, Equity Theory, and performance management.</p>
-    <a href="./motivation-performance" class="section-link">Inspire Excellence →</a>
-  </div>
+  <ConceptCard 
+    title="3.4 Motivation & EQ" 
+    link="./motivation-performance"
+    linkText="Inspire Excellence →"
+  >
+    Herzberg, Vroom, McClelland, Maslow, Pink, Equity Theory, and performance management.
+  </ConceptCard>
 
-  <div class="section-card knowledge-check">
-    <div class="section-title">Knowledge Check</div>
-    <p class="section-description">25 scenario-based questions covering all chapter topics.</p>
-    <a href="./knowledge-check" class="section-link">Verify Readiness →</a>
-  </div>
-</div>
+  <ConceptCard 
+    title="Knowledge Check" 
+    link="./knowledge-check"
+    linkText="Verify Readiness →"
+    class="knowledge-check"
+  >
+    25 scenario-based questions covering all chapter topics.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -119,59 +136,3 @@ This chapter directly supports these PMP Exam Content Outline tasks:
 | **Task 12** | Address conflict | 3.3 Conflict Management |
 | **Task 13** | Mentoring and coaching | 3.2 GROW Model |
 | **Task 14** | Apply EI | 3.2 Emotional Intelligence |
-
-<style>
-.section-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.section-card {
-  padding: 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-  transition: all 0.3s ease;
-  display: flex;
-  flex-direction: column;
-}
-
-.section-card:hover {
-  transform: translateY(-4px);
-  border-color: var(--vp-c-brand);
-  background: var(--vp-c-bg-mute);
-}
-
-.section-title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin-bottom: 0.75rem;
-  color: var(--vp-c-text-1);
-}
-
-.section-description {
-  font-size: 0.95rem;
-  color: var(--vp-c-text-2);
-  margin-bottom: 1.5rem;
-  flex-grow: 1;
-}
-
-.section-link {
-  font-weight: 600;
-  color: var(--vp-c-brand);
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.section-link:hover {
-  text-decoration: underline;
-}
-
-.knowledge-check {
-  background: var(--vp-c-brand-soft);
-}
-</style>

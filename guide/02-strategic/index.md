@@ -11,89 +11,116 @@ The **Business Environment domain is 26% of the exam**, but it influences 100% o
 ##  Strategic Foundations
 This chapter helps you bridge the gap between high-level ambition and daily execution. Each section has been expanded with detailed explanations, formulas, frameworks, and exam scenarios to serve as your comprehensive one-stop resource.
 
-<div class="section-grid">
-  <div class="section-card">
-    <div class="section-title">2.1 Strategic Alignment</div>
-    <p class="section-description">Understand how projects fit into portfolios and how strategy drives selection. Includes the strategic hierarchy and continuous alignment loop.</p>
-    <a href="./strategy-alignment" class="section-link">View Alignment →</a>
-  </div>
+<ConceptGrid>
+  <ConceptCard 
+    title="2.1 Strategic Alignment" 
+    link="./strategy-alignment"
+    linkText="View Alignment →"
+  >
+    Understand how projects fit into portfolios and how strategy drives selection. Includes the strategic hierarchy and continuous alignment loop.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">2.1a Project Selection</div>
-    <p class="section-description">Complete financial formulas (NPV, ROI, IRR, BCR), worked examples, sunk cost scenarios, and weighted scoring models.</p>
-    <a href="./strategy-selection" class="section-link">Master Selection →</a>
-  </div>
+  <ConceptCard 
+    title="2.1a Project Selection" 
+    link="./strategy-selection"
+    linkText="Master Selection →"
+  >
+    Complete financial formulas (NPV, ROI, IRR, BCR), worked examples, sunk cost scenarios, and weighted scoring models.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">2.1b Portfolio Management</div>
-    <p class="section-description">Portfolio governance, balancing investments, prioritization criteria, and WIP limits for optimizing work.</p>
-    <a href="./portfolio-concepts" class="section-link">Manage Portfolios →</a>
-  </div>
+  <ConceptCard 
+    title="2.1b Portfolio Management" 
+    link="./portfolio-concepts"
+    linkText="Manage Portfolios →"
+  >
+    Portfolio governance, balancing investments, prioritization criteria, and WIP limits for optimizing work.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">2.1c Program Alignment</div>
-    <p class="section-description">Cross-project dependencies, synergies, and coordination mechanisms across related initiatives.</p>
-    <a href="./project-alignment" class="section-link">Coordinate Programs →</a>
-  </div>
+  <ConceptCard 
+    title="2.1c Program Alignment" 
+    link="./project-alignment"
+    linkText="Coordinate Programs →"
+  >
+    Cross-project dependencies, synergies, and coordination mechanisms across related initiatives.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">2.1d Benefits Realization</div>
-    <p class="section-description">The Benefits Lifecycle, Output→Outcome→Benefit chain, and measuring value with leading/lagging indicators.</p>
-    <a href="./benefits-realization" class="section-link">Track Benefits →</a>
-  </div>
+  <ConceptCard 
+    title="2.1d Benefits Realization" 
+    link="./benefits-realization"
+    linkText="Track Benefits →"
+  >
+    The Benefits Lifecycle, Output→Outcome→Benefit chain, and measuring value with leading/lagging indicators.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">2.1f External Environment</div>
-    <p class="section-description">PESTLE deep dive with 2026 focus areas (AI regulation, data privacy, ESG). Impact assessment process and response strategies.</p>
-    <a href="./external-environment" class="section-link">Scan the Horizon →</a>
-  </div>
+  <ConceptCard 
+    title="2.1f External Environment" 
+    link="./external-environment"
+    linkText="Scan the Horizon →"
+  >
+    PESTLE deep dive with 2026 focus areas (AI regulation, data privacy, ESG). Impact assessment process and response strategies.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">2.1h The Strategic PMO</div>
-    <p class="section-description">PMO types, services, AI-enabled capabilities, maturity models, and when to leverage PMO vs. other governance bodies.</p>
-    <a href="./pmo-role" class="section-link">Leverage the PMO →</a>
-  </div>
+  <ConceptCard 
+    title="2.1h The Strategic PMO" 
+    link="./pmo-role"
+    linkText="Leverage the PMO →"
+  >
+    PMO types, services, AI-enabled capabilities, maturity models, and when to leverage PMO vs. other governance bodies.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">2.2 Sustainability in PM (NEW)</div>
-    <p class="section-description">Critical 2026 topic: Triple Bottom Line, P5 Framework, ESG integration, green PM, and sustainability metrics.</p>
-    <a href="./sustainability" class="section-link">Master Sustainability →</a>
-  </div>
+  <ConceptCard 
+    title="2.2 Sustainability in PM (NEW)" 
+    link="./sustainability"
+    linkText="Master Sustainability →"
+  >
+    Critical 2026 topic: Triple Bottom Line, P5 Framework, ESG integration, green PM, and sustainability metrics.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">2.3 Benefits & Value</div>
-    <p class="section-description">Value delivery systems, MVP vs. MBI, Triple Bottom Line (Profit, People, Planet), and ESG integration.</p>
-    <a href="./benefits-value" class="section-link">Explore Value →</a>
-  </div>
+  <ConceptCard 
+    title="2.3 Benefits & Value" 
+    link="./benefits-value"
+    linkText="Explore Value →"
+  >
+    Value delivery systems, MVP vs. MBI, Triple Bottom Line (Profit, People, Planet), and ESG integration.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">2.3 Compliance & Governance</div>
-    <p class="section-description">Regulatory reference guide (GDPR, SOX, OSHA), governance bodies, ethics scenarios, and AI data privacy requirements.</p>
-    <a href="./compliance-governance" class="section-link">Master Governance →</a>
-  </div>
+  <ConceptCard 
+    title="2.3 Compliance & Governance" 
+    link="./compliance-governance"
+    linkText="Master Governance →"
+  >
+    Regulatory reference guide (GDPR, SOX, OSHA), governance bodies, ethics scenarios, and AI data privacy requirements.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">2.4 Organizational Change</div>
-    <p class="section-description">Complete ADKAR deep dive, Kotter's 8 Steps, Lewin's Model, resistance management, and culture vs. strategy.</p>
-    <a href="./organizational-change" class="section-link">Lead Change →</a>
-  </div>
+  <ConceptCard 
+    title="2.4 Organizational Change" 
+    link="./organizational-change"
+    linkText="Lead Change →"
+  >
+    Complete ADKAR deep dive, Kotter's 8 Steps, Lewin's Model, resistance management, and culture vs. strategy.
+  </ConceptCard>
 
-  <div class="section-card">
-    <div class="section-title">2.5 Program Management</div>
-    <p class="section-description">Program artifacts, adaptive roadmaps, governance structures, and your role as a project leader within a program.</p>
-    <a href="./program-management" class="section-link">Think in Programs →</a>
-  </div>
+  <ConceptCard 
+    title="2.5 Program Management" 
+    link="./program-management"
+    linkText="Think in Programs →"
+  >
+    Program artifacts, adaptive roadmaps, governance structures, and your role as a project leader within a program.
+  </ConceptCard>
 
-  <div class="section-card knowledge-check">
-    <div class="section-title"> Knowledge Check</div>
-    <p class="section-description">25 challenging, exam-style questions covering financial analysis, governance decisions, change management, and ethics scenarios.</p>
-    <a href="./knowledge-check" class="section-link">Test Your Knowledge →</a>
-  </div>
-</div>
+  <ConceptCard 
+    title="Knowledge Check" 
+    link="./knowledge-check"
+    linkText="Test Your Knowledge →"
+    class="knowledge-check"
+  >
+    25 challenging, exam-style questions covering financial analysis, governance decisions, change management, and ethics scenarios.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
-##  What's Covered in This Chapter
+## What's Covered in This Chapter
 
 This chapter is designed to be a **comprehensive one-stop resource** for everything related to the Business Environment domain:
 
@@ -150,60 +177,3 @@ If you're short on time, focus on this sequence:
 5. `organizational-change` (how value actually gets adopted)
 6. `knowledge-check` (test your understanding with 25 exam-style questions)
 :::
-
-<style>
-.section-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.section-card {
-  padding: 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-  transition: all 0.3s ease;
-  display: flex;
-  flex-direction: column;
-}
-
-.section-card:hover {
-  transform: translateY(-4px);
-  border-color: var(--vp-c-brand);
-  background: var(--vp-c-bg-mute);
-}
-
-.section-title {
-  font-size: 1.15rem;
-  font-weight: 700;
-  margin-bottom: 0.75rem;
-  color: var(--vp-c-text-1);
-}
-
-.section-description {
-  font-size: 0.9rem;
-  color: var(--vp-c-text-2);
-  margin-bottom: 1.5rem;
-  flex-grow: 1;
-  line-height: 1.5;
-}
-
-.section-link {
-  font-weight: 600;
-  color: var(--vp-c-brand);
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.section-link:hover {
-  text-decoration: underline;
-}
-
-.knowledge-check {
-  background: var(--vp-c-brand-soft);
-}
-</style>
