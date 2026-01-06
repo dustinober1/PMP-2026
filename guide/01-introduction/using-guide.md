@@ -297,7 +297,32 @@ When these conditions are true, set an exam date within the next 4–6 weeks.
 
 ---
 
-## 1.2.8 Summary
+---
+
+## 1.2.8 Quick Review
+
+<FlashcardGrid>
+  <Flashcard 
+    front="What are the three domains of the 2026 PMP ECO?" 
+    back="People (33%), Process (41%), and Business Environment (26%)" 
+  />
+  <Flashcard 
+    front="Which study path is recommended for candidates with 10-15 hours/week?" 
+    back="The Fast-Track Plan (4–6 weeks)" 
+  />
+  <Flashcard 
+    front="What is the recommended weekly study pattern?" 
+    back="2–3 Reading Sessions, 2 Practice Sessions, and 1 Review Session" 
+  />
+  <Flashcard 
+    front="What should you do if you are uncomfortable with scenario-based exams?" 
+    back="Spend extra time on practice questions and reviewing answer explanations" 
+  />
+</FlashcardGrid>
+
+---
+
+## 1.2.9 Summary
 
 This section has given you a practical framework for using this guide:
 

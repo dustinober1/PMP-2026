@@ -69,4 +69,5 @@ The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/work
 - **2026-01-06**: Transformed the "Formula Cheat Sheet" in `guide/01-introduction/core-data.md` from a static table to an interactive `FlashcardGrid` for better self-review.
 - **2026-01-06**: Transformed "Ethical Dilemma Scenarios" in `guide/01-introduction/core-ethics.md` from static text to an interactive `FlashcardGrid`.
 - **2026-01-06**: Modernized `guide/01-introduction/using-guide.md` by replacing static lists and self-check sections with interactive `ConceptGrid` and `ConceptCard` components.
+- **2026-01-06**: Added interactive "Quick Review" flashcards to `guide/01-introduction/using-guide.md` covering key concepts.
 
