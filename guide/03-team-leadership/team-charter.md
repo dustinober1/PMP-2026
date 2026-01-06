@@ -129,6 +129,30 @@ These agreements are critical quality gates that prevent rework.
   { 
     front: 'Conflict Step 1', 
     back: 'Team Charter escalation path: Start with direct conversation between parties.' 
+  },
+  { 
+    front: 'What is Definition of Done (DoD)?', 
+    back: 'A standard checklist that applies to ALL work items (e.g., code reviewed, tests passed, docs updated).' 
+  },
+  { 
+    front: 'What is Acceptance Criteria (AC)?', 
+    back: 'Specific requirements that apply to ONE work item (e.g., button must be blue, load in less than 2s).' 
+  },
+  { 
+    front: 'What are the four key Team Charter components?', 
+    back: 'Team Values, Ground Rules, Communication Norms, and Decision Making processes.' 
+  },
+  { 
+    front: 'What are three properties of effective Ground Rules?', 
+    back: 'Collaborative (written by team), Visible (displayed prominently), and Self-Policing (team enforces them).' 
+  },
+  { 
+    front: 'When should Consensus be used for decisions?', 
+    back: 'For high-impact decisions requiring deep buy-in where everyone agrees or consents.' 
+  },
+  { 
+    front: 'What should a PM do when team has behavioral issues?', 
+    back: 'Refer the team to the Ground Rules or facilitate a session to update the Team Charter.' 
   }
 ]" />
 

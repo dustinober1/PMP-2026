@@ -81,6 +81,30 @@ A remote leader must proactively mitigate the predictable challenges of virtual 
   { 
     front: 'Hybrid Team Rule', 
     back: '\'If one is remote, all are remote\'—everyone joins on their own device to ensure equality.' 
+  },
+  { 
+    front: 'When should Synchronous communication be used?', 
+    back: 'For complex decisions, conflict resolution, and team bonding (video calls, live chat).' 
+  },
+  { 
+    front: 'When should Asynchronous communication be used?', 
+    back: 'For focused work and time-zone flexibility (email, Loom videos, task comments).' 
+  },
+  { 
+    front: 'What is Silent Brainstorming?', 
+    back: 'Having everyone write ideas in a shared doc before speaking to ensure equal participation.' 
+  },
+  { 
+    front: 'What is the Round Robin technique?', 
+    back: 'Systematically inviting every participant to speak to prevent the same voices from dominating.' 
+  },
+  { 
+    front: 'How to address Silent Silos in virtual teams?', 
+    back: 'Over-communicate using Digital Radiators (Kanban boards, Slack channels, real-time dashboards).' 
+  },
+  { 
+    front: 'What should a PM do if a virtual team struggles with communication?', 
+    back: 'Improve tools/infrastructure or facilitate a reset of the Team Charter for remote norms.' 
   }
 ]" />
 

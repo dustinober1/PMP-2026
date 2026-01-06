@@ -127,6 +127,34 @@ If the choices include "meet privately," "clarify roles," "remove impediments," 
   { 
     front: 'First step in Team Building', 
     back: 'Identify requirements (skills matrix) and then negotiate/acquire resources.' 
+  },
+  { 
+    front: 'What are the three PMI team verbs?', 
+    back: 'Acquire Team, Develop Team, and Manage Team.' 
+  },
+  { 
+    front: 'What is the difference between Acquire and Develop Team?', 
+    back: 'Acquire gets the right people; Develop improves their skills, trust, and collaboration.' 
+  },
+  { 
+    front: 'What is Psychological Safety?', 
+    back: 'An environment where bad news travels fast and team members feel safe to speak up without fear.' 
+  },
+  { 
+    front: 'What are the four Week 1 Team Setup areas?', 
+    back: 'Purpose and Roles, Agreements and Rules, Visibility and Norms, and Trust and Capacity.' 
+  },
+  { 
+    front: 'When does the PM use Manage Team?', 
+    back: 'When tracking performance, resolving issues, dealing with underperformance, blockers, or conflict.' 
+  },
+  { 
+    front: 'What is the exam pattern for people problems?', 
+    back: 'Clarity first, then Support, and Escalate only as a last resort.' 
+  },
+  { 
+    front: 'What should a PM do before replacing a team member?', 
+    back: 'Meet privately, clarify roles, remove impediments, and refer to the team charter first.' 
   }
 ]" />
 

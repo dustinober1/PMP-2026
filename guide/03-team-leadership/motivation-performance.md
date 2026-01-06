@@ -114,6 +114,30 @@ On the PMP exam, jumping to a Performance Improvement Plan (PIP) or formal disci
   { 
     front: 'Maslow\'s Social Level', 
     back: 'The need for belonging and connection. Critical for remote team health.' 
+  },
+  { 
+    front: 'What is Herzberg\'s Two-Factor Theory?', 
+    back: 'Hygiene factors (pay, security) prevent dissatisfaction; Motivators (growth, achievement) drive performance.' 
+  },
+  { 
+    front: 'What are Pink\'s three intrinsic motivators?', 
+    back: 'Autonomy (control), Mastery (skill), and Purpose (meaning).' 
+  },
+  { 
+    front: 'What is Vroom\'s Expectancy Theory formula?', 
+    back: 'Motivation = Expectancy (Can I do it?) x Instrumentality (Will I get paid?) x Valence (Do I want it?).' 
+  },
+  { 
+    front: 'What are the four principles of effective recognition?', 
+    back: 'Specific, Timely, Personal, and appropriate for Public vs Private preference.' 
+  },
+  { 
+    front: 'What is McGregor\'s Theory Y?', 
+    back: 'The belief that workers want to grow and are intrinsically motivated - the modern PM mindset.' 
+  },
+  { 
+    front: 'What should a PM do FIRST when performance drops?', 
+    back: 'Meet privately to understand the root cause without assumptions or threats.' 
   }
 ]" />
 

@@ -194,6 +194,30 @@ EQ is the "secret sauce" of leading through crisis. You need all five Goleman co
   { 
     front: 'PMI\'s Preferred Power', 
     back: 'Expert and Referent. They build lasting influence and team trust.' 
+  },
+  { 
+    front: 'What is Servant Leadership?', 
+    back: 'A leadership style focused on removing blockers, creating clarity, protecting focus, and growing people.' 
+  },
+  { 
+    front: 'What is the SLII S2 (Coaching) style?', 
+    back: 'High Direction plus High Support - used for D2 team members who have some skill but low will.' 
+  },
+  { 
+    front: 'What are the five EQ (Emotional Intelligence) competencies?', 
+    back: 'Self-Awareness, Self-Regulation, Empathy, Social Skills, and Motivation.' 
+  },
+  { 
+    front: 'When should a PM use Transformational leadership?', 
+    back: 'When inspiring change and empowering the team to innovate and evolve the organization.' 
+  },
+  { 
+    front: 'What is the difference between Coaching and Mentoring?', 
+    back: 'Coaching improves current work performance (short-term); Mentoring focuses on career growth and wisdom (long-term).' 
+  },
+  { 
+    front: 'What should a PM do if a high performer suddenly misses deadlines?', 
+    back: 'Switch to Supporting (S3) style - ask open-ended questions to understand burnout or personal issues.' 
   }
 ]" />
 
