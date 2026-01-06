@@ -1,5 +1,12 @@
 # 1.4c – Quality: Ensuring Deliverables Solve the Problem
 
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 **ECO Task**: Plan and manage quality
 
 Sarah realizes: *A project can come in on time and on budget and still fail if the deliverable does not actually work or does not solve the real problem.* Quality is not optional—it's essential for value delivery.
@@ -10,19 +17,31 @@ Sarah realizes: *A project can come in on time and on budget and still fail if t
 
 Quality has two classic definitions that you must understand:
 
-| Definition | Focus | Example |
-|------------|-------|---------|
-| **Conformance to requirements** | Does the deliverable meet the stated specifications? | The software passes all test cases |
-| **Fitness for use** | Does it actually solve the customer's problem? | Users adopt and enjoy using the software |
+<ConceptGrid>
+  <ConceptCard title="Conformance to requirements">
+    Does the deliverable meet the stated specifications?<br>
+    <em>Example: The software passes all test cases.</em>
+  </ConceptCard>
+  <ConceptCard title="Fitness for use">
+    Does it actually solve the customer's problem?<br>
+    <em>Example: Users adopt and enjoy using the software.</em>
+  </ConceptCard>
+</ConceptGrid>
 
 **You need both.** Meeting specifications is useless if the result doesn't help the user. Conversely, a product users love but that doesn't meet safety standards is equally problematic.
 
 ### Quality vs. Grade
 
-| Concept | Definition | Example |
-|---------|------------|---------|
-| **Quality** | The degree to which characteristics fulfill requirements | A bug-free application |
-| **Grade** | A category for products with the same functional use but different requirements | Economy vs. Business Class seats |
+<ConceptGrid>
+  <ConceptCard title="Quality">
+    **Definition:** The degree to which characteristics fulfill requirements.<br>
+    <em>Example: A bug-free application.</em>
+  </ConceptCard>
+  <ConceptCard title="Grade">
+    **Definition:** A category for products with the same functional use but different requirements.<br>
+    <em>Example: Economy vs. Business Class seats.</em>
+  </ConceptCard>
+</ConceptGrid>
 
 **Key Insight**: Low quality is always a problem. Low grade may be acceptable if it matches requirements.
 
@@ -37,11 +56,23 @@ An expensive, high-grade product full of defects = Low quality
 
 Quality management has three main processes:
 
-| Process | What It Does | When | Key Question |
-|---------|--------------|------|--------------|
-| **Plan Quality Management** | Define quality standards and how to achieve them | Planning phase | What does "good" look like? |
-| **Manage Quality / QA** | Ensure processes are being followed correctly | During execution | Are we building it right? |
-| **Control Quality / QC** | Verify deliverables meet specifications | Before delivery | Did we build it right? |
+<ConceptGrid>
+  <ConceptCard title="Plan Quality Management">
+    **When:** Planning phase<br>
+    **Goal:** Define quality standards and how to achieve them.<br>
+    <em>Question: What does "good" look like?</em>
+  </ConceptCard>
+  <ConceptCard title="Manage Quality (QA)">
+    **When:** During execution<br>
+    **Goal:** Ensure processes are being followed correctly (Process-focused).<br>
+    <em>Question: Are we building it right?</em>
+  </ConceptCard>
+  <ConceptCard title="Control Quality (QC)">
+    **When:** Before delivery<br>
+    **Goal:** Verify deliverables meet specifications (Product-focused).<br>
+    <em>Question: Did we build it right?</em>
+  </ConceptCard>
+</ConceptGrid>
 
 ### Quality Assurance (QA) vs. Quality Control (QC)
 
@@ -163,12 +194,24 @@ These classic tools are **frequently tested on the PMP exam**. Know what each do
 
 COQ represents the total cost of ensuring quality AND the cost of poor quality.
 
-| Category | Type | Examples | Goal |
-|----------|------|----------|------|
-| **Prevention Costs** | Conformance | Training, process planning, quality planning, design reviews | Invest here to reduce failures |
-| **Appraisal Costs** | Conformance | Testing, inspections, audits, reviews | Necessary but minimize waste |
-| **Internal Failure Costs** | Non-conformance | Rework, scrap, retesting, root cause analysis | Reduce through prevention |
-| **External Failure Costs** | Non-conformance | Warranty claims, customer support, recalls, reputation damage | Most expensive; avoid at all costs |
+<ConceptGrid>
+  <ConceptCard title="Prevention Costs (Invest Here)">
+    **Type:** Conformance<br>
+    Training, process planning, quality planning, design reviews.
+  </ConceptCard>
+  <ConceptCard title="Appraisal Costs (Minimize)">
+    **Type:** Conformance<br>
+    Testing, inspections, audits, reviews.
+  </ConceptCard>
+  <ConceptCard title="Internal Failure Costs (Reduce)">
+    **Type:** Non-conformance (Found internally)<br>
+    Rework, scrap, retesting, root cause analysis.
+  </ConceptCard>
+  <ConceptCard title="External Failure Costs (Avoid!)">
+    **Type:** Non-conformance (Found by customer)<br>
+    Warranty claims, customer support, recalls, reputation damage.
+  </ConceptCard>
+</ConceptGrid>
 
 ### The COQ Curve
 
@@ -315,3 +358,48 @@ Quality also includes meeting legal and organizational standards:
 ::: warning Warning
 Never "ship and pray." Quality issues discovered by the customer are exponentially more expensive to fix than those found during production. Prevention > Detection > Failure.
 :::
+
+## 1.4c.10 Quick Review
+
+<FlashcardGrid>
+  <Flashcard 
+    front="What is the difference between Quality and Grade?" 
+    back="Quality is fulfilling requirements (bug-free); Grade is a category of features (Economy vs. First Class). Low grade is okay; low quality is never okay." 
+  />
+  <Flashcard 
+    front="What is the difference between QA and QC?" 
+    back="QA is Process-focused (preventing defects during work). QC is Product-focused (finding defects in deliverables)." 
+  />
+  <Flashcard 
+    front="Which Quality Tool identifies the root cause of a problem?" 
+    back="The Cause-and-Effect (Fishbone/Ishikawa) Diagram." 
+  />
+  <Flashcard 
+    front="Which Quality Tool prioritizes problems using the 80/20 rule?" 
+    back="The Pareto Chart." 
+  />
+  <Flashcard 
+    front="What does a Control Chart measure?" 
+    back="It measures if a process is stable and within defined limits over time." 
+  />
+  <Flashcard 
+    front="What is the Cost of Quality (COQ)?" 
+    back="The specific cost of preventing defects plus the cost of dealing with defects (failures)." 
+  />
+  <Flashcard 
+    front="Which type of Cost of Quality is the most expensive?" 
+    back="External Failure Costs (defects found by the customer)." 
+  />
+  <Flashcard 
+    front="What involves 'checking work against the spec as it completes'?" 
+    back="Inspection (a key QC activity)." 
+  />
+  <Flashcard 
+    front="What is Gold Plating?" 
+    back="Adding extra features not in the requirements. It is a bad practice because it increases cost/risk without approval." 
+  />
+  <Flashcard 
+    front="What is the 'Shift-Left' principle?" 
+    back="Moving quality activities earlier in the project (e.g., preventing defects in design) to save costs." 
+  />
+</FlashcardGrid>

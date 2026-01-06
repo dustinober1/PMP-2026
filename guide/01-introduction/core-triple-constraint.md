@@ -1,5 +1,12 @@
 # 1.4b – Scope, Schedule, and Cost: The Triple Constraint
 
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 **ECO Task**: Plan and manage scope
 **ECO Task**: Plan and manage schedule
 **ECO Task**: Plan and manage budget and resources
@@ -12,19 +19,37 @@ Sarah quickly learns that scope, schedule, and cost are interconnected. Every pr
 
 In traditional project management, the "triple constraint" (also called the "Iron Triangle") is:
 
-| Constraint | Definition | Key Question |
-|------------|------------|--------------|
-| **Scope** | What will be delivered? | Are we building the right thing? |
-| **Schedule** | When will it be delivered? | Will we meet the deadline? |
-| **Cost** | How much will it cost? | Will we stay within budget? |
+<ConceptGrid>
+  <ConceptCard title="Scope">
+    **Question:** Are we building the right thing?<br>
+    <em>Definition:</em> What will be delivered?
+  </ConceptCard>
+  <ConceptCard title="Schedule">
+    **Question:** Will we meet the deadline?<br>
+    <em>Definition:</em> When will it be delivered?
+  </ConceptCard>
+  <ConceptCard title="Cost">
+    **Question:** Will we stay within budget?<br>
+    <em>Definition:</em> How much will it cost?
+  </ConceptCard>
+</ConceptGrid>
 
 The classic view: **If you fix two of these, the third is determined.**
 
-| Fixed Constraints | Variable Constraint | Example |
-|-------------------|--------------------|---------| 
-| Scope + Schedule | Cost | "Spend whatever it takes to launch on time" |
-| Cost + Schedule | Scope | "Deliver what fits in the budget and timeline" |
-| Cost + Scope | Schedule | "Take as long as needed to do it right" |
+<ConceptGrid>
+  <ConceptCard title="Fixed: Scope + Schedule">
+    **Variable:** Cost<br>
+    "Spend whatever it takes to launch on time."
+  </ConceptCard>
+  <ConceptCard title="Fixed: Cost + Schedule">
+    **Variable:** Scope<br>
+    "Deliver what fits in the budget and timeline."
+  </ConceptCard>
+  <ConceptCard title="Fixed: Cost + Scope">
+    **Variable:** Schedule<br>
+    "Take as long as needed to do it right."
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -32,11 +57,21 @@ The classic view: **If you fix two of these, the third is determined.**
 
 The triple constraint behaves differently across methodologies:
 
-| Approach | Scope | Schedule | Cost | Quality |
-|----------|-------|----------|------|---------|
-| **Predictive** | Fixed (baseline) | Fixed (baseline) | Fixed (baseline) | Defined upfront |
-| **Agile** | Variable | Fixed (timeboxes) | Fixed (team capacity) | Built-in continuous |
-| **Hybrid** | Mix | Mix | Mix | Tiered by component |
+<ConceptGrid>
+  <ConceptCard title="Predictive">
+    **Scope, Schedule, Cost:** All Fixed (Baseline).<br>
+    Quality is defined upfront.
+  </ConceptCard>
+  <ConceptCard title="Agile">
+    **Fixed:** Schedule (Timebox) & Cost (Team).<br>
+    **Variable:** Scope.<br>
+    Quality is built-in continuously.
+  </ConceptCard>
+  <ConceptCard title="Hybrid">
+    **Mix:** Everything is mixed.<br>
+    Quality is prioritized by component.
+  </ConceptCard>
+</ConceptGrid>
 
 ### The Agile "Inverted Triangle"
 
@@ -53,12 +88,20 @@ In Agile:
 
 Sarah realizes that **scope, schedule, and cost are not the only success criteria.** Modern thinking adds additional dimensions:
 
-| Factor | Definition |
-|--------|------------|
-| **Quality** | Does it work as required? Fit for purpose? |
-| **Value** | Does it deliver the intended benefits? |
-| **Risk** | Are we managing uncertainty effectively? |
-| **Stakeholder Satisfaction** | Are stakeholders happy with outcomes? |
+<ConceptGrid>
+  <ConceptCard title="Quality">
+    Does it work as required? Fit for purpose?
+  </ConceptCard>
+  <ConceptCard title="Value">
+    Does it deliver the intended benefits?
+  </ConceptCard>
+  <ConceptCard title="Risk">
+    Are we managing uncertainty effectively?
+  </ConceptCard>
+  <ConceptCard title="Stakeholder Satisfaction">
+    Are stakeholders happy with outcomes?
+  </ConceptCard>
+</ConceptGrid>
 
 ::: info
 You cannot optimize for schedule and cost alone while ignoring quality or value. A project that comes in on time and on budget but doesn't solve the problem is still a failure.
@@ -285,3 +328,48 @@ When you cannot have everything:
 ::: tip Formula Check
 For detailed formulas on Critical Path and Earned Value, see [Appendix B: Key Formulas and Definitions](/guide/appendices/formulas-definitions).
 :::
+
+## 1.4b.11 Quick Review
+
+<FlashcardGrid>
+  <Flashcard 
+    front="What are the three constraints in the Iron Triangle?" 
+    back="Scope, Schedule, and Cost." 
+  />
+  <Flashcard 
+    front="In Agile, which constraint is variable?" 
+    back="Scope. (Time and Cost are fixed per sprint/team)." 
+  />
+  <Flashcard 
+    front="What is Gold Plating?" 
+    back="Adding unrequested features to 'delight' the customer (Bad practice!)." 
+  />
+  <Flashcard 
+    front="What is Scope Creep?" 
+    back="Uncontrolled expansion of scope without adjustments to time, cost, or resources." 
+  />
+  <Flashcard 
+    front="Which dependency type is most common?" 
+    back="Finish-to-Start (FS)." 
+  />
+  <Flashcard 
+    front="What is the Critical Path?" 
+    back="The longest path through the project network, determining the minimum project duration." 
+  />
+  <Flashcard 
+    front="What is Float (Slack)?" 
+    back="The amount of time an activity can be delayed without delaying the project." 
+  />
+  <Flashcard 
+    front="What is Crashing?" 
+    back="Adding resources to critical path activities to shorten schedule (increases cost)." 
+  />
+  <Flashcard 
+    front="What is Fast-Tracking?" 
+    back="Performing sequential activities in parallel to shorten schedule (increases risk)." 
+  />
+  <Flashcard 
+    front="What does Brooks's Law state?" 
+    back="'Adding manpower to a late software project makes it later.'" 
+  />
+</FlashcardGrid>

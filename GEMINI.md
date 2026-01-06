@@ -73,4 +73,5 @@ The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/work
 - **2026-01-06**: Added interactive "Quick Review" flashcards to `guide/01-introduction/using-guide.md` covering key concepts.
 - **2026-01-06**: Refactored `guide/01-introduction/ways-of-working.md` by replacing custom HTML grids with standard `ConceptGrid` and `ConceptCard` components, and added a 10-card "Quick Review" flashcard section covering Agile, Predictive, Hybrid, and Tailoring concepts.
 - **2026-01-06**: Refactored `guide/01-introduction/core-stakeholders.md` by replacing lists and custom grids with `ConceptGrid` and `ConceptCard` components, and added a "Quick Review" flashcard section.
+- **2026-01-06**: Refactored `guide/01-introduction/core-triple-constraint.md`, `core-quality.md`, and `core-risk.md` to use `ConceptGrid` and `ConceptCard` components for better readability, and added "Quick Review" flashcards to each file.
 

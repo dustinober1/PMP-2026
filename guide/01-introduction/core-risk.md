@@ -1,5 +1,12 @@
 # 1.4d – Risk Management: Threats and Opportunities
 
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 **ECO Task**: Assess and manage risks
 
 Managing projects is fundamentally about managing uncertainty. Some uncertainty is a **threat** (things that could go wrong); some is an **opportunity** (things that could go better than expected). The 2026 PMP exam tests both your ability to identify risks and your skill in responding appropriately.
@@ -11,31 +18,52 @@ Managing projects is fundamentally about managing uncertainty. Some uncertainty 
 ### What Is Risk?
 **Risk** = Uncertainty that, if it occurs, has an effect (positive or negative) on project objectives.
 
-| Term | Definition |
-|------|------------|
-| **Threat** | Negative risk—something that could harm the project |
-| **Opportunity** | Positive risk—something that could benefit the project |
-| **Issue** | A risk that has already occurred; now a reality to manage |
-| **Assumption** | Something believed to be true but unverified |
-| **Constraint** | A limiting factor (budget, time, regulatory) |
+<ConceptGrid>
+  <ConceptCard title="Threat">
+    **Negative Risk**<br>
+    Something that could harm the project.
+  </ConceptCard>
+  <ConceptCard title="Opportunity">
+    **Positive Risk**<br>
+    Something that could benefit the project.
+  </ConceptCard>
+  <ConceptCard title="Issue">
+    **Realized Risk**<br>
+    A risk that has already occurred; now a reality to manage.
+  </ConceptCard>
+</ConceptGrid>
 
 ### Threats (Negative Risks) Examples
-| Category | Examples |
-|----------|----------|
-| **Resource** | Team sickness, turnover, skill gaps, contractor unavailability |
-| **Technical** | Platform instability, integration failures, security vulnerabilities |
-| **Schedule** | Vendor delays, dependency issues, regulatory approval delays |
-| **External** | Regulatory changes, market shifts, natural disasters, supply chain |
-| **Organizational** | Budget cuts, priority changes, leadership transitions |
+<ConceptGrid>
+  <ConceptCard title="Resource">
+    Team sickness, turnover, skill gaps, contractor unavailability.
+  </ConceptCard>
+  <ConceptCard title="Technical">
+    Platform instability, integration failures, security vulnerabilities.
+  </ConceptCard>
+  <ConceptCard title="Schedule">
+    Vendor delays, dependency issues, regulatory approval delays.
+  </ConceptCard>
+  <ConceptCard title="External">
+    Regulatory changes, market shifts, natural disasters, supply chain.
+  </ConceptCard>
+</ConceptGrid>
 
 ### Opportunities (Positive Risks) Examples
-| Category | Examples |
-|----------|----------|
-| **Efficiency** | New tool speeds up development, automation opportunity |
-| **Technical** | Breakthrough innovation, reusable component discovery |
-| **Cost** | Volume pricing, favorable exchange rates, early payment discounts |
-| **Schedule** | Early delivery by key vendor, parallel work opportunity |
-| **Market** | Competitor exit, regulatory change favoring your approach |
+<ConceptGrid>
+  <ConceptCard title="Efficiency">
+    New tool speeds up development, automation opportunity.
+  </ConceptCard>
+  <ConceptCard title="Technical">
+    Breakthrough innovation, reusable component discovery.
+  </ConceptCard>
+  <ConceptCard title="Cost">
+    Volume pricing, favorable exchange rates, early payment discounts.
+  </ConceptCard>
+  <ConceptCard title="Schedule">
+    Early delivery by key vendor, parallel work opportunity.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -159,24 +187,45 @@ You won't perform Monte Carlo calculations, but you should understand:
 
 ### For Threats (Negative Risks)
 
-| Strategy | Action | Example | When to Use |
-|----------|--------|---------|-------------|
-| **Avoid** | Eliminate the risk entirely | Use proven technology instead of new | High probability, high impact |
-| **Mitigate** | Reduce probability and/or impact | Extra testing, backup servers, training | When reduction is cost-effective |
-| **Transfer** | Shift risk to third party | Insurance, fixed-price contracts, warranties | When others can manage better |
-| **Accept (Active)** | Acknowledge with contingency plan | Reserve budget, workaround plan | Low priority or unavoidable |
-| **Accept (Passive)** | Acknowledge without specific action | Document the risk | Very low priority |
-| **Escalate** | Risk is beyond PM authority | Escalate to program/portfolio level | Outside project scope |
+<ConceptGrid>
+  <ConceptCard title="Avoid">
+    **Action:** Eliminate the risk entirely.<br>
+    <em>Example: Use proven technology instead of new.</em>
+  </ConceptCard>
+  <ConceptCard title="Mitigate">
+    **Action:** Reduce probability and/or impact.<br>
+    <em>Example: Extra testing, backup servers.</em>
+  </ConceptCard>
+  <ConceptCard title="Transfer">
+    **Action:** Shift risk to third party.<br>
+    <em>Example: Insurance, warranties.</em>
+  </ConceptCard>
+  <ConceptCard title="Accept">
+    **Action:** Acknowledge it.<br>
+    <em>Example: Reserve budget (Active) or just document it (Passive).</em>
+  </ConceptCard>
+</ConceptGrid>
 
 ### For Opportunities (Positive Risks)
 
-| Strategy | Action | Example | When to Use |
-|----------|--------|---------|-------------|
-| **Exploit** | Ensure the opportunity happens | Assign best resources, prioritize | High-value opportunity |
-| **Enhance** | Increase probability and/or impact | Early preparation, additional investment | Good ROI potential |
-| **Share** | Partner with others to capture benefit | Joint ventures, partnerships | Need shared expertise/resources |
-| **Accept** | Take the benefit if it comes | No proactive action | Low effort to capture |
-| **Escalate** | Opportunity is beyond PM authority | Escalate for organizational benefit | Strategic opportunity |
+<ConceptGrid>
+  <ConceptCard title="Exploit">
+    **Action:** Ensure the opportunity happens (100% probability).<br>
+    <em>Example: Assign best resources.</em>
+  </ConceptCard>
+  <ConceptCard title="Enhance">
+    **Action:** Increase probability and/or impact.<br>
+    <em>Example: Early preparation.</em>
+  </ConceptCard>
+  <ConceptCard title="Share">
+    **Action:** Partner with others to capture benefit.<br>
+    <em>Example: Joint ventures.</em>
+  </ConceptCard>
+  <ConceptCard title="Accept">
+    **Action:** Take the benefit if it comes.<br>
+    <em>Example: No proactive action.</em>
+  </ConceptCard>
+</ConceptGrid>
 
 ### Residual vs. Secondary Risks
 - **Residual Risk**: Risk remaining after response actions
@@ -286,3 +335,48 @@ Tracks total risk exposure over time:
 ::: info Key Concept
 Risk management is not about *eliminating* risk (which is impossible); it's about being **prepared** so uncertainty doesn't derail your project. The best PMs are not risk-averse—they are risk-aware.
 :::
+
+## 1.4d.9 Quick Review
+
+<FlashcardGrid>
+  <Flashcard 
+    front="What is the difference between an Issue and a Risk?" 
+    back="A Risk is an uncertain future event. An Issue is a risk that has ALREADY happened." 
+  />
+  <Flashcard 
+    front="What is the difference between a Threat and an Opportunity?" 
+    back="Threat = Negative risk (harmful). Opportunity = Positive risk (beneficial)." 
+  />
+  <Flashcard 
+    front="Which strategy involves shifting the negative impact of a threat to a third party?" 
+    back="Transfer (e.g., insurance, warranty)." 
+  />
+  <Flashcard 
+    front="Which strategy involves doing everything possible to ensure a positive opportunity happens?" 
+    back="Exploit." 
+  />
+  <Flashcard 
+    front="What is a Residual Risk?" 
+    back="A risk that remains after a risk response has been implemented." 
+  />
+  <Flashcard 
+    front="What is a Secondary Risk?" 
+    back="A new risk that arises as a direct result of implementing a risk response." 
+  />
+  <Flashcard 
+    front="In Qualitative Risk Analysis, what are the two main factors assessed?" 
+    back="Probability (Likelihood) and Impact (Consequence)." 
+  />
+  <Flashcard 
+    front="Calculate the Expected Monetary Value (EMV) if a risk has a 20% probability and $10,000 impact." 
+    back="$2,000 (0.20 * $10,000)." 
+  />
+  <Flashcard 
+    front="What does a Monte Carlo analysis provide that a single-point estimate does not?" 
+    back="A range of possible outcomes and the probability (confidence level) of achieving them." 
+  />
+  <Flashcard 
+    front="What is the purpose of a Risk Register?" 
+    back="To track all identified risks, their analysis, responses, and owners throughout the project." 
+  />
+</FlashcardGrid>
