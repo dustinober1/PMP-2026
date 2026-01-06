@@ -65,4 +65,5 @@ The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/work
 - **2026-01-06**: Added comprehensive domain task breakdown table to homepage (`index.md`) listing all key tasks tested in each of the three domains (People, Process, Business Environment) in bullet format, aligned with the official 2026 PMP ECO.
 - **2026-01-06**: Removed emojis from the sidebar navigation titles in `.vitepress/sidebar/chapters.js` to consistent with the professional organic design.
 - **2026-01-06**: Enhanced `guide/01-introduction/understanding-exam.md` by replacing static HTML with `ConceptCard` components and replacing the quiz with interactive `Flashcard` components for better engagement.
+- **2026-01-06**: Modernized `guide/01-introduction/using-guide.md` by replacing static lists and self-check sections with interactive `ConceptGrid` and `ConceptCard` components.
 

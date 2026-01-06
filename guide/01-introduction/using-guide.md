@@ -3,6 +3,13 @@ title: 1.2 – How to Use This Study Guide
 description: 1.2 – How to Use This Study Guide
 ---
 
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # 1.2 – How to Use This Study Guide
 
 You are not just reading a book; you are preparing for a professional exam that expects you to think and act like a practicing project leader. Section 1.1 gave you a clear picture of what the new PMP exam looks like. This section shows you how to use this guide (and your other resources) to get there efficiently.
@@ -40,9 +47,21 @@ At a high level, the book is organized into 11 logical chapters:
 
 The PMP exam is built from the Exam Content Outline (ECO). Each ECO task belongs to one of three domains:
 
-- **People (33%)**: Covered primarily in Chapters 03, 04, and 08.
-- **Process (41%)**: Covered primarily in Chapters 05, 06, 07, 08, and 09.
-- **Business Environment (26%)**: Covered primarily in Chapter 02.
+- **People (33%)**: Covered primarily in Chapters 03 (Team Leadership), 04 (Stakeholders), and 08 (Execution).
+- **Process (41%)**: Covered primarily in Chapters 05, 06, 07, 08, and 09 (Initiation, Planning, Risk, Execution, Monitoring).
+- **Business Environment (26%)**: Covered primarily in Chapter 02 (Strategic Alignment & Business Environment).
+
+<ConceptGrid>
+  <ConceptCard title="People (33%)">
+    Covered primarily in Chapters 03 (Team Leadership), 04 (Stakeholders), and 08 (Execution).
+  </ConceptCard>
+  <ConceptCard title="Process (41%)">
+    Covered primarily in Chapters 05-09 (Initiation, Planning, Risk, Execution, Monitoring).
+  </ConceptCard>
+  <ConceptCard title="Business Environment (26%)">
+    Covered primarily in Chapter 02 (Strategic Alignment & Business Environment).
+  </ConceptCard>
+</ConceptGrid>
 
 However, remember that these domains overlap. A risk (Process) often involves a stakeholder (People) and impacts strategy (Business Environment).
 
@@ -58,36 +77,38 @@ Before you dive into detailed study, it helps to answer three questions honestly
 
 Use the quick self-check below.
 
-### Experience self-check
+<ConceptGrid>
+  <ConceptCard title="Experience Self-Check">
+    <p><strong>Which describes you?</strong></p>
+    <ul>
+      <li>I have less than 2 years of experience.</li>
+      <li>I have 2–3 years of experience.</li>
+      <li>I have 3–5+ years of experience.</li>
+    </ul>
+    <p><em>Verdict:</em> If you have less than 2 years, treat PMP as a medium-term goal. Otherwise, you are in the typical range.</p>
+  </ConceptCard>
 
-Consider which statement best describes you:
+  <ConceptCard title="Exam Skills Self-Check">
+    <p><strong>Comfort with scenario exams?</strong></p>
+    <ul>
+      <li>Very comfortable.</li>
+      <li>Somewhat comfortable.</li>
+      <li>Not comfortable.</li>
+    </ul>
+    <p><em>Verdict:</em> If not comfortable, plan extra time for practice questions and reviewing explanations.</p>
+  </ConceptCard>
 
-- I have less than 2 years of experience and have rarely led project work myself.
-- I have about 2–3 years of experience and sometimes lead smaller projects or workstreams.
-- I have 3–5+ years of experience and regularly lead projects or major workstreams.
-
-If the first option describes you, you may still benefit from this guide but should treat the PMP itself as a medium-term goal. If the second or third option describes you, you are in the typical experience range for PMP candidates.
-
-### Exam skills self-check
-
-How comfortable are you with standardized, scenario-based exams?
-
-- Very comfortable – I've done similar exams recently.
-- Somewhat comfortable – it's been a while, but I can adapt.
-- Not comfortable – I find these exams stressful and unfamiliar.
-
-If you are not comfortable with these types of exams, plan to spend extra time on practice questions and review of answer explanations. Exam technique will matter just as much as content knowledge.
-
-### Time availability self-check
-
-On average, how many focused hours per week can you dedicate to PMP prep?
-
-- 4–6 hours
-- 7–10 hours
-- 11–15 hours
-- More than 15 hours
-
-Use this estimate when selecting your study path in the next section.
+  <ConceptCard title="Time Availability Self-Check">
+    <p><strong>Weekly focused hours?</strong></p>
+    <ul>
+      <li>4–6 hours</li>
+      <li>7–10 hours</li>
+      <li>11–15 hours</li>
+      <li>More than 15 hours</li>
+    </ul>
+    <p><em>Verdict:</em> Use this estimate when selecting your study path below.</p>
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -107,28 +128,39 @@ Best for:
 - People comfortable with exams
 - Those who can dedicate 10–15 hours per week
 
-**Sample Schedule:**
-
-- **Week 1: Fundamentals & Strategy**
-  - Read Chapter 01 (Intro) and Chapter 02 (Strategy/Business Env).
-  - Do practice questions for these chapters.
-
-- **Week 2: People & Stakeholders**
-  - Read Chapter 03 (Teams) and Chapter 04 (Stakeholders).
-  - Focus on conflict resolution and leadership styles.
-
-- **Week 3: Process – Start to Plan**
-  - Read Chapter 05 (Initiation) and Chapter 06 (Planning).
-  - Focus on the flow from Charter to PMP.
-
-- **Week 4: Process – Do, Check, Act**
-  - Read Chapter 07 (Risk/Quality), Chapter 08 (Execution), and Chapter 09 (Monitoring).
-  - This is a heavy week; focus on key differentiators (e.g., QA vs QC).
-
-- **Week 5: AI & Exam Prep**
-  - Read Chapter 10 (AI in PM) and Chapter 11 (Exam Strategy).
-  - Take Practice Exam 1 (full-length).
-  - Review weak areas.
+<ConceptGrid>
+  <ConceptCard title="Week 1: Fundamentals & Strategy">
+    <ul>
+      <li>Read Chapter 01 (Intro) and Chapter 02 (Strategy/Business Env).</li>
+      <li>Do practice questions for these chapters.</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Week 2: People & Stakeholders">
+    <ul>
+      <li>Read Chapter 03 (Teams) and Chapter 04 (Stakeholders).</li>
+      <li>Focus on conflict resolution and leadership styles.</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Week 3: Process – Start to Plan">
+    <ul>
+      <li>Read Chapter 05 (Initiation) and Chapter 06 (Planning).</li>
+      <li>Focus on the flow from Charter to PMP.</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Week 4: Process – Do, Check, Act">
+     <ul>
+       <li>Read Chapter 07 (Risk/Quality), Chapter 08 (Execution), and Chapter 09 (Monitoring).</li>
+       <li>This is a heavy week; focus on key differentiators (e.g., QA vs QC).</li>
+     </ul>
+  </ConceptCard>
+  <ConceptCard title="Week 5: AI & Exam Prep">
+    <ul>
+      <li>Read Chapter 10 (AI in PM) and Chapter 11 (Exam Strategy).</li>
+      <li>Take Practice Exam 1 (full-length).</li>
+      <li>Review weak areas.</li>
+    </ul>
+  </ConceptCard>
+</ConceptGrid>
 
 Even on a fast track, make sure you leave at least one week for full-length practice and review, not just more reading.
 
@@ -139,39 +171,56 @@ Best for:
 - Candidates juggling projects, family, and other commitments
 - Those who prefer 6–10 hours per week over a longer period
 
-**Sample Schedule:**
-
-- **Week 1: Foundations**
-  - Read Chapter 01. Set up your study schedule.
-  - Understand the exam format deeply.
-
-- **Week 2-3: Business Environment**
-  - Read Chapter 02.
-  - Focus on strategy, compliance, and organizational change.
-
-- **Week 4-5: People Domain**
-  - Read Chapter 03 and Chapter 04.
-  - Relate scenarios to your own team experiences.
-
-- **Week 6-7: Planning Process**
-  - Read Chapter 05 and Chapter 06.
-  - Practice identifying inputs and outputs logically (don't memorize).
-
-- **Week 8: Executing & Controlling**
-  - Read Chapter 07, 08, and 09.
-  - Focus on Earned Value, Risk Responses, and Change Control.
-
-- **Week 9: Review & Gap Filling**
-  - Review your "mistake log".
-  - Re-read sections where you scored low.
-
-- **Week 10: AI & Review**
-  - Read Chapter 10 (AI in PM).
-  - Review key concepts across all domains.
-
-- **Week 11-12: Full Practice**
-  - Take Practice Exams from Chapter 11.
-  - Simulate real exam conditions (4 hours, no phone).
+<ConceptGrid>
+  <ConceptCard title="Week 1: Foundations">
+    <ul>
+      <li>Read Chapter 01. Set up your study schedule.</li>
+      <li>Understand the exam format deeply.</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Week 2-3: Business Environment">
+    <ul>
+      <li>Read Chapter 02.</li>
+      <li>Focus on strategy, compliance, and organizational change.</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Week 4-5: People Domain">
+    <ul>
+      <li>Read Chapter 03 and Chapter 04.</li>
+      <li>Relate scenarios to your own team experiences.</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Week 6-7: Planning Process">
+    <ul>
+      <li>Read Chapter 05 and Chapter 06.</li>
+      <li>Practice identifying inputs and outputs logically (don't memorize).</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Week 8: Executing & Controlling">
+    <ul>
+      <li>Read Chapter 07, 08, and 09.</li>
+      <li>Focus on Earned Value, Risk Responses, and Change Control.</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Week 9: Review & Gap Filling">
+    <ul>
+       <li>Review your "mistake log".</li>
+       <li>Re-read sections where you scored low.</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Week 10: AI & Review">
+    <ul>
+      <li>Read Chapter 10 (AI in PM).</li>
+      <li>Review key concepts across all domains.</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Week 11-12: Full Practice">
+    <ul>
+      <li>Take Practice Exams from Chapter 11.</li>
+      <li>Simulate real exam conditions (4 hours, no phone).</li>
+    </ul>
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
