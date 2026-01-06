@@ -1,3 +1,11 @@
+
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # 7.3 Navigating Complexity
 
 **ECO Task**: Plan and manage risk
@@ -26,28 +34,36 @@ If the scenario says “requirements will evolve” or “no one knows the solut
 ##  The Cynefin Framework (The “Compass”)
 Cynefin helps you choose the right management style for the environment.
 
-<div class="cynefin-grid">
-  <div class="cynefin-card clear">
-    <div class="cynefin-title">Clear</div>
-    <div class="cynefin-subtitle">Best Practice</div>
-    <p><strong>Sense → Categorize → Respond</strong>. Rules are known. Standardize and automate.</p>
-  </div>
-  <div class="cynefin-card complicated">
-    <div class="cynefin-title">Complicated</div>
-    <div class="cynefin-subtitle">Good Practice</div>
-    <p><strong>Sense → Analyze → Respond</strong>. Multiple right answers. Use experts and analysis.</p>
-  </div>
-  <div class="cynefin-card complex">
-    <div class="cynefin-title">Complex</div>
-    <div class="cynefin-subtitle">Emergent Practice</div>
-    <p><strong>Probe → Sense → Respond</strong>. Learn by experimenting and adapting (Agile).</p>
-  </div>
-  <div class="cynefin-card chaotic">
-    <div class="cynefin-title">Chaotic</div>
-    <div class="cynefin-subtitle">Novel Practice</div>
-    <p><strong>Act → Sense → Respond</strong>. Stabilize first (stop the bleeding), then shift to complex/complicated.</p>
-  </div>
-</div>
+<ConceptGrid>
+  <ConceptCard 
+    title="Clear"
+    subtitle="Best Practice"
+    variant="primary"
+  >
+    <strong>Sense → Categorize → Respond</strong>. Rules are known. Standardize and automate.
+  </ConceptCard>
+  <ConceptCard 
+    title="Complicated"
+    subtitle="Good Practice"
+    variant="secondary"
+  >
+    <strong>Sense → Analyze → Respond</strong>. Multiple right answers. Use experts and analysis.
+  </ConceptCard>
+  <ConceptCard 
+    title="Complex"
+    subtitle="Emergent Practice"
+    variant="primary"
+  >
+    <strong>Probe → Sense → Respond</strong>. Learn by experimenting and adapting (Agile).
+  </ConceptCard>
+  <ConceptCard 
+    title="Chaotic"
+    subtitle="Novel Practice"
+    variant="secondary"
+  >
+    <strong>Act → Sense → Respond</strong>. Stabilize first (stop the bleeding), then shift to complex or complicated.
+  </ConceptCard>
+</ConceptGrid>
 
 ### Parallel Tool: The Stacey Matrix
 The Stacey Matrix maps projects based on **Agreement** (on requirements) and **Certainty** (on technology).
@@ -425,58 +441,36 @@ If the environment is described as “out of control”:
 
 ---
 
-<div class="study-tip">
-  <strong> Exam Insight:</strong> If the environment is described as “high uncertainty with no clear solution,” the BEST approach is <strong>iterative/adaptive</strong>. Avoid answers that suggest “freeze requirements and plan in detail” when the situation is clearly complex.
-</div>
 
-<style>
-.cynefin-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  gap: 1.25rem;
-  margin: 1.5rem 0;
-}
+## Quick Review
 
-.cynefin-card {
-  padding: 1.25rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-}
+<FlashcardGrid>
+  <Flashcard 
+    front="Complicated vs. Complex?" 
+    back="Complicated has known cause-effect (use experts). Complex has emergent cause-effect (use experiments)." 
+  />
+  <Flashcard 
+    front="What are the 4 domains of Cynefin?" 
+    back="Clear, Complicated, Complex, Chaotic." 
+  />
+  <Flashcard 
+    front="What is a Reinforcing Loop?" 
+    back="A feedback loop that amplifies change in one direction (vicious or virtuous cycle)." 
+  />
+  <Flashcard 
+    front="What is a Balancing Loop?" 
+    back="A feedback loop that self-corrects and maintains stability/equilibrium." 
+  />
+  <Flashcard 
+    front="What is the Theory of Constraints (TOC) goal?" 
+    back="To identify and elevate the single bottleneck that limits system throughput." 
+  />
+  <Flashcard 
+    front="What does the ADKAR model stand for?" 
+    back="Awareness, Desire, Knowledge, Ability, Reinforcement." 
+  />
+</FlashcardGrid>
 
-.cynefin-title {
-  font-weight: 700;
-  font-size: 1.1rem;
-  margin-bottom: 0.25rem;
-}
-
-.cynefin-subtitle {
-  font-size: 0.7rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin-bottom: 0.75rem;
-  display: inline-block;
-  padding: 0.1rem 0.4rem;
-  background: var(--vp-c-brand-soft);
-  border-radius: 4px;
-}
-
-.clear { border-left: 4px solid #10b981; }
-.complicated { border-left: 4px solid #3b82f6; }
-.complex { border-left: 4px solid #f59e0b; }
-.chaotic { border-left: 4px solid #ef4444; }
-
-.cynefin-card p {
-  font-size: 0.9rem;
-  margin: 0;
-  line-height: 1.5;
-}
-
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+::: tip  Exam Insight
+If the environment is described as “high uncertainty with no clear solution,” the BEST approach is <strong>iterative/adaptive</strong>. Avoid answers that suggest “freeze requirements and plan in detail” when the situation is clearly complex.
+:::

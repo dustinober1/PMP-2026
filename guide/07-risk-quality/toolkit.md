@@ -1,6 +1,37 @@
+
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # 7.4 Tools & Templates (One-Stop Reference)
 
 Use this page as a copy/paste toolkit for risk, quality, and complexity scenarios. It’s designed to match how the PMP exam phrases problems (“what should you do first?”).
+
+<ConceptGrid>
+  <ConceptCard 
+    title="Risk Register"
+    description="The primary tool for tracking identified risks, owners, and response strategies."
+    variant="primary"
+  />
+  <ConceptCard 
+    title="Quality Metrics"
+    description="Measurable targets used to ensure the project meets its quality requirements."
+    variant="secondary"
+  />
+  <ConceptCard 
+    title="Complexity Assessment"
+    description="Framework for scoring project complexity and selecting delivery approaches."
+    variant="primary"
+  />
+  <ConceptCard 
+    title="Monte Carlo & PERT"
+    description="Quantitative tools for advanced risk and schedule analysis."
+    variant="secondary"
+  />
+</ConceptGrid>
 
 ---
 

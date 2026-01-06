@@ -1,3 +1,12 @@
+
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+import QuizComponent from '../../.vitepress/theme/components/QuizComponent.vue'
+</script>
+
 # Knowledge Check: Risk, Quality & Complexity
 
 Test your ability to manage uncertainty, ensure quality, and navigate project complexity in the 2026 PMP context. These 25 questions cover all major concepts from Chapter 7.
@@ -308,55 +317,61 @@ Test your ability to manage uncertainty, ensure quality, and navigate project co
   ]"
 />
 
+
 ## Additional Study Topics
 
-For full Chapter 7 proficiency, ensure you can:
+<ConceptGrid>
+  <ConceptCard title="Risk Management Mastery">
+    <ul>
+      <li><strong>Calculate EMV</strong>: Probability × Impact</li>
+      <li><strong>Monte Carlo</strong>: P50, P80, P90 confidence levels</li>
+      <li><strong>PERT</strong>: Expected duration and standard deviation</li>
+      <li><strong>Decision Trees</strong>: EMV for each branch</li>
+      <li><strong>Reserves</strong>: Contingency vs Management</li>
+    </ul>
+  </ConceptCard>
 
-### Risk Management Mastery
-1. **Calculate EMV**: Probability × Impact, and sum multiple risks for total exposure
-2. **Use Monte Carlo**: Understand P50, P80, P90 confidence levels and S-curve interpretation
-3. **Apply PERT**: Calculate expected duration and standard deviation using (O + 4M + P) / 6 and (P - O) / 6
-4. **Build decision trees**: Calculate EMV for each branch and choose the best path
-5. **Know reserves**: Contingency (known-unknowns in cost baseline) vs Management (unknown-unknowns requiring change control)
-6. **Distinguish risk terms**: Residual (remaining) vs Secondary (created by response) vs Workaround (unplanned fix)
-7. **Apply risk thresholds**: Understand AND vs OR logic in threshold conditions
-8. **Select response strategies**: Avoid/Mitigate/Transfer/Accept/Escalate for threats; Exploit/Enhance/Share/Accept for opportunities
+  <ConceptCard title="Quality Management Mastery">
+    <ul>
+      <li><strong>QA vs QC</strong>: Process vs Product</li>
+      <li><strong>7 Quality Tools</strong>: Pareto, Fishbone, Control Chart, etc.</li>
+      <li><strong>Control Charts</strong>: Rule of Seven, UCL/LCL</li>
+      <li><strong>Process Capability</strong>: Cp and Cpk</li>
+      <li><strong>Cost of Quality</strong>: Conformance vs Nonconformance</li>
+    </ul>
+  </ConceptCard>
 
-### Quality Management Mastery
-9. **Distinguish QA vs QC**: Process compliance (QA) vs product inspection (QC)
-10. **Use the 7 quality tools**: Pareto, Fishbone, Control Chart, Histogram, Checksheet, Scatter, Flowchart
-11. **Interpret control charts**: In-control vs in-spec, Rule of Seven, UCL/LCL vs specification limits
-12. **Calculate process capability**: Cp, Cpk, and what they indicate about centering and variation
-13. **Apply Cost of Quality**: Prevention/Appraisal (conformance) vs Internal/External Failure (nonconformance)
-14. **Use improvement cycles**: PDCA (Plan-Do-Check-Act) and DMAIC (Define-Measure-Analyze-Improve-Control)
-15. **Understand sigma levels**: 3σ, 4σ, 6σ and corresponding DPMO
-16. **Apply Kano Model**: Basic/Performance/Delighter requirements and their impact on satisfaction
+  <ConceptCard title="Complexity Mastery">
+    <ul>
+      <li><strong>Cynefin</strong>: Clear, Complicated, Complex, Chaotic</li>
+      <li><strong>Systems Thinking</strong>: Reinforcing and Balancing Loops</li>
+      <li><strong>Theory of Constraints</strong>: The 5 Focusing Steps</li>
+      <li><strong>ADKAR</strong>: Awareness, Desire, Knowledge, Ability, Reinforcement</li>
+    </ul>
+  </ConceptCard>
+</ConceptGrid>
 
-### Complexity & Systems Thinking Mastery
-17. **Apply Cynefin**: Clear (best practice) → Complicated (analyze) → Complex (probe) → Chaotic (act first)
-18. **Recognize system archetypes**: Shifting the Burden, Limits to Growth, Fixes That Fail
-19. **Use Theory of Constraints**: Identify → Exploit → Subordinate → Elevate → Repeat
-20. **Apply Little's Law**: Lead Time = WIP / Throughput
-21. **Use adaptive leadership**: Directive for chaos, Coaching for uncertainty, Supporting for experimentation, Delegating for routine
-22. **Apply ADKAR for change**: Awareness → Desire → Knowledge → Ability → Reinforcement
-23. **Recognize cognitive biases**: Availability, Confirmation, Optimism bias in risk identification
+## Quick Review
 
-### Integration Mastery
-24. **Connect Risk-Quality-Complexity**: Understand how complexity increases both risk and quality challenges
-25. **Combine strategies**: Risk mitigation + quality built-in + iterative delivery for complex projects
+<FlashcardGrid>
+  <Flashcard 
+    front="P50 vs. P80 in Monte Carlo?" 
+    back="P50 is the 50% confidence target. P80 is the 80% confidence commitment." 
+  />
+  <Flashcard 
+    front="What is the difference between Cp and Cpk?" 
+    back="Cp measures potential capability. Cpk measures actual capability (accounts for centering)." 
+  />
+  <Flashcard 
+    front="Proactive vs. Reactive Quality?" 
+    back="QA (Manage Quality) is proactive/prevention. QC (Control Quality) is reactive/inspection." 
+  />
+  <Flashcard 
+    front="What is the Cynefin probe-sense-respond move for?" 
+    back="The Complex domain, where you must experiment to learn." 
+  />
+</FlashcardGrid>
 
----
-
-<div class="study-tip">
-  <strong> Exam Insight:</strong> The PMP exam tests your ability to <strong>apply</strong> these concepts in scenarios, not just recall definitions. Focus on understanding <strong>when</strong> to use each tool and <strong>why</strong> one answer is better than another in a given situation.
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+::: tip  Exam Insight
+The PMP exam tests your ability to <strong>apply</strong> these concepts in scenarios, not just recall definitions. Focus on understanding <strong>when</strong> to use each tool and <strong>why</strong> one answer is better than another in a given situation.
+:::

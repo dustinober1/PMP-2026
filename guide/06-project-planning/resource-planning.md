@@ -1,4 +1,10 @@
-# 6.6 Resource & Procurement Planning
+
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
 
 **ECO Task**: Plan and manage resources
 **ECO Task**: Plan and manage procurement
@@ -10,18 +16,20 @@ Project success depends on getting the right people, tools, and materials in the
 ##  The Resource Spectrum
 In PMP terms, "Resources" includes both human talent and physical materials.
 
-<div class="resource-grid">
-  <div class="resource-card">
-    <div class="resource-title">Team Resources</div>
-    <div class="resource-tag human">People</div>
-    <p>Managing skills, availability, and growth. Focus on <strong>Servant Leadership</strong> and team health.</p>
-  </div>
-  <div class="resource-card">
-    <div class="resource-title">Physical Resources</div>
-    <div class="resource-tag physical">Tools & Material</div>
-    <p>Managing equipment, rentals, software licenses, and facilities. Focus on <strong>Logistics</strong> and control.</p>
-  </div>
-</div>
+<ConceptGrid>
+  <ConceptCard 
+    title="Team Resources"
+    variant="primary"
+  >
+    Managing skills, availability, and growth. Focus on <strong>Servant Leadership</strong> and team health.
+  </ConceptCard>
+  <ConceptCard 
+    title="Physical Resources"
+    variant="secondary"
+  >
+    Managing equipment, rentals, software licenses, and facilities. Focus on <strong>Logistics</strong> and control.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -525,62 +533,35 @@ PTA = $100,000 + $12,500 = $112,500
 | Strategic capability | Make (internal) |
 | One-time need, specialized | Buy (external) |
 
-<style>
-.resource-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
 
-.resource-card {
-  padding: 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-}
+## Quick Review
 
-.resource-title {
-  font-weight: 700;
-  color: var(--vp-c-brand);
-  margin-bottom: 0.5rem;
-}
+<FlashcardGrid>
+  <Flashcard 
+    front="What is a RACI Chart?" 
+    back="A matrix showing who is Responsible, Accountable, Consulted, and Informed for project work." 
+  />
+  <Flashcard 
+    front="R in RACI vs. A in RACI?" 
+    back="Responsible = who does the work. Accountable = the single owner who approves the work." 
+  />
+  <Flashcard 
+    front="What is a Bidder Conference?" 
+    back="A meeting with all potential sellers to ensure common understanding of the procurement." 
+  />
+  <Flashcard 
+    front="FFP vs. Cost-Reimbursable Contracts?" 
+    back="Fixed Price = Seller has risk (clear scope). Cost-Plus = Buyer has risk (uncertain scope)." 
+  />
+  <Flashcard 
+    front="What is Make-or-Buy Analysis?" 
+    back="The process of deciding whether to build a deliverable internally or buy it from an external source." 
+  />
+</FlashcardGrid>
 
-.resource-tag {
-  font-size: 0.7rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-  display: inline-block;
-  margin-bottom: 1rem;
-}
-
-.human { background: #dcfce7; color: #166534; }
-.physical { background: #dbeafe; color: #1e40af; }
-
-.resource-card p {
-  font-size: 0.85rem;
-  margin: 0;
-  line-height: 1.5;
-}
-</style>
-
----
-
-<div class="study-tip">
-  <strong> Exam Insight:</strong> If a project is delayed because of "waiting for equipment," the root cause is poor <strong>Physical Resource Planning</strong> (availability/lead time). If it's delayed because of "unclear roles," the fix is a <strong>RAM/RACI</strong>. If the question is about shifting cost risk to a vendor, a <strong>Fixed-Price</strong> contract generally puts more risk on the seller (assuming scope is stable).
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+::: tip  Exam Insight
+If a project is delayed because of "waiting for equipment," the root cause is poor **Physical Resource Planning** (availability/lead time). If it's delayed because of "unclear roles," the fix is a **RAM/RACI**. If the question is about shifting cost risk to a vendor, a **Fixed-Price** contract generally puts more risk on the seller (assuming scope is stable).
+:::
 
 
 
