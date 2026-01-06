@@ -1,3 +1,8 @@
+<script setup>
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import QuizComponent from '../../.vitepress/theme/components/QuizComponent.vue'
+</script>
+
 # Knowledge Check: Monitoring & Closing
 
 Test your mastery of performance metrics, change control, configuration management, and project closure in the 2026 PMP context. These 35 scenario-based questions focus on the exam's favorite patterns: interpreting EVM data, choosing the right "log," managing baselines and change control, transition/handoff requirements, and doing the right thing first when variance appears.
@@ -447,16 +452,6 @@ Test your mastery of performance metrics, change control, configuration manageme
 
 ---
 
-<div class="study-tip">
+<ConceptCard type="study-tip">
   <strong> Exam Insight:</strong> If you see a question about a "claim" or "dispute" with a vendor, you CANNOT close the project until that claim is resolved (Procurement Closure). Detailed closure often involves legal or financial settlement.
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+</ConceptCard>

@@ -1,62 +1,62 @@
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+</script>
+
 # 10.3 AI in the Project Lifecycle
 
 **ECO Task**: Determine appropriate project methodology/methods and practices
 
 AI is not just for "tech projects." It is a force multiplier that can be applied to every domain and process group in the PMP standard.
 
-::: warning  Always sanitize inputs
+::: warning Always sanitize inputs
 Use placeholders and remove sensitive data before prompting. If the scenario involves a public/unapproved tool, the correct PMP action is to **protect data first**.
 :::
 
 ---
 
-##  The AI-Augmented Lifecycle
+## The AI-Augmented Lifecycle
 Here is how you apply AI tools practically across the 5 process groups:
 
-<div class="lifecycle-grid">
-  <div class="lifecycle-card">
-    <div class="lifecycle-title">Initiation</div>
+<ConceptGrid>
+  <ConceptCard title="Initiation">
     <ul>
       <li><strong>Business Case</strong>: Analyze market trends to validate ROI assumptions.</li>
       <li><strong>Charter</strong>: Draft the initial Project Charter from meeting transcripts.</li>
       <li><strong>Stakeholders</strong>: Identify potential stakeholders by scanning org charts and email threads.</li>
     </ul>
-  </div>
-  <div class="lifecycle-card">
-    <div class="lifecycle-title">Planning</div>
+  </ConceptCard>
+  <ConceptCard title="Planning">
     <ul>
       <li><strong>WBS</strong>: Suggest a breakdown of tasks based on similar past projects.</li>
       <li><strong>Risk</strong>: "Pre-mortem" brainstorming to identify 50 potential risks in seconds.</li>
       <li><strong>User Stories</strong>: Convert rough notes into formatted stories with Acceptance Criteria.</li>
     </ul>
-  </div>
-  <div class="lifecycle-card">
-    <div class="lifecycle-title">Execution</div>
+  </ConceptCard>
+  <ConceptCard title="Execution">
     <ul>
       <li><strong>Communication</strong>: Rewrite a technical update into an Executive Summary.</li>
       <li><strong>Meetings</strong>: Transcribe audio to action items automatically.</li>
       <li><strong>Knowledge</strong>: Search the entire project documentation instantly to answer team questions.</li>
     </ul>
-  </div>
-  <div class="lifecycle-card">
-    <div class="lifecycle-title">Monitoring</div>
+  </ConceptCard>
+  <ConceptCard title="Monitoring">
     <ul>
       <li><strong>Sentiment</strong>: Scan team chats/emails to detect burnout or frustration early.</li>
       <li><strong>Forecasting</strong>: Predict the "real" finish date based on team velocity trends, not just the plan.</li>
     </ul>
-  </div>
-  <div class="lifecycle-card">
-    <div class="lifecycle-title">Closing</div>
+  </ConceptCard>
+  <ConceptCard title="Closing">
     <ul>
       <li><strong>Lessons</strong>: Cluster 100s of retrospective notes into 3 key themes.</li>
       <li><strong>Report</strong>: Auto-generate the Final Report from status updates.</li>
     </ul>
-  </div>
-</div>
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
-##  High-Value Artifacts (With Example Prompts)
+## High-Value Artifacts (With Example Prompts)
 Use these as “starter prompts” and tailor them to your environment and templates.
 
 ### Initiation: Charter + Stakeholders
@@ -110,7 +110,7 @@ AI excels at the *calculation* and *forecasting* parts of EVM, allowing you to f
 *   **Root Cause Analysis**: Feed the AI your raw performance data and ask: "Why is CPI degrading? Correlate with recent resource changes."
 *   **EAC Generation**: "Calculate Independent EAC (Estimate at Completion) using 3 different formulas (optimistic, pessimistic, current trend) and explain the difference."
 
-::: tip  The PM's Job
+::: tip The PM's Job
 The AI calculates the **EAC** (Estimate at Completion). The PM decides if the **VAC** (Variance at Completion) is acceptable or if a Change Request is needed.
 :::
 
@@ -125,7 +125,7 @@ Input: [PASTE SANITIZED NOTES]
 
 ---
 
-##  Agile + Hybrid Add-Ons (Where AI Helps a Lot)
+## Agile & Hybrid Add-Ons (Where AI Helps a Lot)
 *   **Backlog refinement**: convert rough ideas into user stories with acceptance criteria.
 *   **Sprint planning**: identify dependencies, split oversized stories, and surface risks.
 *   **Retrospectives**: cluster comments into themes and propose experiments.
@@ -133,14 +133,14 @@ Input: [PASTE SANITIZED NOTES]
 
 ---
 
-##  Guardrails for Automation Agents (Tool-Using AI)
+## Guardrails for Automation Agents (Tool-Using AI)
 If an AI tool can take actions (create tickets, update schedules, send messages), treat it like a user with permissions:
 *   **Least privilege**: only the access it needs, nothing more.
 *   **Approval steps**: require human confirmation before external communication or baseline changes.
 *   **Logging**: keep audit logs of actions taken and inputs used.
 *   **Fallback**: define a manual process if the agent fails or behaves unexpectedly.
 
-##  Practical Prompt Engineering for PMs
+## Practical Prompt Engineering for PMs
 To get value, you must know how to ask.
 *   **The Persona**: "Act as a Senior Risk Manager..."
 *   **The Context**: "This is a construction project in a rainy climate..."
@@ -148,13 +148,13 @@ To get value, you must know how to ask.
 *   **The Constraint**: "Format the output as a Markdown table."
 *   **The Quality Bar**: "List assumptions, unknowns, and what needs human validation."
 
-::: tip  Start Small
+::: tip Start Small
 Don't try to automate everything at once. Start with "Low Risk / High Value" tasks like **Meeting Summaries** or **Drafting Emails**. Gain confidence before moving to **Risk Analysis** or **Forecasting**.
 :::
 
 ---
 
-##  AI & Quality Management
+## AI & Quality Management
 
 While quality management isn't explicitly named as a process group, it spans all phases. AI adds tremendous value here.
 
@@ -193,7 +193,7 @@ PM investigates and acts (add testing time, hire more QA, scope discipline).
 
 ---
 
-##  AI & Risk Management Throughout Project Lifecycle
+## AI & Risk Management Throughout Project Lifecycle
 
 Risk management is continuous. AI accelerates threat identification and monitoring.
 
@@ -221,7 +221,7 @@ AI generates in seconds; PM filters/prioritizes with team.
 
 ---
 
-##  Decision Tree: "Should I Use AI for This?"
+## Decision Tree: "Should I Use AI for This?"
 
 ```
 ┌─ Is the data volume large (100+ records)?
@@ -243,7 +243,7 @@ AI generates in seconds; PM filters/prioritizes with team.
 
 ---
 
-##  Predictive vs. Agile AI Workflows
+## Predictive vs. Agile AI Workflows
 
 AI applications differ based on your delivery approach. Match the tool to the methodology.
 
@@ -286,7 +286,7 @@ AI applications differ based on your delivery approach. Match the tool to the me
 
 ---
 
-##  AI in Hybrid Projects
+## AI in Hybrid Projects
 
 Hybrid methodologies combine predictive and agile elements. AI must be applied context-appropriately.
 
@@ -315,7 +315,7 @@ Hybrid methodologies combine predictive and agile elements. AI must be applied c
 
 ---
 
-##  Monte Carlo Simulation with AI
+## Monte Carlo Simulation with AI
 
 Monte Carlo simulation runs thousands of scenarios to predict project outcomes. AI accelerates setup and interpretation.
 
@@ -348,13 +348,13 @@ Monte Carlo simulation runs thousands of scenarios to predict project outcomes. 
 **AI Interpretation Output Example:**
 > "Based on 10,000 simulations, there is a **62% probability** of completing by the target date. The **top risk drivers** are: (1) Integration Testing (high variance), (2) Vendor Delivery (external dependency), (3) UAT (scope uncertainty). **Recommendation**: Add 2-week buffer to integration; confirm vendor SLA in writing; freeze scope for UAT phase."
 
-::: tip  Exam Insight
+::: tip Exam Insight
 Monte Carlo questions typically ask about **confidence levels** and **risk mitigation**. If simulation shows <80% confidence, the PM should investigate the highest-variance tasks and apply targeted mitigation.
 :::
 
 ---
 
-##  Scope Creep Detection via AI (NLP Analysis)
+## Scope Creep Detection via AI (NLP Analysis)
 
 AI can analyze project communications to detect early signs of scope creep before formal change requests.
 
@@ -394,7 +394,7 @@ Output: Table with quote, page reference, risk level (L/M/H), and recommended ac
 
 ---
 
-##  Vendor/Procurement AI Applications
+## Vendor/Procurement AI Applications
 
 AI accelerates procurement processes while maintaining governance.
 
@@ -442,54 +442,8 @@ Constraints: Flag any criteria where data was incomplete or unclear.
 - Note any criteria where human judgment overrode AI scoring
 - Maintain audit trail for procurement compliance
 
-<style>
-.lifecycle-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.lifecycle-card {
-  padding: 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-}
-
-.lifecycle-title {
-  font-weight: 700;
-  font-size: 1.1rem;
-  margin-bottom: 0.75rem;
-  color: var(--vp-c-brand);
-  border-bottom: 2px solid var(--vp-c-bg-mute);
-  padding-bottom: 0.5rem;
-}
-
-.lifecycle-card ul {
-  padding-left: 1.25rem;
-  font-size: 0.9rem;
-  margin: 0;
-}
-
-.lifecycle-card li {
-  margin-bottom: 0.5rem;
-  line-height: 1.4;
-}
-</style>
-
 ---
 
-<div class="study-tip">
-  <strong> Exam Insight:</strong> AI is an <strong>Accelerator</strong>, not a defined **Methodology**. You don't "switch to AI project management." You use AI tools *inside* your Predictive or Agile methodology to remove friction.
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+<ConceptCard type="study-tip">
+  <strong> Exam Insight:</strong> AI is an <strong>Accelerator</strong>, not a defined <strong>Methodology</strong>. You don't "switch to AI project management." You use AI tools *inside* your Predictive or Agile methodology to remove friction.
+</ConceptCard>
