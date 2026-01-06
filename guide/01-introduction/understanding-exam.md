@@ -106,7 +106,9 @@ Questions then test different aspects:
 
 **Standard Multiple Choice:**
 > A project manager discovers the project is 15% over budget at the 50% completion point. The CPI is 0.87. What should the project manager do FIRST?
-> 
+>
+> <br>
+>
 > A. Inform the sponsor and request additional funding  
 > B. Reduce scope to bring costs back in line  
 > C. Analyze the root cause of the cost variance  
@@ -118,7 +120,9 @@ Questions then test different aspects:
 
 **Multiple Response (Select Two):**
 > A Scrum Master notices that the team's velocity has declined for three consecutive sprints. Which TWO actions should the Scrum Master take?
-> 
+>
+> <br>
+>
 > A. Assign additional resources to the team  
 > B. Facilitate a retrospective to identify root causes  
 > C. Report the decline to the Product Owner immediately  
