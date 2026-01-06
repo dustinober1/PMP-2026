@@ -1457,7 +1457,7 @@ What action should the project manager take to act on this mentoring opportunity
 
 ---
 
-## 📊 Post-Exam Analysis & Database Stats
+##  Post-Exam Analysis & Database Stats
 
 ### Topic Summary Table
 
@@ -1474,7 +1474,7 @@ What action should the project manager take to act on this mentoring opportunity
 - **Methodology Split:** 40% Predictive, 36% Agile, 24% Hybrid
 - **Difficulty:** Level 4.5/5
 
-### 💡 Alignment Pro-Tips
+###  Alignment Pro-Tips
 1. **Source of Truth First:** When expectations conflict, always return to the Project Charter or approved Scope Statement. These are your authorized boundaries.
 2. **Dynamic Register:** The Stakeholder Register is never "done." Update it immediately when a new stakeholder appears or an existing one's attitude shifts.
 3. **Value over Volume:** In Agile and Hybrid, align expectations by demonstrating value (demos) rather than just sending status reports.

@@ -70,7 +70,7 @@ The final challenge: Integration, AI, Ethics, and high-stakes scenarios.
 
 ---
 
-## 🏆 Final Readiness Checklist
+##  Final Readiness Checklist
 
 | Domain       | Proficiency Check                                                                 |
 | :----------- | :-------------------------------------------------------------------------------- |
@@ -79,7 +79,7 @@ The final challenge: Integration, AI, Ethics, and high-stakes scenarios.
 | **Business** | Do you know when to use *NPV* vs. *IRR* to select a project?                      |
 | **AI**       | Do you understand the *Human-in-the-Loop* requirement?                            |
 
-::: tip 🎓 Ready?
+::: tip  Ready?
 If you scored **4/5** or higher on all three exams, you are ready to simulate a full **185-question / 240-minute** test with **two 5-minute breaks**. If not, revisit the specific chapters linked in the "Reference" field of each question.
 :::
 

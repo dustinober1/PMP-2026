@@ -6,7 +6,7 @@ Delivering a project on time and under budget is a failure if it doesn't create 
 
 ---
 
-## 💎 The Value Chain
+##  The Value Chain
 Understand clearly the difference between what you build and the value it creates:
 
 | Stage       | Definition                        | Example (Expense System)             |
@@ -17,7 +17,7 @@ Understand clearly the difference between what you build and the value it create
 
 ---
 
-## 📄 The Benefits Realization Plan (What “Good” Looks Like)
+##  The Benefits Realization Plan (What “Good” Looks Like)
 On the exam, benefits are not “hopeful outcomes.” They are **planned, measured, and owned**.
 
 A strong benefits realization plan typically defines:
@@ -36,7 +36,7 @@ A strong benefits realization plan typically defines:
 
 ---
 
-## 🔄 The Benefits Lifecycle
+##  The Benefits Lifecycle
 Benefits realization isn't a single event; it's a process that continues long after the project team disbands.
 
 1. **Identification**: Defining expected benefits in the Business Case.
@@ -45,7 +45,7 @@ Benefits realization isn't a single event; it's a process that continues long af
 4. **Transition**: Handing over the system to a "Business Owner" who will realize the long-term value.
 5. **Sustainment**: Ensuring benefits don't erode over time (e.g., through ongoing training).
 
-::: info 🚦 Who Owns Benefits?
+::: info  Who Owns Benefits?
 - **Project Manager**: Owns the delivery of the **Output**.
 - **Business Owner / Sponsor**: Owns the realization of the **Benefit**.
 - *Example*: The PM builds the gym (Output), but the Sponsor is responsible for the users getting fit (Benefit).
@@ -53,7 +53,7 @@ Benefits realization isn't a single event; it's a process that continues long af
 
 ---
 
-## 📈 Leading vs. Lagging Indicators (Exam Favorite)
+##  Leading vs. Lagging Indicators (Exam Favorite)
 - **Leading indicators** show early movement (training completion, adoption rate, usage).
 - **Lagging indicators** confirm final value (cost savings, revenue, NPS lift).
 
@@ -61,7 +61,7 @@ If benefits are not appearing, PMI expects you to look first at **adoption and p
 
 ---
 
-## 📊 Measuring Success
+##  Measuring Success
 Value can be financial or non-financial.
 
 ### Financial Metrics
@@ -77,7 +77,7 @@ Value can be financial or non-financial.
 
 ---
 
-## 🤖 AI and Value Creation
+##  AI and Value Creation
 In the 2026 exam, AI is often a tool for value creation.
 - **Output**: An AI-powered anomaly detection model.
 - **Outcome**: Fraudulent expenses are flagged automatically.
@@ -86,7 +86,7 @@ In the 2026 exam, AI is often a tool for value creation.
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a project is finished but the expected benefits haven't appeared after six months, the PM should recommend a <strong>Post-Implementation Review</strong> to identify adoption barriers (e.g., "employees weren't trained properly") rather than just declaring the project a success because the code was delivered.
+  <strong> Exam Insight:</strong> If a project is finished but the expected benefits haven't appeared after six months, the PM should recommend a <strong>Post-Implementation Review</strong> to identify adoption barriers (e.g., "employees weren't trained properly") rather than just declaring the project a success because the code was delivered.
 </div>
 
 <style>

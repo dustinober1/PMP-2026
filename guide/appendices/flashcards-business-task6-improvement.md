@@ -2,7 +2,7 @@
 description: Flashcards for PMP Business Domain Task 6
 ---
 
-# 📈 Business Task 6: Continuous Improvement
+#  Business Task 6: Continuous Improvement
 
 **Domain**: Business Environment
 **Task**: Employ continuous process improvement
@@ -10,7 +10,7 @@ description: Flashcards for PMP Business Domain Task 6
 
 ---
 
-## 📈 Continuous Improvement Models
+##  Continuous Improvement Models
 
 ### Card 1
 **Front:**
@@ -84,7 +84,7 @@ Comparing your project practices/metrics to those of other projects or organizat
 
 ---
 
-## 🛠️ Improvement Tools
+##  Improvement Tools
 
 ### Card 11
 **Front:**
@@ -158,7 +158,7 @@ Suppliers, Inputs, Process, Outputs, Customers. A high-level process map used in
 
 ---
 
-## 🏛️ Quality Assurance vs Control
+##  Quality Assurance vs Control
 
 ### Card 21
 **Front:**
@@ -233,7 +233,7 @@ Giving the customer extra features not requested. This is **Waste** (not improve
 
 ---
 
-## 🧠 Situational Improvement
+##  Situational Improvement
 
 ### Card 31
 **Front:**
@@ -307,7 +307,7 @@ The process is broken. **Improve it** (Streamline). Do not force compliance to a
 
 ---
 
-## ⚡ Quick-Fire Review
+##  Quick-Fire Review
 
 ### Card 41
 **Front:**

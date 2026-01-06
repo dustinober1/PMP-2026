@@ -6,7 +6,7 @@ Risk management is about **proactive uncertainty management**—identifying what
 
 ---
 
-## 🎯 Risk Concepts for PMP
+##  Risk Concepts for PMP
 
 The PMP exam heavily tests risk management. Master these foundational concepts:
 
@@ -27,7 +27,7 @@ The PMP exam heavily tests risk management. Master these foundational concepts:
 
 ---
 
-## 🧭 The Risk Planning Flow
+##  The Risk Planning Flow
 
 ### Step 1: Plan Risk Management
 **Purpose**: Define how risk activities will be conducted
@@ -64,7 +64,7 @@ The PMP exam heavily tests risk management. Master these foundational concepts:
 
 ---
 
-## 📋 The Risk Register
+##  The Risk Register
 
 The Risk Register is the primary artifact for tracking risks throughout the project.
 
@@ -87,7 +87,7 @@ The Risk Register is the primary artifact for tracking risks throughout the proj
 
 ---
 
-## 🔍 Risk Identification Techniques
+##  Risk Identification Techniques
 
 ### Identification Methods
 
@@ -136,7 +136,7 @@ Organize risks by category for comprehensive coverage:
 
 ---
 
-## 📊 Qualitative Risk Analysis
+##  Qualitative Risk Analysis
 
 Qualitative analysis **prioritizes risks** quickly using probability and impact assessment.
 
@@ -187,13 +187,13 @@ Low    │ V.Low │ Low   │ Med   │  B
 | R-003 | 0.30 | 0.20 | 0.06 | Low |
 | R-004 | 0.90 | 0.10 | 0.09 | Low |
 
-::: tip 💡 Watch List
+::: tip  Watch List
 Low-priority risks go on a "watch list" for periodic review. Don't create detailed responses, but monitor for changes in probability or impact.
 :::
 
 ---
 
-## 📈 Quantitative Risk Analysis
+##  Quantitative Risk Analysis
 
 Quantitative analysis assigns **numerical values** to prioritized risks. Used for large/complex projects or high-stakes decisions.
 
@@ -299,7 +299,7 @@ P90 (90% confidence): $1,050,000
 
 ---
 
-## 🛡️ Risk Response Strategies
+##  Risk Response Strategies
 
 ### Strategies for Threats (Negative Risks)
 
@@ -335,7 +335,7 @@ P90 (90% confidence): $1,050,000
 
 ---
 
-## 💰 Risk Reserves
+##  Risk Reserves
 
 ### Contingency Reserve vs. Management Reserve
 
@@ -366,7 +366,7 @@ Difference between P50 and desired confidence level (e.g., P80)
 
 ---
 
-## 🔄 Risk Monitoring & Control
+##  Risk Monitoring & Control
 
 ### Monitor Risks Process
 
@@ -399,7 +399,7 @@ Difference between P50 and desired confidence level (e.g., P80)
 
 ---
 
-## 🧠 Risk Planning Scenarios (Exam Practice)
+##  Risk Planning Scenarios (Exam Practice)
 
 ### Scenario 1: High-Probability, High-Impact Threat
 **Situation**: There's a 70% chance of a critical resource leaving the project.
@@ -430,7 +430,7 @@ Difference between P50 and desired confidence level (e.g., P80)
 
 ---
 
-## 📚 Key Formulas & Quick Reference
+##  Key Formulas & Quick Reference
 
 ### Risk Formulas
 
@@ -486,7 +486,7 @@ Difference between P50 and desired confidence level (e.g., P80)
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> For threats: <strong>Avoid</strong> eliminates, <strong>Mitigate</strong> reduces, <strong>Transfer</strong> shifts (insurance, contracts), <strong>Accept</strong> acknowledges. For opportunities, the matching strategies are <strong>Exploit</strong>, <strong>Enhance</strong>, <strong>Share</strong>, and <strong>Accept</strong>. Use <strong>Contingency Reserve</strong> for identified risks (PM authority) and <strong>Management Reserve</strong> for unknown risks (sponsor approval).
+  <strong> Exam Insight:</strong> For threats: <strong>Avoid</strong> eliminates, <strong>Mitigate</strong> reduces, <strong>Transfer</strong> shifts (insurance, contracts), <strong>Accept</strong> acknowledges. For opportunities, the matching strategies are <strong>Exploit</strong>, <strong>Enhance</strong>, <strong>Share</strong>, and <strong>Accept</strong>. Use <strong>Contingency Reserve</strong> for identified risks (PM authority) and <strong>Management Reserve</strong> for unknown risks (sponsor approval).
 </div>
 
 <style>

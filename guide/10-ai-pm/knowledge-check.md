@@ -501,7 +501,7 @@ AI is not a replacement for Agile or Predictive. It is a **Tech Enhancer** that 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a team is resisting a new AI tool because they fear job loss, the PM should use <strong>Emotional Intelligence</strong> to address their concerns, educate them on the tool's benefits (removing drudgery), and reassure them of their human value.
+  <strong> Exam Insight:</strong> If a team is resisting a new AI tool because they fear job loss, the PM should use <strong>Emotional Intelligence</strong> to address their concerns, educate them on the tool's benefits (removing drudgery), and reassure them of their human value.
 </div>
 
 <style>

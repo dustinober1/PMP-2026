@@ -2,7 +2,7 @@
 description: Flashcards for PMP Process Domain Task 4
 ---
 
-# ⚡ Process Task 4: Plan and Manage Resources
+#  Process Task 4: Plan and Manage Resources
 
 **Domain**: Process
 **Task**: Plan and manage resources
@@ -10,7 +10,7 @@ description: Flashcards for PMP Process Domain Task 4
 
 ---
 
-## 🎯 Resource Fundamentals
+##  Resource Fundamentals
 
 ### Card 1
 **Front:**
@@ -85,7 +85,7 @@ Estimating team/physical resources at the lowest level of the WBS (Work Packages
 
 ---
 
-## 📊 Resource Optimization
+##  Resource Optimization
 
 ### Card 11
 **Front:**
@@ -159,7 +159,7 @@ To ensure that the **physical** resources assigned and allocated are available a
 
 ---
 
-## 🤝 Acquiring Resources
+##  Acquiring Resources
 
 ### Card 21
 **Front:**
@@ -233,7 +233,7 @@ A resource management strategy to receive materials only as they are needed in t
 
 ---
 
-## 🧠 Scenarios: Managing Resources
+##  Scenarios: Managing Resources
 
 ### Card 31
 **Front:**
@@ -307,7 +307,7 @@ Encourage **cross-training** to create **T-Shaped skills** (Generalizing Special
 
 ---
 
-## 🛠️ ITTOs of Resource Management
+##  ITTOs of Resource Management
 
 ### Card 41
 **Front:**
@@ -381,7 +381,7 @@ Continuous improvement. Small, ongoing positive changes to resource usage and pr
 
 ---
 
-## ⚡ Quick-Fire Resource Review
+##  Quick-Fire Resource Review
 
 ### Card 51
 **Front:**
@@ -455,7 +455,7 @@ A cycle for control. Plan resource use -> Use them -> Check actuals vs plan -> A
 
 ---
 
-## 🚧 Physical Resource Control
+##  Physical Resource Control
 
 ### Card 61
 **Front:**
@@ -529,7 +529,7 @@ Increasing resource capacity by working more hours. It is a "Crashing" technique
 
 ---
 
-## 🚦 Closing Resource Management
+##  Closing Resource Management
 
 ### Card 71
 **Front:**

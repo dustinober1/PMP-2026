@@ -1464,56 +1464,56 @@ What is the BEST action for the project leader to take?
 
 | Question # | Enabler 1: Utilize lessons learned | Enabler 2: Update continuous improvement processes | Enabler 3: Update OPAs |
 | :--- | :---: | :---: | :---: |
-| 1 | ✅ | | |
-| 2 | | ✅ | |
-| 3 | | | ✅ |
-| 4 | | ✅ | |
-| 5 | ✅ | | |
-| 6 | | ✅ | |
-| 7 | | | ✅ |
-| 8 | | ✅ | |
-| 9 | ✅ | | |
-| 10 | | | ✅ |
-| 11 | ✅ | | |
-| 12 | | ✅ | |
-| 13 | ✅ | | |
-| 14 | | | ✅ |
-| 15 | ✅ | | |
-| 16 | | | ✅ |
-| 17 | | ✅ | |
-| 18 | | | ✅ |
-| 19 | ✅ | | |
-| 20 | | ✅ | |
-| 21 | | | ✅ |
-| 22 | | ✅ | |
-| 23 | ✅ | | |
-| 24 | | | ✅ |
-| 25 | | ✅ | |
-| 26 | | ✅ | |
-| 27 | | | ✅ |
-| 28 | ✅ | | |
-| 29 | | ✅ | |
-| 30 | | | ✅ |
-| 31 | ✅ | | |
-| 32 | | | ✅ |
-| 33 | | ✅ | |
-| 34 | | ✅ | |
-| 35 | ✅ | | |
-| 36 | | | ✅ |
-| 37 | ✅ | | |
-| 38 | | ✅ | |
-| 39 | ✅ | | |
-| 40 | | | ✅ |
-| 41 | | ✅ | |
-| 42 | ✅ | | |
-| 43 | | ✅ | |
-| 44 | | | ✅ |
-| 45 | ✅ | | |
-| 46 | ✅ | | |
-| 47 | | ✅ | |
-| 48 | | | ✅ |
-| 49 | ✅ | | |
-| 50 | | | ✅ |
+| 1 |  | | |
+| 2 | |  | |
+| 3 | | |  |
+| 4 | |  | |
+| 5 |  | | |
+| 6 | |  | |
+| 7 | | |  |
+| 8 | |  | |
+| 9 |  | | |
+| 10 | | |  |
+| 11 |  | | |
+| 12 | |  | |
+| 13 |  | | |
+| 14 | | |  |
+| 15 |  | | |
+| 16 | | |  |
+| 17 | |  | |
+| 18 | | |  |
+| 19 |  | | |
+| 20 | |  | |
+| 21 | | |  |
+| 22 | |  | |
+| 23 |  | | |
+| 24 | | |  |
+| 25 | |  | |
+| 26 | |  | |
+| 27 | | |  |
+| 28 |  | | |
+| 29 | |  | |
+| 30 | | |  |
+| 31 |  | | |
+| 32 | | |  |
+| 33 | |  | |
+| 34 | |  | |
+| 35 |  | | |
+| 36 | | |  |
+| 37 |  | | |
+| 38 | |  | |
+| 39 |  | | |
+| 40 | | |  |
+| 41 | |  | |
+| 42 |  | | |
+| 43 | |  | |
+| 44 | | |  |
+| 45 |  | | |
+| 46 |  | | |
+| 47 | |  | |
+| 48 | | |  |
+| 49 |  | | |
+| 50 | | |  |
 
 **Enabler Distribution:**
 - Enabler 1 (Utilize lessons learned): 17 questions (34%)
@@ -1527,18 +1527,18 @@ What is the BEST action for the project leader to take?
 ### Length Analysis
 - **Correct Answer Average Length:** 16.1 words
 - **Distractor Average Length:** 16.5 words
-- **Balance Status:** ✅ Well-balanced (distractors slightly longer on average to prevent pattern recognition)
+- **Balance Status:**  Well-balanced (distractors slightly longer on average to prevent pattern recognition)
 
 ### Methodology Distribution
 - **Predictive:** 20 questions (40%)
 - **Agile:** 18 questions (36%)
 - **Hybrid:** 12 questions (24%)
-- **Status:** ✅ Matches target mix (close to 40/35/25)
+- **Status:**  Matches target mix (close to 40/35/25)
 
 ### Action Type Distribution
 - **Analyze/Assess:** 25 questions (50%)
 - **Execute/Implement:** 25 questions (50%)
-- **Status:** ✅ Evenly balanced
+- **Status:**  Evenly balanced
 
 ---
 

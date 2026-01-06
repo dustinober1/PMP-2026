@@ -4,7 +4,7 @@ The definitive catalog of the logs, registers, frameworks, and techniques used i
 
 ---
 
-## 🏛️ The Project Ledger (Artifacts)
+##  The Project Ledger (Artifacts)
 These are the physical or digital documents that house project data.
 
 <div class="artifact-grid">
@@ -32,7 +32,7 @@ These are the physical or digital documents that house project data.
 
 ---
 
-## 🛠️ Data & Analysis Tools
+##  Data & Analysis Tools
 Techniques for turning raw data into project intelligence.
 
 | Tool                       | Purpose                                                          | Delivery Context        |
@@ -44,7 +44,7 @@ Techniques for turning raw data into project intelligence.
 
 ---
 
-## 🏗️ Visual Representation Tools
+##  Visual Representation Tools
 How we "radiate" information to the team and stakeholders.
 
 | Tool             | Best Used For...                                     | Context            |
@@ -56,7 +56,7 @@ How we "radiate" information to the team and stakeholders.
 
 ---
 
-## 📋 Comprehensive Tool Inventory
+##  Comprehensive Tool Inventory
 
 <div class="inventory-table">
 
@@ -114,7 +114,7 @@ How we "radiate" information to the team and stakeholders.
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If an exam scenario asks what tool to use to "identify the root cause," always look for <strong>Fishbone Diagram</strong> or <strong>Ishikawa Diagram</strong>. If it asks how to prioritize issues, look for <strong>Pareto Chart (80/20 Rule)</strong>.
+  <strong> Exam Insight:</strong> If an exam scenario asks what tool to use to "identify the root cause," always look for <strong>Fishbone Diagram</strong> or <strong>Ishikawa Diagram</strong>. If it asks how to prioritize issues, look for <strong>Pareto Chart (80/20 Rule)</strong>.
 </div>
 
 <style>

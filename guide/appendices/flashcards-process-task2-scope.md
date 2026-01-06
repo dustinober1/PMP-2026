@@ -2,7 +2,7 @@
 description: Flashcards for PMP Process Domain Task 2
 ---
 
-# ⚡ Process Task 2: Develop and Manage Project Scope
+#  Process Task 2: Develop and Manage Project Scope
 
 **Domain**: Process
 **Task**: Develop and manage project scope
@@ -10,7 +10,7 @@ description: Flashcards for PMP Process Domain Task 2
 
 ---
 
-## 🎯 Scope Fundamentals
+##  Scope Fundamentals
 
 ### Card 1
 **Front:**
@@ -88,7 +88,7 @@ What is the difference between **Validate Scope** and **Control Quality**?
 
 ---
 
-## 🛠️ Collecting Requirements
+##  Collecting Requirements
 
 ### Card 11
 **Front:**
@@ -163,7 +163,7 @@ What is the difference between an **Affinity Diagram** and a **Mind Map**?
 
 ---
 
-## 🏃 Agile Scope Management
+##  Agile Scope Management
 
 ### Card 21
 **Front:**
@@ -246,7 +246,7 @@ A method to align stakeholders on scope priorities.
 
 ---
 
-## 🧱 Constraints & Assumptions
+##  Constraints & Assumptions
 
 ### Card 31
 **Front:**
@@ -320,7 +320,7 @@ EEFs (like market conditions, government regulations, or existing infrastructure
 
 ---
 
-## 🧠 Scenarios: Managing Scope
+##  Scenarios: Managing Scope
 
 ### Card 41
 **Front:**
@@ -398,7 +398,7 @@ Use **Facilitation Techniques** (like round-robin voting or surveys) to ensure q
 
 ---
 
-## 🛠️ ITTOs of Scope Management
+##  ITTOs of Scope Management
 
 ### Card 51
 **Front:**
@@ -473,7 +473,7 @@ The correlation of "Work Started" vs "Work Finished" vs "Work Planned." It tells
 
 ---
 
-## 📊 Executing Work & Scope
+##  Executing Work & Scope
 
 ### Card 61
 **Front:**
@@ -548,7 +548,7 @@ A document where you track problems (that have already happened) and their resol
 
 ---
 
-## ⚡ Quick-Fire Scope Review
+##  Quick-Fire Scope Review
 
 ### Card 71
 **Front:**
@@ -622,7 +622,7 @@ The **Sponsor** and key stakeholders (and the PM). It is a mutual agreement.
 
 ---
 
-## 🚦 Closing Scope
+##  Closing Scope
 
 ### Card 81
 **Front:**

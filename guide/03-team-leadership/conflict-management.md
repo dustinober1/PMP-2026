@@ -6,7 +6,7 @@ Conflict is not a sign of failure; it is a sign of passion. If your team never f
 
 ---
 
-## 🚦 The Thomas-Kilmann Conflict Mode Instrument (TKI)
+##  The Thomas-Kilmann Conflict Mode Instrument (TKI)
 The 5 conflict resolution modes are mapped on two dimensions: **Assertiveness** (concern for self) and **Cooperativeness** (concern for others).
 
 <div class="mode-grid">
@@ -44,7 +44,7 @@ The 5 conflict resolution modes are mapped on two dimensions: **Assertiveness** 
 
 ---
 
-## 🧠 Choosing the Right Mode: The Decision Matrix
+##  Choosing the Right Mode: The Decision Matrix
 The exam often asks for the **best** technique, not the fastest.
 
 | Mode | Use When | What You Gain | What You Risk |
@@ -74,13 +74,13 @@ Do we have time to find the best solution?
     NO → COMPROMISE (temporary fix)
 ```
 
-::: tip ✅ Exam Pattern: Collaborate is the default "best"
+::: tip  Exam Pattern: Collaborate is the default "best"
 If the scenario is not an emergency, look for choices that involve listening, using data, and jointly creating a solution. Collaborate almost always beats Compromise in non-time-pressured scenarios.
 :::
 
 ---
 
-## 🔥 Types of Conflict: Task vs. Relationship
+##  Types of Conflict: Task vs. Relationship
 Not all conflict is the same. Understanding the type helps you respond correctly.
 
 | Type | Description | Impact | PM Action |
@@ -90,7 +90,7 @@ Not all conflict is the same. Understanding the type helps you respond correctly
 | **Process Conflict** | Disagreement about how to work together | Moderate; can be resolved with clarity | Clarify roles, update working agreements |
 
 ### The Personality Trap
-::: warning ⚠️ Most friction is caused by Scope, Schedule, or Priorities
+::: warning  Most friction is caused by Scope, Schedule, or Priorities
 What looks like a "personality conflict" is usually a process issue:
 - "She never listens to me" → Different priorities, unclear decision rights
 - "He's impossible to work with" → Competing deadlines, no escalation path
@@ -101,7 +101,7 @@ What looks like a "personality conflict" is usually a process issue:
 
 ---
 
-## 🤝 Negotiation Strategies (Task 8)
+##  Negotiation Strategies (Task 8)
 Conflict often requires negotiation to resolve. On the exam, you need to know *how* you are negotiating.
 
 ### Core Negotiation Concepts
@@ -146,7 +146,7 @@ The worst acceptable outcome. If the deal is worse than this, walk away.
 
 ---
 
-## 🧭 The Conflict Resolution Process
+##  The Conflict Resolution Process
 When conflict erupts, follow this escalation ladder:
 
 ### Step 1: Self-Correction
@@ -176,7 +176,7 @@ Involve sponsor or functional managers only if authority is required.
 
 ---
 
-## 🧩 A Collaboration Agenda (15–30 Minutes)
+##  A Collaboration Agenda (15–30 Minutes)
 Use this structure to turn conflict into a decision:
 
 | Step | Time | Action |
@@ -197,7 +197,7 @@ Use this structure to turn conflict into a decision:
 
 ---
 
-## 🛠️ De-escalation Techniques
+##  De-escalation Techniques
 When emotions run high, your first job is to calm the situation before solving it.
 
 ### Verbal De-escalation
@@ -217,7 +217,7 @@ When emotions run high, your first job is to calm the situation before solving i
 
 ---
 
-## 📋 The Conflict Log
+##  The Conflict Log
 For recurring or significant conflicts, document to identify patterns.
 
 | Date | Parties | Issue Summary | Resolution Mode | Outcome | Follow-up |
@@ -227,7 +227,7 @@ For recurring or significant conflicts, document to identify patterns.
 
 ---
 
-## 🧱 Structural Solutions to Recurring Conflict
+##  Structural Solutions to Recurring Conflict
 If the same conflict keeps happening, fix the system, not just the symptom.
 
 | Pattern | Structural Fix |
@@ -284,7 +284,7 @@ If the same conflict keeps happening, fix the system, not just the symptom.
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> "Compromise" sounds positive in real life, but on the PMP exam, it is often a "Lose-Lose" trap answer. Always look for <strong>Collaboration (Problem Solving)</strong> first. Compromise is only correct when time pressure makes collaboration impossible and the stakes are moderate.
+  <strong> Exam Insight:</strong> "Compromise" sounds positive in real life, but on the PMP exam, it is often a "Lose-Lose" trap answer. Always look for <strong>Collaboration (Problem Solving)</strong> first. Compromise is only correct when time pressure makes collaboration impossible and the stakes are moderate.
 </div>
 
 <style>

@@ -348,7 +348,7 @@ For full Chapter 7 proficiency, ensure you can:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> The PMP exam tests your ability to <strong>apply</strong> these concepts in scenarios, not just recall definitions. Focus on understanding <strong>when</strong> to use each tool and <strong>why</strong> one answer is better than another in a given situation.
+  <strong> Exam Insight:</strong> The PMP exam tests your ability to <strong>apply</strong> these concepts in scenarios, not just recall definitions. Focus on understanding <strong>when</strong> to use each tool and <strong>why</strong> one answer is better than another in a given situation.
 </div>
 
 <style>

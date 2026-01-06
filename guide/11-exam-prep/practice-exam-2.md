@@ -70,7 +70,7 @@ Test your ability to lead in adaptive environments and handle complex interperso
 
 ---
 
-## 📊 Score Interpretation
+##  Score Interpretation
 
 | Score     | Status           | Recommendation                                          |
 | :-------- | :--------------- | :------------------------------------------------------ |

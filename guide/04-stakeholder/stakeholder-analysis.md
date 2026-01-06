@@ -28,13 +28,13 @@ Stakeholder analysis is not a one-time kickoff exercise. It is a cycle you repea
 - **Stakeholder Engagement Plan**: Actions to close engagement gaps.
 - **Communications Management Plan**: The "what/when/how" of information flow.
 
-::: tip 🧠 Exam Pattern
+::: tip  Exam Pattern
 If the scenario says **new stakeholder**, **changed attitude**, **political conflict**, or **unclear decision authority**, the best "first" action is usually to **update the Stakeholder Register** and **reanalyze** before escalating or changing the plan.
 :::
 
 ---
 
-## 🔍 Identification Techniques
+##  Identification Techniques
 
 Effective stakeholder identification uses multiple techniques to ensure no one is missed:
 
@@ -66,7 +66,7 @@ Ask every identified stakeholder: **"Who else should I be talking to about this 
 
 ---
 
-## 📊 The RACI Matrix Connection
+##  The RACI Matrix Connection
 
 Stakeholder analysis and the RACI Matrix work together. RACI defines **accountability** while stakeholder analysis defines **influence and interest**.
 
@@ -77,7 +77,7 @@ Stakeholder analysis and the RACI Matrix work together. RACI defines **accountab
 | **C - Consulted** | Provides input before decisions | SMEs, affected parties; need interactive communication |
 | **I - Informed** | Updated after decisions | Broader stakeholder groups; need push communication |
 
-::: warning ⚠️ Common RACI Mistakes on the Exam
+::: warning  Common RACI Mistakes on the Exam
 - More than one "A" per deliverable = unclear accountability
 - No "A" assigned = no one owns the outcome
 - Confusing "Consulted" with "Informed" = wrong communication method
@@ -94,7 +94,7 @@ Stakeholder analysis and the RACI Matrix work together. RACI defines **accountab
 
 ---
 
-## 🎯 Stakeholder Categories (Comprehensive List)
+##  Stakeholder Categories (Comprehensive List)
 
 Understanding stakeholder categories helps ensure complete identification:
 
@@ -118,7 +118,7 @@ Understanding stakeholder categories helps ensure complete identification:
 
 ---
 
-## 🧮 Stakeholder Analysis Framework
+##  Stakeholder Analysis Framework
 
 For structured analysis, use this framework for each stakeholder:
 
@@ -190,13 +190,13 @@ In the modern project environment, stakeholders are more diverse than ever. You 
 - **Sustainability Officers**: Carbon footprint, waste reduction goals
 - **Ethical Sourcing**: Supply chain responsibility
 
-::: tip 🔍 Pro Tip: The Shadow Stakeholder
+::: tip  Pro Tip: The Shadow Stakeholder
 The most dangerous stakeholder is the one you didn't find. Always ask your known stakeholders: *"Who else should I be talking to about this?"*
 :::
 
 ---
 
-## 📈 Stakeholder Analysis Artifacts
+##  Stakeholder Analysis Artifacts
 
 ### Quick Reference: When to Update Stakeholder Analysis
 

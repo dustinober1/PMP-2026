@@ -6,7 +6,7 @@ Before a project is authorized, it must be justified. The organization needs to 
 
 ---
 
-## 📄 The Business Case
+##  The Business Case
 
 The Business Case is a pre-project document that provides the economic feasibility study. It answers the "Why?" and serves as the ongoing reference point for whether the project should continue.
 
@@ -48,7 +48,7 @@ A comprehensive Business Case typically includes:
 
 ---
 
-## 🧩 Business Case vs Charter (Don't Mix These Up)
+##  Business Case vs Charter (Don't Mix These Up)
 
 These documents are connected, but they answer different questions.
 
@@ -58,13 +58,13 @@ These documents are connected, but they answer different questions.
 | **Benefits Management Plan** | **How will benefits be measured and realized?** | Measures, owners, timeline, sustainment approach | Sponsor / Benefits owner | During initiation |
 | **Project Charter** | **Are we authorized to start?** | PM authority, high-level scope, milestones, budget ceiling | Sponsor | At formal project start |
 
-::: tip 🧠 Exam Pattern
+::: tip  Exam Pattern
 If a question asks **"Should we continue?"**, the best answer often involves **revalidating the Business Case** and **escalating to the Sponsor** if the value case has changed. Never continue a project that no longer delivers value.
 :::
 
 ---
 
-## 🕵️‍♀️ Pre-Charter: The Needs Assessment
+## ‍ Pre-Charter: The Needs Assessment
 
 Before a Business Case is even written, a **Needs Assessment** is often conducted to understand the *business problem* or *opportunity*.
 
@@ -101,7 +101,7 @@ Before committing resources, organizations may conduct:
 
 ---
 
-## 📉 Critical Economic Concepts
+##  Critical Economic Concepts
 
 The exam tests your ability to ignore irrelevant data (Sunk Cost) and value what you give up (Opportunity Cost).
 
@@ -140,13 +140,13 @@ The exam tests your ability to ignore irrelevant data (Sunk Cost) and value what
 
 **Correct Thinking**: "The $2M is gone regardless of our decision. Should we spend $1M MORE for a product that can't compete? No."
 
-::: danger ⚠️ Sunk Cost Rule
+::: danger  Sunk Cost Rule
 Past spending is **irrelevant** to future decisions. Only compare **future investment** vs. **future value**. If continuing costs $1M but delivers $0 competitive value, stop—regardless of what was spent before.
 :::
 
 ---
 
-## 📊 Project Selection Metrics
+##  Project Selection Metrics
 
 The PMP exam expects you to choose projects based on cold, hard data.
 
@@ -177,13 +177,13 @@ The PMP exam expects you to choose projects based on cold, hard data.
   </div>
 </div>
 
-::: warning 🚦 Exam Trap: NPV is King
+::: warning  Exam Trap: NPV is King
 If Project A has a 2-year payback and $10k NPV, but Project B has a 4-year payback and $80k NPV, **pick Project B**. NPV reflects the true scale of value delivery.
 :::
 
 ---
 
-## 🔢 Formula Deep Dive
+##  Formula Deep Dive
 
 ### Net Present Value (NPV)
 
@@ -216,7 +216,7 @@ Total PV of Cash Flows = $54,545 + $49,587 = $104,132
 NPV = $104,132 - $100,000 = $4,132
 ```
 
-**Decision:** NPV > 0 → Project creates value after accounting for the cost of capital. ✅
+**Decision:** NPV > 0 → Project creates value after accounting for the cost of capital. 
 
 ### Present Value Quick Reference
 
@@ -242,7 +242,7 @@ IRR is the discount rate that makes NPV = 0. It represents the project's "intern
 **Example:**
 - Project has IRR of 18%
 - Organization's hurdle rate (required rate of return) is 12%
-- 18% > 12% → Project should be accepted ✅
+- 18% > 12% → Project should be accepted 
 
 ::: info IRR vs NPV
 When comparing mutually exclusive projects, **always use NPV** as the tiebreaker. A project with lower IRR but higher NPV creates more total value.
@@ -290,7 +290,7 @@ Payback Period = $500,000 / $125,000 = 4 years
 
 ---
 
-## 🎯 Project Selection Models
+##  Project Selection Models
 
 Beyond individual metrics, organizations use structured models to compare multiple projects.
 
@@ -334,7 +334,7 @@ A Murder Board is a panel of executives who rigorously challenge and question pr
 
 ---
 
-## 🛠️ The Benefits Management Plan
+##  The Benefits Management Plan
 
 Pairing with the Business Case, this defines *how* and *when* value will be measured.
 
@@ -366,13 +366,13 @@ Project Initiation → Project Execution → Transition → Operations → Benef
     (Predicted Benefits)                                     (Realized Benefits)
 ```
 
-::: info 🔑 Key Concept
+::: info  Key Concept
 Most benefits are realized **after** the project closes. The project delivers a *capability*; the business delivers the *value* through adoption and usage.
 :::
 
 ---
 
-## 📈 Value Delivery: Beyond Financial Returns
+##  Value Delivery: Beyond Financial Returns
 
 The 2026 PMP exam emphasizes that value extends beyond money.
 
@@ -454,7 +454,7 @@ The 2026 PMP exam emphasizes that value extends beyond money.
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a project no longer aligns with the strategy defined in the <strong>Business Case</strong>, the PM must escalate to the <strong>Sponsor</strong>. Projects that don't deliver value should not exist.
+  <strong> Exam Insight:</strong> If a project no longer aligns with the strategy defined in the <strong>Business Case</strong>, the PM must escalate to the <strong>Sponsor</strong>. Projects that don't deliver value should not exist.
 </div>
 
 <style>

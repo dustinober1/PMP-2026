@@ -2,7 +2,7 @@
 description: Flashcards for PMP Business Domain Task 4
 ---
 
-# 🚧 Business Task 4: Remove Impediments and Manage Issues
+#  Business Task 4: Remove Impediments and Manage Issues
 
 **Domain**: Business Environment
 **Task**: Remove impediments and manage issues
@@ -10,7 +10,7 @@ description: Flashcards for PMP Business Domain Task 4
 
 ---
 
-## 🚧 Impediments vs. Issues vs. Risks
+##  Impediments vs. Issues vs. Risks
 
 ### Card 1
 **Front:**
@@ -85,7 +85,7 @@ Documented steps in the Communications Management Plan defining when and how to 
 
 ---
 
-## ⚔️ Conflict Management
+##  Conflict Management
 
 ### Card 11
 **Front:**
@@ -145,7 +145,7 @@ Most "personality" conflicts are actually **process** conflicts (unclear roles, 
 
 ---
 
-## 🛠️ Issue Management Toolkit
+##  Issue Management Toolkit
 
 ### Card 19
 **Front:**
@@ -233,7 +233,7 @@ QC identifies defects. Defects are issues.
 
 ---
 
-## 🧠 Situational Issues
+##  Situational Issues
 
 ### Card 31
 **Front:**
@@ -307,7 +307,7 @@ Impediment. Check the specific Risk Response if planned. If not, update schedule
 
 ---
 
-## ⚡ Quick-Fire Review
+##  Quick-Fire Review
 
 ### Card 41
 **Front:**
@@ -381,7 +381,7 @@ Does "Removing Impediments" mean doing the work for the team?
 
 ---
 
-## 🧠 Final Exam Tips
+##  Final Exam Tips
 
 ### Card 51
 **Front:**
@@ -455,7 +455,7 @@ By becoming a **Lesson Learned** (Asset) to prevent it on future projects.
 
 ---
 
-## 🌐 Advanced Scenarios & Virtual Teams
+##  Advanced Scenarios & Virtual Teams
 
 ### Card 61
 **Front:**
@@ -530,7 +530,7 @@ What is **BATNA** in negotiation and when do you use it?
 
 ---
 
-## 🔀 Cross-Task & Risk Integration
+##  Cross-Task & Risk Integration
 
 ### Card 71
 **Front:**
@@ -569,7 +569,7 @@ Make it **visible**. Track it, allocate capacity each sprint to pay it down, and
 
 ---
 
-## 🔄 Agile Execution Patterns
+##  Agile Execution Patterns
 
 ### Card 76
 **Front:**
@@ -609,7 +609,7 @@ What is the difference between **Tacit** and **Explicit Knowledge**?
 
 ---
 
-## 👥 Team Performance & People Issues
+##  Team Performance & People Issues
 
 ### Card 81
 **Front:**
@@ -659,7 +659,7 @@ A **vision/alignment** issue. The team doesn't understand the product vision or 
 
 ---
 
-## 🤝 Advanced Negotiation & Decision-Making
+##  Advanced Negotiation & Decision-Making
 
 ### Card 87
 **Front:**
@@ -691,7 +691,7 @@ The **worst acceptable outcome** — your "walk-away" point. If the deal is wors
 
 ---
 
-## 🌐 Virtual Team & Hybrid Challenges
+##  Virtual Team & Hybrid Challenges
 
 ### Card 91
 **Front:**
@@ -730,7 +730,7 @@ Check if **PM has delegation authority** for this impact level. If not, convene 
 
 ---
 
-## 🧠 Final Exam Mastery Cards
+##  Final Exam Mastery Cards
 
 ### Card 96
 **Front:**

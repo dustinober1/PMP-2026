@@ -2,7 +2,7 @@
 description: Flashcards for PMP Process Domain Task 8
 ---
 
-# ⚡ Process Task 8: Plan and Manage Schedule
+#  Process Task 8: Plan and Manage Schedule
 
 **Domain**: Process
 **Task**: Plan and manage schedule
@@ -10,7 +10,7 @@ description: Flashcards for PMP Process Domain Task 8
 
 ---
 
-## 📅 Schedule Fundamentals
+##  Schedule Fundamentals
 
 ### Card 1
 **Front:**
@@ -85,7 +85,7 @@ A relationship where a successor activity cannot finish until a predecessor acti
 
 ---
 
-## ⏩ Schedule Logic & Leads/Lags
+##  Schedule Logic & Leads/Lags
 
 ### Card 11
 **Front:**
@@ -159,7 +159,7 @@ The planned finish date is *after* the imposed deadline (e.g., the Customer requ
 
 ---
 
-## 🏎️ Schedule Compression
+##  Schedule Compression
 
 ### Card 21
 **Front:**
@@ -233,7 +233,7 @@ A simulation that runs thousands of possible project scenarios to calculate the 
 
 ---
 
-## 🧙 Agile Scheduling
+##  Agile Scheduling
 
 ### Card 31
 **Front:**
@@ -307,7 +307,7 @@ Generally **No**. Agile focuses on flow and prioritizing the backlog rather than
 
 ---
 
-## 🧠 Scenarios: Managing the Timeline
+##  Scenarios: Managing the Timeline
 
 ### Card 41
 **Front:**
@@ -381,7 +381,7 @@ The project now has **2 days of positive float** (or forces an earlier finish).
 
 ---
 
-## 🔢 Calculation Practice (CPM/PERT)
+##  Calculation Practice (CPM/PERT)
 
 ### Card 51
 **Front:**
@@ -455,7 +455,7 @@ Using the previous card (A=5, B=7), what is the **Float** of Activity A?
 
 ---
 
-## 🛠️ ITTOs of Schedule Management
+##  ITTOs of Schedule Management
 
 ### Card 61
 **Front:**
@@ -529,7 +529,7 @@ Adding buffers (Contingency Reserves) to the schedule to account for uncertainty
 
 ---
 
-## ⚡ Quick-Fire Schedule Review
+##  Quick-Fire Schedule Review
 
 ### Card 71
 **Front:**

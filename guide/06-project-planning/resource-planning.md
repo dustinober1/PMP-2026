@@ -7,7 +7,7 @@ Project success depends on getting the right people, tools, and materials in the
 
 ---
 
-## 🏗️ The Resource Spectrum
+##  The Resource Spectrum
 In PMP terms, "Resources" includes both human talent and physical materials.
 
 <div class="resource-grid">
@@ -25,7 +25,7 @@ In PMP terms, "Resources" includes both human talent and physical materials.
 
 ---
 
-## 🧭 The Resource Planning Flow
+##  The Resource Planning Flow
 
 ### Step 1: Plan Resource Management
 **Purpose**: Define how resources will be identified, acquired, managed, and released
@@ -62,7 +62,7 @@ In PMP terms, "Resources" includes both human talent and physical materials.
 
 ---
 
-## 📋 Key Planning Artifacts
+##  Key Planning Artifacts
 
 ### Resource Management Plan
 
@@ -91,7 +91,7 @@ The Team Charter explicitly defines how human resources will interact:
 
 ---
 
-## 🧩 Roles & Responsibility (RAM / RACI)
+##  Roles & Responsibility (RAM / RACI)
 
 When a question signals confusion about "who owns what," you're in responsibility assignment territory.
 
@@ -120,7 +120,7 @@ A common RAM format:
 | Go/No-Go decision | C | I | I | I | A |
 | Budget approval | R | I | I | I | A |
 
-::: tip 💡 Exam Clue
+::: tip  Exam Clue
 For a single deliverable, there should be **one Accountable** party (clear ownership). Having multiple "A"s creates confusion.
 :::
 
@@ -134,7 +134,7 @@ For a single deliverable, there should be **one Accountable** party (clear owner
 
 ---
 
-## 📅 Resource Calendars (Availability Is a Constraint)
+##  Resource Calendars (Availability Is a Constraint)
 
 Planning is not just "how many people" — it's **when they are available**:
 
@@ -161,7 +161,7 @@ Planning is not just "how many people" — it's **when they are available**:
 
 ---
 
-## 📈 Resource Optimization Techniques
+##  Resource Optimization Techniques
 
 ### Resource Leveling
 
@@ -201,7 +201,7 @@ Planning is not just "how many people" — it's **when they are available**:
 
 ---
 
-## 🌐 Virtual Team Considerations
+##  Virtual Team Considerations
 
 ### Virtual Team Challenges
 
@@ -223,13 +223,13 @@ Planning is not just "how many people" — it's **when they are available**:
 5. **Build in team-building** (virtual coffee chats, recognition)
 6. **Invest in collaboration tools** (shared whiteboards, project dashboards)
 
-::: info 🛠️ 2026 Focus: Virtual Logistics
+::: info  2026 Focus: Virtual Logistics
 Modern resource planning must account for **Digital Latency**. If your team is global, do they have the same cloud infrastructure? Is the physical hardware available in their specific region (e.g., chip shortages)?
 :::
 
 ---
 
-## 🧾 Procurement Planning (External Resources)
+##  Procurement Planning (External Resources)
 
 When you cannot source resources internally, procurement planning helps you get the work done without uncontrolled risk.
 
@@ -243,7 +243,7 @@ When you cannot source resources internally, procurement planning helps you get 
 
 ---
 
-## 📊 Make-or-Buy Analysis
+##  Make-or-Buy Analysis
 
 When deciding whether to build internally or procure externally, consider:
 
@@ -273,13 +273,13 @@ When deciding whether to build internally or procure externally, consider:
 | **Speed** | Slower (ramp-up) | Faster (expertise ready) |
 | **Flexibility** | High | Contract-limited |
 
-::: tip 💡 Exam Insight
+::: tip  Exam Insight
 Make-or-buy isn't just about cost. Consider **strategic value**, **risk tolerance**, and **organizational capability**. If a question mentions "core business capability" or "long-term investment," lean toward **Make**. If it mentions "one-time project" or "specialized expertise," lean toward **Buy**.
 :::
 
 ---
 
-## 📝 Procurement Documents
+##  Procurement Documents
 
 ### Document Types
 
@@ -305,7 +305,7 @@ Defines what you want a seller to deliver:
 
 ---
 
-## 🏷️ Source Selection Methods
+##  Source Selection Methods
 
 ### How to Pick the Winner?
 
@@ -332,7 +332,7 @@ Defines what you want a seller to deliver:
 
 ---
 
-## 🤝 Bidder Conferences
+##  Bidder Conferences
 
 A meeting with all prospective sellers to ensure everyone has a clear, common understanding of the procurement.
 
@@ -345,13 +345,13 @@ A meeting with all prospective sellers to ensure everyone has a clear, common un
 | **Documentation** | Record all questions/answers | Reference for disputes |
 | **No Changes** | Don't change scope during conference | Use formal amendment process |
 
-::: warning ⚠️ Exam Alert
+::: warning  Exam Alert
 If one vendor asks a question privately after the bidder conference, you **must share the answer with all vendors**. Fairness requires equal access to information.
 :::
 
 ---
 
-## 📋 Contract Types (Exam Essentials)
+##  Contract Types (Exam Essentials)
 
 ### Overview
 
@@ -420,7 +420,7 @@ If one vendor asks a question privately after the bidder conference, you **must 
 
 ---
 
-## 🔢 Contract Cost Calculations
+##  Contract Cost Calculations
 
 ### FPIF Calculation Example
 
@@ -474,7 +474,7 @@ PTA = $100,000 + $12,500 = $112,500
 
 ---
 
-## 🧠 Resource & Procurement Scenarios (Exam Practice)
+##  Resource & Procurement Scenarios (Exam Practice)
 
 ### Scenario 1: Unclear Roles
 **Situation**: Team members are confused about who is responsible for a deliverable.
@@ -502,7 +502,7 @@ PTA = $100,000 + $12,500 = $112,500
 
 ---
 
-## 📚 Key Formulas & Quick Reference
+##  Key Formulas & Quick Reference
 
 ### FPIF Formulas
 
@@ -569,7 +569,7 @@ PTA = $100,000 + $12,500 = $112,500
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a project is delayed because of "waiting for equipment," the root cause is poor <strong>Physical Resource Planning</strong> (availability/lead time). If it's delayed because of "unclear roles," the fix is a <strong>RAM/RACI</strong>. If the question is about shifting cost risk to a vendor, a <strong>Fixed-Price</strong> contract generally puts more risk on the seller (assuming scope is stable).
+  <strong> Exam Insight:</strong> If a project is delayed because of "waiting for equipment," the root cause is poor <strong>Physical Resource Planning</strong> (availability/lead time). If it's delayed because of "unclear roles," the fix is a <strong>RAM/RACI</strong>. If the question is about shifting cost risk to a vendor, a <strong>Fixed-Price</strong> contract generally puts more risk on the seller (assuming scope is stable).
 </div>
 
 <style>

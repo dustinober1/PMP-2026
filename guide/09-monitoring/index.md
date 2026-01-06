@@ -2,18 +2,18 @@
 
 If planning is the "Blueprint" and Execution is the "Work," then Monitoring & Closing is the **"Guardrail."** In the 2026 PMP exam, your role is to ensure the project stays on track and ends with a clean, value-focused handoff.
 
-::: tip 🎯 What the Exam Tests
+::: tip  What the Exam Tests
 Most questions in this chapter are about **control discipline**: interpreting metrics, detecting variance early, using the correct log (risk vs issue vs change), and following formal acceptance/closure instead of “just moving on.”
 :::
 
-::: info 🧭 The Two Jobs of Chapter 9
+::: info  The Two Jobs of Chapter 9
 - **Monitoring & Controlling**: measure performance, manage variance, and govern change.
 - **Closing**: transfer ownership, close contracts, archive records, and preserve lessons learned as organizational assets.
 :::
 
 ---
 
-## 📊 The Process of Control
+##  The Process of Control
 Monitoring isn't just about watching; it's about **Proactive Adjustment**. It’s the constant refinement of the project's path to ensure you arrive at the intended strategic destination.
 
 <div class="section-grid">

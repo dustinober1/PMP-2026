@@ -7,7 +7,7 @@ If you spend 90% of your time communicating, you better have a plan for it. The 
 
 ---
 
-## 🛠️ Communication Methods
+##  Communication Methods
 
 Choosing the wrong method leads to "Noise"—confusion, missed deadlines, and lost trust.
 
@@ -49,7 +49,7 @@ Choosing the wrong method leads to "Noise"—confusion, missed deadlines, and lo
 
 ---
 
-## 📡 The Sender-Receiver Model
+##  The Sender-Receiver Model
 
 The PMP exam views communication as a technical process. Breakdowns happen when "Noise" disrupts this loop.
 
@@ -69,7 +69,7 @@ The PMP exam views communication as a technical process. Breakdowns happen when 
 | **Acknowledge** | No confirmation, assumed receipt | Request explicit acknowledgment |
 | **Feedback** | No response, delayed response, unclear | Build in response expectations, follow up |
 
-::: warning ⚠️ The "Noise" Factor
+::: warning  The "Noise" Factor
 **Noise** is anything that distorts the message: language barriers, cultural differences, technical jargon, or even a bad internet connection. As a PM, your job is to **Minimize Noise**.
 :::
 
@@ -85,7 +85,7 @@ The PMP exam views communication as a technical process. Breakdowns happen when 
 
 ---
 
-## 🌍 Global & Cross-Cultural Communication
+##  Global & Cross-Cultural Communication
 
 In 2026, teams are global. You must adjust your style based on **Cultural Context** (Hall's Model).
 
@@ -116,7 +116,7 @@ In 2026, teams are global. You must adjust your style based on **Cultural Contex
 
 ---
 
-## 📄 What Goes in the Communications Management Plan (Exam-Ready)
+##  What Goes in the Communications Management Plan (Exam-Ready)
 
 Think "**who needs what, when, and how**"—plus how you confirm the message landed.
 
@@ -144,13 +144,13 @@ Think "**who needs what, when, and how**"—plus how you confirm the message lan
 10. **Flow Charts**: Information flow diagrams
 11. **Constraints**: Budget, technology, confidentiality limitations
 
-::: info 🔁 The Feedback Loop (often tested)
+::: info  The Feedback Loop (often tested)
 Communication is not complete when you *send* it—it is complete when the receiver **understands** it. Plans should include feedback channels (Q&A time, confirmation, read receipts, demos, acceptance criteria).
 :::
 
 ---
 
-## 🧭 The Channels Challenge
+##  The Channels Challenge
 
 Communication complexity grows exponentially with team size. If $N$ is the number of people, the number of channels is:
 
@@ -184,7 +184,7 @@ Communication complexity grows exponentially with team size. If $N$ is the numbe
 
 ---
 
-## 🔇 Reducing "Noise" (Practical Checklist)
+##  Reducing "Noise" (Practical Checklist)
 
 - **Single source of truth**: One place for decisions, plans, and latest status.
 - **Decision logging**: Record decisions + owner + date + rationale.
@@ -204,7 +204,7 @@ Communication complexity grows exponentially with team size. If $N$ is the numbe
 
 ---
 
-## 📡 Selecting the Technology
+##  Selecting the Technology
 
 In the 2026 digital era, choosing a tool (Slack vs. Email vs. AI Dashboards) depends on:
 
@@ -225,13 +225,13 @@ In the 2026 digital era, choosing a tool (Slack vs. Email vs. AI Dashboards) dep
 | **Status dashboards** | Power BI, Tableau, custom | Real-time data, automation, access control |
 | **Async video** | Loom, Vidyard | Time zone flexibility, personal touch |
 
-::: info 🌍 2026 Focus: Virtual Facilitation
+::: info  2026 Focus: Virtual Facilitation
 A core 2026 exam topic: If one person is remote, everyone is remote. Use "Chat-First" inclusion strategies and ensure all "Interactive" sessions are recorded for asynchronous equity.
 :::
 
 ---
 
-## 📋 Meeting Management (Communication in Action)
+##  Meeting Management (Communication in Action)
 
 Meetings are the most common—and most abused—communication method.
 
@@ -272,7 +272,7 @@ Meetings are the most common—and most abused—communication method.
 
 ---
 
-## 🚨 Crisis Communication
+##  Crisis Communication
 
 Special communication planning is needed for crisis situations:
 
@@ -345,7 +345,7 @@ Special communication planning is needed for crisis situations:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a project is failing because information is late, incorrect, or reaching the wrong people, the first step is to <strong>Update the Communications Management Plan</strong>. Never go straight to disciplinary action.
+  <strong> Exam Insight:</strong> If a project is failing because information is late, incorrect, or reaching the wrong people, the first step is to <strong>Update the Communications Management Plan</strong>. Never go straight to disciplinary action.
 </div>
 
 <style>

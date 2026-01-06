@@ -431,7 +431,7 @@ To achieve mastery of Chapter 8: Execution & Value Delivery for the PMP exam, en
 ---
 
 <div class="study-tip">
-  <strong>📝 Final Exam Insight:</strong> Execution questions often test whether you prioritize <strong>value delivery over process compliance</strong>. If a scenario describes completed deliverables but unhappy stakeholders, the answer almost always involves <strong>validation, outcomes, adoption, and benefits</strong>—not just verification of requirements.
+  <strong> Final Exam Insight:</strong> Execution questions often test whether you prioritize <strong>value delivery over process compliance</strong>. If a scenario describes completed deliverables but unhappy stakeholders, the answer almost always involves <strong>validation, outcomes, adoption, and benefits</strong>—not just verification of requirements.
 </div>
 
 <style>

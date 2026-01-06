@@ -6,7 +6,7 @@ Project Managers in 2026 don't need to code AI, but they must fluently "speak" A
 
 ---
 
-## 🛠️ The New PM Toolbox
+##  The New PM Toolbox
 Most AI tools you will use fall into three specific categories. You must know which to use when.
 
 <div class="ai-grid">
@@ -29,7 +29,7 @@ Most AI tools you will use fall into three specific categories. You must know wh
 
 ---
 
-## 🧠 Key AI Concepts (Exam-Relevant, Plain English)
+##  Key AI Concepts (Exam-Relevant, Plain English)
 You don't need math or model architecture for the PMP. You do need **good judgment** about what AI can/can't do, and how to use it safely.
 
 | Concept | What it means | PMP-relevant takeaway |
@@ -42,26 +42,26 @@ You don't need math or model architecture for the PMP. You do need **good judgme
 | **Fine-tuning** | Training the model on custom examples | Higher effort/risk; governance-heavy; not the first move for most PM teams |
 | **Automation agents** | AI that can take actions (create tickets, send messages) | Requires least-privilege access and strict Human-in-the-Loop controls |
 
-::: tip 🎯 PMP lens
+::: tip  PMP lens
 AI knowledge is tested through scenario judgment: protect data, follow policy, validate outputs, and keep accountability with the PM/team.
 :::
 
 ---
 
-## 🔍 The "Hallucination" Risk
+##  The "Hallucination" Risk
 AI is a **Probabilistic** engine, not a **Deterministic** one.
 *   **Deterministic**: A Calculator. $2 + 2 = 4$ every time.
 *   **Probabilistic**: An LLM. It guesses the "next most likely word."
 
 Because of this, AI can "hallucinate"—confidently stating facts, dates, or regulations that are completely false.
 
-::: warning ⚠️ The Golden Commandment
+::: warning  The Golden Commandment
 **Trust, but Verify.** Never send an AI-generated artifact to a stakeholder without a human review. You are accountable for the output, not the bot.
 :::
 
 ---
 
-## 🧷 How to Reduce Hallucinations (Grounding Checklist)
+##  How to Reduce Hallucinations (Grounding Checklist)
 Use these controls to make AI safer and more useful:
 *   **Provide approved source material** (sanitized notes, templates, policies) and ask the AI to stick to it.
 *   **Require assumptions and unknowns** (“List what you had to assume and what you need clarified”).
@@ -71,7 +71,7 @@ Use these controls to make AI safer and more useful:
 
 ---
 
-## 👤 Human-in-the-Loop (HITL)
+##  Human-in-the-Loop (HITL)
 The 2026 standard is **HITL**. AI produces the draft; the Human provides the judgment.
 
 | AI Strengths (The Machine)                            | Human Strengths (The Leader)                            |
@@ -82,7 +82,7 @@ The 2026 standard is **HITL**. AI produces the draft; the Human provides the jud
 
 ---
 
-## ✍️ Prompting Framework for PMs (Copy/Paste Pattern)
+##  Prompting Framework for PMs (Copy/Paste Pattern)
 High-quality prompts reduce rework and produce more exam-aligned artifacts.
 
 ```text
@@ -94,13 +94,13 @@ Output: Provide Markdown with headings + a table for key data.
 Quality bar: Flag assumptions, risks, open questions, and what needs human validation.
 ```
 
-::: tip 💡 When AI answers too fast
+::: tip  When AI answers too fast
 If you get a “perfect” answer with no assumptions or questions, that’s a red flag. In real PM work (and on the exam), **clarifying questions** and **risk flags** are signs of maturity.
 :::
 
 ---
 
-## 🚀 Advanced Prompting Techniques
+##  Advanced Prompting Techniques
 To get "Expert" level outputs, use these specific techniques.
 
 | Technique | How it works | When to use |
@@ -112,7 +112,7 @@ To get "Expert" level outputs, use these specific techniques.
 
 ---
 
-## 🔍 The "Hallucination" Risk
+##  The "Hallucination" Risk
 
 <style>
 .ai-grid {
@@ -153,7 +153,7 @@ To get "Expert" level outputs, use these specific techniques.
 
 ---
 
-## 🎯 AI Selection Decision Framework
+##  AI Selection Decision Framework
 
 Not every task needs AI. Use this framework to decide whether AI is worth the risk.
 
@@ -167,12 +167,12 @@ Not every task needs AI. Use this framework to decide whether AI is worth the ri
 | **Team confidence** | Team trained + skeptical of output | Team treats AI as oracle |
 
 **Example: Project Charter Drafting**
-- ✅ Use AI: Drafts charter outline from sanitized notes (1-2 hours → 10 minutes). Heavy HITL review catches hallucinations. **Time-value = HIGH**
-- ❌ Avoid: Using AI to generate vendor contracts without SME review. **Risk = TOO HIGH**
+-  Use AI: Drafts charter outline from sanitized notes (1-2 hours → 10 minutes). Heavy HITL review catches hallucinations. **Time-value = HIGH**
+-  Avoid: Using AI to generate vendor contracts without SME review. **Risk = TOO HIGH**
 
 ---
 
-## 🧠 Cognitive Biases When Using AI
+##  Cognitive Biases When Using AI
 
 Even experienced PMs fall victim to these traps:
 
@@ -185,7 +185,7 @@ Even experienced PMs fall victim to these traps:
 
 ---
 
-## 📊 Practical Worked Example: Temperature & Creativity
+##  Practical Worked Example: Temperature & Creativity
 
 **Scenario:** You're using AI to draft meeting minutes vs. brainstorm new ideas.
 
@@ -199,7 +199,7 @@ The temperature setting changes the tool's behavior; know your goal first.
 
 ---
 
-## 🏗️ AI Model Types Deep Dive
+##  AI Model Types Deep Dive
 
 Understanding the architecture helps you select the right tool and set appropriate expectations.
 
@@ -211,13 +211,13 @@ Understanding the architecture helps you select the right tool and set appropria
 | **Specialized Agent** | AI that takes actions (creates tickets, sends messages, updates systems) | Workflow automation, status updates | Highest risk; requires least-privilege access + approval gates |
 | **Predictive/ML Model** | Statistical model trained on historical patterns | Schedule forecasting, cost prediction, risk scoring | Needs explainability for regulated decisions; prone to historical bias |
 
-::: tip 💡 PMP Exam Pattern
+::: tip  PMP Exam Pattern
 When a scenario asks "which AI approach should the PM recommend?", match the **task type** to the **model strength**. Drafting = LLM. Forecasting = Predictive. Internal Q&A = RAG. Automation = Agent with guardrails.
 :::
 
 ---
 
-## 📏 Context Window Limitations (Practical Limits)
+##  Context Window Limitations (Practical Limits)
 
 Every AI model has a **context window**—the maximum amount of text it can "see" at once. Understanding this prevents wasted effort and missed context.
 
@@ -241,7 +241,7 @@ Every AI model has a **context window**—the maximum amount of text it can "see
 
 ---
 
-## 🔌 API vs. UI Tools (Governance Implications)
+##  API vs. UI Tools (Governance Implications)
 
 | Aspect | Web UI (e.g., ChatGPT.com) | API (Programmatic Access) |
 |---|---|---|
@@ -252,13 +252,13 @@ Every AI model has a **context window**—the maximum amount of text it can "see
 | **Cost** | Per-seat subscription | Pay-per-token; scales with usage |
 | **Compliance** | Higher risk for regulated industries | Preferred for healthcare, finance, government |
 
-::: warning ⚠️ Exam Relevance
+::: warning  Exam Relevance
 If a scenario mentions "team using free AI tools" with confidential data, the correct answer always involves: **(1) Stop/contain, (2) Provide approved alternative, (3) Update policy/training**. API-based enterprise tools are the governance-compliant pattern.
 :::
 
 ---
 
-## 🎯 Advanced Prompting Patterns (Expanded)
+##  Advanced Prompting Patterns (Expanded)
 
 ### Negative Prompting
 Tell the AI what NOT to do. This reduces common failure modes.
@@ -309,7 +309,7 @@ Rules:
 
 ---
 
-## 📝 Complete Worked Example: Risk Brainstorm Prompt
+##  Complete Worked Example: Risk Brainstorm Prompt
 
 **Scenario:** You're leading a new software implementation project and need to identify risks quickly.
 
@@ -352,14 +352,14 @@ Output format: Markdown table with columns: Risk ID | Category | Risk Statement 
 - Assumed legacy systems are documented
 
 **PM's HITL Review Actions:**
-1. ✅ Validate union constraint with HR
-2. ✅ Confirm legacy API documentation exists (or add documentation risk)
-3. ✅ Add missing risks: cybersecurity, change resistance, vendor SLA
+1.  Validate union constraint with HR
+2.  Confirm legacy API documentation exists (or add documentation risk)
+3.  Add missing risks: cybersecurity, change resistance, vendor SLA
 
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> A question may ask: "Your AI tool identified a 95% chance of a schedule delay. What do you do?" The answer is <strong>"Analyze the data with the team to validate the root cause."</strong> Never blindly accept the prediction; use it as a trigger for human investigation. This is the core of Human-in-the-Loop thinking.
+  <strong> Exam Insight:</strong> A question may ask: "Your AI tool identified a 95% chance of a schedule delay. What do you do?" The answer is <strong>"Analyze the data with the team to validate the root cause."</strong> Never blindly accept the prediction; use it as a trigger for human investigation. This is the core of Human-in-the-Loop thinking.
 </div>
 
 <style>

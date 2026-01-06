@@ -6,7 +6,7 @@ Once identified and mapped, stakeholders must be formally documented. The **Stak
 
 ---
 
-## 📋 The Stakeholder Register
+##  The Stakeholder Register
 
 This document is created during Initiation and must be updated **continuously** as the project evolves.
 
@@ -27,7 +27,7 @@ Beyond "who they are," strong registers capture what you need to **make decision
 
 ---
 
-## 📊 Stakeholder Register Template (Comprehensive)
+##  Stakeholder Register Template (Comprehensive)
 
 ### Identification Section
 | Field | Description | Example |
@@ -71,13 +71,13 @@ Beyond "who they are," strong registers capture what you need to **make decision
 | **Trigger Events** | When to reach out immediately | Any operational risk, timeline slip |
 | **Escalation Path** | If issues arise | Sponsor → CEO |
 
-::: warning 🔒 Data Privacy & Ethics
+::: warning  Data Privacy & Ethics
 The Stakeholder Register often containing sensitive "political" analysis. In the 2026 PMP exam, you must treat this as a **confidential** document. Unauthorized access can damage trust and sabotage engagement.
 :::
 
 ---
 
-## 🧭 Direction of Influence (Expanded)
+##  Direction of Influence (Expanded)
 
 Knowing "where" a stakeholder sits in relation to you dictates the style of communication you use.
 
@@ -115,7 +115,7 @@ Knowing "where" a stakeholder sits in relation to you dictates the style of comm
 
 ---
 
-## 📊 Engagement Assessment Matrix
+##  Engagement Assessment Matrix
 
 This tool identifies the "Engagement Gap"—where a stakeholder is versus where the project needs them to be for success.
 
@@ -150,7 +150,7 @@ This tool identifies the "Engagement Gap"—where a stakeholder is versus where 
 
 ---
 
-## 🔄 Stakeholder State Transitions
+##  Stakeholder State Transitions
 
 Understanding common state transitions helps you anticipate and prevent disengagement:
 
@@ -172,7 +172,7 @@ Understanding common state transitions helps you anticipate and prevent disengag
 
 ---
 
-## 📋 Internal vs External Stakeholder Management
+##  Internal vs External Stakeholder Management
 
 | Aspect | Internal Stakeholders | External Stakeholders |
 | :--- | :--- | :--- |
@@ -185,7 +185,7 @@ Understanding common state transitions helps you anticipate and prevent disengag
 
 ---
 
-## 📊 Stakeholder Engagement Plan vs Communications Plan
+##  Stakeholder Engagement Plan vs Communications Plan
 
 These are related but not the same:
 
@@ -208,7 +208,7 @@ These are related but not the same:
 
 ---
 
-## 🎯 Stakeholder Metrics (2026 Focus)
+##  Stakeholder Metrics (2026 Focus)
 
 Modern stakeholder management includes measurement:
 
@@ -274,7 +274,7 @@ Modern stakeholder management includes measurement:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a stakeholder's influence shifts or a new one is discovered, the <strong>Stakeholder Register</strong> is the VERY FIRST document you update. It is a living ledger, not a static report.
+  <strong> Exam Insight:</strong> If a stakeholder's influence shifts or a new one is discovered, the <strong>Stakeholder Register</strong> is the VERY FIRST document you update. It is a living ledger, not a static report.
 </div>
 
 <style>

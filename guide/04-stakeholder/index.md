@@ -4,7 +4,7 @@ Stakeholders are the "Why" behind every "What." In the 2026 PMP exam, success is
 
 ---
 
-## 👂 The Engagement Cycle
+##  The Engagement Cycle
 Moving people from "Unaware" to "Leading."
 
 <div class="section-grid">

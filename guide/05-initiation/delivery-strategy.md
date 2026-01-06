@@ -6,7 +6,7 @@ One of the PM's first "process" decisions is selecting the high-level delivery s
 
 ---
 
-## 🧭 The Selection Matrix
+##  The Selection Matrix
 
 Use these diagnostic markers to choose the right path for your project.
 
@@ -45,7 +45,7 @@ Use these diagnostic markers to choose the right path for your project.
 
 ---
 
-## 🎯 Decision Framework: Stacey Matrix
+##  Decision Framework: Stacey Matrix
 
 The **Stacey Matrix** helps determine complexity based on requirements clarity and technical certainty:
 
@@ -65,7 +65,7 @@ The **Stacey Matrix** helps determine complexity based on requirements clarity a
 
 ---
 
-## 🔄 Cynefin Framework
+##  Cynefin Framework
 
 Another powerful complexity model for approach selection:
 
@@ -94,7 +94,7 @@ Another powerful complexity model for approach selection:
 
 ---
 
-## 🎛️ What the Strategy Choice Changes
+##  What the Strategy Choice Changes
 
 Your delivery strategy sets expectations for *how planning, change, and delivery will work*.
 
@@ -107,13 +107,13 @@ Your delivery strategy sets expectations for *how planning, change, and delivery
 | **Progress Measure** | % complete | Working increments | Milestone + velocity |
 | **Risk Response** | Planned reserves | Continuous adaptation | Hybrid approach |
 
-::: tip 🧠 Exam Pattern
+::: tip  Exam Pattern
 If stakeholders need **frequent feedback** and requirements are evolving, an adaptive approach is usually best. If the environment is **safety-critical** or **highly regulated**, predictive guardrails increase control and auditability.
 :::
 
 ---
 
-## 🛠️ Tailoring Factors
+##  Tailoring Factors
 
 When determining the strategy during initiation, consider the **Tailoring Matrix**:
 
@@ -153,7 +153,7 @@ PREDICTIVE  Consider HYBRID or AGILE
 
 ---
 
-## 📊 Approach Comparison Matrix
+##  Approach Comparison Matrix
 
 | Criteria | Predictive | Agile | Hybrid |
 | --- | --- | --- | --- |
@@ -167,7 +167,7 @@ PREDICTIVE  Consider HYBRID or AGILE
 
 ---
 
-## 🏗️ Common Hybrid Patterns
+##  Common Hybrid Patterns
 
 ### Pattern 1: Water-Scrum-Fall
 ```
@@ -195,7 +195,7 @@ Predictive      Agile        Predictive
 
 ---
 
-## 🔄 Lifecycle Comparison
+##  Lifecycle Comparison
 
 ### Predictive Lifecycle
 ```
@@ -226,7 +226,7 @@ Vision → Release Planning → Sprint Planning → Daily Standup
 
 ---
 
-## 📈 Metrics by Approach
+##  Metrics by Approach
 
 | Approach | Key Metrics |
 | --- | --- |
@@ -236,7 +236,7 @@ Vision → Release Planning → Sprint Planning → Daily Standup
 
 ---
 
-## 🧪 Suitability Assessment
+##  Suitability Assessment
 
 ### Project Suitability Scorecard
 
@@ -258,13 +258,13 @@ Rate each factor 1-5 and calculate totals:
 
 ---
 
-::: info 💡 The 2026 Standard
+::: info  The 2026 Standard
 Most modern enterprise projects are **Hybrid**. They use Predictive milestones for the "Business Case" and "Go-Live" while allowing teams to use Agile "Sprints" for execution and refinement.
 :::
 
 ---
 
-## 🎯 Scenario-Based Selection
+##  Scenario-Based Selection
 
 ### Scenario 1: New Mobile App
 - **Characteristics:** Evolving user needs, competitive market, frequent releases
@@ -343,7 +343,7 @@ Most modern enterprise projects are **Hybrid**. They use Predictive milestones f
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a project has high uncertainty but a non-negotiable legal deadline, the best strategy is <strong>Hybrid</strong>. Use Predictive guardrails for the date and Agile cycles for the content.
+  <strong> Exam Insight:</strong> If a project has high uncertainty but a non-negotiable legal deadline, the best strategy is <strong>Hybrid</strong>. Use Predictive guardrails for the date and Agile cycles for the content.
 </div>
 
 <style>

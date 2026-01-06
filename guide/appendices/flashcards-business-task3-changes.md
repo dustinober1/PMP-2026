@@ -2,7 +2,7 @@
 description: Flashcards for PMP Business Domain Task 3
 ---
 
-# 🔄 Business Task 3: Manage and Control Changes
+#  Business Task 3: Manage and Control Changes
 
 **Domain**: Business Environment
 **Task**: Manage and control changes
@@ -10,7 +10,7 @@ description: Flashcards for PMP Business Domain Task 3
 
 ---
 
-## 🔄 Integrated Change Control (ICC)
+##  Integrated Change Control (ICC)
 
 ### Card 1
 **Front:**
@@ -88,7 +88,7 @@ The uncontrolled expansion to product or project scope without adjustments to ti
 
 ---
 
-## 🏛️ The Change Control Board (CCB)
+##  The Change Control Board (CCB)
 
 ### Card 11
 **Front:**
@@ -162,7 +162,7 @@ An intentional activity to modify a nonconforming product or product component.
 
 ---
 
-## 🔄 Agile Change Management
+##  Agile Change Management
 
 ### Card 21
 **Front:**
@@ -236,7 +236,7 @@ A formal opportunity to inspect the increment and **adapt the backlog** (Approve
 
 ---
 
-## 🧠 Change Scenarios
+##  Change Scenarios
 
 ### Card 31
 **Front:**
@@ -310,7 +310,7 @@ If it impacts the Baseline (Schedule/Cost), **Yes**. If it fits within the exist
 
 ---
 
-## ⚡ Quick-Fire Change Review
+##  Quick-Fire Change Review
 
 ### Card 41
 **Front:**
@@ -384,7 +384,7 @@ It must be **Updated**. New changes bring new risks.
 
 ---
 
-## 🧠 Final Exam Tips
+##  Final Exam Tips
 
 ### Card 51
 **Front:**

@@ -21,14 +21,14 @@ Risk management is not “one workshop then a register.” It’s a loop you run
 5. **Implement responses** (do the work in the schedule/backlog)
 6. **Monitor & adapt** (reviews, audits, new risks, issue handling)
 
-::: tip 💡 2026 Focus: Risk vs. Issue
+::: tip  2026 Focus: Risk vs. Issue
 - **Risk**: A future uncertainty → tracked in the **Risk Register** (or risk backlog).
 - **Issue**: A present reality (it happened) → tracked in the **Issue Log** with corrective action.
 :::
 
 ---
 
-## 🏗️ The Risk Framework (Threats + Opportunities)
+##  The Risk Framework (Threats + Opportunities)
 Every risk has three elements: **cause → event → impact**.
 
 <div class="risk-type-grid">
@@ -61,7 +61,7 @@ Every risk has three elements: **cause → event → impact**.
 
 ---
 
-## 📋 The Risk Register (What “Good” Looks Like)
+##  The Risk Register (What “Good” Looks Like)
 The exam rarely asks for a perfect template—but it *does* expect you to know what’s missing when risk management is weak.
 
 ### Minimum fields (exam-ready)
@@ -76,17 +76,17 @@ The exam rarely asks for a perfect template—but it *does* expect you to know w
 | **Contingency / fallback** | “If it happens, we do X” |
 | **Status** | Active / watchlist / closed / realized (issue) |
 
-::: warning ⚠️ Common exam trap
+::: warning  Common exam trap
 If a risk response requires work, it must be integrated into the **schedule/backlog** (and resourced). A “plan” that isn’t scheduled is not a plan.
 :::
 
-::: tip 🧰 Templates
+::: tip  Templates
 For copy/paste-ready register fields and response mini-plans, use [7.4 Tools & Templates](./toolkit).
 :::
 
 ---
 
-## 🔎 Identify Risks (Practical Techniques)
+##  Identify Risks (Practical Techniques)
 Use multiple techniques because each has bias.
 
 | Technique | Best for | PMP clues |
@@ -134,7 +134,7 @@ Project Risks
 
 **Exam Tip**: If the question mentions "we keep missing risks in the same category," suggest using an **RBS** or **prompt list** to ensure structured coverage.
 
-### ⚠️ Cognitive Biases in Risk
+###  Cognitive Biases in Risk
 The exam may test your ability to spot why a team is missing risks:
 - **Availability Bias**: Focusing only on risks that happened recently or are memorable.
 - **Confirmation Bias**: Looking only for data that supports the "happy path" plan.
@@ -142,7 +142,7 @@ The exam may test your ability to spot why a team is missing risks:
 
 ---
 
-## 📊 Analyze Risks (Qualitative → Quantitative)
+##  Analyze Risks (Qualitative → Quantitative)
 You prioritize where to spend limited management energy.
 
 <div class="analysis-grid">
@@ -166,7 +166,7 @@ You prioritize where to spend limited management energy.
 
 Example: 30% chance of a $200k impact → EMV = 0.30 × $200,000 = **$60,000**.
 
-::: tip 💡 Multi-Risk EMV
+::: tip  Multi-Risk EMV
 When evaluating multiple risks, sum their EMVs to determine total risk exposure:
 - Risk A: 40% × $50k = $20k
 - Risk B: 20% × $100k = $20k
@@ -251,7 +251,7 @@ The cumulative distribution (S-curve) shows confidence levels:
 | **P80** (80th percentile) | 80% chance of meeting this target | Conservative planning target |
 | **P90** (90th percentile) | 90% chance of meeting this target | High-confidence commitment |
 
-::: tip 💡 Exam Pattern
+::: tip  Exam Pattern
 "What confidence level should we report?" → If the sponsor wants a **commitment**, use P80 or P90. If they want a **target**, use P50.
 :::
 
@@ -301,7 +301,7 @@ Then look up z in a standard normal table:
 - z = (65 - 60) / 5 = **1.0**
 - Look up z=1.0 → **84% probability** of meeting the target
 
-::: warning ⚠️ Exam Trap
+::: warning  Exam Trap
 PERT assumes tasks are independent. In reality, risks often correlate (if one slips, others slip too). This is why Monte Carlo is more accurate for complex projects.
 :::
 
@@ -351,7 +351,7 @@ Decision: Feature Development
 #### Step 3: Make the Decision
 **Best Choice: Hybrid (Option C)** with EMV of +$165k
 
-::: tip 💡 Exam Insight
+::: tip  Exam Insight
 Decision tree questions test whether you can calculate EMV correctly. Remember:
 1. Multiply each outcome by its probability
 2. Sum all outcomes for each option
@@ -400,7 +400,7 @@ Total Project Funding
 - Management Reserve (typically 5-10%): $50,000
 - **Total Project Funding**: $605,000
 
-::: tip 💡 Exam Pattern
+::: tip  Exam Pattern
 "The sponsor asks why the budget is higher than the estimate" → Explain that the cost **baseline** includes contingency for identified risks, and management reserve covers unknown risks.
 :::
 
@@ -484,7 +484,7 @@ Use this to forecast when risk exposure will reach acceptable levels.
 
 ---
 
-## 🛡️ Response Strategies (Choose the BEST One)
+##  Response Strategies (Choose the BEST One)
 The exam will test judgment: strategy selection depends on severity, ownership, authority, and cost-effectiveness.
 
 | Type | Strategy | What it means | Trade-off / Cost |
@@ -508,7 +508,7 @@ The exam will test judgment: strategy selection depends on severity, ownership, 
 
 ---
 
-## 🔄 Risk in Different Environments
+##  Risk in Different Environments
 How you manage risk changes based on the delivery approach.
 
 | Approach | Risk Identification | Response Planning | Monitoring |
@@ -521,7 +521,7 @@ How you manage risk changes based on the delivery approach.
 
 ---
 
-## 🎯 Risk Thresholds & Appetite (When to Act)
+##  Risk Thresholds & Appetite (When to Act)
 
 Before managing risk, you must define **when** to act. This is captured in the Risk Management Plan.
 
@@ -540,25 +540,25 @@ The exam loves scenarios where you must decide **whether to act** based on thres
 - Risk B: 25% × $150k = Does not meet threshold (only one condition met)
 - Risk C: 50% × $120k = **Meets threshold** → Mitigate immediately
 
-::: warning ⚠️ Exam Trap
+::: warning  Exam Trap
 Thresholds are **AND** conditions (both probability and impact must exceed the limit), unless the question explicitly says "OR."
 :::
 
 ---
 
-## 💰 Reserves (Contingency vs Management)
+##  Reserves (Contingency vs Management)
 | Reserve | For | In cost baseline? | Typical approval |
 |---|---|---:|---|
 | **Contingency reserve** | Known-unknowns (identified risks) | Yes | PM (within limits) |
 | **Management reserve** | Unknown-unknowns | No | Sponsor/management via change control |
 
-::: tip 💡 Exam Pattern
+::: tip  Exam Pattern
 If the scenario says the risk was **not** identified, and you need extra money/time, you’re likely in **management reserve / change request** territory.
 :::
 
 ---
 
-## 🔍 Monitor Risks (Make It Operational)
+##  Monitor Risks (Make It Operational)
 Risk monitoring is where most projects fail: they track risks but don’t *use* them.
 
 ### High-value monitoring activities
@@ -574,7 +574,7 @@ Risk monitoring is where most projects fail: they track risks but don’t *use* 
 
 ---
 
-## 🚀 Agile & Hybrid Risk (How It Shows Up on the Exam)
+##  Agile & Hybrid Risk (How It Shows Up on the Exam)
 In Agile, risk management is continuous and built into feedback loops:
 
 - Slice work to deliver value early (reduces **delivery risk**)
@@ -585,7 +585,7 @@ In Agile, risk management is continuous and built into feedback loops:
 
 ---
 
-## ✅ Exam Scenarios: “First Action” Clues
+##  Exam Scenarios: “First Action” Clues
 | If the question says… | Best first move is usually… |
 |---|---|
 | “Risk has occurred and response exists” | **Implement planned response**, log as **issue** |
@@ -597,7 +597,7 @@ In Agile, risk management is continuous and built into feedback loops:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If an exam scenario says a risk has occurred, the FIRST action is to <strong>implement the planned response</strong> and update the <strong>Issue Log</strong>. The time for analysis was when it was still a risk.
+  <strong> Exam Insight:</strong> If an exam scenario says a risk has occurred, the FIRST action is to <strong>implement the planned response</strong> and update the <strong>Issue Log</strong>. The time for analysis was when it was still a risk.
 </div>
 
 <style>

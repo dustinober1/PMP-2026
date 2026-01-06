@@ -6,7 +6,7 @@ While the PMP exam focus is on individual projects, modern work increasingly hap
 
 ---
 
-## 🏗️ The Program Manager's Perspective
+##  The Program Manager's Perspective
 If a Project Manager asks "Are we building it right?", the Program Manager asks "Are we building the right **set** of things to achieve our overarching strategic goal?"
 
 | Aspect        | Project Management                      | Program Management                        |
@@ -18,7 +18,7 @@ If a Project Manager asks "Are we building it right?", the Program Manager asks 
 
 ---
 
-## 📄 Program Artifacts (What Shows Up in Exam Scenarios)
+##  Program Artifacts (What Shows Up in Exam Scenarios)
 | Artifact | Purpose | Typical owner |
 | :-- | :-- | :-- |
 | **Program charter** | Authorizes the program and defines intended benefits | Sponsor / Program steering |
@@ -29,7 +29,7 @@ If a Project Manager asks "Are we building it right?", the Program Manager asks 
 
 ---
 
-## 🗺️ The Program Roadmap
+##  The Program Roadmap
 A **Program Roadmap** is a high-level visual timeline of the program's components. In 2026, these are increasingly **Adaptive Roadmaps**:
 
 - **Interdependencies**: Mapping risks where Project A must finish for Project B to start.
@@ -38,22 +38,22 @@ A **Program Roadmap** is a high-level visual timeline of the program's component
 
 ---
 
-## 🏛️ Program Governance
+##  Program Governance
 Programs have a dedicated layer of oversight, usually a **Program Steering Committee**.
 
 <div class="governance-grid">
   <div class="gov-item">
-    <div class="gov-icon">⚖️</div>
+    <div class="gov-icon"></div>
     <div class="gov-name">Conflict Resolution</div>
     <p>Deciding priority when two projects need the same expert resource.</p>
   </div>
   <div class="gov-item">
-    <div class="gov-icon">🔄</div>
+    <div class="gov-icon"></div>
     <div class="gov-name">Budget Reallocation</div>
     <p>Moving funds from a delayed project to a high-priority "sister" project.</p>
   </div>
   <div class="gov-item">
-    <div class="gov-icon">🚀</div>
+    <div class="gov-icon"></div>
     <div class="gov-name">Strategic Pivots</div>
     <p>Approving scope shifts to ensure the program still delivers its intended value.</p>
   </div>
@@ -61,13 +61,13 @@ Programs have a dedicated layer of oversight, usually a **Program Steering Commi
 
 ---
 
-## ⚡ Your Role as a Project Leader in a Program
+##  Your Role as a Project Leader in a Program
 When your project is part of a program, your leadership style must shift:
 *   **Think Globally**: Accept that your project might need to pivot to support the program's success.
 *   **Manage Interfaces**: Spend more time communicating with other Project Managers to manage cross-project risks.
 *   **Escalate Dependencies**: Flag it immediately if another project's delay threatens your timeline.
 
-::: warning 🚦 Common Trap
+::: warning  Common Trap
 Do not optimize your project at the expense of the program. On the exam, the right move is usually to **coordinate and escalate**, not to “win” a resource conflict.
 :::
 
@@ -107,7 +107,7 @@ Do not optimize your project at the expense of the program. On the exam, the rig
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If your project's goal changes because the <em>Program</em> strategy shifted, your best course of action is to <strong>perform an impact assessment</strong> on your project's baseline and <strong>update your Project Management Plan</strong>.
+  <strong> Exam Insight:</strong> If your project's goal changes because the <em>Program</em> strategy shifted, your best course of action is to <strong>perform an impact assessment</strong> on your project's baseline and <strong>update your Project Management Plan</strong>.
 </div>
 
 <style>

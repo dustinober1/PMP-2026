@@ -2,7 +2,7 @@
 description: Flashcards for PMP Business Domain Task 8
 ---
 
-# 🫂 Business Task 8: Organizational Change
+#  Business Task 8: Organizational Change
 
 **Domain**: Business Environment
 **Task**: Support organizational change
@@ -10,7 +10,7 @@ description: Flashcards for PMP Business Domain Task 8
 
 ---
 
-## 🫂 Change Models
+##  Change Models
 
 ### Card 1
 **Front:**
@@ -87,7 +87,7 @@ What is the difference between **Project Management** and **Change Management**?
 
 ---
 
-## 🛑 Managing Resistance
+##  Managing Resistance
 
 ### Card 11
 **Front:**
@@ -161,7 +161,7 @@ Usage metrics (logins, transactions), Surveys, Proficiency tests.
 
 ---
 
-## 🛠️ Change Plans & Tactics
+##  Change Plans & Tactics
 
 ### Card 21
 **Front:**
@@ -235,7 +235,7 @@ Telling success stories of early adopters to influence the rest of the organizat
 
 ---
 
-## ⚡ Quick-Fire Review
+##  Quick-Fire Review
 
 ### Card 31
 **Front:**

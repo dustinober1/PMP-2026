@@ -2,13 +2,13 @@
 
 The PMBOK 8th Edition (released November 2025) consolidates the 12 principles from PMBOK 7 into **6 actionable core principles**. These principles form the foundation for the 2026 PMP exam and represent behaviors and mindsets that effective project managers should embody.
 
-::: tip 🎯 Why the Change?
+::: tip  Why the Change?
 PMI streamlined the principles to reduce overlap and make them more memorable and actionable. The 2026 exam will test your understanding of how to apply these principles in real-world scenarios.
 :::
 
 ---
 
-## 🎯 The Six PMBOK 8 Principles at a Glance
+##  The Six PMBOK 8 Principles at a Glance
 
 | # | Principle | Core Idea | Replaces (PMBOK 7) |
 |---|-----------|-----------|-------------------|
@@ -21,7 +21,7 @@ PMI streamlined the principles to reduce overlap and make them more memorable an
 
 ---
 
-## 1️⃣ Adopt a Holistic View
+## 1⃣ Adopt a Holistic View
 
 **Core Concept**: Projects exist within complex systems. Project managers must understand how their project connects to organizational strategy, other projects, operations, and the broader environment.
 
@@ -44,7 +44,7 @@ PMI streamlined the principles to reduce overlap and make them more memorable an
 
 ### Exam Application
 
-::: info 📝 Exam Pattern
+::: info  Exam Pattern
 Holistic view questions often present complex scenarios with multiple stakeholders and ask you to identify the BEST approach that considers all perspectives—not just the immediate technical solution.
 :::
 
@@ -55,7 +55,7 @@ Holistic view questions often present complex scenarios with multiple stakeholde
 
 ---
 
-## 2️⃣ Focus on Value
+## 2⃣ Focus on Value
 
 **Core Concept**: Projects succeed when they deliver value to stakeholders, not just when they complete on time and budget. Value includes financial returns, customer satisfaction, strategic positioning, learning, and sustainability impact.
 
@@ -97,13 +97,13 @@ Don't limit value to financial measures:
 
 ### Exam Application
 
-::: warning ⚠️ Common Trap
+::: warning  Common Trap
 A project that delivers all scope on time and under budget can still be a failure if it doesn't generate the expected value. Look for answers that focus on outcomes and benefits, not just deliverables.
 :::
 
 ---
 
-## 3️⃣ Embed Quality
+## 3⃣ Embed Quality
 
 **Core Concept**: Quality should be built into processes and deliverables from the start—not inspected in at the end. Prevention is more effective and efficient than detection.
 
@@ -140,13 +140,13 @@ A project that delivers all scope on time and under budget can still be a failur
 | **Internal Failure** | Non-conformance | Rework, scrap, retesting |
 | **External Failure** | Non-conformance | Warranty, recalls, reputation damage |
 
-::: tip 💡 Exam Insight
+::: tip  Exam Insight
 The cheapest quality cost is **prevention**. The most expensive is **external failure**. Invest in prevention.
 :::
 
 ---
 
-## 4️⃣ Be an Accountable Leader
+## 4⃣ Be an Accountable Leader
 
 **Core Concept**: Project managers must demonstrate integrity, take responsibility for outcomes, and lead with ethical behavior. This combines stewardship (responsible management) with active leadership.
 
@@ -179,13 +179,13 @@ The four pillars that inform this principle:
 
 ### Exam Application
 
-::: info 📝 Ethics Questions
+::: info  Ethics Questions
 Ethics scenarios on the PMP exam often present pressure to cut corners, hide information, or favor one stakeholder over another. The correct answer almost always involves **transparency**, **reporting to appropriate parties**, and **acting in the organization's best interest**.
 :::
 
 ---
 
-## 5️⃣ Integrate Sustainability
+## 5⃣ Integrate Sustainability
 
 **Core Concept**: Projects should deliver outcomes that balance environmental, social, and economic considerations—the Triple Bottom Line. This is **NEW** in PMBOK 8 and a major 2026 exam topic.
 
@@ -216,13 +216,13 @@ Ethics scenarios on the PMP exam often present pressure to cut corners, hide inf
 | **Monitoring** | Track sustainability KPIs; ESG reporting |
 | **Closing** | Assess long-term impact; lessons learned |
 
-::: tip 💡 Why This Matters for 2026
+::: tip  Why This Matters for 2026
 PMI has partnered with Green Project Management (GPM) and embedded sustainability as a core principle. Expect exam questions on balancing project objectives with environmental and social responsibilities.
 :::
 
 ---
 
-## 6️⃣ Build an Empowered Culture
+## 6⃣ Build an Empowered Culture
 
 **Core Concept**: High-performing project teams are built on trust, collaboration, psychological safety, and shared ownership. The project manager's role is to create an environment where people can thrive.
 
@@ -262,13 +262,13 @@ Empowered culture aligns with servant leadership:
 | **Servant leader** | Scrum Master/PM serves and shields the team |
 | **Retrospectives** | Continuous improvement owned by team |
 
-::: info 📝 Exam Pattern
+::: info  Exam Pattern
 When scenarios describe team dysfunction (conflict, poor morale, micromanagement), look for answers that address **culture and trust**, not just process fixes. The PM builds the environment; they don't control every detail.
 :::
 
 ---
 
-## 🔄 Principles vs. PMBOK 7: Mapping
+##  Principles vs. PMBOK 7: Mapping
 
 | PMBOK 7 Principle | PMBOK 8 Principle |
 |-------------------|-------------------|
@@ -288,7 +288,7 @@ When scenarios describe team dysfunction (conflict, poor morale, micromanagement
 
 ---
 
-## 📊 Applying Principles in Decision Making
+##  Applying Principles in Decision Making
 
 When facing a project decision, run it through the principles:
 
@@ -303,7 +303,7 @@ When facing a project decision, run it through the principles:
 
 ---
 
-## 📝 Knowledge Check Preview
+##  Knowledge Check Preview
 
 Principles-based questions on the 2026 exam may include:
 

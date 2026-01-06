@@ -6,7 +6,7 @@ Projects do not exist in a vacuum. Even a perfectly executed project can fail if
 
 ---
 
-## 🔍 The PESTLE Framework
+##  The PESTLE Framework
 A classic tool for environmental scanning is the **PESTLE** analysis:
 
 <div class="pestle-grid">
@@ -85,7 +85,7 @@ A classic tool for environmental scanning is the **PESTLE** analysis:
 
 ---
 
-## 🎯 PESTLE Category Quick Reference
+##  PESTLE Category Quick Reference
 
 | Category | What to Watch | Project Impact Examples | Response Strategy |
 | :-- | :-- | :-- | :-- |
@@ -98,7 +98,7 @@ A classic tool for environmental scanning is the **PESTLE** analysis:
 
 ---
 
-## 🛰️ Practical Environmental Scanning (What to Do, Not Just What to Know)
+##  Practical Environmental Scanning (What to Do, Not Just What to Know)
 PESTLE is only useful if you turn it into a **repeatable habit**.
 
 ### Setting Up Your Scanning System
@@ -109,7 +109,7 @@ Consider setting up:
 - **Triggers** (what counts as "significant" enough to escalate)
 - **A place to record** impacts (risk register, assumptions log, issue log)
 
-### 📋 Environmental Scanning Checklist
+###  Environmental Scanning Checklist
 
 | Activity | Frequency | Owner | Output |
 | :-- | :-- | :-- | :-- |
@@ -120,13 +120,13 @@ Consider setting up:
 | Technology trend review | Quarterly | Technical Lead | Architecture decisions |
 | Economic indicator review | Monthly | Finance liaison | Budget assumptions |
 
-::: tip 💡 Exam Pattern
+::: tip  Exam Pattern
 If a question says "a new regulation is being proposed," the best move is usually **early assessment and stakeholder engagement**, not waiting until it becomes law.
 :::
 
 ---
 
-## 🚦 Early Warning Signals
+##  Early Warning Signals
 Passive monitoring—waiting for your sponsor to call with news—is a recipe for failure. Proactive PMs look for:
 
 ### Signal Types to Monitor
@@ -139,45 +139,45 @@ Passive monitoring—waiting for your sponsor to call with news—is a recipe fo
 | **Technology Shifts** | New platforms, emerging standards | Tech blogs, conferences, analyst reports | Months to years |
 | **Supply Chain Signals** | Supplier financial health, logistics issues | Supplier communications, industry reports | Days to weeks |
 
-### 🔔 Alert Categories
+###  Alert Categories
 
 <div class="alert-grid">
   <div class="alert-card immediate">
-    <div class="alert-level">🔴 Immediate</div>
+    <div class="alert-level"> Immediate</div>
     <div class="alert-title">Stop-Work Trigger</div>
     <p>New law makes current work illegal; safety incident; data breach</p>
     <div class="alert-action">Action: Stop, assess, escalate immediately</div>
   </div>
   
   <div class="alert-card urgent">
-    <div class="alert-level">🟠 Urgent</div>
+    <div class="alert-level"> Urgent</div>
     <div class="alert-title">Near-Term Impact</div>
     <p>Regulation passed with 90-day deadline; competitor launch; supplier bankruptcy</p>
     <div class="alert-action">Action: Impact assessment within 48 hours</div>
   </div>
   
   <div class="alert-card watch">
-    <div class="alert-level">🟡 Watch</div>
+    <div class="alert-level"> Watch</div>
     <div class="alert-title">Developing Situation</div>
     <p>Proposed regulation; economic trends; technology evolution</p>
     <div class="alert-action">Action: Monitor; prepare contingency plans</div>
   </div>
   
   <div class="alert-card info">
-    <div class="alert-level">🟢 Informational</div>
+    <div class="alert-level"> Informational</div>
     <div class="alert-title">Future Consideration</div>
     <p>Industry trends; long-term forecasts; emerging technologies</p>
     <div class="alert-action">Action: Log for future planning cycles</div>
   </div>
 </div>
 
-::: warning 📊 2026 Exam Focus: Regulatory Change
+::: warning  2026 Exam Focus: Regulatory Change
 If a new law is passed mid-project that makes your current design illegal, you cannot simply "finish the work." You must immediately **assess the impact**, **notify the sponsor**, and **initiate a change request** to bring the project into compliance.
 :::
 
 ---
 
-## 🔄 Impact Assessment Process
+##  Impact Assessment Process
 When an external change occurs, follow this systematic flow:
 
 ### The 5-Step Response Model
@@ -252,13 +252,13 @@ When an external change occurs, follow this systematic flow:
   </div>
 </div>
 
-::: info 📌 What Changes First?
+::: info  What Changes First?
 If the change affects the **business case**, expect governance involvement. If it affects only execution within approved tolerances, the PM can often manage it within the project's change control process.
 :::
 
 ---
 
-## 📊 Impact Assessment Template
+##  Impact Assessment Template
 
 When documenting an external change impact, include:
 
@@ -277,7 +277,7 @@ When documenting an external change impact, include:
 
 ---
 
-## 🌍 2026 Focus: Key External Changes to Monitor
+##  2026 Focus: Key External Changes to Monitor
 
 ### Artificial Intelligence Regulation
 

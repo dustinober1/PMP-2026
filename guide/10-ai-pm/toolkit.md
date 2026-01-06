@@ -2,13 +2,13 @@
 
 Use this page as a copy/paste toolkit for **safe, effective AI usage** in project management. It’s designed to match how the PMP exam phrases scenarios (“what should you do FIRST?”).
 
-::: warning ⚠️ Safety first
+::: warning  Safety first
 Never paste confidential information, PII, or client data into unapproved/public AI tools. Use sanitized inputs and follow your organization’s policy.
 :::
 
 ---
 
-## 📜 AI Working Agreement (AI Charter) Template
+##  AI Working Agreement (AI Charter) Template
 Add this as an appendix to your **Team Charter / Working Agreement**.
 
 | Section | What to decide | Example (starter wording) |
@@ -25,7 +25,7 @@ Add this as an appendix to your **Team Charter / Working Agreement**.
 
 ---
 
-## 🧼 Data Redaction Checklist (Before You Prompt)
+##  Data Redaction Checklist (Before You Prompt)
 Use this checklist to sanitize inputs.
 
 - [ ] Remove **PII** (names, emails, phone numbers, addresses, IDs).
@@ -36,13 +36,13 @@ Use this checklist to sanitize inputs.
 - [ ] Replace specifics with placeholders: `[CLIENT]`, `[ROLE]`, `[SYSTEM]`, `[BUDGET_RANGE]`, `[DATE_RANGE]`.
 - [ ] Keep only what’s necessary (data minimization): provide **constraints**, not secrets.
 
-::: tip 💡 PMP exam pattern
+::: tip  PMP exam pattern
 If a scenario mentions “public/free AI tool” + “confidential data”, the correct answer starts with **contain + comply + prevent recurrence**.
 :::
 
 ---
 
-## 🧾 Prompt Template (Copy/Paste)
+##  Prompt Template (Copy/Paste)
 Use this to get consistent, auditable outputs:
 
 ```text
@@ -75,7 +75,7 @@ Output format:
 
 ---
 
-## ✅ HITL Review Checklist (Before Sharing AI Output)
+##  HITL Review Checklist (Before Sharing AI Output)
 - [ ] **Accuracy**: Verify facts, dates, numbers, names, and terminology.
 - [ ] **Completeness**: Confirm required sections/artifacts are present.
 - [ ] **Alignment**: Check against charter, baselines, and current decisions.
@@ -85,7 +85,7 @@ Output format:
 
 ---
 
-## ⚠️ AI Risk Register Add-On (Common Risks)
+##  AI Risk Register Add-On (Common Risks)
 Use these as starter risk statements (cause → event → impact) and tailor.
 
 | Risk | Example risk statement | Typical response |
@@ -101,7 +101,7 @@ Use these as starter risk statements (cause → event → impact) and tailor.
 
 ---
 
-## 🧰 AI Tool / Vendor Due Diligence Checklist
+##  AI Tool / Vendor Due Diligence Checklist
 Use this when selecting or approving AI tools.
 
 - [ ] **Data retention**: Are prompts/outputs stored? For how long?
@@ -117,7 +117,7 @@ Use this when selecting or approving AI tools.
 
 ---
 
-## 🧪 Pilot-to-Production Implementation Checklist
+##  Pilot-to-Production Implementation Checklist
 Use this to introduce AI without chaos.
 
 1. **Pick a low-risk, high-value use case** (meeting summaries, draft status reports).
@@ -132,7 +132,7 @@ Use this to introduce AI without chaos.
 
 ---
 
-## 📊 AI Risk Register Template (Copy/Paste)
+##  AI Risk Register Template (Copy/Paste)
 
 Use this as a starting point for AI-specific risks (add to your main Risk Register).
 
@@ -146,7 +146,7 @@ Use this as a starting point for AI-specific risks (add to your main Risk Regist
 
 ---
 
-## 🧪 AI Quality & Defect Escape Monitoring Checklist
+##  AI Quality & Defect Escape Monitoring Checklist
 
 Use this for projects leveraging AI in test automation or defect analysis:
 
@@ -161,7 +161,7 @@ Use this for projects leveraging AI in test automation or defect analysis:
 
 ---
 
-## 🎯 AI Decision Log Template
+##  AI Decision Log Template
 
 For high-stakes AI decisions, maintain a record (useful for audits):
 
@@ -172,7 +172,7 @@ For high-stakes AI decisions, maintain a record (useful for audits):
 
 ---
 
-## 🧠 Exam Quick Picks (AI Scenarios)
+##  Exam Quick Picks (AI Scenarios)
 - If confidentiality is at risk: **Stop, contain, notify, and follow policy**.
 - If AI provides an answer/prediction: **Validate with the team/data** before acting.
 - If outputs affect stakeholders: **Use EI and human judgment**; don't auto-send.
@@ -182,7 +182,7 @@ For high-stakes AI decisions, maintain a record (useful for audits):
 
 ---
 
-## 📚 Expanded Prompt Library (Copy/Paste Ready)
+##  Expanded Prompt Library (Copy/Paste Ready)
 
 Use these prompts across all process groups. Customize the `[PLACEHOLDERS]` for your context.
 
@@ -304,7 +304,7 @@ Input: [PASTE PROJECT SUMMARY AND OUTCOMES]
 
 ---
 
-## 💰 AI ROI Calculator
+##  AI ROI Calculator
 
 Use this formula to estimate whether AI is worth the investment for a given task.
 
@@ -345,27 +345,27 @@ Annual ROI = $8,400 saved
 
 ---
 
-## 📊 Tool Comparison Matrix (Enterprise AI Features)
+##  Tool Comparison Matrix (Enterprise AI Features)
 
 Use this framework when evaluating AI tools for your organization.
 
 | Feature | Must Have | Nice to Have | Questions to Ask |
 |---|---|---|---|
-| **Zero Data Retention** | ✅ | | "Is our data used for training? Can we opt out contractually?" |
-| **SOC2 / ISO27001** | ✅ | | "Provide compliance certifications." |
-| **SSO/SAML** | ✅ | | "Integrate with our identity provider?" |
-| **Audit Logging** | ✅ | | "Can we export logs? How long retained?" |
-| **Role-Based Access** | ✅ | | "Can we restrict who uses which features?" |
-| **API Access** | | ✅ | "Programmatic access for automation?" |
-| **Custom Prompts/Templates** | | ✅ | "Can we save and share prompts organization-wide?" |
-| **Data Residency Options** | ✅ (regulated) | | "Where is data processed? EU-only option?" |
-| **Explainability Features** | ✅ (regulated) | | "Can we see why the AI gave this answer?" |
-| **SLA/Uptime Guarantee** | | ✅ | "What's the SLA? Incident response process?" |
-| **Integration (Jira, Confluence, etc.)** | | ✅ | "Native integrations vs. copy/paste?" |
+| **Zero Data Retention** |  | | "Is our data used for training? Can we opt out contractually?" |
+| **SOC2 / ISO27001** |  | | "Provide compliance certifications." |
+| **SSO/SAML** |  | | "Integrate with our identity provider?" |
+| **Audit Logging** |  | | "Can we export logs? How long retained?" |
+| **Role-Based Access** |  | | "Can we restrict who uses which features?" |
+| **API Access** | |  | "Programmatic access for automation?" |
+| **Custom Prompts/Templates** | |  | "Can we save and share prompts organization-wide?" |
+| **Data Residency Options** |  (regulated) | | "Where is data processed? EU-only option?" |
+| **Explainability Features** |  (regulated) | | "Can we see why the AI gave this answer?" |
+| **SLA/Uptime Guarantee** | |  | "What's the SLA? Incident response process?" |
+| **Integration (Jira, Confluence, etc.)** | |  | "Native integrations vs. copy/paste?" |
 
 ---
 
-## 🚨 Escalation Decision Tree
+##  Escalation Decision Tree
 
 When to escalate AI issues beyond the project team.
 
@@ -391,7 +391,7 @@ When to escalate AI issues beyond the project team.
 
 ---
 
-## 🎯 AI Maturity Assessment (Self-Evaluation Checklist)
+##  AI Maturity Assessment (Self-Evaluation Checklist)
 
 Use this to assess your team's readiness for AI adoption.
 

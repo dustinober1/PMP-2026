@@ -2,7 +2,7 @@
 description: Flashcards for PMP Process Domain Task 5
 ---
 
-# ⚡ Process Task 5: Plan and Manage Procurement
+#  Process Task 5: Plan and Manage Procurement
 
 **Domain**: Process
 **Task**: Plan and manage procurement
@@ -10,7 +10,7 @@ description: Flashcards for PMP Process Domain Task 5
 
 ---
 
-## 📜 Contract Types & Rationale
+##  Contract Types & Rationale
 
 ### Card 1
 **Front:**
@@ -85,7 +85,7 @@ The maximum amount the buyer will pay in a Fixed Price Incentive Fee (FPIF) cont
 
 ---
 
-## 🛒 Sourcing & Selection
+##  Sourcing & Selection
 
 ### Card 11
 **Front:**
@@ -159,7 +159,7 @@ A selection method that establishes minimum requirements (e.g., "Must be ISO cer
 
 ---
 
-## 🤝 Negotiation & Agreements
+##  Negotiation & Agreements
 
 ### Card 21
 **Front:**
@@ -233,7 +233,7 @@ Does a contract supersede the Project Charter?
 
 ---
 
-## 🚧 Control Procurements
+##  Control Procurements
 
 ### Card 31
 **Front:**
@@ -307,7 +307,7 @@ Usually the **authorized procurement officer**, not the Project Manager (unless 
 
 ---
 
-## 🚦 Closing Procurements
+##  Closing Procurements
 
 ### Card 41
 **Front:**
@@ -382,7 +382,7 @@ It's often integrated into **Control Procurements** or Project Closure, but the 
 
 ---
 
-## ⚡ Quick-Fire Procurement Review
+##  Quick-Fire Procurement Review
 
 ### Card 51
 **Front:**
@@ -456,7 +456,7 @@ A document stating intent to sign a contract. It allows some work to start but i
 
 ---
 
-## 🧠 Advanced Procurement Concepts
+##  Advanced Procurement Concepts
 
 ### Card 61
 **Front:**
@@ -530,7 +530,7 @@ Consult legal immediately. Secure the work-in-progress. Look for bond protection
 
 ---
 
-## 🔢 Calculation Practice
+##  Calculation Practice
 
 ### Card 71
 **Front:**

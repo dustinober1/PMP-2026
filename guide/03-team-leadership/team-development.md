@@ -6,7 +6,7 @@ Every team goes through a predictable lifecycle. As a project leader, your style
 
 ---
 
-## 🪜 The Five Stages of Growth (Tuckman's Model)
+##  The Five Stages of Growth (Tuckman's Model)
 The Tuckman model is the foundation for understanding team dynamics on the PMP exam. Know the stage, know the leadership style.
 
 <div class="tuckman-grid">
@@ -49,7 +49,7 @@ The Tuckman model is the foundation for understanding team dynamics on the PMP e
 
 ---
 
-## 🧠 Psychological Safety: The #1 Predictor of Team Success
+##  Psychological Safety: The #1 Predictor of Team Success
 Identified by Google's **Project Aristotle** research as the most important factor in high-performing teams. Psychological safety is the belief that one will not be punished or humiliated for speaking up with ideas, questions, concerns, or mistakes.
 
 ### The Five Factors from Project Aristotle
@@ -75,13 +75,13 @@ Identified by Google's **Project Aristotle** research as the most important fact
 4. **Respond constructively to failure**: Focus on learning, not blame.
 5. **Celebrate vulnerability**: Recognize when someone admits uncertainty.
 
-::: warning 💡 Pro Tip: Regression is Real
+::: warning  Pro Tip: Regression is Real
 Adding a new member or losing a key player will often knock a project team from **Performing** all the way back to **Storming**. Be prepared to shift your leadership style back to "Coaching" when this happens.
 :::
 
 ---
 
-## 🔄 The Situational Leadership (SLII) Connection
+##  The Situational Leadership (SLII) Connection
 Tuckman's stages align with Situational Leadership styles. As the team matures, your style must evolve.
 
 | Tuckman Stage | Development Level | Leadership Style | What You Do |
@@ -91,13 +91,13 @@ Tuckman's stages align with Situational Leadership styles. As the team matures, 
 | **Norming** | D3 (High Skill, Variable Will) | **S3: Supporting** | Ask questions, facilitate, collaborate |
 | **Performing** | D4 (High Skill, High Will) | **S4: Delegating** | Trust, empower, get out of the way |
 
-::: tip ✅ Exam Pattern: Match Style to Stage
+::: tip  Exam Pattern: Match Style to Stage
 If the question describes a "new team with unclear roles," think **Forming → Directing**. If the team is "arguing about approaches," think **Storming → Coaching**. If the team is "running smoothly," think **Performing → Delegating**.
 :::
 
 ---
 
-## 🛠️ Develop the Team: Practical Techniques
+##  Develop the Team: Practical Techniques
 The PMP doesn't just test theory; it tests whether you know how to move a team forward.
 
 ### Training & Development Options
@@ -124,7 +124,7 @@ The PMP doesn't just test theory; it tests whether you know how to move a team f
 
 ---
 
-## 📈 Team Performance Assessments (TPAs)
+##  Team Performance Assessments (TPAs)
 A TPA is a regular, intentional check-in on how well the team is functioning (not just whether tasks are "done").
 
 ### Quantitative Metrics
@@ -151,7 +151,7 @@ A TPA is a regular, intentional check-in on how well the team is functioning (no
 
 ---
 
-## 🧯 If Your Team Is Stuck in Storming
+##  If Your Team Is Stuck in Storming
 Storming is normal—but it should be time-boxed. If it drags on, productivity suffers.
 
 ### The Escape Plan
@@ -172,7 +172,7 @@ Storming is normal—but it should be time-boxed. If it drags on, productivity s
 
 ---
 
-## 🔁 Team Development Is Continuous
+##  Team Development Is Continuous
 High-performing teams don't stay high-performing automatically. Development is an ongoing investment.
 
 ### The Continuous Improvement Cycle
@@ -235,7 +235,7 @@ High-performing teams don't stay high-performing automatically. Development is a
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If team members are "arguing over technical approaches" or "challenging the PM's authority," they are in <strong>Storming</strong>. This isn't a failure—it is a mandatory step toward <strong>Performing</strong>. Your job is to coach them through it, not to suppress the conflict.
+  <strong> Exam Insight:</strong> If team members are "arguing over technical approaches" or "challenging the PM's authority," they are in <strong>Storming</strong>. This isn't a failure—it is a mandatory step toward <strong>Performing</strong>. Your job is to coach them through it, not to suppress the conflict.
 </div>
 
 <style>

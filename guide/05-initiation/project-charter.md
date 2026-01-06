@@ -7,7 +7,7 @@ The **Project Charter** is the "Birth Certificate" of the project. It is the for
 
 ---
 
-## 🏛️ The PM's Source of Power
+##  The PM's Source of Power
 
 The Charter is not just paperwork; it is the foundation of your authority. Without an approved charter, you are just a person with an idea, not a Project Manager.
 
@@ -32,7 +32,7 @@ The Charter is not just paperwork; it is the foundation of your authority. Witho
 
 ---
 
-## 🧠 The Charter as an Initiation Gate
+##  The Charter as an Initiation Gate
 
 On the exam, the charter is the "start line." It tells you:
 - **The organization is committing resources**
@@ -50,7 +50,7 @@ Business Need → Needs Assessment → Business Case → PROJECT CHARTER → Pro
 
 ---
 
-## 📥 Common Inputs (What Feeds the Charter)
+##  Common Inputs (What Feeds the Charter)
 
 ### Business Documents
 
@@ -100,7 +100,7 @@ OPAs are *processes and knowledge bases you can use*—the organization's intell
 | **Financial Controls** | Approval levels, accounting codes, budget templates |
 | **Communication Guidelines** | Escalation procedures, meeting formats, reporting standards |
 
-::: tip 🧠 EEF vs. OPA Hint
+::: tip  EEF vs. OPA Hint
 If it **constrains** you (laws, culture, systems), it's an **EEF**.
 If it **helps** you (templates, prior project files), it's an **OPA**.
 :::
@@ -118,13 +118,13 @@ If it **helps** you (templates, prior project files), it's an **OPA**.
 | Union labor agreements | EEF | Contractual constraint |
 | Historical cost estimation data | OPA | Knowledge base |
 
-::: warning 🚦 Exam Trap: "Start Work Immediately"
+::: warning  Exam Trap: "Start Work Immediately"
 If you're asked to begin execution (hire vendors, build deliverables, spend budget) **without an approved charter**, the best next step is to **work with the sponsor to finalize and approve the charter**.
 :::
 
 ---
 
-## 📋 Standard Charter Components
+##  Standard Charter Components
 
 While every company has its own template, the PMP exam expects these core elements:
 
@@ -219,7 +219,7 @@ Project Manager: _________________________ Date: _______
 
 ---
 
-## 🔐 PM Authority Levels
+##  PM Authority Levels
 
 The charter should explicitly define the PM's authority:
 
@@ -231,13 +231,13 @@ The charter should explicitly define the PM's authority:
 | **Procurement** | "Select vendors for contracts <$50,000" |
 | **Escalation** | "Escalate to sponsor for decisions impacting baseline" |
 
-::: info 🛠️ 2026 Shift: Collaborative Evolution
+::: info  2026 Shift: Collaborative Evolution
 Traditional PMBOK implies the Sponsor writes the charter. In modern 2026 practice, the **Project Manager** often drafts it in collaboration with the Sponsor. This ensures the PM has empathy for the business goals before planning starts.
 :::
 
 ---
 
-## 🏃 Agile Chartering: The "Elevator Pitch"
+##  Agile Chartering: The "Elevator Pitch"
 
 In Adaptive/Agile environments, the charter is often lighter and focused on **Vision**.
 
@@ -274,7 +274,7 @@ and foolproof instructions for guaranteed success.
 
 ---
 
-## 🔍 Charter vs Other Documents
+##  Charter vs Other Documents
 
 | Document | What It's For | What It's NOT For |
 | --- | --- | --- |
@@ -287,7 +287,7 @@ and foolproof instructions for guaranteed success.
 
 ---
 
-## 🛑 What a Charter is NOT
+##  What a Charter is NOT
 
 1.  **A detailed plan**: No task lists or day-by-day schedules here.
 2.  **A contract**: It is an internal organizational document.
@@ -297,7 +297,7 @@ and foolproof instructions for guaranteed success.
 
 ---
 
-## 🧭 Expert Judgment in Chartering
+##  Expert Judgment in Chartering
 
 Expert judgment is a critical technique during charter development. Sources include:
 
@@ -312,7 +312,7 @@ Expert judgment is a critical technique during charter development. Sources incl
 
 ---
 
-## 📊 Charter Approval Process
+##  Charter Approval Process
 
 ```
 PM Drafts Charter
@@ -406,7 +406,7 @@ PROJECT OFFICIALLY BEGINS
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a Functional Manager refuses to release a resource because they "don't report to you," show them the <strong>Project Charter</strong>. This document proves you are authorized by Senior Management to request those resources.
+  <strong> Exam Insight:</strong> If a Functional Manager refuses to release a resource because they "don't report to you," show them the <strong>Project Charter</strong>. This document proves you are authorized by Senior Management to request those resources.
 </div>
 
 <style>

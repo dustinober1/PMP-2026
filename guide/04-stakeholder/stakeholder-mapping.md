@@ -6,7 +6,7 @@ Identifying who your stakeholders are is the first step, but **mapping** them te
 
 ---
 
-## 🗺️ The Power/Interest Grid
+##  The Power/Interest Grid
 
 This is the most critical tool for the PMP exam. It helps you categorize stakeholders and determine the correct "strategy of service."
 
@@ -44,7 +44,7 @@ This is the most critical tool for the PMP exam. It helps you categorize stakeho
 
 ---
 
-## ✅ How to Place Stakeholders (Fast and Defensible)
+##  How to Place Stakeholders (Fast and Defensible)
 
 On the PMP exam, "power" is not just job title—it is the ability to **influence decisions, resources, or acceptance**.
 
@@ -76,7 +76,7 @@ On the PMP exam, "power" is not just job title—it is the ability to **influenc
 - Political capital or reputation at stake
 - Future initiatives depend on this project's success
 
-::: tip 🔎 Quick Calibration
+::: tip  Quick Calibration
 If they can **stop** the project, treat them as **High Power**. If the project changes their day-to-day work or metrics, treat them as **High Interest**.
 :::
 
@@ -97,7 +97,7 @@ Stakeholder positions are not static. Common triggers for movement:
 
 ---
 
-## 🎯 The Salience Model
+##  The Salience Model
 
 For complex projects with large ecosystems, simple grids aren't enough. The **Salience Model** analyzes three overlapping attributes:
 
@@ -141,7 +141,7 @@ For complex projects with large ecosystems, simple grids aren't enough. The **Sa
   <div class="salience-card definitive">
     <div class="salience-type">Definitive</div>
     <div class="salience-attrs">Power + Legitimacy + Urgency</div>
-    <p>🔴 Top priority. All three attributes mean immediate, high-attention response. Example: Regulator with compliance deadline.</p>
+    <p> Top priority. All three attributes mean immediate, high-attention response. Example: Regulator with compliance deadline.</p>
   </div>
 </div>
 
@@ -165,13 +165,13 @@ Start: Does the stakeholder have Power?
         └── NO → NOT A STAKEHOLDER
 ```
 
-::: tip 💡 2026 Shift: The Community Stakeholder
+::: tip  2026 Shift: The Community Stakeholder
 In 2026, **Legitimacy** and **Urgency** are rising in importance. A community group may have low formal power but high legitimacy regarding environmental impact. Ignoring them is a major strategic risk.
 :::
 
 ---
 
-## 🧊 The Stakeholder Cube
+##  The Stakeholder Cube
 
 The Cube adds a critical third dimension to the Power/Interest Grid: **Attitude**.
 
@@ -196,13 +196,13 @@ The Cube adds a critical third dimension to the Power/Interest Grid: **Attitude*
 | Low | High | Resistant | Contain: Monitor, limit influence, clarify facts |
 | Low | Low | Any | Minimal: Broadcast comms only, watch for changes |
 
-::: info 🧠 Using the Cube on the Exam
+::: info  Using the Cube on the Exam
 If a stakeholder is **High Power** and **Resistant**, the best answers usually involve **direct engagement**, **root-cause discovery**, and an **updated engagement plan** (not avoidance or bypassing).
 :::
 
 ---
 
-## 📍 Influence Direction Model
+##  Influence Direction Model
 
 Understanding how stakeholders are influenced—and who influences them—helps you design effective engagement chains.
 
@@ -224,7 +224,7 @@ Understanding how stakeholders are influenced—and who influences them—helps 
 
 ---
 
-## 📊 Practical Mapping Examples
+##  Practical Mapping Examples
 
 ### Example 1: Enterprise Software Implementation
 
@@ -250,7 +250,7 @@ Understanding how stakeholders are influenced—and who influences them—helps 
 
 ---
 
-## 🔄 When to Re-Map Stakeholders
+##  When to Re-Map Stakeholders
 
 Stakeholder mapping is a living activity. Re-run your analysis when:
 
@@ -311,7 +311,7 @@ Stakeholder mapping is a living activity. Re-run your analysis when:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a high-power stakeholder is unhappy, you likely failed to <strong>Keep them Satisfied</strong>. The first step is to <strong>analyze their needs</strong> and update the <strong>Stakeholder Register</strong>.
+  <strong> Exam Insight:</strong> If a high-power stakeholder is unhappy, you likely failed to <strong>Keep them Satisfied</strong>. The first step is to <strong>analyze their needs</strong> and update the <strong>Stakeholder Register</strong>.
 </div>
 
 <style>

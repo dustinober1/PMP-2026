@@ -6,11 +6,11 @@
 
 Closure is not just the end of work; it is the **transfer of value**. In the 2026 PMP exam, your job as a Project Manager ends only when ownership is transferred, obligations are fulfilled, records are archived, and the organization can reuse what you learned.
 
-::: tip 🎯 What the Exam Tests
+::: tip  What the Exam Tests
 Closure questions typically target: **formal acceptance**, **handoff/transition readiness**, **procurement closure and claims**, **organizational process asset (OPA) updates**, and what to do when a project is **terminated early**.
 :::
 
-::: info 🔧 Templates (Copy/Paste)
+::: info  Templates (Copy/Paste)
 Use [9.3 Tools & Templates](./toolkit) for a closure checklist, handoff checklist, lessons learned agenda, and procurement closure checklist.
 :::
 
@@ -28,7 +28,7 @@ A project is ready to close when:
 
 ---
 
-## 📦 Key Closure Outputs (What You Produce)
+##  Key Closure Outputs (What You Produce)
 
 Think of closure as generating a “package of record” for the organization: proof of acceptance, proof of contractual/financial completion, and reusable knowledge.
 
@@ -45,7 +45,7 @@ Think of closure as generating a “package of record” for the organization: p
 
 ---
 
-## 🏁 The Final Protocol (High-Level Checklist)
+##  The Final Protocol (High-Level Checklist)
 
 A project must be closed formally, even if it was terminated early or canceled due to strategic shifts.
 
@@ -97,7 +97,7 @@ A project must be closed formally, even if it was terminated early or canceled d
 4) If criteria **were** met: document the refusal and escalate using the agreed **governance/contract** path (claims/dispute process if applicable).  
 5) If the customer wants “extras” not in scope: treat as a **change request**, not as “minor fixes.”  
 
-::: tip 💡 Exam Pattern: “Punch List”
+::: tip  Exam Pattern: “Punch List”
 Minor items can be documented as a punch list/warranty items **only if** acceptance criteria are met and the organization/customer agrees to accept with documented follow-up.
 :::
 
@@ -114,7 +114,7 @@ Typical handoff components:
 - **Support model**: warranty period, SLAs, escalation paths, service desk intake
 - **Benefits ownership**: who measures benefits after the project is closed (often the product/operations owner)
 
-#### 🧠 Benefits Realization Management (During Closure)
+####  Benefits Realization Management (During Closure)
 
 The **Business Case** promised benefits (e.g., "reduce support costs by 20%" or "increase customer satisfaction by 15%"). Your job at closure is to **transfer measurement responsibility**, not to prove benefits were achieved (that's post-project).
 
@@ -138,7 +138,7 @@ Responsibility transfer: From PM to Ops Director on 2026-02-15
 **On the Exam:**
 If a question asks "What should you do at closure?" and the answer involves "track benefits," make sure the **ownership is transferred** to someone else. The PM's role in benefits is to hand it off; the organization's role is to measure it post-closure.
 
-::: info 🔍 Exam Pattern
+::: info  Exam Pattern
 If operations cannot support the deliverable (missing training, missing runbooks, missing access), the project is not truly “done,” even if the software “works.”
 :::
 
@@ -152,11 +152,11 @@ Procurement closure typically includes:
 - Closing out open change orders, claims, and disputes
 - Procurement audit and vendor performance evaluation (an OPA input)
 
-::: warning ⚠️ Common Exam Trap
+::: warning  Common Exam Trap
 If a scenario mentions a **claim/dispute**, you generally **cannot** close the project until it's resolved (or formally transferred per organizational policy).
 :::
 
-#### 🧠 Claims & Disputes Management
+####  Claims & Disputes Management
 
 A **claim** is a seller's assertion for payment or relief that may be contractual or legal.
 
@@ -215,7 +215,7 @@ Archiving typically includes: plans/baselines, registers/logs, change history, a
 
 ---
 
-## 📊 Post-Project Review (The Governance Checkpoint)
+##  Post-Project Review (The Governance Checkpoint)
 
 A **Post-Project Review** is a formal governance event that occurs after project closure to evaluate overall project success and organizational learning. While **Lessons Learned** focus on process improvement, the **Post-Project Review** evaluates strategic outcomes.
 
@@ -265,7 +265,7 @@ The PM's job ends at handoff, but the **organization** continues tracking benefi
 │     │            │               │              │          │   │
 │     ▼            ▼               ▼              ▼          ▼   │
 │  ┌──────┐    ┌───────┐     ┌─────────┐    ┌────────┐   ┌─────┐ │
-│  │Handoff│──▶│Adoption│───▶│ Early   │───▶│ Full   │──▶│ ROI │ │
+│  │Handoff│──│Adoption│───│ Early   │───│ Full   │──│ ROI │ │
 │  │       │    │ Phase │     │ Results │    │Benefits│   │Review│ │
 │  └──────┘    └───────┘     └─────────┘    └────────┘   └─────┘ │
 │      │            │               │              │          │   │
@@ -276,13 +276,13 @@ The PM's job ends at handoff, but the **organization** continues tracking benefi
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-::: tip 💡 2026 Exam Pattern
+::: tip  2026 Exam Pattern
 Questions may ask "Who is responsible for benefits tracking after closure?" The answer is typically the **business owner, product owner, or operations** — NOT the project manager. The PM's role is to set up the tracking mechanism and hand it off.
 :::
 
 ---
 
-## 🔐 Knowledge Transfer and Documentation
+##  Knowledge Transfer and Documentation
 
 Effective knowledge transfer prevents "brain drain" when the project team disbands.
 
@@ -327,7 +327,7 @@ Effective knowledge transfer prevents "brain drain" when the project team disban
 
 ---
 
-## 🧠 Harvesting Lessons (The Most Valuable Output of Closure)
+##  Harvesting Lessons (The Most Valuable Output of Closure)
 
 The **lessons learned register** should be a living document throughout the project and then finalized at closure. A good lessons learned session is **blameless** and action-oriented.
 
@@ -341,7 +341,7 @@ The **lessons learned register** should be a living document throughout the proj
 | **Output format** | Structured register (topic, lesson, recommendation, owner) | Action items for next sprint |
 | **Reusability** | High (stored in OPA library for years) | Team-specific (may not apply to other teams) |
 
-#### 🧠 Effective Lessons Learned Session (Checklist)
+####  Effective Lessons Learned Session (Checklist)
 
 **Before the Session:**
 - [ ] Schedule it **while memory is fresh** (within 1-2 weeks of closure)
@@ -383,7 +383,7 @@ Questions about lessons learned often ask: "What is the OUTPUT of a lessons lear
 
 ---
 
-## 🚫 Canceled Projects (Premature Closure)
+##  Canceled Projects (Premature Closure)
 
 If a project is canceled mid-flight (e.g., strategy shift, budget cut, technical obsolescence), you do **not** just stop and walk away. You must perform **administrative closure**.
 
@@ -395,7 +395,7 @@ If a project is canceled mid-flight (e.g., strategy shift, budget cut, technical
 5.  **Release team**: Formally unassign them so they can work on new projects.
 6.  **Capture lessons learned**: Why did it fail? Or if it didn't fail (market changed), what did we learn about the market?
 
-#### 🧠 Canceled Project Scenarios (Common Exam Patterns)
+####  Canceled Project Scenarios (Common Exam Patterns)
 
 **Scenario A: Strategic Shift (Market Changed)**
 - Reason: "New competitor entered the market; this feature is no longer strategically important"
@@ -426,20 +426,20 @@ If a project is canceled mid-flight (e.g., strategy shift, budget cut, technical
 - [ ] Lessons learned session conducted (why canceled, what to do differently next time)
 - [ ] Final records filed in organizational repository (for audit and future reference)
 
-::: tip 💡 2026 Shift
+::: tip  2026 Shift
 The "sunk cost fallacy" (spending more because you already spent a lot) is a bias to avoid. **Closing a project that no longer provides value is a success**, not a failure, because it frees resources for higher-value work. On the exam, expect questions that frame cancellation as a positive governance decision.
 :::
 
 ---
 
-## 🔄 Methodology Nuances
+##  Methodology Nuances
 
 - **Predictive**: closure occurs at the end of each phase and at the final project conclusion (phase-gate acceptance + final closure).
 - **Agile**: “closure” happens continuously (reviews + retros). Final closure occurs when the product backlog is satisfied, funding ends, or the product is retired—*and you still do handoff/knowledge transfer*.
 
 ---
 
-## 📋 Contract Types & Closure Implications
+##  Contract Types & Closure Implications
 
 Different contract types create different closure considerations. The 2026 PMP exam expects you to understand how contract structure affects final payment, risk allocation, and dispute resolution.
 
@@ -508,7 +508,7 @@ Fee calculation:
 Total payment: $950,000 + $95,000 = $1,045,000
 ```
 
-::: tip 💡 Exam Pattern
+::: tip  Exam Pattern
 CPIF questions often ask you to calculate the final fee. Know the formula: **Final Fee = Target Fee ± (Target Cost - Actual Cost) × Seller Share**. Apply max/min caps.
 :::
 
@@ -524,7 +524,7 @@ CPIF questions often ask you to calculate the final fee. Know the formula: **Fin
 
 ---
 
-## 🏛️ Regulatory & Compliance Closure
+##  Regulatory & Compliance Closure
 
 Certain industries have specific closure requirements beyond standard project management practices. The 2026 PMP exam may present scenarios where regulatory compliance affects what "done" means.
 
@@ -571,13 +571,13 @@ Certain industries have specific closure requirements beyond standard project ma
 - [ ] Required regulatory filings submitted
 - [ ] Post-implementation monitoring plan established (if required)
 
-::: warning ⚠️ Exam Pattern
+::: warning  Exam Pattern
 If a scenario mentions a regulated industry (healthcare, finance, government), look for answers that include **compliance verification** and **documentation requirements** as part of closure. Skipping these steps is not an option.
 :::
 
 ---
 
-## 🔄 Agile Product Retirement
+##  Agile Product Retirement
 
 In agile environments, "closure" often means the product has reached the end of its lifecycle—either the backlog is complete, funding has ended, or the product is being retired. The PM (or delivery lead) still has formal closure responsibilities.
 
@@ -628,13 +628,13 @@ Even in continuous delivery environments, formal closure includes:
 | **In Progress** | Partially complete | Document state; decide: finish, defer, or abandon |
 | **Won't Do** | Explicitly rejected | Archive decision and reason |
 
-::: info 🔍 Exam Pattern
+::: info  Exam Pattern
 Agile closure questions often focus on **knowledge transfer** and **documentation** requirements—even when the delivery approach was informal. The organization needs to support the product after the team moves on.
 :::
 
 ---
 
-## 🤝 Stakeholder Sign-off Strategies
+##  Stakeholder Sign-off Strategies
 
 Getting stakeholder acceptance can be challenging, especially when expectations were unclear or relationships are strained. The 2026 PMP exam tests your ability to navigate difficult closure situations professionally.
 
@@ -685,9 +685,9 @@ DELIVERABLE: [Description]
 ACCEPTANCE DATE: [Date]
 
 ACCEPTANCE CRITERIA STATUS:
-☑ Criteria 1: [Description] - PASS (Evidence: [Link])
-☑ Criteria 2: [Description] - PASS (Evidence: [Link])
-☑ Criteria 3: [Description] - PASS (Evidence: [Link])
+ Criteria 1: [Description] - PASS (Evidence: [Link])
+ Criteria 2: [Description] - PASS (Evidence: [Link])
+ Criteria 3: [Description] - PASS (Evidence: [Link])
 
 KNOWN ISSUES (if any):
 - [Issue description] - Severity: Low - Resolution: Warranty period
@@ -712,7 +712,7 @@ When minor issues exist but core acceptance criteria are met:
 4. **Close the project** administratively
 5. **Track punch list to completion** (post-closure activity)
 
-::: tip 💡 Exam Pattern
+::: tip  Exam Pattern
 If a question describes a stakeholder refusing sign-off over a "minor issue," the correct answer usually involves:
 1. Verify if the issue was in the original requirements
 2. If yes: fix it before closure
@@ -767,7 +767,7 @@ If a question describes a stakeholder refusing sign-off over a "minor issue," th
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a project is complete but the customer refuses to sign off due to a "minor issue" not previously defined in the requirements, the PM must <strong>Refer to the Acceptance Criteria</strong>. If the criteria are met, the customer is contractually obligated to accept. If not, you must fix it.
+  <strong> Exam Insight:</strong> If a project is complete but the customer refuses to sign off due to a "minor issue" not previously defined in the requirements, the PM must <strong>Refer to the Acceptance Criteria</strong>. If the criteria are met, the customer is contractually obligated to accept. If not, you must fix it.
 </div>
 
 <style>

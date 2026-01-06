@@ -4,13 +4,13 @@
 
 Sustainability is one of the **six core principles of PMBOK 8th Edition** and a **major 2026 PMP exam topic**. The Business Environment domain now accounts for 26% of the exam, and sustainability is a central theme throughout.
 
-::: tip 🎯 PMP 2026 Context
+::: tip  PMP 2026 Context
 Sustainability has shifted from a "nice to have" to a strategic imperative. PMI expects certified project managers to integrate environmental, social, and economic considerations into every project decision.
 :::
 
 ---
 
-## 🌍 What is Sustainable Project Management?
+##  What is Sustainable Project Management?
 
 Sustainable project management means delivering project outcomes that create value not just for the organization, but for **people, planet, and prosperity**—without compromising the ability of future generations to meet their needs.
 
@@ -22,13 +22,13 @@ Sustainable project management means delivering project outcomes that create val
 | **Planet** (Environmental) | Resource consumption, emissions, biodiversity | Carbon footprint, waste reduction, green materials |
 | **Profit** (Economic) | Financial viability, long-term value | Cost efficiency, sustainable revenue, risk mitigation |
 
-::: info 📝 Exam Insight
+::: info  Exam Insight
 When a scenario mentions "long-term impact," "environmental considerations," or "community effects," look for answers that consider all three dimensions—not just the financial bottom line.
 :::
 
 ---
 
-## 📐 The P5 Framework (GPM Standard)
+##  The P5 Framework (GPM Standard)
 
 PMI partners with Green Project Management (GPM) and uses the **P5 Framework** to assess sustainability across five dimensions:
 
@@ -52,7 +52,7 @@ Closing → Benefits review; lessons learned; long-term impact assessment
 
 ---
 
-## 📊 ESG in Project Management
+##  ESG in Project Management
 
 **ESG (Environmental, Social, Governance)** criteria are increasingly used by organizations to evaluate projects and investments.
 
@@ -80,13 +80,13 @@ Closing → Benefits review; lessons learned; long-term impact assessment
 - **Stakeholder accountability**
 - **Risk management** including climate risk
 
-::: warning ⚠️ Exam Trap
+::: warning  Exam Trap
 Don't confuse project governance (how the project is managed) with ESG governance (broader organizational ethics and accountability). The 2026 exam tests both concepts.
 :::
 
 ---
 
-## 🔧 Sustainability Tools and Techniques
+##  Sustainability Tools and Techniques
 
 ### 1. Sustainability Impact Assessment (SIA)
 
@@ -134,7 +134,7 @@ Apply sustainability criteria to vendor selection and purchasing:
 
 ---
 
-## 📈 Sustainability Metrics and KPIs
+##  Sustainability Metrics and KPIs
 
 ### Environmental KPIs
 
@@ -164,7 +164,7 @@ Apply sustainability criteria to vendor selection and purchasing:
 
 ---
 
-## 🎯 Sustainability in Project Decisions
+##  Sustainability in Project Decisions
 
 ### Decision Framework: Sustainability Integration
 
@@ -187,13 +187,13 @@ When making project decisions, apply this checklist:
 | Budget pressure to cut sustainability features | Quantify long-term value; escalate to sponsor with impact analysis |
 | Community opposition to project | Increase engagement; conduct social impact assessment; adapt approach |
 
-::: tip 💡 Exam Strategy
+::: tip  Exam Strategy
 When a scenario describes conflict between cost/schedule and sustainability, the best answer usually involves **transparent communication**, **stakeholder engagement**, and **finding balanced solutions**—not simply choosing one over the other.
 :::
 
 ---
 
-## 🌱 Sustainability in Agile Projects
+##  Sustainability in Agile Projects
 
 Agile principles naturally support sustainability through waste reduction and continuous improvement.
 
@@ -220,7 +220,7 @@ Add sustainability criteria to your team's Definition of Done:
 
 ---
 
-## 🏛️ Regulatory Landscape
+##  Regulatory Landscape
 
 Project managers must be aware of evolving sustainability regulations:
 
@@ -235,13 +235,13 @@ Project managers must be aware of evolving sustainability regulations:
 | **GRI Standards** | Global | Sustainability reporting framework |
 | **Science Based Targets (SBTi)** | Global | Climate target setting |
 
-::: info 📝 Exam Insight
+::: info  Exam Insight
 You don't need to memorize specific regulations, but understand that project managers must consider **regulatory compliance** and **stakeholder expectations** regarding sustainability disclosures and practices.
 :::
 
 ---
 
-## 🔗 Connecting Sustainability to Other PMBOK 8 Principles
+##  Connecting Sustainability to Other PMBOK 8 Principles
 
 Sustainability integrates with all other principles:
 
@@ -255,7 +255,7 @@ Sustainability integrates with all other principles:
 
 ---
 
-## 📝 Knowledge Check Preview
+##  Knowledge Check Preview
 
 Sustainability questions on the 2026 PMP exam may include:
 

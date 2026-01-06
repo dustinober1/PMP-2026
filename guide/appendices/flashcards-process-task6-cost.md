@@ -2,7 +2,7 @@
 description: Flashcards for PMP Process Domain Task 6
 ---
 
-# ⚡ Process Task 6: Plan and Manage Finance
+#  Process Task 6: Plan and Manage Finance
 
 **Domain**: Process
 **Task**: Plan and manage finance
@@ -10,7 +10,7 @@ description: Flashcards for PMP Process Domain Task 6
 
 ---
 
-## 💰 Cost Planning Fundamentals
+##  Cost Planning Fundamentals
 
 ### Card 1
 **Front:**
@@ -86,7 +86,7 @@ What are **Direct Costs** vs. **Indirect Costs**?
 
 ---
 
-## 📈 Earned Value Management (EVM) Formulas
+##  Earned Value Management (EVM) Formulas
 
 ### Card 11
 **Front:**
@@ -164,7 +164,7 @@ The sum of all budgets established for the work to be performed (The total Cost 
 
 ---
 
-## 🔮 Forecasting (EAC, ETC, TCPI)
+##  Forecasting (EAC, ETC, TCPI)
 
 ### Card 21
 **Front:**
@@ -241,7 +241,7 @@ The project is **Behind Schedule** but **Under Budget**. (Maybe you haven't hire
 
 ---
 
-## 🧠 Scenarios: Financial Management
+##  Scenarios: Financial Management
 
 ### Card 31
 **Front:**
@@ -315,7 +315,7 @@ Technically **Funds Remaining** (BAC - AC), but **ETC** (Estimate to Complete) t
 
 ---
 
-## 🛠️ ITTOs of Cost Management
+##  ITTOs of Cost Management
 
 ### Card 41
 **Front:**
@@ -389,7 +389,7 @@ The allocation of the cost of a tangible asset over its useful life. Only releva
 
 ---
 
-## ⚡ Quick-Fire Cost Review
+##  Quick-Fire Cost Review
 
 ### Card 51
 **Front:**
@@ -463,7 +463,7 @@ It can. While it stabilizes resource usage, sticking to a specific resource limi
 
 ---
 
-## 🚦 Closing & Auditing Finance
+##  Closing & Auditing Finance
 
 ### Card 61
 **Front:**
@@ -537,7 +537,7 @@ Cost that remains constant regardless of production volume (e.g., rent, setup fe
 
 ---
 
-## 🔢 Calculation Practice (EAC)
+##  Calculation Practice (EAC)
 
 ### Card 71
 **Front:**

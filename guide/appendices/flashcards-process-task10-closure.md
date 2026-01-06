@@ -2,7 +2,7 @@
 description: Flashcards for PMP Process Domain Task 10
 ---
 
-# ⚡ Process Task 10: Manage Project Closure
+#  Process Task 10: Manage Project Closure
 
 **Domain**: Process
 **Task**: Manage project closure
@@ -10,7 +10,7 @@ description: Flashcards for PMP Process Domain Task 10
 
 ---
 
-## 🏁 Closure Fundamentals
+##  Closure Fundamentals
 
 ### Card 1
 **Front:**
@@ -84,7 +84,7 @@ Refer to the **Acceptance Criteria**. If met, you push for sign-off. The new fea
 
 ---
 
-## 🔒 Steps to Close
+##  Steps to Close
 
 ### Card 11
 **Front:**
@@ -164,7 +164,7 @@ A **Claim** (or Dispute). It must be resolved (Negotiation -> ADR -> Litigation)
 
 ---
 
-## 📜 Procurement Closure
+##  Procurement Closure
 
 ### Card 21
 **Front:**
@@ -238,7 +238,7 @@ What document provides formal notice that the contract is complete?
 
 ---
 
-## 🧠 Lessons Learned & Knowledge Transfer
+##  Lessons Learned & Knowledge Transfer
 
 ### Card 31
 **Front:**
@@ -313,7 +313,7 @@ Surveys, Interviews, Net Promoter Score (NPS).
 
 ---
 
-## 🧠 Scenarios: The End of the Road
+##  Scenarios: The End of the Road
 
 ### Card 41
 **Front:**
@@ -387,7 +387,7 @@ Typically by retiring the backlog or funding stream. Artifacts like the Definiti
 
 ---
 
-## ⚡ Quick-Fire Closure Review
+##  Quick-Fire Closure Review
 
 ### Card 51
 **Front:**
@@ -461,7 +461,7 @@ A checklist of criteria that must be met for a User Story or Increment to be con
 
 ---
 
-## 📂 Closure Documents
+##  Closure Documents
 
 ### Card 61
 **Front:**
@@ -535,7 +535,7 @@ What is the very last thing a PM does?
 
 ---
 
-## 🧠 Final Exam Tips
+##  Final Exam Tips
 
 ### Card 71
 **Front:**

@@ -7,7 +7,7 @@ Cost management ensures that the project is delivered within the approved budget
 
 ---
 
-## 🧭 The Cost Planning Flow (In Order)
+##  The Cost Planning Flow (In Order)
 
 ### Step 1: Plan Cost Management
 **Purpose**: Defines how costs will be estimated, budgeted, and controlled
@@ -33,7 +33,7 @@ Cost management ensures that the project is delivered within the approved budget
 
 ---
 
-## 🏗️ The Budget Architecture
+##  The Budget Architecture
 
 A PMP budget is built from the bottom up, with layers of protection.
 
@@ -83,7 +83,7 @@ A PMP budget is built from the bottom up, with layers of protection.
 
 ---
 
-## 📦 Cost Types You Should Recognize
+##  Cost Types You Should Recognize
 
 ### Direct vs. Indirect Costs
 
@@ -106,13 +106,13 @@ A PMP budget is built from the bottom up, with layers of protection.
 | **Sunk Cost** | Money already spent (cannot recover) | **Ignore** when making future decisions |
 | **Opportunity Cost** | Value of next best alternative not chosen | **Consider** when comparing options |
 
-::: warning ⚠️ Sunk Cost Trap
+::: warning  Sunk Cost Trap
 The exam often tests whether you understand that **sunk costs should not influence future decisions**. If $1M has been spent on a failing project, that $1M is irrelevant to the decision of whether to continue or cancel.
 :::
 
 ---
 
-## 📊 Estimation Techniques
+##  Estimation Techniques
 
 ### Estimation Methods Comparison
 
@@ -184,7 +184,7 @@ Cₑ = (80,000 + 4×100,000 + 150,000) / 6
 
 ---
 
-## 💰 The Total Project Budget
+##  The Total Project Budget
 
 **Total Budget = Cost Baseline + Management Reserve**
 
@@ -215,7 +215,7 @@ Just because you have the *budget* doesn't mean you have the *cash*.
 
 ---
 
-## 💎 Value Engineering
+##  Value Engineering
 
 **Definition**: Finding ways to deliver the same or better value at lower cost without sacrificing quality, performance, or sustainability.
 
@@ -237,7 +237,7 @@ Just because you have the *budget* doesn't mean you have the *cash*.
 | Premium materials | Standard materials | 25% | Verify quality meets requirements |
 | Senior consultants | Mix of senior + junior | 30% | More oversight needed |
 
-::: info 🛠️ 2026 Focus: ESG and Value Engineering
+::: info  2026 Focus: ESG and Value Engineering
 Modern value engineering considers not just cost but **sustainability (ESG)**:
 - Environmental impact of materials and operations
 - Social responsibility in supply chain
@@ -246,7 +246,7 @@ Modern value engineering considers not just cost but **sustainability (ESG)**:
 
 ---
 
-## 📈 Lifecycle Costing (Total Cost of Ownership)
+##  Lifecycle Costing (Total Cost of Ownership)
 
 Project decisions should consider the "Total Cost of Ownership," not just the project build cost.
 
@@ -271,7 +271,7 @@ Project decisions should consider the "Total Cost of Ownership," not just the pr
 
 ---
 
-## 📈 Earned Value Management (EVM): Complete Guide
+##  Earned Value Management (EVM): Complete Guide
 
 EVM is the exam's favorite way to test integrated planning (scope + schedule + cost). It compares planned progress vs. actual progress and cost.
 
@@ -337,7 +337,7 @@ All index formulas have EV on top:
 > 1.0 = Good, < 1.0 = Bad
 ```
 
-::: tip 💡 Quick Interpretation
+::: tip  Quick Interpretation
 If someone asks "Are we over or under budget?" → Check **CPI**
 If they ask "Are we ahead or behind schedule?" → Check **SPI**
 :::
@@ -485,7 +485,7 @@ TCPI = (BAC - EV) / (BAC - AC)
 
 ---
 
-## 📊 S-Curve and Cost Baseline Visualization
+##  S-Curve and Cost Baseline Visualization
 
 The cost baseline is often shown as an S-curve—cumulative planned expenditure over time.
 
@@ -512,7 +512,7 @@ $ Cumulative Cost
 
 ---
 
-## 🧠 Cost Planning Scenarios (Exam Practice)
+##  Cost Planning Scenarios (Exam Practice)
 
 ### Scenario 1: Identified Risk Occurs
 **Situation**: A risk from the risk register (equipment delay) triggers a $10,000 cost.
@@ -536,7 +536,7 @@ $ Cumulative Cost
 
 ---
 
-## 📚 Key Formulas & Quick Reference
+##  Key Formulas & Quick Reference
 
 ### Cost Formulas
 
@@ -608,7 +608,7 @@ $ Cumulative Cost
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If an unforeseen disaster (not in the risk register) occurs, you need <strong>Management Reserve</strong>. This requires a formal change request and <strong>Sponsor approval</strong>. For identified risks that occur, use <strong>Contingency Reserve</strong> under PM authority.
+  <strong> Exam Insight:</strong> If an unforeseen disaster (not in the risk register) occurs, you need <strong>Management Reserve</strong>. This requires a formal change request and <strong>Sponsor approval</strong>. For identified risks that occur, use <strong>Contingency Reserve</strong> under PM authority.
 </div>
 
 <style>

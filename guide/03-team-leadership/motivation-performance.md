@@ -6,7 +6,7 @@
 
 ---
 
-## 🏗️ Classic Motivational Theories
+##  Classic Motivational Theories
 You must master these theories for the exam—and more importantly, know when to apply each one.
 
 <div class="theory-grid">
@@ -104,7 +104,7 @@ You must master these theories for the exam—and more importantly, know when to
 
 ---
 
-## 📊 Theory Application Guide
+##  Theory Application Guide
 Knowing the theory is step one. Knowing when to apply it is what gets you PMP points.
 
 | Scenario | Theory to Apply | PM Action |
@@ -120,7 +120,7 @@ Knowing the theory is step one. Knowing when to apply it is what gets you PMP po
 
 ---
 
-## 🏆 The Art of Recognition
+##  The Art of Recognition
 Recognition is the cheapest, most powerful tool in your kit. But it must be done right.
 
 ### The Recognition Formula
@@ -142,7 +142,7 @@ Recognition is the cheapest, most powerful tool in your kit. But it must be done
 
 ---
 
-## 🧪 Motivation Diagnosis: What to Check First
+##  Motivation Diagnosis: What to Check First
 On the exam, the right answer is usually the one that diagnoses the environment before jumping to rewards or discipline.
 
 ### The Diagnostic Sequence
@@ -161,13 +161,13 @@ On the exam, the right answer is usually the one that diagnoses the environment 
 - [ ] Do they have autonomy over their work?
 - [ ] Is the work connected to a meaningful purpose?
 
-::: warning 🚫 Trap Answer: "Throw money at morale"
+::: warning  Trap Answer: "Throw money at morale"
 Bonuses and perks can reduce dissatisfaction, but they rarely create sustained motivation by themselves. If tools are broken and priorities are unclear, a bonus won't fix it.
 :::
 
 ---
 
-## 📉 When Performance Drops: The PMI-Friendly Response
+##  When Performance Drops: The PMI-Friendly Response
 If a team member is missing deadlines, follow this sequence:
 
 ### Step 1: Meet Privately
@@ -212,7 +212,7 @@ Involve functional manager/HR only after support fails.
 
 ---
 
-## 📋 The Performance Improvement Plan (PIP)
+##  The Performance Improvement Plan (PIP)
 A formal tool for serious, persistent performance issues.
 
 ### When to Use a PIP
@@ -231,13 +231,13 @@ A formal tool for serious, persistent performance issues.
 | **Consequences** | What happens if standards aren't met |
 | **Check-in Schedule** | Regular review meetings |
 
-::: warning ⚠️ Exam Note: PIP is Usually Wrong
+::: warning  Exam Note: PIP is Usually Wrong
 On the PMP exam, jumping to a PIP or formal discipline is rarely the right first answer. Look for coaching, clarification, and support first.
 :::
 
 ---
 
-## ⚖️ Fairness Is Fuel: Equity in Practice
+##  Fairness Is Fuel: Equity in Practice
 People compare their effort and rewards to others. If someone feels the system is unfair, motivation drops fast.
 
 ### Building Perceived Equity
@@ -255,7 +255,7 @@ People compare their effort and rewards to others. If someone feels the system i
 
 ---
 
-## 📈 Engagement Metrics: Measuring the Invisible
+##  Engagement Metrics: Measuring the Invisible
 High-performing teams track more than just velocity.
 
 ### Leading Indicators of Engagement
@@ -275,7 +275,7 @@ High-performing teams track more than just velocity.
 
 ---
 
-## 🔄 The Motivation Maintenance Cycle
+##  The Motivation Maintenance Cycle
 Motivation is not a one-time fix. It requires ongoing attention.
 
 ### Monthly Maintenance
@@ -337,7 +337,7 @@ Motivation is not a one-time fix. It requires ongoing attention.
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a team is well-paid but morale is low, giving them a bonus is the wrong answer. According to Herzberg, money is hygiene. To fix morale, you must give them <strong>Growth</strong> (Training/Stretch assignments) or <strong>Autonomy</strong> (Self-Direction) or <strong>Recognition</strong> (Meaningful acknowledgment).
+  <strong> Exam Insight:</strong> If a team is well-paid but morale is low, giving them a bonus is the wrong answer. According to Herzberg, money is hygiene. To fix morale, you must give them <strong>Growth</strong> (Training/Stretch assignments) or <strong>Autonomy</strong> (Self-Direction) or <strong>Recognition</strong> (Meaningful acknowledgment).
 </div>
 
 <style>

@@ -31,7 +31,7 @@
   }
 </style>
 
-## 📊 Topic Summary & ECO Mapping
+##  Topic Summary & ECO Mapping
 
 | Enabler | Question Numbers | Total |
 | :--- | :--- | :--- |
@@ -43,7 +43,7 @@
 | **6. Determine leadership style** | 1, 9, 16, 23, 31, 38, 45 | 7 |
 | **7. Establish roles & responsibilities** | 7, 14, 21, 26, 32, 39, 46, 50 | 8 |
 
-## 📈 Database Stats
+##  Database Stats
 *   **Methodology Split**: 40% Predictive, 32% Agile, 28% Hybrid.
 *   **Difficulty Level**: 4.5/5 (Analysis & Evaluation).
 *   **Correct Answer Length Average**: 16 words.
@@ -1449,7 +1449,7 @@ What should the Project Manager do to establish clearer and more efficient roles
 
 </details>
 
-## 🏆 Key Takeaways for People Task 3
+##  Key Takeaways for People Task 3
 
 1.  **Safety First**: Psychological safety is the #1 predictor of success. If a team is quiet or hiding mistakes, you are failing as a leader.
 2.  **Adapt Your Style**: Leadership isn't a static trait; it's a response to team maturity. Use Tuckman's Model and Situational Leadership (SLII) to match your style to the team's current stage.

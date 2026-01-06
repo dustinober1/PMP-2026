@@ -1423,7 +1423,7 @@ Which tool or technique was MOST likely responsible for this high level of visio
 
 ---
 
-## 📊 Post-Exam Analysis & Stats
+##  Post-Exam Analysis & Stats
 
 ### Topic Summary Table
 
@@ -1447,7 +1447,7 @@ Which tool or technique was MOST likely responsible for this high level of visio
 *   **Methodology Split:** 34% Predictive, 32% Agile, 34% Hybrid
 *   **Difficulty Level:** Level 4/5 (Analysis & Evaluation)
 
-### 💡 Key Takeaways: Vision & Alignment
+###  Key Takeaways: Vision & Alignment
 
 1.  **The Charter is a Filter:** Use the project charter's high-level goals and success criteria as the primary filter for all change requests and prioritization debates.
 2.  **Connect to the "Why":** When motivation drops, connect the team directly to the end-user or the business value (the "Value Thread") to re-energize the vision.

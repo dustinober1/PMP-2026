@@ -6,7 +6,7 @@ While Project Management is about "Doing things right," **Portfolio Management**
 
 ---
 
-## 🧩 What a Portfolio Actually Includes
+##  What a Portfolio Actually Includes
 A portfolio can include:
 - **Projects** (temporary work with defined outcomes)
 - **Programs** (coordinated projects for benefits and synergy)
@@ -14,7 +14,7 @@ A portfolio can include:
 
 Portfolio management focuses on **investment decisions**: start, stop, pause, accelerate, re-scope, or re-fund.
 
-## 🧭 The Hierarchy of Work
+##  The Hierarchy of Work
 Understanding the distinction is vital for the exam.
 
 <div class="hierarchy-grid">
@@ -49,7 +49,7 @@ Understanding the distinction is vital for the exam.
 
 ---
 
-## 🗳️ Portfolio Governance (How Decisions Get Made)
+##  Portfolio Governance (How Decisions Get Made)
 Most organizations run a repeatable portfolio cycle:
 
 1. **Intake**: Ideas enter via a request, business case, or strategic initiative.
@@ -60,28 +60,28 @@ Most organizations run a repeatable portfolio cycle:
 6. **Rebalance**: Reallocate budget/people when strategy or constraints change.
 7. **Retire**: Stop low-value work and close projects cleanly.
 
-::: tip 💡 Exam Clue
+::: tip  Exam Clue
 If the question mentions “re-prioritizing the portfolio” or “reallocating resources across projects,” you are in **portfolio** territory, not project-level change control.
 :::
 
 ---
 
-## ⚖️ Portfolio Balancing
+##  Portfolio Balancing
 A healthy portfolio is a balanced mix of investments.
 
 <div class="balance-grid">
   <div class="balance-card">
-    <div class="balance-icon">🚀</div>
+    <div class="balance-icon"></div>
     <div class="balance-title">Transform</div>
     <p>High-risk, high-reward "Moonshots" that create new markets.</p>
   </div>
   <div class="balance-card">
-    <div class="balance-icon">📈</div>
+    <div class="balance-icon"></div>
     <div class="balance-title">Grow</div>
     <p>Medium-risk enhancements to expand existing products.</p>
   </div>
   <div class="balance-card">
-    <div class="balance-icon">💡</div>
+    <div class="balance-icon"></div>
     <div class="balance-title">Run</div>
     <p>Low-risk operational maintenance (Keep the lights on).</p>
   </div>
@@ -89,7 +89,7 @@ A healthy portfolio is a balanced mix of investments.
 
 ---
 
-## 🎯 Common Portfolio Prioritization Criteria (What Gets Weighted)
+##  Common Portfolio Prioritization Criteria (What Gets Weighted)
 | Criterion | What it means | Example |
 | :-- | :-- | :-- |
 | **Strategic fit** | Direct contribution to objectives | Supports “expand into EU market” |
@@ -102,14 +102,14 @@ A healthy portfolio is a balanced mix of investments.
 
 ---
 
-## ⚡ Resource Capacity
+##  Resource Capacity
 The hardest part of portfolio management is the **Resource Constraint**.
 *   **WIP Limits**: Reducing the number of active projects to prevent "Resource Peanut-Butter" (spreading people so thin they perform poorly everywhere).
 *   **Bottlenecks**: Identifying scarce skills (e.g., Security Architects) that throttle the entire portfolio.
 
 ---
 
-## 📊 Portfolio Health Signals (What Leaders Watch)
+##  Portfolio Health Signals (What Leaders Watch)
 - **Value delivery vs plan** (benefits realized, not just milestones hit)
 - **Throughput** (how many initiatives finish vs start)
 - **Resource utilization vs burnout risk**
@@ -182,7 +182,7 @@ The hardest part of portfolio management is the **Resource Constraint**.
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If your project is "Green" (on time/budget) but the Portfolio Manager asks to cancel it, do not argue. The strategy may have shifted, making your project irrelevant. Your role is to execute an orderly administrative closure.
+  <strong> Exam Insight:</strong> If your project is "Green" (on time/budget) but the Portfolio Manager asks to cancel it, do not argue. The strategy may have shifted, making your project irrelevant. Your role is to execute an orderly administrative closure.
 </div>
 
 <style>

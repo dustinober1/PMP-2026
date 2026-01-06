@@ -6,7 +6,7 @@ A high-performing team is more than just a group of talented individuals; it is 
 
 ---
 
-## 🏗️ Skills Matrix & Composition
+##  Skills Matrix & Composition
 Before the work begins, the Project Manager must ensure the team has the right mix of capabilities.
 
 <div class="formation-grid">
@@ -30,7 +30,7 @@ Before the work begins, the Project Manager must ensure the team has the right m
 
 ---
 
-## 🧮 The Skills Matrix: A Deep Dive
+##  The Skills Matrix: A Deep Dive
 The exam often describes a team that is "missing a skill" or "struggling with new technology." Your first move is to make the gap visible.
 
 ### Sample Skills Matrix Template
@@ -40,7 +40,7 @@ The exam often describes a team that is "missing a skill" or "struggling with ne
 | API integration | 3 | 2 | 1 | 1 | 3 |
 | Test automation | 1 | 0 | 3 | 0 | 2 |
 | Stakeholder facilitation | 1 | 1 | 0 | 3 | 2 |
-| Cloud security | 0 | 0 | 1 | 0 | 3 ⚠️ |
+| Cloud security | 0 | 0 | 1 | 0 | 3  |
 
 **Rating Scale:**
 - **0** = No capability
@@ -58,13 +58,13 @@ The exam often describes a team that is "missing a skill" or "struggling with ne
    - **Gap = 3**: Acquire externally (hire, contract, or vendor)
    - **Alternative**: Adjust scope, schedule, or transfer risk to vendor
 
-::: tip 💡 Exam Pattern: Make the Gap Visible First
+::: tip  Exam Pattern: Make the Gap Visible First
 The PMI-preferred sequence is: **Assess → Options → Decide → Execute**. Don't jump straight to hiring or escalating—first demonstrate you understand the need with data.
 :::
 
 ---
 
-## 📊 Resource Histograms & Staffing
+##  Resource Histograms & Staffing
 A **Resource Histogram** is a bar chart showing planned resource usage over time. It answers: "When do we need people, and how much?"
 
 ### Key Uses
@@ -78,13 +78,13 @@ A **Resource Histogram** is a bar chart showing planned resource usage over time
 | **Resource Leveling** | Delays tasks to resolve overallocation | **Can extend** the schedule | When resources are the constraint |
 | **Resource Smoothing** | Adjusts within float only | **Does not extend** the schedule | When schedule is the constraint |
 
-::: warning ⚠️ Exam Trap: Leveling Can Change the Critical Path
+::: warning  Exam Trap: Leveling Can Change the Critical Path
 If you level resources, non-critical activities may become critical. Re-analyze the schedule after leveling.
 :::
 
 ---
 
-## 📋 The RACI Matrix: Clarity of Ownership
+##  The RACI Matrix: Clarity of Ownership
 The gold standard for defining roles and responsibilities. RACI prevents the #1 cause of team dysfunction: confusion about who decides and who does.
 
 *   **R (Responsible)**: The "doer." The person who actually performs the task.
@@ -110,13 +110,13 @@ The gold standard for defining roles and responsibilities. RACI prevents the #1 
 | **Lots of C's** | Decision paralysis, too many cooks | Reduce to only essential consulted parties |
 | **R without A** | Doer without decision authority | Clarify who has final say |
 
-::: danger 🚦 Exam Trap: Multiple Accountables
+::: danger  Exam Trap: Multiple Accountables
 If an exam scenario shows multiple people being "Accountable" for the same task, it's a recipe for confusion. There should only be **one** person ultimately responsible for the outcome.
 :::
 
 ---
 
-## 🤝 Negotiating for Resources in Matrix Organizations
+##  Negotiating for Resources in Matrix Organizations
 In matrix organizations, the PM has responsibility but often lacks direct authority over team members. Success depends on influence, not power.
 
 ### The Negotiation Framework
@@ -133,13 +133,13 @@ In matrix organizations, the PM has responsibility but often lacks direct author
 | **Consultation** | Involve the other party in the solution | "How would you suggest we cover the gap given your team's current load?" |
 | **Exchange** | Offer something in return | "If you lend me Alex for 3 sprints, I can free up training budget for your certification program." |
 
-::: tip ✅ Exam Pattern: Present choices, not complaints
+::: tip  Exam Pattern: Present choices, not complaints
 The strongest PM answer is usually: identify the gap with data (skills/capacity), propose options (tradeoffs), then escalate only if needed.
 :::
 
 ---
 
-## 🧭 Team Acquisition Options (How You Actually Staff a Project)
+##  Team Acquisition Options (How You Actually Staff a Project)
 When a scenario says you "need a specialist" or "cannot get a key resource," think through these options in order:
 
 | Method | Description | Pros | Cons |
@@ -159,7 +159,7 @@ When a scenario says you "need a specialist" or "cannot get a key resource," thi
 
 ---
 
-## 🚀 Onboarding: Turning "Names on a Roster" Into a Team
+##  Onboarding: Turning "Names on a Roster" Into a Team
 If you want to avoid a long Storming phase, do an intentional kickoff:
 
 ### The First Week Checklist
@@ -178,7 +178,7 @@ If you want to avoid a long Storming phase, do an intentional kickoff:
 
 ---
 
-## 🌐 Organizational Structures and PM Authority
+##  Organizational Structures and PM Authority
 The type of organization significantly impacts your power as a PM.
 
 | Structure | PM Authority | Resource Control | Team Allocation |
@@ -189,13 +189,13 @@ The type of organization significantly impacts your power as a PM.
 | **Strong Matrix** | Moderate to High | PM has more say | Dedicated likely |
 | **Projectized** | High to Total | PM controls | Fully dedicated |
 
-::: info 💡 Pro Tip: Know Your Context
+::: info  Pro Tip: Know Your Context
 Many PMP questions ask what to do when "the PM has limited authority." The answer usually involves **negotiation**, **influence**, and **collaboration**—not demanding or escalating immediately.
 :::
 
 ---
 
-## 🧬 Diversity, Equity & Inclusion (DEI) in Teams
+##  Diversity, Equity & Inclusion (DEI) in Teams
 High-performing teams are diverse by design.
 
 ### Why Diversity Matters for Projects
@@ -240,7 +240,7 @@ High-performing teams are diverse by design.
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If the team is confused about who does what, the first step is to create or review the <strong>RACI Matrix</strong>. If the team is missing a critical skill, the first step is to perform a <strong>Gap Analysis</strong>. If the PM lacks authority, the answer is <strong>negotiate and influence</strong>, not escalate.
+  <strong> Exam Insight:</strong> If the team is confused about who does what, the first step is to create or review the <strong>RACI Matrix</strong>. If the team is missing a critical skill, the first step is to perform a <strong>Gap Analysis</strong>. If the PM lacks authority, the answer is <strong>negotiate and influence</strong>, not escalate.
 </div>
 
 <style>

@@ -33,7 +33,7 @@ Master the technical documentation and mathematical foundations of project manag
 
 ---
 
-## ⚡ Mastery Flashcards
+##  Mastery Flashcards
 
 <div class="appendix-grid">
   <div class="appendix-card">
@@ -91,7 +91,7 @@ These pages are designed to be used as **active study tools**, not just passive 
 - **Formulas**: Don't just memorize; understand the *Implication*. If CPI is 0.8, what does that *feel* like for the budget?
 - **Artifacts**: Understand the *Flow*. When does a risk become an issue? When does a change request hit the log?
 
-::: tip 💡 Recommendation
+::: tip  Recommendation
 Keep the **Formula Mastery** page open while taking practice exams. Once you can solve the math without looking, you are ready for the technical side of the PMP.
 :::
 

@@ -2,7 +2,7 @@
 description: Flashcards for PMP Business Domain Task 7
 ---
 
-# 🌍 Business Task 7: External Business Environment
+#  Business Task 7: External Business Environment
 
 **Domain**: Business Environment
 **Task**: Evaluate and address external business environment changes for impact on scope
@@ -10,7 +10,7 @@ description: Flashcards for PMP Business Domain Task 7
 
 ---
 
-## 🌍 PESTLE Framework
+##  PESTLE Framework
 
 ### Card 1
 **Front:**
@@ -84,7 +84,7 @@ This is a **Stop-Work Trigger**. Assess immediately, Notify Sponsor, and likely 
 
 ---
 
-## 🔄 Impact Assessment
+##  Impact Assessment
 
 ### Card 11
 **Front:**
@@ -158,7 +158,7 @@ The risk that the technology you are building on becomes outdated before the pro
 
 ---
 
-## 🧪 Compliance & Standards
+##  Compliance & Standards
 
 ### Card 21
 **Front:**
@@ -233,7 +233,7 @@ Strategic responses to external opportunities or threats (Sharing the risk/rewar
 
 ---
 
-## ⚡ Quick-Fire Review
+##  Quick-Fire Review
 
 ### Card 31
 **Front:**

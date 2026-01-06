@@ -1461,7 +1461,7 @@ What should the project manager do FIRST?
 
 ---
 
-## 📊 Final Review & Database Stats
+##  Final Review & Database Stats
 
 ### Topic Summary Table
 
@@ -1488,7 +1488,7 @@ What should the project manager do FIRST?
 | **Methodology Split** | Predictive (40%), Agile (26%), Hybrid (34%) |
 | **Difficulty Level** | 4.2/5 (Average) |
 
-### 💡 Procurement Pro-Tips
+###  Procurement Pro-Tips
 
 1.  **Contract is King:** In any dispute or clarification, always look at the Procurement Statement of Work (SOW) and the contract first. Verbal agreements are not binding in procurement questions.
 2.  **Risk Allocation:** Fixed-Price (FFP) shifts risk to the seller; Cost-Reimbursable (CPFF) shifts risk to the buyer. Use T&M only for short-term or emergency needs with a Not-to-Exceed (NTE) ceiling.

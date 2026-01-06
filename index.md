@@ -16,22 +16,22 @@ hero:
       link: /guide/11-exam-prep/
 
 features:
-  - icon: 📚
+  - icon: 
     title: Comprehensive Content
     details: 10 in-depth chapters covering all three domains — People (33%), Process (41%), and Business Environment (26%)
-  - icon: 🎯
+  - icon: 
     title: Exam-Focused Practice
     details: 3 exam-style practice exams with detailed explanations to build speed, confidence, and the PMI mindset
-  - icon: 🔄
+  - icon: 
     title: All Methodologies
     details: Master predictive, agile, and hybrid approaches as tested in the 2026 exam with real-world scenarios
-  - icon: ✨
+  - icon: 
     title: Interactive Learning
     details: Built-in knowledge checks, progress tracking, and immediate feedback to reinforce your understanding
-  - icon: 🤖
+  - icon: 
     title: AI & Innovation
     details: New content on AI essentials for project professionals — a key addition to the 2026 exam blueprint
-  - icon: 📱
+  - icon: 
     title: Study Anywhere
     details: Fully responsive design optimized for desktop, tablet, and mobile — study on any device, anytime
 ---
@@ -295,7 +295,7 @@ import { withBase } from 'vitepress'
     <div class="change-label">Enhanced focus on AI & data</div>
   </div>
   <div class="change-card">
-    <div class="change-number">🌱</div>
+    <div class="change-number"></div>
     <div class="change-label">Sustainability emphasis</div>
   </div>
 </div>
@@ -305,7 +305,7 @@ import { withBase } from 'vitepress'
 <div class="domains-section">
   <div class="domain-bar">
     <div class="domain-label">
-      <span class="domain-name">👥 People</span>
+      <span class="domain-name"> People</span>
       <span class="domain-percent">33%</span>
     </div>
     <div class="domain-track">
@@ -314,7 +314,7 @@ import { withBase } from 'vitepress'
   </div>
   <div class="domain-bar">
     <div class="domain-label">
-      <span class="domain-name">⚙️ Process</span>
+      <span class="domain-name"> Process</span>
       <span class="domain-percent">41%</span>
     </div>
     <div class="domain-track">
@@ -323,14 +323,14 @@ import { withBase } from 'vitepress'
   </div>
   <div class="domain-bar">
     <div class="domain-label">
-      <span class="domain-name">🏢 Business Environment</span>
+      <span class="domain-name"> Business Environment</span>
       <span class="domain-percent">26%</span>
     </div>
     <div class="domain-track">
       <div class="domain-fill" style="width: 26%;"></div>
     </div>
   </div>
-  <p class="domain-note">📈 <strong>Key Change:</strong> Business Environment increased from 8% to 26%, reflecting the strategic role of project managers</p>
+  <p class="domain-note"> <strong>Key Change:</strong> Business Environment increased from 8% to 26%, reflecting the strategic role of project managers</p>
 </div>
 
 ## How to Use This Guide

@@ -7,7 +7,7 @@ High-performing teams don't assume how they will work; they define it. The **Tea
 
 ---
 
-## 📜 The Team Charter
+##  The Team Charter
 A living document created **by the team, for the team**. It sets the guardrails for a high-trust culture.
 
 <div class="charter-grid">
@@ -31,7 +31,7 @@ A living document created **by the team, for the team**. It sets the guardrails 
 
 ---
 
-## 🧾 Comprehensive Team Charter Template
+##  Comprehensive Team Charter Template
 Your charter should be short, clear, and reviewed regularly. Use this checklist as a starting point:
 
 ### Section 1: Purpose & Context
@@ -88,7 +88,7 @@ Your charter should be short, clear, and reviewed regularly. Use this checklist 
 
 ---
 
-## 🚦 Ground Rules: The Behavioral Contract
+##  Ground Rules: The Behavioral Contract
 Ground rules are only effective if they follow these three principles:
 1. **Collaborative**: The team must write them to "own" them
 2. **Visible**: Displayed prominently in the physical or digital project space
@@ -115,7 +115,7 @@ Ground rules are only effective if they follow these three principles:
 
 ---
 
-## 📝 Definition of Done (DoD) vs. Acceptance Criteria (AC)
+##  Definition of Done (DoD) vs. Acceptance Criteria (AC)
 These are critical "agreements" that often confuse students and cause rework in real projects.
 
 | Aspect | Definition of Done (DoD) | Acceptance Criteria (AC) |
@@ -137,13 +137,13 @@ These are critical "agreements" that often confuse students and cause rework in 
 - [ ] Deployed to staging environment
 - [ ] Product Owner sign-off (if applicable)
 
-::: info 🛠️ 2026 Focus: Adaptive Agreements
+::: info  2026 Focus: Adaptive Agreements
 In an Agile or Hybrid context, the Team Charter is not static. It is reviewed during every **Retrospective**. If a rule (e.g., "Meetings at 9:00 AM") is causing friction (e.g., child-care commutes), the team changes it immediately to optimize flow.
 :::
 
 ---
 
-## 🗳️ Decision Models: When to Use Which
+##  Decision Models: When to Use Which
 Decision rules prevent "hidden rework" caused by repeating the same debate.
 
 | Model | Best When | How It Works | Risk |
@@ -165,7 +165,7 @@ A powerful alternative to consensus: "Do you have a **principled objection** to 
 
 ---
 
-## 🧯 Conflict & Escalation Path (Put This in the Charter)
+##  Conflict & Escalation Path (Put This in the Charter)
 Conflict is inevitable. Chaos is optional.
 
 ### The Escalation Ladder
@@ -187,7 +187,7 @@ If a conflict isn't resolved within 24 hours of surfacing, escalate to the next 
 
 ---
 
-## 🔄 Charter Maintenance: Keep It Alive
+##  Charter Maintenance: Keep It Alive
 A charter that's created and forgotten is worthless.
 
 ### Review Triggers
@@ -233,7 +233,7 @@ A charter that's created and forgotten is worthless.
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a team is having constant minor behavioral issues (e.g., people interrupting each other), the correct action is to <strong>refer the team to the Ground Rules</strong> or facilitate a session to <strong>update the Team Charter</strong>. If they're confused about what "done" means, they need a <strong>Definition of Done</strong>.
+  <strong> Exam Insight:</strong> If a team is having constant minor behavioral issues (e.g., people interrupting each other), the correct action is to <strong>refer the team to the Ground Rules</strong> or facilitate a session to <strong>update the Team Charter</strong>. If they're confused about what "done" means, they need a <strong>Definition of Done</strong>.
 </div>
 
 <style>

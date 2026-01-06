@@ -17,7 +17,7 @@ If you can’t answer these, you aren’t ready to plan.
 4.  **What are the boundaries?** Constraints (facts) and assumptions (beliefs).
 5.  **How will we deliver?** Predictive vs Agile vs Hybrid—based on risk and uncertainty.
 
-::: info 🤝 The Other Initiation Process
+::: info  The Other Initiation Process
 While this chapter focuses on authorization and strategy, the **Initiating Process Group** formally includes two processes:
 1.  **Develop Project Charter** (Covered here)
 2.  **Identify Stakeholders** (Covered in **[Chapter 4: Stakeholder & Communication](/guide/04-stakeholder/)**)
@@ -61,10 +61,10 @@ You cannot start a project without knowing who cares about it.
 
 ## Key Takeaways
 By the end of this chapter, you will be able to:
-- ✅ **Justify the "Why"**: Use financial metrics and strategic alignment to defend project selection.
-- ✅ **Establish Power**: Define the PM's role and authority via the Project Charter.
-- ✅ **Set Boundaries**: Distinguish between Assumptions (beliefs) and Constraints (limitations).
-- ✅ **Select Approach**: Apply the Tailoring framework to choose Agile vs. Predictive at the start.
+-  **Justify the "Why"**: Use financial metrics and strategic alignment to defend project selection.
+-  **Establish Power**: Define the PM's role and authority via the Project Charter.
+-  **Set Boundaries**: Distinguish between Assumptions (beliefs) and Constraints (limitations).
+-  **Select Approach**: Apply the Tailoring framework to choose Agile vs. Predictive at the start.
 
 <style>
 .section-grid {

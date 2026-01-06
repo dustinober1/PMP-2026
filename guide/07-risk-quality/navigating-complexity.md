@@ -17,13 +17,13 @@ On the PMP exam, complexity shows up as questions where the “best” answer de
 | Risk profile | Known-unknowns dominate | Unknown-unknowns are common |
 | Example | Upgrading a known system | New product + shifting market needs |
 
-::: tip 💡 Exam Pattern
+::: tip  Exam Pattern
 If the scenario says “requirements will evolve” or “no one knows the solution yet,” avoid answers that rely on “more detailed upfront planning.” Favor **iterative delivery**, **experiments**, and **frequent feedback**.
 :::
 
 ---
 
-## 🧭 The Cynefin Framework (The “Compass”)
+##  The Cynefin Framework (The “Compass”)
 Cynefin helps you choose the right management style for the environment.
 
 <div class="cynefin-grid">
@@ -55,17 +55,17 @@ The Stacey Matrix maps projects based on **Agreement** (on requirements) and **C
 *   **Low Agreement + Low Certainty** = Chaos/Complex (Adaptive works).
 *   **The Zone of Complexity**: The middle ground where hybrid/agile approaches thrive.
 
-::: warning ⚠️ “Disorder” (hidden fifth state)
+::: warning  “Disorder” (hidden fifth state)
 When people disagree on which domain you’re in, you’re effectively in **disorder**. The fix is **sensemaking**: align on what is known, what is unknown, and what must be tested.
 :::
 
-::: tip 🧰 Quick Reference
+::: tip  Quick Reference
 For a one-page Cynefin “quick pick,” see [7.4 Tools & Templates](./toolkit).
 :::
 
 ---
 
-## 🏗️ The 3 Pillars of Complexity
+##  The 3 Pillars of Complexity
 Most “project messiness” stems from these:
 
 1.  **Human behavior**: politics, incentives, emotions, informal power.
@@ -78,7 +78,7 @@ Most “project messiness” stems from these:
 
 ---
 
-## 🧠 Leadership for Complexity
+##  Leadership for Complexity
 You cannot "command and control" your way through complexity. You need Power Skills:
 
 ### Adaptive Leadership (Situational Leadership)
@@ -118,7 +118,7 @@ Complexity guarantees some experiments will fail. Resilient teams:
 
 ---
 
-## 🔬 Systems Thinking (How PMs Prevent Cascading Failure)
+##  Systems Thinking (How PMs Prevent Cascading Failure)
 Systems thinking is seeing the **relationships** (not just tasks). A system is more than the sum of its parts—behavior emerges from interactions.
 
 ### Feedback Loops (The Core of System Behavior)
@@ -176,7 +176,7 @@ Temperature rises → Heater turns off → Balance maintained
 
 ---
 
-## 🎯 Theory of Constraints (TOC)
+##  Theory of Constraints (TOC)
 
 The Theory of Constraints states that every system has at least one constraint (bottleneck) that limits its performance. Improving anything other than the constraint will not improve overall system performance.
 
@@ -215,7 +215,7 @@ To reduce lead time:
 
 ---
 
-## 🔄 System Archetypes (Recurring Patterns)
+##  System Archetypes (Recurring Patterns)
 
 System archetypes are common patterns of behavior that repeat across different systems. Recognizing them helps you choose appropriate interventions.
 
@@ -304,7 +304,7 @@ Problem → Fix → Improvement (short-term)
 
 ---
 
-## 🔄 Organizational Change Management
+##  Organizational Change Management
 
 Complex projects often require changing how people work. Understanding change management is essential for success.
 
@@ -351,7 +351,7 @@ For large-scale organizational change:
 
 ---
 
-## 📊 Complexity Assessment Matrix
+##  Complexity Assessment Matrix
 
 Use this framework to score project complexity and guide your delivery approach.
 
@@ -378,13 +378,13 @@ Use this framework to score project complexity and guide your delivery approach.
 | **22-28** | High | Agile/Adaptive essential |
 | **29-35** | Very High | Probe with experiments; expect pivots |
 
-::: tip 💡 Exam Pattern
+::: tip  Exam Pattern
 When an exam question describes a project with "changing requirements, new technology, and conflicting stakeholders," the answer is almost never "more detailed upfront planning."
 :::
 
 ---
 
-## ⚠️ Complexity’s Impact on Risk & Quality (Why This Chapter Is Combined)
+##  Complexity’s Impact on Risk & Quality (Why This Chapter Is Combined)
 Complexity increases both:
 
 - **Risk**: because uncertainty is higher and prediction is weaker
@@ -397,8 +397,8 @@ So the best “complexity response” is often a combination of:
 
 ---
 
-## 🧰 Complexity Playbook (What to Do When Things Feel Unpredictable)
-::: tip 💡 Strategies for complexity
+##  Complexity Playbook (What to Do When Things Feel Unpredictable)
+::: tip  Strategies for complexity
 - **Iterative loops**: short cycles to learn fast
 - **Safe-to-fail experiments**: test hypotheses before committing the full budget
 - **Diversity of thought**: invite dissenting SMEs to surface blind spots
@@ -414,7 +414,7 @@ If the environment is described as “out of control”:
 
 ---
 
-## ✅ Exam Scenarios: “First Action” Clues
+##  Exam Scenarios: “First Action” Clues
 | If the question says… | Best first move is usually… |
 |---|---|
 | “No time / crisis / production outage” | **Act to stabilize**, then reassess |
@@ -426,7 +426,7 @@ If the environment is described as “out of control”:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If the environment is described as “high uncertainty with no clear solution,” the BEST approach is <strong>iterative/adaptive</strong>. Avoid answers that suggest “freeze requirements and plan in detail” when the situation is clearly complex.
+  <strong> Exam Insight:</strong> If the environment is described as “high uncertainty with no clear solution,” the BEST approach is <strong>iterative/adaptive</strong>. Avoid answers that suggest “freeze requirements and plan in detail” when the situation is clearly complex.
 </div>
 
 <style>

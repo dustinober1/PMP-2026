@@ -12,7 +12,7 @@ In the PMP exam context, **Quality** is defined as the *degree to which a set of
 
 ---
 
-## 💎 Quality vs. Grade
+##  Quality vs. Grade
 A common PMP trap is confusing these two concepts.
 
 <div class="quality-grid">
@@ -28,7 +28,7 @@ A common PMP trap is confusing these two concepts.
   </div>
 </div>
 
-::: warning 🚦 The Golden Rule
+::: warning  The Golden Rule
 Low **Grade** is acceptable (if that's what was paid for). Low **Quality** is *never* acceptable.
 :::
 
@@ -44,21 +44,21 @@ Quality management is not “test at the end.” It’s a loop:
 
 ---
 
-## 🧭 Plan vs. Manage vs. Control (Know the Exam Wording)
+##  Plan vs. Manage vs. Control (Know the Exam Wording)
 | Concept | When | Focus | The exam is asking… |
 |---|---|---|---|
 | **Plan Quality** | Planning | Standards + metrics | “What quality do we need?” |
 | **Manage Quality (QA)** | Executing | Process effectiveness | “Are we using the right process?” |
 | **Control Quality (QC)** | Monitoring | Deliverable correctness | “Did we build it correctly?” |
 
-::: tip 💡 Shortcut
+::: tip  Shortcut
 If you see words like **audit, process analysis, ensure procedures** → think **QA (Manage Quality)**.  
 If you see **inspect, test, verify deliverable** → think **QC (Control Quality)**.
 :::
 
 ---
 
-## 🏗️ QA vs. QC (Process vs. Product)
+##  QA vs. QC (Process vs. Product)
 Modern project management moves from checking for errors (reactive) to preventing them (proactive).
 
 <div class="cycle-grid">
@@ -86,7 +86,7 @@ Modern project management moves from checking for errors (reactive) to preventin
 
 ---
 
-## 💰 Cost of Quality (CoQ) (High-Yield Exam Topic)
+##  Cost of Quality (CoQ) (High-Yield Exam Topic)
 CoQ = cost of **conformance** + cost of **nonconformance**.
 
 | Category | Type | Examples | Exam takeaway |
@@ -96,13 +96,13 @@ CoQ = cost of **conformance** + cost of **nonconformance**.
 | **Internal failure** | Nonconformance | Rework, scrap, retest | Expensive but contained |
 | **External failure** | Nonconformance | Warranty, recalls, lawsuits, reputation loss | Most expensive (customer impact) |
 
-::: warning ⚠️ PMP pattern
+::: warning  PMP pattern
 When options include “train/improve process now” vs “test more at the end,” prevention usually wins unless the question explicitly says the defect is already in production/customer hands.
 :::
 
 ---
 
-## ⚖️ Quality Trade-offs
+##  Quality Trade-offs
 You cannot always have everything. The PM must make conscious choices:
 
 *   **Schedule vs. Quality**: "Rushing" often leads to technical debt. *Exam Rule*: If you must rush, you usually have to cut scope to maintain quality. Cutting quality to save time is rarely the "correct" PMP answer unless clearly justified as a strategic "time-to-market" play with a plan to fix it later.
@@ -111,7 +111,7 @@ You cannot always have everything. The PM must make conscious choices:
 
 ---
 
-## 📋 Quality Planning (Setting the Foundation)
+##  Quality Planning (Setting the Foundation)
 
 Quality planning happens during the **Planning Process Group** and defines:
 1. **Quality standards** (industry standards, regulations, internal policies)
@@ -128,13 +128,13 @@ Quality planning happens during the **Planning Process Group** and defines:
 | **Test Strategy** | Approach to verification/validation | "Unit tests + integration tests + UAT" |
 | **Acceptance Criteria** | Definition of "acceptable" deliverable | "Passes all security scans; <2s page load; zero critical bugs" |
 
-::: tip 💡 Exam Insight
+::: tip  Exam Insight
 If the question asks "How should the PM ensure quality requirements are clear?", the answer often involves **defining acceptance criteria** and **quality metrics** during planning (not waiting until execution).
 :::
 
 ---
 
-## 📈 Statistical Process Control (SPC) Deep Dive
+##  Statistical Process Control (SPC) Deep Dive
 
 SPC uses statistics to determine if your process is stable and performing as expected. This is high-yield material for the PMP exam.
 
@@ -177,7 +177,7 @@ Cpk accounts for process centering:
 - **Cpk = Cp** → Process is perfectly centered
 - **Cpk < Cp** → Process is off-center (drifting toward one spec limit)
 
-::: warning ⚠️ Exam Trap
+::: warning  Exam Trap
 A process can have high Cp but low Cpk if it's centered far from the middle of the specification range. The exam loves this distinction!
 :::
 
@@ -201,7 +201,7 @@ $$C_{pk} = \min\left(\frac{10.3 - 10.1}{3 × 0.08}, \frac{10.1 - 9.7}{3 × 0.08}
 
 ---
 
-## 💰 Cost of Quality (CoQ): Detailed Calculation
+##  Cost of Quality (CoQ): Detailed Calculation
 
 Understanding CoQ helps justify prevention investments to stakeholders.
 
@@ -238,13 +238,13 @@ Understanding CoQ helps justify prevention investments to stakeholders.
 
 **Insight**: External failures equal internal failures, indicating quality escapes. **Recommendation**: Invest more in prevention (training, reviews) to shift costs left.
 
-::: tip 💡 The Quality Investment Principle
+::: tip  The Quality Investment Principle
 Every $1 spent on **prevention** can save $10 in **appraisal** and $100 in **failure costs**. This is why "build quality in" is more cost-effective than "test quality in."
 :::
 
 ---
 
-## 🎯 Voice of the Customer (VOC) Tools
+##  Voice of the Customer (VOC) Tools
 
 Quality starts with understanding what customers truly value.
 
@@ -287,7 +287,7 @@ QFD translates customer needs into technical specifications. The "House of Quali
 
 ---
 
-## 🔬 Design of Experiments (DoE)
+##  Design of Experiments (DoE)
 
 DoE is used when you need to optimize a process by testing multiple variables simultaneously.
 
@@ -327,13 +327,13 @@ DoE is used when you need to optimize a process by testing multiple variables si
 
 **Analysis**: High Pressure + Low Speed yields highest quality (Run 7: 95)
 
-::: tip 💡 Exam Insight
+::: tip  Exam Insight
 DoE appears when the scenario describes "multiple variables" and "need to find optimal settings." It's more efficient than testing one variable at a time.
 :::
 
 ---
 
-## 🔁 Continuous Improvement Frameworks
+##  Continuous Improvement Frameworks
 
 ### Plan-Do-Check-Act (PDCA / Deming Cycle)
 The foundational continuous improvement loop:
@@ -362,7 +362,7 @@ Japanese philosophy of continuous, incremental improvement involving everyone. I
 
 ---
 
-## 🛠️ The Quality Toolbox (7 Basic Tools)
+##  The Quality Toolbox (7 Basic Tools)
 You must know **when** to use each tool:
 
 | Tool | Best used when you need to… |
@@ -394,7 +394,7 @@ If you see **7 or more consecutive points** on one side of the mean (even if all
 | All points within UCL/LCL, but many outside spec limits | Yes | No | **Process is stable but not capable** → Improve process |
 | Points outside UCL/LCL | No | N/A | **Investigate special cause** → Fix the outlier |
 
-::: warning ⚠️ Exam Trap
+::: warning  Exam Trap
 A process can be "in control" (stable) but still produce defects (not capable). The exam loves this scenario!
 :::
 
@@ -419,7 +419,7 @@ Used to determine the optimal quality level:
 
 ---
 
-## 🔍 Root Cause Analysis (Fix Causes, Not Symptoms)
+##  Root Cause Analysis (Fix Causes, Not Symptoms)
 If defects repeat, you need to find *why*.
 
 - **5 Whys**: ask “why?” until you reach a controllable process cause
@@ -428,7 +428,7 @@ If defects repeat, you need to find *why*.
 
 ---
 
-## 🔄 Agile Quality: DoD & TDD
+##  Agile Quality: DoD & TDD
 In Agile, quality isn't an "end-of-sprint" activity; it's continuous.
 - **Definition of Done (DoD)**: The non-negotiable quality checklist for every user story.
 - **Acceptance Criteria**: what “done” means for the customer (story-level)
@@ -441,7 +441,7 @@ In Agile, "fitness for use" is validated through:
 *   **Retrospectives**: The team discusses "process quality" (how we work) and improves it for the next sprint.
 
 
-::: tip 🧰 Templates
+::: tip  Templates
 Use [7.4 Tools & Templates](./toolkit) for a starter DoD checklist and quick “which tool do I use?” reference.
 :::
 
@@ -486,7 +486,7 @@ Use [7.4 Tools & Templates](./toolkit) for a starter DoD checklist and quick “
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If defects are recurring, the FIRST step is <strong>Root Cause Analysis</strong> (often <strong>Fishbone + 5 Whys</strong>). Fixing symptoms (e.g., “test more”) without fixing causes leads to rework and higher Cost of Quality.
+  <strong> Exam Insight:</strong> If defects are recurring, the FIRST step is <strong>Root Cause Analysis</strong> (often <strong>Fishbone + 5 Whys</strong>). Fixing symptoms (e.g., “test more”) without fixing causes leads to rework and higher Cost of Quality.
 </div>
 
 <style>
@@ -501,7 +501,7 @@ Use [7.4 Tools & Templates](./toolkit) for a starter DoD checklist and quick “
 
 ---
 
-## ✅ Exam Scenarios: “First Action” Clues
+##  Exam Scenarios: “First Action” Clues
 | If the question says… | Best first move is usually… |
 |---|---|
 | “Audit / ensure the process is followed” | **QA (Manage Quality)** |

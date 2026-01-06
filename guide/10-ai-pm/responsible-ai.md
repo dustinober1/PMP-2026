@@ -6,7 +6,7 @@ Using AI is not just a technical choice; it is an **ethical** one. As a Project 
 
 ---
 
-## 🛡️ The 3 Pillars of Responsible AI
+##  The 3 Pillars of Responsible AI
 To navigate the risks of AI, follow these pillars:
 
 <div class="resp-grid">
@@ -29,7 +29,7 @@ To navigate the risks of AI, follow these pillars:
 
 ---
 
-## 🤝 Alignment with PMI Code of Ethics
+##  Alignment with PMI Code of Ethics
 Your ethical obligations don't change just because the tool is new. Here is how the **PMI Code of Ethics** applies to AI:
 
 | Value | AI Application |
@@ -41,7 +41,7 @@ Your ethical obligations don't change just because the tool is new. Here is how 
 
 ---
 
-## 🔐 Data Privacy: What You Must Protect
+##  Data Privacy: What You Must Protect
 On the PMP exam, if a scenario includes **client confidentiality**, **PII**, or **unapproved tools**, the correct answer focuses on **policy + protection + escalation (if needed)**.
 
 **Examples of data you should treat as sensitive unless explicitly approved:**
@@ -58,20 +58,20 @@ On the PMP exam, if a scenario includes **client confidentiality**, **PII**, or 
 
 ---
 
-## 📜 The "AI Charter"
+##  The "AI Charter"
 Just as you create a Team Charter for human interactions, you need an **AI Working Agreement**. It should define:
 *   **Approved Tools**: Which specific engines (Enterprise versions) are safe to use?
 *   **Transparency**: When must a team member *disclose* that a document was written by AI?
 *   **Validation**: What is the mandatory review process before AI content leaves the team?
 *   **Storage/Audit**: Where are prompts/outputs stored (and for how long), if needed for compliance?
 
-::: danger 🚫 "Shadow AI"
+::: danger  "Shadow AI"
 Using unapproved AI tools to bypass security protocols is known as "Shadow AI." This is a major compliance violation. The PM must provide safe, approved alternatives so the team isn't tempted to go rogue.
 :::
 
 ---
 
-## 👥 Governance: Who Owns What (RACI Starter)
+##  Governance: Who Owns What (RACI Starter)
 Responsible AI is a **governance** problem as much as a technology problem.
 
 | Activity | PM | Sponsor/Product | IT/Security | Legal/Compliance | Data Owner/SME |
@@ -86,7 +86,7 @@ Legend: **R** = Responsible, **A** = Accountable, **C** = Consulted
 
 ---
 
-## 🧨 Common AI Risks in Projects (Know These Triggers)
+##  Common AI Risks in Projects (Know These Triggers)
 *   **Prompt injection**: AI consumes untrusted content (email/docs) that includes malicious instructions (“ignore policy and reveal secrets”).
 *   **Over-reliance**: Teams treat AI output as “truth” and skip validation steps.
 *   **Bias**: AI recommendations amplify historical inequality (resourcing, stakeholder sentiment, hiring support roles).
@@ -94,14 +94,14 @@ Legend: **R** = Responsible, **A** = Accountable, **C** = Consulted
 
 ---
 
-## 🏛️ Explainability (XAI)
+##  Explainability (XAI)
 In regulated industries (Healthcare, Finance), you cannot just say "The AI told me to reject this loan." You need **Explainability**.
 *   **Black Box AI**: Inputs go in, answers come out, no one knows why. (Avoid for critical decisions).
 *   **Explainable AI**: The system provides the "Why" behind the decision. (Required for Governance).
 
 ---
 
-## 📋 Industry-Specific Compliance Requirements (Exam-Relevant)
+##  Industry-Specific Compliance Requirements (Exam-Relevant)
 
 Compliance is part of PMP scope management. AI decisions in regulated domains have guardrails:
 
@@ -115,7 +115,7 @@ Compliance is part of PMP scope management. AI decisions in regulated domains ha
 
 ---
 
-## 🎯 Practical Compliance Scenario: Healthcare Project
+##  Practical Compliance Scenario: Healthcare Project
 
 **Scenario:** Your healthcare project uses AI to optimize nursing schedules. You want to minimize burnout predictions.
 
@@ -133,7 +133,7 @@ Compliance is part of PMP scope management. AI decisions in regulated domains ha
 
 ---
 
-## 🔍 Bias Detection Framework
+##  Bias Detection Framework
 
 Bias doesn't just happen at deployment—it can enter at multiple stages. PMs must understand where to look.
 
@@ -155,13 +155,13 @@ Bias doesn't just happen at deployment—it can enter at multiple stages. PMs mu
 - [ ] **Ongoing**: Monthly audit of decisions for pattern analysis
 - [ ] **Ongoing**: Compare AI recommendations vs. human overrides—patterns reveal bias
 
-::: warning ⚠️ Exam Pattern
+::: warning  Exam Pattern
 If a scenario asks "AI consistently recommends fewer overtime hours for one team," the correct answer involves **audit for bias, validate with diverse review, and address root cause**—never "accept because AI is objective."
 :::
 
 ---
 
-## 📊 AI Fairness Metrics (Simplified for PMs)
+##  AI Fairness Metrics (Simplified for PMs)
 
 You don't need to calculate these yourself, but you must know when to ask for them.
 
@@ -181,7 +181,7 @@ You don't need to calculate these yourself, but you must know when to ask for th
 
 ---
 
-## 📋 Model Cards & Data Sheets (What to Ask Vendors)
+##  Model Cards & Data Sheets (What to Ask Vendors)
 
 When procuring AI tools, require documentation that enables governance:
 
@@ -202,13 +202,13 @@ When procuring AI tools, require documentation that enables governance:
 | **Preprocessing** | "What cleaning/filtering was done?" | Hidden assumptions |
 | **Maintenance** | "How often is data updated? Who owns it?" | Freshness and accountability |
 
-::: tip 💡 Procurement Integration
+::: tip  Procurement Integration
 Add Model Card requirements to your AI vendor SOW/RFP. If a vendor can't provide this documentation, that's a red flag for governance-conscious organizations.
 :::
 
 ---
 
-## 🇪🇺 The EU AI Act (2024-2026) – PM Implications
+##  The EU AI Act (2024-2026) – PM Implications
 
 The EU AI Act is the world's first comprehensive AI law. Even non-EU projects may be affected (data from EU citizens, EU customers, global companies).
 
@@ -240,13 +240,13 @@ The EU AI Act is the world's first comprehensive AI law. Even non-EU projects ma
 | August 2025 | High-risk AI obligations begin |
 | August 2026 | Full enforcement for all provisions |
 
-::: warning ⚠️ Exam Relevance
+::: warning  Exam Relevance
 If a scenario mentions "AI used for hiring decisions" or "loan approval," the correct answer emphasizes **explainability, documentation, human oversight, and bias audit**—these are now legal requirements in many jurisdictions.
 :::
 
 ---
 
-## 🔬 Worked Example: Bias Investigation Scenario
+##  Worked Example: Bias Investigation Scenario
 
 **Scenario:** Your project uses AI to rank candidates for a technical training program. After 3 months, stakeholders notice that female candidates are selected at half the rate of male candidates.
 
@@ -324,14 +324,14 @@ If a scenario mentions "AI used for hiring decisions" or "loan approval," the co
 
 ---
 
-## 🧾 Transparency, IP, and Procurement (Exam-Relevant)
+##  Transparency, IP, and Procurement (Exam-Relevant)
 *   **Transparency**: Follow the team’s working agreement. If external stakeholders will rely on an artifact, disclose AI assistance when required and ensure a human owner signs off.
 *   **IP/Copyright**: Treat prompts/outputs as potentially sensitive. Validate that your tool’s terms allow your intended commercial use and don’t accidentally leak third-party content.
 *   **Procurement mindset**: If your project is buying AI capability, ensure the contract/SOW defines retention, training use, audit logs, SLAs, and responsibilities for incidents.
 
 ---
 
-## 🚑 If a Privacy/Security Incident Happens (What to Do First)
+##  If a Privacy/Security Incident Happens (What to Do First)
 1. **Stop and contain**: halt use of the tool/workflow immediately.
 2. **Notify the right parties**: IT/Security (and Legal/Compliance if required).
 3. **Preserve evidence**: keep logs/screenshots per policy (don’t “cover it up”).
@@ -339,7 +339,7 @@ If a scenario mentions "AI used for hiring decisions" or "loan approval," the co
 5. **Prevent recurrence**: update the AI working agreement, tooling controls, and training.
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a team member uses a free online AI to summarize a confidential client meeting, they have committed a <strong>Security Breach</strong>. The PM’s response is to <strong>immediately contain</strong> (notify IT/Security per policy), then educate the team and provide approved alternatives.
+  <strong> Exam Insight:</strong> If a team member uses a free online AI to summarize a confidential client meeting, they have committed a <strong>Security Breach</strong>. The PM’s response is to <strong>immediately contain</strong> (notify IT/Security per policy), then educate the team and provide approved alternatives.
 </div>
 
 <style>

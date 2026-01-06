@@ -317,7 +317,7 @@ If you scored:
 
 ---
 
-## 📚 Key Concepts Summary
+##  Key Concepts Summary
 
 ### Business Case & Selection (5.1)
 - **NPV**: Higher is better—total value in today's dollars
@@ -349,7 +349,7 @@ If you scored:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a project is running and you discover the Business Case is no longer valid (e.g., market changed), your immediate goal is to <strong>inform the sponsor</strong>. Do not just keep working; protect the organization's resources.
+  <strong> Exam Insight:</strong> If a project is running and you discover the Business Case is no longer valid (e.g., market changed), your immediate goal is to <strong>inform the sponsor</strong>. Do not just keep working; protect the organization's resources.
 </div>
 
 <style>

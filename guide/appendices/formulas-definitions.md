@@ -4,7 +4,7 @@ Master the "Hard Science" of project management. This appendix covers every math
 
 ---
 
-## 📊 Earned Value Management (EVM)
+##  Earned Value Management (EVM)
 EVM is the most critical math section of the exam. If you master these 4 metrics, you can derive almost everything else.
 
 <div class="formula-grid">
@@ -65,7 +65,7 @@ EVM is the most critical math section of the exam. If you master these 4 metrics
 
 ---
 
-## 📐 Estimation & Schedule Math
+##  Estimation & Schedule Math
 Beyond EVM, these formulas help you calculate certainty and communication complexity.
 
 <div class="formula-grid">
@@ -99,7 +99,7 @@ Beyond EVM, these formulas help you calculate certainty and communication comple
 
 ---
 
-## 💰 Financial Selection Metrics
+##  Financial Selection Metrics
 Used during Initiation (Chapter 5) to choose the right project.
 
 | Metric                            | Rule of Thumb         | Why?                                             |
@@ -111,7 +111,7 @@ Used during Initiation (Chapter 5) to choose the right project.
 
 ---
 
-## 📖 Global Glossary (A-Z)
+##  Global Glossary (A-Z)
 
 ::: details A - Adaptive to Artifact
 *   **Adaptive**: A project approach that is iterative or agile; responds to change.

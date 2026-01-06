@@ -6,7 +6,7 @@ Communication is the **oil that keeps the project machine running**. The PM spen
 
 ---
 
-## 🎯 Communication Concepts for PMP
+##  Communication Concepts for PMP
 
 Effective communication is about getting the **right information** to the **right people** at the **right time** in the **right format**.
 
@@ -27,7 +27,7 @@ Effective communication is about getting the **right information** to the **righ
 
 ---
 
-## 🧭 The Communications Planning Flow
+##  The Communications Planning Flow
 
 ### Step 1: Plan Communications Management
 **Purpose**: Determine stakeholder information needs and define communication approach
@@ -47,7 +47,7 @@ Effective communication is about getting the **right information** to the **righ
 
 ---
 
-## 📋 Communications Management Plan
+##  Communications Management Plan
 
 The Communications Management Plan documents:
 
@@ -65,7 +65,7 @@ The Communications Management Plan documents:
 
 ---
 
-## 📊 Communication Methods
+##  Communication Methods
 
 ### By Communication Type
 
@@ -98,13 +98,13 @@ Where n = number of people
 | 15 | 105 | High |
 | 20 | 190 | Very High |
 
-::: warning ⚠️ Exam Trap
+::: warning  Exam Trap
 When a question says "a new team member is added," calculate the NEW number of channels, not the additional channels. If n goes from 5 to 6: new channels = 6(5)/2 = **15** (not 5 more).
 :::
 
 ---
 
-## 🎭 Communication Models
+##  Communication Models
 
 ### Basic Communication Model
 
@@ -143,7 +143,7 @@ When a question says "a new team member is added," calculate the NEW number of c
 
 ---
 
-## 🌐 Communication in Virtual/Distributed Teams
+##  Communication in Virtual/Distributed Teams
 
 ### Virtual Team Communication Challenges
 
@@ -166,7 +166,7 @@ When a question says "a new team member is added," calculate the NEW number of c
 
 ---
 
-## 📈 Communication Stakeholder Analysis
+##  Communication Stakeholder Analysis
 
 ### Communication Requirements by Stakeholder
 
@@ -191,7 +191,7 @@ When a question says "a new team member is added," calculate the NEW number of c
 
 ---
 
-## 📋 Communication Artifacts
+##  Communication Artifacts
 
 ### Status Reports
 
@@ -222,7 +222,7 @@ Typical status report structure:
 
 ---
 
-## 🔧 Effective Communication Techniques
+##  Effective Communication Techniques
 
 ### Active Listening
 
@@ -266,7 +266,7 @@ Typical status report structure:
 
 ---
 
-## 📊 Communication Technologies
+##  Communication Technologies
 
 ### Tool Selection Criteria
 
@@ -292,7 +292,7 @@ Typical status report structure:
 
 ---
 
-## 🧠 Communication Planning Scenarios (Exam Practice)
+##  Communication Planning Scenarios (Exam Practice)
 
 ### Scenario 1: New Team Member
 **Situation**: A 10-person project adds one new team member. How many communication channels now exist?
@@ -320,7 +320,7 @@ Typical status report structure:
 
 ---
 
-## 📚 Key Formulas & Quick Reference
+##  Key Formulas & Quick Reference
 
 ### Communication Formula
 
@@ -375,7 +375,7 @@ Typical status report structure:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> Know the communication channel formula: <strong>n(n-1)/2</strong>. For communication type selection: <strong>Interactive</strong> is best for complex/sensitive topics, <strong>Push</strong> for updates, <strong>Pull</strong> for reference material. The PM spends approximately <strong>90%</strong> of their time communicating!
+  <strong> Exam Insight:</strong> Know the communication channel formula: <strong>n(n-1)/2</strong>. For communication type selection: <strong>Interactive</strong> is best for complex/sensitive topics, <strong>Push</strong> for updates, <strong>Pull</strong> for reference material. The PM spends approximately <strong>90%</strong> of their time communicating!
 </div>
 
 <style>

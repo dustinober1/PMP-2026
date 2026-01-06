@@ -6,7 +6,7 @@ Introducing AI into your project is a **change initiative**. Like any change, it
 
 ---
 
-## 🎯 The Adoption Curve (Why People Resist AI)
+##  The Adoption Curve (Why People Resist AI)
 
 People move through predictable stages when new tools arrive. Understanding where your team is helps you tailor your approach.
 
@@ -19,7 +19,7 @@ People move through predictable stages when new tools arrive. Understanding wher
 
 ---
 
-## 🚨 The 5 Fear Archetypes (And What to Say)
+##  The 5 Fear Archetypes (And What to Say)
 
 Use this to defuse concerns when rolling out AI:
 
@@ -73,7 +73,7 @@ Use this to defuse concerns when rolling out AI:
 
 ---
 
-## 📋 The 4-Week Adoption Playbook
+##  The 4-Week Adoption Playbook
 
 Use this to roll out AI to a team with minimal friction.
 
@@ -144,7 +144,7 @@ Use this to roll out AI to a team with minimal friction.
 
 ---
 
-## 🎓 Addressing Resistance During Execution
+##  Addressing Resistance During Execution
 
 Even after adoption starts, you'll encounter pushback. Here's how to respond:
 
@@ -186,7 +186,7 @@ Even after adoption starts, you'll encounter pushback. Here's how to respond:
 
 ---
 
-## 💬 The Emotional Intelligence Playbook
+##  The Emotional Intelligence Playbook
 
 Project managers who succeed with AI do these things:
 
@@ -200,7 +200,7 @@ Project managers who succeed with AI do these things:
 
 ---
 
-## 🎯 Measuring Adoption Success
+##  Measuring Adoption Success
 
 Track these metrics to know if adoption is working:
 
@@ -215,7 +215,7 @@ Track these metrics to know if adoption is working:
 
 ---
 
-## 🔄 The Feedback Loop: Iterate & Improve
+##  The Feedback Loop: Iterate & Improve
 
 AI adoption is not a one-time event; it's continuous improvement.
 
@@ -232,7 +232,7 @@ AI adoption is not a one-time event; it's continuous improvement.
 
 ---
 
-## 🧯 Crisis Response: When AI Goes Wrong
+##  Crisis Response: When AI Goes Wrong
 
 If something goes badly wrong (data breach, bias incident, major hallucination), you must act fast.
 
@@ -250,7 +250,7 @@ If something goes badly wrong (data breach, bias incident, major hallucination),
 
 ---
 
-## 📊 Resistance Metrics Dashboard
+##  Resistance Metrics Dashboard
 
 Track these quantitative indicators to detect adoption problems early.
 
@@ -285,7 +285,7 @@ Track these quantitative indicators to detect adoption problems early.
 
 ---
 
-## 🏆 Success Case Studies (Anonymized)
+##  Success Case Studies (Anonymized)
 
 ### Case Study 1: Manufacturing PMO
 
@@ -357,7 +357,7 @@ Track these quantitative indicators to detect adoption problems early.
 
 ---
 
-## ❌ Failure Mode Analysis (Why AI Rollouts Fail)
+##  Failure Mode Analysis (Why AI Rollouts Fail)
 
 Learn from common patterns of failure.
 
@@ -449,7 +449,7 @@ Learn from common patterns of failure.
 
 ---
 
-## 🎖️ Leadership Commitment Framework
+##  Leadership Commitment Framework
 
 Executive sponsorship is critical for AI adoption. Here's how to secure and maintain it.
 
@@ -479,7 +479,7 @@ Provide these to executives for consistent messaging:
 
 ---
 
-## 🧪 Cultural Readiness Assessment (Pre-Rollout Survey)
+##  Cultural Readiness Assessment (Pre-Rollout Survey)
 
 Administer this survey before rolling out AI tools to identify adoption risks.
 
@@ -524,7 +524,7 @@ Administer this survey before rolling out AI tools to identify adoption risks.
 | Support & Resources (Q10-12) | Provide protected learning time; create templates; assign mentors |
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> A question may ask: "Your team is resisting a new AI tool because they fear job loss. What do you do FIRST?" The answer combines <strong>Emotional Intelligence + Transparency</strong>. Listen to their concerns, explain the tool's purpose (removing drudgery, not eliminating jobs), show examples, and offer training. Mandates create resentment; partnerships create adoption.
+  <strong> Exam Insight:</strong> A question may ask: "Your team is resisting a new AI tool because they fear job loss. What do you do FIRST?" The answer combines <strong>Emotional Intelligence + Transparency</strong>. Listen to their concerns, explain the tool's purpose (removing drudgery, not eliminating jobs), show examples, and offer training. Mandates create resentment; partnerships create adoption.
 </div>
 
 <style>

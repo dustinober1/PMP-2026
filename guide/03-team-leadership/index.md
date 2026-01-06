@@ -2,13 +2,13 @@
 
 In 2026, leading a project isn't about "command and control"—it's about orchestrating diverse, scattered, and sometimes robotic talent toward a shared vision.
 
-::: info 👥 People Domain Impact
+::: info  People Domain Impact
 The People domain is **42% of the exam**. (People + Business > Process). If you can calculate EVM but can't resolve a conflict, you will **fail**.
 :::
 
 ---
 
-## 🎯 What You'll Master (PMP-Style Skills)
+##  What You'll Master (PMP-Style Skills)
 By the end of this chapter, you should be able to:
 
 *   Build a team using a skills matrix and clarify ownership with RACI
@@ -25,7 +25,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## 🧭 The Leadership Compass
+##  The Leadership Compass
 From assembling the squad to navigating high-stakes conflict.
 
 <div class="section-grid">
@@ -100,7 +100,7 @@ From assembling the squad to navigating high-stakes conflict.
 
 ---
 
-## 📊 Chapter Coverage Map
+##  Chapter Coverage Map
 
 This chapter directly supports these PMP Exam Content Outline tasks:
 

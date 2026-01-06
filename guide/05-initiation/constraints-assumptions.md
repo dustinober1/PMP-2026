@@ -6,7 +6,7 @@ Every project operates within a set of invisible walls. Identifying these early 
 
 ---
 
-## 🏗️ Definitions: Know the Difference
+##  Definitions: Know the Difference
 
 On the exam, you must distinguish between what is **Fact (Constraint)** and what is **Belief (Assumption)**.
 
@@ -39,7 +39,7 @@ On the exam, you must distinguish between what is **Fact (Constraint)** and what
 
 ---
 
-## 🧱 Common Constraint Types
+##  Common Constraint Types
 
 | Constraint Type | Examples | Impact |
 | --- | --- | --- |
@@ -51,13 +51,13 @@ On the exam, you must distinguish between what is **Fact (Constraint)** and what
 | **Technology** | Must use approved platform, data residency requirements | Limits solution options |
 | **Legal/Regulatory** | GDPR, HIPAA, industry regulations | Non-negotiable compliance |
 
-::: tip 🧠 Exam Pattern
+::: tip  Exam Pattern
 If a stakeholder asks to "just change the deadline," your best next step is to **analyze impacts** and **escalate to the sponsor** (constraints are set by authority, not by the PM).
 :::
 
 ---
 
-## 🎯 The Triple Constraint (and Beyond)
+##  The Triple Constraint (and Beyond)
 
 The classic model represents core trade-offs:
 
@@ -81,7 +81,7 @@ The classic model represents core trade-offs:
 
 ---
 
-## 🌐 PESTLE Analysis for External Constraints
+##  PESTLE Analysis for External Constraints
 
 **PESTLE** helps identify external factors that may constrain your project:
 
@@ -96,7 +96,7 @@ The classic model represents core trade-offs:
 
 ---
 
-## 🔍 Assumption Categories
+##  Assumption Categories
 
 ### By Source
 
@@ -118,7 +118,7 @@ The classic model represents core trade-offs:
 
 ---
 
-## 🚦 Managing the Assumption Log
+##  Managing the Assumption Log
 
 ### The Assumption Lifecycle
 
@@ -150,7 +150,7 @@ Identified → Documented → Assigned Owner → Validated → Status Updated
 
 ---
 
-## ⚠️ Assumption Analysis Techniques
+##  Assumption Analysis Techniques
 
 ### Priority Matrix
 
@@ -171,7 +171,7 @@ Identified → Documented → Assigned Owner → Validated → Status Updated
 
 ---
 
-## 🔄 Dependencies: The Third Category
+##  Dependencies: The Third Category
 
 | Type | Description | Example |
 | --- | --- | --- |
@@ -182,7 +182,7 @@ Identified → Documented → Assigned Owner → Validated → Status Updated
 
 ---
 
-::: info 🛠️ 2026 Focus: Virtual Constraints
+::: info  2026 Focus: Virtual Constraints
 - **Data Privacy (GDPR/CCPA)**: Non-negotiable legal walls
 - **API Latency**: Physical constraints of global software
 - **Asynchronous Time Gaps**: 12-hour zone differences
@@ -192,7 +192,7 @@ Identified → Documented → Assigned Owner → Validated → Status Updated
 
 ---
 
-## 🎯 Practical Scenarios
+##  Practical Scenarios
 
 ### Scenario 1: New Regulation
 **Situation:** A new data privacy law takes effect July 1. Your product must comply.
@@ -247,7 +247,7 @@ Identified → Documented → Assigned Owner → Validated → Status Updated
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a planner makes a decision based on a "belief" that resources will be available, and they aren't, the root cause is a <strong>failed assumption</strong>. Never treat assumptions as facts without validation.
+  <strong> Exam Insight:</strong> If a planner makes a decision based on a "belief" that resources will be available, and they aren't, the root cause is a <strong>failed assumption</strong>. Never treat assumptions as facts without validation.
 </div>
 
 <style>

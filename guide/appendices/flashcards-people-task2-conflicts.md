@@ -319,7 +319,7 @@
 
 ### Card 42
 **Front**: What is the preferred first step for a vendor dispute?
-**Back**: Direct Negotiation (PM ↔ Vendor) using contract terms.
+**Back**: Direct Negotiation (PM  Vendor) using contract terms.
 **Domain**: People | **Task**: Manage conflicts
 
 ---

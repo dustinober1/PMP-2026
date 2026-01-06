@@ -29,7 +29,7 @@
   }
 </style>
 
-## 📊 Topic Summary Table
+##  Topic Summary Table
 
 | Question | Primary Enabler | Methodology | Difficulty |
 | :--- | :--- | :--- | :--- |
@@ -45,7 +45,7 @@
 | 10 | Plan financial reporting | Predictive | 4/5 |
 | 11-50 | *Refer to Database Stats for full breakdown* | Mixed | 4.5/5 Avg |
 
-## 📈 Database Stats
+##  Database Stats
 
 - **Total Questions:** 50
 - **Correct Answer Length Average:** 14 words
@@ -58,7 +58,7 @@
 
 ---
 
-## 🏆 Governance Pro-Tips
+##  Governance Pro-Tips
 
 1. **The Reserve Authority Rule:** Contingency is for identified risks (PM authority); Management Reserve is for unidentified risks (Sponsor authority + Change Request).
 2. **Sunk Cost Neutrality:** Never use past spending to justify future investment. Decisions must be based on future Value and Estimate to Complete (ETC).
@@ -68,7 +68,7 @@
 
 ---
 
-## 📝 Practice Questions
+##  Practice Questions
 
 ### Question 1
 

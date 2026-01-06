@@ -2,17 +2,17 @@
 
 Execution is where strategy meets reality. In the 2026 PMP exam, a Project Manager doesn't just "execute tasks"—they **steward value**. Success is measured not just by a finished product, but by the meaningful outcomes it creates for the customer and the organization.
 
-::: tip 🎯 PMP Exam Reality (2026)
+::: tip  PMP Exam Reality (2026)
 The 2026 ECO doesn’t have a separate “Execution” domain, but many **Process (41%)** and **Business Environment (26%)** questions are set during execution—where blockers, change requests, vendor delays, and quality issues surface.
 :::
 
-::: info 📊 What the Exam Tests
+::: info  What the Exam Tests
 Most exam scenarios are execution scenarios: blocked team members, changing stakeholder expectations, quality defects, vendor delays, and "small" change requests. The test is usually about **what you do first** to protect flow and value, not just recognizing the problem.
 :::
 
 ---
 
-## 📋 Execution Process Groups Overview
+##  Execution Process Groups Overview
 
 The Executing Process Group includes **10 processes** from the PMBOK® Guide, making it the largest process group by count. These processes transform plans into deliverables while managing people, knowledge, quality, resources, communications, stakeholders, risks, and procurements.
 
@@ -42,13 +42,13 @@ The Executing Process Group includes **10 processes** from the PMBOK® Guide, ma
 | **Conduct Procurements** | Procurement | Obtain seller responses, select sellers, award contracts |
 | **Implement Risk Responses** | Risk | Execute agreed-upon risk response plans when triggers occur |
 
-::: info 🔍 Execution vs. Monitoring & Controlling
+::: info  Execution vs. Monitoring & Controlling
 These processes don't happen in isolation—they're constantly informed by Monitoring & Controlling processes. For example, you **Direct and Manage Project Work** (Executing) while simultaneously **Monitoring and Controlling Project Work** (M&C) to detect variances and decide whether corrective action is needed.
 :::
 
 ---
 
-## 🔗 How Execution Processes Work Together
+##  How Execution Processes Work Together
 
 Execution is highly integrated—these processes don't happen in isolation. Understanding the relationships between processes helps you answer "what should I do first" questions on the exam.
 
@@ -88,13 +88,13 @@ Execution is highly integrated—these processes don't happen in isolation. Unde
 - **Can't conduct procurements without requirements**: Plan Procurement Management → Conduct Procurements
 - **Quality activities execute the quality plan**: Plan Quality Management → Manage Quality
 
-::: warning ⚠️ Common Exam Trap
+::: warning  Common Exam Trap
 If a question asks "What should the PM do first?" and multiple answers seem reasonable, choose the one that follows the **logical dependency chain**. For example, you can't "develop the team" before you "acquire resources" to get the team members assigned.
 :::
 
 ---
 
-## 🎯 Key Execution Concepts (Exam-Critical)
+##  Key Execution Concepts (Exam-Critical)
 
 Understanding these concepts will help you decode execution scenarios and choose the best answer quickly.
 
@@ -140,7 +140,7 @@ Execution often reveals new information that requires re-planning:
 - **Iterative development**: Build incrementally, learn from each iteration, adapt
 - **Continuous planning**: Adjust scope/schedule/priorities based on validated learning
 
-::: info 🔍 Predictive vs. Adaptive Execution
+::: info  Predictive vs. Adaptive Execution
 - **Predictive**: Execute according to the plan; changes require formal change control
 - **Adaptive**: Execute the highest-value work; adapt continuously based on feedback
 - **Hybrid**: Core deliverables follow predictive governance; component work uses adaptive cycles
@@ -148,7 +148,7 @@ Execution often reveals new information that requires re-planning:
 
 ---
 
-## 🧠 Emotional Intelligence (EQ) in Execution
+##  Emotional Intelligence (EQ) in Execution
 
 Emotional Intelligence is **critical** for project success during execution. Research shows EQ is often a better predictor of PM effectiveness than technical skills.
 
@@ -162,7 +162,7 @@ Emotional Intelligence is **critical** for project success during execution. Res
 | **Empathy** | Understanding others' emotional makeup; treating people according to their reactions | Listen to stakeholder concerns; recognize team stress; adapt communication style |
 | **Social Skills** | Building rapport; finding common ground; building networks | Influence without authority; resolve conflicts; build coalitions for decisions |
 
-::: tip 💡 Exam Pattern
+::: tip  Exam Pattern
 If a scenario describes a PM who reacts emotionally, makes decisions without listening, or fails to recognize team stress, the answer often involves applying **emotional intelligence skills** (self-regulation, empathy, active listening).
 :::
 
@@ -178,7 +178,7 @@ If a scenario describes a PM who reacts emotionally, makes decisions without lis
 
 ---
 
-## ⚡ Power Types in Project Execution
+##  Power Types in Project Execution
 
 PMs often have **responsibility without authority**. Understanding power types helps you influence effectively.
 
@@ -192,7 +192,7 @@ PMs often have **responsibility without authority**. Understanding power types h
 | **Expert** | Knowledge and skills | "I've done this 10 times successfully" | High | Builds respect |
 | **Referent** | Personal relationships; charisma | "People trust and like me" | Highest | Builds loyalty |
 
-::: warning ⚠️ PMP Best Practice
+::: warning  PMP Best Practice
 Rely on **Expert** and **Referent** power rather than **Coercive** power. Coercive power damages relationships and team morale. The best PMs influence through competence and trust, not threats.
 :::
 
@@ -208,7 +208,7 @@ Rely on **Expert** and **Referent** power rather than **Coercive** power. Coerci
 
 ---
 
-## 📐 Communications Channels Formula
+##  Communications Channels Formula
 
 During execution, communication complexity increases with team size. The **Communications Channels Formula** helps you plan communication overhead.
 
@@ -228,7 +228,7 @@ Where **n** = number of stakeholders/team members
 | 20 | 20 × 19 ÷ 2 | 190 | Very high complexity |
 | 50 | 50 × 49 ÷ 2 | 1,225 | Requires structured communication |
 
-::: tip 💡 Exam Application
+::: tip  Exam Application
 If a question asks about communication complexity when **adding team members**, calculate the before/after channel count:
 - Team of 10: 45 channels
 - Add 2 members (now 12): 12 × 11 ÷ 2 = **66 channels** (47% increase!)
@@ -245,7 +245,7 @@ When channels become unwieldy:
 
 ---
 
-## 🚀 Driving Performance (Without Losing Value)
+##  Driving Performance (Without Losing Value)
 Execution is where you turn plans and backlogs into real deliverables. It requires balancing:
 
 - **Discipline** (baselines, policies, governance, quality standards)
@@ -301,7 +301,7 @@ Execution is where you turn plans and backlogs into real deliverables. It requir
 
 ---
 
-## 📊 Predictive vs. Adaptive Execution (Detailed Comparison)
+##  Predictive vs. Adaptive Execution (Detailed Comparison)
 
 The 2026 PMP exam expects you to recognize the appropriate execution approach based on project context: uncertainty, requirements stability, stakeholder availability, and organizational culture.
 
@@ -341,13 +341,13 @@ The 2026 PMP exam expects you to recognize the appropriate execution approach ba
 | Quality defect found | Log defect → assess impact → fix or defer via CCB | Fix in current sprint if DoD broken; backlog if not | Critical defects fixed immediately; minor to backlog |
 | Risk occurs (becomes issue) | Execute risk response plan → log as issue → assess variance | Adapt priority/scope → collaborate on solution → continue | Execute response + assess if re-planning needed |
 
-::: tip 💡 Exam Strategy: Match the Approach to the Context
+::: tip  Exam Strategy: Match the Approach to the Context
 If a scenario describes **changing requirements, user feedback, innovation**, lean toward **adaptive** answers (collaborate, iterate, demos). If it describes **contracts, fixed budgets, compliance**, lean toward **predictive** answers (CCB, baselines, formal approvals).
 :::
 
 ---
 
-## 🔄 Integration with Other Process Groups
+##  Integration with Other Process Groups
 
 Execution doesn't happen in isolation—it's constantly informed by and feeding back to other process groups. Understanding these connections helps you answer integration questions on the exam.
 
@@ -371,7 +371,7 @@ Execution doesn't happen in isolation—it's constantly informed by and feeding 
 
 **Key connection**: Execution **implements the plans**. If something isn't working, you don't just ignore the plan—you use **change control** or **adaptive refinement** to update it.
 
-### Executing ↔ Monitoring & Controlling (Continuous Loop)
+### Executing  Monitoring & Controlling (Continuous Loop)
 This is the most critical integration—execution and monitoring happen **simultaneously**.
 
 ```
@@ -436,7 +436,7 @@ This is the most critical integration—execution and monitoring happen **simult
 7. **Monitoring & Controlling**: Re-validate with stakeholder (Validate Scope - accepted)
 8. **Closing**: Formally accept and close (Close Project or Phase)
 
-::: tip 💡 Exam Pattern
+::: tip  Exam Pattern
 Questions that say "during execution, you discover..." often test whether you know to **stop, assess, and potentially update the plan** (via M&C processes) before continuing execution. Don't just "push through" when the plan is wrong.
 :::
 

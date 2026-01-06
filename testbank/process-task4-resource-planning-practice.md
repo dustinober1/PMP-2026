@@ -1332,7 +1332,7 @@ How should the project manager (Scrum Master) encourage the team to optimize thi
 
 ---
 
-## 📊 Exam Analytics & Summary
+##  Exam Analytics & Summary
 
 ### Topic Summary Table
 

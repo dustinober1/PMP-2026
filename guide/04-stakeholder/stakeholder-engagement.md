@@ -7,7 +7,7 @@ Communication is the *act* of sending information; **Engagement** is the *result
 
 ---
 
-## 🏗️ The Pillars of Trust
+##  The Pillars of Trust
 
 Trust is the currency of leadership. In the 2026 PMP mindset, transparency is your most effective tool for building long-term engagement.
 
@@ -37,13 +37,13 @@ Trust is the currency of leadership. In the 2026 PMP mindset, transparency is yo
 | **Intimacy** | They feel safe sharing with you | Keep confidences, show empathy, create safe spaces |
 | **Self-Orientation** | (Low is good) They believe you care about them | Listen first, put their needs forward, don't sell |
 
-::: tip 🧠 Trust Math
+::: tip  Trust Math
 High self-orientation ("I'm trying to sell you something") destroys trust faster than the other factors can build it. **Listen before you pitch.**
 :::
 
 ---
 
-## 🎯 Influence Strategies (Without Authority)
+##  Influence Strategies (Without Authority)
 
 Project managers rarely have formal authority over all stakeholders. These strategies help you influence effectively:
 
@@ -87,7 +87,7 @@ Project managers rarely have formal authority over all stakeholders. These strat
 
 ---
 
-## 🚦 Navigating Resistance
+##  Navigating Resistance
 
 Resistance is usually a symptom of unmanaged fear or a loss of control.
 
@@ -117,13 +117,13 @@ Resistance is usually a symptom of unmanaged fear or a loss of control.
 | End Users | Job security, learning curve | New skills required | "You become certified in market-leading platform" |
 | Finance | Budget accuracy, audit readiness | Better data integration | "Real-time financial visibility, faster close" |
 
-::: info 🛠️ 2026 Shift: Continuous Validation
+::: info  2026 Shift: Continuous Validation
 Forget the "one-time" sign-off. Modern engagement uses **Demos** and **Reviews** as continuous validity checks. If a stakeholder's engagement slips, you find out in two weeks, not two months.
 :::
 
 ---
 
-## 🤝 Coalition Building
+##  Coalition Building
 
 Major projects require coalitions—groups of stakeholders who collectively support project success.
 
@@ -148,7 +148,7 @@ Major projects require coalitions—groups of stakeholders who collectively supp
 
 ---
 
-## 🔄 Agile vs. Predictive Engagement
+##  Agile vs. Predictive Engagement
 
 The exam will test your ability to adapt engagement based on the project life cycle.
 
@@ -171,13 +171,13 @@ The exam will test your ability to adapt engagement based on the project life cy
 | **Retrospective** | Team only (unless invited) | Safe space for improvement |
 | **Backlog Refinement** | Product Owner + SMEs as needed | Requirement clarity, early engagement |
 
-::: tip 🧠 Agile Mindset
+::: tip  Agile Mindset
 In Agile, **Stakeholders are Participants**, not just observers. Invite them to the Daily Standup (as listeners) and the Sprint Review (as active feedback givers).
 :::
 
 ---
 
-## 📊 From Analysis to Action (Engagement Plan)
+##  From Analysis to Action (Engagement Plan)
 
 Stakeholder analysis tells you **who matters**. Engagement planning tells you **what you will do** to earn and maintain support.
 
@@ -209,7 +209,7 @@ This is the fastest way to spot where projects fail: the project needs someone t
 - Feedback becomes perfunctory or absent
 - Body language disengagement in meetings
 
-::: warning ⚠️ The Risk Connection
+::: warning  The Risk Connection
 A **Resistant** stakeholder is a **Risk**. If you identify a high-power resistor, you must:
 1.  Update the **Stakeholder Register** (to reflect the attitude).
 2.  Update the **Risk Register** (to track the threat to project objectives).
@@ -218,7 +218,7 @@ A **Resistant** stakeholder is a **Risk**. If you identify a high-power resistor
 
 ---
 
-## 📊 Managing Expectations
+##  Managing Expectations
 
 Expectation management is the #1 job of a PM.
 
@@ -253,7 +253,7 @@ Expectation management is the #1 job of a PM.
 
 ---
 
-## 🔄 Feedback Loops
+##  Feedback Loops
 
 Engagement requires continuous feedback mechanisms:
 
@@ -265,7 +265,7 @@ Engagement requires continuous feedback mechanisms:
 | **1:1 Check-ins** | Individual stakeholder meetings | As needed | Relationship, deep concerns |
 | **Retrospectives** | Team/stakeholder retrospectives | End of phase | Lessons learned |
 
-::: tip 🧠 Exam Pattern
+::: tip  Exam Pattern
 When a stakeholder is unhappy, the best answers usually involve **direct engagement + plan updates** (Stakeholder Register, Engagement Plan, Communications Plan) before escalation.
 :::
 
@@ -301,7 +301,7 @@ When a stakeholder is unhappy, the best answers usually involve **direct engagem
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a stakeholder is unhappy with a deliverable, the answer is rarely "work harder." The correct answer is usually to <strong>increase the frequency of their involvement</strong> or <strong>update the Stakeholder Engagement Plan</strong> to provide more visibility.
+  <strong> Exam Insight:</strong> If a stakeholder is unhappy with a deliverable, the answer is rarely "work harder." The correct answer is usually to <strong>increase the frequency of their involvement</strong> or <strong>update the Stakeholder Engagement Plan</strong> to provide more visibility.
 </div>
 
 <style>

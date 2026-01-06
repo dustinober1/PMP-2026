@@ -7,7 +7,7 @@ In 2026, the era of "Command & Control" is dead. Success is driven by the **Serv
 
 ---
 
-## 🛡️ The Servant Leader Mindset
+##  The Servant Leader Mindset
 Your job is to remove rocks from the road, not to crack the whip.
 
 | The Old Way (Manager)   | The New Way (Servant)       |
@@ -19,13 +19,13 @@ Your job is to remove rocks from the road, not to crack the whip.
 | Tells people what to do | Asks what people need       |
 | Measures hours          | Measures outcomes           |
 
-::: tip 💡 2026 Focus: Impediment Removal
+::: tip  2026 Focus: Impediment Removal
 Your most critical daily action is neutralizing **Impediments**. If you aren't clearing the path, you aren't leading.
 :::
 
 ---
 
-## 🧰 Servant Leadership in Practice (The Daily Behaviors)
+##  Servant Leadership in Practice (The Daily Behaviors)
 Servant leadership is not "being nice." It is a high-discipline leadership system that requires active effort.
 
 ### The Five Daily Practices
@@ -45,7 +45,7 @@ Rate yourself 1-5 on each behavior:
 
 ---
 
-## 🧭 Situational Leadership II (SLII) Deep Dive
+##  Situational Leadership II (SLII) Deep Dive
 You cannot treat every team member the same. You must adapt your style to their **Development Level** on each specific task.
 
 <div class="style-grid">
@@ -91,13 +91,13 @@ You cannot treat every team member the same. You must adapt your style to their 
 | **Same style for everyone** | Mismatched support | Assess each person per task |
 | **Never updating style** | Stagnation | Reassess as people grow |
 
-::: tip ✅ Exam Pattern: Support beats replacement
+::: tip  Exam Pattern: Support beats replacement
 If a team member is willing but struggling, the best answer is usually coaching/training (not reassigning the work or escalating immediately).
 :::
 
 ---
 
-## 🧑‍🏫 Coaching vs. Mentoring vs. Training vs. Sponsoring
+## ‍ Coaching vs. Mentoring vs. Training vs. Sponsoring
 These concepts are often mixed up in real life. The exam expects you to choose the right tool.
 
 | Mode | Primary Goal | Duration | Relationship | Best For |
@@ -125,7 +125,7 @@ A structured framework for coaching conversations:
 
 ---
 
-## 🎭 Leadership Styles: The Full Spectrum
+##  Leadership Styles: The Full Spectrum
 Beyond "Servant," you must recognize these other archetypes on the exam.
 
 <div class="style-grid">
@@ -173,7 +173,7 @@ Beyond "Servant," you must recognize these other archetypes on the exam.
 
 ---
 
-## 🧲 Influence Without Authority: Power in the Matrix
+##  Influence Without Authority: Power in the Matrix
 Project managers often lead in matrix environments where they cannot "command" resources. Success depends on influence.
 
 ### The Five Types of Power
@@ -197,13 +197,13 @@ Project managers often lead in matrix environments where they cannot "command" r
 - Show genuine interest in others
 - Be fair and transparent
 
-::: warning ⚠️ Exam Trap: Coercive Power
+::: warning  Exam Trap: Coercive Power
 Coercive power (threats, punishment) is almost always a trap answer on the PMP exam. Servant leaders use expert and referent power instead.
 :::
 
 ---
 
-## 🧠 Emotional Intelligence (EQ): The Complete Model
+##  Emotional Intelligence (EQ): The Complete Model
 EQ is the "secret sauce" of leading through crisis. Based on Goleman's model, you need all five competencies:
 
 ### The Five EQ Competencies
@@ -229,7 +229,7 @@ EQ is the "secret sauce" of leading through crisis. Based on Goleman's model, yo
 
 ---
 
-## 🎓 Training Needs Analysis (Gap Analysis)
+##  Training Needs Analysis (Gap Analysis)
 Before you send someone to training, you must verify the gap.
 
 ### The Four-Step Process
@@ -246,13 +246,13 @@ Before you send someone to training, you must verify the gap.
 | **Will** | Can do it, but won't | Motivate/Counsel |
 | **Environment** | Would, but can't | Remove Blockers |
 
-::: tip 💡 Exam Pattern: Diagnose Before Prescribing
+::: tip  Exam Pattern: Diagnose Before Prescribing
 The best answers usually diagnose the root cause (skill vs. will vs. environment) before jumping to training or discipline.
 :::
 
 ---
 
-## 🗣️ A PMP-Friendly Coaching Conversation (Fast Script)
+##  A PMP-Friendly Coaching Conversation (Fast Script)
 Use this when performance drops, conflict rises, or morale is slipping.
 
 ### The Five-Step Script
@@ -331,7 +331,7 @@ A structured way to give clear, actionable feedback:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a high performer suddenly starts missing deadlines, do NOT micromanage (S1). Switch to <strong>Supporting (S3)</strong>. Ask open-ended questions to find out if they are burned out or facing personal issues. Your first move is <strong>empathy and inquiry</strong>, not direction.
+  <strong> Exam Insight:</strong> If a high performer suddenly starts missing deadlines, do NOT micromanage (S1). Switch to <strong>Supporting (S3)</strong>. Ask open-ended questions to find out if they are burned out or facing personal issues. Your first move is <strong>empathy and inquiry</strong>, not direction.
 </div>
 
 <style>

@@ -6,7 +6,7 @@ Individual projects can fail in isolation if their interdependencies aren't mana
 
 ---
 
-## 🧭 What “Alignment” Looks Like Inside a Program
+##  What “Alignment” Looks Like Inside a Program
 Program alignment is about keeping multiple projects moving toward the **same outcomes and benefits**.
 
 Common alignment mechanisms:
@@ -16,7 +16,7 @@ Common alignment mechanisms:
 - **Integrated change control at the program level** (so one project’s change does not break another)
 - **Regular cross-project coordination** (syncs, demos, roadmap reviews)
 
-## 🔗 The Synergy Engine
+##  The Synergy Engine
 Why group projects into a Program?
 
 <div class="synergy-grid">
@@ -40,20 +40,20 @@ Why group projects into a Program?
 
 ---
 
-## 🚦 Managing Dependencies
+##  Managing Dependencies
 A dependency is where one project holds the key to another's success.
 
 *   **Finish-to-Start**: The Platform Foundation (Project A) must be complete before the App (Project B) can launch.
 *   **Resource Lock**: Both projects need the Lead Security Engineer in Week 40.
 *   **External**: Project C is waiting for a government permit.
 
-::: tip 💡 Integrated Roadmaps
+::: tip  Integrated Roadmaps
 Program Managers use **Integrated Master Schedules** to visualize these dependencies. If Project A slips by 2 weeks, the software automatically highlights the crash in Project B.
 :::
 
 ---
 
-## 🧩 Dependency Types (And How They Fail)
+##  Dependency Types (And How They Fail)
 | Dependency type | Example | Common failure mode | PMI-aligned response |
 | :-- | :-- | :-- | :-- |
 | **Finish-to-start** | API must exist before app integration | Upstream delay cascades | Re-plan, escalate, adjust milestones |
@@ -63,7 +63,7 @@ Program Managers use **Integrated Master Schedules** to visualize these dependen
 
 ---
 
-## 🔄 Delivery Contexts
+##  Delivery Contexts
 How alignment works in different methodologies:
 
 | Method             | Alignment Mechanism                                                                                                        |
@@ -104,7 +104,7 @@ How alignment works in different methodologies:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If you discover a dependency on another project that you do not control:
+  <strong> Exam Insight:</strong> If you discover a dependency on another project that you do not control:
   1.  **Contact Peer PM**: Try to resolve it directly.
   2.  **Escalate to Program Manager**: If you cannot resolve it peer-to-peer.
 </div>

@@ -4,7 +4,7 @@ The PMP exam is a test of **reasoning**, not just recall. In 2026, approximately
 
 ---
 
-## 🧠 The PMI Mindset (The Golden Rules)
+##  The PMI Mindset (The Golden Rules)
 When unsure, apply these filters. The correct answer almost always aligns with:
 
 <div class="mindset-grid">
@@ -32,7 +32,7 @@ When unsure, apply these filters. The correct answer almost always aligns with:
 
 ---
 
-## 🏎️ Time Management: The 240-Minute Marathon
+##  Time Management: The 240-Minute Marathon
 The exam is **185 questions in 240 minutes**. For the center-based exam, you get **two 5-minute breaks**. The first break occurs after the **case-study section**, and the second occurs about halfway through the **independent question** portion.
 
 *   **Segment 1 (Case studies)**: Don't over-read; answer the full set while the scenario is fresh.
@@ -41,13 +41,13 @@ The exam is **185 questions in 240 minutes**. For the center-based exam, you get
 *   **Break 2 (5 min)**: Quick reset; protect your focus.
 *   **Segment 3 (Independent questions)**: Keep momentum; avoid second-guess spirals.
 
-::: tip 💡 The "Review" Lock
+::: tip  The "Review" Lock
 Once you finish a section and start your break, **you cannot go back**. Review your flagged questions before hitting "Submit Section."
 :::
 
 ---
 
-## 🔍 Decoding Scenarios: The "Reverse Read"
+##  Decoding Scenarios: The "Reverse Read"
 Most questions are long, confusing scenarios.
 1.  **Read the Last Sentence First**: "What should the project manager do *next*?"
 2.  **Read the Scenario**: Now scan for keywords (Agile? Predictive? Behind schedule?).
@@ -100,7 +100,7 @@ Most questions are long, confusing scenarios.
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a question doesn't specify the methodology, look for clues. "Sprint" = Agile. "Phase Gate" = Predictive. If NO clues exist, assume **Hybrid** and choose the answer that balances control with flexibility.
+  <strong> Exam Insight:</strong> If a question doesn't specify the methodology, look for clues. "Sprint" = Agile. "Phase Gate" = Predictive. If NO clues exist, assume **Hybrid** and choose the answer that balances control with flexibility.
 </div>
 
 <style>

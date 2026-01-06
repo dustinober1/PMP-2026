@@ -7,75 +7,75 @@ Projects operate within a web of "Unwritten Rules" (Politics) and "Written Laws"
 
 ---
 
-## 📚 Compliance vs. Standards vs. Policy (Know the Difference)
+##  Compliance vs. Standards vs. Policy (Know the Difference)
 
 Understanding the hierarchy of rules is critical for exam success:
 
 <div class="rules-hierarchy">
   <div class="rule-tier law">
     <div class="tier-label">Highest Authority</div>
-    <div class="tier-title">🏛️ Laws & Regulations</div>
+    <div class="tier-title"> Laws & Regulations</div>
     <p>External, mandatory. Non-negotiable. Failure = legal penalties.</p>
     <div class="tier-examples">GDPR, SOX, OSHA, HIPAA, Building Codes, Environmental Laws</div>
   </div>
   
   <div class="rule-tier standard">
-    <div class="tier-title">📋 Industry Standards</div>
+    <div class="tier-title"> Industry Standards</div>
     <p>Agreed minimum practices. May be optional until adopted by contract or regulation.</p>
     <div class="tier-examples">ISO 27001, IEEE, PMBOK, ITIL, NIST Cybersecurity Framework</div>
   </div>
   
   <div class="rule-tier policy">
-    <div class="tier-title">📝 Organizational Policy</div>
+    <div class="tier-title"> Organizational Policy</div>
     <p>Internal rules. Enforceable within the organization.</p>
     <div class="tier-examples">Procurement thresholds, approval paths, code of conduct, travel policy</div>
   </div>
   
   <div class="rule-tier guideline">
     <div class="tier-label">Lowest Priority</div>
-    <div class="tier-title">💡 Guidelines & Best Practices</div>
+    <div class="tier-title"> Guidelines & Best Practices</div>
     <p>Recommended approaches. Optional but wise to follow.</p>
     <div class="tier-examples">Team conventions, style guides, suggested templates</div>
   </div>
 </div>
 
-::: danger ⚠️ The Priority Rule
+::: danger  The Priority Rule
 On the exam, when these conflict: **Laws and safety win. Always.** You cannot trade safety or legality for schedule or cost.
 :::
 
 ---
 
-## ⚖️ The Compliance Radar
+##  The Compliance Radar
 Compliance failures are **business threats**, not just risks.
 
 <div class="compliance-grid">
   <div class="comp-card">
-    <div class="comp-icon">🔐</div>
+    <div class="comp-icon"></div>
     <div class="comp-title">Data Privacy</div>
     <p><strong>GDPR / CCPA / HIPAA</strong>. If you touch customer data (especially for AI training), you must have consent.</p>
     <div class="penalty">Penalty: Up to 4% of annual revenue (GDPR)</div>
   </div>
   <div class="comp-card">
-    <div class="comp-icon">🏭</div>
+    <div class="comp-icon"></div>
     <div class="comp-title">EHS</div>
     <p><strong>OSHA / ISO 14001</strong>. Environmental, Health, and Safety regulations are non-negotiable. Safety > Schedule.</p>
     <div class="penalty">Penalty: Criminal liability; project shutdown</div>
   </div>
   <div class="comp-card">
-    <div class="comp-icon">📊</div>
+    <div class="comp-icon"></div>
     <div class="comp-title">Financial</div>
     <p><strong>SOX / AML / FCPA</strong>. Anti-bribery and accurate financial reporting. "Cooking the books" is an automatic fail.</p>
     <div class="penalty">Penalty: Executive imprisonment; massive fines</div>
   </div>
   <div class="comp-card">
-    <div class="comp-icon">🏗️</div>
+    <div class="comp-icon"></div>
     <div class="comp-title">Codes</div>
     <p><strong>Building / Cyber / Accessibility</strong>. Technical standards dictate minimum quality and safety.</p>
     <div class="penalty">Penalty: Cannot deploy/occupy; rework required</div>
   </div>
 </div>
 
-### 📋 Key Regulations Reference Table
+###  Key Regulations Reference Table
 
 | Regulation | Full Name | Focus Area | Key Requirements | Penalty |
 | :-- | :-- | :-- | :-- | :-- |
@@ -87,13 +87,13 @@ Compliance failures are **business threats**, not just risks.
 | **ADA** | Americans with Disabilities Act | Accessibility | Digital and physical accessibility | Civil penalties + remediation |
 | **FCPA** | Foreign Corrupt Practices Act | Anti-bribery | Prohibition of foreign official bribes | Criminal penalties |
 
-::: warning ⚠️ The Retroactive Rule
+::: warning  The Retroactive Rule
 If a new law is passed in the middle of your project, you **must adopt it**, even if it wrecks your baseline. A project cannot be "successful" if it is illegal.
 :::
 
 ---
 
-## 🏛️ Governance vs. Management
+##  Governance vs. Management
 Who makes the call?
 
 | Role                                | Responsibility                              | Authority                                                     |
@@ -101,7 +101,7 @@ Who makes the call?
 | **Governance** (Steering Committee) | "We are going North." (Direction)           | Can cancel the project or approve budget increases.           |
 | **Management** (Project Manager)    | "Here is the map to get North." (Execution) | Can manage the team and budget within the approved tolerance. |
 
-### 📊 Governance Decision Matrix
+###  Governance Decision Matrix
 
 | Decision Type | Authority Level | Examples | PM's Role |
 | :-- | :-- | :-- | :-- |
@@ -114,7 +114,7 @@ Who makes the call?
 
 ---
 
-## 🔄 Agile Governance (Adaptive Oversight)
+##  Agile Governance (Adaptive Oversight)
 Governance does not go away in Agile; it changes shape.
 
 ### Traditional vs. Agile Governance
@@ -134,17 +134,17 @@ Governance does not go away in Agile; it changes shape.
 *   **Empirical Control**: Decisions are made based on observed data (working software), not predicted data (Gantt charts)
 *   **Trust-Based**: Teams have latitude to self-organize within strategic guardrails
 
-::: tip 💡 The Hybrid Truth
+::: tip  The Hybrid Truth
 Most organizations use a hybrid approach: **strategic milestones** (gates) combined with **iterative delivery** within each phase. Governance still exists; it just focuses on outcomes rather than documentation.
 :::
 
 ---
 
-## 🧭 Who Does What? (Governance Bodies You'll See in Questions)
+##  Who Does What? (Governance Bodies You'll See in Questions)
 
 <div class="governance-bodies">
   <div class="gov-body sponsor">
-    <div class="gov-icon">👔</div>
+    <div class="gov-icon"></div>
     <div class="gov-name">Sponsor</div>
     <div class="gov-focus">Funding, business outcomes</div>
     <ul>
@@ -157,7 +157,7 @@ Most organizations use a hybrid approach: **strategic milestones** (gates) combi
   </div>
   
   <div class="gov-body steering">
-    <div class="gov-icon">🏛️</div>
+    <div class="gov-icon"></div>
     <div class="gov-name">Steering Committee</div>
     <div class="gov-focus">Strategic direction</div>
     <ul>
@@ -169,7 +169,7 @@ Most organizations use a hybrid approach: **strategic milestones** (gates) combi
   </div>
   
   <div class="gov-body pmo">
-    <div class="gov-icon">📋</div>
+    <div class="gov-icon"></div>
     <div class="gov-name">PMO</div>
     <div class="gov-focus">Standards, templates, reporting</div>
     <ul>
@@ -181,7 +181,7 @@ Most organizations use a hybrid approach: **strategic milestones** (gates) combi
   </div>
   
   <div class="gov-body ccb">
-    <div class="gov-icon">🔄</div>
+    <div class="gov-icon"></div>
     <div class="gov-name">CCB</div>
     <div class="gov-focus">Baseline changes</div>
     <ul>
@@ -192,7 +192,7 @@ Most organizations use a hybrid approach: **strategic milestones** (gates) combi
   </div>
   
   <div class="gov-body legal">
-    <div class="gov-icon">⚖️</div>
+    <div class="gov-icon"></div>
     <div class="gov-name">Legal / Compliance</div>
     <div class="gov-focus">Regulatory interpretation</div>
     <ul>
@@ -204,13 +204,13 @@ Most organizations use a hybrid approach: **strategic milestones** (gates) combi
   </div>
 </div>
 
-::: tip 💡 Exam Shortcut
+::: tip  Exam Shortcut
 If the decision is about **strategy or funding**, think "steering committee / portfolio." If it is about **baseline change**, think "change control." If you need **process or templates**, think "PMO."
 :::
 
 ---
 
-## 🧩 The Ethical Compass
+##  The Ethical Compass
 PMI mandates four core values: **Responsibility, Respect, Fairness, and Honesty**.
 
 ### The Four Values in Action
@@ -222,7 +222,7 @@ PMI mandates four core values: **Responsibility, Respect, Fairness, and Honesty*
 | **Fairness** | Make impartial decisions; avoid favoritism | Select vendors based on merit, not relationships |
 | **Honesty** | Be truthful in communications and actions | Disclose conflicts of interest; accurate reporting |
 
-### 🚨 Ethical Scenarios (Exam Favorites)
+###  Ethical Scenarios (Exam Favorites)
 
 <div class="ethics-scenarios">
   <div class="ethics-card">
@@ -254,7 +254,7 @@ PMI mandates four core values: **Responsibility, Respect, Fairness, and Honesty*
   </div>
 </div>
 
-### 💰 Bribery and Facilitation Payments
+###  Bribery and Facilitation Payments
 
 | Type | Description | PMI Position |
 | :-- | :-- | :-- |
@@ -263,46 +263,46 @@ PMI mandates four core values: **Responsibility, Respect, Fairness, and Honesty*
 | **Legitimate Gifts** | Small tokens within organizational policy | May be acceptable; check policy |
 | **Entertainment** | Business meals, events | Check organizational limits; document |
 
-::: danger 🚨 Zero Tolerance
+::: danger  Zero Tolerance
 PMI has zero tolerance for bribery. Even a "facilitation payment" (grease payment) is questionable globally and strictly banned by PMI ethics. When in doubt, refuse.
 :::
 
 ---
 
-## 🔐 Data Privacy & AI (Common 2026 Exam Theme)
+##  Data Privacy & AI (Common 2026 Exam Theme)
 If your project collects or uses personal data (especially for AI training), exam-safe behaviors include:
 
 ### The 5 Principles of Data Privacy
 
 <div class="privacy-principles">
   <div class="principle">
-    <div class="principle-icon">📉</div>
+    <div class="principle-icon"></div>
     <div class="principle-name">Minimize</div>
     <p>Collect only what is needed for the stated purpose</p>
   </div>
   <div class="principle">
-    <div class="principle-icon">✅</div>
+    <div class="principle-icon"></div>
     <div class="principle-name">Consent</div>
     <p>Obtain explicit consent; honor opt-out where required</p>
   </div>
   <div class="principle">
-    <div class="principle-icon">🔒</div>
+    <div class="principle-icon"></div>
     <div class="principle-name">Secure</div>
     <p>Access control, encryption, logging, breach detection</p>
   </div>
   <div class="principle">
-    <div class="principle-icon">⏰</div>
+    <div class="principle-icon"></div>
     <div class="principle-name">Retention</div>
     <p>Do not keep data forever "just in case"; have deletion policies</p>
   </div>
   <div class="principle">
-    <div class="principle-icon">📋</div>
+    <div class="principle-icon"></div>
     <div class="principle-name">Document</div>
     <p>Traceability to requirements and approvals; audit trails</p>
   </div>
 </div>
 
-### 🤖 AI-Specific Considerations
+###  AI-Specific Considerations
 
 | Consideration | What It Means | PM Action |
 | :-- | :-- | :-- |
@@ -464,7 +464,7 @@ If your project collects or uses personal data (especially for AI training), exa
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> You discover a team member is cutting safety corners to meet a deadline. What do you do? <strong>Stop the work immediately.</strong> Safety violations are never "mitigated"; they are "avoided."
+  <strong> Exam Insight:</strong> You discover a team member is cutting safety corners to meet a deadline. What do you do? <strong>Stop the work immediately.</strong> Safety violations are never "mitigated"; they are "avoided."
 </div>
 
 <style>

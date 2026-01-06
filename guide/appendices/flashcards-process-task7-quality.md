@@ -2,7 +2,7 @@
 description: Flashcards for PMP Process Domain Task 7
 ---
 
-# ⚡ Process Task 7: Plan and Optimize Quality
+#  Process Task 7: Plan and Optimize Quality
 
 **Domain**: Process
 **Task**: Plan and optimize quality
@@ -10,7 +10,7 @@ description: Flashcards for PMP Process Domain Task 7
 
 ---
 
-## 🎯 Quality Fundamentals
+##  Quality Fundamentals
 
 ### Card 1
 **Front:**
@@ -89,7 +89,7 @@ A methodology to reduce defects to 3.4 defects per million opportunities. It foc
 
 ---
 
-## 🏗️ Quality Processes (QA vs QC)
+##  Quality Processes (QA vs QC)
 
 ### Card 11
 **Front:**
@@ -163,7 +163,7 @@ The result is rated on a continuous scale that measures the degree of conformity
 
 ---
 
-## 💰 Cost of Quality (CoQ)
+##  Cost of Quality (CoQ)
 
 ### Card 21
 **Front:**
@@ -238,7 +238,7 @@ Typically **Yes**, by finding defects early (Shift Left) through TDD and CI/CD, 
 
 ---
 
-## 🛠️ The 7 Basic Quality Tools
+##  The 7 Basic Quality Tools
 
 ### Card 31
 **Front:**
@@ -312,7 +312,7 @@ A plot of ordered pairs (X, Y) showing the relationship between two variables (C
 
 ---
 
-## 🔬 Advanced Quality Tools
+##  Advanced Quality Tools
 
 ### Card 41
 **Front:**
@@ -386,7 +386,7 @@ Plan-Do-Check-Act. The cycle of continuous improvement defined by Shewhart and p
 
 ---
 
-## ⚡ Quick-Fire Quality Review
+##  Quick-Fire Quality Review
 
 ### Card 51
 **Front:**
@@ -460,7 +460,7 @@ Brainstorming with a voting process to rank the most useful ideas.
 
 ---
 
-## 🏆 Agile Quality
+##  Agile Quality
 
 ### Card 61
 **Front:**
@@ -534,7 +534,7 @@ A short, time-boxed research task in Agile to learn about a new technology or re
 
 ---
 
-## 🚦 Closing Quality
+##  Closing Quality
 
 ### Card 71
 **Front:**

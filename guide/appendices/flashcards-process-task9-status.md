@@ -2,7 +2,7 @@
 description: Flashcards for PMP Process Domain Task 9
 ---
 
-# ⚡ Process Task 9: Evaluate Project Status
+#  Process Task 9: Evaluate Project Status
 
 **Domain**: Process
 **Task**: Evaluate project status
@@ -10,7 +10,7 @@ description: Flashcards for PMP Process Domain Task 9
 
 ---
 
-## 📊 Work Performance Data Flow
+##  Work Performance Data Flow
 
 ### Card 1
 **Front:**
@@ -84,7 +84,7 @@ A report that describes what the project team has accomplished (Historic).
 
 ---
 
-## 📈 EVM Forecasting & Analysis
+##  EVM Forecasting & Analysis
 
 ### Card 11
 **Front:**
@@ -159,7 +159,7 @@ A practice where only significant deviations from the plan (exceeding thresholds
 
 ---
 
-## 🚧 Integrated Change Control
+##  Integrated Change Control
 
 ### Card 21
 **Front:**
@@ -233,7 +233,7 @@ Key stakeholders, Sponsor, Project Manager (often non-voting), Subject Matter Ex
 
 ---
 
-## 📉 Agile Monitoring
+##  Agile Monitoring
 
 ### Card 31
 **Front:**
@@ -307,7 +307,7 @@ How often is status inspected in Scrum?
 
 ---
 
-## 🔍 Risk Monitoring
+##  Risk Monitoring
 
 ### Card 41
 **Front:**
@@ -346,7 +346,7 @@ The **Risk Register** (to mark it as occurred/closed) and the **Issue Log** (if 
 
 ---
 
-## 🧠 Scenarios: Evaluating Status
+##  Scenarios: Evaluating Status
 
 ### Card 46
 **Front:**
@@ -385,7 +385,7 @@ If it is during development (before baseline/acceptance), usually **No**. If it 
 
 ---
 
-## ⚡ Quick-Fire Status Review
+##  Quick-Fire Status Review
 
 ### Card 51
 **Front:**
@@ -460,7 +460,7 @@ An intentional activity that ensures the future performance of the project work 
 
 ---
 
-## 📂 Reporting & Closing
+##  Reporting & Closing
 
 ### Card 61
 **Front:**
@@ -534,7 +534,7 @@ Unforeseen work (Unknown Unknowns) that is within the scope of the project. Requ
 
 ---
 
-## 🔢 More Calculation Practice
+##  More Calculation Practice
 
 ### Card 71
 **Front:**

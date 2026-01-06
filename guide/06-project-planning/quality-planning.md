@@ -6,7 +6,7 @@ Quality management ensures that the project meets the requirements and delivers 
 
 ---
 
-## 🎯 Quality Concepts for PMP
+##  Quality Concepts for PMP
 
 The PMP exam tests your understanding of quality principles, not just tools. Master these core concepts:
 
@@ -27,7 +27,7 @@ The PMP exam tests your understanding of quality principles, not just tools. Mas
 
 ---
 
-## 🧭 The Quality Planning Flow
+##  The Quality Planning Flow
 
 ### Step 1: Plan Quality Management
 **Purpose**: Identify quality requirements and standards; document compliance approach
@@ -45,7 +45,7 @@ The PMP exam tests your understanding of quality principles, not just tools. Mas
 | **Manage Quality** (QA) | Executing | Process effectiveness | "Are we using the right processes?" |
 | **Control Quality** (QC) | Monitoring | Product correctness | "Did we build it correctly?" |
 
-::: tip 💡 Key Distinction
+::: tip  Key Distinction
 - **Quality Assurance (QA)** = Process-focused (are we building it right way?)
 - **Quality Control (QC)** = Product-focused (did we build it correctly?)
 - **Plan Quality** = Standards and metrics definition
@@ -53,7 +53,7 @@ The PMP exam tests your understanding of quality principles, not just tools. Mas
 
 ---
 
-## 📊 Quality vs. Grade
+##  Quality vs. Grade
 
 The exam loves to test this distinction:
 
@@ -70,7 +70,7 @@ The exam loves to test this distinction:
 
 ---
 
-## 🔧 Quality Planning Tools & Techniques
+##  Quality Planning Tools & Techniques
 
 ### Cost of Quality (CoQ)
 
@@ -331,7 +331,7 @@ Quality metrics must be **specific**, **measurable**, and tied to requirements:
 
 ---
 
-## ✅ Quality in Agile
+##  Quality in Agile
 
 Agile integrates quality throughout the development cycle:
 
@@ -363,7 +363,7 @@ A comprehensive DoD for a software team:
 
 ---
 
-## 📋 Quality Management Plan Components
+##  Quality Management Plan Components
 
 A comprehensive Quality Management Plan includes:
 
@@ -380,7 +380,7 @@ A comprehensive Quality Management Plan includes:
 
 ---
 
-## 🧠 Quality Planning Scenarios (Exam Practice)
+##  Quality Planning Scenarios (Exam Practice)
 
 ### Scenario 1: Root Cause Analysis
 **Situation**: Defects are increasing but the team doesn't know why.
@@ -408,7 +408,7 @@ A comprehensive Quality Management Plan includes:
 
 ---
 
-## 🔑 Key Quality Principles (Exam Must-Know)
+##  Key Quality Principles (Exam Must-Know)
 
 1. **Quality is planned in, not inspected in**
 2. **Prevention costs less than inspection/failure**
@@ -420,7 +420,7 @@ A comprehensive Quality Management Plan includes:
 
 ---
 
-## 📚 Key Terms & Quick Reference
+##  Key Terms & Quick Reference
 
 ### Quality Terminology
 
@@ -481,7 +481,7 @@ A comprehensive Quality Management Plan includes:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> When a question mentions finding the "root cause" of defects, think <strong>Cause-and-Effect Diagram</strong>. When it mentions "prioritizing which defects to fix first," think <strong>Pareto Chart</strong>. When it mentions "monitoring process stability," think <strong>Control Chart</strong>. Prevention is always preferred over inspection!
+  <strong> Exam Insight:</strong> When a question mentions finding the "root cause" of defects, think <strong>Cause-and-Effect Diagram</strong>. When it mentions "prioritizing which defects to fix first," think <strong>Pareto Chart</strong>. When it mentions "monitoring process stability," think <strong>Control Chart</strong>. Prevention is always preferred over inspection!
 </div>
 
 <style>

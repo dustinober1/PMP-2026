@@ -8,7 +8,7 @@ PMI publishes the ECO here: [new-pmp-examination-content-outline-2026.pdf](https
 
 ---
 
-## 🧭 Exam Blueprint (Quick Facts)
+##  Exam Blueprint (Quick Facts)
 
 - **Domain weights**: People **33%**, Process **41%**, Business Environment **26%**
 - **Format**: **185** questions (**175** scored + **10** unscored pretest), **240** minutes, **two 5-minute breaks** (center-based exam)
@@ -17,13 +17,13 @@ PMI publishes the ECO here: [new-pmp-examination-content-outline-2026.pdf](https
 
 ---
 
-## 🧩 Task Crosswalk (What to Study Where)
+##  Task Crosswalk (What to Study Where)
 
 ::: info Note
 This is a navigation aid (not an official PMI mapping). Tasks are integrated across the guide because the exam blends predictive, agile, and hybrid throughout all domains.
 :::
 
-### 👥 Domain I — People (33%)
+###  Domain I — People (33%)
 
 | ECO Task | Best-Match Guide Sections |
 |---|---|
@@ -36,7 +36,7 @@ This is a navigation aid (not an official PMI mapping). Tasks are integrated acr
 | Help ensure knowledge transfer | [Project Closure](/guide/09-monitoring/project-closure), [Monitoring & Controlling](/guide/09-monitoring/monitoring-closing) |
 | Plan and manage communication | [Communication Planning](/guide/04-stakeholder/communication-planning), [Communications Planning](/guide/06-project-planning/communications-planning), [Monitoring Toolkit](/guide/09-monitoring/toolkit) |
 
-### ⚙️ Domain II — Process (41%)
+###  Domain II — Process (41%)
 
 | ECO Task | Best-Match Guide Sections |
 |---|---|
@@ -51,7 +51,7 @@ This is a navigation aid (not an official PMI mapping). Tasks are integrated acr
 | Evaluate project status | [Data & Metrics](/guide/01-introduction/core-data), [Cost Planning (EVM)](/guide/06-project-planning/cost-planning), [Monitoring & Controlling](/guide/09-monitoring/monitoring-closing), [Monitoring Toolkit](/guide/09-monitoring/toolkit) |
 | Manage project closure | [Project Closure](/guide/09-monitoring/project-closure) |
 
-### 🏛️ Domain III — Business Environment (26%)
+###  Domain III — Business Environment (26%)
 
 | ECO Task | Best-Match Guide Sections |
 |---|---|

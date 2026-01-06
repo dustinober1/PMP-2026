@@ -2,7 +2,7 @@
 description: Flashcards for PMP Business Domain Task 2
 ---
 
-# 🌍 Business Task 2: Plan and Manage Project Compliance
+#  Business Task 2: Plan and Manage Project Compliance
 
 **Domain**: Business Environment
 **Task**: Plan and manage project compliance
@@ -10,7 +10,7 @@ description: Flashcards for PMP Business Domain Task 2
 
 ---
 
-## 🌍 Sustainability & ESG
+##  Sustainability & ESG
 
 ### Card 1
 **Front:**
@@ -84,7 +84,7 @@ A model of production and consumption that involves reusing, repairing, refurbis
 
 ---
 
-## 🛡️ Regulatory Compliance
+##  Regulatory Compliance
 
 ### Card 11
 **Front:**
@@ -158,7 +158,7 @@ Taking reasonable steps to identify and adhere to applicable laws and regulation
 
 ---
 
-## 🤖 Responsible AI & Data Ethics
+##  Responsible AI & Data Ethics
 
 ### Card 21
 **Front:**
@@ -234,7 +234,7 @@ Collecting only the data absolutely necessary for the specific purpose (Privacy 
 
 ---
 
-## 🧠 Compliance Scenarios
+##  Compliance Scenarios
 
 ### Card 31
 **Front:**
@@ -308,7 +308,7 @@ Raise it as a **Risk** or **Issue**. Accessibility is often a legal requirement 
 
 ---
 
-## ⚡ Quick-Fire Review
+##  Quick-Fire Review
 
 ### Card 41
 **Front:**
@@ -382,7 +382,7 @@ Check the **Gift Policy**. If unsure, decline.
 
 ---
 
-## 🧠 Integrated Compliance
+##  Integrated Compliance
 
 ### Card 51
 **Front:**
@@ -456,7 +456,7 @@ Protect the whistleblower and ensure the issue is investigated (Responsibility).
 
 ---
 
-## 🔐 Closing Compliance
+##  Closing Compliance
 
 ### Card 61
 **Front:**
@@ -530,7 +530,7 @@ Service Level Agreement. (Performance compliance).
 
 ---
 
-## 🧠 Final Exam Tips
+##  Final Exam Tips
 
 ### Card 71
 **Front:**

@@ -414,7 +414,7 @@ For full Chapter 6 proficiency, ensure you can:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> Planning questions often integrate multiple knowledge areas. A "scope change" question might require you to think about schedule impact, cost variance, risk implications, and stakeholder communication. Practice answering with the full project context in mind.
+  <strong> Exam Insight:</strong> Planning questions often integrate multiple knowledge areas. A "scope change" question might require you to think about schedule impact, cost variance, risk implications, and stakeholder communication. Practice answering with the full project context in mind.
 </div>
 
 <style>

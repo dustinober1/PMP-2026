@@ -6,7 +6,7 @@ Strategic alignment is the discipline of ensuring that the **right work** gets d
 
 ---
 
-## 🎯 What Strategic Alignment Means (On the PMP Exam)
+##  What Strategic Alignment Means (On the PMP Exam)
 On the exam, “strategic alignment” is not a slogan. It is a **decision filter** you use every time you:
 
 - Approve, reject, or re-prioritize work
@@ -14,11 +14,11 @@ On the exam, “strategic alignment” is not a slogan. It is a **decision filte
 - Escalate a major risk or regulatory change
 - Recommend a project be paused or closed because the expected value is gone
 
-::: tip 💡 The PMI Mindset
+::: tip  The PMI Mindset
 If a project is “green” (on time/budget) but is no longer valuable or compliant, it is **not successful**. The right answer is usually: **raise it to governance and recommend a strategic decision**.
 :::
 
-## 🔭 The Strategic Hierarchy
+##  The Strategic Hierarchy
 Great project management connects daily execution to organizational objectives.
 
 <div class="hierarchy-grid">
@@ -41,7 +41,7 @@ Great project management connects daily execution to organizational objectives.
 
 ---
 
-## 🧰 The Alignment Toolkit (Artifacts You Must Recognize)
+##  The Alignment Toolkit (Artifacts You Must Recognize)
 These artifacts show up in exam questions as clues for *where you are* in the lifecycle and *who decides what*.
 
 | Artifact | What it answers | Owned by (primary) | Used when |
@@ -55,7 +55,7 @@ These artifacts show up in exam questions as clues for *where you are* in the li
 
 ---
 
-## 🏛️ Deployment Mechanisms
+##  Deployment Mechanisms
 How does strategy actually reach the project team?
 
 <div class="section-grid">
@@ -105,7 +105,7 @@ Strategic alignment is not a "set it and forget it" activity.
 
 ---
 
-## 🔁 The Continuous Alignment Loop (A Simple Decision Model)
+##  The Continuous Alignment Loop (A Simple Decision Model)
 Use this when an exam question introduces “new information” mid-project (market shift, regulatory change, leadership pivot).
 
 1. **Detect**: Identify the change (signal, trigger, new constraint).
@@ -114,7 +114,7 @@ Use this when an exam question introduces “new information” mid-project (mar
 4. **Decide**: Governance chooses; the PM executes the decision.
 5. **Update**: Update baselines, risks, and communications; reinforce adoption.
 
-::: warning 🚦 Common Trap
+::: warning  Common Trap
 Do not “self-cancel” a project unless you have explicit authority. The PMI-aligned move is to **recommend** cancellation and support an orderly closure.
 :::
 

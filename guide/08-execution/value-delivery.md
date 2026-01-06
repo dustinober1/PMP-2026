@@ -4,13 +4,13 @@
 
 In the 2026 PMP context, a project is only successful if it delivers **Value**. Finishing "on time and under budget" is meaningless if the final product doesn't solve the customer's problem or drive the organization forward.
 
-::: tip 🎯 PMP exam trap
+::: tip  PMP exam trap
 Many scenarios describe a project that met requirements but still “failed.” The hidden issue is usually **validation/adoption**: the output exists, but the outcome/benefit did not happen.
 :::
 
 ---
 
-## 🔗 The Value Chain
+##  The Value Chain
 To master value delivery, you must understand the distinction between these four stages:
 
 <div class="chain-grid">
@@ -38,7 +38,7 @@ To master value delivery, you must understand the distinction between these four
 
 ---
 
-## ✅ Defining Value (So You Can Prove It Later)
+##  Defining Value (So You Can Prove It Later)
 Value is not a vibe—it needs a measurable definition.
 
 ### Success criteria checklist
@@ -56,13 +56,13 @@ Value is not a vibe—it needs a measurable definition.
 | **Benefit** | 30% reduction in call center volume | Benefits owner / operations |
 | **Value** | Lower operating cost + higher customer satisfaction | Sponsor / organization |
 
-::: info 🔍 Leading vs lagging indicators
+::: info  Leading vs lagging indicators
 Outcomes and benefits are often **lagging** (they appear later). Use **leading indicators** during execution (training completion, pilot adoption rate, usage telemetry) to predict whether value will actually happen.
 :::
 
 ---
 
-## 🏗️ The Value Delivery System
+##  The Value Delivery System
 Projects do not exist in a vacuum. They are part of a cascading flow of value:
 
 *   **Organizational Strategy**: Sets the North Star.
@@ -71,13 +71,13 @@ Projects do not exist in a vacuum. They are part of a cascading flow of value:
 *   **Projects**: The engine of change that creates the outputs.
 *   **Operations**: The "Home" of realized value where products are used daily.
 
-::: tip 💡 2026 Strategy: The "Tail"
+::: tip  2026 Strategy: The "Tail"
 Value delivery doesn't end at "Go-Live." The PM must ensure a smooth **Transition to Operations**, ensuring the operational owners have the training and support to sustain the value long-term.
 :::
 
 ---
 
-## 🎯 Value Delivery Frameworks
+##  Value Delivery Frameworks
 
 ### 1. Kano Model (Customer Satisfaction Analysis)
 The Kano Model helps prioritize features based on their impact on customer satisfaction.
@@ -97,7 +97,7 @@ The Kano Model helps prioritize features based on their impact on customer satis
   </div>
 </div>
 
-::: tip 💡 PMP Application
+::: tip  PMP Application
 In execution, prioritize basic needs first (prevents failure), then performance needs (competitive advantage), then delighters (differentiation). Budget cuts? Remove delighters first.
 :::
 
@@ -130,7 +130,7 @@ Quantify value to justify continued investment during execution.
 - **ROI** = (Net Benefits ÷ Costs) × 100%
 - **Payback Period** = Initial Investment ÷ Annual Net Cash Flow
 
-::: info 📊 Decision Criteria
+::: info  Decision Criteria
 - BCR > 1.0: Benefits exceed costs (favorable)
 - ROI > 15%: Common organizational threshold for project approval
 - Payback < 3 years: Typical acceptance for business cases
@@ -149,7 +149,7 @@ Payback Period = $500K ÷ $200K = 2.5 years
 
 ---
 
-## 📈 Benefits Realization Management (BRM)
+##  Benefits Realization Management (BRM)
 
 Benefits realization is a **continuous process** that spans the entire project lifecycle and extends into operations.
 
@@ -240,7 +240,7 @@ Benefits realization is a **continuous process** that spans the entire project l
 
 ---
 
-## 🧭 Prioritizing for Value (Agile + Hybrid)
+##  Prioritizing for Value (Agile + Hybrid)
 Execution decisions should maximize outcomes, not activity.
 
 High-yield prioritization methods you’ll see on the exam:
@@ -248,7 +248,7 @@ High-yield prioritization methods you’ll see on the exam:
 - **Value + risk first**: Deliver the highest value items early, especially when uncertainty is high
 - **WSJF (Scaled Agile)**: Prioritize by **Cost of Delay ÷ Job Size** (useful mental model even if not named)
 
-::: tip 💡 Exam shortcut
+::: tip  Exam shortcut
 If the scenario describes uncertainty, prioritize work that **reduces risk and validates assumptions early** (spikes, prototypes, pilots, demos).
 :::
 
@@ -271,13 +271,13 @@ WSJF = Cost of Delay ÷ Job Duration (Size)
 | Feature | User Value | Time Critical | Risk/Opp | CoD Total | Duration | WSJF |
 |---|---|---|---|---|---|---|
 | Feature A | 8 | 5 | 3 | 16 | 8 | **2.0** |
-| Feature B | 5 | 8 | 5 | 18 | 3 | **6.0** ⬅️ High Priority |
-| Feature C | 3 | 3 | 8 | 14 | 2 | **7.0** ⬅️ Highest Priority |
+| Feature B | 5 | 8 | 5 | 18 | 3 | **6.0**  High Priority |
+| Feature C | 3 | 3 | 8 | 14 | 2 | **7.0**  Highest Priority |
 | Feature D | 8 | 2 | 2 | 12 | 13 | **0.9** |
 
 **Interpretation**: Feature C and B have the highest WSJF (deliver value quickly relative to effort). Feature D, despite high user value, is deprioritized because of long duration.
 
-::: info 📊 WSJF Best Practices
+::: info  WSJF Best Practices
 - Use **relative sizing** (Fibonacci: 1, 2, 3, 5, 8, 13) rather than absolute numbers
 - Compare features **within the same context** (don't compare across products)
 - Re-calculate periodically as time criticality changes
@@ -286,7 +286,7 @@ WSJF = Cost of Delay ÷ Job Duration (Size)
 
 ---
 
-## 💰 Additional Financial Value Formulas
+##  Additional Financial Value Formulas
 
 ### Net Present Value (NPV)
 
@@ -315,10 +315,10 @@ Year 3: $40,000 / 1.331 = $30,053
 Year 4: $40,000 / 1.464 = $27,322
 
 Total PV of Cash Flows: $126,797
-NPV = $126,797 - $100,000 = +$26,797 ✅ Accept
+NPV = $126,797 - $100,000 = +$26,797  Accept
 ```
 
-::: tip 💡 Exam Application
+::: tip  Exam Application
 When comparing multiple projects with the same investment, choose the project with the **higher NPV**—it creates more value.
 :::
 
@@ -339,7 +339,7 @@ If Project B has IRR = 9%:
 → Reject Project B (9% < 12%)
 ```
 
-::: warning ⚠️ IRR Limitations
+::: warning  IRR Limitations
 IRR can be misleading for projects with non-conventional cash flows (multiple sign changes). When comparing mutually exclusive projects, NPV is generally more reliable.
 :::
 
@@ -384,13 +384,13 @@ Decision Analysis:
 Decision: Continue (based on future value, NOT sunk costs)
 ```
 
-::: warning ⚠️ Exam Pattern
+::: warning  Exam Pattern
 If a scenario mentions large investments already made and asks whether to continue, **ignore sunk costs**. Only compare future costs to future benefits. "We've come too far to stop now" is NEVER the right answer.
 :::
 
 ---
 
-## 🔎 Verification vs. Validation (Classic PMP Trap)
+##  Verification vs. Validation (Classic PMP Trap)
 - **Verify**: “Did we build it right?” (meets documented requirements/specs)
 - **Validate**: “Did we build the right thing?” (meets stakeholder needs and produces outcomes)
 
@@ -398,7 +398,7 @@ If users are unhappy, the best answers usually involve **validating needs**, cla
 
 ---
 
-## 🧩 Adoption & Change Enablement (ADKAR)
+##  Adoption & Change Enablement (ADKAR)
 Even perfect deliverables can fail if people don’t adopt them.
 
 ADKAR provides a simple adoption lens:
@@ -412,7 +412,7 @@ ADKAR provides a simple adoption lens:
 
 ---
 
-## 👥 Stakeholder Engagement During Execution
+##  Stakeholder Engagement During Execution
 
 Stakeholder engagement doesn't stop after planning—it intensifies during execution to ensure value delivery remains aligned with needs.
 
@@ -431,22 +431,22 @@ Stakeholder engagement doesn't stop after planning—it intensifies during execu
 
 <div class="engagement-techniques">
   <div class="technique-card">
-    <h4>🎨 Show, Don't Tell</h4>
+    <h4> Show, Don't Tell</h4>
     <p><strong>Demos & Prototypes:</strong> Visual progress builds confidence faster than status reports. Show working increments, even if incomplete.</p>
     <p><strong>PMP Tip:</strong> If stakeholders are disengaged, increase demo frequency and invite them to hands-on sessions.</p>
   </div>
   <div class="technique-card">
-    <h4>🔄 Feedback Loops</h4>
+    <h4> Feedback Loops</h4>
     <p><strong>Sprint Reviews, UAT, Pilot Programs:</strong> Create structured opportunities for stakeholders to provide input and validate value.</p>
     <p><strong>PMP Tip:</strong> Early and frequent validation reduces late-stage rework and change requests.</p>
   </div>
   <div class="technique-card">
-    <h4>📣 Transparent Communication</h4>
+    <h4> Transparent Communication</h4>
     <p><strong>Visible Progress & Issues:</strong> Use information radiators (burndown charts, dashboards) to make progress transparent.</p>
     <p><strong>PMP Tip:</strong> Hiding problems from stakeholders leads to trust erosion. Surface issues early with proposed solutions.</p>
   </div>
   <div class="technique-card">
-    <h4>🤝 Co-Creation</h4>
+    <h4> Co-Creation</h4>
     <p><strong>Collaborative Design Sessions:</strong> Involve stakeholders in solution design, not just requirements gathering.</p>
     <p><strong>PMP Tip:</strong> When stakeholders feel ownership, adoption increases dramatically.</p>
   </div>
@@ -476,7 +476,7 @@ Stakeholder engagement doesn't stop after planning—it intensifies during execu
    - **Response**: Increase engagement frequency, address concerns directly, involve champion stakeholders, escalate if needed
    - **PMP Answer**: Update stakeholder engagement plan with targeted strategies for resistant stakeholders
 
-::: tip 🎯 Exam Insight: Stakeholder Resistance
+::: tip  Exam Insight: Stakeholder Resistance
 If a scenario describes stakeholder resistance or lack of buy-in during execution, the best answer typically involves:
 1. Increasing engagement (more demos, involvement in decisions)
 2. Addressing concerns (one-on-one meetings, listening sessions)
@@ -486,7 +486,7 @@ If a scenario describes stakeholder resistance or lack of buy-in during executio
 
 ---
 
-## 🏁 Transition to Operations (Operational Readiness)
+##  Transition to Operations (Operational Readiness)
 To make the "tail" real, confirm readiness across people, process, and technology.
 
 | Readiness area | What "ready" looks like |
@@ -498,7 +498,7 @@ To make the "tail" real, confirm readiness across people, process, and technolog
 
 ---
 
-## 📊 Value Measurement Techniques
+##  Value Measurement Techniques
 
 Measuring value requires a balanced approach across multiple dimensions and timeframes.
 
@@ -551,7 +551,7 @@ Key Results:
 - KR4: Reduce onboarding time from 30 minutes to 10 minutes
 ```
 
-::: info 💡 OKRs vs KPIs
+::: info  OKRs vs KPIs
 - **OKRs**: Time-boxed (quarterly), aspirational, change frequently, focus on growth
 - **KPIs**: Ongoing, operational, stable over time, focus on maintaining standards
 - Use both: OKRs for transformation, KPIs for sustainability
@@ -563,22 +563,22 @@ The Balanced Scorecard measures performance across four perspectives, preventing
 
 <div class="balanced-scorecard">
   <div class="scorecard-quadrant">
-    <h4>💰 Financial Perspective</h4>
+    <h4> Financial Perspective</h4>
     <p><strong>Question:</strong> How do we look to shareholders?</p>
     <p><strong>Metrics:</strong> ROI, profit margin, revenue growth, cost reduction</p>
   </div>
   <div class="scorecard-quadrant">
-    <h4>👥 Customer Perspective</h4>
+    <h4> Customer Perspective</h4>
     <p><strong>Question:</strong> How do customers see us?</p>
     <p><strong>Metrics:</strong> Customer satisfaction, retention, market share, brand perception</p>
   </div>
   <div class="scorecard-quadrant">
-    <h4>⚙️ Internal Process Perspective</h4>
+    <h4> Internal Process Perspective</h4>
     <p><strong>Question:</strong> What must we excel at?</p>
     <p><strong>Metrics:</strong> Quality, efficiency, innovation rate, process compliance</p>
   </div>
   <div class="scorecard-quadrant">
-    <h4>📚 Learning & Growth Perspective</h4>
+    <h4> Learning & Growth Perspective</h4>
     <p><strong>Question:</strong> Can we continue to improve and create value?</p>
     <p><strong>Metrics:</strong> Employee skills, system capabilities, organizational culture, innovation pipeline</p>
   </div>
@@ -607,7 +607,7 @@ The Balanced Scorecard measures performance across four perspectives, preventing
 | Help desk ticket trend (decreasing = good training) | Support cost reduction (target: 30% decrease) |
 | User login frequency during pilot (engagement proxy) | User retention rate (target: 85% monthly active users) |
 
-::: tip 🎯 PMP Exam Strategy
+::: tip  PMP Exam Strategy
 If a scenario asks how to predict whether benefits will be realized, focus on **leading indicators** during execution, not waiting for lagging indicators post-implementation.
 :::
 
@@ -643,7 +643,7 @@ NPS = % Promoters - % Detractors
 | **0-29** | Needs improvement | Investigate root causes, prioritize improvements |
 | **< 0** | Critical | Immediate intervention required; major issues |
 
-::: info 📊 NPS vs. CSAT
+::: info  NPS vs. CSAT
 - **NPS**: Measures loyalty and likelihood to recommend (relationship)
 - **CSAT**: Measures satisfaction with specific interaction (transactional)
 - Use both: NPS for overall value delivery; CSAT for specific deliverable acceptance
@@ -651,7 +651,7 @@ NPS = % Promoters - % Detractors
 
 ---
 
-## 🔧 Quality Execution in Value Context
+##  Quality Execution in Value Context
 
 Quality is not just about defect detection—it's about building value into every deliverable. Quality issues during execution directly threaten value delivery.
 
@@ -704,7 +704,7 @@ Use these tools during execution to identify, analyze, and solve quality problem
 - **Mean**: Expected average
 - **Rule of 7**: Seven consecutive points on one side of the mean indicates a process shift (assignable cause)
 
-::: tip 💡 Exam Application
+::: tip  Exam Application
 If a scenario describes recurring quality issues during execution, look for answers that use **root cause analysis** (5 Whys, Fishbone) and **prevention** (process improvement, training, standards) rather than just adding more testing.
 :::
 
@@ -729,7 +729,7 @@ If a scenario describes recurring quality issues during execution, look for answ
 
 ---
 
-## 🔄 Continuous Improvement Processes
+##  Continuous Improvement Processes
 
 Value delivery improves through systematic learning and refinement during execution.
 
@@ -794,7 +794,7 @@ Result: Average review time reduced to 8 hours (73% improvement)
 - **Tracked**: Review action items at start of next retrospective
 - **Limited**: 2-3 actions per retrospective (focus on what matters most)
 
-::: tip 🎯 PMP Exam Insight
+::: tip  PMP Exam Insight
 If a scenario describes recurring team issues (missed deadlines, quality problems, conflicts), the answer often involves **implementing retrospectives** or similar reflection practices—not just fixing the immediate problem.
 :::
 
@@ -919,7 +919,7 @@ Action: Involve users in training development for future releases
 
 ---
 
-## 🔀 Adaptive vs. Predictive Value Delivery
+##  Adaptive vs. Predictive Value Delivery
 
 Different project approaches deliver value in fundamentally different ways.
 
@@ -985,7 +985,7 @@ Adaptive Approach:  Month 1-2: MVP with product catalog and checkout
 
 ---
 
-## 📊 Measuring Value After Delivery
+##  Measuring Value After Delivery
 Benefits may appear after the project is "done." Strong answers ensure:
 - A scheduled **benefits review cadence** (post go-live at 30/60/90 days, then quarterly)
 - Clear **ownership** (who reports value—typically operational leaders, not PM)
@@ -995,17 +995,17 @@ Benefits may appear after the project is "done." Strong answers ensure:
 
 ---
 
-## 🎓 Real-World Value Delivery Scenarios
+##  Real-World Value Delivery Scenarios
 
 ### Scenario 1: The "Successful" Failure
 
 **Situation**: A project to implement a new CRM system was delivered on time, within budget, and met all documented requirements. However, three months post-implementation, the sales team has reverted to using spreadsheets and the CRM adoption rate is only 25%.
 
 **What went wrong?**
-- **Output delivered** ✅ (working CRM system)
-- **Outcome not achieved** ❌ (sales team not using system)
-- **Benefit not realized** ❌ (no productivity improvement, no data insights)
-- **Value missing** ❌ (investment wasted, no strategic impact)
+- **Output delivered**  (working CRM system)
+- **Outcome not achieved**  (sales team not using system)
+- **Benefit not realized**  (no productivity improvement, no data insights)
+- **Value missing**  (investment wasted, no strategic impact)
 
 **Root Causes:**
 1. **Lack of user involvement**: Requirements gathered from management, not actual users
@@ -1185,7 +1185,7 @@ Why wasn't this identified earlier?
 - AC review required before story enters sprint
 
 **Check**: Measure results after 2 sprints
-- Velocity: Sprint 7 = 30 points, Sprint 8 = 33 points ✅
+- Velocity: Sprint 7 = 30 points, Sprint 8 = 33 points 
 - Interruptions: Reduced by 60% during focus time
 - Testing: No testing bottleneck; stories completed earlier
 - Rework: Decreased by 40% due to clearer AC
@@ -1248,7 +1248,7 @@ Why wasn't this identified earlier?
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If an exam scenario says a customer is unhappy with a project that met all its technical requirements, the root cause is likely a <strong>failure to focus on Outcomes/Value</strong>. Requirements are a means to an end, not the end itself.
+  <strong> Exam Insight:</strong> If an exam scenario says a customer is unhappy with a project that met all its technical requirements, the root cause is likely a <strong>failure to focus on Outcomes/Value</strong>. Requirements are a means to an end, not the end itself.
 </div>
 
 <style>

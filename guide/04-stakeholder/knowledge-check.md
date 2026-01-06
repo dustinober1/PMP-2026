@@ -339,7 +339,7 @@ For complete mastery of Chapter 4, ensure you understand:
 ---
 
 <div class="study-tip">
-  <strong>💡 Pro Tip:</strong> If an exam scenario describes a "political conflict" or "hidden agenda," look for an answer that involves <strong>Stakeholder Analysis</strong> or <strong>Engagement Assessment</strong>. Understanding the <em>Why</em> is always the first step.
+  <strong> Pro Tip:</strong> If an exam scenario describes a "political conflict" or "hidden agenda," look for an answer that involves <strong>Stakeholder Analysis</strong> or <strong>Engagement Assessment</strong>. Understanding the <em>Why</em> is always the first step.
 </div>
 
 <style>

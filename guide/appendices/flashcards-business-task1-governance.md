@@ -2,7 +2,7 @@
 description: Flashcards for PMP Business Domain Task 1
 ---
 
-# 🏛️ Business Task 1: Define and Establish Project Governance
+#  Business Task 1: Define and Establish Project Governance
 
 **Domain**: Business Environment
 **Task**: Define and establish project governance
@@ -10,7 +10,7 @@ description: Flashcards for PMP Business Domain Task 1
 
 ---
 
-## 🏛️ Governance Structures
+##  Governance Structures
 
 ### Card 1
 **Front:**
@@ -85,7 +85,7 @@ A strategy execution framework utilizing project, program, and portfolio managem
 
 ---
 
-## 📋 The PMO (Project Management Office)
+##  The PMO (Project Management Office)
 
 ### Card 11
 **Front:**
@@ -159,7 +159,7 @@ The **PMO** (and Portfolio Management).
 
 ---
 
-## ⚖️ Compliance & Regulations
+##  Compliance & Regulations
 
 ### Card 21
 **Front:**
@@ -236,7 +236,7 @@ A structured review to determine whether project activities comply with organiza
 
 ---
 
-## 🧭 Ethics & Professional Conduct
+##  Ethics & Professional Conduct
 
 ### Card 31
 **Front:**
@@ -310,7 +310,7 @@ Impartiality and objectivity. Awarding contracts based on merit, not favoritism.
 
 ---
 
-## 🔄 Agile Governance
+##  Agile Governance
 
 ### Card 41
 **Front:**
@@ -385,7 +385,7 @@ The **Team** decides their own process (usually).
 
 ---
 
-## ⚡ Quick-Fire Governance Review
+##  Quick-Fire Governance Review
 
 ### Card 51
 **Front:**
@@ -459,7 +459,7 @@ Misalignment with strategy, lack of funding control, legal violations, and "Zomb
 
 ---
 
-## 🧠 Situational Governance
+##  Situational Governance
 
 ### Card 61
 **Front:**
@@ -533,7 +533,7 @@ Because if people don't know who decides what (RACI), decisions stall and accoun
 
 ---
 
-## 🔐 Final Tips
+##  Final Tips
 
 ### Card 71
 **Front:**

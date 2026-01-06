@@ -6,7 +6,7 @@ Modern project leaders must be "methodology agnostic." The 2026 PMP exam rewards
 
 ---
 
-## 👩‍💼 Sarah's Triple Challenge
+## ‍ Sarah's Triple Challenge
 To understand these approaches, we follow Sarah, a PM managing three very different initiatives in 2026.
 
 <div class="project-grid">
@@ -29,7 +29,7 @@ To understand these approaches, we follow Sarah, a PM managing three very differ
 
 ---
 
-## 🧭 Selecting Your Approach
+##  Selecting Your Approach
 Choosing the right way of working requires diagnosing the project's complexity and uncertainty.
 
 | Feature          | Predictive (Waterfall) | Agile (Adaptive)           | Hybrid (Blended)        |
@@ -343,7 +343,7 @@ Tailoring is the deliberate adaptation of processes to fit the project's unique 
 - **Big Bang Adoption**: Changing everything at once without organizational readiness
 - **Ignoring Context**: Using Scrum for a construction project or Waterfall for R&D
 
-::: info 💡 The 2026 Exam Secret
+::: info  The 2026 Exam Secret
 On the exam, if a scenario describes a highly uncertain product with a fixed budget, look for the **Hybrid** or **Agile** answer that prioritizes the highest value items first.
 :::
 
@@ -400,7 +400,7 @@ On the exam, if a scenario describes a highly uncertain product with a fixed bud
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> There is no "perfect" methodology. The correct answer is the one that minimizes risk and maximizes value for the <em>specific</em> scenario provided.
+  <strong> Exam Insight:</strong> There is no "perfect" methodology. The correct answer is the one that minimizes risk and maximizes value for the <em>specific</em> scenario provided.
 </div>
 
 <style>

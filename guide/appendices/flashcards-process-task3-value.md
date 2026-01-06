@@ -2,7 +2,7 @@
 description: Flashcards for PMP Process Domain Task 3
 ---
 
-# ⚡ Process Task 3: Help Ensure Value-Based Delivery
+#  Process Task 3: Help Ensure Value-Based Delivery
 
 **Domain**: Process
 **Task**: Help ensure value-based delivery
@@ -10,7 +10,7 @@ description: Flashcards for PMP Process Domain Task 3
 
 ---
 
-## 💎 Value Concepts & Definitions
+##  Value Concepts & Definitions
 
 ### Card 1
 **Front:**
@@ -88,7 +88,7 @@ The amount of time it takes to recover the initial investment. A shorter payback
 
 ---
 
-## 🛒 Agile Value Delivery
+##  Agile Value Delivery
 
 ### Card 11
 **Front:**
@@ -164,7 +164,7 @@ A Lean technique used to document, analyze, and improve the flow of information 
 
 ---
 
-## 🏗️ Delivering & Measuring Value
+##  Delivering & Measuring Value
 
 ### Card 21
 **Front:**
@@ -244,7 +244,7 @@ What is **Return on Investment (ROI)** formula?
 
 ---
 
-## 🧠 Scenarios: Value-Based Decisions
+##  Scenarios: Value-Based Decisions
 
 ### Card 31
 **Front:**
@@ -318,7 +318,7 @@ The **Product Owner** needs to reprioritize. The team should always work on the 
 
 ---
 
-## 🛠️ Tools & Techniques
+##  Tools & Techniques
 
 ### Card 41
 **Front:**
@@ -393,7 +393,7 @@ A committee that asks tough questions to "kill" projects that don't have a solid
 
 ---
 
-## ⚡ Quick-Fire Value Review
+##  Quick-Fire Value Review
 
 ### Card 51
 **Front:**
@@ -468,7 +468,7 @@ It allows the project to exist. It translates the Business Case value into high-
 
 ---
 
-## 🚦 Closing & Transition
+##  Closing & Transition
 
 ### Card 61
 **Front:**
@@ -542,7 +542,7 @@ By providing stage-gate reviews where the Sponsor/Board can stop a project that 
 
 ---
 
-## 🛠️ Advanced Value Techniques
+##  Advanced Value Techniques
 
 ### Card 71
 **Front:**

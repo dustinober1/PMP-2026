@@ -2,7 +2,7 @@
 
 Welcome to the foundation of your PMP® journey. Before diving into tools and techniques, you must understand the "Rules of the Game"—the structure of the 2026 exam, the core mental models of modern project leadership, and how to navigate this guide for maximum throughput.
 
-::: info 🚀 The 2026 Update
+::: info  The 2026 Update
 The PMP exam was refreshed in July 2026. It now places a massive **26% weight** on the Business Environment, emphasizing AI integration, sustainability (ESG), and strategic value delivery.
 :::
 
@@ -56,9 +56,9 @@ This chapter is structured in four core sections, each building your foundation:
 
 ## What Success Looks Like
 By the end of this chapter, you will be able to:
-- ✅ **Decode the ECO**: Understand exactly what is being tested in People, Process, and Business.
-- ✅ **Think Like a PMP**: Apply the "Proactive Leader" mindset to situational questions.
-- ✅ **Tailor the Approach**: Identify when a project requires a rigid vs. adaptive structure.
+-  **Decode the ECO**: Understand exactly what is being tested in People, Process, and Business.
+-  **Think Like a PMP**: Apply the "Proactive Leader" mindset to situational questions.
+-  **Tailor the Approach**: Identify when a project requires a rigid vs. adaptive structure.
 
 <div class="action-bar">
   <a href="./understanding-exam" class="action-button primary">Begin Foundation</a>

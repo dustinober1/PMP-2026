@@ -4,7 +4,7 @@ You've built the foundation. Now, it's time to master the **Science of the Exam*
 
 ---
 
-## 🎯 The Final Sprint
+##  The Final Sprint
 Preparation is 70% knowledge and 30% technique. This chapter bridges the gap.
 
 <div class="prep-grid">
@@ -35,7 +35,7 @@ Preparation is 70% knowledge and 30% technique. This chapter bridges the gap.
 
 ---
 
-## 🧠 The 2026 PMI Mindset
+##  The 2026 PMI Mindset
 To pass, you must think like a "Perfect PMP." This means:
 *   **Servant Leadership**: Always support the team first.
 *   **Proactivity**: Never "wait for someone else." You initiate the solution.

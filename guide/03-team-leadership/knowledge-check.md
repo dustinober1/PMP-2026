@@ -310,7 +310,7 @@ Test your EQ and leadership mindset to handle the most unpredictable part of any
 
 ---
 
-## 🏆 Key Takeaways
+##  Key Takeaways
 
 | Concept        | The "PMI Way"                                            |
 | :------------- | :------------------------------------------------------- |
@@ -323,7 +323,7 @@ Test your EQ and leadership mindset to handle the most unpredictable part of any
 
 ---
 
-## 📚 Study Topic Checklist
+##  Study Topic Checklist
 
 Use these as a one-stop review before the exam:
 
@@ -372,7 +372,7 @@ Use these as a one-stop review before the exam:
 ---
 
 <div class="study-tip">
-  <strong>📝 Final Exam Insight:</strong> If you are ever unsure, choose the answer that sounds like the <strong>Most helpful, most empathetic, most supportive human being in the room.</strong> That is usually the Servant Leader answer. Escalate last. Collaborate first. Fix the system, not just the symptom.
+  <strong> Final Exam Insight:</strong> If you are ever unsure, choose the answer that sounds like the <strong>Most helpful, most empathetic, most supportive human being in the room.</strong> That is usually the Servant Leader answer. Escalate last. Collaborate first. Fix the system, not just the symptom.
 </div>
 
 <style>

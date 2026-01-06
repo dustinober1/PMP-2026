@@ -2,7 +2,7 @@
 description: Flashcards for PMP Business Domain Task 5
 ---
 
-# 🎲 Business Task 5: Plan and Manage Risk
+#  Business Task 5: Plan and Manage Risk
 
 **Domain**: Business Environment
 **Task**: Plan and manage risk
@@ -10,7 +10,7 @@ description: Flashcards for PMP Business Domain Task 5
 
 ---
 
-## 🎲 Risk Management Basics
+##  Risk Management Basics
 
 ### Card 1
 **Front:**
@@ -85,7 +85,7 @@ Probability × Impact. (e.g., 50% chance of $100 loss = -$50 EMV).
 
 ---
 
-## 🛡️ Response Strategies (Threats)
+##  Response Strategies (Threats)
 
 ### Card 11
 **Front:**
@@ -131,7 +131,7 @@ Escalate, Avoid, Transfer, Mitigate, Accept.
 
 ---
 
-## 🚀 Response Strategies (Opportunities)
+##  Response Strategies (Opportunities)
 
 ### Card 17
 **Front:**
@@ -163,7 +163,7 @@ Escalate, Exploit, Share, Enhance, Accept.
 
 ---
 
-## 💰 Reserves & Analysis
+##  Reserves & Analysis
 
 ### Card 21
 **Front:**
@@ -237,7 +237,7 @@ A list of low-priority risks that are monitored but have no active response plan
 
 ---
 
-## ⚡ Agile Risk Management
+##  Agile Risk Management
 
 ### Card 31
 **Front:**
@@ -311,7 +311,7 @@ Uncertainty is highest at the beginning of the project and decreases as work is 
 
 ---
 
-## 🧠 Situational Risk
+##  Situational Risk
 
 ### Card 41
 **Front:**
@@ -385,7 +385,7 @@ Team imagines the project *has already failed* and works backward to determine w
 
 ---
 
-## ⚡ Quick-Fire Review
+##  Quick-Fire Review
 
 ### Card 51
 **Front:**

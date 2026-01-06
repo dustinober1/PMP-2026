@@ -91,7 +91,7 @@ If Sarah does not actively manage these expectations, she ends up disappointing 
 
 ## 1.4a.6 Common Stakeholder Engagement Mistakes
 
-::: warning ⚠️ Common Pitfalls
+::: warning  Common Pitfalls
 - **Mistake 1: Assuming you know what stakeholders care about.** (Fix: Ask them directly!)
 - **Mistake 2: Treating all stakeholders the same.** (Fix: Tailor communication.)
 - **Mistake 3: Engaging too late.** (Fix: Engage early and often.)

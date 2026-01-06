@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 The PMP Decision Rule
+##  The PMP Decision Rule
 Selection questions test whether you can distinguish between:
 - **Desirable work** (interesting, pop
 - **Viable work** (fits capacity, timing, risk appetite)
@@ -15,7 +15,7 @@ Selection questions test whether you can distinguish between:
 
 If work is **not aligned**, the PMI-aligned response is to **re-evaluate the business case**, **re-prioritize**, or **recommend termination**.
 
-## 🏗️ Strategic Lenses
+##  Strategic Lenses
 Leaders use these frameworks to find gaps in their strategy.
 
 <div class="lens-grid">
@@ -31,15 +31,15 @@ Leaders use these frameworks to find gaps in their strategy.
   <div class="lens-card">
     <div class="lens-title">Balanced Scorecard</div>
     <ul>
-      <li>💰 <strong>Financial</strong>: ROI & Profit.</li>
-      <li>👥 <strong>Customer</strong>: Satisfaction & Loyalty.</li>
-      <li>⚙️ <strong>Internal</strong>: Efficiency & Process.</li>
-      <li>🌱 <strong>Growth</strong>: Innovation & Skills.</li>
+      <li> <strong>Financial</strong>: ROI & Profit.</li>
+      <li> <strong>Customer</strong>: Satisfaction & Loyalty.</li>
+      <li> <strong>Internal</strong>: Efficiency & Process.</li>
+      <li> <strong>Growth</strong>: Innovation & Skills.</li>
     </ul>
   </div>
 </div>
 
-### 📊 SWOT Deep Dive: When to Use What
+###  SWOT Deep Dive: When to Use What
 
 | Finding | Strategic Response | Project Example |
 | :-- | :-- | :-- |
@@ -50,7 +50,7 @@ Leaders use these frameworks to find gaps in their strategy.
 
 ---
 
-## 🚦 The Selection Filter
+##  The Selection Filter
 Not all projects are created equal. They fall into three buckets:
 
 | Category        | Description                                                     | Driver            |
@@ -59,13 +59,13 @@ Not all projects are created equal. They fall into three buckets:
 | **Strategic**   | "Change the business." New products, market expansion, and R&D. | Growth / Revenue  |
 | **Compliance**  | "Stay out of jail." Regulatory mandates (GDPR, Safety).         | Legal / Essential |
 
-::: danger 🛑 The Compliance Trap
+::: danger  The Compliance Trap
 **Compliance projects are non-negotiable.** Even if they have a negative NPV (they cost money and generate zero revenue), they must be done to keep the license to operate.
 :::
 
 ---
 
-## 🧮 Benefit Measurement Methods (How Organizations Compare Options)
+##  Benefit Measurement Methods (How Organizations Compare Options)
 Selection is often a combination of **financial** and **strategic** criteria.
 
 | Method | What it means (plain English) | When it is useful | Common exam clue |
@@ -77,13 +77,13 @@ Selection is often a combination of **financial** and **strategic** criteria.
 | **IRR** | Projected annual growth rate | Comparing investment returns | Mentions "rate of return" |
 | **Scoring Model** | Weighted criteria (value, risk, compliance, capacity) | Comparing mixed/uncertain options | Mentions "score", "ranking", "weights" |
 
-::: tip 💡 Scoring Model Example
+::: tip  Scoring Model Example
 If "Strategic Fit" is weighted at 40% and "Risk" is weighted at 20%, a project with perfect ROI but poor fit may still lose.
 :::
 
 ---
 
-## 📐 Financial Formulas (Know These Cold!)
+##  Financial Formulas (Know These Cold!)
 
 Understanding these formulas is essential for PMP exam success. You don't need to perform complex calculations, but you must understand what the results mean.
 
@@ -99,7 +99,7 @@ Understanding these formulas is essential for PMP exam success. You don't need t
 - **NPV = 0** → Break-even (indifferent)
 
 <div class="formula-example">
-  <strong>📝 Worked Example:</strong>
+  <strong> Worked Example:</strong>
   <p>Project costs $100,000 upfront. Expected to return $40,000/year for 3 years. Discount rate is 10%.</p>
   <ul>
     <li>Year 1: $40,000 / (1.10)¹ = $36,364</li>
@@ -120,7 +120,7 @@ Understanding these formulas is essential for PMP exam success. You don't need t
 **Decision Rule**: Higher ROI is better. Compare to organizational hurdle rate or alternative investments.
 
 <div class="formula-example">
-  <strong>📝 Worked Example:</strong>
+  <strong> Worked Example:</strong>
   <p>Project costs $50,000 and generates $75,000 in benefits.</p>
   <ul>
     <li>ROI = ($75,000 - $50,000) / $50,000 × 100%</li>
@@ -140,7 +140,7 @@ Understanding these formulas is essential for PMP exam success. You don't need t
 - **BCR = 1** → Break-even
 
 <div class="formula-example">
-  <strong>📝 Worked Example:</strong>
+  <strong> Worked Example:</strong>
   <p>Project A: Benefits = $200,000, Costs = $150,000 → BCR = 1.33</p>
   <p>Project B: Benefits = $500,000, Costs = $450,000 → BCR = 1.11</p>
   <p><strong>Decision:</strong> Project A has a higher BCR, so it's more efficient per dollar spent.</p>
@@ -155,7 +155,7 @@ Understanding these formulas is essential for PMP exam success. You don't need t
 **Decision Rule**: Shorter is better, especially in cash-constrained environments.
 
 <div class="formula-example">
-  <strong>📝 Worked Example:</strong>
+  <strong> Worked Example:</strong>
   <p>Project costs $120,000. Expected annual savings = $40,000/year.</p>
   <ul>
     <li>Payback Period = $120,000 / $40,000 = 3 years</li>
@@ -172,7 +172,7 @@ Understanding these formulas is essential for PMP exam success. You don't need t
 - **IRR < Required Rate of Return** → REJECT
 - When comparing projects: **Higher IRR is generally better** (all else being equal)
 
-::: warning ⚠️ IRR Limitations
+::: warning  IRR Limitations
 IRR can be misleading when:
 - Cash flows are unconventional (multiple sign changes)
 - Comparing projects of very different sizes
@@ -183,7 +183,7 @@ For the exam, know that **higher IRR is generally preferred**, but NPV is often 
 
 ---
 
-## 💰 Critical Financial Concepts (The "Trap" Concepts)
+##  Critical Financial Concepts (The "Trap" Concepts)
 The exam loves to trick you with these. Know them cold:
 
 | Concept | Definition | The Exam Rule |
@@ -195,7 +195,7 @@ The exam loves to trick you with these. Know them cold:
 | **Economic Value Added (EVA)** | Net operating profit minus the cost of capital. | Measures true value creation beyond covering capital costs. |
 | **Depreciation** | Allocation of asset cost over its useful life. | Affects cash flow analysis; not an actual cash outflow. |
 
-### 🎯 The Sunk Cost Fallacy (Deep Dive)
+###  The Sunk Cost Fallacy (Deep Dive)
 
 This is one of the most tested concepts on the PMP exam. Here's a detailed scenario:
 
@@ -205,11 +205,11 @@ This is one of the most tested concepts on the PMP exam. Here's a detailed scena
   
   <p><strong>The Sponsor says:</strong> "We can't waste the $5 million we already spent. We must finish!"</p>
   
-  <p><strong>❌ Wrong Answer:</strong> Continue because of the $5 million invested.</p>
-  <p><strong>✅ Right Answer:</strong> Recommend termination. The $5 million is a sunk cost. The only relevant question is: "Will spending $2 million more create value?" If the answer is no, stop.</p>
+  <p><strong> Wrong Answer:</strong> Continue because of the $5 million invested.</p>
+  <p><strong> Right Answer:</strong> Recommend termination. The $5 million is a sunk cost. The only relevant question is: "Will spending $2 million more create value?" If the answer is no, stop.</p>
 </div>
 
-### 🔄 Opportunity Cost Calculation Examples
+###  Opportunity Cost Calculation Examples
 
 | Choice | Project A Value | Project B Value | Opportunity Cost of Choosing A |
 | :-- | :-- | :-- | :-- |
@@ -219,7 +219,7 @@ This is one of the most tested concepts on the PMP exam. Here's a detailed scena
 
 ---
 
-## 🧩 Non-Financial Selection Filters (Often the Real Deciders)
+##  Non-Financial Selection Filters (Often the Real Deciders)
 Even a high-ROI idea can be rejected if it fails critical constraints:
 
 - **Risk appetite / risk threshold** (is the organization willing to take this risk now?)
@@ -230,7 +230,7 @@ Even a high-ROI idea can be rejected if it fails critical constraints:
 - **Strategic fit** (does it align with where we're going?)
 - **Customer impact** (will this improve or hurt customer experience?)
 
-### 📋 Weighted Scoring Model Example
+###  Weighted Scoring Model Example
 
 | Criterion | Weight | Project A Score (1-10) | Weighted A | Project B Score | Weighted B |
 | :-- | :-- | :-- | :-- | :-- | :-- |
@@ -245,12 +245,12 @@ Even a high-ROI idea can be rejected if it fails critical constraints:
 
 ---
 
-## 🔄 Methodology Alignment
+##  Methodology Alignment
 *   **Predictive**: Locked in via the **Business Case** before the Charter is signed.
 *   **Agile**: Validated continuously via the **Product Vision** and Backlog prioritization.
 *   **Hybrid**: Business case justifies the initiative; value is validated iteratively.
 
-### 📊 Selection by Methodology
+###  Selection by Methodology
 
 | Approach | Selection Artifact | Validation Frequency | Change Response |
 | :-- | :-- | :-- | :-- |
@@ -335,7 +335,7 @@ Even a high-ROI idea can be rejected if it fails critical constraints:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a project no longer aligns with a shifting strategy, the PM's duty is to <strong>Recommend Termination</strong>. Continuing to spend budget on a project that the company no longer needs is a failure of stewardship.
+  <strong> Exam Insight:</strong> If a project no longer aligns with a shifting strategy, the PM's duty is to <strong>Recommend Termination</strong>. Continuing to spend budget on a project that the company no longer needs is a failure of stewardship.
 </div>
 
 <style>

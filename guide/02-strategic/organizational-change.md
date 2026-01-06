@@ -6,13 +6,13 @@
 
 ---
 
-## 🧭 The PMP Mindset: Adoption Is Part of "Done"
+##  The PMP Mindset: Adoption Is Part of "Done"
 If the project delivers the tool but nobody uses it, value is not realized. PMI expects you to plan for:
 - **Readiness** (are people prepared?)
 - **Adoption** (are people actually using it?)
 - **Sustainment** (will the behavior stick?)
 
-## 👥 The Adoption Gap
+##  The Adoption Gap
 The chasm between "Output" and "Outcome" is human adoption.
 
 | The Deliverable (Output) | The Human Reality (Risk)                              | The OCM Solution                                         |
@@ -25,7 +25,7 @@ The chasm between "Output" and "Outcome" is human adoption.
 
 ---
 
-## 🪜 Change Frameworks
+##  Change Frameworks
 You must know the language of change dynamics.
 
 <div class="change-grid">
@@ -65,15 +65,15 @@ You must know the language of change dynamics.
     <div class="change-tag">Process View</div>
     <div class="change-subtitle">Kurt Lewin's Three-Stage Model</div>
     <ul>
-      <li>🧊 <strong>Unfreeze:</strong> Break the status quo—people recognize the need for change</li>
-      <li>🌊 <strong>Change:</strong> The transition state—new ways are learned and practiced</li>
-      <li>❄️ <strong>Refreeze:</strong> Lock in the new state—stabilize and reinforce new behaviors</li>
+      <li> <strong>Unfreeze:</strong> Break the status quo—people recognize the need for change</li>
+      <li> <strong>Change:</strong> The transition state—new ways are learned and practiced</li>
+      <li> <strong>Refreeze:</strong> Lock in the new state—stabilize and reinforce new behaviors</li>
     </ul>
     <div class="change-use"><strong>Use when:</strong> Understanding the overall change journey</div>
   </div>
 </div>
 
-### 📊 Framework Comparison
+###  Framework Comparison
 
 | Framework | Focus | Best For | Key Question It Answers |
 | :-- | :-- | :-- | :-- |
@@ -83,7 +83,7 @@ You must know the language of change dynamics.
 
 ---
 
-## 📋 ADKAR Deep Dive (Exam Favorite)
+##  ADKAR Deep Dive (Exam Favorite)
 
 ADKAR is the most commonly tested change framework. Understanding each element helps you diagnose and address resistance.
 
@@ -139,13 +139,13 @@ ADKAR is the most commonly tested change framework. Understanding each element h
   </div>
 </div>
 
-::: tip 💡 ADKAR Diagnosis Shortcut
+::: tip  ADKAR Diagnosis Shortcut
 If training is excellent but adoption is still low, you usually have a **Desire** problem (motivation, fear, incentives), not a Knowledge problem. Training solves K and A, but it cannot solve D.
 :::
 
 ---
 
-## 📄 The Change Management Plan (What It Typically Contains)
+##  The Change Management Plan (What It Typically Contains)
 In practice (and on the exam), change is supported by a set of coordinated plans:
 
 ### Change Management Plan Components
@@ -160,7 +160,7 @@ In practice (and on the exam), change is supported by a set of coordinated plans
 | **Adoption Metrics** | How you measure readiness and usage | Leading/lagging indicators; targets; reporting |
 | **Sustainment Plan** | Long-term support model | Ongoing training; help desk; process integration |
 
-### 📈 Example Adoption Metrics
+###  Example Adoption Metrics
 
 | Metric | Type | Why It Matters | Example Target |
 | :-- | :-- | :-- | :-- |
@@ -173,7 +173,7 @@ In practice (and on the exam), change is supported by a set of coordinated plans
 
 ---
 
-## 🛑 Managing Resistance
+##  Managing Resistance
 Resistance is a natural reaction to fear. Do not punish it; manage it.
 
 ### Understanding Resistance
@@ -201,7 +201,7 @@ Resistance is a natural reaction to fear. Do not punish it; manage it.
   </div>
 </div>
 
-### 🎯 WIIFM (What's In It For Me?)
+###  WIIFM (What's In It For Me?)
 Communicate the benefits to *them*, not just the company.
 
 | Change | Company Benefit | WIIFM Message |
@@ -211,7 +211,7 @@ Communicate the benefits to *them*, not just the company.
 | AI Tool | Productivity gains | "AI handles the tedious parts so you can focus on creative work" |
 | Safety Protocol | Fewer accidents | "Go home safely every day to your family" |
 
-### 🚦 Change Saturation
+###  Change Saturation
 
 *   **Saturation Check**: If the org is undergoing 5 changes simultaneously, adding a 6th will fail regardless of quality
 *   The strategic move is to **Delay** or **Sequence** changes
@@ -219,7 +219,7 @@ Communicate the benefits to *them*, not just the company.
 
 ---
 
-## 🧬 Culture vs. Strategy
+##  Culture vs. Strategy
 Peter Drucker famously said, *"Culture eats strategy for breakfast."*
 
 *   **Culture**: The shared values and "unwritten rules" of the organization (e.g., "We value speed over perfection" or "We never deliver bad news upwards")
@@ -234,13 +234,13 @@ Peter Drucker famously said, *"Culture eats strategy for breakfast."*
 | **Innovative** | New technology; experimentation | Standardization; rigid processes | Frame as continuous improvement |
 | **Collaborative** | Team-based decisions; consensus | Unilateral changes; top-down edicts | Involve stakeholders; co-create |
 
-::: warning 📊 Exam Insight
+::: warning  Exam Insight
 If your project strategy conflicts with the culture (e.g., trying to implement "Fail Fast" Agile in a culture that punishes all errors), the project will fail unless you address the culture first. You cannot install a tool that violates the culture.
 :::
 
 ---
 
-## 🔄 Agile Change Management
+##  Agile Change Management
 In predictive projects, change is often a "Big Bang" at the end. In Agile, change is **iterative**:
 
 ### Agile vs. Predictive Change Management
@@ -262,7 +262,7 @@ In predictive projects, change is often a "Big Bang" at the end. In Agile, chang
 
 ---
 
-## 🏆 Change Champion Networks
+##  Change Champion Networks
 
 ### What Champions Do
 
@@ -424,7 +424,7 @@ In predictive projects, change is often a "Big Bang" at the end. In Agile, chang
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a question says adoption is low despite great training, the problem is likely <strong>Desire</strong> (Lack of motivation/WIIFM). Training solves "Knowledge/Ability," but it cannot solve "Desire."
+  <strong> Exam Insight:</strong> If a question says adoption is low despite great training, the problem is likely <strong>Desire</strong> (Lack of motivation/WIIFM). Training solves "Knowledge/Ability," but it cannot solve "Desire."
 </div>
 
 <style>

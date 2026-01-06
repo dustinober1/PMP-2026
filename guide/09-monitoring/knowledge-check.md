@@ -448,7 +448,7 @@ Test your mastery of performance metrics, change control, configuration manageme
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If you see a question about a "claim" or "dispute" with a vendor, you CANNOT close the project until that claim is resolved (Procurement Closure). Detailed closure often involves legal or financial settlement.
+  <strong> Exam Insight:</strong> If you see a question about a "claim" or "dispute" with a vendor, you CANNOT close the project until that claim is resolved (Procurement Closure). Detailed closure often involves legal or financial settlement.
 </div>
 
 <style>

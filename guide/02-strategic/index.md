@@ -2,13 +2,13 @@
 
 Projects do not exist in a vacuum. A project manager's success in 2026 is measured by how well their work aligns with organizational strategy, complies with global governance, and delivers **sustainable value**.
 
-::: info 📊 2026 Domain Shift
+::: info  2026 Domain Shift
 The **Business Environment domain is 26% of the exam**, but it influences 100% of your decisions. A "perfect" project that fails to align with strategy is a failed project.
 :::
 
 ---
 
-## 🏛️ Strategic Foundations
+##  Strategic Foundations
 This chapter helps you bridge the gap between high-level ambition and daily execution. Each section has been expanded with detailed explanations, formulas, frameworks, and exam scenarios to serve as your comprehensive one-stop resource.
 
 <div class="section-grid">
@@ -85,7 +85,7 @@ This chapter helps you bridge the gap between high-level ambition and daily exec
   </div>
 
   <div class="section-card knowledge-check">
-    <div class="section-title">📝 Knowledge Check</div>
+    <div class="section-title"> Knowledge Check</div>
     <p class="section-description">25 challenging, exam-style questions covering financial analysis, governance decisions, change management, and ethics scenarios.</p>
     <a href="./knowledge-check" class="section-link">Test Your Knowledge →</a>
   </div>
@@ -93,44 +93,44 @@ This chapter helps you bridge the gap between high-level ambition and daily exec
 
 ---
 
-## 📚 What's Covered in This Chapter
+##  What's Covered in This Chapter
 
 This chapter is designed to be a **comprehensive one-stop resource** for everything related to the Business Environment domain:
 
 ### Financial & Selection Criteria
-- ✅ NPV, ROI, IRR, BCR, Payback Period (with formulas and worked examples)
-- ✅ Sunk Cost and Opportunity Cost (with scenarios)
-- ✅ Weighted Scoring Models (with calculation examples)
-- ✅ SWOT Analysis and Balanced Scorecard
+-  NPV, ROI, IRR, BCR, Payback Period (with formulas and worked examples)
+-  Sunk Cost and Opportunity Cost (with scenarios)
+-  Weighted Scoring Models (with calculation examples)
+-  SWOT Analysis and Balanced Scorecard
 
 ### Portfolio & Program Management
-- ✅ Portfolio-Program-Project hierarchy
-- ✅ Portfolio governance cycle
-- ✅ WIP limits and resource optimization
-- ✅ Cross-project dependency management
+-  Portfolio-Program-Project hierarchy
+-  Portfolio governance cycle
+-  WIP limits and resource optimization
+-  Cross-project dependency management
 
 ### Benefits & Value
-- ✅ Output → Outcome → Benefit value chain
-- ✅ MVP vs. MBI distinction
-- ✅ Triple Bottom Line (Profit, People, Planet)
-- ✅ ESG integration in project decisions
+-  Output → Outcome → Benefit value chain
+-  MVP vs. MBI distinction
+-  Triple Bottom Line (Profit, People, Planet)
+-  ESG integration in project decisions
 
 ### Compliance & Governance
-- ✅ Key regulations reference (GDPR, SOX, HIPAA, OSHA, etc.)
-- ✅ Governance bodies and their authorities
-- ✅ Agile vs. Traditional governance
-- ✅ Ethics scenarios and data privacy
+-  Key regulations reference (GDPR, SOX, HIPAA, OSHA, etc.)
+-  Governance bodies and their authorities
+-  Agile vs. Traditional governance
+-  Ethics scenarios and data privacy
 
 ### Organizational Change
-- ✅ ADKAR deep dive with interventions
-- ✅ Kotter's 8 Steps
-- ✅ Lewin's Model
-- ✅ Resistance management and culture
+-  ADKAR deep dive with interventions
+-  Kotter's 8 Steps
+-  Lewin's Model
+-  Resistance management and culture
 
 ### Environment Monitoring
-- ✅ PESTLE framework with 2026 focus areas
-- ✅ Impact assessment process
-- ✅ Regulatory change response
+-  PESTLE framework with 2026 focus areas
+-  Impact assessment process
+-  Regulatory change response
 
 ---
 
@@ -141,7 +141,7 @@ You are no longer just a technical executor. You are a **Business Leader**.
 *   **Change**: You don't just build the tool; you ensure the organization is ready to *use* it.
 *   **Value**: Your success is measured by benefits realized, not just outputs delivered.
 
-::: tip 💡 How to Study This Chapter
+::: tip  How to Study This Chapter
 If you're short on time, focus on this sequence:
 1. `strategy-selection` (how work gets chosen + financial formulas)
 2. `portfolio-concepts` + `program-management` (how work gets coordinated)

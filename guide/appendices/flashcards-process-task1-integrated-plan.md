@@ -2,7 +2,7 @@
 description: Flashcards for PMP Process Domain Task 1
 ---
 
-# ⚡ Process Task 1: Develop an Integrated Project Management Plan
+#  Process Task 1: Develop an Integrated Project Management Plan
 
 **Domain**: Process
 **Task**: Develop an integrated project management plan and plan delivery
@@ -10,7 +10,7 @@ description: Flashcards for PMP Process Domain Task 1
 
 ---
 
-## 🏗️ Core Concepts & Definitions
+##  Core Concepts & Definitions
 
 ### Card 1
 **Front:**
@@ -88,7 +88,7 @@ It means the Project Manager is not tied to a single way of working (like only W
 
 ---
 
-## 🔄 Methodologies: Predictive, Agile, & Hybrid
+##  Methodologies: Predictive, Agile, & Hybrid
 
 ### Card 11
 **Front:**
@@ -167,7 +167,7 @@ The criteria that a user story must meet (e.g., clear acceptance criteria, depen
 
 ---
 
-## 🧠 Scenarios & "What Would You Do?"
+##  Scenarios & "What Would You Do?"
 
 ### Card 21
 **Front:**
@@ -244,7 +244,7 @@ By clearly defining the **Acceptance Criteria** (for specific deliverables) and 
 
 ---
 
-## 🛠️ Inputs, Tools, & Outputs (ITTOs)
+##  Inputs, Tools, & Outputs (ITTOs)
 
 ### Card 31
 **Front:**
@@ -319,7 +319,7 @@ A soft skill used by the PM to guide a group of diverse stakeholders to a decisi
 
 ---
 
-## ⚖️ Competing Constraints & Integration
+##  Competing Constraints & Integration
 
 ### Card 41
 **Front:**
@@ -401,7 +401,7 @@ A planning exercise where the team imagines the project has *already failed* and
 
 ---
 
-## 🏗️ Advanced Integration Concepts
+##  Advanced Integration Concepts
 
 ### Card 51
 **Front:**
@@ -476,7 +476,7 @@ A factor in the planning process that is considered to be true, real, or certain
 
 ---
 
-## 🎯 Agile Planning Specifics
+##  Agile Planning Specifics
 
 ### Card 61
 **Front:**
@@ -554,7 +554,7 @@ Creating a lightweight charter that defines the "Why," "Who," and high-level "Wh
 
 ---
 
-## 📊 Performance Measurement
+##  Performance Measurement
 
 ### Card 71
 **Front:**
@@ -629,7 +629,7 @@ A policy in Kanban that restricts the number of items that can exist in a workfl
 
 ---
 
-## 🚦 Closing the Plan
+##  Closing the Plan
 
 ### Card 81
 **Front:**
@@ -703,7 +703,7 @@ It describes how project resources (team and physical) should be categorized, al
 
 ---
 
-## ⚡ Quick-Fire Review
+##  Quick-Fire Review
 
 ### Card 91
 **Front:**

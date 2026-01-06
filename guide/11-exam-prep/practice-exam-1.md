@@ -70,7 +70,7 @@ Test your grasp of the core People, Process, and Business Environment domains.
 
 ---
 
-## 📊 Score Interpretation
+##  Score Interpretation
 
 | Score     | Status     | Recommendation                                     |
 | :-------- | :--------- | :------------------------------------------------- |

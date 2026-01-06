@@ -2,24 +2,24 @@
 
 This appendix provides a quick reference for the **PMBOK 8th Edition** structure, including the updated focus areas, performance domains, and approximately 40 processes. Use this for exam preparation and practical reference.
 
-::: tip 🎯 Key Change in PMBOK 8
+::: tip  Key Change in PMBOK 8
 PMBOK 8 reintroduces processes (approximately 40, reduced from 49 in PMBOK 6) while retaining the principle-based approach of PMBOK 7. It organizes these processes into **5 Focus Areas** (similar to the traditional Process Groups).
 :::
 
 ---
 
-## 📋 Quick Reference Cards
+##  Quick Reference Cards
 
 ### Six Principles (PMBOK 8)
 
 | # | Principle | Remember As |
 |---|-----------|-------------|
-| 1 | Adopt a Holistic View | 👁️ See the system |
-| 2 | Focus on Value | 💎 Outcomes over outputs |
-| 3 | Embed Quality | ⭐ Build it in |
-| 4 | Be an Accountable Leader | 🤝 Own it |
-| 5 | Integrate Sustainability | 🌱 Triple bottom line |
-| 6 | Build an Empowered Culture | 💪 Trust the team |
+| 1 | Adopt a Holistic View |  See the system |
+| 2 | Focus on Value |  Outcomes over outputs |
+| 3 | Embed Quality |  Build it in |
+| 4 | Be an Accountable Leader |  Own it |
+| 5 | Integrate Sustainability |  Triple bottom line |
+| 6 | Build an Empowered Culture |  Trust the team |
 
 ### Seven Performance Domains (PMBOK 8)
 
@@ -33,13 +33,13 @@ PMBOK 8 reintroduces processes (approximately 40, reduced from 49 in PMBOK 6) wh
 | **Delivery** | Value, outcomes, transition | Did we achieve the result? |
 | **Governance** | Oversight, controls, decisions | Who decides and how? |
 
-::: info 📝 Note
+::: info  Note
 **Governance** replaces "Integration" as a distinct domain in PMBOK 8, reflecting the increased emphasis on this topic in the 2026 exam.
 :::
 
 ---
 
-## 🔄 Five Focus Areas (Process Groups Evolution)
+##  Five Focus Areas (Process Groups Evolution)
 
 PMBOK 8 reintroduces the familiar project lifecycle structure as **Focus Areas**:
 
@@ -55,7 +55,7 @@ PMBOK 8 reintroduces the familiar project lifecycle structure as **Focus Areas**
 
 ---
 
-## 📊 Process by Focus Area
+##  Process by Focus Area
 
 ### Initiating Focus Area
 
@@ -127,7 +127,7 @@ PMBOK 8 reintroduces the familiar project lifecycle structure as **Focus Areas**
 
 ---
 
-## 🔗 Domain to Focus Area Mapping
+##  Domain to Focus Area Mapping
 
 How Performance Domains relate to Focus Areas:
 
@@ -143,7 +143,7 @@ How Performance Domains relate to Focus Areas:
 
 ---
 
-## 📈 Key Formula Quick Reference
+##  Key Formula Quick Reference
 
 | Formula | Purpose | Formula |
 |---------|---------|---------|
@@ -166,7 +166,7 @@ How Performance Domains relate to Focus Areas:
 
 ---
 
-## 🔄 Inputs, Tools/Techniques, Outputs (ITTOs) - Key Patterns
+##  Inputs, Tools/Techniques, Outputs (ITTOs) - Key Patterns
 
 Rather than memorizing all ITTOs, recognize patterns:
 
@@ -202,7 +202,7 @@ Rather than memorizing all ITTOs, recognize patterns:
 
 ---
 
-## 🎯 2026 Exam Emphasis Areas
+##  2026 Exam Emphasis Areas
 
 Based on the updated ECO, focus study time on:
 
@@ -222,7 +222,7 @@ Based on the updated ECO, focus study time on:
 
 ---
 
-## 📝 Study Tips
+##  Study Tips
 
 ### Don't Memorize, Understand
 

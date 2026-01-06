@@ -1449,7 +1449,7 @@ What is the BEST action for the project manager to take to align these teams' ex
 </details>
 ---
 
-## 📊 Topic Summary Table
+##  Topic Summary Table
 
 | Question # | Enabler | Methodology | Topic Focus |
 | :--- | :--- | :--- | :--- |
@@ -1463,7 +1463,7 @@ What is the BEST action for the project manager to take to align these teams' ex
 - **Enabler 2 (Align/Maintain):** 3, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50
 - **Enabler 3 (Monitor/Respond):** 2, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48
 
-## 📈 Database Stats
+##  Database Stats
 
 | Metric | Value |
 | :--- | :--- |
@@ -1473,7 +1473,7 @@ What is the BEST action for the project manager to take to align these teams' ex
 | **Methodology Split** | Predictive (40%), Agile (36%), Hybrid (24%) |
 | **Difficulty Level** | 4/5 (Analysis/Evaluation) |
 
-## 💡 Key Takeaways: Expectations Pro-Tips
+##  Key Takeaways: Expectations Pro-Tips
 
 1. **Surface Implicit Expectations Early:** Use demos, prototypes, and 1:1 meetings to uncover what stakeholders *think* they want, not just what they wrote in requirements.
 2. **The Trust Equation is Your Compass:** If trust is low, focus on **Reliability** (meeting small commitments) and **Intimacy** (creating safe spaces for fears).
@@ -1482,7 +1482,7 @@ What is the BEST action for the project manager to take to align these teams' ex
 5. **WIIFM is the Key to Resistance:** Address the "What's In It For Me" from the stakeholder's specific perspective to neutralize fear-based opposition.
 6. **Analyze Before Acting:** When a gap appears, confirm the data and perform a Root Cause Analysis (RCA) before proposing recovery options or submitting change requests.
 
-## 🎨 CSS Style Block
+##  CSS Style Block
 
 <style>
   details {

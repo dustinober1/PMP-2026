@@ -4,7 +4,7 @@ AI is the single most transformative force in modern project management. In the 
 
 ---
 
-## 🤖 The New Co-Pilot
+##  The New Co-Pilot
 AI doesn't replace the Project Manager; it replaces the *administrative burden* of project management. Your value shifts from tracking tasks to **interpreting insights**, **making strategy**, and **leading people**.
 
 ## What You'll Master (PMP Lens)

@@ -32,7 +32,7 @@
   }
 </style>
 
-## 📊 Topic Summary Table
+##  Topic Summary Table
 
 | Question | Enabler | Methodology | Focus |
 | :--- | :--- | :--- | :--- |
@@ -1499,7 +1499,7 @@ What is the MOST professional way for the PM to conduct this final session?
 
 ---
 
-## 📈 Database Stats
+##  Database Stats
 
 - **Total Questions:** 50
 - **Correct Answer Length Average:** 18 words
@@ -1514,7 +1514,7 @@ What is the MOST professional way for the PM to conduct this final session?
 
 ---
 
-## 💡 Key Takeaways: Closure Pro-Tips
+##  Key Takeaways: Closure Pro-Tips
 
 1. **Closure is Mandatory:** Even if a project is canceled or terminated early, you must perform administrative closure (archive records, harvest lessons, close contracts).
 2. **Acceptance is Objective:** Refer to the documented **Acceptance Criteria** and **Definition of Done** when stakeholders refuse sign-off. If the criteria are met, they are contractually obligated to accept.

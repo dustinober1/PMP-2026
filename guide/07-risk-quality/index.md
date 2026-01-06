@@ -2,13 +2,13 @@
 
 Modern projects live in a world of **V.U.C.A.** (Volatility, Uncertainty, Complexity, and Ambiguity). On the PMP exam, your value is measured by how you navigate the unknown while maintaining consistent quality.
 
-::: tip 🎯 PMP Exam Weight
+::: tip  PMP Exam Weight
 Risk and Quality topics comprise **approximately 15-20%** of the PMP exam. Combined with project planning and execution questions, your ability to identify risks early, choose the best response, apply the right quality tool, and recognize complex environments is critical to passing.
 :::
 
 ---
 
-## ⚠️ The Domain of Uncertainty
+##  The Domain of Uncertainty
 Risk, Quality, and Complexity are interwoven. A failure in quality is a realized risk, and complexity is often the root cause of both.
 
 ### The Integration Triangle

@@ -310,7 +310,7 @@ Test your ability to connect project decisions to business strategy, value, and 
 
 ---
 
-## 🏆 Key Takeaways
+##  Key Takeaways
 
 | Concept | The PMI Way |
 | :-- | :-- |
@@ -325,7 +325,7 @@ Test your ability to connect project decisions to business strategy, value, and 
 
 ---
 
-## 📚 Comprehensive Review Topics
+##  Comprehensive Review Topics
 
 Use these as a quick one-stop review before the exam:
 
@@ -369,7 +369,7 @@ Use these as a quick one-stop review before the exam:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> Business Environment questions often test your courage. Will you speak truth to power and recommend canceling a bad project? Or will you obediently waste money? <strong>PMI wants leaders, not order-takers.</strong> Will you stop unsafe work even if it delays the schedule? <strong>Safety and ethics are never negotiable.</strong>
+  <strong> Exam Insight:</strong> Business Environment questions often test your courage. Will you speak truth to power and recommend canceling a bad project? Or will you obediently waste money? <strong>PMI wants leaders, not order-takers.</strong> Will you stop unsafe work even if it delays the schedule? <strong>Safety and ethics are never negotiable.</strong>
 </div>
 
 <style>

@@ -6,7 +6,7 @@ In 2026, finding a project team that is 100% co-located is a rarity. Leading **D
 
 ---
 
-## 🌎 Navigating the Distance Tax
+##  Navigating the Distance Tax
 A remote leader must proactively mitigate the predictable challenges of virtual work.
 
 <div class="virtual-grid">
@@ -30,7 +30,7 @@ A remote leader must proactively mitigate the predictable challenges of virtual 
 
 ---
 
-## 🌐 Hofstede's Cultural Dimensions: Deep Dive
+##  Hofstede's Cultural Dimensions: Deep Dive
 Understanding cultural differences is critical for global teams. These six dimensions help predict communication and collaboration challenges.
 
 ### The Six Dimensions
@@ -51,13 +51,13 @@ Understanding cultural differences is critical for global teams. These six dimen
 | **Team resists ad-hoc changes** | Low Indulgence, High UAI | Give advance notice; document rationale |
 | **Public praise feels awkward** | Collectivist culture | Thank the team, not individuals; private recognition |
 
-::: tip 💡 Pro Tip: Ask, Don't Assume
+::: tip  Pro Tip: Ask, Don't Assume
 Instead of stereotyping based on country, ask team members about their preferences: "How do you like to receive feedback?" "Do you prefer public or private recognition?"
 :::
 
 ---
 
-## 🛠️ The Asynchronous Edge
+##  The Asynchronous Edge
 Virtual teams rely on two types of communication modes. High-performing teams master the balance.
 
 ### Synchronous vs. Asynchronous Communication
@@ -84,7 +84,7 @@ Default to asynchronous unless synchronous is necessary:
 
 ---
 
-## 📜 Remote Working Agreements (Put This in the Team Charter)
+##  Remote Working Agreements (Put This in the Team Charter)
 Virtual work succeeds when expectations are explicit. These are the norms most commonly tested on the exam.
 
 ### Core Agreement Elements
@@ -125,13 +125,13 @@ Virtual work succeeds when expectations are explicit. These are the norms most c
 - No recurring meetings outside 8 AM - 8 PM participant local time
 ```
 
-::: tip ✅ Exam Pattern: Fix the system before blaming the person
+::: tip  Exam Pattern: Fix the system before blaming the person
 If a remote team member is "disengaged," the best first step is usually a private check-in plus improving clarity (tools, norms, charter) before any formal escalation.
 :::
 
 ---
 
-## 🎥 Remote Facilitation: Preventing Misunderstanding
+##  Remote Facilitation: Preventing Misunderstanding
 Most virtual conflict comes from missing context and tone. Reduce it with these habits:
 
 ### The "5 Habits" of Remote Leaders
@@ -158,7 +158,7 @@ When a team has a mix of in-person and remote members, default to the remote exp
 
 ---
 
-## 🛰️ Leading from Anywhere
+##  Leading from Anywhere
 As a remote leader, you must move from "monitoring hours" to **monitoring outcomes**.
 
 ### The Three Pillars of Virtual Leadership
@@ -177,7 +177,7 @@ As a remote leader, you must move from "monitoring hours" to **monitoring outcom
 
 ---
 
-## 🌍 Hybrid Teams: The Hardest Mode
+##  Hybrid Teams: The Hardest Mode
 Hybrid teams (some co-located, some remote) face the most challenges because of proximity bias.
 
 ### Common Hybrid Pitfalls
@@ -195,13 +195,13 @@ Hybrid teams (some co-located, some remote) face the most challenges because of 
 | **Dedicated remote liaison** | Someone ensures remote voices are represented |
 | **Social time for remotes** | Virtual coffee, async intros, remote-first events |
 
-::: info 💡 Pro Tip: The Fishbowl Window
+::: info  Pro Tip: The Fishbowl Window
 Some high-performing virtual teams keep a persistent video channel open (a "Fishbowl") where people can see each other working. It mimics the "sitting together" feel and reduces the hurdle for quick questions.
 :::
 
 ---
 
-## 🏠 Remote Work & Work-Life Boundaries
+##  Remote Work & Work-Life Boundaries
 Virtual work blurs the line between work and personal life. Leaders must model healthy boundaries.
 
 ### Signs of Remote Burnout
@@ -248,7 +248,7 @@ Virtual work blurs the line between work and personal life. Leaders must model h
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a virtual team is struggling with communication, the best answer is usually to <strong>improve the tools/infrastructure</strong> or <strong>facilitate a reset of the Team Charter</strong> specifically for remote norms. Look for answers that address <strong>system issues</strong>, not individual blame.
+  <strong> Exam Insight:</strong> If a virtual team is struggling with communication, the best answer is usually to <strong>improve the tools/infrastructure</strong> or <strong>facilitate a reset of the Team Charter</strong> specifically for remote norms. Look for answers that address <strong>system issues</strong>, not individual blame.
 </div>
 
 <style>

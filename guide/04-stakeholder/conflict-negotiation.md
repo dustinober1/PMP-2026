@@ -6,7 +6,7 @@ Negotiation is a daily activity for project leaders—whether you are competing 
 
 ---
 
-## 🤝 Interest-Based Negotiation
+##  Interest-Based Negotiation
 
 Also known as "Principled Negotiation" (from *Getting to Yes* by Fisher and Ury), this approach focuses on a win-win outcome by addressing underlying needs rather than surface-level demands.
 
@@ -50,7 +50,7 @@ Also known as "Principled Negotiation" (from *Getting to Yes* by Fisher and Ury)
 
 ---
 
-## 🎯 The ZOPA Concept
+##  The ZOPA Concept
 
 **ZOPA** = Zone of Possible Agreement
 
@@ -89,7 +89,7 @@ ZOPA exists where ranges overlap: $85K-$95K
 
 ---
 
-## ⚡ Conflict Management (Tools PMP Loves)
+##  Conflict Management (Tools PMP Loves)
 
 Conflict is normal. The exam tests whether you choose a response that preserves **relationships** while resolving the **root cause**.
 
@@ -101,7 +101,7 @@ Before conflict starts, you prevent it with **Ground Rules** (part of the **Team
 *   "We decide by consensus."
 *   "We disagree privately, support publicly."
 
-::: tip 🧠 Exam Insight
+::: tip  Exam Insight
 If a question asks how to *prevent* conflict or what you should have done *before* a dispute arose, the answer is almost always **Establish Ground Rules** or **Review the Team Charter**.
 :::
 
@@ -131,7 +131,7 @@ Start: Is this an emergency (safety, compliance, critical)?
             └── NO → COMPROMISE (split the difference)
 ```
 
-::: tip 🧠 Exam Pattern
+::: tip  Exam Pattern
 Default to **Collaborate** unless the scenario clearly signals **emergency/safety/compliance** (Force), or **high emotion/lack of data** (Withdraw).
 :::
 
@@ -149,7 +149,7 @@ Default to **Collaborate** unless the scenario clearly signals **emergency/safet
 
 ---
 
-## 🏛️ Decision-Making Models
+##  Decision-Making Models
 
 As a facilitator, you must guide the group toward a decision method that fits the urgency and complexity of the problem.
 
@@ -180,7 +180,7 @@ As a facilitator, you must guide the group toward a decision method that fits th
 | **Plus/Delta** | What's working (+) vs. what needs to change (Δ) |
 | **Consent-Based** | "Can everyone live with this?" rather than "Does everyone love this?" |
 
-::: info 🛠️ 2026 Focus: Collaborative Voting
+::: info  2026 Focus: Collaborative Voting
 For virtual teams, use **Low-Friction Voting Tools**:
 - **Dot Voting**: Visual priority setting.
 - **Fist of Five**: A quick gauge of consensus (5 = Full Support, 1 = Major Concern).
@@ -189,7 +189,7 @@ For virtual teams, use **Low-Friction Voting Tools**:
 
 ---
 
-## 🧭 The PM's BATNA
+##  The PM's BATNA
 
 Before entering any negotiation, you must know your **BATNA** (Best Alternative to a Negotiated Agreement).
 - **Why?**: It gives you the "power of the walk-away." If a vendor's offer is worse than your BATNA, you cannot accept it.
@@ -214,7 +214,7 @@ Before entering any negotiation, you must know your **BATNA** (Best Alternative 
 
 ---
 
-## 🎭 Negotiation Styles
+##  Negotiation Styles
 
 Understanding different negotiation styles helps you adapt your approach:
 
@@ -237,12 +237,12 @@ Understanding different negotiation styles helps you adapt your approach:
 
 ---
 
-## 📑 Dispute Resolution Ladder (Vendor/Contract Scenarios)
+##  Dispute Resolution Ladder (Vendor/Contract Scenarios)
 
 Most PMP-style questions assume you start with the **lowest-friction** option first:
 
-1. **Direct negotiation** (PM ↔ vendor) using the contract terms and objective criteria
-2. **Escalation** (vendor manager ↔ sponsor/procurement) if authority is required
+1. **Direct negotiation** (PM  vendor) using the contract terms and objective criteria
+2. **Escalation** (vendor manager  sponsor/procurement) if authority is required
 3. **Mediation** (neutral facilitator) to restore collaboration
 4. **Arbitration** (binding third-party decision)
 5. **Litigation** (last resort)
@@ -272,7 +272,7 @@ Can you resolve directly using contract/agreement?
 
 ---
 
-## 🔧 Negotiation Tactics (Recognize and Respond)
+##  Negotiation Tactics (Recognize and Respond)
 
 Common tactics you may encounter—and how to handle them:
 
@@ -288,7 +288,7 @@ Common tactics you may encounter—and how to handle them:
 
 ---
 
-## 📋 Practical Negotiation Frameworks
+##  Practical Negotiation Frameworks
 
 ### The WIN Framework
 
@@ -340,7 +340,7 @@ Common tactics you may encounter—and how to handle them:
 ---
 
 <div class="study-tip">
-  <strong>📝 Exam Insight:</strong> If a vendor is failing to meet requirements and a dispute arises, the BEST first step is <strong>Direct Negotiation</strong> between you and the vendor. Legal action or arbitration are last resorts that should only be used after internal negotiation fails.
+  <strong> Exam Insight:</strong> If a vendor is failing to meet requirements and a dispute arises, the BEST first step is <strong>Direct Negotiation</strong> between you and the vendor. Legal action or arbitration are last resorts that should only be used after internal negotiation fails.
 </div>
 
 <style>

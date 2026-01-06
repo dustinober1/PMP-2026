@@ -9,7 +9,7 @@
 
 ---
 
-## 👥 Domain I — People (33%)
+##  Domain I — People (33%)
 
 ### Task 1: Develop a common vision
 - `guide/05-initiation/project-charter.md`
@@ -52,7 +52,7 @@
 
 ---
 
-## ⚙️ Domain II — Process (41%)
+##  Domain II — Process (41%)
 
 ### Task 1: Develop an integrated project management plan and plan delivery
 - `guide/01-introduction/ways-of-working.md`
@@ -105,7 +105,7 @@
 
 ---
 
-## 🏛️ Domain III — Business Environment (26%)
+##  Domain III — Business Environment (26%)
 
 ### Task 1: Define and establish project governance
 - `guide/02-strategic/compliance-governance.md`

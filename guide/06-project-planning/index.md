@@ -49,7 +49,7 @@ The **Project Management Plan** is the master document that describes how the pr
 **Supporting Documents:**
 - Requirements documentation, RTM, activity lists, resource calendars, cost estimates, assumptions log, and more
 
-::: tip 💡 Exam Reality Check
+::: tip  Exam Reality Check
 When a question mentions "the project management plan," it's referring to this integrated document—not just a Gantt chart. Changes to baselines require formal change control. Changes to subsidiary plans may only require PM approval (check the Change Management Plan).
 :::
 
@@ -130,7 +130,7 @@ On the exam and in practice, planning creates a **system of documents** that all
 - **Subsidiary plans (how you'll manage)**: Scope/Schedule/Cost/Resource/Procurement Management Plans
 - **Supporting documents (details & evidence)**: RTM, activity list, network logic, resource calendars, cost estimates, assumptions log
 
-::: tip 💡 Baseline vs. Draft
+::: tip  Baseline vs. Draft
 If a question says a plan is **approved** or **baselined**, changes require formal **change control**. If it says **draft**, you're still refining.
 :::
 
@@ -187,7 +187,7 @@ Planning in PMBOK follows a logical sequence (though in reality, iteration is co
 18. **Plan Communications** → Define information distribution
 19. **Plan Stakeholder Engagement** → Define engagement strategies
 
-::: info 🔁 Iterative Reality
+::: info  Iterative Reality
 While the PMBOK presents these sequentially, real projects iterate constantly. You might estimate costs, realize you can't afford the scope, then go back and refine requirements. This is **progressive elaboration**, not poor planning.
 :::
 
@@ -239,7 +239,7 @@ When a change impacts multiple constraints, use this decision sequence:
 | **Changes** | Formal change control | Continuous backlog refinement | Tiered change authority |
 | **Success measure** | On-time, on-budget, to-spec | Value delivered, customer satisfaction | Outcomes + output metrics |
 
-::: tip 💡 Hybrid Reality
+::: tip  Hybrid Reality
 Most 2026 projects use **Hybrid approaches**. You might use predictive planning for compliance-heavy infrastructure work while using agile sprints for the software layer. The exam will test your ability to choose the right approach for the context.
 :::
 
@@ -285,7 +285,7 @@ This is called **Rolling Wave Planning**: near-term work is detailed, future wor
 | **Budget Estimate** | −10% to +25% | Early planning, funding approval |
 | **Definitive Estimate** | −5% to +10% | Detailed planning, baselining |
 
-::: tip 💡 Study Recommendation
+::: tip  Study Recommendation
 On the exam, focus on **Progressive Elaboration**. You don't know everything on Day 1. Planning should grow more detailed as you learn more about the project environment. This is not "poor planning"—it's smart risk management in uncertain environments.
 :::
 

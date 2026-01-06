@@ -1448,7 +1448,7 @@ Which "Trust Equation" factor did the project manager most likely neglect?
 
 ---
 
-## 📊 Topic Summary & Database Stats
+##  Topic Summary & Database Stats
 
 ### Topic Summary Table
 | Enabler | Question Numbers | Total |
@@ -1471,7 +1471,7 @@ Which "Trust Equation" factor did the project manager most likely neglect?
 
 ---
 
-## 💡 Stakeholder Engagement Pro-Tips
+##  Stakeholder Engagement Pro-Tips
 
 1.  **Analysis Before Action**: When a new stakeholder appears or an existing one changes attitude, the *first* step is always to update the Register and analyze before changing the plan or escalating.
 2.  **The Salience Model is for Priority**: Use Power, Legitimacy, and Urgency to decide who gets your immediate attention (Definitive) and who needs an advocate (Dependent).

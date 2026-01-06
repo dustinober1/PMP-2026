@@ -9,7 +9,7 @@ Execution is where project leaders coordinate people, vendors, and resources to 
 
 ---
 
-## 🧭 “Direct and Manage Project Work” (In Plain English)
+##  “Direct and Manage Project Work” (In Plain English)
 This is the integration heartbeat of execution. You’re coordinating work so the team can produce deliverables while you keep stakeholders aligned and the project under control.
 
 What it includes (predictive, agile, and hybrid):
@@ -21,13 +21,13 @@ What it includes (predictive, agile, and hybrid):
 ### Execution in one line
 **Run the system so work keeps flowing and value keeps rising.**
 
-::: tip 💡 Exam shortcut
+::: tip  Exam shortcut
 If a scenario mentions a baseline and someone wants to change scope/schedule/cost, your “execution move” is usually to **assess impact and follow the change approach** (CCB/change control in predictive, backlog rules in agile/hybrid).
 :::
 
 ---
 
-## 🏗️ Leading the Flow (Predictive, Agile, Hybrid)
+##  Leading the Flow (Predictive, Agile, Hybrid)
 The way you execute should match the level of uncertainty and the organization’s governance.
 
 <div class="exec-grid">
@@ -50,7 +50,7 @@ The way you execute should match the level of uncertainty and the organization�
 
 ---
 
-## 🔁 Execution Cadences (Your Control System)
+##  Execution Cadences (Your Control System)
 Execution runs on repeatable cadences so problems surface early and decisions happen quickly.
 
 | Cadence | Purpose | Typical outputs |
@@ -61,13 +61,13 @@ Execution runs on repeatable cadences so problems surface early and decisions ha
 | **Retrospective / lessons learned** | Improve the system of work | Improvement actions, lessons learned register updates |
 | **Phase gate / steering meeting** | Governance + continued alignment | Go/no-go, approvals, escalations, changes |
 
-::: info 🔍 PMP nuance
+::: info  PMP nuance
 The PMP often rewards answers that use the **right cadence** and the **right stakeholder touchpoint** (per the communications plan) instead of “waiting until the next meeting.”
 :::
 
 ---
 
-## 🧱 Impediment vs. Issue vs. Risk vs. Change (Don’t Mix These Up)
+##  Impediment vs. Issue vs. Risk vs. Change (Don’t Mix These Up)
 Execution questions frequently test whether you put the problem in the right “bucket” and then take the right first action.
 
 | Term | What it is | Where it goes | Best first move |
@@ -81,7 +81,7 @@ Execution questions frequently test whether you put the problem in the right “
 
 ---
 
-## 🧠 Knowledge Management
+##  Knowledge Management
 Projects produce two distinct types of value: **Deliverables** and **Knowledge**.
 
 <div class="knowledge-grid">
@@ -101,13 +101,13 @@ Projects produce two distinct types of value: **Deliverables** and **Knowledge**
 - Use **retrospectives / after-action reviews** to turn experience into repeatable guidance
 - Promote tacit transfer via **pairing, shadowing, communities of practice**, and demo-based learning
 
-::: tip 💡 2026 Shift: Continuous Learning
+::: tip  2026 Shift: Continuous Learning
 Do not wait for the "End of Project" party to capture lessons. Update the **Lessons Learned Register** at every sprint retrospective or phase gate to avoid repeating mistakes in the very next work cycle.
 :::
 
 ---
 
-## 📈 Data → Information → Reports (How PMs Communicate)
+##  Data → Information → Reports (How PMs Communicate)
 A core PM skill is translating raw noise into actionable insight for the right audience.
 
 1.  **Work Performance Data**: Raw observations (counts, dates, defects, hours, story points, test results).
@@ -118,7 +118,7 @@ A core PM skill is translating raw noise into actionable insight for the right a
 
 ---
 
-## 🧑‍🤝‍🧑 Leading People During Execution
+## ‍‍ Leading People During Execution
 Execution is where leadership becomes observable. Typical “best answers” emphasize coaching, clarity, and respectful escalation.
 
 - **Performance issue**: Meet privately → understand root cause → clarify expectations → remove blockers → coach/train → document and escalate if needed
@@ -128,7 +128,7 @@ Execution is where leadership becomes observable. Typical “best answers” emp
 
 ---
 
-## 🛠️ Execution Toolbox (High-Yield)
+##  Execution Toolbox (High-Yield)
 - **Issue / Impediment Log**: Track current problems; assign owners; follow up relentlessly.
 - **Change Requests / Change Log**: Formal “gear shift” when baselines/contract terms must change.
 - **Visual management**: Kanban board, burnup/burndown, cumulative flow diagram (make work visible).
@@ -179,7 +179,7 @@ See `guide/08-execution/toolkit.md` for copy/paste templates.
 
 ---
 
-## 🔐 Work Authorization System (Predictive Control)
+##  Work Authorization System (Predictive Control)
 In predictive projects, a **Work Authorization System** ensures that work begins only when predecessors are complete, resources are available, and funding is approved.
 
 ### Key Components
@@ -211,13 +211,13 @@ In predictive projects, a **Work Authorization System** ensures that work begins
 8. Complete & Close Work Package
 ```
 
-::: warning ⚠️ Common Mistake
+::: warning  Common Mistake
 Do not allow work to start "informally" because "we have time" or "we can get a head start." Unauthorized work creates **scope creep**, budget overruns, and accountability gaps. Always follow the authorization process.
 :::
 
 ---
 
-## 🔄 Work Execution Process Flows
+##  Work Execution Process Flows
 
 ### Predictive Work Execution Flow
 ```
@@ -334,7 +334,7 @@ Do not allow work to start "informally" because "we have time" or "we can get a 
 
 ---
 
-## 🏃 Agile Ceremonies Deep Dive (Exam-Critical)
+##  Agile Ceremonies Deep Dive (Exam-Critical)
 
 The PMP exam tests your understanding of agile ceremonies—not just what they are, but how to run them effectively and diagnose problems.
 
@@ -359,7 +359,7 @@ The PMP exam tests your understanding of agile ceremonies—not just what they a
 - Overcommitting based on pressure → Unsustainable; leads to burnout
 - Skipping technical planning → Team doesn't know HOW to deliver
 
-::: tip 💡 Exam Tip
+::: tip  Exam Tip
 If a scenario describes a team that consistently misses sprint commitments, look for answers that address **capacity planning** (right-sizing commitments) or **Definition of Ready** (stories aren't clear enough to estimate).
 :::
 
@@ -385,7 +385,7 @@ If a scenario describes a team that consistently misses sprint commitments, look
 - Skipping standups → Team loses visibility and alignment
 - PM assigns work during standup → Violates self-organization
 
-::: warning ⚠️ Key Principle
+::: warning  Key Principle
 The Daily Scrum is FOR the team, BY the team. The PM/Scrum Master removes impediments raised but does NOT run the meeting or assign tasks.
 :::
 
@@ -435,7 +435,7 @@ The Daily Scrum is FOR the team, BY the team. The PM/Scrum Master removes impedi
 - Same issues sprint after sprint → Not implementing improvements
 - Blaming individuals → Retrospectives should be blameless; focus on system
 
-::: tip 💡 Exam Pattern
+::: tip  Exam Pattern
 If a scenario describes recurring team problems (missed deadlines, low morale, quality issues), the answer often involves **implementing or improving retrospectives** to identify root causes and improvements.
 :::
 
@@ -450,7 +450,7 @@ If a scenario describes recurring team problems (missed deadlines, low morale, q
 
 ---
 
-## 🏛️ Organizational Culture Impact on Execution
+##  Organizational Culture Impact on Execution
 
 Organizational culture significantly affects how execution happens. The PM must adapt their approach based on the culture while gently influencing toward better practices.
 
@@ -474,11 +474,11 @@ Organizational culture significantly affects how execution happens. The PM must 
 | **Flexibility** | Rigid processes; "we've always done it this way" | Willingness to experiment; continuous improvement |
 | **Collaboration** | Siloed departments; "throw over the wall" mentality | Cross-functional teams; shared accountability |
 
-::: warning ⚠️ Exam Insight
+::: warning  Exam Insight
 If a scenario describes an organization struggling with agile adoption, look for **cultural barriers** (lack of trust, fear of failure, siloed teams) and answers that address these through **change management** (training, executive sponsorship, pilot programs).
 :::
 
-## ✅ Implementing Approved Changes (Step-by-Step)
+##  Implementing Approved Changes (Step-by-Step)
 
 Changes are inevitable. The key is to implement them **systematically** so you don't lose control of scope, schedule, or budget.
 
@@ -495,7 +495,7 @@ Changes are inevitable. The key is to implement them **systematically** so you d
 | **7. Verify Change Completion** | Confirm the change deliverable meets acceptance criteria | 2FA module passes security review and integration testing |
 | **8. Update Lessons Learned** | Capture what worked and what didn't during change implementation | "Lesson: Early security team involvement reduced rework. Action: Invite security to all design reviews." |
 
-::: tip 💡 Exam Insight
+::: tip  Exam Insight
 If a scenario says "The sponsor approved a change verbally," the best answer is usually to **formalize the approval** (get it in writing, log it in the change log, update baselines) before implementing. Verbal approvals create accountability gaps.
 :::
 
@@ -515,7 +515,7 @@ If a scenario says "The sponsor approved a change verbally," the best answer is 
 
 ---
 
-## 📊 Work Performance Data Collection Framework
+##  Work Performance Data Collection Framework
 
 **Work Performance Data** is raw, unanalyzed observations collected during execution. It becomes **Work Performance Information** when analyzed and contextualized.
 
@@ -570,7 +570,7 @@ Work Performance REPORTS
 
 ---
 
-## 🏗️ Deliverable Production Examples & Quality Execution Practices
+##  Deliverable Production Examples & Quality Execution Practices
 
 ### Example 1: Producing a Software Module (Agile)
 **Deliverable**: User Authentication Module
@@ -592,10 +592,10 @@ Work Performance REPORTS
 6. **Retrospective**: Team captures lesson: "Security review earlier in sprint would prevent last-minute rework"
 
 **Quality Execution Practices Applied**:
-- ✅ Peer review (catches defects early)
-- ✅ Automated testing (ensures functionality)
-- ✅ Definition of Done (enforces quality standards)
-- ✅ Continuous integration (detects integration issues immediately)
+-  Peer review (catches defects early)
+-  Automated testing (ensures functionality)
+-  Definition of Done (enforces quality standards)
+-  Continuous integration (detects integration issues immediately)
 
 ---
 
@@ -617,10 +617,10 @@ Work Performance REPORTS
 6. **Lessons Learned**: "Lesson: Rain delay added 2 days. Action: Add weather contingency to future outdoor work packages."
 
 **Quality Execution Practices Applied**:
-- ✅ Inspections (prevents defects)
-- ✅ Testing (validates specifications met)
-- ✅ Acceptance criteria (clear definition of success)
-- ✅ Expert validation (third-party approval)
+-  Inspections (prevents defects)
+-  Testing (validates specifications met)
+-  Acceptance criteria (clear definition of success)
+-  Expert validation (third-party approval)
 
 ---
 
@@ -635,7 +635,7 @@ Before marking any deliverable "complete," verify:
 
 ---
 
-## ⚠️ Common Execution Challenges & Solutions
+##  Common Execution Challenges & Solutions
 
 | Challenge | Root Cause | Best First Move | Example Solution |
 |---|---|---|---|
@@ -652,7 +652,7 @@ Before marking any deliverable "complete," verify:
 
 ---
 
-## 🎯 Real-World Execution Scenarios
+##  Real-World Execution Scenarios
 
 ### Scenario 1: The "Small" Change Request
 **Situation**: A key stakeholder approaches you at the coffee machine and says, "Can you just add a small button to the dashboard? It'll only take 30 minutes."
@@ -722,7 +722,7 @@ Before marking any deliverable "complete," verify:
 
 ---
 
-## 🎯 Implement Risk Responses (Risk Execution)
+##  Implement Risk Responses (Risk Execution)
 
 While risk identification and planning happen earlier, **Implement Risk Responses** is an Executing process. When risk triggers occur, the PM must execute the planned response and manage the transition from risk to issue.
 
@@ -746,7 +746,7 @@ While risk identification and planning happen earlier, **Implement Risk Response
 | "Technology may not scale" | Performance tests show 50% of target capacity | Execute fallback to alternative technology per plan |
 | "Regulatory approval may be delayed" | Regulator requests additional documentation | Execute parallel path (continue work while pursuing approval) |
 
-::: tip 💡 Exam Insight
+::: tip  Exam Insight
 The PMP exam often presents scenarios where a risk has "just happened." The best first action is usually to **execute the pre-planned risk response**, not to start analyzing or creating a new response. That's why risk planning matters.
 :::
 
@@ -807,7 +807,7 @@ When a risk occurs, it becomes an **issue**. Follow this process:
 
 ---
 
-## 🌐 Virtual Team Leadership
+##  Virtual Team Leadership
 
 With the shift toward distributed and hybrid work, the 2026 PMP exam emphasizes **virtual team leadership**. The same team development principles apply, but with additional challenges.
 
@@ -864,7 +864,7 @@ With the shift toward distributed and hybrid work, the 2026 PMP exam emphasizes 
 | **Performing** | Risk of isolation even when productive | Maintain social connection; celebrate wins; watch for burnout |
 | **Adjourning** | Transition feels abrupt without final gathering | Virtual celebration; recognition; formal closure activities |
 
-::: warning ⚠️ Common Virtual Team Mistake
+::: warning  Common Virtual Team Mistake
 Don't assume "no news is good news" when team members go quiet. In virtual environments, silence often indicates disengagement, confusion, or being overwhelmed. **Proactively check in.**
 :::
 
@@ -872,7 +872,7 @@ Don't assume "no news is good news" when team members go quiet. In virtual envir
 
 <div class="study-tip">
 
-  <strong>📝 Exam Insight:</strong> If a team member is blocked by a technical issue or an overbearing functional manager, the PM acting as a <strong>Servant Leader</strong> must prioritize removing that impediment. If you can't fix it yourself, escalate it.
+  <strong> Exam Insight:</strong> If a team member is blocked by a technical issue or an overbearing functional manager, the PM acting as a <strong>Servant Leader</strong> must prioritize removing that impediment. If you can't fix it yourself, escalate it.
 </div>
 
 <style>
