@@ -368,16 +368,10 @@ Use these as a quick one-stop review before the exam:
 
 ---
 
-<div class="study-tip">
-  <strong> Exam Insight:</strong> Business Environment questions often test your courage. Will you speak truth to power and recommend canceling a bad project? Or will you obediently waste money? <strong>PMI wants leaders, not order-takers.</strong> Will you stop unsafe work even if it delays the schedule? <strong>Safety and ethics are never negotiable.</strong>
-</div>
+::: tip Exam Insight
+If a question says adoption is low despite great training, the problem is likely **Desire** (Lack of motivation/WIIFM). Training solves "Knowledge/Ability," but it cannot solve "Desire."
+:::
 
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+::: tip Exam Insight
+If a project no longer aligns with a shifting strategy, the PM's duty is to **Recommend Termination**. Continuing to spend budget on a project that the company no longer needs is a failure of stewardship.
+:::

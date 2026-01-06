@@ -1,4 +1,11 @@
-# 2.1h The Strategic PMO
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
+# 2.6 The PMO (Project Management Office)
 
 **ECO Task**: Define and establish project governance
 
@@ -6,60 +13,22 @@ A **Project Management Office (PMO)** is an organizational structure that standa
 
 ---
 
-##  PMO Types
+## PMO Types
 PMI categorizes PMOs based on their level of control and influence:
 
-<div class="pmo-types-grid">
-  <div class="pmo-card supportive">
-    <div class="pmo-header">
-      <div class="pmo-icon"></div>
-      <div class="pmo-title">Supportive PMO</div>
-    </div>
-    <div class="pmo-control">Low Control</div>
-    <ul>
-      <li>Provides templates and best practices</li>
-      <li>Acts as a "consultant" to project teams</li>
-      <li>Offers training and mentoring</li>
-      <li>Maintains a repository of lessons learned</li>
-      <li>Teams can choose whether to use services</li>
-    </ul>
-    <div class="pmo-example"><strong>Example:</strong> "Here are some templates you might find helpful."</div>
-  </div>
-  
-  <div class="pmo-card controlling">
-    <div class="pmo-header">
-      <div class="pmo-icon"></div>
-      <div class="pmo-title">Controlling PMO</div>
-    </div>
-    <div class="pmo-control">Moderate Control</div>
-    <ul>
-      <li>Requires compliance with specific frameworks</li>
-      <li>Mandates use of certain tools and templates</li>
-      <li>Conducts project audits and health checks</li>
-      <li>Reviews and approves methodologies</li>
-      <li>Provides oversight without direct management</li>
-    </ul>
-    <div class="pmo-example"><strong>Example:</strong> "You must use this template and submit weekly status reports."</div>
-  </div>
-  
-  <div class="pmo-card directive">
-    <div class="pmo-header">
-      <div class="pmo-icon"></div>
-      <div class="pmo-title">Directive PMO</div>
-    </div>
-    <div class="pmo-control">High Control</div>
-    <ul>
-      <li>Directly manages projects</li>
-      <li>Project managers report to the PMO</li>
-      <li>Assigns PMs to projects</li>
-      <li>Controls budgets and resources centrally</li>
-      <li>Full accountability for project success</li>
-    </ul>
-    <div class="pmo-example"><strong>Example:</strong> "I am assigning Sarah as the PM for this project."</div>
-  </div>
-</div>
+<ConceptGrid>
+  <ConceptCard title="Supportive PMO">
+    Low control. Provides templates, training, and lessons learned. Acts as a consultant.
+  </ConceptCard>
+  <ConceptCard title="Controlling PMO">
+    Moderate control. Mandates frameworks, tools, and audits.
+  </ConceptCard>
+  <ConceptCard title="Directive PMO">
+    High control. Directly manages projects and assigns Project Managers.
+  </ConceptCard>
+</ConceptGrid>
 
-###  PMO Type Comparison Matrix
+### PMO Type Comparison Matrix
 
 | Aspect | Supportive | Controlling | Directive |
 | :-- | :-- | :-- | :-- |
@@ -72,49 +41,41 @@ PMI categorizes PMOs based on their level of control and influence:
 
 ---
 
-##  The Modern PMO (Value-Driven)
+## The Modern PMO (Value-Driven)
 In the 2026 PMP exam, the PMO is no longer just a "reporting center." A modern PMO focuses on **Value Delivery**:
 
-<div class="value-grid">
-  <div class="value-item">
-    <div class="value-icon"></div>
-    <div class="value-name">Strategic Alignment</div>
-    <p>Ensuring every project in the portfolio supports a current business objective. Killing "zombie projects" that no longer create value.</p>
-  </div>
-  <div class="value-item">
-    <div class="value-icon"></div>
-    <div class="value-name">Benefits Tracking</div>
-    <p>Monitoring whether projects are actually delivering the value promised in their business cases post-implementation.</p>
-  </div>
-  <div class="value-item">
-    <div class="value-icon"></div>
-    <div class="value-name">Capability Building</div>
-    <p>Upskilling the workforce in AI, Agile, and hybrid methodologies. Creating PM career paths and competency frameworks.</p>
-  </div>
-  <div class="value-item">
-    <div class="value-icon"></div>
-    <div class="value-name">Change Management</div>
-    <p>Coordinating the "human side" of multiple projects so employees aren't overwhelmed by too much change at once.</p>
-  </div>
-</div>
+<ConceptGrid>
+  <ConceptCard title="Strategic Alignment">
+    Ensuring every project in the portfolio supports a current business objective.
+  </ConceptCard>
+  <ConceptCard title="Benefits Tracking">
+    Monitoring whether projects are actually delivering the promised value post-implementation.
+  </ConceptCard>
+  <ConceptCard title="Capability Building">
+    Upskilling the workforce in AI, Agile, and hybrid methodologies.
+  </ConceptCard>
+  <ConceptCard title="Change Management">
+    Coordinating the human side of multiple projects to avoid change fatigue.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
-##  PMO Services
+## PMO Services
 A mature PMO provides several high-value services across multiple dimensions:
 
 ### Core Services
 
 | Service Category | What It Includes | Value to Organization |
 | :-- | :-- | :-- |
-| **Methodology (Tailoring)** | Helping teams decide whether to use Scrum, Predictive, or Hybrid based on project characteristics | Right approach for each project |
+| **Methodology** | Helping teams tailor whether to use Scrum, Predictive, or Hybrid | Right approach for each project |
 | **Resource Management** | Solving cross-project conflicts for specialist roles; capacity planning | Optimal resource utilization |
 | **Knowledge Management** | Capturing "lessons learned" from finished projects to prevent future mistakes | Organizational learning |
 | **Tooling** | Providing AI assistants, PM software, dashboards | Productivity & visibility |
 | **Governance Support** | Facilitating stage gates, steering committees, and portfolio reviews | Decision quality |
 | **Risk Management** | Enterprise risk aggregation; identifying systemic risks across the portfolio | Risk visibility |
 
-###  2026 Focus: AI-Enabled PMO
+### 2026 Focus: AI-Enabled PMO
 
 The modern PMO is increasingly leveraging AI to enhance its services:
 
@@ -128,7 +89,7 @@ The modern PMO is increasingly leveraging AI to enhance its services:
 
 ---
 
-##  PMO Maturity Model
+## PMO Maturity Model
 
 Organizations evolve their PMO capability over time:
 
@@ -146,43 +107,43 @@ You don't need to memorize specific maturity models, but understand that PMOs ev
 
 ---
 
-##  When the PMO Is the Best Answer (Common Exam Scenarios)
+## When the PMO Is the Best Answer (Common Exam Scenarios)
 
 Go to the PMO when you need:
 
-###  Process & Standards
+### Process & Standards
 - **A template, standard, or policy** (how the organization expects work to be done)
 - **Help tailoring a methodology** to fit constraints (hybrid guardrails, required artifacts)
 - **Understanding governance requirements** (what approvals are needed)
 
-###  Portfolio & Resources
+### Portfolio & Resources
 - **Portfolio visibility** (reporting, metrics, governance cadence)
 - **Cross-project support** (resource conflicts, dependency coordination)
 - **Capacity planning assistance** (when can we start the next project?)
 
-###  Quality & Improvement
+### Quality & Improvement
 - **Assurance** (health checks, audits, coaching)
 - **Lessons learned from similar projects** (what worked, what didn't)
 - **Methodology coaching** (Agile coaching, PM mentoring)
 
-###  PMO Scenario Decision Guide
+### PMO Scenario Decision Guide
 
 | Scenario | Go To PMO? | Why |
 | :-- | :-- | :-- |
-| Need a project charter template |  Yes | PMO maintains standard templates |
-| Resource conflict with another project |  Yes | PMO coordinates cross-project resources |
-| Unsure if Agile or Predictive is right |  Yes | PMO advises on methodology selection |
-| Stakeholder is unresponsive |  No | Handle directly; escalate to sponsor if needed |
-| Need budget approval |  No | Go to sponsor or finance |
-| Technical architecture question |  No | Go to technical leads or architects |
-| Team conflict |  No | Handle directly; escalate to HR if needed |
-| Need lessons learned from past CRM project |  Yes | PMO maintains knowledge repository |
-| Project scope change request |  No | Use change control (CCB) |
-| Need to understand regulatory requirements |  No | Go to legal/compliance |
+| Need a project charter template | Yes | PMO maintains standard templates |
+| Resource conflict with another project | Yes | PMO coordinates cross-project resources |
+| Unsure if Agile or Predictive is right | Yes | PMO advises on methodology selection |
+| Stakeholder is unresponsive | No | Handle directly; escalate to sponsor if needed |
+| Need budget approval | No | Go to sponsor or finance |
+| Technical architecture question | No | Go to technical leads or architects |
+| Team conflict | No | Handle directly; escalate to HR if needed |
+| Need lessons learned from past CRM project | Yes | PMO maintains knowledge repository |
+| Project scope change request | No | Use change control (CCB) |
+| Need to understand regulatory requirements | No | Go to legal/compliance |
 
 ---
 
-##  PMO vs. Other Governance Bodies
+## PMO vs. Other Governance Bodies
 
 Understanding who does what prevents confusion on the exam:
 
@@ -200,7 +161,7 @@ The PMO often *supports* governance with standards and reporting. The **steering
 
 ---
 
-##  Virtual and Distributed PMO Models
+## Virtual and Distributed PMO Models
 
 In 2026, many PMOs operate virtually or in hybrid models:
 
@@ -214,111 +175,32 @@ In 2026, many PMOs operate virtually or in hybrid models:
 
 ---
 
-::: tip  Pro Tip: PMO as a Servant Leader
-Think of the PMO as a **servant leader** to your project. Its goal is to remove organizational roadblocks and provide you with the tools you need to succeed. A good PMO asks, "How can I help you succeed?" not "Did you follow the process?"
+::: tip Pro Tip: PMO as a Servant Leader
+Think of the PMO as a **servant leader** to your project. Its goal is to remove organizational roadblocks and provide you with the tools you need to succeed.
 :::
-
-<style>
-.pmo-types-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.pmo-card {
-  padding: 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-}
-
-.supportive { border-top: 4px solid #10b981; }
-.controlling { border-top: 4px solid #f59e0b; }
-.directive { border-top: 4px solid #ef4444; }
-
-.pmo-header {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 0.5rem;
-}
-
-.pmo-icon { font-size: 1.5rem; }
-
-.pmo-title {
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: var(--vp-c-text-1);
-}
-
-.pmo-control {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: var(--vp-c-text-2);
-  margin-bottom: 1rem;
-}
-
-.pmo-card ul {
-  padding-left: 1.25rem;
-  margin: 0 0 1rem 0;
-  font-size: 0.85rem;
-}
-
-.pmo-card li { margin-bottom: 0.4rem; }
-
-.pmo-example {
-  font-size: 0.85rem;
-  font-style: italic;
-  color: var(--vp-c-text-2);
-  padding: 0.75rem;
-  background: var(--vp-c-bg-mute);
-  border-radius: 6px;
-}
-
-.value-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.value-item {
-  text-align: center;
-  padding: 1.25rem;
-  background: var(--vp-c-bg-soft);
-  border-radius: 12px;
-}
-
-.value-icon { font-size: 2rem; margin-bottom: 0.5rem; }
-
-.value-name {
-  font-weight: 700;
-  color: var(--vp-c-brand);
-  margin-bottom: 0.5rem;
-}
-
-.value-item p {
-  font-size: 0.85rem;
-  margin: 0;
-  color: var(--vp-c-text-2);
-}
-</style>
 
 ---
 
-<div class="exam-insight">
-  <strong> Exam Insight:</strong> If you are unsure about the correct corporate procedure or need a template for a new project document, the <strong>PMO</strong> is almost always the correct place to go for help in exam scenarios. However, for strategic decisions (continue/stop), go to the steering committee. For baseline changes, go to the CCB.
-</div>
-
-<style>
-.exam-insight {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
-
+## Quick Review
+<FlashcardGrid>
+  <Flashcard 
+    front="Which PMO type provides templates but has low control?" 
+    back="Supportive PMO." 
+  />
+  <Flashcard 
+    front="In which PMO type do Project Managers report directly to the PMO?" 
+    back="Directive PMO." 
+  />
+  <Flashcard 
+    front="What is the PMO's role in methodology tailoring?" 
+    back="Providing governance and expert advice on the best approach (Agile, Waterfall, or Hybrid) for a specific project." 
+  />
+  <Flashcard 
+    front="True or False: A PMO provides the project budget." 
+    back="False. The Sponsor or Functional Manager typically provides the budget; the PMO provides standardization and support." 
+  />
+  <Flashcard 
+    front="What is a 'Center of Excellence' PMO?" 
+    back="A PMO model that focuses on capability building and knowledge sharing rather than direct project oversight." 
+  />
+</FlashcardGrid>

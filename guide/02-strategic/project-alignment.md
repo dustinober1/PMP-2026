@@ -1,120 +1,69 @@
-# 2.1c Project and Program Alignment
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
 
-**ECO Task**: Assess project alignment with organizational strategy
+# 2.3 Project Alignment & Synergy
 
-Individual projects can fail in isolation if their interdependencies aren't managed. **Programs** provide the connective tissue that ensures 1 + 1 = 3.
+**ECO Task**: Evaluate and deliver project value and benefits
 
----
-
-##  What “Alignment” Looks Like Inside a Program
-Program alignment is about keeping multiple projects moving toward the **same outcomes and benefits**.
-
-Common alignment mechanisms:
-- **Program roadmap** (sequencing + outcomes)
-- **Benefits map / benefits register** (why each project exists)
-- **Dependency log** (what is blocked by what)
-- **Integrated change control at the program level** (so one project’s change does not break another)
-- **Regular cross-project coordination** (syncs, demos, roadmap reviews)
-
-##  The Synergy Engine
-Why group projects into a Program?
-
-<div class="synergy-grid">
-  <div class="synergy-card">
-    <div class="synergy-title">Silo Breaking</div>
-    <p>Prevents duplication of effort. (e.g., Two projects building the same login screen).</p>
-  </div>
-  <div class="synergy-card">
-    <div class="synergy-title">Dependency Management</div>
-    <p>Ensures Project B doesn't start until Project A finishes the prerequisite API.</p>
-  </div>
-  <div class="synergy-card">
-    <div class="synergy-title">Resource Optimization</div>
-    <p>Using one Data Architect across four projects instead of hiring four part-timers.</p>
-  </div>
-  <div class="synergy-card">
-    <div class="synergy-title">Benefits Realization</div>
-    <p>Delivering a "Platform" (Program Benefit) rather than just a collection of apps.</p>
-  </div>
-</div>
+No project exists in a vacuum. A PM must manage dependencies across the program or portfolio to ensure the collective outcome is greater than the sum of its parts.
 
 ---
 
-##  Managing Dependencies
-A dependency is where one project holds the key to another's success.
+##  Program Synergy
+A **Program** is managed to achieve benefits not available from managing projects individually.
 
-*   **Finish-to-Start**: The Platform Foundation (Project A) must be complete before the App (Project B) can launch.
-*   **Resource Lock**: Both projects need the Lead Security Engineer in Week 40.
-*   **External**: Project C is waiting for a government permit.
+<ConceptGrid>
+  <ConceptCard title="Capability Sharing">
+    Two projects using the same architectural framework should share the development cost and the "lessons learned."
+  </ConceptCard>
+  <ConceptCard title="Resource Optimization">
+    Shared designers or testing labs scheduled to avoid "idle time" or "resource locks."
+  </ConceptCard>
+  <ConceptCard title="Risk Mitigation">
+    Identifying a risk in Project A that might also impact Project B, and creating a joint response.
+  </ConceptCard>
+</ConceptGrid>
 
-::: tip  Integrated Roadmaps
-Program Managers use **Integrated Master Schedules** to visualize these dependencies. If Project A slips by 2 weeks, the software automatically highlights the crash in Project B.
+---
+
+##  Cross-Project Dependencies
+
+| Dependency Type | Example | PM Action |
+| :-- | :-- | :-- |
+| **Prerequisite** | Project A must deliver the API before Project B can build the UI. | Track Project A's critical path as a risk to Project B. |
+| **Resource Lock** | Both projects require the organization's only Data Scientist in June. | Negotiate prioritization with the Program Manager. |
+| **Technical Constraint** | Project C is migrating to Cloud; Project D must use the new Cloud instance. | Align technical requirements early. |
+
+---
+
+## Quick Review
+<FlashcardGrid>
+  <Flashcard 
+    front="What is a dependency in a program context?" 
+    back="When one project holds the key to another's success (e.g., Project A must finish a prerequisite for Project B)." 
+  />
+  <Flashcard 
+    front="How does Agile handle alignment at scale?" 
+    back="Through PI (Program Increment) Planning, where all teams meet to map dependencies." 
+  />
+  <Flashcard 
+    front="What is an Integrated Master Schedule?" 
+    back="A tool used by Program Managers to visualize critical paths and dependencies across multiple projects." 
+  />
+  <Flashcard 
+    front="What should a PM do if they discover a dependency they don't control?" 
+    back="1. Contact peer PM directly. 2. Escalate to Program Manager if unresolved." 
+  />
+</FlashcardGrid>
+
+---
+
+::: tip Exam Insight
+If you discover a dependency on another project that you do not control:
+1. **Contact Peer PM**: Try to resolve it directly.
+2. **Escalate to Program Manager**: If you cannot resolve it peer-to-peer.
 :::
-
----
-
-##  Dependency Types (And How They Fail)
-| Dependency type | Example | Common failure mode | PMI-aligned response |
-| :-- | :-- | :-- | :-- |
-| **Finish-to-start** | API must exist before app integration | Upstream delay cascades | Re-plan, escalate, adjust milestones |
-| **Resource** | Same architect needed in two projects | Hidden conflict / double-booking | Escalate through program governance |
-| **External** | Permit, vendor delivery, regulator approval | Outside your control | Early engagement + risk response plans |
-| **Technical interface** | Data format contracts | Teams make incompatible changes | Interface agreements + integration testing |
-
----
-
-##  Delivery Contexts
-How alignment works in different methodologies:
-
-| Method             | Alignment Mechanism                                                                                                        |
-| :----------------- | :------------------------------------------------------------------------------------------------------------------------- |
-| **Agile (Scaled)** | **PI Planning** (Program Increment): All teams meet every 10 weeks to map dependencies on a physical board (String board). |
-| **Predictive**     | **Master Schedule**: A rigid Gantt chart linking critical paths across projects.                                           |
-| **Hybrid**         | **Guardrails**: Fixed milestones (Launch Date) with flexible execution (Sprints) inside.                                   |
-
-<style>
-.synergy-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.synergy-card {
-  padding: 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-  text-align: center;
-}
-
-.synergy-title {
-  font-weight: 700;
-  color: var(--vp-c-brand);
-  margin-bottom: 0.5rem;
-}
-
-.synergy-card p {
-  font-size: 0.9rem;
-  margin: 0;
-  color: var(--vp-c-text-2);
-}
-</style>
-
----
-
-<div class="study-tip">
-  <strong> Exam Insight:</strong> If you discover a dependency on another project that you do not control:
-  1.  **Contact Peer PM**: Try to resolve it directly.
-  2.  **Escalate to Program Manager**: If you cannot resolve it peer-to-peer.
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>

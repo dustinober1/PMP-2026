@@ -1,3 +1,10 @@
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # 2.5 Program Management
 
 **ECO Task**: Demonstrate an understanding of how projects fit within programs and portfolios
@@ -38,84 +45,46 @@ A **Program Roadmap** is a high-level visual timeline of the program's component
 
 ---
 
-##  Program Governance
-Programs have a dedicated layer of oversight, usually a **Program Steering Committee**.
-
-<div class="governance-grid">
-  <div class="gov-item">
-    <div class="gov-icon"></div>
-    <div class="gov-name">Conflict Resolution</div>
-    <p>Deciding priority when two projects need the same expert resource.</p>
-  </div>
-  <div class="gov-item">
-    <div class="gov-icon"></div>
-    <div class="gov-name">Budget Reallocation</div>
-    <p>Moving funds from a delayed project to a high-priority "sister" project.</p>
-  </div>
-  <div class="gov-item">
-    <div class="gov-icon"></div>
-    <div class="gov-name">Strategic Pivots</div>
-    <p>Approving scope shifts to ensure the program still delivers its intended value.</p>
-  </div>
-</div>
+<ConceptGrid>
+  <ConceptCard title="Conflict Resolution">
+    Deciding priority when two projects need the same expert resource.
+  </ConceptCard>
+  <ConceptCard title="Budget Reallocation">
+    Moving funds from a delayed project to a high-priority "sister" project.
+  </ConceptCard>
+  <ConceptCard title="Strategic Pivots">
+    Approving scope shifts to ensure the program still delivers its intended value.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
-##  Your Role as a Project Leader in a Program
-When your project is part of a program, your leadership style must shift:
-*   **Think Globally**: Accept that your project might need to pivot to support the program's success.
-*   **Manage Interfaces**: Spend more time communicating with other Project Managers to manage cross-project risks.
-*   **Escalate Dependencies**: Flag it immediately if another project's delay threatens your timeline.
+##  Quick Review
+<FlashcardGrid>
+  <Flashcard 
+    front="What is a 'Program' in PMP terms?" 
+    back="A group of related projects managed in a coordinated way to obtain synergistic benefits." 
+  />
+  <Flashcard 
+    front="What is the primary measure of success for a Program?" 
+    back="Benefit Realization and Strategic ROI (not just output quality)." 
+  />
+  <Flashcard 
+    front="What does a Program Roadmap show?" 
+    back="A high-level timeline of sequencing, major outcomes, and dependencies across projects." 
+  />
+  <Flashcard 
+    front="What should a PM do if their project is part of a program?" 
+    back="Think globally, manage interfaces with other PMs, and escalate dependencies to the Program Manager." 
+  />
+  <Flashcard 
+    front="What is the purpose of a Program Steering Committee?" 
+    back="Dedicated oversight layer for conflict resolution, budget reallocation, and strategic pivots." 
+  />
+</FlashcardGrid>
 
-::: warning  Common Trap
-Do not optimize your project at the expense of the program. On the exam, the right move is usually to **coordinate and escalate**, not to “win” a resource conflict.
+---
+
+::: tip Exam Insight
+The Program Manager's job is to manage the space *between* the projects. If you're a PM in a program, your goal is to optimize your project while keeping an eye on how you might be blocking another PM's progress.
 :::
-
-<style>
-.governance-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.gov-item {
-  text-align: center;
-  padding: 1rem;
-  background: var(--vp-c-bg-soft);
-  border-radius: 8px;
-}
-
-.gov-icon {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.gov-name {
-  font-weight: 700;
-  color: var(--vp-c-brand);
-  margin-bottom: 0.5rem;
-}
-
-.gov-item p {
-  font-size: 0.85rem;
-  margin: 0;
-  color: var(--vp-c-text-2);
-}
-</style>
-
----
-
-<div class="study-tip">
-  <strong> Exam Insight:</strong> If your project's goal changes because the <em>Program</em> strategy shifted, your best course of action is to <strong>perform an impact assessment</strong> on your project's baseline and <strong>update your Project Management Plan</strong>.
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>

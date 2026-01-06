@@ -1,3 +1,10 @@
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # 2.2 Benefits, Value, and Sustainability
 
 **ECO Task**: Evaluate and deliver project benefits and value
@@ -28,107 +35,41 @@ In Agile, we deliver value in small packages. Know the difference:
 ##  The Value Equation
 Traditional PM focused on Scope, Time, and Cost. The modern PM focuses on the **Triple Bottom Line**:
 
-<div class="value-grid">
-  <div class="value-card profit">
-    <div class="value-title">Profit</div>
-    <p>Does the project make financial sense? (ROI, NPV, Cost Savings).</p>
-  </div>
-  <div class="value-card people">
-    <div class="value-title">People</div>
-    <p>Does it improve lives for the community and employees? (Social Impact).</p>
-  </div>
-  <div class="value-card planet">
-    <div class="value-title">Planet</div>
-    <p>Is it environmentally sustainable? (Carbon footprint, Waste reduction).</p>
-  </div>
-</div>
+<ConceptGrid>
+  <ConceptCard title="Profit">
+    Does the project make financial sense? (ROI, NPV, Cost Savings).
+  </ConceptCard>
+  <ConceptCard title="People">
+    Does it improve lives for the community and employees? (Social Impact).
+  </ConceptCard>
+  <ConceptCard title="Planet">
+    Is it environmentally sustainable? (Carbon footprint, Waste reduction).
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
-##  Benefits Realization
-Value isn't usually realized until *after* the project ends. BRM bridges that gap.
-
-1.  **Identify**: Define the metric upfront (e.g., "Reduce processing time by 20%").
-2.  **Execute**: Focus the team on features that drive that metric.
-3.  **Sustain**: Hand over the "Benefits Plan" to operations so they can track it long-term.
-
-::: tip  The Benefits Owner
-A critical role. This is the business person (not the PM) who is responsible for ensuring the deliverables actually generate revenue/savings after the project closes.
-:::
-
----
-
-##  Financial Value (Fast Exam Reference)
-- **ROI**: (Benefits − Costs) / Costs. Higher is better.
-- **NPV**: Present value of future cash flows minus initial investment. Positive NPV is usually desirable.
-- **Payback period**: How fast you recover the investment. Shorter is usually preferred.
-
-::: info  Reminder
-Financial metrics help compare options, but **compliance, safety, and ethics can override** them.
-:::
-
----
-
-##  ESG: Integration, Not Add-on
-In 2026, ESG (Environmental, Social, Governance) is a **constraint**.
-
-*   **Environmental**: Choosing a "Green" cloud provider or reducing material waste.
-*   **Social**: Ensuring fair wages in the supply chain.
-*   **Governance**: Strict adherence to anti-corruption laws.
-
-### Where ESG Gets “Baked In”
-- **Requirements and acceptance criteria** (what must be true at delivery)
-- **Procurement criteria** (vendor due diligence, ethical sourcing)
-- **Design decisions** (energy usage, data minimization, accessibility)
-- **Reporting** (how the organization proves compliance)
-
-<style>
-.value-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.value-card {
-  padding: 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-  text-align: center;
-}
-
-.profit { border-top: 4px solid #10b981; }
-.people { border-top: 4px solid #f59e0b; }
-.planet { border-top: 4px solid #3b82f6; }
-
-.value-title {
-  font-weight: 700;
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-  color: var(--vp-c-text-1);
-}
-
-.value-card p {
-  font-size: 0.9rem;
-  margin: 0;
-  color: var(--vp-c-text-2);
-}
-</style>
-
----
-
-<div class="study-tip">
-  <strong> Exam Insight:</strong> If a stakeholder suggests a cheaper vendor who has a history of human rights violations, the PM must **reject** the vendor based on the organization's ESG/Code of Ethics policy. Profit does not trump ethics on the PMP exam.
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+##  Quick Review
+<FlashcardGrid>
+  <Flashcard 
+    front="What is the difference between MVP and MBI?" 
+    back="MVP (Minimum Viable Product) is for learning/risk reduction; MBI (Minimum Business Increment) is for releasing value/generating ROI." 
+  />
+  <Flashcard 
+    front="What is the Benefits Owner responsible for?" 
+    back="Ensuring the project deliverables actually generate the promised revenue or savings after the project closes." 
+  />
+  <Flashcard 
+    front="What are the three pillars of the Triple Bottom Line?" 
+    back="Profit, People, and Planet." 
+  />
+  <Flashcard 
+    front="Should a PM choose a cheaper vendor who violates human rights?" 
+    back="No. Ethics and ESG policies trump financial profit on the PMP exam." 
+  />
+  <Flashcard 
+    front="When is value usually realized in a project lifecycle?" 
+    back="Usually after the project ends, once the deliverables are adopted and used by the business." 
+  />
+</FlashcardGrid>
 

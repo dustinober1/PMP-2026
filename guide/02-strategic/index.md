@@ -1,3 +1,10 @@
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # Chapter 2: Strategy & Business Environment
 
 Projects do not exist in a vacuum. A project manager's success in 2026 is measured by how well their work aligns with organizational strategy, complies with global governance, and delivers **sustainable value**.
@@ -167,6 +174,32 @@ You are no longer just a technical executor. You are a **Business Leader**.
 *   **Compliance**: You are the first line of defense for data privacy and regulatory adherence.
 *   **Change**: You don't just build the tool; you ensure the organization is ready to *use* it.
 *   **Value**: Your success is measured by benefits realized, not just outputs delivered.
+
+---
+
+##  Quick Review
+<FlashcardGrid>
+  <Flashcard 
+    front="What is the Business Environment domain's weight on the 2026 PMP exam?" 
+    back="26% of the exam." 
+  />
+  <Flashcard 
+    front="Which financial metric is generally considered more reliable for project selection: IRR or NPV?" 
+    back="NPV (Net Present Value)." 
+  />
+  <Flashcard 
+    front="What does ADKAR stand for in Change Management?" 
+    back="Awareness, Desire, Knowledge, Ability, Reinforcement." 
+  />
+  <Flashcard 
+    front="True or False: A project can be successful if it is 'green' but no longer strategically aligned." 
+    back="False. A project that lacks strategic alignment or compliance is a failed project." 
+  />
+  <Flashcard 
+    front="What are the three tiers of the Triple Bottom Line?" 
+    back="People, Planet, and Profit (Social, Environmental, and Economic)." 
+  />
+</FlashcardGrid>
 
 ::: tip  How to Study This Chapter
 If you're short on time, focus on this sequence:

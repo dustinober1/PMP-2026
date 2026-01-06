@@ -1,3 +1,10 @@
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # 2.1d Benefits Realization & Value Creation
 
 **ECO Task**: Evaluate and deliver project benefits and value
@@ -6,14 +13,20 @@ Delivering a project on time and under budget is a failure if it doesn't create 
 
 ---
 
-##  The Value Chain
-Understand clearly the difference between what you build and the value it creates:
-
-| Stage       | Definition                        | Example (Expense System)             |
-| :---------- | :-------------------------------- | :----------------------------------- |
-| **Output**  | Tangible project deliverable.     | Automated software deployed.         |
-| **Outcome** | Change in capability or behavior. | Employees stop using spreadsheets.   |
-| **Benefit** | **Measurable strategic value.**   | $250k annual administrative savings. |
+<FlashcardGrid>
+  <Flashcard 
+    front="Output (Project Deliverable)" 
+    back="What you build (e.g., automated software deployed)." 
+  />
+  <Flashcard 
+    front="Outcome (Behavior Change)" 
+    back="How users respond (e.g., employees stop using spreadsheets)." 
+  />
+  <Flashcard 
+    front="Benefit (Strategic Value)" 
+    back="Measurable result (e.g., $250k annual administrative savings)." 
+  />
+</FlashcardGrid>
 
 ---
 
@@ -85,17 +98,29 @@ In the 2026 exam, AI is often a tool for value creation.
 
 ---
 
-<div class="study-tip">
-  <strong> Exam Insight:</strong> If a project is finished but the expected benefits haven't appeared after six months, the PM should recommend a <strong>Post-Implementation Review</strong> to identify adoption barriers (e.g., "employees weren't trained properly") rather than just declaring the project a success because the code was delivered.
-</div>
+---
 
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+##  Quick Review
+<FlashcardGrid>
+  <Flashcard 
+    front="What is a 'Leading Indicator' for benefits?" 
+    back="Early signals such as training completion or adoption rate that suggest benefits will eventually be realized." 
+  />
+  <Flashcard 
+    front="What is a 'Lagging Indicator' for benefits?" 
+    back="Final confirmation of value, such as revenue increase or cost savings." 
+  />
+  <Flashcard 
+    front="Who owns the realization of the benefit after project transition?" 
+    back="The Business Owner or Sponsor (The PM owns the Output)." 
+  />
+  <Flashcard 
+    front="What should a PM do if benefits don't appear after project closure?" 
+    back="Recommend a Post-Implementation Review to identify adoption barriers." 
+  />
+  <Flashcard 
+    front="Give an example of a non-financial benefit." 
+    back="Customer Satisfaction (NPS), Employee Engagement, or Risk Mitigation." 
+  />
+</FlashcardGrid>
 

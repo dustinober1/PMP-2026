@@ -1,4 +1,11 @@
-# 2.2 Sustainability in Project Management
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
+# 2.8 Project Sustainability & ESG
 
 **ECO Task**: Evaluate and recommend sustainability practices
 
@@ -10,17 +17,23 @@ Sustainability has shifted from a "nice to have" to a strategic imperative. PMI 
 
 ---
 
-##  What is Sustainable Project Management?
+## What is Sustainable Project Management?
 
 Sustainable project management means delivering project outcomes that create value not just for the organization, but for **people, planet, and prosperity**—without compromising the ability of future generations to meet their needs.
 
 ### The Triple Bottom Line (TBL)
 
-| Dimension | Focus | Project Impact |
-|-----------|-------|----------------|
-| **People** (Social) | Stakeholder well-being, community impact, equity | Fair labor practices, accessibility, diversity |
-| **Planet** (Environmental) | Resource consumption, emissions, biodiversity | Carbon footprint, waste reduction, green materials |
-| **Profit** (Economic) | Financial viability, long-term value | Cost efficiency, sustainable revenue, risk mitigation |
+<ConceptGrid>
+  <ConceptCard title="People (Social)">
+    Fair labor practices, accessibility, diversity, and community well-being.
+  </ConceptCard>
+  <ConceptCard title="Planet (Environmental)">
+    Carbon footprint, waste reduction, green materials, and biodiversity.
+  </ConceptCard>
+  <ConceptCard title="Profit (Economic)">
+    Cost efficiency, sustainable revenue, risk mitigation, and long-term value.
+  </ConceptCard>
+</ConceptGrid>
 
 ::: info  Exam Insight
 When a scenario mentions "long-term impact," "environmental considerations," or "community effects," look for answers that consider all three dimensions—not just the financial bottom line.
@@ -270,13 +283,29 @@ Sustainability questions on the 2026 PMP exam may include:
 
 ---
 
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+---
+
+##  Quick Review
+<FlashcardGrid>
+  <Flashcard 
+    front="What is the 'Triple Bottom Line'?" 
+    back="A framework that measures success based on Profit, People, and Planet." 
+  />
+  <Flashcard 
+    front="What does ESG stand for?" 
+    back="Environmental, Social, and Governance." 
+  />
+  <Flashcard 
+    front="What is 'Life Cycle Assessment' (LCA)?" 
+    back="A process to evaluate the environmental impacts of a product through its entire life cycle (cradle to grave)." 
+  />
+  <Flashcard 
+    front="Why is sustainability important for a PMP?" 
+    back="It ensures long-term value, compliance with emerging laws, and alignment with organizational ethics." 
+  />
+  <Flashcard 
+    front="What should a PM do if a sustainability requirement is being ignored?" 
+    back="Remind the team of its importance to the business case and escalate to the sponsor if necessary." 
+  />
+</FlashcardGrid>
 
