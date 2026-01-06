@@ -249,7 +249,7 @@ SAFe is the most widely adopted enterprise Agile framework. It organizes work at
 | **Large Solution** | Coordinate multiple ARTs | Solution Train Engineer |
 | **Portfolio** | Strategy and funding | Lean Portfolio Management |
 
-**Key SAFe Concepts:**
+<strong>Key SAFe Concepts:</strong>
 - **Agile Release Train (ART)**: Virtual team of 50-125 people
 - **Program Increment (PI)**: 8-12 week planning cycle
 - **PI Planning**: 2-day event where all teams align on objectives

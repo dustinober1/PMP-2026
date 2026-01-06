@@ -250,7 +250,7 @@ Typical status report structure:
 
 ### Giving Effective Feedback
 
-**SBI Model:**
+<strong>SBI Model:</strong>
 - **S**ituation: When/where did it happen?
 - **B**ehavior: What specifically did they do?
 - **I**mpact: What was the effect?
@@ -259,20 +259,20 @@ Typical status report structure:
 
 ### Running Effective Meetings
 
-**Before:**
+<strong>Before:</strong>
 - Define purpose and desired outcomes
 - Create and distribute agenda
 - Invite only necessary participants
 - Prepare materials in advance
 
-**During:**
+<strong>During:</strong>
 - Start and end on time
 - Follow the agenda
 - Assign a facilitator and note-taker
 - Park off-topic items
 - Capture action items with owners and due dates
 
-**After:**
+<strong>After:</strong>
 - Distribute meeting notes within 24 hours
 - Follow up on action items
 - Evaluate meeting effectiveness

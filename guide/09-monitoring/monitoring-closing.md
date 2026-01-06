@@ -125,7 +125,7 @@ The **Performance Measurement Baseline** is the integrated combination of the sc
 └────────────────────────────────────────────┘
 ```
 
-**Key Distinction:**
+<strong>Key Distinction:</strong>
 - **PMB** = Cost Baseline + Contingency Reserve (what you measure performance against)
 - **Project Budget** = PMB + Management Reserve (total authorized funding)
 
@@ -282,7 +282,7 @@ Common analysis tools (often appear as answer choices):
 
 ####  Quality Metrics During Monitoring
 
-**Common Quality Metrics to Monitor:**
+<strong>Common Quality Metrics to Monitor:</strong>
 
 | Metric | What it measures | Why it matters | Action if bad |
 |---|---|---|---|
@@ -293,7 +293,7 @@ Common analysis tools (often appear as answer choices):
 | **Mean time to resolution (MTTR)** | avg time from defect found to closed | development efficiency | identify blockers; staffing needs |
 | **Phase containment rate** | % defects found/fixed in the phase they're created | process effectiveness | earlier phases should catch more |
 
-**Control Chart Interpretation:**
+<strong>Control Chart Interpretation:</strong>
 - **Point outside control limits** → Process is out of control (special-cause variation; investigate immediately)
 - **Run of 7+ points on one side of mean** → Process drifting; investigate
 - **Trends or cycles** → Systematic change; not random variation
@@ -553,7 +553,7 @@ The **Definition of Done** is the quality gate for agile work. A clear DoD preve
 - **Inconsistent quality** across team members
 - **Integration problems** at the end of the release
 
-**Example DoD for a User Story:**
+<strong>Example DoD for a User Story:</strong>
 - [ ] Code complete and passes peer review
 - [ ] Unit tests written and passing (>80% coverage)
 - [ ] Integration tests passing
@@ -620,7 +620,7 @@ Different project approaches require different monitoring strategies. The 2026 P
 | **Cost** | EVM metrics (CPI, EAC, VAC) | Cost baseline, reserves |
 | **Quality** | Defect rates, inspection results | Quality control charts |
 
-**Key Exam Mindset:** In predictive, you measure against *fixed baselines*. Variance from the plan is "bad" and requires corrective action or formal change control.
+<strong>Key Exam Mindset:</strong> In predictive, you measure against *fixed baselines*. Variance from the plan is "bad" and requires corrective action or formal change control.
 
 ### Agile (Adaptive) Monitoring
 
@@ -631,7 +631,7 @@ Different project approaches require different monitoring strategies. The 2026 P
 | **Quality** | Escaped defects, Definition of Done compliance | Sprint Review, continuous testing |
 | **Predictability** | Velocity trend, burnup/burndown trajectory | Sprint planning, forecasting |
 
-**Key Exam Mindset:** In agile, you measure *flow and value*. The scope is expected to change; "control" means maintaining predictable throughput and high quality.
+<strong>Key Exam Mindset:</strong> In agile, you measure *flow and value*. The scope is expected to change; "control" means maintaining predictable throughput and high quality.
 
 ### Hybrid Monitoring
 
@@ -641,7 +641,7 @@ Different project approaches require different monitoring strategies. The 2026 P
 | **Development Phase** | Agile (iterative delivery) | Velocity, sprint completion rate |
 | **Deployment Phase** | Predictive (formal acceptance) | UAT results, go-live checklist |
 
-**Best Practice:** Use **rolling wave planning** with fixed milestones for governance and agile execution within phases. Monitor *both* milestone adherence and flow metrics.
+<strong>Best Practice:</strong> Use **rolling wave planning** with fixed milestones for governance and agile execution within phases. Monitor *both* milestone adherence and flow metrics.
 
 ::: tip Exam Pattern
 If a question describes a hybrid environment and asks about monitoring, look for answers that combine **milestone-based governance** (predictive) with **iteration-based metrics** (agile). Avoid answers that force one approach exclusively.
@@ -674,7 +674,7 @@ Traditional EVM provides a **deterministic** forecast (single-point estimate). *
 | **P80 (80th percentile)** | 80% chance of meeting this date/budget | Commitment to stakeholders |
 | **P90 (90th percentile)** | 90% chance of meeting this date/budget | Contractual deadlines |
 
-**Example Output:**
+<strong>Example Output:</strong>
 ```
 Project Completion Date Analysis (Monte Carlo, 10,000 simulations):
 - P50: December 1, 2026 (50% confidence)
@@ -767,10 +767,10 @@ This example demonstrates how to track a project across multiple reporting perio
 
 ### Scenario Setup
 
-**Project:** Software implementation for billing system
-**BAC:** $400,000
-**Duration:** 20 weeks (100 days)
-**Measurement:** Every 4 weeks
+<strong>Project:</strong> Software implementation for billing system
+<strong>BAC:</strong> $400,000
+<strong>Duration:</strong> 20 weeks (100 days)
+<strong>Measurement:</strong> Every 4 weeks
 
 ### Period-by-Period Analysis
 

@@ -143,13 +143,13 @@ Systems thinking is seeing the **relationships** (not just tasks). A system is m
 #### Reinforcing Loop (Amplifying / Vicious or Virtuous Cycle)
 Change compounds in the same direction (either positive or negative).
 
-**Vicious Cycle Example:**
+<strong>Vicious Cycle Example:</strong>
 ```
 Quality shortcuts → More defects → More rework →
 Less time available → More shortcuts → MORE defects
 ```
 
-**Virtuous Cycle Example:**
+<strong>Virtuous Cycle Example:</strong>
 ```
 Team learns new skills → Higher productivity →
 Earlier delivery → More time to learn → HIGHER productivity
@@ -160,7 +160,7 @@ Earlier delivery → More time to learn → HIGHER productivity
 #### Balancing Loop (Stabilizing / Self-Correcting)
 The system resists change and seeks equilibrium.
 
-**Example:**
+<strong>Example:</strong>
 ```
 Workload increases → Team applies WIP limits →
 Flow improves → Defects decrease → Workload stabilizes

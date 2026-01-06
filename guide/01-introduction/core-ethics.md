@@ -46,13 +46,13 @@ On the PMP exam, **mandatory standards always apply**. If an answer choice viola
 
 A conflict of interest occurs when your personal interests could influence (or appear to influence) your professional judgment.
 
-**Examples:**
+<strong>Examples:</strong>
 - Your friend's company is bidding on a project contract
 - You own stock in a vendor being evaluated
 - A family member works for a competing organization
 - You could personally benefit from a project decision
 
-**Required Actions:**
+<strong>Required Actions:</strong>
 1. **Disclose** the relationship or interest immediately to relevant parties
 2. **Recuse** yourself from decision-making where appropriate
 3. **Document** the disclosure and any resulting arrangements

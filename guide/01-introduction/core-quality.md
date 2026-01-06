@@ -35,11 +35,11 @@ Quality has two classic definitions that you must understand:
 
 <ConceptGrid>
   <ConceptCard title="Quality">
-    **Definition:** The degree to which characteristics fulfill requirements.<br>
+    <strong>Definition:</strong> The degree to which characteristics fulfill requirements.<br>
     <em>Example: A bug-free application.</em>
   </ConceptCard>
   <ConceptCard title="Grade">
-    **Definition:** A category for products with the same functional use but different requirements.<br>
+    <strong>Definition:</strong> A category for products with the same functional use but different requirements.<br>
     <em>Example: Economy vs. Business Class seats.</em>
   </ConceptCard>
 </ConceptGrid>
@@ -59,18 +59,18 @@ Quality management has three main processes:
 
 <ConceptGrid>
   <ConceptCard title="Plan Quality Management">
-    **When:** Planning phase<br>
-    **Goal:** Define quality standards and how to achieve them.<br>
+    <strong>When:</strong> Planning phase<br>
+    <strong>Goal:</strong> Define quality standards and how to achieve them.<br>
     <em>Question: What does "good" look like?</em>
   </ConceptCard>
   <ConceptCard title="Manage Quality (QA)">
-    **When:** During execution<br>
-    **Goal:** Ensure processes are being followed correctly (Process-focused).<br>
+    <strong>When:</strong> During execution<br>
+    <strong>Goal:</strong> Ensure processes are being followed correctly (Process-focused).<br>
     <em>Question: Are we building it right?</em>
   </ConceptCard>
   <ConceptCard title="Control Quality (QC)">
-    **When:** Before delivery<br>
-    **Goal:** Verify deliverables meet specifications (Product-focused).<br>
+    <strong>When:</strong> Before delivery<br>
+    <strong>Goal:</strong> Verify deliverables meet specifications (Product-focused).<br>
     <em>Question: Did we build it right?</em>
   </ConceptCard>
 </ConceptGrid>
@@ -197,19 +197,19 @@ COQ represents the total cost of ensuring quality AND the cost of poor quality.
 
 <ConceptGrid>
   <ConceptCard title="Prevention Costs (Invest Here)">
-    **Type:** Conformance<br>
+    <strong>Type:</strong> Conformance<br>
     Training, process planning, quality planning, design reviews.
   </ConceptCard>
   <ConceptCard title="Appraisal Costs (Minimize)">
-    **Type:** Conformance<br>
+    <strong>Type:</strong> Conformance<br>
     Testing, inspections, audits, reviews.
   </ConceptCard>
   <ConceptCard title="Internal Failure Costs (Reduce)">
-    **Type:** Non-conformance (Found internally)<br>
+    <strong>Type:</strong> Non-conformance (Found internally)<br>
     Rework, scrap, retesting, root cause analysis.
   </ConceptCard>
   <ConceptCard title="External Failure Costs (Avoid!)">
-    **Type:** Non-conformance (Found by customer)<br>
+    <strong>Type:</strong> Non-conformance (Found by customer)<br>
     Warranty claims, customer support, recalls, reputation damage.
   </ConceptCard>
 </ConceptGrid>

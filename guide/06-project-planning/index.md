@@ -46,7 +46,7 @@ The **Project Management Plan** is the master document that describes how the pr
 - Schedule Baseline (Approved schedule model)
 - Cost Baseline (Time-phased budget for EVM)
 
-**Supporting Documents:**
+<strong>Supporting Documents:</strong>
 - Requirements documentation, RTM, activity lists, resource calendars, cost estimates, assumptions log, and more
 
 ::: tip  Exam Reality Check

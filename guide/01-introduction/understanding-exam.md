@@ -93,7 +93,7 @@ Forget simple multiple-choice. The 2026 exam uses **Interactive Simulations**:
 ### Scenario Sets (Mini Case Studies)
 Some questions come in sets of 3-5 questions tied to a single project scenario. The scenario appears on the left, and questions appear on the right.
 
-**Example Scenario:**
+<strong>Example Scenario:</strong>
 > *"Sarah is managing a hybrid software deployment project. The team uses 2-week sprints for development but follows a predictive approach for hardware installation. Three weeks before go-live, the vendor announces a 4-week delay in server delivery..."*
 
 Questions then test different aspects:
@@ -103,7 +103,7 @@ Questions then test different aspects:
 
 ### Sample Question Formats
 
-**Standard Multiple Choice:**
+<strong>Standard Multiple Choice:</strong>
 > A project manager discovers the project is 15% over budget at the 50% completion point. The CPI is 0.87. What should the project manager do FIRST?
 >
 > <br>

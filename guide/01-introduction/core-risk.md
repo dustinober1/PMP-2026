@@ -109,7 +109,7 @@ Effective risk management starts with comprehensive identification.
 ### Qualitative Analysis
 Fast, subjective assessment using probability and impact scales.
 
-**Probability Scale:**
+<strong>Probability Scale:</strong>
 | Level | Probability | Description |
 |-------|-------------|-------------|
 | Very Low | <10% | Unlikely to occur |
@@ -118,7 +118,7 @@ Fast, subjective assessment using probability and impact scales.
 | High | 50-70% | More likely than not |
 | Very High | >70% | Almost certain |
 
-**Impact Scale:**
+<strong>Impact Scale:</strong>
 | Level | Cost Impact | Schedule Impact | Description |
 |-------|-------------|-----------------|-------------|
 | Very Low | <1% | <1 week | Negligible |
@@ -137,7 +137,7 @@ Fast, subjective assessment using probability and impact scales.
 | **Low Probability** | Very Low | Low | Low | Medium | Medium |
 | **Very Low Probability** | Very Low | Very Low | Low | Low | Medium |
 
-**Action by Priority:**
+<strong>Action by Priority:</strong>
 - **Very High (Red)**: Immediate mitigation required
 - **High (Orange)**: Active management and response plan
 - **Medium (Yellow)**: Monitor closely; contingency plan
@@ -164,13 +164,13 @@ EMV is used in **decision trees** to compare options. Choose the path with the b
 #### Monte Carlo Simulation
 A computer-based technique that runs thousands of simulations to model possible outcomes.
 
-**How It Works:**
+<strong>How It Works:</strong>
 1. Define probability distributions for uncertain variables (duration, cost)
 2. Run 1,000-10,000+ simulations with random sampling
 3. Analyze the distribution of results
 4. Determine confidence levels (e.g., 80% confidence of finishing by X date)
 
-**Key Outputs:**
+<strong>Key Outputs:</strong>
 - **S-Curve**: Cumulative probability of completing by a given date/cost
 - **Tornado Diagram**: Shows which variables have the most impact
 - **Confidence Levels**: "There is an 85% probability of completing by June 30"
@@ -190,19 +190,19 @@ You won't perform Monte Carlo calculations, but you should understand:
 
 <ConceptGrid>
   <ConceptCard title="Avoid">
-    **Action:** Eliminate the risk entirely.<br>
+    <strong>Action:</strong> Eliminate the risk entirely.<br>
     <em>Example: Use proven technology instead of new.</em>
   </ConceptCard>
   <ConceptCard title="Mitigate">
-    **Action:** Reduce probability and/or impact.<br>
+    <strong>Action:</strong> Reduce probability and/or impact.<br>
     <em>Example: Extra testing, backup servers.</em>
   </ConceptCard>
   <ConceptCard title="Transfer">
-    **Action:** Shift risk to third party.<br>
+    <strong>Action:</strong> Shift risk to third party.<br>
     <em>Example: Insurance, warranties.</em>
   </ConceptCard>
   <ConceptCard title="Accept">
-    **Action:** Acknowledge it.<br>
+    <strong>Action:</strong> Acknowledge it.<br>
     <em>Example: Reserve budget (Active) or just document it (Passive).</em>
   </ConceptCard>
 </ConceptGrid>
@@ -211,19 +211,19 @@ You won't perform Monte Carlo calculations, but you should understand:
 
 <ConceptGrid>
   <ConceptCard title="Exploit">
-    **Action:** Ensure the opportunity happens (100% probability).<br>
+    <strong>Action:</strong> Ensure the opportunity happens (100% probability).<br>
     <em>Example: Assign best resources.</em>
   </ConceptCard>
   <ConceptCard title="Enhance">
-    **Action:** Increase probability and/or impact.<br>
+    <strong>Action:</strong> Increase probability and/or impact.<br>
     <em>Example: Early preparation.</em>
   </ConceptCard>
   <ConceptCard title="Share">
-    **Action:** Partner with others to capture benefit.<br>
+    <strong>Action:</strong> Partner with others to capture benefit.<br>
     <em>Example: Joint ventures.</em>
   </ConceptCard>
   <ConceptCard title="Accept">
-    **Action:** Take the benefit if it comes.<br>
+    <strong>Action:</strong> Take the benefit if it comes.<br>
     <em>Example: No proactive action.</em>
   </ConceptCard>
 </ConceptGrid>

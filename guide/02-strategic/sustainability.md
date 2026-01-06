@@ -126,7 +126,7 @@ Track greenhouse gas (GHG) emissions across three scopes:
 
 A formal document that integrates sustainability into project planning:
 
-**Key Components:**
+<strong>Key Components:</strong>
 - Sustainability objectives and targets
 - P5 impact assessment results
 - Mitigation strategies for negative impacts

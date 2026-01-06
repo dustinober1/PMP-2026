@@ -370,7 +370,7 @@ Track stakeholder engagement levels and compare current vs. desired.
 | Legal Team | Compliance | Resistant | Neutral | +1 | Address contract concerns |
 | End Users | Customer | Unaware | Supportive | +2 | Launch awareness campaign + demos |
 
-**Engagement Levels:** Unaware → Resistant → Neutral → Supportive → Leading
+<strong>Engagement Levels:</strong> Unaware → Resistant → Neutral → Supportive → Leading
 
 ---
 
@@ -593,7 +593,7 @@ Use this quick assessment to determine if the project is ready for formal closur
 | **Regulatory Requirements Met** |  Yes /  No /  N/A | |
 | **Benefits Ownership Transferred** |  Yes /  No | |
 
-**Readiness Score:** ___ / 10
+<strong>Readiness Score:</strong> ___ / 10
 
 | Score | Recommendation |
 |---|---|

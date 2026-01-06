@@ -188,7 +188,7 @@ Use these prompts across all process groups. Customize the `[PLACEHOLDERS]` for 
 
 ### Initiation Prompts
 
-**Business Case Outline:**
+<strong>Business Case Outline:</strong>
 ```text
 Role: Act as a PMP-certified PM with business analysis experience.
 Task: Create a Business Case outline for [PROJECT TYPE] project.
@@ -196,7 +196,7 @@ Include: Problem statement, proposed solution, benefits (quantified), costs (est
 Constraints: Do not invent financial figures; use [BUDGET RANGE] as placeholder. Flag assumptions.
 ```
 
-**Stakeholder Identification:**
+<strong>Stakeholder Identification:</strong>
 ```text
 Role: Act as a stakeholder management expert.
 Task: Based on this project description, identify potential stakeholders.
@@ -207,7 +207,7 @@ Constraints: Organize by internal vs external. Flag any gaps in the org structur
 
 ### Planning Prompts
 
-**WBS Generation:**
+<strong>WBS Generation:</strong>
 ```text
 Role: Act as a senior project planner.
 Task: Create a 3-level WBS for this scope statement.
@@ -226,7 +226,7 @@ Separate into: 10 threats, 5 opportunities.
 Input: [PASTE PROJECT SUMMARY]
 ```
 
-**Communication Plan Draft:**
+<strong>Communication Plan Draft:</strong>
 ```text
 Role: Act as a communications specialist.
 Task: Draft a communication plan for this project.
@@ -237,7 +237,7 @@ Input: [PASTE STAKEHOLDER LIST]
 
 ### Execution Prompts
 
-**Meeting Minutes:**
+<strong>Meeting Minutes:</strong>
 ```text
 Role: Act as a project coordinator.
 Task: Convert this meeting transcript into structured minutes.
@@ -256,7 +256,7 @@ Constraints: Keep to 10 bullets max. Explain any RED or YELLOW items.
 Inputs: SV=[VALUE], CV=[VALUE], Milestones=[PASTE], Issues=[PASTE]
 ```
 
-**Stakeholder Update Email:**
+<strong>Stakeholder Update Email:</strong>
 ```text
 Role: Act as a project manager with excellent stakeholder communication skills.
 Task: Draft an email update for [STAKEHOLDER ROLE] summarizing project progress.
@@ -267,7 +267,7 @@ Constraints: Keep under 200 words. Do not use jargon.
 
 ### Monitoring & Controlling Prompts
 
-**Variance Analysis:**
+<strong>Variance Analysis:</strong>
 ```text
 Role: Act as an EVM analyst.
 Task: Analyze these project metrics and explain the variances.
@@ -276,7 +276,7 @@ Calculate: SV, CV, SPI, CPI, EAC (using current performance), TCPI.
 Explain: What do these numbers mean? What action should the PM take?
 ```
 
-**Root Cause Analysis:**
+<strong>Root Cause Analysis:</strong>
 ```text
 Role: Act as a quality management consultant.
 Task: Perform a root cause analysis for this problem using the 5 Whys technique.
@@ -286,7 +286,7 @@ Show: Each "Why" question and answer. Identify the root cause. Propose correctiv
 
 ### Closing Prompts
 
-**Lessons Learned Clustering:**
+<strong>Lessons Learned Clustering:</strong>
 ```text
 Role: Act as a knowledge management specialist.
 Task: Cluster these retrospective comments into 5 key themes.
@@ -294,7 +294,7 @@ For each theme: Summarize the insight, categorize as "Do Again" / "Avoid" / "Imp
 Input: [PASTE RETRO NOTES]
 ```
 
-**Final Report Draft:**
+<strong>Final Report Draft:</strong>
 ```text
 Role: Act as a project closure specialist.
 Task: Draft an executive summary for the project final report.
@@ -325,7 +325,7 @@ Net AI Value = (Time Saved per Use × Uses per Month × Hourly Cost) - (AI Tool 
 | HITL review time per use | 15 min | Quick review and edit |
 | HITL reviews per month | 8 | Same as uses |
 
-**Calculation:**
+<strong>Calculation:</strong>
 ```
 Gross savings = 1.5 hours × 8 uses × $75 = $900/month
 HITL overhead = 0.25 hours × 8 uses × $75 = $150/month

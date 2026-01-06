@@ -145,7 +145,7 @@ Even experienced PMs fall victim to these traps:
 
 ## Practical Worked Example: Temperature & Creativity
 
-**Scenario:** You're using AI to draft meeting minutes vs. brainstorm new ideas.
+<strong>Scenario:</strong> You're using AI to draft meeting minutes vs. brainstorm new ideas.
 
 - **Meeting Minutes** (Low creativity): Temperature = 0.2 (consistent, factual)
   - Output: "Jane reported the database migration completed on Friday at 3 PM."
@@ -186,7 +186,7 @@ Every AI model has a **context window**—the maximum amount of text it can "see
 | Gemini 1.5 Pro | ~1,000,000 tokens (~750K words) | Multi-year project archives in a single context |
 | Smaller/Free Models | ~4,000-32,000 tokens | Only 1-5 pages; requires chunking large documents |
 
-**Practical Implications:**
+<strong>Practical Implications:</strong>
 - **Long documents**: Break into logical sections if exceeding limits; process sequentially
 - **Conversation memory**: Earlier parts of a long conversation may be "forgotten" (dropped from context)
 - **Quality degrades at edges**: Models perform best on content in the middle of the context; put critical instructions at the beginning AND end
@@ -269,7 +269,7 @@ Rules:
 
 ## Complete Worked Example: Risk Brainstorm Prompt
 
-**Scenario:** You're leading a new software implementation project and need to identify risks quickly.
+<strong>Scenario:</strong> You're leading a new software implementation project and need to identify risks quickly.
 
 ### The Prompt (Copy/Paste Ready)
 
@@ -304,7 +304,7 @@ Output format: Markdown table with columns: Risk ID | Category | Risk Statement 
 | RSK-002 | Threat | Because union agreements restrict weekend work, deployment windows are limited, resulting in extended cutover period | H | M | Accept: Plan deployment in contractual windows |
 | OPP-001 | Opportunity | Because cloud vendor offers training credits, we may reduce training costs, resulting in 10-15% budget savings | M | M | Exploit: Claim credits in first 90 days |
 
-**Assumptions flagged by AI:**
+<strong>Assumptions flagged by AI:</strong>
 - Assumed standard manufacturing shift patterns (not 24/7)
 - Assumed no pending labor negotiations
 - Assumed legacy systems are documented

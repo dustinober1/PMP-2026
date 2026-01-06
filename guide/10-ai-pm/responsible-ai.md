@@ -43,7 +43,7 @@ Your ethical obligations don't change just because the tool is new. Here is how 
 ## Data Privacy: What You Must Protect
 On the PMP exam, if a scenario includes **client confidentiality**, **PII**, or **unapproved tools**, the correct answer focuses on **policy + protection + escalation (if needed)**.
 
-**Examples of data you should treat as sensitive unless explicitly approved:**
+<strong>Examples of data you should treat as sensitive unless explicitly approved:</strong>
 *   Personally Identifiable Information (PII): names, emails, phone numbers, IDs, addresses
 *   Credentials: passwords, API keys, access tokens
 *   Financials: pricing details, account numbers, forecasts, internal budgets
@@ -116,9 +116,9 @@ Compliance is part of PMP scope management. AI decisions in regulated domains ha
 
 ## Practical Compliance Scenario: Healthcare Project
 
-**Scenario:** Your healthcare project uses AI to optimize nursing schedules. You want to minimize burnout predictions.
+<strong>Scenario:</strong> Your healthcare project uses AI to optimize nursing schedules. You want to minimize burnout predictions.
 
-**Compliance Risks:**
+<strong>Compliance Risks:</strong>
 - AI might use historical bias (e.g., assigning more shifts to certain demographics)
 - Patient data (PHI) touches the AI system
 - Nurses have a right to understand why their shift was assigned
@@ -247,7 +247,7 @@ If a scenario mentions "AI used for hiring decisions" or "loan approval," the co
 
 ## Worked Example: Bias Investigation Scenario
 
-**Scenario:** Your project uses AI to rank candidates for a technical training program. After 3 months, stakeholders notice that female candidates are selected at half the rate of male candidates.
+<strong>Scenario:</strong> Your project uses AI to rank candidates for a technical training program. After 3 months, stakeholders notice that female candidates are selected at half the rate of male candidates.
 
 ### Step 1: Contain (Don't Panic, Don't Delete)
 - Pause the AI ranking system immediately

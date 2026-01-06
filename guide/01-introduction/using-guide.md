@@ -247,7 +247,7 @@ Use them to:
 - Test your ability to apply concepts under time pressure
 - Identify weak spots by domain and topic
 
-**Good habits:**
+<strong>Good habits:</strong>
 - Always review explanations, even for questions you answered correctly.
 - Keep a “mistake log” where you note:
   - What the question was testing
@@ -265,7 +265,7 @@ As you read, pause and ask: “When have I seen this in real life?” Bridging y
 
 Regardless of which study path you follow, a simple, repeatable weekly rhythm works well.
 
-**Sample Weekly Pattern:**
+<strong>Sample Weekly Pattern:</strong>
 - **2–3 Reading Sessions (30–60 mins):** Read one section, take notes.
 - **2 Practice Sessions (30–45 mins):** Do end-of-chapter questions.
 - **1 Review Session (30–45 mins):** Update your tracker, review mistake log.

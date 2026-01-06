@@ -60,7 +60,7 @@ Here is how you apply AI tools practically across the 5 process groups:
 Use these as “starter prompts” and tailor them to your environment and templates.
 
 ### Initiation: Charter + Stakeholders
-**Best uses:** drafting the charter outline, clarifying objectives, and building an initial stakeholder list.
+<strong>Best uses:</strong> drafting the charter outline, clarifying objectives, and building an initial stakeholder list.
 
 ```text
 Role: Act as a PMP-certified PM.
@@ -71,7 +71,7 @@ Input: [PASTE SANITIZED NOTES]
 ```
 
 ### Planning: WBS + Risk Register + Comms Plan
-**Best uses:** breaking down work, identifying risks, and tailoring communications.
+<strong>Best uses:</strong> breaking down work, identifying risks, and tailoring communications.
 
 ```text
 Task: Propose a WBS (3 levels) and a milestone schedule for a [predictive/agile/hybrid] project.
@@ -86,7 +86,7 @@ Input: Project context (sanitized): [PASTE]
 ```
 
 ### Execution: Meetings + Stakeholder Communication
-**Best uses:** turning messy conversations into actions and clear updates.
+<strong>Best uses:</strong> turning messy conversations into actions and clear updates.
 
 ```text
 Task: Convert this transcript into meeting minutes with: decisions, action items (owner + due date), risks/issues, and open questions.
@@ -95,7 +95,7 @@ Input: [PASTE SANITIZED TRANSCRIPT]
 ```
 
 ### Monitoring & Controlling: Status + Forecasting
-**Best uses:** variance explanations, trend summaries, and leadership-ready status.
+<strong>Best uses:</strong> variance explanations, trend summaries, and leadership-ready status.
 
 ```text
 Task: Draft an executive weekly status report (RAG status + top 3 risks + key decisions needed).
@@ -115,7 +115,7 @@ The AI calculates the **EAC** (Estimate at Completion). The PM decides if the **
 :::
 
 ### Closing: Lessons Learned + Final Report
-**Best uses:** clustering feedback into themes and producing closure artifacts.
+<strong>Best uses:</strong> clustering feedback into themes and producing closure artifacts.
 
 ```text
 Task: Cluster these retrospective notes into 5 themes and propose “do/avoid/continue” recommendations.
@@ -300,12 +300,12 @@ Hybrid methodologies combine predictive and agile elements. AI must be applied c
 
 ### Worked Example: Hybrid ERP Implementation
 
-**Project Structure:**
+<strong>Project Structure:</strong>
 - Phase 1 (Predictive): Requirements, vendor selection, contract
 - Phase 2 (Agile): Configuration sprints, customization
 - Phase 3 (Predictive): UAT, deployment, training, cutover
 
-**AI Application by Phase:**
+<strong>AI Application by Phase:</strong>
 
 | Phase | AI Tool | Governance |
 |---|---|---|
@@ -337,7 +337,7 @@ Monte Carlo simulation runs thousands of scenarios to predict project outcomes. 
 
 ### Practical Example: Schedule Risk Analysis
 
-**Scenario:** You have a 6-month project with 50 tasks. Need to determine probability of on-time delivery.
+<strong>Scenario:</strong> You have a 6-month project with 50 tasks. Need to determine probability of on-time delivery.
 
 **AI-Assisted Process:**
 1. **Prompt AI**: "Extract duration estimates from attached project plan. For each task, suggest optimistic and pessimistic ranges based on historical variance patterns."
@@ -345,7 +345,7 @@ Monte Carlo simulation runs thousands of scenarios to predict project outcomes. 
 3. **Run Simulation**: Use PM tool (Monte Carlo feature) or specialized software
 4. **AI Interpretation Prompt**: "Explain these Monte Carlo results to my sponsor. Focus on: probability of meeting deadline, top 5 risk-driving tasks, recommendation."
 
-**AI Interpretation Output Example:**
+<strong>AI Interpretation Output Example:</strong>
 > "Based on 10,000 simulations, there is a **62% probability** of completing by the target date. The **top risk drivers** are: (1) Integration Testing (high variance), (2) Vendor Delivery (external dependency), (3) UAT (scope uncertainty). **Recommendation**: Add 2-week buffer to integration; confirm vendor SLA in writing; freeze scope for UAT phase."
 
 ::: tip Exam Insight
@@ -376,7 +376,7 @@ AI can analyze project communications to detect early signs of scope creep befor
 
 ### Practical Implementation
 
-**AI Prompt for Scope Scan:**
+<strong>AI Prompt for Scope Scan:</strong>
 ```text
 Role: Act as a scope management analyst.
 Task: Scan these meeting notes for scope creep indicators.
@@ -384,7 +384,7 @@ Flag any phrases suggesting: (1) new features not in approved scope, (2) changed
 Output: Table with quote, page reference, risk level (L/M/H), and recommended action.
 ```
 
-**Sample AI Output:**
+<strong>Sample AI Output:</strong>
 
 | Quote | Source | Risk | Recommended Action |
 |---|---|---|---|
@@ -410,7 +410,7 @@ AI accelerates procurement processes while maintaining governance.
 
 ### Worked Example: AI-Assisted Vendor Selection
 
-**Scenario:** 5 vendors responded to your RFP. Need to shortlist to 3 for demos.
+<strong>Scenario:</strong> 5 vendors responded to your RFP. Need to shortlist to 3 for demos.
 
 **Step 1: AI Extraction**
 ```text

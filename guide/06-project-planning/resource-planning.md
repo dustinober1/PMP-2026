@@ -433,7 +433,7 @@ If one vendor asks a question privately after the bidder conference, you **must 
 
 ### FPIF Calculation Example
 
-**Contract Terms:**
+<strong>Contract Terms:</strong>
 - Target Cost: $100,000
 - Target Fee: $10,000
 - Share Ratio: 80/20 (Buyer/Seller)
@@ -466,7 +466,7 @@ Seller absorbs additional costs beyond ceiling
 
 The cost at which the seller assumes all remaining cost risk.
 
-**Formula:**
+<strong>Formula:</strong>
 ```
 PTA = Target Cost + [(Ceiling Price - Target Price) / Buyer Share Ratio]
 ```

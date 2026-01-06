@@ -120,7 +120,7 @@ The Critical Path Method identifies the longest path through the network—the m
 
 ### Step-by-Step CPM Example
 
-**Given Network:**
+<strong>Given Network:</strong>
 ```
 Start → A(3d) → B(4d) → E(2d) → End
           ↓
@@ -169,14 +169,14 @@ Starting from the end, work backward:
 
 ### CPM Practice Problem
 
-**Network:**
+<strong>Network:</strong>
 ```
 Start → X(4d) → Y(6d) → End
           ↓
         Z(8d) 
 ```
 
-**Calculate:**
+<strong>Calculate:</strong>
 1. Early/Late dates for each activity
 2. Total float for each activity
 3. Critical path
@@ -185,19 +185,19 @@ Start → X(4d) → Y(6d) → End
 <details>
 <summary>Click to reveal solution</summary>
 
-**Forward Pass:**
+<strong>Forward Pass:</strong>
 - X: ES=0, EF=4
 - Y: ES=4, EF=10
 - Z: ES=4, EF=12
 
-**Merge at End:** Project duration = max(10, 12) = 12 days
+<strong>Merge at End:</strong> Project duration = max(10, 12) = 12 days
 
-**Backward Pass:**
+<strong>Backward Pass:</strong>
 - Y: LF=12, LS=6
 - Z: LF=12, LS=4
 - X: LF=min(6, 4)=4, LS=0
 
-**Float:**
+<strong>Float:</strong>
 - X: LS-ES = 0-0 = **0** (Critical)
 - Y: LS-ES = 6-4 = 2 (Has float)
 - Z: LS-ES = 4-4 = **0** (Critical)
@@ -273,7 +273,7 @@ Where:
 
 This measures the uncertainty/risk in the estimate.
 
-**Variance:**
+<strong>Variance:</strong>
 ```
 Variance = σ² = [(P − O) / 6]²
 ```
@@ -285,19 +285,19 @@ Variance = σ² = [(P − O) / 6]²
 - Most Likely: 8 days (realistic estimate)
 - Pessimistic: 17 days (major compatibility issues discovered)
 
-**Calculate Expected Duration:**
+<strong>Calculate Expected Duration:</strong>
 ```
 tₑ = (5 + 4×8 + 17) / 6
 tₑ = (5 + 32 + 17) / 6
 tₑ = 54 / 6 = 9 days
 ```
 
-**Calculate Standard Deviation:**
+<strong>Calculate Standard Deviation:</strong>
 ```
 σ = (17 − 5) / 6 = 12 / 6 = 2 days
 ```
 
-**Interpretation:**
+<strong>Interpretation:</strong>
 - Use **9 days** for schedule planning
 - There's approximately **68% confidence** the task will finish between 7-11 days (±1σ)
 - There's approximately **95% confidence** it will finish between 5-13 days (±2σ)
@@ -307,12 +307,12 @@ tₑ = 54 / 6 = 9 days
 
 When calculating uncertainty for the entire critical path:
 
-**Project Standard Deviation:**
+<strong>Project Standard Deviation:</strong>
 ```
 σ_project = √(σ₁² + σ₂² + σ₃² + ... + σₙ²)
 ```
 
-**Example:** Critical path has 4 activities with σ = 1, 2, 1.5, 2.5 days
+<strong>Example:</strong> Critical path has 4 activities with σ = 1, 2, 1.5, 2.5 days
 
 ```
 σ_project = √(1² + 2² + 1.5² + 2.5²)
@@ -339,7 +339,7 @@ Planning is an iterative process. You don't need to plan the entire project in d
 | **Medium-term (1-3 months)** | Moderate detail | Work packages, estimated activities |
 | **Long-term (3+ months)** | Low detail | Planning packages (placeholders) |
 
-**Example:**
+<strong>Example:</strong>
 - **Sprint 1-2**: Activities decomposed to individual tasks (8-16 hour estimates)
 - **Sprint 3-4**: Planned as work packages (40-80 hour estimates)
 - **Sprint 5-6**: Planned as planning packages (high-level epics, not yet decomposed)
@@ -391,12 +391,12 @@ In agile, time is often fixed and scope flexes:
 
 **Velocity** = Story points completed per sprint
 
-**Forecasting Releases:**
+<strong>Forecasting Releases:</strong>
 ```
 Sprints Required = Backlog Story Points / Average Velocity
 ```
 
-**Example:**
+<strong>Example:</strong>
 - Backlog: 120 story points
 - Average Velocity: 20 points/sprint
 - Sprints Needed: 120 / 20 = 6 sprints
@@ -441,7 +441,7 @@ When you are behind, you have two primary levers:
 4. Recalculate critical path after each crash
 5. Stop when target date achieved or no more crashing possible
 
-**Example Cost Slope Calculation:**
+<strong>Example Cost Slope Calculation:</strong>
 
 | Activity | Normal | Crash | Cost Slope |
 |:---------|:-------|:------|:-----------|

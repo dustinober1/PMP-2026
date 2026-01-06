@@ -792,20 +792,20 @@ With the shift toward distributed and hybrid work, the 2026 PMP exam emphasizes 
 
 ### Virtual Team Best Practices
 
-**Communication Cadence:**
+<strong>Communication Cadence:</strong>
 - **Daily standup** (video on): 15 minutes, same time daily; rotate time zones periodically
 - **Weekly sync**: 30-60 minutes; review progress, blockers, priorities
 - **1-on-1s**: 15-30 minutes per team member weekly or bi-weekly
 - **Async updates**: Use shared boards (Kanban, Jira) for continuous visibility
 
-**Building Trust Remotely:**
+<strong>Building Trust Remotely:</strong>
 - **Start meetings with personal check-ins**: "How is everyone doing?" (not just project status)
 - **Create virtual "water cooler" spaces**: Slack channels, virtual coffee chats
 - **Celebrate wins publicly**: Recognize contributions in team forums
 - **Be transparent**: Share decisions, context, and challenges openly
 - **Default to video**: Seeing faces builds connection faster than voice-only
 
-**Virtual Meeting Best Practices:**
+<strong>Virtual Meeting Best Practices:</strong>
 - **Have an agenda**: Share in advance; stick to time
 - **Use visual collaboration tools**: Miro, Mural, shared documents
 - **Engage everyone**: Call on quieter team members; use polls and reactions

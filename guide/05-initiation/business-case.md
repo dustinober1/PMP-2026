@@ -188,7 +188,7 @@ If Project A has a 2-year payback and $10k NPV, but Project B has a 4-year payba
 
 NPV determines the present value of all future cash flows minus the initial investment.
 
-**Formula:**
+<strong>Formula:</strong>
 `NPV = Σ [CF_t / (1 + r)^t] - Initial Investment`
 
 ### Internal Rate of Return (IRR)

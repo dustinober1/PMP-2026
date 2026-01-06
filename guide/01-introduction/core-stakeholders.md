@@ -127,7 +127,7 @@ If Sarah does not actively manage these expectations, she ends up disappointing 
 
 Exam questions test stakeholder engagement by presenting conflict or misalignment.
 
-**Good answers typically involve:**
+<strong>Good answers typically involve:</strong>
 - Engaging the stakeholder directly to understand their concern
 - Identifying the root cause of the issue
 - Facilitating a discussion with all affected stakeholders

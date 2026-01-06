@@ -157,7 +157,7 @@ Qualitative analysis **prioritizes risks** quickly using probability and impact 
 
 Define probability and impact scales:
 
-**Probability Scale:**
+<strong>Probability Scale:</strong>
 | Rating | Value | Description |
 |:-------|:------|:------------|
 | Very High | 0.90 | >90% certain to occur |
@@ -225,7 +225,7 @@ Quantitative analysis assigns **numerical values** to prioritized risks. Used fo
 
 Used in decision tree analysis and calculating contingency reserves.
 
-**Example:**
+<strong>Example:</strong>
 | Risk | Probability | Cost Impact | EMV |
 |:-----|:------------|:------------|:----|
 | Vendor delay | 30% | $100,000 | $30,000 |
@@ -264,7 +264,7 @@ Decision: Buy (EMV = $100k) > Build (EMV = $90k)
 
 Identifies which risks have the greatest impact on project outcomes.
 
-**Tornado Diagram:**
+<strong>Tornado Diagram:</strong>
 ```
                     Project Cost Variance
                     -$100k        0      +$100k
@@ -284,7 +284,7 @@ Exchange Rate       ████
 
 Runs thousands of project simulations to generate probability distributions.
 
-**Output Example:**
+<strong>Output Example:</strong>
 ```
 Probability of Completion
 
@@ -362,17 +362,17 @@ P90 (90% confidence): $1,050,000
 
 ### Calculating Contingency Reserve
 
-**Using EMV:**
+<strong>Using EMV:</strong>
 ```
 Sum of (Probability × Impact) for all identified risks
 ```
 
-**Using Monte Carlo:**
+<strong>Using Monte Carlo:</strong>
 ```
 Difference between P50 and desired confidence level (e.g., P80)
 ```
 
-**Example:**
+<strong>Example:</strong>
 - P50 project cost: $1,000,000
 - P80 project cost: $1,100,000
 - Contingency reserve (80% confidence): $100,000

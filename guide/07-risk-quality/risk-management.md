@@ -119,7 +119,7 @@ Use multiple techniques because each has bias.
 ### Risk Breakdown Structure (RBS) (Categorization Framework)
 The RBS organizes risks by category to ensure complete coverage and identify patterns.
 
-**Example RBS for a Software Project:**
+<strong>Example RBS for a Software Project:</strong>
 ```
 Project Risks
 ├─ Technical

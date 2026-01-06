@@ -111,7 +111,7 @@ Typical handoff components:
 
 The **Business Case** promised benefits (e.g., "reduce support costs by 20%" or "increase customer satisfaction by 15%"). Your job at closure is to **transfer measurement responsibility**, not to prove benefits were achieved (that's post-project).
 
-**Key Questions at Closure:**
+<strong>Key Questions at Closure:</strong>
 1. Who owns benefits measurement after the project closes? (Typically Operations, Product Management, Finance)
 2. What metrics prove the benefit was achieved? (KPIs defined in the Business Case)
 3. When will benefits be measured? (Often 3, 6, or 12 months post-go-live)
@@ -128,7 +128,7 @@ Data source: Finance system (cost tracking)
 Responsibility transfer: From PM to Ops Director on 2026-02-15
 ```
 
-**On the Exam:**
+<strong>On the Exam:</strong>
 If a question asks "What should you do at closure?" and the answer involves "track benefits," make sure the **ownership is transferred** to someone else. The PM's role in benefits is to hand it off; the organization's role is to measure it post-closure.
 
 ::: info Exam Pattern
@@ -153,13 +153,13 @@ If a scenario mentions a **claim/dispute**, you generally **cannot** close the p
 
 A **claim** is a seller's assertion for payment or relief that may be contractual or legal.
 
-**Common Claim Scenarios:**
+<strong>Common Claim Scenarios:</strong>
 - Vendor requests payment for work outside the original scope
 - Vendor claims change orders should be backcharged due to delays caused by buyer
 - Vendor seeks compensation for early termination
 - Buyer refuses payment due to non-conformance with acceptance criteria
 
-**Procurement Closure Protocol for Claims:**
+<strong>Procurement Closure Protocol for Claims:</strong>
 
 | Step | Action | Exam mindset |
 |---|---|---|
@@ -170,13 +170,13 @@ A **claim** is a seller's assertion for payment or relief that may be contractua
 | **5. Formal settlement** | Obtain signed settlement agreement if compromising | Closes legal/financial exposure |
 | **6. Close procurement** | Update procurement records and financial system | Project cannot be closed until this is done |
 
-**If Claim Cannot Be Resolved Before Project Closure:**
+<strong>If Claim Cannot Be Resolved Before Project Closure:</strong>
 - **Formally transfer claim responsibility** to a post-project legal/finance team (document who owns it)
 - **Document the claim fully** in project records and procurement archive
 - **Note in the final project report** that a claim is outstanding and who is managing it
 - **Close project administratively** but flag that financial settlement may change final costs
 
-**Exam Pattern:**
+<strong>Exam Pattern:</strong>
 - If the scenario says "claim is unresolved," look for answers that involve **deferring closure** or **formally transferring responsibility**
 - "Pay to avoid delay" is a red flag answer (avoids governance and may set bad precedent)
 
@@ -291,21 +291,21 @@ Effective knowledge transfer prevents "brain drain" when the project team disban
 
 ### Documentation Completeness Checklist
 
-**Technical Documentation:**
+<strong>Technical Documentation:</strong>
 - [ ] Architecture diagrams (current state)
 - [ ] API documentation and integration guides
 - [ ] Database schema and data dictionary
 - [ ] Configuration management (environments, secrets)
 - [ ] Deployment procedures and rollback plans
 
-**Operational Documentation:**
+<strong>Operational Documentation:</strong>
 - [ ] Runbooks for common procedures
 - [ ] Monitoring and alerting configuration
 - [ ] Incident response procedures
 - [ ] SLA definitions and escalation paths
 - [ ] Backup and recovery procedures
 
-**Business Documentation:**
+<strong>Business Documentation:</strong>
 - [ ] User guides and training materials
 - [ ] FAQ and known issues
 - [ ] Enhancement requests (deferred backlog)
@@ -336,14 +336,14 @@ The **lessons learned register** should be a living document throughout the proj
 
 ####  Effective Lessons Learned Session (Checklist)
 
-**Before the Session:**
+<strong>Before the Session:</strong>
 - [ ] Schedule it **while memory is fresh** (within 1-2 weeks of closure)
 - [ ] Invite the **core team + key stakeholders** (not just executives)
 - [ ] Create a **safe, blameless environment** (this is not a performance review)
 - [ ] Provide the project charter, baselines, and final metrics for reference
 - [ ] Set **60-90 minutes** with clear agenda
 
-**During the Session:**
+<strong>During the Session:</strong>
 1. **Frame the objectives** (Why are we doing this? What do we want to learn?)
 2. **Review what we planned vs. what we delivered** (scope, schedule, cost, quality)
 3. **Discuss what went well** (repeatable practices)
@@ -358,20 +358,20 @@ The **lessons learned register** should be a living document throughout the proj
 6. **Capture actionable recommendations** (Who will do what by when?)
    - Example: "Update requirements template to include mandatory AC section" (Owner: PMO Lead, Due: 2026-03-01)
 
-**Output Template:**
+<strong>Output Template:</strong>
 | Topic | Lesson | Recommendation | Owner | Due date | Status |
 |---|---|---|---|---|---|
 | Scope | Acceptance criteria were often unclear until coding started | Require written AC for ALL stories during backlog refinement | Product Owner | 2026-02-15 | Pending |
 | Schedule | UAT started 2 weeks late due to dev delays that were not communicated early | Implement daily standup metrics (blockers, risks) and escalate >3-day slips immediately | Delivery Lead | 2026-02-20 | Pending |
 | Quality | 8 defects escaped to UAT; root cause was insufficient peer review | Require peer review for all code; add code review checklist | Dev Lead | 2026-02-15 | Pending |
 
-**After the Session:**
+<strong>After the Session:</strong>
 - [ ] Circulate lessons learned register to team for feedback/validation
 - [ ] Store in **OPA library** with metadata (project, date, category) for future searches
 - [ ] Assign owners and create calendar reminders for follow-up actions
 - [ ] Reference lessons learned in closing report as "continuous improvement commitment"
 
-**On the Exam:**
+<strong>On the Exam:</strong>
 Questions about lessons learned often ask: "What is the OUTPUT of a lessons learned session?" Answer: **Organizational Process Assets (OPAs)** that can be used by future projects. This is why it's stored in the organizational library, not kept private to the team.
 
 ---
@@ -380,7 +380,7 @@ Questions about lessons learned often ask: "What is the OUTPUT of a lessons lear
 
 If a project is canceled mid-flight (e.g., strategy shift, budget cut, technical obsolescence), you do **not** just stop and walk away. You must perform **administrative closure**.
 
-**Steps for a Canceled Project:**
+<strong>Steps for a Canceled Project:</strong>
 1.  **Document the status**: Record the exact extent of work completed vs. incomplete.
 2.  **Document the reason**: Why was it canceled? (Valuable context for future strategy).
 3.  **Archive partial deliverables**: Don't delete code/designs; store them in the repository (they might be useful later).
@@ -410,7 +410,7 @@ If a project is canceled mid-flight (e.g., strategy shift, budget cut, technical
 - Lessons learned: "We chose a technology without long-term support commitments; future projects should verify vendor stability"
 - Example on exam: "What should you tell the sponsor?" → Present the business case for cancellation (cost of continuance vs. cost of cancellation)
 
-**Administrative Closure Checklist for Canceled Projects:**
+<strong>Administrative Closure Checklist for Canceled Projects:</strong>
 - [ ] Final project status report (% complete, budget spent vs. remaining, explanation of cancellation)
 - [ ] Vendor contract closeout (payment for work-to-date per contract; follow termination clauses)
 - [ ] Team release and transition to other projects (formal reassignment)
@@ -448,39 +448,39 @@ Different contract types create different closure considerations. The 2026 PMP e
 
 ### Fixed Price Closure
 
-**Key Considerations:**
+<strong>Key Considerations:</strong>
 - Verify all deliverables meet contract acceptance criteria
 - Final payment is the contract price (no cost verification needed)
 - Warranty period begins at acceptance
 - Retainage release per contract terms
 
-**Common Exam Scenario:**
+<strong>Common Exam Scenario:</strong>
 > "The vendor completed the work but spent 20% more than they estimated. They want additional payment."
 
-**Answer:** In FFP, the seller bears cost risk. The buyer pays the contract price only. Additional payment would require a contract change order for added scope.
+<strong>Answer:</strong> In FFP, the seller bears cost risk. The buyer pays the contract price only. Additional payment would require a contract change order for added scope.
 
 ### Time & Materials Closure
 
-**Key Considerations:**
+<strong>Key Considerations:</strong>
 - Verify labor hours against timesheets and burn rate
 - Verify materials and expenses against receipts
 - Compare against "not to exceed" (NTE) ceiling if applicable
 - Final invoice reconciliation before payment
 
-**Common Exam Scenario:**
+<strong>Common Exam Scenario:</strong>
 > "The T&M contractor submitted a final invoice that exceeds the project estimate."
 
-**Answer:** If within the NTE ceiling, the buyer pays actual costs. If exceeds NTE, the contract terms govern (usually buyer approval required for overages).
+<strong>Answer:</strong> If within the NTE ceiling, the buyer pays actual costs. If exceeds NTE, the contract terms govern (usually buyer approval required for overages).
 
 ### Cost-Reimbursable Closure (CPFF/CPIF/CPAF)
 
-**Key Considerations:**
+<strong>Key Considerations:</strong>
 - Audit all claimed costs for allowability
 - Calculate fee per contract formula
 - For CPIF: Calculate final incentive based on cost performance
 - For CPAF: Conduct performance evaluation for award fee
 
-**CPIF Fee Calculation Example:**
+<strong>CPIF Fee Calculation Example:</strong>
 
 ```
 Contract terms:

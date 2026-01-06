@@ -405,25 +405,25 @@ TCPI = (BAC − EV) / (EAC − AC)
 
 ### EVM Worked Example #1 (Basic)
 
-**Project Status at Month 6:**
+<strong>Project Status at Month 6:</strong>
 - **BAC**: $100,000 (total project budget)
 - **PV**: $50,000 (planned to be 50% complete by now)
 - **EV**: $40,000 (actually 40% complete)
 - **AC**: $45,000 (actually spent $45k)
 
-**Calculate Variances:**
+<strong>Calculate Variances:</strong>
 ```
 SV = EV − PV = $40,000 − $50,000 = −$10,000 (behind schedule)
 CV = EV − AC = $40,000 − $45,000 = −$5,000 (over budget)
 ```
 
-**Calculate Performance Indices:**
+<strong>Calculate Performance Indices:</strong>
 ```
 SPI = EV / PV = $40,000 / $50,000 = 0.80 (80% of planned progress)
 CPI = EV / AC = $40,000 / $45,000 = 0.89 (89 cents of value per dollar spent)
 ```
 
-**Forecast Completion:**
+<strong>Forecast Completion:</strong>
 ```
 EAC = BAC / CPI = $100,000 / 0.89 = $112,360
 ETC = EAC − AC = $112,360 − $45,000 = $67,360
@@ -437,7 +437,7 @@ TCPI = ($100,000 − $40,000) / ($100,000 − $45,000)
 TCPI = $60,000 / $55,000 = 1.09
 ```
 
-**Interpretation:**
+<strong>Interpretation:</strong>
 - Project is **behind schedule** (SPI = 0.80) and **over budget** (CPI = 0.89)
 - At current performance, expect to finish at **$112,360** (12% over budget)
 - To finish at the original $100k budget, efficiency must improve to **1.09** (9% better than current)
@@ -446,7 +446,7 @@ TCPI = $60,000 / $55,000 = 1.09
 
 ### EVM Worked Example #2 (Complex)
 
-**Project Data:**
+<strong>Project Data:</strong>
 - BAC: $500,000
 - PV: $200,000
 - EV: $180,000

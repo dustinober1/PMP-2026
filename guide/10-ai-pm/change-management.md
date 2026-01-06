@@ -24,52 +24,52 @@ People move through predictable stages when new tools arrive. Understanding wher
 Use this to defuse concerns when rolling out AI:
 
 ### 1. **"I'll lose my job"**
-**The fear:** AI will replace me.
+<strong>The fear:</strong> AI will replace me.
 
-**What to say:**
+<strong>What to say:</strong>
 > "AI removes the repetitive stuff—status report formatting, meeting summarization, data entry. What we value you for is judgment, client relationships, and problem-solving. We're asking you to *upgrade* your role, not disappear. The last 2 PMs who used this tool have more time for strategy, not less."
 
-**Proof:** Show data from similar rollouts. Did anyone actually get fired, or did they focus on higher-value work?
+<strong>Proof:</strong> Show data from similar rollouts. Did anyone actually get fired, or did they focus on higher-value work?
 
 ---
 
 ### 2. **"I don't trust it"**
-**The fear:** AI will give bad advice and I'll be blamed.
+<strong>The fear:</strong> AI will give bad advice and I'll be blamed.
 
-**What to say:**
+<strong>What to say:</strong>
 > "You're right to be skeptical. AI is a draft machine, not a decision machine. You always review. We're never auto-sending emails or auto-changing schedules. You stay in control."
 
-**Proof:** Show HITL (Human-in-the-Loop) controls in your AI charter. Examples: "AI drafts the charter, but you approve." "AI flags risks, but your team decides priority."
+<strong>Proof:</strong> Show HITL (Human-in-the-Loop) controls in your AI charter. Examples: "AI drafts the charter, but you approve." "AI flags risks, but your team decides priority."
 
 ---
 
 ### 3. **"What if data leaks?"**
-**The fear:** We'll expose client secrets or get sued.
+<strong>The fear:</strong> We'll expose client secrets or get sued.
 
-**What to say:**
+<strong>What to say:</strong>
 > "That's the right question. We only use enterprise-approved tools with contracts that protect our data. Redaction is mandatory—no client names, no PII, no financials go into the tool. Every prompt is logged. You're our first line of defense; report anything suspicious immediately."
 
-**Proof:** Share the Data Redaction Checklist; show the AI Working Agreement; explain your vendor due diligence process.
+<strong>Proof:</strong> Share the Data Redaction Checklist; show the AI Working Agreement; explain your vendor due diligence process.
 
 ---
 
 ### 4. **"I don't have time to learn this"**
-**The fear:** New tools = training burden.
+<strong>The fear:</strong> New tools = training burden.
 
-**What to say:**
+<strong>What to say:</strong>
 > "Training is 30 minutes. We have templates ready to go. The first time you use it might take 20 minutes. The second time, 10 minutes. By month 2, you save 2 hours per week. Let's do it together."
 
-**Proof:** Offer hands-on pairing sessions. Have power users mentor skeptics.
+<strong>Proof:</strong> Offer hands-on pairing sessions. Have power users mentor skeptics.
 
 ---
 
 ### 5. **"Our industry is different"**
-**The fear:** AI won't understand our specialized domain.
+<strong>The fear:</strong> AI won't understand our specialized domain.
 
-**What to say:**
+<strong>What to say:</strong>
 > "You're right—AI is trained on general data. That's why we use *you* to validate and refine. For [specific task], AI can handle the first draft, and your expertise makes it production-ready. That's the partnership."
 
-**Proof:** Pilot the tool on a non-critical deliverable. Show the rough draft and the polished version. Let them see the value of the combination.
+<strong>Proof:</strong> Pilot the tool on a non-critical deliverable. Show the rough draft and the polished version. Let them see the value of the combination.
 
 ---
 
@@ -78,20 +78,20 @@ Use this to defuse concerns when rolling out AI:
 Use this to roll out AI to a team with minimal friction.
 
 ### **Week 1: Awareness & Interest**
-**Goal:** Make the case, not the mandate.
+<strong>Goal:</strong> Make the case, not the mandate.
 
 - Host a 30-min **demo day** (no forced attendance)
 - Show 3 concrete examples: "Here's an email AI drafted. Here's a risk register AI pre-populated. Here's a status report AI created."
 - Answer concerns openly. Don't oversell; be honest about limitations.
 - Explain: "We're piloting this. You don't have to use it yet."
 
-**Deliverable:** One-page "AI 101" handout with FAQ.
+<strong>Deliverable:</strong> One-page "AI 101" handout with FAQ.
 
 ---
 
 ### **Week 2: Knowledge & Skill Building**
 
-**Goal:** Enable skeptics to try safely.
+<strong>Goal:</strong> Enable skeptics to try safely.
 
 - **Group training session (1 hour):**
   - Walkthrough: Data redaction checklist
@@ -99,48 +99,48 @@ Use this to roll out AI to a team with minimal friction.
   - Hands-on: Team writes a prompt together, runs it, reviews output
   - Q&A
 
-- **Office hours:** PM available for 1-on-1 questions
-- **Provide templates:** Copy/paste prompts for common tasks (charter, risk, email)
+- <strong>Office hours:</strong> PM available for 1-on-1 questions
+- <strong>Provide templates:</strong> Copy/paste prompts for common tasks (charter, risk, email)
 
-**Deliverable:** Recorded training + prompt templates + redaction checklist (shared repo).
+<strong>Deliverable:</strong> Recorded training + prompt templates + redaction checklist (shared repo).
 
 ---
 
 ### **Week 3: Trial & Quick Wins**
 
-**Goal:** Build confidence with low-risk tasks.
+<strong>Goal:</strong> Build confidence with low-risk tasks.
 
 - Ask for **2-3 volunteers** to pilot AI on:
   - Drafting meeting minutes
   - Summarizing a long email thread
   - Creating an initial WBS
 
-- **Rules:**
+- <strong>Rules:</strong>
   - Low-stakes deliverables only
   - Must be reviewed by PM/SME before external use
   - Log what works and what doesn't
 
-- **Celebrate wins:** "Sarah used AI to draft the charter outline in 15 minutes instead of 2 hours. Then she refined it with her expertise. Saved a full day!"
+- <strong>Celebrate wins:</strong> "Sarah used AI to draft the charter outline in 15 minutes instead of 2 hours. Then she refined it with her expertise. Saved a full day!"
 
-**Deliverable:** Pilot learnings summary (what worked, what didn't, tips).
+<strong>Deliverable:</strong> Pilot learnings summary (what worked, what didn't, tips).
 
 ---
 
 ### **Week 4: Scale & Standardization**
 
-**Goal:** Move from "cool experiment" to "standard practice."
+<strong>Goal:</strong> Move from "cool experiment" to "standard practice."
 
 - **Update the Team Charter/Working Agreement** to formalize AI usage
-- **Establish standards:**
+- <strong>Establish standards:</strong>
   - Approved tools (name them)
   - Which tasks use AI (meeting minutes, drafts, analysis)
   - Mandatory review checklist before external sharing
   - Redaction rules
 
-- **Metrics:** Track time saved, rework rate, team satisfaction
-- **Celebrate:** Acknowledge adopters; show ROI data
+- <strong>Metrics:</strong> Track time saved, rework rate, team satisfaction
+- <strong>Celebrate:</strong> Acknowledge adopters; show ROI data
 
-**Deliverable:** Updated Team Charter (AI section), usage metrics, testimonials.
+<strong>Deliverable:</strong> Updated Team Charter (AI section), usage metrics, testimonials.
 
 ---
 
@@ -149,9 +149,9 @@ Use this to roll out AI to a team with minimal friction.
 Even after adoption starts, you'll encounter pushback. Here's how to respond:
 
 ### **Scenario 1: "AI-Generated Artifact Has an Error"**
-**Reaction:** "See? I told you AI doesn't work. I'm not using it again."
+<strong>Reaction:</strong> "See? I told you AI doesn't work. I'm not using it again."
 
-**Response:**
+<strong>Response:</strong>
 1. Acknowledge the error and thank them for catching it (this is HITL working)
 2. Ask: "Did the AI draft help you get to 70% faster? Or did it create more work?"
 3. Lesson: "This tells us the tool works best for [this type of task], not [that type]. Let's adjust our prompt or skip this one."
@@ -160,15 +160,15 @@ Even after adoption starts, you'll encounter pushback. Here's how to respond:
 ---
 
 ### **Scenario 2: "I Used AI Without Sanitizing the Input (Shadow AI)"**
-**Reaction:** PM discovers team used unapproved tool with confidential data.
+<strong>Reaction:</strong> PM discovers team used unapproved tool with confidential data.
 
 **Response (Immediate):**
 1. **Stay calm; don't punish.** Shame = people hide problems.
-2. **Contain:** Stop the behavior immediately. Notify IT/Security per policy.
-3. **Investigate:** "Why did this seem like the right tool? What was the problem you were trying to solve?"
-4. **Provide safety:** "Here's the approved alternative. Let me help you use it."
+2. <strong>Contain:</strong> Stop the behavior immediately. Notify IT/Security per policy.
+3. <strong>Investigate:</strong> "Why did this seem like the right tool? What was the problem you were trying to solve?"
+4. <strong>Provide safety:</strong> "Here's the approved alternative. Let me help you use it."
 
-**Prevention:**
+<strong>Prevention:</strong>
 - Make approved tools as convenient as the unapproved ones
 - Monthly reminders about data risks
 - Celebrate people who report near-misses ("Jane caught herself about to paste client data; great catch!")
@@ -176,12 +176,12 @@ Even after adoption starts, you'll encounter pushback. Here's how to respond:
 ---
 
 ### **Scenario 3: "The Tool Went Down / Changed / Got Expensive"**
-**Reaction:** "Now we're stuck. Why did we depend on this?"
+<strong>Reaction:</strong> "Now we're stuck. Why did we depend on this?"
 
-**Response:**
+<strong>Response:</strong>
 1. **Have a manual fallback** ready in your AI Charter (e.g., "If tool is down, revert to meeting notes + email summary")
 2. **Monitor vendor SLA** (include in Vendor Due Diligence Checklist)
-3. **Stay flexible:** Reassess quarterly. Is the tool still the best option? Cost/benefit changed?
+3. <strong>Stay flexible:</strong> Reassess quarterly. Is the tool still the best option? Cost/benefit changed?
 4. **Communicate**: "We had a 4-hour outage. Here's what we did and what we learned."
 
 ---
@@ -223,7 +223,7 @@ AI adoption is not a one-time event; it's continuous improvement.
 1. **What's working?** "Drafting emails saves 30 minutes per week."
 2. **What's not?** "The risk register pre-population has too many false positives."
 3. **What do we need?** "A prompt template for Agile sprint planning."
-4. **Action items:** Update templates, adjust tools, address concerns
+4. <strong>Action items:</strong> Update templates, adjust tools, address concerns
 
 **Quarterly Review (with stakeholders):**
 - Share metrics: Hours saved, quality improvements, incidents (or zero incidents)
@@ -238,15 +238,15 @@ If something goes badly wrong (data breach, bias incident, major hallucination),
 
 ### **The "Red Alert" Protocol**
 
-1. **Stop immediately:** Halt use of the problematic AI/workflow
-2. **Isolate:** Don't let rumors spread; communicate clearly to the team
-3. **Investigate:** Root cause? Data? Tool? Process?
-4. **Escalate:** Notify IT/Security/Legal per policy (don't hide it)
-5. **Communicate:** Update the team and stakeholders on what happened and what you're doing
-6. **Prevent:** Update checklists, training, or governance
-7. **Rebuild trust:** Show corrective action; acknowledge the failure; move forward
+1. <strong>Stop immediately:</strong> Halt use of the problematic AI/workflow
+2. <strong>Isolate:</strong> Don't let rumors spread; communicate clearly to the team
+3. <strong>Investigate:</strong> Root cause? Data? Tool? Process?
+4. <strong>Escalate:</strong> Notify IT/Security/Legal per policy (don't hide it)
+5. <strong>Communicate:</strong> Update the team and stakeholders on what happened and what you're doing
+6. <strong>Prevent:</strong> Update checklists, training, or governance
+7. <strong>Rebuild trust:</strong> Show corrective action; acknowledge the failure; move forward
 
-**Example:** "We discovered a team member used an unapproved tool and exposed client names to a public AI service. This is a serious breach. We immediately stopped the practice, notified IT/Security, updated our training, and verified no further exposure. We've added a monthly audit to prevent recurrence. Thank you for vigilance."
+<strong>Example:</strong> "We discovered a team member used an unapproved tool and exposed client names to a public AI service. This is a serious breach. We immediately stopped the practice, notified IT/Security, updated our training, and verified no further exposure. We've added a monthly audit to prevent recurrence. Thank you for vigilance."
 
 ---
 
@@ -289,17 +289,17 @@ Track these quantitative indicators to detect adoption problems early.
 
 ### Case Study 1: Manufacturing PMO
 
-**Context:** 8 project managers, skeptical culture, highly regulated industry
+<strong>Context:</strong> 8 project managers, skeptical culture, highly regulated industry
 
-**Challenge:** Team feared AI would "make mistakes in compliance documentation"
+<strong>Challenge:</strong> Team feared AI would "make mistakes in compliance documentation"
 
-**Approach:**
+<strong>Approach:</strong>
 - Week 1: Demystification session with live demo (no mandate)
 - Week 2: Pilot with 2 volunteers on meeting minutes only
 - Week 3: Expanded to risk register pre-population
 - Week 4: Team voted to adopt; created own templates
 
-**Results:**
+<strong>Results:</strong>
 | Metric | Before | After | Change |
 |---|---|---|---|
 | Status report time | 3 hours/week | 45 min/week | -75% |
@@ -307,53 +307,53 @@ Track these quantitative indicators to detect adoption problems early.
 | Compliance errors | 2/month | 1/month | -50% |
 | Team satisfaction | 3.2/5 | 4.1/5 | +28% |
 
-**Key Success Factor:** Started with low-stakes task (meeting minutes); let volunteers become champions.
+<strong>Key Success Factor:</strong> Started with low-stakes task (meeting minutes); let volunteers become champions.
 
 ---
 
 ### Case Study 2: IT Services Firm
 
-**Context:** 25 PMs across 3 regions, remote-first, tech-savvy but time-constrained
+<strong>Context:</strong> 25 PMs across 3 regions, remote-first, tech-savvy but time-constrained
 
-**Challenge:** "We don't have time to learn another tool"
+<strong>Challenge:</strong> "We don't have time to learn another tool"
 
-**Approach:**
+<strong>Approach:</strong>
 - Created 10 copy/paste prompt templates pre-loaded
 - 15-minute "AI Coffee Break" optional sessions (recorded)
 - ROI tracking from day 1 (visible to team)
 - Gamification: monthly "AI Win" awards
 
-**Results:**
+<strong>Results:</strong>
 | Metric | Month 1 | Month 3 | Month 6 |
 |---|---|---|---|
 | Active users | 8 (32%) | 18 (72%) | 23 (92%) |
 | Hours saved/PM/month | 1.5 | 4.2 | 6.8 |
 | New templates created by team | 0 | 5 | 12 |
 
-**Key Success Factor:** Removed friction (pre-built templates); visible ROI; peer recognition.
+<strong>Key Success Factor:</strong> Removed friction (pre-built templates); visible ROI; peer recognition.
 
 ---
 
 ### Case Study 3: Finance Sector (High Compliance)
 
-**Context:** 4 PMs, heavy audit requirements, Legal/Compliance approval needed
+<strong>Context:</strong> 4 PMs, heavy audit requirements, Legal/Compliance approval needed
 
-**Challenge:** "What about data privacy and audit trails?"
+<strong>Challenge:</strong> "What about data privacy and audit trails?"
 
-**Approach:**
+<strong>Approach:</strong>
 - IT/Security involved from day 0
 - Enterprise AI tool with zero-retention contract secured first
 - All prompts stored in SharePoint for audit purposes
 - Quarterly compliance review built into governance
 
-**Results:**
+<strong>Results:</strong>
 | Metric | Before | After |
 |---|---|---|
 | Audit findings (AI-related) | N/A (new) | 0 in 6 months |
 | Time to draft board reports | 5 hours | 1.5 hours |
 | Stakeholder confidence (survey) | "Concerned" | "Confident" |
 
-**Key Success Factor:** Addressed compliance FIRST; transparent governance from start.
+<strong>Key Success Factor:</strong> Addressed compliance FIRST; transparent governance from start.
 
 ---
 
@@ -363,16 +363,16 @@ Learn from common patterns of failure.
 
 ### Failure Mode 1: "Mandate Without Support"
 
-**Pattern:** Executive mandates AI usage without training, templates, or governance.
+<strong>Pattern:</strong> Executive mandates AI usage without training, templates, or governance.
 
-**Symptoms:**
+<strong>Symptoms:</strong>
 - Team uses AI incorrectly (or not at all)
 - Shadow AI increases (use unapproved tools because approved tool is hard)
 - Resentment toward leadership
 
-**Root Cause:** Change mandate without change enablement
+<strong>Root Cause:</strong> Change mandate without change enablement
 
-**Prevention:**
+<strong>Prevention:</strong>
 - Mandate + training + templates + metrics + feedback loop
 - Never mandate without infrastructure
 
@@ -380,16 +380,16 @@ Learn from common patterns of failure.
 
 ### Failure Mode 2: "Tool First, Use Case Second"
 
-**Pattern:** Organization buys AI tool, then figures out what to use it for.
+<strong>Pattern:</strong> Organization buys AI tool, then figures out what to use it for.
 
-**Symptoms:**
+<strong>Symptoms:</strong>
 - Low adoption ("We have a hammer looking for nails")
 - Team can't articulate value
 - Tool eventually unused (shelfware)
 
-**Root Cause:** Solution before problem
+<strong>Root Cause:</strong> Solution before problem
 
-**Prevention:**
+<strong>Prevention:</strong>
 - Start with pain points: "What takes too long? What's error-prone?"
 - Pilot specific use cases; measure ROI; then scale
 
@@ -397,16 +397,16 @@ Learn from common patterns of failure.
 
 ### Failure Mode 3: "All In, Day One"
 
-**Pattern:** Full rollout across all projects immediately.
+<strong>Pattern:</strong> Full rollout across all projects immediately.
 
-**Symptoms:**
+<strong>Symptoms:</strong>
 - Some projects succeed, others fail spectacularly
 - Negative word-of-mouth spreads faster than positive
 - Rollback creates cynicism ("AI project failed")
 
-**Root Cause:** Skipped pilot phase; no controlled learning
+<strong>Root Cause:</strong> Skipped pilot phase; no controlled learning
 
-**Prevention:**
+<strong>Prevention:</strong>
 - Pilot with 2-3 low-risk projects
 - Document learnings before scaling
 - Scale gradually with proven templates
@@ -415,16 +415,16 @@ Learn from common patterns of failure.
 
 ### Failure Mode 4: "No Governance = Chaos"
 
-**Pattern:** AI used without policies, redaction rules, or approval gates.
+<strong>Pattern:</strong> AI used without policies, redaction rules, or approval gates.
 
-**Symptoms:**
+<strong>Symptoms:</strong>
 - Data leaks (someone pastes confidential info into public tool)
 - Incorrect artifacts shared externally
 - Blame game when things go wrong
 
-**Root Cause:** Freedom without guardrails
+<strong>Root Cause:</strong> Freedom without guardrails
 
-**Prevention:**
+<strong>Prevention:</strong>
 - AI Working Agreement from day 1
 - HITL review checklist mandatory
 - Data redaction training before access
@@ -433,16 +433,16 @@ Learn from common patterns of failure.
 
 ### Failure Mode 5: "Champion Leaves"
 
-**Pattern:** One person drives adoption; when they leave, adoption collapses.
+<strong>Pattern:</strong> One person drives adoption; when they leave, adoption collapses.
 
-**Symptoms:**
+<strong>Symptoms:</strong>
 - Knowledge concentrated in one person
 - No documentation of prompts/processes
 - Team reverts to old ways
 
-**Root Cause:** Single point of failure for change
+<strong>Root Cause:</strong> Single point of failure for change
 
-**Prevention:**
+<strong>Prevention:</strong>
 - Document everything (prompts, lessons, governance)
 - Train multiple champions (at least 2 per team)
 - Embed into standard processes (not a personal workflow)

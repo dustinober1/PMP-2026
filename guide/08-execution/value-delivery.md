@@ -109,12 +109,12 @@ In execution, prioritize basic needs first (prevents failure), then performance 
 ### 2. Value Stream Mapping (VSM)
 Visualize the flow of value from request to delivery, identifying waste and bottlenecks.
 
-**Key VSM Components:**
+<strong>Key VSM Components:</strong>
 - **Value-adding activities**: Steps that customers would pay for
 - **Non-value-adding but necessary**: Compliance, approvals, transitions
 - **Waste**: Delays, rework, waiting, unnecessary processes
 
-**VSM Metrics:**
+<strong>VSM Metrics:</strong>
 - **Lead Time**: Total time from request to delivery
 - **Process Time**: Actual work time
 - **% Complete & Accurate (%C&A)**: Work quality at each step
@@ -130,7 +130,7 @@ Actual work: 11 days | Waste: 4 days waiting | Activity Ratio: 73%
 ### 3. Benefit-Cost Ratio (BCR) & Return on Investment (ROI)
 Quantify value to justify continued investment during execution.
 
-**Formulas:**
+<strong>Formulas:</strong>
 - **BCR** = Present Value of Benefits ÷ Present Value of Costs
 - **ROI** = (Net Benefits ÷ Costs) × 100%
 - **Payback Period** = Initial Investment ÷ Annual Net Cash Flow
@@ -141,7 +141,7 @@ Quantify value to justify continued investment during execution.
 - Payback < 3 years: Typical acceptance for business cases
 :::
 
-**Example Calculation:**
+<strong>Example Calculation:</strong>
 ```
 Project Cost: $500,000
 Annual Benefits: $200,000 (cost savings + revenue increase)
@@ -201,13 +201,13 @@ Benefits realization is a **continuous process** that spans the entire project l
 
 ### Benefits Realization Governance
 
-**Key Roles:**
+<strong>Key Roles:</strong>
 - **Benefit Owner**: Accountable for realizing specific benefits (typically operational leaders)
 - **Project Manager**: Enables delivery of outputs that create benefits
 - **Sponsor**: Champions benefits realization at executive level
 - **PMO/Portfolio Manager**: Tracks benefits across multiple projects
 
-**Governance Activities:**
+<strong>Governance Activities:</strong>
 - **Benefits Review Board**: Regular meetings to assess benefit progress
 - **Benefits Realization Reports**: Dashboards showing benefit tracking
 - **Escalation Protocols**: When benefits are at risk, trigger corrective actions
@@ -249,17 +249,17 @@ If the scenario describes uncertainty, prioritize work that **reduces risk and v
 
 **WSJF** is a SAFe prioritization technique that maximizes economic value by accounting for the cost of waiting.
 
-**Formula:**
+<strong>Formula:</strong>
 ```
 WSJF = Cost of Delay ÷ Job Duration (Size)
 ```
 
-**Cost of Delay Components:**
+<strong>Cost of Delay Components:</strong>
 - **User-Business Value**: How much value does this deliver to users/business?
 - **Time Criticality**: How urgent is this? Are there deadlines or market windows?
 - **Risk Reduction / Opportunity Enablement**: Does this reduce risk or enable future value?
 
-**Calculation Example:**
+<strong>Calculation Example:</strong>
 
 | Feature | User Value | Time Critical | Risk/Opp | CoD Total | Duration | WSJF |
 |---|---|---|---|---|---|---|
@@ -285,18 +285,18 @@ WSJF = Cost of Delay ÷ Job Duration (Size)
 
 **NPV** calculates the present value of future cash flows, accounting for the time value of money.
 
-**Formula:**
+<strong>Formula:</strong>
 ```
 NPV = Σ [Cash Flow / (1 + r)^t] - Initial Investment
 ```
 Where: r = discount rate, t = time period
 
-**Interpretation:**
+<strong>Interpretation:</strong>
 - **NPV > 0**: Project adds value; accept
 - **NPV = 0**: Project breaks even; consider other factors
 - **NPV < 0**: Project destroys value; reject
 
-**Example:**
+<strong>Example:</strong>
 ```
 Initial Investment: $100,000
 Annual Cash Flows: $40,000 for 4 years
@@ -319,11 +319,11 @@ When comparing multiple projects with the same investment, choose the project wi
 
 **IRR** is the discount rate at which NPV equals zero. It represents the project's expected rate of return.
 
-**Decision Rule:**
+<strong>Decision Rule:</strong>
 - **IRR > Required Rate of Return**: Accept the project
 - **IRR < Required Rate of Return**: Reject the project
 
-**Example:**
+<strong>Example:</strong>
 ```
 If a company's required rate of return is 12% and Project A has IRR = 18%:
 → Accept Project A (18% > 12%)
@@ -340,11 +340,11 @@ IRR can be misleading for projects with non-conventional cash flows (multiple si
 
 **Opportunity Cost** is the value of the best alternative foregone when making a decision.
 
-**Exam Application:**
+<strong>Exam Application:</strong>
 - If you have resources for only one project, the opportunity cost of choosing Project A is the value you would have gained from Project B
 - Always consider what you're giving up, not just what you're getting
 
-**Example:**
+<strong>Example:</strong>
 ```
 You can assign your top developer to Project A (expected benefit: $50K) 
 or Project B (expected benefit: $70K).
@@ -358,11 +358,11 @@ If you choose Project A:
 
 **Sunk costs** are costs already incurred that cannot be recovered. They should **NOT** influence future decisions.
 
-**The Fallacy:** "We've already spent $500K, so we should keep going."
+<strong>The Fallacy:</strong> "We've already spent $500K, so we should keep going."
 
-**Correct Thinking:** Only consider **future costs and future benefits**. Past spending is irrelevant to the decision.
+<strong>Correct Thinking:</strong> Only consider **future costs and future benefits**. Past spending is irrelevant to the decision.
 
-**Example Scenario:**
+<strong>Example Scenario:</strong>
 ```
 Project Status:
 - Spent so far: $500K (sunk cost)
@@ -443,7 +443,7 @@ Stakeholder engagement doesn't stop after planning—it intensifies during execu
 
 ### Managing Stakeholder Expectations During Execution
 
-**Common Execution Challenges:**
+<strong>Common Execution Challenges:</strong>
 
 1. **Scope Creep from "Helpful" Stakeholders**
    - **Symptom**: "While you're at it, could you also add...?"
@@ -495,14 +495,14 @@ Measuring value requires a balanced approach across multiple dimensions and time
 
 KPIs are quantifiable metrics that track progress toward strategic objectives.
 
-**Characteristics of Effective KPIs:**
+<strong>Characteristics of Effective KPIs:</strong>
 - **Specific**: Clearly defined and unambiguous
 - **Measurable**: Quantifiable with objective data
 - **Achievable**: Realistic given constraints
 - **Relevant**: Directly tied to business objectives
 - **Time-bound**: Measured at defined intervals
 
-**KPI Categories:**
+<strong>KPI Categories:</strong>
 
 | Category | Purpose | Example KPIs |
 |---|---|---|
@@ -525,7 +525,7 @@ Quality: < 1% critical defect rate post-launch
 
 OKRs link ambitious objectives to measurable key results, promoting alignment and focus.
 
-**Structure:**
+<strong>Structure:</strong>
 - **Objective**: Qualitative, inspirational goal (the "what")
 - **Key Results**: Quantitative measures of success (the "how we know we got there")
 
@@ -600,7 +600,7 @@ If a scenario asks how to predict whether benefits will be realized, focus on **
 
 **NPS** measures customer loyalty and satisfaction, commonly used to track value delivery.
 
-**Formula:**
+<strong>Formula:</strong>
 ```
 NPS = % Promoters - % Detractors
 ```
@@ -610,7 +610,7 @@ NPS = % Promoters - % Detractors
 - **Passives (7-8)**: Satisfied but unenthusiastic; vulnerable to competitors
 - **Detractors (0-6)**: Unhappy customers who can damage brand
 
-**Calculation Example:**
+<strong>Calculation Example:</strong>
 | Response | Count | Percentage |
 |---|---|---|
 | Promoters (9-10) | 45 | 45% |
@@ -619,7 +619,7 @@ NPS = % Promoters - % Detractors
 
 **NPS = 45% - 25% = +20**
 
-**Interpretation Guide:**
+<strong>Interpretation Guide:</strong>
 | NPS Range | Interpretation | Action |
 |---|---|---|
 | **70+** | Excellent | Maintain and leverage for growth |
@@ -683,7 +683,7 @@ Use these tools during execution to identify, analyze, and solve quality problem
 | **Control Chart** | Monitor process stability over time | Continuous monitoring; SPC | Track defect rate sprint-over-sprint |
 | **Scatter Diagram** | Show relationship between two variables | Investigating correlations | Does code complexity correlate with defect rate? |
 
-**Control Chart Details:**
+<strong>Control Chart Details:</strong>
 - **UCL (Upper Control Limit)**: Maximum acceptable value
 - **LCL (Lower Control Limit)**: Minimum acceptable value
 - **Mean**: Expected average
@@ -696,7 +696,7 @@ If a scenario describes recurring quality issues during execution, look for answ
 ### 6. Value Dashboards and Reporting
 
 
-**Dashboard Design Principles:**
+<strong>Dashboard Design Principles:</strong>
 - **Audience-specific**: Executives need summaries; teams need details
 - **Visual**: Use charts, traffic lights, trend lines (not just tables)
 - **Actionable**: Highlight variances and trends requiring attention
@@ -720,7 +720,7 @@ If a scenario describes recurring quality issues during execution, look for answ
 
 **Kaizen Philosophy**: Small, incremental improvements made continuously by everyone on the team.
 
-**Core Principles:**
+<strong>Core Principles:</strong>
 - **Everyone contributes**: From team members to stakeholders
 - **Small changes**: Low-risk, easy to implement
 - **Daily focus**: Improvement is part of everyday work
@@ -749,7 +749,7 @@ Result: Average review time reduced to 8 hours (73% improvement)
 
 **Purpose**: Regular team reflection to identify what's working and what needs improvement.
 
-**Retrospective Cadence:**
+<strong>Retrospective Cadence:</strong>
 - **Sprint Retrospectives**: End of each sprint (every 2 weeks)
 - **Phase/Release Retrospectives**: End of major milestones
 - **Project Post-Mortem**: End of project (lessons learned)
@@ -761,7 +761,7 @@ Result: Average review time reduced to 8 hours (73% improvement)
 4. **Decide what to do** (10 min): Actionable improvements for next iteration
 5. **Close** (5 min): Appreciate contributions, commit to actions
 
-**Retrospective Techniques:**
+<strong>Retrospective Techniques:</strong>
 
 | Technique | When to Use | Description |
 |---|---|---|
@@ -771,7 +771,7 @@ Result: Average review time reduced to 8 hours (73% improvement)
 | **Sailboat** | Visualizing blockers | What's propelling us forward? What's anchoring us back? What rocks (risks) are ahead? |
 | **Timeline** | Complex sprint with many events | Plot events on timeline, identify highs/lows, discuss patterns |
 
-**Retrospective Action Items:**
+<strong>Retrospective Action Items:</strong>
 - **Specific and actionable**: "Pair program on complex features" (not "communicate better")
 - **Owned**: Assign a person to each action item
 - **Tracked**: Review action items at start of next retrospective
@@ -785,13 +785,13 @@ If a scenario describes recurring team issues (missed deadlines, quality problem
 
 **Purpose**: Capture insights from project experiences to improve future projects.
 
-**When to Capture Lessons Learned:**
+<strong>When to Capture Lessons Learned:</strong>
 - **Throughout the project**: Don't wait until the end
 - **After major milestones**: Phase gates, releases, key decisions
 - **When issues occur**: Capture lessons while context is fresh
 - **Project close**: Comprehensive review
 
-**Lessons Learned Template:**
+<strong>Lessons Learned Template:</strong>
 
 | Field | Description | Example |
 |---|---|---|
@@ -804,7 +804,7 @@ If a scenario describes recurring team issues (missed deadlines, quality problem
 | **Recommendation** | How to apply in future | Include delivery milestones with penalties in all vendor contracts |
 | **Owner** | Who can implement this lesson | Procurement team, future PMs |
 
-**Making Lessons Learned Actionable:**
+<strong>Making Lessons Learned Actionable:</strong>
 - **Store centrally**: PMO knowledge base, searchable repository
 - **Review at project initiation**: Check for relevant lessons from similar projects
 - **Update templates and processes**: Incorporate lessons into standards
@@ -869,7 +869,7 @@ Act:  Standardize TDD approach in team guidelines.
 
 When value delivery falls short, identify and address root causes—not just symptoms.
 
-**Common RCA Techniques:**
+<strong>Common RCA Techniques:</strong>
 
 | Technique | Best For | Description |
 |---|---|---|
@@ -926,7 +926,7 @@ Different project approaches deliver value in fundamentally different ways.
 - **Feature flags**: Deploy features but enable selectively
 - **Canary releases**: Test with small user subset before full rollout
 
-**Example Scenario:**
+<strong>Example Scenario:</strong>
 ```
 Predictive Approach: Build entire e-commerce platform over 12 months,
                      launch everything at once, measure success at month 13.
@@ -941,18 +941,18 @@ Adaptive Approach:  Month 1-2: MVP with product catalog and checkout
 
 ### Predictive Value Delivery Considerations
 
-**Strengths:**
+<strong>Strengths:</strong>
 - **Comprehensive planning**: Detailed requirements, designs, schedules
 - **Predictable budgets**: Fixed scope enables accurate cost estimation
 - **Regulatory compliance**: Full documentation and traceability
 - **Vendor contracts**: Well-defined scope for procurement
 
-**Value Delivery Challenges:**
+<strong>Value Delivery Challenges:</strong>
 - **Late validation**: No working product until late in project
 - **Change resistance**: Changes are costly and disruptive
 - **Benefits delayed**: No value until final delivery
 
-**Mitigation Strategies:**
+<strong>Mitigation Strategies:</strong>
 - **Proof of concepts**: Validate high-risk assumptions early
 - **Phased delivery**: Break project into stages with intermediate value
 - **Prototypes and mockups**: Get stakeholder feedback before full build
@@ -982,19 +982,19 @@ Benefits may appear after the project is "done." Strong answers ensure:
 - **Benefit not realized**  (no productivity improvement, no data insights)
 - **Value missing**  (investment wasted, no strategic impact)
 
-**Root Causes:**
+<strong>Root Causes:</strong>
 1. **Lack of user involvement**: Requirements gathered from management, not actual users
 2. **Inadequate change management**: No ADKAR—users lack desire and ability
 3. **No validation during execution**: No pilot, no UAT with real users
 4. **Training mismatch**: Generic training, not workflow-specific
 
-**PMP Best Practices Missed:**
+<strong>PMP Best Practices Missed:</strong>
 - Validate outcomes, not just verify outputs
 - Engage end users throughout execution (demos, feedback sessions, UAT)
 - Implement robust change management (ADKAR)
 - Use leading indicators (pilot adoption) to predict lagging indicators (full adoption)
 
-**Corrective Actions:**
+<strong>Corrective Actions:</strong>
 - Conduct user listening sessions to understand pain points
 - Redesign training based on actual workflows
 - Identify and empower user champions
@@ -1007,7 +1007,7 @@ Benefits may appear after the project is "done." Strong answers ensure:
 
 **Situation**: A digital transformation project aimed to reduce manual processing time by 50%, saving $500K annually. Six months post-implementation, the new system is operational, but processing time has only improved by 15%, and cost savings are $150K.
 
-**Analysis:**
+<strong>Analysis:</strong>
 
 | Benefit Component | Target | Actual | Status |
 |---|---|---|---|
@@ -1033,7 +1033,7 @@ Why wasn't this identified earlier?
 → No pilot with real user workflows before full rollout
 ```
 
-**PMP Corrective Actions:**
+<strong>PMP Corrective Actions:</strong>
 1. **Immediate**: Conduct system performance optimization for high-frequency workflows
 2. **Short-term**: Launch targeted training for non-adopters, assign user champions
 3. **Medium-term**: Implement process improvements identified by users
@@ -1041,7 +1041,7 @@ Why wasn't this identified earlier?
 5. **Measurement**: Increase adoption monitoring cadence (weekly vs. monthly)
 6. **Communication**: Transparent reporting to stakeholders with recovery plan
 
-**Lessons Learned:**
+<strong>Lessons Learned:</strong>
 - Pilot critical workflows with real users before full deployment
 - Track leading indicators (adoption, user satisfaction) during transition
 - Build flexibility into benefits targets (aggressive/realistic/minimum scenarios)
@@ -1052,7 +1052,7 @@ Why wasn't this identified earlier?
 
 **Situation**: A mobile app development project was planned as a 12-month waterfall effort with a single release. The PM convinced stakeholders to use an adaptive approach with monthly releases instead.
 
-**Timeline and Value Delivery:**
+<strong>Timeline and Value Delivery:</strong>
 
 | Month | Release | Features Delivered | Value Realized | User Feedback |
 |---|---|---|---|---|
@@ -1062,20 +1062,20 @@ Why wasn't this identified earlier?
 | 5 | v1.3 | Recommendations, wishlist | 50,000 users, $300K revenue | "Great! Need reviews" |
 | 6 | v1.4 | Reviews, ratings, social share | 75,000 users, $500K revenue | High satisfaction |
 
-**Key Success Factors:**
+<strong>Key Success Factors:</strong>
 1. **Early value delivery**: Revenue started at month 3 (vs. month 13 in waterfall)
 2. **Validated learning**: Each release incorporated user feedback
 3. **Risk mitigation**: Issues discovered and fixed incrementally
 4. **Stakeholder confidence**: Visible progress every month built trust
 5. **Market responsiveness**: Competitor launched similar app at month 7, but this project already had 50K users
 
-**Benefits Realized:**
+<strong>Benefits Realized:</strong>
 - **Time-to-market**: Value delivered 10 months earlier than waterfall
 - **Revenue**: $500K by month 6 (vs. $0 in waterfall at same point)
 - **User adoption**: Organic growth through incremental quality improvements
 - **Competitive advantage**: First-mover advantage maintained
 
-**PMP Principles Demonstrated:**
+<strong>PMP Principles Demonstrated:</strong>
 - Prioritize by value (MVP first, then enhancements)
 - Continuous validation (user feedback drives priorities)
 - Incremental delivery reduces risk
@@ -1087,13 +1087,13 @@ Why wasn't this identified earlier?
 
 **Situation**: A regulatory compliance project requires process changes across five departments. Three months into execution, the Operations department is resisting adoption, claiming "the new process is too bureaucratic."
 
-**Symptoms:**
+<strong>Symptoms:</strong>
 - Operations manager skipping steering committee meetings
 - Operations staff not participating in training sessions
 - Negative commentary spreading to other departments
 - Risk: Project may fail to achieve compliance even if system is delivered
 
-**PMP Response Framework:**
+<strong>PMP Response Framework:</strong>
 
 **1. Diagnose the Issue**
 - One-on-one meeting with Operations manager (listen, understand concerns)
@@ -1123,13 +1123,13 @@ Why wasn't this identified earlier?
 - If resistance continues, escalate to sponsor for executive alignment
 - Frame as risk to compliance (business impact), not personal conflict
 
-**Outcome:**
+<strong>Outcome:</strong>
 - Operations co-designs streamlined process (removes 2 unnecessary steps)
 - Operations champions identified and empowered
 - Adoption improves from 20% to 85% within 6 weeks
 - Benefits: Compliance achieved, Operations feels ownership
 
-**PMP Lessons:**
+<strong>PMP Lessons:</strong>
 - Resistant stakeholders often have legitimate concerns—listen first
 - Engagement is not one-size-fits-all—tailor approach to each stakeholder
 - Co-creation drives ownership and adoption
@@ -1141,7 +1141,7 @@ Why wasn't this identified earlier?
 
 **Situation**: An agile team notices their sprint velocity has been declining over the past three sprints (32 → 28 → 24 story points). During the retrospective, they identify root causes and implement improvements.
 
-**Retrospective Findings:**
+<strong>Retrospective Findings:</strong>
 
 | What's Working | What's Not Working | Action Items |
 |---|---|---|
@@ -1149,7 +1149,7 @@ Why wasn't this identified earlier?
 | Code quality high | Testing bottleneck slowing releases | Pair QA with devs earlier in sprint |
 | Demos well-received | Unclear acceptance criteria causing rework | Require AC review in backlog refinement before sprint |
 
-**PDCA Cycle Implementation:**
+<strong>PDCA Cycle Implementation:</strong>
 
 **Plan**: Hypothesis—Velocity decline caused by interruptions, testing delays, and unclear AC
 - **Target**: Restore velocity to 32+ by addressing top 3 issues
@@ -1170,13 +1170,13 @@ Why wasn't this identified earlier?
 - QA participation in sprint planning now standard
 - Update "Definition of Ready" to require AC review
 
-**Value Impact:**
+<strong>Value Impact:</strong>
 - **Velocity restored**: Team back to sustainable pace
 - **Quality maintained**: No increase in defects despite higher velocity
 - **Morale improved**: Team feels empowered and heard
 - **Predictability**: More consistent delivery enables better planning
 
-**PMP Lessons:**
+<strong>PMP Lessons:</strong>
 - Regular retrospectives identify issues before they become crises
 - Small, incremental improvements compound over time
 - Team ownership of solutions drives commitment

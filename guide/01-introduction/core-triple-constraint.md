@@ -22,15 +22,15 @@ In traditional project management, the "triple constraint" (also called the "Iro
 
 <ConceptGrid>
   <ConceptCard title="Scope">
-    **Question:** Are we building the right thing?<br>
+    <strong>Question:</strong> Are we building the right thing?<br>
     <em>Definition:</em> What will be delivered?
   </ConceptCard>
   <ConceptCard title="Schedule">
-    **Question:** Will we meet the deadline?<br>
+    <strong>Question:</strong> Will we meet the deadline?<br>
     <em>Definition:</em> When will it be delivered?
   </ConceptCard>
   <ConceptCard title="Cost">
-    **Question:** Will we stay within budget?<br>
+    <strong>Question:</strong> Will we stay within budget?<br>
     <em>Definition:</em> How much will it cost?
   </ConceptCard>
 </ConceptGrid>
@@ -39,15 +39,15 @@ The classic view: **If you fix two of these, the third is determined.**
 
 <ConceptGrid>
   <ConceptCard title="Fixed: Scope + Schedule">
-    **Variable:** Cost<br>
+    <strong>Variable:</strong> Cost<br>
     "Spend whatever it takes to launch on time."
   </ConceptCard>
   <ConceptCard title="Fixed: Cost + Schedule">
-    **Variable:** Scope<br>
+    <strong>Variable:</strong> Scope<br>
     "Deliver what fits in the budget and timeline."
   </ConceptCard>
   <ConceptCard title="Fixed: Cost + Scope">
-    **Variable:** Schedule<br>
+    <strong>Variable:</strong> Schedule<br>
     "Take as long as needed to do it right."
   </ConceptCard>
 </ConceptGrid>
@@ -60,16 +60,16 @@ The triple constraint behaves differently across methodologies:
 
 <ConceptGrid>
   <ConceptCard title="Predictive">
-    **Scope, Schedule, Cost:** All Fixed (Baseline).<br>
+    <strong>Scope, Schedule, Cost:</strong> All Fixed (Baseline).<br>
     Quality is defined upfront.
   </ConceptCard>
   <ConceptCard title="Agile">
-    **Fixed:** Schedule (Timebox) & Cost (Team).<br>
-    **Variable:** Scope.<br>
+    <strong>Fixed:</strong> Schedule (Timebox) & Cost (Team).<br>
+    <strong>Variable:</strong> Scope.<br>
     Quality is built-in continuously.
   </ConceptCard>
   <ConceptCard title="Hybrid">
-    **Mix:** Everything is mixed.<br>
+    <strong>Mix:</strong> Everything is mixed.<br>
     Quality is prioritized by component.
   </ConceptCard>
 </ConceptGrid>
@@ -186,7 +186,7 @@ The **Critical Path** is the longest path through the project network, determini
 
 ### CPM Example
 
-**Project Activities:**
+<strong>Project Activities:</strong>
 
 | Activity | Duration | Predecessors |
 |----------|----------|--------------|
@@ -197,7 +197,7 @@ The **Critical Path** is the longest path through the project network, determini
 | E | 3 days | C |
 | F | 2 days | D, E |
 
-**Network Paths:**
+<strong>Network Paths:</strong>
 - Path 1: A → B → D → F = 3 + 5 + 4 + 2 = **14 days**
 - Path 2: A → C → E → F = 3 + 2 + 3 + 2 = **10 days**
 

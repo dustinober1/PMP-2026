@@ -295,7 +295,7 @@ During procurement execution, understanding contract types helps you manage vend
 
 **FPIF** shares cost savings/overruns between buyer and seller within a range.
 
-**Components:**
+<strong>Components:</strong>
 - **Target Cost**: Expected cost to complete work
 - **Target Fee**: Profit margin if target cost is met
 - **Target Price**: Target Cost + Target Fee
@@ -303,12 +303,12 @@ During procurement execution, understanding contract types helps you manage vend
 - **Ceiling Price**: Maximum buyer pays (Price Ceiling)
 - **Point of Total Assumption (PTA)**: Where seller assumes all additional cost
 
-**PTA Formula:**
+<strong>PTA Formula:</strong>
 ```
 PTA = ((Ceiling Price - Target Price) / Buyer's Share Ratio) + Target Cost
 ```
 
-**Example:**
+<strong>Example:</strong>
 ```
 Target Cost: $100,000
 Target Fee: $10,000
@@ -328,7 +328,7 @@ Interpretation: If actual costs exceed $125,000, the seller absorbs
 
 **CPIF** reimburses costs plus a fee that varies based on cost performance.
 
-**Example:**
+<strong>Example:</strong>
 ```
 Target Cost: $100,000
 Target Fee: $10,000
@@ -354,12 +354,12 @@ Scenario B: Actual Cost = $120,000 (over target)
 
 **CPAF** includes a fee determined by subjective evaluation of seller performance.
 
-**Structure:**
+<strong>Structure:</strong>
 - **Base Fee**: Fixed amount paid regardless of performance
 - **Award Fee Pool**: Available for excellent performance
 - **Award Fee**: Determined by Award Fee Board based on criteria
 
-**Example:**
+<strong>Example:</strong>
 ```
 Target Cost: $200,000
 Base Fee (fixed): $10,000 (5%)
