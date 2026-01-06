@@ -3,6 +3,7 @@ import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 </script>
 
 # 2.4 Compliance & Governance
@@ -279,28 +280,28 @@ If your project collects or uses personal data (especially for AI training), exa
 ---
 
 ## Quick Review
-<FlashcardGrid>
-  <Flashcard 
-    front="Who is ultimately responsible for project compliance?" 
-    back="The Project Manager, though they may delegate actual monitoring to specific leads." 
-  />
-  <Flashcard 
-    front="What is a 'Compliance Register'?" 
-    back="A dedicated document tracking all legal, regulatory, and safety requirements for the project." 
-  />
-  <Flashcard 
-    front="What are 'Cost of Quality' components in compliance?" 
-    back="Prevention (Training), Appraisal (Audits), and Failure (Fine/Lawsuits)." 
-  />
-  <Flashcard 
-    front="How does a Project Governance Board differ from a PMO?" 
-    back="Governance focuses on authority and decision-making for a specific project; PMO focuses on standardization across all projects." 
-  />
-  <Flashcard 
-    front="What is 'Quality Audit' in the context of compliance?" 
-    back="A structured, independent process to determine if project activities comply with organizational and project policies." 
-  />
-</FlashcardGrid>
+<FlashcardCarousel :cards="[
+  { 
+    front: 'Who is ultimately responsible for project compliance?', 
+    back: 'The Project Manager, though they may delegate actual monitoring to specific leads.' 
+  },
+  { 
+    front: 'What is a \'Compliance Register\'?', 
+    back: 'A dedicated document tracking all legal, regulatory, and safety requirements for the project.' 
+  },
+  { 
+    front: 'What are \'Cost of Quality\' components in compliance?', 
+    back: 'Prevention (Training), Appraisal (Audits), and Failure (Fine/Lawsuits).' 
+  },
+  { 
+    front: 'How does a Project Governance Board differ from a PMO?', 
+    back: 'Governance focuses on authority and decision-making for a specific project; PMO focuses on standardization across all projects.' 
+  },
+  { 
+    front: 'What is \'Quality Audit\' in the context of compliance?', 
+    back: 'A structured, independent process to determine if project activities comply with organizational and project policies.' 
+  }
+]" />
 
 
 

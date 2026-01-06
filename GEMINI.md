@@ -56,6 +56,7 @@ The following NPM scripts are available in `package.json`:
 The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/workflows/` handles automated deployment on push, or it can be triggered manually via `npm run deploy`.
 
 ## Recent Changes
+- **2026-01-06**: Created new `FlashcardCarousel.vue` component that displays flashcards one at a time with navigation controls (Previous/Next buttons), progress indicator, keyboard navigation support (arrow keys), and smooth transitions. Updated `compliance-governance.md` to demonstrate the new carousel functionality. Both `FlashcardGrid` (grid view) and `FlashcardCarousel` (one-at-a-time view) are now available for use throughout the site.
 - **2026-01-06**: Removed `legacy/` folder containing archived source material and migration scripts, as all content has been successfully migrated to the current VitePress structure.
 - **2026-01-06**: Reorganized flashcard files by moving all 28 flashcard files (26 markdown files and 2 JSON files) from `guide/appendices/` to a new dedicated `flashcards/` folder at the project root for better organization.
 - **2026-01-06**: Completed comprehensive reformatting of all Chapter 7 (Risk, Quality and Complexity) pages, including 6 markdown files. Replaced legacy grids with interactive `ConceptGrid`, `ConceptCard`, `FlashcardGrid`, and updated the knowledge check with the `QuizComponent`. Verified successful build.
