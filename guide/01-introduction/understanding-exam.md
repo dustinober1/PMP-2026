@@ -268,7 +268,7 @@ Flip the cards to test your memory of the key exam stats!
   { front: `What percentage of the exam focuses on People domain?`, back: `33% - covering leadership, team dynamics, stakeholder engagement.` },
   { front: `What percentage of the exam focuses on Process domain?`, back: `41% - covering execution, planning, monitoring, and closing.` },
   { front: `What percentage of the exam focuses on Business Environment?`, back: `26% - covering strategy, value delivery, and organizational context.` },
-  { front: `Is the PMP exam multiple choice?`, back: `Yes - all 185 questions are multiple choice with 4 options each.` },
+  { front: `Is the PMP exam multiple choice?`, back: `No - the exam includes multiple-choice, multiple response, matching, hotspot, and fill-in-the-blank questions.` },
   { front: `How much time is allocated per question on the PMP exam?`, back: `Approximately 1.3 minutes per question on average (4 hours / 185 questions).` },
   { front: `What is the passing score for the PMP exam?`, back: `Each exam varies, but typically you need to score around 70-80% correct (in the top percentile).` },
   { front: `Are there interactive case studies on the 2026 PMP exam?`, back: `Yes - the 2026 exam introduced interactive case study formats testing scenario-based decision-making.` },

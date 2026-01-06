@@ -57,6 +57,7 @@ The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/work
 
 ## Recent Changes
 - **2026-01-06**: Expanded flashcards in all 7 Chapter 6 (Project Planning) content pages to ensure at least 10 flashcards per page, covering scope (WBS, RTM, MoSCoW), schedule (CPM, PERT, dependencies), cost (EVM, reserves), quality (7 tools, CoQ), resources (RACI, contracts), risk (EMV, responses), and communications (channels, methods).
+- **2026-01-06**: Corrected a flashcard in `guide/01-introduction/understanding-exam.md` that incorrectly stated all PMP questions are multiple choice; updated it to reflect the variety of question formats (multiple response, matching, hotspot, etc.).
 - **2026-01-06**: Expanded flashcards in all 3 Chapter 7 (Risk, Quality and Complexity) content pages to ensure at least 10 flashcards per page, covering quality tools (DMAIC, Kano, DoD), complexity (Cynefin, ADKAR, systems thinking), and risk management (EMV, Monte Carlo, RBS).
 - **2026-01-06**: Verified successful build after fixing all `FlashcardCarousel` prop quoting issues across the guide.
 - **2026-01-06**: Expanded flashcards in Chapters 8, 9, 10, and 11 to ensure at least 10 flashcards per page in all content sections, adding `FlashcardCarousel` for Quick Reviews. Fixed multiple build errors related to attribute quoting in Vue components.
