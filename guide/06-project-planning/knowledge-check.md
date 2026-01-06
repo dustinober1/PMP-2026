@@ -1,3 +1,12 @@
+
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+import QuizComponent from '../../.vitepress/theme/components/QuizComponent.vue'
+</script>
+
 # Knowledge Check: Integrated Planning
 
 Test your ability to weave together scope, schedule, cost, quality, risk, resource, and communications baselines for the 2026 PMP exam.
@@ -308,121 +317,74 @@ Test your ability to weave together scope, schedule, cost, quality, risk, resour
   ]"
 />
 
-## Additional Study Topics
+---
 
-For full Chapter 6 proficiency, ensure you can:
+##  Planning Mastery Matrix
 
-### Scope Planning Mastery
-1. **Identify Baselines**: Know the three components of the Scope Baseline (Scope Statement + WBS + WBS Dictionary)
-2. **Trace Requirements**: Use the RTM to link requirements from origin through delivery and verification
-3. **Apply MoSCoW**: Prioritize requirements (Must/Should/Could/Won't Have) for agile and hybrid projects
-4. **Classify Requirements**: Distinguish functional, non-functional, business, stakeholder, and transition requirements
-5. **WBS Decomposition**: Apply the 100% rule, create work packages at 8-80 hour level
-
-### Schedule Planning Mastery
-1. **Calculate Critical Path**: Perform forward/backward pass, identify critical path, calculate project duration
-2. **Manage Float**: Calculate Total Float (LS−ES) and Free Float (ES_next − EF_current)
-3. **PERT Estimation**: Calculate expected duration [(O + 4M + P)/6] and standard deviation [(P−O)/6]
-4. **Interpret Float**: Know that 0 float = critical path, negative float = already late
-5. **Apply Compression**: Choose between crashing (add resources) and fast tracking (parallel work)
-6. **Resource Optimization**: Know leveling (extends date) vs. smoothing (uses float, keeps date)
-
-### Cost Planning Mastery
-1. **Master EVM Formulas**:
-   - Variances: SV = EV−PV, CV = EV−AC
-   - Indices: SPI = EV/PV, CPI = EV/AC
-   - Forecasts: EAC = BAC/CPI, ETC = EAC−AC, VAC = BAC−EAC
-   - Efficiency: TCPI = (BAC−EV)/(BAC−AC)
-2. **Interpret Performance**: CPI/SPI > 1.0 = good, < 1.0 = bad
-3. **Apply Cost Types**: Distinguish direct/indirect, fixed/variable costs
-4. **Use Estimation Techniques**: Analogous (quick, less accurate) → Parametric (formula-based) → Bottom-up (detailed, accurate)
-5. **Manage Reserves**: Contingency (known unknowns, PM control) vs. Management (unknown unknowns, sponsor control)
-
-### Quality Planning Mastery
-1. **Cost of Quality**: Prevention + Appraisal (Conformance) vs. Internal + External Failure (Non-Conformance)
-2. **Seven Basic Tools**: Cause-Effect, Flowchart, Checksheet, Pareto, Histogram, Control Chart, Scatter
-3. **Control Chart Rules**: Points outside limits = out of control; Rule of Seven = investigate
-4. **Quality vs. Grade**: Low quality = always a problem; Low grade = may be acceptable
-5. **Prevention over Inspection**: Building quality in costs less than finding defects
-
-### Risk Planning Mastery
-1. **Risk Formulas**: Risk Score = P × I; EMV = Probability × Impact ($)
-2. **Threat Strategies**: Avoid, Mitigate, Transfer, Accept, Escalate
-3. **Opportunity Strategies**: Exploit, Enhance, Share, Accept, Escalate
-4. **Reserves**: Contingency (identified risks, PM) vs. Management (unidentified, Sponsor)
-5. **Quantitative Tools**: EMV, Decision Trees, Sensitivity Analysis, Monte Carlo
-
-### Resource & Procurement Mastery
-1. **RACI Clarity**: Assign Responsible (doer), Accountable (owner), Consulted (input), Informed (aware)
-2. **Contract Risk**: Know FFP (seller risk), Cost-Plus (buyer risk), T&M (shared risk)
-3. **Calculate FPIF**: Handle target cost/fee, share ratios, and ceiling prices
-4. **Make-or-Buy**: Evaluate strategic value, cost, capability, and risk
-5. **Source Selection**: Match method to situation (least cost, qualifications, quality-based, fixed budget)
-6. **Bidder Fairness**: Ensure all vendors receive the same information (no secret meetings)
-
-### Communications Mastery
-1. **Channel Formula**: n(n-1)/2 for number of communication channels
-2. **Communication Types**: Interactive (meetings), Push (email), Pull (intranet)
-3. **Communication Model**: Sender → Encode → Message → Decode → Receiver → Feedback
-4. **Barriers**: Physical, semantic, cultural, psychological, technical
-5. **Virtual Teams**: Establish norms, use video, document decisions
-
-### Integration & Progressive Elaboration
-1. **Baseline vs. Draft**: Approved baselines require change control; drafts are still being refined
-2. **Rolling Wave Planning**: Detail near-term work, keep future work high-level until more is known
-3. **Estimate Accuracy**: ROM (−25/+75%) → Budget (−10/+25%) → Definitive (−5/+10%)
-4. **Triple to Hexagon**: Understand that scope, time, cost, quality, resources, and risk are all interconnected
+<ConceptGrid>
+  <ConceptCard title="Scope" variant="primary">
+    <ul>
+      <li>Identify baselines (approved targets)</li>
+      <li>Trace requirements via RTM</li>
+      <li>Prioritize with MoSCoW</li>
+      <li>WBS decomposition (100% rule)</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Schedule" variant="secondary">
+    <ul>
+      <li>Calculate Critical Path (Forward/Backward)</li>
+      <li>Manage Float (Total vs. Free)</li>
+      <li>PERT Estimation [(O+4M+P)/6]</li>
+      <li>Schedule Compression (Crash/Fast)</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Cost" variant="primary">
+    <ul>
+      <li>Master EVM Formulas (CPI, SPI, EAC)</li>
+      <li>Cost Types (Direct/Indirect, Fixed/Var)</li>
+      <li>Estimation (Analogous, Parametric, Bottom-up)</li>
+      <li>Manage Reserves (Contingency vs. Management)</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Quality" variant="secondary">
+    <ul>
+      <li>Cost of Quality (Conformance vs. Failure)</li>
+      <li>7 Basic Tools (Pareto, Fishbone, etc.)</li>
+      <li>Control Chart Rules (Rule of Seven)</li>
+      <li>Prevention over Inspection mindset</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Risk" variant="primary">
+    <ul>
+      <li>Risk Score and EMV (P x I)</li>
+      <li>Threat vs. Opportunity Strategies</li>
+      <li>Qualitative vs. Quantitative Analysis</li>
+      <li>Risk Triggers and Response Planning</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Resources" variant="secondary">
+    <ul>
+      <li>RACI clarity (1 Accountable owner)</li>
+      <li>Contract Types (FFP, Cost-Plus, T&M)</li>
+      <li>Make-or-Buy Analysis</li>
+      <li>Resource Optimization (Level vs. Smooth)</li>
+    </ul>
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
-## Formula Quick Reference
+## Quick Reference Flashcards
 
-### Earned Value Management
-| Formula | Purpose |
-|:--------|:--------|
-| **SV = EV − PV** | Schedule Variance (>0 = ahead) |
-| **CV = EV − AC** | Cost Variance (>0 = under budget) |
-| **SPI = EV / PV** | Schedule Performance (>1.0 = ahead) |
-| **CPI = EV / AC** | Cost Performance (>1.0 = under budget) |
-| **EAC = BAC / CPI** | Estimate at Completion |
-| **ETC = EAC − AC** | Estimate to Complete |
-| **VAC = BAC − EAC** | Variance at Completion |
-| **TCPI = (BAC−EV)/(BAC−AC)** | Required efficiency |
+<FlashcardGrid>
+  <Flashcard front="SV and CV Formulas" back="SV = EV - PV; CV = EV - AC" />
+  <Flashcard front="SPI and CPI Formulas" back="SPI = EV / PV; CPI = EV / AC" />
+  <Flashcard front="PERT and Std Deviation" back="PERT = (O+4M+P)/6; σ = (P-O)/6" />
+  <Flashcard front="Communication Channels" back="n(n-1)/2" />
+  <Flashcard front="EMV Formula" back="Probability x Impact ($)" />
+  <Flashcard front="TCPI Formula" back="(BAC-EV) / (BAC-AC)" />
+</FlashcardGrid>
 
-### Schedule
-| Formula | Purpose |
-|:--------|:--------|
-| **PERT = (O+4M+P)/6** | Expected duration |
-| **σ = (P−O)/6** | Standard deviation |
-| **Total Float = LS − ES** | Float calculation |
-| **Free Float = ES_next − EF** | Float to next activity |
-
-### Communication & Risk
-| Formula | Purpose |
-|:--------|:--------|
-| **Channels = n(n-1)/2** | Communication paths |
-| **EMV = P × I** | Expected monetary value |
-| **Risk Score = P × I** | Risk prioritization |
-
-### Procurement (FPIF)
-| Formula | Purpose |
-|:--------|:--------|
-| **Final Fee = Target Fee ± (Variance × Seller Share)** | Fee adjustment |
-| **Total Price = Actual Cost + Final Fee** | Buyer payment |
-| **PTA = TC + [(CP−TP)/Buyer Share]** | Point of total assumption |
-
----
-
-<div class="study-tip">
-  <strong> Exam Insight:</strong> Planning questions often integrate multiple knowledge areas. A "scope change" question might require you to think about schedule impact, cost variance, risk implications, and stakeholder communication. Practice answering with the full project context in mind.
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+::: tip  Exam Insight
+Planning questions often integrate multiple knowledge areas. A "scope change" question might require you to think about schedule impact, cost variance, risk implications, and stakeholder communication. Practice answering with the full project context in mind.
+:::
