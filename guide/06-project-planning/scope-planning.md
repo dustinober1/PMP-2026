@@ -435,10 +435,17 @@ It is crucial to distinguish between these two monitoring processes:
 | **When** | End of phase/sprint | Throughout the project |
 | **Output** | Accepted deliverables, change requests | Work performance data, change requests |
 
-**Important Sequence**:
-```
-Build → Control Quality → Validate Scope → Close
-```
+<ConceptCard title="Important Sequence" variant="secondary">
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; font-size: 1.1em; font-weight: 600; padding: 1rem 0; flex-wrap: wrap;">
+    <span>Build</span>
+    <span>→</span>
+    <span>Control Quality</span>
+    <span>→</span>
+    <span>Validate Scope</span>
+    <span>→</span>
+    <span>Close</span>
+  </div>
+</ConceptCard>
 
 *Note: You Control Quality (verify correctness) **before** you Validate Scope (gain acceptance). You don't ask for acceptance of defective deliverables.*
 
