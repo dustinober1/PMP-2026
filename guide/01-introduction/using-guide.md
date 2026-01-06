@@ -22,7 +22,7 @@ Use this chapter as your “study blueprint.” Refer back to it whenever your s
 
 This guide is built to mirror the structure and intent of the new PMP exam, while staying practical for working professionals.
 
-At a high level, the book is organized into 10 logical chapters:
+At a high level, the book is organized into 11 logical chapters:
 
 - **Chapter 01 – Introduction and Fundamentals:** The exam, study strategies, and core project management concepts.
 - **Chapter 02 – Strategic Alignment and Business Environment:** Strategy, portfolios, benefits, compliance, and organizational change.
@@ -33,7 +33,8 @@ At a high level, the book is organized into 10 logical chapters:
 - **Chapter 07 – Risk, Quality, and Complexity:** Managing uncertainty, quality standards, and complex environments.
 - **Chapter 08 – Execution and Value Delivery:** Directing work, managing vendors, and delivering value.
 - **Chapter 09 – Monitoring and Closing:** Tracking performance, change control, and project closure.
-- **Chapter 10 – Exam Preparation and Future Trends:** Test-taking strategies, AI in project management, and practice exams.
+- **Chapter 10 – AI in Project Management:** AI essentials, responsible AI, and AI throughout the project lifecycle.
+- **Chapter 11 – Exam Preparation:** Test-taking strategies and full-length practice exams.
 
 ### How Chapters Map to the ECO
 
@@ -59,32 +60,32 @@ Use the quick self-check below.
 
 ### Experience self-check
 
-Put a check next to the statement that best describes you:
+Consider which statement best describes you:
 
-- [ ] I have less than 2 years of experience and have rarely led project work myself.
-- [ ] I have about 2–3 years of experience and sometimes lead smaller projects or workstreams.
-- [ ] I have 3–5+ years of experience and regularly lead projects or major workstreams.
+- I have less than 2 years of experience and have rarely led project work myself.
+- I have about 2–3 years of experience and sometimes lead smaller projects or workstreams.
+- I have 3–5+ years of experience and regularly lead projects or major workstreams.
 
-If you checked the first option, you may still benefit from this guide but should treat the PMP itself as a medium-term goal. If you checked the second or third option, you are in the typical experience range for PMP candidates.
+If the first option describes you, you may still benefit from this guide but should treat the PMP itself as a medium-term goal. If the second or third option describes you, you are in the typical experience range for PMP candidates.
 
 ### Exam skills self-check
 
 How comfortable are you with standardized, scenario-based exams?
 
-- [ ] Very comfortable – I’ve done similar exams recently.
-- [ ] Somewhat comfortable – it’s been a while, but I can adapt.
-- [ ] Not comfortable – I find these exams stressful and unfamiliar.
+- Very comfortable – I've done similar exams recently.
+- Somewhat comfortable – it's been a while, but I can adapt.
+- Not comfortable – I find these exams stressful and unfamiliar.
 
-If you checked “Not comfortable,” plan to spend extra time on practice questions and review of answer explanations. Exam technique will matter just as much as content knowledge.
+If you are not comfortable with these types of exams, plan to spend extra time on practice questions and review of answer explanations. Exam technique will matter just as much as content knowledge.
 
 ### Time availability self-check
 
 On average, how many focused hours per week can you dedicate to PMP prep?
 
-- [ ] 4–6 hours
-- [ ] 7–10 hours
-- [ ] 11–15 hours
-- [ ] More than 15 hours
+- 4–6 hours
+- 7–10 hours
+- 11–15 hours
+- More than 15 hours
 
 Use this estimate when selecting your study path in the next section.
 
@@ -124,8 +125,8 @@ Best for:
   - Read Chapter 07 (Risk/Quality), Chapter 08 (Execution), and Chapter 09 (Monitoring).
   - This is a heavy week; focus on key differentiators (e.g., QA vs QC).
 
-- **Week 5: Exam Prep & Practice**
-  - Read Chapter 10 (Exam Strategy).
+- **Week 5: AI & Exam Prep**
+  - Read Chapter 10 (AI in PM) and Chapter 11 (Exam Strategy).
   - Take Practice Exam 1 (full-length).
   - Review weak areas.
 
@@ -164,8 +165,12 @@ Best for:
   - Review your "mistake log".
   - Re-read sections where you scored low.
 
-- **Week 10: Full Practice**
-  - Take Practice Exams from Chapter 10.
+- **Week 10: AI & Review**
+  - Read Chapter 10 (AI in PM).
+  - Review key concepts across all domains.
+
+- **Week 11-12: Full Practice**
+  - Take Practice Exams from Chapter 11.
   - Simulate real exam conditions (4 hours, no phone).
 
 ---
@@ -247,7 +252,7 @@ When these conditions are true, set an exam date within the next 4–6 weeks.
 
 This section has given you a practical framework for using this guide:
 
-- You understand the **10-Chapter structure** and how it maps to the exam.
+- You understand the **11-Chapter structure** and how it maps to the exam.
 - You have chosen a **study path** (Fast-Track or Standard).
 - You know how to integrate **practice questions** and **real-world experience**.
 
