@@ -1,13 +1,13 @@
 export function createSidebar() {
   return [
     {
-      text: '🏠 Introduction',
+      text: 'Introduction',
       items: [
         { text: 'PMP Exam Prep 2026', link: '/' }
       ]
     },
     {
-      text: '📖 Chapter 1 - Introduction & Fundamentals',
+      text: 'Chapter 1 - Introduction & Fundamentals',
       collapsed: false,
       items: [
         { text: 'Chapter Overview', link: '/guide/01-introduction/' },
@@ -24,11 +24,11 @@ export function createSidebar() {
             { text: '1.4f Ethics', link: '/guide/01-introduction/core-ethics' }
           ]
         },
-        { text: '📝 Knowledge Check', link: '/guide/01-introduction/knowledge-check' }
+        { text: 'Knowledge Check', link: '/guide/01-introduction/knowledge-check' }
       ]
     },
     {
-      text: '🎯 Chapter 2 - Strategic Alignment',
+      text: 'Chapter 2 - Strategic Alignment',
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/02-strategic/' },
@@ -46,11 +46,11 @@ export function createSidebar() {
         { text: '2.3 Compliance, Risk, and Governance', link: '/guide/02-strategic/compliance-governance' },
         { text: '2.4 Organizational Change and Readiness', link: '/guide/02-strategic/organizational-change' },
         { text: '2.5 Program Management', link: '/guide/02-strategic/program-management' },
-        { text: '📝 Knowledge Check', link: '/guide/02-strategic/knowledge-check' }
+        { text: 'Knowledge Check', link: '/guide/02-strategic/knowledge-check' }
       ]
     },
     {
-      text: '👥 Chapter 3 - Team Leadership',
+      text: 'Chapter 3 - Team Leadership',
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/03-team-leadership/' },
@@ -65,11 +65,11 @@ export function createSidebar() {
         { text: '3.2 Coaching, Mentoring, and Servant Leadership', link: '/guide/03-team-leadership/coaching-mentoring' },
         { text: '3.3 Conflict Management', link: '/guide/03-team-leadership/conflict-management' },
         { text: '3.4 Motivation and Performance', link: '/guide/03-team-leadership/motivation-performance' },
-        { text: '📝 Knowledge Check', link: '/guide/03-team-leadership/knowledge-check' }
+        { text: 'Knowledge Check', link: '/guide/03-team-leadership/knowledge-check' }
       ]
     },
     {
-      text: '🤝 Chapter 4 - Stakeholder Engagement',
+      text: 'Chapter 4 - Stakeholder Engagement',
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/04-stakeholder/' },
@@ -82,11 +82,11 @@ export function createSidebar() {
         { text: '4.2 Communication Planning', link: '/guide/04-stakeholder/communication-planning' },
         { text: '4.3 Active Engagement', link: '/guide/04-stakeholder/stakeholder-engagement' },
         { text: '4.4 Negotiation & Decision-Making', link: '/guide/04-stakeholder/conflict-negotiation' },
-        { text: '📝 Knowledge Check', link: '/guide/04-stakeholder/knowledge-check' }
+        { text: 'Knowledge Check', link: '/guide/04-stakeholder/knowledge-check' }
       ]
     },
     {
-      text: '🚀 Chapter 5 - Project Initiation',
+      text: 'Chapter 5 - Project Initiation',
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/05-initiation/' },
@@ -94,11 +94,11 @@ export function createSidebar() {
         { text: '5.2 Project Charter', link: '/guide/05-initiation/project-charter' },
         { text: '5.3 Constraints & Assumptions', link: '/guide/05-initiation/constraints-assumptions' },
         { text: '5.4 Delivery Strategy', link: '/guide/05-initiation/delivery-strategy' },
-        { text: '📝 Knowledge Check', link: '/guide/05-initiation/knowledge-check' }
+        { text: 'Knowledge Check', link: '/guide/05-initiation/knowledge-check' }
       ]
     },
     {
-      text: '📋 Chapter 6 - Project Planning',
+      text: 'Chapter 6 - Project Planning',
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/06-project-planning/' },
@@ -109,11 +109,11 @@ export function createSidebar() {
         { text: '6.5 Risk Planning', link: '/guide/06-project-planning/risk-planning' },
         { text: '6.6 Resource & Procurement', link: '/guide/06-project-planning/resource-planning' },
         { text: '6.7 Communications', link: '/guide/06-project-planning/communications-planning' },
-        { text: '📝 Knowledge Check', link: '/guide/06-project-planning/knowledge-check' }
+        { text: 'Knowledge Check', link: '/guide/06-project-planning/knowledge-check' }
       ]
     },
     {
-      text: '⚠️ Chapter 7 - Risk, Quality & Complexity',
+      text: 'Chapter 7 - Risk, Quality & Complexity',
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/07-risk-quality/' },
@@ -121,33 +121,33 @@ export function createSidebar() {
         { text: '7.2 Quality Management', link: '/guide/07-risk-quality/quality-management' },
         { text: '7.3 Navigating Complexity', link: '/guide/07-risk-quality/navigating-complexity' },
         { text: '7.4 Tools & Templates', link: '/guide/07-risk-quality/toolkit' },
-        { text: '📝 Knowledge Check', link: '/guide/07-risk-quality/knowledge-check' }
+        { text: 'Knowledge Check', link: '/guide/07-risk-quality/knowledge-check' }
       ]
     },
     {
-      text: '⚡ Chapter 8 - Execution & Value Delivery',
+      text: 'Chapter 8 - Execution & Value Delivery',
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/08-execution/' },
         { text: '8.1 Executing Project Work', link: '/guide/08-execution/executing-work' },
         { text: '8.2 Value Delivery and Outcomes', link: '/guide/08-execution/value-delivery' },
         { text: '8.3 Tools & Templates', link: '/guide/08-execution/toolkit' },
-        { text: '📝 Knowledge Check', link: '/guide/08-execution/knowledge-check' }
+        { text: 'Knowledge Check', link: '/guide/08-execution/knowledge-check' }
       ]
     },
-	    {
-	      text: '📊 Chapter 9 - Monitoring & Closing',
-	      collapsed: true,
-	      items: [
-	        { text: 'Chapter Overview', link: '/guide/09-monitoring/' },
-	        { text: '9.1 Monitoring & Controlling', link: '/guide/09-monitoring/monitoring-closing' },
-	        { text: '9.2 Project Closure', link: '/guide/09-monitoring/project-closure' },
-	        { text: '9.3 Tools & Templates', link: '/guide/09-monitoring/toolkit' },
-	        { text: '📝 Knowledge Check', link: '/guide/09-monitoring/knowledge-check' }
-	      ]
-	    },
     {
-      text: '🤖 Chapter 10 - AI & Project Management',
+      text: 'Chapter 9 - Monitoring & Closing',
+      collapsed: true,
+      items: [
+        { text: 'Chapter Overview', link: '/guide/09-monitoring/' },
+        { text: '9.1 Monitoring & Controlling', link: '/guide/09-monitoring/monitoring-closing' },
+        { text: '9.2 Project Closure', link: '/guide/09-monitoring/project-closure' },
+        { text: '9.3 Tools & Templates', link: '/guide/09-monitoring/toolkit' },
+        { text: 'Knowledge Check', link: '/guide/09-monitoring/knowledge-check' }
+      ]
+    },
+    {
+      text: 'Chapter 10 - AI & Project Management',
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/10-ai-pm/' },
@@ -155,22 +155,22 @@ export function createSidebar() {
         { text: '10.2 Responsible AI', link: '/guide/10-ai-pm/responsible-ai' },
         { text: '10.3 AI in the Lifecycle', link: '/guide/10-ai-pm/ai-lifecycle' },
         { text: '10.4 Tools & Templates', link: '/guide/10-ai-pm/toolkit' },
-        { text: '📝 Knowledge Check', link: '/guide/10-ai-pm/knowledge-check' }
+        { text: 'Knowledge Check', link: '/guide/10-ai-pm/knowledge-check' }
       ]
     },
     {
-      text: '🎓 Chapter 11 - Exam Preparation',
+      text: 'Chapter 11 - Exam Preparation',
       collapsed: true,
       items: [
         { text: 'Chapter Overview', link: '/guide/11-exam-prep/' },
         { text: '11.1 Exam Strategy', link: '/guide/11-exam-prep/exam-strategy' },
-        { text: '📝 Practice Exam 1', link: '/guide/11-exam-prep/practice-exam-1' },
-        { text: '📝 Practice Exam 2', link: '/guide/11-exam-prep/practice-exam-2' },
-        { text: '📝 Practice Exam 3', link: '/guide/11-exam-prep/practice-exam-3' }
+        { text: 'Practice Exam 1', link: '/guide/11-exam-prep/practice-exam-1' },
+        { text: 'Practice Exam 2', link: '/guide/11-exam-prep/practice-exam-2' },
+        { text: 'Practice Exam 3', link: '/guide/11-exam-prep/practice-exam-3' }
       ]
     },
     {
-      text: '📚 Appendices',
+      text: 'Appendices',
       collapsed: true,
       items: [
         { text: 'Appendix Overview', link: '/guide/appendices/' },
