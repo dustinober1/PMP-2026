@@ -1,28 +1,8 @@
 <script setup>
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
-import QuizComponent from '../../.vitepress/theme/components/QuizComponent.vue'
-
-const examQuiz = [
-  {
-    text: "What is the total number of questions on the 2026 PMP Exam (including unscored questions)?",
-    options: ["200", "185", "175", "180"],
-    correct: 1,
-    explanation: "The exam consists of 185 total questions. 175 are scored, and 10 are unscored pretest questions."
-  },
-  {
-    text: "How much time is allotted for the exam?",
-    options: ["200 Minutes", "230 Minutes", "240 Minutes (4 Hours)", "4.5 Hours"],
-    correct: 2,
-    explanation: "Candidates have 240 minutes (4 hours) to complete the 185 questions."
-  },
-  {
-    text: "Which domain accounts for the highest percentage of questions?",
-    options: ["People (42%)", "Process (50%)", "Business Environment (8%)", "Process (41%)"],
-    correct: 3,
-    explanation: "Process is the largest domain at 41%, followed by People (33%) and Business Environment (26%)."
-  }
-]
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
 </script>
 
 # 1.1 Understanding the 2026 PMP Exam
@@ -278,7 +258,12 @@ PMI has expanded the window for qualifying experience:
 
 ---
 
-## Knowledge Check
-Test your understanding of the exam format!
+## Quick Review
+Flip the cards to test your memory of the key exam stats!
 
-<QuizComponent title="PMP Exam Overview Quiz" :questions="examQuiz" />
+<FlashcardGrid>
+  <Flashcard front="Total Questions" back="185 Questions (175 Scored, 10 Unscored)" />
+  <Flashcard front="Time Limit" back="240 Minutes (4 Hours)" />
+  <Flashcard front="Three Domains" back="People (33%), Process (41%), Business Environment (26%)" />
+  <Flashcard front="Passing Score" back="Not Disclosed (Competency-Based)" />
+</FlashcardGrid>
