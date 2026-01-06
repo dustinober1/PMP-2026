@@ -81,7 +81,7 @@ This tool identifies the "Engagement Gap"—where a stakeholder is versus where 
 ## Quick Review: Classification & Register
 
 <FlashcardCarousel :cards="[
-  { front: `Engagement Gap`, back: `The difference between a stakeholder\\'s \\'Current\\' state and the \\'Desired\\' state required for success.` },
+  { front: `Engagement Gap`, back: `The difference between a stakeholder's 'Current' state and the 'Desired' state required for success.` },
   { front: `Register Sensitivity`, back: `The Stakeholder Register contains private political analysis and must be kept CONFIDENTIAL.` },
   { front: `Outward Influence`, back: `Refers to stakeholders outside the project team, such as vendors, regulators, and end-users.` },
   { front: `Trigger: New Person`, back: `When a new stakeholder is found, the VERY FIRST step is to update the Stakeholder Register.` },

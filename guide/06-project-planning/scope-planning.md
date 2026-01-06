@@ -217,19 +217,23 @@ Good user stories follow the **INVEST** criteria:
 | **S** | Small | Can be completed in one iteration |
 | **T** | Testable | Has clear acceptance criteria |
 
-**User Story Format**:
-```
-As a [role/persona],
-I want [action/feature],
-So that [value/benefit].
-```
+<ConceptGrid>
+  <ConceptCard title="User Story Format">
+    <div style="font-family: monospace; font-size: 0.95em; line-height: 1.6;">
+      As a <strong>[role/persona]</strong>,<br>
+      I want <strong>[action/feature]</strong>,<br>
+      So that <strong>[value/benefit]</strong>.
+    </div>
+  </ConceptCard>
 
-**Example**:
-```
-As a marketing manager,
-I want to export campaign reports to PDF,
-So that I can share results with executives in a professional format.
-```
+  <ConceptCard title="Example">
+    <div style="font-family: monospace; font-size: 0.95em; line-height: 1.6;">
+      As a <strong>marketing manager</strong>,<br>
+      I want to <strong>export campaign reports to PDF</strong>,<br>
+      So that <strong>I can share results with executives</strong>.
+    </div>
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 

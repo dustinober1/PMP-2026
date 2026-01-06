@@ -83,7 +83,7 @@ The Cube adds a critical third dimension to the Power/Interest Grid: **Attitude*
 
 <FlashcardCarousel :cards="[
   { front: `Power (Fast Definition)`, back: `The ability to influence decisions, budget, resources, or final acceptance of deliverables.` },
-  { front: `Salience: Dormant`, back: `A stakeholder with Power only. A \\'sleeping giant\\' who can become decisive if triggered.` },
+  { front: `Salience: Dormant`, back: `A stakeholder with Power only. A 'sleeping giant' who can become decisive if triggered.` },
   { front: `Salience: Demanding`, back: `A stakeholder with Urgency only. High noise but low influence; manage their expectations.` },
   { front: `Trigger: Re-Map`, back: `Re-map stakeholders during phase gates, leadership changes, or major scope shifts.` },
   { front: `What are the four Power/Interest Grid strategies?`, back: `Manage Closely (high/high), Keep Satisfied (high/low), Keep Informed (low/high), Monitor (low/low).` },

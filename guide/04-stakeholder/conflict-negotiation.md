@@ -77,7 +77,7 @@ The exam tests whether you choose a response that preserves **relationships** wh
 
 <FlashcardCarousel :cards="[
   { front: `Ground Rules`, back: `The primary tool for PREVENTING conflict before it starts. Found in the Team Charter.` },
-  { front: `Consensus`, back: `A decision method where everyone can \\'live with\\' the outcome, even if they don\\'t love it.` },
+  { front: `Consensus`, back: `A decision method where everyone can 'live with' the outcome, even if they don't love it.` },
   { front: `Fist-to-Five`, back: `A quick tool for gauging consensus (5 fingers = full support; 1 = major concerns; 0 = block).` },
   { front: `Negotiation Step 1`, back: `Understand the underlying INTERESTS of both parties before proposing options.` },
   { front: `What is BATNA?`, back: `Best Alternative to a Negotiated Agreement - your fallback plan and walk-away point.` },

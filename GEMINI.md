@@ -84,4 +84,5 @@ The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/work
 - **2026-01-06**: Resolved persistent build and parsing errors by standardizing component attributes (replacing special characters like `&` and `/` with `and` and `or`), ensuring proper script setup imports, and removing all redundant `<style>` blocks.
 - **2026-01-06**: Harmonized page headers and numbering across the strategic guide for better navigation and consistency.
 - **2026-01-06**: Verified all 13 updated strategic pages via local development server and consolidated the build process.
+- **2026-01-06**: Replaced generic markdown code blocks for "User Story Format" and "Example" in `guide/06-project-planning/scope-planning.md` with styled `ConceptCard` components within a `ConceptGrid` to improve visual presentation and alignment with design aesthetics.
 - **2026-01-06**: Fixed markdown rendering issues in Chapter 5 (Initiation) by converting `**Bold**` syntax to `<strong>` tags within `ConceptCard` slots in `delivery-strategy.md`, `constraints-assumptions.md`, and `project-charter.md`, specifically addressing the "Stable" rendering issue reported.
