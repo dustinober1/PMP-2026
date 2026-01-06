@@ -8,18 +8,18 @@
 
 ## Question 1
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A healthcare organization is launching a new patient data management system. During the initiation phase, the project manager discovers that the organization's data retention policy (OPA) conflicts with new HIPAA regulations (EEF). The policy requires keeping patient records for 3 years, while HIPAA requires 6 years. The steering committee is pressuring the team to proceed with the project using the internal policy to avoid storage costs.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Document the compliance gap and work with legal/compliance to update the OPA before proceeding
-- **Distractor 1:** Follow the internal OPA policy since it takes precedence in organizational governance
-- **Distractor 2:** Proceed with the 6-year retention and absorb the additional storage cost within the project budget
-- **Distractor 3:** Document the issue in the risk register and continue with the 3-year policy
+- <strong>Correct:</strong> Document the compliance gap and work with legal/compliance to update the OPA before proceeding
+- <strong>Distractor 1:</strong> Follow the internal OPA policy since it takes precedence in organizational governance
+- <strong>Distractor 2:</strong> Proceed with the 6-year retention and absorb the additional storage cost within the project budget
+- <strong>Distractor 3:</strong> Document the issue in the risk register and continue with the 3-year policy
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -37,18 +37,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 2
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A software development project has a charter with the following success criteria: "Launch by Q4 with 99.9% uptime." Midway through execution, the team realizes that achieving 99.9% uptime will require a failover architecture that was not budgeted for. The sponsor suggests lowering the success criterion to 99% to stay within budget, but this change would impact the business case presented to the portfolio board for approval.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST IMPORTANT action for the project manager to take?
 
-- **Correct:** Present the impact to the steering committee for approval before modifying the success criteria
-- **Distractor 1:** Update the project charter to reflect 99% uptime since the sponsor has approved the change
-- **Distractor 2:** Proceed with the 99.9% target and request additional funding through the change control process
-- **Distractor 3:** Document the variance in the issue log and continue planning for 99% to maintain the schedule
+- <strong>Correct:</strong> Present the impact to the steering committee for approval before modifying the success criteria
+- <strong>Distractor 1:</strong> Update the project charter to reflect 99% uptime since the sponsor has approved the change
+- <strong>Distractor 2:</strong> Proceed with the 99.9% target and request additional funding through the change control process
+- <strong>Distractor 3:</strong> Document the variance in the issue log and continue planning for 99% to maintain the schedule
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -66,18 +66,18 @@ What is the MOST IMPORTANT action for the project manager to take?
 
 ## Question 3
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Scrum team is working on a financial services product. During Sprint Review, the Product Owner announces that two features completed in the sprint must be removed due to a new regulatory requirement that was discovered mid-sprint. The team is frustrated because they worked hard on those features. The Scrum Master needs to decide how to handle this situation.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action the Scrum Master should take?
 
-- **Correct:** Facilitate a discussion with the Product Owner about when and how the regulatory requirement was identified
-- **Distractor 1:** Immediately update the product backlog to remove the features and notify stakeholders
-- **Distractor 2:** Escalate to the steering committee to challenge the regulatory requirement
-- **Distractor 3:** Document the wasted effort in the retrospective and plan to recover the velocity
+- <strong>Correct:</strong> Facilitate a discussion with the Product Owner about when and how the regulatory requirement was identified
+- <strong>Distractor 1:</strong> Immediately update the product backlog to remove the features and notify stakeholders
+- <strong>Distractor 2:</strong> Escalate to the steering committee to challenge the regulatory requirement
+- <strong>Distractor 3:</strong> Document the wasted effort in the retrospective and plan to recover the velocity
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -95,18 +95,18 @@ What is the FIRST action the Scrum Master should take?
 
 ## Question 4
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is assigned to lead a cross-functional initiative involving three departments. Each department has its own PMO with different templates and approval processes. The marketing PMO requires a 15-page charter, while IT requires a 3-page agile charter. The project manager needs to decide which governance framework to follow.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST approach for the project manager to take?
 
-- **Correct:** Consult the organizational PMO to determine which template or hybrid approach is appropriate for this initiative
-- **Distractor 1:** Use the marketing department's charter since they are the primary customer for the project
-- **Distractor 2:** Create two separate charters, one for each department's PMO requirements
-- **Distractor 3:** Use the IT department's agile charter to reduce administrative overhead
+- <strong>Correct:</strong> Consult the organizational PMO to determine which template or hybrid approach is appropriate for this initiative
+- <strong>Distractor 1:</strong> Use the marketing department's charter since they are the primary customer for the project
+- <strong>Distractor 2:</strong> Create two separate charters, one for each department's PMO requirements
+- <strong>Distractor 3:</strong> Use the IT department's agile charter to reduce administrative overhead
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -124,18 +124,18 @@ What is the BEST approach for the project manager to take?
 
 ## Question 5
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project uses a phased approach with quarterly gates for strategic milestones and 2-week sprints for tactical delivery. At a gate review, the steering committee approves continuation but adds a requirement for bi-weekly status reports to the PMO. The development team argues this violates Agile principles and adds administrative overhead. The project manager is caught between the governance requirement and team concerns.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST APPROPRIATE action for the project manager to take?
 
-- **Correct:** Work with the PMO to automate reporting from existing sprint artifacts rather than creating new reports
-- **Distractor 1:** Push back to the steering committee on behalf of the team to reject the reporting requirement
-- **Distractor 2:** Require the team to produce the bi-weekly reports as a condition of governance compliance
-- **Distractor 3:** Escalate to the sponsor to mediate between the steering committee and the development team
+- <strong>Correct:</strong> Work with the PMO to automate reporting from existing sprint artifacts rather than creating new reports
+- <strong>Distractor 1:</strong> Push back to the steering committee on behalf of the team to reject the reporting requirement
+- <strong>Distractor 2:</strong> Require the team to produce the bi-weekly reports as a condition of governance compliance
+- <strong>Distractor 3:</strong> Escalate to the sponsor to mediate between the steering committee and the development team
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -153,18 +153,18 @@ What is the MOST APPROPRIATE action for the project manager to take?
 
 ## Question 6
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A construction project charter states: "Complete building by December 31 with zero safety incidents." During execution, a subcontractor has a near-miss accident that violated safety protocols. The project manager stops work on that activity. The subcontractor argues that stopping work will cause the project to miss its December 31 deadline.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST response from the project manager?
 
-- **Correct:** Keep the work stoppage in place until root cause analysis and corrective actions are verified
-- **Distractor 1:** Allow work to resume with increased oversight to maintain the schedule target
-- **Distractor 2:** Document the incident and continue while planning additional safety training
-- **Distractor 3:** Escalate to the sponsor to decide whether schedule or safety takes priority
+- <strong>Correct:</strong> Keep the work stoppage in place until root cause analysis and corrective actions are verified
+- <strong>Distractor 1:</strong> Allow work to resume with increased oversight to maintain the schedule target
+- <strong>Distractor 2:</strong> Document the incident and continue while planning additional safety training
+- <strong>Distractor 3:</strong> Escalate to the sponsor to decide whether schedule or safety takes priority
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -182,18 +182,18 @@ What is the BEST response from the project manager?
 
 ## Question 7
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager discovers that the organization's procurement policy (OPA) requires competitive bidding for all contracts over $50,000. The project needs a specialized consultant that only one vendor can provide, with an estimated cost of $75,000. Going through a competitive bid process would delay the project by 6 weeks. The sponsor suggests splitting the contract into two $37,500 contracts to avoid the bidding requirement.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST ETHICAL action for the project manager to take?
 
-- **Correct:** Document the sole-source justification and seek a formal waiver from the procurement governance body
-- **Distractor 1:** Follow the sponsor's suggestion to split the contract to maintain the project schedule
-- **Distractor 2:** Proceed with the single vendor and document the urgency as justification after the fact
-- **Distractor 3:** Issue a competitive bid anyway despite knowing only one vendor can fulfill the requirement
+- <strong>Correct:</strong> Document the sole-source justification and seek a formal waiver from the procurement governance body
+- <strong>Distractor 1:</strong> Follow the sponsor's suggestion to split the contract to maintain the project schedule
+- <strong>Distractor 2:</strong> Proceed with the single vendor and document the urgency as justification after the fact
+- <strong>Distractor 3:</strong> Issue a competitive bid anyway despite knowing only one vendor can fulfill the requirement
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -211,18 +211,18 @@ What is the MOST ETHICAL action for the project manager to take?
 
 ## Question 8
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A product development team using Kanban has a work-in-progress (WIP) limit of 3 items per column established during startup. The product owner is pressuring the team to increase WIP limits to "get more work through the system" because a key competitor just launched a similar feature. The team is concerned about quality and flow efficiency.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the Scrum Master to take?
 
-- **Correct:** Facilitate a discussion with the product owner about the trade-offs between WIP limits, cycle time, and delivery predictability
-- **Distractor 1:** Increase the WIP limits temporarily to accommodate the product owner's request
-- **Distractor 2:** Maintain the current WIP limits and inform the product owner that the team has decided not to change
-- **Distractor 3:** Escalate the decision to the steering committee as a governance conflict
+- <strong>Correct:</strong> Facilitate a discussion with the product owner about the trade-offs between WIP limits, cycle time, and delivery predictability
+- <strong>Distractor 1:</strong> Increase the WIP limits temporarily to accommodate the product owner's request
+- <strong>Distractor 2:</strong> Maintain the current WIP limits and inform the product owner that the team has decided not to change
+- <strong>Distractor 3:</strong> Escalate the decision to the steering committee as a governance conflict
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -240,18 +240,18 @@ What is the BEST action for the Scrum Master to take?
 
 ## Question 9
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project has a charter with the following measurable success criteria: "Launch with 90% user adoption within 90 days." Six months after launch, adoption is at 65%. The steering committee is demanding an explanation. The project manager reviews the benefits realization plan and discovers that no one was assigned ownership of the adoption metrics post-launch.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST IMPORTANT lesson for the project manager to apply to future projects?
 
-- **Correct:** Ensure the charter includes assignment of benefits ownership and measurement responsibility
-- **Distractor 1:** Request additional budget for post-launch marketing to drive adoption to 90%
-- **Distractor 2:** Revise the success criteria to reflect 65% as the new target
-- **Distractor 3:** Document this as a lessons learned and move on to the next project
+- <strong>Correct:</strong> Ensure the charter includes assignment of benefits ownership and measurement responsibility
+- <strong>Distractor 1:</strong> Request additional budget for post-launch marketing to drive adoption to 90%
+- <strong>Distractor 2:</strong> Revise the success criteria to reflect 65% as the new target
+- <strong>Distractor 3:</strong> Document this as a lessons learned and move on to the next project
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -269,18 +269,18 @@ What is the MOST IMPORTANT lesson for the project manager to apply to future pro
 
 ## Question 10
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A government agency project requires compliance with new accessibility standards (WCAG 2.1 AA). The project charter was approved before these standards became law. The agency's PMO has not yet updated its templates to reference the new requirements. The project manager needs to determine how to proceed.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Update the project's quality management plan to incorporate WCAG 2.1 AA requirements and inform the PMO of the template gap
-- **Distractor 1:** Proceed with the old accessibility standards since the charter predated the new law
-- **Distractor 2:** Submit a change request to update the charter to reflect the new compliance requirements
-- **Distractor 3:** Wait for the PMO to update its templates before incorporating the new requirements
+- <strong>Correct:</strong> Update the project's quality management plan to incorporate WCAG 2.1 AA requirements and inform the PMO of the template gap
+- <strong>Distractor 1:</strong> Proceed with the old accessibility standards since the charter predated the new law
+- <strong>Distractor 2:</strong> Submit a change request to update the charter to reflect the new compliance requirements
+- <strong>Distractor 3:</strong> Wait for the PMO to update its templates before incorporating the new requirements
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -298,18 +298,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 11
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a project status review, the PMO director questions why a project has exceeded its schedule variance threshold of ±10% for three consecutive weeks. The project manager explains that the sponsor verbally approved continuing without corrective action because "the team is making good progress." The PMO director states that verbal approvals don't count and the project should have been escalated.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take going forward?
 
-- **Correct:** Follow the documented escalation path in the charter when thresholds are exceeded, regardless of verbal sponsor assurances
-- **Distractor 1:** Request that the PMO update its policy to allow sponsor discretion in threshold enforcement
-- **Distractor 2:** Document the sponsor's verbal approval and continue monitoring without escalation
-- **Distractor 3:** Ask the sponsor to send written confirmation of the verbal approval to satisfy the PMO
+- <strong>Correct:</strong> Follow the documented escalation path in the charter when thresholds are exceeded, regardless of verbal sponsor assurances
+- <strong>Distractor 1:</strong> Request that the PMO update its policy to allow sponsor discretion in threshold enforcement
+- <strong>Distractor 2:</strong> Document the sponsor's verbal approval and continue monitoring without escalation
+- <strong>Distractor 3:</strong> Ask the sponsor to send written confirmation of the verbal approval to satisfy the PMO
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -327,18 +327,18 @@ What is the BEST action for the project manager to take going forward?
 
 ## Question 12
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Scrum team is developing a medical device application. The Product Owner has identified 50 features in the product backlog with no clear prioritization framework. When asked which features are most critical for regulatory approval, the Product Owner responds "they're all important." The team is struggling to plan sprints without clear success criteria.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the Scrum Master to take?
 
-- **Correct:** Facilitate a workshop with stakeholders to define Minimum Viable Product (MVP) criteria and regulatory dependencies
-- **Distractor 1:** Direct the team to implement the features in the order they appear in the backlog
-- **Distractor 2:** Escalate to the steering committee to demand prioritization from the Product Owner
-- **Distractor 3:** Have the team estimate all 50 features and start with the smallest ones to maximize velocity
+- <strong>Correct:</strong> Facilitate a workshop with stakeholders to define Minimum Viable Product (MVP) criteria and regulatory dependencies
+- <strong>Distractor 1:</strong> Direct the team to implement the features in the order they appear in the backlog
+- <strong>Distractor 2:</strong> Escalate to the steering committee to demand prioritization from the Product Owner
+- <strong>Distractor 3:</strong> Have the team estimate all 50 features and start with the smallest ones to maximize velocity
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -356,18 +356,18 @@ What is the BEST action for the Scrum Master to take?
 
 ## Question 13
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is reviewing the change control log and notices that 15 change requests have been approved in the past month, each within the project manager's approval authority of $10,000. Collectively, these changes represent a $120,000 budget impact that was never presented to the Change Control Board or steering committee. The project manager's authority was intended for minor adjustments, not cumulative scope changes.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Immediately notify the steering committee and CCB of the cumulative impact and request formal approval
-- **Distractor 1:** Continue approving changes within authority since each individual request was within the $10,000 limit
-- **Distractor 2:** Stop approving any further changes and request a charter revision to clarify approval authority
-- **Distractor 3:** Update the risk register to note the budget overrun and continue with remaining changes
+- <strong>Correct:</strong> Immediately notify the steering committee and CCB of the cumulative impact and request formal approval
+- <strong>Distractor 1:</strong> Continue approving changes within authority since each individual request was within the $10,000 limit
+- <strong>Distractor 2:</strong> Stop approving any further changes and request a charter revision to clarify approval authority
+- <strong>Distractor 3:</strong> Update the risk register to note the budget overrun and continue with remaining changes
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -385,18 +385,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 14
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project has established an escalation threshold: any issue that impacts the project schedule by more than 2 weeks must be escalated to the sponsor. A critical vendor delays delivery by 10 days. The project manager calculates that through fast-tracking, the team can recover 5 days, leaving a net impact of 5 days—within the threshold. However, fast-tracking requires adding overtime which exceeds the budget's contingency reserve.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST APPROPRIATE action for the project manager to take?
 
-- **Correct:** Escalate to the sponsor since the recovery method requires exceeding contingency reserves
-- **Distractor 1:** Implement the fast-tracking plan without escalation since the net schedule impact is within threshold
-- **Distractor 2:** Request additional budget from the PMO to cover the overtime costs
-- **Distractor 3:** Accept the 10-day delay and escalate since it exceeds the 2-week threshold
+- <strong>Correct:</strong> Escalate to the sponsor since the recovery method requires exceeding contingency reserves
+- <strong>Distractor 1:</strong> Implement the fast-tracking plan without escalation since the net schedule impact is within threshold
+- <strong>Distractor 2:</strong> Request additional budget from the PMO to cover the overtime costs
+- <strong>Distractor 3:</strong> Accept the 10-day delay and escalate since it exceeds the 2-week threshold
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -414,18 +414,18 @@ What is the MOST APPROPRIATE action for the project manager to take?
 
 ## Question 15
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project charter specifies "reduce customer support call volume by 30%." At project closure, the project manager reports success because call volume decreased by 35%. Three months later, the operations manager discovers that call volume actually increased, but the project team had measured a different metric (call duration instead of call count) to show success.
 
-**Question:**
+<strong>Question:</strong>
 What is the PRIMARY governance failure in this scenario?
 
-- **Correct:** The success criteria in the charter were not defined with specific, measurable metrics
-- **Distractor 1:** The project manager should have involved operations earlier in the measurement process
-- **Distractor 2:** The steering committee should have required more frequent status reports during execution
-- **Distractor 3:** The PMO should have provided a template for post-implementation measurement
+- <strong>Correct:</strong> The success criteria in the charter were not defined with specific, measurable metrics
+- <strong>Distractor 1:</strong> The project manager should have involved operations earlier in the measurement process
+- <strong>Distractor 2:</strong> The steering committee should have required more frequent status reports during execution
+- <strong>Distractor 3:</strong> The PMO should have provided a template for post-implementation measurement
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -443,18 +443,18 @@ What is the PRIMARY governance failure in this scenario?
 
 ## Question 16
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A product owner for a financial application wants to collect user behavioral data to train a machine learning model. The development team raises concerns about GDPR consent requirements. The product owner argues that since the data is internal and the model improves the product, explicit consent isn't needed. The Scrum Master is unsure who has authority to interpret GDPR requirements.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the Scrum Master to take?
 
-- **Correct:** Pause the feature and request guidance from legal/compliance on GDPR interpretation
-- **Distractor 1:** Allow the product owner to proceed since they are accountable for product decisions
-- **Distractor 2:** Conduct a team vote on whether the feature complies with data privacy requirements
-- **Distractor 3:** Document the team's concerns in the sprint backlog and proceed with development
+- <strong>Correct:</strong> Pause the feature and request guidance from legal/compliance on GDPR interpretation
+- <strong>Distractor 1:</strong> Allow the product owner to proceed since they are accountable for product decisions
+- <strong>Distractor 2:</strong> Conduct a team vote on whether the feature complies with data privacy requirements
+- <strong>Distractor 3:</strong> Document the team's concerns in the sprint backlog and proceed with development
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -472,18 +472,18 @@ What is the BEST action for the Scrum Master to take?
 
 ## Question 17
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager receives a change request that requires a $25,000 budget increase. The charter specifies that changes under $50,000 can be approved by the project manager. However, this change would also push the project completion date by 3 weeks, missing a contractual deadline with penalties. The project manager is unsure if they have authority to approve a schedule-impacting change.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST course of action for the project manager to take?
 
-- **Correct:** Escalate to the steering committee since the change impacts a contractual milestone
-- **Distractor 1:** Approve the change since the budget impact is within the $50,000 authority threshold
-- **Distractor 2:** Reject the change because it misses the contractual deadline
-- **Distractor 3:** Request that the change submitter modify the request to avoid schedule impact
+- <strong>Correct:</strong> Escalate to the steering committee since the change impacts a contractual milestone
+- <strong>Distractor 1:</strong> Approve the change since the budget impact is within the $50,000 authority threshold
+- <strong>Distractor 2:</strong> Reject the change because it misses the contractual deadline
+- <strong>Distractor 3:</strong> Request that the change submitter modify the request to avoid schedule impact
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -501,18 +501,18 @@ What is the BEST course of action for the project manager to take?
 
 ## Question 18
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project uses a stage-gate governance model with formal reviews at the end of each phase. At the end of the Design phase, the gate review committee approves the deliverables but adds a requirement: "All future design changes must be reviewed by the enterprise architecture board." The project manager argues this adds significant overhead and wasn't in the original charter.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST APPROPRIATE action for the project manager to take?
 
-- **Correct:** Update the project management plan to reflect the new governance requirement and communicate to the team
-- **Distractor 1:** Push back on the requirement since it wasn't in the original charter
-- **Distractor 2:** Document the requirement but implement it only for "major" design changes to minimize overhead
-- **Distractor 3:** Request that the steering committee clarify whether this requirement applies to this project
+- <strong>Correct:</strong> Update the project management plan to reflect the new governance requirement and communicate to the team
+- <strong>Distractor 1:</strong> Push back on the requirement since it wasn't in the original charter
+- <strong>Distractor 2:</strong> Document the requirement but implement it only for "major" design changes to minimize overhead
+- <strong>Distractor 3:</strong> Request that the steering committee clarify whether this requirement applies to this project
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -530,18 +530,18 @@ What is the MOST APPROPRIATE action for the project manager to take?
 
 ## Question 19
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A multinational project spans three countries with different data privacy laws. The PMO provides a standard privacy policy template based on GDPR (European Union regulations). However, the project also processes data from California (CCPA) and China (PIPL), which have different consent requirements. The project manager needs to determine how to handle the conflicting requirements.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST approach for the project manager to take?
 
-- **Correct:** Work with legal/compliance to develop a consolidated privacy approach that meets the strictest requirements across all jurisdictions
-- **Distractor 1:** Follow the GDPR template since it's the PMO standard and represents the most comprehensive regulation
-- **Distractor 2:** Create separate privacy approaches for each jurisdiction and document this in the risk register
-- **Distractor 3:** Request that the PMO update the template to account for multi-jurisdictional projects
+- <strong>Correct:</strong> Work with legal/compliance to develop a consolidated privacy approach that meets the strictest requirements across all jurisdictions
+- <strong>Distractor 1:</strong> Follow the GDPR template since it's the PMO standard and represents the most comprehensive regulation
+- <strong>Distractor 2:</strong> Create separate privacy approaches for each jurisdiction and document this in the risk register
+- <strong>Distractor 3:</strong> Request that the PMO update the template to account for multi-jurisdictional projects
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -559,18 +559,18 @@ What is the BEST approach for the project manager to take?
 
 ## Question 20
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Scrum team's velocity has dropped 40% over three sprints. The product owner demands that the Scrum Master "fix the team's performance" and threatens to replace team members. The Scrum Master's analysis reveals that the drop is caused by the product owner adding spike stories to research a complex technical requirement, but these spikes are being counted in velocity calculations without delivering value.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the Scrum Master to take?
 
-- **Correct:** Coach the product owner on the difference between delivery velocity and research spikes, and adjust metrics accordingly
-- **Distractor 1:** Accept the product owner's demand and pressure the team to increase velocity
-- **Distractor 2:** Remove the spike stories from velocity calculations without telling the product owner
-- **Distractor 3:** Escalate to the steering committee that the product owner is misusing agile metrics
+- <strong>Correct:</strong> Coach the product owner on the difference between delivery velocity and research spikes, and adjust metrics accordingly
+- <strong>Distractor 1:</strong> Accept the product owner's demand and pressure the team to increase velocity
+- <strong>Distractor 2:</strong> Remove the spike stories from velocity calculations without telling the product owner
+- <strong>Distractor 3:</strong> Escalate to the steering committee that the product owner is misusing agile metrics
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -588,18 +588,18 @@ What is the BEST action for the Scrum Master to take?
 
 ## Question 21
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project charter includes the success criterion: "Achieve ISO 27001 certification by Q3." During planning, the project manager discovers that ISO certification requires a 12-month audit trail, but the project timeline is only 9 months. The project manager raises this issue to the sponsor, who responds: "Just get as much of the certification process done as possible. We'll figure out the rest later."
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Request that the steering committee reassess the success criteria given the certification timeline constraint
-- **Distractor 1:** Proceed with the 9-month plan and document the timeline constraint in the assumptions
-- **Distractor 2:** Extend the project timeline to 12 months to accommodate certification requirements
-- **Distractor 3:** Pursue a different certification that can be achieved within 9 months
+- <strong>Correct:</strong> Request that the steering committee reassess the success criteria given the certification timeline constraint
+- <strong>Distractor 1:</strong> Proceed with the 9-month plan and document the timeline constraint in the assumptions
+- <strong>Distractor 2:</strong> Extend the project timeline to 12 months to accommodate certification requirements
+- <strong>Distractor 3:</strong> Pursue a different certification that can be achieved within 9 months
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -617,18 +617,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 22
 
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager learns that a functional manager is pressuring a team member to work on a non-project task during project hours. The charter explicitly authorizes the project manager to "assign and reassign team members within the project" but doesn't specifically address protecting team time from functional requests. The functional manager argues that the charter gives the PM authority over the project, not the team member's time.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Work with the functional manager and sponsor to clarify resource allocation governance in the charter
-- **Distractor 1:** Redirect the team member to ignore the functional manager's request based on charter authority
-- **Distractor 2:** Report the functional manager to the PMO for violating project governance
-- **Distractor 3:** Allow the team member to split time and adjust the project schedule accordingly
+- <strong>Correct:</strong> Work with the functional manager and sponsor to clarify resource allocation governance in the charter
+- <strong>Distractor 1:</strong> Redirect the team member to ignore the functional manager's request based on charter authority
+- <strong>Distractor 2:</strong> Report the functional manager to the PMO for violating project governance
+- <strong>Distractor 3:</strong> Allow the team member to split time and adjust the project schedule accordingly
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -646,18 +646,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 23
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project is chartered to "replace the legacy accounting system." Six months into execution, the steering committee learns that a new accounting standard will take effect before the project completes, requiring significant changes to requirements. The committee asks the project manager to assess the impact, but also notes that the charter's success criteria didn't specify compliance with the new standard since it wasn't known at initiation.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST response from the project manager?
 
-- **Correct:** Update the project scope to incorporate the new standard and present the impact to the steering committee for decision
-- **Distractor 1:** Note that the charter doesn't require compliance with the new standard, so continue with the original scope
-- **Distractor 2:** Request a charter amendment to add the new standard to the success criteria
-- **Distractor 3:** Pause the project until the steering committee clarifies whether to incorporate the new standard
+- <strong>Correct:</strong> Update the project scope to incorporate the new standard and present the impact to the steering committee for decision
+- <strong>Distractor 1:</strong> Note that the charter doesn't require compliance with the new standard, so continue with the original scope
+- <strong>Distractor 2:</strong> Request a charter amendment to add the new standard to the success criteria
+- <strong>Distractor 3:</strong> Pause the project until the steering committee clarifies whether to incorporate the new standard
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -675,18 +675,18 @@ What is the BEST response from the project manager?
 
 ## Question 24
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A product owner for a healthcare app adds a user story: "As a patient, I want to message my doctor directly." The development team raises concerns that this feature may create HIPAA compliance issues because messages would contain protected health information. The product owner argues that competitors have this feature and it's critical for market competitiveness.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the Scrum Master to take?
 
-- **Correct:** Facilitate a discussion with the product owner and compliance/legal to determine if the feature can be implemented compliantly
-- **Distractor 1:** Allow the team to implement the feature since the product owner has prioritized it
-- **Distractor 2:** Remove the story from the backlog until the product owner provides compliance documentation
-- **Distractor 3:** Have the team implement the feature with basic security and defer full HIPAA compliance to a later sprint
+- <strong>Correct:</strong> Facilitate a discussion with the product owner and compliance/legal to determine if the feature can be implemented compliantly
+- <strong>Distractor 1:</strong> Allow the team to implement the feature since the product owner has prioritized it
+- <strong>Distractor 2:</strong> Remove the story from the backlog until the product owner provides compliance documentation
+- <strong>Distractor 3:</strong> Have the team implement the feature with basic security and defer full HIPAA compliance to a later sprint
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -704,18 +704,18 @@ What is the BEST action for the Scrum Master to take?
 
 ## Question 25
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager discovers that the organization's gift policy prohibits accepting items over $50 in value. A vendor sends the project manager a $200 gift basket as a "thank you" for smooth project execution. The project manager's peers suggest keeping the gift since "everyone does it" and the vendor won't know if it's returned.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST ETHICAL action for the project manager to take?
 
-- **Correct:** Return the gift to the vendor with a polite explanation of the gift policy
-- **Distractor 1:** Accept the gift but disclose it in the project's next status report
-- **Distractor 2:** Share the gift with the entire project team so no individual receives the full value
-- **Distractor 3:** Donate the gift to a charity and claim the tax deduction
+- <strong>Correct:</strong> Return the gift to the vendor with a polite explanation of the gift policy
+- <strong>Distractor 1:</strong> Accept the gift but disclose it in the project's next status report
+- <strong>Distractor 2:</strong> Share the gift with the entire project team so no individual receives the full value
+- <strong>Distractor 3:</strong> Donate the gift to a charity and claim the tax deduction
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -733,18 +733,18 @@ What is the MOST ETHICAL action for the project manager to take?
 
 ## Question 26
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project's charter specifies that scope changes impacting the schedule by more than 2 weeks require steering committee approval. The team discovers a more efficient technical approach that would reduce the schedule by 3 weeks but requires a scope change. The project manager argues that since the impact is positive (schedule reduction), it doesn't require escalation.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Present the approach to the steering committee since the scope change threshold was exceeded
-- **Distractor 1:** Approve the scope change internally since the impact is beneficial to the project
-- **Distractor 2:** Implement the change incrementally to avoid triggering the 2-week threshold on any single change
-- **Distractor 3:** Request clarification from the PMO on whether positive impacts require the same approval process
+- <strong>Correct:</strong> Present the approach to the steering committee since the scope change threshold was exceeded
+- <strong>Distractor 1:</strong> Approve the scope change internally since the impact is beneficial to the project
+- <strong>Distractor 2:</strong> Implement the change incrementally to avoid triggering the 2-week threshold on any single change
+- <strong>Distractor 3:</strong> Request clarification from the PMO on whether positive impacts require the same approval process
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -762,18 +762,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 27
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A government project includes the charter requirement: "Maintain CMMI Level 3 certification throughout the project." The organization loses its CMMI certification due to issues in other departments, though this project remains compliant. The sponsor suggests keeping the requirement in the charter since "we'll recertify soon."
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Update the charter to reflect the actual certification status and communicate to stakeholders
-- **Distractor 1:** Keep the requirement in the charter since the project itself is CMMI compliant
-- **Distractor 2:** Document the gap between charter and reality in the risk register
-- **Distractor 3:** Request an exception from the steering committee to maintain the requirement despite organizational status
+- <strong>Correct:</strong> Update the charter to reflect the actual certification status and communicate to stakeholders
+- <strong>Distractor 1:</strong> Keep the requirement in the charter since the project itself is CMMI compliant
+- <strong>Distractor 2:</strong> Document the gap between charter and reality in the risk register
+- <strong>Distractor 3:</strong> Request an exception from the steering committee to maintain the requirement despite organizational status
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -791,18 +791,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 28
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Scrum team is working on a project that must comply with SOC 2 Type II certification. During sprint planning, the security officer demands that all user stories include detailed security acceptance criteria. The product owner argues this slows down the team and that security can be "tested in" later. The Scrum Master is caught between the security requirement and velocity concerns.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the Scrum Master to take?
 
-- **Correct:** Support the security officer's requirement since SOC 2 compliance is a non-negotiable constraint
-- **Distractor 1:** Facilitate a compromise where security is tested in every other sprint
-- **Distractor 2:** Ask the security officer to attend sprint reviews rather than planning
-- **Distractor 3:** Escalate to the product owner's manager to resolve the conflict
+- <strong>Correct:</strong> Support the security officer's requirement since SOC 2 compliance is a non-negotiable constraint
+- <strong>Distractor 1:</strong> Facilitate a compromise where security is tested in every other sprint
+- <strong>Distractor 2:</strong> Ask the security officer to attend sprint reviews rather than planning
+- <strong>Distractor 3:</strong> Escalate to the product owner's manager to resolve the conflict
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -820,18 +820,18 @@ What is the BEST action for the Scrum Master to take?
 
 ## Question 29
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project charter authorizes the project manager to "approve expenditures up to $15,000 without additional approval." The project manager has been consistently approving purchases at the $14,500 level to avoid triggering additional oversight. A new PMO auditor questions this pattern and suggests it may violate procurement governance principles.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Review the intent of the approval threshold and adjust practices to align with governance principles
-- **Distractor 1:** Continue the current practice since each individual approval is within the $15,000 authority
-- **Distractor 2:** Request that the PMO clarify the threshold in writing
-- **Distractor 3:** Bundle purchases to stay under the threshold while meeting project needs
+- <strong>Correct:</strong> Review the intent of the approval threshold and adjust practices to align with governance principles
+- <strong>Distractor 1:</strong> Continue the current practice since each individual approval is within the $15,000 authority
+- <strong>Distractor 2:</strong> Request that the PMO clarify the threshold in writing
+- <strong>Distractor 3:</strong> Bundle purchases to stay under the threshold while meeting project needs
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -849,18 +849,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 30
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project's success criteria include "Achieve net promoter score of 50+ within 90 days of launch." At launch, the product is excellent, but the operations team fails to implement the customer feedback collection system specified in the project plan. Ninety days later, no NPS data exists, so success cannot be measured. The steering committee asks the project manager why this wasn't escalated.
 
-**Question:**
+<strong>Question:</strong>
 What is the PRIMARY governance failure in this scenario?
 
-- **Correct:** The success criteria should have assigned ownership of post-launch metrics to a specific role
-- **Distractor 1:** The project manager should have escalated the operations team's failure to implement the collection system
-- **Distractor 2:** The steering committee should have required more frequent status reports on NPS collection
-- **Distractor 3:** The PMO should have provided better oversight of the transition to operations
+- <strong>Correct:</strong> The success criteria should have assigned ownership of post-launch metrics to a specific role
+- <strong>Distractor 1:</strong> The project manager should have escalated the operations team's failure to implement the collection system
+- <strong>Distractor 2:</strong> The steering committee should have required more frequent status reports on NPS collection
+- <strong>Distractor 3:</strong> The PMO should have provided better oversight of the transition to operations
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -878,18 +878,18 @@ What is the PRIMARY governance failure in this scenario?
 
 ## Question 31
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a pharmaceutical trial project. The charter requires FDA compliance at all stages. During execution, a team member suggests a faster testing approach that would accelerate the timeline but doesn't fully align with FDA guidelines. The scientific lead supports the approach as "scientifically valid" even if not explicitly FDA-approved.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Reject the approach until FDA compliance is verified through the appropriate channels
-- **Distractor 1:** Allow a small pilot to test the faster approach while seeking FDA guidance
-- **Distractor 2:** Escalate to the steering committee to decide between speed and compliance
-- **Distractor 3:** Document the team member's suggestion in the risk register and continue with the FDA-approved approach
+- <strong>Correct:</strong> Reject the approach until FDA compliance is verified through the appropriate channels
+- <strong>Distractor 1:</strong> Allow a small pilot to test the faster approach while seeking FDA guidance
+- <strong>Distractor 2:</strong> Escalate to the steering committee to decide between speed and compliance
+- <strong>Distractor 3:</strong> Document the team member's suggestion in the risk register and continue with the FDA-approved approach
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -907,18 +907,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 32
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A product owner wants to use customer photos in marketing materials. The development team notes that the terms of service don't explicitly grant this right. The product owner argues that since customers uploaded the photos, implicit consent exists. The Scrum Master is concerned about privacy compliance.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the Scrum Master to take?
 
-- **Correct:** Request legal review of whether the terms of service permit the proposed marketing use
-- **Distractor 1:** Support the product owner since standard terms usually permit marketing use
-- **Distractor 2:** Ask the product owner to obtain explicit consent from customers before using their photos
-- **Distractor 3:** Add a user story to update the terms of service for future uploads
+- <strong>Correct:</strong> Request legal review of whether the terms of service permit the proposed marketing use
+- <strong>Distractor 1:</strong> Support the product owner since standard terms usually permit marketing use
+- <strong>Distractor 2:</strong> Ask the product owner to obtain explicit consent from customers before using their photos
+- <strong>Distractor 3:</strong> Add a user story to update the terms of service for future uploads
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -936,18 +936,18 @@ What is the BEST action for the Scrum Master to take?
 
 ## Question 33
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project charter includes the success criterion: "Reduce carbon emissions by 25% compared to baseline." At project closure, the project manager reports 26% reduction and declares success. However, an external audit reveals that the baseline measurement was calculated incorrectly, and actual reduction was only 18%. The project manager argues that the charter defined the baseline, so the project succeeded by that definition.
 
-**Question:**
+<strong>Question:</strong>
 What is the PRIMARY governance issue in this scenario?
 
-- **Correct:** The charter should have specified how the baseline would be measured and verified
-- **Distractor 1:** The external auditor should have been involved at charter development to define the baseline
-- **Distractor 2:** The steering committee should have required third-party verification of the baseline
-- **Distractor 3:** The PMO should have provided a standard template for environmental metrics
+- <strong>Correct:</strong> The charter should have specified how the baseline would be measured and verified
+- <strong>Distractor 1:</strong> The external auditor should have been involved at charter development to define the baseline
+- <strong>Distractor 2:</strong> The steering committee should have required third-party verification of the baseline
+- <strong>Distractor 3:</strong> The PMO should have provided a standard template for environmental metrics
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -965,18 +965,18 @@ What is the PRIMARY governance issue in this scenario?
 
 ## Question 34
 
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project has a directive PMO that requires all projects to use its standardized status report template. The project manager finds that the template doesn't capture Agile metrics like velocity and cycle time that are relevant to this project. The project manager considers submitting two reports—the PMO template plus an Agile supplement.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Work with the PMO to incorporate Agile metrics into the standard template for hybrid projects
-- **Distractor 1:** Submit both the required PMO template and the Agile supplement report
-- **Distractor 2:** Use only the PMO template since directive PMO requirements are mandatory
-- **Distractor 3:** Ask the steering committee to exempt this project from the PMO template requirement
+- <strong>Correct:</strong> Work with the PMO to incorporate Agile metrics into the standard template for hybrid projects
+- <strong>Distractor 1:</strong> Submit both the required PMO template and the Agile supplement report
+- <strong>Distractor 2:</strong> Use only the PMO template since directive PMO requirements are mandatory
+- <strong>Distractor 3:</strong> Ask the steering committee to exempt this project from the PMO template requirement
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -994,18 +994,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 35
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project charter authorizes the project manager to approve scope changes "with schedule impact under 2 weeks." A requested change would delay the schedule by 12 days (under 2 weeks), but the project manager knows this will push the project past a key stakeholder's desired date. The stakeholder is pressuring the project manager to reject the change to protect their timeline.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Approve the change since it's within the chartered authority, and communicate the schedule impact to all stakeholders
-- **Distractor 1:** Reject the change to accommodate the stakeholder's preferred timeline
-- **Distractor 2:** Escalate to the steering committee to decide between the change and the stakeholder's timeline
-- **Distractor 3:** Negotiate with the requestor to reduce the change's scope to fit within the stakeholder's timeline
+- <strong>Correct:</strong> Approve the change since it's within the chartered authority, and communicate the schedule impact to all stakeholders
+- <strong>Distractor 1:</strong> Reject the change to accommodate the stakeholder's preferred timeline
+- <strong>Distractor 2:</strong> Escalate to the steering committee to decide between the change and the stakeholder's timeline
+- <strong>Distractor 3:</strong> Negotiate with the requestor to reduce the change's scope to fit within the stakeholder's timeline
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1023,18 +1023,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 36
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Scrum team is working on a product that processes payments. During a retrospective, the team discovers they've been storing payment card data in violation of PCI DSS requirements. The product owner was unaware of this requirement and argues that fixing it would delay planned features. The Scrum Master needs to decide how to handle this compliance gap.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the Scrum Master to take?
 
-- **Correct:** Stop work on all other features until the PCI DSS violation is corrected
-- **Distractor 1:** Add a user story to address PCI DSS compliance in the next sprint
-- **Distractor 2:** Escalate to the steering committee to decide whether to fix the violation or continue with planned features
-- **Distractor 3:** Document the violation in the risk register and continue with planned features
+- <strong>Correct:</strong> Stop work on all other features until the PCI DSS violation is corrected
+- <strong>Distractor 1:</strong> Add a user story to address PCI DSS compliance in the next sprint
+- <strong>Distractor 2:</strong> Escalate to the steering committee to decide whether to fix the violation or continue with planned features
+- <strong>Distractor 3:</strong> Document the violation in the risk register and continue with planned features
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1052,18 +1052,18 @@ What is the FIRST action for the Scrum Master to take?
 
 ## Question 37
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager learns that a team member is the sibling of a vendor being considered for a major contract. The team member offers to recuse themselves from the decision, but the project manager has the final authority on vendor selection per the charter. The project manager considers allowing the team member to participate since they've offered to recuse if needed.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST ETHICAL action for the project manager to take?
 
-- **Correct:** Require the team member to recuse themselves from all vendor selection activities
-- **Distractor 1:** Allow participation but require the team member to disclose the relationship before providing input
-- **Distractor 2:** Document the relationship and allow participation since the team member offered to recuse
-- **Distractor 3:** Escalate to the PMO for guidance on whether recusal is necessary
+- <strong>Correct:</strong> Require the team member to recuse themselves from all vendor selection activities
+- <strong>Distractor 1:</strong> Allow participation but require the team member to disclose the relationship before providing input
+- <strong>Distractor 2:</strong> Document the relationship and allow participation since the team member offered to recuse
+- <strong>Distractor 3:</strong> Escalate to the PMO for guidance on whether recusal is necessary
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1081,18 +1081,18 @@ What is the MOST ETHICAL action for the project manager to take?
 
 ## Question 38
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project's charter specifies a $1M budget with 10% contingency. At 80% complete, the project has spent $920K including $80K of contingency. The remaining work requires an additional $150K, which would exceed both the original budget and the contingency. The project manager considers re-baselining the budget.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Present the situation to the steering committee with options for re-baselining or scope reduction
-- **Distractor 1:** Use the remaining contingency to cover as much of the overrun as possible
-- **Distractor 2:** Re-baseline the budget without steering committee approval since the project is 80% complete
-- **Distractor 3:** Request additional funds from the PMO as a simple budget transfer
+- <strong>Correct:</strong> Present the situation to the steering committee with options for re-baselining or scope reduction
+- <strong>Distractor 1:</strong> Use the remaining contingency to cover as much of the overrun as possible
+- <strong>Distractor 2:</strong> Re-baseline the budget without steering committee approval since the project is 80% complete
+- <strong>Distractor 3:</strong> Request additional funds from the PMO as a simple budget transfer
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1110,18 +1110,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 39
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project charter includes the success criterion: "Achieve customer satisfaction score of 4.5/5.0." The project delivers a high-quality product, but the customer satisfaction survey is administered during a service outage unrelated to the project, resulting in a score of 3.8/5.0. The project manager argues that the score doesn't reflect project quality and should be adjusted.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the governance body to take?
 
-- **Correct:** Acknowledge the external factor and consider whether the success criterion remains appropriate under the circumstances
-- **Distractor 1:** Adjust the satisfaction score to 4.5/5.0 to reflect the actual project quality delivered
-- **Distractor 2:** Declare the project a failure since the criterion wasn't met
-- **Distractor 3:** Require a new customer satisfaction survey to be administered
+- <strong>Correct:</strong> Acknowledge the external factor and consider whether the success criterion remains appropriate under the circumstances
+- <strong>Distractor 1:</strong> Adjust the satisfaction score to 4.5/5.0 to reflect the actual project quality delivered
+- <strong>Distractor 2:</strong> Declare the project a failure since the criterion wasn't met
+- <strong>Distractor 3:</strong> Require a new customer satisfaction survey to be administered
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1139,18 +1139,18 @@ What is the BEST action for the governance body to take?
 
 ## Question 40
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A product owner for a fitness app wants to sell user workout data to insurance companies. The development team notes that the privacy policy says user data "will never be sold." The product owner argues that the policy can be updated and users can opt-out. The Scrum Master is concerned about retroactively changing privacy terms.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the Scrum Master to take?
 
-- **Correct:** Request legal review of whether retroactive privacy policy changes are permissible under applicable regulations
-- **Distractor 1:** Support the product owner since opt-out provides user choice
-- **Distractor 2:** Block the feature since it violates the current privacy policy
-- **Distractor 3:** Add a user story to update the privacy policy before implementing the feature
+- <strong>Correct:</strong> Request legal review of whether retroactive privacy policy changes are permissible under applicable regulations
+- <strong>Distractor 1:</strong> Support the product owner since opt-out provides user choice
+- <strong>Distractor 2:</strong> Block the feature since it violates the current privacy policy
+- <strong>Distractor 3:</strong> Add a user story to update the privacy policy before implementing the feature
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1168,18 +1168,18 @@ What is the BEST action for the Scrum Master to take?
 
 ## Question 41
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager learns of a new environmental regulation that will affect the project's waste disposal practices. The regulation takes effect in 2 months, but the current project phase won't generate waste for 4 months. The project manager considers waiting to address the regulation until it becomes applicable.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Update the project management plan now to incorporate the new requirements before they take effect
-- **Distractor 1:** Document the regulation in the risk register and address it when waste disposal begins
-- **Distractor 2:** Continue with current practices since the regulation doesn't apply to current project work
-- **Distractor 3:** Request clarification from the environmental agency on how the regulation applies to the project
+- <strong>Correct:</strong> Update the project management plan now to incorporate the new requirements before they take effect
+- <strong>Distractor 1:</strong> Document the regulation in the risk register and address it when waste disposal begins
+- <strong>Distractor 2:</strong> Continue with current practices since the regulation doesn't apply to current project work
+- <strong>Distractor 3:</strong> Request clarification from the environmental agency on how the regulation applies to the project
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1197,18 +1197,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 42
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project's charter includes the success criterion: "Deliver 100 user stories." The product owner argues that complexity varies across stories and that delivered value is more important than story count. Near the end of the project, the team has delivered 85 high-complexity stories that provide substantial value. The product owner declares success based on value delivered, not story count.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Present both the story count metric and value delivered to the steering committee for success assessment
-- **Distractor 1:** Declare the project successful since value was delivered even if story count wasn't achieved
-- **Distractor 2:** Require the team to deliver 15 additional simple stories to meet the 100-story criterion
-- **Distractor 3:** Update the charter to reflect "value delivered" rather than "story count" as the success criterion
+- <strong>Correct:</strong> Present both the story count metric and value delivered to the steering committee for success assessment
+- <strong>Distractor 1:</strong> Declare the project successful since value was delivered even if story count wasn't achieved
+- <strong>Distractor 2:</strong> Require the team to deliver 15 additional simple stories to meet the 100-story criterion
+- <strong>Distractor 3:</strong> Update the charter to reflect "value delivered" rather than "story count" as the success criterion
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1226,18 +1226,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 43
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager receives an email from a vendor offering a "consulting fee" if the project manager selects their product. The email notes that "this is standard industry practice" and that the fee would be paid personally, not to the company. The project manager is tempted by the extra income.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST ETHICAL action for the project manager to take?
 
-- **Correct:** Decline the offer and report the vendor's solicitation to the procurement department
-- **Distractor 1:** Decline the offer but do not report the vendor to maintain a good relationship
-- **Distractor 2:** Accept the offer since it's personal income, not a company payment
-- **Distractor 3:** Disclose the offer to the sponsor and ask for guidance
+- <strong>Correct:</strong> Decline the offer and report the vendor's solicitation to the procurement department
+- <strong>Distractor 1:</strong> Decline the offer but do not report the vendor to maintain a good relationship
+- <strong>Distractor 2:</strong> Accept the offer since it's personal income, not a company payment
+- <strong>Distractor 3:</strong> Disclose the offer to the sponsor and ask for guidance
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1255,18 +1255,18 @@ What is the MOST ETHICAL action for the project manager to take?
 
 ## Question 44
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Scrum team discovers that a third-party library they've been using has a critical security vulnerability. The product owner wants to wait until the next sprint to address it because fixing it would delay the current sprint's commitment. The Scrum Master is concerned about the security risk of waiting 2 weeks.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the Scrum Master to take?
 
-- **Correct:** Stop using the vulnerable library immediately, even if it means reducing the sprint commitment
-- **Distractor 1:** Continue using the library for this sprint and plan to fix it in the next sprint
-- **Distractor 2:** Escalate to the product owner's manager to get approval for an immediate fix
-- **Distractor 3:** Add the security fix as a high-priority item in the next sprint backlog
+- <strong>Correct:</strong> Stop using the vulnerable library immediately, even if it means reducing the sprint commitment
+- <strong>Distractor 1:</strong> Continue using the library for this sprint and plan to fix it in the next sprint
+- <strong>Distractor 2:</strong> Escalate to the product owner's manager to get approval for an immediate fix
+- <strong>Distractor 3:</strong> Add the security fix as a high-priority item in the next sprint backlog
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1284,18 +1284,18 @@ What is the BEST action for the Scrum Master to take?
 
 ## Question 45
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project charter specifies that the project manager "has authority to approve changes costing under $10,000." A change request comes in with an estimated cost of $9,500, but the project manager suspects the estimate is artificially low to avoid the $10,000 threshold. The actual cost will likely be $12,000.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Reject the estimate as insufficient and require a more detailed cost analysis before approval
-- **Distractor 1:** Approve the change since the submitted estimate is under the $10,000 threshold
-- **Distractor 2:** Escalate to the CCB given the suspicion that the true cost exceeds the threshold
-- **Distractor 3:** Approve with a note that additional funding will be required if costs exceed $10,000
+- <strong>Correct:</strong> Reject the estimate as insufficient and require a more detailed cost analysis before approval
+- <strong>Distractor 1:</strong> Approve the change since the submitted estimate is under the $10,000 threshold
+- <strong>Distractor 2:</strong> Escalate to the CCB given the suspicion that the true cost exceeds the threshold
+- <strong>Distractor 3:</strong> Approve with a note that additional funding will be required if costs exceed $10,000
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1313,18 +1313,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 46
 
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project has a controlling PMO that requires all projects to use its risk register template. The project manager finds the template doesn't accommodate Agile-specific risks like "team burnout from excessive sprint velocity." The project manager considers maintaining two risk registers—the PMO template for reporting and an Agile register for internal use.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Use the PMO template but add Agile-specific risk categories in the "notes" or "custom fields" sections
-- **Distractor 1:** Maintain two separate risk registers to satisfy both PMO and Agile needs
-- **Distractor 2:** Use only the PMO template since controlling PMO requirements are mandatory
-- **Distractor 3:** Request an exemption from the PMO to use a custom risk register template
+- <strong>Correct:</strong> Use the PMO template but add Agile-specific risk categories in the "notes" or "custom fields" sections
+- <strong>Distractor 1:</strong> Maintain two separate risk registers to satisfy both PMO and Agile needs
+- <strong>Distractor 2:</strong> Use only the PMO template since controlling PMO requirements are mandatory
+- <strong>Distractor 3:</strong> Request an exemption from the PMO to use a custom risk register template
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1342,18 +1342,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 47
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project is chartered to "implement a new ERP system." Eighteen months into a 24-month project, a competing ERP vendor releases a significantly better product at lower cost. The project manager considers whether to recommend switching vendors mid-project, which would require writing off 18 months of investment.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Present a business case analysis to the steering committee comparing continued execution vs. switching vendors
-- **Distractor 1:** Continue with the current vendor since the charter authorized this approach
-- **Distractor 2:** Immediately switch vendors to deliver better value for the organization
-- **Distractor 3:** Request a vendor comparison from the procurement department
+- <strong>Correct:</strong> Present a business case analysis to the steering committee comparing continued execution vs. switching vendors
+- <strong>Distractor 1:</strong> Continue with the current vendor since the charter authorized this approach
+- <strong>Distractor 2:</strong> Immediately switch vendors to deliver better value for the organization
+- <strong>Distractor 3:</strong> Request a vendor comparison from the procurement department
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1371,18 +1371,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 48
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A product owner wants to implement a feature that would automatically enroll users in a paid subscription after a free trial, with pre-checked opt-out boxes. The development team notes that this may violate "dark pattern" regulations in several jurisdictions. The product owner argues that this is standard industry practice.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the Scrum Master to take?
 
-- **Correct:** Request legal review of whether the proposed feature complies with dark pattern regulations
-- **Distractor 1:** Support the feature since the product owner is accountable for product decisions
-- **Distractor 2:** Block the feature since dark patterns are generally considered unethical
-- **Distractor 3:** Implement the feature but provide clear opt-out instructions to users
+- <strong>Correct:</strong> Request legal review of whether the proposed feature complies with dark pattern regulations
+- <strong>Distractor 1:</strong> Support the feature since the product owner is accountable for product decisions
+- <strong>Distractor 2:</strong> Block the feature since dark patterns are generally considered unethical
+- <strong>Distractor 3:</strong> Implement the feature but provide clear opt-out instructions to users
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1400,18 +1400,18 @@ What is the BEST action for the Scrum Master to take?
 
 ## Question 49
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is preparing the project charter and needs to define success criteria. The sponsor suggests vague criteria like "deliver a high-quality system" and "satisfied stakeholders." The project manager is concerned these won't be measurable.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Push back on the vague criteria and work with the sponsor to define specific, measurable metrics
-- **Distractor 1:** Accept the sponsor's criteria since the sponsor has authority over the charter
-- **Distractor 2:** Document the vague criteria in the charter and add specific metrics in the project management plan
-- **Distractor 3:** Ask the PMO to provide standard success criteria for this type of project
+- <strong>Correct:</strong> Push back on the vague criteria and work with the sponsor to define specific, measurable metrics
+- <strong>Distractor 1:</strong> Accept the sponsor's criteria since the sponsor has authority over the charter
+- <strong>Distractor 2:</strong> Document the vague criteria in the charter and add specific metrics in the project management plan
+- <strong>Distractor 3:</strong> Ask the PMO to provide standard success criteria for this type of project
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1429,18 +1429,18 @@ What is the BEST action for the project manager to take?
 
 ## Question 50
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project's charter establishes a monthly steering committee review. During a particularly complex phase, the project manager considers whether to request additional reviews. The project manager worries that frequent reviews might suggest the project is in trouble, but also wants to ensure appropriate governance visibility.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Request additional steering committee reviews with a clear rationale about complexity and need for guidance
-- **Distractor 1:** Maintain the monthly review schedule to avoid appearing to need micromanagement
-- **Distractor 2:** Increase informal updates to the sponsor instead of formal steering committee reviews
-- **Distractor 3:** Ask the PMO whether additional reviews are appropriate for this project phase
+- <strong>Correct:</strong> Request additional steering committee reviews with a clear rationale about complexity and need for guidance
+- <strong>Distractor 1:</strong> Maintain the monthly review schedule to avoid appearing to need micromanagement
+- <strong>Distractor 2:</strong> Increase informal updates to the sponsor instead of formal steering committee reviews
+- <strong>Distractor 3:</strong> Ask the PMO whether additional reviews are appropriate for this project phase
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1511,7 +1511,7 @@ What is the BEST action for the project manager to take?
 | 49 | |  | |
 | 50 | | |  |
 
-**Enabler Distribution:**
+<strong>Enabler Distribution:</strong>
 - Enabler 1 (Structure/Rules/Policies): 20 questions (40%)
 - Enabler 2 (Success Metrics): 15 questions (30%)
 - Enabler 3 (Escalation/Thresholds): 15 questions (30%)
@@ -1521,20 +1521,20 @@ What is the BEST action for the project manager to take?
 ## Database Stats
 
 ### Length Analysis
-- **Correct Answer Average Length:** 14.8 words
-- **Distractor Average Length:** 15.2 words
-- **Balance Status:**  Well-balanced (distractors slightly longer on average to prevent pattern recognition)
+- <strong>Correct Answer Average Length:</strong> 14.8 words
+- <strong>Distractor Average Length:</strong> 15.2 words
+- <strong>Balance Status:</strong>  Well-balanced (distractors slightly longer on average to prevent pattern recognition)
 
 ### Methodology Distribution
-- **Predictive:** 25 questions (50%)
-- **Agile:** 15 questions (30%)
-- **Hybrid:** 10 questions (20%)
-- **Status:**  Matches target distribution
+- <strong>Predictive:</strong> 25 questions (50%)
+- <strong>Agile:</strong> 15 questions (30%)
+- <strong>Hybrid:</strong> 10 questions (20%)
+- <strong>Status:</strong>  Matches target distribution
 
 ### Action Type Distribution
 - **Analyze/Assess:** 26 questions (52%)
 - **Execute/Implement:** 24 questions (48%)
-- **Status:**  Balanced between analysis and action-oriented answers
+- <strong>Status:</strong>  Balanced between analysis and action-oriented answers
 
 ---
 
@@ -1553,9 +1553,9 @@ Vague success criteria like "satisfied stakeholders" or "high quality" aren't cr
 Safety violations, compliance gaps, and critical security vulnerabilities trigger immediate work stoppage. These aren't risk register items—they're stop-work issues. The PM stops work now, documents later, and never "schedules" compliance fixes.
 
 ### 5. Governance Bodies Serve Purposes
-- **Steering Committee:** Continue/pivot/stop decisions, major funding, strategic direction
-- **CCB:** Baseline protection, scope/schedule/cost changes
-- **PMO:** Standards, templates, methodology guidance
+- <strong>Steering Committee:</strong> Continue/pivot/stop decisions, major funding, strategic direction
+- <strong>CCB:</strong> Baseline protection, scope/schedule/cost changes
+- <strong>PMO:</strong> Standards, templates, methodology guidance
 - **Legal/Compliance:** Regulatory interpretation, not business decisions
 
 ### 6. Transparency Over Perception

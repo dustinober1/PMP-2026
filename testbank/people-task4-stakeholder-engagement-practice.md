@@ -1,17 +1,17 @@
 ### Question 1
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a multi-million dollar infrastructure project in a residential area. During the execution phase, a local community group that was not previously identified starts a social media campaign to halt the project, citing environmental concerns and disruption. The project manager needs to address this immediately to prevent reputational damage and potential legal delays.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action the project manager should take?
 
-- **Correct:** Update the stakeholder register and perform a salience model analysis to determine the group's power, legitimacy, and urgency.
-- **Distractor 1:** Issue a public statement on social media addressing the environmental concerns to neutralize the opposition.
-- **Distractor 2:** Request the project sponsor to use their political influence to negotiate with the community leaders.
-- **Distractor 3:** Review the communications management plan to identify why this group was missed during the planning phase.
+- <strong>Correct:</strong> Update the stakeholder register and perform a salience model analysis to determine the group's power, legitimacy, and urgency.
+- <strong>Distractor 1:</strong> Issue a public statement on social media addressing the environmental concerns to neutralize the opposition.
+- <strong>Distractor 2:</strong> Request the project sponsor to use their political influence to negotiate with the community leaders.
+- <strong>Distractor 3:</strong> Review the communications management plan to identify why this group was missed during the planning phase.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -29,18 +29,18 @@ What is the FIRST action the project manager should take?
 
 ### Question 2
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a sprint review, a high-power stakeholder who rarely attends sessions expresses frustration that a specific feature they expected is not in the current increment. The Product Owner explains that the feature was deprioritized two sprints ago due to technical constraints. The stakeholder remains dissatisfied and claims they were never informed of this change.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the project manager (Scrum Master) to handle this situation?
 
-- **Correct:** Facilitate a discussion between the Product Owner and the stakeholder to align on the backlog prioritization process and invite them to future refinement sessions.
-- **Distractor 1:** Update the stakeholder engagement plan to include a weekly personal briefing for this specific high-power stakeholder.
-- **Distractor 2:** Review the definition of done with the stakeholder to explain why the feature could not be completed as originally planned.
-- **Distractor 3:** Advise the Product Owner to reprioritize the feature for the next sprint to maintain stakeholder satisfaction.
+- <strong>Correct:</strong> Facilitate a discussion between the Product Owner and the stakeholder to align on the backlog prioritization process and invite them to future refinement sessions.
+- <strong>Distractor 1:</strong> Update the stakeholder engagement plan to include a weekly personal briefing for this specific high-power stakeholder.
+- <strong>Distractor 2:</strong> Review the definition of done with the stakeholder to explain why the feature could not be completed as originally planned.
+- <strong>Distractor 3:</strong> Advise the Product Owner to reprioritize the feature for the next sprint to maintain stakeholder satisfaction.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -58,18 +58,18 @@ What is the BEST way for the project manager (Scrum Master) to handle this situa
 
 ### Question 3
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a digital transformation project that uses a predictive approach for hardware deployment and an agile approach for software development. The hardware vendor is consistently meeting milestones, but the internal software team is struggling with shifting requirements from a resistant department head who controls the end-user resources.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager prioritize the engagement with the department head according to the Stakeholder Cube?
 
-- **Correct:** Classify the department head as a Priority Risk due to high power and resistant attitude, and initiate a root-cause discovery meeting.
-- **Distractor 1:** Map the department head to the "Keep Satisfied" quadrant and provide more detailed hardware deployment reports.
-- **Distractor 2:** Escalate the resistance to the project sponsor to ensure the end-user resources are made available as per the charter.
-- **Distractor 3:** Use the "Reciprocity" influence tactic by helping the department head with their own internal metrics first.
+- <strong>Correct:</strong> Classify the department head as a Priority Risk due to high power and resistant attitude, and initiate a root-cause discovery meeting.
+- <strong>Distractor 1:</strong> Map the department head to the "Keep Satisfied" quadrant and provide more detailed hardware deployment reports.
+- <strong>Distractor 2:</strong> Escalate the resistance to the project sponsor to ensure the end-user resources are made available as per the charter.
+- <strong>Distractor 3:</strong> Use the "Reciprocity" influence tactic by helping the department head with their own internal metrics first.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -87,18 +87,18 @@ How should the project manager prioritize the engagement with the department hea
 
 ### Question 4
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A global project includes stakeholders from four different countries. The project manager notices that stakeholders in one region consistently provide vague feedback during virtual meetings, while another region's stakeholders dominate the conversation with technical details. The project is falling behind because critical requirements are not being clearly captured.
 
-**Question:**
+<strong>Question:</strong>
 What action should the project manager take to optimize stakeholder communication?
 
-- **Correct:** Analyze the communication needs and cultural preferences of each region and update the communications management plan with tailored engagement methods.
-- **Distractor 1:** Implement a standardized, detailed reporting template for all regions to ensure consistency in feedback.
-- **Distractor 2:** Schedule separate virtual meetings for each region to prevent one group from dominating the other.
-- **Distractor 3:** Issue a project directive requiring all stakeholders to use a specific technical requirements template during meetings.
+- <strong>Correct:</strong> Analyze the communication needs and cultural preferences of each region and update the communications management plan with tailored engagement methods.
+- <strong>Distractor 1:</strong> Implement a standardized, detailed reporting template for all regions to ensure consistency in feedback.
+- <strong>Distractor 2:</strong> Schedule separate virtual meetings for each region to prevent one group from dominating the other.
+- <strong>Distractor 3:</strong> Issue a project directive requiring all stakeholders to use a specific technical requirements template during meetings.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -116,18 +116,18 @@ What action should the project manager take to optimize stakeholder communicatio
 
 ### Question 5
 
-**Enabler:** 6 | **Methodology:** Agile
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A newly formed agile team is struggling to gain the trust of a traditional "command-and-control" manager who is the primary stakeholder. The manager frequently interrupts the daily standups to ask for status updates and demands to see individual performance metrics for each developer.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST effective strategy for the project manager (Scrum Master) to build trust and influence this manager?
 
-- **Correct:** Invite the manager to the sprint reviews to see working software and use the "Trust Equation" by demonstrating reliability and lowering self-orientation.
-- **Distractor 1:** Politely ask the manager to stop attending the daily standups as they are for the team only, per agile principles.
-- **Distractor 2:** Create a separate weekly dashboard for the manager that translates agile velocity into individual productivity metrics.
-- **Distractor 3:** Ask the project sponsor to reinforce the agile mindset with the manager to ensure they stop interfering with the team.
+- <strong>Correct:</strong> Invite the manager to the sprint reviews to see working software and use the "Trust Equation" by demonstrating reliability and lowering self-orientation.
+- <strong>Distractor 1:</strong> Politely ask the manager to stop attending the daily standups as they are for the team only, per agile principles.
+- <strong>Distractor 2:</strong> Create a separate weekly dashboard for the manager that translates agile velocity into individual productivity metrics.
+- <strong>Distractor 3:</strong> Ask the project sponsor to reinforce the agile mindset with the manager to ensure they stop interfering with the team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -145,18 +145,18 @@ What is the MOST effective strategy for the project manager (Scrum Master) to bu
 
 ### Question 6
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project to implement a new ERP system is facing conflicting requirements. The Finance Director requires deep audit trails for every transaction, while the Sales VP demands a streamlined, "one-click" checkout process that bypasses several verification steps. Both stakeholders are high-power and high-interest.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do FIRST to optimize alignment?
 
-- **Correct:** Facilitate a joint session to surface the underlying interests and identify potential trade-offs or middle-ground solutions.
-- **Distractor 1:** Prioritize the Finance Director's requirements as they are tied to legal compliance and organizational governance.
-- **Distractor 2:** Update the risk register to include the potential for scope creep and stakeholder dissatisfaction.
-- **Distractor 3:** Refer the conflict to the project sponsor for a final decision on which requirement takes precedence.
+- <strong>Correct:</strong> Facilitate a joint session to surface the underlying interests and identify potential trade-offs or middle-ground solutions.
+- <strong>Distractor 1:</strong> Prioritize the Finance Director's requirements as they are tied to legal compliance and organizational governance.
+- <strong>Distractor 2:</strong> Update the risk register to include the potential for scope creep and stakeholder dissatisfaction.
+- <strong>Distractor 3:</strong> Refer the conflict to the project sponsor for a final decision on which requirement takes precedence.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -174,18 +174,18 @@ What should the project manager do FIRST to optimize alignment?
 
 ### Question 7
 
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a transition from a predictive to a hybrid model, the project team realizes that an informal "expert" in the legacy system has been discouraging the end-users from adopting the new software. This expert was not listed in the initial stakeholder register.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the project manager to handle this "shadow" stakeholder?
 
-- **Correct:** Add the expert to the stakeholder register and use the "Snowball" technique to identify any other missing influencers they might know.
-- **Distractor 1:** Formally invite the expert to join the project team as a Subject Matter Expert (SME) to neutralize their opposition.
-- **Distractor 2:** Document the expert's behavior in the issue log and report it to their functional manager.
-- **Distractor 3:** Request the change management team to create a targeted communication plan to correct the misinformation being spread.
+- <strong>Correct:</strong> Add the expert to the stakeholder register and use the "Snowball" technique to identify any other missing influencers they might know.
+- <strong>Distractor 1:</strong> Formally invite the expert to join the project team as a Subject Matter Expert (SME) to neutralize their opposition.
+- <strong>Distractor 2:</strong> Document the expert's behavior in the issue log and report it to their functional manager.
+- <strong>Distractor 3:</strong> Request the change management team to create a targeted communication plan to correct the misinformation being spread.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -203,18 +203,18 @@ What is the BEST way for the project manager to handle this "shadow" stakeholder
 
 ### Question 8
 
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A stakeholder who was previously "Neutral" has moved to "Resistant" after a major project milestone was delayed. This stakeholder is an influential department head whose support is critical for the next phase. The project manager needs to update the stakeholder engagement plan.
 
-**Question:**
+<strong>Question:</strong>
 Which action should the project manager include in the updated plan?
 
-- **Correct:** Schedule a 1:1 meeting to perform a root-cause diagnosis of the shift in attitude and identify specific "What's In It For Me" (WIIFM) benefits for the next phase.
-- **Distractor 1:** Increase the frequency of automated status reports sent to this stakeholder to ensure they have more data on project progress.
-- **Distractor 2:** Re-map the stakeholder on the Power/Interest grid to a lower interest quadrant to reflect their current disengagement.
-- **Distractor 3:** Invite the stakeholder to the steering committee meetings so they can see the project's strategic importance from the sponsor's perspective.
+- <strong>Correct:</strong> Schedule a 1:1 meeting to perform a root-cause diagnosis of the shift in attitude and identify specific "What's In It For Me" (WIIFM) benefits for the next phase.
+- <strong>Distractor 1:</strong> Increase the frequency of automated status reports sent to this stakeholder to ensure they have more data on project progress.
+- <strong>Distractor 2:</strong> Re-map the stakeholder on the Power/Interest grid to a lower interest quadrant to reflect their current disengagement.
+- <strong>Distractor 3:</strong> Invite the stakeholder to the steering committee meetings so they can see the project's strategic importance from the sponsor's perspective.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -232,18 +232,18 @@ Which action should the project manager include in the updated plan?
 
 ### Question 9
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is working on a public-facing application. A regulatory body has just issued new data privacy guidelines that must be met within the next three months. The project manager needs to assess how this affects the stakeholder landscape.
 
-**Question:**
+<strong>Question:</strong>
 According to the Salience Model, how should this regulatory body be classified?
 
-- **Correct:** Definitive, because they possess power, legitimacy, and an urgent deadline.
-- **Distractor 1:** Dominant, because they have formal authority and a legitimate right to influence the project.
-- **Distractor 2:** Dangerous, because they have the power to halt the project and an urgent timeframe.
-- **Distractor 3:** Dependent, because they require the project team to advocate for the new privacy guidelines within the organization.
+- <strong>Correct:</strong> Definitive, because they possess power, legitimacy, and an urgent deadline.
+- <strong>Distractor 1:</strong> Dominant, because they have formal authority and a legitimate right to influence the project.
+- <strong>Distractor 2:</strong> Dangerous, because they have the power to halt the project and an urgent timeframe.
+- <strong>Distractor 3:</strong> Dependent, because they require the project team to advocate for the new privacy guidelines within the organization.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -261,18 +261,18 @@ According to the Salience Model, how should this regulatory body be classified?
 
 ### Question 10
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using a RACI matrix to clarify roles for a hybrid project. There is confusion about who should be consulted versus who should just be informed regarding software release dates. Several functional managers are upset because they found out about a release through a general company newsletter.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager correct this communication gap?
 
-- **Correct:** Review the RACI matrix and communication plan to ensure that stakeholders needing "Consulted" status are receiving interactive communication before decisions are finalized.
-- **Distractor 1:** Update the RACI matrix to change all functional managers from "Informed" to "Accountable" for release decisions.
-- **Distractor 2:** Increase the frequency of the company newsletter to ensure it reaches the functional managers faster.
-- **Distractor 3:** Implement a "Push" communication strategy for all stakeholders on the RACI matrix to ensure no one is missed.
+- <strong>Correct:</strong> Review the RACI matrix and communication plan to ensure that stakeholders needing "Consulted" status are receiving interactive communication before decisions are finalized.
+- <strong>Distractor 1:</strong> Update the RACI matrix to change all functional managers from "Informed" to "Accountable" for release decisions.
+- <strong>Distractor 2:</strong> Increase the frequency of the company newsletter to ensure it reaches the functional managers faster.
+- <strong>Distractor 3:</strong> Implement a "Push" communication strategy for all stakeholders on the RACI matrix to ensure no one is missed.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -290,18 +290,18 @@ How should the project manager correct this communication gap?
 
 ### Question 11
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 In an agile project, a key stakeholder from the marketing department has stopped attending the bi-weekly sprint reviews. They claim the sessions are too technical and don't show the "big picture" of the brand strategy. The project manager notices that marketing requirements are starting to drift from the team's output.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take to re-engage this stakeholder?
 
-- **Correct:** Work with the Product Owner to tailor the sprint review agenda to include a "value summary" that highlights strategic brand alignment.
-- **Distractor 1:** Send the stakeholder a detailed technical transcript of the sprint reviews so they can catch up on their own time.
-- **Distractor 2:** Remind the stakeholder that attendance at sprint reviews is a mandatory requirement for all agile project participants.
-- **Distractor 3:** Create a separate, less technical monthly marketing briefing to replace their need for attending sprint reviews.
+- <strong>Correct:</strong> Work with the Product Owner to tailor the sprint review agenda to include a "value summary" that highlights strategic brand alignment.
+- <strong>Distractor 1:</strong> Send the stakeholder a detailed technical transcript of the sprint reviews so they can catch up on their own time.
+- <strong>Distractor 2:</strong> Remind the stakeholder that attendance at sprint reviews is a mandatory requirement for all agile project participants.
+- <strong>Distractor 3:</strong> Create a separate, less technical monthly marketing briefing to replace their need for attending sprint reviews.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -319,18 +319,18 @@ What is the BEST action for the project manager to take to re-engage this stakeh
 
 ### Question 12
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a steering committee meeting, the project manager realizes that the Operations Director and the Finance Director have fundamentally different views on the project's success criteria. The Operations Director prioritizes system uptime, while the Finance Director prioritizes cost reduction, even if it means using cheaper, less reliable servers.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate tool for the project manager to use to resolve this misalignment?
 
-- **Correct:** Multi-criteria decision analysis to objectively weigh the priorities and facilitate a consensus on the best path forward.
-- **Distractor 1:** The project charter, to show both directors that the original goals included both cost and reliability.
-- **Distractor 2:** A change request to increase the budget so that both uptime and cost reduction targets can be met.
-- **Distractor 3:** Expert judgment from a neutral third-party consultant to decide which priority is more important for the organization.
+- <strong>Correct:</strong> Multi-criteria decision analysis to objectively weigh the priorities and facilitate a consensus on the best path forward.
+- <strong>Distractor 1:</strong> The project charter, to show both directors that the original goals included both cost and reliability.
+- <strong>Distractor 2:</strong> A change request to increase the budget so that both uptime and cost reduction targets can be met.
+- <strong>Distractor 3:</strong> Expert judgment from a neutral third-party consultant to decide which priority is more important for the organization.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -348,18 +348,18 @@ What is the MOST appropriate tool for the project manager to use to resolve this
 
 ### Question 13
 
-**Enabler:** 6 | **Methodology:** Agile
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is taking over an agile team that has a history of friction with a senior executive. The executive believes the team is "hidden in a black box" and doesn't trust their progress. The team feels the executive is "micromanaging" and doesn't understand agile.
 
-**Question:**
+<strong>Question:</strong>
 Which action based on the "Trust Equation" would most likely improve this relationship?
 
-- **Correct:** Increase "Intimacy" by having a 1:1 with the executive to understand their personal fears and "Reliability" by delivering a small, high-value feature immediately.
-- **Distractor 1:** Increase "Credibility" by providing the executive with the team's certifications and historical velocity data from previous projects.
-- **Distractor 2:** Decrease "Self-Orientation" by telling the executive that the team's only goal is to make the executive look good to the board.
-- **Distractor 3:** Increase "Reliability" by inviting the executive to the daily standups so they can see exactly what every person is doing every day.
+- <strong>Correct:</strong> Increase "Intimacy" by having a 1:1 with the executive to understand their personal fears and "Reliability" by delivering a small, high-value feature immediately.
+- <strong>Distractor 1:</strong> Increase "Credibility" by providing the executive with the team's certifications and historical velocity data from previous projects.
+- <strong>Distractor 2:</strong> Decrease "Self-Orientation" by telling the executive that the team's only goal is to make the executive look good to the board.
+- <strong>Distractor 3:</strong> Increase "Reliability" by inviting the executive to the daily standups so they can see exactly what every person is doing every day.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -377,18 +377,18 @@ Which action based on the "Trust Equation" would most likely improve this relati
 
 ### Question 14
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is analyzing the stakeholder register and notes that a key regulator's influence has shifted from "Informal" to "Formal" due to a new legislation change. The regulator now has the power to stop the project if certain environmental standards are not met.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager update FIRST?
 
-- **Correct:** The Stakeholder Register to reflect the change in power and the Risk Register to document the threat of project stoppage.
-- **Distractor 1:** The Project Charter to include the new environmental standards as a high-level constraint.
-- **Distractor 2:** The Communications Management Plan to increase the frequency of reports to the regulator.
-- **Distractor 3:** The Issue Log to document the new legislation as a blocker for the current project phase.
+- <strong>Correct:</strong> The Stakeholder Register to reflect the change in power and the Risk Register to document the threat of project stoppage.
+- <strong>Distractor 1:</strong> The Project Charter to include the new environmental standards as a high-level constraint.
+- <strong>Distractor 2:</strong> The Communications Management Plan to increase the frequency of reports to the regulator.
+- <strong>Distractor 3:</strong> The Issue Log to document the new legislation as a blocker for the current project phase.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -406,18 +406,18 @@ What should the project manager update FIRST?
 
 ### Question 15
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a software rollout. During a pilot phase, several users express that they feel "overwhelmed" by the new interface and are secretly reverting to their old spreadsheets. This sentiment was not captured in the recent "satisfactory" survey results.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST engagement action to take?
 
-- **Correct:** Conduct "Active Listening" sessions with a small group of pilot users to understand the "Intimacy" gap and update the training plan.
-- **Distractor 1:** Send out a more detailed survey to all users to quantify the extent of the "spreadsheet reversion" problem.
-- **Distractor 2:** Implement a system lock that prevents users from accessing the old spreadsheets to force adoption of the new interface.
-- **Distractor 3:** Update the stakeholder register to mark the end-users as "Resistant" and inform the project sponsor of the adoption risk.
+- <strong>Correct:</strong> Conduct "Active Listening" sessions with a small group of pilot users to understand the "Intimacy" gap and update the training plan.
+- <strong>Distractor 1:</strong> Send out a more detailed survey to all users to quantify the extent of the "spreadsheet reversion" problem.
+- <strong>Distractor 2:</strong> Implement a system lock that prevents users from accessing the old spreadsheets to force adoption of the new interface.
+- <strong>Distractor 3:</strong> Update the stakeholder register to mark the end-users as "Resistant" and inform the project sponsor of the adoption risk.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -435,18 +435,18 @@ What is the BEST engagement action to take?
 
 ### Question 16
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is assigned to a project that is already in the execution phase. While reviewing the project documents, the project manager finds that the stakeholder register only lists internal team members and the project sponsor. No external vendors or customers are listed.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST critical action for the project manager to take?
 
-- **Correct:** Use the "Snowball" technique by interviewing known stakeholders to identify and analyze missing external parties.
-- **Distractor 1:** Continue with the current register but add a task to the project schedule to perform a comprehensive audit at the next phase gate.
-- **Distractor 2:** Immediately contact the external customers to apologize for the lack of communication and invite them to the next status meeting.
-- **Distractor 3:** Review the project contract to identify the names of the vendor representatives and add them to the register.
+- <strong>Correct:</strong> Use the "Snowball" technique by interviewing known stakeholders to identify and analyze missing external parties.
+- <strong>Distractor 1:</strong> Continue with the current register but add a task to the project schedule to perform a comprehensive audit at the next phase gate.
+- <strong>Distractor 2:</strong> Immediately contact the external customers to apologize for the lack of communication and invite them to the next status meeting.
+- <strong>Distractor 3:</strong> Review the project contract to identify the names of the vendor representatives and add them to the register.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -464,18 +464,18 @@ What is the MOST critical action for the project manager to take?
 
 ### Question 17
 
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Product Owner in an agile project is consistently prioritizing features that benefit one specific department, causing dissatisfaction among stakeholders from other departments. The team is starting to feel the tension during sprint reviews.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager (Scrum Master) help optimize alignment?
 
-- **Correct:** Facilitate a backlog refinement workshop with all key stakeholders to use objective "Value Mapping" and ensure a shared understanding of project priorities.
-- **Distractor 1:** Advise the Product Owner that they have the final authority on prioritization and should ignore the departmental noise.
-- **Distractor 2:** Suggest that the team alternate sprints between the different departments to ensure everyone gets their features eventually.
-- **Distractor 3:** Escalate the Product Owner's bias to the steering committee to ensure a more balanced distribution of features.
+- <strong>Correct:</strong> Facilitate a backlog refinement workshop with all key stakeholders to use objective "Value Mapping" and ensure a shared understanding of project priorities.
+- <strong>Distractor 1:</strong> Advise the Product Owner that they have the final authority on prioritization and should ignore the departmental noise.
+- <strong>Distractor 2:</strong> Suggest that the team alternate sprints between the different departments to ensure everyone gets their features eventually.
+- <strong>Distractor 3:</strong> Escalate the Product Owner's bias to the steering committee to ensure a more balanced distribution of features.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -493,18 +493,18 @@ How should the project manager (Scrum Master) help optimize alignment?
 
 ### Question 18
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is managing a hybrid project where the software team is in a different time zone than the hardware team. The software team is using Slack for real-time communication, while the hardware team prefers formal weekly emails. Stakeholders are complaining that they are getting conflicting information through these different channels.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action to take?
 
-- **Correct:** Update the communications management plan to define specific "Source of Truth" channels for different types of information and align all teams on these standards.
-- **Distractor 1:** Require all teams to use Slack to ensure real-time visibility and transparency across the entire project.
-- **Distractor 2:** Schedule a daily cross-functional meeting to synchronize the hardware and software teams' communications.
-- **Distractor 3:** Appoint a "Communication Lead" for each team who is responsible for manually reconciling the Slack messages and emails.
+- <strong>Correct:</strong> Update the communications management plan to define specific "Source of Truth" channels for different types of information and align all teams on these standards.
+- <strong>Distractor 1:</strong> Require all teams to use Slack to ensure real-time visibility and transparency across the entire project.
+- <strong>Distractor 2:</strong> Schedule a daily cross-functional meeting to synchronize the hardware and software teams' communications.
+- <strong>Distractor 3:</strong> Appoint a "Communication Lead" for each team who is responsible for manually reconciling the Slack messages and emails.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -522,18 +522,18 @@ What is the BEST action to take?
 
 ### Question 19
 
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager needs to influence a senior manager who is skeptical about a new project methodology. The project manager knows that this senior manager highly respects the opinion of the Chief Technology Officer (CTO), who is a vocal supporter of the new approach.
 
-**Question:**
+<strong>Question:</strong>
 Which of Cialdini's influence principles is the project manager using if they ask the CTO to co-present the project update?
 
-- **Correct:** Social Proof and Authority.
-- **Distractor 1:** Reciprocity and Liking.
-- **Distractor 2:** Scarcity and Commitment.
-- **Distractor 3:** Consistency and Authority.
+- <strong>Correct:</strong> Social Proof and Authority.
+- <strong>Distractor 1:</strong> Reciprocity and Liking.
+- <strong>Distractor 2:</strong> Scarcity and Commitment.
+- <strong>Distractor 3:</strong> Consistency and Authority.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -551,18 +551,18 @@ Which of Cialdini's influence principles is the project manager using if they as
 
 ### Question 20
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project is halfway through its timeline. A key stakeholder who was previously "Supportive" has stopped responding to emails and has missed the last three Sprint Reviews. The project manager suspects that a recent reorganization in the stakeholder's department has shifted their priorities.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do FIRST?
 
-- **Correct:** Conduct a 1:1 "Resistance Diagnosis" to understand if the withdrawal is due to competing priorities or a change in their perceived project value.
-- **Distractor 1:** Update the Stakeholder Engagement Assessment Matrix to move the stakeholder from "Supportive" to "Neutral" or "Unaware."
-- **Distractor 2:** Inform the Product Owner that the stakeholder is no longer engaged and their requirements should be removed from the backlog.
-- **Distractor 3:** Escalate the stakeholder's lack of engagement to the project sponsor to ensure they are held accountable for their project role.
+- <strong>Correct:</strong> Conduct a 1:1 "Resistance Diagnosis" to understand if the withdrawal is due to competing priorities or a change in their perceived project value.
+- <strong>Distractor 1:</strong> Update the Stakeholder Engagement Assessment Matrix to move the stakeholder from "Supportive" to "Neutral" or "Unaware."
+- <strong>Distractor 2:</strong> Inform the Product Owner that the stakeholder is no longer engaged and their requirements should be removed from the backlog.
+- <strong>Distractor 3:</strong> Escalate the stakeholder's lack of engagement to the project sponsor to ensure they are held accountable for their project role.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -580,18 +580,18 @@ What should the project manager do FIRST?
 
 ### Question 21
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a project that involves a significant environmental impact. A local NGO (Non-Governmental Organization) is demanding a seat on the steering committee. The NGO has no formal power over the project budget or timeline, but they have high public legitimacy and a history of successful legal challenges against similar projects.
 
-**Question:**
+<strong>Question:</strong>
 According to the Salience Model, how should this NGO be classified?
 
-- **Correct:** Dependent, as they have legitimacy and urgency but lack formal power, and they may need to be paired with a sponsor to ensure their voice is heard.
-- **Distractor 1:** Dormant, as they have no formal power over the project and can be monitored with minimal effort.
-- **Distractor 2:** Definitive, as their ability to launch legal challenges gives them high power over the project's success.
-- **Distractor 3:** Demanding, as they have high urgency but no legitimate or formal power to influence the project's governance.
+- <strong>Correct:</strong> Dependent, as they have legitimacy and urgency but lack formal power, and they may need to be paired with a sponsor to ensure their voice is heard.
+- <strong>Distractor 1:</strong> Dormant, as they have no formal power over the project and can be monitored with minimal effort.
+- <strong>Distractor 2:</strong> Definitive, as their ability to launch legal challenges gives them high power over the project's success.
+- <strong>Distractor 3:</strong> Demanding, as they have high urgency but no legitimate or formal power to influence the project's governance.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -609,18 +609,18 @@ According to the Salience Model, how should this NGO be classified?
 
 ### Question 22
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is facilitating a workshop to define "Success" for a new community park. The local residents want more green space, while the city council wants more revenue-generating facilities like a paid parking lot and a cafe.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST approach for the project manager to optimize alignment?
 
-- **Correct:** Use a "WIIFM Mapping" session to show how green space increases property values (benefiting residents) and how the cafe provides a community hub (benefiting council goals).
-- **Distractor 1:** Inform the residents that the city council provides the funding and therefore their requirements for revenue must come first.
-- **Distractor 2:** Propose a 50/50 split of the land between green space and revenue-generating facilities as a fair compromise.
-- **Distractor 3:** Ask the project sponsor to decide the priority so the team can move forward with the design phase.
+- <strong>Correct:</strong> Use a "WIIFM Mapping" session to show how green space increases property values (benefiting residents) and how the cafe provides a community hub (benefiting council goals).
+- <strong>Distractor 1:</strong> Inform the residents that the city council provides the funding and therefore their requirements for revenue must come first.
+- <strong>Distractor 2:</strong> Propose a 50/50 split of the land between green space and revenue-generating facilities as a fair compromise.
+- <strong>Distractor 3:</strong> Ask the project sponsor to decide the priority so the team can move forward with the design phase.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -638,18 +638,18 @@ What is the BEST approach for the project manager to optimize alignment?
 
 ### Question 23
 
-**Enabler:** 6 | **Methodology:** Agile
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is working with an agile team. A key stakeholder is consistently unhappy with the demos, saying "That's not what I meant" even though the team followed the user story exactly. The team is getting frustrated and trust is eroding.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (Scrum Master) do to rebuild trust and alignment?
 
-- **Correct:** Facilitate a session to "Define Done" and create visual prototypes or wireframes during backlog refinement to ensure shared mental models.
-- **Distractor 1:** Ask the stakeholder to write more detailed and technical user stories so there is less room for interpretation.
-- **Distractor 2:** Increase the frequency of the demos to every three days to catch the "That's not what I meant" earlier.
-- **Distractor 3:** Advise the team to ignore the stakeholder's comments during the demo and wait for the formal UAT phase.
+- <strong>Correct:</strong> Facilitate a session to "Define Done" and create visual prototypes or wireframes during backlog refinement to ensure shared mental models.
+- <strong>Distractor 1:</strong> Ask the stakeholder to write more detailed and technical user stories so there is less room for interpretation.
+- <strong>Distractor 2:</strong> Increase the frequency of the demos to every three days to catch the "That's not what I meant" earlier.
+- <strong>Distractor 3:</strong> Advise the team to ignore the stakeholder's comments during the demo and wait for the formal UAT phase.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -667,18 +667,18 @@ What should the project manager (Scrum Master) do to rebuild trust and alignment
 
 ### Question 24
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is managing a project with high political sensitivity. A new CEO has just been appointed, and they have publicly questioned the project's strategic value. The project manager needs to update the engagement strategy.
 
-**Question:**
+<strong>Question:</strong>
 Which action is MOST consistent with the "Pillars of Trust"?
 
-- **Correct:** Schedule a briefing with the CEO to demonstrate "Radical Transparency" regarding project challenges and "Credibility" through data-backed progress.
-- **Distractor 1:** Ask the project sponsor to talk to the CEO and defend the project's value on the project manager's behalf.
-- **Distractor 2:** Send the CEO a comprehensive list of all completed milestones to prove the project's success to date.
-- **Distractor 3:** Update the risk register to include "Executive Opposition" and wait for the CEO to request a formal update.
+- <strong>Correct:</strong> Schedule a briefing with the CEO to demonstrate "Radical Transparency" regarding project challenges and "Credibility" through data-backed progress.
+- <strong>Distractor 1:</strong> Ask the project sponsor to talk to the CEO and defend the project's value on the project manager's behalf.
+- <strong>Distractor 2:</strong> Send the CEO a comprehensive list of all completed milestones to prove the project's success to date.
+- <strong>Distractor 3:</strong> Update the risk register to include "Executive Opposition" and wait for the CEO to request a formal update.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -696,18 +696,18 @@ Which action is MOST consistent with the "Pillars of Trust"?
 
 ### Question 25
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is coordinating a project with a large number of "Informed" stakeholders on the RACI matrix. These stakeholders are complaining that they are receiving too many emails and are missing important updates.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way to optimize this communication?
 
-- **Correct:** Implement a "Pull" communication strategy, such as an internal project portal or dashboard, where stakeholders can access updates at their own convenience.
-- **Distractor 1:** Change all "Informed" stakeholders to "Consulted" so they feel more involved in the project decisions.
-- **Distractor 2:** Create a weekly "Executive Summary" email that replaces all other individual updates for these stakeholders.
-- **Distractor 3:** Use a "Push" communication strategy by sending a daily SMS alert with a link to the most critical update.
+- <strong>Correct:</strong> Implement a "Pull" communication strategy, such as an internal project portal or dashboard, where stakeholders can access updates at their own convenience.
+- <strong>Distractor 1:</strong> Change all "Informed" stakeholders to "Consulted" so they feel more involved in the project decisions.
+- <strong>Distractor 2:</strong> Create a weekly "Executive Summary" email that replaces all other individual updates for these stakeholders.
+- <strong>Distractor 3:</strong> Use a "Push" communication strategy by sending a daily SMS alert with a link to the most critical update.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -725,18 +725,18 @@ What is the BEST way to optimize this communication?
 
 ### Question 26
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is working on a high-visibility product. A key stakeholder from the legal department is consistently late in providing approvals for content, which is causing bottlenecks in the sprint. The legal stakeholder says they are overwhelmed with other work and that "agile doesn't respect the time needed for thorough review."
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager (Scrum Master) to take?
 
-- **Correct:** Invite the legal stakeholder to the backlog refinement sessions to identify upcoming legal needs early and build a "Buffer" into the Definition of Ready.
-- **Distractor 1:** Escalate the bottleneck to the project sponsor to ensure that legal approvals are prioritized by the legal department head.
-- **Distractor 2:** Suggest that the team proceed with the content deployment and address any legal feedback as "technical debt" in the next sprint.
-- **Distractor 3:** Assign a team member to act as a "Legal Liaison" to manually follow up with the legal department every day until approvals are granted.
+- <strong>Correct:</strong> Invite the legal stakeholder to the backlog refinement sessions to identify upcoming legal needs early and build a "Buffer" into the Definition of Ready.
+- <strong>Distractor 1:</strong> Escalate the bottleneck to the project sponsor to ensure that legal approvals are prioritized by the legal department head.
+- <strong>Distractor 2:</strong> Suggest that the team proceed with the content deployment and address any legal feedback as "technical debt" in the next sprint.
+- <strong>Distractor 3:</strong> Assign a team member to act as a "Legal Liaison" to manually follow up with the legal department every day until approvals are granted.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -754,18 +754,18 @@ What is the BEST action for the project manager (Scrum Master) to take?
 
 ### Question 27
 
-**Enabler:** 5 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a hospital wing construction project (predictive) and the implementation of a new patient management system (agile). The nursing staff is excited about the new wing but resistant to the software, fearing it will add to their administrative burden.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager optimize alignment between these two project components?
 
-- **Correct:** Highlight the "Integrated Value" by showing how the software automates data entry in the new wing, reducing physical movement and administrative time.
-- **Distractor 1:** Separate the communication plans for the construction and the software to avoid confusing the nursing staff with too much information.
-- **Distractor 2:** Focus the nursing staff's attention on the construction of the new wing and delay the software training until the building is complete.
-- **Distractor 3:** Tell the nursing staff that the software is a mandatory requirement from the hospital board and is not open for negotiation.
+- <strong>Correct:</strong> Highlight the "Integrated Value" by showing how the software automates data entry in the new wing, reducing physical movement and administrative time.
+- <strong>Distractor 1:</strong> Separate the communication plans for the construction and the software to avoid confusing the nursing staff with too much information.
+- <strong>Distractor 2:</strong> Focus the nursing staff's attention on the construction of the new wing and delay the software training until the building is complete.
+- <strong>Distractor 3:</strong> Tell the nursing staff that the software is a mandatory requirement from the hospital board and is not open for negotiation.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -783,18 +783,18 @@ How should the project manager optimize alignment between these two project comp
 
 ### Question 28
 
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is struggling to get the commitment of a functional manager who controls a critical resource. The functional manager has ignored several requests for a meeting. The project manager learns that the functional manager is under immense pressure to meet their own departmental production targets.
 
-**Question:**
+<strong>Question:</strong>
 Which influence tactic based on Cialdini's principles would be MOST effective here?
 
-- **Correct:** Reciprocity: Offer to adjust the project schedule to avoid the functional manager's peak production window in exchange for the resource commitment later.
-- **Distractor 1:** Scarcity: Inform the functional manager that if the resource is not committed now, the project will lose its funding and their department will lose out on the benefits.
-- **Distractor 2:** Authority: Have the project sponsor send a formal memo to the functional manager demanding the resource as per the project charter.
-- **Distractor 3:** Liking: Send the functional manager a gift or a positive email about their department's performance to build rapport before asking again.
+- <strong>Correct:</strong> Reciprocity: Offer to adjust the project schedule to avoid the functional manager's peak production window in exchange for the resource commitment later.
+- <strong>Distractor 1:</strong> Scarcity: Inform the functional manager that if the resource is not committed now, the project will lose its funding and their department will lose out on the benefits.
+- <strong>Distractor 2:</strong> Authority: Have the project sponsor send a formal memo to the functional manager demanding the resource as per the project charter.
+- <strong>Distractor 3:</strong> Liking: Send the functional manager a gift or a positive email about their department's performance to build rapport before asking again.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -812,18 +812,18 @@ Which influence tactic based on Cialdini's principles would be MOST effective he
 
 ### Question 29
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team has identified a "Dangerous" stakeholder according to the Salience Model. This stakeholder is a former project manager who was fired from the current project and is now spreading rumors to the executive board about the team's "lack of discipline."
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's (Scrum Master's) BEST course of action?
 
-- **Correct:** Document the rumors in the Stakeholder Register and work with the Product Owner to provide the executive board with objective, data-backed evidence of the team's progress.
-- **Distractor 1:** Directly confront the former project manager and threaten legal action for defamation to stop the rumors.
-- **Distractor 2:** Ignore the rumors and trust that the team's high-quality output during the sprint reviews will eventually speak for itself.
-- **Distractor 3:** Request the project sponsor to issue a formal gag order preventing the former project manager from contacting any project stakeholders.
+- <strong>Correct:</strong> Document the rumors in the Stakeholder Register and work with the Product Owner to provide the executive board with objective, data-backed evidence of the team's progress.
+- <strong>Distractor 1:</strong> Directly confront the former project manager and threaten legal action for defamation to stop the rumors.
+- <strong>Distractor 2:</strong> Ignore the rumors and trust that the team's high-quality output during the sprint reviews will eventually speak for itself.
+- <strong>Distractor 3:</strong> Request the project sponsor to issue a formal gag order preventing the former project manager from contacting any project stakeholders.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -841,18 +841,18 @@ What is the project manager's (Scrum Master's) BEST course of action?
 
 ### Question 30
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a phase-gate review, it becomes clear that the project's output, while meeting all technical specifications, does not satisfy the original business need of the marketing department because the market conditions have shifted during the 12-month development cycle.
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's MOST important responsibility in this situation?
 
-- **Correct:** Facilitate a "Realignment Session" with Marketing and the Sponsor to evaluate if the remaining project scope should be changed to meet the new market reality.
-- **Distractor 1:** Defend the project team's performance by showing that all requirements in the original scope statement were met on time and on budget.
-- **Distractor 2:** Close the project immediately as it no longer provides the intended value to the organization.
-- **Distractor 3:** Update the stakeholder engagement plan to include more frequent marketing reviews for the next project phase.
+- <strong>Correct:</strong> Facilitate a "Realignment Session" with Marketing and the Sponsor to evaluate if the remaining project scope should be changed to meet the new market reality.
+- <strong>Distractor 1:</strong> Defend the project team's performance by showing that all requirements in the original scope statement were met on time and on budget.
+- <strong>Distractor 2:</strong> Close the project immediately as it no longer provides the intended value to the organization.
+- <strong>Distractor 3:</strong> Update the stakeholder engagement plan to include more frequent marketing reviews for the next project phase.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -870,18 +870,18 @@ What is the project manager's MOST important responsibility in this situation?
 
 ### Question 31
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leadng a hybrid project. The executive team is used to a predictive "RAG" (Red-Amber-Green) status report, but the development team is providing "Burn-up" and "Velocity" charts. The executives are frustrated that they can't tell if the project is "on track."
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager execute the engagement strategy for the executives?
 
-- **Correct:** Create a "Hybrid Dashboard" that maps agile progress (velocity/burndown) to predictive milestones and uses the RAG status as a summary indicator.
-- **Distractor 1:** Train the executives on how to read burn-up charts and velocity metrics to help them transition to an agile mindset.
-- **Distractor 2:** Require the development team to stop using agile metrics and start providing traditional Gantt chart updates for the executive reports.
-- **Distractor 3:** Use the "Authority" principle by asking the Agile PMO to mandate that executives accept agile reporting formats.
+- <strong>Correct:</strong> Create a "Hybrid Dashboard" that maps agile progress (velocity/burndown) to predictive milestones and uses the RAG status as a summary indicator.
+- <strong>Distractor 1:</strong> Train the executives on how to read burn-up charts and velocity metrics to help them transition to an agile mindset.
+- <strong>Distractor 2:</strong> Require the development team to stop using agile metrics and start providing traditional Gantt chart updates for the executive reports.
+- <strong>Distractor 3:</strong> Use the "Authority" principle by asking the Agile PMO to mandate that executives accept agile reporting formats.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -899,18 +899,18 @@ How should the project manager execute the engagement strategy for the executive
 
 ### Question 32
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is performing stakeholder identification for a new international airport expansion. They have identified the government, the airlines, and the construction firms. However, they are concerned about "Shadow" stakeholders who might emerge later.
 
-**Question:**
+<strong>Question:</strong>
 Which technique is MOST likely to uncover these shadow stakeholders?
 
-- **Correct:** Using the "Snowball" technique by asking the government representatives: "Who else should we be talking to that might be impacted by this expansion?"
-- **Distractor 1:** Reviewing the organizational charts of the airlines to identify all relevant department heads.
-- **Distractor 2:** Conducting a brainstorming session with the project team and the construction SMEs.
-- **Distractor 3:** Using a standardized stakeholder template provided by the PMO for large-scale infrastructure projects.
+- <strong>Correct:</strong> Using the "Snowball" technique by asking the government representatives: "Who else should we be talking to that might be impacted by this expansion?"
+- <strong>Distractor 1:</strong> Reviewing the organizational charts of the airlines to identify all relevant department heads.
+- <strong>Distractor 2:</strong> Conducting a brainstorming session with the project team and the construction SMEs.
+- <strong>Distractor 3:</strong> Using a standardized stakeholder template provided by the PMO for large-scale infrastructure projects.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -928,18 +928,18 @@ Which technique is MOST likely to uncover these shadow stakeholders?
 
 ### Question 33
 
-**Enabler:** 6 | **Methodology:** Agile
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team has lost trust in their Product Owner because the Product Owner frequently changes their mind about priorities mid-sprint. The team feels their work is being wasted and their velocity is dropping.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action the project manager (Scrum Master) should take to rebuild trust and influence the Product Owner?
 
-- **Correct:** Facilitate a retrospective with the Product Owner and the team to analyze the impact of mid-sprint changes and "Commit" to a stable sprint backlog.
-- **Distractor 1:** Update the team charter to include a rule that no changes are allowed once a sprint has started.
-- **Distractor 2:** Escalate the Product Owner's behavior to the Agile Coach or the Product Management department head.
-- **Distractor 3:** Advise the team to ignore the Product Owner's mid-sprint requests and only work on the items committed during sprint planning.
+- <strong>Correct:</strong> Facilitate a retrospective with the Product Owner and the team to analyze the impact of mid-sprint changes and "Commit" to a stable sprint backlog.
+- <strong>Distractor 1:</strong> Update the team charter to include a rule that no changes are allowed once a sprint has started.
+- <strong>Distractor 2:</strong> Escalate the Product Owner's behavior to the Agile Coach or the Product Management department head.
+- <strong>Distractor 3:</strong> Advise the team to ignore the Product Owner's mid-sprint requests and only work on the items committed during sprint planning.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -957,18 +957,18 @@ What is the FIRST action the project manager (Scrum Master) should take to rebui
 
 ### Question 34
 
-**Enabler:** 5 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is managing a hybrid project to launch a new eco-friendly product line. The "Sustainability Officer" wants the packaging to be 100% biodegradable (high cost), while the "Procurement Manager" wants to use recycled plastic (low cost) to meet budget targets.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the project manager to optimize alignment among these stakeholders?
 
-- **Correct:** Use "Multi-Criteria Decision Analysis" to evaluate both options against project goals (Cost, ESG metrics, Market Appeal) and facilitate a shared decision.
-- **Distractor 1:** Choose the recycled plastic option as the project is currently over budget and the procurement manager has more formal power.
-- **Distractor 2:** Ask the project sponsor to choose the option that best aligns with the company's long-term strategic vision.
-- **Distractor 3:** Suggest a hybrid packaging solution that uses both materials, even if it increases the complexity of the manufacturing process.
+- <strong>Correct:</strong> Use "Multi-Criteria Decision Analysis" to evaluate both options against project goals (Cost, ESG metrics, Market Appeal) and facilitate a shared decision.
+- <strong>Distractor 1:</strong> Choose the recycled plastic option as the project is currently over budget and the procurement manager has more formal power.
+- <strong>Distractor 2:</strong> Ask the project sponsor to choose the option that best aligns with the company's long-term strategic vision.
+- <strong>Distractor 3:</strong> Suggest a hybrid packaging solution that uses both materials, even if it increases the complexity of the manufacturing process.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -986,18 +986,18 @@ What is the BEST way for the project manager to optimize alignment among these s
 
 ### Question 35
 
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A high-power stakeholder from a partner organization has become "Resistant" because they feel they were not consulted on a major technical decision. The project manager's engagement plan currently classifies them as "Keep Satisfied."
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do FIRST to update the engagement strategy?
 
-- **Correct:** Move the stakeholder to the "Manage Closely" quadrant in the stakeholder register and schedule a 1:1 "Active Listening" session to address the perceived exclusion.
-- **Distractor 1:** Update the RACI matrix to change the stakeholder's role from "Informed" to "Consulted" for all future technical decisions.
-- **Distractor 2:** Send the stakeholder a formal apology letter signed by the project sponsor to acknowledge the oversight.
-- **Distractor 3:** Review the communications management plan to see where the breakdown in communication occurred during the technical decision process.
+- <strong>Correct:</strong> Move the stakeholder to the "Manage Closely" quadrant in the stakeholder register and schedule a 1:1 "Active Listening" session to address the perceived exclusion.
+- <strong>Distractor 1:</strong> Update the RACI matrix to change the stakeholder's role from "Informed" to "Consulted" for all future technical decisions.
+- <strong>Distractor 2:</strong> Send the stakeholder a formal apology letter signed by the project sponsor to acknowledge the oversight.
+- <strong>Distractor 3:</strong> Review the communications management plan to see where the breakdown in communication occurred during the technical decision process.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1015,18 +1015,18 @@ What should the project manager do FIRST to update the engagement strategy?
 
 ### Question 36
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is working on a project with a very large number of end-users (over 100,000). The project manager needs to prioritize feedback from these users.
 
-**Question:**
+<strong>Question:</strong>
 According to the Salience Model, how should the project manager classify a small but vocal group of users who are using social media to demand a specific feature "immediately"?
 
-- **Correct:** Demanding, as they have high urgency but lack formal power and legitimacy compared to the broader user base.
-- **Distractor 1:** Dangerous, as their social media presence could cause significant reputational damage to the project.
-- **Distractor 2:** Dependent, as they rely on the project manager to advocate for their specific feature within the agile team.
-- **Distractor 3:** Latent, as they have low interest and low power until they are triggered by a project delay.
+- <strong>Correct:</strong> Demanding, as they have high urgency but lack formal power and legitimacy compared to the broader user base.
+- <strong>Distractor 1:</strong> Dangerous, as their social media presence could cause significant reputational damage to the project.
+- <strong>Distractor 2:</strong> Dependent, as they rely on the project manager to advocate for their specific feature within the agile team.
+- <strong>Distractor 3:</strong> Latent, as they have low interest and low power until they are triggered by a project delay.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1044,18 +1044,18 @@ According to the Salience Model, how should the project manager classify a small
 
 ### Question 37
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is coordinating a project that includes a mix of "High-Context" and "Low-Context" cultures. The Low-Context stakeholders are frustrated that meetings are too long and indirect, while the High-Context stakeholders feel that the Low-Context stakeholders are "rude" and "too aggressive" in their emails.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way to optimize stakeholder communication in this scenario?
 
-- **Correct:** Update the communications management plan to include "Cultural Norms" guidelines, using indirect communication for relationship-building and direct communication for technical tasks.
-- **Distractor 1:** Standardize all project communications to be "Low-Context" (direct and explicit) to ensure there is no ambiguity in requirements or deadlines.
-- **Distractor 2:** Separate the project teams by culture so that they can communicate in their preferred styles and then have a "Cultural Lead" translate between them.
-- **Distractor 3:** Tell both groups that the project uses a "Global Standard" of communication and that they need to adapt to a neutral, professional style.
+- <strong>Correct:</strong> Update the communications management plan to include "Cultural Norms" guidelines, using indirect communication for relationship-building and direct communication for technical tasks.
+- <strong>Distractor 1:</strong> Standardize all project communications to be "Low-Context" (direct and explicit) to ensure there is no ambiguity in requirements or deadlines.
+- <strong>Distractor 2:</strong> Separate the project teams by culture so that they can communicate in their preferred styles and then have a "Cultural Lead" translate between them.
+- <strong>Distractor 3:</strong> Tell both groups that the project uses a "Global Standard" of communication and that they need to adapt to a neutral, professional style.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1073,18 +1073,18 @@ What is the BEST way to optimize stakeholder communication in this scenario?
 
 ### Question 38
 
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager needs to get the "Buy-in" of a skeptical CFO for a project that has a high upfront cost but long-term strategic benefits. The CFO is known for being very conservative and focused on short-term quarterly results.
 
-**Question:**
+<strong>Question:</strong>
 Which action based on the "Trust Equation" would most likely influence the CFO?
 
-- **Correct:** Increase "Credibility" by presenting a detailed, third-party ROI analysis and lower "Self-Orientation" by acknowledging the CFO's concern about short-term cash flow.
-- **Distractor 1:** Increase "Intimacy" by taking the CFO out to lunch and building a personal relationship before discussing the project.
-- **Distractor 2:** Increase "Reliability" by showing the CFO that the project team has never missed a budget target in the last three years.
-- **Distractor 3:** Increase "Credibility" by showing the CFO the CEO's signed endorsement of the project's strategic value.
+- <strong>Correct:</strong> Increase "Credibility" by presenting a detailed, third-party ROI analysis and lower "Self-Orientation" by acknowledging the CFO's concern about short-term cash flow.
+- <strong>Distractor 1:</strong> Increase "Intimacy" by taking the CFO out to lunch and building a personal relationship before discussing the project.
+- <strong>Distractor 2:</strong> Increase "Reliability" by showing the CFO that the project team has never missed a budget target in the last three years.
+- <strong>Distractor 3:</strong> Increase "Credibility" by showing the CFO the CEO's signed endorsement of the project's strategic value.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1102,18 +1102,18 @@ Which action based on the "Trust Equation" would most likely influence the CFO?
 
 ### Question 39
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a retrospective, the agile team expresses that they feel "monitored" by the Product Owner, who attends the daily standups and takes detailed notes on what each person says. The team's trust in the Product Owner is declining, and they are becoming less transparent during the meetings.
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's (Scrum Master's) BEST action?
 
-- **Correct:** Coach the Product Owner on the purpose of the daily standup (team synchronization, not status reporting) and suggest they observe without taking individual notes.
-- **Distractor 1:** Ask the Product Owner to stop attending the daily standups entirely to give the team "breathing room" and restore transparency.
-- **Distractor 2:** Advise the team that the Product Owner has a right to know the status of the project and that they should be more professional in their communication.
-- **Distractor 3:** Update the team charter to include a rule that no notes are allowed to be taken during the daily standup sessions.
+- <strong>Correct:</strong> Coach the Product Owner on the purpose of the daily standup (team synchronization, not status reporting) and suggest they observe without taking individual notes.
+- <strong>Distractor 1:</strong> Ask the Product Owner to stop attending the daily standups entirely to give the team "breathing room" and restore transparency.
+- <strong>Distractor 2:</strong> Advise the team that the Product Owner has a right to know the status of the project and that they should be more professional in their communication.
+- <strong>Distractor 3:</strong> Update the team charter to include a rule that no notes are allowed to be taken during the daily standup sessions.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1131,18 +1131,18 @@ What is the project manager's (Scrum Master's) BEST action?
 
 ### Question 40
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leadng a hybrid project for a new medical device. The "Quality Assurance" stakeholder has a "Resistant" attitude because they believe the agile software development approach will bypass necessary safety testing.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager re-map this stakeholder's engagement strategy using the Stakeholder Cube?
 
-- **Correct:** Identify them as a "Priority Risk" (High Power, High Interest, Resistant) and involve them directly in defining the "Definition of Done" to include safety gates.
-- **Distractor 1:** Map them as "Keep Satisfied" (High Power, Low Interest) and send them weekly reports on the completed safety tests.
-- **Distractor 2:** Identify them as a "Danger Zone" stakeholder (High Power, Low Interest, Resistant) and ask the project sponsor to neutralize their concerns.
-- **Distractor 3:** Map them as "Monitor" (Low Power, Low Interest) since the software team has its own internal QA process.
+- <strong>Correct:</strong> Identify them as a "Priority Risk" (High Power, High Interest, Resistant) and involve them directly in defining the "Definition of Done" to include safety gates.
+- <strong>Distractor 1:</strong> Map them as "Keep Satisfied" (High Power, Low Interest) and send them weekly reports on the completed safety tests.
+- <strong>Distractor 2:</strong> Identify them as a "Danger Zone" stakeholder (High Power, Low Interest, Resistant) and ask the project sponsor to neutralize their concerns.
+- <strong>Distractor 3:</strong> Map them as "Monitor" (Low Power, Low Interest) since the software team has its own internal QA process.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1160,18 +1160,18 @@ How should the project manager re-map this stakeholder's engagement strategy usi
 
 ### Question 41
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is facilitating a session to align the expectations of the "Customer" and the "Internal Development Team." The Customer expects a "Premium" product with all possible features, while the Team's budget and timeline only allow for a "Basic" functional version.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST "No Surprises" action for the project manager to take?
 
-- **Correct:** Explicitly "Surface and Align" the expectations by facilitating a trade-off discussion between features, cost, and time, and documenting the agreed-upon scope.
-- **Distractor 1:** Deliver the "Basic" version on time and on budget, and then manage the customer's disappointment during the final project handover.
-- **Distractor 2:** Ask the project team to work overtime to deliver as many "Premium" features as possible to meet the customer's high expectations.
-- **Distractor 3:** Request the project sponsor to increase the budget so that the "Premium" product can be delivered as the customer expects.
+- <strong>Correct:</strong> Explicitly "Surface and Align" the expectations by facilitating a trade-off discussion between features, cost, and time, and documenting the agreed-upon scope.
+- <strong>Distractor 1:</strong> Deliver the "Basic" version on time and on budget, and then manage the customer's disappointment during the final project handover.
+- <strong>Distractor 2:</strong> Ask the project team to work overtime to deliver as many "Premium" features as possible to meet the customer's high expectations.
+- <strong>Distractor 3:</strong> Request the project sponsor to increase the budget so that the "Premium" product can be delivered as the customer expects.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1189,18 +1189,18 @@ What is the BEST "No Surprises" action for the project manager to take?
 
 ### Question 42
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project has stakeholders spread across three continents. The project manager notices that stakeholders in Asia rarely speak during the "Open Q&A" sessions of the sprint reviews, while stakeholders in North America dominate the time with questions.
 
-**Question:**
+<strong>Question:</strong>
 Which action demonstrates the BEST "Analysis and Tailoring" of communication?
 
-- **Correct:** Use asynchronous feedback tools (like a shared document or poll) to allow the Asian stakeholders to provide input before and after the meeting in their preferred style.
-- **Distractor 1:** Direct the Asian stakeholders to be more assertive and ask at least two questions each during the live sprint review sessions.
-- **Distractor 2:** Schedule the sprint reviews at a time that is more convenient for the Asian stakeholders to ensure they are more awake and alert.
-- **Distractor 3:** Create a separate, smaller meeting for only the Asian stakeholders where they might feel more comfortable speaking up.
+- <strong>Correct:</strong> Use asynchronous feedback tools (like a shared document or poll) to allow the Asian stakeholders to provide input before and after the meeting in their preferred style.
+- <strong>Distractor 1:</strong> Direct the Asian stakeholders to be more assertive and ask at least two questions each during the live sprint review sessions.
+- <strong>Distractor 2:</strong> Schedule the sprint reviews at a time that is more convenient for the Asian stakeholders to ensure they are more awake and alert.
+- <strong>Distractor 3:</strong> Create a separate, smaller meeting for only the Asian stakeholders where they might feel more comfortable speaking up.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1218,18 +1218,18 @@ Which action demonstrates the BEST "Analysis and Tailoring" of communication?
 
 ### Question 43
 
-**Enabler:** 6 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is managing a hybrid project where the software team is consistently outperforming the hardware team. The software team is starting to feel "held back" by the hardware delays and is publicly criticizing the hardware team's work during joint meetings. Trust is breaking down between the teams.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to build trust and influence these teams?
 
-- **Correct:** Facilitate a joint "Value Stream Mapping" session to help both teams understand their interdependencies and celebrate "Joint Wins" for integrated milestones.
-- **Distractor 1:** Separate the teams into different meeting rooms and manage the communication between them manually to prevent further public criticism.
-- **Distractor 2:** Reprimand the software team for their unprofessional behavior and remind them that the hardware team is also critical for project success.
-- **Distractor 3:** Suggest that the hardware team adopts agile practices to help them speed up their delivery and keep pace with the software team.
+- <strong>Correct:</strong> Facilitate a joint "Value Stream Mapping" session to help both teams understand their interdependencies and celebrate "Joint Wins" for integrated milestones.
+- <strong>Distractor 1:</strong> Separate the teams into different meeting rooms and manage the communication between them manually to prevent further public criticism.
+- <strong>Distractor 2:</strong> Reprimand the software team for their unprofessional behavior and remind them that the hardware team is also critical for project success.
+- <strong>Distractor 3:</strong> Suggest that the hardware team adopts agile practices to help them speed up their delivery and keep pace with the software team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1247,18 +1247,18 @@ What is the BEST action for the project manager to build trust and influence the
 
 ### Question 44
 
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is executing the engagement plan. A mid-level manager who was previously "Unaware" of the project has just discovered that the project will automate 40% of their department's current tasks. They are now "Resistant" and are refusing to provide the project team with the necessary process documentation.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way to address this resistance?
 
-- **Correct:** Use a "WIIFM" (What's In It For Me) strategy by showing the manager how the project will free up their team for higher-value, more strategic work.
-- **Distractor 1:** Document the manager's refusal in the issue log and escalate it to the project sponsor to ensure the documentation is provided.
-- **Distractor 2:** Update the stakeholder register to move the manager to the "Resistant" category and wait for the department head to intervene.
-- **Distractor 3:** Inform the manager that the project is an organizational mandate and that their cooperation is required for their annual performance review.
+- <strong>Correct:</strong> Use a "WIIFM" (What's In It For Me) strategy by showing the manager how the project will free up their team for higher-value, more strategic work.
+- <strong>Distractor 1:</strong> Document the manager's refusal in the issue log and escalate it to the project sponsor to ensure the documentation is provided.
+- <strong>Distractor 2:</strong> Update the stakeholder register to move the manager to the "Resistant" category and wait for the department head to intervene.
+- <strong>Distractor 3:</strong> Inform the manager that the project is an organizational mandate and that their cooperation is required for their annual performance review.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1276,18 +1276,18 @@ What is the BEST way to address this resistance?
 
 ### Question 45
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is working on an internal HR tool. They have identified the HR Director, the IT Lead, and the Finance Manager. During the second sprint, they realize that the "Data Privacy Officer" was never consulted, and the tool might violate several GDPR (General Data Protection Regulation) rules.
 
-**Question:**
+<strong>Question:</strong>
 What does this indicate about the project manager's (Scrum Master's) stakeholder identification process?
 
-- **Correct:** A failure to use "Stakeholder Templates" or "Checklists" (like Legal/Compliance/HR) that would have ensured all standard functional stakeholders were identified early.
-- **Distractor 1:** A failure to involve the end-users in the initial brainstorming session, as they would have known about the GDPR requirements.
-- **Distractor 2:** A failure to use the "Salience Model" during the first sprint, which would have identified the Data Privacy Officer as a definitive stakeholder.
-- **Distractor 3:** Nothing; in agile, stakeholders are identified progressively, and finding the Privacy Officer in sprint two is part of the normal process.
+- <strong>Correct:</strong> A failure to use "Stakeholder Templates" or "Checklists" (like Legal/Compliance/HR) that would have ensured all standard functional stakeholders were identified early.
+- <strong>Distractor 1:</strong> A failure to involve the end-users in the initial brainstorming session, as they would have known about the GDPR requirements.
+- <strong>Distractor 2:</strong> A failure to use the "Salience Model" during the first sprint, which would have identified the Data Privacy Officer as a definitive stakeholder.
+- <strong>Distractor 3:</strong> Nothing; in agile, stakeholders are identified progressively, and finding the Privacy Officer in sprint two is part of the normal process.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1305,18 +1305,18 @@ What does this indicate about the project manager's (Scrum Master's) stakeholder
 
 ### Question 46
 
-**Enabler:** 5 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is managing a hybrid project where the "Project Sponsor" wants to see a detailed schedule for the next six months, but the "Agile Team" says they can only plan for the next two weeks (the current sprint).
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way to optimize alignment among these stakeholders?
 
-- **Correct:** Facilitate a "Rolling Wave Planning" session to create a high-level roadmap for the 6-month horizon and detailed sprint backlogs for the immediate 2-week window.
-- **Distractor 1:** Tell the sponsor that a 6-month schedule is impossible in agile and that they must learn to trust the team's velocity.
-- **Distractor 2:** Require the agile team to estimate all backlog items for the next six months so that a traditional Gantt chart can be created for the sponsor.
-- **Distractor 3:** Ask the sponsor to attend all sprint planning sessions to see exactly how the team's capacity is being used.
+- <strong>Correct:</strong> Facilitate a "Rolling Wave Planning" session to create a high-level roadmap for the 6-month horizon and detailed sprint backlogs for the immediate 2-week window.
+- <strong>Distractor 1:</strong> Tell the sponsor that a 6-month schedule is impossible in agile and that they must learn to trust the team's velocity.
+- <strong>Distractor 2:</strong> Require the agile team to estimate all backlog items for the next six months so that a traditional Gantt chart can be created for the sponsor.
+- <strong>Distractor 3:</strong> Ask the sponsor to attend all sprint planning sessions to see exactly how the team's capacity is being used.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1334,18 +1334,18 @@ What is the BEST way to optimize alignment among these stakeholders?
 
 ### Question 47
 
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is working with a stakeholder who is a "Supportive Champion" but has very low formal power. This stakeholder has great ideas but is consistently ignored by the senior leadership team during project briefings.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager "Build Trust and Influence" for this stakeholder?
 
-- **Correct:** Empower the stakeholder by asking them to "Co-present" specific technical successes during steering committee meetings to build their credibility with leadership.
-- **Distractor 1:** Suggest the stakeholder should work on their "Soft Skills" to become more persuasive when speaking to senior executives.
-- **Distractor 2:** Tell the stakeholder that while their ideas are good, the project must prioritize the requirements of the high-power stakeholders first.
-- **Distractor 3:** Use the "Authority" principle by citing the stakeholder's expertise in every project report to the executive team.
+- <strong>Correct:</strong> Empower the stakeholder by asking them to "Co-present" specific technical successes during steering committee meetings to build their credibility with leadership.
+- <strong>Distractor 1:</strong> Suggest the stakeholder should work on their "Soft Skills" to become more persuasive when speaking to senior executives.
+- <strong>Distractor 2:</strong> Tell the stakeholder that while their ideas are good, the project must prioritize the requirements of the high-power stakeholders first.
+- <strong>Distractor 3:</strong> Use the "Authority" principle by citing the stakeholder's expertise in every project report to the executive team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1363,18 +1363,18 @@ How should the project manager "Build Trust and Influence" for this stakeholder?
 
 ### Question 48
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project is nearing completion. A group of end-users who were not involved in the early sprints is now expressing dissatisfaction with the user interface, claiming it is "counter-intuitive." The Product Owner is frustrated because the UI was "approved" by the department head.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager (Scrum Master) to take?
 
-- **Correct:** Facilitate a "UAT (User Acceptance Testing) Feedback Loop" and update the stakeholder engagement plan to include "Usability Reviews" for the final polishing phase.
-- **Distractor 1:** Inform the end-users that the department head already approved the UI and that changes are not possible at this late stage of the project.
-- **Distractor 2:** Update the issue log and suggest the Product Owner adds the UI changes to the backlog for a potential "Version 2.0" after the initial launch.
-- **Distractor 3:** Organize a training session for the end-users to teach them how to use the "counter-intuitive" interface properly.
+- <strong>Correct:</strong> Facilitate a "UAT (User Acceptance Testing) Feedback Loop" and update the stakeholder engagement plan to include "Usability Reviews" for the final polishing phase.
+- <strong>Distractor 1:</strong> Inform the end-users that the department head already approved the UI and that changes are not possible at this late stage of the project.
+- <strong>Distractor 2:</strong> Update the issue log and suggest the Product Owner adds the UI changes to the backlog for a potential "Version 2.0" after the initial launch.
+- <strong>Distractor 3:</strong> Organize a training session for the end-users to teach them how to use the "counter-intuitive" interface properly.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1392,18 +1392,18 @@ What is the BEST action for the project manager (Scrum Master) to take?
 
 ### Question 49
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using the "Stakeholder Cube" and identifies a stakeholder who is "High Power," "High Interest," and "Neutral." This stakeholder is an IT Director who is waiting to see if the project will successfully integrate with the existing legacy systems.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST strategy to "Convert" this stakeholder to "Supportive"?
 
-- **Correct:** Invite the IT Director to a "Technical Deep-Dive" or "Proof of Concept" (POC) demo to provide concrete evidence of successful integration.
-- **Distractor 1:** Map the IT Director as "Keep Satisfied" and provide them with weekly executive summaries focused on the project's strategic value.
-- **Distractor 2:** Use the "Social Proof" principle by showing the IT Director that other department heads have already endorsed the project.
-- **Distractor 3:** Request the project sponsor to have a 1:1 with the IT Director to emphasize the project's importance to the board.
+- <strong>Correct:</strong> Invite the IT Director to a "Technical Deep-Dive" or "Proof of Concept" (POC) demo to provide concrete evidence of successful integration.
+- <strong>Distractor 1:</strong> Map the IT Director as "Keep Satisfied" and provide them with weekly executive summaries focused on the project's strategic value.
+- <strong>Distractor 2:</strong> Use the "Social Proof" principle by showing the IT Director that other department heads have already endorsed the project.
+- <strong>Distractor 3:</strong> Request the project sponsor to have a 1:1 with the IT Director to emphasize the project's importance to the board.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1421,18 +1421,18 @@ What is the BEST strategy to "Convert" this stakeholder to "Supportive"?
 
 ### Question 50
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is coordinatng a hybrid project with a very tight budget. To save money, the project manager decides to cancel the face-to-face "Kickoff Meeting" and replace it with a 30-minute virtual presentation. Shortly after, the project manager notices that stakeholders are not responding to emails and there is low engagement in project tasks.
 
-**Question:**
+<strong>Question:</strong>
 Which "Trust Equation" factor did the project manager most likely neglect?
 
-- **Correct:** Intimacy; the virtual presentation failed to build the personal rapport and "Safe Space" needed for genuine stakeholder commitment.
-- **Distractor 1:** Credibility; the stakeholders now doubt the project manager's ability to manage a project of this scale on such a tight budget.
-- **Distractor 2:** Reliability; the stakeholders believe that if the kickoff was cut short, other important project quality steps will also be skipped.
-- **Distractor 3:** Self-Orientation; the stakeholders feel the project manager is more focused on their own budget metrics than on the needs of the team.
+- <strong>Correct:</strong> Intimacy; the virtual presentation failed to build the personal rapport and "Safe Space" needed for genuine stakeholder commitment.
+- <strong>Distractor 1:</strong> Credibility; the stakeholders now doubt the project manager's ability to manage a project of this scale on such a tight budget.
+- <strong>Distractor 2:</strong> Reliability; the stakeholders believe that if the kickoff was cut short, other important project quality steps will also be skipped.
+- <strong>Distractor 3:</strong> Self-Orientation; the stakeholders feel the project manager is more focused on their own budget metrics than on the needs of the team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1461,13 +1461,13 @@ Which "Trust Equation" factor did the project manager most likely neglect?
 | **6. Build trust and influence** | 5, 13, 19, 23, 28, 33, 38, 43, 47 | 9 |
 
 ### Database Stats
-- **Correct Answer Length Average:** 18 words
-- **Distractor Length Average:** 17.5 words
-- **Methodology Split:**
+- <strong>Correct Answer Length Average:</strong> 18 words
+- <strong>Distractor Length Average:</strong> 17.5 words
+- <strong>Methodology Split:</strong>
     - Predictive: 40% (20 questions)
     - Agile: 36% (18 questions)
     - Hybrid: 24% (12 questions)
-- **Difficulty:** Level 4/5 (Analysis/Evaluation)
+- <strong>Difficulty:</strong> Level 4/5 (Analysis/Evaluation)
 
 ---
 

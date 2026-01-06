@@ -7,18 +7,18 @@ This practice exam focuses on the Project Manager's ability to develop, promote,
 
 ### Question 1
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is appointed to a high-visibility infrastructure project. During the first steering committee meeting, it becomes apparent that the Finance Director and the Operations VP have conflicting expectations regarding the project's primary success criteria. The Finance Director is focused on capital expenditure reduction, while the Operations VP expects a complete overhaul of the legacy workflow system.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take to ensure a shared vision?
 
-- **Correct:** Facilitate a workshop with the sponsor and key stakeholders to refine the project charter's measurable success criteria and strategic justification.
-- **Distractor 1:** Update the project management plan to include both sets of requirements to ensure all stakeholders feel heard and included.
-- **Distractor 2:** Escalate the conflict to the Project Management Office (PMO) to decide which stakeholder's vision takes priority.
-- **Distractor 3:** Document the conflicting visions in the risk register and proceed with the initial requirements provided by the sponsor.
+- <strong>Correct:</strong> Facilitate a workshop with the sponsor and key stakeholders to refine the project charter's measurable success criteria and strategic justification.
+- <strong>Distractor 1:</strong> Update the project management plan to include both sets of requirements to ensure all stakeholders feel heard and included.
+- <strong>Distractor 2:</strong> Escalate the conflict to the Project Management Office (PMO) to decide which stakeholder's vision takes priority.
+- <strong>Distractor 3:</strong> Document the conflicting visions in the risk register and proceed with the initial requirements provided by the sponsor.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -36,18 +36,18 @@ What is the BEST action for the project manager to take to ensure a shared visio
 
 ### Question 2
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is struggling to prioritize the product backlog because they are receiving conflicting directions from different business units. The team members feel demotivated because they do not understand how their current work contributes to the long-term goals of the organization.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do FIRST to promote the shared vision?
 
-- **Correct:** Collaborate with the Product Owner to create and communicate a clear Agile Vision Statement using the "Elevator Pitch" template.
-- **Distractor 1:** Instruct the team to focus only on the tasks assigned in the current Sprint and leave prioritization to the Product Owner.
-- **Distractor 2:** Request the sponsor to attend the next Daily Standup to explain the importance of the project to the team.
-- **Distractor 3:** Create a detailed Gantt chart showing the long-term roadmap to provide the team with a sense of direction.
+- <strong>Correct:</strong> Collaborate with the Product Owner to create and communicate a clear Agile Vision Statement using the "Elevator Pitch" template.
+- <strong>Distractor 1:</strong> Instruct the team to focus only on the tasks assigned in the current Sprint and leave prioritization to the Product Owner.
+- <strong>Distractor 2:</strong> Request the sponsor to attend the next Daily Standup to explain the importance of the project to the team.
+- <strong>Distractor 3:</strong> Create a detailed Gantt chart showing the long-term roadmap to provide the team with a sense of direction.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -65,18 +65,18 @@ What should the project manager do FIRST to promote the shared vision?
 
 ### Question 3
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project is halfway through execution when a major competitor launches a disruptive product. The project sponsor asks if the current project remains relevant given the new market conditions. The project manager needs to verify if the project's vision is still current.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate tool or technique for the project manager to use?
 
-- **Correct:** Perform a PESTLE analysis and review the findings with the steering committee to evaluate strategic alignment.
-- **Distractor 1:** Review the project schedule performance index (SPI) to ensure the project is still on track for its original launch date.
-- **Distractor 2:** Conduct a team retrospective to identify ways to speed up delivery to beat the competitor to market.
-- **Distractor 3:** Initiate a formal change request to update the project scope to match the competitor's features.
+- <strong>Correct:</strong> Perform a PESTLE analysis and review the findings with the steering committee to evaluate strategic alignment.
+- <strong>Distractor 1:</strong> Review the project schedule performance index (SPI) to ensure the project is still on track for its original launch date.
+- <strong>Distractor 2:</strong> Conduct a team retrospective to identify ways to speed up delivery to beat the competitor to market.
+- <strong>Distractor 3:</strong> Initiate a formal change request to update the project scope to match the competitor's features.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -94,18 +94,18 @@ What is the MOST appropriate tool or technique for the project manager to use?
 
 ### Question 4
 
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a status meeting, a senior manager expresses frustration, claiming the project is not delivering the expected automation benefits. The project manager reviews the project charter and finds that while "automation" is mentioned, there are no specific, measurable metrics defined for it.
 
-**Question:**
+<strong>Question:</strong>
 What is the root cause of this misunderstanding of the vision?
 
-- **Correct:** The project charter failed to define measurable success criteria linked to the business case.
-- **Distractor 1:** The senior manager was not included in the initial stakeholder identification process.
-- **Distractor 2:** The project manager has not been providing frequent enough status reports to senior leadership.
-- **Distractor 3:** The team has failed to meet the quality standards defined in the project management plan.
+- <strong>Correct:</strong> The project charter failed to define measurable success criteria linked to the business case.
+- <strong>Distractor 1:</strong> The senior manager was not included in the initial stakeholder identification process.
+- <strong>Distractor 2:</strong> The project manager has not been providing frequent enough status reports to senior leadership.
+- <strong>Distractor 3:</strong> The team has failed to meet the quality standards defined in the project management plan.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -123,18 +123,18 @@ What is the root cause of this misunderstanding of the vision?
 
 ### Question 5
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A newly formed agile team is experiencing internal friction. Some members want to focus on technical excellence, while others want to prioritize rapid feature delivery. There is no agreement on how the team should behave or make decisions during conflicts.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager facilitate to resolve this?
 
-- **Correct:** A collaborative session to develop a Team Charter that includes team values, ground rules, and decision-making norms.
-- **Distractor 1:** A meeting with the functional managers to clarify the roles and responsibilities of each team member.
-- **Distractor 2:** A training session on advanced technical skills to ensure everyone is on the same page regarding excellence.
-- **Distractor 3:** An escalation to the sponsor to provide a clear mandate on whether speed or quality is the priority.
+- <strong>Correct:</strong> A collaborative session to develop a Team Charter that includes team values, ground rules, and decision-making norms.
+- <strong>Distractor 1:</strong> A meeting with the functional managers to clarify the roles and responsibilities of each team member.
+- <strong>Distractor 2:</strong> A training session on advanced technical skills to ensure everyone is on the same page regarding excellence.
+- <strong>Distractor 3:</strong> An escalation to the sponsor to provide a clear mandate on whether speed or quality is the priority.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -152,18 +152,18 @@ What should the project manager facilitate to resolve this?
 
 ### Question 6
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is presenting the project charter to a group of functional managers whose resources will be needed. One manager refuses to commit staff, stating that the project seems like a "vanity project" with no real organizational value.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager respond to promote the shared vision?
 
-- **Correct:** Reference the "Strategic Justification" and "Business Case" sections of the charter to show how the project directly supports the organization's long-term goals.
-- **Distractor 1:** Remind the manager that the charter is signed by the CEO and that resource allocation is mandatory.
-- **Distractor 2:** Offer to reduce the number of resources requested from that manager's department to minimize the impact.
-- **Distractor 3:** Request the sponsor to speak directly with the functional manager to enforce compliance with the charter.
+- <strong>Correct:</strong> Reference the "Strategic Justification" and "Business Case" sections of the charter to show how the project directly supports the organization's long-term goals.
+- <strong>Distractor 1:</strong> Remind the manager that the charter is signed by the CEO and that resource allocation is mandatory.
+- <strong>Distractor 2:</strong> Offer to reduce the number of resources requested from that manager's department to minimize the impact.
+- <strong>Distractor 3:</strong> Request the sponsor to speak directly with the functional manager to enforce compliance with the charter.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -181,18 +181,18 @@ How should the project manager respond to promote the shared vision?
 
 ### Question 7
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a Sprint Retrospective, the team realizes that several of the assumptions made during the initial product chartering phase have been proven false by user feedback. The current product roadmap now seems misaligned with what the users actually need.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the team to keep the vision current?
 
-- **Correct:** Work with the Product Owner to update the product vision and roadmap based on the validated learning and update the backlog accordingly.
-- **Distractor 1:** Continue following the original product vision to ensure consistency and avoid confusing the stakeholders.
-- **Distractor 2:** Ask the Scrum Master to facilitate a meeting with the users to convince them that the original vision is still valid.
-- **Distractor 3:** Halt all development until a new project charter can be formally drafted and approved by the steering committee.
+- <strong>Correct:</strong> Work with the Product Owner to update the product vision and roadmap based on the validated learning and update the backlog accordingly.
+- <strong>Distractor 1:</strong> Continue following the original product vision to ensure consistency and avoid confusing the stakeholders.
+- <strong>Distractor 2:</strong> Ask the Scrum Master to facilitate a meeting with the users to convince them that the original vision is still valid.
+- <strong>Distractor 3:</strong> Halt all development until a new project charter can be formally drafted and approved by the steering committee.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -210,18 +210,18 @@ What is the BEST way for the team to keep the vision current?
 
 ### Question 8
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, the hardware team (predictive) and the software team (agile) are constantly clashing. The hardware team complains that software requirements are always changing, while the software team complains that hardware specifications are too rigid and slow to adapt. Both teams claim the other is "ruining the project."
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to identify the root cause of this misunderstanding?
 
-- **Correct:** Analyze the communication and decision-making norms in the Team Charter to see if they account for the different methodologies being used.
-- **Distractor 1:** Mandate that both teams switch to a single methodology to eliminate the source of the conflict.
-- **Distractor 2:** Assign a dedicated liaison officer to handle all communications between the hardware and software teams.
-- **Distractor 3:** Review the project's technical specifications to determine which team is technically "correct" in the dispute.
+- <strong>Correct:</strong> Analyze the communication and decision-making norms in the Team Charter to see if they account for the different methodologies being used.
+- <strong>Distractor 1:</strong> Mandate that both teams switch to a single methodology to eliminate the source of the conflict.
+- <strong>Distractor 2:</strong> Assign a dedicated liaison officer to handle all communications between the hardware and software teams.
+- <strong>Distractor 3:</strong> Review the project's technical specifications to determine which team is technically "correct" in the dispute.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -239,18 +239,18 @@ What should the project manager do to identify the root cause of this misunderst
 
 ### Question 9
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is drafting the project charter. The sponsor wants to include a very detailed schedule and a complete list of all project tasks to "ensure everyone knows exactly what to do from day one."
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager advise the sponsor to ensure a shared vision?
 
-- **Correct:** Explain that the charter should focus on high-level goals, success criteria, and summary milestones to provide strategic guardrails without over-constraining the planning phase.
-- **Distractor 1:** Agree with the sponsor and work with the team to create a 1,000-line WBS before the charter is signed.
-- **Distractor 2:** Suggest that the detailed schedule should be placed in the Team Charter instead of the Project Charter.
-- **Distractor 3:** Advise the sponsor that a charter is not necessary if a detailed project management plan is already being created.
+- <strong>Correct:</strong> Explain that the charter should focus on high-level goals, success criteria, and summary milestones to provide strategic guardrails without over-constraining the planning phase.
+- <strong>Distractor 1:</strong> Agree with the sponsor and work with the team to create a 1,000-line WBS before the charter is signed.
+- <strong>Distractor 2:</strong> Suggest that the detailed schedule should be placed in the Team Charter instead of the Project Charter.
+- <strong>Distractor 3:</strong> Advise the sponsor that a charter is not necessary if a detailed project management plan is already being created.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -268,18 +268,18 @@ How should the project manager advise the sponsor to ensure a shared vision?
 
 ### Question 10
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is working on a digital transformation project. Many stakeholders outside the team are confused about what the project is trying to achieve, often asking for features that are completely outside the project's intent.
 
-**Question:**
+<strong>Question:</strong>
 Which action would be MOST effective for the project manager to promote the shared vision to external stakeholders?
 
-- **Correct:** Post the Product Vision statement and a high-level visual roadmap in a visible "information radiator" or digital workspace accessible to all stakeholders.
-- **Distractor 1:** Send a detailed 50-page requirements document to all stakeholders and ask them to read it before requesting new features.
-- **Distractor 2:** Invite all stakeholders to every Daily Standup so they can see exactly what the team is working on.
-- **Distractor 3:** Tell the team to ignore all external requests and only listen to the Product Owner to maintain focus.
+- <strong>Correct:</strong> Post the Product Vision statement and a high-level visual roadmap in a visible "information radiator" or digital workspace accessible to all stakeholders.
+- <strong>Distractor 1:</strong> Send a detailed 50-page requirements document to all stakeholders and ask them to read it before requesting new features.
+- <strong>Distractor 2:</strong> Invite all stakeholders to every Daily Standup so they can see exactly what the team is working on.
+- <strong>Distractor 3:</strong> Tell the team to ignore all external requests and only listen to the Product Owner to maintain focus.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -297,18 +297,18 @@ Which action would be MOST effective for the project manager to promote the shar
 
 ### Question 11
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A multi-year project is underway. During a periodic governance review, the PMO reports that the organization's strategic priorities have shifted from "Market Share Growth" to "Operational Efficiency" due to an economic downturn.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do FIRST to keep the vision current?
 
-- **Correct:** Evaluate the project's current objectives and deliverables against the new "Operational Efficiency" strategy and prepare a recommendation for the steering committee.
-- **Distractor 1:** Close the project immediately since it was designed for "Market Share Growth" and is no longer strategically aligned.
-- **Distractor 2:** Continue with the current plan but change the project's title in status reports to include the word "Efficiency."
-- **Distractor 3:** Ask the team to brainstorm new features that might help with operational efficiency and add them to the scope.
+- <strong>Correct:</strong> Evaluate the project's current objectives and deliverables against the new "Operational Efficiency" strategy and prepare a recommendation for the steering committee.
+- <strong>Distractor 1:</strong> Close the project immediately since it was designed for "Market Share Growth" and is no longer strategically aligned.
+- <strong>Distractor 2:</strong> Continue with the current plan but change the project's title in status reports to include the word "Efficiency."
+- <strong>Distractor 3:</strong> Ask the team to brainstorm new features that might help with operational efficiency and add them to the scope.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -326,18 +326,18 @@ What should the project manager do FIRST to keep the vision current?
 
 ### Question 12
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager notices that the team is consistently failing to meet the "Definition of Done" (DoD) for their software modules, leading to significant rework during the integration phase. When questioned, team members have different interpretations of what "tested" means.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager address this misunderstanding of the shared vision for quality?
 
-- **Correct:** Facilitate a team session to review and refine the Definition of Done in the Team Charter until there is a single, clear understanding.
-- **Distractor 1:** Update the Quality Management Plan and distribute it to all team members with a mandatory read-receipt.
-- **Distractor 2:** Hire an external auditor to define the quality standards for the team and enforce them.
-- **Distractor 3:** Perform a root cause analysis using a Fishbone diagram to identify which individual team members are failing to test properly.
+- <strong>Correct:</strong> Facilitate a team session to review and refine the Definition of Done in the Team Charter until there is a single, clear understanding.
+- <strong>Distractor 1:</strong> Update the Quality Management Plan and distribute it to all team members with a mandatory read-receipt.
+- <strong>Distractor 2:</strong> Hire an external auditor to define the quality standards for the team and enforce them.
+- <strong>Distractor 3:</strong> Perform a root cause analysis using a Fishbone diagram to identify which individual team members are failing to test properly.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -354,18 +354,18 @@ How should the project manager address this misunderstanding of the shared visio
 
 ### Question 13
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is starting a new agile project for a mobile app. During "Sprint Zero," the team is struggling to understand how the individual user stories in the backlog relate to the overall business goal of "becoming the #1 fitness app for seniors."
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the project manager to help the team ensure a shared vision?
 
-- **Correct:** Facilitate a "Product Box" or "Visioning Workshop" where the team and stakeholders collaboratively define the product's core value proposition and differentiators.
-- **Distractor 1:** Ask the Product Owner to write a detailed 100-page business requirement document and present it to the team.
-- **Distractor 2:** Instruct the team to start coding the most technically difficult stories first to reduce project risk.
-- **Distractor 3:** Tell the team that their role is to execute the stories, and the Product Owner is solely responsible for the vision.
+- <strong>Correct:</strong> Facilitate a "Product Box" or "Visioning Workshop" where the team and stakeholders collaboratively define the product's core value proposition and differentiators.
+- <strong>Distractor 1:</strong> Ask the Product Owner to write a detailed 100-page business requirement document and present it to the team.
+- <strong>Distractor 2:</strong> Instruct the team to start coding the most technically difficult stories first to reduce project risk.
+- <strong>Distractor 3:</strong> Tell the team that their role is to execute the stories, and the Product Owner is solely responsible for the vision.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -383,18 +383,18 @@ What is the BEST way for the project manager to help the team ensure a shared vi
 
 ### Question 14
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is consistently rejecting user stories during Sprint Planning because they feel the stories are "vague." The Product Owner, however, believes the stories are clear enough for development to start. This is causing significant delays and friction between the team and the Product Owner.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to identify the root cause of this misunderstanding?
 
-- **Correct:** Facilitate a meeting to define and agree upon a "Definition of Ready" (DoR) that describes the criteria a story must meet before being pulled into a Sprint.
-- **Distractor 1:** Hire a senior business analyst to write the stories for the Product Owner to ensure they are technical enough.
-- **Distractor 2:** Instruct the team to accept the stories as-is and use the Daily Standup to clarify the requirements as they work.
-- **Distractor 3:** Replace the Product Owner with someone who has a stronger technical background.
+- <strong>Correct:</strong> Facilitate a meeting to define and agree upon a "Definition of Ready" (DoR) that describes the criteria a story must meet before being pulled into a Sprint.
+- <strong>Distractor 1:</strong> Hire a senior business analyst to write the stories for the Product Owner to ensure they are technical enough.
+- <strong>Distractor 2:</strong> Instruct the team to accept the stories as-is and use the Daily Standup to clarify the requirements as they work.
+- <strong>Distractor 3:</strong> Replace the Product Owner with someone who has a stronger technical background.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -412,18 +412,18 @@ What should the project manager do to identify the root cause of this misunderst
 
 ### Question 15
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The organization is undergoing a rapid shift toward a "Customer-First" strategy. A project manager is leading an internal IT project that seems disconnected from this new strategy. The team is starting to feel that their work is unimportant.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager promote the shared vision in this situation?
 
-- **Correct:** Work with the sponsor to re-frame the project's benefits in terms of how they indirectly enable better customer experiences (e.g., faster internal systems lead to faster customer service).
-- **Distractor 1:** Tell the team to ignore the organizational strategy shift as it only applies to the Sales and Marketing departments.
-- **Distractor 2:** Request the sponsor to increase the team's project bonus to compensate for the perceived lack of strategic value.
-- **Distractor 3:** Suggest that the team members apply for positions on "Customer-First" projects to improve their morale.
+- <strong>Correct:</strong> Work with the sponsor to re-frame the project's benefits in terms of how they indirectly enable better customer experiences (e.g., faster internal systems lead to faster customer service).
+- <strong>Distractor 1:</strong> Tell the team to ignore the organizational strategy shift as it only applies to the Sales and Marketing departments.
+- <strong>Distractor 2:</strong> Request the sponsor to increase the team's project bonus to compensate for the perceived lack of strategic value.
+- <strong>Distractor 3:</strong> Suggest that the team members apply for positions on "Customer-First" projects to improve their morale.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -441,18 +441,18 @@ How should the project manager promote the shared vision in this situation?
 
 ### Question 16
 
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a hybrid project where the software is developed using Scrum, but the hardware procurement follows a strict predictive schedule. The executive steering committee is frustrated because they want a single, detailed project schedule that shows exactly when every software feature will be finished six months from now.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the project manager to handle this expectation while maintaining a shared vision?
 
-- **Correct:** Educate the committee on the difference between a high-level Roadmap (outcomes) and a detailed Schedule (tasks), and provide a Roadmap for the software component.
-- **Distractor 1:** Create a detailed Gantt chart for the software team by estimating all future Sprints and hold the team strictly to those dates.
-- **Distractor 2:** Tell the committee that agile projects cannot have schedules and that they must wait until each Sprint ends to know what was built.
-- **Distractor 3:** Ask the hardware team to switch to agile so that the entire project can be managed without a detailed schedule.
+- <strong>Correct:</strong> Educate the committee on the difference between a high-level Roadmap (outcomes) and a detailed Schedule (tasks), and provide a Roadmap for the software component.
+- <strong>Distractor 1:</strong> Create a detailed Gantt chart for the software team by estimating all future Sprints and hold the team strictly to those dates.
+- <strong>Distractor 2:</strong> Tell the committee that agile projects cannot have schedules and that they must wait until each Sprint ends to know what was built.
+- <strong>Distractor 3:</strong> Ask the hardware team to switch to agile so that the entire project can be managed without a detailed schedule.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -470,18 +470,18 @@ What is the BEST way for the project manager to handle this expectation while ma
 
 ### Question 17
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team has been working for three months on a new data analytics platform. During the most recent Sprint Review, a key stakeholder realizes that the data security regulations in their region have changed, making the current architecture non-compliant.
 
-**Question:**
+<strong>Question:</strong>
 What action should the project manager take to keep the vision current?
 
-- **Correct:** Facilitate an impact assessment of the new regulations and work with the Product Owner to update the product vision and backlog.
-- **Distractor 1:** Continue with the current architecture and handle the compliance issues during the final maintenance phase of the project.
-- **Distractor 2:** Blame the stakeholder for not informing the team of the regulatory change earlier and ask for a budget increase to fix the error.
-- **Distractor 3:** Ignore the regulatory change as the project charter was signed before the new laws were enacted.
+- <strong>Correct:</strong> Facilitate an impact assessment of the new regulations and work with the Product Owner to update the product vision and backlog.
+- <strong>Distractor 1:</strong> Continue with the current architecture and handle the compliance issues during the final maintenance phase of the project.
+- <strong>Distractor 2:</strong> Blame the stakeholder for not informing the team of the regulatory change earlier and ask for a budget increase to fix the error.
+- <strong>Distractor 3:</strong> Ignore the regulatory change as the project charter was signed before the new laws were enacted.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -499,18 +499,18 @@ What action should the project manager take to keep the vision current?
 
 ### Question 18
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is hired by a large PMO. The PMO has very strict templates and processes for all projects. The project manager feels that these templates are too bureaucratic and are distracting the team from the actual project vision.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST professional way for the project manager to promote the shared vision?
 
-- **Correct:** Utilize the PMO as a "force-multiplier" by using the templates to provide standardized, clear reporting that keeps stakeholders aligned on project value.
-- **Distractor 1:** Create a "secret" set of project documents that the team uses, while providing the "official" templates only to the PMO.
-- **Distractor 2:** Refuse to use the PMO templates and tell the team to focus only on the deliverables defined in the charter.
-- **Distractor 3:** Complain to the project sponsor that the PMO is an impediment to the project's success and request an exemption.
+- <strong>Correct:</strong> Utilize the PMO as a "force-multiplier" by using the templates to provide standardized, clear reporting that keeps stakeholders aligned on project value.
+- <strong>Distractor 1:</strong> Create a "secret" set of project documents that the team uses, while providing the "official" templates only to the PMO.
+- <strong>Distractor 2:</strong> Refuse to use the PMO templates and tell the team to focus only on the deliverables defined in the charter.
+- <strong>Distractor 3:</strong> Complain to the project sponsor that the PMO is an impediment to the project's success and request an exemption.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -528,18 +528,18 @@ What is the MOST professional way for the project manager to promote the shared 
 
 ### Question 19
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a backlog refinement session, the team notices that several user stories being pushed by the Marketing department do not align with the "Product Vision Statement" established at the start of the project. These stories would require a significant change in the product's core architecture.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to help ensure a shared vision?
 
-- **Correct:** Facilitate a discussion between Marketing and the Product Owner to determine if the Product Vision should pivot or if the stories should be removed from the backlog.
-- **Distractor 1:** Automatically add the stories to the next Sprint because Marketing is a powerful stakeholder group.
-- **Distractor 2:** Reject the stories immediately and remind Marketing that the vision statement is a legally binding document.
-- **Distractor 3:** Ask the technical team to find a way to "hide" the new features in the architecture so the vision remains technically the same.
+- <strong>Correct:</strong> Facilitate a discussion between Marketing and the Product Owner to determine if the Product Vision should pivot or if the stories should be removed from the backlog.
+- <strong>Distractor 1:</strong> Automatically add the stories to the next Sprint because Marketing is a powerful stakeholder group.
+- <strong>Distractor 2:</strong> Reject the stories immediately and remind Marketing that the vision statement is a legally binding document.
+- <strong>Distractor 3:</strong> Ask the technical team to find a way to "hide" the new features in the architecture so the vision remains technically the same.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -557,18 +557,18 @@ What should the project manager do to help ensure a shared vision?
 
 ### Question 20
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 An organization that has always used predictive methodologies is running its first agile pilot. The team is struggling because the functional managers are still asking for weekly "percent complete" reports on specific tasks, which doesn't align with the team's agile flow.
 
-**Question:**
+<strong>Question:</strong>
 What is the root cause of this misunderstanding of the project's "Ways of Working"?
 
-- **Correct:** A failure to establish and communicate the project governance and reporting norms during the initiation phase.
-- **Distractor 1:** The agile team is not using their task board correctly, making it hard for managers to see progress.
-- **Distractor 2:** The functional managers are being intentionally difficult because they are afraid of the agile transition.
-- **Distractor 3:** Agile is inherently incompatible with any form of management reporting or oversight.
+- <strong>Correct:</strong> A failure to establish and communicate the project governance and reporting norms during the initiation phase.
+- <strong>Distractor 1:</strong> The agile team is not using their task board correctly, making it hard for managers to see progress.
+- <strong>Distractor 2:</strong> The functional managers are being intentionally difficult because they are afraid of the agile transition.
+- <strong>Distractor 3:</strong> Agile is inherently incompatible with any form of management reporting or oversight.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -586,18 +586,18 @@ What is the root cause of this misunderstanding of the project's "Ways of Workin
 
 ### Question 21
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager observes that the team's velocity has dropped significantly over the last three Sprints. During a one-on-one, a senior developer says, "We're just checking boxes now. I don't see how this app actually helps anyone anymore."
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST effective action for the project manager to take to promote the shared vision?
 
-- **Correct:** Invite a real customer or end-user to the next Sprint Review to share how the team's work is impacting their daily life.
-- **Distractor 1:** Increase the frequency of the Daily Standup to 30 minutes to ensure every task is being tracked more closely.
-- **Distractor 2:** Review the velocity charts with the team and set a higher target for the next Sprint to motivate them.
-- **Distractor 3:** Remind the developer of their contractual obligation to perform their duties as assigned in the project plan.
+- <strong>Correct:</strong> Invite a real customer or end-user to the next Sprint Review to share how the team's work is impacting their daily life.
+- <strong>Distractor 1:</strong> Increase the frequency of the Daily Standup to 30 minutes to ensure every task is being tracked more closely.
+- <strong>Distractor 2:</strong> Review the velocity charts with the team and set a higher target for the next Sprint to motivate them.
+- <strong>Distractor 3:</strong> Remind the developer of their contractual obligation to perform their duties as assigned in the project plan.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -615,18 +615,18 @@ What is the MOST effective action for the project manager to take to promote the
 
 ### Question 22
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is reviewing the project's monthly performance with the steering committee. The organization has recently acquired a competitor, and the steering committee mentions that several other projects are being cancelled to free up resources for the integration.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the project manager to ensure their project maintains its shared vision and support?
 
-- **Correct:** Proactively present an updated "Strategic Alignment Assessment" showing how the current project supports or complements the new integration strategy.
-- **Distractor 1:** Hide the project's true resource usage so that it doesn't get noticed by the steering committee during the cancellations.
-- **Distractor 2:** Immediately request a budget increase to make the project "too big to fail" during the reorganization.
-- **Distractor 3:** Wait for the steering committee to ask for an update before providing any information about the project's status.
+- <strong>Correct:</strong> Proactively present an updated "Strategic Alignment Assessment" showing how the current project supports or complements the new integration strategy.
+- <strong>Distractor 1:</strong> Hide the project's true resource usage so that it doesn't get noticed by the steering committee during the cancellations.
+- <strong>Distractor 2:</strong> Immediately request a budget increase to make the project "too big to fail" during the reorganization.
+- <strong>Distractor 3:</strong> Wait for the steering committee to ask for an update before providing any information about the project's status.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -644,18 +644,18 @@ What is the BEST way for the project manager to ensure their project maintains i
 
 ### Question 23
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is highly successful and has met all its milestones. However, the project manager notices that the Team Charter has not been updated since the project started 12 months ago. Several team members have changed, and the project is moving into a more complex phase.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to keep the vision current?
 
-- **Correct:** Suggest that the team uses the next Retrospective to review and "refresh" the Team Charter to reflect the current team membership and phase.
-- **Distractor 1:** Leave the charter alone because the team is already performing well and "if it isn't broken, don't fix it."
-- **Distractor 2:** Personally update the charter with new rules and distribute it to the team as a mandatory update.
-- **Distractor 3:** Tell the team that once a charter is signed, it can never be changed, as it represents the original vision of the project.
+- <strong>Correct:</strong> Suggest that the team uses the next Retrospective to review and "refresh" the Team Charter to reflect the current team membership and phase.
+- <strong>Distractor 1:</strong> Leave the charter alone because the team is already performing well and "if it isn't broken, don't fix it."
+- <strong>Distractor 2:</strong> Personally update the charter with new rules and distribute it to the team as a mandatory update.
+- <strong>Distractor 3:</strong> Tell the team that once a charter is signed, it can never be changed, as it represents the original vision of the project.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -673,18 +673,18 @@ What should the project manager do to keep the vision current?
 
 ### Question 24
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a global project with team members from five different countries. During visioning sessions, she notices that some team members are very vocal and direct, while others are very quiet and only agree with whatever the "senior" person says.
 
-**Question:**
+<strong>Question:</strong>
 What is the root cause of the difficulty in establishing a shared vision here?
 
-- **Correct:** Cultural differences in communication styles and "Power Distance" have not been addressed in the team's ground rules.
-- **Distractor 1:** The quiet team members are not competent enough to contribute to the project vision.
-- **Distractor 2:** The project manager is not being authoritative enough to force everyone to speak up.
-- **Distractor 3:** The vision of the project is too complex for a global team to understand.
+- <strong>Correct:</strong> Cultural differences in communication styles and "Power Distance" have not been addressed in the team's ground rules.
+- <strong>Distractor 1:</strong> The quiet team members are not competent enough to contribute to the project vision.
+- <strong>Distractor 2:</strong> The project manager is not being authoritative enough to force everyone to speak up.
+- <strong>Distractor 3:</strong> The vision of the project is too complex for a global team to understand.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -702,18 +702,18 @@ What is the root cause of the difficulty in establishing a shared vision here?
 
 ### Question 26
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 An organization is transitioning from a traditional, predictive approach to a hybrid one. The project manager is leading a project where the design phase is predictive, but the development is agile. Some stakeholders are worried that the agile development phase will lead to "uncontrolled scope" and a loss of the original project vision.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the project manager to promote the shared vision and address these concerns?
 
-- **Correct:** Define clear "Guardrails" in the project charter, such as a fixed budget and high-level success criteria, while allowing for flexibility in how the agile team delivers those outcomes.
-- **Distractor 1:** Promise the stakeholders that the agile team will not be allowed to change any of the requirements defined during the predictive design phase.
-- **Distractor 2:** Suggest that the project switch back to a fully predictive methodology to ensure stakeholder comfort and alignment.
-- **Distractor 3:** Tell the stakeholders that they must trust the agile process and that their concerns are a sign of "resistance to change."
+- <strong>Correct:</strong> Define clear "Guardrails" in the project charter, such as a fixed budget and high-level success criteria, while allowing for flexibility in how the agile team delivers those outcomes.
+- <strong>Distractor 1:</strong> Promise the stakeholders that the agile team will not be allowed to change any of the requirements defined during the predictive design phase.
+- <strong>Distractor 2:</strong> Suggest that the project switch back to a fully predictive methodology to ensure stakeholder comfort and alignment.
+- <strong>Distractor 3:</strong> Tell the stakeholders that they must trust the agile process and that their concerns are a sign of "resistance to change."
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -731,18 +731,18 @@ What is the BEST way for the project manager to promote the shared vision and ad
 
 ### Question 27
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is reviewing the business case for a new project. She notices that the business case focuses entirely on cost reduction, but the draft project charter mentions "improving the employee experience" as a key success factor.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to ensure a shared vision?
 
-- **Correct:** Meet with the sponsor to clarify the primary driver of the project and ensure the charter and business case are strategically aligned before seeking final approval.
-- **Distractor 2:** Update the business case herself to include the employee experience goals to match the charter.
-- **Distractor 2:** Ignore the discrepancy and focus only on the cost reduction goals, as that is what the Finance department cares about.
-- **Distractor 3:** Proceed with the charter as-is, as "improving employee experience" is a positive goal that no one will object to.
+- <strong>Correct:</strong> Meet with the sponsor to clarify the primary driver of the project and ensure the charter and business case are strategically aligned before seeking final approval.
+- <strong>Distractor 2:</strong> Update the business case herself to include the employee experience goals to match the charter.
+- <strong>Distractor 2:</strong> Ignore the discrepancy and focus only on the cost reduction goals, as that is what the Finance department cares about.
+- <strong>Distractor 3:</strong> Proceed with the charter as-is, as "improving employee experience" is a positive goal that no one will object to.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -760,18 +760,18 @@ What should the project manager do to ensure a shared vision?
 
 ### Question 28
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, the agile development team is consistently delivering high-quality increments every two weeks. However, the executive steering committee feels the project is "failing" because the team hasn't produced a 200-page "Detailed Design Specification" that was standard in previous predictive projects.
 
-**Question:**
+<strong>Question:</strong>
 What is the root cause of this misunderstanding of the project vision?
 
-- **Correct:** A failure to align the "Definition of Done" and the reporting expectations of the steering committee with the hybrid nature of the project.
-- **Distractor 1:** The agile team is being lazy and should have written the documentation alongside their code.
-- **Distractor 2:** The steering committee is not technically competent enough to understand the value of the software increments.
-- **Distractor 3:** The project manager has not been using enough "agile jargon" to convince the committee that the documentation is unnecessary.
+- <strong>Correct:</strong> A failure to align the "Definition of Done" and the reporting expectations of the steering committee with the hybrid nature of the project.
+- <strong>Distractor 1:</strong> The agile team is being lazy and should have written the documentation alongside their code.
+- <strong>Distractor 2:</strong> The steering committee is not technically competent enough to understand the value of the software increments.
+- <strong>Distractor 3:</strong> The project manager has not been using enough "agile jargon" to convince the committee that the documentation is unnecessary.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -789,18 +789,18 @@ What is the root cause of this misunderstanding of the project vision?
 
 ### Question 29
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager identifies a powerful stakeholder who consistently misses visioning workshops but then criticizes the project's direction during large town-hall meetings. This behavior is starting to create doubt among other stakeholders.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take to promote the shared vision?
 
-- **Correct:** Schedule a private one-on-one meeting with the stakeholder to understand their concerns and show how their specific needs are addressed in the project charter.
-- **Distractor 1:** Publicly correct the stakeholder during the next town-hall meeting to show that the project vision is sound.
-- **Distractor 2:** Ask the project sponsor to remove the stakeholder from the project communication list to prevent further disruption.
-- **Distractor 3:** Ignore the stakeholder's comments and focus on the supporters to maintain positive project momentum.
+- <strong>Correct:</strong> Schedule a private one-on-one meeting with the stakeholder to understand their concerns and show how their specific needs are addressed in the project charter.
+- <strong>Distractor 1:</strong> Publicly correct the stakeholder during the next town-hall meeting to show that the project vision is sound.
+- <strong>Distractor 2:</strong> Ask the project sponsor to remove the stakeholder from the project communication list to prevent further disruption.
+- <strong>Distractor 3:</strong> Ignore the stakeholder's comments and focus on the supporters to maintain positive project momentum.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -818,18 +818,18 @@ What is the BEST action for the project manager to take to promote the shared vi
 
 ### Question 30
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a project to implement a new "Green Energy" initiative. Midway through the project, the company's stock price drops, and the board of directors signals a shift toward "Short-term Profitability" over "Long-term Sustainability."
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager verify if the project's vision is still current?
 
-- **Correct:** Facilitate a session with the sponsor to re-calculate the project's ROI and Net Present Value (NPV) based on the new "profitability" focus and compare it to the original sustainability benefits.
-- **Distractor 1:** Assume the vision is still current because "Sustainability" is a universal good that the company should always support.
-- **Distractor 2:** Immediately stop all sustainability-focused tasks and switch the team to cost-cutting activities.
-- **Distractor 3:** Wait for the annual corporate strategy report to see if the "Sustainability" goals have been officially removed.
+- <strong>Correct:</strong> Facilitate a session with the sponsor to re-calculate the project's ROI and Net Present Value (NPV) based on the new "profitability" focus and compare it to the original sustainability benefits.
+- <strong>Distractor 1:</strong> Assume the vision is still current because "Sustainability" is a universal good that the company should always support.
+- <strong>Distractor 2:</strong> Immediately stop all sustainability-focused tasks and switch the team to cost-cutting activities.
+- <strong>Distractor 3:</strong> Wait for the annual corporate strategy report to see if the "Sustainability" goals have been officially removed.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -847,18 +847,18 @@ How should the project manager verify if the project's vision is still current?
 
 ### Question 31
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is three months into a one-year project when the original project sponsor (the CEO) retires. The new CEO expresses skepticism about the project's value and suggests it might be a "legacy of the previous administration."
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST thing the project manager should do to ensure a shared vision with the new sponsor?
 
-- **Correct:** Request a formal meeting to present the project charter and show how its success criteria still align with the organization's current strategic goals.
-- **Distractor 1:** Proceed with the project as planned, assuming the signed charter from the previous CEO is a legally binding contract that cannot be changed.
-- **Distractor 2:** Ask the project team to work extra hours to deliver a major milestone early to "prove" the project's value to the new CEO.
-- **Distractor 3:** Resign from the project immediately to avoid being associated with a project that might be cancelled.
+- <strong>Correct:</strong> Request a formal meeting to present the project charter and show how its success criteria still align with the organization's current strategic goals.
+- <strong>Distractor 1:</strong> Proceed with the project as planned, assuming the signed charter from the previous CEO is a legally binding contract that cannot be changed.
+- <strong>Distractor 2:</strong> Ask the project team to work extra hours to deliver a major milestone early to "prove" the project's value to the new CEO.
+- <strong>Distractor 3:</strong> Resign from the project immediately to avoid being associated with a project that might be cancelled.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -876,18 +876,18 @@ What is the FIRST thing the project manager should do to ensure a shared vision 
 
 ### Question 32
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, the "Definition of Done" includes a requirement for full architectural documentation. However, the agile development team is consistently skipping this step to meet their Sprint velocity targets, arguing that "documentation is not agile."
 
-**Question:**
+<strong>Question:</strong>
 What is the root cause of this misunderstanding?
 
-- **Correct:** A misunderstanding of the "Shared Vision for Quality" where velocity is being prioritized over long-term maintainability and hybrid compliance.
-- **Distractor 1:** The agile team members are not competent enough to write architectural documentation.
-- **Distractor 2:** The project manager is not using a "Command and Control" style to force the team to follow the DoD.
-- **Distractor 3:** Documentation is indeed incompatible with agile, so the DoD should be changed to remove it.
+- <strong>Correct:</strong> A misunderstanding of the "Shared Vision for Quality" where velocity is being prioritized over long-term maintainability and hybrid compliance.
+- <strong>Distractor 1:</strong> The agile team members are not competent enough to write architectural documentation.
+- <strong>Distractor 2:</strong> The project manager is not using a "Command and Control" style to force the team to follow the DoD.
+- <strong>Distractor 3:</strong> Documentation is indeed incompatible with agile, so the DoD should be changed to remove it.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -905,18 +905,18 @@ What is the root cause of this misunderstanding?
 
 ### Question 33
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is assigned to a sub-project that is part of a larger, multi-billion dollar program. She notices that her sub-project's charter has goals that directly conflict with the goals of another sub-project in the same program.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to ensure a shared vision?
 
-- **Correct:** Escalate the conflict to the Program Manager to ensure alignment across the program's portfolio and coordinate a revision of the charters.
-- **Distractor 1:** Compete with the other sub-project for resources to ensure her sub-project's vision is the one that succeeds.
-- **Distractor 2:** Ignore the conflict and focus only on her own sub-project's deliverables as defined in her charter.
-- **Distractor 3:** Tell her team to ignore the other sub-project and treat them as a "hostile competitor" within the organization.
+- <strong>Correct:</strong> Escalate the conflict to the Program Manager to ensure alignment across the program's portfolio and coordinate a revision of the charters.
+- <strong>Distractor 1:</strong> Compete with the other sub-project for resources to ensure her sub-project's vision is the one that succeeds.
+- <strong>Distractor 2:</strong> Ignore the conflict and focus only on her own sub-project's deliverables as defined in her charter.
+- <strong>Distractor 3:</strong> Tell her team to ignore the other sub-project and treat them as a "hostile competitor" within the organization.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -934,18 +934,18 @@ What should the project manager do to ensure a shared vision?
 
 ### Question 34
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project is using a "Burn-up Chart" for the software team and a "Gantt Chart" for the infrastructure team. The infrastructure team feels they are doing "more work" because their milestones are fixed and visible, while the software team's work looks "vague" to them.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager promote the shared vision in this situation?
 
-- **Correct:** Create a unified "Milestone Roadmap" that maps the software team's "Epics" and the infrastructure team's "Major Deliverables" onto a single timeline of value delivery.
-- **Distractor 1:** Force the software team to use a Gantt chart so that everyone is using the same reporting tool.
-- **Distractor 2:** Force the infrastructure team to use Sprints and a Burn-up chart, even though their work is physical and sequential.
-- **Distractor 3:** Tell both teams to focus only on their own charts and stop comparing their work to the other team.
+- <strong>Correct:</strong> Create a unified "Milestone Roadmap" that maps the software team's "Epics" and the infrastructure team's "Major Deliverables" onto a single timeline of value delivery.
+- <strong>Distractor 1:</strong> Force the software team to use a Gantt chart so that everyone is using the same reporting tool.
+- <strong>Distractor 2:</strong> Force the infrastructure team to use Sprints and a Burn-up chart, even though their work is physical and sequential.
+- <strong>Distractor 3:</strong> Tell both teams to focus only on their own charts and stop comparing their work to the other team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -963,18 +963,18 @@ How should the project manager promote the shared vision in this situation?
 
 ### Question 35
 
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a project in a very risk-averse organization. The project vision involves a highly innovative but risky new technology. The team is very hesitant to move forward, fearing they will be blamed if the technology fails.
 
-**Question:**
+<strong>Question:</strong>
 What is the root cause of this lack of a shared vision?
 
-- **Correct:** The "Enterprise Environmental Factor" (organizational culture) is in direct conflict with the project's strategic vision.
-- **Distractor 1:** The project manager has not provided a detailed enough risk management plan to the team.
-- **Distractor 2:** The team members are technically incompetent and cannot handle the new technology.
-- **Distractor 3:** The technology itself is flawed and should be abandoned immediately.
+- <strong>Correct:</strong> The "Enterprise Environmental Factor" (organizational culture) is in direct conflict with the project's strategic vision.
+- <strong>Distractor 1:</strong> The project manager has not provided a detailed enough risk management plan to the team.
+- <strong>Distractor 2:</strong> The team members are technically incompetent and cannot handle the new technology.
+- <strong>Distractor 3:</strong> The technology itself is flawed and should be abandoned immediately.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -992,18 +992,18 @@ What is the root cause of this lack of a shared vision?
 
 ### Question 36
 
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is starting a project with a 100% remote team spread across six time zones. During the initial chartering sessions, he notices that the team is struggling to build rapport and that many members are multitasking during the video calls.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action to ensure a shared vision is developed?
 
-- **Correct:** Facilitate a session to create a Team Charter specifically focused on "Virtual Team Norms," including expectations for presence, communication tools, and meeting etiquette.
-- **Distractor 1:** Mandate that everyone fly to a central location for a week-long face-to-face kickoff meeting, regardless of the budget.
-- **Distractor 2:** Install monitoring software on everyone's computer to ensure they are not multitasking during project meetings.
-- **Distractor 3:** Record all meetings and tell team members they are responsible for watching the recordings if they were distracted during the live session.
+- <strong>Correct:</strong> Facilitate a session to create a Team Charter specifically focused on "Virtual Team Norms," including expectations for presence, communication tools, and meeting etiquette.
+- <strong>Distractor 1:</strong> Mandate that everyone fly to a central location for a week-long face-to-face kickoff meeting, regardless of the budget.
+- <strong>Distractor 2:</strong> Install monitoring software on everyone's computer to ensure they are not multitasking during project meetings.
+- <strong>Distractor 3:</strong> Record all meetings and tell team members they are responsible for watching the recordings if they were distracted during the live session.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1021,18 +1021,18 @@ What is the BEST action to ensure a shared vision is developed?
 
 ### Question 37
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is being pressured by a powerful stakeholder to add several "nice-to-have" features to the project. The stakeholder argues that these features will make the final product "even better" for the users.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager respond to promote the shared vision?
 
-- **Correct:** Evaluate the proposed features against the project's measurable success criteria and strategic justification in the charter, and recommend rejection if they do not align.
-- **Distractor 1:** Add the features immediately to ensure the powerful stakeholder remains supportive of the project.
-- **Distractor 2:** Tell the stakeholder that no changes are allowed once the project has started, regardless of their value.
-- **Distractor 3:** Ask the development team if they would like to add the features as "extra credit" work.
+- <strong>Correct:</strong> Evaluate the proposed features against the project's measurable success criteria and strategic justification in the charter, and recommend rejection if they do not align.
+- <strong>Distractor 1:</strong> Add the features immediately to ensure the powerful stakeholder remains supportive of the project.
+- <strong>Distractor 2:</strong> Tell the stakeholder that no changes are allowed once the project has started, regardless of their value.
+- <strong>Distractor 3:</strong> Ask the development team if they would like to add the features as "extra credit" work.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1050,18 +1050,18 @@ How should the project manager respond to promote the shared vision?
 
 ### Question 38
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a hybrid project where the stakeholders are used to seeing a "Monthly Status Report" with a traffic-light (Red/Amber/Green) status. The agile team, however, wants to use a "Product Backlog Burn-up" to show progress.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate way to keep the vision current for all parties?
 
-- **Correct:** Use the Burn-up chart to inform the traffic-light status, providing both the visual data for the team and the summary status for the stakeholders.
-- **Distractor 1:** Tell the stakeholders they must learn how to read a Burn-up chart and that the status report is being discontinued.
-- **Distractor 2:** Tell the agile team they must stop using the Burn-up chart and switch to the traffic-light status for all their internal work.
-- **Distractor 3:** Create two completely separate reporting systems that are never reconciled with each other.
+- <strong>Correct:</strong> Use the Burn-up chart to inform the traffic-light status, providing both the visual data for the team and the summary status for the stakeholders.
+- <strong>Distractor 1:</strong> Tell the stakeholders they must learn how to read a Burn-up chart and that the status report is being discontinued.
+- <strong>Distractor 2:</strong> Tell the agile team they must stop using the Burn-up chart and switch to the traffic-light status for all their internal work.
+- <strong>Distractor 3:</strong> Create two completely separate reporting systems that are never reconciled with each other.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1079,18 +1079,18 @@ What is the MOST appropriate way to keep the vision current for all parties?
 
 ### Question 39
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team has been working on a complex software project for over 18 months. The project manager notices that the team members are starting to lose focus, the quality of their code is declining, and they no longer seem to care about the "Product Vision" that was so exciting at the start.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take to re-promote the shared vision?
 
-- **Correct:** Organize a "Vision Refresh" workshop to celebrate past successes and re-align the current backlog with the organization's updated strategic goals.
-- **Distractor 1:** Increase the intensity of the Sprint Reviews and publicly criticize team members who are falling behind.
-- **Distractor 2:** Request a budget increase to provide the team with a "performance bonus" for the remaining 6 months of the project.
-- **Distractor 3:** Tell the team that they just need to "push through" and that the vision will be achieved once the project is finished.
+- <strong>Correct:</strong> Organize a "Vision Refresh" workshop to celebrate past successes and re-align the current backlog with the organization's updated strategic goals.
+- <strong>Distractor 1:</strong> Increase the intensity of the Sprint Reviews and publicly criticize team members who are falling behind.
+- <strong>Distractor 2:</strong> Request a budget increase to provide the team with a "performance bonus" for the remaining 6 months of the project.
+- <strong>Distractor 3:</strong> Tell the team that they just need to "push through" and that the vision will be achieved once the project is finished.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1108,18 +1108,18 @@ What is the BEST action for the project manager to take to re-promote the shared
 
 ### Question 40
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a hybrid project with a software team in India and a hardware team in Germany. He notices that the two teams have very different ideas about the project's "Success Criteria," leading to frequent arguments during their weekly sync meetings.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do FIRST to identify the root cause of this "Vision Fragmentation"?
 
-- **Correct:** Review the Project Charter and Team Charter with both teams to see if the "Global Success Criteria" were clearly defined and understood by everyone.
-- **Distractor 1:** Hire a cross-cultural consultant to teach both teams how to communicate more effectively with each other.
-- **Distractor 2:** Mandate that both teams work in the same time zone for one month to force them to align their visions.
-- **Distractor 3:** Replace the leads of both teams with people who have experience working on global projects.
+- <strong>Correct:</strong> Review the Project Charter and Team Charter with both teams to see if the "Global Success Criteria" were clearly defined and understood by everyone.
+- <strong>Distractor 1:</strong> Hire a cross-cultural consultant to teach both teams how to communicate more effectively with each other.
+- <strong>Distractor 2:</strong> Mandate that both teams work in the same time zone for one month to force them to align their visions.
+- <strong>Distractor 3:</strong> Replace the leads of both teams with people who have experience working on global projects.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1137,18 +1137,18 @@ What should the project manager do FIRST to identify the root cause of this "Vis
 
 ### Question 41
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is asked to lead a project that is jointly funded by two different departments: Marketing and IT. Both departments have provided their own "Project Charter" with different goals, timelines, and success criteria.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Facilitate a joint session with the sponsors from both Marketing and IT to merge the two charters into a single, unified document that everyone agrees on.
-- **Distractor 1:** Pick the charter from the department with the larger budget and follow that one, while ignoring the other department's goals.
-- **Distractor 2:** Try to execute both charters simultaneously, even if it means doubling the project's work and resources.
-- **Distractor 3:** Tell both departments that he cannot start the project until they resolve their differences and provide a single charter.
+- <strong>Correct:</strong> Facilitate a joint session with the sponsors from both Marketing and IT to merge the two charters into a single, unified document that everyone agrees on.
+- <strong>Distractor 1:</strong> Pick the charter from the department with the larger budget and follow that one, while ignoring the other department's goals.
+- <strong>Distractor 2:</strong> Try to execute both charters simultaneously, even if it means doubling the project's work and resources.
+- <strong>Distractor 3:</strong> Tell both departments that he cannot start the project until they resolve their differences and provide a single charter.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1166,18 +1166,18 @@ What is the BEST action for the project manager to take?
 
 ### Question 42
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 In an agile project, the Product Owner is very focused on the "Product Vision," but the Scrum Master is more focused on the "Team Vision" and the health of the team's processes. The two are starting to clash, as the Product Owner wants more features while the Scrum Master wants more time for technical debt and retrospectives.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager (or Agile Lead) promote a shared vision between these two roles?
 
-- **Correct:** Facilitate a session to align the "Product Vision" (value) with the "Team Charter" (sustainability), showing how technical excellence is a prerequisite for long-term vision delivery.
-- **Distractor 1:** Tell the Scrum Master that the Product Owner's vision always takes priority because they represent the customer and the money.
-- **Distractor 2:** Tell the Product Owner that the Scrum Master is the "owner" of the team and that their vision for the team's health is the most important factor.
-- **Distractor 3:** Suggest that the team ignore both the Product Owner and the Scrum Master and just do whatever they think is best for the code.
+- <strong>Correct:</strong> Facilitate a session to align the "Product Vision" (value) with the "Team Charter" (sustainability), showing how technical excellence is a prerequisite for long-term vision delivery.
+- <strong>Distractor 1:</strong> Tell the Scrum Master that the Product Owner's vision always takes priority because they represent the customer and the money.
+- <strong>Distractor 2:</strong> Tell the Product Owner that the Scrum Master is the "owner" of the team and that their vision for the team's health is the most important factor.
+- <strong>Distractor 3:</strong> Suggest that the team ignore both the Product Owner and the Scrum Master and just do whatever they think is best for the code.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1195,18 +1195,18 @@ How should the project manager (or Agile Lead) promote a shared vision between t
 
 ### Question 43
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a "Pilot" project for a new drone delivery service. The pilot is a success, but as the project moves into the "Full Scale" phase, the original project vision of "Fast and Cheap" is being challenged by new regulatory requirements for "Safety and Compliance."
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to keep the vision current?
 
-- **Correct:** Work with the sponsor to update the project charter to reflect that "Safety" is now a primary success criterion, and re-align the roadmap accordingly.
-- **Distractor 1:** Continue with the "Fast and Cheap" vision and hope the regulators will grant an exemption because the pilot was so successful.
-- **Distractor 2:** Tell the team to ignore the new regulations until the "Full Scale" rollout is complete, and then fix the safety issues later.
-- **Distractor 3:** Cancel the project because the original vision is no longer achievable under the new regulations.
+- <strong>Correct:</strong> Work with the sponsor to update the project charter to reflect that "Safety" is now a primary success criterion, and re-align the roadmap accordingly.
+- <strong>Distractor 1:</strong> Continue with the "Fast and Cheap" vision and hope the regulators will grant an exemption because the pilot was so successful.
+- <strong>Distractor 2:</strong> Tell the team to ignore the new regulations until the "Full Scale" rollout is complete, and then fix the safety issues later.
+- <strong>Distractor 3:</strong> Cancel the project because the original vision is no longer achievable under the new regulations.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1224,18 +1224,18 @@ What should the project manager do to keep the vision current?
 
 ### Question 44
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is drafting a charter for a new software upgrade project. He reviews the "Lessons Learned" from the previous three upgrade projects and finds that they all failed to meet their "User Adoption" goals because the vision was too focused on the technical features.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager use this "Organizational Process Asset" (OPA) to ensure a shared vision?
 
-- **Correct:** Include "User Adoption Rate" as a key measurable success criterion in the new project charter and link it directly to the strategic justification.
-- **Distractor 1:** Ignore the historical data because this project has a different team and a different budget than the previous ones.
-- **Distractor 2:** Write a 10-page report blaming the previous project managers for their "technical-only" focus and send it to the sponsor.
-- **Distractor 3:** Tell the team that they are not allowed to use any technical terms when talking about the project to ensure everyone focuses on the "User Experience."
+- <strong>Correct:</strong> Include "User Adoption Rate" as a key measurable success criterion in the new project charter and link it directly to the strategic justification.
+- <strong>Distractor 1:</strong> Ignore the historical data because this project has a different team and a different budget than the previous ones.
+- <strong>Distractor 2:</strong> Write a 10-page report blaming the previous project managers for their "technical-only" focus and send it to the sponsor.
+- <strong>Distractor 3:</strong> Tell the team that they are not allowed to use any technical terms when talking about the project to ensure everyone focuses on the "User Experience."
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1253,18 +1253,18 @@ How should the project manager use this "Organizational Process Asset" (OPA) to 
 
 ### Question 45
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a Product Visioning session, the team and the Product Owner realize that their "innovative" new feature is actually already offered for free by a major competitor. The team is divided: half want to "Pivot" to a new feature, while the other half want to "Persevere" and try to make their version slightly better.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (or Scrum Master) do to identify the root cause of this disagreement?
 
-- **Correct:** Facilitate a "Competitive Analysis" and a "Value Proposition" session to determine if the project can still offer a unique benefit to the target customer.
-- **Distractor 1:** Tell the team that the Product Owner gets to make the final decision and that everyone else just needs to follow it.
-- **Distractor 2:** Ask the team to vote on whether to "Pivot" or "Persevere" and use the majority result to end the debate.
-- **Distractor 3:** Recommend that the project be cancelled immediately because the competitor is already ahead.
+- <strong>Correct:</strong> Facilitate a "Competitive Analysis" and a "Value Proposition" session to determine if the project can still offer a unique benefit to the target customer.
+- <strong>Distractor 1:</strong> Tell the team that the Product Owner gets to make the final decision and that everyone else just needs to follow it.
+- <strong>Distractor 2:</strong> Ask the team to vote on whether to "Pivot" or "Persevere" and use the majority result to end the debate.
+- <strong>Distractor 3:</strong> Recommend that the project be cancelled immediately because the competitor is already ahead.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1282,18 +1282,18 @@ What should the project manager (or Scrum Master) do to identify the root cause 
 
 ### Question 46
 
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a hybrid project where a large part of the work is outsourced to a vendor. The vendor's contract focuses on "Deliverables and Deadlines," but the organization's internal vision for the project is "Quality and Innovation."
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager ensure a shared vision between the organization and the vendor?
 
-- **Correct:** Facilitate a joint visioning session with the vendor's team to align their contractual obligations with the project's high-level strategic goals and values.
-- **Distractor 1:** Tell the vendor that they must ignore their contract and focus only on the "Quality and Innovation" goals of the organization.
-- **Distractor 2:** Tell the internal stakeholders that they must lower their expectations because the vendor is only legally required to meet the contract terms.
-- **Distractor 3:** Fire the vendor and hire a new one whose contract specifically includes the words "Quality" and "Innovation."
+- <strong>Correct:</strong> Facilitate a joint visioning session with the vendor's team to align their contractual obligations with the project's high-level strategic goals and values.
+- <strong>Distractor 1:</strong> Tell the vendor that they must ignore their contract and focus only on the "Quality and Innovation" goals of the organization.
+- <strong>Distractor 2:</strong> Tell the internal stakeholders that they must lower their expectations because the vendor is only legally required to meet the contract terms.
+- <strong>Distractor 3:</strong> Fire the vendor and hire a new one whose contract specifically includes the words "Quality" and "Innovation."
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1311,18 +1311,18 @@ How should the project manager ensure a shared vision between the organization a
 
 ### Question 47
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a project to build a new chemical processing plant. The "Project Vision" is to be the "Most Efficient Plant in the World." However, the local government introduces new safety regulations that will reduce the plant's efficiency by 5% but significantly increase worker safety.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST professional way for the project manager to promote the updated vision?
 
-- **Correct:** Re-frame the project vision as "The World's Safest and Most Efficient Plant," showing how compliance with safety laws is a non-negotiable part of the plant's success.
-- **Distractor 1:** Lobby the local government to get an exemption from the safety regulations to maintain the original "Efficiency" vision.
-- **Distractor 2:** Tell the team to find "creative ways" to bypass the safety regulations so the efficiency targets can still be met.
-- **Distractor 3:** Tell the sponsor that the project is now a failure because it can no longer be the "Most Efficient in the World."
+- <strong>Correct:</strong> Re-frame the project vision as "The World's Safest and Most Efficient Plant," showing how compliance with safety laws is a non-negotiable part of the plant's success.
+- <strong>Distractor 1:</strong> Lobby the local government to get an exemption from the safety regulations to maintain the original "Efficiency" vision.
+- <strong>Distractor 2:</strong> Tell the team to find "creative ways" to bypass the safety regulations so the efficiency targets can still be met.
+- <strong>Distractor 3:</strong> Tell the sponsor that the project is now a failure because it can no longer be the "Most Efficient in the World."
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1340,18 +1340,18 @@ What is the MOST professional way for the project manager to promote the updated
 
 ### Question 48
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a Daily Standup, the project manager (serving as Scrum Master) notices that the team is discussing a feature that was explicitly moved to the "Out of Scope" list during the visioning workshop. The team seems to have forgotten that this feature was rejected by the Product Owner.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to address this misunderstanding of the vision?
 
-- **Correct:** Gently remind the team of the "Out of Scope" list and the project's primary goals, and suggest they sync with the Product Owner before doing any more work on that feature.
-- **Distractor 1:** Let the team continue working on the feature because their "enthusiasm" is more important than the project scope.
-- **Distractor 2:** Immediately stop the meeting and give the team a lecture on the importance of following the Product Owner's decisions.
-- **Distractor 3:** Delete the feature from the task board and tell the team that they are not allowed to talk about it ever again.
+- <strong>Correct:</strong> Gently remind the team of the "Out of Scope" list and the project's primary goals, and suggest they sync with the Product Owner before doing any more work on that feature.
+- <strong>Distractor 1:</strong> Let the team continue working on the feature because their "enthusiasm" is more important than the project scope.
+- <strong>Distractor 2:</strong> Immediately stop the meeting and give the team a lecture on the importance of following the Product Owner's decisions.
+- <strong>Distractor 3:</strong> Delete the feature from the task board and tell the team that they are not allowed to talk about it ever again.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1369,18 +1369,18 @@ What should the project manager do to address this misunderstanding of the visio
 
 ### Question 49
 
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a very technical project to upgrade the organization's backend server infrastructure. The non-technical stakeholders are bored during the visioning sessions and don't understand why the project is costing so much money.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the project manager to help these stakeholders ensure a shared vision?
 
-- **Correct:** Create an "Elevator Pitch" that focuses on the business benefits (e.g., "This project will make our customer-facing apps 50% faster and prevent system outages during peak sales periods").
-- **Distractor 1:** Give the stakeholders a 500-page technical manual on server architecture so they can understand the complexity for themselves.
-- **Distractor 2:** Tell the stakeholders that they don't need to understand the vision and that they should just trust the IT department to do the right thing.
-- **Distractor 3:** Invite the stakeholders to a "Server Room Tour" so they can see the physical hardware that their money is buying.
+- <strong>Correct:</strong> Create an "Elevator Pitch" that focuses on the business benefits (e.g., "This project will make our customer-facing apps 50% faster and prevent system outages during peak sales periods").
+- <strong>Distractor 1:</strong> Give the stakeholders a 500-page technical manual on server architecture so they can understand the complexity for themselves.
+- <strong>Distractor 2:</strong> Tell the stakeholders that they don't need to understand the vision and that they should just trust the IT department to do the right thing.
+- <strong>Distractor 3:</strong> Invite the stakeholders to a "Server Room Tour" so they can see the physical hardware that their money is buying.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1398,18 +1398,18 @@ What is the BEST way for the project manager to help these stakeholders ensure a
 
 ### Question 50
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager has successfully led the team to the final phase of a project. During the "Lessons Learned" session, several team members mention that the project's vision was the only thing that kept them going during the most difficult parts of the project.
 
-**Question:**
+<strong>Question:</strong>
 Which tool or technique was MOST likely responsible for this high level of vision adoption?
 
-- **Correct:** The collaborative development of a Team Charter and ground rules that linked personal values to the project's strategic goals.
-- **Distractor 1:** The strict use of a Project Management Information System (PMIS) to track every minute of the team's work.
-- **Distractor 2:** The frequent use of "Management by Exception" to punish team members who deviated from the project plan.
-- **Distractor 3:** The creation of a 50-page communications management plan that mandated weekly status updates.
+- <strong>Correct:</strong> The collaborative development of a Team Charter and ground rules that linked personal values to the project's strategic goals.
+- <strong>Distractor 1:</strong> The strict use of a Project Management Information System (PMIS) to track every minute of the team's work.
+- <strong>Distractor 2:</strong> The frequent use of "Management by Exception" to punish team members who deviated from the project plan.
+- <strong>Distractor 3:</strong> The creation of a 50-page communications management plan that mandated weekly status updates.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1442,18 +1442,18 @@ Which tool or technique was MOST likely responsible for this high level of visio
 
 ### Database Stats
 
-*   **Correct Answer Length Average:** 18 words
-*   **Distractor Length Average:** 17.5 words
-*   **Methodology Split:** 34% Predictive, 32% Agile, 34% Hybrid
-*   **Difficulty Level:** Level 4/5 (Analysis & Evaluation)
+*   <strong>Correct Answer Length Average:</strong> 18 words
+*   <strong>Distractor Length Average:</strong> 17.5 words
+*   <strong>Methodology Split:</strong> 34% Predictive, 32% Agile, 34% Hybrid
+*   <strong>Difficulty Level:</strong> Level 4/5 (Analysis & Evaluation)
 
 ###  Key Takeaways: Vision & Alignment
 
-1.  **The Charter is a Filter:** Use the project charter's high-level goals and success criteria as the primary filter for all change requests and prioritization debates.
+1.  <strong>The Charter is a Filter:</strong> Use the project charter's high-level goals and success criteria as the primary filter for all change requests and prioritization debates.
 2.  **Connect to the "Why":** When motivation drops, connect the team directly to the end-user or the business value (the "Value Thread") to re-energize the vision.
-3.  **Hybrid Requires Translation:** In hybrid environments, the PM must act as a translator, mapping agile progress (Burn-ups/Roadmaps) to predictive governance needs (Milestones/Status).
-4.  **Charters are Living Documents:** Both Project and Team Charters should be reviewed and refreshed when the business environment shifts, leadership changes, or team membership evolves.
-5.  **Seek Systemic Root Causes:** Misunderstandings of vision are rarely about "not listening"; they are usually about missing standards like a Definition of Done, a Definition of Ready, or agreed-upon behavioral ground rules.
+3.  <strong>Hybrid Requires Translation:</strong> In hybrid environments, the PM must act as a translator, mapping agile progress (Burn-ups/Roadmaps) to predictive governance needs (Milestones/Status).
+4.  <strong>Charters are Living Documents:</strong> Both Project and Team Charters should be reviewed and refreshed when the business environment shifts, leadership changes, or team membership evolves.
+5.  <strong>Seek Systemic Root Causes:</strong> Misunderstandings of vision are rarely about "not listening"; they are usually about missing standards like a Definition of Done, a Definition of Ready, or agreed-upon behavioral ground rules.
 
 <style>
   details {

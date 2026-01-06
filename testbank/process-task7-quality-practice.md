@@ -4,18 +4,18 @@
 
 ### Question 1
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing the manufacturing of specialized medical equipment. During the planning phase, the sponsor suggests reducing the number of prototypes from four to one to save on prevention costs. The sponsor argues that the team is highly experienced and that the $100,000 saved could be used as a contingency reserve for schedule delays.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Explain that reducing prototypes increases the risk of expensive internal and external failure costs later in the project.
-- **Distractor 1:** Accept the change and update the quality management plan to include more frequent inspections during the production phase.
-- **Distractor 2:** Perform a marginal analysis to show that the cost of testing more prototypes is lower than the cost of a single failure.
-- **Distractor 3:** Request a formal change through the change control board to reduce the project's quality budget.
+- <strong>Correct:</strong> Explain that reducing prototypes increases the risk of expensive internal and external failure costs later in the project.
+- <strong>Distractor 1:</strong> Accept the change and update the quality management plan to include more frequent inspections during the production phase.
+- <strong>Distractor 2:</strong> Perform a marginal analysis to show that the cost of testing more prototypes is lower than the cost of a single failure.
+- <strong>Distractor 3:</strong> Request a formal change through the change control board to reduce the project's quality budget.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -33,18 +33,18 @@ What is the BEST action for the project manager to take?
 
 ### Question 2
 
-**Enabler:** 7 | **Methodology:** Agile
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is consistently meeting its velocity targets, but the product owner expresses concern during a sprint demo that the software feels "clunky" and contains several minor UI inconsistencies. The team argues that they have met all the acceptance criteria for each user story and that these minor issues do not affect functionality.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (Scrum Master) do NEXT?
 
-- **Correct:** Facilitate a discussion in the next retrospective to update the Definition of Done to include UI consistency standards.
-- **Distractor 1:** Direct the team to stop work on the current sprint and fix the UI inconsistencies immediately.
-- **Distractor 2:** Add a new user story to the product backlog specifically for improving the UI across the entire application.
-- **Distractor 3:** Tell the product owner that since the acceptance criteria were met, the quality requirements have been fulfilled.
+- <strong>Correct:</strong> Facilitate a discussion in the next retrospective to update the Definition of Done to include UI consistency standards.
+- <strong>Distractor 1:</strong> Direct the team to stop work on the current sprint and fix the UI inconsistencies immediately.
+- <strong>Distractor 2:</strong> Add a new user story to the product backlog specifically for improving the UI across the entire application.
+- <strong>Distractor 3:</strong> Tell the product owner that since the acceptance criteria were met, the quality requirements have been fulfilled.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -62,18 +62,18 @@ What should the project manager (Scrum Master) do NEXT?
 
 ### Question 3
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, the hardware component follows a predictive lifecycle while the software follows an agile approach. During a combined quality review, it is discovered that the software integration process frequently causes hardware overheating, though both components meet their individual technical specifications. The hardware team blames the software team's "loose" coding standards.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Conduct a root cause analysis using a fishbone diagram to investigate the interaction between the two components.
-- **Distractor 1:** Require the software team to adopt the hardware team's more rigid documentation and quality standards.
-- **Distractor 2:** Schedule an emergency meeting with the sponsor to request additional funding for heat-resistant hardware.
-- **Distractor 3:** Ask the quality assurance team to perform a formal audit on both teams to determine which team is at fault.
+- <strong>Correct:</strong> Conduct a root cause analysis using a fishbone diagram to investigate the interaction between the two components.
+- <strong>Distractor 1:</strong> Require the software team to adopt the hardware team's more rigid documentation and quality standards.
+- <strong>Distractor 2:</strong> Schedule an emergency meeting with the sponsor to request additional funding for heat-resistant hardware.
+- <strong>Distractor 3:</strong> Ask the quality assurance team to perform a formal audit on both teams to determine which team is at fault.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -91,18 +91,18 @@ What is the BEST action for the project manager to take?
 
 ### Question 4
 
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is reviewing a control chart for a manufacturing process. The chart shows that all data points are within the upper and lower control limits. However, the last eight consecutive points are all above the mean but below the upper control limit.
 
-**Question:**
+<strong>Question:</strong>
 What action should the project manager take?
 
-- **Correct:** Investigate the process immediately as it indicates a special cause variation.
-- **Distractor 1:** Continue monitoring the process since all points are still within the established control limits.
-- **Distractor 2:** Adjust the upper control limit to reflect the new performance level of the process.
-- **Distractor 3:** Congratulate the team on achieving a more consistent output that is higher than the mean.
+- <strong>Correct:</strong> Investigate the process immediately as it indicates a special cause variation.
+- <strong>Distractor 1:</strong> Continue monitoring the process since all points are still within the established control limits.
+- <strong>Distractor 2:</strong> Adjust the upper control limit to reflect the new performance level of the process.
+- <strong>Distractor 3:</strong> Congratulate the team on achieving a more consistent output that is higher than the mean.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -120,18 +120,18 @@ What action should the project manager take?
 
 ### Question 5
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team is developing a fintech application in a highly regulated environment. During a sprint, the compliance officer informs the team that a new data privacy regulation will take effect in three months, which impacts the project's data storage requirements. The team is currently focused on high-priority user features.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate way for the project manager (Scrum Master) to handle this?
 
-- **Correct:** Work with the Product Owner to incorporate the new compliance requirements into the product backlog and Definition of Done.
-- **Distractor 1:** Advise the compliance officer to submit a formal change request to the change control board for approval.
-- **Distractor 2:** Instruct the team to finish their current features and address the compliance changes in a separate "hardening" sprint.
-- **Distractor 3:** Ask the team to ignore the regulation for now as it hasn't taken effect and focus on delivering immediate value.
+- <strong>Correct:</strong> Work with the Product Owner to incorporate the new compliance requirements into the product backlog and Definition of Done.
+- <strong>Distractor 1:</strong> Advise the compliance officer to submit a formal change request to the change control board for approval.
+- <strong>Distractor 2:</strong> Instruct the team to finish their current features and address the compliance changes in a separate "hardening" sprint.
+- <strong>Distractor 3:</strong> Ask the team to ignore the regulation for now as it hasn't taken effect and focus on delivering immediate value.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -149,18 +149,18 @@ What is the MOST appropriate way for the project manager (Scrum Master) to handl
 
 ### Question 6
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During the initiation phase of a pharmaceutical project, the project manager finds that the stakeholder requirements for a new drug delivery system are vague regarding "user safety." Different stakeholders have conflicting views on what constitutes a safe level of dosage variation.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do FIRST?
 
-- **Correct:** Facilitate a workshop with key stakeholders to define specific, measurable quality metrics and acceptance criteria.
-- **Distractor 1:** Use the most stringent industry standard for dosage variation to ensure the highest possible quality.
-- **Distractor 2:** Document the ambiguity in the risk register and proceed with the most common stakeholder interpretation.
-- **Distractor 3:** Ask the design team to create three different versions of the system to address all stakeholder viewpoints.
+- <strong>Correct:</strong> Facilitate a workshop with key stakeholders to define specific, measurable quality metrics and acceptance criteria.
+- <strong>Distractor 1:</strong> Use the most stringent industry standard for dosage variation to ensure the highest possible quality.
+- <strong>Distractor 2:</strong> Document the ambiguity in the risk register and proceed with the most common stakeholder interpretation.
+- <strong>Distractor 3:</strong> Ask the design team to create three different versions of the system to address all stakeholder viewpoints.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -178,18 +178,18 @@ What should the project manager do FIRST?
 
 ### Question 7
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a hybrid project where the software is developed in two-week iterations. The quality management plan specifies that a formal process audit must be conducted every month. The agile team complains that these audits are intrusive and disrupt their flow, suggesting that the sprint retrospectives are sufficient for quality management.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager respond?
 
-- **Correct:** Explain that audits focus on process compliance and effectiveness (QA), while retrospectives focus on team-led improvements.
-- **Distractor 1:** Agree to cancel the audits and rely solely on the team's retrospectives to maintain quality standards.
-- **Distractor 2:** Increase the frequency of retrospectives to three times per sprint to satisfy the quality management plan requirements.
-- **Distractor 3:** Mandate that the agile team leader performs the audits to make them feel less intrusive to the team members.
+- <strong>Correct:</strong> Explain that audits focus on process compliance and effectiveness (QA), while retrospectives focus on team-led improvements.
+- <strong>Distractor 1:</strong> Agree to cancel the audits and rely solely on the team's retrospectives to maintain quality standards.
+- <strong>Distractor 2:</strong> Increase the frequency of retrospectives to three times per sprint to satisfy the quality management plan requirements.
+- <strong>Distractor 3:</strong> Mandate that the agile team leader performs the audits to make them feel less intrusive to the team members.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -207,18 +207,18 @@ How should the project manager respond?
 
 ### Question 8
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project to develop a new eco-friendly packaging material is nearing completion. A quality control test reveals that while the material meets all strength requirements, it degrades 10% faster than specified in the environmental sustainability goals. Fixing this will require a significant rework of the chemical formula and will delay the project by two months.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Present the findings and the impact of the delay to the sponsor to decide if the sustainability requirement can be waived or must be met.
-- **Distractor 1:** Direct the team to start the rework immediately to ensure that all quality standards and sustainability goals are fully met.
-- **Distractor 2:** Document the deviation as a "low-quality" issue in the final project report but proceed with the current material to meet the deadline.
-- **Distractor 3:** Use a Pareto chart to show that the degradation rate is a minor issue compared to the strength of the material.
+- <strong>Correct:</strong> Present the findings and the impact of the delay to the sponsor to decide if the sustainability requirement can be waived or must be met.
+- <strong>Distractor 1:</strong> Direct the team to start the rework immediately to ensure that all quality standards and sustainability goals are fully met.
+- <strong>Distractor 2:</strong> Document the deviation as a "low-quality" issue in the final project report but proceed with the current material to meet the deadline.
+- <strong>Distractor 3:</strong> Use a Pareto chart to show that the degradation rate is a minor issue compared to the strength of the material.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -236,18 +236,18 @@ What is the BEST action for the project manager to take?
 
 ### Question 9
 
-**Enabler:** 7 | **Methodology:** Agile
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team has successfully delivered several increments of a product. However, they notice that the "technical debt" is increasing, making it harder to add new features without breaking existing ones. This is causing the team's velocity to drop over time.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (Scrum Master) recommend the team do?
 
-- **Correct:** Allocate a portion of each sprint to refactoring and improving the code base to reduce technical debt.
-- **Distractor 1:** Ask the team to work overtime for two sprints to clear all the technical debt and restore velocity.
-- **Distractor 2:** Request the product owner to stop adding new features until the technical debt is completely eliminated.
-- **Distractor 3:** Hire a separate "clean-up" team to fix the existing code while the main team continues with new features.
+- <strong>Correct:</strong> Allocate a portion of each sprint to refactoring and improving the code base to reduce technical debt.
+- <strong>Distractor 1:</strong> Ask the team to work overtime for two sprints to clear all the technical debt and restore velocity.
+- <strong>Distractor 2:</strong> Request the product owner to stop adding new features until the technical debt is completely eliminated.
+- <strong>Distractor 3:</strong> Hire a separate "clean-up" team to fix the existing code while the main team continues with new features.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -265,18 +265,18 @@ What should the project manager (Scrum Master) recommend the team do?
 
 ### Question 10
 
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager for a software project is using a scatter diagram to analyze the relationship between the number of hours spent on peer reviews and the number of defects found during the testing phase. The diagram shows a strong negative correlation.
 
-**Question:**
+<strong>Question:</strong>
 What does this information MOST likely indicate to the project manager?
 
-- **Correct:** As the team spends more time on peer reviews, the number of defects found in the later testing phase decreases.
-- **Distractor 1:** The peer reviews are ineffective and are actually causing more defects to be introduced into the system.
-- **Distractor 2:** There is no significant relationship between the review process and the quality of the final product.
-- **Distractor 3:** The team should spend less time on peer reviews to allow more time for finding defects during testing.
+- <strong>Correct:</strong> As the team spends more time on peer reviews, the number of defects found in the later testing phase decreases.
+- <strong>Distractor 1:</strong> The peer reviews are ineffective and are actually causing more defects to be introduced into the system.
+- <strong>Distractor 2:</strong> There is no significant relationship between the review process and the quality of the final product.
+- <strong>Distractor 3:</strong> The team should spend less time on peer reviews to allow more time for finding defects during testing.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -294,18 +294,18 @@ What does this information MOST likely indicate to the project manager?
 
 ### Question 11
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During the execution of a infrastructure project, a quality audit reveals that the concrete pouring process is not following the documented safety standards. The project manager identifies that the team is using an outdated version of the quality management plan. The project is currently on schedule and within budget.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action the project manager should take?
 
-- **Correct:** Ensure the team starts using the most recent version of the quality management plan and assess the impact on already completed work.
-- **Distractor 1:** Update the risk register to include the possibility of structural failure due to the incorrect process.
-- **Distractor 2:** Issue a formal warning to the site supervisor for failing to check the document version.
-- **Distractor 3:** Request a budget increase to perform 100% inspection on all concrete poured to date.
+- <strong>Correct:</strong> Ensure the team starts using the most recent version of the quality management plan and assess the impact on already completed work.
+- <strong>Distractor 1:</strong> Update the risk register to include the possibility of structural failure due to the incorrect process.
+- <strong>Distractor 2:</strong> Issue a formal warning to the site supervisor for failing to check the document version.
+- <strong>Distractor 3:</strong> Request a budget increase to perform 100% inspection on all concrete poured to date.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -323,18 +323,18 @@ What is the FIRST action the project manager should take?
 
 ### Question 12
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A team is transitioning from predictive to agile. The project manager wants to ensure that quality is "built-in" rather than "inspected-in" at the end of each iteration. The team is currently struggling with a high number of bugs found during the sprint demo.
 
-**Question:**
+<strong>Question:</strong>
 What technique should the project manager recommend the team adopt?
 
-- **Correct:** Implement Test-Driven Development (TDD) where tests are written before the actual code.
-- **Distractor 1:** Add a specialized "Quality Gate" phase at the end of every three sprints to find and fix bugs.
-- **Distractor 2:** Increase the number of manual testers assigned to the team during the last two days of the sprint.
-- **Distractor 3:** Require the developers to write detailed technical documentation for every feature before coding begins.
+- <strong>Correct:</strong> Implement Test-Driven Development (TDD) where tests are written before the actual code.
+- <strong>Distractor 1:</strong> Add a specialized "Quality Gate" phase at the end of every three sprints to find and fix bugs.
+- <strong>Distractor 2:</strong> Increase the number of manual testers assigned to the team during the last two days of the sprint.
+- <strong>Distractor 3:</strong> Require the developers to write detailed technical documentation for every feature before coding begins.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -352,18 +352,18 @@ What technique should the project manager recommend the team adopt?
 
 ### Question 13
 
-**Enabler:** 5 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is calculating the Cost of Quality (CoQ) for a large-scale software implementation. The project has spent $50,000 on training, $30,000 on code reviews, $40,000 on automated testing, and has incurred $100,000 in rework costs due to bugs found in production.
 
-**Question:**
+<strong>Question:</strong>
 Based on these figures, which recommendation should the project manager make to the sponsor?
 
-- **Correct:** Increase investment in prevention and appraisal activities to reduce the significantly higher failure costs.
-- **Distractor 1:** Reduce the budget for automated testing since it has failed to prevent expensive production bugs.
-- **Distractor 2:** Reallocate the training budget to the contingency reserve to cover the costs of future rework.
-- **Distractor 3:** Maintain the current quality budget as the failure costs are within the expected industry average.
+- <strong>Correct:</strong> Increase investment in prevention and appraisal activities to reduce the significantly higher failure costs.
+- <strong>Distractor 1:</strong> Reduce the budget for automated testing since it has failed to prevent expensive production bugs.
+- <strong>Distractor 2:</strong> Reallocate the training budget to the contingency reserve to cover the costs of future rework.
+- <strong>Distractor 3:</strong> Maintain the current quality budget as the failure costs are within the expected industry average.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -381,18 +381,18 @@ Based on these figures, which recommendation should the project manager make to 
 
 ### Question 14
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a government project to build a new bridge, the project manager is gathering quality requirements. A key stakeholder insists that the bridge must "last for 100 years." This requirement is currently undocumented in the technical specifications.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager handle this requirement?
 
-- **Correct:** Work with engineers and stakeholders to translate this goal into specific material grades and maintenance frequency metrics.
-- **Distractor 1:** Accept the requirement and add it to the project charter as a high-level quality objective.
-- **Distractor 2:** Advise the stakeholder that such a long-term requirement is impossible to guarantee and should be removed.
-- **Distractor 3:** Focus on the immediate safety standards and leave the long-term durability to the operations team.
+- <strong>Correct:</strong> Work with engineers and stakeholders to translate this goal into specific material grades and maintenance frequency metrics.
+- <strong>Distractor 1:</strong> Accept the requirement and add it to the project charter as a high-level quality objective.
+- <strong>Distractor 2:</strong> Advise the stakeholder that such a long-term requirement is impossible to guarantee and should be removed.
+- <strong>Distractor 3:</strong> Focus on the immediate safety standards and leave the long-term durability to the operations team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -410,18 +410,18 @@ How should the project manager handle this requirement?
 
 ### Question 15
 
-**Enabler:** 7 | **Methodology:** Agile
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a retrospective, the team identifies that the current peer review process is taking too long and delaying the completion of user stories. Some team members suggest skipping peer reviews for "simple" stories to speed up the process.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the project manager (Scrum Master) to handle this?
 
-- **Correct:** Facilitate a team experiment to try a different peer review technique, such as pair programming, for one sprint and measure the impact.
-- **Distractor 1:** Agree to skip reviews for simple stories but only if the velocity increases by at least 10%.
-- **Distractor 2:** Enforce the current peer review process as it is part of the established quality management plan.
-- **Distractor 3:** Ask the most senior developer to perform all reviews to ensure speed and quality are maintained.
+- <strong>Correct:</strong> Facilitate a team experiment to try a different peer review technique, such as pair programming, for one sprint and measure the impact.
+- <strong>Distractor 1:</strong> Agree to skip reviews for simple stories but only if the velocity increases by at least 10%.
+- <strong>Distractor 2:</strong> Enforce the current peer review process as it is part of the established quality management plan.
+- <strong>Distractor 3:</strong> Ask the most senior developer to perform all reviews to ensure speed and quality are maintained.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -439,18 +439,18 @@ What is the BEST way for the project manager (Scrum Master) to handle this?
 
 ### Question 16
 
-**Enabler:** 6 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a project with multiple vendors. Each vendor has its own quality control procedures. During integration testing, several major defects are found that were not caught by the individual vendors' tests.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to prevent this in the future?
 
-- **Correct:** Conduct a joint quality audit with all vendors to align their testing processes and clarify integration quality metrics.
-- **Distractor 1:** Penalize the vendors whose components had the most defects found during integration.
-- **Distractor 2:** Require all vendors to use the same testing tool and personnel for their internal quality control.
-- **Distractor 3:** Increase the frequency of integration testing to every week instead of every month.
+- <strong>Correct:</strong> Conduct a joint quality audit with all vendors to align their testing processes and clarify integration quality metrics.
+- <strong>Distractor 1:</strong> Penalize the vendors whose components had the most defects found during integration.
+- <strong>Distractor 2:</strong> Require all vendors to use the same testing tool and personnel for their internal quality control.
+- <strong>Distractor 3:</strong> Increase the frequency of integration testing to every week instead of every month.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -468,18 +468,18 @@ What should the project manager do to prevent this in the future?
 
 ### Question 17
 
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 An international project must comply with both the local building codes of the country where it is located and the internal safety standards of the parent company, which are more stringent. The local authorities have approved the designs, but the parent company's safety auditor has not.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager resolve this?
 
-- **Correct:** Adhere to the parent company's more stringent standards as quality requirements must satisfy all relevant stakeholders and internal policies.
-- **Distractor 1:** Proceed with the local authorities' approval since they have legal jurisdiction over the project site.
-- **Distractor 2:** Negotiate with the parent company's auditor to accept the local standards to avoid schedule delays and extra costs.
-- **Distractor 3:** Create two versions of the project deliverables: one that meets local codes and another that meets company standards.
+- <strong>Correct:</strong> Adhere to the parent company's more stringent standards as quality requirements must satisfy all relevant stakeholders and internal policies.
+- <strong>Distractor 1:</strong> Proceed with the local authorities' approval since they have legal jurisdiction over the project site.
+- <strong>Distractor 2:</strong> Negotiate with the parent company's auditor to accept the local standards to avoid schedule delays and extra costs.
+- <strong>Distractor 3:</strong> Create two versions of the project deliverables: one that meets local codes and another that meets company standards.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -497,18 +497,18 @@ How should the project manager resolve this?
 
 ### Question 18
 
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is being pressured by the marketing department to release a new version of an app before the holiday season. To meet the date, the team would need to skip the final security penetration test, which usually takes two weeks.
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's (Scrum Master's) BEST course of action?
 
-- **Correct:** Discuss the risks of an external quality failure with the Product Owner and marketing, and suggest a reduced-scope release that includes the security test.
-- **Distractor 1:** Authorize skipping the security test for this one release to take advantage of the critical holiday market window.
-- **Distractor 2:** Instruct the team to work double shifts for two weeks to complete both the features and the security testing on time.
-- **Distractor 3:** Delegate the decision to the team members since they are self-organizing and responsible for the product's quality.
+- <strong>Correct:</strong> Discuss the risks of an external quality failure with the Product Owner and marketing, and suggest a reduced-scope release that includes the security test.
+- <strong>Distractor 1:</strong> Authorize skipping the security test for this one release to take advantage of the critical holiday market window.
+- <strong>Distractor 2:</strong> Instruct the team to work double shifts for two weeks to complete both the features and the security testing on time.
+- <strong>Distractor 3:</strong> Delegate the decision to the team members since they are self-organizing and responsible for the product's quality.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -526,18 +526,18 @@ What is the project manager's (Scrum Master's) BEST course of action?
 
 ### Question 19
 
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is developing the Quality Management Plan for a hybrid project. The stakeholders from the business side want to ensure the product is "user-friendly," while the technical stakeholders focus on "99.9% uptime."
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager integrate these different perspectives into the plan?
 
-- **Correct:** Define specific metrics for both, such as a maximum of three clicks to reach any function and a maximum of 43 minutes of downtime per month.
-- **Distractor 1:** Prioritize the uptime requirement as it is a technical specification, and treat user-friendliness as a subjective "nice-to-have."
-- **Distractor 2:** Ask the business stakeholders to provide a more technical definition of "user-friendly" before including it in the quality plan.
-- **Distractor 3:** Use the "uptime" requirement for the hardware components and "user-friendly" for the software components.
+- <strong>Correct:</strong> Define specific metrics for both, such as a maximum of three clicks to reach any function and a maximum of 43 minutes of downtime per month.
+- <strong>Distractor 1:</strong> Prioritize the uptime requirement as it is a technical specification, and treat user-friendliness as a subjective "nice-to-have."
+- <strong>Distractor 2:</strong> Ask the business stakeholders to provide a more technical definition of "user-friendly" before including it in the quality plan.
+- <strong>Distractor 3:</strong> Use the "uptime" requirement for the hardware components and "user-friendly" for the software components.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -555,18 +555,18 @@ How should the project manager integrate these different perspectives into the p
 
 ### Question 20
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is selecting a quality tool to help the team understand the relationship between ambient temperature and the number of failures in a sensitive chemical process.
 
-**Question:**
+<strong>Question:</strong>
 Which tool should the project manager use?
 
-- **Correct:** Scatter Diagram
-- **Distractor 1:** Control Chart
-- **Distractor 2:** Pareto Chart
-- **Distractor 3:** Fishbone Diagram
+- <strong>Correct:</strong> Scatter Diagram
+- <strong>Distractor 1:</strong> Control Chart
+- <strong>Distractor 2:</strong> Pareto Chart
+- <strong>Distractor 3:</strong> Fishbone Diagram
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -584,18 +584,18 @@ Which tool should the project manager use?
 
 ### Question 21
 
-**Enabler:** 6 | **Methodology:** Agile
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is using a Kanban board to track their work. They notice that the "Testing" column is consistently full, causing a bottleneck in their workflow. The developers are finishing tasks faster than the testers can verify them.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (Scrum Master) suggest?
 
-- **Correct:** Implement "swarming" where developers help with testing activities to clear the bottleneck and maintain flow.
-- **Distractor 1:** Increase the Work in Progress (WIP) limit for the Testing column to allow more tasks to be "in progress."
-- **Distractor 2:** Tell the developers to slow down their coding speed to match the capacity of the testing team.
-- **Distractor 3:** Hire two more testers to balance the capacity between development and testing.
+- <strong>Correct:</strong> Implement "swarming" where developers help with testing activities to clear the bottleneck and maintain flow.
+- <strong>Distractor 1:</strong> Increase the Work in Progress (WIP) limit for the Testing column to allow more tasks to be "in progress."
+- <strong>Distractor 2:</strong> Tell the developers to slow down their coding speed to match the capacity of the testing team.
+- <strong>Distractor 3:</strong> Hire two more testers to balance the capacity between development and testing.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -613,18 +613,18 @@ What should the project manager (Scrum Master) suggest?
 
 ### Question 22
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is conducting a quality audit on a construction project. They discover that the team has implemented a more efficient way of installing electrical wiring that saves time and improves safety, but this method deviates from the original Quality Management Plan.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Document the new method and submit a change request to update the Quality Management Plan to reflect the improved process.
-- **Distractor 1:** Direct the team to return to the original method specified in the plan to ensure compliance and auditability.
-- **Distractor 2:** Verbally approve the new method but leave the Quality Management Plan as is to avoid unnecessary paperwork.
-- **Distractor 3:** Report the deviation to the sponsor as a quality failure and request a corrective action plan.
+- <strong>Correct:</strong> Document the new method and submit a change request to update the Quality Management Plan to reflect the improved process.
+- <strong>Distractor 1:</strong> Direct the team to return to the original method specified in the plan to ensure compliance and auditability.
+- <strong>Distractor 2:</strong> Verbally approve the new method but leave the Quality Management Plan as is to avoid unnecessary paperwork.
+- <strong>Distractor 3:</strong> Report the deviation to the sponsor as a quality failure and request a corrective action plan.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -642,18 +642,18 @@ What is the BEST action for the project manager to take?
 
 ### Question 23
 
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project has a high cost of failure due to frequent regressions. The team spends 40% of every sprint fixing bugs introduced in the previous sprint. The project manager identifies this as a sustainability issue for the project.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST effective long-term solution?
 
-- **Correct:** Invest in automated regression testing to identify defects earlier and reduce the cost of rework.
-- **Distractor 1:** Add a "Bug Fix" sprint every three sprints to clean up all the accumulated defects.
-- **Distractor 2:** Request the developers to be more careful and perform more manual testing before checking in code.
-- **Distractor 3:** Increase the length of the sprints from two weeks to four weeks to allow more time for testing.
+- <strong>Correct:</strong> Invest in automated regression testing to identify defects earlier and reduce the cost of rework.
+- <strong>Distractor 1:</strong> Add a "Bug Fix" sprint every three sprints to clean up all the accumulated defects.
+- <strong>Distractor 2:</strong> Request the developers to be more careful and perform more manual testing before checking in code.
+- <strong>Distractor 3:</strong> Increase the length of the sprints from two weeks to four weeks to allow more time for testing.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -671,18 +671,18 @@ What is the MOST effective long-term solution?
 
 ### Question 24
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During quality planning for a high-security data center project, the project manager is trying to balance the cost of redundant power systems with the customer's requirement for "uninterrupted service."
 
-**Question:**
+<strong>Question:</strong>
 Which tool or technique would BEST help the project manager make this decision?
 
-- **Correct:** Marginal Analysis
-- **Distractor 1:** Pareto Chart
-- **Distractor 2:** Control Chart
-- **Distractor 3:** Fishbone Diagram
+- <strong>Correct:</strong> Marginal Analysis
+- <strong>Distractor 1:</strong> Pareto Chart
+- <strong>Distractor 2:</strong> Control Chart
+- <strong>Distractor 3:</strong> Fishbone Diagram
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -700,18 +700,18 @@ Which tool or technique would BEST help the project manager make this decision?
 
 ### Question 25
 
-**Enabler:** 7 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a project that uses Six Sigma for process improvement. The project is currently in the "Analyze" phase of the DMAIC process. The team has collected data on process variation.
 
-**Question:**
+<strong>Question:</strong>
 What should the team do NEXT?
 
-- **Correct:** Identify and validate the root causes of the defects found in the data.
-- **Distractor 1:** Implement a pilot solution to test if it reduces process variation.
-- **Distractor 2:** Define the project goals and the customer's critical-to-quality requirements.
-- **Distractor 3:** Create a new control chart to monitor the process after the improvements are made.
+- <strong>Correct:</strong> Identify and validate the root causes of the defects found in the data.
+- <strong>Distractor 1:</strong> Implement a pilot solution to test if it reduces process variation.
+- <strong>Distractor 2:</strong> Define the project goals and the customer's critical-to-quality requirements.
+- <strong>Distractor 3:</strong> Create a new control chart to monitor the process after the improvements are made.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -729,18 +729,18 @@ What should the team do NEXT?
 
 ### Question 26
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is developing a medical app that must comply with strict health data privacy laws. The Product Owner wants to release a "Beta" version to a small group of users to get feedback on the UI, but the security features for data encryption are not yet fully implemented.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (Scrum Master) advise?
 
-- **Correct:** The Beta release cannot proceed without full compliance with data privacy laws, as regulatory requirements are mandatory quality standards.
-- **Distractor 1:** The Beta release is acceptable as long as the users sign a waiver acknowledging that their data is not yet fully encrypted.
-- **Distractor 2:** Use dummy data for the Beta release instead of real user data to circumvent the privacy law requirements.
-- **Distractor 3:** Proceed with the Beta release to get the feedback, but prioritize the encryption features in the very next sprint.
+- <strong>Correct:</strong> The Beta release cannot proceed without full compliance with data privacy laws, as regulatory requirements are mandatory quality standards.
+- <strong>Distractor 1:</strong> The Beta release is acceptable as long as the users sign a waiver acknowledging that their data is not yet fully encrypted.
+- <strong>Distractor 2:</strong> Use dummy data for the Beta release instead of real user data to circumvent the privacy law requirements.
+- <strong>Distractor 3:</strong> Proceed with the Beta release to get the feedback, but prioritize the encryption features in the very next sprint.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -758,18 +758,18 @@ What should the project manager (Scrum Master) advise?
 
 ### Question 27
 
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is reviewing the results of a statistical sampling of 500 units from a production lot of 10,000. The sampling plan uses attribute sampling with an acceptance level of 1%. The sample found 7 defective units.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST likely result of this inspection?
 
-- **Correct:** The entire lot of 10,000 units is rejected.
-- **Distractor 1:** Only the 7 defective units are rejected, and the rest of the lot is accepted.
-- **Distractor 2:** The project manager should increase the sample size to 1,000 to get more accurate results.
-- **Distractor 3:** The process is considered "in control" because 7 out of 500 is a very small number.
+- <strong>Correct:</strong> The entire lot of 10,000 units is rejected.
+- <strong>Distractor 1:</strong> Only the 7 defective units are rejected, and the rest of the lot is accepted.
+- <strong>Distractor 2:</strong> The project manager should increase the sample size to 1,000 to get more accurate results.
+- <strong>Distractor 3:</strong> The process is considered "in control" because 7 out of 500 is a very small number.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -787,18 +787,18 @@ What is the MOST likely result of this inspection?
 
 ### Question 28
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is integrating a new vendor into a project. The vendor has their own ISO 9001 certified quality system. The project manager's organization uses a different quality standard.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way to handle this during quality planning?
 
-- **Correct:** Compare the two standards (benchmarking) and define a unified quality approach for the project that satisfies the most critical requirements of both.
-- **Distractor 1:** Mandate that the vendor ignores their ISO 9001 system and follows the project manager's organizational standard exclusively.
-- **Distractor 2:** Allow the vendor to use their own system for their work and assume that ISO 9001 certification guarantees the required quality.
-- **Distractor 3:** Hire a third-party consultant to create a completely new quality system just for this vendor's portion of the project.
+- <strong>Correct:</strong> Compare the two standards (benchmarking) and define a unified quality approach for the project that satisfies the most critical requirements of both.
+- <strong>Distractor 1:</strong> Mandate that the vendor ignores their ISO 9001 system and follows the project manager's organizational standard exclusively.
+- <strong>Distractor 2:</strong> Allow the vendor to use their own system for their work and assume that ISO 9001 certification guarantees the required quality.
+- <strong>Distractor 3:</strong> Hire a third-party consultant to create a completely new quality system just for this vendor's portion of the project.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -816,18 +816,18 @@ What is the BEST way to handle this during quality planning?
 
 ### Question 29
 
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is consistently delivering features that the customer loves, but the internal "code quality" is poor, leading to high maintenance costs for the organization's IT department.
 
-**Question:**
+<strong>Question:</strong>
 Which concept describes this situation?
 
-- **Correct:** High Fitness for Use but Low Conformance to Requirements (Internal Standards).
-- **Distractor 1:** High Grade but Low Quality.
-- **Distractor 2:** High Quality but Low Grade.
-- **Distractor 3:** High Internal Failure Costs but Low External Failure Costs.
+- <strong>Correct:</strong> High Fitness for Use but Low Conformance to Requirements (Internal Standards).
+- <strong>Distractor 1:</strong> High Grade but Low Quality.
+- <strong>Distractor 2:</strong> High Quality but Low Grade.
+- <strong>Distractor 3:</strong> High Internal Failure Costs but Low External Failure Costs.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -845,18 +845,18 @@ Which concept describes this situation?
 
 ### Question 30
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is preparing for a "Phase Gate" review. One of the exit criteria is that all quality metrics for the design phase must be met. The team reports that the "Design Review Completion Rate" is 95%, while the target was 100%.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate action for the project manager?
 
-- **Correct:** Analyze the impact of the missing 5% of reviews and present a remediation plan to the gate committee.
-- **Distractor 1:** Update the report to show 100% since 95% is "close enough" for a design phase.
-- **Distractor 2:** Delay the phase gate review until the remaining 5% of reviews are completed, regardless of the impact.
-- **Distractor 3:** Request a change to the Quality Management Plan to lower the target for this metric to 95%.
+- <strong>Correct:</strong> Analyze the impact of the missing 5% of reviews and present a remediation plan to the gate committee.
+- <strong>Distractor 1:</strong> Update the report to show 100% since 95% is "close enough" for a design phase.
+- <strong>Distractor 2:</strong> Delay the phase gate review until the remaining 5% of reviews are completed, regardless of the impact.
+- <strong>Distractor 3:</strong> Request a change to the Quality Management Plan to lower the target for this metric to 95%.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -874,18 +874,18 @@ What is the MOST appropriate action for the project manager?
 
 ### Question 31
 
-**Enabler:** 7 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using the Plan-Do-Check-Act (PDCA) cycle to improve the response time of the customer support module. During the "Check" phase, the data shows that the implemented change did not reach the target improvement of 20% but only achieved 5%.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do in the "Act" phase?
 
-- **Correct:** Analyze why the target was not met and adjust the plan for a new cycle of improvement.
-- **Distractor 1:** Standardize the 5% improvement across all support modules as it is better than no improvement.
-- **Distractor 2:** Abandon the improvement initiative since the 20% target was not reached in the first cycle.
-- **Distractor 3:** Proceed directly to the "Do" phase with a different solution without further analysis.
+- <strong>Correct:</strong> Analyze why the target was not met and adjust the plan for a new cycle of improvement.
+- <strong>Distractor 1:</strong> Standardize the 5% improvement across all support modules as it is better than no improvement.
+- <strong>Distractor 2:</strong> Abandon the improvement initiative since the 20% target was not reached in the first cycle.
+- <strong>Distractor 3:</strong> Proceed directly to the "Do" phase with a different solution without further analysis.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -903,18 +903,18 @@ What should the project manager do in the "Act" phase?
 
 ### Question 32
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is deciding whether to use a histogram or a Pareto chart to present the results of a quality control inspection. The team has collected data on 15 different types of defects found in a software module.
 
-**Question:**
+<strong>Question:</strong>
 Which tool would BEST help the team identify which 20% of defect types are causing 80% of the total defects?
 
-- **Correct:** Pareto Chart
-- **Distractor 1:** Histogram
-- **Distractor 2:** Control Chart
-- **Distractor 3:** Scatter Diagram
+- <strong>Correct:</strong> Pareto Chart
+- <strong>Distractor 1:</strong> Histogram
+- <strong>Distractor 2:</strong> Control Chart
+- <strong>Distractor 3:</strong> Scatter Diagram
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -932,18 +932,18 @@ Which tool would BEST help the team identify which 20% of defect types are causi
 
 ### Question 33
 
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is struggling with "rework" because the acceptance criteria for user stories are often misinterpreted by the developers. This is increasing the internal failure costs of the project.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (Scrum Master) recommend to the team?
 
-- **Correct:** Use Behavior-Driven Development (BDD) to define acceptance criteria using "Given/When/Then" scenarios.
-- **Distractor 1:** Require the Product Owner to write more detailed 20-page requirement documents for every user story.
-- **Distractor 2:** Increase the duration of the sprint planning meeting to four hours to discuss every possible interpretation.
-- **Distractor 3:** Implement a mandatory sign-off process where the lead developer approves all code before it is tested.
+- <strong>Correct:</strong> Use Behavior-Driven Development (BDD) to define acceptance criteria using "Given/When/Then" scenarios.
+- <strong>Distractor 1:</strong> Require the Product Owner to write more detailed 20-page requirement documents for every user story.
+- <strong>Distractor 2:</strong> Increase the duration of the sprint planning meeting to four hours to discuss every possible interpretation.
+- <strong>Distractor 3:</strong> Implement a mandatory sign-off process where the lead developer approves all code before it is tested.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -961,18 +961,18 @@ What should the project manager (Scrum Master) recommend to the team?
 
 ### Question 34
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project to build a solar farm must meet environmental regulations regarding soil disturbance. The project manager identifies that the current construction method is close to exceeding the legal limit for soil displacement.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Evaluate alternative construction methods that reduce soil displacement and submit a change request if necessary.
-- **Distractor 1:** Proceed with the current method but ensure that all displacement is accurately recorded for the final audit.
-- **Distractor 2:** Instruct the team to under-report the displacement figures to keep the project within the legal limits.
-- **Distractor 3:** Wait until the limit is actually exceeded before taking any corrective action to avoid unnecessary delays.
+- <strong>Correct:</strong> Evaluate alternative construction methods that reduce soil displacement and submit a change request if necessary.
+- <strong>Distractor 1:</strong> Proceed with the current method but ensure that all displacement is accurately recorded for the final audit.
+- <strong>Distractor 2:</strong> Instruct the team to under-report the displacement figures to keep the project within the legal limits.
+- <strong>Distractor 3:</strong> Wait until the limit is actually exceeded before taking any corrective action to avoid unnecessary delays.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -990,18 +990,18 @@ What is the BEST action for the project manager to take?
 
 ### Question 35
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During quality planning for a new jet engine component, the project manager realizes that the required precision for the turbine blades is beyond the current capability of the company's manufacturing equipment.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do FIRST?
 
-- **Correct:** Perform a cost-benefit analysis of upgrading the equipment versus outsourcing the production of the blades to a specialized vendor.
-- **Distractor 1:** Lower the quality requirement to match the current capability of the existing manufacturing equipment.
-- **Distractor 2:** Instruct the team to try their best with the current equipment and use 100% inspection to find the good parts.
-- **Distractor 3:** Request the design team to change the component design to use less precise parts that are easier to manufacture.
+- <strong>Correct:</strong> Perform a cost-benefit analysis of upgrading the equipment versus outsourcing the production of the blades to a specialized vendor.
+- <strong>Distractor 1:</strong> Lower the quality requirement to match the current capability of the existing manufacturing equipment.
+- <strong>Distractor 2:</strong> Instruct the team to try their best with the current equipment and use 100% inspection to find the good parts.
+- <strong>Distractor 3:</strong> Request the design team to change the component design to use less precise parts that are easier to manufacture.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1019,18 +1019,18 @@ What should the project manager do FIRST?
 
 ### Question 36
 
-**Enabler:** 6 | **Methodology:** Agile
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is using a "Definition of Ready" (DoR) to ensure that user stories are clear before they enter a sprint. However, several stories are still failing during the sprint due to "undiscovered dependencies" with other teams.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (Scrum Master) do?
 
-- **Correct:** Facilitate a discussion to update the Definition of Ready to include a check for cross-team dependencies.
-- **Distractor 1:** Tell the team to stop using the DoR as it clearly isn't working to prevent story failures.
-- **Distractor 2:** Mandate that all stories with dependencies must be moved to a separate "Dependency Sprint."
-- **Distractor 3:** Assign a team member to be the "Dependency Manager" and handle all outside communication.
+- <strong>Correct:</strong> Facilitate a discussion to update the Definition of Ready to include a check for cross-team dependencies.
+- <strong>Distractor 1:</strong> Tell the team to stop using the DoR as it clearly isn't working to prevent story failures.
+- <strong>Distractor 2:</strong> Mandate that all stories with dependencies must be moved to a separate "Dependency Sprint."
+- <strong>Distractor 3:</strong> Assign a team member to be the "Dependency Manager" and handle all outside communication.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1048,18 +1048,18 @@ What should the project manager (Scrum Master) do?
 
 ### Question 37
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a hybrid project where the software is released every month. The project manager notices that the quality of the software is high, but the deployment process is manual and error-prone, often leading to downtime during the release window.
 
-**Question:**
+<strong>Question:</strong>
 What action should the project manager take?
 
-- **Correct:** Submit a change request to invest in automated deployment tools (CI/CD) to improve the quality of the release process.
-- **Distractor 1:** Instruct the team to perform the manual deployment steps more slowly and carefully to avoid errors.
-- **Distractor 2:** Schedule all deployments for the weekend to minimize the impact of the inevitable downtime on users.
-- **Distractor 3:** Add a mandatory two-day "stabilization period" after every release where no new work is allowed.
+- <strong>Correct:</strong> Submit a change request to invest in automated deployment tools (CI/CD) to improve the quality of the release process.
+- <strong>Distractor 1:</strong> Instruct the team to perform the manual deployment steps more slowly and carefully to avoid errors.
+- <strong>Distractor 2:</strong> Schedule all deployments for the weekend to minimize the impact of the inevitable downtime on users.
+- <strong>Distractor 3:</strong> Add a mandatory two-day "stabilization period" after every release where no new work is allowed.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1077,18 +1077,18 @@ What action should the project manager take?
 
 ### Question 38
 
-**Enabler:** 7 | **Methodology:** Predictive
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a Six Sigma project and is in the "Measure" phase. The team has identified the Critical to Quality (CTQ) characteristics for the project.
 
-**Question:**
+<strong>Question:</strong>
 What is the team's PRIMARY objective in this phase?
 
-- **Correct:** Collect baseline data on the current performance of the process regarding the CTQs.
-- **Distractor 1:** Identify the root causes of the variation found in the process.
-- **Distractor 2:** Implement a pilot project to see if a new tool improves process yield.
-- **Distractor 3:** Define the project charter and identify the key stakeholders.
+- <strong>Correct:</strong> Collect baseline data on the current performance of the process regarding the CTQs.
+- <strong>Distractor 1:</strong> Identify the root causes of the variation found in the process.
+- <strong>Distractor 2:</strong> Implement a pilot project to see if a new tool improves process yield.
+- <strong>Distractor 3:</strong> Define the project charter and identify the key stakeholders.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1106,18 +1106,18 @@ What is the team's PRIMARY objective in this phase?
 
 ### Question 39
 
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project is nearing its end. The team has a list of "minor defects" that they haven't fixed because they were focused on high-priority features. The Product Owner wants to close the project and leave the defects for the maintenance team to fix later.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (Scrum Master) ensure happens?
 
-- **Correct:** All outstanding defects are reviewed with the maintenance team and a plan for their resolution is agreed upon before project closure.
-- **Distractor 1:** The team stays for another sprint to fix every single minor defect, regardless of the budget or schedule impact.
-- **Distractor 2:** The defects are deleted from the backlog since the project is closing and they are no longer the project's responsibility.
-- **Distractor 3:** The defects are marked as "features" to avoid having "unresolved quality issues" on the final project report.
+- <strong>Correct:</strong> All outstanding defects are reviewed with the maintenance team and a plan for their resolution is agreed upon before project closure.
+- <strong>Distractor 1:</strong> The team stays for another sprint to fix every single minor defect, regardless of the budget or schedule impact.
+- <strong>Distractor 2:</strong> The defects are deleted from the backlog since the project is closing and they are no longer the project's responsibility.
+- <strong>Distractor 3:</strong> The defects are marked as "features" to avoid having "unresolved quality issues" on the final project report.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1135,18 +1135,18 @@ What should the project manager (Scrum Master) ensure happens?
 
 ### Question 40
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using a flowchart to analyze the current process for approving travel expenses. They find that every expense report requires seven different signatures, which takes an average of 10 days to complete.
 
-**Question:**
+<strong>Question:</strong>
 What does this flowchart MOST likely reveal to the project manager?
 
-- **Correct:** A bottleneck in the process that is causing inefficiencies and potential for errors.
-- **Distractor 1:** The root cause of why employees are submitting incorrect expense reports.
-- **Distractor 2:** The correlation between the number of signatures and the accuracy of the reports.
-- **Distractor 3:** That the process is statistically "in control" and performing as expected.
+- <strong>Correct:</strong> A bottleneck in the process that is causing inefficiencies and potential for errors.
+- <strong>Distractor 1:</strong> The root cause of why employees are submitting incorrect expense reports.
+- <strong>Distractor 2:</strong> The correlation between the number of signatures and the accuracy of the reports.
+- <strong>Distractor 3:</strong> That the process is statistically "in control" and performing as expected.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1164,18 +1164,18 @@ What does this flowchart MOST likely reveal to the project manager?
 
 ### Question 41
 
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager for a software company is notified that a new version of an industry standard (e.g., ISO 27001) has been released mid-project. The project was planned to meet the previous version of the standard.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do FIRST?
 
-- **Correct:** Perform a gap analysis to determine the differences between the current project plan and the new standard requirements.
-- **Distractor 1:** Immediately update all project documents to reflect the new version of the standard.
-- **Distractor 2:** Ignore the new version since the project was already approved based on the old standard.
-- **Distractor 3:** Request an immediate budget increase to cover the costs of complying with the new standard.
+- <strong>Correct:</strong> Perform a gap analysis to determine the differences between the current project plan and the new standard requirements.
+- <strong>Distractor 1:</strong> Immediately update all project documents to reflect the new version of the standard.
+- <strong>Distractor 2:</strong> Ignore the new version since the project was already approved based on the old standard.
+- <strong>Distractor 3:</strong> Request an immediate budget increase to cover the costs of complying with the new standard.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1193,18 +1193,18 @@ What should the project manager do FIRST?
 
 ### Question 42
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is working on a mobile app. The customer wants the app to be "fast." The team is unsure how to translate this into a quality requirement they can test.
 
-**Question:**
+<strong>Question:</strong>
 What should the team do?
 
-- **Correct:** Research industry benchmarks and work with the customer to define "fast" as a specific metric, such as "95% of pages load in less than 2 seconds."
-- **Distractor 1:** Tell the customer that "fast" is subjective and cannot be measured or included in the quality plan.
-- **Distractor 2:** Use the fastest mobile device available to test the app and ensure it feels fast to the developers.
-- **Distractor 3:** Focus on adding more features first and optimize the speed at the very end of the project.
+- <strong>Correct:</strong> Research industry benchmarks and work with the customer to define "fast" as a specific metric, such as "95% of pages load in less than 2 seconds."
+- <strong>Distractor 1:</strong> Tell the customer that "fast" is subjective and cannot be measured or included in the quality plan.
+- <strong>Distractor 2:</strong> Use the fastest mobile device available to test the app and ensure it feels fast to the developers.
+- <strong>Distractor 3:</strong> Focus on adding more features first and optimize the speed at the very end of the project.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1222,18 +1222,18 @@ What should the team do?
 
 ### Question 43
 
-**Enabler:** 6 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project is experiencing a high number of "integration failures" when the agile software team's code is merged with the predictive hardware team's firmware. The project manager wants to improve the quality of these integrations.
 
-**Question:**
+<strong>Question:</strong>
 What process should the project manager focus on?
 
-- **Correct:** Manage Quality (QA) by reviewing and improving the integration process and communication between the two teams.
-- **Distractor 1:** Control Quality (QC) by increasing the number of tests performed after the integration is complete.
-- **Distractor 2:** Plan Quality Management by rewriting the quality policy for the entire organization.
-- **Distractor 3:** Scope Management by reducing the number of features that require integration.
+- <strong>Correct:</strong> Manage Quality (QA) by reviewing and improving the integration process and communication between the two teams.
+- <strong>Distractor 1:</strong> Control Quality (QC) by increasing the number of tests performed after the integration is complete.
+- <strong>Distractor 2:</strong> Plan Quality Management by rewriting the quality policy for the entire organization.
+- <strong>Distractor 3:</strong> Scope Management by reducing the number of features that require integration.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1251,18 +1251,18 @@ What process should the project manager focus on?
 
 ### Question 44
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is presenting the "Cost of Quality" to the steering committee. They explain that the project's high failure costs are due to a lack of investment in "Appraisal Costs."
 
-**Question:**
+<strong>Question:</strong>
 Which of the following is an example of an Appraisal Cost?
 
-- **Correct:** Final product inspections and laboratory testing.
-- **Distractor 1:** Employee training on new quality software.
-- **Distractor 2:** Reworking a defective component found during production.
-- **Distractor 3:** Handling customer warranty claims for a failed product.
+- <strong>Correct:</strong> Final product inspections and laboratory testing.
+- <strong>Distractor 1:</strong> Employee training on new quality software.
+- <strong>Distractor 2:</strong> Reworking a defective component found during production.
+- <strong>Distractor 3:</strong> Handling customer warranty claims for a failed product.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1280,18 +1280,18 @@ Which of the following is an example of an Appraisal Cost?
 
 ### Question 45
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is using "Definition of Done" (DoD) as their primary quality gate. During a sprint, the Product Owner discovers that the team has been skipping the "Code Review" step of the DoD to meet their velocity commitments.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (Scrum Master) do?
 
-- **Correct:** Facilitate a team discussion about why the DoD is not being followed and the long-term impact on quality and technical debt.
-- **Distractor 1:** Report the team to their functional managers for failing to follow the project's quality standards.
-- **Distractor 2:** Temporarily remove the "Code Review" step from the DoD until the team catches up with their schedule.
-- **Distractor 3:** Personally perform all the missing code reviews to ensure the project stays on track.
+- <strong>Correct:</strong> Facilitate a team discussion about why the DoD is not being followed and the long-term impact on quality and technical debt.
+- <strong>Distractor 1:</strong> Report the team to their functional managers for failing to follow the project's quality standards.
+- <strong>Distractor 2:</strong> Temporarily remove the "Code Review" step from the DoD until the team catches up with their schedule.
+- <strong>Distractor 3:</strong> Personally perform all the missing code reviews to ensure the project stays on track.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1309,18 +1309,18 @@ What should the project manager (Scrum Master) do?
 
 ### Question 46
 
-**Enabler:** 7 | **Methodology:** Predictive
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager wants to implement "Kaizen" in a predictive manufacturing project.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate way to do this?
 
-- **Correct:** Encourage small, incremental improvements to the manufacturing process suggested by the people doing the work.
-- **Distractor 1:** Schedule a large, one-time "Quality Overhaul" project to replace all existing equipment and processes.
-- **Distractor 2:** Require every employee to attend a mandatory 40-hour training course on Japanese management philosophy.
-- **Distractor 3:** Implement a strict "zero defects" policy where employees are penalized for every error they make.
+- <strong>Correct:</strong> Encourage small, incremental improvements to the manufacturing process suggested by the people doing the work.
+- <strong>Distractor 1:</strong> Schedule a large, one-time "Quality Overhaul" project to replace all existing equipment and processes.
+- <strong>Distractor 2:</strong> Require every employee to attend a mandatory 40-hour training course on Japanese management philosophy.
+- <strong>Distractor 3:</strong> Implement a strict "zero defects" policy where employees are penalized for every error they make.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1338,18 +1338,18 @@ What is the MOST appropriate way to do this?
 
 ### Question 47
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is using a "Quality Dashboard" to track metrics like bug density, test coverage, and cycle time. The dashboard shows that bug density is increasing while test coverage is decreasing.
 
-**Question:**
+<strong>Question:</strong>
 What should the team do NEXT?
 
-- **Correct:** Use a retrospective to analyze the correlation between the two metrics and identify a plan to increase test coverage.
-- **Distractor 1:** Stop tracking the metrics since they are showing a negative trend and causing team demotivation.
-- **Distractor 2:** Increase the velocity target for the next sprint to compensate for the time lost to fixing bugs.
-- **Distractor 3:** Hire an external auditor to investigate why the team's quality is declining.
+- <strong>Correct:</strong> Use a retrospective to analyze the correlation between the two metrics and identify a plan to increase test coverage.
+- <strong>Distractor 1:</strong> Stop tracking the metrics since they are showing a negative trend and causing team demotivation.
+- <strong>Distractor 2:</strong> Increase the velocity target for the next sprint to compensate for the time lost to fixing bugs.
+- <strong>Distractor 3:</strong> Hire an external auditor to investigate why the team's quality is declining.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1367,18 +1367,18 @@ What should the team do NEXT?
 
 ### Question 48
 
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is gathering quality requirements for a new corporate headquarters. One requirement is that the building must be "environmentally sustainable."
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way to document this requirement in the Quality Management Plan?
 
-- **Correct:** Specify a target certification level, such as "LEED Gold," which includes specific, measurable criteria for energy, water, and materials.
-- **Distractor 1:** State that the building will use "green materials" and "save energy" wherever possible.
-- **Distractor 2:** Leave the definition of sustainability to the architects and engineers as it is a technical specialty.
-- **Distractor 3:** Include a list of 50 different "green features" that the building might have if the budget allows.
+- <strong>Correct:</strong> Specify a target certification level, such as "LEED Gold," which includes specific, measurable criteria for energy, water, and materials.
+- <strong>Distractor 1:</strong> State that the building will use "green materials" and "save energy" wherever possible.
+- <strong>Distractor 2:</strong> Leave the definition of sustainability to the architects and engineers as it is a technical specialty.
+- <strong>Distractor 3:</strong> Include a list of 50 different "green features" that the building might have if the budget allows.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1396,18 +1396,18 @@ What is the BEST way to document this requirement in the Quality Management Plan
 
 ### Question 49
 
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using a control chart to monitor the weight of filled cereal boxes. The mean weight is 500g, and the control limits are set at 490g and 510g. The last five boxes weighed were 502g, 505g, 507g, 508g, and 509g.
 
-**Question:**
+<strong>Question:</strong>
 What does this pattern MOST likely indicate?
 
-- **Correct:** A "Trend" in the process that might soon lead to an out-of-control situation.
-- **Distractor 1:** The process is in perfect control because all points are within the limits and above the mean.
-- **Distractor 2:** The process mean has successfully shifted to 508g, and the control limits should be updated.
-- **Distractor 3:** A "Special Cause" variation has occurred because the weights are increasing.
+- <strong>Correct:</strong> A "Trend" in the process that might soon lead to an out-of-control situation.
+- <strong>Distractor 1:</strong> The process is in perfect control because all points are within the limits and above the mean.
+- <strong>Distractor 2:</strong> The process mean has successfully shifted to 508g, and the control limits should be updated.
+- <strong>Distractor 3:</strong> A "Special Cause" variation has occurred because the weights are increasing.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1425,18 +1425,18 @@ What does this pattern MOST likely indicate?
 
 ### Question 50
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is developing a healthcare app. During a sprint, they find that a third-party library they are using has a known security vulnerability that violates the project's compliance policy.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (Scrum Master) do?
 
-- **Correct:** Ensure the team immediately assesses the impact and works with the Product Owner to prioritize replacing the library or fixing the vulnerability.
-- **Distractor 1:** Continue with the current sprint as planned and address the security issue in the next release cycle.
-- **Distractor 2:** Ask the team to hide the vulnerability from the security auditors until the project is finished.
-- **Distractor 3:** Ignore the vulnerability since it is in a third-party library and not in the team's own code.
+- <strong>Correct:</strong> Ensure the team immediately assesses the impact and works with the Product Owner to prioritize replacing the library or fixing the vulnerability.
+- <strong>Distractor 1:</strong> Continue with the current sprint as planned and address the security issue in the next release cycle.
+- <strong>Distractor 2:</strong> Ask the team to hide the vulnerability from the security auditors until the project is finished.
+- <strong>Distractor 3:</strong> Ignore the vulnerability since it is in a third-party library and not in the team's own code.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1468,20 +1468,20 @@ What should the project manager (Scrum Master) do?
 
 ### Database Stats
 
-*   **Correct Answer Length Average:** 14 words
-*   **Distractor Length Average:** 15 words
-*   **Methodology Split:**
+*   <strong>Correct Answer Length Average:</strong> 14 words
+*   <strong>Distractor Length Average:</strong> 15 words
+*   <strong>Methodology Split:</strong>
     *   Predictive: 40% (20 questions)
     *   Agile: 36% (18 questions)
     *   Hybrid: 24% (12 questions)
 
 ### Key Takeaways: Quality Optimization Pro-Tips
 
-1.  **Prevention Over Inspection:** Always favor spending on training, prototyping, and process design over more testing. Conformance costs are an investment that prevents the 10x-100x higher costs of failure.
+1.  <strong>Prevention Over Inspection:</strong> Always favor spending on training, prototyping, and process design over more testing. Conformance costs are an investment that prevents the 10x-100x higher costs of failure.
 2.  **Standards are Non-Negotiable:** Regulatory compliance and security are hard quality constraints. They must be prioritized in the backlog or project plan and cannot be waived without formal governance approval.
-3.  **Root Cause is Key:** When defects recur or processes drift, use tools like Fishbone diagrams or the 5 Whys to fix the system, not just the symptom.
-4.  **Quality is Continuous:** In Agile, quality is built-in through the Definition of Done (DoD) and practices like TDD. In Predictive, it's ensured through formal audits (QA) and inspections (QC).
-5.  **Metrics Must Be Measurable:** Subjective terms like "fast," "safe," or "reliable" must be translated into technical, testable metrics during the planning phase.
+3.  <strong>Root Cause is Key:</strong> When defects recur or processes drift, use tools like Fishbone diagrams or the 5 Whys to fix the system, not just the symptom.
+4.  <strong>Quality is Continuous:</strong> In Agile, quality is built-in through the Definition of Done (DoD) and practices like TDD. In Predictive, it's ensured through formal audits (QA) and inspections (QC).
+5.  <strong>Metrics Must Be Measurable:</strong> Subjective terms like "fast," "safe," or "reliable" must be translated into technical, testable metrics during the planning phase.
 
 ### CSS Style Block
 

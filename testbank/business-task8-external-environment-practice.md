@@ -2,7 +2,7 @@
 
 **Questions 1-50 of 50 | Difficulty: Level 4/5 (Analysis/Evaluation)**
 
-**Source Material:** `/guide/02-strategic/external-environment.md`
+<strong>Source Material:</strong> `/guide/02-strategic/external-environment.md`
 
 ---
 
@@ -10,18 +10,18 @@
 
 ### Question 1
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A pharmaceutical company is running a predictive clinical trial project. During the monitoring phase, the European Union passes a new regulation requiring additional safety reporting for all drug trials. The regulation takes effect in 90 days. Your project is currently on schedule to deliver in 120 days. The project sponsor is on a three-week vacation and unreachable.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager to take?
 
-- **Correct:** Document the regulation in the risk register, assess the impact on scope, schedule, and cost, and prepare an impact analysis for the change control board
-- **Distractor 1:** Wait until the sponsor returns from vacation to discuss the new regulation
-- **Distractor 2:** Immediately halt all project work until the new requirements are fully understood
-- **Distractor 3:** Contact the regulatory affairs team to request an exemption for your project
+- <strong>Correct:</strong> Document the regulation in the risk register, assess the impact on scope, schedule, and cost, and prepare an impact analysis for the change control board
+- <strong>Distractor 1:</strong> Wait until the sponsor returns from vacation to discuss the new regulation
+- <strong>Distractor 2:</strong> Immediately halt all project work until the new requirements are fully understood
+- <strong>Distractor 3:</strong> Contact the regulatory affairs team to request an exemption for your project
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -39,18 +39,18 @@ What is the FIRST action for the project manager to take?
 
 ### Question 2
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are managing an agile software development project. A competitor releases an AI-powered feature that renders your current product approach technically obsolete. The product owner wants to immediately pivot to incorporate similar AI capabilities, but this would require completely rewriting the current sprint's work. The team has already completed 60% of the current sprint.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST course of action for the project manager?
 
-- **Correct:** Complete the current sprint as planned, then work with the product owner to add AI capabilities to the product backlog and reprioritize based on value delivery
-- **Distractor 1:** Immediately cancel the current sprint and pivot to AI development to maintain competitive advantage
-- **Distractor 2:** Continue with the current product roadmap and ignore the competitive threat since the contract scope is fixed
-- **Distractor 3:** Ask the development team to work overtime to add AI capabilities while completing the current sprint
+- <strong>Correct:</strong> Complete the current sprint as planned, then work with the product owner to add AI capabilities to the product backlog and reprioritize based on value delivery
+- <strong>Distractor 1:</strong> Immediately cancel the current sprint and pivot to AI development to maintain competitive advantage
+- <strong>Distractor 2:</strong> Continue with the current product roadmap and ignore the competitive threat since the contract scope is fixed
+- <strong>Distractor 3:</strong> Ask the development team to work overtime to add AI capabilities while completing the current sprint
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -68,18 +68,18 @@ What is the BEST course of action for the project manager?
 
 ### Question 3
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid construction project is underway. New carbon emissions reporting legislation passes, requiring all construction projects to track and report Scope 3 emissions (supply chain). Your project is in the execution phase with major equipment already procured. Retroactively collecting supplier emissions data would require significant rework and vendor coordination.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST IMPORTANT action for the project manager?
 
-- **Correct:** Assess which suppliers and materials are affected, document the gap in the risk register, and present options (absorb, pivot, or request compliance timeline extension) to the steering committee
-- **Distractor 1:** Continue execution since the equipment is already purchased and emissions reporting doesn't affect construction quality
-- **Distractor 2:** Immediately implement a new supplier questionnaire and pause all vendor payments until emissions data is provided
-- **Distractor 3:** Request project termination since compliance costs exceed the remaining budget
+- <strong>Correct:</strong> Assess which suppliers and materials are affected, document the gap in the risk register, and present options (absorb, pivot, or request compliance timeline extension) to the steering committee
+- <strong>Distractor 1:</strong> Continue execution since the equipment is already purchased and emissions reporting doesn't affect construction quality
+- <strong>Distractor 2:</strong> Immediately implement a new supplier questionnaire and pause all vendor payments until emissions data is provided
+- <strong>Distractor 3:</strong> Request project termination since compliance costs exceed the remaining budget
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -97,18 +97,18 @@ What is the MOST IMPORTANT action for the project manager?
 
 ### Question 4
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are managing a predictive infrastructure project. A trade war escalates, and your government announces a 25% tariff on imported steel, effective immediately. Your steel procurement contract is fixed-price but includes a force majeure clause. The supplier informs you they will pass the tariff cost to your project.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST response for the project manager?
 
-- **Correct:** Review the contract to determine if tariffs qualify as force majeure, document the cost impact, and submit a change request through the change control process
-- **Distractor 1:** Immediately approve the tariff surcharge to avoid steel delivery delays
-- **Distractor 2:** Reject the tariff charge as a breach of the fixed-price agreement and threaten legal action
-- **Distractor 3:** Absorb the tariff cost within the project contingency reserves without seeking approval
+- <strong>Correct:</strong> Review the contract to determine if tariffs qualify as force majeure, document the cost impact, and submit a change request through the change control process
+- <strong>Distractor 1:</strong> Immediately approve the tariff surcharge to avoid steel delivery delays
+- <strong>Distractor 2:</strong> Reject the tariff charge as a breach of the fixed-price agreement and threaten legal action
+- <strong>Distractor 3:</strong> Absorb the tariff cost within the project contingency reserves without seeking approval
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -126,18 +126,18 @@ What is the BEST response for the project manager?
 
 ### Question 5
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile marketing campaign project is in progress. A social media platform announces a major algorithm change that will drastically reduce organic reach starting next month. This affects the campaign's expected ROI model. The product owner is considering canceling the campaign.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST thing the project manager should do?
 
-- **Correct:** Facilitate a quick impact assessment with the team to model how the algorithm change affects key metrics, then present findings to the product owner for an informed decision
-- **Distractor 1:** Support canceling the campaign immediately since the ROI assumptions are no longer valid
-- **Distractor 2:** Increase the paid media budget to compensate for the reduced organic reach
-- **Distractor 3:** Continue campaign execution as planned since the algorithm change only affects future campaigns
+- <strong>Correct:</strong> Facilitate a quick impact assessment with the team to model how the algorithm change affects key metrics, then present findings to the product owner for an informed decision
+- <strong>Distractor 1:</strong> Support canceling the campaign immediately since the ROI assumptions are no longer valid
+- <strong>Distractor 2:</strong> Increase the paid media budget to compensate for the reduced organic reach
+- <strong>Distractor 3:</strong> Continue campaign execution as planned since the algorithm change only affects future campaigns
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -155,18 +155,18 @@ What is the FIRST thing the project manager should do?
 
 ### Question 6
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid software implementation project is ongoing. The client's industry announces new data sovereignty requirements that prohibit storing customer data outside the country. Your current architecture uses a cloud provider with data centers in multiple countries, including some that would now be non-compliant.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST approach for the project manager?
 
-- **Correct:** Document the compliance gap, work with technical leads to redesign the data storage architecture, and submit a change request to address the new requirements
-- **Distractor 1:** Continue with the current architecture since the project is already in testing phase and changing it would cause significant delays
-- **Distractor 2:** Request that the client seek a waiver or exemption from the new data sovereignty requirements
-- **Distractor 3:** Immediately stop all project work until the architecture is redesigned to be compliant
+- <strong>Correct:</strong> Document the compliance gap, work with technical leads to redesign the data storage architecture, and submit a change request to address the new requirements
+- <strong>Distractor 1:</strong> Continue with the current architecture since the project is already in testing phase and changing it would cause significant delays
+- <strong>Distractor 2:</strong> Request that the client seek a waiver or exemption from the new data sovereignty requirements
+- <strong>Distractor 3:</strong> Immediately stop all project work until the architecture is redesigned to be compliant
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -184,18 +184,18 @@ What is the BEST approach for the project manager?
 
 ### Question 7
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are managing a predictive event planning project. A sudden rise in COVID-19 cases in the host city leads the government to ban large gatherings, effective immediately. Your event is scheduled in 45 days, and 80% of costs are sunk (venues, deposits paid).
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Document the external force majeure event, assess the financial impact including cancellation penalties versus postponement options, and immediately escalate to the sponsor for a governance decision
-- **Distractor 1:** Immediately cancel the event and write off all sunk costs
-- **Distractor 2:** Continue planning as if the event will proceed, hoping the ban will be lifted before the event date
-- **Distractor 3:** Unilaterally convert the event to a virtual format without consulting stakeholders
+- <strong>Correct:</strong> Document the external force majeure event, assess the financial impact including cancellation penalties versus postponement options, and immediately escalate to the sponsor for a governance decision
+- <strong>Distractor 1:</strong> Immediately cancel the event and write off all sunk costs
+- <strong>Distractor 2:</strong> Continue planning as if the event will proceed, hoping the ban will be lifted before the event date
+- <strong>Distractor 3:</strong> Unilaterally convert the event to a virtual format without consulting stakeholders
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -213,18 +213,18 @@ What is the FIRST action for the project manager?
 
 ### Question 8
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile product development team is building a health app. New state legislation is proposed that would require FDA approval for certain health monitoring features. If passed, the law would take effect in 6 months. Your product roadmap includes these features in the next 3 months.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST APPROPRIATE action for the project manager?
 
-- **Correct:** Add a regulatory risk item to the risk register, monitor the legislation's progress, and create a contingency plan to delay or modify affected features
-- **Distractor 1:** Immediately remove the affected features from the product backlog to avoid potential compliance issues
-- **Distractor 2:** Accelerate development of the affected features to launch before the law takes effect
-- **Distractor 3:** Ignore the proposed legislation until it is actually passed into law
+- <strong>Correct:</strong> Add a regulatory risk item to the risk register, monitor the legislation's progress, and create a contingency plan to delay or modify affected features
+- <strong>Distractor 1:</strong> Immediately remove the affected features from the product backlog to avoid potential compliance issues
+- <strong>Distractor 2:</strong> Accelerate development of the affected features to launch before the law takes effect
+- <strong>Distractor 3:</strong> Ignore the proposed legislation until it is actually passed into law
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -242,18 +242,18 @@ What is the MOST APPROPRIATE action for the project manager?
 
 ### Question 9
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid manufacturing expansion project is underway. Inflation spikes unexpectedly, causing raw material costs to increase 30% since the project budget was approved. The project has 6 months remaining and the contingency reserve is at 40%. The project manager receives pressure from the operations team to absorb the costs within contingency.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST course of action?
 
-- **Correct:** Conduct a cost forecast to determine the total projected overage, assess if contingency is sufficient, and if not, prepare a change request to request additional funding with supporting data
-- **Distractor 1:** Use the contingency reserve to cover all cost overages without informing stakeholders since it's within the reserve amount
-- **Distractor 2:** Immediately request additional funding from the sponsor without completing the cost forecast
-- **Distractor 3:** Reduce project scope to bring costs back within the original budget
+- <strong>Correct:</strong> Conduct a cost forecast to determine the total projected overage, assess if contingency is sufficient, and if not, prepare a change request to request additional funding with supporting data
+- <strong>Distractor 1:</strong> Use the contingency reserve to cover all cost overages without informing stakeholders since it's within the reserve amount
+- <strong>Distractor 2:</strong> Immediately request additional funding from the sponsor without completing the cost forecast
+- <strong>Distractor 3:</strong> Reduce project scope to bring costs back within the original budget
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -271,18 +271,18 @@ What is the BEST course of action?
 
 ### Question 10
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A predictive HR system implementation project is in progress. The European Union adopts the AI Act, requiring risk-based classification and documentation for AI systems. Your project includes an AI hiring screening tool that would now qualify as "high-risk" under the new framework, requiring additional compliance work.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Document the new requirement in the project's assumptions log, conduct a formal impact analysis on scope, schedule, and cost, and submit a change request to the change control board
-- **Distractor 1:** Remove the AI hiring screening tool from the project scope to avoid the new compliance requirements
-- **Distractor 2:** Continue with the current plan and address AI Act compliance during post-deployment maintenance
-- **Distractor 3:** Request that the legal department find a way to classify the project as "low-risk" to avoid the additional requirements
+- <strong>Correct:</strong> Document the new requirement in the project's assumptions log, conduct a formal impact analysis on scope, schedule, and cost, and submit a change request to the change control board
+- <strong>Distractor 1:</strong> Remove the AI hiring screening tool from the project scope to avoid the new compliance requirements
+- <strong>Distractor 2:</strong> Continue with the current plan and address AI Act compliance during post-deployment maintenance
+- <strong>Distractor 3:</strong> Request that the legal department find a way to classify the project as "low-risk" to avoid the additional requirements
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -300,18 +300,18 @@ What is the FIRST action for the project manager?
 
 ### Question 11
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are managing an agile e-commerce platform project. A major security vulnerability is discovered in the open-source library your team uses for payment processing. The library maintainers released a patch, but upgrading requires changes to multiple user stories already completed in previous sprints.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST approach for the project manager?
 
-- **Correct:** Add the security patch as a high-priority item to the product backlog, work with the product owner to prioritize it above lower-value features, and plan it for the next sprint
-- **Distractor 1:** Immediately interrupt the current sprint to apply the security patch
-- **Distractor 2:** Continue with the current sprint backlog and address the vulnerability in the next sprint as originally planned
-- **Distractor 3:** Replace the entire payment processing system with a different library to avoid future vulnerabilities
+- <strong>Correct:</strong> Add the security patch as a high-priority item to the product backlog, work with the product owner to prioritize it above lower-value features, and plan it for the next sprint
+- <strong>Distractor 1:</strong> Immediately interrupt the current sprint to apply the security patch
+- <strong>Distractor 2:</strong> Continue with the current sprint backlog and address the vulnerability in the next sprint as originally planned
+- <strong>Distractor 3:</strong> Replace the entire payment processing system with a different library to avoid future vulnerabilities
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -329,18 +329,18 @@ What is the BEST approach for the project manager?
 
 ### Question 12
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid renewable energy project involves building solar farms. The government unexpectedly announces a reduction in renewable energy tax credits, effective immediately. This changes the project's financial model and may affect ROI. The project is in early execution with 30% complete.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST IMPORTANT action for the project manager?
 
-- **Correct:** Update the business case analysis with the new financial assumptions, document the impact on project viability, and present options to the steering committee for a decision on whether to continue, modify, or cancel
-- **Distractor 1:** Continue execution since the project is already 30% complete and stopping now would waste the investment
-- **Distractor 2:** Immediately halt the project as it no longer makes financial sense
-- **Distractor 3:** Lobby the government to reinstate the tax credits for already-approved projects
+- <strong>Correct:</strong> Update the business case analysis with the new financial assumptions, document the impact on project viability, and present options to the steering committee for a decision on whether to continue, modify, or cancel
+- <strong>Distractor 1:</strong> Continue execution since the project is already 30% complete and stopping now would waste the investment
+- <strong>Distractor 2:</strong> Immediately halt the project as it no longer makes financial sense
+- <strong>Distractor 3:</strong> Lobby the government to reinstate the tax credits for already-approved projects
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -358,18 +358,18 @@ What is the MOST IMPORTANT action for the project manager?
 
 ### Question 13
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A predictive aerospace project is in the design phase. New international export control regulations are announced that restrict the transfer of certain technical data to specific countries. Several of your engineering team members and suppliers are located in affected countries.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Document the export control restrictions in the project's assumptions log, conduct an impact analysis on team composition and supplier agreements, and work with legal counsel to develop a compliance plan
-- **Distractor 1:** Immediately replace all team members and suppliers from restricted countries
-- **Distractor 2:** Continue with the current team structure and ignore the regulations since they don't apply to design work
-- **Distractor 3:** Request an exemption from the export control regulations for your project
+- <strong>Correct:</strong> Document the export control restrictions in the project's assumptions log, conduct an impact analysis on team composition and supplier agreements, and work with legal counsel to develop a compliance plan
+- <strong>Distractor 1:</strong> Immediately replace all team members and suppliers from restricted countries
+- <strong>Distractor 2:</strong> Continue with the current team structure and ignore the regulations since they don't apply to design work
+- <strong>Distractor 3:</strong> Request an exemption from the export control regulations for your project
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -387,18 +387,18 @@ What is the FIRST action for the project manager?
 
 ### Question 14
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is developing a mobile application. Midway through the project, Apple announces significant changes to App Store guidelines that affect your app's monetization strategy. The changes take effect in 60 days.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST course of action for the project manager?
 
-- **Correct:** Review the new guidelines with the product owner to assess impact on the product roadmap, add any necessary compliance work to the backlog, and adjust the release plan if needed
-- **Distractor 1:** Immediately pause all development until the team fully understands the new guidelines
-- **Distractor 2:** Continue with the current roadmap and address the guidelines after launch
-- **Distractor 3:** Submit the app for review immediately before the new guidelines take effect
+- <strong>Correct:</strong> Review the new guidelines with the product owner to assess impact on the product roadmap, add any necessary compliance work to the backlog, and adjust the release plan if needed
+- <strong>Distractor 1:</strong> Immediately pause all development until the team fully understands the new guidelines
+- <strong>Distractor 2:</strong> Continue with the current roadmap and address the guidelines after launch
+- <strong>Distractor 3:</strong> Submit the app for review immediately before the new guidelines take effect
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -416,18 +416,18 @@ What is the BEST course of action for the project manager?
 
 ### Question 15
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid healthcare software project is in testing. A major data breach occurs at a competitor, prompting your country's health authority to announce immediate new security requirements for all healthcare systems, including yours. The requirements include encryption standards not currently implemented in your system.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Document the new security requirements in the issue log, conduct an impact analysis on the implementation work, and present options to the steering committee with timeline and cost implications
-- **Distractor 1:** Immediately halt all testing and begin implementing the new encryption standards
-- **Distractor 2:** Continue testing and plan to add encryption in a future phase
-- **Distractor 3:** Apply for an exemption since the breach was at a competitor, not your organization
+- <strong>Correct:</strong> Document the new security requirements in the issue log, conduct an impact analysis on the implementation work, and present options to the steering committee with timeline and cost implications
+- <strong>Distractor 1:</strong> Immediately halt all testing and begin implementing the new encryption standards
+- <strong>Distractor 2:</strong> Continue testing and plan to add encryption in a future phase
+- <strong>Distractor 3:</strong> Apply for an exemption since the breach was at a competitor, not your organization
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -445,18 +445,18 @@ What is the FIRST action for the project manager?
 
 ### Question 16
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are managing a predictive construction project in a coastal area. Climate change projections released by a government agency show increased flood risk for your project site. The projections suggest a 10-year flood could occur within the project's 5-year operational timeframe. Your current design meets only 10-year flood standards.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager?
 
-- **Correct:** Add a risk item to the register for the increased flood probability, work with engineering to assess design changes, and submit a change request to upgrade flood protection if justified
-- **Distractor 1:** Ignore the projections since they are just forecasts and current code compliance is sufficient
-- **Distractor 2:** Immediately halt construction and redesign the entire project for 100-year flood protection
-- **Distractor 3:** Document the risk but take no action since the project won't be operational for another year
+- <strong>Correct:</strong> Add a risk item to the register for the increased flood probability, work with engineering to assess design changes, and submit a change request to upgrade flood protection if justified
+- <strong>Distractor 1:</strong> Ignore the projections since they are just forecasts and current code compliance is sufficient
+- <strong>Distractor 2:</strong> Immediately halt construction and redesign the entire project for 100-year flood protection
+- <strong>Distractor 3:</strong> Document the risk but take no action since the project won't be operational for another year
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -474,18 +474,18 @@ What is the BEST action for the project manager?
 
 ### Question 17
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile financial services project is developing a trading platform. A regulatory body proposes new transparency requirements for high-frequency trading. If adopted, the requirements would necessitate additional reporting features. The proposal is open for public comment for 30 days.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST APPROPRIATE action for the project manager?
 
-- **Correct:** Monitor the proposal's progress, assess the potential impact on the product roadmap, and prepare a contingency plan to add reporting features if the proposal is adopted
-- **Distractor 1:** Immediately add the proposed reporting features to the product backlog
-- **Distractor 2:** Ignore the proposal until it is formally adopted
-- **Distractor 3:** Submit a comment opposing the proposal on behalf of the organization
+- <strong>Correct:</strong> Monitor the proposal's progress, assess the potential impact on the product roadmap, and prepare a contingency plan to add reporting features if the proposal is adopted
+- <strong>Distractor 1:</strong> Immediately add the proposed reporting features to the product backlog
+- <strong>Distractor 2:</strong> Ignore the proposal until it is formally adopted
+- <strong>Distractor 3:</strong> Submit a comment opposing the proposal on behalf of the organization
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -503,18 +503,18 @@ What is the MOST APPROPRIATE action for the project manager?
 
 ### Question 18
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid international expansion project involves opening retail stores in three countries. Political unrest erupts in one target country, leading to travel warnings and closed borders. The project team had planned site visits next month to select store locations.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST approach for the project manager?
 
-- **Correct:** Document the political situation as an external risk, work with local partners to conduct virtual site selection as a contingency, and update the risk register with the potential for delay or country substitution
-- **Distractor 1:** Immediately remove the affected country from the expansion plan
-- **Distractor 2:** Proceed with travel as planned since the warnings are overly cautious
-- **Distractor 3:** Put the entire international expansion on hold until the political situation stabilizes
+- <strong>Correct:</strong> Document the political situation as an external risk, work with local partners to conduct virtual site selection as a contingency, and update the risk register with the potential for delay or country substitution
+- <strong>Distractor 1:</strong> Immediately remove the affected country from the expansion plan
+- <strong>Distractor 2:</strong> Proceed with travel as planned since the warnings are overly cautious
+- <strong>Distractor 3:</strong> Put the entire international expansion on hold until the political situation stabilizes
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -532,18 +532,18 @@ What is the BEST approach for the project manager?
 
 ### Question 19
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A predictive pharmaceutical project is in clinical trials. A competitor receives FDA approval for a similar drug that is more effective than your product. Market analysts predict your drug's market potential has decreased by 60% based on this development.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Update the project's benefits realization plan with the new competitive landscape, document the reduced business value, and present options to the steering committee for a continue/modify/cancel decision
-- **Distractor 1:** Immediately terminate the clinical trial since the product is no longer commercially viable
-- **Distractor 2:** Continue the trial as planned since the protocol is already approved
-- **Distractor 3:** Accelerate the trial timeline to launch before the competitor's product gains market share
+- <strong>Correct:</strong> Update the project's benefits realization plan with the new competitive landscape, document the reduced business value, and present options to the steering committee for a continue/modify/cancel decision
+- <strong>Distractor 1:</strong> Immediately terminate the clinical trial since the product is no longer commercially viable
+- <strong>Distractor 2:</strong> Continue the trial as planned since the protocol is already approved
+- <strong>Distractor 3:</strong> Accelerate the trial timeline to launch before the competitor's product gains market share
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -561,18 +561,18 @@ What is the FIRST action for the project manager?
 
 ### Question 20
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is building a subscription-based service. A major competitor launches a similar service with a lower price point, threatening your market positioning. The product owner wants to respond by changing the pricing model, which affects the billing system currently under development.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST course of action for the project manager?
 
-- **Correct:** Facilitate a discussion with the product owner and team to assess the pricing model change impact, then add or adjust backlog items to implement the new pricing approach
-- **Distractor 1:** Immediately stop development of the billing system until pricing is finalized
-- **Distractor 2:** Continue developing the current billing system and address pricing changes later
-- **Distractor 3:** Match the competitor's pricing immediately without analysis
+- <strong>Correct:</strong> Facilitate a discussion with the product owner and team to assess the pricing model change impact, then add or adjust backlog items to implement the new pricing approach
+- <strong>Distractor 1:</strong> Immediately stop development of the billing system until pricing is finalized
+- <strong>Distractor 2:</strong> Continue developing the current billing system and address pricing changes later
+- <strong>Distractor 3:</strong> Match the competitor's pricing immediately without analysis
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -590,18 +590,18 @@ What is the BEST course of action for the project manager?
 
 ### Question 21
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid smart city project involves installing IoT sensors throughout a municipality. The national government passes a cybersecurity law requiring all IoT devices in critical infrastructure to meet new security standards. Your project's sensors do not currently meet the standard, and upgrading would require replacing 70% of the devices already purchased.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST IMPORTANT action for the project manager?
 
-- **Correct:** Document the non-compliance gap in the issue log, assess the cost and schedule impact of device replacement, and submit a change request to the change control board with options for compliance
-- **Distractor 1:** Install the non-compliant sensors since they were already purchased and address security with software patches
-- **Distractor 2:** Immediately return all purchased sensors and order compliant replacements
-- **Distractor 3:** Request an exemption from the new law for municipal projects already in progress
+- <strong>Correct:</strong> Document the non-compliance gap in the issue log, assess the cost and schedule impact of device replacement, and submit a change request to the change control board with options for compliance
+- <strong>Distractor 1:</strong> Install the non-compliant sensors since they were already purchased and address security with software patches
+- <strong>Distractor 2:</strong> Immediately return all purchased sensors and order compliant replacements
+- <strong>Distractor 3:</strong> Request an exemption from the new law for municipal projects already in progress
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -619,18 +619,18 @@ What is the MOST IMPORTANT action for the project manager?
 
 ### Question 22
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are managing a predictive supply chain optimization project. A global shipping company announces it will cease operations in your region due to geopolitical tensions, leaving a gap in logistics capacity. Shipping rates from alternative providers increase 40% immediately.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST response for the project manager?
 
-- **Correct:** Update the risk register with the new constraint, conduct a cost impact analysis using alternative shipping providers, and submit a change request if the cost increase exceeds the project's tolerance
-- **Distractor 1:** Immediately approve the higher shipping rates using the project's contingency reserve
-- **Distractor 2:** Continue with the original budget and seek shipping providers who haven't raised rates yet
-- **Distractor 3:** Cancel the project since the business case no longer works with 40% higher shipping costs
+- <strong>Correct:</strong> Update the risk register with the new constraint, conduct a cost impact analysis using alternative shipping providers, and submit a change request if the cost increase exceeds the project's tolerance
+- <strong>Distractor 1:</strong> Immediately approve the higher shipping rates using the project's contingency reserve
+- <strong>Distractor 2:</strong> Continue with the original budget and seek shipping providers who haven't raised rates yet
+- <strong>Distractor 3:</strong> Cancel the project since the business case no longer works with 40% higher shipping costs
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -648,18 +648,18 @@ What is the BEST response for the project manager?
 
 ### Question 23
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile education technology project is developing a learning platform. A major school district client announces that all vendor systems must now comply with new student data privacy guidelines more stringent than state law. Your platform currently meets only state-level requirements.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Review the new client guidelines with the team, add compliance work items to the product backlog, and work with the product owner to prioritize based on the client's implementation timeline
-- **Distractor 1:** Immediately halt all development until full compliance is achieved
-- **Distractor 2:** Continue with the current backlog since the state law is the legal requirement
-- **Distractor 3:** Ask the client to grant a waiver from the new guidelines
+- <strong>Correct:</strong> Review the new client guidelines with the team, add compliance work items to the product backlog, and work with the product owner to prioritize based on the client's implementation timeline
+- <strong>Distractor 1:</strong> Immediately halt all development until full compliance is achieved
+- <strong>Distractor 2:</strong> Continue with the current backlog since the state law is the legal requirement
+- <strong>Distractor 3:</strong> Ask the client to grant a waiver from the new guidelines
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -677,18 +677,18 @@ What is the FIRST action for the project manager?
 
 ### Question 24
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid energy transition project involves converting coal plants to natural gas. A series of natural gas pipeline explosions in another region prompts federal regulators to announce immediate new safety inspection requirements for all gas infrastructure. Your project's pipeline work must now undergo additional third-party inspections, adding 3 months to the schedule.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST approach for the project manager?
 
-- **Correct:** Document the new inspection requirement in the issue log, assess schedule and cost impacts, and submit a change request to adjust the project baseline
-- **Distractor 1:** Attempt to expedite inspections to avoid schedule delays
-- **Distractor 2:** Continue with the original schedule and argue that the new requirements don't apply to retrofitted infrastructure
-- **Distractor 3:** Immediately request project cancellation since the delay makes the project unviable
+- <strong>Correct:</strong> Document the new inspection requirement in the issue log, assess schedule and cost impacts, and submit a change request to adjust the project baseline
+- <strong>Distractor 1:</strong> Attempt to expedite inspections to avoid schedule delays
+- <strong>Distractor 2:</strong> Continue with the original schedule and argue that the new requirements don't apply to retrofitted infrastructure
+- <strong>Distractor 3:</strong> Immediately request project cancellation since the delay makes the project unviable
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -706,18 +706,18 @@ What is the BEST approach for the project manager?
 
 ### Question 25
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A predictive infrastructure project involves building a bridge. New environmental impact assessment requirements are announced for all major construction projects. Your project already completed an assessment under old rules, but the new requirements demand additional species habitat studies that would delay construction by 4 months.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Document the new regulatory requirement, assess the impact on the project schedule and any cascading effects on contracts, and submit a change request to adjust the baseline
-- **Distractor 1:** Immediately begin the additional habitat studies to minimize delay
-- **Distractor 2:** Argue that the old assessment should be grandfathered since it was completed before the new rules
-- **Distractor 3:** Accelerate other project activities to recover the 4-month delay
+- <strong>Correct:</strong> Document the new regulatory requirement, assess the impact on the project schedule and any cascading effects on contracts, and submit a change request to adjust the baseline
+- <strong>Distractor 1:</strong> Immediately begin the additional habitat studies to minimize delay
+- <strong>Distractor 2:</strong> Argue that the old assessment should be grandfathered since it was completed before the new rules
+- <strong>Distractor 3:</strong> Accelerate other project activities to recover the 4-month delay
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -735,18 +735,18 @@ What is the FIRST action for the project manager?
 
 ### Question 26
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is developing a telemedicine platform. State medical boards announce new requirements for physician credentialing verification on telehealth platforms. Your current implementation uses a self-attestation model. The new requirements require integration with a national verification database that doesn't yet have an API.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST course of action for the project manager?
 
-- **Correct:** Add a spike to the technical backlog to investigate integration approaches, document the constraint, and work with the product owner to adjust the roadmap based on API availability
-- **Distractor 1:** Immediately pause all telemedicine feature development until the verification database issue is resolved
-- **Distractor 2:** Continue with self-attestation and address credentialing after launch
-- **Distractor 3:** Build a manual verification process instead of waiting for the API
+- <strong>Correct:</strong> Add a spike to the technical backlog to investigate integration approaches, document the constraint, and work with the product owner to adjust the roadmap based on API availability
+- <strong>Distractor 1:</strong> Immediately pause all telemedicine feature development until the verification database issue is resolved
+- <strong>Distractor 2:</strong> Continue with self-attestation and address credentialing after launch
+- <strong>Distractor 3:</strong> Build a manual verification process instead of waiting for the API
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -764,18 +764,18 @@ What is the BEST course of action for the project manager?
 
 ### Question 27
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid autonomous vehicle testing project is running closed-course trials. A different manufacturer's autonomous vehicle is involved in a fatal accident, prompting federal regulators to announce emergency testing restrictions for all Level 4 autonomous systems. Your project's trials are immediately halted by the new rules.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST IMPORTANT action for the project manager?
 
-- **Correct:** Document the external stop-work order, assess the impact on project timeline and budget, and present options to the steering committee including continuing non-autonomous work, pivoting research focus, or pausing the project
-- **Distractor 1:** Continue testing quietly at a different location to avoid the new restrictions
-- **Distractor 2:** Immediately lay off all project contractors until testing resumes
-- **Distractor 3:** Lobby the regulator to grant an exemption for your project
+- <strong>Correct:</strong> Document the external stop-work order, assess the impact on project timeline and budget, and present options to the steering committee including continuing non-autonomous work, pivoting research focus, or pausing the project
+- <strong>Distractor 1:</strong> Continue testing quietly at a different location to avoid the new restrictions
+- <strong>Distractor 2:</strong> Immediately lay off all project contractors until testing resumes
+- <strong>Distractor 3:</strong> Lobby the regulator to grant an exemption for your project
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -793,18 +793,18 @@ What is the MOST IMPORTANT action for the project manager?
 
 ### Question 28
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are managing a predictive merger integration project. Mid-integration, the Federal Reserve announces an emergency interest rate hike of 1.5%, unexpected by all economic forecasts. This significantly affects the financing terms that justified the merger's business case.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Update the financial models with the new interest rate, reassess the merger's business case under new conditions, and present findings to the integration governance board
-- **Distractor 1:** Continue integration as planned since the merger is already approved
-- **Distractor 2:** Immediately recommend terminating the merger integration
-- **Distractor 3:** Seek to refinance the merger debt at the original rates
+- <strong>Correct:</strong> Update the financial models with the new interest rate, reassess the merger's business case under new conditions, and present findings to the integration governance board
+- <strong>Distractor 1:</strong> Continue integration as planned since the merger is already approved
+- <strong>Distractor 2:</strong> Immediately recommend terminating the merger integration
+- <strong>Distractor 3:</strong> Seek to refinance the merger debt at the original rates
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -822,18 +822,18 @@ What is the FIRST action for the project manager?
 
 ### Question 29
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile content moderation project uses machine learning to detect policy violations. A highly publicized content moderation failure at a major social platform leads to public outcry and new transparency laws requiring disclosure of moderation algorithms. Your algorithms are currently proprietary.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST approach for the project manager?
 
-- **Correct:** Review the new transparency requirements with the product owner and legal team, add algorithm documentation work to the backlog, and adjust the release plan to meet compliance deadlines
-- **Distractor 1:** Fight the disclosure requirements in court to protect proprietary algorithms
-- **Distractor 2:** Continue with current plans and address transparency requirements if regulators enforce them
-- **Distractor 3:** Open-source the entire algorithm immediately to exceed transparency requirements
+- <strong>Correct:</strong> Review the new transparency requirements with the product owner and legal team, add algorithm documentation work to the backlog, and adjust the release plan to meet compliance deadlines
+- <strong>Distractor 1:</strong> Fight the disclosure requirements in court to protect proprietary algorithms
+- <strong>Distractor 2:</strong> Continue with current plans and address transparency requirements if regulators enforce them
+- <strong>Distractor 3:</strong> Open-source the entire algorithm immediately to exceed transparency requirements
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -851,18 +851,18 @@ What is the BEST approach for the project manager?
 
 ### Question 30
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid renewable energy project involves building wind farms. A bird species is newly classified as endangered, and your project site is identified as critical habitat. Environmental protection laws now prohibit construction in the area during the species' breeding season, which happens to coincide with your planned construction window.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST IMPORTANT action for the project manager?
 
-- **Correct:** Document the new environmental constraint, assess schedule impact of adjusting the construction window, and submit a change request with options including delaying construction, relocating turbines, or pausing the project
-- **Distractor 1:** Continue construction during breeding season since the project permits were issued before the species classification
-- **Distractor 2:** Immediately cancel the project as the site is no longer viable
-- **Distractor 3:** Request an emergency permit allowing construction during breeding season
+- <strong>Correct:</strong> Document the new environmental constraint, assess schedule impact of adjusting the construction window, and submit a change request with options including delaying construction, relocating turbines, or pausing the project
+- <strong>Distractor 1:</strong> Continue construction during breeding season since the project permits were issued before the species classification
+- <strong>Distractor 2:</strong> Immediately cancel the project as the site is no longer viable
+- <strong>Distractor 3:</strong> Request an emergency permit allowing construction during breeding season
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -880,18 +880,18 @@ What is the MOST IMPORTANT action for the project manager?
 
 ### Question 31
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A predictive telecommunications infrastructure project involves laying fiber optic cable. A labor union strike begins at your primary contractor, affecting 60% of the workforce. The strike is projected to last 8 weeks based on similar past actions. Your project has a 4-week schedule buffer remaining.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST response for the project manager?
 
-- **Correct:** Document the external labor disruption in the risk register, assess the impact on the critical path and schedule buffer, and develop contingency plans including alternative contractors or schedule adjustments
-- **Distractor 1:** Immediately terminate the striking contractor and hire a replacement
-- **Distractor 2:** Continue with the reduced workforce and attempt to make up time later
-- **Distractor 3:** Use the 4-week buffer and assume the strike will be resolved before impacting the completion date
+- <strong>Correct:</strong> Document the external labor disruption in the risk register, assess the impact on the critical path and schedule buffer, and develop contingency plans including alternative contractors or schedule adjustments
+- <strong>Distractor 1:</strong> Immediately terminate the striking contractor and hire a replacement
+- <strong>Distractor 2:</strong> Continue with the reduced workforce and attempt to make up time later
+- <strong>Distractor 3:</strong> Use the 4-week buffer and assume the strike will be resolved before impacting the completion date
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -909,18 +909,18 @@ What is the BEST response for the project manager?
 
 ### Question 32
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile healthcare data analytics project is working with multiple hospital systems. A large hospital network is acquired by a competitor, and the new parent company has exclusive data contracts with a different analytics vendor. Your project loses access to 40% of its data sources.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Update the product backlog to reflect the reduced data scope, work with the product owner to assess impact on product value, and pivot the product strategy if needed
-- **Distractor 1:** Immediately halt the project since it no longer has sufficient data
-- **Distractor 2:** Continue with the original product roadmap assuming new hospital partners will be found
-- **Distractor 3:** Sue the acquiring company for breach of data access agreements
+- <strong>Correct:</strong> Update the product backlog to reflect the reduced data scope, work with the product owner to assess impact on product value, and pivot the product strategy if needed
+- <strong>Distractor 1:</strong> Immediately halt the project since it no longer has sufficient data
+- <strong>Distractor 2:</strong> Continue with the original product roadmap assuming new hospital partners will be found
+- <strong>Distractor 3:</strong> Sue the acquiring company for breach of data access agreements
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -938,18 +938,18 @@ What is the FIRST action for the project manager?
 
 ### Question 33
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid aviation software project is developing air traffic management systems. A diplomatic incident leads your country to ban aviation software from certain foreign vendors. Your project integrates with a library from one of those vendors, and replacing it would require 6 months of rework.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST approach for the project manager?
 
-- **Correct:** Document the new legal restriction in the issue log, assess the technical and schedule impact of library replacement, and present options to the steering committee including rework timeline, seeking exemptions, or project pause
-- **Distractor 1:** Continue using the foreign library since it's already integrated
-- **Distractor 2:** Immediately begin replacing the library without approval
-- **Distractor 3:** Cancel the project since compliance is not feasible
+- <strong>Correct:</strong> Document the new legal restriction in the issue log, assess the technical and schedule impact of library replacement, and present options to the steering committee including rework timeline, seeking exemptions, or project pause
+- <strong>Distractor 1:</strong> Continue using the foreign library since it's already integrated
+- <strong>Distractor 2:</strong> Immediately begin replacing the library without approval
+- <strong>Distractor 3:</strong> Cancel the project since compliance is not feasible
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -967,18 +967,18 @@ What is the BEST approach for the project manager?
 
 ### Question 34
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are managing a predictive water infrastructure project. Climate scientists release new projections showing significantly reduced rainfall in your region over the next decade, affecting the water availability assumptions that justified the project's business case.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Update the project's assumptions log with the new climate data, reassess the project's benefits realization under reduced water availability, and present findings to governance for a business case review
-- **Distractor 1:** Continue construction since the project is already funded and underway
-- **Distractor 2:** Immediately halt the project as it is no longer viable
-- **Distractor 3:** Increase the project's water conservation features to compensate for reduced availability
+- <strong>Correct:</strong> Update the project's assumptions log with the new climate data, reassess the project's benefits realization under reduced water availability, and present findings to governance for a business case review
+- <strong>Distractor 1:</strong> Continue construction since the project is already funded and underway
+- <strong>Distractor 2:</strong> Immediately halt the project as it is no longer viable
+- <strong>Distractor 3:</strong> Increase the project's water conservation features to compensate for reduced availability
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -996,18 +996,18 @@ What is the FIRST action for the project manager?
 
 ### Question 35
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is building a compliance training platform. New industry regulations are announced that require additional training modules on cybersecurity and anti-money laundering. Your client's compliance team provides the new requirements 2 days before sprint planning.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST course of action for the project manager?
 
-- **Correct:** Work with the product owner to add the new compliance modules to the upcoming sprint and adjust sprint scope to accommodate the high-priority regulatory requirements
-- **Distractor 1:** Reject the new requirements since they were received after the sprint planning deadline
-- **Distractor 2:** Cancel the current sprint and replan with the new requirements included
-- **Distractor 3:** Add the requirements to a future sprint and continue with the current sprint plan
+- <strong>Correct:</strong> Work with the product owner to add the new compliance modules to the upcoming sprint and adjust sprint scope to accommodate the high-priority regulatory requirements
+- <strong>Distractor 1:</strong> Reject the new requirements since they were received after the sprint planning deadline
+- <strong>Distractor 2:</strong> Cancel the current sprint and replan with the new requirements included
+- <strong>Distractor 3:</strong> Add the requirements to a future sprint and continue with the current sprint plan
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1025,18 +1025,18 @@ What is the BEST course of action for the project manager?
 
 ### Question 36
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid retail expansion project involves opening stores in a new region. A change in the region's government leads to revised foreign investment regulations that restrict foreign ownership of retail businesses. Your project's legal structure, which allowed 100% foreign ownership, is no longer permitted under the new rules.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST IMPORTANT action for the project manager?
 
-- **Correct:** Document the regulatory change in the issue log, work with legal counsel to understand permissible ownership structures, and present restructuring options to the steering committee
-- **Distractor 1:** Continue with the current ownership structure and operate under the old rules
-- **Distractor 2:** Immediately cancel the expansion into the affected region
-- **Distractor 3:** Challenge the new regulations in international court
+- <strong>Correct:</strong> Document the regulatory change in the issue log, work with legal counsel to understand permissible ownership structures, and present restructuring options to the steering committee
+- <strong>Distractor 1:</strong> Continue with the current ownership structure and operate under the old rules
+- <strong>Distractor 2:</strong> Immediately cancel the expansion into the affected region
+- <strong>Distractor 3:</strong> Challenge the new regulations in international court
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1054,18 +1054,18 @@ What is the MOST IMPORTANT action for the project manager?
 
 ### Question 37
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A predictive public transportation project is building a light rail system. A breakthrough in battery technology makes electric buses a viable alternative to rail for the planned routes. The bus option would be 40% cheaper and more flexible, but it would change the project's fundamental approach.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Document the technological breakthrough in the project's assumptions log, commission a comparative analysis of rail versus bus options, and present findings to the steering committee for a decision on potentially pivoting the project
-- **Distractor 1:** Continue with the rail plan since the project is already designed and permitted
-- **Distractor 2:** Immediately switch to the bus option since it is cheaper and more flexible
-- **Distractor 3:** Ignore the new technology since the project charter specifies light rail
+- <strong>Correct:</strong> Document the technological breakthrough in the project's assumptions log, commission a comparative analysis of rail versus bus options, and present findings to the steering committee for a decision on potentially pivoting the project
+- <strong>Distractor 1:</strong> Continue with the rail plan since the project is already designed and permitted
+- <strong>Distractor 2:</strong> Immediately switch to the bus option since it is cheaper and more flexible
+- <strong>Distractor 3:</strong> Ignore the new technology since the project charter specifies light rail
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1083,18 +1083,18 @@ What is the FIRST action for the project manager?
 
 ### Question 38
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is developing a food delivery app. A court ruling establishes that delivery drivers must be classified as employees rather than contractors in your jurisdiction. This changes the labor cost model fundamentally and would increase operational costs by 35%.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST approach for the project manager?
 
-- **Correct:** Work with the product owner to understand the business impact, add any necessary product changes to support employee management to the backlog, and adjust the product roadmap based on the new cost structure
-- **Distractor 1:** Continue with the contractor-based model since the ruling is being appealed
-- **Distractor 2:** Immediately shut down the marketplace since it's no longer financially viable
-- **Distractor 3:** Relaunch the app only in jurisdictions with contractor-friendly rules
+- <strong>Correct:</strong> Work with the product owner to understand the business impact, add any necessary product changes to support employee management to the backlog, and adjust the product roadmap based on the new cost structure
+- <strong>Distractor 1:</strong> Continue with the contractor-based model since the ruling is being appealed
+- <strong>Distractor 2:</strong> Immediately shut down the marketplace since it's no longer financially viable
+- <strong>Distractor 3:</strong> Relaunch the app only in jurisdictions with contractor-friendly rules
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1112,18 +1112,18 @@ What is the BEST approach for the project manager?
 
 ### Question 39
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid satellite communications project is in design. A space debris collision destroys a competitor's satellite, creating a debris field that increases collision risk for satellites in your planned orbit. Industry guidelines now recommend additional shielding and collision avoidance systems, adding 15% to spacecraft weight and cost.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST IMPORTANT action for the project manager?
 
-- **Correct:** Document the new space debris risk, assess the technical and cost impact of additional shielding and avoidance systems, and submit a change request to adjust the project design and budget
-- **Distractor 1:** Proceed with the original design since the debris field is from a competitor's accident
-- **Distractor 2:** Immediately cancel the project as too risky
-- **Distractor 3:** Launch into a different orbit without analysis
+- <strong>Correct:</strong> Document the new space debris risk, assess the technical and cost impact of additional shielding and avoidance systems, and submit a change request to adjust the project design and budget
+- <strong>Distractor 1:</strong> Proceed with the original design since the debris field is from a competitor's accident
+- <strong>Distractor 2:</strong> Immediately cancel the project as too risky
+- <strong>Distractor 3:</strong> Launch into a different orbit without analysis
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1141,18 +1141,18 @@ What is the MOST IMPORTANT action for the project manager?
 
 ### Question 40
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are managing a predictive mining project. The host country experiences a military coup, and the new government announces plans to nationalize all mineral resource operations. Your project has already invested $200 million in infrastructure.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Document the political situation as an immediate force majeure event, assess the exposure of remaining investment, and urgently escalate to the sponsor and legal counsel for decisions on asset protection and project status
-- **Distractor 1:** Continue operations as usual until formal nationalization orders are received
-- **Distractor 2:** Immediately abandon all infrastructure and evacuate the country
-- **Distractor 3:** Attempt to negotiate directly with the new government
+- <strong>Correct:</strong> Document the political situation as an immediate force majeure event, assess the exposure of remaining investment, and urgently escalate to the sponsor and legal counsel for decisions on asset protection and project status
+- <strong>Distractor 1:</strong> Continue operations as usual until formal nationalization orders are received
+- <strong>Distractor 2:</strong> Immediately abandon all infrastructure and evacuate the country
+- <strong>Distractor 3:</strong> Attempt to negotiate directly with the new government
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1170,18 +1170,18 @@ What is the FIRST action for the project manager?
 
 ### Question 41
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile cybersecurity project provides penetration testing services. A high-profile breach at a major company leads to new state regulations requiring minimum cybersecurity insurance coverage for vendors. Your company does not currently meet the new coverage requirements.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST course of action for the project manager?
 
-- **Correct:** Document the new insurance requirement, communicate it to company leadership for procurement action, and assess any project impacts such as client contract renewals that may be affected
-- **Distractor 1:** Immediately pause all project work until insurance requirements are met
-- **Distractor 2:** Continue project work and ignore the insurance requirements since they don't affect technical work
-- **Distractor 3:** Add insurance procurement tasks to the sprint backlog
+- <strong>Correct:</strong> Document the new insurance requirement, communicate it to company leadership for procurement action, and assess any project impacts such as client contract renewals that may be affected
+- <strong>Distractor 1:</strong> Immediately pause all project work until insurance requirements are met
+- <strong>Distractor 2:</strong> Continue project work and ignore the insurance requirements since they don't affect technical work
+- <strong>Distractor 3:</strong> Add insurance procurement tasks to the sprint backlog
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1199,18 +1199,18 @@ What is the BEST course of action for the project manager?
 
 ### Question 42
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid electric vehicle charging project involves installing charging stations. An industry standards body releases new fast-charging connector standards that are incompatible with your current design. The new standard is expected to become the market norm within 2 years.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST IMPORTANT action for the project manager?
 
-- **Correct:** Assess the impact of the new standard on market adoption, document a technology obsolescence risk, and present options to the steering committee including redesigning for the new standard or accepting limited compatibility
-- **Distractor 1:** Immediately redesign all charging stations to meet the new standard
-- **Distractor 2:** Continue with the current design and ignore the new standard
-- **Distractor 3:** Launch a lobbying campaign to prevent adoption of the new standard
+- <strong>Correct:</strong> Assess the impact of the new standard on market adoption, document a technology obsolescence risk, and present options to the steering committee including redesigning for the new standard or accepting limited compatibility
+- <strong>Distractor 1:</strong> Immediately redesign all charging stations to meet the new standard
+- <strong>Distractor 2:</strong> Continue with the current design and ignore the new standard
+- <strong>Distractor 3:</strong> Launch a lobbying campaign to prevent adoption of the new standard
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1228,18 +1228,18 @@ What is the MOST IMPORTANT action for the project manager?
 
 ### Question 43
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A predictive airport expansion project involves extending runways. Zoning laws in the surrounding community change, requiring new noise abatement procedures for flights during nighttime hours. This limits the airport's capacity during the hours when the expansion was justified.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Update the project's assumptions and constraints, reassess the benefits case under the new noise restrictions, and submit a change request with options including modifying the expansion scope or challenging the zoning changes
-- **Distractor 1:** Continue the expansion as planned since construction permits were already issued
-- **Distractor 2:** Immediately cancel the runway expansion
-- **Distractor 3:** Challenge the zoning law in court
+- <strong>Correct:</strong> Update the project's assumptions and constraints, reassess the benefits case under the new noise restrictions, and submit a change request with options including modifying the expansion scope or challenging the zoning changes
+- <strong>Distractor 1:</strong> Continue the expansion as planned since construction permits were already issued
+- <strong>Distractor 2:</strong> Immediately cancel the runway expansion
+- <strong>Distractor 3:</strong> Challenge the zoning law in court
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1257,18 +1257,18 @@ What is the FIRST action for the project manager?
 
 ### Question 44
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile e-commerce project is developing a recommendation engine. A privacy advocacy group publishes research demonstrating that certain recommendation algorithms can violate consumer privacy expectations. The research gains significant media attention and leads to increased regulatory scrutiny.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST approach for the project manager?
 
-- **Correct:** Review the research with the product owner and legal team, add a privacy assessment spike to the backlog to evaluate if your algorithm is affected, and prepare contingency plans for potential regulatory requirements
-- **Distractor 1:** Immediately remove the recommendation engine from the product
-- **Distractor 2:** Continue development since no actual regulation has been proposed yet
-- **Distractor 3:** Publicly refute the research to defend your product
+- <strong>Correct:</strong> Review the research with the product owner and legal team, add a privacy assessment spike to the backlog to evaluate if your algorithm is affected, and prepare contingency plans for potential regulatory requirements
+- <strong>Distractor 1:</strong> Immediately remove the recommendation engine from the product
+- <strong>Distractor 2:</strong> Continue development since no actual regulation has been proposed yet
+- <strong>Distractor 3:</strong> Publicly refute the research to defend your product
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1286,18 +1286,18 @@ What is the BEST approach for the project manager?
 
 ### Question 45
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid agricultural technology project involves deploying IoT sensors for precision farming. A regional drought leads to water rationing policies that restrict farmers' irrigation practices. This reduces the value proposition of your water optimization technology since farmers cannot irrigate enough to benefit from optimization.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST IMPORTANT action for the project manager?
 
-- **Correct:** Document the external constraint's impact on product value, assess whether the technology can be adapted for drought conditions, and present options to the steering committee including pivoting the product focus or suspending the project
-- **Distractor 1:** Continue deployment since the drought is temporary and will end
-- **Distractor 2:** Immediately terminate the project as the business case is no longer viable
-- **Distractor 3:** Market the technology as drought-resistant without technical changes
+- <strong>Correct:</strong> Document the external constraint's impact on product value, assess whether the technology can be adapted for drought conditions, and present options to the steering committee including pivoting the product focus or suspending the project
+- <strong>Distractor 1:</strong> Continue deployment since the drought is temporary and will end
+- <strong>Distractor 2:</strong> Immediately terminate the project as the business case is no longer viable
+- <strong>Distractor 3:</strong> Market the technology as drought-resistant without technical changes
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1315,18 +1315,18 @@ What is the MOST IMPORTANT action for the project manager?
 
 ### Question 46
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are managing a predictive public-private partnership project to build a toll road. A populist movement gains political power, campaigning against toll roads and promising to make all roads free if elected. Polls show the movement has a strong chance of winning the upcoming election before your project begins construction.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Document the political risk as a critical assumption, conduct a scenario analysis for the election outcomes, and present options to the steering committee including accelerating construction before the election or pausing for political clarity
-- **Distractor 1:** Continue planning as if the election will not affect the project
-- **Distractor 2:** Immediately cancel the project
-- **Distractor 3:** Accelerate construction to begin before the election without approval
+- <strong>Correct:</strong> Document the political risk as a critical assumption, conduct a scenario analysis for the election outcomes, and present options to the steering committee including accelerating construction before the election or pausing for political clarity
+- <strong>Distractor 1:</strong> Continue planning as if the election will not affect the project
+- <strong>Distractor 2:</strong> Immediately cancel the project
+- <strong>Distractor 3:</strong> Accelerate construction to begin before the election without approval
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1344,18 +1344,18 @@ What is the FIRST action for the project manager?
 
 ### Question 47
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile social media moderation project uses content reviewers. A labor shortage in the region drives up wages for content reviewers by 25%, significantly affecting the project's unit economics. The product's profitability model was based on specific labor cost assumptions.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST course of action for the project manager?
 
-- **Correct:** Work with the product owner to reassess the product's economics under new labor costs, add backlog items for automation or efficiency improvements to offset costs, and adjust pricing or product strategy if needed
-- **Distractor 1:** Immediately increase the product's price to pass costs to customers
-- **Distractor 2:** Continue with the current pricing and absorb the cost increase
-- **Distractor 3:** Replace human reviewers with AI immediately
+- <strong>Correct:</strong> Work with the product owner to reassess the product's economics under new labor costs, add backlog items for automation or efficiency improvements to offset costs, and adjust pricing or product strategy if needed
+- <strong>Distractor 1:</strong> Immediately increase the product's price to pass costs to customers
+- <strong>Distractor 2:</strong> Continue with the current pricing and absorb the cost increase
+- <strong>Distractor 3:</strong> Replace human reviewers with AI immediately
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1373,18 +1373,18 @@ What is the BEST course of action for the project manager?
 
 ### Question 48
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid financial compliance project involves implementing anti-money laundering software. International sanctions are announced against a country where your client has significant operations. The sanctions require enhanced due diligence that adds complexity to the compliance system your team is building.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST IMPORTANT action for the project manager?
 
-- **Correct:** Document the new sanctions requirements, assess the technical impact on the compliance system, and submit a change request to add the enhanced due diligence features
-- **Distractor 1:** Continue with the current system design since the client can address sanctions through manual processes
-- **Distractor 2:** Immediately add all possible sanctions-related features to prevent future changes
-- **Distractor 3:** Ask the client to stop operations in the sanctioned country
+- <strong>Correct:</strong> Document the new sanctions requirements, assess the technical impact on the compliance system, and submit a change request to add the enhanced due diligence features
+- <strong>Distractor 1:</strong> Continue with the current system design since the client can address sanctions through manual processes
+- <strong>Distractor 2:</strong> Immediately add all possible sanctions-related features to prevent future changes
+- <strong>Distractor 3:</strong> Ask the client to stop operations in the sanctioned country
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1402,18 +1402,18 @@ What is the MOST IMPORTANT action for the project manager?
 
 ### Question 49
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A predictive urban redevelopment project involves renovating historic buildings. New preservation regulations are passed that prohibit altering building facades in designated historic districts. Your project's design included significant facade modifications to improve energy efficiency.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action for the project manager?
 
-- **Correct:** Document the new preservation regulation, assess the impact on energy efficiency goals, and submit a change request with alternative approaches including interior-only efficiency improvements or seeking historic preservation variances
-- **Distractor 1:** Continue with the facade modifications as planned since the project was designed before the new regulations
-- **Distractor 2:** Immediately cancel the renovation project
-- **Distractor 3:** Remove all energy efficiency work from the project
+- <strong>Correct:</strong> Document the new preservation regulation, assess the impact on energy efficiency goals, and submit a change request with alternative approaches including interior-only efficiency improvements or seeking historic preservation variances
+- <strong>Distractor 1:</strong> Continue with the facade modifications as planned since the project was designed before the new regulations
+- <strong>Distractor 2:</strong> Immediately cancel the renovation project
+- <strong>Distractor 3:</strong> Remove all energy efficiency work from the project
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1431,18 +1431,18 @@ What is the FIRST action for the project manager?
 
 ### Question 50
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is building a gig economy platform for freelance workers. New federal guidance is issued recommending that platform workers receive benefits classification. While not yet law, major platforms begin voluntarily offering benefits to avoid future regulations. Your product's cost model was based on independent contractor status.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST approach for the project manager?
 
-- **Correct:** Monitor industry responses to the guidance, work with the product owner to model benefits costs, and add backlog items for benefits administration features in case voluntary adoption or regulation becomes necessary
-- **Distractor 1:** Immediately add benefits features to match competitor platforms
-- **Distractor 2:** Continue with the contractor model and ignore the guidance since it's not law
-- **Distractor 3:** Remove the gig economy model and pivot to traditional employment
+- <strong>Correct:</strong> Monitor industry responses to the guidance, work with the product owner to model benefits costs, and add backlog items for benefits administration features in case voluntary adoption or regulation becomes necessary
+- <strong>Distractor 1:</strong> Immediately add benefits features to match competitor platforms
+- <strong>Distractor 2:</strong> Continue with the contractor model and ignore the guidance since it's not law
+- <strong>Distractor 3:</strong> Remove the gig economy model and pivot to traditional employment
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1513,19 +1513,19 @@ What is the BEST approach for the project manager?
 | 49 | 1 | Legal | Historic preservation regulations |
 | 50 | 2 | Social | Federal benefits classification guidance |
 
-**Enabler Mapping:**
-- **Enabler 1:** Monitor and identify external business environment changes
-- **Enabler 2:** Analyze and evaluate impact of external changes
-- **Enabler 3:** Respond appropriately to external business environment changes
+<strong>Enabler Mapping:</strong>
+- <strong>Enabler 1:</strong> Monitor and identify external business environment changes
+- <strong>Enabler 2:</strong> Analyze and evaluate impact of external changes
+- <strong>Enabler 3:</strong> Respond appropriately to external business environment changes
 
 ---
 
 ## Database Stats
 
 ### Word Count Analysis
-- **Correct Answer Average:** 21.4 words
-- **Distractor Average:** 19.8 words
-- **Balance Assessment:** Well-balanced—correct answers are slightly longer but within acceptable variance. No consistent "correct answer = longest" pattern.
+- <strong>Correct Answer Average:</strong> 21.4 words
+- <strong>Distractor Average:</strong> 19.8 words
+- <strong>Balance Assessment:</strong> Well-balanced—correct answers are slightly longer but within acceptable variance. No consistent "correct answer = longest" pattern.
 
 ### Methodology Distribution
 | Methodology | Count | Percentage |

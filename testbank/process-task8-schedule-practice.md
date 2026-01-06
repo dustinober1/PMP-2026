@@ -6,18 +6,18 @@ This document contains 50 hard-mode practice questions focused on schedule manag
 
 ### Question 1
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a pharmaceutical facility construction project. During a weekly review, the team identifies that the "Clean Room HVAC Validation" activity, which is on the critical path, has slipped by three days due to specialized equipment delays. The sponsor has explicitly stated that the facility must be ready for a regulatory audit on a fixed date, but no additional budget can be authorized for this phase.
 
-**Question:**
+<strong>Question:</strong>
 Which action should the project manager take first to address the schedule slip?
 
-- **Correct:** Evaluate the schedule network diagram to identify discretionary dependencies that can be converted to parallel activities.
-- **Distractor 1:** Authorize overtime for the HVAC installation team to recover the lost three days immediately.
-- **Distractor 2:** Submit a change request to the Change Control Board to extend the project baseline by three days.
-- **Distractor 3:** Implement resource leveling across all non-critical path activities to free up resources for the HVAC validation.
+- <strong>Correct:</strong> Evaluate the schedule network diagram to identify discretionary dependencies that can be converted to parallel activities.
+- <strong>Distractor 1:</strong> Authorize overtime for the HVAC installation team to recover the lost three days immediately.
+- <strong>Distractor 2:</strong> Submit a change request to the Change Control Board to extend the project baseline by three days.
+- <strong>Distractor 3:</strong> Implement resource leveling across all non-critical path activities to free up resources for the HVAC validation.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -35,18 +35,18 @@ Which action should the project manager take first to address the schedule slip?
 
 ### Question 2
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is in the middle of their fourth iteration. The product owner introduces a high-priority regulatory feature that must be completed within the current release cycle. The team's average velocity is 45 story points, and the remaining backlog for the release is 180 points. The new feature is estimated at 30 story points, but the team is already fully committed for the remaining four iterations.
 
-**Question:**
+<strong>Question:</strong>
 What is the most appropriate way for the project manager to handle this situation?
 
-- **Correct:** Facilitate a backlog refinement session to reprioritize the release backlog and remove lower-value items to accommodate the new feature.
-- **Distractor 1:** Instruct the team to increase their velocity to 55 story points for the remaining iterations to ensure all features are delivered.
-- **Distractor 2:** Add a fifth iteration to the release schedule to provide the team enough time to complete the additional work.
-- **Distractor 3:** Request that the product owner hold the new feature until the next release to avoid disrupting the current team rhythm.
+- <strong>Correct:</strong> Facilitate a backlog refinement session to reprioritize the release backlog and remove lower-value items to accommodate the new feature.
+- <strong>Distractor 1:</strong> Instruct the team to increase their velocity to 55 story points for the remaining iterations to ensure all features are delivered.
+- <strong>Distractor 2:</strong> Add a fifth iteration to the release schedule to provide the team enough time to complete the additional work.
+- <strong>Distractor 3:</strong> Request that the product owner hold the new feature until the next release to avoid disrupting the current team rhythm.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -64,18 +64,18 @@ What is the most appropriate way for the project manager to handle this situatio
 
 ### Question 3
 
-**Enabler:** 8 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 8 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project uses a hybrid approach where the hardware components follow a predictive lifecycle and the software follows agile. The integrated schedule shows that the "Hardware Firmware Integration" milestone depends on the completion of the software "Sprint 6." After Sprint 4, the software team reports a 20% decline in velocity due to unforeseen technical debt, projecting that Sprint 6 will finish two weeks late.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do first?
 
-- **Correct:** Perform a critical path analysis on the hardware schedule to determine if the software delay impacts the overall project completion date.
-- **Distractor 1:** Direct the software team to skip technical debt remediation to ensure Sprint 6 finishes on the original date.
-- **Distractor 2:** Immediately notify the hardware vendors to delay their component delivery by two weeks to match the software schedule.
-- **Distractor 3:** Update the software burnup chart and submit a change request to move the hardware integration milestone.
+- <strong>Correct:</strong> Perform a critical path analysis on the hardware schedule to determine if the software delay impacts the overall project completion date.
+- <strong>Distractor 1:</strong> Direct the software team to skip technical debt remediation to ensure Sprint 6 finishes on the original date.
+- <strong>Distractor 2:</strong> Immediately notify the hardware vendors to delay their component delivery by two weeks to match the software schedule.
+- <strong>Distractor 3:</strong> Update the software burnup chart and submit a change request to move the hardware integration milestone.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -93,18 +93,18 @@ What should the project manager do first?
 
 ### Question 4
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During the development of a project schedule for a global infrastructure project, the project manager realizes that the local environmental permits (Activity E) are being delayed by a government department. This activity has a finish-to-start relationship with "Site Preparation" (Activity S). The team suggests that they can start some preliminary non-invasive site marking while the permit is still being processed.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager record this in the schedule model?
 
-- **Correct:** Apply a lead to the relationship between Activity E and Activity S to allow for an earlier start of the site work.
-- **Distractor 1:** Add a lag to Activity E to account for the government delay and prevent the site team from starting early.
-- **Distractor 2:** Change the dependency between Activity E and Activity S from finish-to-start to start-to-finish.
-- **Distractor 3:** Create a new milestone called "Permit Expected" and use it as a mandatory constraint for all subsequent activities.
+- <strong>Correct:</strong> Apply a lead to the relationship between Activity E and Activity S to allow for an earlier start of the site work.
+- <strong>Distractor 1:</strong> Add a lag to Activity E to account for the government delay and prevent the site team from starting early.
+- <strong>Distractor 2:</strong> Change the dependency between Activity E and Activity S from finish-to-start to start-to-finish.
+- <strong>Distractor 3:</strong> Create a new milestone called "Permit Expected" and use it as a mandatory constraint for all subsequent activities.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -122,18 +122,18 @@ How should the project manager record this in the schedule model?
 
 ### Question 5
 
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is presenting the monthly performance report. The earned value data shows an EV of $120,000, a PV of $150,000, and an AC of $130,000. The schedule management plan requires an immediate recovery plan if the schedule performance index falls below 0.85.
 
-**Question:**
+<strong>Question:</strong>
 Based on this data, what is the current schedule status and the required next step?
 
-- **Correct:** The SPI is 0.80, which is below the threshold; the project manager must perform a root cause analysis and submit a recovery plan.
-- **Distractor 1:** The SPI is 0.92, which is within the acceptable range; the project manager should continue to monitor the trend.
-- **Distractor 2:** The project is ahead of schedule because the AC is lower than the PV; no recovery plan is necessary at this time.
-- **Distractor 3:** The schedule variance is $10,000, indicating the project is slightly behind; the project manager should crash the critical path immediately.
+- <strong>Correct:</strong> The SPI is 0.80, which is below the threshold; the project manager must perform a root cause analysis and submit a recovery plan.
+- <strong>Distractor 1:</strong> The SPI is 0.92, which is within the acceptable range; the project manager should continue to monitor the trend.
+- <strong>Distractor 2:</strong> The project is ahead of schedule because the AC is lower than the PV; no recovery plan is necessary at this time.
+- <strong>Distractor 3:</strong> The schedule variance is $10,000, indicating the project is slightly behind; the project manager should crash the critical path immediately.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -151,18 +151,18 @@ Based on this data, what is the current schedule status and the required next st
 
 ### Question 6
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 In an agile project developing a mobile app, the team is struggling with the "Third-Party API Integration" story, which has been in the "Doing" column for three consecutive sprints. The team members state that the documentation from the vendor is incomplete, making it difficult to estimate the remaining work.
 
-**Question:**
+<strong>Question:</strong>
 What is the best approach for the project manager to help the team resolve this schedule impediment?
 
-- **Correct:** Suggest that the team perform a technical spike in the next sprint to research the API and define the integration requirements.
-- **Distractor 1:** Assign a senior developer from another team to take over the story and complete it by the end of the current sprint.
-- **Distractor 2:** Move the story back to the product backlog and ask the product owner to deprioritize it until the vendor updates the docs.
-- **Distractor 3:** Increase the story point estimate for the integration to reflect the high level of uncertainty and complexity.
+- <strong>Correct:</strong> Suggest that the team perform a technical spike in the next sprint to research the API and define the integration requirements.
+- <strong>Distractor 1:</strong> Assign a senior developer from another team to take over the story and complete it by the end of the current sprint.
+- <strong>Distractor 2:</strong> Move the story back to the product backlog and ask the product owner to deprioritize it until the vendor updates the docs.
+- <strong>Distractor 3:</strong> Increase the story point estimate for the integration to reflect the high level of uncertainty and complexity.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -180,18 +180,18 @@ What is the best approach for the project manager to help the team resolve this 
 
 ### Question 7
 
-**Enabler:** 7 | **Methodology:** Predictive
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager has just completed the schedule baseline for a software upgrade. A week later, a key resource manager informs the PM that the lead developer will be unavailable for two weeks in the middle of the project due to a family emergency. The project manager identifies that this developer is assigned to several non-critical path activities during that period.
 
-**Question:**
+<strong>Question:</strong>
 Which technique should the project manager use to ensure the developer's absence does not impact the critical path?
 
-- **Correct:** Resource smoothing to adjust the start and finish dates of the developer's tasks within their available float.
-- **Distractor 1:** Resource leveling to delay all of the developer's tasks until they return, even if it extends the project end date.
-- **Distractor 2:** Crashing the critical path activities by adding other resources to compensate for the lead developer's absence.
-- **Distractor 3:** Submitting a change request to re-baseline the schedule to account for the two-week resource gap.
+- <strong>Correct:</strong> Resource smoothing to adjust the start and finish dates of the developer's tasks within their available float.
+- <strong>Distractor 1:</strong> Resource leveling to delay all of the developer's tasks until they return, even if it extends the project end date.
+- <strong>Distractor 2:</strong> Crashing the critical path activities by adding other resources to compensate for the lead developer's absence.
+- <strong>Distractor 3:</strong> Submitting a change request to re-baseline the schedule to account for the two-week resource gap.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -209,18 +209,18 @@ Which technique should the project manager use to ensure the developer's absence
 
 ### Question 8
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A company is moving from a predictive to a hybrid project management approach. The PM is planning a new ERP implementation. Historical data from previous waterfall projects shows that the "Data Migration" phase typically takes 12 weeks. However, the current project will use an agile team to migrate data in iterative batches.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager determine the duration for the migration in the hybrid schedule?
 
-- **Correct:** Use the historical 12-week data as a benchmark but refine the estimate after the team completes the first two batches to establish a proven velocity.
-- **Distractor 1:** Use analogous estimation to fix the duration at 12 weeks to maintain consistency with corporate reporting standards.
-- **Distractor 2:** Disregard the historical data entirely and ask the agile team to provide a bottom-up estimate based on their current backlog.
-- **Distractor 3:** Conduct a PERT (Three-Point) estimate with the steering committee to determine a risk-adjusted duration for the migration.
+- <strong>Correct:</strong> Use the historical 12-week data as a benchmark but refine the estimate after the team completes the first two batches to establish a proven velocity.
+- <strong>Distractor 1:</strong> Use analogous estimation to fix the duration at 12 weeks to maintain consistency with corporate reporting standards.
+- <strong>Distractor 2:</strong> Disregard the historical data entirely and ask the agile team to provide a bottom-up estimate based on their current backlog.
+- <strong>Distractor 3:</strong> Conduct a PERT (Three-Point) estimate with the steering committee to determine a risk-adjusted duration for the migration.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -238,18 +238,18 @@ How should the project manager determine the duration for the migration in the h
 
 ### Question 9
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using the Critical Path Method to manage a complex engineering project. The current critical path is 240 days long. A major risk is identified that could delay an activity on a near-critical path by 10 days. This activity currently has 8 days of total float.
 
-**Question:**
+<strong>Question:</strong>
 What is the primary impact of this risk if it occurs?
 
-- **Correct:** The near-critical path will become the new critical path, and the project duration will increase by 2 days.
-- **Distractor 1:** The project duration will increase by 10 days because any delay to a dependent activity impacts the end date.
-- **Distractor 2:** There will be no impact on the project duration because the activity has 8 days of float to absorb the delay.
-- **Distractor 3:** The critical path will shift to the activity with the risk, but the project duration will remain 240 days due to the use of management reserves.
+- <strong>Correct:</strong> The near-critical path will become the new critical path, and the project duration will increase by 2 days.
+- <strong>Distractor 1:</strong> The project duration will increase by 10 days because any delay to a dependent activity impacts the end date.
+- <strong>Distractor 2:</strong> There will be no impact on the project duration because the activity has 8 days of float to absorb the delay.
+- <strong>Distractor 3:</strong> The critical path will shift to the activity with the risk, but the project duration will remain 240 days due to the use of management reserves.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -267,18 +267,18 @@ What is the primary impact of this risk if it occurs?
 
 ### Question 10
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Scrum team is estimating user stories for an upcoming sprint. One story, "Cloud Security Configuration," is highly complex, and the team members' estimates are ranging from 3 story points to 21 story points during the Planning Poker session.
 
-**Question:**
+<strong>Question:</strong>
 What is the best immediate action for the project manager (Scrum Master) to take?
 
-- **Correct:** Encourage the team members with the highest and lowest estimates to explain their reasoning, then facilitate a re-vote.
-- **Distractor 1:** Average the estimates and record it as 12 story points to keep the planning session moving forward.
-- **Distractor 2:** Assign the story to the senior developer who gave the 21-point estimate, as they clearly understand the complexity.
-- **Distractor 3:** Split the story into two smaller stories and defer the estimation until the next refinement session.
+- <strong>Correct:</strong> Encourage the team members with the highest and lowest estimates to explain their reasoning, then facilitate a re-vote.
+- <strong>Distractor 1:</strong> Average the estimates and record it as 12 story points to keep the planning session moving forward.
+- <strong>Distractor 2:</strong> Assign the story to the senior developer who gave the 21-point estimate, as they clearly understand the complexity.
+- <strong>Distractor 3:</strong> Split the story into two smaller stories and defer the estimation until the next refinement session.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -296,18 +296,18 @@ What is the best immediate action for the project manager (Scrum Master) to take
 
 ### Question 11
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is coordinating a product launch that involves a software team using agile and a marketing team using predictive milestones. The marketing team's "Campaign Launch" milestone is hard-coded to occur two weeks after the software "Beta Release." The software team reports that they need to add a "Hardening Sprint" to address security vulnerabilities before the Beta can be released.
 
-**Question:**
+<strong>Question:</strong>
 What is the most effective way to coordinate this change across the two teams?
 
-- **Correct:** Assess the impact of the Hardening Sprint on the Campaign Launch date and facilitate a joint meeting between the Product Owner and the Marketing Manager to discuss trade-offs.
-- **Distractor 1:** Direct the software team to cancel the Hardening Sprint to ensure the marketing campaign can launch on its original date.
-- **Distractor 2:** Automatically move the Campaign Launch date back by the duration of the Hardening Sprint and update the marketing project plan.
-- **Distractor 3:** Ask the marketing team to fast-track their campaign activities so they can launch at the same time as the Beta Release.
+- <strong>Correct:</strong> Assess the impact of the Hardening Sprint on the Campaign Launch date and facilitate a joint meeting between the Product Owner and the Marketing Manager to discuss trade-offs.
+- <strong>Distractor 1:</strong> Direct the software team to cancel the Hardening Sprint to ensure the marketing campaign can launch on its original date.
+- <strong>Distractor 2:</strong> Automatically move the Campaign Launch date back by the duration of the Hardening Sprint and update the marketing project plan.
+- <strong>Distractor 3:</strong> Ask the marketing team to fast-track their campaign activities so they can launch at the same time as the Beta Release.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -325,18 +325,18 @@ What is the most effective way to coordinate this change across the two teams?
 
 ### Question 12
 
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is calculating the duration of a critical software module using PERT. The lead architect provides an optimistic estimate of 4 days, a most likely estimate of 9 days, and a pessimistic estimate of 20 days.
 
-**Question:**
+<strong>Question:</strong>
 What is the expected duration and the standard deviation for this activity?
 
-- **Correct:** Expected duration is 10 days; Standard Deviation is 2.67 days.
-- **Distractor 1:** Expected duration is 11 days; Standard Deviation is 16 days.
-- **Distractor 2:** Expected duration is 9 days; Standard Deviation is 4 days.
-- **Distractor 3:** Expected duration is 10 days; Standard Deviation is 1.33 days.
+- <strong>Correct:</strong> Expected duration is 10 days; Standard Deviation is 2.67 days.
+- <strong>Distractor 1:</strong> Expected duration is 11 days; Standard Deviation is 16 days.
+- <strong>Distractor 2:</strong> Expected duration is 9 days; Standard Deviation is 4 days.
+- <strong>Distractor 3:</strong> Expected duration is 10 days; Standard Deviation is 1.33 days.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -354,18 +354,18 @@ What is the expected duration and the standard deviation for this activity?
 
 ### Question 13
 
-**Enabler:** 7 | **Methodology:** Agile
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project manager is reviewing the team's burndown chart halfway through a two-week sprint. The line representing "Remaining Work" has been flat for the last four days, while the "Ideal Trend" line continues to slope downward.
 
-**Question:**
+<strong>Question:</strong>
 What does this burndown chart pattern most likely indicate, and what should the project manager do?
 
-- **Correct:** The team is facing an impediment that is blocking progress; the project manager should discuss this in the next daily stand-up to identify and remove the blocker.
-- **Distractor 1:** The team has completed all their work early; the project manager should ask them to pull more stories from the product backlog.
-- **Distractor 2:** The team is under-reporting their hours; the project manager should remind them of the importance of daily time tracking.
-- **Distractor 3:** The scope of the sprint has increased significantly; the project manager should ask the product owner to remove several stories.
+- <strong>Correct:</strong> The team is facing an impediment that is blocking progress; the project manager should discuss this in the next daily stand-up to identify and remove the blocker.
+- <strong>Distractor 1:</strong> The team has completed all their work early; the project manager should ask them to pull more stories from the product backlog.
+- <strong>Distractor 2:</strong> The team is under-reporting their hours; the project manager should remind them of the importance of daily time tracking.
+- <strong>Distractor 3:</strong> The scope of the sprint has increased significantly; the project manager should ask the product owner to remove several stories.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -383,18 +383,18 @@ What does this burndown chart pattern most likely indicate, and what should the 
 
 ### Question 14
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager for a large-scale data center migration has just received approval for the project schedule baseline. Two days later, the Chief Technology Officer (CTO) announces a new company-wide security initiative that requires all data migrations to use a more complex encryption protocol, which will add approximately two weeks to the migration activities.
 
-**Question:**
+<strong>Question:</strong>
 What is the most appropriate next step for the project manager?
 
-- **Correct:** Assess the impact of the new security requirement on the schedule and cost, then submit a formal change request to the Change Control Board.
-- **Distractor 1:** Update the schedule baseline immediately to include the two-week delay and notify the project team.
-- **Distractor 2:** Request that the CTO provide additional resources to ensure the migration can still meet its original baseline dates.
-- **Distractor 3:** Document the security initiative in the risk register and wait until the migration phase begins to evaluate the actual impact.
+- <strong>Correct:</strong> Assess the impact of the new security requirement on the schedule and cost, then submit a formal change request to the Change Control Board.
+- <strong>Distractor 1:</strong> Update the schedule baseline immediately to include the two-week delay and notify the project team.
+- <strong>Distractor 2:</strong> Request that the CTO provide additional resources to ensure the migration can still meet its original baseline dates.
+- <strong>Distractor 3:</strong> Document the security initiative in the risk register and wait until the migration phase begins to evaluate the actual impact.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -412,18 +412,18 @@ What is the most appropriate next step for the project manager?
 
 ### Question 15
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a program where multiple projects share a pool of specialized database engineers. Project A (Predictive) needs an engineer for a critical path activity starting on Monday, but Project B (Agile) has just encountered a major production bug that requires the same engineer for the entire upcoming week.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager resolve this resource-driven schedule conflict?
 
-- **Correct:** Review the resource management plan and facilitate a meeting between the sponsors of both projects to prioritize the work based on business value and critical path impact.
-- **Distractor 1:** Direct the database engineer to split their time 50/50 between both projects to ensure some progress is made on both.
-- **Distractor 2:** Instruct Project B to delay their bug fix until Project A's critical path activity is completed to avoid a baseline slip.
-- **Distractor 3:** Hire an external contractor to handle the bug fix for Project B so the specialized engineer can focus on Project A.
+- <strong>Correct:</strong> Review the resource management plan and facilitate a meeting between the sponsors of both projects to prioritize the work based on business value and critical path impact.
+- <strong>Distractor 1:</strong> Direct the database engineer to split their time 50/50 between both projects to ensure some progress is made on both.
+- <strong>Distractor 2:</strong> Instruct Project B to delay their bug fix until Project A's critical path activity is completed to avoid a baseline slip.
+- <strong>Distractor 3:</strong> Hire an external contractor to handle the bug fix for Project B so the specialized engineer can focus on Project A.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -441,18 +441,18 @@ How should the project manager resolve this resource-driven schedule conflict?
 
 ### Question 16
 
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A product owner in an agile project is concerned because the team's velocity has dropped significantly over the last three sprints. The team explains that they are spending more time fixing bugs in the legacy code they are integrating with, which was not accounted for in the original release roadmap.
 
-**Question:**
+<strong>Question:</strong>
 What is the best way for the project manager to address this schedule variance?
 
-- **Correct:** Work with the team to capture technical debt as items in the product backlog and ask the product owner to prioritize them alongside new features.
-- **Distractor 1:** Direct the team to stop fixing the legacy bugs and focus only on new feature development to restore their original velocity.
-- **Distractor 2:** Add a "Technical Debt Recovery Sprint" to the schedule and extend the final release date by two iterations.
-- **Distractor 3:** Recalculate the project's velocity using only the last three sprints to provide a more realistic (but slower) release forecast.
+- <strong>Correct:</strong> Work with the team to capture technical debt as items in the product backlog and ask the product owner to prioritize them alongside new features.
+- <strong>Distractor 1:</strong> Direct the team to stop fixing the legacy bugs and focus only on new feature development to restore their original velocity.
+- <strong>Distractor 2:</strong> Add a "Technical Debt Recovery Sprint" to the schedule and extend the final release date by two iterations.
+- <strong>Distractor 3:</strong> Recalculate the project's velocity using only the last three sprints to provide a more realistic (but slower) release forecast.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -470,18 +470,18 @@ What is the best way for the project manager to address this schedule variance?
 
 ### Question 17
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is estimating the duration of a software testing phase. Based on historical data from similar projects, the PM knows that it typically takes 1 hour of testing for every 10 lines of code. The current project has 50,000 lines of code.
 
-**Question:**
+<strong>Question:</strong>
 Which estimation technique is the project manager using?
 
-- **Correct:** Parametric Estimation
-- **Distractor 1:** Analogous Estimation
-- **Distractor 2:** Bottom-Up Estimation
-- **Distractor 3:** Three-Point Estimation
+- <strong>Correct:</strong> Parametric Estimation
+- <strong>Distractor 1:</strong> Analogous Estimation
+- <strong>Distractor 2:</strong> Bottom-Up Estimation
+- <strong>Distractor 3:</strong> Three-Point Estimation
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -499,18 +499,18 @@ Which estimation technique is the project manager using?
 
 ### Question 18
 
-**Enabler:** 8 | **Methodology:** Agile
+<strong>Enabler:</strong> 8 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is consistently completing 40 story points per sprint. The product owner adds 100 story points of new work to the release backlog due to a change in market conditions. The current release has three sprints remaining, and there are 160 story points of work currently in the backlog.
 
-**Question:**
+<strong>Question:</strong>
 What is the most likely outcome for the release schedule?
 
-- **Correct:** The release will be over-capacity by 40 story points, necessitating a scope reduction or an additional sprint.
-- **Distractor 1:** The team will complete all work on time because their average velocity will naturally increase to meet the new demand.
-- **Distractor 2:** The project manager should ask the team to work overtime for the next three sprints to absorb the 100 extra points.
-- **Distractor 3:** The release is on track because the team has enough capacity (120 points) to cover the most important 75% of the work.
+- <strong>Correct:</strong> The release will be over-capacity by 40 story points, necessitating a scope reduction or an additional sprint.
+- <strong>Distractor 1:</strong> The team will complete all work on time because their average velocity will naturally increase to meet the new demand.
+- <strong>Distractor 2:</strong> The project manager should ask the team to work overtime for the next three sprints to absorb the 100 extra points.
+- <strong>Distractor 3:</strong> The release is on track because the team has enough capacity (120 points) to cover the most important 75% of the work.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -528,18 +528,18 @@ What is the most likely outcome for the release schedule?
 
 ### Question 19
 
-**Enabler:** 5 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using rolling wave planning for a 12-month research and development project. The first 3 months are planned in detail, while the remaining 9 months are represented as high-level planning packages in the WBS. As the project enters the third month, the PM needs to prepare for the next phase.
 
-**Question:**
+<strong>Question:</strong>
 What is the primary benefit of this approach to schedule management?
 
-- **Correct:** It allows for the progressive elaboration of the schedule as more information becomes available, reducing the risk of inaccurate long-term estimates.
-- **Distractor 1:** It eliminates the need for a schedule baseline since the project plan is constantly evolving and changing.
-- **Distractor 2:** It ensures that all project resources are fully allocated for the entire 12-month duration at the start of the project.
-- **Distractor 3:** It prevents scope creep by locking down the details of the first phase while allowing the sponsor to change future phases at will.
+- <strong>Correct:</strong> It allows for the progressive elaboration of the schedule as more information becomes available, reducing the risk of inaccurate long-term estimates.
+- <strong>Distractor 1:</strong> It eliminates the need for a schedule baseline since the project plan is constantly evolving and changing.
+- <strong>Distractor 2:</strong> It ensures that all project resources are fully allocated for the entire 12-month duration at the start of the project.
+- <strong>Distractor 3:</strong> It prevents scope creep by locking down the details of the first phase while allowing the sponsor to change future phases at will.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -557,18 +557,18 @@ What is the primary benefit of this approach to schedule management?
 
 ### Question 20
 
-**Enabler:** 7 | **Methodology:** Predictive
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is tracking a project using Earned Value Management. At the end of month 6, the values are: BAC = $500,000; PV = $250,000; EV = $200,000; AC = $220,000. The schedule management plan defines "significant variance" as any SPI deviation greater than 15%.
 
-**Question:**
+<strong>Question:</strong>
 What is the schedule performance, and should it be escalated?
 
-- **Correct:** The SPI is 0.80, which is a 20% deviation; the variance is significant and must be escalated.
-- **Distractor 1:** The SPI is 0.91, which is a 9% deviation; the variance is within the threshold and does not need escalation.
-- **Distractor 2:** The SV is -$50,000; because the dollar value is high, it must be escalated regardless of the percentage.
-- **Distractor 3:** The project is ahead of schedule because the EV is 80% of the target; no escalation is required.
+- <strong>Correct:</strong> The SPI is 0.80, which is a 20% deviation; the variance is significant and must be escalated.
+- <strong>Distractor 1:</strong> The SPI is 0.91, which is a 9% deviation; the variance is within the threshold and does not need escalation.
+- <strong>Distractor 2:</strong> The SV is -$50,000; because the dollar value is high, it must be escalated regardless of the percentage.
+- <strong>Distractor 3:</strong> The project is ahead of schedule because the EV is 80% of the target; no escalation is required.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -586,18 +586,18 @@ What is the schedule performance, and should it be escalated?
 
 ### Question 21
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is using a Kanban board to manage their workflow. The "Testing" column has a Work In Progress (WIP) limit of 3, and there are currently 3 stories in that column. Two developers have just finished their "Development" tasks and are ready to move their stories to "Testing."
 
-**Question:**
+<strong>Question:</strong>
 What is the best course of action for the developers to take to maintain the schedule flow?
 
-- **Correct:** Help the testers finish the work currently in the "Testing" column before moving new stories into it.
-- **Distractor 1:** Move their stories into the "Testing" column anyway and mark them as "High Priority" to ensure they are seen.
-- **Distractor 2:** Start new "Development" stories from the backlog to ensure they remain productive while waiting for the testers.
-- **Distractor 3:** Temporarily increase the WIP limit for the "Testing" column to 5 to accommodate the temporary surge in work.
+- <strong>Correct:</strong> Help the testers finish the work currently in the "Testing" column before moving new stories into it.
+- <strong>Distractor 1:</strong> Move their stories into the "Testing" column anyway and mark them as "High Priority" to ensure they are seen.
+- <strong>Distractor 2:</strong> Start new "Development" stories from the backlog to ensure they remain productive while waiting for the testers.
+- <strong>Distractor 3:</strong> Temporarily increase the WIP limit for the "Testing" column to 5 to accommodate the temporary surge in work.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -615,18 +615,18 @@ What is the best course of action for the developers to take to maintain the sch
 
 ### Question 22
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is developing the schedule for a new retail store opening. The task "Stock Shelves" cannot start until "Install Shelving" is complete, and the store cannot "Open for Business" until "Stock Shelves" is complete.
 
-**Question:**
+<strong>Question:</strong>
 What is the primary dependency relationship being described?
 
-- **Correct:** Mandatory Finish-to-Start dependency
-- **Distractor 1:** Discretionary Start-to-Start dependency
-- **Distractor 2:** External Finish-to-Finish dependency
-- **Distractor 3:** Internal Start-to-Finish dependency
+- <strong>Correct:</strong> Mandatory Finish-to-Start dependency
+- <strong>Distractor 1:</strong> Discretionary Start-to-Start dependency
+- <strong>Distractor 2:</strong> External Finish-to-Finish dependency
+- <strong>Distractor 3:</strong> Internal Start-to-Finish dependency
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -644,18 +644,18 @@ What is the primary dependency relationship being described?
 
 ### Question 23
 
-**Enabler:** 8 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 8 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a software release that must be coordinated with a hardware manufacturer's production cycle. The software is being developed in 2-week sprints, but the hardware manufacturer requires a 4-week lead time for any firmware updates to be included in the next batch.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager align these two different schedules?
 
-- **Correct:** Identify "Synchronization Points" where the software team provides a stable firmware build to the hardware manufacturer every two sprints.
-- **Distractor 1:** Force the hardware manufacturer to change their production cycle to 2 weeks to match the software sprint cadence.
-- **Distractor 2:** Ask the software team to extend their sprints to 4 weeks to simplify the integration with the hardware schedule.
-- **Distractor 3:** Eliminate the firmware update requirement and allow the software to be updated over-the-air (OTA) after the hardware is shipped.
+- <strong>Correct:</strong> Identify "Synchronization Points" where the software team provides a stable firmware build to the hardware manufacturer every two sprints.
+- <strong>Distractor 1:</strong> Force the hardware manufacturer to change their production cycle to 2 weeks to match the software sprint cadence.
+- <strong>Distractor 2:</strong> Ask the software team to extend their sprints to 4 weeks to simplify the integration with the hardware schedule.
+- <strong>Distractor 3:</strong> Eliminate the firmware update requirement and allow the software to be updated over-the-air (OTA) after the hardware is shipped.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -673,18 +673,18 @@ How should the project manager align these two different schedules?
 
 ### Question 24
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a project execution, the project manager notices that the critical path has changed from the "Software Design" path to the "Regulatory Approval" path. This was not expected in the original schedule baseline.
 
-**Question:**
+<strong>Question:</strong>
 What is the first thing the project manager should do?
 
-- **Correct:** Analyze the cause of the delay in the regulatory path and evaluate the impact on the project's overall completion date.
-- **Distractor 1:** Immediately notify the sponsor that the project will be delayed by the difference between the two paths.
-- **Distractor 2:** Crash the "Software Design" path to try and regain its position as the critical path.
-- **Distractor 3:** Submit a change request to the Change Control Board to revert the critical path to the original baseline.
+- <strong>Correct:</strong> Analyze the cause of the delay in the regulatory path and evaluate the impact on the project's overall completion date.
+- <strong>Distractor 1:</strong> Immediately notify the sponsor that the project will be delayed by the difference between the two paths.
+- <strong>Distractor 2:</strong> Crash the "Software Design" path to try and regain its position as the critical path.
+- <strong>Distractor 3:</strong> Submit a change request to the Change Control Board to revert the critical path to the original baseline.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -702,18 +702,18 @@ What is the first thing the project manager should do?
 
 ### Question 25
 
-**Enabler:** 6 | **Methodology:** Agile
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is forecasting the completion of their project. They have 240 story points remaining in the backlog. Their velocity for the last five sprints has been 30, 25, 40, 20, and 35.
 
-**Question:**
+<strong>Question:</strong>
 What is the most accurate way for the project manager to communicate the estimated completion date to the stakeholders?
 
-- **Correct:** Provide a range of 6 to 12 sprints based on the historical velocity variance, with 8 sprints as the most likely outcome.
-- **Distractor 1:** Tell the stakeholders the project will be finished in exactly 8 sprints (240 / 30 average velocity).
-- **Distractor 2:** Use the highest velocity (40) to promise completion in 6 sprints to keep the stakeholders motivated.
-- **Distractor 3:** Use the lowest velocity (20) to set a conservative expectation of 12 sprints and ensure the team is never "late."
+- <strong>Correct:</strong> Provide a range of 6 to 12 sprints based on the historical velocity variance, with 8 sprints as the most likely outcome.
+- <strong>Distractor 1:</strong> Tell the stakeholders the project will be finished in exactly 8 sprints (240 / 30 average velocity).
+- <strong>Distractor 2:</strong> Use the highest velocity (40) to promise completion in 6 sprints to keep the stakeholders motivated.
+- <strong>Distractor 3:</strong> Use the lowest velocity (20) to set a conservative expectation of 12 sprints and ensure the team is never "late."
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -731,18 +731,18 @@ What is the most accurate way for the project manager to communicate the estimat
 
 ### Question 26
 
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is planning a hybrid project where the procurement of long-lead items must be handled through a traditional waterfall process, but the assembly and testing will be done in an agile manner. The PM is currently defining the schedule management plan.
 
-**Question:**
+<strong>Question:</strong>
 Which scheduling tool should the project manager prioritize to integrate these two approaches effectively?
 
-- **Correct:** A Milestone Chart to track high-level delivery dates and hand-offs between procurement and the agile teams.
-- **Distractor 1:** A detailed 1,000-line Gantt chart that includes every user story and task for the entire project duration.
-- **Distractor 2:** A Cumulative Flow Diagram (CFD) to monitor the status of procurement contracts and vendor deliveries.
-- **Distractor 3:** A Requirements Traceability Matrix (RTM) to link user stories directly to the procurement line items.
+- <strong>Correct:</strong> A Milestone Chart to track high-level delivery dates and hand-offs between procurement and the agile teams.
+- <strong>Distractor 1:</strong> A detailed 1,000-line Gantt chart that includes every user story and task for the entire project duration.
+- <strong>Distractor 2:</strong> A Cumulative Flow Diagram (CFD) to monitor the status of procurement contracts and vendor deliveries.
+- <strong>Distractor 3:</strong> A Requirements Traceability Matrix (RTM) to link user stories directly to the procurement line items.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -760,18 +760,18 @@ Which scheduling tool should the project manager prioritize to integrate these t
 
 ### Question 27
 
-**Enabler:** 8 | **Methodology:** Predictive
+<strong>Enabler:</strong> 8 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing the construction of a high-speed rail bridge. A monthly progress report shows that the "Concrete Piling" activity has a negative schedule variance (SV) of $200,000, and the critical path has shifted, delaying the "Deck Installation" by three weeks.
 
-**Question:**
+<strong>Question:</strong>
 What is the most comprehensive step for the project manager to take next?
 
-- **Correct:** Conduct a trend analysis to determine if the variance is a one-time occurrence or part of a systemic delay pattern, then update the project's forecast.
-- **Distractor 1:** Direct the site supervisor to add a second shift for the piling crew to immediately recover the three-week delay.
-- **Distractor 2:** Request that the finance department increase the project budget by $200,000 to cover the negative schedule variance.
-- **Distractor 3:** Inform the stakeholders that the project is now officially three weeks behind schedule and ask for a baseline extension.
+- <strong>Correct:</strong> Conduct a trend analysis to determine if the variance is a one-time occurrence or part of a systemic delay pattern, then update the project's forecast.
+- <strong>Distractor 1:</strong> Direct the site supervisor to add a second shift for the piling crew to immediately recover the three-week delay.
+- <strong>Distractor 2:</strong> Request that the finance department increase the project budget by $200,000 to cover the negative schedule variance.
+- <strong>Distractor 3:</strong> Inform the stakeholders that the project is now officially three weeks behind schedule and ask for a baseline extension.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -789,18 +789,18 @@ What is the most comprehensive step for the project manager to take next?
 
 ### Question 28
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A cross-functional agile team is working on a fintech product. During the iteration review, the Product Owner notices that several stories were not completed because the team had to wait for approvals from the legal department on every new user interface design.
 
-**Question:**
+<strong>Question:</strong>
 What is the best way for the project manager (Scrum Master) to resolve this schedule bottleneck?
 
-- **Correct:** Invite a representative from the legal department to attend the team's refinement sessions to provide real-time feedback and approvals.
-- **Distractor 1:** Ask the developers to proceed with the designs without legal approval and fix any issues during a later hardening sprint.
-- **Distractor 2:** Direct the legal department to provide all approvals within 24 hours to prevent any further impacts to the team's velocity.
-- **Distractor 3:** Update the Definition of Done to remove the legal approval requirement for UI designs to improve the team's "done" count.
+- <strong>Correct:</strong> Invite a representative from the legal department to attend the team's refinement sessions to provide real-time feedback and approvals.
+- <strong>Distractor 1:</strong> Ask the developers to proceed with the designs without legal approval and fix any issues during a later hardening sprint.
+- <strong>Distractor 2:</strong> Direct the legal department to provide all approvals within 24 hours to prevent any further impacts to the team's velocity.
+- <strong>Distractor 3:</strong> Update the Definition of Done to remove the legal approval requirement for UI designs to improve the team's "done" count.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -818,18 +818,18 @@ What is the best way for the project manager (Scrum Master) to resolve this sche
 
 ### Question 29
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is managing a hybrid project where the software is agile and the marketing launch is predictive. The marketing team needs a firm "Go-Live" date for a $1 million national ad buy. The agile team has a fluctuating velocity but estimates completion between September 1st and October 15th.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager handle this schedule integration?
 
-- **Correct:** Recommend that the marketing team schedule the ad buy for late October and use the "Project Float" as a buffer to protect against software delays.
-- **Distractor 1:** Force the agile team to commit to a September 1st finish date to ensure the marketing campaign can start as early as possible.
-- **Distractor 2:** Ask the marketing team to use an agile approach for the ad buy so they can change the dates at any time without penalty.
-- **Distractor 3:** Submit a change request to the sponsor to convert the entire project to a predictive methodology to ensure date certainty.
+- <strong>Correct:</strong> Recommend that the marketing team schedule the ad buy for late October and use the "Project Float" as a buffer to protect against software delays.
+- <strong>Distractor 1:</strong> Force the agile team to commit to a September 1st finish date to ensure the marketing campaign can start as early as possible.
+- <strong>Distractor 2:</strong> Ask the marketing team to use an agile approach for the ad buy so they can change the dates at any time without penalty.
+- <strong>Distractor 3:</strong> Submit a change request to the sponsor to convert the entire project to a predictive methodology to ensure date certainty.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -847,18 +847,18 @@ How should the project manager handle this schedule integration?
 
 ### Question 30
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is building a project schedule and needs to estimate the duration of "Client Training." The project involves training 500 users. Historical data shows that one trainer can effectively train 20 users per day. The project has 2 trainers available.
 
-**Question:**
+<strong>Question:</strong>
 What is the estimated duration for this activity using parametric estimation?
 
-- **Correct:** 12.5 days (rounded to 13 days for scheduling).
-- **Distractor 1:** 25 days, assuming each trainer works independently on different weeks.
-- **Distractor 2:** 5 days, based on the assumption that training can be done in parallel with software development.
-- **Distractor 3:** 10 days, using a standard "most likely" buffer for training activities.
+- <strong>Correct:</strong> 12.5 days (rounded to 13 days for scheduling).
+- <strong>Distractor 1:</strong> 25 days, assuming each trainer works independently on different weeks.
+- <strong>Distractor 2:</strong> 5 days, based on the assumption that training can be done in parallel with software development.
+- <strong>Distractor 3:</strong> 10 days, using a standard "most likely" buffer for training activities.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -876,18 +876,18 @@ What is the estimated duration for this activity using parametric estimation?
 
 ### Question 31
 
-**Enabler:** 7 | **Methodology:** Agile
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project manager is reviewing a Cumulative Flow Diagram (CFD). The band representing "Testing" has been steadily widening over the last month, while the "Done" band remains thin.
 
-**Question:**
+<strong>Question:</strong>
 What is the most likely interpretation of this diagram?
 
-- **Correct:** There is a bottleneck in the testing phase, indicating that the team's throughput is being restricted by testing capacity or quality issues.
-- **Distractor 1:** The team's velocity is increasing because more work is entering the "Testing" phase every day.
-- **Distractor 2:** The project is ahead of schedule because the "Testing" phase is receiving a high volume of completed code.
-- **Distractor 3:** The team is effectively managing their WIP because the "Testing" band is larger than the "Development" band.
+- <strong>Correct:</strong> There is a bottleneck in the testing phase, indicating that the team's throughput is being restricted by testing capacity or quality issues.
+- <strong>Distractor 1:</strong> The team's velocity is increasing because more work is entering the "Testing" phase every day.
+- <strong>Distractor 2:</strong> The project is ahead of schedule because the "Testing" phase is receiving a high volume of completed code.
+- <strong>Distractor 3:</strong> The team is effectively managing their WIP because the "Testing" band is larger than the "Development" band.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -905,18 +905,18 @@ What is the most likely interpretation of this diagram?
 
 ### Question 32
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager has completed a Critical Path analysis. The current project duration is 18 weeks. The project sponsor demands that the project be finished in 15 weeks. The project manager identifies an activity on the critical path that can be crashed from 4 weeks to 2 weeks at an additional cost of $10,000. Another activity, not on the critical path, can be crashed from 3 weeks to 1 week for $5,000.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do?
 
-- **Correct:** Crash the critical path activity for $10,000 and then re-evaluate the project network for the next compression opportunity.
-- **Distractor 1:** Crash both activities for a total of $15,000 to ensure the 15-week goal is met as quickly as possible.
-- **Distractor 2:** Crash the non-critical path activity for $5,000 first since it is cheaper and provides the same 2-week time saving.
-- **Distractor 3:** Fast-track the non-critical path activity to save time without spending any additional money.
+- <strong>Correct:</strong> Crash the critical path activity for $10,000 and then re-evaluate the project network for the next compression opportunity.
+- <strong>Distractor 1:</strong> Crash both activities for a total of $15,000 to ensure the 15-week goal is met as quickly as possible.
+- <strong>Distractor 2:</strong> Crash the non-critical path activity for $5,000 first since it is cheaper and provides the same 2-week time saving.
+- <strong>Distractor 3:</strong> Fast-track the non-critical path activity to save time without spending any additional money.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -934,18 +934,18 @@ What should the project manager do?
 
 ### Question 33
 
-**Enabler:** 6 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a hybrid infrastructure project. The "Server Procurement" (Predictive) task must be completed before the "Cloud Integration" (Agile) sprints can begin. The procurement team reports that global supply chain issues have delayed server delivery by four weeks.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager adjust the schedule?
 
-- **Correct:** Facilitate a team session to identify if the agile sprints can begin using a temporary virtual environment or cloud-based staging area while waiting for the physical servers.
-- **Distractor 1:** Suspend all agile team activities for four weeks to avoid wasting budget while waiting for the hardware.
-- **Distractor 2:** Instruct the agile team to work on lower-priority stories that don't require the servers to keep their velocity high.
-- **Distractor 3:** Submit a change request to move the entire project back by four weeks and inform the stakeholders that the delay is external.
+- <strong>Correct:</strong> Facilitate a team session to identify if the agile sprints can begin using a temporary virtual environment or cloud-based staging area while waiting for the physical servers.
+- <strong>Distractor 1:</strong> Suspend all agile team activities for four weeks to avoid wasting budget while waiting for the hardware.
+- <strong>Distractor 2:</strong> Instruct the agile team to work on lower-priority stories that don't require the servers to keep their velocity high.
+- <strong>Distractor 3:</strong> Submit a change request to move the entire project back by four weeks and inform the stakeholders that the delay is external.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -963,18 +963,18 @@ How should the project manager adjust the schedule?
 
 ### Question 34
 
-**Enabler:** 8 | **Methodology:** Predictive
+<strong>Enabler:</strong> 8 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is analyzing the schedule of a new product development project. Activity A has a duration of 5 days. Activity B (dependent on A) has a duration of 10 days. The relationship is Finish-to-Start with a 2-day lead.
 
-**Question:**
+<strong>Question:</strong>
 What is the total duration for the sequence of Activity A and B?
 
-- **Correct:** 13 days
-- **Distractor 1:** 17 days
-- **Distractor 2:** 15 days
-- **Distractor 3:** 11 days
+- <strong>Correct:</strong> 13 days
+- <strong>Distractor 1:</strong> 17 days
+- <strong>Distractor 2:</strong> 15 days
+- <strong>Distractor 3:</strong> 11 days
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -992,18 +992,18 @@ What is the total duration for the sequence of Activity A and B?
 
 ### Question 35
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is planning their next release. They have identified several high-risk technical stories that have never been attempted by the team before. These stories are critical for the project's core functionality.
 
-**Question:**
+<strong>Question:</strong>
 What is the best way to incorporate these stories into the release schedule?
 
-- **Correct:** Place the high-risk stories in the earliest possible sprints to "fail fast" or resolve technical uncertainty before committing to the full schedule.
-- **Distractor 1:** Schedule the high-risk stories for the end of the release to ensure the team has gained enough experience and momentum first.
-- **Distractor 2:** Ask the Product Owner to remove the high-risk stories from the first release and focus on "quick wins" to build stakeholder confidence.
-- **Distractor 3:** Allocate a fixed "Risk Reserve" of 20 story points to every sprint in the release to account for potential delays from these stories.
+- <strong>Correct:</strong> Place the high-risk stories in the earliest possible sprints to "fail fast" or resolve technical uncertainty before committing to the full schedule.
+- <strong>Distractor 1:</strong> Schedule the high-risk stories for the end of the release to ensure the team has gained enough experience and momentum first.
+- <strong>Distractor 2:</strong> Ask the Product Owner to remove the high-risk stories from the first release and focus on "quick wins" to build stakeholder confidence.
+- <strong>Distractor 3:</strong> Allocate a fixed "Risk Reserve" of 20 story points to every sprint in the release to account for potential delays from these stories.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1021,18 +1021,18 @@ What is the best way to incorporate these stories into the release schedule?
 
 ### Question 36
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is working on a hybrid project where the software development is outsourced to a vendor using agile, while the internal hardware team uses predictive milestones. The vendor's contract specifies that they will be paid based on the completion of specific feature sets every month.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager reflect the vendor's work in the integrated project schedule?
 
-- **Correct:** Use the vendor's monthly feature delivery milestones as the primary interface points in the predictive master schedule.
-- **Distractor 1:** Request that the vendor provide a detailed daily Gantt chart for their developers so it can be merged into the master schedule.
-- **Distractor 2:** Trust the vendor's agile process and only record the final project completion date in the internal schedule.
-- **Distractor 3:** Require the vendor to change their methodology to predictive milestones to ensure alignment with the internal hardware team.
+- <strong>Correct:</strong> Use the vendor's monthly feature delivery milestones as the primary interface points in the predictive master schedule.
+- <strong>Distractor 1:</strong> Request that the vendor provide a detailed daily Gantt chart for their developers so it can be merged into the master schedule.
+- <strong>Distractor 2:</strong> Trust the vendor's agile process and only record the final project completion date in the internal schedule.
+- <strong>Distractor 3:</strong> Require the vendor to change their methodology to predictive milestones to ensure alignment with the internal hardware team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1050,18 +1050,18 @@ How should the project manager reflect the vendor's work in the integrated proje
 
 ### Question 37
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is reviewing a network diagram and notices an activity called "Final Review" that has two predecessors: "Technical Writing" (Finish-to-Start) and "Peer Review" (Finish-to-Start). "Technical Writing" finishes on Day 20, and "Peer Review" finishes on Day 25.
 
-**Question:**
+<strong>Question:</strong>
 What is the Early Start (ES) for the "Final Review" activity?
 
-- **Correct:** Day 25
-- **Distractor 1:** Day 20
-- **Distractor 2:** Day 45
-- **Distractor 3:** Day 22.5
+- <strong>Correct:</strong> Day 25
+- <strong>Distractor 1:</strong> Day 20
+- <strong>Distractor 2:</strong> Day 45
+- <strong>Distractor 3:</strong> Day 22.5
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1079,18 +1079,18 @@ What is the Early Start (ES) for the "Final Review" activity?
 
 ### Question 38
 
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project manager is presenting the project status to a steering committee that is used to traditional waterfall reporting. The committee is confused by the team's velocity and wants to know when the "User Management" feature will be done.
 
-**Question:**
+<strong>Question:</strong>
 What is the best way for the project manager to present this information?
 
-- **Correct:** Show a Release Burnup Chart with a trend line that projects a range of completion dates based on the team's average velocity.
-- **Distractor 1:** Convert the user stories into a Gantt chart with fixed start and end dates to make the committee comfortable.
-- **Distractor 2:** Explain that agile projects don't have "completion dates" and that work continues until the budget is exhausted.
-- **Distractor 3:** Tell the committee the exact date the feature will be finished based on the most recent sprint's velocity.
+- <strong>Correct:</strong> Show a Release Burnup Chart with a trend line that projects a range of completion dates based on the team's average velocity.
+- <strong>Distractor 1:</strong> Convert the user stories into a Gantt chart with fixed start and end dates to make the committee comfortable.
+- <strong>Distractor 2:</strong> Explain that agile projects don't have "completion dates" and that work continues until the budget is exhausted.
+- <strong>Distractor 3:</strong> Tell the committee the exact date the feature will be finished based on the most recent sprint's velocity.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1108,18 +1108,18 @@ What is the best way for the project manager to present this information?
 
 ### Question 39
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a clinical trial project. The phase "Patient Enrollment" must occur at specific hospitals that have limited availability for research staff. The PM must ensure the schedule doesn't over-allocate the staff across multiple trials.
 
-**Question:**
+<strong>Question:</strong>
 Which scheduling technique is most appropriate to manage this constraint?
 
-- **Correct:** Resource Leveling
-- **Distractor 1:** Fast-Tracking
-- **Distractor 2:** Three-Point Estimation
-- **Distractor 3:** Rolling Wave Planning
+- <strong>Correct:</strong> Resource Leveling
+- <strong>Distractor 1:</strong> Fast-Tracking
+- <strong>Distractor 2:</strong> Three-Point Estimation
+- <strong>Distractor 3:</strong> Rolling Wave Planning
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1137,18 +1137,18 @@ Which scheduling technique is most appropriate to manage this constraint?
 
 ### Question 40
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is presenting the schedule baseline for a new satellite launch. The project has a very high degree of public visibility and a fixed launch window based on orbital mechanics. The sponsor is concerned that the schedule doesn't account for the high level of technical uncertainty in the "Ion Thruster Calibration" phase.
 
-**Question:**
+<strong>Question:</strong>
 Which technique should the project manager use to quantify the schedule risk for the sponsor?
 
-- **Correct:** Run a Monte Carlo simulation to provide a probability distribution of the project finish date.
-- **Distractor 1:** Add a 10% flat contingency buffer to every activity on the critical path to account for uncertainty.
-- **Distractor 2:** Use the Critical Chain Method to place all project buffers at the end of the thruster calibration phase.
-- **Distractor 3:** Conduct a Delphi session with experts to agree on a single, fixed duration for the calibration.
+- <strong>Correct:</strong> Run a Monte Carlo simulation to provide a probability distribution of the project finish date.
+- <strong>Distractor 1:</strong> Add a 10% flat contingency buffer to every activity on the critical path to account for uncertainty.
+- <strong>Distractor 2:</strong> Use the Critical Chain Method to place all project buffers at the end of the thruster calibration phase.
+- <strong>Distractor 3:</strong> Conduct a Delphi session with experts to agree on a single, fixed duration for the calibration.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1166,18 +1166,18 @@ Which technique should the project manager use to quantify the schedule risk for
 
 ### Question 41
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is consistently struggling to meet their sprint commitments. The "Lead Time" for their stories is increasing, but their "Cycle Time" remains stable and low.
 
-**Question:**
+<strong>Question:</strong>
 What does this data most likely tell the project manager about the project schedule?
 
-- **Correct:** Work is waiting in the backlog or in a "Ready" state for a long time before the team actually starts working on it.
-- **Distractor 1:** The team's development efficiency is dropping, causing each story to take longer to complete.
-- **Distractor 2:** The project's quality is declining, leading to a high volume of rework and bug fixes.
-- **Distractor 3:** The "Definition of Done" is too complex, causing stories to get stuck in the final testing phase.
+- <strong>Correct:</strong> Work is waiting in the backlog or in a "Ready" state for a long time before the team actually starts working on it.
+- <strong>Distractor 1:</strong> The team's development efficiency is dropping, causing each story to take longer to complete.
+- <strong>Distractor 2:</strong> The project's quality is declining, leading to a high volume of rework and bug fixes.
+- <strong>Distractor 3:</strong> The "Definition of Done" is too complex, causing stories to get stuck in the final testing phase.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1195,18 +1195,18 @@ What does this data most likely tell the project manager about the project sched
 
 ### Question 42
 
-**Enabler:** 8 | **Methodology:** Predictive
+<strong>Enabler:</strong> 8 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager for an airport expansion project is reviewing the schedule. The activity "Runway Lighting Installation" has 10 days of Total Float and 0 days of Free Float.
 
-**Question:**
+<strong>Question:</strong>
 What is the most accurate interpretation of this activity's status?
 
-- **Correct:** Any delay to this activity will immediately delay its successor, but it won't impact the overall project completion date until it slips more than 10 days.
-- **Distractor 1:** This activity is on the critical path and must be monitored daily to prevent any project-wide delays.
-- **Distractor 2:** This activity can be delayed by 10 days without affecting the next activity in the schedule sequence.
-- **Distractor 3:** The schedule logic is incorrect because Total Float must always be equal to or less than Free Float.
+- <strong>Correct:</strong> Any delay to this activity will immediately delay its successor, but it won't impact the overall project completion date until it slips more than 10 days.
+- <strong>Distractor 1:</strong> This activity is on the critical path and must be monitored daily to prevent any project-wide delays.
+- <strong>Distractor 2:</strong> This activity can be delayed by 10 days without affecting the next activity in the schedule sequence.
+- <strong>Distractor 3:</strong> The schedule logic is incorrect because Total Float must always be equal to or less than Free Float.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1224,18 +1224,18 @@ What is the most accurate interpretation of this activity's status?
 
 ### Question 43
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a retrospective, the team identifies that the "Design Review" phase is consistently taking four days, while the actual design work only takes two days. This is causing a significant lag in their sprint cycle.
 
-**Question:**
+<strong>Question:</strong>
 What is the most agile way to manage this schedule variance?
 
-- **Correct:** Facilitate a discussion on how to integrate reviews continuously into the design process rather than treating them as a separate phase.
-- **Distractor 1:** Add two extra days to every design story estimate to account for the review time.
-- **Distractor 2:** Instruct the designers to work on two stories at once so they are productive during the four-day review period.
-- **Distractor 3:** Direct the reviewers to finish their work in one day to match the pace of the design team.
+- <strong>Correct:</strong> Facilitate a discussion on how to integrate reviews continuously into the design process rather than treating them as a separate phase.
+- <strong>Distractor 1:</strong> Add two extra days to every design story estimate to account for the review time.
+- <strong>Distractor 2:</strong> Instruct the designers to work on two stories at once so they are productive during the four-day review period.
+- <strong>Distractor 3:</strong> Direct the reviewers to finish their work in one day to match the pace of the design team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1253,18 +1253,18 @@ What is the most agile way to manage this schedule variance?
 
 ### Question 44
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A program manager is coordinating a government contract that requires a monthly progress report using Earned Value Management (Predictive). However, the development team is using Scrum (Agile) and does not track "percent complete" for individual tasks.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager calculate the Earned Value (EV) for the monthly report?
 
-- **Correct:** Use the "0/100" rule, where EV is only earned for user stories that meet the "Definition of Done" within the reporting period.
-- **Distractor 1:** Ask each developer to provide their best estimate of the "percent complete" for their current work-in-progress stories.
-- **Distractor 2:** Divide the total story points in the sprint by the number of days elapsed to calculate a daily "Earned Value" average.
-- **Distractor 3:** Report the Planned Value (PV) as the Earned Value (EV) since agile teams are expected to complete their committed sprint backlog.
+- <strong>Correct:</strong> Use the "0/100" rule, where EV is only earned for user stories that meet the "Definition of Done" within the reporting period.
+- <strong>Distractor 1:</strong> Ask each developer to provide their best estimate of the "percent complete" for their current work-in-progress stories.
+- <strong>Distractor 2:</strong> Divide the total story points in the sprint by the number of days elapsed to calculate a daily "Earned Value" average.
+- <strong>Distractor 3:</strong> Report the Planned Value (PV) as the Earned Value (EV) since agile teams are expected to complete their committed sprint backlog.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1282,18 +1282,18 @@ How should the project manager calculate the Earned Value (EV) for the monthly r
 
 ### Question 45
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using the Critical Chain Method for a new product launch. The team is worried because several individual activities are finishing late, and their "performance bars" are in the red.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager interpret this situation?
 
-- **Correct:** Look at the consumption rate of the "Project Buffer" at the end of the chain; if the buffer is healthy, the project is still on track despite individual task delays.
-- **Distractor 1:** Immediately crash the late tasks to move their performance bars back into the green and protect the project schedule.
-- **Distractor 2:** Re-baseline the individual task dates to reflect the new reality and prevent the team from feeling discouraged.
-- **Distractor 3:** Switch back to the Critical Path Method, as the team clearly does not understand the concept of buffers.
+- <strong>Correct:</strong> Look at the consumption rate of the "Project Buffer" at the end of the chain; if the buffer is healthy, the project is still on track despite individual task delays.
+- <strong>Distractor 1:</strong> Immediately crash the late tasks to move their performance bars back into the green and protect the project schedule.
+- <strong>Distractor 2:</strong> Re-baseline the individual task dates to reflect the new reality and prevent the team from feeling discouraged.
+- <strong>Distractor 3:</strong> Switch back to the Critical Path Method, as the team clearly does not understand the concept of buffers.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1311,18 +1311,18 @@ How should the project manager interpret this situation?
 
 ### Question 46
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is planning a multi-year pharmaceutical trial. The first year involves laboratory testing (Agile), and the second year involves human trials (Predictive milestones). The PM is using historical data from three previous trials to set the schedule.
 
-**Question:**
+<strong>Question:</strong>
 Which approach will provide the most accurate long-term schedule for the human trials phase?
 
-- **Correct:** Use parametric estimation based on the "cost and time per patient" from the previous trials, then adjust for current regulatory complexity.
-- **Distractor 1:** Use the exact dates from the most recent trial since the laboratory team is the same.
-- **Distractor 2:** Wait until the laboratory testing is complete before providing any schedule estimates for the human trials phase.
-- **Distractor 3:** Ask the laboratory scientists to use their agile velocity to forecast the duration of the clinical phase.
+- <strong>Correct:</strong> Use parametric estimation based on the "cost and time per patient" from the previous trials, then adjust for current regulatory complexity.
+- <strong>Distractor 1:</strong> Use the exact dates from the most recent trial since the laboratory team is the same.
+- <strong>Distractor 2:</strong> Wait until the laboratory testing is complete before providing any schedule estimates for the human trials phase.
+- <strong>Distractor 3:</strong> Ask the laboratory scientists to use their agile velocity to forecast the duration of the clinical phase.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1340,18 +1340,18 @@ Which approach will provide the most accurate long-term schedule for the human t
 
 ### Question 47
 
-**Enabler:** 6 | **Methodology:** Agile
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team has a "Definition of Ready" that requires all stories to have a confirmed UI mockup before they can be pulled into a sprint. The design team is currently two sprints behind, causing the development team to have an empty sprint backlog.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (Scrum Master) do to resolve this schedule risk?
 
-- **Correct:** Facilitate a session to review the "Definition of Ready" and determine if it can be relaxed to allow for "Wireframe-based" development to begin.
-- **Distractor 1:** Instruct the developers to start working on the back-end code for the stories without mockups to stay productive.
-- **Distractor 2:** Order the design team to work overtime until the "Definition of Ready" requirements are met for the entire backlog.
-- **Distractor 3:** Hire a second design team to help clear the bottleneck and restore the development team's velocity.
+- <strong>Correct:</strong> Facilitate a session to review the "Definition of Ready" and determine if it can be relaxed to allow for "Wireframe-based" development to begin.
+- <strong>Distractor 1:</strong> Instruct the developers to start working on the back-end code for the stories without mockups to stay productive.
+- <strong>Distractor 2:</strong> Order the design team to work overtime until the "Definition of Ready" requirements are met for the entire backlog.
+- <strong>Distractor 3:</strong> Hire a second design team to help clear the bottleneck and restore the development team's velocity.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1369,22 +1369,22 @@ What should the project manager (Scrum Master) do to resolve this schedule risk?
 
 ### Question 48
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is calculating the critical path for a project.
 Path A: 12 days
 Path B: 15 days
 Path C: 14 days
 The project manager decides to crash an activity on Path B by 2 days.
 
-**Question:**
+<strong>Question:</strong>
 What is the new critical path and the new project duration?
 
-- **Correct:** The new critical path is Path C with a duration of 14 days.
-- **Distractor 1:** The new critical path is Path B with a duration of 13 days.
-- **Distractor 2:** The project duration remains 15 days because crashing Path B doesn't affect Path C.
-- **Distractor 3:** The project duration becomes 12 days as Path A is now the shortest path.
+- <strong>Correct:</strong> The new critical path is Path C with a duration of 14 days.
+- <strong>Distractor 1:</strong> The new critical path is Path B with a duration of 13 days.
+- <strong>Distractor 2:</strong> The project duration remains 15 days because crashing Path B doesn't affect Path C.
+- <strong>Distractor 3:</strong> The project duration becomes 12 days as Path A is now the shortest path.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1402,18 +1402,18 @@ What is the new critical path and the new project duration?
 
 ### Question 49
 
-**Enabler:** 8 | **Methodology:** Agile
+<strong>Enabler:</strong> 8 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project is nearing its final release. The Product Owner wants to ensure that the "Product Launch" marketing campaign is perfectly synchronized with the "v1.0" code deployment.
 
-**Question:**
+<strong>Question:</strong>
 Which agile tool provides the best high-level view for this coordination?
 
-- **Correct:** The Product Roadmap
-- **Distractor 1:** The Sprint Backlog
-- **Distractor 2:** The Daily Stand-up Notes
-- **Distractor 3:** The Velocity Trend Chart
+- <strong>Correct:</strong> The Product Roadmap
+- <strong>Distractor 1:</strong> The Sprint Backlog
+- <strong>Distractor 2:</strong> The Daily Stand-up Notes
+- <strong>Distractor 3:</strong> The Velocity Trend Chart
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1431,18 +1431,18 @@ Which agile tool provides the best high-level view for this coordination?
 
 ### Question 50
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is defining the schedule management plan for a project with high uncertainty. The sponsor requests that the schedule include a "Management Reserve."
 
-**Question:**
+<strong>Question:</strong>
 Where should the Management Reserve be placed in the schedule?
 
-- **Correct:** Outside of the schedule baseline; it is an amount of time added to the project for "unknown-unknowns" and requires approval to use.
-- **Distractor 1:** At the end of every individual task to ensure each team member has a "safety buffer."
-- **Distractor 2:** Between the Critical Path and the Near-Critical Path to prevent the paths from switching.
-- **Distractor 3:** In a separate "Risk Project" that runs in parallel with the main project schedule.
+- <strong>Correct:</strong> Outside of the schedule baseline; it is an amount of time added to the project for "unknown-unknowns" and requires approval to use.
+- <strong>Distractor 1:</strong> At the end of every individual task to ensure each team member has a "safety buffer."
+- <strong>Distractor 2:</strong> Between the Critical Path and the Near-Critical Path to prevent the paths from switching.
+- <strong>Distractor 3:</strong> In a separate "Risk Project" that runs in parallel with the main project schedule.
 
 <details>
 <summary>Detailed Remediation</summary>

@@ -41,9 +41,9 @@ th {
 </style>
 
 ## Database Stats
-* **Correct Answer Length Average:** 18 words
-* **Distractor Length Average:** 17 words
-* **Methodology Split:** 40% Predictive, 36% Agile, 24% Hybrid
+* <strong>Correct Answer Length Average:</strong> 18 words
+* <strong>Distractor Length Average:</strong> 17 words
+* <strong>Methodology Split:</strong> 40% Predictive, 36% Agile, 24% Hybrid
 
 ## Topic Summary Table
 
@@ -106,18 +106,18 @@ th {
 
 ### Question 1
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a weekly status meeting for a global infrastructure project, the lead engineer and the procurement manager have a heated exchange regarding the delivery of specialized server racks. The engineer claims the specifications were finalized months ago, while the procurement manager insists that the budget constraints necessitated a change in vendors that the engineering team failed to account for in their latest designs. The project manager notices that this is the third time this month these two departments have clashed over similar issues.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST effective action for the project manager to take to address the root cause of this conflict?
 
-- **Correct:** Conduct a root cause analysis of the communication flow and update the RACI matrix to clarify decision rights between engineering and procurement.
-- **Distractor 1:** Escalate the matter to the project sponsor to mediate the dispute and provide a final decision on the vendor selection.
-- **Distractor 2:** Organize a team-building workshop focused on interpersonal communication styles to improve the relationship between the two managers.
-- **Distractor 3:** Instruct both parties to follow the change control process strictly to ensure all modifications are documented and approved.
+- <strong>Correct:</strong> Conduct a root cause analysis of the communication flow and update the RACI matrix to clarify decision rights between engineering and procurement.
+- <strong>Distractor 1:</strong> Escalate the matter to the project sponsor to mediate the dispute and provide a final decision on the vendor selection.
+- <strong>Distractor 2:</strong> Organize a team-building workshop focused on interpersonal communication styles to improve the relationship between the two managers.
+- <strong>Distractor 3:</strong> Instruct both parties to follow the change control process strictly to ensure all modifications are documented and approved.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -135,18 +135,18 @@ What is the MOST effective action for the project manager to take to address the
 
 ### Question 2
 
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is in its fourth sprint, and the Scrum Master observes that two senior developers consistently dominate the Sprint Planning sessions, often speaking over junior members. This behavior is beginning to create a "silent majority" where valuable input is being lost, and the team's velocity is starting to stagnate. The team charter was created during the initial kickoff but hasn't been referenced since.
 
-**Question:**
+<strong>Question:</strong>
 What should the Scrum Master do FIRST to foster a more inclusive environment?
 
-- **Correct:** Facilitate a discussion during the next Retrospective to review and update the team's ground rules regarding communication and participation.
-- **Distractor 1:** Meet with the two senior developers privately to explain the impact of their behavior on the team's morale and velocity.
-- **Distractor 2:** Implement a "talking stick" or similar facilitation technique during planning to ensure everyone has an equal opportunity to speak.
-- **Distractor 3:** Reassign some of the senior developers' complex tasks to junior members to rebalance the team's power dynamics.
+- <strong>Correct:</strong> Facilitate a discussion during the next Retrospective to review and update the team's ground rules regarding communication and participation.
+- <strong>Distractor 1:</strong> Meet with the two senior developers privately to explain the impact of their behavior on the team's morale and velocity.
+- <strong>Distractor 2:</strong> Implement a "talking stick" or similar facilitation technique during planning to ensure everyone has an equal opportunity to speak.
+- <strong>Distractor 3:</strong> Reassign some of the senior developers' complex tasks to junior members to rebalance the team's power dynamics.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -164,18 +164,18 @@ What should the Scrum Master do FIRST to foster a more inclusive environment?
 
 ### Question 3
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a hybrid project where the software component is developed using Scrum and the hardware component follows a predictive lifecycle. A major conflict arises between the software lead and the hardware lead regarding the integration testing schedule. The software lead needs frequent access to the hardware prototypes, which the hardware team claims will delay their manufacturing milestones. The project is already under tight timelines.
 
-**Question:**
+<strong>Question:</strong>
 Which conflict resolution strategy should the project manager employ to achieve a win-win outcome?
 
-- **Correct:** Facilitate a session to identify the underlying interests of both leads and brainstorm a shared testing schedule that minimizes manufacturing downtime while meeting software needs.
-- **Distractor 1:** Negotiate a compromise where the software team gets half the requested access time and the hardware team accepts a one-week delay.
-- **Distractor 2:** Refer to the integrated project management plan and direct both leads to adhere to the previously agreed-upon integration milestones.
-- **Distractor 3:** Acknowledge the importance of both teams' work and ask the hardware lead to accommodate the software team's request to ensure the final product's quality.
+- <strong>Correct:</strong> Facilitate a session to identify the underlying interests of both leads and brainstorm a shared testing schedule that minimizes manufacturing downtime while meeting software needs.
+- <strong>Distractor 1:</strong> Negotiate a compromise where the software team gets half the requested access time and the hardware team accepts a one-week delay.
+- <strong>Distractor 2:</strong> Refer to the integrated project management plan and direct both leads to adhere to the previously agreed-upon integration milestones.
+- <strong>Distractor 3:</strong> Acknowledge the importance of both teams' work and ask the hardware lead to accommodate the software team's request to ensure the final product's quality.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -193,18 +193,18 @@ Which conflict resolution strategy should the project manager employ to achieve 
 
 ### Question 4
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is experiencing intense conflict between two key stakeholders regarding the quality standards for a new residential building. One stakeholder insists on high-end, expensive finishes to attract premium buyers, while the other is focused on staying strictly within the original budget to ensure project viability. The PM realizes that both stakeholders have equal power and the disagreement is reaching a deadlock that threatens the project start date.
 
-**Question:**
+<strong>Question:</strong>
 Using the Thomas-Kilmann Conflict Mode Instrument (TKI), which approach is most appropriate for the project manager to facilitate in this situation?
 
-- **Correct:** Facilitate a compromise where both stakeholders agree to premium finishes in common areas but standard finishes within individual units to balance cost and appeal.
-- **Distractor 1:** Employ a forcing strategy by choosing the budget-friendly finishes to protect the financial interests of the project sponsor.
-- **Distractor 2:** Use the smoothing technique by highlighting the areas where both stakeholders already agree to lower the emotional temperature of the debate.
-- **Distractor 3:** Withdraw from the conflict until both stakeholders have had time to cool down and can present their cases with more objective data.
+- <strong>Correct:</strong> Facilitate a compromise where both stakeholders agree to premium finishes in common areas but standard finishes within individual units to balance cost and appeal.
+- <strong>Distractor 1:</strong> Employ a forcing strategy by choosing the budget-friendly finishes to protect the financial interests of the project sponsor.
+- <strong>Distractor 2:</strong> Use the smoothing technique by highlighting the areas where both stakeholders already agree to lower the emotional temperature of the debate.
+- <strong>Distractor 3:</strong> Withdraw from the conflict until both stakeholders have had time to cool down and can present their cases with more objective data.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -222,18 +222,18 @@ Using the Thomas-Kilmann Conflict Mode Instrument (TKI), which approach is most 
 
 ### Question 5
 
-**Enabler:** 6 | **Methodology:** Agile
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a Daily Stand-up, a team member repeatedly criticizes another member's coding style in a way that feels personal rather than constructive. This is a direct violation of the "Respect and Professionalism" ground rule established in the team charter. The atmosphere in the team has become tense, and other members are now hesitant to share their progress.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate way for the Scrum Master to manage this ground rule violation?
 
-- **Correct:** Address the behavior privately with the individual immediately after the stand-up to discuss the impact on the team and reinforce the ground rules.
-- **Distractor 1:** Interrupt the Daily Stand-up immediately to remind the entire team of the ground rules and the importance of respect.
-- **Distractor 2:** Wait until the next Retrospective to bring up the general issue of "respectful communication" without naming specific individuals.
-- **Distractor 3:** Document the incident in the conflict log and report it to the individual's functional manager for disciplinary action.
+- <strong>Correct:</strong> Address the behavior privately with the individual immediately after the stand-up to discuss the impact on the team and reinforce the ground rules.
+- <strong>Distractor 1:</strong> Interrupt the Daily Stand-up immediately to remind the entire team of the ground rules and the importance of respect.
+- <strong>Distractor 2:</strong> Wait until the next Retrospective to bring up the general issue of "respectful communication" without naming specific individuals.
+- <strong>Distractor 3:</strong> Document the incident in the conflict log and report it to the individual's functional manager for disciplinary action.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -251,18 +251,18 @@ What is the MOST appropriate way for the Scrum Master to manage this ground rule
 
 ### Question 6
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing the construction of a new chemical processing plant. During a site inspection, a safety officer discovers a conflict between the ventilation installation and the emergency fire suppression system. The contractor wants to proceed with the ventilation as planned to avoid a significant schedule penalty, but the safety officer insists this would violate local building codes.
 
-**Question:**
+<strong>Question:</strong>
 What conflict resolution technique should the project manager use in this specific instance?
 
-- **Correct:** Force / Direct the contractor to comply with the safety officer's requirements to ensure legal and safety compliance.
-- **Distractor 1:** Collaborate with both parties to find a creative engineering solution that satisfies both the ventilation needs and the safety codes.
-- **Distractor 2:** Compromise by allowing the ventilation installation to proceed if the contractor agrees to add additional fire sensors in other areas.
-- **Distractor 3:** Smooth over the disagreement by emphasizing the shared goal of finishing the project on time and within budget.
+- <strong>Correct:</strong> Force / Direct the contractor to comply with the safety officer's requirements to ensure legal and safety compliance.
+- <strong>Distractor 1:</strong> Collaborate with both parties to find a creative engineering solution that satisfies both the ventilation needs and the safety codes.
+- <strong>Distractor 2:</strong> Compromise by allowing the ventilation installation to proceed if the contractor agrees to add additional fire sensors in other areas.
+- <strong>Distractor 3:</strong> Smooth over the disagreement by emphasizing the shared goal of finishing the project on time and within budget.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -280,18 +280,18 @@ What conflict resolution technique should the project manager use in this specif
 
 ### Question 7
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a large-scale digital transformation project involving multiple vendors and internal departments. To minimize friction, the PM wants to ensure that all stakeholders understand how conflicts will be handled throughout the project lifecycle. Some stakeholders are used to a highly hierarchical "top-down" approach, while others prefer agile, decentralized decision-making.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the project manager to communicate conflict management principles to this diverse group?
 
-- **Correct:** Include the conflict resolution process and escalation paths in the Project Management Plan and review them during the stakeholder kickoff meeting.
-- **Distractor 1:** Send a memorandum to all stakeholders stating that all conflicts must be resolved through the PMO's formal mediation process.
-- **Distractor 2:** Rely on the individual contracts with each vendor to define how disputes and conflicts will be handled on a case-by-case basis.
-- **Distractor 3:** Host a mandatory negotiation training session for all key stakeholders to ensure they use integrative tactics.
+- <strong>Correct:</strong> Include the conflict resolution process and escalation paths in the Project Management Plan and review them during the stakeholder kickoff meeting.
+- <strong>Distractor 1:</strong> Send a memorandum to all stakeholders stating that all conflicts must be resolved through the PMO's formal mediation process.
+- <strong>Distractor 2:</strong> Rely on the individual contracts with each vendor to define how disputes and conflicts will be handled on a case-by-case basis.
+- <strong>Distractor 3:</strong> Host a mandatory negotiation training session for all key stakeholders to ensure they use integrative tactics.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -309,18 +309,18 @@ What is the BEST way for the project manager to communicate conflict management 
 
 ### Question 8
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a daily stand-up, a developer expresses frustration, saying, "I'm tired of the testers always finding tiny bugs that don't matter, just to make themselves look busy. It's slowing down my development pace." A tester responds, "We're just trying to maintain the Definition of Done that we all agreed on." The Scrum Master recognizes this as a conflict.
 
-**Question:**
+<strong>Question:</strong>
 How should the Scrum Master categorize this conflict to determine the appropriate next step?
 
-- **Correct:** Categorize it as a Task Conflict related to the interpretation of quality standards and facilitate a discussion on the Definition of Done.
-- **Distractor 1:** Categorize it as a Relationship Conflict because of the personal nature of the developer's "looking busy" comment and intervene immediately.
-- **Distractor 2:** Categorize it as a Process Conflict regarding the timing of testing within the sprint and adjust the team's workflow.
-- **Distractor 3:** Categorize it as a Resource Conflict because the developer feels their time is being wasted by the testing team.
+- <strong>Correct:</strong> Categorize it as a Task Conflict related to the interpretation of quality standards and facilitate a discussion on the Definition of Done.
+- <strong>Distractor 1:</strong> Categorize it as a Relationship Conflict because of the personal nature of the developer's "looking busy" comment and intervene immediately.
+- <strong>Distractor 2:</strong> Categorize it as a Process Conflict regarding the timing of testing within the sprint and adjust the team's workflow.
+- <strong>Distractor 3:</strong> Categorize it as a Resource Conflict because the developer feels their time is being wasted by the testing team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -338,18 +338,18 @@ How should the Scrum Master categorize this conflict to determine the appropriat
 
 ### Question 9
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is negotiating with a functional manager to secure a high-performing lead developer for an upcoming project. The functional manager is reluctant because the developer is currently finishing another critical task. The project manager knows that the developer's presence is important for the project's success but not strictly mandatory for the first two weeks of planning.
 
-**Question:**
+<strong>Question:</strong>
 Which action represents the use of the Smoothing (Accommodating) conflict resolution technique in this scenario?
 
-- **Correct:** The project manager agrees to let the developer stay on their current task for the next two weeks to help the functional manager meet their deadline.
-- **Distractor 1:** The project manager suggests that the developer spend 50% of their time on each project for the next two weeks.
-- **Distractor 2:** The project manager insists that the developer be assigned to the new project immediately as per the resource allocation plan.
-- **Distractor 3:** The project manager and functional manager meet to find a third project that can provide a temporary resource for both of them.
+- <strong>Correct:</strong> The project manager agrees to let the developer stay on their current task for the next two weeks to help the functional manager meet their deadline.
+- <strong>Distractor 1:</strong> The project manager suggests that the developer spend 50% of their time on each project for the next two weeks.
+- <strong>Distractor 2:</strong> The project manager insists that the developer be assigned to the new project immediately as per the resource allocation plan.
+- <strong>Distractor 3:</strong> The project manager and functional manager meet to find a third project that can provide a temporary resource for both of them.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -367,18 +367,18 @@ Which action represents the use of the Smoothing (Accommodating) conflict resolu
 
 ### Question 10
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is negotiating a contract extension with a long-term software vendor. The vendor is asking for a 15% price increase due to inflation. The project's remaining budget can only accommodate a 5% increase. The PM knows that switching vendors now would cost $50,000 in transition fees and delays, while the 15% increase only amounts to $20,000.
 
-**Question:**
+<strong>Question:</strong>
 Which element of negotiation is the project manager evaluating when considering the $50,000 transition cost?
 
-- **Correct:** The BATNA (Best Alternative to a Negotiated Agreement).
-- **Distractor 1:** The ZOPA (Zone of Possible Agreement).
-- **Distractor 2:** The Reservation Price of the vendor.
-- **Distractor 3:** The Aspiration Point of the project.
+- <strong>Correct:</strong> The BATNA (Best Alternative to a Negotiated Agreement).
+- <strong>Distractor 1:</strong> The ZOPA (Zone of Possible Agreement).
+- <strong>Distractor 2:</strong> The Reservation Price of the vendor.
+- <strong>Distractor 3:</strong> The Aspiration Point of the project.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -396,18 +396,18 @@ Which element of negotiation is the project manager evaluating when considering 
 
 ### Question 11
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 Two developers on an agile team are in a heated debate about which JavaScript framework to use for a new feature. The discussion has become highly emotional, with both parties making defensive comments. The team is currently in the middle of a time-boxed design session, and the tension is preventing the rest of the team from making progress on other design decisions.
 
-**Question:**
+<strong>Question:</strong>
 Which conflict management action should the Scrum Master take?
 
-- **Correct:** Suggest a short break to allow emotions to cool down and schedule a dedicated technical spike to evaluate both frameworks objectively later that day.
-- **Distractor 1:** Facilitate an immediate vote among all team members to decide on the framework and move on with the design session.
-- **Distractor 2:** Intervene and direct the team to use the framework that the project sponsor previously mentioned in a high-level meeting.
-- **Distractor 3:** Ask the two developers to continue their debate in a separate room while the rest of the team finishes the design session.
+- <strong>Correct:</strong> Suggest a short break to allow emotions to cool down and schedule a dedicated technical spike to evaluate both frameworks objectively later that day.
+- <strong>Distractor 1:</strong> Facilitate an immediate vote among all team members to decide on the framework and move on with the design session.
+- <strong>Distractor 2:</strong> Intervene and direct the team to use the framework that the project sponsor previously mentioned in a high-level meeting.
+- <strong>Distractor 3:</strong> Ask the two developers to continue their debate in a separate room while the rest of the team finishes the design session.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -425,18 +425,18 @@ Which conflict management action should the Scrum Master take?
 
 ### Question 12
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is starting a high-stakes government contract with several external consultants and internal department heads. During the kickoff meeting, the PM notices that some participants are constantly checking their phones and interrupting others. The PM wants to prevent these behaviors from escalating into larger conflicts during future project meetings.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST preventive measure for the project manager to implement?
 
-- **Correct:** Facilitate a session to establish team ground rules and include them in the formal team charter.
-- **Distractor 1:** Issue a formal memorandum outlining the expected professional conduct for all project participants.
-- **Distractor 2:** Appoint a meeting facilitator whose sole role is to enforce meeting etiquette and silence phones.
-- **Distractor 3:** Discuss the unprofessional behavior with each participant's functional manager after the meeting.
+- <strong>Correct:</strong> Facilitate a session to establish team ground rules and include them in the formal team charter.
+- <strong>Distractor 1:</strong> Issue a formal memorandum outlining the expected professional conduct for all project participants.
+- <strong>Distractor 2:</strong> Appoint a meeting facilitator whose sole role is to enforce meeting etiquette and silence phones.
+- <strong>Distractor 3:</strong> Discuss the unprofessional behavior with each participant's functional manager after the meeting.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -454,18 +454,18 @@ What is the BEST preventive measure for the project manager to implement?
 
 ### Question 13
 
-**Enabler:** 6 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, a stakeholder who is used to traditional status reports begins bypasssing the project manager and asking the agile development team for daily updates and ad-hoc changes. This behavior violates the agreed-upon communication ground rules and is causing "noise" that disrupts the team's sprint.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager rectify this ground rule violation?
 
-- **Correct:** Meet with the stakeholder privately to explain the communication process and the impact of their interruptions on the team's productivity.
-- **Distractor 1:** Block the stakeholder's access to the team's digital workspace until they agree to follow the project management plan.
-- **Distractor 2:** Bring up the stakeholder's behavior during the next Steering Committee meeting to seek a formal reprimand.
-- **Distractor 3:** Tell the development team to ignore all communications from this stakeholder and refer them back to the PM.
+- <strong>Correct:</strong> Meet with the stakeholder privately to explain the communication process and the impact of their interruptions on the team's productivity.
+- <strong>Distractor 1:</strong> Block the stakeholder's access to the team's digital workspace until they agree to follow the project management plan.
+- <strong>Distractor 2:</strong> Bring up the stakeholder's behavior during the next Steering Committee meeting to seek a formal reprimand.
+- <strong>Distractor 3:</strong> Tell the development team to ignore all communications from this stakeholder and refer them back to the PM.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -483,18 +483,18 @@ How should the project manager rectify this ground rule violation?
 
 ### Question 14
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Scrum team is consistently failing to meet its sprint commitments. During the retrospective, it becomes clear that the developers feel the "Definition of Ready" is too vague, leading to stories being pulled into the sprint without enough detail. However, the Product Owner feels that the developers are being too bureaucratic and should be more flexible.
 
-**Question:**
+<strong>Question:</strong>
 How should the Scrum Master identify the source of this conflict?
 
-- **Correct:** Categorize the disagreement as a Process Conflict and facilitate a workshop to refine the "Definition of Ready" criteria.
-- **Distractor 1:** Categorize the disagreement as a Personality Conflict between the PO and the developers and conduct a 1-on-1 mediation.
-- **Distractor 2:** Categorize the disagreement as a Scope Conflict and ask the Product Owner to reduce the number of stories in the backlog.
-- **Distractor 3:** Categorize the disagreement as a Resource Conflict and request more senior developers who can handle vague requirements.
+- <strong>Correct:</strong> Categorize the disagreement as a Process Conflict and facilitate a workshop to refine the "Definition of Ready" criteria.
+- <strong>Distractor 1:</strong> Categorize the disagreement as a Personality Conflict between the PO and the developers and conduct a 1-on-1 mediation.
+- <strong>Distractor 2:</strong> Categorize the disagreement as a Scope Conflict and ask the Product Owner to reduce the number of stories in the backlog.
+- <strong>Distractor 3:</strong> Categorize the disagreement as a Resource Conflict and request more senior developers who can handle vague requirements.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -512,18 +512,18 @@ How should the Scrum Master identify the source of this conflict?
 
 ### Question 15
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a project to install new manufacturing equipment. Two engineers disagree on the sequence of installation. Engineer A wants to install the cooling system first to ensure safety, while Engineer B wants to install the main power unit first to allow for earlier testing. Both provide valid technical arguments. The PM has a full day of time available to resolve this and the engineers are willing to talk.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST conflict resolution technique for the PM to facilitate?
 
-- **Correct:** Collaborate / Problem Solve by facilitating a technical review of the dependencies and finding a sequence that satisfies both safety and testing needs.
-- **Distractor 1:** Compromise by suggesting that they install the cooling system halfway and then switch to the power unit.
-- **Distractor 2:** Force / Direct the engineers to follow the original project schedule as defined in the planning phase.
-- **Distractor 3:** Withdraw from the discussion and let the engineers decide amongst themselves, as they are the technical experts.
+- <strong>Correct:</strong> Collaborate / Problem Solve by facilitating a technical review of the dependencies and finding a sequence that satisfies both safety and testing needs.
+- <strong>Distractor 1:</strong> Compromise by suggesting that they install the cooling system halfway and then switch to the power unit.
+- <strong>Distractor 2:</strong> Force / Direct the engineers to follow the original project schedule as defined in the planning phase.
+- <strong>Distractor 3:</strong> Withdraw from the discussion and let the engineers decide amongst themselves, as they are the technical experts.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -541,18 +541,18 @@ What is the BEST conflict resolution technique for the PM to facilitate?
 
 ### Question 16
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is negotiating with a department head for the use of a specialized testing lab. The department head is refusing access, saying, "Our internal projects have priority." The PM asks, "What specifically are you worried will happen if we use the lab for four hours on Tuesday?" The department head reveals that a previous project left the lab messy, which delayed their own work.
 
-**Question:**
+<strong>Question:</strong>
 Which negotiation principle is the project manager applying?
 
-- **Correct:** Focusing on interests rather than positions to uncover the underlying concern.
-- **Distractor 1:** Building a ZOPA (Zone of Possible Agreement) based on shared lab usage.
-- **Distractor 2:** Improving the project's BATNA by looking for alternative testing facilities.
-- **Distractor 3:** Using objective criteria to prove that the project has a right to the lab.
+- <strong>Correct:</strong> Focusing on interests rather than positions to uncover the underlying concern.
+- <strong>Distractor 1:</strong> Building a ZOPA (Zone of Possible Agreement) based on shared lab usage.
+- <strong>Distractor 2:</strong> Improving the project's BATNA by looking for alternative testing facilities.
+- <strong>Distractor 3:</strong> Using objective criteria to prove that the project has a right to the lab.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -570,18 +570,18 @@ Which negotiation principle is the project manager applying?
 
 ### Question 17
 
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A new agile team is geographically distributed across three time zones. During the first two sprints, team members from the European office feel that the North American members are making decisions during late-night "quick chats" that exclude them. This is leading to resentment and conflicting code changes.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the Scrum Master to take to establish an environment of common ground rules?
 
-- **Correct:** Facilitate a virtual workshop to create a "Working Agreement" that specifically addresses decision-making protocols and "core hours" for communication.
-- **Distractor 1:** Direct all team members to only communicate through the official Slack channel and record every meeting.
-- **Distractor 2:** Request that the European team members adjust their schedules to overlap more with the North American time zone.
-- **Distractor 3:** Escalate the issue to the functional managers of the North American team members to address the exclusionary behavior.
+- <strong>Correct:</strong> Facilitate a virtual workshop to create a "Working Agreement" that specifically addresses decision-making protocols and "core hours" for communication.
+- <strong>Distractor 1:</strong> Direct all team members to only communicate through the official Slack channel and record every meeting.
+- <strong>Distractor 2:</strong> Request that the European team members adjust their schedules to overlap more with the North American time zone.
+- <strong>Distractor 3:</strong> Escalate the issue to the functional managers of the North American team members to address the exclusionary behavior.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -599,18 +599,18 @@ What is the BEST action for the Scrum Master to take to establish an environment
 
 ### Question 18
 
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is working with a difficult vendor who frequently disputes the interpretation of "minor defects" vs. "major defects" in the contract. These disputes are causing delays in final payments and increasing tension. The PM wants to prevent these disagreements from recurring in the next phase of the project.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager communicate conflict management principles to this external stakeholder?
 
-- **Correct:** Propose a joint review of the contract's quality standards and agree on objective criteria for defect classification to be used in all future inspections.
-- **Distractor 1:** Inform the vendor that all future disputes will be immediately escalated to the legal department for arbitration.
-- **Distractor 2:** Update the communication management plan to include a more frequent reporting cycle for the vendor's deliverables.
-- **Distractor 3:** Offer a small bonus to the vendor for every milestone that is completed without a formal dispute.
+- <strong>Correct:</strong> Propose a joint review of the contract's quality standards and agree on objective criteria for defect classification to be used in all future inspections.
+- <strong>Distractor 1:</strong> Inform the vendor that all future disputes will be immediately escalated to the legal department for arbitration.
+- <strong>Distractor 2:</strong> Update the communication management plan to include a more frequent reporting cycle for the vendor's deliverables.
+- <strong>Distractor 3:</strong> Offer a small bonus to the vendor for every milestone that is completed without a formal dispute.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -628,18 +628,18 @@ How should the project manager communicate conflict management principles to thi
 
 ### Question 19
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A conflict between the Marketing Director and the IT Manager regarding the launch date of a new website has reached an impasse. The Marketing Director needs the launch for a specific trade show, while the IT Manager insists that security testing cannot be rushed. The project manager has tried to facilitate a collaborative session, but the two parties are no longer speaking to each other.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate next step for the project manager?
 
-- **Correct:** Bring in a neutral third party, such as a PMO representative or a professional mediator, to facilitate a resolution.
-- **Distractor 1:** Escalate the issue to the Project Sponsor and ask them to make a final decision on the launch date.
-- **Distractor 2:** Use your formal authority to set the launch date halfway between the two requested dates.
-- **Distractor 3:** Tell both parties that the project will be paused until they can reach an agreement and communicate effectively.
+- <strong>Correct:</strong> Bring in a neutral third party, such as a PMO representative or a professional mediator, to facilitate a resolution.
+- <strong>Distractor 1:</strong> Escalate the issue to the Project Sponsor and ask them to make a final decision on the launch date.
+- <strong>Distractor 2:</strong> Use your formal authority to set the launch date halfway between the two requested dates.
+- <strong>Distractor 3:</strong> Tell both parties that the project will be paused until they can reach an agreement and communicate effectively.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -657,18 +657,18 @@ What is the MOST appropriate next step for the project manager?
 
 ### Question 20
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a retrospective, one team member says, "I really struggle to work with Sarah because her constant questioning of my logic feels like a personal attack." Sarah responds, "I'm not attacking you; I'm just trying to make sure our architecture is sound. I do this with everyone."
 
-**Question:**
+<strong>Question:</strong>
 How should the Scrum Master analyze this conflict context?
 
-- **Correct:** Recognize that this is a "Personality Trap" where a Task Conflict (logic/architecture) is being perceived as a Relationship Conflict (personal attack).
-- **Distractor 1:** Categorize this as a pure Relationship Conflict and move Sarah to a different sub-team to reduce friction.
-- **Distractor 2:** Facilitate a session on emotional intelligence for the entire team to help them handle Sarah's communication style.
-- **Distractor 3:** Tell the team member that Sarah's questioning is a required part of the peer review process and they need to be less sensitive.
+- <strong>Correct:</strong> Recognize that this is a "Personality Trap" where a Task Conflict (logic/architecture) is being perceived as a Relationship Conflict (personal attack).
+- <strong>Distractor 1:</strong> Categorize this as a pure Relationship Conflict and move Sarah to a different sub-team to reduce friction.
+- <strong>Distractor 2:</strong> Facilitate a session on emotional intelligence for the entire team to help them handle Sarah's communication style.
+- <strong>Distractor 3:</strong> Tell the team member that Sarah's questioning is a required part of the peer review process and they need to be less sensitive.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -686,18 +686,18 @@ How should the Scrum Master analyze this conflict context?
 
 ### Question 21
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is resolving a dispute between two senior designers regarding the layout of a new airport terminal. Designer A wants to prioritize passenger flow efficiency, while Designer B wants to prioritize retail space visibility. Both goals are important for the project's success. The PM has only 30 minutes before a final presentation to the steering committee.
 
-**Question:**
+<strong>Question:</strong>
 Which conflict resolution technique is most appropriate given the time constraint?
 
-- **Correct:** Compromise / Reconcile by finding a middle-ground layout that offers acceptable flow while maintaining significant retail visibility for the presentation.
-- **Distractor 1:** Collaborate / Problem Solve to find a completely new design that fully satisfies both the flow and retail requirements.
-- **Distractor 2:** Force / Direct Designer A's flow-focused plan as it is more critical for the primary function of the airport terminal.
-- **Distractor 3:** Smooth / Accommodate by choosing Designer B's retail plan to avoid any last-minute arguments before the presentation.
+- <strong>Correct:</strong> Compromise / Reconcile by finding a middle-ground layout that offers acceptable flow while maintaining significant retail visibility for the presentation.
+- <strong>Distractor 1:</strong> Collaborate / Problem Solve to find a completely new design that fully satisfies both the flow and retail requirements.
+- <strong>Distractor 2:</strong> Force / Direct Designer A's flow-focused plan as it is more critical for the primary function of the airport terminal.
+- <strong>Distractor 3:</strong> Smooth / Accommodate by choosing Designer B's retail plan to avoid any last-minute arguments before the presentation.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -715,18 +715,18 @@ Which conflict resolution technique is most appropriate given the time constrain
 
 ### Question 22
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is in the middle of a heated argument. One developer says, "If we don't use my architectural approach, the whole system will crash in six months, and I won't be responsible for it." The Scrum Master notices that the discussion has moved from "what is best for the product" to "protecting oneself from blame."
 
-**Question:**
+<strong>Question:</strong>
 How should the Scrum Master analyze the context of this conflict?
 
-- **Correct:** Analyze the conflict as moving toward a high level of intensity where parties focus on "winning" or self-preservation rather than problem-solving.
-- **Distractor 1:** Categorize the conflict as a healthy Task Conflict that will lead to a more robust architectural design.
-- **Distractor 2:** Identify the conflict as a Process Conflict related to the team's decision-making model in the charter.
-- **Distractor 3:** View the conflict as a Resource Conflict because the developer is concerned about their future workload and responsibility.
+- <strong>Correct:</strong> Analyze the conflict as moving toward a high level of intensity where parties focus on "winning" or self-preservation rather than problem-solving.
+- <strong>Distractor 1:</strong> Categorize the conflict as a healthy Task Conflict that will lead to a more robust architectural design.
+- <strong>Distractor 2:</strong> Identify the conflict as a Process Conflict related to the team's decision-making model in the charter.
+- <strong>Distractor 3:</strong> View the conflict as a Resource Conflict because the developer is concerned about their future workload and responsibility.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -744,18 +744,18 @@ How should the Scrum Master analyze the context of this conflict?
 
 ### Question 23
 
-**Enabler:** 5 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a hybrid project with team members from different organizational cultures. Some members prefer a "majority rules" voting system for decisions, while others feel that consensus is necessary for commitment. This difference is causing delays and frustration during weekly planning sessions.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take to establish an environment that fosters adherence to ground rules?
 
-- **Correct:** Facilitate a session to agree on a specific decision-making model (e.g., Fist of Five for consensus) and document it in the Team Charter.
-- **Distractor 1:** Implement a "Majority Rules" policy as it is the most efficient way to make decisions in a high-pressure hybrid environment.
-- **Distractor 2:** Escalate the cultural disagreement to the PMO to provide a standard decision-making framework for all projects.
-- **Distractor 3:** Alternating between voting and consensus each week to satisfy both groups' cultural preferences.
+- <strong>Correct:</strong> Facilitate a session to agree on a specific decision-making model (e.g., Fist of Five for consensus) and document it in the Team Charter.
+- <strong>Distractor 1:</strong> Implement a "Majority Rules" policy as it is the most efficient way to make decisions in a high-pressure hybrid environment.
+- <strong>Distractor 2:</strong> Escalate the cultural disagreement to the PMO to provide a standard decision-making framework for all projects.
+- <strong>Distractor 3:</strong> Alternating between voting and consensus each week to satisfy both groups' cultural preferences.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -773,18 +773,18 @@ What is the BEST action for the project manager to take to establish an environm
 
 ### Question 24
 
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A subcontractor on a large construction project repeatedly ignores the project manager's requests to wear required personal protective equipment (PPE). This is a violation of both the project ground rules and federal safety regulations. The PM has already met with the subcontractor twice privately to address the issue, but the behavior continues.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate next step for the project manager?
 
-- **Correct:** Formally escalate the violation to the subcontractor's company management and document the safety breach in the project's issue log.
-- **Distractor 1:** Terminate the subcontractor's contract immediately to ensure the safety of the rest of the project team.
-- **Distractor 2:** Offer a safety incentive bonus to the subcontractor to encourage them to follow the PPE rules.
-- **Distractor 3:** Hold a mandatory site-wide safety meeting to review the PPE requirements without specifically naming the subcontractor.
+- <strong>Correct:</strong> Formally escalate the violation to the subcontractor's company management and document the safety breach in the project's issue log.
+- <strong>Distractor 1:</strong> Terminate the subcontractor's contract immediately to ensure the safety of the rest of the project team.
+- <strong>Distractor 2:</strong> Offer a safety incentive bonus to the subcontractor to encourage them to follow the PPE rules.
+- <strong>Distractor 3:</strong> Hold a mandatory site-wide safety meeting to review the PPE requirements without specifically naming the subcontractor.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -802,18 +802,18 @@ What is the MOST appropriate next step for the project manager?
 
 ### Question 25
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Scrum team is divided over the best technical approach for a complex data migration. Team A wants a "Big Bang" approach to finish quickly, while Team B wants a "Phased" approach to minimize risk. Both sides have valid technical arguments, but the debate is starting to affect the team's morale.
 
-**Question:**
+<strong>Question:</strong>
 Which conflict resolution action should the Scrum Master facilitate to reach a win-win outcome?
 
-- **Correct:** Facilitate a collaborative session where both sides list the risks and benefits of each approach and jointly create a "Hybrid" migration strategy.
-- **Distractor 1:** Suggest a compromise where they use the "Big Bang" approach for small databases and the "Phased" approach for large ones.
-- **Distractor 2:** Allow the Product Owner to choose the approach that best fits the product's business milestones.
-- **Distractor 3:** Ask each side to present their case to the Architecture Review Board for a final binding decision.
+- <strong>Correct:</strong> Facilitate a collaborative session where both sides list the risks and benefits of each approach and jointly create a "Hybrid" migration strategy.
+- <strong>Distractor 1:</strong> Suggest a compromise where they use the "Big Bang" approach for small databases and the "Phased" approach for large ones.
+- <strong>Distractor 2:</strong> Allow the Product Owner to choose the approach that best fits the product's business milestones.
+- <strong>Distractor 3:</strong> Ask each side to present their case to the Architecture Review Board for a final binding decision.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -831,18 +831,18 @@ Which conflict resolution action should the Scrum Master facilitate to reach a w
 
 ### Question 26
 
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a project that requires significant time from the organization's only Data Scientist. However, the Data Scientist has also been assigned to a high-priority operational task by the Chief Operating Officer. Both the project and the operational task are falling behind due to the Data Scientist's split focus.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager identify the source of this conflict?
 
-- **Correct:** Categorize it as a Resource Conflict stemming from competing priorities and limited availability of specialized talent.
-- **Distractor 1:** Categorize it as a Process Conflict regarding how the Data Scientist's time is tracked between departments.
-- **Distractor 2:** Categorize it as a Personality Conflict between the project manager and the Chief Operating Officer.
-- **Distractor 3:** Categorize it as a Schedule Conflict because the project timeline was not properly aligned with the operational calendar.
+- <strong>Correct:</strong> Categorize it as a Resource Conflict stemming from competing priorities and limited availability of specialized talent.
+- <strong>Distractor 1:</strong> Categorize it as a Process Conflict regarding how the Data Scientist's time is tracked between departments.
+- <strong>Distractor 2:</strong> Categorize it as a Personality Conflict between the project manager and the Chief Operating Officer.
+- <strong>Distractor 3:</strong> Categorize it as a Schedule Conflict because the project timeline was not properly aligned with the operational calendar.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -860,18 +860,18 @@ How should the project manager identify the source of this conflict?
 
 ### Question 27
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using the Thomas-Kilmann Conflict Mode Instrument (TKI) to prepare for a negotiation with a vendor. The PM realizes that the issue is minor (a $500 shipping fee dispute) but the long-term relationship with the vendor is critical for the project's next three phases.
 
-**Question:**
+<strong>Question:</strong>
 Which TKI mode should the project manager prioritize in this specific situation?
 
-- **Correct:** Smooth / Accommodate by yielding on the shipping fee to preserve the critical long-term relationship.
-- **Distractor 1:** Collaborate / Problem Solve to find a way to split the shipping fee while maintaining the relationship.
-- **Distractor 2:** Force / Direct the vendor to pay the fee as per the strict interpretation of the contract's "Incoterms."
-- **Distractor 3:** Withdraw / Avoid the discussion entirely until the end of the project when all fees are reconciled.
+- <strong>Correct:</strong> Smooth / Accommodate by yielding on the shipping fee to preserve the critical long-term relationship.
+- <strong>Distractor 1:</strong> Collaborate / Problem Solve to find a way to split the shipping fee while maintaining the relationship.
+- <strong>Distractor 2:</strong> Force / Direct the vendor to pay the fee as per the strict interpretation of the contract's "Incoterms."
+- <strong>Distractor 3:</strong> Withdraw / Avoid the discussion entirely until the end of the project when all fees are reconciled.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -889,18 +889,18 @@ Which TKI mode should the project manager prioritize in this specific situation?
 
 ### Question 28
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A new Product Owner (PO) is frequently interrupting the development team during the sprint to ask for "just one quick change." This is causing significant conflict within the team, and the developers are pushing back. The PO feels the team is being "uncooperative."
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST effective way for the Scrum Master to communicate conflict management principles in this situation?
 
-- **Correct:** Coach the Product Owner on the agile principle of sprint stability and facilitate a meeting to agree on how "emergency" changes will be handled.
-- **Distractor 1:** Escalate the Product Owner's behavior to the Chief Product Officer to have them formally reprimanded.
-- **Distractor 2:** Direct the development team to accept the changes but add the extra work to the sprint backlog as "unplanned items."
-- **Distractor 3:** Tell the Product Owner that all conflicts will be resolved according to the Scrum Master's final decision during the retrospective.
+- <strong>Correct:</strong> Coach the Product Owner on the agile principle of sprint stability and facilitate a meeting to agree on how "emergency" changes will be handled.
+- <strong>Distractor 1:</strong> Escalate the Product Owner's behavior to the Chief Product Officer to have them formally reprimanded.
+- <strong>Distractor 2:</strong> Direct the development team to accept the changes but add the extra work to the sprint backlog as "unplanned items."
+- <strong>Distractor 3:</strong> Tell the Product Owner that all conflicts will be resolved according to the Scrum Master's final decision during the retrospective.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -918,18 +918,18 @@ What is the MOST effective way for the Scrum Master to communicate conflict mana
 
 ### Question 29
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is negotiating a change order with a difficult customer. The customer is demanding that the extra work be done at no cost, or they will cancel the entire project. The PM knows that canceling the project would result in a $200,000 penalty for the customer, while the change order only costs $20,000.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take in this negotiation?
 
-- **Correct:** Politely point out the $200,000 cancellation penalty (BATNA) and move the focus back to objective criteria like market rates for the extra work.
-- **Distractor 1:** Accept the customer's demand to do the work for free to avoid the risk of project cancellation.
-- **Distractor 2:** Threaten to sue the customer if they attempt to cancel the project over a minor change order.
-- **Distractor 3:** Offer to do the work for half-price as a compromise to keep the project moving forward.
+- <strong>Correct:</strong> Politely point out the $200,000 cancellation penalty (BATNA) and move the focus back to objective criteria like market rates for the extra work.
+- <strong>Distractor 1:</strong> Accept the customer's demand to do the work for free to avoid the risk of project cancellation.
+- <strong>Distractor 2:</strong> Threaten to sue the customer if they attempt to cancel the project over a minor change order.
+- <strong>Distractor 3:</strong> Offer to do the work for half-price as a compromise to keep the project moving forward.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -947,18 +947,18 @@ What is the BEST action for the project manager to take in this negotiation?
 
 ### Question 30
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is experiencing conflict between the Marketing team and the Operations team. Marketing wants to launch a new product in December to capture holiday sales, but Operations insists that the production line won't be ready until February. The disagreement is based on different departmental priorities and performance metrics.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager identify the source of this conflict?
 
-- **Correct:** Categorize it as a Schedule Conflict caused by misaligned departmental goals and conflicting success metrics.
-- **Distractor 1:** Categorize it as a Process Conflict regarding how the production timeline is communicated to the Marketing team.
-- **Distractor 2:** Categorize it as a Technical Conflict over the speed and capacity of the production line.
-- **Distractor 3:** Categorize it as a Resource Conflict because there are not enough staff to run the production line in December.
+- <strong>Correct:</strong> Categorize it as a Schedule Conflict caused by misaligned departmental goals and conflicting success metrics.
+- <strong>Distractor 1:</strong> Categorize it as a Process Conflict regarding how the production timeline is communicated to the Marketing team.
+- <strong>Distractor 2:</strong> Categorize it as a Technical Conflict over the speed and capacity of the production line.
+- <strong>Distractor 3:</strong> Categorize it as a Resource Conflict because there are not enough staff to run the production line in December.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -976,18 +976,18 @@ How should the project manager identify the source of this conflict?
 
 ### Question 31
 
-**Enabler:** 6 | **Methodology:** Agile
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team member consistently shows up 10 minutes late to the Daily Stand-up, disrupting the flow and requiring others to repeat their updates. This is a clear violation of the "Punctuality" ground rule in the team charter. Other team members have started making passive-aggressive comments during the meeting.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the Scrum Master to manage this situation?
 
-- **Correct:** Let the team address the behavior during the next retrospective to allow for peer-based accountability and self-correction.
-- **Distractor 1:** Meet with the individual privately to issue a formal warning and document the behavior in their performance review.
-- **Distractor 2:** Lock the meeting room door exactly when the stand-up starts to prevent latecomers from entering.
-- **Distractor 3:** Ignore the behavior as long as the individual's technical work remains high-quality and they meet their sprint goals.
+- <strong>Correct:</strong> Let the team address the behavior during the next retrospective to allow for peer-based accountability and self-correction.
+- <strong>Distractor 1:</strong> Meet with the individual privately to issue a formal warning and document the behavior in their performance review.
+- <strong>Distractor 2:</strong> Lock the meeting room door exactly when the stand-up starts to prevent latecomers from entering.
+- <strong>Distractor 3:</strong> Ignore the behavior as long as the individual's technical work remains high-quality and they meet their sprint goals.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1005,18 +1005,18 @@ What is the BEST way for the Scrum Master to manage this situation?
 
 ### Question 32
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a software implementation. A conflict arises between the database administrator (DBA) and the security officer regarding the level of encryption required. The DBA argues that high-level encryption will degrade system performance, while the security officer insists it is mandatory for compliance. The PM has limited technical knowledge and the deadline is in two days.
 
-**Question:**
+<strong>Question:</strong>
 Which conflict resolution strategy is the project manager using if they decide to postpone the decision until a third-party audit can be performed next week?
 
-- **Correct:** Withdraw / Avoid by delaying the resolution to gather more data or allow emotions to cool, even if it risks the immediate deadline.
-- **Distractor 1:** Smooth / Accommodate by agreeing with the security officer's compliance requirements to avoid a major audit failure.
-- **Distractor 2:** Force / Direct the DBA to implement the encryption immediately to ensure the project meets the go-live date.
-- **Distractor 3:** Compromise by asking the DBA to implement encryption for only the most sensitive data fields.
+- <strong>Correct:</strong> Withdraw / Avoid by delaying the resolution to gather more data or allow emotions to cool, even if it risks the immediate deadline.
+- <strong>Distractor 1:</strong> Smooth / Accommodate by agreeing with the security officer's compliance requirements to avoid a major audit failure.
+- <strong>Distractor 2:</strong> Force / Direct the DBA to implement the encryption immediately to ensure the project meets the go-live date.
+- <strong>Distractor 3:</strong> Compromise by asking the DBA to implement encryption for only the most sensitive data fields.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1034,18 +1034,18 @@ Which conflict resolution strategy is the project manager using if they decide t
 
 ### Question 33
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a hybrid project where the steering committee consists of high-ranking executives with competing interests. Conflict frequently erupts over which features should be prioritized in the next agile release. One executive is known for being aggressive and dominating the meetings, while another is more reserved but holds the budget power.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager analyze the context of this conflict?
 
-- **Correct:** Analyze the power dynamics and personality styles of the stakeholders to tailor the facilitation of the prioritization session.
-- **Distractor 1:** Categorize the conflict as a pure Schedule Conflict and refer the executives back to the master project schedule.
-- **Distractor 2:** Identify the conflict as a Resource Conflict because the executives are fighting over the development team's capacity.
-- **Distractor 3:** Treat the conflict as a technical disagreement and ask the Lead Architect to make the final feature selection.
+- <strong>Correct:</strong> Analyze the power dynamics and personality styles of the stakeholders to tailor the facilitation of the prioritization session.
+- <strong>Distractor 1:</strong> Categorize the conflict as a pure Schedule Conflict and refer the executives back to the master project schedule.
+- <strong>Distractor 2:</strong> Identify the conflict as a Resource Conflict because the executives are fighting over the development team's capacity.
+- <strong>Distractor 3:</strong> Treat the conflict as a technical disagreement and ask the Lead Architect to make the final feature selection.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1063,18 +1063,18 @@ How should the project manager analyze the context of this conflict?
 
 ### Question 34
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is struggling because the Product Owner frequently changes the acceptance criteria for stories after the sprint has already begun. The developers are frustrated and claim they can't finish their work. The Product Owner argues that the changes are necessary to reflect the latest customer feedback.
 
-**Question:**
+<strong>Question:</strong>
 How should the Scrum Master categorize this conflict?
 
-- **Correct:** Categorize it as a Process Conflict regarding the "Definition of Ready" and the rules for sprint stability.
-- **Distractor 1:** Categorize it as a Task Conflict related to the specific technical requirements of the user stories.
-- **Distractor 2:** Categorize it as a Relationship Conflict between the PO and the development team's leadership.
-- **Distractor 3:** Categorize it as an External Conflict because it is driven by customer feedback.
+- <strong>Correct:</strong> Categorize it as a Process Conflict regarding the "Definition of Ready" and the rules for sprint stability.
+- <strong>Distractor 1:</strong> Categorize it as a Task Conflict related to the specific technical requirements of the user stories.
+- <strong>Distractor 2:</strong> Categorize it as a Relationship Conflict between the PO and the development team's leadership.
+- <strong>Distractor 3:</strong> Categorize it as an External Conflict because it is driven by customer feedback.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1092,18 +1092,18 @@ How should the Scrum Master categorize this conflict?
 
 ### Question 35
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a large, multi-year construction project. To ensure that conflicts don't "fester" or get forgotten, the PM wants to implement a formal way to track significant disputes, their resolutions, and any required follow-up actions.
 
-**Question:**
+<strong>Question:</strong>
 Which tool is the project manager implementing to foster a healthy project environment?
 
-- **Correct:** A Conflict Log to document and identify patterns in recurring project disagreements.
-- **Distractor 1:** A Team Charter to define the ground rules for how people should interact.
-- **Distractor 2:** A RACI Matrix to clarify the roles and responsibilities of each team member.
-- **Distractor 3:** An Issue Log to track all technical and resource hurdles encountered during execution.
+- <strong>Correct:</strong> A Conflict Log to document and identify patterns in recurring project disagreements.
+- <strong>Distractor 1:</strong> A Team Charter to define the ground rules for how people should interact.
+- <strong>Distractor 2:</strong> A RACI Matrix to clarify the roles and responsibilities of each team member.
+- <strong>Distractor 3:</strong> An Issue Log to track all technical and resource hurdles encountered during execution.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1121,18 +1121,18 @@ Which tool is the project manager implementing to foster a healthy project envir
 
 ### Question 36
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is entering a high-stakes negotiation with a vendor who has a "Competitive" (Win-Lose) style. The PM wants to ensure the project gets a fair deal without damaging the long-term relationship needed for future support.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager communicate their conflict management principles during this negotiation?
 
-- **Correct:** Stay principled by using objective criteria (market data, industry standards) and focusing on interests rather than reacting to the vendor's aggressive positions.
-- **Distractor 1:** Adopt a matching "Competitive" style to show the vendor that the project cannot be pushed around.
-- **Distractor 2:** Immediately offer a major compromise to show the vendor that the project values collaboration more than cost.
-- **Distractor 3:** Refuse to negotiate until the vendor agrees to use an "Integrative" (Win-Win) approach.
+- <strong>Correct:</strong> Stay principled by using objective criteria (market data, industry standards) and focusing on interests rather than reacting to the vendor's aggressive positions.
+- <strong>Distractor 1:</strong> Adopt a matching "Competitive" style to show the vendor that the project cannot be pushed around.
+- <strong>Distractor 2:</strong> Immediately offer a major compromise to show the vendor that the project values collaboration more than cost.
+- <strong>Distractor 3:</strong> Refuse to negotiate until the vendor agrees to use an "Integrative" (Win-Win) approach.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1150,18 +1150,18 @@ How should the project manager communicate their conflict management principles 
 
 ### Question 37
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is unable to reach 100% unanimity on which testing tool to adopt. The debate has been going on for two days, and the team is starting to feel frustrated. The Scrum Master needs to facilitate a decision that everyone can support, even if it wasn't their first choice.
 
-**Question:**
+<strong>Question:</strong>
 Which decision-making model should the Scrum Master facilitate?
 
-- **Correct:** Consent-based decision making where the team is asked, "Is there anyone who cannot live with this choice?"
-- **Distractor 1:** Autocratic decision making where the Scrum Master chooses the tool based on their own technical experience.
-- **Distractor 2:** Majority voting where the tool with more than 50% of the votes is selected immediately.
-- **Distractor 3:** Plurality voting where the tool with the most votes is selected, even if it doesn't reach a majority.
+- <strong>Correct:</strong> Consent-based decision making where the team is asked, "Is there anyone who cannot live with this choice?"
+- <strong>Distractor 1:</strong> Autocratic decision making where the Scrum Master chooses the tool based on their own technical experience.
+- <strong>Distractor 2:</strong> Majority voting where the tool with more than 50% of the votes is selected immediately.
+- <strong>Distractor 3:</strong> Plurality voting where the tool with the most votes is selected, even if it doesn't reach a majority.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1179,18 +1179,18 @@ Which decision-making model should the Scrum Master facilitate?
 
 ### Question 38
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A conflict between a junior developer and a senior architect has escalated. They are no longer just arguing about the code (Task Conflict); they are now making personal comments about each other's competence in front of the whole team.
 
-**Question:**
+<strong>Question:</strong>
 Where is this conflict currently located on the conflict escalation ladder?
 
-- **Correct:** It has moved to Level 2 (Private Intervention) or beyond, as it has shifted from a task-based disagreement to a public, personal relationship conflict.
-- **Distractor 1:** It is still at Level 1 (Self-Correction) and the PM should continue to monitor it without jumping in.
-- **Distractor 2:** It has reached Level 5 (Escalation to Sponsor) because personal attacks are a violation of company policy.
-- **Distractor 3:** It is at Level 4 (Formal Authority) and the PM must make a final technical decision to end the debate.
+- <strong>Correct:</strong> It has moved to Level 2 (Private Intervention) or beyond, as it has shifted from a task-based disagreement to a public, personal relationship conflict.
+- <strong>Distractor 1:</strong> It is still at Level 1 (Self-Correction) and the PM should continue to monitor it without jumping in.
+- <strong>Distractor 2:</strong> It has reached Level 5 (Escalation to Sponsor) because personal attacks are a violation of company policy.
+- <strong>Distractor 3:</strong> It is at Level 4 (Formal Authority) and the PM must make a final technical decision to end the debate.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1208,18 +1208,18 @@ Where is this conflict currently located on the conflict escalation ladder?
 
 ### Question 39
 
-**Enabler:** 6 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager notices that the same ground rule violation (interrupting others during virtual meetings) is happening repeatedly despite several private conversations with the offenders. The PM decides to use a feedback loop to address the behavior more systematically.
 
-**Question:**
+<strong>Question:</strong>
 Which action represents a "Managing and Rectifying" feedback loop in this situation?
 
-- **Correct:** Recording the meeting and spending 5 minutes at the end of each session to review the "plus/delta" of the team's adherence to communication ground rules.
-- **Distractor 1:** Installing a software plugin that automatically mutes anyone who speaks for more than two minutes.
-- **Distractor 2:** Sending a daily email to the entire team listing every person who interrupted someone that day.
-- **Distractor 3:** Increasing the penalty for interruptions by requiring offenders to donate to a team "snack fund."
+- <strong>Correct:</strong> Recording the meeting and spending 5 minutes at the end of each session to review the "plus/delta" of the team's adherence to communication ground rules.
+- <strong>Distractor 1:</strong> Installing a software plugin that automatically mutes anyone who speaks for more than two minutes.
+- <strong>Distractor 2:</strong> Sending a daily email to the entire team listing every person who interrupted someone that day.
+- <strong>Distractor 3:</strong> Increasing the penalty for interruptions by requiring offenders to donate to a team "snack fund."
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1237,18 +1237,18 @@ Which action represents a "Managing and Rectifying" feedback loop in this situat
 
 ### Question 40
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a retrospective, a developer says, "I'm having a lot of conflict with the legacy API. It keeps returning 'unauthorized' errors even when my credentials are correct. It's blocking my progress."
 
-**Question:**
+<strong>Question:</strong>
 Is the Scrum Master correct to treat this as a "People Task 2: Manage Conflict" issue?
 
-- **Correct:** No, this is an "Impediment" (Technical Issue), not a conflict between people. It should be managed as a technical hurdle to be removed.
-- **Distractor 1:** Yes, it is a conflict between the developer and the API's technical owner.
-- **Distractor 2:** Yes, any disagreement or hurdle that causes frustration should be handled using the conflict resolution ladder.
-- **Distractor 3:** No, because the developer hasn't expressed enough emotion for it to be considered a true conflict.
+- <strong>Correct:</strong> No, this is an "Impediment" (Technical Issue), not a conflict between people. It should be managed as a technical hurdle to be removed.
+- <strong>Distractor 1:</strong> Yes, it is a conflict between the developer and the API's technical owner.
+- <strong>Distractor 2:</strong> Yes, any disagreement or hurdle that causes frustration should be handled using the conflict resolution ladder.
+- <strong>Distractor 3:</strong> No, because the developer hasn't expressed enough emotion for it to be considered a true conflict.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1266,18 +1266,18 @@ Is the Scrum Master correct to treat this as a "People Task 2: Manage Conflict" 
 
 ### Question 41
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project is facing a deadlock between the Agile development team and the Predictive compliance department. The dev team wants to release a feature early to get user feedback, but compliance insists that the full documentation must be reviewed before any code leaves the environment. The project manager needs a resolution that doesn't significantly delay the feedback loop.
 
-**Question:**
+<strong>Question:</strong>
 Which action represents a Compromise in this situation?
 
-- **Correct:** Agreeing to release the feature to a limited test group today if the compliance team accepts an abbreviated documentation set now.
-- **Distractor 1:** Forcing the development team to wait until the full documentation is complete to avoid any legal or compliance risks.
-- **Distractor 2:** Collaborating to automate the documentation process so that it is completed simultaneously with the code.
-- **Distractor 3:** Smoothing over the issue by reminding both teams that the customer's satisfaction is the ultimate goal.
+- <strong>Correct:</strong> Agreeing to release the feature to a limited test group today if the compliance team accepts an abbreviated documentation set now.
+- <strong>Distractor 1:</strong> Forcing the development team to wait until the full documentation is complete to avoid any legal or compliance risks.
+- <strong>Distractor 2:</strong> Collaborating to automate the documentation process so that it is completed simultaneously with the code.
+- <strong>Distractor 3:</strong> Smoothing over the issue by reminding both teams that the customer's satisfaction is the ultimate goal.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1295,18 +1295,18 @@ Which action represents a Compromise in this situation?
 
 ### Question 42
 
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is choosing a name for their new internal project. There are five different suggestions. After a quick discussion, the team decides to vote. The suggestion "Project Phoenix" gets 4 votes, while the other four suggestions each get 2 votes.
 
-**Question:**
+<strong>Question:</strong>
 Which decision-making model resulted in the selection of "Project Phoenix"?
 
-- **Correct:** Plurality, as it received the largest number of votes but did not achieve a majority (more than 50%).
-- **Distractor 1:** Majority, as it had more votes than any other single option.
-- **Distractor 2:** Consensus, as everyone agreed to follow the results of the vote.
-- **Distractor 3:** Unanimity, as the team chose to move forward with the winner.
+- <strong>Correct:</strong> Plurality, as it received the largest number of votes but did not achieve a majority (more than 50%).
+- <strong>Distractor 1:</strong> Majority, as it had more votes than any other single option.
+- <strong>Distractor 2:</strong> Consensus, as everyone agreed to follow the results of the vote.
+- <strong>Distractor 3:</strong> Unanimity, as the team chose to move forward with the winner.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1324,18 +1324,18 @@ Which decision-making model resulted in the selection of "Project Phoenix"?
 
 ### Question 43
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is negotiating with a vendor for 100 laptops. The vendor's absolute minimum price (reservation point) is $80,000. The project's maximum budget for this purchase (reservation point) is $95,000.
 
-**Question:**
+<strong>Question:</strong>
 What is the range between $80,000 and $95,000 called in negotiation theory?
 
-- **Correct:** The ZOPA (Zone of Possible Agreement).
-- **Distractor 1:** The BATNA (Best Alternative to a Negotiated Agreement).
-- **Distractor 2:** The Aspiration Point overlap.
-- **Distractor 3:** The Target Price range.
+- <strong>Correct:</strong> The ZOPA (Zone of Possible Agreement).
+- <strong>Distractor 1:</strong> The BATNA (Best Alternative to a Negotiated Agreement).
+- <strong>Distractor 2:</strong> The Aspiration Point overlap.
+- <strong>Distractor 3:</strong> The Target Price range.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1353,18 +1353,18 @@ What is the range between $80,000 and $95,000 called in negotiation theory?
 
 ### Question 44
 
-**Enabler:** 6 | **Methodology:** Agile
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a retrospective, a junior developer becomes emotional and starts crying because of the "harsh" feedback they received from a senior member during a peer review. The senior member responds, "I'm just being honest; that's our ground rule."
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate way for the Scrum Master to manage this situation?
 
-- **Correct:** Call for a short break to allow the junior developer to recover, then facilitate a private discussion with both parties to reframe the "honesty" ground rule to include "constructive and respectful delivery."
-- **Distractor 1:** Remind the junior developer that they need to develop a "thicker skin" to survive in a high-performing agile team.
-- **Distractor 2:** Reprimand the senior member publicly in the retrospective to show the team that emotional damage will not be tolerated.
-- **Distractor 3:** Remove peer reviews from the team's process until everyone has completed emotional intelligence training.
+- <strong>Correct:</strong> Call for a short break to allow the junior developer to recover, then facilitate a private discussion with both parties to reframe the "honesty" ground rule to include "constructive and respectful delivery."
+- <strong>Distractor 1:</strong> Remind the junior developer that they need to develop a "thicker skin" to survive in a high-performing agile team.
+- <strong>Distractor 2:</strong> Reprimand the senior member publicly in the retrospective to show the team that emotional damage will not be tolerated.
+- <strong>Distractor 3:</strong> Remove peer reviews from the team's process until everyone has completed emotional intelligence training.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1382,18 +1382,18 @@ What is the MOST appropriate way for the Scrum Master to manage this situation?
 
 ### Question 45
 
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a large-scale ERP implementation. The internal IT team is in conflict with the external implementation partner. The IT team claims the partner is "ignoring our legacy constraints," while the partner claims the IT team is "resistant to the new system's standard best practices."
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager identify the source of this conflict?
 
-- **Correct:** Categorize it as a Task Conflict related to the technical approach (Standard vs. Legacy) and the definition of project success.
-- **Distractor 1:** Categorize it as a Personality Conflict between the IT Lead and the Partner's Project Manager.
-- **Distractor 2:** Categorize it as a Resource Conflict because both teams are competing for the same test environment.
-- **Distractor 3:** Categorize it as a Business Environment conflict because of the external partner's profit-driven motives.
+- <strong>Correct:</strong> Categorize it as a Task Conflict related to the technical approach (Standard vs. Legacy) and the definition of project success.
+- <strong>Distractor 1:</strong> Categorize it as a Personality Conflict between the IT Lead and the Partner's Project Manager.
+- <strong>Distractor 2:</strong> Categorize it as a Resource Conflict because both teams are competing for the same test environment.
+- <strong>Distractor 3:</strong> Categorize it as a Business Environment conflict because of the external partner's profit-driven motives.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1411,18 +1411,18 @@ How should the project manager identify the source of this conflict?
 
 ### Question 46
 
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is resolving a conflict between the marketing department and the production department. Marketing wants a custom-colored housing for the new product, which will increase sales by an estimated 10%. Production argues that custom colors will slow down the manufacturing line by 15% and increase costs. Both departments have agreed to a three-hour meeting to find the best solution for the company.
 
-**Question:**
+<strong>Question:</strong>
 Using the Thomas-Kilmann Instrument (TKI), which mode is the project manager facilitating if they lead the departments through a cost-benefit analysis of all options to find a shared solution?
 
-- **Correct:** Collaborate / Problem Solve, as it involves a high concern for both parties' goals and a commitment to finding the best overall solution.
-- **Distractor 1:** Compromise / Reconcile, as they will likely end up somewhere in the middle.
-- **Distractor 2:** Smooth / Accommodate, as the PM is trying to maintain harmony between the departments.
-- **Distractor 3:** Force / Direct, as the cost-benefit analysis will dictate the final answer.
+- <strong>Correct:</strong> Collaborate / Problem Solve, as it involves a high concern for both parties' goals and a commitment to finding the best overall solution.
+- <strong>Distractor 1:</strong> Compromise / Reconcile, as they will likely end up somewhere in the middle.
+- <strong>Distractor 2:</strong> Smooth / Accommodate, as the PM is trying to maintain harmony between the departments.
+- <strong>Distractor 3:</strong> Force / Direct, as the cost-benefit analysis will dictate the final answer.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1440,18 +1440,18 @@ Using the Thomas-Kilmann Instrument (TKI), which mode is the project manager fac
 
 ### Question 47
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is consistently arguing about "who should update the Jira tickets." The developers feel it's the Scrum Master's job to keep the board clean, while the Scrum Master argues that the developers should update their own stories to ensure accuracy and self-organization.
 
-**Question:**
+<strong>Question:</strong>
 How should the Scrum Master analyze the context of this conflict?
 
-- **Correct:** Analyze it as a Process Conflict related to the team's working agreements and role definitions.
-- **Distractor 1:** Analyze it as a Task Conflict related to the specific technical details of the Jira tickets.
-- **Distractor 2:** Analyze it as a Relationship Conflict stemming from the developers' lack of respect for the Scrum Master.
-- **Distractor 3:** Analyze it as a Resource Conflict because everyone is too busy to do the administrative work.
+- <strong>Correct:</strong> Analyze it as a Process Conflict related to the team's working agreements and role definitions.
+- <strong>Distractor 1:</strong> Analyze it as a Task Conflict related to the specific technical details of the Jira tickets.
+- <strong>Distractor 2:</strong> Analyze it as a Relationship Conflict stemming from the developers' lack of respect for the Scrum Master.
+- <strong>Distractor 3:</strong> Analyze it as a Resource Conflict because everyone is too busy to do the administrative work.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1469,18 +1469,18 @@ How should the Scrum Master analyze the context of this conflict?
 
 ### Question 48
 
-**Enabler:** 5 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is onboarding a new group of stakeholders to a hybrid project that has been running for six months. The existing team has very strong ground rules and a well-established culture. The PM is concerned that the new stakeholders might inadvertently cause conflict by not following these established norms.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take to maintain the healthy environment?
 
-- **Correct:** Provide the new stakeholders with the existing Team Charter and host a brief orientation session to explain the "why" behind the project's ground rules.
-- **Distractor 1:** Ask the new stakeholders to sign a formal code of conduct agreement before they are allowed to attend any meetings.
-- **Distractor 2:** Wait for the first conflict to occur and then use it as a "teachable moment" to explain the ground rules.
-- **Distractor 3:** Assign each new stakeholder a "mentor" from the existing team whose sole job is to correct their behavior.
+- <strong>Correct:</strong> Provide the new stakeholders with the existing Team Charter and host a brief orientation session to explain the "why" behind the project's ground rules.
+- <strong>Distractor 1:</strong> Ask the new stakeholders to sign a formal code of conduct agreement before they are allowed to attend any meetings.
+- <strong>Distractor 2:</strong> Wait for the first conflict to occur and then use it as a "teachable moment" to explain the ground rules.
+- <strong>Distractor 3:</strong> Assign each new stakeholder a "mentor" from the existing team whose sole job is to correct their behavior.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1498,18 +1498,18 @@ What is the BEST action for the project manager to take to maintain the healthy 
 
 ### Question 49
 
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager wants to ensure that all conflict management efforts are transparent and that stakeholders are kept informed of how significant disputes are being handled.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate way to communicate conflict management principles and status to stakeholders?
 
-- **Correct:** Include a summary of high-level project risks and significant resolved/pending conflicts in the monthly status report.
-- **Distractor 1:** Send the full, detailed Conflict Log to all stakeholders every Friday to ensure total transparency.
-- **Distractor 2:** Only communicate conflicts when they have reached the level of formal escalation to the project sponsor.
-- **Distractor 3:** Host a town-hall style meeting every month where all project conflicts are debated in front of all stakeholders.
+- <strong>Correct:</strong> Include a summary of high-level project risks and significant resolved/pending conflicts in the monthly status report.
+- <strong>Distractor 1:</strong> Send the full, detailed Conflict Log to all stakeholders every Friday to ensure total transparency.
+- <strong>Distractor 2:</strong> Only communicate conflicts when they have reached the level of formal escalation to the project sponsor.
+- <strong>Distractor 3:</strong> Host a town-hall style meeting every month where all project conflicts are debated in front of all stakeholders.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1527,18 +1527,18 @@ What is the MOST appropriate way to communicate conflict management principles a
 
 ### Question 50
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Scrum team is stuck in a conflict regarding the implementation of a new security feature. The Product Owner uses the WIN Framework to facilitate a resolution.
 
-**Question:**
+<strong>Question:</strong>
 What does the "I" in the WIN Framework stand for in this context?
 
-- **Correct:** Interests — understanding the underlying needs of both the developers and the customers.
-- **Distractor 1:** Implementation — deciding on the specific technical steps to resolve the conflict.
-- **Distractor 2:** Individuals — focusing on the specific people involved in the disagreement.
-- **Distractor 3:** Integration — finding a way to merge the different security ideas into one plan.
+- <strong>Correct:</strong> Interests — understanding the underlying needs of both the developers and the customers.
+- <strong>Distractor 1:</strong> Implementation — deciding on the specific technical steps to resolve the conflict.
+- <strong>Distractor 2:</strong> Individuals — focusing on the specific people involved in the disagreement.
+- <strong>Distractor 3:</strong> Integration — finding a way to merge the different security ideas into one plan.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1556,9 +1556,9 @@ What does the "I" in the WIN Framework stand for in this context?
 
 ## Key Takeaways: Conflict Management Pro-Tips
 
-1. **Collaborate by Default:** On the PMP exam, **Collaborate / Problem Solve** is almost always the best answer unless there is an emergency (Force) or emotions are too high (Withdraw temporarily).
-2. **Interests over Positions:** Move the conversation from what people want (Positions) to **why** they want it (Interests). This "Integrative Negotiation" expands the options available.
-3. **Process over Personality:** Most conflicts that look like "personality clashes" are actually rooted in unclear roles (RACI), vague requirements, or inconsistent processes. Fix the system first.
-4. **Ground Rules are the Shield:** Prevention is your best tool. Establish ground rules in the **Team Charter** early and use them to maintain professional behavior throughout the project.
-5. **The Escalation Ladder:** Follow the steps: 1. Let the team solve it. 2. Private 1-on-1. 3. Facilitated Collaboration. 4. PM Decision. 5. Formal Escalation. Never skip steps unless safety is at risk.
-6. **Know your BATNA:** Before any negotiation, know your **Best Alternative to a Negotiated Agreement**. It defines your leverage and your walk-away point.
+1. <strong>Collaborate by Default:</strong> On the PMP exam, **Collaborate / Problem Solve** is almost always the best answer unless there is an emergency (Force) or emotions are too high (Withdraw temporarily).
+2. <strong>Interests over Positions:</strong> Move the conversation from what people want (Positions) to **why** they want it (Interests). This "Integrative Negotiation" expands the options available.
+3. <strong>Process over Personality:</strong> Most conflicts that look like "personality clashes" are actually rooted in unclear roles (RACI), vague requirements, or inconsistent processes. Fix the system first.
+4. <strong>Ground Rules are the Shield:</strong> Prevention is your best tool. Establish ground rules in the **Team Charter** early and use them to maintain professional behavior throughout the project.
+5. <strong>The Escalation Ladder:</strong> Follow the steps: 1. Let the team solve it. 2. Private 1-on-1. 3. Facilitated Collaboration. 4. PM Decision. 5. Formal Escalation. Never skip steps unless safety is at risk.
+6. <strong>Know your BATNA:</strong> Before any negotiation, know your **Best Alternative to a Negotiated Agreement**. It defines your leverage and your walk-away point.

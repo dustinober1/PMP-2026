@@ -52,18 +52,18 @@
 ---
 
 ### Question 1
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team that has worked together for six months is consistently meeting its milestones, but the Project Manager notices that members have become hesitant to challenge each other's technical assumptions. During a recent design review, a major architectural flaw was overlooked because the junior members did not want to "disrupt the flow" or offend the senior leads. The project is currently in a steady state of execution with high trust levels among the senior staff.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate leadership style for the Project Manager to adopt to address this situation?
 
-- **Correct:** Shift toward a Supporting style (S3) to facilitate healthy conflict and psychological safety.
-- **Distractor 1:** Maintain a Delegating style (S4) since the team is high-performing and meeting all schedule baselines.
-- **Distractor 2:** Revert to a Directing style (S1) to mandate stricter review protocols and ensure technical accuracy.
-- **Distractor 3:** Adopt a Coaching style (S2) to provide more technical guidance to the junior members of the team.
+- <strong>Correct:</strong> Shift toward a Supporting style (S3) to facilitate healthy conflict and psychological safety.
+- <strong>Distractor 1:</strong> Maintain a Delegating style (S4) since the team is high-performing and meeting all schedule baselines.
+- <strong>Distractor 2:</strong> Revert to a Directing style (S1) to mandate stricter review protocols and ensure technical accuracy.
+- <strong>Distractor 3:</strong> Adopt a Coaching style (S2) to provide more technical guidance to the junior members of the team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -80,18 +80,18 @@ What is the MOST appropriate leadership style for the Project Manager to adopt t
 ---
 
 ### Question 2
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a sprint retrospective, several developers express frustration that the Product Owner is frequently changing the acceptance criteria of stories that are already "In Progress." This behavior is causing rework and preventing the team from reaching their predicted velocity. The team feels their autonomy is being undermined and is beginning to wait for explicit instructions before starting any new tasks.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action the Project Manager (Scrum Master) should take to empower the team?
 
-- **Correct:** Facilitate a meeting between the team and the Product Owner to reinforce the Definition of Ready and the rules of the sprint.
-- **Distractor 1:** Escalate the Product Owner's behavior to the Project Sponsor to protect the team from further interruptions.
-- **Distractor 2:** Advise the team to ignore the mid-sprint changes and only deliver what was agreed upon during planning.
-- **Distractor 3:** Extend the sprint duration to accommodate the additional rework without impacting the team's velocity metrics.
+- <strong>Correct:</strong> Facilitate a meeting between the team and the Product Owner to reinforce the Definition of Ready and the rules of the sprint.
+- <strong>Distractor 1:</strong> Escalate the Product Owner's behavior to the Project Sponsor to protect the team from further interruptions.
+- <strong>Distractor 2:</strong> Advise the team to ignore the mid-sprint changes and only deliver what was agreed upon during planning.
+- <strong>Distractor 3:</strong> Extend the sprint duration to accommodate the additional rework without impacting the team's velocity metrics.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -108,18 +108,18 @@ What is the FIRST action the Project Manager (Scrum Master) should take to empow
 ---
 
 ### Question 3
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project involves a predictive hardware engineering team and an agile software development team. During the first integration milestone, the hardware team discovers that the software team's API does not meet the technical specifications defined in the initial project charter. The software team argues that they adapted the API based on user feedback during their third sprint, which was not communicated to the hardware group.
 
-**Question:**
+<strong>Question:</strong>
 What action should the Project Manager take to establish better expectations at the team level?
 
-- **Correct:** Facilitate a session to create a unified Team Charter that defines cross-team communication protocols and integration synchronization points.
-- **Distractor 1:** Update the Project Management Plan to mandate that the software team follows the hardware team's predictive schedule.
-- **Distractor 2:** Request that the Product Owner prioritize the hardware team's technical specifications over user feedback in the backlog.
-- **Distractor 3:** Assign a dedicated liaison from each team to manage all technical communication and approve any changes.
+- <strong>Correct:</strong> Facilitate a session to create a unified Team Charter that defines cross-team communication protocols and integration synchronization points.
+- <strong>Distractor 1:</strong> Update the Project Management Plan to mandate that the software team follows the hardware team's predictive schedule.
+- <strong>Distractor 2:</strong> Request that the Product Owner prioritize the hardware team's technical specifications over user feedback in the backlog.
+- <strong>Distractor 3:</strong> Assign a dedicated liaison from each team to manage all technical communication and approve any changes.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -136,18 +136,18 @@ What action should the Project Manager take to establish better expectations at 
 ---
 
 ### Question 4
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 An experienced team member responsible for a critical path task has suddenly become disengaged, missing several internal deadlines and failing to respond to messages from other team members. The Project Manager has confirmed that the individual's hygiene factors (pay, benefits, and safety) are all met. The individual previously expressed a desire to learn new cloud architecture skills but has been assigned to legacy system maintenance for the last four months.
 
-**Question:**
+<strong>Question:</strong>
 Based on Motivational Theory, what is the BEST way for the Project Manager to solve this performance problem?
 
-- **Correct:** Provide a stretch assignment involving cloud architecture to address the individual's need for growth and mastery.
-- **Distractor 1:** Implement a formal Performance Improvement Plan (PIP) with clear milestones to ensure the critical path is maintained.
-- **Distractor 2:** Offer a one-time performance bonus to incentivize the completion of the legacy maintenance tasks.
-- **Distractor 3:** Meet with the functional manager to request a replacement for the resource to avoid project delays.
+- <strong>Correct:</strong> Provide a stretch assignment involving cloud architecture to address the individual's need for growth and mastery.
+- <strong>Distractor 1:</strong> Implement a formal Performance Improvement Plan (PIP) with clear milestones to ensure the critical path is maintained.
+- <strong>Distractor 2:</strong> Offer a one-time performance bonus to incentivize the completion of the legacy maintenance tasks.
+- <strong>Distractor 3:</strong> Meet with the functional manager to request a replacement for the resource to avoid project delays.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -164,18 +164,18 @@ Based on Motivational Theory, what is the BEST way for the Project Manager to so
 ---
 
 ### Question 5
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A cross-functional agile team consists of members from four different countries and three different time zones. During the first three sprints, the Project Manager observes that the members from the headquarters location dominate the daily standups, while the remote members rarely contribute and often have their cameras turned off. The remote members have recently begun to miss their story commitments.
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager support the team's varied experiences and perspectives?
 
-- **Correct:** Establish core overlap hours and use a "Remote-First" communication strategy where all key discussions are recorded or in writing.
-- **Distractor 1:** Mandate that all team members must have their cameras on during all ceremonies to ensure engagement and visibility.
-- **Distractor 2:** Schedule all team meetings during the headquarters' business hours to ensure the majority of the team can participate.
-- **Distractor 3:** Divide the team into two sub-teams based on geography to reduce communication friction and time zone delays.
+- <strong>Correct:</strong> Establish core overlap hours and use a "Remote-First" communication strategy where all key discussions are recorded or in writing.
+- <strong>Distractor 1:</strong> Mandate that all team members must have their cameras on during all ceremonies to ensure engagement and visibility.
+- <strong>Distractor 2:</strong> Schedule all team meetings during the headquarters' business hours to ensure the majority of the team can participate.
+- <strong>Distractor 3:</strong> Divide the team into two sub-teams based on geography to reduce communication friction and time zone delays.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -192,18 +192,18 @@ How should the Project Manager support the team's varied experiences and perspec
 ---
 
 ### Question 6
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 The Project Sponsor frequently contacts individual developers directly to ask for "quick fixes" or status updates, bypassing the Project Manager. These interruptions are causing context-switching and a 15% increase in team stress. The Project Manager has already mentioned the communication plan in a general meeting, but the behavior continues.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST effective way for the Project Manager to represent the voice of the team?
 
-- **Correct:** Meet privately with the Sponsor to explain the impact of interruptions on productivity and reinforce the Work Authorization System.
-- **Distractor 1:** Instruct the team to ignore all direct requests from the Sponsor and refer them back to the Project Manager.
-- **Distractor 2:** Create a dedicated "Sponsor Support" role within the team to handle all direct requests without involving others.
-- **Distractor 3:** Document the interruptions in the Issue Log and present the data at the next Steering Committee meeting.
+- <strong>Correct:</strong> Meet privately with the Sponsor to explain the impact of interruptions on productivity and reinforce the Work Authorization System.
+- <strong>Distractor 1:</strong> Instruct the team to ignore all direct requests from the Sponsor and refer them back to the Project Manager.
+- <strong>Distractor 2:</strong> Create a dedicated "Sponsor Support" role within the team to handle all direct requests without involving others.
+- <strong>Distractor 3:</strong> Document the interruptions in the Issue Log and present the data at the next Steering Committee meeting.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -220,18 +220,18 @@ What is the MOST effective way for the Project Manager to represent the voice of
 ---
 
 ### Question 7
-**Enabler:** 7 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, the quality assurance (QA) team is struggling to keep up with the agile development team. The QA lead complains that they are often not told when a feature is ready for testing until the very end of the sprint, leading to a bottleneck. The development team claims that they don't have time to update the testing log because they are focused on meeting the sprint goal.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action to establish clear roles and responsibilities?
 
-- **Correct:** Facilitate a session to update the RACI matrix and include QA "Sign-off" as a mandatory part of the Definition of Done.
-- **Distractor 1:** Hire additional QA testers to match the velocity of the development team and reduce the bottleneck.
-- **Distractor 2:** Instruct the QA team to wait until the end of every two sprints to perform a large batch of regression testing.
-- **Distractor 3:** Tell the developers to stop coding three days before the end of the sprint to allow QA to catch up.
+- <strong>Correct:</strong> Facilitate a session to update the RACI matrix and include QA "Sign-off" as a mandatory part of the Definition of Done.
+- <strong>Distractor 1:</strong> Hire additional QA testers to match the velocity of the development team and reduce the bottleneck.
+- <strong>Distractor 2:</strong> Instruct the QA team to wait until the end of every two sprints to perform a large batch of regression testing.
+- <strong>Distractor 3:</strong> Tell the developers to stop coding three days before the end of the sprint to allow QA to catch up.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -248,18 +248,18 @@ What is the BEST action to establish clear roles and responsibilities?
 ---
 
 ### Question 8
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A senior developer on an agile team is "cherry-picking" the most interesting and complex tasks from the sprint backlog, leaving repetitive tasks for the junior members. This is causing resentment and preventing the junior members from developing the skills needed for complex work. The senior developer argues that they are the most efficient person for the difficult tasks.
 
-**Question:**
+<strong>Question:</strong>
 What action should the Project Manager (Scrum Master) take to solve this problem?
 
-- **Correct:** Facilitate a team discussion during the next retrospective to review the team charter and the principle of shared accountability.
-- **Distractor 1:** Assign specific tasks to each team member during sprint planning to ensure an even distribution of work.
-- **Distractor 2:** Publicly recognize the senior developer's efficiency to motivate the junior members to work harder.
-- **Distractor 3:** Remove the senior developer from the team to protect the morale and development of the other members.
+- <strong>Correct:</strong> Facilitate a team discussion during the next retrospective to review the team charter and the principle of shared accountability.
+- <strong>Distractor 1:</strong> Assign specific tasks to each team member during sprint planning to ensure an even distribution of work.
+- <strong>Distractor 2:</strong> Publicly recognize the senior developer's efficiency to motivate the junior members to work harder.
+- <strong>Distractor 3:</strong> Remove the senior developer from the team to protect the morale and development of the other members.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -276,18 +276,18 @@ What action should the Project Manager (Scrum Master) take to solve this problem
 ---
 
 ### Question 9
-**Enabler:** 6 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project has transitioned from a predictive model to a hybrid model. The core infrastructure team, which remains predictive, is confused about why the requirements keep changing. They have started to refuse any work requests that are not accompanied by a formal, approved change request from the CCB.
 
-**Question:**
+<strong>Question:</strong>
 What leadership style should the Project Manager adopt to resolve this conflict?
 
-- **Correct:** Coaching (S2) to explain the "why" behind the hybrid model and facilitate collaboration between the two groups.
-- **Distractor 1:** Directing (S1) to mandate that the infrastructure team must accept all requests from the agile team without formal approval.
-- **Distractor 2:** Supporting (S3) to allow the teams to find their own way of working without direct management intervention.
-- **Distractor 3:** Delegating (S4) since both teams are technically competent and have their own internal leads.
+- <strong>Correct:</strong> Coaching (S2) to explain the "why" behind the hybrid model and facilitate collaboration between the two groups.
+- <strong>Distractor 1:</strong> Directing (S1) to mandate that the infrastructure team must accept all requests from the agile team without formal approval.
+- <strong>Distractor 2:</strong> Supporting (S3) to allow the teams to find their own way of working without direct management intervention.
+- <strong>Distractor 3:</strong> Delegating (S4) since both teams are technically competent and have their own internal leads.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -304,18 +304,18 @@ What leadership style should the Project Manager adopt to resolve this conflict?
 ---
 
 ### Question 10
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a kickoff, two key functional managers disagree on who has the authority to approve the final safety documentation. This disagreement is creating tension among the team members, and the project schedule is at risk.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST thing the Project Manager should do to establish clear expectations?
 
-- **Correct:** Consult the Project Charter and the organizational governance guidelines to clarify the decision-making authority.
-- **Distractor 1:** Ask the Project Sponsor to make a final decision on which functional manager has the authority.
-- **Distractor 2:** Facilitate a voting session among the team members to decide which manager they prefer to work with.
-- **Distractor 3:** Document the disagreement in the Risk Register and continue with the project until the first milestone.
+- <strong>Correct:</strong> Consult the Project Charter and the organizational governance guidelines to clarify the decision-making authority.
+- <strong>Distractor 1:</strong> Ask the Project Sponsor to make a final decision on which functional manager has the authority.
+- <strong>Distractor 2:</strong> Facilitate a voting session among the team members to decide which manager they prefer to work with.
+- <strong>Distractor 3:</strong> Document the disagreement in the Risk Register and continue with the project until the first milestone.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -332,18 +332,18 @@ What is the FIRST thing the Project Manager should do to establish clear expecta
 ---
 
 ### Question 11
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Scrum team is struggling to finish their tasks by the end of each sprint. The Project Manager notices that team members wait for the daily standup to report blockers, even when they occur early in the afternoon of the previous day. The team says they don't want to "interrupt the flow of others."
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager do to empower the team to solve problems more effectively?
 
-- **Correct:** Encourage the team to use a "Stop the Line" mentality where impediments are raised and addressed immediately.
-- **Distractor 1:** Implement a more detailed status reporting system where team members must update their blockers every four hours.
-- **Distractor 2:** Act as the primary contact for all blockers and promise to resolve any issue within two hours of it being reported.
-- **Distractor 3:** Schedule a second daily standup in the afternoon to catch any blockers that occurred during the morning.
+- <strong>Correct:</strong> Encourage the team to use a "Stop the Line" mentality where impediments are raised and addressed immediately.
+- <strong>Distractor 1:</strong> Implement a more detailed status reporting system where team members must update their blockers every four hours.
+- <strong>Distractor 2:</strong> Act as the primary contact for all blockers and promise to resolve any issue within two hours of it being reported.
+- <strong>Distractor 3:</strong> Schedule a second daily standup in the afternoon to catch any blockers that occurred during the morning.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -360,18 +360,18 @@ What should the Project Manager do to empower the team to solve problems more ef
 ---
 
 ### Question 12
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team includes a senior technical expert who frequently dismisses the ideas of younger team members. As a result, the younger members have stopped contributing, and the Project Manager is concerned that the project is missing out on innovative solutions.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the Project Manager to take to support varied perspectives?
 
-- **Correct:** Meet with the expert privately to discuss the importance of psychological safety and mentor them on inclusive leadership.
-- **Distractor 1:** Publicly reprimand the senior expert during the next meeting to show the team that dismissing ideas is not tolerated.
-- **Distractor 2:** Create a separate "innovation task force" that only includes the younger members to work without interference.
-- **Distractor 3:** Ignore the behavior as long as the senior expert continues to deliver high-quality technical work on schedule.
+- <strong>Correct:</strong> Meet with the expert privately to discuss the importance of psychological safety and mentor them on inclusive leadership.
+- <strong>Distractor 1:</strong> Publicly reprimand the senior expert during the next meeting to show the team that dismissing ideas is not tolerated.
+- <strong>Distractor 2:</strong> Create a separate "innovation task force" that only includes the younger members to work without interference.
+- <strong>Distractor 3:</strong> Ignore the behavior as long as the senior expert continues to deliver high-quality technical work on schedule.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -388,18 +388,18 @@ What is the BEST action for the Project Manager to take to support varied perspe
 ---
 
 ### Question 13
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 The organization is undergoing a major budget cut, and there are rumors that the project might be cancelled. The team members are anxious, leading to a drop in productivity. The Project Manager has no definitive information from the leadership yet but is being asked by the team for updates.
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager represent the voice of the team in this situation?
 
-- **Correct:** Proactively advocate for the project's value to leadership while being transparent with the team about what is currently known.
-- **Distractor 1:** Tell the team that their jobs are safe to maintain morale, even though no such guarantee has been given.
-- **Distractor 2:** Instruct the team to focus only on their work and stop asking questions about the budget to prevent distraction.
-- **Distractor 3:** Wait until a formal decision is made by the leadership before communicating anything to the team.
+- <strong>Correct:</strong> Proactively advocate for the project's value to leadership while being transparent with the team about what is currently known.
+- <strong>Distractor 1:</strong> Tell the team that their jobs are safe to maintain morale, even though no such guarantee has been given.
+- <strong>Distractor 2:</strong> Instruct the team to focus only on their work and stop asking questions about the budget to prevent distraction.
+- <strong>Distractor 3:</strong> Wait until a formal decision is made by the leadership before communicating anything to the team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -416,18 +416,18 @@ How should the Project Manager represent the voice of the team in this situation
 ---
 
 ### Question 14
-**Enabler:** 7 | **Methodology:** Predictive
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project is falling behind because team members are unsure of who needs to approve their work. The current RACI chart hasn't been updated to reflect recent staff changes and a change in the quality review process.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager do to establish clear roles and responsibilities?
 
-- **Correct:** Lead a collaborative session with the current team to update the RACI matrix and confirm everyone's understanding.
-- **Distractor 1:** Individually assign approval authority to the most senior person in each functional area and notify the team via email.
-- **Distractor 2:** Tell the team to continue as they are for now and wait for the next phase gate to update the project documentation.
-- **Distractor 3:** Hire a dedicated Quality Manager to handle all approvals and remove the burden from the technical team.
+- <strong>Correct:</strong> Lead a collaborative session with the current team to update the RACI matrix and confirm everyone's understanding.
+- <strong>Distractor 1:</strong> Individually assign approval authority to the most senior person in each functional area and notify the team via email.
+- <strong>Distractor 2:</strong> Tell the team to continue as they are for now and wait for the next phase gate to update the project documentation.
+- <strong>Distractor 3:</strong> Hire a dedicated Quality Manager to handle all approvals and remove the burden from the technical team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -444,18 +444,18 @@ What should the Project Manager do to establish clear roles and responsibilities
 ---
 
 ### Question 15
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project team is using a Kanban board. The Project Manager notices that the "Testing" column has ten items, while the "In Progress" column has only two. Developers are starting new tasks because they say they are "not testers."
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager solve this problem to maintain the flow of work?
 
-- **Correct:** Facilitate a team meeting to establish "Work in Progress" (WIP) limits and encourage "Swarming" to clear the bottleneck.
-- **Distractor 1:** Hire temporary contractors to clear the testing column so the developers can continue with their specialized work.
-- **Distractor 2:** Instruct the developers to stop working entirely until the testers have cleared all items in the testing column.
-- **Distractor 3:** Update the schedule baseline to account for the longer cycle time and inform the stakeholders.
+- <strong>Correct:</strong> Facilitate a team meeting to establish "Work in Progress" (WIP) limits and encourage "Swarming" to clear the bottleneck.
+- <strong>Distractor 1:</strong> Hire temporary contractors to clear the testing column so the developers can continue with their specialized work.
+- <strong>Distractor 2:</strong> Instruct the developers to stop working entirely until the testers have cleared all items in the testing column.
+- <strong>Distractor 3:</strong> Update the schedule baseline to account for the longer cycle time and inform the stakeholders.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -472,18 +472,18 @@ How should the Project Manager solve this problem to maintain the flow of work?
 ---
 
 ### Question 16
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A team is in the "Storming" stage, with two senior engineers constantly arguing over the choice of database technology. Their conflict is beginning to divide the team. The Project Manager has a strong technical background and knows which database is objectively better.
 
-**Question:**
+<strong>Question:</strong>
 What leadership action should the Project Manager take?
 
-- **Correct:** Facilitate a structured decision-making session where both engineers present data against agreed-upon criteria to reach consensus.
-- **Distractor 1:** Use their technical authority to make the final decision immediately to stop the arguing and restore productivity.
-- **Distractor 2:** Ask the Project Sponsor to choose the database technology to avoid appearing biased toward either engineer.
-- **Distractor 3:** Move one of the engineers to a different project to eliminate the personality clash and restore team harmony.
+- <strong>Correct:</strong> Facilitate a structured decision-making session where both engineers present data against agreed-upon criteria to reach consensus.
+- <strong>Distractor 1:</strong> Use their technical authority to make the final decision immediately to stop the arguing and restore productivity.
+- <strong>Distractor 2:</strong> Ask the Project Sponsor to choose the database technology to avoid appearing biased toward either engineer.
+- <strong>Distractor 3:</strong> Move one of the engineers to a different project to eliminate the personality clash and restore team harmony.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -500,18 +500,18 @@ What leadership action should the Project Manager take?
 ---
 
 ### Question 17
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 An organization is moving to a hybrid model. The Project Manager wants to empower the team to make more local decisions, but the team members seem afraid to take any initiative, frequently asking for permission for minor changes.
 
-**Question:**
+<strong>Question:</strong>
 What is the Project Manager's BEST move to foster empowerment?
 
-- **Correct:** Model "Fallibility" by sharing their own past mistakes and creating a "Safe-to-Fail" environment for small experiments.
-- **Distractor 1:** Mandate that the team must make at least three independent decisions every week without consulting the Project Manager.
-- **Distractor 2:** Delegate all decision-making authority to the team immediately and stop attending their technical planning meetings.
-- **Distractor 3:** Reward the first person who makes a successful independent decision with a significant financial bonus.
+- <strong>Correct:</strong> Model "Fallibility" by sharing their own past mistakes and creating a "Safe-to-Fail" environment for small experiments.
+- <strong>Distractor 1:</strong> Mandate that the team must make at least three independent decisions every week without consulting the Project Manager.
+- <strong>Distractor 2:</strong> Delegate all decision-making authority to the team immediately and stop attending their technical planning meetings.
+- <strong>Distractor 3:</strong> Reward the first person who makes a successful independent decision with a significant financial bonus.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -528,18 +528,18 @@ What is the Project Manager's BEST move to foster empowerment?
 ---
 
 ### Question 18
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a retrospective, the team realizes that their "Definition of Done" is too vague, leading to several stories being returned by the Product Owner for failing to meet basic security standards.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST important action for the Project Manager (Scrum Master) to take?
 
-- **Correct:** Facilitate a workshop to refine the Definition of Done to include specific security check-points and acceptance criteria.
-- **Distractor 1:** Create a separate "Security Team" to review all work before it is shown to the Product Owner.
-- **Distractor 2:** Assign a single "Security Lead" within the team who is responsible for all security-related failures.
-- **Distractor 3:** Tell the team to spend an extra two days on every story to ensure that "nothing is missed" in the future.
+- <strong>Correct:</strong> Facilitate a workshop to refine the Definition of Done to include specific security check-points and acceptance criteria.
+- <strong>Distractor 1:</strong> Create a separate "Security Team" to review all work before it is shown to the Product Owner.
+- <strong>Distractor 2:</strong> Assign a single "Security Lead" within the team who is responsible for all security-related failures.
+- <strong>Distractor 3:</strong> Tell the team to spend an extra two days on every story to ensure that "nothing is missed" in the future.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -556,18 +556,18 @@ What is the MOST important action for the Project Manager (Scrum Master) to take
 ---
 
 ### Question 19
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A key project resource is consistently working 60 hours a week to keep the project on schedule, while others are working 40 hours. This resource's error rate has doubled in the last month, and they have become irritable.
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager solve this problem?
 
-- **Correct:** Meet with the resource privately to discuss their workload and redistribute some of their tasks to other team members.
-- **Distractor 1:** Provide the resource with a special "Achievement" award to recognize their hard work and dedication.
-- **Distractor 2:** Hire an additional junior resource to assist the overworked senior person with administrative tasks.
-- **Distractor 3:** Instruct the rest of the team to also work 60 hours a week to ensure equity in the workload.
+- <strong>Correct:</strong> Meet with the resource privately to discuss their workload and redistribute some of their tasks to other team members.
+- <strong>Distractor 1:</strong> Provide the resource with a special "Achievement" award to recognize their hard work and dedication.
+- <strong>Distractor 2:</strong> Hire an additional junior resource to assist the overworked senior person with administrative tasks.
+- <strong>Distractor 3:</strong> Instruct the rest of the team to also work 60 hours a week to ensure equity in the workload.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -584,18 +584,18 @@ How should the Project Manager solve this problem?
 ---
 
 ### Question 20
-**Enabler:** 5 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team is composed of seasoned veterans who prefer traditional documentation and younger developers who prefer informal communication. The veterans feel the younger members are "sloppy," while the younger members feel the veterans are slowing the project down.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager do to support these varied experiences?
 
-- **Correct:** Facilitate a "Ways of Working" session where both groups agree on a minimum viable set of documentation and communication cadence.
-- **Distractor 1:** Mandate that all team members follow the veteran's documentation standards to ensure project compliance.
-- **Distractor 2:** Allow each group to use their own preferred methods and integrate their work at the end of every phase.
-- **Distractor 3:** Replace the most vocal critics from both groups with new resources who are more flexible.
+- <strong>Correct:</strong> Facilitate a "Ways of Working" session where both groups agree on a minimum viable set of documentation and communication cadence.
+- <strong>Distractor 1:</strong> Mandate that all team members follow the veteran's documentation standards to ensure project compliance.
+- <strong>Distractor 2:</strong> Allow each group to use their own preferred methods and integrate their work at the end of every phase.
+- <strong>Distractor 3:</strong> Replace the most vocal critics from both groups with new resources who are more flexible.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -612,18 +612,18 @@ What should the Project Manager do to support these varied experiences?
 ---
 
 ### Question 21
-**Enabler:** 7 | **Methodology:** Agile
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is consistently missing their sprint goals because they are waiting for "the expert" to finish their part. The team's skills matrix shows that only one person knows how to perform the final integration testing.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the Project Manager (Scrum Master) to establish clear roles and responsibilities?
 
-- **Correct:** Facilitate a cross-training plan where the expert mentors other team members on integration testing during the next two sprints.
-- **Distractor 1:** Update the RACI to formalize the expert as the only person allowed to perform integration testing to ensure quality.
-- **Distractor 2:** Request the HR department to hire another expert in integration testing to eliminate the single point of failure.
-- **Distractor 3:** Tell the idle team members to take on more administrative tasks so they are not "wasting time."
+- <strong>Correct:</strong> Facilitate a cross-training plan where the expert mentors other team members on integration testing during the next two sprints.
+- <strong>Distractor 1:</strong> Update the RACI to formalize the expert as the only person allowed to perform integration testing to ensure quality.
+- <strong>Distractor 2:</strong> Request the HR department to hire another expert in integration testing to eliminate the single point of failure.
+- <strong>Distractor 3:</strong> Tell the idle team members to take on more administrative tasks so they are not "wasting time."
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -640,18 +640,18 @@ What is the BEST way for the Project Manager (Scrum Master) to establish clear r
 ---
 
 ### Question 22
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Project Manager is in a meeting where executives are criticizing the team for a two-week delay. The delay was actually caused by a change in corporate security policy that was implemented without notice, requiring significant rework.
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager represent the voice of the team?
 
-- **Correct:** Transparently explain the root cause of the delay (the policy change) and present a recovery plan while defending the team's efforts.
-- **Distractor 1:** Accept the criticism silently to avoid conflict and then demand the team work weekends to catch up.
-- **Distractor 2:** Blame the Security Department for the delay and suggest that the executives should discipline the Security Lead.
-- **Distractor 3:** Promise the executives that the team will never miss another deadline, regardless of future policy changes.
+- <strong>Correct:</strong> Transparently explain the root cause of the delay (the policy change) and present a recovery plan while defending the team's efforts.
+- <strong>Distractor 1:</strong> Accept the criticism silently to avoid conflict and then demand the team work weekends to catch up.
+- <strong>Distractor 2:</strong> Blame the Security Department for the delay and suggest that the executives should discipline the Security Lead.
+- <strong>Distractor 3:</strong> Promise the executives that the team will never miss another deadline, regardless of future policy changes.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -668,18 +668,18 @@ How should the Project Manager represent the voice of the team?
 ---
 
 ### Question 23
-**Enabler:** 6 | **Methodology:** Agile
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A team has reached the "Performing" stage. They are self-organizing and meeting their goals. The Project Manager (Scrum Master) feels they have little to do and is considering spending more time on other projects.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate leadership style for the Project Manager to maintain?
 
-- **Correct:** Delegating (S4) while focusing on long-term team health and removing external organizational impediments.
-- **Distractor 1:** Reverting to a Directing (S1) style to find new "stretch goals" and prevent the team from becoming complacent.
-- **Distractor 2:** Coaching (S2) the team on more advanced technical skills to ensure they continue to grow.
-- **Distractor 3:** Supporting (S3) by attending every internal technical meeting to show the team they are still valued.
+- <strong>Correct:</strong> Delegating (S4) while focusing on long-term team health and removing external organizational impediments.
+- <strong>Distractor 1:</strong> Reverting to a Directing (S1) style to find new "stretch goals" and prevent the team from becoming complacent.
+- <strong>Distractor 2:</strong> Coaching (S2) the team on more advanced technical skills to ensure they continue to grow.
+- <strong>Distractor 3:</strong> Supporting (S3) by attending every internal technical meeting to show the team they are still valued.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -696,18 +696,18 @@ What is the MOST appropriate leadership style for the Project Manager to maintai
 ---
 
 ### Question 24
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A team member discovers a way to improve feature performance by 50% for an upcoming demo, but it deviates from the documented technical design. There is no time to get formal CCB approval before the demo tomorrow.
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager empower the team member in this situation?
 
-- **Correct:** Encourage the team member to proceed for the demo and then document the change for formal approval afterward.
-- **Distractor 1:** Instruct the team member to stick strictly to the documented design to avoid any risk of failure during the demo.
-- **Distractor 2:** Tell the team member to call the Project Sponsor immediately to get verbal approval for the change.
-- **Distractor 3:** Personally take over the task to ensure that the performance improvement is implemented correctly.
+- <strong>Correct:</strong> Encourage the team member to proceed for the demo and then document the change for formal approval afterward.
+- <strong>Distractor 1:</strong> Instruct the team member to stick strictly to the documented design to avoid any risk of failure during the demo.
+- <strong>Distractor 2:</strong> Tell the team member to call the Project Sponsor immediately to get verbal approval for the change.
+- <strong>Distractor 3:</strong> Personally take over the task to ensure that the performance improvement is implemented correctly.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -724,18 +724,18 @@ How should the Project Manager empower the team member in this situation?
 ---
 
 ### Question 25
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Project Manager is starting a new project with a team of people who have never worked together. In the first meeting, three different people claim they are the "Lead" for the testing phase based on their past experience.
 
-**Question:**
+<strong>Question:</strong>
 What is the Project Manager's BEST action to establish expectations?
 
-- **Correct:** Facilitate a session to define roles using a RACI matrix aligned with the project's specific needs and charter.
-- **Distractor 1:** Let the three people decide among themselves who the lead will be and then notify the Project Manager.
-- **Distractor 2:** Choose the person with the most seniority in the organization to be the lead to avoid hurting any feelings.
-- **Distractor 3:** Eliminate the "Lead" role entirely and make everyone on the testing team equally responsible for the output.
+- <strong>Correct:</strong> Facilitate a session to define roles using a RACI matrix aligned with the project's specific needs and charter.
+- <strong>Distractor 1:</strong> Let the three people decide among themselves who the lead will be and then notify the Project Manager.
+- <strong>Distractor 2:</strong> Choose the person with the most seniority in the organization to be the lead to avoid hurting any feelings.
+- <strong>Distractor 3:</strong> Eliminate the "Lead" role entirely and make everyone on the testing team equally responsible for the output.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -752,18 +752,18 @@ What is the Project Manager's BEST action to establish expectations?
 ---
 
 ### Question 26
-**Enabler:** 7 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A functional manager pulls a critical developer for an urgent production issue on another project without notifying the Project Manager. This developer was responsible for the next two sprint's deliverables. The team is now blocked.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate action for the Project Manager to take?
 
-- **Correct:** Meet with the functional manager to negotiate the developer's return and reinforce project charter commitments.
-- **Distractor 1:** Instruct the team to work overtime to cover the missing developer's tasks until they return.
-- **Distractor 2:** Document the developer's absence in the issue log and wait for the functional manager to release them.
-- **Distractor 3:** Escalate the issue to the Project Sponsor immediately to demand that the functional manager be disciplined.
+- <strong>Correct:</strong> Meet with the functional manager to negotiate the developer's return and reinforce project charter commitments.
+- <strong>Distractor 1:</strong> Instruct the team to work overtime to cover the missing developer's tasks until they return.
+- <strong>Distractor 2:</strong> Document the developer's absence in the issue log and wait for the functional manager to release them.
+- <strong>Distractor 3:</strong> Escalate the issue to the Project Sponsor immediately to demand that the functional manager be disciplined.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -780,18 +780,18 @@ What is the MOST appropriate action for the Project Manager to take?
 ---
 
 ### Question 27
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is delivering story points, but junior developers always take "easy" tasks while the senior handles all backend work. The senior says this is faster, but junior members feel they aren't learning.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager (Scrum Master) do to foster empowerment and mastery?
 
-- **Correct:** Encourage "Pair Programming" where senior and junior developers work together on complex tasks to transfer knowledge.
-- **Distractor 1:** Mandate that junior developers must take at least 50% of the backend tasks in the next sprint to force learning.
-- **Distractor 2:** Reward the senior developer for their high velocity and efficiency in completing complex tasks.
-- **Distractor 3:** Create a formal training plan that requires the junior developers to take external courses first.
+- <strong>Correct:</strong> Encourage "Pair Programming" where senior and junior developers work together on complex tasks to transfer knowledge.
+- <strong>Distractor 1:</strong> Mandate that junior developers must take at least 50% of the backend tasks in the next sprint to force learning.
+- <strong>Distractor 2:</strong> Reward the senior developer for their high velocity and efficiency in completing complex tasks.
+- <strong>Distractor 3:</strong> Create a formal training plan that requires the junior developers to take external courses first.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -808,18 +808,18 @@ What should the Project Manager (Scrum Master) do to foster empowerment and mast
 ---
 
 ### Question 28
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A team member cannot proceed with a critical path work package because prerequisite data from a vendor is three days late. The vendor account manager is not responding to emails.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action the Project Manager should take to solve this problem?
 
-- **Correct:** Review the vendor contract for late delivery penalties and contact the vendor's executive lead to escalate the issue.
-- **Distractor 1:** Re-baseline the project schedule to account for the vendor delay and inform the stakeholders.
-- **Distractor 2:** Assign the team member to a different non-critical task until the vendor data arrives.
-- **Distractor 3:** Issue a formal Change Request to remove the vendor's scope and perform the work internally.
+- <strong>Correct:</strong> Review the vendor contract for late delivery penalties and contact the vendor's executive lead to escalate the issue.
+- <strong>Distractor 1:</strong> Re-baseline the project schedule to account for the vendor delay and inform the stakeholders.
+- <strong>Distractor 2:</strong> Assign the team member to a different non-critical task until the vendor data arrives.
+- <strong>Distractor 3:</strong> Issue a formal Change Request to remove the vendor's scope and perform the work internally.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -836,18 +836,18 @@ What is the FIRST action the Project Manager should take to solve this problem?
 ---
 
 ### Question 29
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The Product Owner keeps adding new high-priority stories to the middle of the sprint. The team is demoralized because they can never finish what they committed to, and the "Definition of Done" is being ignored.
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager (Scrum Master) represent the voice of the team?
 
-- **Correct:** Explain the concept of "Sprint Integrity" to the Product Owner and insist that new stories be added to the future backlog.
-- **Distractor 1:** Work with the team to increase their velocity so they can accommodate the new stories without missing commitments.
-- **Distractor 2:** Cancel the current sprint and start a new planning session every time a story is added.
-- **Distractor 3:** Inform the Project Sponsor that the Product Owner is incompetent and request a replacement.
+- <strong>Correct:</strong> Explain the concept of "Sprint Integrity" to the Product Owner and insist that new stories be added to the future backlog.
+- <strong>Distractor 1:</strong> Work with the team to increase their velocity so they can accommodate the new stories without missing commitments.
+- <strong>Distractor 2:</strong> Cancel the current sprint and start a new planning session every time a story is added.
+- <strong>Distractor 3:</strong> Inform the Project Sponsor that the Product Owner is incompetent and request a replacement.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -864,18 +864,18 @@ How should the Project Manager (Scrum Master) represent the voice of the team?
 ---
 
 ### Question 30
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team is composed of members from a company that was recently acquired and members from the parent company. Resentment has developed over differing processes.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the Project Manager to support the team's varied perspectives?
 
-- **Correct:** Facilitate a "Best of Both" workshop where members identify the most effective processes to use for this specific project.
-- **Distractor 1:** Mandate that all team members follow the parent company's processes to ensure organizational alignment.
-- **Distractor 2:** Allow the acquired company's members to continue using their own processes for their specific work.
-- **Distractor 3:** Hold a team-building social event to help the members get to know each other on a personal level.
+- <strong>Correct:</strong> Facilitate a "Best of Both" workshop where members identify the most effective processes to use for this specific project.
+- <strong>Distractor 1:</strong> Mandate that all team members follow the parent company's processes to ensure organizational alignment.
+- <strong>Distractor 2:</strong> Allow the acquired company's members to continue using their own processes for their specific work.
+- <strong>Distractor 3:</strong> Hold a team-building social event to help the members get to know each other on a personal level.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -892,18 +892,18 @@ What is the BEST way for the Project Manager to support the team's varied perspe
 ---
 
 ### Question 31
-**Enabler:** 6 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team is in the "Norming" stage and has established its own rules. However, the Project Manager continues to assign tasks and review every piece of work, causing the team to feel micromanaged.
 
-**Question:**
+<strong>Question:</strong>
 What leadership style should the Project Manager adopt to better support the team's growth?
 
-- **Correct:** Shift toward a Supporting (S3) style by facilitating meetings rather than leading them and allowing self-assignment.
-- **Distractor 1:** Revert to a Directing (S1) style to provide more structure and ensure productivity is addressed.
-- **Distractor 2:** Maintain a Coaching (S2) style to provide feedback on every task and ensure the team doesn't regress.
-- **Distractor 3:** Adopt a Delegating (S4) style immediately and stop attending the team's synchronization meetings.
+- <strong>Correct:</strong> Shift toward a Supporting (S3) style by facilitating meetings rather than leading them and allowing self-assignment.
+- <strong>Distractor 1:</strong> Revert to a Directing (S1) style to provide more structure and ensure productivity is addressed.
+- <strong>Distractor 2:</strong> Maintain a Coaching (S2) style to provide feedback on every task and ensure the team doesn't regress.
+- <strong>Distractor 3:</strong> Adopt a Delegating (S4) style immediately and stop attending the team's synchronization meetings.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -920,18 +920,18 @@ What leadership style should the Project Manager adopt to better support the tea
 ---
 
 ### Question 32
-**Enabler:** 7 | **Methodology:** Agile
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A new, highly skilled member joins an agile team and starts making technical decisions on their own without consulting the rest of the team.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager (Scrum Master) do to establish clear roles?
 
-- **Correct:** Facilitate a session for the new member to review the Team Charter and ground rules with the rest of the team.
-- **Distractor 1:** Appoint the new member as the "Technical Lead" to utilize their skill level and provide clear authority.
-- **Distractor 2:** Reprimand the new member privately for making decisions without permission and tell them to wait for instructions.
-- **Distractor 3:** Tell the rest of the team to ignore the new member's decisions until the next formal planning meeting.
+- <strong>Correct:</strong> Facilitate a session for the new member to review the Team Charter and ground rules with the rest of the team.
+- <strong>Distractor 1:</strong> Appoint the new member as the "Technical Lead" to utilize their skill level and provide clear authority.
+- <strong>Distractor 2:</strong> Reprimand the new member privately for making decisions without permission and tell them to wait for instructions.
+- <strong>Distractor 3:</strong> Tell the rest of the team to ignore the new member's decisions until the next formal planning meeting.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -948,18 +948,18 @@ What should the Project Manager (Scrum Master) do to establish clear roles?
 ---
 
 ### Question 33
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, the agile team is accepting minor customer requests, while the predictive hardware team is sticking to original specs. This is creating a mismatch in the integrated product.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager do to establish expectations at the team level?
 
-- **Correct:** Facilitate a meeting to align both teams on the Change Control Process and define minor improvements vs. formal changes.
-- **Distractor 1:** Instruct the agile team to stop accepting all feedback during demos and only work on the original plan.
-- **Distractor 2:** Tell the hardware team to become more flexible and adapt their engineering plans every time software changes.
-- **Distractor 3:** Hire a dedicated Product Owner for each team to manage their specific scope separately.
+- <strong>Correct:</strong> Facilitate a meeting to align both teams on the Change Control Process and define minor improvements vs. formal changes.
+- <strong>Distractor 1:</strong> Instruct the agile team to stop accepting all feedback during demos and only work on the original plan.
+- <strong>Distractor 2:</strong> Tell the hardware team to become more flexible and adapt their engineering plans every time software changes.
+- <strong>Distractor 3:</strong> Hire a dedicated Product Owner for each team to manage their specific scope separately.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -976,18 +976,18 @@ What should the Project Manager do to establish expectations at the team level?
 ---
 
 ### Question 34
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Project Manager wants to increase the team's "Psychological Safety" because lab failures are being hidden rather than discussed, leading to repeated mistakes.
 
-**Question:**
+<strong>Question:</strong>
 What is the Project Manager's BEST action to empower the team to share failures?
 
-- **Correct:** Change the reward system to recognize "Lessons Learned" from failures rather than just successful milestones.
-- **Distractor 1:** Mandate that every team member must report at least one mistake every week to ensure transparency.
-- **Distractor 2:** Host a "Failure Party" where the person with the biggest mistake is given a trophy to make failure feel fun.
-- **Distractor 3:** Tell the team that they will not be fired for making mistakes as long as they meet the schedule.
+- <strong>Correct:</strong> Change the reward system to recognize "Lessons Learned" from failures rather than just successful milestones.
+- <strong>Distractor 1:</strong> Mandate that every team member must report at least one mistake every week to ensure transparency.
+- <strong>Distractor 2:</strong> Host a "Failure Party" where the person with the biggest mistake is given a trophy to make failure feel fun.
+- <strong>Distractor 3:</strong> Tell the team that they will not be fired for making mistakes as long as they meet the schedule.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1004,18 +1004,18 @@ What is the Project Manager's BEST action to empower the team to share failures?
 ---
 
 ### Question 35
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A team's daily standup has become a 45-minute problem-solving session where two developers argue while the rest of the team stands by silently.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager (Scrum Master) do to solve this problem?
 
-- **Correct:** Enforce the 15-minute timebox and facilitate a separate "Parking Lot" session for the developers to resolve their dispute.
-- **Distractor 1:** Extend the standup to 60 minutes to ensure that all problems are fully resolved before work starts.
-- **Distractor 2:** Tell the two developers to stop arguing and just pick one implementation method immediately.
-- **Distractor 3:** Cancel the daily standup and replace it with a written status report to save everyone's time.
+- <strong>Correct:</strong> Enforce the 15-minute timebox and facilitate a separate "Parking Lot" session for the developers to resolve their dispute.
+- <strong>Distractor 1:</strong> Extend the standup to 60 minutes to ensure that all problems are fully resolved before work starts.
+- <strong>Distractor 2:</strong> Tell the two developers to stop arguing and just pick one implementation method immediately.
+- <strong>Distractor 3:</strong> Cancel the daily standup and replace it with a written status report to save everyone's time.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1032,18 +1032,18 @@ What should the Project Manager (Scrum Master) do to solve this problem?
 ---
 
 ### Question 36
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A functional manager publicly criticizes a project team member during a departmental meeting, blaming them for a delay that was actually caused by the manager's own lack of instruction.
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager represent the voice of the team?
 
-- **Correct:** Intervene professionally during the meeting to clarify priorities and then meet with the functional manager privately.
-- **Distractor 1:** Stay silent during the meeting to avoid a public confrontation and then apologize to the team member later.
-- **Distractor 2:** Agree with the functional manager publicly to maintain a good relationship, but tell the team member not to worry.
-- **Distractor 3:** Write a formal complaint to HR about the functional manager's bullying behavior during the meeting.
+- <strong>Correct:</strong> Intervene professionally during the meeting to clarify priorities and then meet with the functional manager privately.
+- <strong>Distractor 1:</strong> Stay silent during the meeting to avoid a public confrontation and then apologize to the team member later.
+- <strong>Distractor 2:</strong> Agree with the functional manager publicly to maintain a good relationship, but tell the team member not to worry.
+- <strong>Distractor 3:</strong> Write a formal complaint to HR about the functional manager's bullying behavior during the meeting.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1060,18 +1060,18 @@ How should the Project Manager represent the voice of the team?
 ---
 
 ### Question 37
-**Enabler:** 5 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A team is using a new AI-driven coding assistant. Some find it helpful, while others feel it is a threat to their job security. Morale is splitting along these lines.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the Project Manager to support the team's varied skills?
 
-- **Correct:** Facilitate a "Knowledge Sharing" session where high-adopters mentor skeptics and the team defines usage rules.
-- **Distractor 1:** Mandate that all team members must use the AI assistant for at least four hours a day to meet goals.
-- **Distractor 2:** Remove the AI assistant from the project entirely to eliminate the source of the team's anxiety.
-- **Distractor 3:** Create two separate tracks for the project: one using AI for speed and one using traditional methods for quality.
+- <strong>Correct:</strong> Facilitate a "Knowledge Sharing" session where high-adopters mentor skeptics and the team defines usage rules.
+- <strong>Distractor 1:</strong> Mandate that all team members must use the AI assistant for at least four hours a day to meet goals.
+- <strong>Distractor 2:</strong> Remove the AI assistant from the project entirely to eliminate the source of the team's anxiety.
+- <strong>Distractor 3:</strong> Create two separate tracks for the project: one using AI for speed and one using traditional methods for quality.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1088,18 +1088,18 @@ What is the BEST way for the Project Manager to support the team's varied skills
 ---
 
 ### Question 38
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project has just started, and team members are unfamiliar with each other and the goals. They are hesitant to take any action without explicit approval from the Project Manager.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate leadership style for the Project Manager to adopt?
 
-- **Correct:** Directing (S1) to provide high direction, clear roles, and structured tasks to help the team get started.
-- **Distractor 1:** Delegating (S4) to show the team that they are trusted and to encourage them to take initiative immediately.
-- **Distractor 2:** Supporting (S3) to facilitate team-building and allow the team to find their own way of working together.
-- **Distractor 3:** Coaching (S2) to explain the project's "why" and encourage them to provide their own implementation ideas.
+- <strong>Correct:</strong> Directing (S1) to provide high direction, clear roles, and structured tasks to help the team get started.
+- <strong>Distractor 1:</strong> Delegating (S4) to show the team that they are trusted and to encourage them to take initiative immediately.
+- <strong>Distractor 2:</strong> Supporting (S3) to facilitate team-building and allow the team to find their own way of working together.
+- <strong>Distractor 3:</strong> Coaching (S2) to explain the project's "why" and encourage them to provide their own implementation ideas.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1116,18 +1116,18 @@ What is the MOST appropriate leadership style for the Project Manager to adopt?
 ---
 
 ### Question 39
-**Enabler:** 7 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, the "Release Manager" (predictive) and "Scrum Master" (agile) are battling over deployment frequency. The team is receiving conflicting instructions.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager do to establish clear roles and responsibilities?
 
-- **Correct:** Facilitate a session to define an "Integrated Release Cadence" that respects both stability and rapid value delivery.
-- **Distractor 1:** Decide in favor of the Release Manager because the project is in a highly regulated industry requiring stability.
-- **Distractor 2:** Tell the Scrum Master to ignore the Release Manager and deploy whenever the team feels code is "Done."
-- **Distractor 3:** Escalate the conflict to the PMO to have them define a standard release policy for all hybrid projects.
+- <strong>Correct:</strong> Facilitate a session to define an "Integrated Release Cadence" that respects both stability and rapid value delivery.
+- <strong>Distractor 1:</strong> Decide in favor of the Release Manager because the project is in a highly regulated industry requiring stability.
+- <strong>Distractor 2:</strong> Tell the Scrum Master to ignore the Release Manager and deploy whenever the team feels code is "Done."
+- <strong>Distractor 3:</strong> Escalate the conflict to the PMO to have them define a standard release policy for all hybrid projects.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1144,18 +1144,18 @@ What should the Project Manager do to establish clear roles and responsibilities
 ---
 
 ### Question 40
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 The Project Manager has just inherited a project halfway through. There are no documented "Ground Rules," and meetings are chaotic with frequent lateness.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST thing the Project Manager should do to establish expectations?
 
-- **Correct:** Facilitate a session with the team to co-create a Team Charter and a set of Ground Rules.
-- **Distractor 1:** Write a set of strict rules for behavior and email them to the team, stating there will be consequences.
-- **Distractor 2:** Observe the team for another two weeks to fully understand the existing culture before making changes.
-- **Distractor 3:** Appoint the most senior team member as the "Sergeant at Arms" to enforce order during meetings.
+- <strong>Correct:</strong> Facilitate a session with the team to co-create a Team Charter and a set of Ground Rules.
+- <strong>Distractor 1:</strong> Write a set of strict rules for behavior and email them to the team, stating there will be consequences.
+- <strong>Distractor 2:</strong> Observe the team for another two weeks to fully understand the existing culture before making changes.
+- <strong>Distractor 3:</strong> Appoint the most senior team member as the "Sergeant at Arms" to enforce order during meetings.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1172,18 +1172,18 @@ What is the FIRST thing the Project Manager should do to establish expectations?
 ---
 
 ### Question 41
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A team's "Definition of Done" requires every story to be 100% bug-free. They are only finishing 20% of their work, and the "In Progress" column is growing.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager (Scrum Master) do to empower the team while maintaining quality?
 
-- **Correct:** Facilitate a discussion to refine the Definition of Done to focus on "Critical Defects" and define technical debt thresholds.
-- **Distractor 1:** Tell the team to ignore the bug-free requirement for the next two sprints to help the schedule.
-- **Distractor 2:** Hire three more testers to ensure the bug-free requirement can be met without slowing development.
-- **Distractor 3:** Instruct the Product Owner to stop pressuring the team because "Agile takes the time it takes."
+- <strong>Correct:</strong> Facilitate a discussion to refine the Definition of Done to focus on "Critical Defects" and define technical debt thresholds.
+- <strong>Distractor 1:</strong> Tell the team to ignore the bug-free requirement for the next two sprints to help the schedule.
+- <strong>Distractor 2:</strong> Hire three more testers to ensure the bug-free requirement can be met without slowing development.
+- <strong>Distractor 3:</strong> Instruct the Product Owner to stop pressuring the team because "Agile takes the time it takes."
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1200,18 +1200,18 @@ What should the Project Manager (Scrum Master) do to empower the team while main
 ---
 
 ### Question 42
-**Enabler:** 3 | **Methodology:** Predictive
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A team member is arriving late and missing deadlines. Privately, you discover they are caring for a sick relative. They are a high performer when they are focused.
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager solve this problem?
 
-- **Correct:** Offer the team member a flexible work schedule or remote option to help balance their personal responsibilities.
-- **Distractor 1:** Implement a formal "Time Tracking" system for this individual to ensure they are working required hours.
-- **Distractor 2:** Request the functional manager to replace the resource with someone who has fewer personal distractions.
-- **Distractor 3:** Tell the member that while you sympathize, the project schedule must come first and attendance must improve.
+- <strong>Correct:</strong> Offer the team member a flexible work schedule or remote option to help balance their personal responsibilities.
+- <strong>Distractor 1:</strong> Implement a formal "Time Tracking" system for this individual to ensure they are working required hours.
+- <strong>Distractor 2:</strong> Request the functional manager to replace the resource with someone who has fewer personal distractions.
+- <strong>Distractor 3:</strong> Tell the member that while you sympathize, the project schedule must come first and attendance must improve.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1228,18 +1228,18 @@ How should the Project Manager solve this problem?
 ---
 
 ### Question 43
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A new security protocol requires manual review of every deployment, taking five days. This prevents continuous deployment, and the team is furious.
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager (Scrum Master) represent the voice of the team?
 
-- **Correct:** Advocate to IT leadership for an "Automated Security Audit" process that meets security needs while supporting velocity.
-- **Distractor 1:** Tell the team to follow the five-day process and adjust their sprint length to three weeks.
-- **Distractor 2:** Agree with the team and ask the Project Sponsor to revert the entire project to a predictive model.
-- **Distractor 3:** Instruct the team to deploy "under the radar" to maintain velocity until they are caught.
+- <strong>Correct:</strong> Advocate to IT leadership for an "Automated Security Audit" process that meets security needs while supporting velocity.
+- <strong>Distractor 1:</strong> Tell the team to follow the five-day process and adjust their sprint length to three weeks.
+- <strong>Distractor 2:</strong> Agree with the team and ask the Project Sponsor to revert the entire project to a predictive model.
+- <strong>Distractor 3:</strong> Instruct the team to deploy "under the radar" to maintain velocity until they are caught.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1256,18 +1256,18 @@ How should the Project Manager (Scrum Master) represent the voice of the team?
 ---
 
 ### Question 44
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 The US creative lead wants "bold and aggressive" colors, while the Japan local lead wants "subtle and harmonious." They are in a deep conflict over the global campaign.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the Project Manager to support these varied perspectives?
 
-- **Correct:** Facilitate a "Cultural Intelligence" session to understand color meanings in both markets and find a shared palette.
-- **Distractor 1:** Decide in favor of the US lead because headquarters is in the US and they have final brand say.
-- **Distractor 2:** Create two separate campaigns with different colors for each market, doubling the project's cost.
-- **Distractor 3:** Tell the leads to stop arguing and use the "Standard Corporate Blue" to avoid controversy.
+- <strong>Correct:</strong> Facilitate a "Cultural Intelligence" session to understand color meanings in both markets and find a shared palette.
+- <strong>Distractor 1:</strong> Decide in favor of the US lead because headquarters is in the US and they have final brand say.
+- <strong>Distractor 2:</strong> Create two separate campaigns with different colors for each market, doubling the project's cost.
+- <strong>Distractor 3:</strong> Tell the leads to stop arguing and use the "Standard Corporate Blue" to avoid controversy.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1284,18 +1284,18 @@ What is the BEST way for the Project Manager to support these varied perspective
 ---
 
 ### Question 45
-**Enabler:** 6 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team has been "Performing," but the scope was expanded and three new inexperienced members joined. Friction is rising.
 
-**Question:**
+<strong>Question:</strong>
 What leadership style should the Project Manager adopt?
 
-- **Correct:** Shift back to Coaching (S2) to integrate new members and re-establish team norms and standards.
-- **Distractor 1:** Stay in a Delegating (S4) style and let the original team members manage the new members.
-- **Distractor 2:** Use a Directing (S1) style to mandate a strict bootcamp for new members to catch them up.
-- **Distractor 3:** Adopt a Supporting (S3) style to facilitate social gatherings and help the team members bond.
+- <strong>Correct:</strong> Shift back to Coaching (S2) to integrate new members and re-establish team norms and standards.
+- <strong>Distractor 1:</strong> Stay in a Delegating (S4) style and let the original team members manage the new members.
+- <strong>Distractor 2:</strong> Use a Directing (S1) style to mandate a strict bootcamp for new members to catch them up.
+- <strong>Distractor 3:</strong> Adopt a Supporting (S3) style to facilitate social gatherings and help the team members bond.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1312,18 +1312,18 @@ What leadership style should the Project Manager adopt?
 ---
 
 ### Question 46
-**Enabler:** 7 | **Methodology:** Agile
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The Project Sponsor wants a detailed WBS and Gantt chart for an agile project to see exactly what will be delivered over six months.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager (Scrum Master) do to establish clear roles?
 
-- **Correct:** Meet with the Sponsor to explain the "Product Roadmap" and "Release Plan" as agile equivalents.
-- **Distractor 1:** Instruct the team to create a detailed Gantt chart alongside their sprint backlog to satisfy the Sponsor.
-- **Distractor 2:** Tell the Sponsor that agile teams don't do long-term planning and they should just trust the process.
-- **Distractor 3:** Hire a "Project Coordinator" to translate agile progress into traditional Gantt charts for the Sponsor.
+- <strong>Correct:</strong> Meet with the Sponsor to explain the "Product Roadmap" and "Release Plan" as agile equivalents.
+- <strong>Distractor 1:</strong> Instruct the team to create a detailed Gantt chart alongside their sprint backlog to satisfy the Sponsor.
+- <strong>Distractor 2:</strong> Tell the Sponsor that agile teams don't do long-term planning and they should just trust the process.
+- <strong>Distractor 3:</strong> Hire a "Project Coordinator" to translate agile progress into traditional Gantt charts for the Sponsor.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1340,18 +1340,18 @@ What should the Project Manager (Scrum Master) do to establish clear roles?
 ---
 
 ### Question 47
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A shared resource is being pulled into syncs and meetings for both teams, leaving them with little time for actual work.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager do to establish better expectations at the team level?
 
-- **Correct:** Facilitate a session to align the communication plan and allow for asynchronous updates where possible.
-- **Distractor 1:** Tell the resource to pick the meeting they feel is most important and skip the others.
-- **Distractor 2:** Schedule all project meetings at the same time and force the resource to delegate their attendance.
-- **Distractor 3:** Request a second resource from the functional manager so each team has its own dedicated person.
+- <strong>Correct:</strong> Facilitate a session to align the communication plan and allow for asynchronous updates where possible.
+- <strong>Distractor 1:</strong> Tell the resource to pick the meeting they feel is most important and skip the others.
+- <strong>Distractor 2:</strong> Schedule all project meetings at the same time and force the resource to delegate their attendance.
+- <strong>Distractor 3:</strong> Request a second resource from the functional manager so each team has its own dedicated person.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1368,18 +1368,18 @@ What should the Project Manager do to establish better expectations at the team 
 ---
 
 ### Question 48
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 The Project Manager wants to increase autonomy. Currently, the team needs approval for any technical decision taking more than four hours.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the Project Manager to empower the team?
 
-- **Correct:** Increase "Decision Rights" by allowing any technical decision that doesn't impact project triple constraints.
-- **Distractor 1:** Tell the team that they can now take eight hours to make a decision before needing approval.
-- **Distractor 2:** Delegate all technical decisions to the most senior member and have them approve everyone else's work.
-- **Distractor 3:** Remove all approval requirements and tell the team to "do what they think is best."
+- <strong>Correct:</strong> Increase "Decision Rights" by allowing any technical decision that doesn't impact project triple constraints.
+- <strong>Distractor 1:</strong> Tell the team that they can now take eight hours to make a decision before needing approval.
+- <strong>Distractor 2:</strong> Delegate all technical decisions to the most senior member and have them approve everyone else's work.
+- <strong>Distractor 3:</strong> Remove all approval requirements and tell the team to "do what they think is best."
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1396,18 +1396,18 @@ What is the BEST way for the Project Manager to empower the team?
 ---
 
 ### Question 49
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The team discovers an API they were planning to use is deprecated and will shut down in two weeks.
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager (Scrum Master) solve this problem?
 
-- **Correct:** Facilitate an immediate triage session with the team and Product Owner to re-prioritize and address the risk.
-- **Distractor 1:** Tell the team to keep working on current stories and deal with the shutdown when it actually happens.
-- **Distractor 2:** Cancel the sprint and spend the next two weeks researching alternative APIs.
-- **Distractor 3:** Instruct the team to work overtime to finish all stories using the deprecated API before it shuts down.
+- <strong>Correct:</strong> Facilitate an immediate triage session with the team and Product Owner to re-prioritize and address the risk.
+- <strong>Distractor 1:</strong> Tell the team to keep working on current stories and deal with the shutdown when it actually happens.
+- <strong>Distractor 2:</strong> Cancel the sprint and spend the next two weeks researching alternative APIs.
+- <strong>Distractor 3:</strong> Instruct the team to work overtime to finish all stories using the deprecated API before it shuts down.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1424,18 +1424,18 @@ How should the Project Manager (Scrum Master) solve this problem?
 ---
 
 ### Question 50
-**Enabler:** 7 | **Methodology:** Predictive
+<strong>Enabler:</strong> 7 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 Team members are spending 10% of their week filling out forms for a complex Work Authorization System. They complain it is "Bureaucracy."
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager do to establish clearer and more efficient roles?
 
-- **Correct:** Review the Work Authorization process and streamline it to focus only on high-risk or high-cost tasks.
-- **Distractor 1:** Tell the team the forms are a mandatory part of compliance and they must continue to fill them out.
-- **Distractor 2:** Eliminate the Work Authorization System entirely to increase the team's velocity and morale.
-- **Distractor 3:** Hire a "Project Administrator" to fill out all the forms for the team so they can focus on technical work.
+- <strong>Correct:</strong> Review the Work Authorization process and streamline it to focus only on high-risk or high-cost tasks.
+- <strong>Distractor 1:</strong> Tell the team the forms are a mandatory part of compliance and they must continue to fill them out.
+- <strong>Distractor 2:</strong> Eliminate the Work Authorization System entirely to increase the team's velocity and morale.
+- <strong>Distractor 3:</strong> Hire a "Project Administrator" to fill out all the forms for the team so they can focus on technical work.
 
 <details>
 <summary>Detailed Remediation</summary>

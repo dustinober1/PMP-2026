@@ -1,8 +1,8 @@
 # PMP Exam Factory: Business Task 5 (Risk Management)
 
-**Task:** Plan and manage risk
-**Focus:** Hard Mode (Analysis & Evaluation)
-**Total Questions:** 50
+<strong>Task:</strong> Plan and manage risk
+<strong>Focus:</strong> Hard Mode (Analysis & Evaluation)
+<strong>Total Questions:</strong> 50
 
 ---
 
@@ -10,18 +10,18 @@
 
 ### Question 1
 
-**Enabler:** Identify risks | **Methodology:** Predictive
+<strong>Enabler:</strong> Identify risks | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a large-scale infrastructure project. During a site walkthrough, the site engineer mentions that the soil composition in Sector 4 looks slightly different than the geological survey indicated, but they haven't started digging there yet. The project is currently on schedule, but special foundation equipment would be needed if the soil is unstable.
 
-**Question:**
+<strong>Question:</strong>
 What is the **FIRST** action the project manager should take?
 
-- **Correct:** Document the potential soil discrepancy in the risk register as a new risk.
-- **Distractor 1:** Halting work in Sector 4 immediately to perform a new geological survey.
-- **Distractor 2:** Allocate contingency reserves to rent the special foundation equipment just in case.
-- **Distractor 3:** Instruct the site engineer to proceed with excavation to verify the soil conditions.
+- <strong>Correct:</strong> Document the potential soil discrepancy in the risk register as a new risk.
+- <strong>Distractor 1:</strong> Halting work in Sector 4 immediately to perform a new geological survey.
+- <strong>Distractor 2:</strong> Allocate contingency reserves to rent the special foundation equipment just in case.
+- <strong>Distractor 3:</strong> Instruct the site engineer to proceed with excavation to verify the soil conditions.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -39,18 +39,18 @@ What is the **FIRST** action the project manager should take?
 
 ### Question 2
 
-**Enabler:** Monitor and control risks | **Methodology:** Agile
+<strong>Enabler:</strong> Monitor and control risks | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is developing a fintech application. For the past three sprints, the risk burndown chart has remained flat, despite the team completing user stories. The product owner is concerned that technical debt is accumulating, but the developers argue they are meeting velocity targets.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way for the project lead to address this situation?
 
-- **Correct:** Facilitate a risk audit during the next retrospective to validate if risk mitigation tasks are being executed.
-- **Distractor 1:** Increase the sprint velocity target to force the team to clear more work, including risks.
-- **Distractor 2:** Reset the risk burndown baseline to match the current velocity trends.
-- **Distractor 3:** Assign the product owner to prioritize risk reduction stories at the top of the backlog.
+- <strong>Correct:</strong> Facilitate a risk audit during the next retrospective to validate if risk mitigation tasks are being executed.
+- <strong>Distractor 1:</strong> Increase the sprint velocity target to force the team to clear more work, including risks.
+- <strong>Distractor 2:</strong> Reset the risk burndown baseline to match the current velocity trends.
+- <strong>Distractor 3:</strong> Assign the product owner to prioritize risk reduction stories at the top of the backlog.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -68,18 +68,18 @@ What is the **BEST** way for the project lead to address this situation?
 
 ### Question 3
 
-**Enabler:** Execute a risk management plan | **Methodology:** Hybrid
+<strong>Enabler:</strong> Execute a risk management plan | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project has a hardware component (managed predictively) and a software interface (managed agilely). A high-probability risk regarding the hardware vendor's API stability has just been triggered. The pre-planned response was to deploy a middleware simulation tool, but the agile team claims they can simply "code around it" in the next sprint.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager proceed?
 
-- **Correct:** Execute the pre-planned response (deployment of the simulation tool) while evaluating the agile team's proposal as a secondary response.
-- **Distractor 1:** Allow the agile team to code around the issue and cancel the simulation tool deployment to save costs.
-- **Distractor 2:** Halt the hardware workstream until the agile team demonstrates their solution works.
-- **Distractor 3:** Escalate the disagreement to the project sponsor for a final decision on the technical approach.
+- <strong>Correct:</strong> Execute the pre-planned response (deployment of the simulation tool) while evaluating the agile team's proposal as a secondary response.
+- <strong>Distractor 1:</strong> Allow the agile team to code around the issue and cancel the simulation tool deployment to save costs.
+- <strong>Distractor 2:</strong> Halt the hardware workstream until the agile team demonstrates their solution works.
+- <strong>Distractor 3:</strong> Escalate the disagreement to the project sponsor for a final decision on the technical approach.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -97,18 +97,18 @@ How should the project manager proceed?
 
 ### Question 4
 
-**Enabler:** Analyze risks | **Methodology:** Predictive
+<strong>Enabler:</strong> Analyze risks | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is presenting risk analysis results to the steering committee. The Monte Carlo simulation shows an 80% confidence level that the project will cost $1.2M, but the current budget is capped at $1.0M (which has only a 40% confidence level). The sponsor asks, "How much contingency do we need to be safe?"
 
-**Question:**
+<strong>Question:</strong>
 What is the **MOST ACCURATE** response based on the simulation data?
 
-- **Correct:** Request the difference between the P80 value ($1.2M) and the current budget ($1.0M) as contingency.
-- **Distractor 1:** Explain that the P50 value is the industry standard for specific contingency requests.
-- **Distractor 2:** Request the difference between the pessimistic (P100) estimate and the current budget to ensure 100% safety.
-- **Distractor 3:** Advise that the project scope must be reduced by 20% to align with the $1.0M budget cap.
+- <strong>Correct:</strong> Request the difference between the P80 value ($1.2M) and the current budget ($1.0M) as contingency.
+- <strong>Distractor 1:</strong> Explain that the P50 value is the industry standard for specific contingency requests.
+- <strong>Distractor 2:</strong> Request the difference between the pessimistic (P100) estimate and the current budget to ensure 100% safety.
+- <strong>Distractor 3:</strong> Advise that the project scope must be reduced by 20% to align with the $1.0M budget cap.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -126,18 +126,18 @@ What is the **MOST ACCURATE** response based on the simulation data?
 
 ### Question 5
 
-**Enabler:** Analyze risks | **Methodology:** Agile
+<strong>Enabler:</strong> Analyze risks | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a collaborative risk workshop, an agile team identifies that the new facial recognition library they plan to use might not support the required framerate. The team is arguing about the probability of this failure: some say "very likely," others say "rare."
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** action to resolve this uncertainty?
 
-- **Correct:** Schedule a "Spike" story in the next sprint to test the library's performance and determine the actual risk.
-- **Distractor 1:** Use Planning Poker to vote on the risk probability and take the average.
-- **Distractor 2:** Assign the Scrum Master to research the library vendor's documentation and provide a ruling.
-- **Distractor 3:** Avoid the risk by selecting a different library that the team is more familiar with.
+- <strong>Correct:</strong> Schedule a "Spike" story in the next sprint to test the library's performance and determine the actual risk.
+- <strong>Distractor 1:</strong> Use Planning Poker to vote on the risk probability and take the average.
+- <strong>Distractor 2:</strong> Assign the Scrum Master to research the library vendor's documentation and provide a ruling.
+- <strong>Distractor 3:</strong> Avoid the risk by selecting a different library that the team is more familiar with.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -155,18 +155,18 @@ What is the **BEST** action to resolve this uncertainty?
 
 ### Question 6
 
-**Enabler:** Communicate the status of a risk | **Methodology:** Hybrid
+<strong>Enabler:</strong> Communicate the status of a risk | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project has a critical dependency: the hardware team (Predictive) must deliver prototypes before the software team (Agile) can finalize the drivers. The hardware delivery is at risk of a 2-week delay. This delay falls within the project's overall buffer but exceeds the software team's sprint boundary.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager report this status?
 
-- **Correct:** Report the delay to the software lead immediately to discuss backlog reprioritization, while noting it is currently within the project's critical path buffer.
-- **Distractor 1:** Report the project as "Red" to all stakeholders because a cross-team dependency is missed.
-- **Distractor 2:** Wait to report the delay until it consumes the project buffer and impacts the critical path.
-- **Distractor 3:** Direct the hardware team to crash the schedule to meet the original date, avoiding the communication need.
+- <strong>Correct:</strong> Report the delay to the software lead immediately to discuss backlog reprioritization, while noting it is currently within the project's critical path buffer.
+- <strong>Distractor 1:</strong> Report the project as "Red" to all stakeholders because a cross-team dependency is missed.
+- <strong>Distractor 2:</strong> Wait to report the delay until it consumes the project buffer and impacts the critical path.
+- <strong>Distractor 3:</strong> Direct the hardware team to crash the schedule to meet the original date, avoiding the communication need.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -184,18 +184,18 @@ How should the project manager report this status?
 
 ### Question 7
 
-**Enabler:** Develop a risk management plan | **Methodology:** Predictive
+<strong>Enabler:</strong> Develop a risk management plan | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is drafting the Risk Management Plan for a government compliance project. The sponsor indicates that the organization has "zero tolerance" for any data privacy breaches but is willing to accept moderate schedule variance to ensure security.
 
-**Question:**
+<strong>Question:</strong>
 How should this guidance primarily affect the Risk Management Plan?
 
-- **Correct:** Set the risk threshold for "Privacy" impact to the lowest possible level and define "Avoid" as the mandatory strategy for any privacy risks.
-- **Distractor 1:** allocate the largest portion of the contingency reserve to Schedule risks since they are more likely to be accepted.
-- **Distractor 2:** Remove "Schedule" from the Risk Breakdown Structure to focus entirely on Privacy.
-- **Distractor 3:** Assign the Project Sponsor as the owner of all schedule-related risks.
+- <strong>Correct:</strong> Set the risk threshold for "Privacy" impact to the lowest possible level and define "Avoid" as the mandatory strategy for any privacy risks.
+- <strong>Distractor 1:</strong> allocate the largest portion of the contingency reserve to Schedule risks since they are more likely to be accepted.
+- <strong>Distractor 2:</strong> Remove "Schedule" from the Risk Breakdown Structure to focus entirely on Privacy.
+- <strong>Distractor 3:</strong> Assign the Project Sponsor as the owner of all schedule-related risks.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -213,18 +213,18 @@ How should this guidance primarily affect the Risk Management Plan?
 
 ### Question 8
 
-**Enabler:** Maintain a risk register | **Methodology:** Agile
+<strong>Enabler:</strong> Maintain a risk register | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team identifies a risk that the third-party payment gateway might deprecate an API they are using. They decide to build an abstraction layer to insulate their code. This work is estimated at 13 story points.
 
-**Question:**
+<strong>Question:</strong>
 Where should this risk response be primarily recorded and tracked?
 
-- **Correct:** As a story or task in the Product Backlog/Risk Backlog, prioritized against other value-delivery work.
-- **Distractor 1:** In the Impediment Log, assigned to the Scrum Master to resolve.
-- **Distractor 2:** In a separate offline Risk Register spreadsheet managed by the product owner.
-- **Distractor 3:** In the Retrospective notes as an improvement item for the next release.
+- <strong>Correct:</strong> As a story or task in the Product Backlog/Risk Backlog, prioritized against other value-delivery work.
+- <strong>Distractor 1:</strong> In the Impediment Log, assigned to the Scrum Master to resolve.
+- <strong>Distractor 2:</strong> In a separate offline Risk Register spreadsheet managed by the product owner.
+- <strong>Distractor 3:</strong> In the Retrospective notes as an improvement item for the next release.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -242,18 +242,18 @@ Where should this risk response be primarily recorded and tracked?
 
 ### Question 9
 
-**Enabler:** Identify risks | **Methodology:** Hybrid
+<strong>Enabler:</strong> Identify risks | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a brainstorming session for a hybrid construction-software project, the software team leads identify "Supply Chain Delay" as a risk. The construction lead interrupts, saying, "That's not a risk; that's just how the industry works right now. Delays are guaranteed."
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager handle this assertion?
 
-- **Correct:** Log "Supply Chain Delay" as a Fact/Assumption or Issue in the assumption log/issue log, and ask the team to identify risks related to *managing* that delay.
-- **Distractor 1:** Agree and remove it from the discussion since risks must be uncertain.
-- **Distractor 2:** Keep it in the Risk Register but mark the Probability as 100%.
-- **Distractor 3:** Record it as a "High" impact risk and assign the construction lead to Mitigate it.
+- <strong>Correct:</strong> Log "Supply Chain Delay" as a Fact/Assumption or Issue in the assumption log/issue log, and ask the team to identify risks related to *managing* that delay.
+- <strong>Distractor 1:</strong> Agree and remove it from the discussion since risks must be uncertain.
+- <strong>Distractor 2:</strong> Keep it in the Risk Register but mark the Probability as 100%.
+- <strong>Distractor 3:</strong> Record it as a "High" impact risk and assign the construction lead to Mitigate it.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -271,18 +271,18 @@ How should the project manager handle this assertion?
 
 ### Question 10
 
-**Enabler:** Execute a risk management plan | **Methodology:** Predictive
+<strong>Enabler:</strong> Execute a risk management plan | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project risk regarding "Vendor Insolvency" was identified with a "Transfer" strategy (purchasing a surety bond). Six months into the project, the vendor declares bankruptcy. The project manager contacts the surety company to claim the bond.
 
-**Question:**
+<strong>Question:</strong>
 What action must the Project Manager take **simultaneously**?
 
-- **Correct:** Log the event in the Issue Log and initiate the fallback plan (e.g., engaging the pre-qualified backup vendor).
-- **Distractor 1:** Update the Risk Register to set the probability of Vendor Insolvency to 0%.
-- **Distractor 2:** Perform a Monte Carlo analysis to determine the cost impact of the bankruptcy.
-- **Distractor 3:** Request the Sponsor to release Management Reserves to cover the cost of a new vendor.
+- <strong>Correct:</strong> Log the event in the Issue Log and initiate the fallback plan (e.g., engaging the pre-qualified backup vendor).
+- <strong>Distractor 1:</strong> Update the Risk Register to set the probability of Vendor Insolvency to 0%.
+- <strong>Distractor 2:</strong> Perform a Monte Carlo analysis to determine the cost impact of the bankruptcy.
+- <strong>Distractor 3:</strong> Request the Sponsor to release Management Reserves to cover the cost of a new vendor.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -300,18 +300,18 @@ What action must the Project Manager take **simultaneously**?
 
 ### Question 11
 
-**Enabler:** Communicate the status of a risk | **Methodology:** Agile
+<strong>Enabler:</strong> Communicate the status of a risk | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A key stakeholder is anxious about the project's progress and sends daily emails asking about specific risks. This is distracting the team. The Scrum Master notes that the stakeholder has access to the project dashboard, but rarely looks at it.
 
-**Question:**
+<strong>Question:</strong>
 What is the **MOST EFFECTIVE** solution?
 
-- **Correct:** Review the Information Radiator (dashboard) with the stakeholder to ensure it displays risk status clearly, and establish a regular cadence for risk review discussions.
-- **Distractor 1:** Restrict the stakeholder's access to the team to prevent distraction.
-- **Distractor 2:** Assign the product owner to reply to the daily emails with a manual risk report.
-- **Distractor 3:** Create a detailed weekly risk report document specifically for this stakeholder.
+- <strong>Correct:</strong> Review the Information Radiator (dashboard) with the stakeholder to ensure it displays risk status clearly, and establish a regular cadence for risk review discussions.
+- <strong>Distractor 1:</strong> Restrict the stakeholder's access to the team to prevent distraction.
+- <strong>Distractor 2:</strong> Assign the product owner to reply to the daily emails with a manual risk report.
+- <strong>Distractor 3:</strong> Create a detailed weekly risk report document specifically for this stakeholder.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -329,18 +329,18 @@ What is the **MOST EFFECTIVE** solution?
 
 ### Question 12
 
-**Enabler:** Monitor and control risks | **Methodology:** Hybrid
+<strong>Enabler:</strong> Monitor and control risks | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, the "Architecture" team is running behind. This increases the risk that the "Integration" phase (scheduled to start in 2 weeks) will fail. The Risk Register lists "Schedule Slippage" as a risk with a trigger of "Architecture not complete by Oct 1st." Today is Oct 2nd, and Architecture is 90% done.
 
-**Question:**
+<strong>Question:</strong>
 What is the **Project Manager's** immediate obligation?
 
-- **Correct:** Declare the risk triggered, update the risk status to "Realized/Issue," and implement the planned contingency actions.
-- **Distractor 1:** Wait another week since 90% is close enough to completion to avoid panic.
-- **Distractor 2:** Create a new risk for "Integration Failure" and Assess its probability.
-- **Distractor 3:** Use Management Reserve to hire more architects to finish the last 10%.
+- <strong>Correct:</strong> Declare the risk triggered, update the risk status to "Realized/Issue," and implement the planned contingency actions.
+- <strong>Distractor 1:</strong> Wait another week since 90% is close enough to completion to avoid panic.
+- <strong>Distractor 2:</strong> Create a new risk for "Integration Failure" and Assess its probability.
+- <strong>Distractor 3:</strong> Use Management Reserve to hire more architects to finish the last 10%.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -358,18 +358,18 @@ What is the **Project Manager's** immediate obligation?
 
 ### Question 13
 
-**Enabler:** Implement risk responses | **Methodology:** Predictive
+<strong>Enabler:</strong> Implement risk responses | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During the execution of a risk response (Strategy: Mitigate), the team discovers that the mitigation steps (adding an extra cooling fan) create a noise level that exceeds regulatory limits. This noise issue was not previously identified.
 
-**Question:**
+<strong>Question:</strong>
 What is this new issue called, and how should it be handled?
 
-- **Correct:** It is a **Secondary Risk**. It should be documented in the Risk Register and analyzed to determine a response.
-- **Distractor 1:** It is a **Residual Risk**. It should be accepted since the primary risk is resolved.
-- **Distractor 2:** It is a **Workaround**. The team should document it in the issue log.
-- **Distractor 3:** It is a **Scope Creep**. The PM should reject the fan installation to maintain requirements.
+- <strong>Correct:</strong> It is a **Secondary Risk**. It should be documented in the Risk Register and analyzed to determine a response.
+- <strong>Distractor 1:</strong> It is a **Residual Risk**. It should be accepted since the primary risk is resolved.
+- <strong>Distractor 2:</strong> It is a **Workaround**. The team should document it in the issue log.
+- <strong>Distractor 3:</strong> It is a **Scope Creep**. The PM should reject the fan installation to maintain requirements.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -387,18 +387,18 @@ What is this new issue called, and how should it be handled?
 
 ### Question 14
 
-**Enabler:** Identify risks | **Methodology:** Agile
+<strong>Enabler:</strong> Identify risks | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A daily standup reveals that three developers are blocked because the test server is down. This server instability has happened twice this week. The Scrum Master removes the impediment for the day.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Lead/Agile Coach do next regarding **risk management**?
 
-- **Correct:** Identify this pattern as a systemic risk ("Server Instability") and facilitate a Root Cause Analysis to prevent recurrence.
-- **Distractor 1:** Continue to treat it as an impediment each day and trust the Scrum Master to fix it.
-- **Distractor 2:** Accept the risk as part of the project environment and add a buffer to the sprint.
-- **Distractor 3:** Escalate to the IT department that they are failing the project.
+- <strong>Correct:</strong> Identify this pattern as a systemic risk ("Server Instability") and facilitate a Root Cause Analysis to prevent recurrence.
+- <strong>Distractor 1:</strong> Continue to treat it as an impediment each day and trust the Scrum Master to fix it.
+- <strong>Distractor 2:</strong> Accept the risk as part of the project environment and add a buffer to the sprint.
+- <strong>Distractor 3:</strong> Escalate to the IT department that they are failing the project.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -416,18 +416,18 @@ What should the Project Lead/Agile Coach do next regarding **risk management**?
 
 ### Question 15
 
-**Enabler:** Analyze risks | **Methodology:** Hybrid
+<strong>Enabler:</strong> Analyze risks | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project uses a predictive schedule for regulatory approvals (Phase 1) and Scrum for development (Phase 2). The regulatory approval process has a high variance: it could take 1 month or 6 months. Agile development cannot start until approval is granted.
 
-**Question:**
+<strong>Question:</strong>
 Which quantitative analysis tool is **MOST** suitable for estimating the project start date?
 
-- **Correct:** Three-Point Estimating (PERT) or Monte Carlo Simulation to model the probability distribution of the approval duration.
-- **Distractor 1:** Velocity Analysis based on the regulator's past performance.
-- **Distractor 2:** Decision Tree Analysis to choose between different regulators.
-- **Distractor 3:** Pareto Charting to identify the causes of delays.
+- <strong>Correct:</strong> Three-Point Estimating (PERT) or Monte Carlo Simulation to model the probability distribution of the approval duration.
+- <strong>Distractor 1:</strong> Velocity Analysis based on the regulator's past performance.
+- <strong>Distractor 2:</strong> Decision Tree Analysis to choose between different regulators.
+- <strong>Distractor 3:</strong> Pareto Charting to identify the causes of delays.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -445,18 +445,18 @@ Which quantitative analysis tool is **MOST** suitable for estimating the project
 
 ### Question 16
 
-**Enabler:** Execute a risk management plan | **Methodology:** Predictive
+<strong>Enabler:</strong> Execute a risk management plan | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager creates a "Watch List" for low-priority risks. During a monthly review, a risk on the Watch List ("Material costs increase by 5%") is found to have changed. The impact has increased significantly due to new tariffs, pushing its Risk Score above the mitigation threshold defined in the plan.
 
-**Question:**
+<strong>Question:</strong>
 What is the **FIRST** step the PM should take?
 
-- **Correct:** Move the risk from the Watch List to the active Risk Register and develop a response plan (e.g., Mitigate).
-- **Distractor 1:** Immediately execute the contingency reserve to cover the cost difference.
-- **Distractor 2:** Accept the risk because it was originally low priority.
-- **Distractor 3:** Escalate the risk to the sponsor since tariffs are external.
+- <strong>Correct:</strong> Move the risk from the Watch List to the active Risk Register and develop a response plan (e.g., Mitigate).
+- <strong>Distractor 1:</strong> Immediately execute the contingency reserve to cover the cost difference.
+- <strong>Distractor 2:</strong> Accept the risk because it was originally low priority.
+- <strong>Distractor 3:</strong> Escalate the risk to the sponsor since tariffs are external.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -474,18 +474,18 @@ What is the **FIRST** step the PM should take?
 
 ### Question 17
 
-**Enabler:** Identify risks | **Methodology:** Agile
+<strong>Enabler:</strong> Identify risks | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During Sprint Planning, the team identifies that a complex user story depends on an external API that has no documentation. The team suggests estimating it at 20 story points to be safe.
 
-**Question:**
+<strong>Question:</strong>
 How should the Agile Project Manager coach the team to handle this risk?
 
-- **Correct:** Coach the team to create a "Spike" (timeboxed investigation) to research the API first, rather than committing to a large, uncertain estimate.
-- **Distractor 1:** Accept the 20-point estimate and add it to the Sprint Backlog.
-- **Distractor 2:** Create a Risk Register entry and assign the Product Owner to mitigate it.
-- **Distractor 3:** Remove the story from the sprint until the external vendor provides documentation.
+- <strong>Correct:</strong> Coach the team to create a "Spike" (timeboxed investigation) to research the API first, rather than committing to a large, uncertain estimate.
+- <strong>Distractor 1:</strong> Accept the 20-point estimate and add it to the Sprint Backlog.
+- <strong>Distractor 2:</strong> Create a Risk Register entry and assign the Product Owner to mitigate it.
+- <strong>Distractor 3:</strong> Remove the story from the sprint until the external vendor provides documentation.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -503,18 +503,18 @@ How should the Agile Project Manager coach the team to handle this risk?
 
 ### Question 18
 
-**Enabler:** Plan Risk Responses | **Methodology:** Hybrid
+<strong>Enabler:</strong> Plan Risk Responses | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project has a potential $50,000 opportunity (early completion bonus) if the team can finish Phase 1 two weeks early. However, achieving this requires paying $10,000 for expedited shipping of materials.
 
-**Question:**
+<strong>Question:</strong>
 Which quantitative analysis supports the decision to pay for shipping?
 
-- **Correct:** Expected Monetary Value (EMV). If the probability of finishing early with the materials is >20%, the investment may be worth it (Cost basis analysis).
-- **Distractor 1:** Sensitivity Analysis to see if shipping costs impact the bottom line.
-- **Distractor 2:** Root Cause Analysis of the schedule delay.
-- **Distractor 3:** Qualitative Risk Assessment of the shipping vendor.
+- <strong>Correct:</strong> Expected Monetary Value (EMV). If the probability of finishing early with the materials is >20%, the investment may be worth it (Cost basis analysis).
+- <strong>Distractor 1:</strong> Sensitivity Analysis to see if shipping costs impact the bottom line.
+- <strong>Distractor 2:</strong> Root Cause Analysis of the schedule delay.
+- <strong>Distractor 3:</strong> Qualitative Risk Assessment of the shipping vendor.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -532,18 +532,18 @@ Which quantitative analysis supports the decision to pay for shipping?
 
 ### Question 19
 
-**Enabler:** Analyze risks | **Methodology:** Predictive
+<strong>Enabler:</strong> Analyze risks | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using a Probability and Impact Matrix. Risk A has a probability of 0.9 and an impact of $1,000 (Impact Score 0.1). Risk B has a probability of 0.1 and an impact of $1,000,000 (Impact Score 0.9). The Matrix puts Risk A in "Low" (Green) and Risk B in "Medium" (Yellow).
 
-**Question:**
+<strong>Question:</strong>
 Why might the project manager decide to prioritize Risk B despite its low probability?
 
-- **Correct:** Because the impact ($1M) might exceed the organization's risk capacity or threaten project survival, overriding the standard PxI score.
-- **Distractor 1:** Because low probability risks are harder to detect and therefore more dangerous.
-- **Distractor 2:** Because the Probability-Impact Matrix is flawed and should not be used for financial risks.
-- **Distractor 3:** Because Risk A is a "High Probability" risks which means it should be treated as an Issue, not a risk.
+- <strong>Correct:</strong> Because the impact ($1M) might exceed the organization's risk capacity or threaten project survival, overriding the standard PxI score.
+- <strong>Distractor 1:</strong> Because low probability risks are harder to detect and therefore more dangerous.
+- <strong>Distractor 2:</strong> Because the Probability-Impact Matrix is flawed and should not be used for financial risks.
+- <strong>Distractor 3:</strong> Because Risk A is a "High Probability" risks which means it should be treated as an Issue, not a risk.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -561,18 +561,18 @@ Why might the project manager decide to prioritize Risk B despite its low probab
 
 ### Question 20
 
-**Enabler:** Develop a risk management plan | **Methodology:** Agile
+<strong>Enabler:</strong> Develop a risk management plan | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is starting a project with high regulatory compliance requirements. The organization usually requires a detailed Risk Register approved by the PMO. The team feels this is "bureaucratic waste."
 
-**Question:**
+<strong>Question:</strong>
 How should the Agile Project Lead approach the Risk Management Plan?
 
-- **Correct:** Adapt the process: Agree to maintain the required compliance data (the "what") but use Agile artifacts (e.g., Risk tags in the Backlog, Information Radiators) to capture it (the "how"), ensuring PMO needs are met without slowing the team.
-- **Distractor 1:** Direct the team to fill out the standard PMO spreadsheet every Friday to ensure compliance.
-- **Distractor 2:** Ask the PMO to waive the requirement because Agile projects do not use Risk Registers.
-- **Distractor 3:** Secretly maintain the register yourself so the team doesn't have to worry about it.
+- <strong>Correct:</strong> Adapt the process: Agree to maintain the required compliance data (the "what") but use Agile artifacts (e.g., Risk tags in the Backlog, Information Radiators) to capture it (the "how"), ensuring PMO needs are met without slowing the team.
+- <strong>Distractor 1:</strong> Direct the team to fill out the standard PMO spreadsheet every Friday to ensure compliance.
+- <strong>Distractor 2:</strong> Ask the PMO to waive the requirement because Agile projects do not use Risk Registers.
+- <strong>Distractor 3:</strong> Secretly maintain the register yourself so the team doesn't have to worry about it.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -590,18 +590,18 @@ How should the Agile Project Lead approach the Risk Management Plan?
 
 ### Question 21
 
-**Enabler:** Monitor and control risks | **Methodology:** Predictive
+<strong>Enabler:</strong> Monitor and control risks | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager notices that the "Number of Open Risks" has stayed constant at 15 for the last three months, even though the project is progressing through phases.
 
-**Question:**
+<strong>Question:</strong>
 What does this metric **MOST LIKELY** indicate about the risk management process?
 
-- **Correct:** The team may be failing to close obsolete risks or identify new ones effectively (stale data).
-- **Distractor 1:** The risk management process is stable and effective.
-- **Distractor 2:** The project is low-risk because the number isn't increasing.
-- **Distractor 3:** The team is effectively using the "Avoid" strategy for all new risks.
+- <strong>Correct:</strong> The team may be failing to close obsolete risks or identify new ones effectively (stale data).
+- <strong>Distractor 1:</strong> The risk management process is stable and effective.
+- <strong>Distractor 2:</strong> The project is low-risk because the number isn't increasing.
+- <strong>Distractor 3:</strong> The team is effectively using the "Avoid" strategy for all new risks.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -619,20 +619,20 @@ What does this metric **MOST LIKELY** indicate about the risk management process
 
 ### Question 22
 
-**Enabler:** Analyze risks | **Methodology:** Predictive
+<strong>Enabler:</strong> Analyze risks | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are analyzing a risk involving the potential failure of a cooling pump.
 - Risk A (Pump Failure): 50% Prob, $100k Impact.
 - If Pump Fails, there is a 20% chance the backup system also fails (Secondary Risk B), causing $500k additional damage.
 
-**Question:**
+<strong>Question:</strong>
 What is the total Expected Monetary Value (EMV) of this risk scenario?
 
-- **Correct:** $60,000. (Risk A: $50k) + (Risk B: 0.5 * 0.2 * $500k = $10k). Wait. Risk B only happens if Risk A happens.
-- **Distractor 1:** $150,000
-- **Distractor 2:** $50,000
-- **Distractor 3:** $100,000
+- <strong>Correct:</strong> $60,000. (Risk A: $50k) + (Risk B: 0.5 * 0.2 * $500k = $10k). Wait. Risk B only happens if Risk A happens.
+- <strong>Distractor 1:</strong> $150,000
+- <strong>Distractor 2:</strong> $50,000
+- <strong>Distractor 3:</strong> $100,000
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -674,18 +674,18 @@ Distractors: $50,000 (Missed secondary), $110,000 (Bad math), $150,000 (Adding i
 
 ### Question 23
 
-**Enabler:** Identify risks | **Methodology:** Predictive
+<strong>Enabler:</strong> Identify risks | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager gathers experts to identify risks for a nuclear plant upgrade. The experts are located globally and there is a concern that dominant personalities might sway the group's opinion.
 
-**Question:**
+<strong>Question:</strong>
 Which identification technique is **BEST** suited for this situation?
 
-- **Correct:** Delphi Technique.
-- **Distractor 1:** Brainstorming.
-- **Distractor 2:** Nominal Group Technique.
-- **Distractor 3:** Root Cause Analysis.
+- <strong>Correct:</strong> Delphi Technique.
+- <strong>Distractor 1:</strong> Brainstorming.
+- <strong>Distractor 2:</strong> Nominal Group Technique.
+- <strong>Distractor 3:</strong> Root Cause Analysis.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -703,18 +703,18 @@ Which identification technique is **BEST** suited for this situation?
 
 ### Question 24
 
-**Enabler:** Communicate the status of a risk | **Methodology:** Predictive
+<strong>Enabler:</strong> Communicate the status of a risk | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A major risk (flood damage) has occurred. The response plan (Active Acceptance - Contingency Reserve) was executed efficiently. The project is back on track, but the Contingency Reserve is now depleted by 50%.
 
-**Question:**
+<strong>Question:</strong>
 What is the **most critical** communication action the PM must take?
 
-- **Correct:** Update the Risk Report to reflect the reduced reserve and the exposure of remaining risks, and communicate this to the Sponsor.
-- **Distractor 1:** Request immediate replenishment of the reserve from the client.
-- **Distractor 2:** Hide the reserve depletion until the next phase gate to avoid alarming stakeholders.
-- **Distractor 3:** Archive the risk as "Closed" and remove it from future status reports.
+- <strong>Correct:</strong> Update the Risk Report to reflect the reduced reserve and the exposure of remaining risks, and communicate this to the Sponsor.
+- <strong>Distractor 1:</strong> Request immediate replenishment of the reserve from the client.
+- <strong>Distractor 2:</strong> Hide the reserve depletion until the next phase gate to avoid alarming stakeholders.
+- <strong>Distractor 3:</strong> Archive the risk as "Closed" and remove it from future status reports.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -732,18 +732,18 @@ What is the **most critical** communication action the PM must take?
 
 ### Question 25
 
-**Enabler:** Plan Risk Responses | **Methodology:** Agile
+<strong>Enabler:</strong> Plan Risk Responses | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An Agile team identifies a risk: "Knowledge Silo - Only one developer knows the legacy code." If they get sick, velocity stops.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** Opportunity-focused or Mitigation response?
 
-- **Correct:** Pair Programming or Mob Programming on legacy tasks (Mitigate/Enhance knowledge sharing).
-- **Distractor 1:** Send the expert to a training course (Transfer).
-- **Distractor 2:** Create detailed documentation (Mitigate - but often lower value/stale).
-- **Distractor 3:** Hire a backup consultant to stand by (Active Accept).
+- <strong>Correct:</strong> Pair Programming or Mob Programming on legacy tasks (Mitigate/Enhance knowledge sharing).
+- <strong>Distractor 1:</strong> Send the expert to a training course (Transfer).
+- <strong>Distractor 2:</strong> Create detailed documentation (Mitigate - but often lower value/stale).
+- <strong>Distractor 3:</strong> Hire a backup consultant to stand by (Active Accept).
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -763,18 +763,18 @@ What is the **BEST** Opportunity-focused or Mitigation response?
 
 ### Question 26
 
-**Enabler:** Analyze risks | **Methodology:** Predictive
+<strong>Enabler:</strong> Analyze risks | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager uses a Tornado Diagram to analyze risk sensitivity. The diagram shows "Steel Price Fluctuation" at the top with a wide bar ($200k range) and "Permit Delay" at the bottom with a narrow bar ($10k range).
 
-**Question:**
+<strong>Question:</strong>
 What is the **primary interpretation** of this chart?
 
-- **Correct:** Steel Price Fluctuation has the highest potential impact on the project outcome and requires the most detailed monitoring/response.
-- **Distractor 1:** Steel Price Fluctuation has the highest probability of occurring.
-- **Distractor 2:** Permit Delay is a negligible risk and should be removed from the register.
-- **Distractor 3:** The project budget will definitely increase by $200k.
+- <strong>Correct:</strong> Steel Price Fluctuation has the highest potential impact on the project outcome and requires the most detailed monitoring/response.
+- <strong>Distractor 1:</strong> Steel Price Fluctuation has the highest probability of occurring.
+- <strong>Distractor 2:</strong> Permit Delay is a negligible risk and should be removed from the register.
+- <strong>Distractor 3:</strong> The project budget will definitely increase by $200k.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -792,18 +792,18 @@ What is the **primary interpretation** of this chart?
 
 ### Question 27
 
-**Enabler:** Identify risks | **Methodology:** Agile
+<strong>Enabler:</strong> Identify risks | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is about to start a high-stakes release. The Project Lead asks the team to "Imagine we have failed 3 months from now. The release was a disaster. What went wrong?"
 
-**Question:**
+<strong>Question:</strong>
 What is this technique called and what is its purpose?
 
-- **Correct:** Pre-mortem; it helps overcome cognitive bias (Optimism) to identify hidden threats before they happen.
-- **Distractor 1:** Post-mortem; it helps document lessons learned for future projects.
-- **Distractor 2:** Root Cause Analysis; it finds the single source of failure.
-- **Distractor 3:** Retrospective; it reviews the team's process improvement.
+- <strong>Correct:</strong> Pre-mortem; it helps overcome cognitive bias (Optimism) to identify hidden threats before they happen.
+- <strong>Distractor 1:</strong> Post-mortem; it helps document lessons learned for future projects.
+- <strong>Distractor 2:</strong> Root Cause Analysis; it finds the single source of failure.
+- <strong>Distractor 3:</strong> Retrospective; it reviews the team's process improvement.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -821,21 +821,21 @@ What is this technique called and what is its purpose?
 
 ### Question 28
 
-**Enabler:** Monitor and control risks | **Methodology:** Hybrid
+<strong>Enabler:</strong> Monitor and control risks | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 Reviewing a dashboard:
 - Predictive Stream (Hardware): "Green" (On track).
 - Agile Stream (Software): "Red" (Blocked by hardware specs).
 The Project Manager realizes the hardware team didn't update their status to reflect that the specs were incomplete, masking the risk to the software team.
 
-**Question:**
+<strong>Question:</strong>
 What is the **root cause** of this monitoring failure?
 
-- **Correct:** Lack of integrated risk monitoring; the hardware team viewed "success" as completing tasks, ignoring the "definition of done" required for the dependent software team.
-- **Distractor 1:** The Agile team is being too demanding regarding specifications.
-- **Distractor 2:** The dashboard software is broken and not updating in real-time.
-- **Distractor 3:** The Risk Register was missing a "Scope Creep" risk.
+- <strong>Correct:</strong> Lack of integrated risk monitoring; the hardware team viewed "success" as completing tasks, ignoring the "definition of done" required for the dependent software team.
+- <strong>Distractor 1:</strong> The Agile team is being too demanding regarding specifications.
+- <strong>Distractor 2:</strong> The dashboard software is broken and not updating in real-time.
+- <strong>Distractor 3:</strong> The Risk Register was missing a "Scope Creep" risk.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -853,18 +853,18 @@ What is the **root cause** of this monitoring failure?
 
 ### Question 29
 
-**Enabler:** Implement risk responses | **Methodology:** Predictive
+<strong>Enabler:</strong> Implement risk responses | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A critical machine breaks down. This specific failure was *not* in the Risk Register. To keep the project moving, the site foreman rents a manual replacement machine for 3 days.
 
-**Question:**
+<strong>Question:</strong>
 What is the rent of the manual machine classified as?
 
-- **Correct:** A **Workaround** (response to an unidentified issue/risk).
-- **Distractor 1:** A Contingency Plan (planned response).
-- **Distractor 2:** A Fallback Plan (response if contingency fails).
-- **Distractor 3:** A Risk Mitigation (measures taken before risk occurs).
+- <strong>Correct:</strong> A **Workaround** (response to an unidentified issue/risk).
+- <strong>Distractor 1:</strong> A Contingency Plan (planned response).
+- <strong>Distractor 2:</strong> A Fallback Plan (response if contingency fails).
+- <strong>Distractor 3:</strong> A Risk Mitigation (measures taken before risk occurs).
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -882,18 +882,18 @@ What is the rent of the manual machine classified as?
 
 ### Question 30
 
-**Enabler:** Execute a risk management plan | **Methodology:** Agile
+<strong>Enabler:</strong> Execute a risk management plan | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is building a feature based on a new, unproven algorithm. They commit to a "Fail Fast" approach. In Sprint 2, the algorithm fails to scale to the necessary data volume.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** next step for the Product Owner and Team?
 
-- **Correct:** Pivot immediately: Accept the failure as "Risk Avoidance" (we avoided building the full feature on bad tech) and prioritize the alternative solution in the Backlog.
-- **Distractor 1:** Extend the sprint by 2 weeks to force the algorithm to work.
-- **Distractor 2:** Mark the sprint as a failure and reprimand the team for poor technical choices.
-- **Distractor 3:** Move the failed story to the next sprint and keep trying the same approach.
+- <strong>Correct:</strong> Pivot immediately: Accept the failure as "Risk Avoidance" (we avoided building the full feature on bad tech) and prioritize the alternative solution in the Backlog.
+- <strong>Distractor 1:</strong> Extend the sprint by 2 weeks to force the algorithm to work.
+- <strong>Distractor 2:</strong> Mark the sprint as a failure and reprimand the team for poor technical choices.
+- <strong>Distractor 3:</strong> Move the failed story to the next sprint and keep trying the same approach.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -911,18 +911,18 @@ What is the **BEST** next step for the Product Owner and Team?
 
 ### Question 31
 
-**Enabler:** Develop a risk management plan | **Methodology:** Hybrid
+<strong>Enabler:</strong> Develop a risk management plan | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A program has three sub-projects: Construction (Predictive, Cost-focused), Software (Agile, Speed-focused), and Marketing (Hybrid). Each PM is using different scales for "High Risk" (one uses $, one uses hours, one uses 1-5 score).
 
-**Question:**
+<strong>Question:</strong>
 What must the Program Manager do to ensure effective risk governance?
 
-- **Correct:** Standardize the Risk Scales (or create a translation matrix) in the Program Risk Management Plan so risks can be aggregated and compared across the program.
-- **Distractor 1:** Dictate that all projects must use Agile Risk Burndown charts.
-- **Distractor 2:** Allow each project to maximize its own autonomy; no programm-level view is needed.
-- **Distractor 3:** Convert all risks to "Hours Delay" since time is the only common factor.
+- <strong>Correct:</strong> Standardize the Risk Scales (or create a translation matrix) in the Program Risk Management Plan so risks can be aggregated and compared across the program.
+- <strong>Distractor 1:</strong> Dictate that all projects must use Agile Risk Burndown charts.
+- <strong>Distractor 2:</strong> Allow each project to maximize its own autonomy; no programm-level view is needed.
+- <strong>Distractor 3:</strong> Convert all risks to "Hours Delay" since time is the only common factor.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -940,15 +940,15 @@ What must the Program Manager do to ensure effective risk governance?
 
 ### Question 32
 
-**Enabler:** Plan Risk Responses | **Methodology:** Predictive
+<strong>Enabler:</strong> Plan Risk Responses | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A company wants to bid on a massive international infrastructure project but lacks the local regulatory expertise, which is a "High Impact" theat. They decide to form a Joint Venture with a local firm.
 
-**Question:**
+<strong>Question:</strong>
 Which Risk Response Strategy does this represent?
 
-- **Correct:** **Start/Share**. Wait. For a *Threat*, it is **Sharing**? No.
+- <strong>Correct:</strong> **Start/Share**. Wait. For a *Threat*, it is **Sharing**? No.
 Let's check the Guide.
 - Threat: Avoid, Mitigate, Transfer, Accept, Escalate.
 - Opportunity: Exploit, Enhance, Share, Accept, Escalate.
@@ -961,14 +961,14 @@ If the scenario says "wants to bid" (Opportunity to win contract), then the JV i
 If the scenario focuses on "Lacks expertise" (Threat), buying insurance is Transfer. Hiring a partner is often Transfer or Mitigate.
 Most PMP contexts frame JVs as **Sharing** an Opportunity (the bid). Identifying the *Opportunity* (Winning the bid) is key. The "lack of expertise" is the barrier to the opportunity.
 Let's refine the Correct Answer to align with "Sharing an Opportunity."
-**Revised Question Framework:** Focus on the "Opportunity to start the project."
-**Question:** The company identifies the specific Opportunity to win the bid, but cannot do it alone. They form a JV. What strategy is this?
-**Correct:** Share.
+<strong>Revised Question Framework:</strong> Focus on the "Opportunity to start the project."
+<strong>Question:</strong> The company identifies the specific Opportunity to win the bid, but cannot do it alone. They form a JV. What strategy is this?
+<strong>Correct:</strong> Share.
 
-- **Correct:** **Share** (The goal is to capture the opportunity of the project bid by partitioning ownership).
-- **Distractor 1:** Transfer (Used for threats, usually involving insurance or liability shifts).
-- **Distractor 2:** Mitigate (Used for threats to reduce probability).
-- **Distractor 3:** Enhance (Used to increase probability alone, not with a partner).
+- <strong>Correct:</strong> **Share** (The goal is to capture the opportunity of the project bid by partitioning ownership).
+- <strong>Distractor 1:</strong> Transfer (Used for threats, usually involving insurance or liability shifts).
+- <strong>Distractor 2:</strong> Mitigate (Used for threats to reduce probability).
+- <strong>Distractor 3:</strong> Enhance (Used to increase probability alone, not with a partner).
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -986,18 +986,18 @@ Let's refine the Correct Answer to align with "Sharing an Opportunity."
 
 ### Question 33
 
-**Enabler:** Analyze risks | **Methodology:** Agile
+<strong>Enabler:</strong> Analyze risks | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The Product Backlog has 50 items. Item A (Value: $10k, Risk: Low) is at the top. Item B (Value: $10k, Risk: Very High - if it fails, the architecture needs a redo) is at the bottom.
 
-**Question:**
+<strong>Question:</strong>
 What logic should the Agile Project Manager use to suggest reordering?
 
-- **Correct:** Move Item B to the top ("Risk-Adjusted Prioritization"). Tackling high-risk/high-dependency items early reduces overall project risk exposure (failing fast).
-- **Distractor 1:** Keep Item A at the top to secure the "Quick Win" and build morale.
-- **Distractor 2:** Split Item B into smaller parts and scatter them throughout the backlog to dilute the risk.
-- **Distractor 3:** Remove Item B until the architecture is proven stable by other items.
+- <strong>Correct:</strong> Move Item B to the top ("Risk-Adjusted Prioritization"). Tackling high-risk/high-dependency items early reduces overall project risk exposure (failing fast).
+- <strong>Distractor 1:</strong> Keep Item A at the top to secure the "Quick Win" and build morale.
+- <strong>Distractor 2:</strong> Split Item B into smaller parts and scatter them throughout the backlog to dilute the risk.
+- <strong>Distractor 3:</strong> Remove Item B until the architecture is proven stable by other items.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1015,18 +1015,18 @@ What logic should the Agile Project Manager use to suggest reordering?
 
 ### Question 34
 
-**Enabler:** Communicate the status of a risk | **Methodology:** Hybrid
+<strong>Enabler:</strong> Communicate the status of a risk | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project has a Predictive "Infrastructure" team and an Agile "App" team. They meet weekly. The App team reports "We are blocked by the firewall config." The Infrastructure team lead says "That's not a risk, that's a ticket. File a ticket." The App team feels ignored.
 
-**Question:**
+<strong>Question:</strong>
 What is the communication gap here?
 
-- **Correct:** **Conceptual Ambiguity** (Vocabulary misalignment). The Agile team treats "Blockers" as immediate risks to velocity; the Predictive team treats them as standard operational tasks.
-- **Distractor 1:** The Infrastructure team is incompetent.
-- **Distractor 2:** The Agile team is lazy and refuses to follow process.
-- **Distractor 3:** The Risk Register is missing a "Firewall" category.
+- <strong>Correct:</strong> **Conceptual Ambiguity** (Vocabulary misalignment). The Agile team treats "Blockers" as immediate risks to velocity; the Predictive team treats them as standard operational tasks.
+- <strong>Distractor 1:</strong> The Infrastructure team is incompetent.
+- <strong>Distractor 2:</strong> The Agile team is lazy and refuses to follow process.
+- <strong>Distractor 3:</strong> The Risk Register is missing a "Firewall" category.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1044,18 +1044,18 @@ What is the communication gap here?
 
 ### Question 35
 
-**Enabler:** Identify risks | **Methodology:** Predictive
+<strong>Enabler:</strong> Identify risks | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team is struggling to identify *external* risks. They keep focusing on internal code issues. The PM wants to broaden their thinking to include Political, Economic, and Social factors.
 
-**Question:**
+<strong>Question:</strong>
 Which tool should the PM introduce?
 
-- **Correct:** A **Prompt List** (specifically PESTLE).
-- **Distractor 1:** A Probability-Impact Matrix.
-- **Distractor 2:** A Fishbone (Ishikawa) Diagram.
-- **Distractor 3:** A Monte Carlo Simulation.
+- <strong>Correct:</strong> A **Prompt List** (specifically PESTLE).
+- <strong>Distractor 1:</strong> A Probability-Impact Matrix.
+- <strong>Distractor 2:</strong> A Fishbone (Ishikawa) Diagram.
+- <strong>Distractor 3:</strong> A Monte Carlo Simulation.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1073,21 +1073,21 @@ Which tool should the PM introduce?
 
 ### Question 36
 
-**Enabler:** Monitor and control risks | **Methodology:** Agile
+<strong>Enabler:</strong> Monitor and control risks | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An Agile team tracks "Risk Velocity" - the dollar value of risk exposure retired per sprint.
 Sprint 1: $10k retired.
 Sprint 2: $15k retired.
 Sprint 3: $0 retired (Risk Exposure actually increased by $50k).
 
-**Question:**
+<strong>Question:</strong>
 What is the best interpretation of Sprint 3's data?
 
-- **Correct:** The team likely undertook new work that introduced significant new uncertainties (Discovery Phase), or a latent risk significantly worsened. This signals a need to pause and re-assess.
-- **Distractor 1:** The team failed to work hard enough in Sprint 3.
-- **Distractor 2:** The risk model is broken and should be discarded.
-- **Distractor 3:** This is normal variance; ignore it.
+- <strong>Correct:</strong> The team likely undertook new work that introduced significant new uncertainties (Discovery Phase), or a latent risk significantly worsened. This signals a need to pause and re-assess.
+- <strong>Distractor 1:</strong> The team failed to work hard enough in Sprint 3.
+- <strong>Distractor 2:</strong> The risk model is broken and should be discarded.
+- <strong>Distractor 3:</strong> This is normal variance; ignore it.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1105,18 +1105,18 @@ What is the best interpretation of Sprint 3's data?
 
 ### Question 37
 
-**Enabler:** Execute a risk management plan | **Methodology:** Hybrid
+<strong>Enabler:</strong> Execute a risk management plan | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A risk response requires the Predictive team to purchase a server and the Agile team to configure it. Detailed actions were assigned to the Predictive Lead. The Agile team was never informed of their role in the response.
 
-**Question:**
+<strong>Question:</strong>
 What aspect of the Risk Management Plan was poorly executed?
 
-- **Correct:** **Risk Ownership and Integration**. The Risk Owner failed to coordinate the *cross-functional* actions required for the response.
-- **Distractor 1:** Risk Threshold identification.
-- **Distractor 2:** Quantitative Analysis.
-- **Distractor 3:** Secondary Risk Identification.
+- <strong>Correct:</strong> **Risk Ownership and Integration**. The Risk Owner failed to coordinate the *cross-functional* actions required for the response.
+- <strong>Distractor 1:</strong> Risk Threshold identification.
+- <strong>Distractor 2:</strong> Quantitative Analysis.
+- <strong>Distractor 3:</strong> Secondary Risk Identification.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1134,18 +1134,18 @@ What aspect of the Risk Management Plan was poorly executed?
 
 ### Question 38
 
-**Enabler:** Plan Risk Responses | **Methodology:** Predictive
+<strong>Enabler:</strong> Plan Risk Responses | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project discovers a new compliance requirement that was released by the government *yesterday*. No one could have predicted this law change (Cost: $20,000). The Project Manager looks at the budget.
 
-**Question:**
+<strong>Question:</strong>
 Which funding source should be used to cover this?
 
-- **Correct:** **Management Reserve** (because it was an "Unknown-Unknown" / Unidentified Risk).
-- **Distractor 1:** **Contingency Reserve** (because it is a project risk).
-- **Distractor 2:** **Operational Budget** (because it is a government tax).
-- **Distractor 3:** **Sunk Costs**.
+- <strong>Correct:</strong> **Management Reserve** (because it was an "Unknown-Unknown" / Unidentified Risk).
+- <strong>Distractor 1:</strong> **Contingency Reserve** (because it is a project risk).
+- <strong>Distractor 2:</strong> **Operational Budget** (because it is a government tax).
+- <strong>Distractor 3:</strong> **Sunk Costs**.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1163,18 +1163,18 @@ Which funding source should be used to cover this?
 
 ### Question 39
 
-**Enabler:** Identify risks | **Methodology:** Agile
+<strong>Enabler:</strong> Identify risks | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a retrospective, a developer mentions: "We hacked the login module to meet the deadline. It's messy and unsecure, but it works."
 
-**Question:**
+<strong>Question:</strong>
 How should the Agile Leader process this statement?
 
-- **Correct:** Identify it as **Technical Debt** (a form of Risk). Create an item in the backlog/risk register to Refactor/Fix it before it causes an issue.
-- **Distractor 1:** Praise the team for meeting the deadline and move on.
-- **Distractor 2:** Initiate a disciplinary review for poor quality work.
-- **Distractor 3:** Add it to the "Issue Log" because the code is already written.
+- <strong>Correct:</strong> Identify it as **Technical Debt** (a form of Risk). Create an item in the backlog/risk register to Refactor/Fix it before it causes an issue.
+- <strong>Distractor 1:</strong> Praise the team for meeting the deadline and move on.
+- <strong>Distractor 2:</strong> Initiate a disciplinary review for poor quality work.
+- <strong>Distractor 3:</strong> Add it to the "Issue Log" because the code is already written.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1192,18 +1192,18 @@ How should the Agile Leader process this statement?
 
 ### Question 40
 
-**Enabler:** Monitor and control risks | **Methodology:** Hybrid
+<strong>Enabler:</strong> Monitor and control risks | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A PM perform a scheduled **Risk Audit**. They find that of the 20 risks marked "Closed," 15 were closed without any notes or evidence of why they are no longer risks.
 
-**Question:**
+<strong>Question:</strong>
 What is the primary concern the PM should raise?
 
-- **Correct:** **Ineffectiveness of the Risk Process**. The lack of documentation prevents continuous learning and validation that the risks are actually gone (they might still be lurking).
-- **Distractor 1:** That the team is too efficient at closing risks.
-- **Distractor 2:** That the Probability-Impact Matrix needs recalibration.
-- **Distractor 3:** That the risks should be reopened immediately.
+- <strong>Correct:</strong> **Ineffectiveness of the Risk Process**. The lack of documentation prevents continuous learning and validation that the risks are actually gone (they might still be lurking).
+- <strong>Distractor 1:</strong> That the team is too efficient at closing risks.
+- <strong>Distractor 2:</strong> That the Probability-Impact Matrix needs recalibration.
+- <strong>Distractor 3:</strong> That the risks should be reopened immediately.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1223,18 +1223,18 @@ What is the primary concern the PM should raise?
 
 ### Question 41
 
-**Enabler:** Analyze risks | **Methodology:** Predictive
+<strong>Enabler:</strong> Analyze risks | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A PM is trying to visualize how a "Strike at the Port" (Risk A) influences "Material Supply" (Risk B) which influences "Construction Delay" (Risk C).
 
-**Question:**
+<strong>Question:</strong>
 Which graphical tool best models these causal influences?
 
-- **Correct:** **Influence Diagram**.
-- **Distractor 1:** Tornado Diagram.
-- **Distractor 2:** Monte Carlo S-Curve.
-- **Distractor 3:** Probability-Impact Matrix.
+- <strong>Correct:</strong> **Influence Diagram**.
+- <strong>Distractor 1:</strong> Tornado Diagram.
+- <strong>Distractor 2:</strong> Monte Carlo S-Curve.
+- <strong>Distractor 3:</strong> Probability-Impact Matrix.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1252,23 +1252,23 @@ Which graphical tool best models these causal influences?
 
 ### Question 42
 
-**Enabler:** Execute a risk management plan | **Methodology:** Agile
+<strong>Enabler:</strong> Execute a risk management plan | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A risk ("Database Scalability") was assigned to the Lead Architect. However, the architect has been pulled into critical path coding work and hasn't touched the risk response tasks for two sprints.
 
-**Question:**
+<strong>Question:</strong>
 Who is accountable for ensuring this risk is addressed?
 
-- **Correct:** The **whole team** (in Agile) or the **Risk Owner** (Architect) accountability model. Strictly, the Agile Leader/Scrum Master should facilitate the discussion to re-assign or prioritize the work.
-- **Distractor 1:** The Product Owner alone.
-- **Distractor 2:** The Project Manager.
-- **Distractor 3:** The Stakeholders.
+- <strong>Correct:</strong> The **whole team** (in Agile) or the **Risk Owner** (Architect) accountability model. Strictly, the Agile Leader/Scrum Master should facilitate the discussion to re-assign or prioritize the work.
+- <strong>Distractor 1:</strong> The Product Owner alone.
+- <strong>Distractor 2:</strong> The Project Manager.
+- <strong>Distractor 3:</strong> The Stakeholders.
 
 *Clarification: In PMP Agile terms, the Risk Owner concept still exists but execution is team-based. If the owner is blocked, the process (Scrum Master) must unblock it.*
 
-**Refined Correct Answer:**
-- **Correct:** The Scrum Master/Team Lead should facilitate a discussion to either re-allocate the risk response work or prioritize it in the sprint backlog to unblock the Architect.
+<strong>Refined Correct Answer:</strong>
+- <strong>Correct:</strong> The Scrum Master/Team Lead should facilitate a discussion to either re-allocate the risk response work or prioritize it in the sprint backlog to unblock the Architect.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1286,18 +1286,18 @@ Who is accountable for ensuring this risk is addressed?
 
 ### Question 43
 
-**Enabler:** Identify risks | **Methodology:** Hybrid
+<strong>Enabler:</strong> Identify risks | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project has 3 sub-teams. Team A is building the Engine, Team B the Chassis, Team C the Electronics. They are working well individually. The Project Manager is concerned about the "Integration Points."
 
-**Question:**
+<strong>Question:</strong>
 What is the best technique to identify risks specifically at these interfaces?
 
-- **Correct:** Interface Analysis (or Integration Testing Workshops) focused specifically on data/physical hand-offs between the teams.
-- **Distractor 1:** Individual Team Brainstorming.
-- **Distractor 2:** SWOT Analysis of the company.
-- **Distractor 3:** Reserve Analysis.
+- <strong>Correct:</strong> Interface Analysis (or Integration Testing Workshops) focused specifically on data/physical hand-offs between the teams.
+- <strong>Distractor 1:</strong> Individual Team Brainstorming.
+- <strong>Distractor 2:</strong> SWOT Analysis of the company.
+- <strong>Distractor 3:</strong> Reserve Analysis.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1315,18 +1315,18 @@ What is the best technique to identify risks specifically at these interfaces?
 
 ### Question 44
 
-**Enabler:** Monitor and control risks | **Methodology:** Predictive
+<strong>Enabler:</strong> Monitor and control risks | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A risk ("Snow delay") has a window of valid occurrence from January to March. It is now April 15th. No snow fell. Alternatively, the project is now in the "Indoor Painting" phase where snow doesn't matter.
 
-**Question:**
+<strong>Question:</strong>
 What should be done with this risk in the register?
 
-- **Correct:** Close/Retire the risk. It is no longer valid (Probability = 0).
-- **Distractor 1:** Keep it open with Low Probability just in case.
-- **Distractor 2:** Convert it to an Issue.
-- **Distractor 3:** Transfer it to the Operations team.
+- <strong>Correct:</strong> Close/Retire the risk. It is no longer valid (Probability = 0).
+- <strong>Distractor 1:</strong> Keep it open with Low Probability just in case.
+- <strong>Distractor 2:</strong> Convert it to an Issue.
+- <strong>Distractor 3:</strong> Transfer it to the Operations team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1344,18 +1344,18 @@ What should be done with this risk in the register?
 
 ### Question 45
 
-**Enabler:** Plan Risk Responses | **Methodology:** Agile
+<strong>Enabler:</strong> Plan Risk Responses | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During Release Planning, the team identifies that they lack skills in the new database technology. They want to plan a response.
 
-**Question:**
+<strong>Question:</strong>
 Which Agile artifact should hold this response plan?
 
-- **Correct:** The **Product Backlog** (as a Learning Spike, Training Story, or Pair Programming task).
-- **Distractor 1:** The Risk Management Plan (Document).
-- **Distractor 2:** The Team Charter.
-- **Distractor 3:** The Sprint Burndown.
+- <strong>Correct:</strong> The **Product Backlog** (as a Learning Spike, Training Story, or Pair Programming task).
+- <strong>Distractor 1:</strong> The Risk Management Plan (Document).
+- <strong>Distractor 2:</strong> The Team Charter.
+- <strong>Distractor 3:</strong> The Sprint Burndown.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1373,18 +1373,18 @@ Which Agile artifact should hold this response plan?
 
 ### Question 46
 
-**Enabler:** Implement risk responses | **Methodology:** Predictive
+<strong>Enabler:</strong> Implement risk responses | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 The response to "Risk A" was to install a firewall. The firewall was installed, but it blocked legitimate user traffic, causing a service outage.
 
-**Question:**
+<strong>Question:</strong>
 What type of risk is the "Service Outage"?
 
-- **Correct:** **Secondary Risk** (It happened *because* of the response).
-- **Distractor 1:** Residual Risk.
-- **Distractor 2:** Unknown-Unknown.
-- **Distractor 3:** Strategic Risk.
+- <strong>Correct:</strong> **Secondary Risk** (It happened *because* of the response).
+- <strong>Distractor 1:</strong> Residual Risk.
+- <strong>Distractor 2:</strong> Unknown-Unknown.
+- <strong>Distractor 3:</strong> Strategic Risk.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1402,21 +1402,21 @@ What type of risk is the "Service Outage"?
 
 ### Question 47
 
-**Enabler:** Monitor and control risks | **Methodology:** Hybrid
+<strong>Enabler:</strong> Monitor and control risks | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Program Manager creates a "Traffic Light" dashboard.
 Project A (Predictive): Green (CPI 1.0).
 Project B (Agile): Green (Velocity stable).
 However, Project A relies on Project B's API, and Project B hasn't started that API yet because it's low priority in their backlog.
 
-**Question:**
+<strong>Question:</strong>
 Why is the "Combined Dashboard" failing to show the true risk?
 
-- **Correct:** It measures **isolated performance** (CPI/Velocity) rather than **dependency/integration health**.
-- **Distractor 1:** The Agile team is hiding the delay.
-- **Distractor 2:** CPI is a lagging indicator and should never be used.
-- **Distractor 3:** The Program Manager should use EVM for the Agile project too.
+- <strong>Correct:</strong> It measures **isolated performance** (CPI/Velocity) rather than **dependency/integration health**.
+- <strong>Distractor 1:</strong> The Agile team is hiding the delay.
+- <strong>Distractor 2:</strong> CPI is a lagging indicator and should never be used.
+- <strong>Distractor 3:</strong> The Program Manager should use EVM for the Agile project too.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1434,20 +1434,20 @@ Why is the "Combined Dashboard" failing to show the true risk?
 
 ### Question 48
 
-**Enabler:** Monitor and control risks | **Methodology:** Predictive
+<strong>Enabler:</strong> Monitor and control risks | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are monitoring a risk: "Vendor late delivery."
 Lagging indicator: The shipment didn't arrive.
 Leading indicator: The vendor missed their preliminary design review milestone.
 
-**Question:**
+<strong>Question:</strong>
 Why is tracking the "Leading Indicator" (milestone) superior?
 
-- **Correct:** It acts as a **Trigger**, allowing you to execute a response (e.g., call backup vendor) *before* the disaster (late shipment) fully materializes.
-- **Distractor 1:** It looks better on the dashboard.
-- **Distractor 2:** It allows you to fire the vendor immediately.
-- **Distractor 3:** It reduces the impact to zero automatically.
+- <strong>Correct:</strong> It acts as a **Trigger**, allowing you to execute a response (e.g., call backup vendor) *before* the disaster (late shipment) fully materializes.
+- <strong>Distractor 1:</strong> It looks better on the dashboard.
+- <strong>Distractor 2:</strong> It allows you to fire the vendor immediately.
+- <strong>Distractor 3:</strong> It reduces the impact to zero automatically.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1465,18 +1465,18 @@ Why is tracking the "Leading Indicator" (milestone) superior?
 
 ### Question 49
 
-**Enabler:** Communicate the status of a risk | **Methodology:** Agile
+<strong>Enabler:</strong> Communicate the status of a risk | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 Stakeholders complain they don't know the status of risks because "Agile doesn't use reports."
 
-**Question:**
+<strong>Question:</strong>
 How should the PM/Lead respond?
 
-- **Correct:** Point them to the **Information Radiator** (Risk Burndown, Risk Census on the Wall/Board) and invite them to the Daily Standup or Sprint Review for real-time updates.
-- **Distractor 1:** Start writing a weekly 20-page risk report.
-- **Distractor 2:** Tell them Agile doesn't have risks.
-- **Distractor 3:** Ask the Product Owner to email them individually.
+- <strong>Correct:</strong> Point them to the **Information Radiator** (Risk Burndown, Risk Census on the Wall/Board) and invite them to the Daily Standup or Sprint Review for real-time updates.
+- <strong>Distractor 1:</strong> Start writing a weekly 20-page risk report.
+- <strong>Distractor 2:</strong> Tell them Agile doesn't have risks.
+- <strong>Distractor 3:</strong> Ask the Product Owner to email them individually.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1494,18 +1494,18 @@ How should the PM/Lead respond?
 
 ### Question 50
 
-**Enabler:** Execute a risk management plan | **Methodology:** Hybrid
+<strong>Enabler:</strong> Execute a risk management plan | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project risk (Regulatory Change) has escalated to a point where the required Mitigation cost ($1M) exceeds the entire project budget ($500k).
 
-**Question:**
+<strong>Question:</strong>
 What is the **only** viable action for the Project Manager?
 
-- **Correct:** **Escalate** the risk to the Program/Portfolio Steering Committee for a decision (Continue with more funds, or Cancel project).
-- **Distractor 1:** Use Act of God clause to ignore the regulation.
-- **Distractor 2:** Spend the budget and hope for the best.
-- **Distractor 3:** Reduce scope by 50% to pay for the regulation.
+- <strong>Correct:</strong> **Escalate** the risk to the Program/Portfolio Steering Committee for a decision (Continue with more funds, or Cancel project).
+- <strong>Distractor 1:</strong> Use Act of God clause to ignore the regulation.
+- <strong>Distractor 2:</strong> Spend the budget and hope for the best.
+- <strong>Distractor 3:</strong> Reduce scope by 50% to pay for the regulation.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1580,13 +1580,13 @@ What is the **only** viable action for the Project Manager?
 
 ## 5. Database Statistics
 
-- **Total Questions:** 50
-- **Methodology Split:**
+- <strong>Total Questions:</strong> 50
+- <strong>Methodology Split:</strong>
   - Predictive: 19 (38%)
   - Agile: 17 (34%)
   - Hybrid: 14 (28%)
-- **Enabler Coverage:** All 7 Enablers represented.
-- **Difficulty:** Level 4/5 (Scenario-Analysis).
+- <strong>Enabler Coverage:</strong> All 7 Enablers represented.
+- <strong>Difficulty:</strong> Level 4/5 (Scenario-Analysis).
 
 ---
 

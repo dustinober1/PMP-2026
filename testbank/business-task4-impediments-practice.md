@@ -15,18 +15,18 @@
 
 ### Question 1
 
-**Enabler:** 5. Recognize when a risk becomes an issue | **Methodology:** Predictive
+<strong>Enabler:</strong> 5. Recognize when a risk becomes an issue | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are managing a construction project with a strict deadline. During planning, you identified a risk that 'inclement weather could delay the foundation pour by 3 days,' and you established a contingency reserve of $5,000 for heaters. Today, the site foreman calls to report that a massive storm has flooded the site, making work impossible for at least a week. This event was unforeseen in severity and exceeds the parameters of the identified risk.
 
-**Question:**
+<strong>Question:</strong>
 What is the **FIRST** action the project manager should take?
 
-- **Correct:** Log the event in the Issue Log and assess the impact on the critical path.
-- **Distractor 1:** Execute the risk response plan by releasing the $5,000 contingency reserve.
-- **Distractor 2:** Submit a change request to the Change Control Board (CCB) for a schedule extension.
-- **Distractor 3:** update the Risk Register to reflect the higher probability of weather delays.
+- <strong>Correct:</strong> Log the event in the Issue Log and assess the impact on the critical path.
+- <strong>Distractor 1:</strong> Execute the risk response plan by releasing the $5,000 contingency reserve.
+- <strong>Distractor 2:</strong> Submit a change request to the Change Control Board (CCB) for a schedule extension.
+- <strong>Distractor 3:</strong> update the Risk Register to reflect the higher probability of weather delays.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -44,18 +44,18 @@ What is the **FIRST** action the project manager should take?
 
 ### Question 2
 
-**Enabler:** 1. Evaluate the impact of impediments | **Methodology:** Agile
+<strong>Enabler:</strong> 1. Evaluate the impact of impediments | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During the Daily Scrum, a developer reports that they cannot proceed with the payment gateway integration because the third-party API documentation is password-protected and they do not have credentials. The Scrum Master notes this is the first time this blocker has been raised.
 
-**Question:**
+<strong>Question:</strong>
 What is the **MOST EFFECTIVE** immediate action for the Scrum Master?
 
-- **Correct:** Facilitate resolution by contacting the vendor or product owner immediately after the standup to obtain access.
-- **Distractor 1:** Direct the developer to work on the next highest priority item in the Sprint Backlog until access is granted.
-- **Distractor 2:** Document the impediment in the Impediment Log and review it during the Sprint Retrospective.
-- **Distractor 3:** Assign another team member who might have access to pair with the blocked developer.
+- <strong>Correct:</strong> Facilitate resolution by contacting the vendor or product owner immediately after the standup to obtain access.
+- <strong>Distractor 1:</strong> Direct the developer to work on the next highest priority item in the Sprint Backlog until access is granted.
+- <strong>Distractor 2:</strong> Document the impediment in the Impediment Log and review it during the Sprint Retrospective.
+- <strong>Distractor 3:</strong> Assign another team member who might have access to pair with the blocked developer.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -73,18 +73,18 @@ What is the **MOST EFFECTIVE** immediate action for the Scrum Master?
 
 ### Question 3
 
-**Enabler:** 5. Recognize when a risk becomes an issue | **Methodology:** Hybrid
+<strong>Enabler:</strong> 5. Recognize when a risk becomes an issue | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are leading a hybrid project where the hardware team uses predictive methods and the software team uses Scrum. A risk was identified that the hardware prototype might not fit the software chassis specs. During a hardware-software integration test, the prototype fails to fit, causing a physical obstruction.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** course of action for the Project Manager?
 
-- **Correct:** Record the failure in the Issue Log and facilitate a joint problem-solving session with both teams.
-- **Distractor 1:** Update the Risk Register to mark the risk as 'Occurred' and deduct from the contingency reserve.
-- **Distractor 2:** Direct the software team to refactor the code to accommodate the hardware constraint.
-- **Distractor 3:** Escalate the design failure to the project sponsor for a decision on which team is at fault.
+- <strong>Correct:</strong> Record the failure in the Issue Log and facilitate a joint problem-solving session with both teams.
+- <strong>Distractor 1:</strong> Update the Risk Register to mark the risk as 'Occurred' and deduct from the contingency reserve.
+- <strong>Distractor 2:</strong> Direct the software team to refactor the code to accommodate the hardware constraint.
+- <strong>Distractor 3:</strong> Escalate the design failure to the project sponsor for a decision on which team is at fault.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -102,18 +102,18 @@ What is the **BEST** course of action for the Project Manager?
 
 ### Question 4
 
-**Enabler:** 2. Prioritize and highlight impediments | **Methodology:** Predictive
+<strong>Enabler:</strong> 2. Prioritize and highlight impediments | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is reviewing the Issue Log for a global rollout. There are three open issues: (1) A critical regulatory approval is delayed by 2 weeks (Critical Path), (2) The user training manual has formatting erors (Float: 4 weeks), and (3) A stakeholder is complaining about the color scheme (Float: 6 weeks). Resources are limited.
 
-**Question:**
+<strong>Question:</strong>
 Which action demonstrates the **MOST** appropriate prioritization?
 
-- **Correct:** Focus all available effort on the regulatory approval delay and deprioritize the manual and color scheme.
-- **Distractor 1:** Assign equal resources to all three issues to ensure steady progress across the project.
-- **Distractor 2:** Address the manual formatting first as it is the easiest task to complete quickly ('quick win').
-- **Distractor 3:** Escalate the stakeholder complaint to the sponsor to maintain good relationships.
+- <strong>Correct:</strong> Focus all available effort on the regulatory approval delay and deprioritize the manual and color scheme.
+- <strong>Distractor 1:</strong> Assign equal resources to all three issues to ensure steady progress across the project.
+- <strong>Distractor 2:</strong> Address the manual formatting first as it is the easiest task to complete quickly ('quick win').
+- <strong>Distractor 3:</strong> Escalate the stakeholder complaint to the sponsor to maintain good relationships.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -131,18 +131,18 @@ Which action demonstrates the **MOST** appropriate prioritization?
 
 ### Question 5
 
-**Enabler:** 3. Intervention strategy | **Methodology:** Agile
+<strong>Enabler:</strong> 3. Intervention strategy | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A high-performing agile team is midway through a sprint when the organization mandates a mandatory rigorous compliance audit for all employees, requiring 3 days of unexpected effort this week. This effectively halts development work.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager (acting as Scrum Master) do?
 
-- **Correct:** Buffer the team by negotiating with management to postpone the audit or adjusting the Sprint Goal/backlog.
-- **Distractor 1:** Instruct the team to work overtime / weekends to meet both the audit requirements and the Sprint commitment.
-- **Distractor 2:** Cancel the Sprint immediately and start a new Sprint Planning session.
-- **Distractor 3:** Ask the team to do the audit and simply carry over incomplete stories to the next sprint without discussion.
+- <strong>Correct:</strong> Buffer the team by negotiating with management to postpone the audit or adjusting the Sprint Goal/backlog.
+- <strong>Distractor 1:</strong> Instruct the team to work overtime / weekends to meet both the audit requirements and the Sprint commitment.
+- <strong>Distractor 2:</strong> Cancel the Sprint immediately and start a new Sprint Planning session.
+- <strong>Distractor 3:</strong> Ask the team to do the audit and simply carry over incomplete stories to the next sprint without discussion.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -160,18 +160,18 @@ What should the Project Manager (acting as Scrum Master) do?
 
 ### Question 6
 
-**Enabler:** 6. Collaborate to resolve issues | **Methodology:** Predictive
+<strong>Enabler:</strong> 6. Collaborate to resolve issues | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A technical issue has arisen that halts the manufacturing line. The engineering lead claims it is a software bug, while the software lead insists it is a hardware sensor failure. They are arguing in the hallway, and the schedule is slipping by the hour.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** initial intervention for the Project Manager?
 
-- **Correct:** Bring both leads into a room, facilitate a review of the data/logs, and guide them to a root cause analysis.
-- **Distractor 1:** Issue a formal directive to the engineering lead to replace the sensor to see if that fixes it.
-- **Distractor 2:** Log the conflict in the Issue Log and ask the Sponsor to make a technical decision.
-- **Distractor 3:** Separate the two leads and ask them to submit written reports justifying their positions.
+- <strong>Correct:</strong> Bring both leads into a room, facilitate a review of the data/logs, and guide them to a root cause analysis.
+- <strong>Distractor 1:</strong> Issue a formal directive to the engineering lead to replace the sensor to see if that fixes it.
+- <strong>Distractor 2:</strong> Log the conflict in the Issue Log and ask the Sponsor to make a technical decision.
+- <strong>Distractor 3:</strong> Separate the two leads and ask them to submit written reports justifying their positions.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -189,18 +189,18 @@ What is the **BEST** initial intervention for the Project Manager?
 
 ### Question 7
 
-**Enabler:** 4. Reassess continually | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4. Reassess continually | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project is delivering a new mobile app (Agile) and a marketing launch campaign (Predictive). The marketing team has complained repeatedly that they don't know what features will be in the final release, making it impossible to print brochures. This issue has been 'Open' in the Issue Log for 2 months.
 
-**Question:**
+<strong>Question:</strong>
 What is the **MOST** appropriate action to resolve this systemic impediment?
 
-- **Correct:** Establish a recurring synchronization meeting where the Product Owner walks the marketing team through the roadmap and high-confidence backlog items.
-- **Distractor 1:** Require the Agile team to freeze the scope 3 months in advance to support the printing schedule.
-- **Distractor 2:** Tell the marketing team to switch to digital-only marketing to accommodate the agile changes.
-- **Distractor 3:** Close the issue in the log as 'Accepted Risk' since agile scope is inherently variable.
+- <strong>Correct:</strong> Establish a recurring synchronization meeting where the Product Owner walks the marketing team through the roadmap and high-confidence backlog items.
+- <strong>Distractor 1:</strong> Require the Agile team to freeze the scope 3 months in advance to support the printing schedule.
+- <strong>Distractor 2:</strong> Tell the marketing team to switch to digital-only marketing to accommodate the agile changes.
+- <strong>Distractor 3:</strong> Close the issue in the log as 'Accepted Risk' since agile scope is inherently variable.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -218,18 +218,18 @@ What is the **MOST** appropriate action to resolve this systemic impediment?
 
 ### Question 8
 
-**Enabler:** 1. Evaluate impact | **Methodology:** Agile
+<strong>Enabler:</strong> 1. Evaluate impact | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The Product Owner has been missing from the last three Sprint Reviews and has not provided feedback on the increment. The team is frustrated and unsure if they are building the right thing.
 
-**Question:**
+<strong>Question:</strong>
 What is the **PRIMARY** risk this impediment creates?
 
-- **Correct:** The team may be building a product that does not deliver business value, resulting in waste.
-- **Distractor 1:** The team's velocity numbers will be inaccurate in the reporting dashboard.
-- **Distractor 2:** The project will fail the schedule baseline compliance check.
-- **Distractor 3:** The Scrum Master will have to take over the role of key stakeholder.
+- <strong>Correct:</strong> The team may be building a product that does not deliver business value, resulting in waste.
+- <strong>Distractor 1:</strong> The team's velocity numbers will be inaccurate in the reporting dashboard.
+- <strong>Distractor 2:</strong> The project will fail the schedule baseline compliance check.
+- <strong>Distractor 3:</strong> The Scrum Master will have to take over the role of key stakeholder.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -247,18 +247,18 @@ What is the **PRIMARY** risk this impediment creates?
 
 ### Question 9
 
-**Enabler:** 5. Risk became issue | **Methodology:** Predictive
+<strong>Enabler:</strong> 5. Risk became issue | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A key supplier for a satellite component sends a formal notice of Force Majeure due to a political uprising, stating they cannot deliver the component indefinitely. This risk was not on the Risk Register.
 
-**Question:**
+<strong>Question:</strong>
 What is the **FIRST** step the Project Manager should take?
 
-- **Correct:** Log the issue, analyze the impact on the project objectives, and evaluate alternative suppliers or workarounds.
-- **Distractor 1:** Immediately terminate the contract and sue for damages for breach of contract.
-- **Distractor 2:** Halt all project work until the political situation resolves.
-- **Distractor 3:** Update the risk management plan to include political instability as a category.
+- <strong>Correct:</strong> Log the issue, analyze the impact on the project objectives, and evaluate alternative suppliers or workarounds.
+- <strong>Distractor 1:</strong> Immediately terminate the contract and sue for damages for breach of contract.
+- <strong>Distractor 2:</strong> Halt all project work until the political situation resolves.
+- <strong>Distractor 3:</strong> Update the risk management plan to include political instability as a category.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -276,18 +276,18 @@ What is the **FIRST** step the Project Manager should take?
 
 ### Question 10
 
-**Enabler:** 3. Intervention strategy | **Methodology:** Agile
+<strong>Enabler:</strong> 3. Intervention strategy | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The team complains that the enterprise CI/CD pipeline is slow, causing builds to take 4 hours. This delay means they can only run one test cycle per day. This impediment is outside the team's control.
 
-**Question:**
+<strong>Question:</strong>
 What is the **MOST** effective intervention?
 
-- **Correct:** The Scrum Master should escalate this as an organizational impediment to the engineering leadership or DevOps team for resolution.
-- **Distractor 1:** The team should switch to manual testing to bypass the slow pipeline.
-- **Distractor 2:** The Product Owner should purchase new servers for the team using the project budget.
-- **Distractor 3:** The team should increase the story point estimates for all future stories to account for the wait time.
+- <strong>Correct:</strong> The Scrum Master should escalate this as an organizational impediment to the engineering leadership or DevOps team for resolution.
+- <strong>Distractor 1:</strong> The team should switch to manual testing to bypass the slow pipeline.
+- <strong>Distractor 2:</strong> The Product Owner should purchase new servers for the team using the project budget.
+- <strong>Distractor 3:</strong> The team should increase the story point estimates for all future stories to account for the wait time.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -305,18 +305,18 @@ What is the **MOST** effective intervention?
 
 ### Question 11
 
-**Enabler:** 2. Prioritize impediments | **Methodology:** Predictive
+<strong>Enabler:</strong> 2. Prioritize impediments | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 User Acceptance Testing (UAT) has generated 50 defect reports. The project is scheduled to go live in 5 days. The development team can only fix about 10 defects in that time.
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager proceed?
 
-- **Correct:** Facilitate a triage meeting with the Sponsor and Key Stakeholders to prioritize the defects based on business severity and agree on a 'Must-Fix' list.
-- **Distractor 1:** Instruct the team to fix the 10 easiest defects to maximize the number of closed tickets.
-- **Distractor 2:** Automatically delay the go-live date by 2 weeks to ensure zero defects.
-- **Distractor 3:** Ask the team to work 16-hour days to fix all 50 defects before the deadline.
+- <strong>Correct:</strong> Facilitate a triage meeting with the Sponsor and Key Stakeholders to prioritize the defects based on business severity and agree on a 'Must-Fix' list.
+- <strong>Distractor 1:</strong> Instruct the team to fix the 10 easiest defects to maximize the number of closed tickets.
+- <strong>Distractor 2:</strong> Automatically delay the go-live date by 2 weeks to ensure zero defects.
+- <strong>Distractor 3:</strong> Ask the team to work 16-hour days to fix all 50 defects before the deadline.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -334,18 +334,18 @@ How should the Project Manager proceed?
 
 ### Question 12
 
-**Enabler:** 5. Risk to Issue (Safety) | **Methodology:** Predictive
+<strong>Enabler:</strong> 5. Risk to Issue (Safety) | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 While touring the construction site, the Project Manager notices a worker operating heavy machinery without the required safety gear. This is a direct violation of the safety management plan.
 
-**Question:**
+<strong>Question:</strong>
 What is the **IMMEDIATE** action?
 
-- **Correct:** Stop the work immediately and correct the safety violation.
-- **Distractor 1:** Log the issue in the Issue Log and discuss it at the next weekly safety meeting.
-- **Distractor 2:** Report the worker to their functional manager for disciplinary action.
-- **Distractor 3:** Check the Risk Register to see if 'Safety Violation' was a known risk.
+- <strong>Correct:</strong> Stop the work immediately and correct the safety violation.
+- <strong>Distractor 1:</strong> Log the issue in the Issue Log and discuss it at the next weekly safety meeting.
+- <strong>Distractor 2:</strong> Report the worker to their functional manager for disciplinary action.
+- <strong>Distractor 3:</strong> Check the Risk Register to see if 'Safety Violation' was a known risk.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -363,18 +363,18 @@ What is the **IMMEDIATE** action?
 
 ### Question 13
 
-**Enabler:** 6. Collaborate | **Methodology:** Agile
+<strong>Enabler:</strong> 6. Collaborate | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 Two senior developers have a different opinion on the architecture for a new feature. They have been debating for 2 days, and no code has been written. The sprint goal is at risk.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way for the Scrum Master to resolve this?
 
-- **Correct:** Facilitate a time-boxed 'spike' or experiment where they test both approaches and agree to follow the data.
-- **Distractor 1:** Choose the architecture proposed by the developer with the most tenure.
-- **Distractor 2:** Tell them to compromise and blend the two architectures together.
-- **Distractor 3:** Ask the Product Owner to decide which architecture is better.
+- <strong>Correct:</strong> Facilitate a time-boxed 'spike' or experiment where they test both approaches and agree to follow the data.
+- <strong>Distractor 1:</strong> Choose the architecture proposed by the developer with the most tenure.
+- <strong>Distractor 2:</strong> Tell them to compromise and blend the two architectures together.
+- <strong>Distractor 3:</strong> Ask the Product Owner to decide which architecture is better.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -392,18 +392,18 @@ What is the **BEST** way for the Scrum Master to resolve this?
 
 ### Question 14
 
-**Enabler:** 4. Reassess impediments | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4. Reassess impediments | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 Your project uses a vendor to supply data. The vendor has missed the last three delivery milestones. Each time, you logged an issue, they apologized, and you updated the schedule. They have just missed the fourth milestone.
 
-**Question:**
+<strong>Question:</strong>
 What does this pattern indicate, and what should you do?
 
-- **Correct:** The previous issue management actions were ineffective; you must escalate to checking the contract for default/termination clauses or alternative dispute resolution.
-- **Distractor 1:** Continue to log the issue and update the schedule as you have done previously.
-- **Distractor 2:** Accept the delay as a constraint and reduce the project scope to match the vendor's pace.
-- **Distractor 3:** Micromanage the vendor by calling them every hour until the data is delivered.
+- <strong>Correct:</strong> The previous issue management actions were ineffective; you must escalate to checking the contract for default/termination clauses or alternative dispute resolution.
+- <strong>Distractor 1:</strong> Continue to log the issue and update the schedule as you have done previously.
+- <strong>Distractor 2:</strong> Accept the delay as a constraint and reduce the project scope to match the vendor's pace.
+- <strong>Distractor 3:</strong> Micromanage the vendor by calling them every hour until the data is delivered.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -421,18 +421,18 @@ What does this pattern indicate, and what should you do?
 
 ### Question 15
 
-**Enabler:** 5. Risk to Issue | **Methodology:** Predictive
+<strong>Enabler:</strong> 5. Risk to Issue | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 You are managing a software rollout. A risk was identified that "users may resist the new interface." You planned to provide training webinars. Upon launch, user feedback is extremely negative, and 40% of users are refusing to log in. The webinars were poorly attended.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** next step?
 
-- **Correct:** Acknowledge the issue, analyze the root cause of the resistance (e.g., poor UI vs. lack of training), and collaborate with stakeholders on a new adoption strategy.
-- **Distractor 1:** Force the users to log in by disabling the old system immediately.
-- **Distractor 2:** Resend the webinar invitations and insist that users attend.
-- **Distractor 3:** Roll back the entire project and cancel the release.
+- <strong>Correct:</strong> Acknowledge the issue, analyze the root cause of the resistance (e.g., poor UI vs. lack of training), and collaborate with stakeholders on a new adoption strategy.
+- <strong>Distractor 1:</strong> Force the users to log in by disabling the old system immediately.
+- <strong>Distractor 2:</strong> Resend the webinar invitations and insist that users attend.
+- <strong>Distractor 3:</strong> Roll back the entire project and cancel the release.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -450,18 +450,18 @@ What is the **BEST** next step?
 
 ### Question 16
 
-**Enabler:** 1. Evaluate impact | **Methodology:** Agile
+<strong>Enabler:</strong> 1. Evaluate impact | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a Retrospective, the team identifies that the Product Owner is constantly changing the acceptance criteria for user stories *while* they are in progress. This causes rework and frustration.
 
-**Question:**
+<strong>Question:</strong>
 How should the Scrum Master categorize and handle this?
 
-- **Correct:** This is a process impediment (Scope Creep/instability); the Scrum Master should coach the Product Owner on the importance of locking scope within the Sprint.
-- **Distractor 1:** This is a technical issue; the team should build more flexible code to handle the changes.
-- **Distractor 2:** This is a team conflict; the team should just refuse to talk to the Product Owner during the sprint.
-- **Distractor 3:** This is acceptable agile practice; the team should embrace change even late in development.
+- <strong>Correct:</strong> This is a process impediment (Scope Creep/instability); the Scrum Master should coach the Product Owner on the importance of locking scope within the Sprint.
+- <strong>Distractor 1:</strong> This is a technical issue; the team should build more flexible code to handle the changes.
+- <strong>Distractor 2:</strong> This is a team conflict; the team should just refuse to talk to the Product Owner during the sprint.
+- <strong>Distractor 3:</strong> This is acceptable agile practice; the team should embrace change even late in development.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -479,18 +479,18 @@ How should the Scrum Master categorize and handle this?
 
 ### Question 17
 
-**Enabler:** 3. Intervention strategy | **Methodology:** Predictive
+<strong>Enabler:</strong> 3. Intervention strategy | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project's budget has been cut by 15% due to a company-wide financial crisis. The project is 50% complete.
 
-**Question:**
+<strong>Question:</strong>
 What is the **LEAST** effective way to handle this impediment?
 
-- **Correct:** Cut quality assurance and testing activities to save money while maintaining the full scope.
-- **Distractor 1:** Re-estimate the remaining work and identify low-value scope to de-scope.
-- **Distractor 2:** Negotiate for a lower grade of materials where acceptable.
-- **Distractor 3:** Reduce the project staff and extend the schedule (crash/fast-tracking reversal).
+- <strong>Correct:</strong> Cut quality assurance and testing activities to save money while maintaining the full scope.
+- <strong>Distractor 1:</strong> Re-estimate the remaining work and identify low-value scope to de-scope.
+- <strong>Distractor 2:</strong> Negotiate for a lower grade of materials where acceptable.
+- <strong>Distractor 3:</strong> Reduce the project staff and extend the schedule (crash/fast-tracking reversal).
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -509,18 +509,18 @@ What is the **LEAST** effective way to handle this impediment?
 
 ### Question 18
 
-**Enabler:** 3. Intervention strategy | **Methodology:** Predictive
+<strong>Enabler:</strong> 3. Intervention strategy | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project sponsor repeatedly calls team members directly to ask for 'small tweaks' to the product design. Two team members have implemented these changes without logging them, causing a variance in the cost baseline.
 
-**Question:**
+<strong>Question:</strong>
 What intervention is required?
 
-- **Correct:** Meet with the sponsor to reinforce the formal Change Control workflow and explain the impact of unchecked scope creep.
-- **Distractor 1:** Direct the team to implement all future requests from the sponsor immediately to keep them happy.
-- **Distractor 2:** Remove the team members from the project for violating the process.
-- **Distractor 3:** Adjust the cost baseline to absorb the variance and hide the issue.
+- <strong>Correct:</strong> Meet with the sponsor to reinforce the formal Change Control workflow and explain the impact of unchecked scope creep.
+- <strong>Distractor 1:</strong> Direct the team to implement all future requests from the sponsor immediately to keep them happy.
+- <strong>Distractor 2:</strong> Remove the team members from the project for violating the process.
+- <strong>Distractor 3:</strong> Adjust the cost baseline to absorb the variance and hide the issue.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -538,18 +538,18 @@ What intervention is required?
 
 ### Question 19
 
-**Enabler:** 4. Reassess impediments | **Methodology:** Agile
+<strong>Enabler:</strong> 4. Reassess impediments | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 For the third sprint in a row, the team has failed to deliver the committed Sprint Goal. In the Retrospective, they blame 'too many interruptions.' You previously tried establishing 'core hours,' but the data shows interruptions haven't decreased.
 
-**Question:**
+<strong>Question:</strong>
 What is the **NEXT** step?
 
-- **Correct:** Reassess the root cause of the interruptions and escalate if they are external/organizational (e.g., support tickets, tap-on-the-shoulder requests).
-- **Distractor 1:** Extend the sprint length to 3 weeks to give them more time.
-- **Distractor 2:** Reduce the team's capacity by 50% for the next sprint planning to absorb the interruptions.
-- **Distractor 3:** Tell the team they must work harder to honor their commitments.
+- <strong>Correct:</strong> Reassess the root cause of the interruptions and escalate if they are external/organizational (e.g., support tickets, tap-on-the-shoulder requests).
+- <strong>Distractor 1:</strong> Extend the sprint length to 3 weeks to give them more time.
+- <strong>Distractor 2:</strong> Reduce the team's capacity by 50% for the next sprint planning to absorb the interruptions.
+- <strong>Distractor 3:</strong> Tell the team they must work harder to honor their commitments.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -567,18 +567,18 @@ What is the **NEXT** step?
 
 ### Question 20
 
-**Enabler:** 3. Intervention strategy | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3. Intervention strategy | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, the Agile team uses Jira and the Predictive PMO uses MS Project. The PMO claims they have no visibility into the Agile team's progress and sends a weekly email asking for a manual status spreadsheet. The Agile team finds this duplicative and burdensome.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** solution?
 
-- **Correct:** Collaborate with the PMO to automate the data transfer or create a dashboard that pulls from Jira, eliminating the manual reporting work.
-- **Distractor 1:** Tell the Agile team to just fill out the spreadsheet as it is a governance requirement.
-- **Distractor 2:** Tell the PMO to log into Jira and figure it out themselves.
-- **Distractor 3:** Migrate the Agile team to MS Project so everyone uses one tool.
+- <strong>Correct:</strong> Collaborate with the PMO to automate the data transfer or create a dashboard that pulls from Jira, eliminating the manual reporting work.
+- <strong>Distractor 1:</strong> Tell the Agile team to just fill out the spreadsheet as it is a governance requirement.
+- <strong>Distractor 2:</strong> Tell the PMO to log into Jira and figure it out themselves.
+- <strong>Distractor 3:</strong> Migrate the Agile team to MS Project so everyone uses one tool.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -596,18 +596,18 @@ What is the **BEST** solution?
 
 ### Question 21
 
-**Enabler:** 4. Reassess impediments | **Methodology:** Predictive
+<strong>Enabler:</strong> 4. Reassess impediments | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 The Quality Assurance team is rejecting 40% of the components delivered by the manufacturing team. You held a root cause workshop last month and implemented a checklist, but the rejection rate has not changed.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager do?
 
-- **Correct:** Acknowledge the checklist failed, halt the process, and perform a deeper process analysis (e.g., audit or inspection) to find the true root cause.
-- **Distractor 1:** Fire the manufacturing lead for failing to improve quality.
-- **Distractor 2:** Lower the quality acceptance criteria to allow more components to pass.
-- **Distractor 3:** Add more inspections at the end of the line to catch defects.
+- <strong>Correct:</strong> Acknowledge the checklist failed, halt the process, and perform a deeper process analysis (e.g., audit or inspection) to find the true root cause.
+- <strong>Distractor 1:</strong> Fire the manufacturing lead for failing to improve quality.
+- <strong>Distractor 2:</strong> Lower the quality acceptance criteria to allow more components to pass.
+- <strong>Distractor 3:</strong> Add more inspections at the end of the line to catch defects.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -625,18 +625,18 @@ What should the Project Manager do?
 
 ### Question 22
 
-**Enabler:** 1. Evaluate impact (Burnout) | **Methodology:** Agile
+<strong>Enabler:</strong> 1. Evaluate impact (Burnout) | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The team velocity has increased for 4 sprints in a row, but team morale scores are dropping. During the standup, two developers snap at each other. You notice the team is working late every night.
 
-**Question:**
+<strong>Question:</strong>
 What is the **Primary** impediment here?
 
-- **Correct:** Unsustainable pace leading to burnout and relationship conflict.
-- **Distractor 1:** Personality conflict between the two developers.
-- **Distractor 2:** Lack of technical skill requiring extra hours to complete work.
-- **Distractor 3:** A velocity that is too low and needs to be improved.
+- <strong>Correct:</strong> Unsustainable pace leading to burnout and relationship conflict.
+- <strong>Distractor 1:</strong> Personality conflict between the two developers.
+- <strong>Distractor 2:</strong> Lack of technical skill requiring extra hours to complete work.
+- <strong>Distractor 3:</strong> A velocity that is too low and needs to be improved.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -654,18 +654,18 @@ What is the **Primary** impediment here?
 
 ### Question 23
 
-**Enabler:** 6. Collaborate | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6. Collaborate | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 The Legal team (predictive) refuses to approve the release of a new feature built by the Agile team because "requirements were not documented in the standard template." The Agile team argues that the user stories and tests in the tool are sufficient documentation.
 
-**Question:**
+<strong>Question:</strong>
 How should the PM resolve this deadlock?
 
-- **Correct:** Facilitate a negotiation between Legal and the Agile team to agree on a "Minimum Viable Compliance" that satisfies legal needs without halting agile delivery.
-- **Distractor 1:** Force the Agile team to complete the standard 50-page requirement template retroactively.
-- **Distractor 2:** Tell Legal they must accept the user stories because the project is Agile.
-- **Distractor 3:** Cancel the feature to avoid legal risk.
+- <strong>Correct:</strong> Facilitate a negotiation between Legal and the Agile team to agree on a "Minimum Viable Compliance" that satisfies legal needs without halting agile delivery.
+- <strong>Distractor 1:</strong> Force the Agile team to complete the standard 50-page requirement template retroactively.
+- <strong>Distractor 2:</strong> Tell Legal they must accept the user stories because the project is Agile.
+- <strong>Distractor 3:</strong> Cancel the feature to avoid legal risk.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -683,18 +683,18 @@ How should the PM resolve this deadlock?
 
 ### Question 24
 
-**Enabler:** 5. Risk to Issue | **Methodology:** Predictive
+<strong>Enabler:</strong> 5. Risk to Issue | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A critical vendor files for bankruptcy on Monday morning (Unplanned Issue). This halts the delivery of steel for the construction project.
 
-**Question:**
+<strong>Question:</strong>
 What is the **FIRST** step in the response?
 
-- **Correct:** Log the issue and immediately review the contract and procurement management plan for bankruptcy contingencies.
-- **Distractor 1:** Immediately hire the second-lowest bidder from the original procurement phase.
-- **Distractor 2:** Sue the vendor for liquid damages.
-- **Distractor 3:** Instruct the team to stop all work and go home until further notice.
+- <strong>Correct:</strong> Log the issue and immediately review the contract and procurement management plan for bankruptcy contingencies.
+- <strong>Distractor 1:</strong> Immediately hire the second-lowest bidder from the original procurement phase.
+- <strong>Distractor 2:</strong> Sue the vendor for liquid damages.
+- <strong>Distractor 3:</strong> Instruct the team to stop all work and go home until further notice.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -712,18 +712,18 @@ What is the **FIRST** step in the response?
 
 ### Question 25
 
-**Enabler:** 3. Intervention strategy | **Methodology:** Agile
+<strong>Enabler:</strong> 3. Intervention strategy | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The team keeps pulling User Stories into the sprint that lack clear acceptance criteria. As a result, they get stuck mid-sprint and fail to finish.
 
-**Question:**
+<strong>Question:</strong>
 What is the **MOST** effective structural intervention?
 
-- **Correct:** Enforce a "Definition of Ready" policy where stories cannot be pulled into a sprint unless they meet specific clarity criteria.
-- **Distractor 1:** Criticize the Product Owner during the Standup for writing bad stories.
-- **Distractor 2:** Allow the team to write the acceptance criteria themselves during the sprint.
-- **Distractor 3:** Extend the Sprint Planning meeting to 8 hours to allow time to write criteria.
+- <strong>Correct:</strong> Enforce a "Definition of Ready" policy where stories cannot be pulled into a sprint unless they meet specific clarity criteria.
+- <strong>Distractor 1:</strong> Criticize the Product Owner during the Standup for writing bad stories.
+- <strong>Distractor 2:</strong> Allow the team to write the acceptance criteria themselves during the sprint.
+- <strong>Distractor 3:</strong> Extend the Sprint Planning meeting to 8 hours to allow time to write criteria.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -741,18 +741,18 @@ What is the **MOST** effective structural intervention?
 
 ### Question 26
 
-**Enabler:** 6. Collaborate | **Methodology:** Predictive
+<strong>Enabler:</strong> 6. Collaborate | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A key stakeholder is required to approve the design documents by Friday to keep the schedule. They have not responded to 3 emails. It is Thursday morning.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** communication approach?
 
-- **Correct:** Switch communication channels: Pick up the phone or visit their office to convey urgency and resolve any blockers personally.
-- **Distractor 1:** Send a fourth email marked "High Importance" and copy their boss.
-- **Distractor 2:** Wait until Friday at 5 PM, then log an issue that the deadline was missed.
-- **Distractor 3:** Proceed with the design without approval and hope they agree later.
+- <strong>Correct:</strong> Switch communication channels: Pick up the phone or visit their office to convey urgency and resolve any blockers personally.
+- <strong>Distractor 1:</strong> Send a fourth email marked "High Importance" and copy their boss.
+- <strong>Distractor 2:</strong> Wait until Friday at 5 PM, then log an issue that the deadline was missed.
+- <strong>Distractor 3:</strong> Proceed with the design without approval and hope they agree later.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -770,18 +770,18 @@ What is the **BEST** communication approach?
 
 ### Question 27
 
-**Enabler:** 3. Intervention strategy | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3. Intervention strategy | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 The software team needs a test environment to validate their code. The infrastructure team (predictive) says the environment won't be ready for 6 weeks. The software team is blocked *now*.
 
-**Question:**
+<strong>Question:</strong>
 What is a creative intervention strategy?
 
-- **Correct:** Investigate checking out a cloud-based temporary environment (virtualization) to unblock the team while waiting for the physical infrastructure.
-- **Distractor 1:** Tell the software team to write code without testing it for 6 weeks.
-- **Distractor 2:** Demand the infrastructure team work weekends to finish in 3 weeks.
-- **Distractor 3:** Pause the software project for 6 weeks.
+- <strong>Correct:</strong> Investigate checking out a cloud-based temporary environment (virtualization) to unblock the team while waiting for the physical infrastructure.
+- <strong>Distractor 1:</strong> Tell the software team to write code without testing it for 6 weeks.
+- <strong>Distractor 2:</strong> Demand the infrastructure team work weekends to finish in 3 weeks.
+- <strong>Distractor 3:</strong> Pause the software project for 6 weeks.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -799,18 +799,18 @@ What is a creative intervention strategy?
 
 ### Question 28
 
-**Enabler:** 1. Evaluate impact | **Methodology:** Agile
+<strong>Enabler:</strong> 1. Evaluate impact | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The Scrum Master is observed assigning tasks to developers during the Daily Standup to ensure everyone stays busy.
 
-**Question:**
+<strong>Question:</strong>
 Why is this an impediment to agile performance?
 
-- **Correct:** It violates the principle of self-organization and prevents the team from taking ownership of their work.
-- **Distractor 1:** It makes the standup take longer than 15 minutes.
-- **Distractor 2:** It relieves the burden on the team, which is actually helpful.
-- **Distractor 3:** It confuses the role of the Product Owner.
+- <strong>Correct:</strong> It violates the principle of self-organization and prevents the team from taking ownership of their work.
+- <strong>Distractor 1:</strong> It makes the standup take longer than 15 minutes.
+- <strong>Distractor 2:</strong> It relieves the burden on the team, which is actually helpful.
+- <strong>Distractor 3:</strong> It confuses the role of the Product Owner.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -828,18 +828,18 @@ Why is this an impediment to agile performance?
 
 ### Question 29
 
-**Enabler:** 4. Reassess impediments | **Methodology:** Predictive
+<strong>Enabler:</strong> 4. Reassess impediments | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 The Change Control Board (CCB) meets only once a month. The project is generating 5-6 necessary change requests per week, leading to a massive backlog and work stoppages while waiting for approval.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager propose?
 
-- **Correct:** Propose a tiered governance model where low-impact changes can be approved by the PM/Sponsor, while only high-impact changes go to the monthly CCB.
-- **Distractor 1:** Ask the team to implement changes without approval and document them later.
-- **Distractor 2:** Stop submitting change requests and handle everything as 'maintenance.'
-- **Distractor 3:** Request the CCB meets every single day.
+- <strong>Correct:</strong> Propose a tiered governance model where low-impact changes can be approved by the PM/Sponsor, while only high-impact changes go to the monthly CCB.
+- <strong>Distractor 1:</strong> Ask the team to implement changes without approval and document them later.
+- <strong>Distractor 2:</strong> Stop submitting change requests and handle everything as 'maintenance.'
+- <strong>Distractor 3:</strong> Request the CCB meets every single day.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -857,18 +857,18 @@ What should the Project Manager propose?
 
 ### Question 30
 
-**Enabler:** 3. Intervention strategy | **Methodology:** Agile
+<strong>Enabler:</strong> 3. Intervention strategy | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The team's Kanban board is cluttered. There are 50 items in "In Progress" for a team of 5 people. Cycle time is increasing.
 
-**Question:**
+<strong>Question:</strong>
 What intervention should the PM/Agile Coach apply?
 
-- **Correct:** Work with the team to establish and enforce WIP (Work In Progress) Limits to force finishing before starting.
-- **Distractor 1:** Add more columns to the board to spread the cards out.
-- **Distractor 2:** Hire more people to work on the 50 items.
-- **Distractor 3:** Remove the "In Progress" column and just have To Do and Done.
+- <strong>Correct:</strong> Work with the team to establish and enforce WIP (Work In Progress) Limits to force finishing before starting.
+- <strong>Distractor 1:</strong> Add more columns to the board to spread the cards out.
+- <strong>Distractor 2:</strong> Hire more people to work on the 50 items.
+- <strong>Distractor 3:</strong> Remove the "In Progress" column and just have To Do and Done.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -886,18 +886,18 @@ What intervention should the PM/Agile Coach apply?
 
 ### Question 31
 
-**Enabler:** 6. Collaborate | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6. Collaborate | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Functional Manager keeps pulling a critical resource from your project to work on operational "fires." This has happened 3 times this month, causing schedule slippage.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to resolve this?
 
-- **Correct:** Meet with the Functional Manager to negotiate a resource agreement (e.g., dedicated hours) or agree on a formal backup plan for when fires occur.
-- **Distractor 1:** Complain to the resource that they need to learn to say no.
-- **Distractor 2:** Hiding the resource in a conference room so they can't be found.
-- **Distractor 3:** Immediately escalate to the CEO to punish the Functional Manager.
+- <strong>Correct:</strong> Meet with the Functional Manager to negotiate a resource agreement (e.g., dedicated hours) or agree on a formal backup plan for when fires occur.
+- <strong>Distractor 1:</strong> Complain to the resource that they need to learn to say no.
+- <strong>Distractor 2:</strong> Hiding the resource in a conference room so they can't be found.
+- <strong>Distractor 3:</strong> Immediately escalate to the CEO to punish the Functional Manager.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -915,18 +915,18 @@ What is the **BEST** way to resolve this?
 
 ### Question 32
 
-**Enabler:** 3. Intervention strategy | **Methodology:** Predictive
+<strong>Enabler:</strong> 3. Intervention strategy | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 You discover that a junior engineer is adding detailed ornamentation to a housing project that was not in the specs, thinking it will "delight the customer." This is consuming time and materials.
 
-**Question:**
+<strong>Question:</strong>
 What action must be taken?
 
-- **Correct:** Stop the unauthorized work immediately (Gold Plating), explain the issue to the engineer, and inspect the work to ensure it meets requirements.
-- **Distractor 1:** Allow the work to continue since it adds value and customer satisfaction.
-- **Distractor 2:** submit a change request to retroactively approve the ornamentation.
-- **Distractor 3:** Charge the engineer for the wasted materials.
+- <strong>Correct:</strong> Stop the unauthorized work immediately (Gold Plating), explain the issue to the engineer, and inspect the work to ensure it meets requirements.
+- <strong>Distractor 1:</strong> Allow the work to continue since it adds value and customer satisfaction.
+- <strong>Distractor 2:</strong> submit a change request to retroactively approve the ornamentation.
+- <strong>Distractor 3:</strong> Charge the engineer for the wasted materials.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -944,18 +944,18 @@ What action must be taken?
 
 ### Question 33
 
-**Enabler:** 1. Evaluate impact | **Methodology:** Agile
+<strong>Enabler:</strong> 1. Evaluate impact | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a Sprint Review, stakeholders seem disengaged and don't ask questions. They simple nod and say "looks good."
 
-**Question:**
+<strong>Question:</strong>
 Why is this an impediment?
 
-- **Correct:** Lack of active feedback creates the risk of the "Illusion of Agreement," where the team builds the wrong product that will be rejected later.
-- **Distractor 1:** It hurts the team's feelings and lowers morale.
-- **Distractor 2:** It makes the meeting end too early.
-- **Distractor 3:** It prevents the Scrum Master from calculating velocity.
+- <strong>Correct:</strong> Lack of active feedback creates the risk of the "Illusion of Agreement," where the team builds the wrong product that will be rejected later.
+- <strong>Distractor 1:</strong> It hurts the team's feelings and lowers morale.
+- <strong>Distractor 2:</strong> It makes the meeting end too early.
+- <strong>Distractor 3:</strong> It prevents the Scrum Master from calculating velocity.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -973,18 +973,18 @@ Why is this an impediment?
 
 ### Question 34
 
-**Enabler:** 4. Reassess impediments | **Methodology:** Predictive
+<strong>Enabler:</strong> 4. Reassess impediments | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 An audit reveals that the project team has been skipping the required data privacy steps to save time. This is a severe compliance breach.
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's obligation?
 
-- **Correct:** Immediately halt the affected processes, log the compliance issue, and initiate a root cause analysis and remediation plan.
-- **Distractor 1:** Note the issue and ask the team to try better next month.
-- **Distractor 2:** Cover it up to avoid fines for the organization.
-- **Distractor 3:** Ask the legal department to waive the requirement.
+- <strong>Correct:</strong> Immediately halt the affected processes, log the compliance issue, and initiate a root cause analysis and remediation plan.
+- <strong>Distractor 1:</strong> Note the issue and ask the team to try better next month.
+- <strong>Distractor 2:</strong> Cover it up to avoid fines for the organization.
+- <strong>Distractor 3:</strong> Ask the legal department to waive the requirement.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1003,18 +1003,18 @@ What is the project manager's obligation?
 
 ### Question 35
 
-**Enabler:** 5. Recognize risk becomes issue | **Methodology:** Predictive
+<strong>Enabler:</strong> 5. Recognize risk becomes issue | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A key architect, who was identified as a 'critical resource risk,' suddenly resigns to join a competitor. The risk response plan called for 'job shadowing,' but this was never implemented due to time constraints.
 
-**Question:**
+<strong>Question:</strong>
 What is the **FIRST** action the PM must take?
 
-- **Correct:** Log the resignation in the Issue Log, assess the impact on the schedule, and immediately escalate the need for a replacement.
-- **Distractor 1:** Update the risk register to show that the mitigation strategy failed.
-- **Distractor 2:** Ask the architect to stay for 2 more months.
-- **Distractor 3:** Implement the job shadowing plan now during the architect's notice period.
+- <strong>Correct:</strong> Log the resignation in the Issue Log, assess the impact on the schedule, and immediately escalate the need for a replacement.
+- <strong>Distractor 1:</strong> Update the risk register to show that the mitigation strategy failed.
+- <strong>Distractor 2:</strong> Ask the architect to stay for 2 more months.
+- <strong>Distractor 3:</strong> Implement the job shadowing plan now during the architect's notice period.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1032,18 +1032,18 @@ What is the **FIRST** action the PM must take?
 
 ### Question 36
 
-**Enabler:** 1. Evaluate impact | **Methodology:** Agile
+<strong>Enabler:</strong> 1. Evaluate impact | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The team reports that the codebase has become "spaghetti code," making every new feature take twice as long to build.
 
-**Question:**
+<strong>Question:</strong>
 How should this impediment be handled?
 
-- **Correct:** Acknowledge this as Technical Debt and work with the Product Owner to allocate capacity in the next Sprint to refactor the code.
-- **Distractor 1:** Tell the team to just work harder to overcome the complexity.
-- **Distractor 2:** Create a separate "Refactoring Project" run by a different team.
-- **Distractor 3:** Ignore the issue as it doesn't deliver direct customer value.
+- <strong>Correct:</strong> Acknowledge this as Technical Debt and work with the Product Owner to allocate capacity in the next Sprint to refactor the code.
+- <strong>Distractor 1:</strong> Tell the team to just work harder to overcome the complexity.
+- <strong>Distractor 2:</strong> Create a separate "Refactoring Project" run by a different team.
+- <strong>Distractor 3:</strong> Ignore the issue as it doesn't deliver direct customer value.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1061,18 +1061,18 @@ How should this impediment be handled?
 
 ### Question 37
 
-**Enabler:** 6. Collaborate | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6. Collaborate | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 Your project has a hardware team (Waterfall) and a software team (Agile). The hardware team is frustrated because the software team "won't commit to a fixed date" for the firmware. The software team is frustrated that hardware "won't allow iteration."
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** conflict resolution step?
 
-- **Correct:** Facilitate a joint workshop to map the dependencies and agree on "Interface Milestones" where the two methodologies connect.
-- **Distractor 1:** Force the software team to adopt waterfall to match the hardware team.
-- **Distractor 2:** Force the hardware team to adopt agile sprints.
-- **Distractor 3:** Keep the teams separated and act as the sole messenger between them.
+- <strong>Correct:</strong> Facilitate a joint workshop to map the dependencies and agree on "Interface Milestones" where the two methodologies connect.
+- <strong>Distractor 1:</strong> Force the software team to adopt waterfall to match the hardware team.
+- <strong>Distractor 2:</strong> Force the hardware team to adopt agile sprints.
+- <strong>Distractor 3:</strong> Keep the teams separated and act as the sole messenger between them.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1090,18 +1090,18 @@ What is the **BEST** conflict resolution step?
 
 ### Question 38
 
-**Enabler:** 5. Risk to Issue | **Methodology:** Predictive
+<strong>Enabler:</strong> 5. Risk to Issue | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project relies on imported steel. The exchange rate fluctuates wildly, causing the cost to spike by 20% today. This exceeds the cost baseline but is within the management reserve.
 
-**Question:**
+<strong>Question:</strong>
 What is the process to handle this?
 
-- **Correct:** This is an Issue; submit a change request to use the Management Reserve to cover the unforeseen cost spike.
-- **Distractor 1:** Use the Contingency Reserve since this is a project risk.
-- **Distractor 2:** Cut scope immediately to save the money.
-- **Distractor 3:** Ask the vendor for a discount.
+- <strong>Correct:</strong> This is an Issue; submit a change request to use the Management Reserve to cover the unforeseen cost spike.
+- <strong>Distractor 1:</strong> Use the Contingency Reserve since this is a project risk.
+- <strong>Distractor 2:</strong> Cut scope immediately to save the money.
+- <strong>Distractor 3:</strong> Ask the vendor for a discount.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1119,18 +1119,18 @@ What is the process to handle this?
 
 ### Question 39
 
-**Enabler:** 6. Collaborate | **Methodology:** Agile
+<strong>Enabler:</strong> 6. Collaborate | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A new agile team is in the "Storming" phase. Team members are arguing about how long the standup should be and who should update the board.
 
-**Question:**
+<strong>Question:</strong>
 How should the Scrum Master intervene?
 
-- **Correct:** Facilitate a team session to create a "Team Charter" or "Working Agreement" where the team decides their own ground rules.
-- **Distractor 1:** Decide the rules for them to stop the arguing.
-- **Distractor 2:** Report the behavior to the functional managers.
-- **Distractor 3:** Cancel the standups until they can behave professionally.
+- <strong>Correct:</strong> Facilitate a team session to create a "Team Charter" or "Working Agreement" where the team decides their own ground rules.
+- <strong>Distractor 1:</strong> Decide the rules for them to stop the arguing.
+- <strong>Distractor 2:</strong> Report the behavior to the functional managers.
+- <strong>Distractor 3:</strong> Cancel the standups until they can behave professionally.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1148,18 +1148,18 @@ How should the Scrum Master intervene?
 
 ### Question 40
 
-**Enabler:** 3. Intervention strategy | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3. Intervention strategy | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 Half the team is in New York, and half is in London. The London team complains that they are always excluded from ad-hoc decisions made by the NY team in the hallway.
 
-**Question:**
+<strong>Question:</strong>
 What is the **MOST** effective intervention?
 
-- **Correct:** Establish a "Remote-First" communication policy: All decisions must be documented in the chat/project tool, even if people are co-located.
-- **Distractor 1:** Move everyone to London.
-- **Distractor 2:** Tell the London team to wake up earlier to be on the calls.
-- **Distractor 3:** Assign a "London Ambassador" in NY to take notes.
+- <strong>Correct:</strong> Establish a "Remote-First" communication policy: All decisions must be documented in the chat/project tool, even if people are co-located.
+- <strong>Distractor 1:</strong> Move everyone to London.
+- <strong>Distractor 2:</strong> Tell the London team to wake up earlier to be on the calls.
+- <strong>Distractor 3:</strong> Assign a "London Ambassador" in NY to take notes.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1177,18 +1177,18 @@ What is the **MOST** effective intervention?
 
 ### Question 41
 
-**Enabler:** 6. Collaborate | **Methodology:** Predictive
+<strong>Enabler:</strong> 6. Collaborate | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A vendor claims a deliverable is complete. The project team claims it is incomplete. The contract is ambiguous on this specific point.
 
-**Question:**
+<strong>Question:</strong>
 What is the **preferred** resolution method?
 
-- **Correct:** Negotiate a solution with the vendor (e.g., a small change order or compromise) to avoid litigation and keep the project moving.
-- **Distractor 1:** Immediately stop payment and sue the vendor.
-- **Distractor 2:** Accept the incomplete deliverable to avoid conflict.
-- **Distractor 3:** Require the vendor to finish it for free or be blacklisted.
+- <strong>Correct:</strong> Negotiate a solution with the vendor (e.g., a small change order or compromise) to avoid litigation and keep the project moving.
+- <strong>Distractor 1:</strong> Immediately stop payment and sue the vendor.
+- <strong>Distractor 2:</strong> Accept the incomplete deliverable to avoid conflict.
+- <strong>Distractor 3:</strong> Require the vendor to finish it for free or be blacklisted.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1206,18 +1206,18 @@ What is the **preferred** resolution method?
 
 ### Question 42
 
-**Enabler:** 3. Intervention strategy | **Methodology:** Agile
+<strong>Enabler:</strong> 3. Intervention strategy | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The Product Owner is attending the Daily Standup and constantly interrupting developers to ask for detailed status updates and ETA.
 
-**Question:**
+<strong>Question:</strong>
 What should the Scrum Master do?
 
-- **Correct:** Talk to the Product Owner privately and explain that the Standup is for the team's synchronization, not for status reporting.
-- **Distractor 1:** Publicly silence the Product Owner during the meeting.
-- **Distractor 2:** Cancel the standup since it is not productive.
-- **Distractor 3:** Change the meeting format to a status report to satisfy the Product Owner.
+- <strong>Correct:</strong> Talk to the Product Owner privately and explain that the Standup is for the team's synchronization, not for status reporting.
+- <strong>Distractor 1:</strong> Publicly silence the Product Owner during the meeting.
+- <strong>Distractor 2:</strong> Cancel the standup since it is not productive.
+- <strong>Distractor 3:</strong> Change the meeting format to a status report to satisfy the Product Owner.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1235,18 +1235,18 @@ What should the Scrum Master do?
 
 ### Question 43
 
-**Enabler:** 4. Reassess impediments | **Methodology:** Predictive
+<strong>Enabler:</strong> 4. Reassess impediments | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 The Scope Baseline has been changed 15 times in 2 months via formal Change Requests. The team is confused about what the current requirements are.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager do?
 
-- **Correct:** Pause to re-baseline the project documents and hold a "Re-Kickoff" meeting to align everyone on the current state (v15).
-- **Distractor 1:** Freeze the scope and reject all future changes.
-- **Distractor 2:** Tell the team to check the change log if they are confused.
-- **Distractor 3:** Ask the Sponsor to stop approving changes.
+- <strong>Correct:</strong> Pause to re-baseline the project documents and hold a "Re-Kickoff" meeting to align everyone on the current state (v15).
+- <strong>Distractor 1:</strong> Freeze the scope and reject all future changes.
+- <strong>Distractor 2:</strong> Tell the team to check the change log if they are confused.
+- <strong>Distractor 3:</strong> Ask the Sponsor to stop approving changes.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1264,18 +1264,18 @@ What should the Project Manager do?
 
 ### Question 44
 
-**Enabler:** 5. Risk to Issue | **Methodology:** Hybrid
+<strong>Enabler:</strong> 5. Risk to Issue | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 During integration, it is discovered that the Agile software component uses a data format incompatible with the Predictive legacy system. This risk was missed during planning.
 
-**Question:**
+<strong>Question:</strong>
 What is the action?
 
-- **Correct:** Log the issue, analyze the cost/time to build an adapter (workaround), and submit a change request.
-- **Distractor 1:** Update the Risk Register.
-- **Distractor 2:** Blame the Agile team for not checking the legacy specs.
-- **Distractor 3:** Force the legacy team to change their database.
+- <strong>Correct:</strong> Log the issue, analyze the cost/time to build an adapter (workaround), and submit a change request.
+- <strong>Distractor 1:</strong> Update the Risk Register.
+- <strong>Distractor 2:</strong> Blame the Agile team for not checking the legacy specs.
+- <strong>Distractor 3:</strong> Force the legacy team to change their database.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1293,18 +1293,18 @@ What is the action?
 
 ### Question 45
 
-**Enabler:** 6. Collaborate | **Methodology:** Agile
+<strong>Enabler:</strong> 6. Collaborate | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 In the Retrospective, the team enters a "blame cycle," pointing fingers at the tester for missing bugs. The atmosphere is hostile.
 
-**Question:**
+<strong>Question:</strong>
 How should the facilitator intervene?
 
-- **Correct:** Intervene to enforce the "Prime Directive" (Retrospectives are blameless) and shift the focus to "System/Process" failures rather than person failures.
-- **Distractor 1:** Agree that the tester needs more training.
-- **Distractor 2:** End the meeting to cool down.
-- **Distractor 3:** Remove the tester from the room.
+- <strong>Correct:</strong> Intervene to enforce the "Prime Directive" (Retrospectives are blameless) and shift the focus to "System/Process" failures rather than person failures.
+- <strong>Distractor 1:</strong> Agree that the tester needs more training.
+- <strong>Distractor 2:</strong> End the meeting to cool down.
+- <strong>Distractor 3:</strong> Remove the tester from the room.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1322,18 +1322,18 @@ How should the facilitator intervene?
 
 ### Question 46
 
-**Enabler:** 3. Intervention strategy | **Methodology:** Predictive
+<strong>Enabler:</strong> 3. Intervention strategy | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A stakeholder demands to see the prototype immediately. It is only 80% done and looks "ugly" (unfinished UI), though the logic works.
 
-**Question:**
+<strong>Question:</strong>
 What is the risk of showing it now, and what should the PM do?
 
-- **Correct:** Risk: The stakeholder may lose confidence due to the rough appearance. Action: Set expectations clearly ("This is a wireframe, ignore the colors") before showing it.
-- **Distractor 1:** Refuse to show it until it is 100% perfect.
-- **Distractor 2:** Show it without comment and hope they understand.
-- **Distractor 3:** Spend 2 weeks polishing the UI before showing it (delaying feedback).
+- <strong>Correct:</strong> Risk: The stakeholder may lose confidence due to the rough appearance. Action: Set expectations clearly ("This is a wireframe, ignore the colors") before showing it.
+- <strong>Distractor 1:</strong> Refuse to show it until it is 100% perfect.
+- <strong>Distractor 2:</strong> Show it without comment and hope they understand.
+- <strong>Distractor 3:</strong> Spend 2 weeks polishing the UI before showing it (delaying feedback).
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1351,18 +1351,18 @@ What is the risk of showing it now, and what should the PM do?
 
 ### Question 47
 
-**Enabler:** 4. Reassess impediments | **Methodology:** Agile
+<strong>Enabler:</strong> 4. Reassess impediments | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The team consistently fails to finish User Stories because "Testing takes too long at the end of the sprint."
 
-**Question:**
+<strong>Question:</strong>
 What should be reassessed?
 
-- **Correct:** Reassess the "Definition of Done." It might be too ambitious for the sprint length, or the team needs TDD/Automation to shift testing left.
-- **Distractor 1:** Make the sprint longer.
-- **Distractor 2:** Remove testing from the Definition of Done.
-- **Distractor 3:** Hire a manager to test for them.
+- <strong>Correct:</strong> Reassess the "Definition of Done." It might be too ambitious for the sprint length, or the team needs TDD/Automation to shift testing left.
+- <strong>Distractor 1:</strong> Make the sprint longer.
+- <strong>Distractor 2:</strong> Remove testing from the Definition of Done.
+- <strong>Distractor 3:</strong> Hire a manager to test for them.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1380,18 +1380,18 @@ What should be reassessed?
 
 ### Question 48
 
-**Enabler:** 6. Collaborate | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6. Collaborate | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 The PMO requires a "Green/Yellow/Red" status report. The Agile team refuses, saying "We don't use traffic lights, we use velocity."
 
-**Question:**
+<strong>Question:</strong>
 What is the PM's role?
 
-- **Correct:** Translation. The PM must map the Agile metrics (Burnup/Velocity) to the PMO's language (RAG status) to satisfy governance without disrupting the team.
-- **Distractor 1:** Force the team to use Traffic Lights.
-- **Distractor 2:** Tell the PMO they are outdated.
-- **Distractor 3:** Ignore the PMO request.
+- <strong>Correct:</strong> Translation. The PM must map the Agile metrics (Burnup/Velocity) to the PMO's language (RAG status) to satisfy governance without disrupting the team.
+- <strong>Distractor 1:</strong> Force the team to use Traffic Lights.
+- <strong>Distractor 2:</strong> Tell the PMO they are outdated.
+- <strong>Distractor 3:</strong> Ignore the PMO request.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1409,18 +1409,18 @@ What is the PM's role?
 
 ### Question 49
 
-**Enabler:** 5. Risk to Issue | **Methodology:** Predictive
+<strong>Enabler:</strong> 5. Risk to Issue | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A concrete pour was identified as a risk ("Rain could ruin the finish"). It didn't rain, but the concrete cracked due to extreme heat (Unidentified Risk).
 
-**Question:**
+<strong>Question:</strong>
 What is the action?
 
-- **Correct:** Log the issue, execute the workaround (remove/pour again), and submit a change request for the cost (Management Reserve).
-- **Distractor 1:** Use the Contingency Reserve.
-- **Distractor 2:** Blame the contractor.
-- **Distractor 3:** Leave the crack since it's cosmetic.
+- <strong>Correct:</strong> Log the issue, execute the workaround (remove/pour again), and submit a change request for the cost (Management Reserve).
+- <strong>Distractor 1:</strong> Use the Contingency Reserve.
+- <strong>Distractor 2:</strong> Blame the contractor.
+- <strong>Distractor 3:</strong> Leave the crack since it's cosmetic.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1438,18 +1438,18 @@ What is the action?
 
 ### Question 50
 
-**Enabler:** 3. Intervention strategy | **Methodology:** Agile
+<strong>Enabler:</strong> 3. Intervention strategy | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The Design team works one sprint ahead of the Dev team. The Dev team complains that by the time they code the designs, the designs are outdated or missing details, and the designers are busy with the "next" sprint.
 
-**Question:**
+<strong>Question:</strong>
 What is the intervention?
 
-- **Correct:** Integrate the designers into the Cross-Functional Team so they design and code in the *same* sprint (Collaborative design).
-- **Distractor 1:** Increase the lead time to 2 sprints.
-- **Distractor 2:** Document the designs more thoroughly.
-- **Distractor 3:** Tell the developers to just guess.
+- <strong>Correct:</strong> Integrate the designers into the Cross-Functional Team so they design and code in the *same* sprint (Collaborative design).
+- <strong>Distractor 1:</strong> Increase the lead time to 2 sprints.
+- <strong>Distractor 2:</strong> Document the designs more thoroughly.
+- <strong>Distractor 3:</strong> Tell the developers to just guess.
 
 <details>
 <summary>Detailed Remediation</summary>

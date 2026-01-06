@@ -51,18 +51,18 @@
 
 ### Question 1
 
-**Enabler:** Obtain project stakeholder approval | **Methodology:** Predictive
+<strong>Enabler:</strong> Obtain project stakeholder approval | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 The project manager has completed all deliverables for a multi-year infrastructure project. During the final walkthrough, the primary stakeholder refuses to sign the formal acceptance document, citing a minor aesthetic misalignment in the lobby that was not specified in the original requirements or the quality management plan. The stakeholder insists this must be fixed before closure.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Reference the documented acceptance criteria and explain that the current deliverables meet all agreed-upon requirements.
-- **Distractor 1:** Instruct the team to perform the aesthetic fix immediately to ensure customer satisfaction and secure the sign-off.
-- **Distractor 2:** Log the aesthetic issue as a defect in the issue log and delay the project closure until the steering committee reviews it.
-- **Distractor 3:** Negotiate a partial payment with the stakeholder to compensate for the misalignment and close the project.
+- <strong>Correct:</strong> Reference the documented acceptance criteria and explain that the current deliverables meet all agreed-upon requirements.
+- <strong>Distractor 1:</strong> Instruct the team to perform the aesthetic fix immediately to ensure customer satisfaction and secure the sign-off.
+- <strong>Distractor 2:</strong> Log the aesthetic issue as a defect in the issue log and delay the project closure until the steering committee reviews it.
+- <strong>Distractor 3:</strong> Negotiate a partial payment with the stakeholder to compensate for the misalignment and close the project.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -80,18 +80,18 @@ What is the BEST action for the project manager to take?
 
 ### Question 2
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Predictive
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project is being closed after a successful deployment. The project manager discovers an outstanding claim from a vendor regarding extra work performed during an emergency system outage three months ago. The vendor and the procurement department have not yet reached an agreement on the final settlement amount.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager handle this situation?
 
-- **Correct:** Document the claim fully in the procurement records and formally transfer the responsibility for its resolution to the legal or finance department.
-- **Distractor 1:** Use the remaining project contingency budget to pay the vendor's claim in full to avoid delaying the final project closure report.
-- **Distractor 2:** Close the project administratively and mark the procurement as complete, assuming the finance department will handle it later.
-- **Distractor 3:** Refuse to close the project or release the team until the vendor and procurement department sign a final settlement agreement.
+- <strong>Correct:</strong> Document the claim fully in the procurement records and formally transfer the responsibility for its resolution to the legal or finance department.
+- <strong>Distractor 1:</strong> Use the remaining project contingency budget to pay the vendor's claim in full to avoid delaying the final project closure report.
+- <strong>Distractor 2:</strong> Close the project administratively and mark the procurement as complete, assuming the finance department will handle it later.
+- <strong>Distractor 3:</strong> Refuse to close the project or release the team until the vendor and procurement department sign a final settlement agreement.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -109,18 +109,18 @@ How should the project manager handle this situation?
 
 ### Question 3
 
-**Enabler:** Validate readiness for transition | **Methodology:** Hybrid
+<strong>Enabler:</strong> Validate readiness for transition | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project is transitioning a new digital banking platform to the operations team. The software development followed an agile approach, while the infrastructure was predictive. The operations manager informs the project manager that their staff is not yet trained on the new cloud monitoring tools included in the release.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do FIRST?
 
-- **Correct:** Review the transition plan to confirm the agreed-upon training requirements and delivery schedule for the operations staff.
-- **Distractor 1:** Postpone the go-live date by two weeks to allow the project team to conduct emergency training sessions for the operations staff.
-- **Distractor 2:** Update the final project report to indicate that the transition was successful despite the lack of operational readiness.
-- **Distractor 3:** Transfer the project's remaining training budget to the operations department so they can hire an external trainer.
+- <strong>Correct:</strong> Review the transition plan to confirm the agreed-upon training requirements and delivery schedule for the operations staff.
+- <strong>Distractor 1:</strong> Postpone the go-live date by two weeks to allow the project team to conduct emergency training sessions for the operations staff.
+- <strong>Distractor 2:</strong> Update the final project report to indicate that the transition was successful despite the lack of operational readiness.
+- <strong>Distractor 3:</strong> Transfer the project's remaining training budget to the operations department so they can hire an external trainer.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -138,18 +138,18 @@ What should the project manager do FIRST?
 
 ### Question 4
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 The organization has decided to cancel an agile project mid-way through the fourth release because the market conditions have made the product obsolete. The product owner has instructed the team to stop all development work immediately.
 
-**Question:**
+<strong>Question:</strong>
 What is the most important responsibility of the project manager (or Delivery Lead) at this point?
 
-- **Correct:** Ensure the team conducts a final retrospective and archives the completed code and documentation for future reference.
-- **Distractor 1:** Direct the team to immediately begin working on the next highest-priority project in the organization's portfolio.
-- **Distractor 2:** Request the sponsor to reconsider the cancellation based on the "sunk cost" of the resources already invested.
-- **Distractor 3:** Finalize the remaining items in the product backlog to ensure the product has at least some functional value.
+- <strong>Correct:</strong> Ensure the team conducts a final retrospective and archives the completed code and documentation for future reference.
+- <strong>Distractor 1:</strong> Direct the team to immediately begin working on the next highest-priority project in the organization's portfolio.
+- <strong>Distractor 2:</strong> Request the sponsor to reconsider the cancellation based on the "sunk cost" of the resources already invested.
+- <strong>Distractor 3:</strong> Finalize the remaining items in the product backlog to ensure the product has at least some functional value.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -167,18 +167,18 @@ What is the most important responsibility of the project manager (or Delivery Le
 
 ### Question 5
 
-**Enabler:** Determine criteria to successfully close | **Methodology:** Predictive
+<strong>Enabler:</strong> Determine criteria to successfully close | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is defining the "Definition of Done" for a large construction project phase. One of the key stakeholders suggests that the project should only be considered closed after the first year of building occupancy to ensure all systems are functioning as expected.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager respond to this suggestion?
 
-- **Correct:** Explain that the project closure focuses on handoff and transition, and long-term performance monitoring is typically handled during the warranty or operations phase.
-- **Distractor 1:** Agree to extend the project timeline by one year to accommodate the stakeholder's request for long-term monitoring.
-- **Distractor 2:** Update the project charter to include "one-year post-occupancy performance" as a primary project success criterion.
-- **Distractor 3:** Inform the stakeholder that project closure is strictly an administrative step that does not involve deliverable performance.
+- <strong>Correct:</strong> Explain that the project closure focuses on handoff and transition, and long-term performance monitoring is typically handled during the warranty or operations phase.
+- <strong>Distractor 1:</strong> Agree to extend the project timeline by one year to accommodate the stakeholder's request for long-term monitoring.
+- <strong>Distractor 2:</strong> Update the project charter to include "one-year post-occupancy performance" as a primary project success criterion.
+- <strong>Distractor 3:</strong> Inform the stakeholder that project closure is strictly an administrative step that does not involve deliverable performance.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -196,18 +196,18 @@ How should the project manager respond to this suggestion?
 
 ### Question 6
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Predictive
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a lessons learned session for a recently completed project, the team identifies that the lack of clear requirements led to significant rework. Some team members are hesitant to document this, fearing it will reflect poorly on the project's performance evaluation.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager facilitate this situation?
 
-- **Correct:** Reiterate that the goal of the session is organizational improvement and ensure the lesson is recorded with actionable recommendations for future projects.
-- **Distractor 1:** Allow the team to omit the negative finding from the official register to maintain a positive final report for the sponsor.
-- **Distractor 2:** Document the finding in a private memo to the PMO instead of the public lessons learned register to protect the team's reputation.
-- **Distractor 3:** Assign responsibility for the rework to specific team members in the register to ensure accountability for the failure.
+- <strong>Correct:</strong> Reiterate that the goal of the session is organizational improvement and ensure the lesson is recorded with actionable recommendations for future projects.
+- <strong>Distractor 1:</strong> Allow the team to omit the negative finding from the official register to maintain a positive final report for the sponsor.
+- <strong>Distractor 2:</strong> Document the finding in a private memo to the PMO instead of the public lessons learned register to protect the team's reputation.
+- <strong>Distractor 3:</strong> Assign responsibility for the rework to specific team members in the register to ensure accountability for the failure.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -225,18 +225,18 @@ How should the project manager facilitate this situation?
 
 ### Question 7
 
-**Enabler:** Validate readiness for transition | **Methodology:** Predictive
+<strong>Enabler:</strong> Validate readiness for transition | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project to implement a new enterprise resource planning (ERP) system is in the closure phase. The project manager is preparing the handoff package for the IT support team. The support manager refuses to accept the system, stating they don't have the headcount to manage the additional support tickets.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do?
 
-- **Correct:** Review the project charter and resource management plan to determine if operational support staffing was included in the project's scope.
-- **Distractor 1:** Request the project sponsor to provide additional funding to hire permanent support staff for the IT department.
-- **Distractor 2:** Delay the project closure until the IT department successfully hires and trains new support personnel.
-- **Distractor 3:** Hand over the system documentation to the IT manager and proceed with administrative closure regardless of their refusal.
+- <strong>Correct:</strong> Review the project charter and resource management plan to determine if operational support staffing was included in the project's scope.
+- <strong>Distractor 1:</strong> Request the project sponsor to provide additional funding to hire permanent support staff for the IT department.
+- <strong>Distractor 2:</strong> Delay the project closure until the IT department successfully hires and trains new support personnel.
+- <strong>Distractor 3:</strong> Hand over the system documentation to the IT manager and proceed with administrative closure regardless of their refusal.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -254,18 +254,18 @@ What should the project manager do?
 
 ### Question 8
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Hybrid
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project is closing, and the project manager needs to calculate the final fee for a vendor under a Cost Plus Incentive Fee (CPIF) contract. The target cost was $200,000, the target fee was $20,000, and the share ratio is 80/20 (buyer/seller). The actual cost incurred by the vendor was $180,000.
 
-**Question:**
+<strong>Question:</strong>
 What is the final fee that should be paid to the vendor?
 
-- **Correct:** $24,000
-- **Distractor 1:** $20,000
-- **Distractor 2:** $16,000
-- **Distractor 3:** $22,000
+- <strong>Correct:</strong> $24,000
+- <strong>Distractor 1:</strong> $20,000
+- <strong>Distractor 2:</strong> $16,000
+- <strong>Distractor 3:</strong> $22,000
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -283,18 +283,18 @@ What is the final fee that should be paid to the vendor?
 
 ### Question 9
 
-**Enabler:** Obtain project stakeholder approval | **Methodology:** Agile
+<strong>Enabler:</strong> Obtain project stakeholder approval | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team has finished the final sprint for a new mobile app. The Product Owner has accepted all user stories in the sprint review. However, the compliance department states that the project cannot be "closed" because the data privacy audit documentation is incomplete.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager handle this?
 
-- **Correct:** Work with the team to complete the required compliance documentation before finalizing the product's administrative closure.
-- **Distractor 1:** Inform the compliance department that in agile, the Product Owner's acceptance of stories is the only requirement for closure.
-- **Distractor 2:** Release the development team to their next project and personally complete the audit documentation to save time.
-- **Distractor 3:** Archive the project as "complete" and list the missing documentation as a "risk" in the final project report.
+- <strong>Correct:</strong> Work with the team to complete the required compliance documentation before finalizing the product's administrative closure.
+- <strong>Distractor 1:</strong> Inform the compliance department that in agile, the Product Owner's acceptance of stories is the only requirement for closure.
+- <strong>Distractor 2:</strong> Release the development team to their next project and personally complete the audit documentation to save time.
+- <strong>Distractor 3:</strong> Archive the project as "complete" and list the missing documentation as a "risk" in the final project report.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -312,18 +312,18 @@ How should the project manager handle this?
 
 ### Question 10
 
-**Enabler:** Validate readiness for transition | **Methodology:** Predictive
+<strong>Enabler:</strong> Validate readiness for transition | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is handing over a new manufacturing line to the operations manager. The operations manager points out that while the machinery works, the user manuals are only available in a language that 40% of the factory workers do not speak. This requirement was not in the original scope.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the project manager to address this?
 
-- **Correct:** Document the feedback and submit a change request to translate the manuals, or add it to the transition punch list if agreed by the sponsor.
-- **Distractor 1:** Tell the operations manager that the project met the original scope and they are responsible for their own translations.
-- **Distractor 2:** Use the project's management reserve to quickly hire a translation service to avoid a delay in sign-off.
-- **Distractor 3:** Instruct the project's bilingual team members to spend their final week translating the manuals for the operations team.
+- <strong>Correct:</strong> Document the feedback and submit a change request to translate the manuals, or add it to the transition punch list if agreed by the sponsor.
+- <strong>Distractor 1:</strong> Tell the operations manager that the project met the original scope and they are responsible for their own translations.
+- <strong>Distractor 2:</strong> Use the project's management reserve to quickly hire a translation service to avoid a delay in sign-off.
+- <strong>Distractor 3:</strong> Instruct the project's bilingual team members to spend their final week translating the manuals for the operations team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -341,18 +341,18 @@ What is the BEST way for the project manager to address this?
 
 ### Question 11
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Predictive
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project has reached its end date. The project manager has successfully handed over the deliverables, but two key team members have already left for a new assignment before the final retrospective could be held. The remaining team members feel the retrospective is now unnecessary.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do?
 
-- **Correct:** Conduct the retrospective with the remaining team members and attempt to gather input from the departed members via email or short interviews.
-- **Distractor 1:** Cancel the retrospective and use the notes from the previous phase-end retrospectives to create the final lessons learned report.
-- **Distractor 2:** File a formal complaint with the functional managers of the departed team members for leaving before the project was administratively closed.
-- **Distractor 3:** Skip the retrospective and focus on archiving the financial records, as these are more important for the final audit.
+- <strong>Correct:</strong> Conduct the retrospective with the remaining team members and attempt to gather input from the departed members via email or short interviews.
+- <strong>Distractor 1:</strong> Cancel the retrospective and use the notes from the previous phase-end retrospectives to create the final lessons learned report.
+- <strong>Distractor 2:</strong> File a formal complaint with the functional managers of the departed team members for leaving before the project was administratively closed.
+- <strong>Distractor 3:</strong> Skip the retrospective and focus on archiving the financial records, as these are more important for the final audit.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -370,18 +370,18 @@ What should the project manager do?
 
 ### Question 12
 
-**Enabler:** Determine criteria to successfully close | **Methodology:** Hybrid
+<strong>Enabler:</strong> Determine criteria to successfully close | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, the "Definition of Done" for the final release includes a requirement for "No critical bugs and less than 10 minor bugs." Upon final testing, the team finds 1 critical bug and 15 minor bugs. The business owner wants to go live anyway to meet a marketing deadline.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do?
 
-- **Correct:** Document the deviation from the acceptance criteria and seek formal approval from the project sponsor and governance board to proceed with the release.
-- **Distractor 1:** Allow the go-live to proceed as requested by the business owner, as they have the ultimate authority over the product.
-- **Distractor 2:** Update the "Definition of Done" to allow for 1 critical bug and 20 minor bugs so that the project can be closed without an exception.
-- **Distractor 3:** Refuse to release the product until the team fixes the critical bug and at least 6 minor bugs to meet the original criteria.
+- <strong>Correct:</strong> Document the deviation from the acceptance criteria and seek formal approval from the project sponsor and governance board to proceed with the release.
+- <strong>Distractor 1:</strong> Allow the go-live to proceed as requested by the business owner, as they have the ultimate authority over the product.
+- <strong>Distractor 2:</strong> Update the "Definition of Done" to allow for 1 critical bug and 20 minor bugs so that the project can be closed without an exception.
+- <strong>Distractor 3:</strong> Refuse to release the product until the team fixes the critical bug and at least 6 minor bugs to meet the original criteria.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -399,18 +399,18 @@ What should the project manager do?
 
 ### Question 13
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Predictive
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 The project manager is preparing the final project report for a software implementation. The project was completed 10% over budget but 5% ahead of schedule. The sponsor is pleased with the result but asks why the variance occurred.
 
-**Question:**
+<strong>Question:</strong>
 Where should the project manager find the objective explanation for these variances?
 
-- **Correct:** In the project's change log and the variance analysis records maintained throughout the project.
-- **Distractor 1:** By interviewing the team members to get their qualitative opinions on the project's performance.
-- **Distractor 2:** In the original business case and the project charter developed during the initiation phase.
-- **Distractor 3:** In the lessons learned register from the final retrospective session with the stakeholders.
+- <strong>Correct:</strong> In the project's change log and the variance analysis records maintained throughout the project.
+- <strong>Distractor 1:</strong> By interviewing the team members to get their qualitative opinions on the project's performance.
+- <strong>Distractor 2:</strong> In the original business case and the project charter developed during the initiation phase.
+- <strong>Distractor 3:</strong> In the lessons learned register from the final retrospective session with the stakeholders.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -428,18 +428,18 @@ Where should the project manager find the objective explanation for these varian
 
 ### Question 14
 
-**Enabler:** Validate readiness for transition | **Methodology:** Hybrid
+<strong>Enabler:</strong> Validate readiness for transition | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is closing a project that developed a new AI-driven customer service bot. The bot is live, but the "Benefits Handoff" plan requires the Marketing Manager to track customer satisfaction for six months post-closure. The Marketing Manager claims they don't have the tools to perform this tracking.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager's role be in this situation?
 
-- **Correct:** Ensure the tools or data sources for benefits measurement are provided as part of the project's final deliverables before closure.
-- **Distractor 1:** Agree to remain on the project for an additional six months to personally track the benefits for the Marketing Manager.
-- **Distractor 2:** Inform the project sponsor that the benefits cannot be tracked and therefore the project should be considered a failure.
-- **Distractor 3:** Hand over the project as is, as benefits tracking is an operational activity that the PM is not responsible for.
+- <strong>Correct:</strong> Ensure the tools or data sources for benefits measurement are provided as part of the project's final deliverables before closure.
+- <strong>Distractor 1:</strong> Agree to remain on the project for an additional six months to personally track the benefits for the Marketing Manager.
+- <strong>Distractor 2:</strong> Inform the project sponsor that the benefits cannot be tracked and therefore the project should be considered a failure.
+- <strong>Distractor 3:</strong> Hand over the project as is, as benefits tracking is an operational activity that the PM is not responsible for.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -457,18 +457,18 @@ What should the project manager's role be in this situation?
 
 ### Question 15
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project is being retired. The team has been working in two-week sprints for over a year. The Project Manager (or Delivery Lead) is now finalizing the "Administrative Closure."
 
-**Question:**
+<strong>Question:</strong>
 Which action is MOST effective for this knowledge transfer?
 
-- **Correct:** Create a final knowledge transfer matrix and conduct recorded walkthroughs of the system's architecture and configuration with the support team.
-- **Distractor 1:** Require all team members to write a detailed, 50-page technical manual of every feature they developed during the year.
-- **Distractor 2:** Host a celebratory party where the team can informally discuss their experiences with the incoming maintenance team.
-- **Distractor 3:** Simply archive the product backlog and the sprint retrospective notes in the organization's central repository.
+- <strong>Correct:</strong> Create a final knowledge transfer matrix and conduct recorded walkthroughs of the system's architecture and configuration with the support team.
+- <strong>Distractor 1:</strong> Require all team members to write a detailed, 50-page technical manual of every feature they developed during the year.
+- <strong>Distractor 2:</strong> Host a celebratory party where the team can informally discuss their experiences with the incoming maintenance team.
+- <strong>Distractor 3:</strong> Simply archive the product backlog and the sprint retrospective notes in the organization's central repository.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -486,18 +486,18 @@ Which action is MOST effective for this knowledge transfer?
 
 ### Question 16
 
-**Enabler:** Obtain project stakeholder approval | **Methodology:** Predictive
+<strong>Enabler:</strong> Obtain project stakeholder approval | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is seeking final sign-off for a government-funded social program. One of the key community leaders refuses to sign, stating that the program did not reach enough participants in a specific rural area, although the geographic reach was never specified as a success criterion in the charter.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST thing the project manager should do?
 
-- **Correct:** Meet with the community leader to understand the impact of the participation gap and review the project's actual performance against the charter's objectives.
-- **Distractor 1:** Ask the project sponsor to use their political influence to pressure the community leader into signing the document.
-- **Distractor 2:** Immediately launch a small sub-project to address the participation gap in the rural area to secure the sign-off.
-- **Distractor 3:** Document the refusal in the final report and proceed with closure, as the community leader's objection is technically out of scope.
+- <strong>Correct:</strong> Meet with the community leader to understand the impact of the participation gap and review the project's actual performance against the charter's objectives.
+- <strong>Distractor 1:</strong> Ask the project sponsor to use their political influence to pressure the community leader into signing the document.
+- <strong>Distractor 2:</strong> Immediately launch a small sub-project to address the participation gap in the rural area to secure the sign-off.
+- <strong>Distractor 3:</strong> Document the refusal in the final report and proceed with closure, as the community leader's objection is technically out of scope.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -515,18 +515,18 @@ What is the FIRST thing the project manager should do?
 
 ### Question 17
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Predictive
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is conducting the final procurement audit for a project that used multiple vendors. They find that one vendor consistently delivered late, but their work was eventually accepted and paid for in full.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do with this information during closure?
 
-- **Correct:** Include a detailed vendor performance evaluation in the procurement closure records to inform future vendor selection.
-- **Distractor 1:** Request a partial refund from the vendor for the delays before formally closing the contract.
-- **Distractor 2:** Keep this information confidential within the project team to avoid damaging the vendor's reputation in the industry.
-- **Distractor 3:** Blacklist the vendor from all future project work in the organization's central procurement database.
+- <strong>Correct:</strong> Include a detailed vendor performance evaluation in the procurement closure records to inform future vendor selection.
+- <strong>Distractor 1:</strong> Request a partial refund from the vendor for the delays before formally closing the contract.
+- <strong>Distractor 2:</strong> Keep this information confidential within the project team to avoid damaging the vendor's reputation in the industry.
+- <strong>Distractor 3:</strong> Blacklist the vendor from all future project work in the organization's central procurement database.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -544,18 +544,18 @@ What should the project manager do with this information during closure?
 
 ### Question 18
 
-**Enabler:** Determine criteria to successfully close | **Methodology:** Hybrid
+<strong>Enabler:</strong> Determine criteria to successfully close | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is closing a phase of a hybrid project. The agile portion of the phase is "done" per the team's Definition of Done, but the predictive portion's quality audit found three minor non-conformances that do not affect the system's functionality.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way to handle these non-conformances during phase closure?
 
-- **Correct:** Document the non-conformances as a "punch list" to be addressed in the next phase and obtain stakeholder agreement for conditional closure.
-- **Distractor 1:** Delay the closure of the entire phase until the three non-conformances are fully remediated by the team.
-- **Distractor 2:** Ignore the non-conformances since they don't affect functionality and close the phase as successful.
-- **Distractor 3:** Re-classify the predictive work as agile so that the non-conformances can be treated as backlog items for the next sprint.
+- <strong>Correct:</strong> Document the non-conformances as a "punch list" to be addressed in the next phase and obtain stakeholder agreement for conditional closure.
+- <strong>Distractor 1:</strong> Delay the closure of the entire phase until the three non-conformances are fully remediated by the team.
+- <strong>Distractor 2:</strong> Ignore the non-conformances since they don't affect functionality and close the phase as successful.
+- <strong>Distractor 3:</strong> Re-classify the predictive work as agile so that the non-conformances can be treated as backlog items for the next sprint.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -573,18 +573,18 @@ What is the BEST way to handle these non-conformances during phase closure?
 
 ### Question 19
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Predictive
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is closing a project that was highly successful and finished under budget. The project manager wants to ensure the team members receive proper recognition before they return to their functional departments.
 
-**Question:**
+<strong>Question:</strong>
 Which action is MOST appropriate as part of the formal resource release process?
 
-- **Correct:** Provide formal performance feedback to each team member's functional manager and organize a project celebration event.
-- **Distractor 1:** Offer the team members a financial bonus from the remaining project budget as a token of appreciation.
-- **Distractor 2:** Recommend all team members for immediate promotion within the organization based on the project's success.
-- **Distractor 3:** Allow the team members to keep the project-purchased equipment (e.g., laptops) as a reward for their hard work.
+- <strong>Correct:</strong> Provide formal performance feedback to each team member's functional manager and organize a project celebration event.
+- <strong>Distractor 1:</strong> Offer the team members a financial bonus from the remaining project budget as a token of appreciation.
+- <strong>Distractor 2:</strong> Recommend all team members for immediate promotion within the organization based on the project's success.
+- <strong>Distractor 3:</strong> Allow the team members to keep the project-purchased equipment (e.g., laptops) as a reward for their hard work.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -602,18 +602,18 @@ Which action is MOST appropriate as part of the formal resource release process?
 
 ### Question 20
 
-**Enabler:** Validate readiness for transition | **Methodology:** Hybrid
+<strong>Enabler:</strong> Validate readiness for transition | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project is transitioning a new customer portal to the operations team. The project manager has provided the user guides and the technical architecture diagrams. The operations manager asks for the "Known Issues" log from the testing phase.
 
-**Question:**
+<strong>Question:</strong>
 Why is this document critical for the transition?
 
-- **Correct:** It allows the support team to troubleshoot common user problems and understand existing system limitations immediately after go-live.
-- **Distractor 1:** It provides a list of team members who should be held accountable for any failures that occur after the handoff.
-- **Distractor 2:** It serves as a justification for the operations team to request more budget for post-launch bug fixing.
-- **Distractor 3:** It proves that the project manager met the quality standards by documenting every single error that occurred during development.
+- <strong>Correct:</strong> It allows the support team to troubleshoot common user problems and understand existing system limitations immediately after go-live.
+- <strong>Distractor 1:</strong> It provides a list of team members who should be held accountable for any failures that occur after the handoff.
+- <strong>Distractor 2:</strong> It serves as a justification for the operations team to request more budget for post-launch bug fixing.
+- <strong>Distractor 3:</strong> It proves that the project manager met the quality standards by documenting every single error that occurred during development.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -631,18 +631,18 @@ Why is this document critical for the transition?
 
 ### Question 21
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project has reached the end of its funded lifecycle. The team has transitioned the product to a maintenance group. The Project Manager (or Delivery Lead) is now finalizing the "Administrative Closure."
 
-**Question:**
+<strong>Question:</strong>
 Which of the following must be updated in the Organizational Process Assets (OPAs) for this agile project?
 
-- **Correct:** The final lessons learned and the indexed repository of all sprint retrospective outcomes.
-- **Distractor 1:** The original project management plan and the detailed WBS that were created during the initiation phase.
-- **Distractor 2:** The final individual performance appraisals for every team member who participated in the sprints.
-- **Distractor 3:** The list of all rejected user stories that the Product Owner decided were not valuable enough to implement.
+- <strong>Correct:</strong> The final lessons learned and the indexed repository of all sprint retrospective outcomes.
+- <strong>Distractor 1:</strong> The original project management plan and the detailed WBS that were created during the initiation phase.
+- <strong>Distractor 2:</strong> The final individual performance appraisals for every team member who participated in the sprints.
+- <strong>Distractor 3:</strong> The list of all rejected user stories that the Product Owner decided were not valuable enough to implement.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -660,18 +660,18 @@ Which of the following must be updated in the Organizational Process Assets (OPA
 
 ### Question 22
 
-**Enabler:** Determine criteria to successfully close | **Methodology:** Predictive
+<strong>Enabler:</strong> Determine criteria to successfully close | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is working on the closure phase of a project with a very strict regulatory compliance requirement. The project manager realizes that one of the required environmental impact reports was signed by a junior engineer instead of the certified lead engineer, which is a violation of the local law.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate action for the project manager to take before closing the project?
 
-- **Correct:** Obtain the required signature from the certified lead engineer, even if it delays the formal closure of the project.
-- **Distractor 1:** Document the oversight in the final report but proceed with closure to meet the project's scheduled end date.
-- **Distractor 2:** Ask the junior engineer to backdate their certification status to cover the date the report was originally signed.
-- **Distractor 3:** Assume that because the report was technically accurate, the signature discrepancy will not be noticed during an audit.
+- <strong>Correct:</strong> Obtain the required signature from the certified lead engineer, even if it delays the formal closure of the project.
+- <strong>Distractor 1:</strong> Document the oversight in the final report but proceed with closure to meet the project's scheduled end date.
+- <strong>Distractor 2:</strong> Ask the junior engineer to backdate their certification status to cover the date the report was originally signed.
+- <strong>Distractor 3:</strong> Assume that because the report was technically accurate, the signature discrepancy will not be noticed during an audit.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -689,18 +689,18 @@ What is the MOST appropriate action for the project manager to take before closi
 
 ### Question 23
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Hybrid
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is closing a hybrid project. They are using the "Final Report" to summarize the project's success. The sponsor wants to know if the project was "worth the investment."
 
-**Question:**
+<strong>Question:</strong>
 Which section of the Final Report directly addresses the sponsor's question?
 
-- **Correct:** The Benefits Handoff section, which outlines the expected ROI and assigns ownership for post-closure measurement.
-- **Distractor 1:** The Schedule Performance section, which shows that the project finished two weeks ahead of the baseline.
-- **Distractor 2:** The Lessons Learned section, which describes how the team improved their velocity over time.
-- **Distractor 3:** The Resource Release section, which lists the cost savings from releasing the team early.
+- <strong>Correct:</strong> The Benefits Handoff section, which outlines the expected ROI and assigns ownership for post-closure measurement.
+- <strong>Distractor 1:</strong> The Schedule Performance section, which shows that the project finished two weeks ahead of the baseline.
+- <strong>Distractor 2:</strong> The Lessons Learned section, which describes how the team improved their velocity over time.
+- <strong>Distractor 3:</strong> The Resource Release section, which lists the cost savings from releasing the team early.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -718,18 +718,18 @@ Which section of the Final Report directly addresses the sponsor's question?
 
 ### Question 24
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Predictive
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is closing a project and needs to archive all project artifacts. The organization uses a cloud-based Project Management Information System (PMIS).
 
-**Question:**
+<strong>Question:</strong>
 What is the PRIMARY purpose of archiving these artifacts?
 
-- **Correct:** To provide a searchable historical record for future project managers and to support organizational audits.
-- **Distractor 1:** To ensure that the current project team members cannot access or change the data once the project is finished.
-- **Distractor 2:** To satisfy the IT department's storage quota requirements by moving active files to a "read-only" status.
-- **Distractor 3:** To prove to the project sponsor that the project manager followed every step of the project management plan.
+- <strong>Correct:</strong> To provide a searchable historical record for future project managers and to support organizational audits.
+- <strong>Distractor 1:</strong> To ensure that the current project team members cannot access or change the data once the project is finished.
+- <strong>Distractor 2:</strong> To satisfy the IT department's storage quota requirements by moving active files to a "read-only" status.
+- <strong>Distractor 3:</strong> To prove to the project sponsor that the project manager followed every step of the project management plan.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -747,18 +747,18 @@ What is the PRIMARY purpose of archiving these artifacts?
 
 ### Question 25
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 In an agile project, the "Definition of Done" was updated several times during the project's lifecycle to improve quality. During the final retrospective, the team discusses whether these changes were effective.
 
-**Question:**
+<strong>Question:</strong>
 How should this discussion be captured in the project's closure documentation?
 
-- **Correct:** Document the evolution of the Definition of Done and its impact on quality as a repeatable process improvement for other teams.
-- **Distractor 1:** Only document the final version of the Definition of Done, as the previous versions are now irrelevant.
-- **Distractor 2:** Record the names of the team members who suggested the changes to ensure they receive credit in their performance reviews.
-- **Distractor 3:** Keep the discussion private to the team and only report the final project velocity to the PMO.
+- <strong>Correct:</strong> Document the evolution of the Definition of Done and its impact on quality as a repeatable process improvement for other teams.
+- <strong>Distractor 1:</strong> Only document the final version of the Definition of Done, as the previous versions are now irrelevant.
+- <strong>Distractor 2:</strong> Record the names of the team members who suggested the changes to ensure they receive credit in their performance reviews.
+- <strong>Distractor 3:</strong> Keep the discussion private to the team and only report the final project velocity to the PMO.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -776,18 +776,18 @@ How should this discussion be captured in the project's closure documentation?
 
 ### Question 26
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project is closing after the final release. The Product Owner is satisfied, but the team is worried about "zombie" feature flags that are still present in the production code. They believe these could cause issues once the project team is disbanded.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take?
 
-- **Correct:** Ensure the team identifies and removes or finalizes all temporary feature flags as part of the technical debt cleanup before closure.
-- **Distractor 1:** Document the feature flags in the "Known Issues" log and hand them over to the maintenance team to handle later.
-- **Distractor 2:** Release the team and inform the maintenance group that the feature flags are a permanent part of the system architecture.
-- **Distractor 3:** Conduct an emergency sprint to convert all feature flags into permanent configuration settings in the database.
+- <strong>Correct:</strong> Ensure the team identifies and removes or finalizes all temporary feature flags as part of the technical debt cleanup before closure.
+- <strong>Distractor 1:</strong> Document the feature flags in the "Known Issues" log and hand them over to the maintenance team to handle later.
+- <strong>Distractor 2:</strong> Release the team and inform the maintenance group that the feature flags are a permanent part of the system architecture.
+- <strong>Distractor 3:</strong> Conduct an emergency sprint to convert all feature flags into permanent configuration settings in the database.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -805,18 +805,18 @@ What is the BEST action for the project manager to take?
 
 ### Question 27
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Hybrid
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is closing a hybrid project. The final project report shows a high number of defects were found during the user acceptance testing (UAT) phase, which was predictive, compared to the development sprints, which were agile.
 
-**Question:**
+<strong>Question:</strong>
 How should this be addressed in the final lessons learned session?
 
-- **Correct:** Analyze the root cause of the defect escape rate from agile sprints to predictive UAT and document improvements for the "Definition of Done."
-- **Distractor 1:** Blame the agile team for not testing enough during the sprints and recommend more predictive testing in future projects.
-- **Distractor 2:** Conclude that hybrid methodologies are inherently flawed and recommend using only predictive methods for high-stakes projects.
-- **Distractor 3:** Record the defect count as a successful metric since all defects were eventually found before the final project closure.
+- <strong>Correct:</strong> Analyze the root cause of the defect escape rate from agile sprints to predictive UAT and document improvements for the "Definition of Done."
+- <strong>Distractor 1:</strong> Blame the agile team for not testing enough during the sprints and recommend more predictive testing in future projects.
+- <strong>Distractor 2:</strong> Conclude that hybrid methodologies are inherently flawed and recommend using only predictive methods for high-stakes projects.
+- <strong>Distractor 3:</strong> Record the defect count as a successful metric since all defects were eventually found before the final project closure.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -834,18 +834,18 @@ How should this be addressed in the final lessons learned session?
 
 ### Question 28
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Predictive
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project is being closed early due to a strategic realignment. The project manager has started the administrative closure, but the project sponsor asks if they can skip the final procurement audit since the vendor was a long-time partner and the work was only 30% complete.
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's MOST appropriate response?
 
-- **Correct:** Explain that a final procurement audit is a mandatory closure activity to ensure all obligations are met and to document vendor performance.
-- **Distractor 1:** Agree to skip the audit to save time and resources, provided the vendor signs a waiver of all future claims.
-- **Distractor 2:** Conduct a "mini-audit" that only looks at the invoices and ignore the quality of the deliverables provided so far.
-- **Distractor 3:** Delegate the audit to the procurement department and proceed with closing the project records immediately.
+- <strong>Correct:</strong> Explain that a final procurement audit is a mandatory closure activity to ensure all obligations are met and to document vendor performance.
+- <strong>Distractor 1:</strong> Agree to skip the audit to save time and resources, provided the vendor signs a waiver of all future claims.
+- <strong>Distractor 2:</strong> Conduct a "mini-audit" that only looks at the invoices and ignore the quality of the deliverables provided so far.
+- <strong>Distractor 3:</strong> Delegate the audit to the procurement department and proceed with closing the project records immediately.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -863,18 +863,18 @@ What is the project manager's MOST appropriate response?
 
 ### Question 29
 
-**Enabler:** Validate readiness for transition | **Methodology:** Hybrid
+<strong>Enabler:</strong> Validate readiness for transition | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is handing over a new automated warehouse system. The operations team is ready, but the local government has not yet issued the final safety certificate required for full occupancy. The project's end date is tomorrow.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do?
 
-- **Correct:** Delay the final project closure and transition until the required safety certificate is obtained from the government.
-- **Distractor 1:** Hand over the system to the operations team with a warning not to use it until the certificate arrives.
-- **Distractor 2:** Obtain a "temporary occupancy" permit and close the project, leaving the final certificate as a task for the operations manager.
-- **Distractor 3:** Sign off on the project closure and document the missing certificate as a "high-priority risk" for the operations team.
+- <strong>Correct:</strong> Delay the final project closure and transition until the required safety certificate is obtained from the government.
+- <strong>Distractor 1:</strong> Hand over the system to the operations team with a warning not to use it until the certificate arrives.
+- <strong>Distractor 2:</strong> Obtain a "temporary occupancy" permit and close the project, leaving the final certificate as a task for the operations manager.
+- <strong>Distractor 3:</strong> Sign off on the project closure and document the missing certificate as a "high-priority risk" for the operations team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -892,18 +892,18 @@ What should the project manager do?
 
 ### Question 30
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project is ending, and the team is conducting its final retrospective. One team member points out that many of the lessons learned during the project were already known from a similar project that finished last year, but the team didn't know about them.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (or Delivery Lead) do to prevent this in the future?
 
-- **Correct:** Recommend that the PMO improve the accessibility and searchability of the organization's Lessons Learned repository (OPA).
-- **Distractor 1:** Require all future project teams to read every single entry in the lessons learned database before starting work.
-- **Distractor 2:** Blame the previous project manager for not personally presenting their lessons to the current team.
-- **Distractor 3:** Suggest that lessons learned sessions be made optional since they are clearly not being used by the organization.
+- <strong>Correct:</strong> Recommend that the PMO improve the accessibility and searchability of the organization's Lessons Learned repository (OPA).
+- <strong>Distractor 1:</strong> Require all future project teams to read every single entry in the lessons learned database before starting work.
+- <strong>Distractor 2:</strong> Blame the previous project manager for not personally presenting their lessons to the current team.
+- <strong>Distractor 3:</strong> Suggest that lessons learned sessions be made optional since they are clearly not being used by the organization.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -921,18 +921,18 @@ What should the project manager (or Delivery Lead) do to prevent this in the fut
 
 ### Question 31
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Predictive
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is reconciling the final budget for a large international project. They find that there is a $50,000 surplus due to favorable exchange rate fluctuations during the last six months of the project.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do with the surplus funds?
 
-- **Correct:** Return the surplus to the project's funding source or the organization's general fund per the financial closure procedures.
-- **Distractor 1:** Use the surplus to purchase extra features or equipment for the customer that were originally out of scope.
-- **Distractor 2:** Distribute the surplus as performance bonuses to the project team members for finishing under budget.
-- **Distractor 3:** Keep the funds in the project account to cover any potential warranty claims that might arise in the next year.
+- <strong>Correct:</strong> Return the surplus to the project's funding source or the organization's general fund per the financial closure procedures.
+- <strong>Distractor 1:</strong> Use the surplus to purchase extra features or equipment for the customer that were originally out of scope.
+- <strong>Distractor 2:</strong> Distribute the surplus as performance bonuses to the project team members for finishing under budget.
+- <strong>Distractor 3:</strong> Keep the funds in the project account to cover any potential warranty claims that might arise in the next year.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -950,18 +950,18 @@ What should the project manager do with the surplus funds?
 
 ### Question 32
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is being disbanded as their product is transitioned to a "business as usual" maintenance mode. The team members are very close and are sad to be separating. The Project Manager wants to ensure a positive closure for the team.
 
-**Question:**
+<strong>Question:</strong>
 Which activity BEST supports the "People" side of project closure in this agile context?
 
-- **Correct:** Conduct a final "Future-Spective" where the team discusses how they will apply their new skills in their next assignments.
-- **Distractor 1:** Ask the team members to stay in contact via a private messaging app to continue discussing the product's future.
-- **Distractor 2:** Request the organization to keep the team together for another project, even if their skills are not a perfect match.
-- **Distractor 3:** Give everyone a glowing performance review regardless of their actual contribution to maintain morale.
+- <strong>Correct:</strong> Conduct a final "Future-Spective" where the team discusses how they will apply their new skills in their next assignments.
+- <strong>Distractor 1:</strong> Ask the team members to stay in contact via a private messaging app to continue discussing the product's future.
+- <strong>Distractor 2:</strong> Request the organization to keep the team together for another project, even if their skills are not a perfect match.
+- <strong>Distractor 3:</strong> Give everyone a glowing performance review regardless of their actual contribution to maintain morale.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -979,18 +979,18 @@ Which activity BEST supports the "People" side of project closure in this agile 
 
 ### Question 33
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Hybrid
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is closing a project that used a Cost Plus Award Fee (CPAF) contract. The project objectives were met, but the customer's satisfaction with the team's communication was low.
 
-**Question:**
+<strong>Question:</strong>
 How does this affect the procurement closure process?
 
-- **Correct:** The buyer will conduct a subjective performance evaluation to determine the amount of the award fee to be paid.
-- **Distractor 1:** The buyer will withhold the entire final payment until the team improves its communication documentation.
-- **Distractor 2:** The project manager must negotiate a 10% reduction in the vendor's fixed fee to compensate for the poor communication.
-- **Distractor 3:** The award fee must be paid in full since the primary project objectives were successfully met.
+- <strong>Correct:</strong> The buyer will conduct a subjective performance evaluation to determine the amount of the award fee to be paid.
+- <strong>Distractor 1:</strong> The buyer will withhold the entire final payment until the team improves its communication documentation.
+- <strong>Distractor 2:</strong> The project manager must negotiate a 10% reduction in the vendor's fixed fee to compensate for the poor communication.
+- <strong>Distractor 3:</strong> The award fee must be paid in full since the primary project objectives were successfully met.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1008,18 +1008,18 @@ How does this affect the procurement closure process?
 
 ### Question 34
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 At the end of an agile project, the Product Owner realizes that several valuable user stories were never started because the project ran out of time and budget.
 
-**Question:**
+<strong>Question:</strong>
 How should these uncompleted stories be handled during project closure?
 
-- **Correct:** Move the uncompleted stories back to the product backlog for consideration in future projects or maintenance releases.
-- **Distractor 1:** Delete the uncompleted stories from the backlog to show that the project was 100% successful in its delivery.
-- **Distractor 2:** Mark the stories as "Done" with a note that they were deferred, so the project's final velocity looks higher.
-- **Distractor 3:** Ask the team to work overtime for one week without pay to finish the remaining stories before closure.
+- <strong>Correct:</strong> Move the uncompleted stories back to the product backlog for consideration in future projects or maintenance releases.
+- <strong>Distractor 1:</strong> Delete the uncompleted stories from the backlog to show that the project was 100% successful in its delivery.
+- <strong>Distractor 2:</strong> Mark the stories as "Done" with a note that they were deferred, so the project's final velocity looks higher.
+- <strong>Distractor 3:</strong> Ask the team to work overtime for one week without pay to finish the remaining stories before closure.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1037,18 +1037,18 @@ How should these uncompleted stories be handled during project closure?
 
 ### Question 35
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Predictive
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is preparing the final project archive. They have 500 gigabytes of data, including every email, chat log, and draft document created during the three-year project.
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's MOST important task regarding this data?
 
-- **Correct:** Filter the data to include only the final versions of plans, baselines, key decisions, and approvals to ensure a usable archive.
-- **Distractor 1:** Compress the entire 500 gigabytes into a single zip file and upload it to the organization's "Old Projects" folder.
-- **Distractor 2:** Delete all emails and chat logs to protect the privacy of the project team members before archiving the technical documents.
-- **Distractor 3:** Print out all critical documents and store them in physical binders in the organization's document warehouse.
+- <strong>Correct:</strong> Filter the data to include only the final versions of plans, baselines, key decisions, and approvals to ensure a usable archive.
+- <strong>Distractor 1:</strong> Compress the entire 500 gigabytes into a single zip file and upload it to the organization's "Old Projects" folder.
+- <strong>Distractor 2:</strong> Delete all emails and chat logs to protect the privacy of the project team members before archiving the technical documents.
+- <strong>Distractor 3:</strong> Print out all critical documents and store them in physical binders in the organization's document warehouse.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1066,18 +1066,18 @@ What is the project manager's MOST important task regarding this data?
 
 ### Question 36
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project is being closed. The organization has a policy that all projects must submit a "Variance Analysis Report" as part of the closure package. The agile team has been using burndown charts instead of Earned Value Management (EVM).
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager fulfill the organization's requirement?
 
-- **Correct:** Translate the team's velocity and burndown data into a summary of planned vs. actual value delivered for the final report.
-- **Distractor 1:** Retroactively calculate EVM metrics (CPI, SPI) for every sprint to match the organization's standard report format.
-- **Distractor 2:** Inform the PMO that agile projects are exempt from variance analysis because they don't have fixed baselines.
-- **Distractor 3:** Create a fake "baseline" based on the final results so that the variance report shows a 0% deviation.
+- <strong>Correct:</strong> Translate the team's velocity and burndown data into a summary of planned vs. actual value delivered for the final report.
+- <strong>Distractor 1:</strong> Retroactively calculate EVM metrics (CPI, SPI) for every sprint to match the organization's standard report format.
+- <strong>Distractor 2:</strong> Inform the PMO that agile projects are exempt from variance analysis because they don't have fixed baselines.
+- <strong>Distractor 3:</strong> Create a fake "baseline" based on the final results so that the variance report shows a 0% deviation.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1095,18 +1095,18 @@ How should the project manager fulfill the organization's requirement?
 
 ### Question 37
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Predictive
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During the final project meeting, the project sponsor expresses disappointment that a specific feature was not included, even though it was formally descoped and signed off on six months ago via a change request.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager handle the sponsor's disappointment?
 
-- **Correct:** Politely refer to the approved change request and the final scope statement to show when and why the feature was removed.
-- **Distractor 1:** Apologize for the omission and offer to start a new project immediately to add the feature for the sponsor.
-- **Distractor 2:** Blame the steering committee for forcing the descope and suggest the sponsor speak with them.
-- **Distractor 3:** Re-open the project closure and bring the team back for two weeks to quickly implement the missing feature.
+- <strong>Correct:</strong> Politely refer to the approved change request and the final scope statement to show when and why the feature was removed.
+- <strong>Distractor 1:</strong> Apologize for the omission and offer to start a new project immediately to add the feature for the sponsor.
+- <strong>Distractor 2:</strong> Blame the steering committee for forcing the descope and suggest the sponsor speak with them.
+- <strong>Distractor 3:</strong> Re-open the project closure and bring the team back for two weeks to quickly implement the missing feature.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1124,18 +1124,18 @@ How should the project manager handle the sponsor's disappointment?
 
 ### Question 38
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Hybrid
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is closing a project that had a significant number of "Near Miss" safety incidents during the predictive construction phase. The hybrid software team had no incidents.
 
-**Question:**
+<strong>Question:</strong>
 How should this be documented in the Final Project Report?
 
-- **Correct:** Report the total incident rate and include a detailed analysis of the construction safety trends and the corrective actions taken.
-- **Distractor 1:** Only report the software team's safety record to make the overall project performance look better for the organization.
-- **Distractor 2:** Combine the safety records into a single "project average" to dilute the impact of the construction phase's near misses.
-- **Distractor 3:** List the near misses as "Lessons Learned" but exclude them from the official final performance metrics to avoid an audit.
+- <strong>Correct:</strong> Report the total incident rate and include a detailed analysis of the construction safety trends and the corrective actions taken.
+- <strong>Distractor 1:</strong> Only report the software team's safety record to make the overall project performance look better for the organization.
+- <strong>Distractor 2:</strong> Combine the safety records into a single "project average" to dilute the impact of the construction phase's near misses.
+- <strong>Distractor 3:</strong> List the near misses as "Lessons Learned" but exclude them from the official final performance metrics to avoid an audit.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1153,18 +1153,18 @@ How should this be documented in the Final Project Report?
 
 ### Question 39
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project is being closed. The organization's PMO requires a "Final Quality Audit" report. The team has been using automated testing and peer code reviews for every user story.
 
-**Question:**
+<strong>Question:</strong>
 What should be the primary content of the Final Quality Audit for this project?
 
-- **Correct:** A summary of the automated test coverage, the final defect density, and the team's adherence to their "Definition of Done."
-- **Distractor 1:** A manual re-testing of 10% of the user stories to verify that the automated tests were actually working.
-- **Distractor 2:** A list of every single bug that was found and fixed during the entire project lifecycle.
-- **Distractor 3:** A signed statement from the Product Owner that the quality of the product was "satisfactory."
+- <strong>Correct:</strong> A summary of the automated test coverage, the final defect density, and the team's adherence to their "Definition of Done."
+- <strong>Distractor 1:</strong> A manual re-testing of 10% of the user stories to verify that the automated tests were actually working.
+- <strong>Distractor 2:</strong> A list of every single bug that was found and fixed during the entire project lifecycle.
+- <strong>Distractor 3:</strong> A signed statement from the Product Owner that the quality of the product was "satisfactory."
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1182,18 +1182,18 @@ What should be the primary content of the Final Quality Audit for this project?
 
 ### Question 40
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Hybrid
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is closing a project where the relationship between the vendor and the project team became extremely adversarial during the final phase. The vendor's work was correct, but the cooperation was non-existent.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager handle the vendor's final performance evaluation?
 
-- **Correct:** Provide an objective evaluation that notes the technical quality was met but explicitly documents the failures in communication and collaboration.
-- **Distractor 1:** Give the vendor a "fail" rating for everything to ensure they are never hired by the organization again.
-- **Distractor 2:** Give the vendor a "perfect" rating to avoid a potential lawsuit or further conflict during the closure process.
-- **Distractor 3:** Skip the vendor evaluation entirely to avoid having to interact with the vendor one last time.
+- <strong>Correct:</strong> Provide an objective evaluation that notes the technical quality was met but explicitly documents the failures in communication and collaboration.
+- <strong>Distractor 1:</strong> Give the vendor a "fail" rating for everything to ensure they are never hired by the organization again.
+- <strong>Distractor 2:</strong> Give the vendor a "perfect" rating to avoid a potential lawsuit or further conflict during the closure process.
+- <strong>Distractor 3:</strong> Skip the vendor evaluation entirely to avoid having to interact with the vendor one last time.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1211,18 +1211,18 @@ How should the project manager handle the vendor's final performance evaluation?
 
 ### Question 41
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is closing its project. The team members suggest that instead of a traditional lessons learned register, they should create a series of "Quick Start" videos for future teams.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager (or Delivery Lead) respond to this?
 
-- **Correct:** Support the idea as an innovative way to transfer knowledge, provided the videos are properly indexed and stored in the OPA library.
-- **Distractor 1:** Reject the idea and insist on a standard written register, as videos are not an official project artifact in the PMBOK.
-- **Distractor 2:** Allow the videos but tell the team they must also write a 200-page manual to satisfy the auditors.
-- **Distractor 3:** Suggest that the team post the videos on a public social media platform to help the wider agile community.
+- <strong>Correct:</strong> Support the idea as an innovative way to transfer knowledge, provided the videos are properly indexed and stored in the OPA library.
+- <strong>Distractor 1:</strong> Reject the idea and insist on a standard written register, as videos are not an official project artifact in the PMBOK.
+- <strong>Distractor 2:</strong> Allow the videos but tell the team they must also write a 200-page manual to satisfy the auditors.
+- <strong>Distractor 3:</strong> Suggest that the team post the videos on a public social media platform to help the wider agile community.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1240,18 +1240,18 @@ How should the project manager (or Delivery Lead) respond to this?
 
 ### Question 42
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Predictive
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is closing a project in a highly regulated industry. They find that some of the final signatures on the quality reports are electronic but the organization's current policy only officially recognizes "wet" (ink) signatures.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do?
 
-- **Correct:** Follow the organization's current policy and obtain wet signatures, while simultaneously recommending a policy update for future projects.
-- **Distractor 1:** Proceed with the electronic signatures, as "wet" signatures are obsolete in the modern business environment.
-- **Distractor 2:** Ask the legal department to sign a waiver for this project only so the closure can be finished on time.
-- **Distractor 3:** Use a digital image of a wet signature and paste it onto the documents to satisfy the policy requirement.
+- <strong>Correct:</strong> Follow the organization's current policy and obtain wet signatures, while simultaneously recommending a policy update for future projects.
+- <strong>Distractor 1:</strong> Proceed with the electronic signatures, as "wet" signatures are obsolete in the modern business environment.
+- <strong>Distractor 2:</strong> Ask the legal department to sign a waiver for this project only so the closure can be finished on time.
+- <strong>Distractor 3:</strong> Use a digital image of a wet signature and paste it onto the documents to satisfy the policy requirement.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1269,18 +1269,18 @@ What should the project manager do?
 
 ### Question 43
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project is being closed, and the Project Manager needs to report the "Final Return on Investment (ROI)." The product is live, but it has only been generating revenue for two weeks.
 
-**Question:**
+<strong>Question:</strong>
 How should the PM report the ROI at closure?
 
-- **Correct:** Report the projected ROI based on the first two weeks of data and the business case assumptions, and hand off the tracking to the Product Owner.
-- **Distractor 1:** Wait another six months to close the project so that the actual ROI can be calculated with more data.
-- **Distractor 2:** State that the ROI is currently 100% since all the development costs have already been spent and the revenue is just starting.
-- **Distractor 3:** Leave the ROI section blank because it's impossible to calculate accurately at the time of project closure.
+- <strong>Correct:</strong> Report the projected ROI based on the first two weeks of data and the business case assumptions, and hand off the tracking to the Product Owner.
+- <strong>Distractor 1:</strong> Wait another six months to close the project so that the actual ROI can be calculated with more data.
+- <strong>Distractor 2:</strong> State that the ROI is currently 100% since all the development costs have already been spent and the revenue is just starting.
+- <strong>Distractor 3:</strong> Leave the ROI section blank because it's impossible to calculate accurately at the time of project closure.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1298,18 +1298,18 @@ How should the PM report the ROI at closure?
 
 ### Question 44
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Hybrid
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is closing a hybrid project. The agile team used a third-party software library that requires an annual subscription. The predictive infrastructure team used hardware that has a three-year maintenance contract.
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's responsibility regarding these recurring costs during closure?
 
-- **Correct:** Identify all recurring costs and formally transition the ownership and budget responsibility for these contracts to the operations department.
-- **Distractor 1:** Use the remaining project budget to pay for the next five years of subscriptions and maintenance to save the operations team money.
-- **Distractor 2:** Cancel the subscriptions and maintenance contracts to ensure the project finishes with a "clean" financial record.
-- **Distractor 3:** Tell the operations manager that they should have planned for these costs in their own departmental budget.
+- <strong>Correct:</strong> Identify all recurring costs and formally transition the ownership and budget responsibility for these contracts to the operations department.
+- <strong>Distractor 1:</strong> Use the remaining project budget to pay for the next five years of subscriptions and maintenance to save the operations team money.
+- <strong>Distractor 2:</strong> Cancel the subscriptions and maintenance contracts to ensure the project finishes with a "clean" financial record.
+- <strong>Distractor 3:</strong> Tell the operations manager that they should have planned for these costs in their own departmental budget.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1327,18 +1327,18 @@ What is the project manager's responsibility regarding these recurring costs dur
 
 ### Question 45
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project is closing, and the team is writing the final report. One team member suggests that the "Final Report" is a waste of time and that the "Product" speaks for itself.
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager explain the value of the Final Report?
 
-- **Correct:** It provides a historical summary of the project's performance, objectives, and success for stakeholders who were not involved in the day-to-day sprints.
-- **Distractor 1:** It is a mandatory requirement from the PMO that must be completed to get the project manager's final bonus.
-- **Distractor 2:** It serves as a legal document that protects the team members from being sued if the product fails in the future.
-- **Distractor 3:** It is the only place where the project's final velocity is officially recorded for the organization's records.
+- <strong>Correct:</strong> It provides a historical summary of the project's performance, objectives, and success for stakeholders who were not involved in the day-to-day sprints.
+- <strong>Distractor 1:</strong> It is a mandatory requirement from the PMO that must be completed to get the project manager's final bonus.
+- <strong>Distractor 2:</strong> It serves as a legal document that protects the team members from being sued if the product fails in the future.
+- <strong>Distractor 3:</strong> It is the only place where the project's final velocity is officially recorded for the organization's records.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1356,18 +1356,18 @@ How should the Project Manager explain the value of the Final Report?
 
 ### Question 46
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Predictive
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is closing a project and finds that one of the risks identified in the risk register is still "Open" because the event never occurred.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do with this risk?
 
-- **Correct:** Close the risk in the risk register and document in the final report that the risk was successfully mitigated or simply did not materialize.
-- **Distractor 1:** Transfer the risk to the operations department so they can continue to monitor it for the next five years.
-- **Distractor 2:** Delete the risk from the register to show that the project had a lower risk profile than originally thought.
-- **Distractor 3:** Leave it open in the register so that future project managers can see that it was a real concern.
+- <strong>Correct:</strong> Close the risk in the risk register and document in the final report that the risk was successfully mitigated or simply did not materialize.
+- <strong>Distractor 1:</strong> Transfer the risk to the operations department so they can continue to monitor it for the next five years.
+- <strong>Distractor 2:</strong> Delete the risk from the register to show that the project had a lower risk profile than originally thought.
+- <strong>Distractor 3:</strong> Leave it open in the register so that future project managers can see that it was a real concern.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1385,18 +1385,18 @@ What should the project manager do with this risk?
 
 ### Question 47
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is conducting a final retrospective. They realize that they used a new collaboration tool that significantly increased their productivity, but this tool is not on the organization's "Approved" list.
 
-**Question:**
+<strong>Question:</strong>
 How should this be handled at closure?
 
-- **Correct:** Document the productivity benefits of the tool in the lessons learned and recommend that the PMO evaluate it for organization-wide approval.
-- **Distractor 1:** Hide the use of the tool from the final report to avoid getting the team in trouble for using unapproved software.
-- **Distractor 2:** Uninstall the tool from all computers and pretend it was never used to ensure the final audit passes.
-- **Distractor 3:** Demand that the PMO approve the tool immediately because the team's success proves it is better than the current standards.
+- <strong>Correct:</strong> Document the productivity benefits of the tool in the lessons learned and recommend that the PMO evaluate it for organization-wide approval.
+- <strong>Distractor 1:</strong> Hide the use of the tool from the final report to avoid getting the team in trouble for using unapproved software.
+- <strong>Distractor 2:</strong> Uninstall the tool from all computers and pretend it was never used to ensure the final audit passes.
+- <strong>Distractor 3:</strong> Demand that the PMO approve the tool immediately because the team's success proves it is better than the current standards.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1414,18 +1414,18 @@ How should this be handled at closure?
 
 ### Question 48
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Hybrid
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is closing a project that had a significant amount of "Knowledge Work" that is difficult to document. The team suggests that the best way to transfer knowledge is to have two team members stay with the operations team for a month.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager handle this?
 
-- **Correct:** Review the budget and resource plan to see if a "transitional support period" can be funded and authorized before closure.
-- **Distractor 1:** Tell the team members they must volunteer their own time to help the operations team after their official project contract ends.
-- **Distractor 2:** Reject the idea because "people transfer" is not a standard part of the project closure process in the organization's handbook.
-- **Distractor 3:** Simply allow the team members to stay with operations and don't tell their new project managers where they are.
+- <strong>Correct:</strong> Review the budget and resource plan to see if a "transitional support period" can be funded and authorized before closure.
+- <strong>Distractor 1:</strong> Tell the team members they must volunteer their own time to help the operations team after their official project contract ends.
+- <strong>Distractor 2:</strong> Reject the idea because "people transfer" is not a standard part of the project closure process in the organization's handbook.
+- <strong>Distractor 3:</strong> Simply allow the team members to stay with operations and don't tell their new project managers where they are.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1443,18 +1443,18 @@ How should the project manager handle this?
 
 ### Question 49
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Agile
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 At the end of an agile project, the Product Owner wants to keep a small "core team" together to work on minor bug fixes and small enhancements for the next six months.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager's response be?
 
-- **Correct:** Explain that this work is "Maintenance" or "Business as Usual" and should be managed by a different organizational structure, not as a continuation of the project.
-- **Distractor 1:** Agree to the request and keep the project "Open" for another six months to accommodate the small enhancements.
-- **Distractor 2:** Tell the Product Owner that they should just hire the team members as personal consultants to bypass the project closure process.
-- **Distractor 3:** Suggest that the team members continue working on the product in their spare time while they are assigned to other projects.
+- <strong>Correct:</strong> Explain that this work is "Maintenance" or "Business as Usual" and should be managed by a different organizational structure, not as a continuation of the project.
+- <strong>Distractor 1:</strong> Agree to the request and keep the project "Open" for another six months to accommodate the small enhancements.
+- <strong>Distractor 2:</strong> Tell the Product Owner that they should just hire the team members as personal consultants to bypass the project closure process.
+- <strong>Distractor 3:</strong> Suggest that the team members continue working on the product in their spare time while they are assigned to other projects.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1472,18 +1472,18 @@ What should the Project Manager's response be?
 
 ### Question 50
 
-**Enabler:** Conclude activities to close the project | **Methodology:** Predictive
+<strong>Enabler:</strong> Conclude activities to close the project | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is holding the final project "Post-Mortem" or celebration. The project was technically a failure—it was canceled early and didn't deliver the main objective. The team is very demotivated.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST professional way for the PM to conduct this final session?
 
-- **Correct:** Focus the session on the value of the lessons learned and the professional growth the team members achieved, despite the project's cancellation.
-- **Distractor 1:** Cancel the celebration and the session because there is nothing to celebrate and the team is too upset.
-- **Distractor 2:** Use the session to identify the "failure points" and assign responsibility to the specific people or departments that caused the cancellation.
-- **Distractor 3:** Tell the team that the failure was not their fault and that the organization's leadership is to blame for the poor strategy.
+- <strong>Correct:</strong> Focus the session on the value of the lessons learned and the professional growth the team members achieved, despite the project's cancellation.
+- <strong>Distractor 1:</strong> Cancel the celebration and the session because there is nothing to celebrate and the team is too upset.
+- <strong>Distractor 2:</strong> Use the session to identify the "failure points" and assign responsibility to the specific people or departments that caused the cancellation.
+- <strong>Distractor 3:</strong> Tell the team that the failure was not their fault and that the organization's leadership is to blame for the poor strategy.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1501,14 +1501,14 @@ What is the MOST professional way for the PM to conduct this final session?
 
 ##  Database Stats
 
-- **Total Questions:** 50
-- **Correct Answer Length Average:** 18 words
-- **Distractor Length Average:** 19 words
-- **Methodology Split:**
-  - **Predictive:** 40% (20 questions)
-  - **Agile:** 36% (18 questions)
-  - **Hybrid:** 24% (12 questions)
-- **Action Split:**
+- <strong>Total Questions:</strong> 50
+- <strong>Correct Answer Length Average:</strong> 18 words
+- <strong>Distractor Length Average:</strong> 19 words
+- <strong>Methodology Split:</strong>
+  - <strong>Predictive:</strong> 40% (20 questions)
+  - <strong>Agile:</strong> 36% (18 questions)
+  - <strong>Hybrid:</strong> 24% (12 questions)
+- <strong>Action Split:</strong>
   - **Analyze/Assess:** 52% (26 questions)
   - **Execute/Implement:** 48% (24 questions)
 
@@ -1516,9 +1516,9 @@ What is the MOST professional way for the PM to conduct this final session?
 
 ##  Key Takeaways: Closure Pro-Tips
 
-1. **Closure is Mandatory:** Even if a project is canceled or terminated early, you must perform administrative closure (archive records, harvest lessons, close contracts).
-2. **Acceptance is Objective:** Refer to the documented **Acceptance Criteria** and **Definition of Done** when stakeholders refuse sign-off. If the criteria are met, they are contractually obligated to accept.
-3. **Value Transfer:** The Project Manager's role ends at handoff, but they must ensure **Benefits Handoff** is complete by assigning ownership of post-project metrics tracking to the business or operations.
-4. **No Open Claims:** You cannot "cleanly" close procurements with open claims. They must be resolved or formally transferred to a permanent department (Legal/Finance).
-5. **OPAs are the Legacy:** The most valuable output of closure for the organization is the **Lessons Learned Register**. Store it in a searchable, accessible repository (OPA library).
-6. **Release with Respect:** Formal resource release includes providing performance feedback to functional managers and recognizing the team's effort, which reinforces organizational culture.
+1. <strong>Closure is Mandatory:</strong> Even if a project is canceled or terminated early, you must perform administrative closure (archive records, harvest lessons, close contracts).
+2. <strong>Acceptance is Objective:</strong> Refer to the documented **Acceptance Criteria** and **Definition of Done** when stakeholders refuse sign-off. If the criteria are met, they are contractually obligated to accept.
+3. <strong>Value Transfer:</strong> The Project Manager's role ends at handoff, but they must ensure **Benefits Handoff** is complete by assigning ownership of post-project metrics tracking to the business or operations.
+4. <strong>No Open Claims:</strong> You cannot "cleanly" close procurements with open claims. They must be resolved or formally transferred to a permanent department (Legal/Finance).
+5. <strong>OPAs are the Legacy:</strong> The most valuable output of closure for the organization is the **Lessons Learned Register**. Store it in a searchable, accessible repository (OPA library).
+6. <strong>Release with Respect:</strong> Formal resource release includes providing performance feedback to functional managers and recognizing the team's effort, which reinforces organizational culture.

@@ -35,18 +35,18 @@ th, td {
 
 ### Question 1
 
-**Enabler:** Select preferred contract types | **Methodology:** Predictive
+<strong>Enabler:</strong> Select preferred contract types | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is working on a construction project with a very well-defined scope and blueprints that have been fully approved by the city council. The organization wants to minimize the cost risk to the buyer while ensuring the vendor has a high incentive to complete the work efficiently. Market conditions are stable, and the project is expected to last six months.
 
-**Question:**
+<strong>Question:</strong>
 Which contract type is MOST appropriate for this situation?
 
-- **Correct:** Firm Fixed Price (FFP)
-- **Distractor 1:** Cost Plus Fixed Fee (CPFF)
-- **Distractor 2:** Time and Materials (T&M)
-- **Distractor 3:** Fixed Price Incentive Fee (FPIF)
+- <strong>Correct:</strong> Firm Fixed Price (FFP)
+- <strong>Distractor 1:</strong> Cost Plus Fixed Fee (CPFF)
+- <strong>Distractor 2:</strong> Time and Materials (T&M)
+- <strong>Distractor 3:</strong> Fixed Price Incentive Fee (FPIF)
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -64,18 +64,18 @@ Which contract type is MOST appropriate for this situation?
 
 ### Question 2
 
-**Enabler:** Manage suppliers and contracts | **Methodology:** Agile
+<strong>Enabler:</strong> Manage suppliers and contracts | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An Agile team is relying on an external vendor to provide a specialized API for a payment processing module. During the current sprint, the vendor notifies the Scrum Master that their latest deployment has a bug that will prevent the team from completing their committed stories. The vendor estimates it will take three days to fix, which will push the work into the next sprint.
 
-**Question:**
+<strong>Question:</strong>
 How should the Scrum Master handle this situation?
 
-- **Correct:** Facilitate a discussion between the team and the vendor to identify a workaround or mock service to continue development.
-- **Distractor 1:** Escalate the issue to the procurement department to issue a formal claim against the vendor.
-- **Distractor 2:** Cancel the sprint and restart planning since the committed goals cannot be met.
-- **Distractor 3:** Instruct the team to work overtime once the vendor fix is released to catch up on the schedule.
+- <strong>Correct:</strong> Facilitate a discussion between the team and the vendor to identify a workaround or mock service to continue development.
+- <strong>Distractor 1:</strong> Escalate the issue to the procurement department to issue a formal claim against the vendor.
+- <strong>Distractor 2:</strong> Cancel the sprint and restart planning since the committed goals cannot be met.
+- <strong>Distractor 3:</strong> Instruct the team to work overtime once the vendor fix is released to catch up on the schedule.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -93,18 +93,18 @@ How should the Scrum Master handle this situation?
 
 ### Question 3
 
-**Enabler:** Execute a procurement management plan | **Methodology:** Hybrid
+<strong>Enabler:</strong> Execute a procurement management plan | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager for a large infrastructure project is conducting a bidder conference. After the general session, one of the prospective sellers approaches the project manager privately and asks for clarification on the specific technical requirements for the security system, which were not fully detailed in the Request for Proposal (RFP).
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's MOST appropriate response?
 
-- **Correct:** Inform the seller that the question must be submitted in writing so the answer can be shared with all prospective bidders.
-- **Distractor 1:** Provide the detailed technical information to the seller immediately to avoid delaying their proposal.
-- **Distractor 2:** Schedule a private follow-up meeting with only this seller to discuss the requirements in more detail.
-- **Distractor 3:** Tell the seller that the information is proprietary and cannot be shared during the bidding phase.
+- <strong>Correct:</strong> Inform the seller that the question must be submitted in writing so the answer can be shared with all prospective bidders.
+- <strong>Distractor 1:</strong> Provide the detailed technical information to the seller immediately to avoid delaying their proposal.
+- <strong>Distractor 2:</strong> Schedule a private follow-up meeting with only this seller to discuss the requirements in more detail.
+- <strong>Distractor 3:</strong> Tell the seller that the information is proprietary and cannot be shared during the bidding phase.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -122,18 +122,18 @@ What is the project manager's MOST appropriate response?
 
 ### Question 4
 
-**Enabler:** Plan and manage the procurement strategy | **Methodology:** Predictive
+<strong>Enabler:</strong> Plan and manage the procurement strategy | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A company is developing a new prototype for a research-heavy project where the scope is highly experimental and likely to change as discoveries are made. The project manager needs to hire a specialized lab to conduct the tests. The organization wants to ensure they don't overpay but recognizes that the vendor cannot accurately estimate the final cost due to the experimental nature of the work.
 
-**Question:**
+<strong>Question:</strong>
 Which contract type would be the BEST fit for this engagement?
 
-- **Correct:** Cost Plus Fixed Fee (CPFF)
-- **Distractor 1:** Firm Fixed Price (FFP)
-- **Distractor 2:** Fixed Price Incentive Fee (FPIF)
-- **Distractor 3:** Time and Materials (T&M) without a ceiling
+- <strong>Correct:</strong> Cost Plus Fixed Fee (CPFF)
+- <strong>Distractor 1:</strong> Firm Fixed Price (FFP)
+- <strong>Distractor 2:</strong> Fixed Price Incentive Fee (FPIF)
+- <strong>Distractor 3:</strong> Time and Materials (T&M) without a ceiling
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -151,18 +151,18 @@ Which contract type would be the BEST fit for this engagement?
 
 ### Question 5
 
-**Enabler:** Evaluate vendor performance | **Methodology:** Agile
+<strong>Enabler:</strong> Evaluate vendor performance | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An Agile project uses a third-party vendor to develop a specific component of the product. At the end of several iterations, the vendor has consistently delivered code that meets the definition of done but often requires significant rework by the internal team to integrate. The vendor claims they are following the specifications provided at the start of each sprint.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST action the project manager should take?
 
-- **Correct:** Invite the vendor to the next retrospective to discuss integration issues and improve the collaborative process.
-- **Distractor 1:** Update the contract to include financial penalties for integration failures.
-- **Distractor 2:** Assign an internal developer to rewrite the vendor's code during each sprint.
-- **Distractor 3:** Terminate the contract for convenience and look for a new vendor.
+- <strong>Correct:</strong> Invite the vendor to the next retrospective to discuss integration issues and improve the collaborative process.
+- <strong>Distractor 1:</strong> Update the contract to include financial penalties for integration failures.
+- <strong>Distractor 2:</strong> Assign an internal developer to rewrite the vendor's code during each sprint.
+- <strong>Distractor 3:</strong> Terminate the contract for convenience and look for a new vendor.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -180,18 +180,18 @@ What is the FIRST action the project manager should take?
 
 ### Question 6
 
-**Enabler:** Plan procurement | **Methodology:** Hybrid
+<strong>Enabler:</strong> Plan procurement | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team is deciding whether to build a custom data encryption module internally or purchase a commercial off-the-shelf (COTS) solution. The internal team has the skills, but they are currently fully allocated to core product features. The COTS solution is expensive upfront but offers immediate deployment and ongoing security updates.
 
-**Question:**
+<strong>Question:</strong>
 What tool or technique should the project manager use to make this decision?
 
-- **Correct:** Make-or-buy analysis
-- **Distractor 1:** Source selection criteria
-- **Distractor 2:** Bidder conferences
-- **Distractor 3:** Resource leveling
+- <strong>Correct:</strong> Make-or-buy analysis
+- <strong>Distractor 1:</strong> Source selection criteria
+- <strong>Distractor 2:</strong> Bidder conferences
+- <strong>Distractor 3:</strong> Resource leveling
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -209,18 +209,18 @@ What tool or technique should the project manager use to make this decision?
 
 ### Question 7
 
-**Enabler:** Determine a negotiation strategy | **Methodology:** Predictive
+<strong>Enabler:</strong> Determine a negotiation strategy | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During contract negotiations with a preferred vendor, the vendor insists on a higher price than the project budget allows, citing rising material costs. The project manager knows this vendor has the best quality track record and is the only one who can meet the aggressive schedule.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST negotiation strategy for the project manager to employ?
 
-- **Correct:** Explore trading a longer-term partnership or flexible payment terms for a lower upfront price to create a win-win outcome.
-- **Distractor 1:** Threaten to go to the second-choice vendor unless they immediately match the project budget.
-- **Distractor 2:** Accept the higher price and cut the project's quality testing budget to compensate.
-- **Distractor 3:** Demand that the vendor absorb the material cost increases as part of their cost of doing business.
+- <strong>Correct:</strong> Explore trading a longer-term partnership or flexible payment terms for a lower upfront price to create a win-win outcome.
+- <strong>Distractor 1:</strong> Threaten to go to the second-choice vendor unless they immediately match the project budget.
+- <strong>Distractor 2:</strong> Accept the higher price and cut the project's quality testing budget to compensate.
+- <strong>Distractor 3:</strong> Demand that the vendor absorb the material cost increases as part of their cost of doing business.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -238,18 +238,18 @@ What is the BEST negotiation strategy for the project manager to employ?
 
 ### Question 8
 
-**Enabler:** Verify objectives of the procurement agreement are met | **Methodology:** Agile
+<strong>Enabler:</strong> Verify objectives of the procurement agreement are met | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a contract for a digital transformation project. The vendor is working in two-week cycles and delivering increments of functionality. The project manager wants to ensure that the vendor's work is not only technically correct but also aligns with the business value goals defined in the initial procurement strategy.
 
-**Question:**
+<strong>Question:</strong>
 Which action will BEST help the project manager verify these objectives throughout the project?
 
-- **Correct:** Review the vendor's deliverables against the acceptance criteria during every sprint review.
-- **Distractor 1:** Wait until the end of the contract to perform a comprehensive final audit of all deliverables.
-- **Distractor 2:** Rely solely on the vendor's status reports to confirm that value is being delivered.
-- **Distractor 3:** Hire a fourth-party auditor to conduct monthly secret inspections of the vendor's workspace.
+- <strong>Correct:</strong> Review the vendor's deliverables against the acceptance criteria during every sprint review.
+- <strong>Distractor 1:</strong> Wait until the end of the contract to perform a comprehensive final audit of all deliverables.
+- <strong>Distractor 2:</strong> Rely solely on the vendor's status reports to confirm that value is being delivered.
+- <strong>Distractor 3:</strong> Hire a fourth-party auditor to conduct monthly secret inspections of the vendor's workspace.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -267,18 +267,18 @@ Which action will BEST help the project manager verify these objectives througho
 
 ### Question 10
 
-**Enabler:** Develop a delivery solution | **Methodology:** Hybrid
+<strong>Enabler:</strong> Develop a delivery solution | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 An organization is launching a high-priority software project. The internal IT department can handle the database and backend, but they lack the expertise for the modern front-end framework required by the client. The project manager decides to use a "pod" model where an external specialized agency will provide the front-end team to work alongside the internal developers.
 
-**Question:**
+<strong>Question:</strong>
 Which procurement document is MOST critical for ensuring this hybrid delivery solution works effectively?
 
-- **Correct:** A clear Procurement Statement of Work (SOW) that defines the interface and integration responsibilities.
-- **Distractor 1:** A Request for Information (RFI) to see which agencies are available in the market.
-- **Distractor 2:** A Firm Fixed Price (FFP) contract to lock in the agency's total cost.
-- **Distractor 3:** A Resource Breakdown Structure (RBS) to list all the developers' names.
+- <strong>Correct:</strong> A clear Procurement Statement of Work (SOW) that defines the interface and integration responsibilities.
+- <strong>Distractor 1:</strong> A Request for Information (RFI) to see which agencies are available in the market.
+- <strong>Distractor 2:</strong> A Firm Fixed Price (FFP) contract to lock in the agency's total cost.
+- <strong>Distractor 3:</strong> A Resource Breakdown Structure (RBS) to list all the developers' names.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -296,18 +296,18 @@ Which procurement document is MOST critical for ensuring this hybrid delivery so
 
 ### Question 11
 
-**Enabler:** Plan procurement | **Methodology:** Predictive
+<strong>Enabler:</strong> Plan procurement | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is preparing a Request for Proposal (RFP) for a multi-million dollar engineering project. The selection of the vendor is critical, and the project manager wants to ensure that the evaluation process is objective and that the vendor's technical capability is prioritized over the lowest price.
 
-**Question:**
+<strong>Question:</strong>
 Which tool or technique should the project manager include in the procurement management plan to achieve this?
 
-- **Correct:** Weighted scoring system in the source selection criteria.
-- **Distractor 1:** Least-cost selection method.
-- **Distractor 2:** Sole-source procurement strategy.
-- **Distractor 3:** Independent cost estimates.
+- <strong>Correct:</strong> Weighted scoring system in the source selection criteria.
+- <strong>Distractor 1:</strong> Least-cost selection method.
+- <strong>Distractor 2:</strong> Sole-source procurement strategy.
+- <strong>Distractor 3:</strong> Independent cost estimates.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -325,18 +325,18 @@ Which tool or technique should the project manager include in the procurement ma
 
 ### Question 12
 
-**Enabler:** Execute a procurement management plan | **Methodology:** Hybrid
+<strong>Enabler:</strong> Execute a procurement management plan | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 During the evaluation of seller proposals, the project manager notices that one vendor's price is 50% lower than all other bidders and significantly lower than the organization's independent cost estimate. The vendor's technical proposal is strong and meets all requirements.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate action for the project manager to take?
 
-- **Correct:** Contact the vendor to clarify their understanding of the scope and ensure they haven't missed a major requirement.
-- **Distractor 1:** Immediately award the contract to the vendor to take advantage of the significant cost savings.
-- **Distractor 2:** Disqualify the vendor immediately for submitting an "unrealistic" bid that indicates a lack of capability.
-- **Distractor 3:** Share the independent cost estimate with the vendor and ask them to increase their price to match it.
+- <strong>Correct:</strong> Contact the vendor to clarify their understanding of the scope and ensure they haven't missed a major requirement.
+- <strong>Distractor 1:</strong> Immediately award the contract to the vendor to take advantage of the significant cost savings.
+- <strong>Distractor 2:</strong> Disqualify the vendor immediately for submitting an "unrealistic" bid that indicates a lack of capability.
+- <strong>Distractor 3:</strong> Share the independent cost estimate with the vendor and ask them to increase their price to match it.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -354,18 +354,18 @@ What is the MOST appropriate action for the project manager to take?
 
 ### Question 13
 
-**Enabler:** Select preferred contract types | **Methodology:** Predictive
+<strong>Enabler:</strong> Select preferred contract types | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project is planned to last four years and involves a significant amount of specialized steel. The global market for steel is currently volatile, and prices are expected to fluctuate significantly over the project duration. The project manager wants to use a fixed-price contract to lock in the vendor but recognizes that a standard firm-fixed-price contract might be too risky for the seller.
 
-**Question:**
+<strong>Question:</strong>
 Which contract type is BEST suited for this multi-year project?
 
-- **Correct:** Fixed Price with Economic Price Adjustment (FP-EPA)
-- **Distractor 1:** Firm Fixed Price (FFP)
-- **Distractor 2:** Fixed Price Incentive Fee (FPIF)
-- **Distractor 3:** Cost Plus Incentive Fee (CPIF)
+- <strong>Correct:</strong> Fixed Price with Economic Price Adjustment (FP-EPA)
+- <strong>Distractor 1:</strong> Firm Fixed Price (FFP)
+- <strong>Distractor 2:</strong> Fixed Price Incentive Fee (FPIF)
+- <strong>Distractor 3:</strong> Cost Plus Incentive Fee (CPIF)
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -383,18 +383,18 @@ Which contract type is BEST suited for this multi-year project?
 
 ### Question 14
 
-**Enabler:** Evaluate vendor performance | **Methodology:** Agile
+<strong>Enabler:</strong> Evaluate vendor performance | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An Agile project team is using a third-party SaaS provider for their development environment. Over the last three sprints, the environment has experienced intermittent downtime, impacting the team's velocity. The vendor's status dashboard consistently shows "Green" (all systems operational).
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to evaluate the vendor's actual performance?
 
-- **Correct:** Conduct a performance audit against the Service Level Agreements (SLAs) defined in the contract.
-- **Distractor 1:** Rely on the vendor's status dashboard as the official record of performance.
-- **Distractor 2:** Terminate the contract immediately and move to a different provider.
-- **Distractor 3:** Ask the developers to work at night when the environment is more stable.
+- <strong>Correct:</strong> Conduct a performance audit against the Service Level Agreements (SLAs) defined in the contract.
+- <strong>Distractor 1:</strong> Rely on the vendor's status dashboard as the official record of performance.
+- <strong>Distractor 2:</strong> Terminate the contract immediately and move to a different provider.
+- <strong>Distractor 3:</strong> Ask the developers to work at night when the environment is more stable.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -412,18 +412,18 @@ What should the project manager do to evaluate the vendor's actual performance?
 
 ### Question 15
 
-**Enabler:** Verify objectives of the procurement agreement are met | **Methodology:** Hybrid
+<strong>Enabler:</strong> Verify objectives of the procurement agreement are met | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing the final delivery of a custom-built piece of laboratory equipment. The equipment arrived on time, but during initial testing, it failed to reach the required precision levels specified in the Procurement Statement of Work. The vendor claims the equipment was damaged during shipping, which was the buyer's responsibility.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do FIRST?
 
-- **Correct:** Review the "Transfer of Risk" and "Acceptance" clauses in the contract.
-- **Distractor 1:** Refuse to pay the final invoice and return the equipment to the vendor.
-- **Distractor 2:** File an insurance claim for the shipping damage immediately.
-- **Distractor 3:** Pay for the repairs using the project's contingency reserve to avoid delays.
+- <strong>Correct:</strong> Review the "Transfer of Risk" and "Acceptance" clauses in the contract.
+- <strong>Distractor 1:</strong> Refuse to pay the final invoice and return the equipment to the vendor.
+- <strong>Distractor 2:</strong> File an insurance claim for the shipping damage immediately.
+- <strong>Distractor 3:</strong> Pay for the repairs using the project's contingency reserve to avoid delays.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -441,18 +441,18 @@ What should the project manager do FIRST?
 
 ### Question 16
 
-**Enabler:** Participate in agreement negotiations | **Methodology:** Predictive
+<strong>Enabler:</strong> Participate in agreement negotiations | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is invited to participate in the final contract negotiations with a major software vendor. The organization's legal and procurement departments are leading the meeting.
 
-**Question:**
+<strong>Question:</strong>
 What is the PRIMARY role of the project manager in this negotiation session?
 
-- **Correct:** Provide technical expertise and ensure the contract terms support the project's schedule and quality objectives.
-- **Distractor 1:** Lead the negotiation and make the final decision on the contract price.
-- **Distractor 2:** Take detailed meeting minutes and distribute them to the stakeholders.
-- **Distractor 3:** Act as a neutral observer to ensure the legal team doesn't overstep their authority.
+- <strong>Correct:</strong> Provide technical expertise and ensure the contract terms support the project's schedule and quality objectives.
+- <strong>Distractor 1:</strong> Lead the negotiation and make the final decision on the contract price.
+- <strong>Distractor 2:</strong> Take detailed meeting minutes and distribute them to the stakeholders.
+- <strong>Distractor 3:</strong> Act as a neutral observer to ensure the legal team doesn't overstep their authority.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -470,18 +470,18 @@ What is the PRIMARY role of the project manager in this negotiation session?
 
 ### Question 17
 
-**Enabler:** Determine a negotiation strategy | **Methodology:** Hybrid
+<strong>Enabler:</strong> Determine a negotiation strategy | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is negotiating with a vendor for an Agile development contract. The vendor wants a Time and Materials (T&M) contract to handle the uncertain scope, but the organization's CFO insists on a Fixed-Price (FP) contract to manage budget risk. The project manager needs a high-quality outcome and a committed vendor.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST negotiation strategy for the project manager to propose?
 
-- **Correct:** Propose a "Fixed-Price Incremental" contract where each sprint is a fixed-price engagement.
-- **Distractor 1:** Side with the CFO and demand the vendor accept a Firm-Fixed-Price contract for the entire project.
-- **Distractor 2:** Side with the vendor and try to convince the CFO that T&M is the only way for Agile projects.
-- **Distractor 3:** Suggest a hybrid contract where materials are fixed-price but labor is time-based.
+- <strong>Correct:</strong> Propose a "Fixed-Price Incremental" contract where each sprint is a fixed-price engagement.
+- <strong>Distractor 1:</strong> Side with the CFO and demand the vendor accept a Firm-Fixed-Price contract for the entire project.
+- <strong>Distractor 2:</strong> Side with the vendor and try to convince the CFO that T&M is the only way for Agile projects.
+- <strong>Distractor 3:</strong> Suggest a hybrid contract where materials are fixed-price but labor is time-based.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -499,18 +499,18 @@ What is the BEST negotiation strategy for the project manager to propose?
 
 ### Question 18
 
-**Enabler:** Manage suppliers and contracts | **Methodology:** Predictive
+<strong>Enabler:</strong> Manage suppliers and contracts | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A vendor has completed 80% of their work but has stopped responding to emails and missed two consecutive milestones. The project manager has already issued two formal warnings, but there has been no improvement. The project is now at risk of missing its go-live date.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate next step for the project manager?
 
-- **Correct:** Consult with the procurement department to issue a formal "Notice of Default" and begin the contract termination process.
-- **Distractor 1:** Hire a second vendor to finish the work while still paying the first vendor to avoid legal trouble.
-- **Distractor 2:** Go to the vendor's office in person and demand to speak with the CEO.
-- **Distractor 3:** Wait another week to see if the vendor resumes work, as a new vendor would take too long to onboard.
+- <strong>Correct:</strong> Consult with the procurement department to issue a formal "Notice of Default" and begin the contract termination process.
+- <strong>Distractor 1:</strong> Hire a second vendor to finish the work while still paying the first vendor to avoid legal trouble.
+- <strong>Distractor 2:</strong> Go to the vendor's office in person and demand to speak with the CEO.
+- <strong>Distractor 3:</strong> Wait another week to see if the vendor resumes work, as a new vendor would take too long to onboard.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -528,18 +528,18 @@ What is the MOST appropriate next step for the project manager?
 
 ### Question 19
 
-**Enabler:** Plan and manage the procurement strategy | **Methodology:** Hybrid
+<strong>Enabler:</strong> Plan and manage the procurement strategy | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is planning for a new data analytics platform. The technology is rapidly evolving, and there are dozens of potential vendors, each with a different pricing model and technical approach. The project manager isn't yet sure exactly what the final requirements should be.
 
-**Question:**
+<strong>Question:</strong>
 Which procurement document should the project manager use FIRST to help refine the strategy?
 
-- **Correct:** Request for Information (RFI)
-- **Distractor 1:** Request for Proposal (RFP)
-- **Distractor 2:** Request for Quotation (RFQ)
-- **Distractor 3:** Invitation for Bid (IFB)
+- <strong>Correct:</strong> Request for Information (RFI)
+- <strong>Distractor 1:</strong> Request for Proposal (RFP)
+- <strong>Distractor 2:</strong> Request for Quotation (RFQ)
+- <strong>Distractor 3:</strong> Invitation for Bid (IFB)
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -557,18 +557,18 @@ Which procurement document should the project manager use FIRST to help refine t
 
 ### Question 20
 
-**Enabler:** Develop a delivery solution | **Methodology:** Agile
+<strong>Enabler:</strong> Develop a delivery solution | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An Agile project manager is setting up a contract with an offshore development team. The project manager is concerned about the risk of "scope creep" and the potential for a "Us vs. Them" mentality between the local product owner and the offshore team.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way to structure the procurement to mitigate these risks?
 
-- **Correct:** Include the offshore team lead in the initial product visioning and team chartering sessions.
-- **Distractor 1:** Write a highly detailed, 100-page specification document that the offshore team must follow exactly.
-- **Distractor 2:** Use a "Forcing" management style and require daily video status reports with individual developer logs.
-- **Distractor 3:** Implement a strict financial penalty for any story that is not completed within a single sprint.
+- <strong>Correct:</strong> Include the offshore team lead in the initial product visioning and team chartering sessions.
+- <strong>Distractor 1:</strong> Write a highly detailed, 100-page specification document that the offshore team must follow exactly.
+- <strong>Distractor 2:</strong> Use a "Forcing" management style and require daily video status reports with individual developer logs.
+- <strong>Distractor 3:</strong> Implement a strict financial penalty for any story that is not completed within a single sprint.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -586,18 +586,18 @@ What is the BEST way to structure the procurement to mitigate these risks?
 
 ### Question 21
 
-**Enabler:** Plan procurement | **Methodology:** Predictive
+<strong>Enabler:</strong> Plan procurement | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is integrating the procurement management plan with the resource management plan. The project requires a specialized crane that is only available from two vendors in the region. The resource calendar indicates that the crane will be needed during a peak construction period when demand is highest.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST important action for the project manager to take during the planning phase?
 
-- **Correct:** Secure a reservation or letter of intent with a vendor early to ensure physical resource availability.
-- **Distractor 1:** Wait until the execution phase to see if the crane can be sourced at a lower price.
-- **Distractor 2:** Adjust the project schedule to avoid using the crane during the peak period without checking the critical path.
-- **Distractor 3:** Hire more manual laborers to perform the work of the crane in case it is unavailable.
+- <strong>Correct:</strong> Secure a reservation or letter of intent with a vendor early to ensure physical resource availability.
+- <strong>Distractor 1:</strong> Wait until the execution phase to see if the crane can be sourced at a lower price.
+- <strong>Distractor 2:</strong> Adjust the project schedule to avoid using the crane during the peak period without checking the critical path.
+- <strong>Distractor 3:</strong> Hire more manual laborers to perform the work of the crane in case it is unavailable.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -615,18 +615,18 @@ What is the MOST important action for the project manager to take during the pla
 
 ### Question 22
 
-**Enabler:** Execute a procurement management plan | **Methodology:** Hybrid
+<strong>Enabler:</strong> Execute a procurement management plan | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a bidder conference for a government-funded project, several vendors ask for a copy of the internal feasibility study that was used to justify the project. The project manager knows that the study contains sensitive financial data about the organization but also contains detailed technical assumptions that would help the vendors bid more accurately.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager handle this request?
 
-- **Correct:** Redact the sensitive financial data and provide the technical assumptions to all bidders simultaneously.
-- **Distractor 1:** Provide the full study to the largest vendor only, under a non-disclosure agreement.
-- **Distractor 2:** Refuse to share any part of the study to protect organizational secrets.
-- **Distractor 3:** Read the technical assumptions aloud during the conference but do not provide any written documentation.
+- <strong>Correct:</strong> Redact the sensitive financial data and provide the technical assumptions to all bidders simultaneously.
+- <strong>Distractor 1:</strong> Provide the full study to the largest vendor only, under a non-disclosure agreement.
+- <strong>Distractor 2:</strong> Refuse to share any part of the study to protect organizational secrets.
+- <strong>Distractor 3:</strong> Read the technical assumptions aloud during the conference but do not provide any written documentation.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -644,18 +644,18 @@ How should the project manager handle this request?
 
 ### Question 23
 
-**Enabler:** Select preferred contract types | **Methodology:** Predictive
+<strong>Enabler:</strong> Select preferred contract types | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using a Fixed Price Incentive Fee (FPIF) contract. The target cost is $100,000, the target fee is $10,000, and the ceiling price is $120,000. The share ratio is 80/20 (buyer/seller). The seller completes the work with an actual cost of $110,000.
 
-**Question:**
+<strong>Question:</strong>
 What is the final price that the buyer will pay?
 
-- **Correct:** $118,000
-- **Distractor 1:** $120,000
-- **Distractor 2:** $110,000
-- **Distractor 3:** $112,000
+- <strong>Correct:</strong> $118,000
+- <strong>Distractor 1:</strong> $120,000
+- <strong>Distractor 2:</strong> $110,000
+- <strong>Distractor 3:</strong> $112,000
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -673,18 +673,18 @@ What is the final price that the buyer will pay?
 
 ### Question 24
 
-**Enabler:** Evaluate vendor performance | **Methodology:** Agile
+<strong>Enabler:</strong> Evaluate vendor performance | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is working with an external vendor in an Agile project. The vendor's developers are part of the scrum team. During the last three sprints, the vendor's developers have consistently missed their individual commitments, while the internal developers have exceeded theirs. The team's overall velocity is plateauing.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST effective way to address this performance issue?
 
-- **Correct:** Conduct a team performance assessment and discuss the gaps during the next retrospective to foster collective accountability.
-- **Distractor 1:** Request that the vendor replace their developers with more experienced personnel immediately.
-- **Distractor 2:** Adjust the story point estimations to be lower for tasks assigned to vendor developers.
-- **Distractor 3:** Report the individual missed commitments to the vendor's account manager and demand a price reduction.
+- <strong>Correct:</strong> Conduct a team performance assessment and discuss the gaps during the next retrospective to foster collective accountability.
+- <strong>Distractor 1:</strong> Request that the vendor replace their developers with more experienced personnel immediately.
+- <strong>Distractor 2:</strong> Adjust the story point estimations to be lower for tasks assigned to vendor developers.
+- <strong>Distractor 3:</strong> Report the individual missed commitments to the vendor's account manager and demand a price reduction.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -702,18 +702,18 @@ What is the MOST effective way to address this performance issue?
 
 ### Question 25
 
-**Enabler:** Verify objectives of the procurement agreement are met | **Methodology:** Hybrid
+<strong>Enabler:</strong> Verify objectives of the procurement agreement are met | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager has a contract with a vendor to deliver a complex software system in four major milestones. The contract specifies that payment will only be made upon "successful acceptance" of each milestone. The vendor has delivered the first milestone, but it lacks several minor features that were in the original SOW but were later deemed "low priority" in an informal discussion.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do?
 
-- **Correct:** Withhold full payment and require the vendor to submit a formal change request to remove the minor features before acceptance.
-- **Distractor 1:** Pay the vendor in full since the missing features are "low priority" and the main functionality works.
-- **Distractor 2:** Accept the milestone "as is" and subtract the estimated value of the missing features from the final payment at the end of the project.
-- **Distractor 3:** Terminate the contract for breach of scope.
+- <strong>Correct:</strong> Withhold full payment and require the vendor to submit a formal change request to remove the minor features before acceptance.
+- <strong>Distractor 1:</strong> Pay the vendor in full since the missing features are "low priority" and the main functionality works.
+- <strong>Distractor 2:</strong> Accept the milestone "as is" and subtract the estimated value of the missing features from the final payment at the end of the project.
+- <strong>Distractor 3:</strong> Terminate the contract for breach of scope.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -731,18 +731,18 @@ What should the project manager do?
 
 ### Question 26
 
-**Enabler:** Participate in agreement negotiations | **Methodology:** Predictive
+<strong>Enabler:</strong> Participate in agreement negotiations | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is assisting the procurement officer in negotiating a contract for a new security system. The vendor is refusing to agree to a "liquidated damages" clause for schedule delays, claiming their supply chain is too unpredictable. The project manager's sponsor has stated that the go-live date is non-negotiable.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST approach for the project manager to take during the negotiation?
 
-- **Correct:** Propose an alternative "Incentive Fee" for early delivery to balance the risk and motivate the vendor without the penalty clause.
-- **Distractor 1:** Insist on the liquidated damages clause and walk away from the negotiation if the vendor refuses.
-- **Distractor 2:** Agree to remove the clause but secretly build a large buffer into the project schedule without telling the vendor.
-- **Distractor 3:** Tell the vendor that the sponsor's date is non-negotiable and that they must accept all risks to get the contract.
+- <strong>Correct:</strong> Propose an alternative "Incentive Fee" for early delivery to balance the risk and motivate the vendor without the penalty clause.
+- <strong>Distractor 1:</strong> Insist on the liquidated damages clause and walk away from the negotiation if the vendor refuses.
+- <strong>Distractor 2:</strong> Agree to remove the clause but secretly build a large buffer into the project schedule without telling the vendor.
+- <strong>Distractor 3:</strong> Tell the vendor that the sponsor's date is non-negotiable and that they must accept all risks to get the contract.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -760,18 +760,18 @@ What is the BEST approach for the project manager to take during the negotiation
 
 ### Question 27
 
-**Enabler:** Determine a negotiation strategy | **Methodology:** Hybrid
+<strong>Enabler:</strong> Determine a negotiation strategy | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is preparing to negotiate a contract renewal with a key vendor. The project manager has researched the market and knows that there are very few other vendors with the same expertise. However, the project manager also knows that this project represents 40% of the vendor's annual revenue.
 
-**Question:**
+<strong>Question:</strong>
 Which negotiation concept should the project manager focus on to strengthen their position?
 
-- **Correct:** Understanding the vendor's "Best Alternative to a Negotiated Agreement" (BATNA).
-- **Distractor 1:** The Point of Total Assumption (PTA).
-- **Distractor 2:** The project's Cost Performance Index (CPI).
-- **Distractor 3:** The vendor's Resource Breakdown Structure (RBS).
+- <strong>Correct:</strong> Understanding the vendor's "Best Alternative to a Negotiated Agreement" (BATNA).
+- <strong>Distractor 1:</strong> The Point of Total Assumption (PTA).
+- <strong>Distractor 2:</strong> The project's Cost Performance Index (CPI).
+- <strong>Distractor 3:</strong> The vendor's Resource Breakdown Structure (RBS).
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -789,18 +789,18 @@ Which negotiation concept should the project manager focus on to strengthen thei
 
 ### Question 28
 
-**Enabler:** Manage suppliers and contracts | **Methodology:** Agile
+<strong>Enabler:</strong> Manage suppliers and contracts | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 In an Agile project, a vendor provides a specialized development team. The Product Owner wants to add three new high-priority features to the product backlog. The vendor's contract is based on a "Fixed Capacity" model (fixed price per sprint for a set number of developers).
 
-**Question:**
+<strong>Question:</strong>
 How should the change in scope be managed?
 
-- **Correct:** The Product Owner should prioritize the new features in the backlog; the team will address them in future sprints based on their capacity.
-- **Distractor 1:** The project manager must issue a formal contract amendment and negotiate a new price for the extra features.
-- **Distractor 2:** The vendor should be required to work overtime to complete the new features without affecting the existing sprint plan.
-- **Distractor 3:** The project manager should deny the request since the scope was "frozen" at the start of the project.
+- <strong>Correct:</strong> The Product Owner should prioritize the new features in the backlog; the team will address them in future sprints based on their capacity.
+- <strong>Distractor 1:</strong> The project manager must issue a formal contract amendment and negotiate a new price for the extra features.
+- <strong>Distractor 2:</strong> The vendor should be required to work overtime to complete the new features without affecting the existing sprint plan.
+- <strong>Distractor 3:</strong> The project manager should deny the request since the scope was "frozen" at the start of the project.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -818,18 +818,18 @@ How should the change in scope be managed?
 
 ### Question 29
 
-**Enabler:** Plan and manage the procurement strategy | **Methodology:** Predictive
+<strong>Enabler:</strong> Plan and manage the procurement strategy | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager at a pharmaceutical company is deciding whether to develop a new temperature-controlled storage facility internally or outsource the entire logistics operation to a specialized third party. The organization has never built a specialized facility like this before, but it is considered a "critical asset" for the next ten years.
 
-**Question:**
+<strong>Question:</strong>
 Based on the make-or-buy logic, what is the BEST recommendation?
 
-- **Correct:** Buy (outsource) the facility construction and operation due to the lack of specialized internal expertise and high risk.
-- **Distractor 1:** Make (build internally) to ensure the organization gains a new core competency and maintains full control.
-- **Distractor 2:** Build the facility internally but hire a consultant to watch the team work.
-- **Distractor 3:** Lease a standard warehouse and hope the temperature remains stable without specialized equipment.
+- <strong>Correct:</strong> Buy (outsource) the facility construction and operation due to the lack of specialized internal expertise and high risk.
+- <strong>Distractor 1:</strong> Make (build internally) to ensure the organization gains a new core competency and maintains full control.
+- <strong>Distractor 2:</strong> Build the facility internally but hire a consultant to watch the team work.
+- <strong>Distractor 3:</strong> Lease a standard warehouse and hope the temperature remains stable without specialized equipment.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -847,18 +847,18 @@ Based on the make-or-buy logic, what is the BEST recommendation?
 
 ### Question 30
 
-**Enabler:** Develop a delivery solution | **Methodology:** Hybrid
+<strong>Enabler:</strong> Develop a delivery solution | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is designing a delivery solution for a software project. The plan is to use internal resources for the "business logic" (which contains proprietary IP) and an offshore vendor for the "UI/UX design" (which is a standard commodity skill).
 
-**Question:**
+<strong>Question:</strong>
 What is the PRIMARY risk that the project manager must manage in this delivery solution?
 
-- **Correct:** Integration risk and potential communication delays between the internal and external teams.
-- **Distractor 1:** The risk of the vendor stealing the organization's proprietary business logic.
-- **Distractor 2:** The risk that the offshore team will be too expensive compared to internal resources.
-- **Distractor 3:** The risk of the internal team being fired and replaced by the vendor.
+- <strong>Correct:</strong> Integration risk and potential communication delays between the internal and external teams.
+- <strong>Distractor 1:</strong> The risk of the vendor stealing the organization's proprietary business logic.
+- <strong>Distractor 2:</strong> The risk that the offshore team will be too expensive compared to internal resources.
+- <strong>Distractor 3:</strong> The risk of the internal team being fired and replaced by the vendor.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -876,18 +876,18 @@ What is the PRIMARY risk that the project manager must manage in this delivery s
 
 ### Question 31
 
-**Enabler:** Plan procurement | **Methodology:** Predictive
+<strong>Enabler:</strong> Plan procurement | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is performing a make-or-buy analysis for a new security software module. The cost to develop it internally is $50,000 in labor. A commercial vendor offers the same module for $40,000. However, the internal development would utilize team members who are currently assigned to a mission-critical project with a potential $200,000 delay penalty.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST critical factor the project manager should consider in this decision?
 
-- **Correct:** The opportunity cost and risk associated with diverting internal resources from the mission-critical project.
-- **Distractor 1:** The $10,000 direct cost savings from buying the commercial solution.
-- **Distractor 2:** The desire to build internal expertise in security software for future projects.
-- **Distractor 3:** The vendor's financial stability and long-term support history.
+- <strong>Correct:</strong> The opportunity cost and risk associated with diverting internal resources from the mission-critical project.
+- <strong>Distractor 1:</strong> The $10,000 direct cost savings from buying the commercial solution.
+- <strong>Distractor 2:</strong> The desire to build internal expertise in security software for future projects.
+- <strong>Distractor 3:</strong> The vendor's financial stability and long-term support history.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -905,21 +905,21 @@ What is the MOST critical factor the project manager should consider in this dec
 
 ### Question 32
 
-**Enabler:** Execute a procurement management plan | **Methodology:** Hybrid
+<strong>Enabler:</strong> Execute a procurement management plan | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is evaluating four vendors for a data migration project. The source selection criteria use a weighting system: 50% Technical Approach, 30% Price, and 20% Past Performance. 
 - Vendor A: Tech 80, Price 90, Past 70
 - Vendor B: Tech 95, Price 60, Past 85
 - Vendor C: Tech 70, Price 100, Past 80
 
-**Question:**
+<strong>Question:</strong>
 Which vendor should be selected based on the weighted scoring?
 
-- **Correct:** Vendor B (Weighted Score: 82.5)
-- **Distractor 1:** Vendor A (Weighted Score: 81)
-- **Distractor 2:** Vendor C (Weighted Score: 81)
-- **Distractor 3:** Vendor B (Weighted Score: 85.5)
+- <strong>Correct:</strong> Vendor B (Weighted Score: 82.5)
+- <strong>Distractor 1:</strong> Vendor A (Weighted Score: 81)
+- <strong>Distractor 2:</strong> Vendor C (Weighted Score: 81)
+- <strong>Distractor 3:</strong> Vendor B (Weighted Score: 85.5)
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -940,18 +940,18 @@ C: (70*0.5) + (100*0.3) + (80*0.2) = 35 + 30 + 16 = 81 |
 
 ### Question 33
 
-**Enabler:** Select preferred contract types | **Methodology:** Hybrid
+<strong>Enabler:</strong> Select preferred contract types | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager needs to hire a specialized consultant to help with a sudden technical emergency. The duration of the work is unknown, but the consultant's hourly rate is fixed. The project manager's organization is very concerned about "open-ended" costs.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST contract structure to use in this situation?
 
-- **Correct:** Time and Materials (T&M) with a "Not-to-Exceed" (NTE) ceiling.
-- **Distractor 1:** Firm Fixed Price (FFP) based on a rough estimate of the work.
-- **Distractor 2:** Cost Plus Fixed Fee (CPFF) with monthly audits.
-- **Distractor 3:** Pure Time and Materials (T&M) without any limits to ensure the work is finished.
+- <strong>Correct:</strong> Time and Materials (T&M) with a "Not-to-Exceed" (NTE) ceiling.
+- <strong>Distractor 1:</strong> Firm Fixed Price (FFP) based on a rough estimate of the work.
+- <strong>Distractor 2:</strong> Cost Plus Fixed Fee (CPFF) with monthly audits.
+- <strong>Distractor 3:</strong> Pure Time and Materials (T&M) without any limits to ensure the work is finished.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -969,18 +969,18 @@ What is the BEST contract structure to use in this situation?
 
 ### Question 34
 
-**Enabler:** Evaluate vendor performance | **Methodology:** Predictive
+<strong>Enabler:</strong> Evaluate vendor performance | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a vendor producing physical components for an aerospace project. During a routine quality audit, the project manager discovers that the vendor has changed their sub-tier supplier for raw materials without notifying the project manager, which is a violation of the "Control of Changes" clause in the contract.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate action for the project manager to take?
 
-- **Correct:** Issue a formal "Non-Conformance Report" (NCR) and require the vendor to provide documentation that the new material meets all specifications.
-- **Distractor 1:** Immediately terminate the contract for cause due to the material breach.
-- **Distractor 2:** Accept the change if the finished components pass the final inspection anyway.
-- **Distractor 3:** Tell the vendor to switch back to the original supplier immediately regardless of the cost.
+- <strong>Correct:</strong> Issue a formal "Non-Conformance Report" (NCR) and require the vendor to provide documentation that the new material meets all specifications.
+- <strong>Distractor 1:</strong> Immediately terminate the contract for cause due to the material breach.
+- <strong>Distractor 2:</strong> Accept the change if the finished components pass the final inspection anyway.
+- <strong>Distractor 3:</strong> Tell the vendor to switch back to the original supplier immediately regardless of the cost.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -998,18 +998,18 @@ What is the MOST appropriate action for the project manager to take?
 
 ### Question 35
 
-**Enabler:** Verify objectives of the procurement agreement are met | **Methodology:** Hybrid
+<strong>Enabler:</strong> Verify objectives of the procurement agreement are met | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is verifying the deliverables from a vendor who has built a new customer portal. The project manager is conducting a walkthrough of the system with the Product Owner. They notice that while the system functions as requested, the user interface colors do not match the company's new branding guidelines, which were updated after the contract was signed.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager handle this deliverable?
 
-- **Correct:** Accept the deliverable as meeting the current contract, but initiate a new change request to update the branding.
-- **Distractor 1:** Reject the deliverable until the vendor updates the colors at their own expense.
-- **Distractor 2:** Accept the deliverable and ask a developer on the internal team to fix the colors quietly.
-- **Distractor 3:** File a claim against the vendor for failing to anticipate the company's branding needs.
+- <strong>Correct:</strong> Accept the deliverable as meeting the current contract, but initiate a new change request to update the branding.
+- <strong>Distractor 1:</strong> Reject the deliverable until the vendor updates the colors at their own expense.
+- <strong>Distractor 2:</strong> Accept the deliverable and ask a developer on the internal team to fix the colors quietly.
+- <strong>Distractor 3:</strong> File a claim against the vendor for failing to anticipate the company's branding needs.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1027,18 +1027,18 @@ How should the project manager handle this deliverable?
 
 ### Question 36
 
-**Enabler:** Participate in agreement negotiations | **Methodology:** Predictive
+<strong>Enabler:</strong> Participate in agreement negotiations | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a negotiation session, a vendor's representative hints that they could lower their price by 15% if the project manager agrees to "look the other way" during the final environmental compliance audit. The project manager's project is currently over budget.
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's REQUIRED response according to the PMI Code of Ethics and Professional Conduct?
 
-- **Correct:** Refuse the offer and report the ethical violation to the organization's procurement or ethics department.
-- **Distractor 1:** Negotiate the 15% discount but ensure the audit is performed by an independent third party to stay safe.
-- **Distractor 2:** Accept the discount privately and hope the audit passes without any issues.
-- **Distractor 3:** Refuse the discount but keep the conversation confidential to avoid damaging the relationship with the vendor.
+- <strong>Correct:</strong> Refuse the offer and report the ethical violation to the organization's procurement or ethics department.
+- <strong>Distractor 1:</strong> Negotiate the 15% discount but ensure the audit is performed by an independent third party to stay safe.
+- <strong>Distractor 2:</strong> Accept the discount privately and hope the audit passes without any issues.
+- <strong>Distractor 3:</strong> Refuse the discount but keep the conversation confidential to avoid damaging the relationship with the vendor.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1056,18 +1056,18 @@ What is the project manager's REQUIRED response according to the PMI Code of Eth
 
 ### Question 37
 
-**Enabler:** Determine a negotiation strategy | **Methodology:** Hybrid
+<strong>Enabler:</strong> Determine a negotiation strategy | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is negotiating with a vendor about a delay in delivery. The vendor's **position** is that they will not pay any penalties. The project manager's **interest** is to ensure the project stays on schedule. The vendor's **interest** is to maintain their profit margin and avoid a bad reputation.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST negotiation strategy to resolve this?
 
-- **Correct:** Propose that the vendor provide additional resources at their own cost to recover the schedule in exchange for waiving the financial penalty.
-- **Distractor 1:** Demand that the vendor pay the full penalty as stated in the contract to protect the project's budget.
-- **Distractor 2:** Accept the delay without any action to maintain a "good relationship" with the vendor.
-- **Distractor 3:** Escalate the matter to the legal department to start formal arbitration immediately.
+- <strong>Correct:</strong> Propose that the vendor provide additional resources at their own cost to recover the schedule in exchange for waiving the financial penalty.
+- <strong>Distractor 1:</strong> Demand that the vendor pay the full penalty as stated in the contract to protect the project's budget.
+- <strong>Distractor 2:</strong> Accept the delay without any action to maintain a "good relationship" with the vendor.
+- <strong>Distractor 3:</strong> Escalate the matter to the legal department to start formal arbitration immediately.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1085,18 +1085,18 @@ What is the BEST negotiation strategy to resolve this?
 
 ### Question 38
 
-**Enabler:** Manage suppliers and contracts | **Methodology:** Predictive
+<strong>Enabler:</strong> Manage suppliers and contracts | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project has reached a stalemate in a dispute with a vendor over the interpretation of a "Force Majeure" clause. The project manager wants to avoid expensive and time-consuming litigation.
 
-**Question:**
+<strong>Question:</strong>
 What is the PREFERRED method for resolving this dispute according to standard procurement practices?
 
-- **Correct:** Alternative Dispute Resolution (ADR) such as mediation or arbitration.
-- **Distractor 1:** Direct litigation in the local court system.
-- **Distractor 2:** A "Forcing" decision made by the project sponsor.
-- **Distractor 3:** Canceling the contract and hiring a new vendor.
+- <strong>Correct:</strong> Alternative Dispute Resolution (ADR) such as mediation or arbitration.
+- <strong>Distractor 1:</strong> Direct litigation in the local court system.
+- <strong>Distractor 2:</strong> A "Forcing" decision made by the project sponsor.
+- <strong>Distractor 3:</strong> Canceling the contract and hiring a new vendor.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1114,18 +1114,18 @@ What is the PREFERRED method for resolving this dispute according to standard pr
 
 ### Question 39
 
-**Enabler:** Plan and manage the procurement strategy | **Methodology:** Hybrid
+<strong>Enabler:</strong> Plan and manage the procurement strategy | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is planning to procure components from a vendor in another country. The contract will last two years. The local currency in the vendor's country is currently very unstable compared to the project's home currency.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager MOST effectively manage this currency risk in the procurement strategy?
 
-- **Correct:** Use a Fixed Price with Economic Price Adjustment (FP-EPA) contract linked to a currency exchange index.
-- **Distractor 1:** Require the vendor to accept all currency risk as a condition of winning the contract.
-- **Distractor 2:** Only use vendors from the home country even if they are more expensive and less qualified.
-- **Distractor 3:** Pay for the entire two-year contract upfront to lock in today's exchange rate.
+- <strong>Correct:</strong> Use a Fixed Price with Economic Price Adjustment (FP-EPA) contract linked to a currency exchange index.
+- <strong>Distractor 1:</strong> Require the vendor to accept all currency risk as a condition of winning the contract.
+- <strong>Distractor 2:</strong> Only use vendors from the home country even if they are more expensive and less qualified.
+- <strong>Distractor 3:</strong> Pay for the entire two-year contract upfront to lock in today's exchange rate.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1143,18 +1143,18 @@ How should the project manager MOST effectively manage this currency risk in the
 
 ### Question 40
 
-**Enabler:** Develop a delivery solution | **Methodology:** Agile
+<strong>Enabler:</strong> Develop a delivery solution | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is choosing a delivery solution for an enterprise CRM. The choice is between a custom-built internal solution and a Software as a Service (SaaS) provider. The SaaS provider offers 99.9% uptime but the organization will not own the underlying code or the database infrastructure.
 
-**Question:**
+<strong>Question:</strong>
 When evaluating the SaaS delivery solution, what is the MOST important procurement document to define the operational expectations?
 
-- **Correct:** Service Level Agreement (SLA)
-- **Distractor 1:** Procurement Statement of Work (SOW)
-- **Distractor 2:** Resource Breakdown Structure (RBS)
-- **Distractor 3:** Fixed Price Incentive Fee (FPIF) schedule
+- <strong>Correct:</strong> Service Level Agreement (SLA)
+- <strong>Distractor 1:</strong> Procurement Statement of Work (SOW)
+- <strong>Distractor 2:</strong> Resource Breakdown Structure (RBS)
+- <strong>Distractor 3:</strong> Fixed Price Incentive Fee (FPIF) schedule
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1172,18 +1172,18 @@ When evaluating the SaaS delivery solution, what is the MOST important procureme
 
 ### Question 41
 
-**Enabler:** Plan and manage the procurement strategy | **Methodology:** Predictive
+<strong>Enabler:</strong> Plan and manage the procurement strategy | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager at a utility company needs to procure a highly specialized underwater drone for inspecting dam foundations. Only three companies in the world make this specific technology. The project manager wants to understand the current state of the technology and its limitations before writing the formal Request for Proposal (RFP).
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the project manager to gather this information?
 
-- **Correct:** Issue a Request for Information (RFI) to the known vendors to gather technical specifications and capabilities.
-- **Distractor 1:** Hire a consultant to build a prototype drone internally to see how it works.
-- **Distractor 2:** Issue a Request for Quotation (RFQ) to find the lowest price available.
-- **Distractor 3:** Conduct a bidder conference to explain the project's needs before the RFP is released.
+- <strong>Correct:</strong> Issue a Request for Information (RFI) to the known vendors to gather technical specifications and capabilities.
+- <strong>Distractor 1:</strong> Hire a consultant to build a prototype drone internally to see how it works.
+- <strong>Distractor 2:</strong> Issue a Request for Quotation (RFQ) to find the lowest price available.
+- <strong>Distractor 3:</strong> Conduct a bidder conference to explain the project's needs before the RFP is released.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1201,18 +1201,18 @@ What is the BEST way for the project manager to gather this information?
 
 ### Question 42
 
-**Enabler:** Select preferred contract types | **Methodology:** Hybrid
+<strong>Enabler:</strong> Select preferred contract types | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 An organization is embarking on a highly innovative project with a vendor. The project manager wants to encourage the vendor to go "above and beyond" the technical requirements, focusing on user experience and creative problem-solving. The organization wants to have the final say on the extra profit the vendor earns based on their satisfaction.
 
-**Question:**
+<strong>Question:</strong>
 Which contract type is MOST appropriate for this subjective performance goal?
 
-- **Correct:** Cost Plus Award Fee (CPAF)
-- **Distractor 1:** Cost Plus Incentive Fee (CPIF)
-- **Distractor 2:** Fixed Price Incentive Fee (FPIF)
-- **Distractor 3:** Firm Fixed Price (FFP)
+- <strong>Correct:</strong> Cost Plus Award Fee (CPAF)
+- <strong>Distractor 1:</strong> Cost Plus Incentive Fee (CPIF)
+- <strong>Distractor 2:</strong> Fixed Price Incentive Fee (FPIF)
+- <strong>Distractor 3:</strong> Firm Fixed Price (FFP)
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1230,18 +1230,18 @@ Which contract type is MOST appropriate for this subjective performance goal?
 
 ### Question 43
 
-**Enabler:** Evaluate vendor performance | **Methodology:** Agile
+<strong>Enabler:</strong> Evaluate vendor performance | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A vendor has delivered a major software component in an Agile project. Two months later, a critical security vulnerability is found in the vendor's code. The vendor claims that since the code was accepted by the Product Owner at the end of the sprint, any new fixes are out of scope and will require additional payment.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do?
 
-- **Correct:** Review the "Warranty" and "Latent Defects" clauses in the original procurement agreement.
-- **Distractor 1:** Pay the vendor for the fix to ensure the security hole is patched immediately.
-- **Distractor 2:** Instruct the internal team to fix the vendor's code and deduct the cost from the vendor's next invoice.
-- **Distractor 3:** Tell the Product Owner that they should have found the bug during the sprint review.
+- <strong>Correct:</strong> Review the "Warranty" and "Latent Defects" clauses in the original procurement agreement.
+- <strong>Distractor 1:</strong> Pay the vendor for the fix to ensure the security hole is patched immediately.
+- <strong>Distractor 2:</strong> Instruct the internal team to fix the vendor's code and deduct the cost from the vendor's next invoice.
+- <strong>Distractor 3:</strong> Tell the Product Owner that they should have found the bug during the sprint review.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1259,18 +1259,18 @@ What should the project manager do?
 
 ### Question 44
 
-**Enabler:** Verify objectives of the procurement agreement are met | **Methodology:** Predictive
+<strong>Enabler:</strong> Verify objectives of the procurement agreement are met | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is conducting a final walkthrough of a new office building with the contractor. Most systems are perfect, but there are several minor issues, such as chipped paint and a missing door handle in the breakroom. The project's grand opening is in two days.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the project manager to handle this situation?
 
-- **Correct:** Generate a "Punch List" of minor defects, grant conditional acceptance, and withhold a small percentage of the final payment until they are fixed.
-- **Distractor 1:** Reject the entire building and cancel the grand opening until every minor defect is repaired.
-- **Distractor 2:** Accept the building in full and trust the contractor's verbal promise to fix the issues next week.
-- **Distractor 3:** Hire a different contractor to fix the chips and handles today and sue the original contractor for the cost.
+- <strong>Correct:</strong> Generate a "Punch List" of minor defects, grant conditional acceptance, and withhold a small percentage of the final payment until they are fixed.
+- <strong>Distractor 1:</strong> Reject the entire building and cancel the grand opening until every minor defect is repaired.
+- <strong>Distractor 2:</strong> Accept the building in full and trust the contractor's verbal promise to fix the issues next week.
+- <strong>Distractor 3:</strong> Hire a different contractor to fix the chips and handles today and sue the original contractor for the cost.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1288,18 +1288,18 @@ What is the BEST way for the project manager to handle this situation?
 
 ### Question 45
 
-**Enabler:** Determine a negotiation strategy | **Methodology:** Hybrid
+<strong>Enabler:</strong> Determine a negotiation strategy | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is negotiating with a vendor from a culture where business relationships are built over a long period and "rushing to the contract" is seen as disrespectful. The project manager is under a tight deadline to get the agreement signed.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager adjust their negotiation strategy?
 
-- **Correct:** Invest time in building a relationship and finding common ground before diving into the contract details.
-- **Distractor 1:** Explain the tight deadline clearly and demand that the vendor speed up their review process.
-- **Distractor 2:** Bypass the vendor's local team and try to negotiate directly with their headquarters in a more "direct" culture.
-- **Distractor 3:** Threaten to use a different vendor if the contract is not signed by the end of the week.
+- <strong>Correct:</strong> Invest time in building a relationship and finding common ground before diving into the contract details.
+- <strong>Distractor 1:</strong> Explain the tight deadline clearly and demand that the vendor speed up their review process.
+- <strong>Distractor 2:</strong> Bypass the vendor's local team and try to negotiate directly with their headquarters in a more "direct" culture.
+- <strong>Distractor 3:</strong> Threaten to use a different vendor if the contract is not signed by the end of the week.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1317,18 +1317,18 @@ How should the project manager adjust their negotiation strategy?
 
 ### Question 46
 
-**Enabler:** Manage suppliers and contracts | **Methodology:** Agile
+<strong>Enabler:</strong> Manage suppliers and contracts | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project has reached its final iteration. The vendor has delivered all stories in the backlog, and the Product Owner has signed off on the final increment. The project manager now needs to formally close the procurement.
 
-**Question:**
+<strong>Question:</strong>
 Which action is a REQUIRED part of the procurement closure process?
 
-- **Correct:** Perform a procurement audit to document the lessons learned and the vendor's performance.
-- **Distractor 1:** Throw a large party for the vendor's team using the remaining project contingency.
-- **Distractor 2:** Delete all emails and correspondence with the vendor to free up server space.
-- **Distractor 3:** Immediately hire the vendor for a different project without any new procurement process.
+- <strong>Correct:</strong> Perform a procurement audit to document the lessons learned and the vendor's performance.
+- <strong>Distractor 1:</strong> Throw a large party for the vendor's team using the remaining project contingency.
+- <strong>Distractor 2:</strong> Delete all emails and correspondence with the vendor to free up server space.
+- <strong>Distractor 3:</strong> Immediately hire the vendor for a different project without any new procurement process.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1346,18 +1346,18 @@ Which action is a REQUIRED part of the procurement closure process?
 
 ### Question 47
 
-**Enabler:** Plan and manage the procurement strategy | **Methodology:** Hybrid
+<strong>Enabler:</strong> Plan and manage the procurement strategy | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 An organization's new corporate policy requires all projects to prioritize "Sustainable Procurement." A project manager is procuring a large batch of computer hardware for a new office.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager MOST effectively incorporate this requirement into the procurement strategy?
 
-- **Correct:** Include environmental impact and vendor sustainability ratings in the source selection criteria.
-- **Distractor 1:** Simply ask the vendors if they are "sustainable" and accept their verbal confirmation.
-- **Distractor 2:** Only buy the cheapest hardware and donate the savings to an environmental charity.
-- **Distractor 3:** Require all hardware to be made of 100% recycled wood instead of plastic.
+- <strong>Correct:</strong> Include environmental impact and vendor sustainability ratings in the source selection criteria.
+- <strong>Distractor 1:</strong> Simply ask the vendors if they are "sustainable" and accept their verbal confirmation.
+- <strong>Distractor 2:</strong> Only buy the cheapest hardware and donate the savings to an environmental charity.
+- <strong>Distractor 3:</strong> Require all hardware to be made of 100% recycled wood instead of plastic.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1375,18 +1375,18 @@ How should the project manager MOST effectively incorporate this requirement int
 
 ### Question 48
 
-**Enabler:** Develop a delivery solution | **Methodology:** Predictive
+<strong>Enabler:</strong> Develop a delivery solution | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is deciding between an on-premise server solution and a cloud-based delivery solution for a new government database. The database will contain highly sensitive citizen data, and the law requires that the data must physically reside within the country's borders.
 
-**Question:**
+<strong>Question:</strong>
 When evaluating the delivery solution, which factor is the MOST critical constraint?
 
-- **Correct:** Compliance with legal and regulatory data residency requirements.
-- **Distractor 1:** The upfront capital expenditure (CAPEX) of the on-premise servers.
-- **Distractor 2:** The speed of deployment offered by the cloud provider.
-- **Distractor 3:** The user interface design of the database management console.
+- <strong>Correct:</strong> Compliance with legal and regulatory data residency requirements.
+- <strong>Distractor 1:</strong> The upfront capital expenditure (CAPEX) of the on-premise servers.
+- <strong>Distractor 2:</strong> The speed of deployment offered by the cloud provider.
+- <strong>Distractor 3:</strong> The user interface design of the database management console.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1404,19 +1404,19 @@ When evaluating the delivery solution, which factor is the MOST critical constra
 
 ### Question 49
 
-**Enabler:** Manage suppliers and contracts | **Methodology:** Predictive
+<strong>Enabler:</strong> Manage suppliers and contracts | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project is running six months late, and the relationship with the primary vendor has become toxic. The vendor is refusing to do any more work without additional payment, claiming "Scope Creep." The project manager believes the work is within the original contract.
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's BEST next step to manage this supplier relationship?
 
-- **Correct:** Request a formal meeting with the vendor's management to perform a structured review of the contract and the documented change logs.
-- **Distractor 1:** Fire the vendor immediately and start a new procurement process.
+- <strong>Correct:</strong> Request a formal meeting with the vendor's management to perform a structured review of the contract and the documented change logs.
+- <strong>Distractor 1:</strong> Fire the vendor immediately and start a new procurement process.
 
-- **Distractor 2:** Personally pay for the next milestone to keep the team working while the dispute is sorted out.
-- **Distractor 3:** Post a negative review of the vendor on industry forums to pressure them into working.
+- <strong>Distractor 2:</strong> Personally pay for the next milestone to keep the team working while the dispute is sorted out.
+- <strong>Distractor 3:</strong> Post a negative review of the vendor on industry forums to pressure them into working.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1434,18 +1434,18 @@ What is the project manager's BEST next step to manage this supplier relationshi
 
 ### Question 50
 
-**Enabler:** Execute a procurement management plan | **Methodology:** Agile
+<strong>Enabler:</strong> Execute a procurement management plan | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An Agile project uses a "Time and Materials" contract with a "Not-to-Exceed" ceiling. The team has completed 50% of the planned features, but they have already spent 80% of the contract ceiling due to unforeseen technical complexity.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do FIRST?
 
-- **Correct:** Perform a "Value Analysis" of the remaining features with the Product Owner and prioritize the most critical ones that can fit within the remaining budget.
-- **Distractor 1:** Demand that the vendor finish the remaining 50% of the features for free since they hit the ceiling.
-- **Distractor 2:** Ask the sponsor for an immediate 50% increase in the procurement budget.
-- **Distractor 3:** Cancel the project since it is clear it cannot be finished within the original parameters.
+- <strong>Correct:</strong> Perform a "Value Analysis" of the remaining features with the Product Owner and prioritize the most critical ones that can fit within the remaining budget.
+- <strong>Distractor 1:</strong> Demand that the vendor finish the remaining 50% of the features for free since they hit the ceiling.
+- <strong>Distractor 2:</strong> Ask the sponsor for an immediate 50% increase in the procurement budget.
+- <strong>Distractor 3:</strong> Cancel the project since it is clear it cannot be finished within the original parameters.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1490,12 +1490,12 @@ What should the project manager do FIRST?
 
 ###  Procurement Pro-Tips
 
-1.  **Contract is King:** In any dispute or clarification, always look at the Procurement Statement of Work (SOW) and the contract first. Verbal agreements are not binding in procurement questions.
-2.  **Risk Allocation:** Fixed-Price (FFP) shifts risk to the seller; Cost-Reimbursable (CPFF) shifts risk to the buyer. Use T&M only for short-term or emergency needs with a Not-to-Exceed (NTE) ceiling.
-3.  **Fairness First:** Never give one vendor information that isn't shared with all others. Transparency in bidder conferences and Q&A is a non-negotiable ethical requirement.
-4.  **Agile is Collaborative:** In Agile procurement, treat the vendor as a partner. Use retrospectives for performance issues and backlog grooming for scope changes rather than formal contract claims.
-5.  **Audit Early:** Don't wait for the end of the project to verify quality. Use regular inspections, audits, and sprint reviews to ensure the vendor is meeting the definition of done.
-6.  **BATNA Power:** Your strength in negotiation comes from your Best Alternative to a Negotiated Agreement. Know your options before you sit at the table.
+1.  <strong>Contract is King:</strong> In any dispute or clarification, always look at the Procurement Statement of Work (SOW) and the contract first. Verbal agreements are not binding in procurement questions.
+2.  <strong>Risk Allocation:</strong> Fixed-Price (FFP) shifts risk to the seller; Cost-Reimbursable (CPFF) shifts risk to the buyer. Use T&M only for short-term or emergency needs with a Not-to-Exceed (NTE) ceiling.
+3.  <strong>Fairness First:</strong> Never give one vendor information that isn't shared with all others. Transparency in bidder conferences and Q&A is a non-negotiable ethical requirement.
+4.  <strong>Agile is Collaborative:</strong> In Agile procurement, treat the vendor as a partner. Use retrospectives for performance issues and backlog grooming for scope changes rather than formal contract claims.
+5.  <strong>Audit Early:</strong> Don't wait for the end of the project to verify quality. Use regular inspections, audits, and sprint reviews to ensure the vendor is meeting the definition of done.
+6.  <strong>BATNA Power:</strong> Your strength in negotiation comes from your Best Alternative to a Negotiated Agreement. Know your options before you sit at the table.
 
 <style>
 .pro-tips {

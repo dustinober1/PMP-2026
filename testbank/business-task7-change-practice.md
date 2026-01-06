@@ -1,8 +1,8 @@
 # PMP Exam Factory: Business Task 7 (Support Organizational Change)
 
-**Task:** Support organizational change
-**Focus:** Hard Mode (Analysis & Evaluation)
-**Total Questions:** 50
+<strong>Task:</strong> Support organizational change
+<strong>Focus:</strong> Hard Mode (Analysis & Evaluation)
+<strong>Total Questions:</strong> 50
 
 ---
 
@@ -10,18 +10,18 @@
 
 ### Question 1
 
-**Enabler:** Assess organizational culture | **Methodology:** Predictive
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is assigned to lead an enterprise-wide ERP implementation in a 40-year-old manufacturing company. During stakeholder interviews, the project manager learns that the last three technology initiatives failed due to "employee resistance," and there is a pervasive attitude of "we've always done it this way." The project sponsor is focused on technical milestones but has not allocated budget for change management activities.
 
-**Question:**
+<strong>Question:</strong>
 What is the **FIRST** action the project manager should take?
 
-- **Correct:** Conduct a cultural readiness assessment and present findings to the sponsor to request change management budget.
-- **Distractor 1:** Proceed with project planning and address resistance through training closer to go-live.
-- **Distractor 2:** Interview employees from the failed projects to understand what went wrong technically.
-- **Distractor 3:** Update the risk register to note "high resistance" as a risk and monitor it during execution.
+- <strong>Correct:</strong> Conduct a cultural readiness assessment and present findings to the sponsor to request change management budget.
+- <strong>Distractor 1:</strong> Proceed with project planning and address resistance through training closer to go-live.
+- <strong>Distractor 2:</strong> Interview employees from the failed projects to understand what went wrong technically.
+- <strong>Distractor 3:</strong> Update the risk register to note "high resistance" as a risk and monitor it during execution.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -39,18 +39,18 @@ What is the **FIRST** action the project manager should take?
 
 ### Question 2
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Predictive
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A predictive project involves implementing a new sales methodology across 12 regional offices. The methodology requires sales representatives to spend 2 hours per week on data entry, which they currently do not do. Regional Vice Presidents are concerned that this will reduce face-to-face selling time and impact quotas.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** approach for the project manager to address this concern?
 
-- **Correct:** Perform a change impact analysis to quantify the trade-off and involve the RVPs in designing a mitigation strategy.
-- **Distractor 1:** Reduce the data entry requirement to 1 hour to balance selling time.
-- **Distractor 2:** Mandate the new process as a corporate requirement and adjust quotas downward to compensate.
-- **Distractor 3:** Pilot the methodology in one region and use the results to convince the other RVPs.
+- <strong>Correct:</strong> Perform a change impact analysis to quantify the trade-off and involve the RVPs in designing a mitigation strategy.
+- <strong>Distractor 1:</strong> Reduce the data entry requirement to 1 hour to balance selling time.
+- <strong>Distractor 2:</strong> Mandate the new process as a corporate requirement and adjust quotas downward to compensate.
+- <strong>Distractor 3:</strong> Pilot the methodology in one region and use the results to convince the other RVPs.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -68,18 +68,18 @@ What is the **BEST** approach for the project manager to address this concern?
 
 ### Question 3
 
-**Enabler:** Assess organizational culture | **Methodology:** Predictive
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is rolling out a new collaboration tool in a hierarchical, command-and-control organization where decisions flow top-down. The tool emphasizes decentralized, peer-to-peer communication. Early adopters are enthusiastic, but middle managers are blocking adoption because they feel "out of the loop."
 
-**Question:**
+<strong>Question:</strong>
 What is the **MOST LIKELY** cause of the resistance?
 
-- **Correct:** The tool's philosophy conflicts with the organization's power structure and cultural norms.
-- **Distractor 1:** Middle managers lack adequate training on how to use the new tool.
-- **Distractor 2:** The tool lacks sufficient governance features to satisfy compliance requirements.
-- **Distractor 3:** Early adopters have not demonstrated enough value to justify organization-wide rollout.
+- <strong>Correct:</strong> The tool's philosophy conflicts with the organization's power structure and cultural norms.
+- <strong>Distractor 1:</strong> Middle managers lack adequate training on how to use the new tool.
+- <strong>Distractor 2:</strong> The tool lacks sufficient governance features to satisfy compliance requirements.
+- <strong>Distractor 3:</strong> Early adopters have not demonstrated enough value to justify organization-wide rollout.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -97,18 +97,18 @@ What is the **MOST LIKELY** cause of the resistance?
 
 ### Question 4
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Predictive
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A predictive project to automate a manual process will reduce the headcount needed in the Finance department by 3 FTEs through attrition. The Finance Director is publicly supportive but privately has expressed concern that this sets a precedent for further automation and job reductions.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to manage the Finance Director's engagement?
 
-- **Correct:** Conduct a private meeting to understand their specific concerns and discuss how the project can support Finance's broader strategic goals.
-- **Distractor 1:** Reassure them verbally that no further automation projects are planned for Finance.
-- **Distractor 2:** Involve HR in the conversation to explain the standard attrition policy.
-- **Distractor 3:** Proceed with the project as planned and address concerns only if they become visible blockers.
+- <strong>Correct:</strong> Conduct a private meeting to understand their specific concerns and discuss how the project can support Finance's broader strategic goals.
+- <strong>Distractor 1:</strong> Reassure them verbally that no further automation projects are planned for Finance.
+- <strong>Distractor 2:</strong> Involve HR in the conversation to explain the standard attrition policy.
+- <strong>Distractor 3:</strong> Proceed with the project as planned and address concerns only if they become visible blockers.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -126,18 +126,18 @@ What is the **BEST** way to manage the Finance Director's engagement?
 
 ### Question 5
 
-**Enabler:** Assess organizational culture | **Methodology:** Predictive
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager inherits a struggling project mid-execution. The project involves implementing a new safety protocol in a manufacturing plant. Floor workers are ignoring the new protocol because "it takes too long" and "management never follows it themselves when they visit." The previous project manager focused entirely on training and signage.
 
-**Question:**
+<strong>Question:</strong>
 What does the resistance pattern suggest about the **ROOT CAUSE**?
 
-- **Correct:** A culture gap where leadership does not model the behavior they demand from others.
-- **Distractor 1:** Insufficient training frequency and reinforcement on the shop floor.
-- **Distractor 2:** Lack of consequences for non-compliance in the performance management system.
-- **Distractor 3:** The new safety protocol is too complex and needs simplification.
+- <strong>Correct:</strong> A culture gap where leadership does not model the behavior they demand from others.
+- <strong>Distractor 1:</strong> Insufficient training frequency and reinforcement on the shop floor.
+- <strong>Distractor 2:</strong> Lack of consequences for non-compliance in the performance management system.
+- <strong>Distractor 3:</strong> The new safety protocol is too complex and needs simplification.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -155,18 +155,18 @@ What does the resistance pattern suggest about the **ROOT CAUSE**?
 
 ### Question 6
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Predictive
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A predictive project is implementing a new customer service script that requires representatives to express more empathy. Customer satisfaction scores are rising, but call handle time has increased by 20%, putting the call center's efficiency metrics at risk of missing quarterly targets. The Operations VP is threatening to suspend the rollout.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** action for the project manager to take?
 
-- **Correct:** Facilitate a meeting with Operations and Customer Experience to review the impact data and decide on a balanced approach.
-- **Distractor 1:** Continue the rollout as planned, arguing that customer satisfaction is a higher strategic priority.
-- **Distractor 2:** Suspend the rollout immediately and conduct a root cause analysis on the handle time increase.
-- **Distractor 3:** Revise the script to reduce empathy requirements and restore previous handle times.
+- <strong>Correct:</strong> Facilitate a meeting with Operations and Customer Experience to review the impact data and decide on a balanced approach.
+- <strong>Distractor 1:</strong> Continue the rollout as planned, arguing that customer satisfaction is a higher strategic priority.
+- <strong>Distractor 2:</strong> Suspend the rollout immediately and conduct a root cause analysis on the handle time increase.
+- <strong>Distractor 3:</strong> Revise the script to reduce empathy requirements and restore previous handle times.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -184,18 +184,18 @@ What is the **BEST** action for the project manager to take?
 
 ### Question 7
 
-**Enabler:** Assess organizational culture | **Methodology:** Predictive
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is planning a large-scale change initiative in an organization that is simultaneously undergoing five other major changes (new ERP, office relocation, restructuring, compensation review, and safety system upgrade). The change saturation analysis shows all departments are "red" on capacity.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** recommendation to the sponsor?
 
-- **Correct:** Propose sequencing the project to start after the current wave of changes stabilizes.
-- **Distractor 1:** Proceed as planned but allocate additional budget for overtime and temporary staff to manage the workload.
-- **Distractor 2:** Accelerate the project timeline to "get ahead" of the other changes and secure attention.
-- **Distractor 3:** Request executive sponsorship to mandate that your project takes priority over the others.
+- <strong>Correct:</strong> Propose sequencing the project to start after the current wave of changes stabilizes.
+- <strong>Distractor 1:</strong> Proceed as planned but allocate additional budget for overtime and temporary staff to manage the workload.
+- <strong>Distractor 2:</strong> Accelerate the project timeline to "get ahead" of the other changes and secure attention.
+- <strong>Distractor 3:</strong> Request executive sponsorship to mandate that your project takes priority over the others.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -213,18 +213,18 @@ What is the **BEST** recommendation to the sponsor?
 
 ### Question 8
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Predictive
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A predictive project involves closing a regional office and consolidating roles into headquarters. The affected office has a distinct local culture and higher employee tenure than headquarters. There is concern that knowledge loss will occur if the displaced employees leave rather than relocate.
 
-**Question:**
+<strong>Question:</strong>
 What change management activity is **MOST CRITICAL** to prevent knowledge loss?
 
-- **Correct:** Implement a structured knowledge transfer program that pairs displaced employees with their replacements before transition.
-- **Distractor 1:** Offer retention bonuses to encourage displaced employees to stay through the transition.
-- **Distractor 2:** Document all processes and procedures in a knowledge base before the closure.
-- **Distractor 3:** Accelerate the timeline to minimize the period of uncertainty and disengagement.
+- <strong>Correct:</strong> Implement a structured knowledge transfer program that pairs displaced employees with their replacements before transition.
+- <strong>Distractor 1:</strong> Offer retention bonuses to encourage displaced employees to stay through the transition.
+- <strong>Distractor 2:</strong> Document all processes and procedures in a knowledge base before the closure.
+- <strong>Distractor 3:</strong> Accelerate the timeline to minimize the period of uncertainty and disengagement.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -242,18 +242,18 @@ What change management activity is **MOST CRITICAL** to prevent knowledge loss?
 
 ### Question 9
 
-**Enabler:** Assess organizational culture | **Methodology:** Predictive
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a change to introduce data-driven decision-making in a marketing department that traditionally relies on intuition and creative judgment. The Creative Director is resistant, arguing that "data kills creativity" and citing examples where data-led campaigns underperformed.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** strategy to address this resistance?
 
-- **Correct:** Acknowledge the concern and propose a pilot where data informs, rather than replaces, creative decisions.
-- **Distractor 1:** Present benchmark data showing that competitors are outperforming with data-driven approaches.
-- **Distractor 2:** Involve the Creative Director in designing the data dashboard to increase ownership.
-- **Distractor 3:** Escalate to the CMO to resolve the disagreement about the approach.
+- <strong>Correct:</strong> Acknowledge the concern and propose a pilot where data informs, rather than replaces, creative decisions.
+- <strong>Distractor 1:</strong> Present benchmark data showing that competitors are outperforming with data-driven approaches.
+- <strong>Distractor 2:</strong> Involve the Creative Director in designing the data dashboard to increase ownership.
+- <strong>Distractor 3:</strong> Escalate to the CMO to resolve the disagreement about the approach.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -271,18 +271,18 @@ What is the **BEST** strategy to address this resistance?
 
 ### Question 10
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Predictive
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project to implement a new performance management system will require managers to have quarterly coaching conversations with employees, up from annual reviews. Many managers report they are already at capacity and cannot add 2 hours per quarter per direct report.
 
-**Question:**
+<strong>Question:</strong>
 What is the **FIRST** step the project manager should take?
 
-- **Correct:** Conduct a change impact assessment to quantify the workload increase and identify constraints.
-- **Distractor 1:** Simplify the coaching conversation template to reduce the time requirement to 1 hour.
-- **Distractor 2:** Request that HR provide additional administrative support to managers to offset the workload.
-- **Distractor 3:** Communicate to managers that this is a strategic priority and they will be held accountable for compliance.
+- <strong>Correct:</strong> Conduct a change impact assessment to quantify the workload increase and identify constraints.
+- <strong>Distractor 1:</strong> Simplify the coaching conversation template to reduce the time requirement to 1 hour.
+- <strong>Distractor 2:</strong> Request that HR provide additional administrative support to managers to offset the workload.
+- <strong>Distractor 3:</strong> Communicate to managers that this is a strategic priority and they will be held accountable for compliance.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -300,18 +300,18 @@ What is the **FIRST** step the project manager should take?
 
 ### Question 11
 
-**Enabler:** Assess organizational culture | **Methodology:** Predictive
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is rolling out a new AI writing assistant to a team of professional content writers. The writers are concerned that AI will replace them and are subtly resisting by finding "problems" with the tool's output. The project manager has already provided excellent training.
 
-**Question:**
+<strong>Question:</strong>
 What ADKAR element is **MOST LIKELY** missing or blocked?
 
-- **Correct:** Desire (the writers know how to use the tool but don't want to).
-- **Distractor 1:** Awareness (the writers don't understand why the tool is being introduced).
-- **Distractor 2:** Knowledge (the writers haven't been adequately trained on the tool).
-- **Distractor 3:** Ability (the writers lack the skills to use the tool effectively).
+- <strong>Correct:</strong> Desire (the writers know how to use the tool but don't want to).
+- <strong>Distractor 1:</strong> Awareness (the writers don't understand why the tool is being introduced).
+- <strong>Distractor 2:</strong> Knowledge (the writers haven't been adequately trained on the tool).
+- <strong>Distractor 3:</strong> Ability (the writers lack the skills to use the tool effectively).
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -328,18 +328,18 @@ What ADKAR element is **MOST LIKELY** missing or blocked?
 
 ### Question 12
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Predictive
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A predictive project involves relocating a customer support team from a private office to an open floor plan to increase collaboration. However, the team handles confidential financial calls, and team members have raised concerns about privacy and data security in the new environment.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** response to these concerns?
 
-- **Correct:** Evaluate whether the open floor plan can accommodate privacy requirements (e.g., sound-masking, private pods) before proceeding.
-- **Distractor 1:** Explain that the collaboration benefits outweigh the privacy concerns and proceed with the relocation.
-- **Distractor 2:** Allow the team to remain in the private office and relocate a different team instead.
-- **Distractor 3:** Require the team to use headphones and lower their voices when discussing confidential information.
+- <strong>Correct:</strong> Evaluate whether the open floor plan can accommodate privacy requirements (e.g., sound-masking, private pods) before proceeding.
+- <strong>Distractor 1:</strong> Explain that the collaboration benefits outweigh the privacy concerns and proceed with the relocation.
+- <strong>Distractor 2:</strong> Allow the team to remain in the private office and relocate a different team instead.
+- <strong>Distractor 3:</strong> Require the team to use headphones and lower their voices when discussing confidential information.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -359,18 +359,18 @@ What is the **BEST** response to these concerns?
 
 ### Question 13
 
-**Enabler:** Assess organizational culture | **Methodology:** Agile
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is adopting a new continuous integration tool that requires developers to push code daily. The team's culture is "batch and polish"—developers work locally for two weeks, then push a large feature. Despite training, the team continues the old pattern, arguing that "daily commits are sloppy."
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to address this cultural mismatch?
 
-- **Correct:** Start with a compromise: commit every 3 days, then gradually reduce the interval as the team sees the benefits.
-- **Distractor 1:** Mandate daily commits as a team working agreement and enforce it during standups.
-- **Distractor 2:** Abandon the continuous integration tool and revert to the previous integration approach.
-- **Distractor 3:** Replace the team members who resist the change with developers who have CI experience.
+- <strong>Correct:</strong> Start with a compromise: commit every 3 days, then gradually reduce the interval as the team sees the benefits.
+- <strong>Distractor 1:</strong> Mandate daily commits as a team working agreement and enforce it during standups.
+- <strong>Distractor 2:</strong> Abandon the continuous integration tool and revert to the previous integration approach.
+- <strong>Distractor 3:</strong> Replace the team members who resist the change with developers who have CI experience.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -388,18 +388,18 @@ What is the **BEST** way to address this cultural mismatch?
 
 ### Question 14
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Agile
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile product team is shifting from a "project mindset" (fixed scope, deadline) to a "product mindset" (value delivery, ongoing). A key stakeholder, the VP of Marketing, is frustrated because they cannot get a commitment on when "everything" will be done.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to manage this stakeholder's expectations?
 
-- **Correct:** Invite the VP to Sprint Reviews to see working software delivered incrementally and discuss roadmap prioritization.
-- **Distractor 1:** Provide a detailed roadmap with estimated dates for all requested features to satisfy the VP's need for certainty.
-- **Distractor 2:** Explain that agile doesn't work with deadlines and the VP must adapt to the new approach.
-- **Distractor 3:** Ask the Product Owner to prioritize the VP's features at the top of the backlog to accelerate delivery.
+- <strong>Correct:</strong> Invite the VP to Sprint Reviews to see working software delivered incrementally and discuss roadmap prioritization.
+- <strong>Distractor 1:</strong> Provide a detailed roadmap with estimated dates for all requested features to satisfy the VP's need for certainty.
+- <strong>Distractor 2:</strong> Explain that agile doesn't work with deadlines and the VP must adapt to the new approach.
+- <strong>Distractor 3:</strong> Ask the Product Owner to prioritize the VP's features at the top of the backlog to accelerate delivery.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -417,18 +417,18 @@ What is the **BEST** way to manage this stakeholder's expectations?
 
 ### Question 15
 
-**Enabler:** Assess organizational culture | **Methodology:** Agile
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An organization is transitioning from Waterfall to Agile. A predictive project manager who recently became a Scrum Master is still assigning tasks to team members and tracking progress in a Microsoft Project Gantt chart. The team is frustrated and disengaged.
 
-**Question:**
+<strong>Question:</strong>
 What is the **ROOT CAUSE** of this anti-pattern?
 
-- **Correct:** The Scrum Master has not internalized the servant-leadership mindset required for Agile.
-- **Distractor 1:** The team lacks sufficient Agile training to understand self-organization.
-- **Distractor 2:** The organization has not provided adequate tooling for Agile project tracking.
-- **Distractor 3:** The project is too complex to manage without detailed task assignments.
+- <strong>Correct:</strong> The Scrum Master has not internalized the servant-leadership mindset required for Agile.
+- <strong>Distractor 1:</strong> The team lacks sufficient Agile training to understand self-organization.
+- <strong>Distractor 2:</strong> The organization has not provided adequate tooling for Agile project tracking.
+- <strong>Distractor 3:</strong> The project is too complex to manage without detailed task assignments.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -446,18 +446,18 @@ What is the **ROOT CAUSE** of this anti-pattern?
 
 ### Question 16
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Agile
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is using a new AI code-assistance tool. During a retrospective, team members report that the AI is making mistakes and slowing them down because they spend more time reviewing AI-generated code than writing it themselves. The tool was championed by management as a "productivity booster."
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** response?
 
-- **Correct:** Facilitate a retrospective experiment: have the team track time savings vs. review time for two sprints to gather data.
-- **Distractor 1:** Discontinue the tool immediately based on the team's feedback.
-- **Distractor 2:** Arrange for additional training to help the team use the tool more effectively.
-- **Distractor 3:** Report to management that the tool is working as intended and the team needs more time to adapt.
+- <strong>Correct:</strong> Facilitate a retrospective experiment: have the team track time savings vs. review time for two sprints to gather data.
+- <strong>Distractor 1:</strong> Discontinue the tool immediately based on the team's feedback.
+- <strong>Distractor 2:</strong> Arrange for additional training to help the team use the tool more effectively.
+- <strong>Distractor 3:</strong> Report to management that the tool is working as intended and the team needs more time to adapt.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -475,18 +475,18 @@ What is the **BEST** response?
 
 ### Question 17
 
-**Enabler:** Assess organizational culture | **Methodology:** Agile
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A product owner from a traditional marketing background is struggling with the Agile concept of "fail fast." They refuse to approve any feature for a sprint unless it is "perfect" and "fully validated," causing bottlenecks in the flow. The development team is frustrated.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** coaching approach?
 
-- **Correct:** Explain that in Agile, "perfection" is achieved through iteration, not upfront gates, and offer to run a small experiment to demonstrate.
-- **Distractor 1:** Escalate to the agile coach to override the Product Owner's gating behavior.
-- **Distractor 2:** Allow the Product Owner to continue their approach to maintain relationship harmony.
-- **Distractor 3:** Have the team work on backlog items in secret and demo them once they're complete to avoid friction.
+- <strong>Correct:</strong> Explain that in Agile, "perfection" is achieved through iteration, not upfront gates, and offer to run a small experiment to demonstrate.
+- <strong>Distractor 1:</strong> Escalate to the agile coach to override the Product Owner's gating behavior.
+- <strong>Distractor 2:</strong> Allow the Product Owner to continue their approach to maintain relationship harmony.
+- <strong>Distractor 3:</strong> Have the team work on backlog items in secret and demo them once they're complete to avoid friction.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -504,18 +504,18 @@ What is the **BEST** coaching approach?
 
 ### Question 18
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Agile
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is rolling out a new feature to users incrementally. After the first iteration, user adoption is 20% of expected, and feedback indicates confusion about the feature's purpose. The team had assumed users would understand the feature because they participated in backlog refinement.
 
-**Question:**
+<strong>Question:</strong>
 What is the **MOST LIKELY** cause of the adoption gap?
 
-- **Correct:** The team focused on technical implementation but neglected communication and training for end users.
-- **Distractor 1:** The feature does not solve a real user need and should be deprioritized.
-- **Distractor 2:** Users were not sufficiently involved in the design process despite refinement participation.
-- **Distractor 3:** The feature has too many bugs and requires technical fixes before adoption can occur.
+- <strong>Correct:</strong> The team focused on technical implementation but neglected communication and training for end users.
+- <strong>Distractor 1:</strong> The feature does not solve a real user need and should be deprioritized.
+- <strong>Distractor 2:</strong> Users were not sufficiently involved in the design process despite refinement participation.
+- <strong>Distractor 3:</strong> The feature has too many bugs and requires technical fixes before adoption can occur.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -533,18 +533,18 @@ What is the **MOST LIKELY** cause of the adoption gap?
 
 ### Question 19
 
-**Enabler:** Assess organizational culture | **Methodology:** Agile
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team in a risk-averse organization is prohibited from deploying to production without extensive testing and approval from a change advisory board. This causes a 3-week delay between "done" and "deployed." The team wants continuous deployment, but management cites "stability" as the priority.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** approach to bridge this gap?
 
-- **Correct:** Propose a canary release strategy where a small subset of users get the update automatically, reducing the approval scope.
-- **Distractor 1:** Push for full continuous deployment and argue that the delay is more dangerous than the risk of bugs.
-- **Distractor 2:** Accept the 3-week delay as a necessary trade-off for stability in a risk-averse culture.
-- **Distractor 3:** Bypass the change advisory board by deploying directly to production and apologizing if issues occur.
+- <strong>Correct:</strong> Propose a canary release strategy where a small subset of users get the update automatically, reducing the approval scope.
+- <strong>Distractor 1:</strong> Push for full continuous deployment and argue that the delay is more dangerous than the risk of bugs.
+- <strong>Distractor 2:</strong> Accept the 3-week delay as a necessary trade-off for stability in a risk-averse culture.
+- <strong>Distractor 3:</strong> Bypass the change advisory board by deploying directly to production and apologizing if issues occur.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -562,18 +562,18 @@ What is the **BEST** approach to bridge this gap?
 
 ### Question 20
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Agile
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is introducing Mob Programming (the whole team works on one task at a time) to a team of individualistic senior developers. The team is resisting, calling it "inefficient" and "a return to kindergarten." The project manager believes this will improve code quality and knowledge sharing.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** next step?
 
-- **Correct:** Propose a trial: use Mob Programming for one complex task, then evaluate as a team whether the benefits outweigh the costs.
-- **Distractor 1:** Mandate Mob Programming as the new team standard and address concerns during the retrospective.
-- **Distractor 2:** Abandon the idea and respect the team's preference for individual work.
-- **Distractor 3:** Bring in an external consultant to teach the team the benefits of Mob Programming.
+- <strong>Correct:</strong> Propose a trial: use Mob Programming for one complex task, then evaluate as a team whether the benefits outweigh the costs.
+- <strong>Distractor 1:</strong> Mandate Mob Programming as the new team standard and address concerns during the retrospective.
+- <strong>Distractor 2:</strong> Abandon the idea and respect the team's preference for individual work.
+- <strong>Distractor 3:</strong> Bring in an external consultant to teach the team the benefits of Mob Programming.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -591,18 +591,18 @@ What is the **BEST** next step?
 
 ### Question 21
 
-**Enabler:** Assess organizational culture | **Methodology:** Agile
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team has adopted a new AI tool for generating user stories from requirements. However, the Product Owner is rejecting most AI-generated stories because they lack nuance and context. The developers argue that the AI saves time, but the Product Owner says they spend more time rewriting than if they wrote from scratch.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to resolve this?
 
-- **Correct:** Co-create a prompt template with the Product Owner that includes the context and nuance they expect.
-- **Distractor 1:** Discontinue the AI tool and revert to manual story creation.
-- **Distractor 2:** Have developers refine the AI stories before presenting them to the Product Owner.
-- **Distractor 3:** Train the AI on past accepted user stories to learn the Product Owner's preferences.
+- <strong>Correct:</strong> Co-create a prompt template with the Product Owner that includes the context and nuance they expect.
+- <strong>Distractor 1:</strong> Discontinue the AI tool and revert to manual story creation.
+- <strong>Distractor 2:</strong> Have developers refine the AI stories before presenting them to the Product Owner.
+- <strong>Distractor 3:</strong> Train the AI on past accepted user stories to learn the Product Owner's preferences.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -620,18 +620,18 @@ What is the **BEST** way to resolve this?
 
 ### Question 22
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Agile
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is transitioning from "velocity" as a primary metric to "value delivery" (outcome-based). Management is resistant because velocity is easy to measure and compare across teams. They worry that "value" is subjective and cannot be tracked.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** response to management's concern?
 
-- **Correct:** Propose a set of leading and lagging indicators (e.g., user satisfaction, feature usage, business KPIs) that make value measurable.
-- **Distractor 1:** Agree to track both velocity and value to satisfy management's need for certainty.
-- **Distractor 2:** Explain that Agile principles de-emphasize metrics and encourage management to trust the teams.
-- **Distractor 3:** Continue tracking velocity internally but don't report it, focusing all external communication on value.
+- <strong>Correct:</strong> Propose a set of leading and lagging indicators (e.g., user satisfaction, feature usage, business KPIs) that make value measurable.
+- <strong>Distractor 1:</strong> Agree to track both velocity and value to satisfy management's need for certainty.
+- <strong>Distractor 2:</strong> Explain that Agile principles de-emphasize metrics and encourage management to trust the teams.
+- <strong>Distractor 3:</strong> Continue tracking velocity internally but don't report it, focusing all external communication on value.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -649,18 +649,18 @@ What is the **BEST** response to management's concern?
 
 ### Question 23
 
-**Enabler:** Assess organizational culture | **Methodology:** Agile
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is rolling out an agile project management tool (Jira) to a team that currently uses a whiteboard and sticky notes. The team loves their physical board and is resisting the digital tool, saying it adds overhead and reduces visibility.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** approach to drive adoption?
 
-- **Correct:** Use the digital tool for remote team members and reporting, but keep the physical board for daily standups.
-- **Distractor 1:** Remove the physical whiteboard to force the team to use the digital tool.
-- **Distractor 2:** Allow the team to continue using the physical board and manually enter data into the digital tool for reporting.
-- **Distractor 3:** Mandate that all work must be tracked in the digital tool to satisfy audit requirements.
+- <strong>Correct:</strong> Use the digital tool for remote team members and reporting, but keep the physical board for daily standups.
+- <strong>Distractor 1:</strong> Remove the physical whiteboard to force the team to use the digital tool.
+- <strong>Distractor 2:</strong> Allow the team to continue using the physical board and manually enter data into the digital tool for reporting.
+- <strong>Distractor 3:</strong> Mandate that all work must be tracked in the digital tool to satisfy audit requirements.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -678,18 +678,18 @@ What is the **BEST** approach to drive adoption?
 
 ### Question 24
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Agile
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team's Product Owner is leaving and will be replaced by someone from a traditional project management background. The team is concerned that the new PO will not understand the role and will revert to command-and-control behavior.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** preparation activity?
 
-- **Correct:** Create a transition playbook and schedule shadowing sessions where the new PO observes before taking over.
-- **Distractor 1:** Request that the organization hire an external candidate with Agile Product Owner certification instead.
-- **Distractor 2:** Have the team create a detailed list of "command-and-control behaviors" to avoid and share it with the new PO.
-- **Distractor 3:** Assign the Scrum Master to closely monitor the new PO's behavior and intervene if necessary.
+- <strong>Correct:</strong> Create a transition playbook and schedule shadowing sessions where the new PO observes before taking over.
+- <strong>Distractor 1:</strong> Request that the organization hire an external candidate with Agile Product Owner certification instead.
+- <strong>Distractor 2:</strong> Have the team create a detailed list of "command-and-control behaviors" to avoid and share it with the new PO.
+- <strong>Distractor 3:</strong> Assign the Scrum Master to closely monitor the new PO's behavior and intervene if necessary.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -707,18 +707,18 @@ What is the **BEST** preparation activity?
 
 ### Question 25
 
-**Enabler:** Assess organizational culture | **Methodology:** Agile
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is using an AI chatbot to answer routine questions from stakeholders, freeing up the team to focus on work. However, some long-time stakeholders are offended, saying "I can't believe you're making me talk to a robot instead of a person."
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to handle this stakeholder resistance?
 
-- **Correct:** Offer these stakeholders a direct communication channel while explaining that the chatbot allows faster responses for routine queries.
-- **Distractor 1:** Explain to stakeholders that the chatbot is the new process and they need to adapt like everyone else.
-- **Distractor 2:** Disable the chatbot and revert to the previous communication approach to avoid offending stakeholders.
-- **Distractor 3:** Require the team to personally respond to all stakeholder questions regardless of the channel used.
+- <strong>Correct:</strong> Offer these stakeholders a direct communication channel while explaining that the chatbot allows faster responses for routine queries.
+- <strong>Distractor 1:</strong> Explain to stakeholders that the chatbot is the new process and they need to adapt like everyone else.
+- <strong>Distractor 2:</strong> Disable the chatbot and revert to the previous communication approach to avoid offending stakeholders.
+- <strong>Distractor 3:</strong> Require the team to personally respond to all stakeholder questions regardless of the channel used.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -736,18 +736,18 @@ What is the **BEST** way to handle this stakeholder resistance?
 
 ### Question 26
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Agile
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is adopting pair programming as a practice. Half the team loves it; the other half hates it, saying it's exhausting and they prefer "flow state" solo work. The team is divided and morale is dropping.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to resolve this?
 
-- **Correct:** Make pair programming optional by task type: pair on complex tasks, solo on routine work.
-- **Distractor 1:** Take a vote and if the majority opposes pair programming, discontinue the practice.
-- **Distractor 2:** Mandate pair programming 100% of the time and address morale issues in coaching sessions.
-- **Distractor 3:** Split the team into two sub-teams: one that pairs, one that doesn't.
+- <strong>Correct:</strong> Make pair programming optional by task type: pair on complex tasks, solo on routine work.
+- <strong>Distractor 1:</strong> Take a vote and if the majority opposes pair programming, discontinue the practice.
+- <strong>Distractor 2:</strong> Mandate pair programming 100% of the time and address morale issues in coaching sessions.
+- <strong>Distractor 3:</strong> Split the team into two sub-teams: one that pairs, one that doesn't.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -765,18 +765,18 @@ What is the **BEST** way to resolve this?
 
 ### Question 27
 
-**Enabler:** Assess organizational culture | **Methodology:** Agile
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is introducing the concept of "fail fast" to a team in a blame-oriented culture where mistakes are punished. During a retrospective, a team member admits to a bug that caused a production issue. Immediately after, the manager starts a "root cause analysis" that feels punitive.
 
-**Question:**
+<strong>Question:</strong>
 What is the **MOST LIKELY** impact on the team's psychological safety?
 
-- **Correct:** The team will become more risk-averse and hide mistakes in the future.
-- **Distractor 1:** The team will appreciate the focus on process improvement and embrace the learning opportunity.
-- **Distractor 2:** The team will request clearer guidelines on what constitutes a "punishable" mistake.
-- **Distractor 3:** The team will separate "process failures" (blameless) from "competence failures" (punishable).
+- <strong>Correct:</strong> The team will become more risk-averse and hide mistakes in the future.
+- <strong>Distractor 1:</strong> The team will appreciate the focus on process improvement and embrace the learning opportunity.
+- <strong>Distractor 2:</strong> The team will request clearer guidelines on what constitutes a "punishable" mistake.
+- <strong>Distractor 3:</strong> The team will separate "process failures" (blameless) from "competence failures" (punishable).
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -794,18 +794,18 @@ What is the **MOST LIKELY** impact on the team's psychological safety?
 
 ### Question 28
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Agile
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is transitioning from estimating in "hours" to estimating in "story points." Several team members are resisting, arguing that story points are "abstract nonsense" and they prefer "real hours" because they can't plan their personal time with points.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** response to this concern?
 
-- **Correct:** Explain that story points are for team capacity planning, not personal scheduling, and help the team translate velocity to calendar dates for release planning.
-- **Distractor 1:** Allow team members to estimate in hours and convert to story points for consistency.
-- **Distractor 2:** Mandate story points as the Agile standard and address the concern in training.
-- **Distractor 3:** Abandon story points and revert to hours to accommodate the team's preference.
+- <strong>Correct:</strong> Explain that story points are for team capacity planning, not personal scheduling, and help the team translate velocity to calendar dates for release planning.
+- <strong>Distractor 1:</strong> Allow team members to estimate in hours and convert to story points for consistency.
+- <strong>Distractor 2:</strong> Mandate story points as the Agile standard and address the concern in training.
+- <strong>Distractor 3:</strong> Abandon story points and revert to hours to accommodate the team's preference.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -823,18 +823,18 @@ What is the **BEST** response to this concern?
 
 ### Question 29
 
-**Enabler:** Assess organizational culture | **Methodology:** Agile
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is working with a distributed agile team across three time zones. The team resists daily standups, saying they are "useless" because team members overlap for only 2 hours and asynchronous updates would be more efficient.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** approach?
 
-- **Correct:** Trial an asynchronous standup format (Slack/Jira) for two sprints, then evaluate as a team.
-- **Distractor 1:** Mandate video standups during the 2-hour overlap window to preserve team cohesion.
-- **Distractor 2:** Discontinue daily standups and rely on backlog refinement and sprint reviews for synchronization.
-- **Distractor 3:** Rotate the standup time so each time zone shares the inconvenience equally.
+- <strong>Correct:</strong> Trial an asynchronous standup format (Slack/Jira) for two sprints, then evaluate as a team.
+- <strong>Distractor 1:</strong> Mandate video standups during the 2-hour overlap window to preserve team cohesion.
+- <strong>Distractor 2:</strong> Discontinue daily standups and rely on backlog refinement and sprint reviews for synchronization.
+- <strong>Distractor 3:</strong> Rotate the standup time so each time zone shares the inconvenience equally.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -852,18 +852,18 @@ What is the **BEST** approach?
 
 ### Question 30
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Agile
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is adopting a "shift-left" testing approach where developers write tests before code. The QA team is resisting, saying "this is our job, not yours" and they feel threatened that developers are encroaching on their role.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to address the QA team's concern?
 
-- **Correct:** Reframe the change: developers handle unit testing, QA focuses on higher-value integration and exploratory testing.
-- **Distractor 1:** Explain that shift-left is an industry standard and QA needs to adapt or risk obsolescence.
-- **Distractor 2:** Abandon shift-left testing and preserve the traditional handoff model.
-- **Distractor 3:** Assign QA team members to become developers to ensure consistency in testing practices.
+- <strong>Correct:</strong> Reframe the change: developers handle unit testing, QA focuses on higher-value integration and exploratory testing.
+- <strong>Distractor 1:</strong> Explain that shift-left is an industry standard and QA needs to adapt or risk obsolescence.
+- <strong>Distractor 2:</strong> Abandon shift-left testing and preserve the traditional handoff model.
+- <strong>Distractor 3:</strong> Assign QA team members to become developers to ensure consistency in testing practices.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -883,18 +883,18 @@ What is the **BEST** way to address the QA team's concern?
 
 ### Question 31
 
-**Enabler:** Assess organizational culture | **Methodology:** Hybrid
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project has a predictive hardware component and an agile software component. The hardware team works in quarterly milestones, while the software team works in 2-week sprints. The hardware team is frustrated that software keeps changing requirements late in the milestone, making it impossible to freeze hardware specs.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** approach to resolve this integration conflict?
 
-- **Correct:** Establish a synchronization point where software commits to requirements 4 weeks before each hardware milestone.
-- **Distractor 1:** Require the software team to switch to quarterly milestones to align with hardware.
-- **Distractor 2:** Require the hardware team to adopt agile practices and work in 2-week sprints.
-- **Distractor 3:** Escalate the conflict to the project sponsor to decide which methodology takes precedence.
+- <strong>Correct:</strong> Establish a synchronization point where software commits to requirements 4 weeks before each hardware milestone.
+- <strong>Distractor 1:</strong> Require the software team to switch to quarterly milestones to align with hardware.
+- <strong>Distractor 2:</strong> Require the hardware team to adopt agile practices and work in 2-week sprints.
+- <strong>Distractor 3:</strong> Escalate the conflict to the project sponsor to decide which methodology takes precedence.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -912,18 +912,18 @@ What is the **BEST** approach to resolve this integration conflict?
 
 ### Question 32
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Hybrid
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project involves replacing a legacy system in phases. Phase 1 (Agile) will replace the reporting module. Phase 2 (Predictive) will replace the core transaction engine. Users are thrilled with Phase 1's flexibility but are now resistant to Phase 2, saying "Why can't the whole project be like Phase 1?"
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** explanation for the hybrid approach?
 
-- **Correct:** Explain that different components carry different risks: reporting tolerates iteration, but the transaction engine requires stability and formal controls.
-- **Distractor 1:** Acknowledge that Phase 2 could also be agile and offer to switch methodologies if users prefer.
-- **Distractor 2:** Explain that the organization's policies require predictive methodology for financial systems and this is non-negotiable.
-- **Distractor 3:** Ask users to trust the project team's expertise in selecting the appropriate methodology for each phase.
+- <strong>Correct:</strong> Explain that different components carry different risks: reporting tolerates iteration, but the transaction engine requires stability and formal controls.
+- <strong>Distractor 1:</strong> Acknowledge that Phase 2 could also be agile and offer to switch methodologies if users prefer.
+- <strong>Distractor 2:</strong> Explain that the organization's policies require predictive methodology for financial systems and this is non-negotiable.
+- <strong>Distractor 3:</strong> Ask users to trust the project team's expertise in selecting the appropriate methodology for each phase.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -941,18 +941,18 @@ What is the **BEST** explanation for the hybrid approach?
 
 ### Question 33
 
-**Enabler:** Assess organizational culture | **Methodology:** Hybrid
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is introducing AI tools in a hybrid environment. The predictive team resists, saying "Our work is too regulated for AI," while the agile team embraces it enthusiastically. The predictive team's skepticism is causing friction in joint planning sessions.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to bridge this gap?
 
-- **Correct:** Invite the predictive team to observe the agile team's AI workflow and see the safeguards in place.
-- **Distractor 1:** Require both teams to adopt AI tools to maintain consistency across the project.
-- **Distractor 2:** Allow the predictive team to opt out of AI usage to avoid conflict.
-- **Distractor 3:** Have the agile team present a ROI analysis showing the benefits of AI to convince the predictive team.
+- <strong>Correct:</strong> Invite the predictive team to observe the agile team's AI workflow and see the safeguards in place.
+- <strong>Distractor 1:</strong> Require both teams to adopt AI tools to maintain consistency across the project.
+- <strong>Distractor 2:</strong> Allow the predictive team to opt out of AI usage to avoid conflict.
+- <strong>Distractor 3:</strong> Have the agile team present a ROI analysis showing the benefits of AI to convince the predictive team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -970,18 +970,18 @@ What is the **BEST** way to bridge this gap?
 
 ### Question 34
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Hybrid
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project is implementing a new quality process. The predictive team views quality as "adhering to the documented standard," while the agile team views quality as "satisfying the customer." This disagreement is causing conflict in joint retrospectives.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to reconcile these definitions?
 
-- **Correct:** Create a quality definition with two tiers: compliance (predictive) and customer value (agile), and measure both.
-- **Distractor 1:** Choose a single definition and require both teams to align to it.
-- **Distractor 2:** Split the retrospectives into separate sessions to avoid conflict.
-- **Distractor 3:** Document both definitions and note that they are incompatible and should not be compared.
+- <strong>Correct:</strong> Create a quality definition with two tiers: compliance (predictive) and customer value (agile), and measure both.
+- <strong>Distractor 1:</strong> Choose a single definition and require both teams to align to it.
+- <strong>Distractor 2:</strong> Split the retrospectives into separate sessions to avoid conflict.
+- <strong>Distractor 3:</strong> Document both definitions and note that they are incompatible and should not be compared.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -999,18 +999,18 @@ What is the **BEST** way to reconcile these definitions?
 
 ### Question 35
 
-**Enabler:** Assess organizational culture | **Methodology:** Hybrid
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project's steering committee is accustomed to predictive milestone reports (Gantt charts, percent complete). The agile component reports using velocity and burnup charts. The committee is confused and asks, "Just give us a percent complete for the agile work."
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** response?
 
-- **Correct:** Explain that agile progress is measured in working software and value delivery, and provide a forecast of likely completion ranges based on velocity.
-- **Distractor 1:** Convert agile progress to a percent complete estimate to satisfy the committee's request.
-- **Distractor 2:** Offer a training session for the steering committee on how to read agile charts.
-- **Distractor 3:** Report only the predictive component's progress and treat agile as a separate initiative.
+- <strong>Correct:</strong> Explain that agile progress is measured in working software and value delivery, and provide a forecast of likely completion ranges based on velocity.
+- <strong>Distractor 1:</strong> Convert agile progress to a percent complete estimate to satisfy the committee's request.
+- <strong>Distractor 2:</strong> Offer a training session for the steering committee on how to read agile charts.
+- <strong>Distractor 3:</strong> Report only the predictive component's progress and treat agile as a separate initiative.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1028,18 +1028,18 @@ What is the **BEST** response?
 
 ### Question 36
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Hybrid
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project's change control process is causing bottlenecks. The predictive team submits formal change requests and waits for approval. The agile team adjusts backlog priority daily with the Product Owner. The predictive team complains that this is "unfair"—they have to wait while the agile team gets instant decisions.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to address this perception of unfairness?
 
-- **Correct:** Explain that both teams follow the same governance: agile changes are constrained by timebox and budget, just as predictive changes are constrained by the change control board.
-- **Distractor 1:** Require the agile team to submit change requests for the change control board to maintain consistency.
-- **Distractor 2:** Allow the predictive team to make changes within a contingency budget without board approval.
-- **Distractor 3:** Document the difference as a methodology-based distinction and note that fairness is not applicable.
+- <strong>Correct:</strong> Explain that both teams follow the same governance: agile changes are constrained by timebox and budget, just as predictive changes are constrained by the change control board.
+- <strong>Distractor 1:</strong> Require the agile team to submit change requests for the change control board to maintain consistency.
+- <strong>Distractor 2:</strong> Allow the predictive team to make changes within a contingency budget without board approval.
+- <strong>Distractor 3:</strong> Document the difference as a methodology-based distinction and note that fairness is not applicable.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1057,18 +1057,18 @@ What is the **BEST** way to address this perception of unfairness?
 
 ### Question 37
 
-**Enabler:** Assess organizational culture | **Methodology:** Hybrid
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project's retrospective includes members from both predictive and agile teams. The predictive team members are silent during the retro, saying later, "We're not allowed to discuss problems without management approval." The agile team members are frustrated by this lack of candor.
 
-**Question:**
+<strong>Question:</strong>
 What is the **ROOT CAUSE** of this dysfunction?
 
-- **Correct:** The predictive team's organizational culture is hierarchical and permission-based, conflicting with retrospective transparency.
-- **Distractor 1:** The retrospective format is not designed to accommodate hybrid team participation.
-- **Distractor 2:** The predictive team members have not been trained on agile ceremony norms.
-- **Distractor 3:** The facilitator is not creating psychological safety for the predictive team members.
+- <strong>Correct:</strong> The predictive team's organizational culture is hierarchical and permission-based, conflicting with retrospective transparency.
+- <strong>Distractor 1:</strong> The retrospective format is not designed to accommodate hybrid team participation.
+- <strong>Distractor 2:</strong> The predictive team members have not been trained on agile ceremony norms.
+- <strong>Distractor 3:</strong> The facilitator is not creating psychological safety for the predictive team members.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1086,18 +1086,18 @@ What is the **ROOT CAUSE** of this dysfunction?
 
 ### Question 38
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Hybrid
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project involves a predictive construction phase and an agile software configuration phase. The construction team is frustrated that the software team keeps "experimenting" with UI changes, saying "Pick a design and stick to it—we can't reframe a building every 2 weeks."
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** response to the construction team's concern?
 
-- **Correct:** Establish that UI experiments are limited to screen-based changes; structural assumptions are locked after architectural approval.
-- **Distractor 1:** Require the software team to freeze all UI changes once construction begins to align with the predictive timeline.
-- **Distractor 2:** Explain that software's malleability is an advantage, not a flaw, and the construction team needs to accept this difference.
-- **Distractor 3:** Separate the projects entirely so that software changes don't impact construction planning.
+- <strong>Correct:</strong> Establish that UI experiments are limited to screen-based changes; structural assumptions are locked after architectural approval.
+- <strong>Distractor 1:</strong> Require the software team to freeze all UI changes once construction begins to align with the predictive timeline.
+- <strong>Distractor 2:</strong> Explain that software's malleability is an advantage, not a flaw, and the construction team needs to accept this difference.
+- <strong>Distractor 3:</strong> Separate the projects entirely so that software changes don't impact construction planning.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1115,18 +1115,18 @@ What is the **BEST** response to the construction team's concern?
 
 ### Question 39
 
-**Enabler:** Assess organizational culture | **Methodology:** Hybrid
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is rolling out a unified project management tool across a hybrid program. The predictive team wants Gantt charts; the agile team wants Kanban boards; the tool supports both, but they use different data models. When reports are combined, data is inconsistent.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** approach?
 
-- **Correct:** Create a unified reporting layer that aggregates data from both methodologies into a common dashboard.
-- **Distractor 1:** Require both teams to use the same data model (either all Gantt or all Kanban) for consistency.
-- **Distractor 2:** Produce separate reports for each methodology and include both in the executive pack.
-- **Distractor 3:** Abandon the unified tool and let each team use their preferred tooling.
+- <strong>Correct:</strong> Create a unified reporting layer that aggregates data from both methodologies into a common dashboard.
+- <strong>Distractor 1:</strong> Require both teams to use the same data model (either all Gantt or all Kanban) for consistency.
+- <strong>Distractor 2:</strong> Produce separate reports for each methodology and include both in the executive pack.
+- <strong>Distractor 3:</strong> Abandon the unified tool and let each team use their preferred tooling.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1144,18 +1144,18 @@ What is the **BEST** approach?
 
 ### Question 40
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Hybrid
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project's risk management process is inconsistent. The predictive team maintains a detailed risk register with quantitative analysis (Monte Carlo). The agile team manages risks visually on a board and discusses them daily in standup. The project sponsor is asking, "Which one is right?"
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** answer?
 
-- **Correct:** Explain that both are right for their context: predictive risks require quantitative analysis for large, one-time decisions; agile risks require rapid response through frequent inspection.
-- **Distractor 1:** Adopt the predictive team's approach as the official risk management process and require the agile team to conform.
-- **Distractor 2:** Adopt the agile team's approach as the official process and require the predictive team to conform.
-- **Distractor 3:** Merge the two approaches into a single process that satisfies both teams' needs.
+- <strong>Correct:</strong> Explain that both are right for their context: predictive risks require quantitative analysis for large, one-time decisions; agile risks require rapid response through frequent inspection.
+- <strong>Distractor 1:</strong> Adopt the predictive team's approach as the official risk management process and require the agile team to conform.
+- <strong>Distractor 2:</strong> Adopt the agile team's approach as the official process and require the predictive team to conform.
+- <strong>Distractor 3:</strong> Merge the two approaches into a single process that satisfies both teams' needs.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1173,18 +1173,18 @@ What is the **BEST** answer?
 
 ### Question 41
 
-**Enabler:** Assess organizational culture | **Methodology:** Hybrid
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is transitioning a team from purely predictive to hybrid. Several long-time predictive team members are resisting the agile components, saying "We've delivered successfully for 15 years without these ceremonies. Why change what works?"
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** response to leverage their experience?
 
-- **Correct:** Acknowledge their success and ask them to help identify which predictive practices should be preserved in the hybrid model.
-- **Distractor 1:** Explain that the industry has moved on and the team must adapt to remain relevant.
-- **Distractor 2:** Share case studies of teams that improved performance after adopting hybrid practices.
-- **Distractor 3:** Assign the resistors as "agile mentors" to force them to learn the new practices by teaching them.
+- <strong>Correct:</strong> Acknowledge their success and ask them to help identify which predictive practices should be preserved in the hybrid model.
+- <strong>Distractor 1:</strong> Explain that the industry has moved on and the team must adapt to remain relevant.
+- <strong>Distractor 2:</strong> Share case studies of teams that improved performance after adopting hybrid practices.
+- <strong>Distractor 3:</strong> Assign the resistors as "agile mentors" to force them to learn the new practices by teaching them.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1202,18 +1202,18 @@ What is the **BEST** response to leverage their experience?
 
 ### Question 42
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Hybrid
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project's stakeholders are confused about who has decision authority. The predictive team says "The sponsor decides." The agile team says "The Product Owner decides." When both claim authority over the same decision, they conflict.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to prevent this conflict?
 
-- **Correct:** Create a decision rights matrix that specifies which types of decisions are made by which role in each methodology.
-- **Distractor 1:** Establish a hierarchy: the sponsor has final authority over all decisions, and the Product Owner operates within those boundaries.
-- **Distractor 2:** Establish that predictive decisions follow the sponsor and agile decisions follow the Product Owner, and never the twain shall meet.
-- **Distractor 3:** Require the sponsor and Product Owner to meet weekly and align on all decisions in advance.
+- <strong>Correct:</strong> Create a decision rights matrix that specifies which types of decisions are made by which role in each methodology.
+- <strong>Distractor 1:</strong> Establish a hierarchy: the sponsor has final authority over all decisions, and the Product Owner operates within those boundaries.
+- <strong>Distractor 2:</strong> Establish that predictive decisions follow the sponsor and agile decisions follow the Product Owner, and never the twain shall meet.
+- <strong>Distractor 3:</strong> Require the sponsor and Product Owner to meet weekly and align on all decisions in advance.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1231,18 +1231,18 @@ What is the **BEST** way to prevent this conflict?
 
 ### Question 43
 
-**Enabler:** Assess organizational culture | **Methodology:** Hybrid
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project uses contractors for the predictive component and employees for the agile component. The contractors bill hourly, so scope changes directly impact cost. The agile team (employees) views scope as flexible and adjusts frequently. The finance department is concerned about cost overruns from "agile creep."
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to address finance's concern?
 
-- **Correct:** Establish that agile scope changes within the timebox are cost-neutral (contractors finish other work or are idle), and only timebox extensions incur additional cost.
-- **Distractor 1:** Freeze scope at the beginning of each timebox to prevent cost variances.
-- **Distractor 2:** Require the agile team to get finance approval for any backlog reprioritization.
-- **Distractor 3:** Move all contractors to fixed-fee contracts to eliminate hourly billing exposure.
+- <strong>Correct:</strong> Establish that agile scope changes within the timebox are cost-neutral (contractors finish other work or are idle), and only timebox extensions incur additional cost.
+- <strong>Distractor 1:</strong> Freeze scope at the beginning of each timebox to prevent cost variances.
+- <strong>Distractor 2:</strong> Require the agile team to get finance approval for any backlog reprioritization.
+- <strong>Distractor 3:</strong> Move all contractors to fixed-fee contracts to eliminate hourly billing exposure.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1260,18 +1260,18 @@ What is the **BEST** way to address finance's concern?
 
 ### Question 44
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Hybrid
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project's communication plan is failing. The predictive team publishes monthly status reports. The agile team shares updates via daily standups and sprint reviews. Stakeholders who rely on the monthly reports say they "have no idea what the agile team is doing."
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** solution?
 
-- **Correct:** Add an agile summary section to the monthly status report that highlights completed features, upcoming work, and impediments.
-- **Distractor 1:** Require the agile team to present at the monthly steering committee meeting alongside the predictive team.
-- **Distractor 2:** Invite stakeholders to attend sprint reviews so they can hear agile updates directly.
-- **Distractor 3:** Create a separate monthly agile report and distribute it to stakeholders alongside the predictive report.
+- <strong>Correct:</strong> Add an agile summary section to the monthly status report that highlights completed features, upcoming work, and impediments.
+- <strong>Distractor 1:</strong> Require the agile team to present at the monthly steering committee meeting alongside the predictive team.
+- <strong>Distractor 2:</strong> Invite stakeholders to attend sprint reviews so they can hear agile updates directly.
+- <strong>Distractor 3:</strong> Create a separate monthly agile report and distribute it to stakeholders alongside the predictive report.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1289,18 +1289,18 @@ What is the **BEST** solution?
 
 ### Question 45
 
-**Enabler:** Assess organizational culture | **Methodology:** Hybrid
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is introducing an AI code review tool in a hybrid environment. The predictive team (regulated work) resists, saying "We need human reviewers for compliance." The agile team (unregulated work) embraces it. The project manager wants consistency across the project.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** approach?
 
-- **Correct:** Use AI as a first-pass reviewer for both teams, but require a human sign-off for the predictive team's compliance-critical code.
-- **Distractor 1:** Apply the same process to both teams: either all-AI or all-human review, for consistency.
-- **Distractor 2:** Allow each team to choose their own review approach based on their comfort level.
-- **Distractor 3:** Require the predictive team to demonstrate that human review catches more issues than AI before allowing them to opt out.
+- <strong>Correct:</strong> Use AI as a first-pass reviewer for both teams, but require a human sign-off for the predictive team's compliance-critical code.
+- <strong>Distractor 1:</strong> Apply the same process to both teams: either all-AI or all-human review, for consistency.
+- <strong>Distractor 2:</strong> Allow each team to choose their own review approach based on their comfort level.
+- <strong>Distractor 3:</strong> Require the predictive team to demonstrate that human review catches more issues than AI before allowing them to opt out.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1318,18 +1318,18 @@ What is the **BEST** approach?
 
 ### Question 46
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Hybrid
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project's scope management is misaligned. The predictive team manages scope through a formal change control board. The agile team manages scope through backlog prioritization with the Product Owner. A stakeholder submits a change request that affects both teams, and the two processes give different answers.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to handle cross-team change requests?
 
-- **Correct:** Route cross-team changes through a integrated governance process where the CCB and Product Owner coordinate.
-- **Distractor 1:** Establish that the CCB has final authority over all changes, including agile backlog changes.
-- **Distractor 2:** Establish that the Product Owner has final authority over all changes, and the CCB is advisory.
-- **Distractor 3:** Reject cross-team changes to avoid conflicts between the two governance processes.
+- <strong>Correct:</strong> Route cross-team changes through a integrated governance process where the CCB and Product Owner coordinate.
+- <strong>Distractor 1:</strong> Establish that the CCB has final authority over all changes, including agile backlog changes.
+- <strong>Distractor 2:</strong> Establish that the Product Owner has final authority over all changes, and the CCB is advisory.
+- <strong>Distractor 3:</strong> Reject cross-team changes to avoid conflicts between the two governance processes.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1347,18 +1347,18 @@ What is the **BEST** way to handle cross-team change requests?
 
 ### Question 47
 
-**Enabler:** Assess organizational culture | **Methodology:** Hybrid
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project involves a predictive safety-critical component and an agile user-experience component. The safety team's culture is "document everything" and "never deviate from procedure." The UX team's culture is "try it and see." These cultures are clashing in joint design reviews.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to facilitate collaboration?
 
-- **Correct:** Separate the reviews: first, a safety review to ensure non-negotiable requirements are met; second, a UX review to optimize within those constraints.
-- **Distractor 1:** Require the UX team to adopt safety culture practices (checklists, documentation) to build trust.
-- **Distractor 2:** Require the safety team to adopt agile practices (prototyping, iteration) to build trust.
-- **Distractor 3:** Rotate team members through each other's disciplines to build empathy and understanding.
+- <strong>Correct:</strong> Separate the reviews: first, a safety review to ensure non-negotiable requirements are met; second, a UX review to optimize within those constraints.
+- <strong>Distractor 1:</strong> Require the UX team to adopt safety culture practices (checklists, documentation) to build trust.
+- <strong>Distractor 2:</strong> Require the safety team to adopt agile practices (prototyping, iteration) to build trust.
+- <strong>Distractor 3:</strong> Rotate team members through each other's disciplines to build empathy and understanding.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1376,18 +1376,18 @@ What is the **BEST** way to facilitate collaboration?
 
 ### Question 48
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Hybrid
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project's performance measurement is inconsistent. The predictive component is measured against "on time, on budget" (planned value, earned value). The agile component is measured against "customer satisfaction" and "working software." Executives are asking, "Which team is performing better?"
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** response?
 
-- **Correct:** Explain that the components have different measurement systems because they optimize for different outcomes (predictability vs. adaptability).
-- **Distractor 1:** Convert both teams' performance to a common metric like ROI to enable comparison.
-- **Distractor 2:** Report that both teams are meeting their respective targets and therefore both are performing well.
-- **Distractor 3:** Adopt a single measurement system for the entire project to ensure comparability.
+- <strong>Correct:</strong> Explain that the components have different measurement systems because they optimize for different outcomes (predictability vs. adaptability).
+- <strong>Distractor 1:</strong> Convert both teams' performance to a common metric like ROI to enable comparison.
+- <strong>Distractor 2:</strong> Report that both teams are meeting their respective targets and therefore both are performing well.
+- <strong>Distractor 3:</strong> Adopt a single measurement system for the entire project to ensure comparability.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1405,18 +1405,18 @@ What is the **BEST** response?
 
 ### Question 49
 
-**Enabler:** Assess organizational culture | **Methodology:** Hybrid
+<strong>Enabler:</strong> Assess organizational culture | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is rolling out a knowledge sharing platform in a hybrid program. The predictive team prefers documented wikis and procedures. The agile team prefers video recordings of demos and narrative discussions. Both teams are resisting the other's preferred format.
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** approach?
 
-- **Correct:** Support both formats and let users choose based on their learning style and the nature of the content.
-- **Distractor 1:** Standardize on wikis for documentation and videos for demos, and require each team to use the appropriate format.
-- **Distractor 2:** Standardize on one format across the program to maintain consistency.
-- **Distractor 3:** Conduct a survey and adopt the format preferred by the majority of users.
+- <strong>Correct:</strong> Support both formats and let users choose based on their learning style and the nature of the content.
+- <strong>Distractor 1:</strong> Standardize on wikis for documentation and videos for demos, and require each team to use the appropriate format.
+- <strong>Distractor 2:</strong> Standardize on one format across the program to maintain consistency.
+- <strong>Distractor 3:</strong> Conduct a survey and adopt the format preferred by the majority of users.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1434,18 +1434,18 @@ What is the **BEST** approach?
 
 ### Question 50
 
-**Enabler:** Evaluate the impact of organizational change | **Methodology:** Hybrid
+<strong>Enabler:</strong> Evaluate the impact of organizational change | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project is concluding. The predictive component requires formal sign-off from the sponsor against the baseline. The agile component has no baseline, only a product backlog that evolved. The sponsor is asking, "How do I know the agile part is done?"
 
-**Question:**
+<strong>Question:</strong>
 What is the **BEST** way to frame agile completion?
 
-- **Correct:** Report that the agile component delivered the highest-value features within the budget and timeline, and list the delivered capabilities.
-- **Distractor 1:** Explain that agile projects don't have a "done" state, only a "stopped" state when funding ends.
-- **Distractor 2:** Create a retroactive baseline from the initial backlog and report variance against it.
-- **Distractor 3:** Ask the sponsor to define acceptance criteria and retroactively apply them to what was delivered.
+- <strong>Correct:</strong> Report that the agile component delivered the highest-value features within the budget and timeline, and list the delivered capabilities.
+- <strong>Distractor 1:</strong> Explain that agile projects don't have a "done" state, only a "stopped" state when funding ends.
+- <strong>Distractor 2:</strong> Create a retroactive baseline from the initial backlog and report variance against it.
+- <strong>Distractor 3:</strong> Ask the sponsor to define acceptance criteria and retroactively apply them to what was delivered.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1478,7 +1478,7 @@ What is the **BEST** way to frame agile completion?
 | **Agile** | 18 (Questions 13-30) | 36% |
 | **Hybrid** | 20 (Questions 31-50) | 40% |
 
-**Note:** The actual distribution shifted slightly from the target (40% Predictive, 35% Agile, 25% Hybrid) to better reflect the complexity of hybrid change management scenarios in modern organizations.
+<strong>Note:</strong> The actual distribution shifted slightly from the target (40% Predictive, 35% Agile, 25% Hybrid) to better reflect the complexity of hybrid change management scenarios in modern organizations.
 
 ---
 
@@ -1495,7 +1495,7 @@ When stakeholders resist, identify which ADKAR element is blocked:
 - **Ability** gap? → Coaching, practice, support
 - **Reinforcement** gap? → Recognition, remove old options (Questions 11, 21)
 
-**Critical Insight:** Training solves K and A, but cannot solve D. Motivation requires different interventions.
+<strong>Critical Insight:</strong> Training solves K and A, but cannot solve D. Motivation requires different interventions.
 
 ### 3. **Agile Change Is Iterative, Not Big Bang**
 In Agile environments, change happens through continuous feedback, demos, and iteration. Stakeholders see the tool every sprint, so resistance is caught early. Use experiments (Spikes) to validate approaches before full rollout. (Questions 14, 16, 19)

@@ -32,18 +32,18 @@
 
 ### Question 1
 
-**Enabler:** Define scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 The project manager for a large-scale office renovation is finalizing the project scope statement. During a meeting with the building owner, it becomes clear that there is a misunderstanding regarding the installation of advanced smart-lighting systems. The owner believes it is included, while the project manager's initial draft excludes it to stay within the current budget.
 
-**Question:**
+<strong>Question:</strong>
 What should be the project manager's next step to ensure the scope is properly defined and managed?
 
-- **Correct:** Document the smart-lighting system as an explicit exclusion in the project scope statement and initiate a formal change request to include it if the owner provides additional funding.
-- **Distractor 1:** Proceed with the installation as requested by the owner to maintain a positive stakeholder relationship, then look for cost savings in other work packages.
-- **Distractor 2:** Update the Work Breakdown Structure (WBS) immediately to include the smart-lighting work packages and adjust the cost baseline accordingly.
-- **Distractor 3:** Refer the owner to the project charter to prove that the smart-lighting system was not part of the initial high-level objectives.
+- <strong>Correct:</strong> Document the smart-lighting system as an explicit exclusion in the project scope statement and initiate a formal change request to include it if the owner provides additional funding.
+- <strong>Distractor 1:</strong> Proceed with the installation as requested by the owner to maintain a positive stakeholder relationship, then look for cost savings in other work packages.
+- <strong>Distractor 2:</strong> Update the Work Breakdown Structure (WBS) immediately to include the smart-lighting work packages and adjust the cost baseline accordingly.
+- <strong>Distractor 3:</strong> Refer the owner to the project charter to prove that the smart-lighting system was not part of the initial high-level objectives.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -61,18 +61,18 @@ What should be the project manager's next step to ensure the scope is properly d
 
 ### Question 2
 
-**Enabler:** Break down scope | **Methodology:** Agile
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is working on a new expense management application. During the sprint planning session, the team realizes that a user story related to "Multi-currency support" is too large to fit into the upcoming two-week sprint and lacks specific details on which currencies are prioritized.
 
-**Question:**
+<strong>Question:</strong>
 How should the team and the Product Owner handle this situation?
 
-- **Correct:** Decompose the epic into smaller, independent user stories that follow the INVEST criteria and prioritize the most valuable currencies for the next sprint.
-- **Distractor 1:** Assign the entire story to the most senior developer to ensure it is completed within the sprint timeframe regardless of its size.
-- **Distractor 2:** Move the story to the bottom of the product backlog and select a different, smaller story that is already fully defined.
-- **Distractor 3:** Increase the sprint duration to four weeks for this iteration only to allow enough time for the team to complete the complex feature.
+- <strong>Correct:</strong> Decompose the epic into smaller, independent user stories that follow the INVEST criteria and prioritize the most valuable currencies for the next sprint.
+- <strong>Distractor 1:</strong> Assign the entire story to the most senior developer to ensure it is completed within the sprint timeframe regardless of its size.
+- <strong>Distractor 2:</strong> Move the story to the bottom of the product backlog and select a different, smaller story that is already fully defined.
+- <strong>Distractor 3:</strong> Increase the sprint duration to four weeks for this iteration only to allow enough time for the team to complete the complex feature.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -90,18 +90,18 @@ How should the team and the Product Owner handle this situation?
 
 ### Question 3
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Hybrid
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a global rollout of a new HR system. The infrastructure setup follows a predictive approach with fixed milestones, while the user interface and training modules are developed using agile sprints. During a milestone review, a regional manager refuses to sign off on the scope baseline, claiming that the local regulatory requirements for data privacy were not fully addressed.
 
-**Question:**
+<strong>Question:</strong>
 What is the most appropriate action for the project manager to take?
 
-- **Correct:** Facilitate a workshop with the regional manager and the compliance team to identify the missing requirements and update the Requirements Traceability Matrix (RTM).
-- **Distractor 1:** Escalate the issue to the Project Management Office (PMO) as a project impediment that is delaying the fixed infrastructure milestones.
-- **Distractor 2:** Proceed with the current scope baseline for the infrastructure and handle the privacy requirements as user stories in the agile portion of the project.
-- **Distractor 3:** Inform the regional manager that the project charter already includes a high-level commitment to compliance, making a detailed scope change unnecessary.
+- <strong>Correct:</strong> Facilitate a workshop with the regional manager and the compliance team to identify the missing requirements and update the Requirements Traceability Matrix (RTM).
+- <strong>Distractor 1:</strong> Escalate the issue to the Project Management Office (PMO) as a project impediment that is delaying the fixed infrastructure milestones.
+- <strong>Distractor 2:</strong> Proceed with the current scope baseline for the infrastructure and handle the privacy requirements as user stories in the agile portion of the project.
+- <strong>Distractor 3:</strong> Inform the regional manager that the project charter already includes a high-level commitment to compliance, making a detailed scope change unnecessary.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -119,18 +119,18 @@ What is the most appropriate action for the project manager to take?
 
 ### Question 4
 
-**Enabler:** Break down scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team is developing the Work Breakdown Structure (WBS) for a construction project. A junior team member suggests that the team should include the daily cleaning of the site as a work package under the "Construction" phase. The Project Manager notes that while necessary, the cleaning is part of the overhead provided by the general contractor's management fee.
 
-**Question:**
+<strong>Question:</strong>
 According to the 100% rule, should the Project Manager include this cleaning work in the WBS?
 
-- **Correct:** Yes, if the cleaning is a required part of the project effort, it must be represented in the WBS, even if it is bundled into a larger management work package.
-- **Distractor 1:** No, the WBS only includes the physical deliverables of the project, not the supporting activities or overhead.
-- **Distractor 2:** No, if the work is performed by a contractor under a fixed-fee management contract, it is excluded from the project's scope baseline.
-- **Distractor 3:** Yes, but only as a separate branch outside of the "Construction" phase to distinguish between "Real Work" and "Overhead."
+- <strong>Correct:</strong> Yes, if the cleaning is a required part of the project effort, it must be represented in the WBS, even if it is bundled into a larger management work package.
+- <strong>Distractor 1:</strong> No, the WBS only includes the physical deliverables of the project, not the supporting activities or overhead.
+- <strong>Distractor 2:</strong> No, if the work is performed by a contractor under a fixed-fee management contract, it is excluded from the project's scope baseline.
+- <strong>Distractor 3:</strong> Yes, but only as a separate branch outside of the "Construction" phase to distinguish between "Real Work" and "Overhead."
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -148,18 +148,18 @@ According to the 100% rule, should the Project Manager include this cleaning wor
 
 ### Question 5
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Agile
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a Sprint Review for a software module, several stakeholders express disappointment that the current increment does not include a reporting dashboard. The Product Owner points out that the dashboard was ranked lower in the product backlog compared to the core transaction engine which was delivered in this sprint.
 
-**Question:**
+<strong>Question:</strong>
 What is the best way for the Product Owner to manage this stakeholder expectation moving forward?
 
-- **Correct:** Review the prioritized product backlog with the stakeholders to show them where the dashboard sits and discuss if its priority should be adjusted for the next sprint.
-- **Distractor 1:** Agree to include the dashboard in the very next sprint to satisfy the stakeholders, even if it means delaying other prioritized items.
-- **Distractor 2:** Explain to the stakeholders that the agile methodology focuses on team velocity and they should wait until the team has enough capacity for the dashboard.
-- **Distractor 3:** Ask the Scrum Master to facilitate a meeting between the developers and stakeholders to explain the technical complexity of the dashboard.
+- <strong>Correct:</strong> Review the prioritized product backlog with the stakeholders to show them where the dashboard sits and discuss if its priority should be adjusted for the next sprint.
+- <strong>Distractor 1:</strong> Agree to include the dashboard in the very next sprint to satisfy the stakeholders, even if it means delaying other prioritized items.
+- <strong>Distractor 2:</strong> Explain to the stakeholders that the agile methodology focuses on team velocity and they should wait until the team has enough capacity for the dashboard.
+- <strong>Distractor 3:</strong> Ask the Scrum Master to facilitate a meeting between the developers and stakeholders to explain the technical complexity of the dashboard.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -177,18 +177,18 @@ What is the best way for the Product Owner to manage this stakeholder expectatio
 
 ### Question 6
 
-**Enabler:** Break down scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is decomposing work packages for a software implementation. One specific work package, "User Interface Customization," is currently estimated to take 200 hours of effort. The project manager is concerned that this level of detail is insufficient for effective monitoring and control.
 
-**Question:**
+<strong>Question:</strong>
 What is the most appropriate action for the project manager to take?
 
-- **Correct:** Further decompose the work package into smaller, manageable components that fall within the 8-80 hour range to improve visibility and tracking.
-- **Distractor 1:** Keep the work package at 200 hours but require the developers to provide daily status updates to ensure progress is being made.
-- **Distractor 2:** Assign the 200-hour work package to a single developer to minimize communication overhead and simplify accountability.
-- **Distractor 3:** Convert the work package into a "Planning Package" to indicate that the details will be defined at a later date when more information is available.
+- <strong>Correct:</strong> Further decompose the work package into smaller, manageable components that fall within the 8-80 hour range to improve visibility and tracking.
+- <strong>Distractor 1:</strong> Keep the work package at 200 hours but require the developers to provide daily status updates to ensure progress is being made.
+- <strong>Distractor 2:</strong> Assign the 200-hour work package to a single developer to minimize communication overhead and simplify accountability.
+- <strong>Distractor 3:</strong> Convert the work package into a "Planning Package" to indicate that the details will be defined at a later date when more information is available.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -206,18 +206,18 @@ What is the most appropriate action for the project manager to take?
 
 ### Question 7
 
-**Enabler:** Define scope | **Methodology:** Hybrid
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A company is developing a new medical device. The hardware components are managed using a predictive lifecycle, while the software interface is developed using agile. During the "Collect Requirements" phase, the team identifies a conflict: the hardware requires fixed dimensions for the screen, while the software team wants a flexible, larger interface to accommodate future AI-driven features.
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager resolve this conflict to define the project scope?
 
-- **Correct:** Use a multicriteria decision analysis involving engineering and marketing stakeholders to balance technical constraints against future value, then document the decision in the scope statement.
-- **Distractor 1:** Default to the hardware team's requirements since physical changes are more expensive and should drive the software constraints in a medical device.
-- **Distractor 2:** Allow both teams to proceed with their preferred designs and use a "Middle-ware" team to reconcile the differences during the integration phase.
-- **Distractor 3:** Escalate the decision to the Product Owner to determine which feature (hardware stability or software flexibility) is more important for the project's success.
+- <strong>Correct:</strong> Use a multicriteria decision analysis involving engineering and marketing stakeholders to balance technical constraints against future value, then document the decision in the scope statement.
+- <strong>Distractor 1:</strong> Default to the hardware team's requirements since physical changes are more expensive and should drive the software constraints in a medical device.
+- <strong>Distractor 2:</strong> Allow both teams to proceed with their preferred designs and use a "Middle-ware" team to reconcile the differences during the integration phase.
+- <strong>Distractor 3:</strong> Escalate the decision to the Product Owner to determine which feature (hardware stability or software flexibility) is more important for the project's success.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -235,18 +235,18 @@ How should the Project Manager resolve this conflict to define the project scope
 
 ### Question 8
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager has completed the first draft of the Work Breakdown Structure (WBS). Before the WBS is formally baselined, the lead engineer suggests that two work packages should be combined because they will be performed by the same team. The customer, however, wants them separate to track the specific progress of each deliverable.
 
-**Question:**
+<strong>Question:</strong>
 What is the best action for the project manager to take?
 
-- **Correct:** Keep the work packages separate as requested by the customer to ensure the WBS supports the required level of reporting and deliverable tracking.
-- **Distractor 1:** Combine the work packages to satisfy the lead engineer's preference for simplified internal team management and resource allocation.
-- **Distractor 2:** Ask the lead engineer and the customer to meet and negotiate a compromise, such as a single work package with two sub-tasks.
-- **Distractor 3:** Refer the lead engineer to the 100% rule to explain that the WBS must represent all work regardless of who is performing it.
+- <strong>Correct:</strong> Keep the work packages separate as requested by the customer to ensure the WBS supports the required level of reporting and deliverable tracking.
+- <strong>Distractor 1:</strong> Combine the work packages to satisfy the lead engineer's preference for simplified internal team management and resource allocation.
+- <strong>Distractor 2:</strong> Ask the lead engineer and the customer to meet and negotiate a compromise, such as a single work package with two sub-tasks.
+- <strong>Distractor 3:</strong> Refer the lead engineer to the 100% rule to explain that the WBS must represent all work regardless of who is performing it.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -264,18 +264,18 @@ What is the best action for the project manager to take?
 
 ### Question 9
 
-**Enabler:** Break down scope | **Methodology:** Agile
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is struggling with a user story that has been in "In Progress" for three consecutive sprints. The developers explain that the story, "Complete Security Audit," is actually much more complex than they initially thought and involves multiple departments and legacy systems.
 
-**Question:**
+<strong>Question:</strong>
 What should the Scrum Master suggest to the team?
 
-- **Correct:** Break the complex story down into smaller, more granular stories such as "Audit Database Security," "Audit API Security," and "Audit User Access Control."
-- **Distractor 2:** Increase the story point estimate for the current story to reflect its true complexity and carry it over into the next sprint.
-- **Distractor 3:** Move the story back to the product backlog and wait until the team has more experience with legacy systems before attempting it again.
-- **Distractor 4:** Assign additional developers to the story to ensure it is finished by the end of the current sprint.
+- <strong>Correct:</strong> Break the complex story down into smaller, more granular stories such as "Audit Database Security," "Audit API Security," and "Audit User Access Control."
+- <strong>Distractor 2:</strong> Increase the story point estimate for the current story to reflect its true complexity and carry it over into the next sprint.
+- <strong>Distractor 3:</strong> Move the story back to the product backlog and wait until the team has more experience with legacy systems before attempting it again.
+- <strong>Distractor 4:</strong> Assign additional developers to the story to ensure it is finished by the end of the current sprint.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -293,18 +293,18 @@ What should the Scrum Master suggest to the team?
 
 ### Question 10
 
-**Enabler:** Define scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During the "Collect Requirements" phase of a software development project, the Project Manager is using the Delphi technique to reach a consensus among a group of geographically dispersed security experts regarding the mandatory encryption standards for the project.
 
-**Question:**
+<strong>Question:</strong>
 What is the primary benefit of using this specific technique for defining the project's scope requirements?
 
-- **Correct:** It reduces bias and prevents any single expert from unduly influencing the opinion of others through anonymity.
-- **Distractor 1:** It allows for a fast, real-time debate where experts can challenge each other's assumptions directly.
-- **Distractor 2:** It provides a visual representation of how different security requirements are related to each other.
-- **Distractor 3:** It ensures that the project manager has the final say in which requirements are ultimately selected.
+- <strong>Correct:</strong> It reduces bias and prevents any single expert from unduly influencing the opinion of others through anonymity.
+- <strong>Distractor 1:</strong> It allows for a fast, real-time debate where experts can challenge each other's assumptions directly.
+- <strong>Distractor 2:</strong> It provides a visual representation of how different security requirements are related to each other.
+- <strong>Distractor 3:</strong> It ensures that the project manager has the final say in which requirements are ultimately selected.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -322,18 +322,18 @@ What is the primary benefit of using this specific technique for defining the pr
 
 ### Question 11
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Hybrid
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using a hybrid approach for a retail transformation project. The physical store layouts are predictive, while the digital kiosks are agile. The marketing director wants to add "Augmented Reality (AR) try-on" to the kiosks, which would require changing the physical camera specs already finalized in the predictive store layout.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager handle this request to maintain scope integrity?
 
-- **Correct:** Perform an impact analysis on both the agile kiosk backlog and the predictive store layout baseline, then present the findings to the Change Control Board (CCB).
-- **Distractor 1:** Add the AR feature to the kiosk product backlog and let the agile team decide how to handle the camera hardware constraints.
-- **Distractor 2:** Reject the request immediately because the physical store layout has already been baselined and changes would be too expensive.
-- **Distractor 3:** Ask the marketing director to wait until the current store layouts are completed, then submit a new project proposal for the AR features.
+- <strong>Correct:</strong> Perform an impact analysis on both the agile kiosk backlog and the predictive store layout baseline, then present the findings to the Change Control Board (CCB).
+- <strong>Distractor 1:</strong> Add the AR feature to the kiosk product backlog and let the agile team decide how to handle the camera hardware constraints.
+- <strong>Distractor 2:</strong> Reject the request immediately because the physical store layout has already been baselined and changes would be too expensive.
+- <strong>Distractor 3:</strong> Ask the marketing director to wait until the current store layouts are completed, then submit a new project proposal for the AR features.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -351,18 +351,18 @@ How should the project manager handle this request to maintain scope integrity?
 
 ### Question 12
 
-**Enabler:** Define scope | **Methodology:** Agile
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Product Owner is defining the "Definition of Done" (DoD) for a newly formed agile team. Some team members argue that "Unit Testing" should be part of the individual user stories' acceptance criteria, not the global DoD, because some stories are more complex than others.
 
-**Question:**
+<strong>Question:</strong>
 What is the best way for the Product Owner and the team to resolve this?
 
-- **Correct:** Ensure "Unit Testing" is included in the global Definition of Done to maintain a consistent quality standard across all deliverables produced by the team.
-- **Distractor 1:** Allow the team to decide on a story-by-story basis whether unit testing is required, depending on the complexity of the code.
-- **Distractor 2:** Remove unit testing from the DoD and the acceptance criteria, and instead create a separate "Testing Sprint" at the end of the project.
-- **Distractor 3:** Make unit testing a "Should-Have" in the MoSCoW prioritization list for each sprint to give the developers more flexibility.
+- <strong>Correct:</strong> Ensure "Unit Testing" is included in the global Definition of Done to maintain a consistent quality standard across all deliverables produced by the team.
+- <strong>Distractor 1:</strong> Allow the team to decide on a story-by-story basis whether unit testing is required, depending on the complexity of the code.
+- <strong>Distractor 2:</strong> Remove unit testing from the DoD and the acceptance criteria, and instead create a separate "Testing Sprint" at the end of the project.
+- <strong>Distractor 3:</strong> Make unit testing a "Should-Have" in the MoSCoW prioritization list for each sprint to give the developers more flexibility.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -380,18 +380,18 @@ What is the best way for the Product Owner and the team to resolve this?
 
 ### Question 13
 
-**Enabler:** Break down scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is creating a WBS and reaches a level of decomposition where the specific details of the work are not yet known because the technology to be used will only be selected in six months.
 
-**Question:**
+<strong>Question:</strong>
 How should this work be represented in the WBS at this time?
 
-- **Correct:** Represent the work as a "Planning Package" in the WBS, with the intention of decomposing it into work packages later using rolling wave planning.
-- **Distractor 1:** Leave the work out of the WBS entirely until the technology is selected to avoid cluttering the baseline with uncertain information.
-- **Distractor 2:** Create "Placeholder Work Packages" with estimated hours based on similar past projects, then update them when the technology is known.
-- **Distractor 3:** Decompose the work into the most likely technical tasks now, and issue a change request later if a different technology is chosen.
+- <strong>Correct:</strong> Represent the work as a "Planning Package" in the WBS, with the intention of decomposing it into work packages later using rolling wave planning.
+- <strong>Distractor 1:</strong> Leave the work out of the WBS entirely until the technology is selected to avoid cluttering the baseline with uncertain information.
+- <strong>Distractor 2:</strong> Create "Placeholder Work Packages" with estimated hours based on similar past projects, then update them when the technology is known.
+- <strong>Distractor 3:</strong> Decompose the work into the most likely technical tasks now, and issue a change request later if a different technology is chosen.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -409,18 +409,18 @@ How should this work be represented in the WBS at this time?
 
 ### Question 14
 
-**Enabler:** Define scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using a Requirements Traceability Matrix (RTM) for a large banking software upgrade. A stakeholder asks why a specific security requirement from the "Initiation" phase is being traced all the way to a "User Acceptance Test" (UAT) case.
 
-**Question:**
+<strong>Question:</strong>
 What is the primary reason for this forward traceability in scope management?
 
-- **Correct:** To ensure that every requirement identified at the beginning of the project is actually delivered and verified by the end.
-- **Distractor 1:** To allow the project manager to identify which stakeholder is responsible for the cost of each test case.
-- **Distractor 2:** To prove that the project followed a waterfall methodology instead of an agile approach for compliance reasons.
-- **Distractor 3:** To ensure that the developers have a clear list of names of who to contact if a test case fails during the execution phase.
+- <strong>Correct:</strong> To ensure that every requirement identified at the beginning of the project is actually delivered and verified by the end.
+- <strong>Distractor 1:</strong> To allow the project manager to identify which stakeholder is responsible for the cost of each test case.
+- <strong>Distractor 2:</strong> To prove that the project followed a waterfall methodology instead of an agile approach for compliance reasons.
+- <strong>Distractor 3:</strong> To ensure that the developers have a clear list of names of who to contact if a test case fails during the execution phase.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -438,18 +438,18 @@ What is the primary reason for this forward traceability in scope management?
 
 ### Question 15
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Agile
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is using MoSCoW prioritization for their product backlog. During a refinement session, the Product Owner and the Lead Developer disagree on a feature: "Automated Data Backup." The Product Owner wants it as a "Should-Have" to speed up the MVP, while the Lead Developer argues it must be a "Must-Have" due to the risk of data loss.
 
-**Question:**
+<strong>Question:</strong>
 What is the most appropriate way to resolve this conflict and agree on the scope?
 
-- **Correct:** Facilitate a risk assessment to quantify the impact of data loss, then let the Product Owner make the final decision based on that risk data.
-- **Distractor 1:** Default to the Lead Developer's opinion since they are the technical expert and data loss is a technical risk.
-- **Distractor 2:** Use a majority vote among all team members to decide the priority of the feature.
-- **Distractor 3:** Mark the feature as "Must-Have" for the technical team's internal backlog but "Should-Have" for the stakeholders' external roadmap.
+- <strong>Correct:</strong> Facilitate a risk assessment to quantify the impact of data loss, then let the Product Owner make the final decision based on that risk data.
+- <strong>Distractor 1:</strong> Default to the Lead Developer's opinion since they are the technical expert and data loss is a technical risk.
+- <strong>Distractor 2:</strong> Use a majority vote among all team members to decide the priority of the feature.
+- <strong>Distractor 3:</strong> Mark the feature as "Must-Have" for the technical team's internal backlog but "Should-Have" for the stakeholders' external roadmap.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -467,18 +467,18 @@ What is the most appropriate way to resolve this conflict and agree on the scope
 
 ### Question 16
 
-**Enabler:** Break down scope | **Methodology:** Hybrid
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is managing a project to build a new airport terminal. The physical construction is predictive, but the digital signage and passenger flow management software are agile. The project manager needs to ensure the WBS accounts for both parts of the project.
 
-**Question:**
+<strong>Question:</strong>
 How should the agile portion of the work be represented in the airport project's WBS?
 
-- **Correct:** Include the agile work as high-level work packages or "Control Accounts" in the WBS, with the detailed user stories maintained separately in the product backlog.
-- **Distractor 1:** List every individual user story as a separate work package in the master WBS to ensure total visibility for the airport authorities.
-- **Distractor 2:** Exclude the agile work from the WBS entirely and manage it only through the agile tool (like a Jira board) to avoid methodology conflict.
-- **Distractor 3:** Force the agile team to decompose their work into 8-80 hour work packages that follow the same numbering system as the construction tasks.
+- <strong>Correct:</strong> Include the agile work as high-level work packages or "Control Accounts" in the WBS, with the detailed user stories maintained separately in the product backlog.
+- <strong>Distractor 1:</strong> List every individual user story as a separate work package in the master WBS to ensure total visibility for the airport authorities.
+- <strong>Distractor 2:</strong> Exclude the agile work from the WBS entirely and manage it only through the agile tool (like a Jira board) to avoid methodology conflict.
+- <strong>Distractor 3:</strong> Force the agile team to decompose their work into 8-80 hour work packages that follow the same numbering system as the construction tasks.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -496,18 +496,18 @@ How should the agile portion of the work be represented in the airport project's
 
 ### Question 17
 
-**Enabler:** Define scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Project Manager has received a signed project charter and is now starting to define the project scope. The Project Manager gathers the team and several key stakeholders to perform a "Product Analysis."
 
-**Question:**
+<strong>Question:</strong>
 What is the primary output the Project Manager is looking to achieve through this specific activity?
 
-- **Correct:** Translating high-level project descriptions into tangible deliverables and technical requirements.
-- **Distractor 1:** Determining if the project is worth the investment compared to other potential projects.
-- **Distractor 2:** Identifying which vendors are capable of delivering the physical products required for the project.
-- **Distractor 3:** Creating a list of all potential risks associated with the manufacturing of the product.
+- <strong>Correct:</strong> Translating high-level project descriptions into tangible deliverables and technical requirements.
+- <strong>Distractor 1:</strong> Determining if the project is worth the investment compared to other potential projects.
+- <strong>Distractor 2:</strong> Identifying which vendors are capable of delivering the physical products required for the project.
+- <strong>Distractor 3:</strong> Creating a list of all potential risks associated with the manufacturing of the product.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -525,18 +525,18 @@ What is the primary output the Project Manager is looking to achieve through thi
 
 ### Question 18
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Agile
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is working on a project with a very tight deadline and a fixed budget. The Product Owner has identified that the current backlog contains more work than the team's velocity can support before the launch date.
 
-**Question:**
+<strong>Question:</strong>
 What is the most effective way for the Product Owner to obtain agreement on the final scope for the launch?
 
-- **Correct:** Use MoSCoW prioritization to identify "Could-Have" items that can be deferred or removed while still delivering a viable product.
-- **Distractor 1:** Request that the team work overtime for the remaining sprints to ensure all items in the backlog are delivered.
-- **Distractor 2:** Ask the team to reduce the quality of the "Definition of Done" for the last two sprints to speed up the delivery of features.
-- **Distractor 3:** Negotiate with the stakeholders to increase the budget so that more developers can be hired for the final phase.
+- <strong>Correct:</strong> Use MoSCoW prioritization to identify "Could-Have" items that can be deferred or removed while still delivering a viable product.
+- <strong>Distractor 1:</strong> Request that the team work overtime for the remaining sprints to ensure all items in the backlog are delivered.
+- <strong>Distractor 2:</strong> Ask the team to reduce the quality of the "Definition of Done" for the last two sprints to speed up the delivery of features.
+- <strong>Distractor 3:</strong> Negotiate with the stakeholders to increase the budget so that more developers can be hired for the final phase.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -554,18 +554,18 @@ What is the most effective way for the Product Owner to obtain agreement on the 
 
 ### Question 19
 
-**Enabler:** Break down scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Project Manager is leading a team in the creation of a Work Breakdown Structure (WBS) for a global software deployment. The team is struggling with how to organize the WBS. Some members want to organize it by "Phase" (e.g., Design, Build, Test), while others want to organize it by "Region" (e.g., North America, Europe, Asia).
 
-**Question:**
+<strong>Question:</strong>
 What should be the Project Manager's guiding principle in making this decision?
 
-- **Correct:** Choose the structure that best aligns with how the project will be managed, monitored, and reported to stakeholders.
-- **Distractor 1:** Use the "Phase" approach as it is the standard PMBOK-recommended way to structure any WBS.
-- **Distractor 2:** Use the "Region" approach because geographical distribution is the highest risk factor in this specific project.
-- **Distractor 3:** Combine both by having "Phases" as Level 2 and "Regions" as Level 3 for every single branch of the WBS.
+- <strong>Correct:</strong> Choose the structure that best aligns with how the project will be managed, monitored, and reported to stakeholders.
+- <strong>Distractor 1:</strong> Use the "Phase" approach as it is the standard PMBOK-recommended way to structure any WBS.
+- <strong>Distractor 2:</strong> Use the "Region" approach because geographical distribution is the highest risk factor in this specific project.
+- <strong>Distractor 3:</strong> Combine both by having "Phases" as Level 2 and "Regions" as Level 3 for every single branch of the WBS.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -583,18 +583,18 @@ What should be the Project Manager's guiding principle in making this decision?
 
 ### Question 20
 
-**Enabler:** Define scope | **Methodology:** Agile
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team is creating user stories for a mobile banking app. A developer points out that one story, "User can view transaction history," is too vague because it doesn't specify how many months of history should be available or if it includes pending transactions.
 
-**Question:**
+<strong>Question:</strong>
 What should the Product Owner do next to ensure the scope of this story is well-defined?
 
-- **Correct:** Collaborate with the team to define clear "Acceptance Criteria" for the story that specify the data range and transaction types.
-- **Distractor 1:** Rewrite the story as a "Must-Have" and let the developers decide the details during the sprint based on their technical constraints.
-- **Distractor 2:** Refer the developer to the "Definition of Done" (DoD) to see the standards for database queries and data display.
-- **Distractor 3:** Postpone the story to a later sprint when a business analyst can provide a detailed functional specification document.
+- <strong>Correct:</strong> Collaborate with the team to define clear "Acceptance Criteria" for the story that specify the data range and transaction types.
+- <strong>Distractor 1:</strong> Rewrite the story as a "Must-Have" and let the developers decide the details during the sprint based on their technical constraints.
+- <strong>Distractor 2:</strong> Refer the developer to the "Definition of Done" (DoD) to see the standards for database queries and data display.
+- <strong>Distractor 3:</strong> Postpone the story to a later sprint when a business analyst can provide a detailed functional specification document.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -612,18 +612,18 @@ What should the Product Owner do next to ensure the scope of this story is well-
 
 ### Question 21
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Hybrid
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, the hardware component is currently in the "Define Scope" phase. The Project Manager has identified that two key stakeholders—the Manufacturing Lead and the Regulatory Officer—have fundamentally different views on the "Level of Precision" required for the device's sensors.
 
-**Question:**
+<strong>Question:</strong>
 Which tool or technique should the Project Manager use to facilitate agreement on the scope?
 
-- **Correct:** Facilitated workshops using a Nominal Group Technique to rank and reach consensus on the precision requirements.
-- **Distractor 1:** A "Force Field Analysis" to determine which stakeholder has more organizational power to drive the decision.
-- **Distractor 2:** The "Delphi Technique" to allow the stakeholders to debate the issue face-to-face until a majority is reached.
-- **Distractor 3:** A "Product Analysis" to determine which level of precision is the cheapest to manufacture.
+- <strong>Correct:</strong> Facilitated workshops using a Nominal Group Technique to rank and reach consensus on the precision requirements.
+- <strong>Distractor 1:</strong> A "Force Field Analysis" to determine which stakeholder has more organizational power to drive the decision.
+- <strong>Distractor 2:</strong> The "Delphi Technique" to allow the stakeholders to debate the issue face-to-face until a majority is reached.
+- <strong>Distractor 3:</strong> A "Product Analysis" to determine which level of precision is the cheapest to manufacture.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -641,18 +641,18 @@ Which tool or technique should the Project Manager use to facilitate agreement o
 
 ### Question 22
 
-**Enabler:** Break down scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is reviewing a WBS and notices that some work packages are defined by the "Action" (e.g., "Install Servers," "Train Staff") while others are defined by the "Deliverable" (e.g., "Server Infrastructure," "Training Materials").
 
-**Question:**
+<strong>Question:</strong>
 According to best practices for scope decomposition, how should the Project Manager correct this?
 
-- **Correct:** Ensure all elements in the WBS are deliverable-oriented (nouns) rather than activity-oriented (verbs) to focus on outcomes.
-- **Distractor 1:** Change all elements to activity-oriented (verbs) to better align with the project schedule and activity list.
-- **Distractor 2:** Allow the mix of styles as long as the 100% rule is satisfied and all work is accounted for in the baseline.
-- **Distractor 3:** Use verbs for the lower-level work packages and nouns for the higher-level control accounts to balance the two views.
+- <strong>Correct:</strong> Ensure all elements in the WBS are deliverable-oriented (nouns) rather than activity-oriented (verbs) to focus on outcomes.
+- <strong>Distractor 1:</strong> Change all elements to activity-oriented (verbs) to better align with the project schedule and activity list.
+- <strong>Distractor 2:</strong> Allow the mix of styles as long as the 100% rule is satisfied and all work is accounted for in the baseline.
+- <strong>Distractor 3:</strong> Use verbs for the lower-level work packages and nouns for the higher-level control accounts to balance the two views.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -670,18 +670,18 @@ According to best practices for scope decomposition, how should the Project Mana
 
 ### Question 23
 
-**Enabler:** Define scope | **Methodology:** Agile
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A team is working on a new e-commerce platform. During a backlog refinement session, they encounter a requirement: "The system should be very fast." The team complains that this is not a well-defined user story.
 
-**Question:**
+<strong>Question:</strong>
 Which part of the INVEST criteria is this requirement failing to meet most significantly?
 
-- **Correct:** Testable.
-- **Distractor 1:** Independent.
-- **Distractor 2:** Small.
-- **Distractor 3:** Valuable.
+- <strong>Correct:</strong> Testable.
+- <strong>Distractor 1:</strong> Independent.
+- <strong>Distractor 2:</strong> Small.
+- <strong>Distractor 3:</strong> Valuable.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -699,18 +699,18 @@ Which part of the INVEST criteria is this requirement failing to meet most signi
 
 ### Question 24
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager has finished the scope baseline for a new bridge construction. A month into the project, the local environmental agency introduces a new regulation regarding underwater noise levels that will require a change in the piling method.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager do first?
 
-- **Correct:** Assess the impact of the new regulation on the project scope, schedule, and cost.
-- **Distractor 1:** Update the WBS immediately to include the new piling method to ensure compliance with the law.
-- **Distractor 2:** Submit a change request to the Change Control Board (CCB) to inform them of the external regulation.
-- **Distractor 3:** Inform the project sponsor that the project is no longer feasible due to the new environmental constraints.
+- <strong>Correct:</strong> Assess the impact of the new regulation on the project scope, schedule, and cost.
+- <strong>Distractor 1:</strong> Update the WBS immediately to include the new piling method to ensure compliance with the law.
+- <strong>Distractor 2:</strong> Submit a change request to the Change Control Board (CCB) to inform them of the external regulation.
+- <strong>Distractor 3:</strong> Inform the project sponsor that the project is no longer feasible due to the new environmental constraints.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -728,18 +728,18 @@ What should the Project Manager do first?
 
 ### Question 25
 
-**Enabler:** Define scope | **Methodology:** Hybrid
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is managing a data migration project. The data cleansing process is managed using agile (sprints to identify and fix errors), while the final migration to the new cloud server is a one-time predictive event. The Project Manager is defining the scope for the "Migration" phase.
 
-**Question:**
+<strong>Question:</strong>
 What is the most important "Transition Requirement" to include in the scope definition?
 
-- **Correct:** Validation criteria for the data migration to ensure the legacy system can be decommissioned without loss of service.
-- **Distractor 1:** A list of all the user stories that were completed during the agile data cleansing phase.
-- **Distractor 2:** The final cloud server configuration specs, including CPU and RAM requirements.
-- **Distractor 3:** The schedule for the sprint retrospectives that will occur during the data cleansing phase.
+- <strong>Correct:</strong> Validation criteria for the data migration to ensure the legacy system can be decommissioned without loss of service.
+- <strong>Distractor 1:</strong> A list of all the user stories that were completed during the agile data cleansing phase.
+- <strong>Distractor 2:</strong> The final cloud server configuration specs, including CPU and RAM requirements.
+- <strong>Distractor 3:</strong> The schedule for the sprint retrospectives that will occur during the data cleansing phase.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -757,18 +757,18 @@ What is the most important "Transition Requirement" to include in the scope defi
 
 ### Question 26
 
-**Enabler:** Break down scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is decomposing a WBS for a large-scale manufacturing plant. The "Assembly Line" branch of the WBS has been decomposed into five levels. The team lead for the assembly line suggests that they should add a sixth level of decomposition to track individual bolt-tightening tasks as work packages.
 
-**Question:**
+<strong>Question:</strong>
 What is the most likely risk of following the team lead's suggestion?
 
-- **Correct:** Inefficient management due to excessive detail and administrative overhead in tracking progress.
-- **Distractor 1:** Violation of the 100% rule because individual tasks are not considered "deliverables."
-- **Distractor 2:** Failure to identify the critical path because the work packages are too small to be sequenced.
-- **Distractor 3:** Increased budget risk because the team lead is trying to "gold plate" the manufacturing process.
+- <strong>Correct:</strong> Inefficient management due to excessive detail and administrative overhead in tracking progress.
+- <strong>Distractor 1:</strong> Violation of the 100% rule because individual tasks are not considered "deliverables."
+- <strong>Distractor 2:</strong> Failure to identify the critical path because the work packages are too small to be sequenced.
+- <strong>Distractor 3:</strong> Increased budget risk because the team lead is trying to "gold plate" the manufacturing process.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -786,18 +786,18 @@ What is the most likely risk of following the team lead's suggestion?
 
 ### Question 27
 
-**Enabler:** Define scope | **Methodology:** Agile
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is struggling with a "Product Goal" that is too ambitious for the current funding level. The Product Owner decides to use the "Simplicity—maximizing work not done" principle from the Agile Manifesto to redefine the project scope.
 
-**Question:**
+<strong>Question:</strong>
 What action best demonstrates the application of this principle?
 
-- **Correct:** Identifying and removing features from the product backlog that do not directly contribute to the core customer value.
-- **Distractor 1:** Asking the developers to write code as fast as possible without performing unit tests or documentation.
-- **Distractor 2:** Hiring junior developers to work on the less important features to save budget for the core items.
-- **Distractor 3:** Canceling the sprint retrospectives to give the team more time to focus on coding features.
+- <strong>Correct:</strong> Identifying and removing features from the product backlog that do not directly contribute to the core customer value.
+- <strong>Distractor 1:</strong> Asking the developers to write code as fast as possible without performing unit tests or documentation.
+- <strong>Distractor 2:</strong> Hiring junior developers to work on the less important features to save budget for the core items.
+- <strong>Distractor 3:</strong> Canceling the sprint retrospectives to give the team more time to focus on coding features.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -815,18 +815,18 @@ What action best demonstrates the application of this principle?
 
 ### Question 28
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Hybrid
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using a hybrid approach for a smart-city project. The city council (the primary stakeholder) is used to a predictive "Fixed Scope" contract, but the software team is using agile to handle the changing IoT sensor market. The city council is worried that they don't know exactly what they will get at the end of the project.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager gain the council's agreement on the project scope?
 
-- **Correct:** Define a high-level "Scope Roadmap" with fixed milestones for key capabilities while allowing the specific features within those capabilities to be prioritized via the agile backlog.
-- **Distractor 1:** Force the software team to switch to a predictive waterfall model to satisfy the city council's need for a fixed scope.
-- **Distractor 2:** Promise the city council that all their requirements will be met regardless of the methodology used by the software team.
-- **Distractor 3:** Suggest that the city council delegate the scope decision to the Project Management Office (PMO) to avoid direct conflict.
+- <strong>Correct:</strong> Define a high-level "Scope Roadmap" with fixed milestones for key capabilities while allowing the specific features within those capabilities to be prioritized via the agile backlog.
+- <strong>Distractor 1:</strong> Force the software team to switch to a predictive waterfall model to satisfy the city council's need for a fixed scope.
+- <strong>Distractor 2:</strong> Promise the city council that all their requirements will be met regardless of the methodology used by the software team.
+- <strong>Distractor 3:</strong> Suggest that the city council delegate the scope decision to the Project Management Office (PMO) to avoid direct conflict.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -844,18 +844,18 @@ How should the project manager gain the council's agreement on the project scope
 
 ### Question 29
 
-**Enabler:** Define scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is performing "Scope Validation" at the end of a project phase. The customer reviews the deliverables and points out that while they meet the requirements in the RTM, they don't look like the prototypes shown during the "Collect Requirements" phase.
 
-**Question:**
+<strong>Question:</strong>
 What is the most likely cause of this discrepancy?
 
-- **Correct:** The prototypes were used for requirement gathering but the final technical specifications in the WBS Dictionary were not properly aligned with the stakeholder expectations.
-- **Distractor 1:** The customer is attempting to "Gold Plate" the project at the last minute by requesting extra aesthetic features.
-- **Distractor 2:** The "Control Quality" process was skipped, leading to deliverables that do not match the prototypes.
-- **Distractor 3:** Prototypes are only intended for agile projects and should not have been used in a predictive environment.
+- <strong>Correct:</strong> The prototypes were used for requirement gathering but the final technical specifications in the WBS Dictionary were not properly aligned with the stakeholder expectations.
+- <strong>Distractor 1:</strong> The customer is attempting to "Gold Plate" the project at the last minute by requesting extra aesthetic features.
+- <strong>Distractor 2:</strong> The "Control Quality" process was skipped, leading to deliverables that do not match the prototypes.
+- <strong>Distractor 3:</strong> Prototypes are only intended for agile projects and should not have been used in a predictive environment.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -873,18 +873,18 @@ What is the most likely cause of this discrepancy?
 
 ### Question 30
 
-**Enabler:** Break down scope | **Methodology:** Agile
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A team is using Kanban for their work. They notice that the "Testing" column on their Kanban board is consistently full, while the "Development" column is often empty. The team's WIP limit for "Testing" is 5.
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager (or Agile Coach) suggest to the team to improve the flow of scope through the system?
 
-- **Correct:** Analyze the testing process for bottlenecks and potentially reallocate some development capacity to help with testing tasks until the queue is reduced.
-- **Distractor 1:** Increase the WIP limit for "Testing" to 10 to allow more work to move into that column from Development.
-- **Distractor 2:** Tell the developers to start working on new features for the next release since their current column is empty.
-- **Distractor 3:** Remove the WIP limits entirely to allow each team member to work at their own natural pace.
+- <strong>Correct:</strong> Analyze the testing process for bottlenecks and potentially reallocate some development capacity to help with testing tasks until the queue is reduced.
+- <strong>Distractor 1:</strong> Increase the WIP limit for "Testing" to 10 to allow more work to move into that column from Development.
+- <strong>Distractor 2:</strong> Tell the developers to start working on new features for the next release since their current column is empty.
+- <strong>Distractor 3:</strong> Remove the WIP limits entirely to allow each team member to work at their own natural pace.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -902,18 +902,18 @@ What should the Project Manager (or Agile Coach) suggest to the team to improve 
 
 ### Question 31
 
-**Enabler:** Define scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is managing a project to implement a new ERP system. During the requirements gathering phase, the PM uses "Nominal Group Technique" with the department heads to prioritize the modules to be implemented.
 
-**Question:**
+<strong>Question:</strong>
 Which step is unique to the Nominal Group Technique compared to traditional brainstorming?
 
-- **Correct:** Participants privately rank or vote on the ideas generated to reach a prioritized list.
-- **Distractor 1:** Participants are encouraged to generate as many ideas as possible without criticism.
-- **Distractor 2:** A facilitator records all ideas on a whiteboard for everyone to see.
-- **Distractor 3:** The group discussion focuses on the "technical feasibility" of each individual idea.
+- <strong>Correct:</strong> Participants privately rank or vote on the ideas generated to reach a prioritized list.
+- <strong>Distractor 1:</strong> Participants are encouraged to generate as many ideas as possible without criticism.
+- <strong>Distractor 2:</strong> A facilitator records all ideas on a whiteboard for everyone to see.
+- <strong>Distractor 3:</strong> The group discussion focuses on the "technical feasibility" of each individual idea.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -931,18 +931,18 @@ Which step is unique to the Nominal Group Technique compared to traditional brai
 
 ### Question 32
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Agile
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team has finished their first sprint. During the Sprint Review, the Product Owner realizes that the "Definition of Done" (DoD) they agreed upon doesn't include accessibility testing, which is a legal requirement for this product.
 
-**Question:**
+<strong>Question:</strong>
 How should the team and Product Owner handle this change to the project scope?
 
-- **Correct:** Update the Definition of Done (DoD) immediately to include accessibility testing and assess how this impacts the team's velocity and the remaining product backlog.
-- **Distractor 1:** Create a separate "Accessibility Sprint" at the end of the project to handle all the legal compliance testing at once.
-- **Distractor 2:** Issue a formal change request to the Change Control Board (CCB) to update the project's quality management plan.
-- **Distractor 3:** Add "Accessibility Testing" as a separate user story for every single item already in the product backlog.
+- <strong>Correct:</strong> Update the Definition of Done (DoD) immediately to include accessibility testing and assess how this impacts the team's velocity and the remaining product backlog.
+- <strong>Distractor 1:</strong> Create a separate "Accessibility Sprint" at the end of the project to handle all the legal compliance testing at once.
+- <strong>Distractor 2:</strong> Issue a formal change request to the Change Control Board (CCB) to update the project's quality management plan.
+- <strong>Distractor 3:</strong> Add "Accessibility Testing" as a separate user story for every single item already in the product backlog.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -960,18 +960,18 @@ How should the team and Product Owner handle this change to the project scope?
 
 ### Question 33
 
-**Enabler:** Break down scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using "Control Accounts" in the WBS for a multi-million dollar engineering project. The project sponsor asks why some work packages are grouped under a Control Account while others are not.
 
-**Question:**
+<strong>Question:</strong>
 What is the primary purpose of a Control Account in the WBS?
 
-- **Correct:** To provide a management point where scope, cost, and schedule are integrated and compared to the earned value for performance measurement.
-- **Distractor 1:** To allow the project manager to hide the details of specific work packages from the project sponsor.
-- **Distractor 2:** To identify which work packages are assigned to external vendors versus internal team members.
-- **Distractor 3:** To group work packages that are all expected to be completed within the same calendar month.
+- <strong>Correct:</strong> To provide a management point where scope, cost, and schedule are integrated and compared to the earned value for performance measurement.
+- <strong>Distractor 1:</strong> To allow the project manager to hide the details of specific work packages from the project sponsor.
+- <strong>Distractor 2:</strong> To identify which work packages are assigned to external vendors versus internal team members.
+- <strong>Distractor 3:</strong> To group work packages that are all expected to be completed within the same calendar month.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -989,18 +989,18 @@ What is the primary purpose of a Control Account in the WBS?
 
 ### Question 34
 
-**Enabler:** Define scope | **Methodology:** Hybrid
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A company is developing a new self-driving delivery robot. The hardware team uses predictive (long lead times for sensors), while the software team uses agile (iterative pathfinding algorithms). The software team needs to test their code on the actual hardware every month.
 
-**Question:**
+<strong>Question:</strong>
 What is the best way to define the "Project Scope" to ensure these two methodologies are synchronized?
 
-- **Correct:** Define hardware delivery milestones as "Enablers" or "Constraints" within the software team's agile roadmap and include "Integration Testing" in the WBS for the hardware phases.
-- **Distractor 1:** Require the software team to provide their final code 6 months in advance so the hardware team can "bake" it into the robot's memory.
-- **Distractor 2:** Allow the software team to use a simulator for the entire project and only test on hardware during the final "Close Project" phase.
-- **Distractor 3:** Change the entire project to predictive since the robot's physical safety is the most important success factor.
+- <strong>Correct:</strong> Define hardware delivery milestones as "Enablers" or "Constraints" within the software team's agile roadmap and include "Integration Testing" in the WBS for the hardware phases.
+- <strong>Distractor 1:</strong> Require the software team to provide their final code 6 months in advance so the hardware team can "bake" it into the robot's memory.
+- <strong>Distractor 2:</strong> Allow the software team to use a simulator for the entire project and only test on hardware during the final "Close Project" phase.
+- <strong>Distractor 3:</strong> Change the entire project to predictive since the robot's physical safety is the most important success factor.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1018,18 +1018,18 @@ What is the best way to define the "Project Scope" to ensure these two methodolo
 
 ### Question 35
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a meeting to baseline the project scope, a key stakeholder from the Finance department refuses to sign off on the WBS because they don't see the "Year-End Audit Support" as a work package. The Project Manager explains that this work will happen after the project's primary deliverables are handed over.
 
-**Question:**
+<strong>Question:</strong>
 How should the Project Manager resolve this to ensure the scope is complete and agreed upon?
 
-- **Correct:** Include the "Year-End Audit Support" in the WBS as part of the "Project Closure" or "Transition" phase, as it is work required by the project.
-- **Distractor 1:** Inform the Finance stakeholder that the project scope only includes the creation of the system, not the ongoing support or auditing.
-- **Distractor 2:** Create a separate project for the audit support to keep the primary project's WBS focused on technical deliverables.
-- **Distractor 3:** Ask the Finance stakeholder to pay for the audit support from their own departmental budget since it's not a "project" task.
+- <strong>Correct:</strong> Include the "Year-End Audit Support" in the WBS as part of the "Project Closure" or "Transition" phase, as it is work required by the project.
+- <strong>Distractor 1:</strong> Inform the Finance stakeholder that the project scope only includes the creation of the system, not the ongoing support or auditing.
+- <strong>Distractor 2:</strong> Create a separate project for the audit support to keep the primary project's WBS focused on technical deliverables.
+- <strong>Distractor 3:</strong> Ask the Finance stakeholder to pay for the audit support from their own departmental budget since it's not a "project" task.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1047,18 +1047,18 @@ How should the Project Manager resolve this to ensure the scope is complete and 
 
 ### Question 36
 
-**Enabler:** Break down scope | **Methodology:** Agile
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is using story points to estimate their scope. One developer argues that they should estimate the "Database Setup" story based on the number of hours it will take (e.g., 40 hours) rather than relative size (e.g., 5 story points).
 
-**Question:**
+<strong>Question:</strong>
 What is the primary benefit of using relative sizing (story points) over absolute time (hours) for scope estimation in agile?
 
-- **Correct:** It accounts for uncertainty and complexity without the false precision of a time-based estimate.
-- **Distractor 1:** It allows the Project Manager to more easily calculate the overtime pay for each developer.
-- **Distractor 2:** It ensures that every developer is working exactly 40 hours per week regardless of their task.
-- **Distractor 3:** It provides a fixed date for the completion of the entire project backlog that never changes.
+- <strong>Correct:</strong> It accounts for uncertainty and complexity without the false precision of a time-based estimate.
+- <strong>Distractor 1:</strong> It allows the Project Manager to more easily calculate the overtime pay for each developer.
+- <strong>Distractor 2:</strong> It ensures that every developer is working exactly 40 hours per week regardless of their task.
+- <strong>Distractor 3:</strong> It provides a fixed date for the completion of the entire project backlog that never changes.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1076,18 +1076,18 @@ What is the primary benefit of using relative sizing (story points) over absolut
 
 ### Question 37
 
-**Enabler:** Define scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is drafting the "Scope Management Plan." A stakeholder asks why the plan includes a section on "How the WBS will be maintained and approved."
 
-**Question:**
+<strong>Question:</strong>
 What is the purpose of this specific section in the plan?
 
-- **Correct:** To define the formal process for making changes to the scope baseline and ensuring everyone is using the latest approved version.
-- **Distractor 1:** To identify the names of the specific team members who will be assigned to each work package.
-- **Distractor 2:** To list the specific technical tools (like Microsoft Project) that will be used to draw the WBS.
-- **Distractor 3:** To explain the 100% rule to the stakeholders so they don't try to add extra work later.
+- <strong>Correct:</strong> To define the formal process for making changes to the scope baseline and ensuring everyone is using the latest approved version.
+- <strong>Distractor 1:</strong> To identify the names of the specific team members who will be assigned to each work package.
+- <strong>Distractor 2:</strong> To list the specific technical tools (like Microsoft Project) that will be used to draw the WBS.
+- <strong>Distractor 3:</strong> To explain the 100% rule to the stakeholders so they don't try to add extra work later.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1105,18 +1105,18 @@ What is the purpose of this specific section in the plan?
 
 ### Question 38
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Agile
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a Sprint Retrospective, the team realizes that many of the user stories they completed in the last two sprints were actually "Gold Plated" (the team added extra features that the Product Owner didn't explicitly ask for).
 
-**Question:**
+<strong>Question:</strong>
 How should the team and Product Owner prevent this "Gold Plating" in future sprints to better manage the project scope?
 
-- **Correct:** Strictly adhere to the "Definition of Done" and the specific "Acceptance Criteria" for each story, and use the Sprint Review to get immediate feedback.
-- **Distractor 1:** Increase the story point estimates for all future stories to give the team more "buffer" for extra features.
-- **Distractor 2:** Require every developer to get written permission from the Product Owner before writing any single line of code.
-- **Distractor 3:** Remove the developers who were responsible for the extra features from the team to send a message about scope control.
+- <strong>Correct:</strong> Strictly adhere to the "Definition of Done" and the specific "Acceptance Criteria" for each story, and use the Sprint Review to get immediate feedback.
+- <strong>Distractor 1:</strong> Increase the story point estimates for all future stories to give the team more "buffer" for extra features.
+- <strong>Distractor 2:</strong> Require every developer to get written permission from the Product Owner before writing any single line of code.
+- <strong>Distractor 3:</strong> Remove the developers who were responsible for the extra features from the team to send a message about scope control.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1134,18 +1134,18 @@ How should the team and Product Owner prevent this "Gold Plating" in future spri
 
 ### Question 39
 
-**Enabler:** Break down scope | **Methodology:** Hybrid
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, the "Project Management" branch of the WBS needs to account for both predictive governance (Phase Gates) and agile ceremonies (Sprints).
 
-**Question:**
+<strong>Question:</strong>
 What is the best way to structure this part of the WBS?
 
-- **Correct:** Create a "Project Management" branch that includes work packages for "Phase Gate Reviews" and a recurring work package for "Sprint Facilitation & Ceremonies."
-- **Distractor 1:** Only include the predictive Phase Gates in the WBS, as agile ceremonies are considered "team-internal" and not part of the project scope.
-- **Distractor 2:** List every individual Daily Scrum and Retrospective for the next year as a separate work package to satisfy the 100% rule.
-- **Distractor 3:** Use a single, large work package called "Overhead" to cover both methodologies' management efforts.
+- <strong>Correct:</strong> Create a "Project Management" branch that includes work packages for "Phase Gate Reviews" and a recurring work package for "Sprint Facilitation & Ceremonies."
+- <strong>Distractor 1:</strong> Only include the predictive Phase Gates in the WBS, as agile ceremonies are considered "team-internal" and not part of the project scope.
+- <strong>Distractor 2:</strong> List every individual Daily Scrum and Retrospective for the next year as a separate work package to satisfy the 100% rule.
+- <strong>Distractor 3:</strong> Use a single, large work package called "Overhead" to cover both methodologies' management efforts.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1163,18 +1163,18 @@ What is the best way to structure this part of the WBS?
 
 ### Question 40
 
-**Enabler:** Define scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager for a bridge construction project is using "Context Diagrams" during the requirements gathering phase. The stakeholders are confused and ask why they are looking at a diagram that shows "External Systems" and "People."
 
-**Question:**
+<strong>Question:</strong>
 What is the primary purpose of a Context Diagram in scope definition?
 
-- **Correct:** To visualize the boundaries of a system by showing how it interacts with external actors (users, other systems, or departments).
-- **Distractor 1:** To show the internal technical architecture of the bridge's sensor network.
-- **Distractor 2:** To identify the critical path of the project schedule based on external dependencies.
-- **Distractor 3:** To provide a geographical map of where the stakeholders are located around the world.
+- <strong>Correct:</strong> To visualize the boundaries of a system by showing how it interacts with external actors (users, other systems, or departments).
+- <strong>Distractor 1:</strong> To show the internal technical architecture of the bridge's sensor network.
+- <strong>Distractor 2:</strong> To identify the critical path of the project schedule based on external dependencies.
+- <strong>Distractor 3:</strong> To provide a geographical map of where the stakeholders are located around the world.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1192,18 +1192,18 @@ What is the primary purpose of a Context Diagram in scope definition?
 
 ### Question 41
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Agile
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is about to start a sprint. The Product Owner presents a story that the team feels is still too vague to estimate. The Product Owner says, "Just start working on it, and we'll figure out the details as we go."
 
-**Question:**
+<strong>Question:</strong>
 Based on agile best practices for scope management, what should the team do?
 
-- **Correct:** Refuse to pull the story into the sprint because it fails to meet the team's "Definition of Ready" (DoR).
-- **Distractor 1:** Pull the story into the sprint but double the estimate to account for the unknown details.
-- **Distractor 2:** Ask the Scrum Master to write the details for the story so the team can start working on it.
-- **Distractor 3:** Agree to start the work but inform the Product Owner that they won't be held accountable if the story isn't finished.
+- <strong>Correct:</strong> Refuse to pull the story into the sprint because it fails to meet the team's "Definition of Ready" (DoR).
+- <strong>Distractor 1:</strong> Pull the story into the sprint but double the estimate to account for the unknown details.
+- <strong>Distractor 2:</strong> Ask the Scrum Master to write the details for the story so the team can start working on it.
+- <strong>Distractor 3:</strong> Agree to start the work but inform the Product Owner that they won't be held accountable if the story isn't finished.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1221,18 +1221,18 @@ Based on agile best practices for scope management, what should the team do?
 
 ### Question 42
 
-**Enabler:** Break down scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Project Manager is leading a "WBS Decomposition" workshop. A stakeholder asks, "How do we know when to stop breaking the work down?"
 
-**Question:**
+<strong>Question:</strong>
 What is the best "Rule of Thumb" for the Project Manager to provide?
 
-- **Correct:** Stop when the work packages are small enough to be accurately estimated, assigned to a single person or team, and have clear completion criteria.
-- **Distractor 1:** Stop when the WBS has at least five levels of hierarchy for every single branch.
-- **Distractor 2:** Stop when every work package can be completed in exactly 40 hours.
-- **Distractor 3:** Stop when you have reached the level of individual mouse-clicks or keystrokes for the software tasks.
+- <strong>Correct:</strong> Stop when the work packages are small enough to be accurately estimated, assigned to a single person or team, and have clear completion criteria.
+- <strong>Distractor 1:</strong> Stop when the WBS has at least five levels of hierarchy for every single branch.
+- <strong>Distractor 2:</strong> Stop when every work package can be completed in exactly 40 hours.
+- <strong>Distractor 3:</strong> Stop when you have reached the level of individual mouse-clicks or keystrokes for the software tasks.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1250,18 +1250,18 @@ What is the best "Rule of Thumb" for the Project Manager to provide?
 
 ### Question 43
 
-**Enabler:** Define scope | **Methodology:** Hybrid
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project involves building a new warehouse (predictive) and implementing a custom robot-picking software (agile). The Project Manager is creating the "Requirements Traceability Matrix" (RTM).
 
-**Question:**
+<strong>Question:</strong>
 How should the RTM handle the agile user stories?
 
-- **Correct:** Link the high-level business requirements in the RTM to the specific epics or stories in the agile backlog that satisfy them.
-- **Distractor 1:** Exclude the agile stories from the RTM and only track the predictive construction requirements.
-- **Distractor 2:** Force the agile team to convert their user stories into "Functional Specification Documents" to fit the RTM format.
-- **Distractor 3:** Keep two separate RTMs—one for the predictive work and one for the agile work—and never let them overlap.
+- <strong>Correct:</strong> Link the high-level business requirements in the RTM to the specific epics or stories in the agile backlog that satisfy them.
+- <strong>Distractor 1:</strong> Exclude the agile stories from the RTM and only track the predictive construction requirements.
+- <strong>Distractor 2:</strong> Force the agile team to convert their user stories into "Functional Specification Documents" to fit the RTM format.
+- <strong>Distractor 3:</strong> Keep two separate RTMs—one for the predictive work and one for the agile work—and never let them overlap.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1279,18 +1279,18 @@ How should the RTM handle the agile user stories?
 
 ### Question 44
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Project Manager has presented the final scope baseline for approval. One of the regional directors says, "This looks good, but I assume the mobile app will work offline, even though it's not explicitly mentioned."
 
-**Question:**
+<strong>Question:</strong>
 What should the Project Manager do to ensure the scope is properly defined and agreed upon?
 
-- **Correct:** Explicitly document the "Offline Mode" as either an inclusion (with a change to budget/schedule) or an exclusion in the scope statement.
-- **Distractor 1:** Accept the director's assumption and tell the developers to "make it work" within the existing budget.
-- **Distractor 2:** Ignore the comment as it was just an "assumption" and only the written WBS matters for the baseline.
-- **Distractor 3:** Ask the director to sign a "Liability Waiver" stating that they understand offline mode is not included.
+- <strong>Correct:</strong> Explicitly document the "Offline Mode" as either an inclusion (with a change to budget/schedule) or an exclusion in the scope statement.
+- <strong>Distractor 1:</strong> Accept the director's assumption and tell the developers to "make it work" within the existing budget.
+- <strong>Distractor 2:</strong> Ignore the comment as it was just an "assumption" and only the written WBS matters for the baseline.
+- <strong>Distractor 3:</strong> Ask the director to sign a "Liability Waiver" stating that they understand offline mode is not included.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1308,18 +1308,18 @@ What should the Project Manager do to ensure the scope is properly defined and a
 
 ### Question 45
 
-**Enabler:** Break down scope | **Methodology:** Agile
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is working on a complex feature. They decide to use a "Spike" in their next sprint.
 
-**Question:**
+<strong>Question:</strong>
 What is the primary purpose of a "Spike" in terms of agile scope management?
 
-- **Correct:** To perform research or architectural exploration to better understand a vague requirement before it is decomposed and estimated.
-- **Distractor 1:** To allow the team to work overtime to "spike" their velocity and catch up on the project schedule.
-- **Distractor 2:** To create a small, "throw-away" prototype that is used to sell the project to external investors.
-- **Distractor 3:** To identify which team members are the fastest coders so they can be assigned the most difficult stories.
+- <strong>Correct:</strong> To perform research or architectural exploration to better understand a vague requirement before it is decomposed and estimated.
+- <strong>Distractor 1:</strong> To allow the team to work overtime to "spike" their velocity and catch up on the project schedule.
+- <strong>Distractor 2:</strong> To create a small, "throw-away" prototype that is used to sell the project to external investors.
+- <strong>Distractor 3:</strong> To identify which team members are the fastest coders so they can be assigned the most difficult stories.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1337,18 +1337,18 @@ What is the primary purpose of a "Spike" in terms of agile scope management?
 
 ### Question 46
 
-**Enabler:** Define scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using "Product Analysis" techniques like "Value Engineering" to define the scope of a new car engine.
 
-**Question:**
+<strong>Question:</strong>
 What is the primary goal of "Value Engineering" in this context?
 
-- **Correct:** To achieve the required functions of the product at the lowest possible cost without sacrificing quality or performance.
-- **Distractor 1:** To add as many high-tech features as possible to the engine to increase its market value.
-- **Distractor 2:** To identify which parts of the engine can be made by cheaper, non-certified vendors.
-- **Distractor 3:** To speed up the manufacturing process by skipping the final testing phase of the engine assembly.
+- <strong>Correct:</strong> To achieve the required functions of the product at the lowest possible cost without sacrificing quality or performance.
+- <strong>Distractor 1:</strong> To add as many high-tech features as possible to the engine to increase its market value.
+- <strong>Distractor 2:</strong> To identify which parts of the engine can be made by cheaper, non-certified vendors.
+- <strong>Distractor 3:</strong> To speed up the manufacturing process by skipping the final testing phase of the engine assembly.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1366,18 +1366,18 @@ What is the primary goal of "Value Engineering" in this context?
 
 ### Question 47
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Agile
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is working for a government agency that requires a "Fixed Scope" contract. The Project Manager suggests using an "Agile Fixed-Price" contract with a "Change for Free" clause.
 
-**Question:**
+<strong>Question:</strong>
 How does a "Change for Free" clause help manage scope in this scenario?
 
-- **Correct:** It allows the customer to swap a new requirement into the backlog for an existing one of the same size, keeping the total scope (and price) fixed.
-- **Distractor 1:** It allows the customer to add as many new features as they want for free as long as they pay the initial fixed price.
-- **Distractor 2:** It allows the team to "charge back" the customer for any time they spend on requirement gathering workshops.
-- **Distractor 3:** It forces the team to work for free if they don't complete all the original requirements by the deadline.
+- <strong>Correct:</strong> It allows the customer to swap a new requirement into the backlog for an existing one of the same size, keeping the total scope (and price) fixed.
+- <strong>Distractor 1:</strong> It allows the customer to add as many new features as they want for free as long as they pay the initial fixed price.
+- <strong>Distractor 2:</strong> It allows the team to "charge back" the customer for any time they spend on requirement gathering workshops.
+- <strong>Distractor 3:</strong> It forces the team to work for free if they don't complete all the original requirements by the deadline.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1395,18 +1395,18 @@ How does a "Change for Free" clause help manage scope in this scenario?
 
 ### Question 48
 
-**Enabler:** Break down scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Break down scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is reviewing the WBS with the project team. A team member asks, "Where are the specific steps for doing the work, like 'Step 1: Open the box,' 'Step 2: Plug in the cable'?"
 
-**Question:**
+<strong>Question:</strong>
 Where should the Project Manager tell the team member to find this level of detail?
 
-- **Correct:** In the "Activity List" or "Standard Operating Procedures (SOPs)," as the WBS only goes down to the level of "Work Packages."
-- **Distractor 1:** In the "WBS Dictionary," as that is where every individual keystroke and movement must be documented.
-- **Distractor 2:** At Level 10 of the WBS, which the team should now spend the next week developing.
-- **Distractor 3:** These details are not documented anywhere; the team is expected to use their own professional judgment.
+- <strong>Correct:</strong> In the "Activity List" or "Standard Operating Procedures (SOPs)," as the WBS only goes down to the level of "Work Packages."
+- <strong>Distractor 1:</strong> In the "WBS Dictionary," as that is where every individual keystroke and movement must be documented.
+- <strong>Distractor 2:</strong> At Level 10 of the WBS, which the team should now spend the next week developing.
+- <strong>Distractor 3:</strong> These details are not documented anywhere; the team is expected to use their own professional judgment.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1424,18 +1424,18 @@ Where should the Project Manager tell the team member to find this level of deta
 
 ### Question 49
 
-**Enabler:** Define scope | **Methodology:** Agile
+<strong>Enabler:</strong> Define scope | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A Product Owner is using "Personas" during a workshop to define user stories for a new fitness app.
 
-**Question:**
+<strong>Question:</strong>
 How does the use of "Personas" help in defining the project scope?
 
-- **Correct:** It helps the team understand the specific needs, goals, and behaviors of different types of users, leading to more relevant and valuable user stories.
-- **Distractor 1:** It provides the Project Manager with the real names and contact information of the project's beta testers.
-- **Distractor 2:** It identifies the specific technical skills that the developers need to have to build the app.
-- **Distractor 3:** It creates a hierarchical structure of the project team members and their reporting relationships.
+- <strong>Correct:</strong> It helps the team understand the specific needs, goals, and behaviors of different types of users, leading to more relevant and valuable user stories.
+- <strong>Distractor 1:</strong> It provides the Project Manager with the real names and contact information of the project's beta testers.
+- <strong>Distractor 2:</strong> It identifies the specific technical skills that the developers need to have to build the app.
+- <strong>Distractor 3:</strong> It creates a hierarchical structure of the project team members and their reporting relationships.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1453,18 +1453,18 @@ How does the use of "Personas" help in defining the project scope?
 
 ### Question 50
 
-**Enabler:** Obtain stakeholder agreement on project scope | **Methodology:** Predictive
+<strong>Enabler:</strong> Obtain stakeholder agreement on project scope | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager has just completed the "Scope Baseline." A key stakeholder from the legal department sends an email saying, "I just realized we forgot to include the GDPR-mandated 'Right to be Forgotten' feature in the system scope."
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's BEST course of action?
 
-- **Correct:** Document the missing requirement, perform an impact analysis on the baselines, and submit a formal change request to the CCB.
-- **Distractor 1:** Update the WBS and WBS Dictionary immediately since legal compliance is non-negotiable and must be included.
-- **Distractor 2:** Tell the legal stakeholder that the scope is already baselined and they should have mentioned it during the requirements phase.
-- **Distractor 3:** Ask the developers to "hide" the feature inside an existing work package so it doesn't look like a scope change to the sponsor.
+- <strong>Correct:</strong> Document the missing requirement, perform an impact analysis on the baselines, and submit a formal change request to the CCB.
+- <strong>Distractor 1:</strong> Update the WBS and WBS Dictionary immediately since legal compliance is non-negotiable and must be included.
+- <strong>Distractor 2:</strong> Tell the legal stakeholder that the scope is already baselined and they should have mentioned it during the requirements phase.
+- <strong>Distractor 3:</strong> Ask the developers to "hide" the feature inside an existing work package so it doesn't look like a scope change to the sponsor.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1539,13 +1539,13 @@ What is the project manager's BEST course of action?
 
 ### Database Stats
 
-* **Correct Answer Length Average:** 24 words
-* **Distractor Length Average:** 22 words
-* **Methodology Split:**
+* <strong>Correct Answer Length Average:</strong> 24 words
+* <strong>Distractor Length Average:</strong> 22 words
+* <strong>Methodology Split:</strong>
     * Predictive: 46% (23/50)
     * Agile: 34% (17/50)
     * Hybrid: 20% (10/50)
-* **Action Balancing:**
+* <strong>Action Balancing:</strong>
     * Analyze/Assess Answers: 52%
     * Execute/Implement Answers: 48%
 
@@ -1553,9 +1553,9 @@ What is the project manager's BEST course of action?
 
 1.  **Nouns, Not Verbs:** Always structure your WBS based on deliverables (outcomes), not the activities required to build them. Activities belong in the schedule, not the scope baseline.
 2.  **The 100% Rule:** If it's in the project, it MUST be in the WBS. This includes project management, training, and transition work, not just the technical features.
-3.  **Validate After Quality:** You "Control Quality" (verify internal correctness) *before* you "Validate Scope" (gain formal customer acceptance). Never show defective work to the customer.
-4.  **INVEST in Stories:** Good agile scope (user stories) must be Independent, Negotiable, Valuable, Estimable, Small, and Testable. If it fails any of these, refine it.
-5.  **Analyze First:** Whenever a change is requested or an issue occurs, the very first step is ALWAYS to assess the impact on the scope/schedule/cost/risk baselines.
-6.  **Protect the Definition of Done:** The DoD is your non-negotiable quality gate. Never reduce it to meet a deadline; instead, use prioritization (MoSCoW) to reduce the number of features delivered.
+3.  <strong>Validate After Quality:</strong> You "Control Quality" (verify internal correctness) *before* you "Validate Scope" (gain formal customer acceptance). Never show defective work to the customer.
+4.  <strong>INVEST in Stories:</strong> Good agile scope (user stories) must be Independent, Negotiable, Valuable, Estimable, Small, and Testable. If it fails any of these, refine it.
+5.  <strong>Analyze First:</strong> Whenever a change is requested or an issue occurs, the very first step is ALWAYS to assess the impact on the scope/schedule/cost/risk baselines.
+6.  <strong>Protect the Definition of Done:</strong> The DoD is your non-negotiable quality gate. Never reduce it to meet a deadline; instead, use prioritization (MoSCoW) to reduce the number of features delivered.
 
 ---

@@ -47,24 +47,24 @@
 
 ##  Database Stats
 
-- **Total Questions:** 50
-- **Correct Answer Length Average:** 14 words
-- **Distractor Length Average:** 13 words
-- **Methodology Split:**
-  - **Predictive:** 40% (20 questions)
-  - **Agile:** 36% (18 questions)
-  - **Hybrid:** 24% (12 questions)
-- **Cognitive Level:** 100% Analysis/Evaluation (Level 4/5)
+- <strong>Total Questions:</strong> 50
+- <strong>Correct Answer Length Average:</strong> 14 words
+- <strong>Distractor Length Average:</strong> 13 words
+- <strong>Methodology Split:</strong>
+  - <strong>Predictive:</strong> 40% (20 questions)
+  - <strong>Agile:</strong> 36% (18 questions)
+  - <strong>Hybrid:</strong> 24% (12 questions)
+- <strong>Cognitive Level:</strong> 100% Analysis/Evaluation (Level 4/5)
 
 ---
 
 ##  Governance Pro-Tips
 
-1. **The Reserve Authority Rule:** Contingency is for identified risks (PM authority); Management Reserve is for unidentified risks (Sponsor authority + Change Request).
-2. **Sunk Cost Neutrality:** Never use past spending to justify future investment. Decisions must be based on future Value and Estimate to Complete (ETC).
-3. **The Agile Inverted Triangle:** When cost and time are fixed, Scope must be the variable. Manage this via Backlog Reprioritization.
-4. **Lifecycle Thinking:** Choose the solution with the best Total Cost of Ownership (TCO), not just the lowest initial acquisition price.
-5. **EVM Variance Logic:** CPI < 1.0 means over budget; SPI < 1.0 means behind schedule. Always perform root cause analysis before recommending recovery actions.
+1. <strong>The Reserve Authority Rule:</strong> Contingency is for identified risks (PM authority); Management Reserve is for unidentified risks (Sponsor authority + Change Request).
+2. <strong>Sunk Cost Neutrality:</strong> Never use past spending to justify future investment. Decisions must be based on future Value and Estimate to Complete (ETC).
+3. <strong>The Agile Inverted Triangle:</strong> When cost and time are fixed, Scope must be the variable. Manage this via Backlog Reprioritization.
+4. <strong>Lifecycle Thinking:</strong> Choose the solution with the best Total Cost of Ownership (TCO), not just the lowest initial acquisition price.
+5. <strong>EVM Variance Logic:</strong> CPI < 1.0 means over budget; SPI < 1.0 means behind schedule. Always perform root cause analysis before recommending recovery actions.
 
 ---
 
@@ -72,18 +72,18 @@
 
 ### Question 1
 
-**Enabler:** Quantify risk and contingency financial allocations | **Methodology:** Predictive
+<strong>Enabler:</strong> Quantify risk and contingency financial allocations | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a multi-million dollar infrastructure project. During the quantitative risk analysis phase, the team identifies three significant threats: a potential regulatory change (25% probability, $200,000 impact), a specialized labor strike (10% probability, $500,000 impact), and a critical material price surge (40% probability, $100,000 impact). The project manager must now determine the appropriate contingency reserve to include in the cost baseline.
 
-**Question:**
+<strong>Question:</strong>
 What is the most accurate amount the project manager should allocate to the contingency reserve for these specific risks?
 
-- **Correct:** $140,000
-- **Distractor 1:** $800,000
-- **Distractor 2:** $500,000
-- **Distractor 3:** $110,000
+- <strong>Correct:</strong> $140,000
+- <strong>Distractor 1:</strong> $800,000
+- <strong>Distractor 2:</strong> $500,000
+- <strong>Distractor 3:</strong> $110,000
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -101,18 +101,18 @@ What is the most accurate amount the project manager should allocate to the cont
 
 ### Question 2
 
-**Enabler:** Monitor financial variations and work with the governance process | **Methodology:** Hybrid
+<strong>Enabler:</strong> Monitor financial variations and work with the governance process | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, the hardware component follows a predictive lifecycle while the software integration is managed using Agile. At the end of the third month, the hardware team reports an Actual Cost of $150,000 against a Planned Value of $130,000. The Earned Value for the hardware is $120,000. Meanwhile, the software team has completed 45 story points out of 50 planned for the quarter but has consumed 110% of their allocated quarterly budget due to environment setup issues.
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's most immediate priority regarding financial management?
 
-- **Correct:** Perform a root cause analysis on the hardware cost variance and environment setup delays.
-- **Distractor 1:** Submit a change request to increase the management reserve for the software team.
-- **Distractor 2:** Update the hardware cost baseline to reflect the current spending rate.
-- **Distractor 3:** Direct the software team to reduce their velocity to bring costs back in line with the budget.
+- <strong>Correct:</strong> Perform a root cause analysis on the hardware cost variance and environment setup delays.
+- <strong>Distractor 1:</strong> Submit a change request to increase the management reserve for the software team.
+- <strong>Distractor 2:</strong> Update the hardware cost baseline to reflect the current spending rate.
+- <strong>Distractor 3:</strong> Direct the software team to reduce their velocity to bring costs back in line with the budget.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -130,18 +130,18 @@ What is the project manager's most immediate priority regarding financial manage
 
 ### Question 3
 
-**Enabler:** Anticipate future finance challenges | **Methodology:** Agile
+<strong>Enabler:</strong> Anticipate future finance challenges | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An Agile team is halfway through a 12-month software development project with a fixed-price contract. The team's velocity has been stable, but a recent audit reveals that the "Cost per Story Point" has increased by 15% due to the introduction of more complex security requirements. If this trend continues, the project will exhaust its funding three sprints before the final release.
 
-**Question:**
+<strong>Question:</strong>
 What is the best action for the project manager to take?
 
-- **Correct:** Review the product backlog with the Product Owner to prioritize high-value features and discuss potential scope reduction.
-- **Distractor 1:** Request additional funding from the sponsor to cover the projected deficit for the final three sprints.
-- **Distractor 2:** Instruct the team to increase their velocity by working overtime to reduce the cost per story point.
-- **Distractor 3:** Negotiate with the security department to waive the new requirements until after the final release.
+- <strong>Correct:</strong> Review the product backlog with the Product Owner to prioritize high-value features and discuss potential scope reduction.
+- <strong>Distractor 1:</strong> Request additional funding from the sponsor to cover the projected deficit for the final three sprints.
+- <strong>Distractor 2:</strong> Instruct the team to increase their velocity by working overtime to reduce the cost per story point.
+- <strong>Distractor 3:</strong> Negotiate with the security department to waive the new requirements until after the final release.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -159,18 +159,18 @@ What is the best action for the project manager to take?
 
 ### Question 4
 
-**Enabler:** Manage financial reserves | **Methodology:** Predictive
+<strong>Enabler:</strong> Manage financial reserves | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is informed that a critical piece of equipment has failed due to a rare manufacturing defect that was not identified in the risk register or the risk breakdown structure. The repair will cost $25,000 and delay the project by two weeks. The current contingency reserve has $50,000 remaining, and the management reserve has $100,000 available.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager handle the funding for this repair?
 
-- **Correct:** Submit a formal change request to the sponsor to access the management reserve.
-- **Distractor 1:** Use the contingency reserve since the amount is within the current balance.
-- **Distractor 2:** Request the finance department to reallocate funds from the project's labor budget.
-- **Distractor 3:** Negotiate a credit with the equipment manufacturer to avoid using project reserves.
+- <strong>Correct:</strong> Submit a formal change request to the sponsor to access the management reserve.
+- <strong>Distractor 1:</strong> Use the contingency reserve since the amount is within the current balance.
+- <strong>Distractor 2:</strong> Request the finance department to reallocate funds from the project's labor budget.
+- <strong>Distractor 3:</strong> Negotiate a credit with the equipment manufacturer to avoid using project reserves.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -188,18 +188,18 @@ How should the project manager handle the funding for this repair?
 
 ### Question 5
 
-**Enabler:** Analyze project financial needs | **Methodology:** Predictive
+<strong>Enabler:</strong> Analyze project financial needs | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During the initial planning of a global marketing campaign, the project manager is comparing two different vendors for content production. Vendor A offers a fixed price of $200,000. Vendor B offers a price of $150,000 but requires the project to provide the necessary software licenses, which will cost $30,000 upfront and $5,000 per month for maintenance over the 18-month project duration.
 
-**Question:**
+<strong>Question:</strong>
 When considering the total cost of ownership for the project duration, which option is most financially beneficial?
 
-- **Correct:** Vendor A, because its total lifecycle cost is significantly lower than Vendor B.
-- **Distractor 1:** Vendor B, because the initial purchase price is $50,000 lower than Vendor A.
-- **Distractor 2:** Vendor B, because it allows for more flexibility in license management.
-- **Distractor 3:** Vendor A, because fixed-price contracts always carry less risk for the organization.
+- <strong>Correct:</strong> Vendor A, because its total lifecycle cost is significantly lower than Vendor B.
+- <strong>Distractor 1:</strong> Vendor B, because the initial purchase price is $50,000 lower than Vendor A.
+- <strong>Distractor 2:</strong> Vendor B, because it allows for more flexibility in license management.
+- <strong>Distractor 3:</strong> Vendor A, because fixed-price contracts always carry less risk for the organization.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -217,18 +217,18 @@ When considering the total cost of ownership for the project duration, which opt
 
 ### Question 6
 
-**Enabler:** Plan spend tracking throughout the project life cycle | **Methodology:** Hybrid
+<strong>Enabler:</strong> Plan spend tracking throughout the project life cycle | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project has a Budget at Completion (BAC) of $1,000,000. At the six-month mark, the project's S-curve shows a Planned Value (PV) of $600,000 and an Earned Value (EV) of $550,000. The Actual Cost (AC) is $580,000. The project sponsor is concerned about the spending trend and asks for a forecast of the total cost if current performance continues.
 
-**Question:**
+<strong>Question:</strong>
 What is the most accurate Estimate at Completion (EAC) to report to the sponsor?
 
-- **Correct:** $1,052,632
-- **Distractor 1:** $1,030,000
-- **Distractor 2:** $948,275
-- **Distractor 3:** $1,090,909
+- <strong>Correct:</strong> $1,052,632
+- <strong>Distractor 1:</strong> $1,030,000
+- <strong>Distractor 2:</strong> $948,275
+- <strong>Distractor 3:</strong> $1,090,909
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -246,18 +246,18 @@ What is the most accurate Estimate at Completion (EAC) to report to the sponsor?
 
 ### Question 7
 
-**Enabler:** Anticipate future finance challenges | **Methodology:** Agile
+<strong>Enabler:</strong> Anticipate future finance challenges | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An Agile project team is working on a high-priority digital transformation. The organization uses a "Fixed-Price per Iteration" model with an external vendor. After four iterations, the team realizes that the technical debt is slowing down velocity, resulting in fewer story points delivered per dollar spent. The finance department warns that the budget will be exhausted before the minimum viable product (MVP) is fully functional.
 
-**Question:**
+<strong>Question:</strong>
 What is the first step the project manager should take to address this challenge?
 
-- **Correct:** Facilitate a technical review to identify the root causes of the technical debt and its impact on the remaining backlog.
-- **Distractor 1:** Terminate the contract with the current vendor and look for a more efficient partner.
-- **Distractor 2:** Request a budget increase from the steering committee to cover the cost of the remaining MVP features.
-- **Distractor 3:** Order the team to skip unit testing for the next two iterations to increase velocity and save costs.
+- <strong>Correct:</strong> Facilitate a technical review to identify the root causes of the technical debt and its impact on the remaining backlog.
+- <strong>Distractor 1:</strong> Terminate the contract with the current vendor and look for a more efficient partner.
+- <strong>Distractor 2:</strong> Request a budget increase from the steering committee to cover the cost of the remaining MVP features.
+- <strong>Distractor 3:</strong> Order the team to skip unit testing for the next two iterations to increase velocity and save costs.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -275,18 +275,18 @@ What is the first step the project manager should take to address this challenge
 
 ### Question 8
 
-**Enabler:** Monitor financial variations and work with the governance process | **Methodology:** Predictive
+<strong>Enabler:</strong> Monitor financial variations and work with the governance process | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project has a Cost Performance Index (CPI) of 1.1 and a Schedule Performance Index (SPI) of 0.8. The project is currently in the middle of a critical phase. The project manager needs to bring the project back on schedule without exceeding the total budget.
 
-**Question:**
+<strong>Question:</strong>
 Which action is the most appropriate for the project manager to take?
 
-- **Correct:** Evaluate the feasibility of crashing critical path activities using the existing cost surplus.
-- **Distractor 1:** Fast-track the remaining activities to save time without increasing costs.
-- **Distractor 2:** Request a schedule extension from the sponsor since the project is under budget.
-- **Distractor 3:** Implement overtime for the team, as the current CPI indicates they are working efficiently.
+- <strong>Correct:</strong> Evaluate the feasibility of crashing critical path activities using the existing cost surplus.
+- <strong>Distractor 1:</strong> Fast-track the remaining activities to save time without increasing costs.
+- <strong>Distractor 2:</strong> Request a schedule extension from the sponsor since the project is under budget.
+- <strong>Distractor 3:</strong> Implement overtime for the team, as the current CPI indicates they are working efficiently.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -304,18 +304,18 @@ Which action is the most appropriate for the project manager to take?
 
 ### Question 9
 
-**Enabler:** Analyze project financial needs | **Methodology:** Hybrid
+<strong>Enabler:</strong> Analyze project financial needs | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is planning a research and development project. The sponsor has provided a fixed budget but is open to both internal and external staffing. Internal resources cost $100 per hour but have limited availability. External contractors cost $150 per hour but can start immediately and work 40 hours per week. There is a 30% risk that internal resources will be pulled to other projects, causing a 4-week delay at a cost of $20,000 per week in lost opportunity.
 
-**Question:**
+<strong>Question:</strong>
 When performing a financial analysis to determine the staffing strategy, what should the project manager prioritize?
 
-- **Correct:** The Expected Monetary Value (EMV) of the risks associated with internal resource availability.
-- **Distractor 1:** The lower hourly rate of the internal resources to maximize the total work hours.
-- **Distractor 2:** The immediate availability of external contractors to ensure the project starts on time.
-- **Distractor 3:** The preference of the team members for who they want to work with on the project.
+- <strong>Correct:</strong> The Expected Monetary Value (EMV) of the risks associated with internal resource availability.
+- <strong>Distractor 1:</strong> The lower hourly rate of the internal resources to maximize the total work hours.
+- <strong>Distractor 2:</strong> The immediate availability of external contractors to ensure the project starts on time.
+- <strong>Distractor 3:</strong> The preference of the team members for who they want to work with on the project.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -333,18 +333,18 @@ When performing a financial analysis to determine the staffing strategy, what sh
 
 ### Question 10
 
-**Enabler:** Plan financial reporting | **Methodology:** Predictive
+<strong>Enabler:</strong> Plan financial reporting | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is preparing the monthly performance report for the executive steering committee. One of the committee members is known for focusing heavily on "sunk costs" and frequently suggests canceling projects based on how much has already been spent compared to the original estimate, regardless of current progress or future value.
 
-**Question:**
+<strong>Question:</strong>
 What is the most effective way for the project manager to present the financial data to this stakeholder?
 
-- **Correct:** Focus on the Estimate to Complete (ETC) and the Variance at Completion (VAC) to highlight future value and expected final results.
-- **Distractor 1:** Emphasize the total amount spent to date to show the significant investment the company has already made.
-- **Distractor 2:** Provide a detailed list of all past expenditures to ensure complete transparency of the project's financial history.
-- **Distractor 3:** Compare the actual costs to the original monthly budget to demonstrate that spending is being controlled.
+- <strong>Correct:</strong> Focus on the Estimate to Complete (ETC) and the Variance at Completion (VAC) to highlight future value and expected final results.
+- <strong>Distractor 1:</strong> Emphasize the total amount spent to date to show the significant investment the company has already made.
+- <strong>Distractor 2:</strong> Provide a detailed list of all past expenditures to ensure complete transparency of the project's financial history.
+- <strong>Distractor 3:</strong> Compare the actual costs to the original monthly budget to demonstrate that spending is being controlled.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -362,18 +362,18 @@ What is the most effective way for the project manager to present the financial 
 
 ### Question 11
 
-**Enabler:** Plan spend tracking throughout the project life cycle | **Methodology:** Agile
+<strong>Enabler:</strong> Plan spend tracking throughout the project life cycle | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An organization is transitioning to Agile and has authorized a $500,000 budget for a new product development project. The finance department requires a monthly report that shows how the budget is being consumed relative to the value being delivered. The team is currently using a burnup chart to track scope completion.
 
-**Question:**
+<strong>Question:</strong>
 What is the most effective way for the project manager to integrate spend tracking with the Agile delivery metrics?
 
-- **Correct:** Add a "Total Cost" line to the burnup chart and calculate the "Cost per Story Point" for each iteration.
-- **Distractor 1:** Create a separate traditional S-curve report based on the original high-level estimates.
-- **Distractor 2:** Report only the monthly burn rate of the team without referencing completed story points.
-- **Distractor 3:** Request the team to start using Actual Cost and Earned Value formulas at the individual task level.
+- <strong>Correct:</strong> Add a "Total Cost" line to the burnup chart and calculate the "Cost per Story Point" for each iteration.
+- <strong>Distractor 1:</strong> Create a separate traditional S-curve report based on the original high-level estimates.
+- <strong>Distractor 2:</strong> Report only the monthly burn rate of the team without referencing completed story points.
+- <strong>Distractor 3:</strong> Request the team to start using Actual Cost and Earned Value formulas at the individual task level.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -391,18 +391,18 @@ What is the most effective way for the project manager to integrate spend tracki
 
 ### Question 12
 
-**Enabler:** Anticipate future finance challenges | **Methodology:** Hybrid
+<strong>Enabler:</strong> Anticipate future finance challenges | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a project that involves purchasing hardware from an international supplier. The project is currently at the 50% completion mark and is on budget. However, a new trade policy is announced that will impose a 15% tariff on all imported electronics starting in four months. The final hardware delivery is scheduled for five months from now.
 
-**Question:**
+<strong>Question:</strong>
 What is the best proactive step for the project manager to take regarding this financial challenge?
 
-- **Correct:** Analyze the feasibility of accelerating the hardware delivery to occur before the tariff takes effect.
-- **Distractor 1:** Update the risk register and wait until the tariff is actually implemented before taking action.
-- **Distractor 2:** Request an immediate budget increase of 15% to cover the anticipated tariff costs.
-- **Distractor 3:** Switch to a local supplier immediately, regardless of the impact on technical specifications.
+- <strong>Correct:</strong> Analyze the feasibility of accelerating the hardware delivery to occur before the tariff takes effect.
+- <strong>Distractor 1:</strong> Update the risk register and wait until the tariff is actually implemented before taking action.
+- <strong>Distractor 2:</strong> Request an immediate budget increase of 15% to cover the anticipated tariff costs.
+- <strong>Distractor 3:</strong> Switch to a local supplier immediately, regardless of the impact on technical specifications.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -420,18 +420,18 @@ What is the best proactive step for the project manager to take regarding this f
 
 ### Question 13
 
-**Enabler:** Plan financial reporting | **Methodology:** Hybrid
+<strong>Enabler:</strong> Plan financial reporting | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project is organized into three distinct workstreams. Workstream 1 uses Waterfall and has a CPI of 1.2. Workstream 2 uses Scrum and has a stable velocity but is 10% over its iteration budget. Workstream 3 is a research spike with a fixed budget that is 90% consumed with 20% of the research goals remaining. The project sponsor wants a single consolidated financial health metric.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager present to the sponsor to accurately reflect the project's financial status?
 
-- **Correct:** A consolidated Variance at Completion (VAC) forecast based on a roll-up of individual workstream performance.
-- **Distractor 1:** The average CPI of all three workstreams combined into a single index.
-- **Distractor 2:** A report showing the Waterfall workstream's surplus offsetting the Agile workstreams' deficits.
-- **Distractor 3:** A qualitative summary stating that the project is "on track" overall due to the high performance of Workstream 1.
+- <strong>Correct:</strong> A consolidated Variance at Completion (VAC) forecast based on a roll-up of individual workstream performance.
+- <strong>Distractor 1:</strong> The average CPI of all three workstreams combined into a single index.
+- <strong>Distractor 2:</strong> A report showing the Waterfall workstream's surplus offsetting the Agile workstreams' deficits.
+- <strong>Distractor 3:</strong> A qualitative summary stating that the project is "on track" overall due to the high performance of Workstream 1.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -449,18 +449,18 @@ What should the project manager present to the sponsor to accurately reflect the
 
 ### Question 14
 
-**Enabler:** Monitor financial variations and work with the governance process | **Methodology:** Agile
+<strong>Enabler:</strong> Monitor financial variations and work with the governance process | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a sprint review, the Product Owner adds three new "must-have" features to the backlog that were not part of the initial release plan. The team estimates these features will require two additional sprints. The project has a fixed total budget that is currently 80% committed to the existing backlog.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager handle this request in terms of financial management?
 
-- **Correct:** Facilitate a prioritization session to identify lower-value features in the existing backlog to be removed to accommodate the new ones.
-- **Distractor 1:** Submit a change request to the steering committee for additional funding to cover the two extra sprints.
-- **Distractor 2:** Instruct the team to work faster to incorporate the new features without extending the project timeline.
-- **Distractor 3:** Add the features to the bottom of the backlog and inform the Product Owner they will only be done if budget remains at the end.
+- <strong>Correct:</strong> Facilitate a prioritization session to identify lower-value features in the existing backlog to be removed to accommodate the new ones.
+- <strong>Distractor 1:</strong> Submit a change request to the steering committee for additional funding to cover the two extra sprints.
+- <strong>Distractor 2:</strong> Instruct the team to work faster to incorporate the new features without extending the project timeline.
+- <strong>Distractor 3:</strong> Add the features to the bottom of the backlog and inform the Product Owner they will only be done if budget remains at the end.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -478,18 +478,18 @@ How should the project manager handle this request in terms of financial managem
 
 ### Question 15
 
-**Enabler:** Manage financial reserves | **Methodology:** Predictive
+<strong>Enabler:</strong> Manage financial reserves | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 An identified risk in the risk register occurs: a 10% increase in the cost of raw materials. The project manager previously allocated $15,000 in the contingency reserve for this specific event. The actual cost impact is now confirmed to be $20,000.
 
-**Question:**
+<strong>Question:</strong>
 What is the most appropriate action for the project manager to take regarding the $5,000 deficit?
 
-- **Correct:** Use $15,000 from the contingency reserve and submit a change request for the remaining $5,000 from the management reserve.
-- **Distractor 1:** Use $20,000 from the contingency reserve by pulling funds allocated to other risks.
-- **Distractor 2:** Request the sponsor to increase the total contingency reserve by $5,000 without a formal change request.
-- **Distractor 3:** Direct the procurement team to find a cheaper, lower-quality supplier to cover the $5,000 difference.
+- <strong>Correct:</strong> Use $15,000 from the contingency reserve and submit a change request for the remaining $5,000 from the management reserve.
+- <strong>Distractor 1:</strong> Use $20,000 from the contingency reserve by pulling funds allocated to other risks.
+- <strong>Distractor 2:</strong> Request the sponsor to increase the total contingency reserve by $5,000 without a formal change request.
+- <strong>Distractor 3:</strong> Direct the procurement team to find a cheaper, lower-quality supplier to cover the $5,000 difference.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -507,18 +507,18 @@ What is the most appropriate action for the project manager to take regarding th
 
 ### Question 16
 
-**Enabler:** Analyze project financial needs | **Methodology:** Agile
+<strong>Enabler:</strong> Analyze project financial needs | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is helping a startup plan their first major product release using a Scrum framework. The startup has limited "runway" (cash) and needs to ensure that the project becomes self-funding as soon as possible by delivering value that can be monetized.
 
-**Question:**
+<strong>Question:</strong>
 Which financial metric should the project manager prioritize when helping the Product Owner order the backlog?
 
-- **Correct:** Net Present Value (NPV) and Return on Investment (ROI) for each individual user story or feature set.
-- **Distractor 1:** The estimated development cost of each feature to ensure the cheapest ones are built first.
-- **Distractor 2:** The "Cost of Delay" to identify which features will result in the greatest lost revenue if not delivered early.
-- **Distractor 3:** The total Budget at Completion (BAC) to ensure the team doesn't overspend in the early sprints.
+- <strong>Correct:</strong> Net Present Value (NPV) and Return on Investment (ROI) for each individual user story or feature set.
+- <strong>Distractor 1:</strong> The estimated development cost of each feature to ensure the cheapest ones are built first.
+- <strong>Distractor 2:</strong> The "Cost of Delay" to identify which features will result in the greatest lost revenue if not delivered early.
+- <strong>Distractor 3:</strong> The total Budget at Completion (BAC) to ensure the team doesn't overspend in the early sprints.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -536,18 +536,18 @@ Which financial metric should the project manager prioritize when helping the Pr
 
 ### Question 17
 
-**Enabler:** Plan spend tracking throughout the project life cycle | **Methodology:** Predictive
+<strong>Enabler:</strong> Plan spend tracking throughout the project life cycle | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is establishing a financial tracking system for a construction project. The organization's accounting system tracks "Invoices Paid," but the project's performance is measured by "Work Completed" and "Material Committed." The project manager notices a significant lag between when work is done on-site and when it appears in the accounting reports.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to ensure accurate spend tracking for performance measurement?
 
-- **Correct:** Maintain a project-level shadow budget to track "accrued costs" (work performed but not yet paid) for EVM calculations.
-- **Distractor 1:** Rely solely on the official accounting reports to avoid discrepancies between the project and corporate records.
-- **Distractor 2:** Request the finance department to change their payment terms to match the project's work schedule.
-- **Distractor 3:** Use the "Invoices Paid" as the Actual Cost (AC) in the Earned Value formulas to ensure consistency.
+- <strong>Correct:</strong> Maintain a project-level shadow budget to track "accrued costs" (work performed but not yet paid) for EVM calculations.
+- <strong>Distractor 1:</strong> Rely solely on the official accounting reports to avoid discrepancies between the project and corporate records.
+- <strong>Distractor 2:</strong> Request the finance department to change their payment terms to match the project's work schedule.
+- <strong>Distractor 3:</strong> Use the "Invoices Paid" as the Actual Cost (AC) in the Earned Value formulas to ensure consistency.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -565,18 +565,18 @@ What should the project manager do to ensure accurate spend tracking for perform
 
 ### Question 18
 
-**Enabler:** Anticipate future finance challenges | **Methodology:** Hybrid
+<strong>Enabler:</strong> Anticipate future finance challenges | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A company is developing a new medical device. The project manager is informed that a new environmental regulation will be enacted next year, requiring the use of more expensive, biodegradable components. The project is currently scheduled to finish three months after the regulation takes effect, but the design phase is still ongoing.
 
-**Question:**
+<strong>Question:</strong>
 What is the most effective "Value Engineering" approach to this challenge?
 
-- **Correct:** Redesign the product now to incorporate the new materials, potentially reducing future rework and compliance costs.
-- **Distractor 1:** Proceed with the current cheaper design and hope for a regulatory waiver for projects already in progress.
-- **Distractor 2:** Accelerate the project schedule to finish before the regulation takes effect, even if it requires significant overtime.
-- **Distractor 3:** Purchase a large stockpile of the current cheaper components now to avoid the price increase later.
+- <strong>Correct:</strong> Redesign the product now to incorporate the new materials, potentially reducing future rework and compliance costs.
+- <strong>Distractor 1:</strong> Proceed with the current cheaper design and hope for a regulatory waiver for projects already in progress.
+- <strong>Distractor 2:</strong> Accelerate the project schedule to finish before the regulation takes effect, even if it requires significant overtime.
+- <strong>Distractor 3:</strong> Purchase a large stockpile of the current cheaper components now to avoid the price increase later.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -594,18 +594,18 @@ What is the most effective "Value Engineering" approach to this challenge?
 
 ### Question 19
 
-**Enabler:** Quantify risk and contingency financial allocations | **Methodology:** Predictive
+<strong>Enabler:</strong> Quantify risk and contingency financial allocations | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using a Monte Carlo simulation to determine the project budget. The simulation results show a 50% probability (P50) of finishing at $450,000, and an 80% probability (P80) of finishing at $510,000. The organization's risk appetite for this strategic project is low.
 
-**Question:**
+<strong>Question:</strong>
 Which amount should the project manager propose as the cost baseline to the steering committee?
 
-- **Correct:** $510,000, because it provides a higher confidence level suitable for a low-risk appetite.
-- **Distractor 1:** $450,000, because it represents the most likely outcome for the project.
-- **Distractor 2:** $480,000, which is the average of the P50 and P80 values.
-- **Distractor 3:** $550,000, to provide an extra safety margin above the simulation results.
+- <strong>Correct:</strong> $510,000, because it provides a higher confidence level suitable for a low-risk appetite.
+- <strong>Distractor 1:</strong> $450,000, because it represents the most likely outcome for the project.
+- <strong>Distractor 2:</strong> $480,000, which is the average of the P50 and P80 values.
+- <strong>Distractor 3:</strong> $550,000, to provide an extra safety margin above the simulation results.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -623,18 +623,18 @@ Which amount should the project manager propose as the cost baseline to the stee
 
 ### Question 20
 
-**Enabler:** Monitor financial variations and work with the governance process | **Methodology:** Hybrid
+<strong>Enabler:</strong> Monitor financial variations and work with the governance process | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project has a BAC of $2,000,000. Current metrics are: EV = $800,000, AC = $950,000, and PV = $900,000. The project manager identifies that the cost overrun was due to a one-time setup fee that will not recur. The remaining work is expected to be performed at the originally planned rate.
 
-**Question:**
+<strong>Question:</strong>
 What is the most appropriate Estimate at Completion (EAC) to use for the next governance meeting?
 
-- **Correct:** $2,150,000
-- **Distractor 1:** $2,375,000
-- **Distractor 2:** $2,100,000
-- **Distractor 3:** $2,250,000
+- <strong>Correct:</strong> $2,150,000
+- <strong>Distractor 1:</strong> $2,375,000
+- <strong>Distractor 2:</strong> $2,100,000
+- <strong>Distractor 3:</strong> $2,250,000
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -652,18 +652,18 @@ What is the most appropriate Estimate at Completion (EAC) to use for the next go
 
 ### Question 21
 
-**Enabler:** Monitor financial variations and work with the governance process | **Methodology:** Hybrid
+<strong>Enabler:</strong> Monitor financial variations and work with the governance process | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is presenting to the Change Control Board (CCB). The project has a CPI of 0.92 and an SPI of 1.05. A proposed change will add $50,000 to the project cost but is expected to reduce long-term maintenance costs by $15,000 per year for the next five years.
 
-**Question:**
+<strong>Question:</strong>
 Which financial argument is the most compelling for the project manager to use when seeking approval for this change?
 
-- **Correct:** The change represents positive Value Engineering with a net lifecycle benefit of $25,000.
-- **Distractor 1:** The project is ahead of schedule, so the team has capacity to implement the change now.
-- **Distractor 2:** The current CPI of 0.92 is within the organization's 10% allowable variance threshold.
-- **Distractor 3:** The additional $50,000 can be covered by the management reserve without affecting the baseline.
+- <strong>Correct:</strong> The change represents positive Value Engineering with a net lifecycle benefit of $25,000.
+- <strong>Distractor 1:</strong> The project is ahead of schedule, so the team has capacity to implement the change now.
+- <strong>Distractor 2:</strong> The current CPI of 0.92 is within the organization's 10% allowable variance threshold.
+- <strong>Distractor 3:</strong> The additional $50,000 can be covered by the management reserve without affecting the baseline.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -681,18 +681,18 @@ Which financial argument is the most compelling for the project manager to use w
 
 ### Question 22
 
-**Enabler:** Anticipate future finance challenges | **Methodology:** Agile
+<strong>Enabler:</strong> Anticipate future finance challenges | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An Agile team is working on a SaaS product. The Product Owner wants to maximize Lifetime Value (LTV). The development team identifies that the current architecture is inefficient and will lead to exponentially higher hosting costs as the user base grows. Fixing this technical debt will take three full sprints.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager advise the Product Owner regarding this financial challenge?
 
-- **Correct:** Treat the architectural improvement as a high-priority technical story to protect future profit margins.
-- **Distractor 1:** Delay the fix until the product is profitable enough to afford the dedicated sprints.
-- **Distractor 2:** Ask the team to work on the architectural fix in their spare time while still delivering features.
-- **Distractor 3:** Ignore the hosting costs as they are operational expenses and not part of the project budget.
+- <strong>Correct:</strong> Treat the architectural improvement as a high-priority technical story to protect future profit margins.
+- <strong>Distractor 1:</strong> Delay the fix until the product is profitable enough to afford the dedicated sprints.
+- <strong>Distractor 2:</strong> Ask the team to work on the architectural fix in their spare time while still delivering features.
+- <strong>Distractor 3:</strong> Ignore the hosting costs as they are operational expenses and not part of the project budget.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -710,18 +710,18 @@ How should the project manager advise the Product Owner regarding this financial
 
 ### Question 23
 
-**Enabler:** Plan financial reporting | **Methodology:** Predictive
+<strong>Enabler:</strong> Plan financial reporting | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is reporting on a project with a BAC of $5,000,000. The project is at the 75% milestone. EV is $3,750,000 and AC is $4,200,000. The project manager identifies that the cost overrun is systemic and unlikely to improve.
 
-**Question:**
+<strong>Question:</strong>
 Which metric will the steering committee find most useful to determine how much *additional* funding they need to authorize to finish the project?
 
-- **Correct:** Estimate to Complete (ETC)
-- **Distractor 1:** Estimate at Completion (EAC)
-- **Distractor 2:** Variance at Completion (VAC)
-- **Distractor 3:** To-Complete Performance Index (TCPI)
+- <strong>Correct:</strong> Estimate to Complete (ETC)
+- <strong>Distractor 1:</strong> Estimate at Completion (EAC)
+- <strong>Distractor 2:</strong> Variance at Completion (VAC)
+- <strong>Distractor 3:</strong> To-Complete Performance Index (TCPI)
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -739,18 +739,18 @@ Which metric will the steering committee find most useful to determine how much 
 
 ### Question 24
 
-**Enabler:** Manage financial reserves | **Methodology:** Hybrid
+<strong>Enabler:</strong> Manage financial reserves | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a hybrid project where software is 10% under budget, but hardware is 15% over budget due to disruptions. Overall CPI is 0.98. The software lead requests to use their surplus to add a "nice-to-have" feature that was previously cut.
 
-**Question:**
+<strong>Question:</strong>
 What is the most appropriate response from the project manager?
 
-- **Correct:** Deny the request and keep the software surplus as a buffer for the hardware workstream's cost overruns.
-- **Distractor 1:** Approve the request to reward the software team for their efficiency and high performance.
-- **Distractor 2:** Direct the software lead to submit a formal change request to the CCB for the new feature.
-- **Distractor 3:** Use the software surplus to pay for a team building event to improve morale.
+- <strong>Correct:</strong> Deny the request and keep the software surplus as a buffer for the hardware workstream's cost overruns.
+- <strong>Distractor 1:</strong> Approve the request to reward the software team for their efficiency and high performance.
+- <strong>Distractor 2:</strong> Direct the software lead to submit a formal change request to the CCB for the new feature.
+- <strong>Distractor 3:</strong> Use the software surplus to pay for a team building event to improve morale.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -768,18 +768,18 @@ What is the most appropriate response from the project manager?
 
 ### Question 25
 
-**Enabler:** Analyze project financial needs | **Methodology:** Agile
+<strong>Enabler:</strong> Analyze project financial needs | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An Agile team's velocity has dropped by 20%. The Scrum Master discovers the team is manually testing because the automated environment is frequently down. Upgrading the environment costs $10,000. The team of 5 is losing 8 hours per week each to manual work at $100 per hour.
 
-**Question:**
+<strong>Question:</strong>
 What is the most professional way to present the business case for this expenditure to the Product Owner?
 
-- **Correct:** Show that the $10,000 investment will pay for itself in less than three weeks through increased productivity.
-- **Distractor 1:** Explain that the team is frustrated and morale will continue to drop without the upgrade.
-- **Distractor 2:** State that the upgrade is a mandatory requirement for "industry standard" Agile delivery.
-- **Distractor 3:** Request the Product Owner to cut one minor feature from the next sprint to cover the cost.
+- <strong>Correct:</strong> Show that the $10,000 investment will pay for itself in less than three weeks through increased productivity.
+- <strong>Distractor 1:</strong> Explain that the team is frustrated and morale will continue to drop without the upgrade.
+- <strong>Distractor 2:</strong> State that the upgrade is a mandatory requirement for "industry standard" Agile delivery.
+- <strong>Distractor 3:</strong> Request the Product Owner to cut one minor feature from the next sprint to cover the cost.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -797,18 +797,18 @@ What is the most professional way to present the business case for this expendit
 
 ### Question 26
 
-**Enabler:** Quantify risk and contingency financial allocations | **Methodology:** Predictive
+<strong>Enabler:</strong> Quantify risk and contingency financial allocations | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A PM is calculating contingency for five risks: Risk 1 (50% of $10k), Risk 2 (20% of $50k), Risk 3 (10% of $100k), Risk 4 (100% of $5k permit), Risk 5 (30% of $20k saving).
 
-**Question:**
+<strong>Question:</strong>
 What is the total risk-adjusted contingency that should be added to the base estimate?
 
-- **Correct:** $19,000
-- **Distractor 1:** $25,000
-- **Distractor 2:** $30,000
-- **Distractor 3:** $24,000
+- <strong>Correct:</strong> $19,000
+- <strong>Distractor 1:</strong> $25,000
+- <strong>Distractor 2:</strong> $30,000
+- <strong>Distractor 3:</strong> $24,000
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -826,18 +826,18 @@ What is the total risk-adjusted contingency that should be added to the base est
 
 ### Question 27
 
-**Enabler:** Plan spend tracking throughout the project life cycle | **Methodology:** Hybrid
+<strong>Enabler:</strong> Plan spend tracking throughout the project life cycle | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is managing a project with high resource cost variability. The organization uses a "Fixed-Price" budget, but the PM is concerned the original estimates are becoming obsolete.
 
-**Question:**
+<strong>Question:</strong>
 Which spend tracking technique should the project manager implement to manage this uncertainty?
 
-- **Correct:** Use "Parametric Estimating" models to update the remaining budget forecasts based on current market rates.
-- **Distractor 1:** Maintain the original baseline to ensure the project stays within its authorized limits.
-- **Distractor 2:** Request the contractors to sign a fixed-rate agreement regardless of market changes.
-- **Distractor 3:** Switch to "Analogous Estimating" by looking at other projects with similar price hikes.
+- <strong>Correct:</strong> Use "Parametric Estimating" models to update the remaining budget forecasts based on current market rates.
+- <strong>Distractor 1:</strong> Maintain the original baseline to ensure the project stays within its authorized limits.
+- <strong>Distractor 2:</strong> Request the contractors to sign a fixed-rate agreement regardless of market changes.
+- <strong>Distractor 3:</strong> Switch to "Analogous Estimating" by looking at other projects with similar price hikes.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -855,18 +855,18 @@ Which spend tracking technique should the project manager implement to manage th
 
 ### Question 28
 
-**Enabler:** Anticipate future finance challenges | **Methodology:** Agile
+<strong>Enabler:</strong> Anticipate future finance challenges | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A company requires the project to be depreciated over five years. The team releases updates every two weeks. Accountants struggle to track which features are capital improvements vs. maintenance.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager suggest to streamline financial reporting?
 
-- **Correct:** Tag user stories in the backlog as either "New Feature/Enhancement" or "Defect/Support" to automate CapEx vs. OpEx reporting.
-- **Distractor 1:** Suggest the finance department only capitalizes the initial release and treats all subsequent sprints as maintenance.
-- **Distractor 2:** Require the team to fill out daily timesheets detailing the specific type of work for each hour.
-- **Distractor 3:** Move to a Waterfall methodology for the final release phase to make the accounting "cleaner."
+- <strong>Correct:</strong> Tag user stories in the backlog as either "New Feature/Enhancement" or "Defect/Support" to automate CapEx vs. OpEx reporting.
+- <strong>Distractor 1:</strong> Suggest the finance department only capitalizes the initial release and treats all subsequent sprints as maintenance.
+- <strong>Distractor 2:</strong> Require the team to fill out daily timesheets detailing the specific type of work for each hour.
+- <strong>Distractor 3:</strong> Move to a Waterfall methodology for the final release phase to make the accounting "cleaner."
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -884,18 +884,18 @@ What should the project manager suggest to streamline financial reporting?
 
 ### Question 29
 
-**Enabler:** Monitor financial variations and work with the governance process | **Methodology:** Predictive
+<strong>Enabler:</strong> Monitor financial variations and work with the governance process | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project has a CV of -$100,000 and an SV of -$50,000. Cost overrun is due to shipping surge; schedule delay is due to a local permit issue.
 
-**Question:**
+<strong>Question:</strong>
 What is the most appropriate first action for the project manager to take?
 
-- **Correct:** Perform a detailed impact analysis on the remaining project budget and schedule to see if the end date or total funding is threatened.
-- **Distractor 1:** Submit a change request to the CCB for an additional $100,000 and a schedule extension.
-- **Distractor 2:** Direct the team to stop all work on the permit and focus on finding cheaper shipping alternatives.
-- **Distractor 3:** Update the status report to "Red" and wait for the sponsor to provide guidance.
+- <strong>Correct:</strong> Perform a detailed impact analysis on the remaining project budget and schedule to see if the end date or total funding is threatened.
+- <strong>Distractor 1:</strong> Submit a change request to the CCB for an additional $100,000 and a schedule extension.
+- <strong>Distractor 2:</strong> Direct the team to stop all work on the permit and focus on finding cheaper shipping alternatives.
+- <strong>Distractor 3:</strong> Update the status report to "Red" and wait for the sponsor to provide guidance.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -913,18 +913,18 @@ What is the most appropriate first action for the project manager to take?
 
 ### Question 30
 
-**Enabler:** Manage financial reserves | **Methodology:** Hybrid
+<strong>Enabler:</strong> Manage financial reserves | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project is closing. There is $10k in contingency and $20k in management reserve left. Major risks have passed. The PM wants to use the $30k to buy new laptops for the team as a reward.
 
-**Question:**
+<strong>Question:</strong>
 What is the correct way to handle these remaining funds?
 
-- **Correct:** Close the reserves and return the funds to the organization's general budget as part of project closure.
-- **Distractor 1:** Use the $10,000 contingency reserve since the PM has authority over it, but return the management reserve.
-- **Distractor 2:** Submit a change request to use the $30,000 for "team recognition and resource upgrades."
-- **Distractor 3:** Keep the funds in the project account for an additional month "just in case" warranty issues arise.
+- <strong>Correct:</strong> Close the reserves and return the funds to the organization's general budget as part of project closure.
+- <strong>Distractor 1:</strong> Use the $10,000 contingency reserve since the PM has authority over it, but return the management reserve.
+- <strong>Distractor 2:</strong> Submit a change request to use the $30,000 for "team recognition and resource upgrades."
+- <strong>Distractor 3:</strong> Keep the funds in the project account for an additional month "just in case" warranty issues arise.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -942,18 +942,18 @@ What is the correct way to handle these remaining funds?
 
 ### Question 31
 
-**Enabler:** Analyze project financial needs | **Methodology:** Predictive
+<strong>Enabler:</strong> Analyze project financial needs | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 The project requires $100,000/month, but only $50,000 is available for month three due to a seasonal cash flow dip. Total budget is unchanged.
 
-**Question:**
+<strong>Question:</strong>
 What is the best action for the project manager to take to address this "Funding Limit Reconciliation" issue?
 
-- **Correct:** Reschedule non-critical path activities from month three to later months to align the work with the cash flow constraint.
-- **Distractor 1:** Request a short-term loan from a commercial bank to cover the $50,000 gap for month three.
-- **Distractor 2:** Direct the team to work at half-speed during month three to reduce the monthly expenditure.
-- **Distractor 3:** Ask the sponsor to increase the total budget to $650,000 to provide a buffer for the cash flow issue.
+- <strong>Correct:</strong> Reschedule non-critical path activities from month three to later months to align the work with the cash flow constraint.
+- <strong>Distractor 1:</strong> Request a short-term loan from a commercial bank to cover the $50,000 gap for month three.
+- <strong>Distractor 2:</strong> Direct the team to work at half-speed during month three to reduce the monthly expenditure.
+- <strong>Distractor 3:</strong> Ask the sponsor to increase the total budget to $650,000 to provide a buffer for the cash flow issue.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -971,18 +971,18 @@ What is the best action for the project manager to take to address this "Funding
 
 ### Question 32
 
-**Enabler:** Monitor financial variations and work with the governance process | **Methodology:** Predictive
+<strong>Enabler:</strong> Monitor financial variations and work with the governance process | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 BAC = $500,000, 60% mark. EV = $300,000, AC = $350,000. Sponsor says the project *must* finish within the original $500,000 budget.
 
-**Question:**
+<strong>Question:</strong>
 What is the required To-Complete Performance Index (TCPI) to achieve the sponsor's goal?
 
-- **Correct:** 1.33
-- **Distractor 1:** 0.86
-- **Distractor 2:** 1.15
-- **Distractor 3:** 1.50
+- <strong>Correct:</strong> 1.33
+- <strong>Distractor 1:</strong> 0.86
+- <strong>Distractor 2:</strong> 1.15
+- <strong>Distractor 3:</strong> 1.50
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1000,18 +1000,18 @@ What is the required To-Complete Performance Index (TCPI) to achieve the sponsor
 
 ### Question 33
 
-**Enabler:** Anticipate future finance challenges | **Methodology:** Agile
+<strong>Enabler:</strong> Anticipate future finance challenges | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A "Risk Burndown Chart" shows a new financial risk (20% increase in hosting fees) with its EMV trending upwards.
 
-**Question:**
+<strong>Question:</strong>
 What is the most effective way to address this financial risk within the Agile framework?
 
-- **Correct:** Create an "Architectural Spike" story in the next sprint to investigate cost-optimization strategies for the cloud environment.
-- **Distractor 1:** Ask the finance department to increase the management reserve to cover the potential 20% increase.
-- **Distractor 2:** Move the project to an on-premise server to eliminate the risk of fluctuating cloud fees.
-- **Distractor 3:** Ignore the trend for now as the hosting fees are not incurred until the product is launched.
+- <strong>Correct:</strong> Create an "Architectural Spike" story in the next sprint to investigate cost-optimization strategies for the cloud environment.
+- <strong>Distractor 1:</strong> Ask the finance department to increase the management reserve to cover the potential 20% increase.
+- <strong>Distractor 2:</strong> Move the project to an on-premise server to eliminate the risk of fluctuating cloud fees.
+- <strong>Distractor 3:</strong> Ignore the trend for now as the hosting fees are not incurred until the product is launched.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1029,18 +1029,18 @@ What is the most effective way to address this financial risk within the Agile f
 
 ### Question 34
 
-**Enabler:** Plan financial reporting | **Methodology:** Hybrid
+<strong>Enabler:</strong> Plan financial reporting | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 Hardware uses EVM; software uses Velocity/Burnups. Steering committee is confused and wants a "real-time" view of total project spend.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager implement to improve financial transparency?
 
-- **Correct:** A dashboard that converts all workstream metrics into a common "Integrated Cost Performance" view, showing cumulative EV vs. AC.
-- **Distractor 1:** Require the software teams to stop using Agile metrics and adopt full EVM tracking at the task level.
-- **Distractor 2:** Tell the committee that the two methodologies are incompatible and they must review two separate reports.
-- **Distractor 3:** Use the hardware team's CPI as a "proxy" for the overall project health.
+- <strong>Correct:</strong> A dashboard that converts all workstream metrics into a common "Integrated Cost Performance" view, showing cumulative EV vs. AC.
+- <strong>Distractor 1:</strong> Require the software teams to stop using Agile metrics and adopt full EVM tracking at the task level.
+- <strong>Distractor 2:</strong> Tell the committee that the two methodologies are incompatible and they must review two separate reports.
+- <strong>Distractor 3:</strong> Use the hardware team's CPI as a "proxy" for the overall project health.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1058,18 +1058,18 @@ What should the project manager implement to improve financial transparency?
 
 ### Question 35
 
-**Enabler:** Analyze project financial needs | **Methodology:** Predictive
+<strong>Enabler:</strong> Analyze project financial needs | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 Spent $2M on an engine. A new technology can replace it, saving $500k in *future* costs and 50% time. Switching makes the $2M spent "wasted."
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager evaluate this decision?
 
-- **Correct:** Compare the "Estimate to Complete" (ETC) of the current plan against the total cost of switching to the new technology, ignoring the $2,000,000 already spent.
-- **Distractor 1:** Stick with the current engine to justify the $2,000,000 investment and ensure the money wasn't "wasted."
-- **Distractor 2:** Add the $2,000,000 to the cost of the new option to calculate the true Return on Investment (ROI).
-- **Distractor 3:** Ask the finance department to "write off" the $2,000,000 before making the decision to switch.
+- <strong>Correct:</strong> Compare the "Estimate to Complete" (ETC) of the current plan against the total cost of switching to the new technology, ignoring the $2,000,000 already spent.
+- <strong>Distractor 1:</strong> Stick with the current engine to justify the $2,000,000 investment and ensure the money wasn't "wasted."
+- <strong>Distractor 2:</strong> Add the $2,000,000 to the cost of the new option to calculate the true Return on Investment (ROI).
+- <strong>Distractor 3:</strong> Ask the finance department to "write off" the $2,000,000 before making the decision to switch.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1087,18 +1087,18 @@ How should the project manager evaluate this decision?
 
 ### Question 36
 
-**Enabler:** Manage financial reserves | **Methodology:** Agile
+<strong>Enabler:</strong> Manage financial reserves | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A vulnerability fix before release requires $15,000 in contractor overtime. The vulnerability was unanticipated.
 
-**Question:**
+<strong>Question:</strong>
 What is the best way for the project manager to handle the funding for this emergency?
 
-- **Correct:** Immediately inform the Product Owner and Sponsor, seeking approval to access the management reserve via an emergency change process.
-- **Distractor 1:** Use the team's "buffer time" in the next sprint to pay for the overtime costs without notifying anyone.
-- **Distractor 2:** Tell the team they must work for free because the vulnerability should have been caught during development.
-- **Distractor 3:** Release the product as scheduled and plan the fix for the following sprint to avoid the overtime costs.
+- <strong>Correct:</strong> Immediately inform the Product Owner and Sponsor, seeking approval to access the management reserve via an emergency change process.
+- <strong>Distractor 1:</strong> Use the team's "buffer time" in the next sprint to pay for the overtime costs without notifying anyone.
+- <strong>Distractor 2:</strong> Tell the team they must work for free because the vulnerability should have been caught during development.
+- <strong>Distractor 3:</strong> Release the product as scheduled and plan the fix for the following sprint to avoid the overtime costs.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1116,18 +1116,18 @@ What is the best way for the project manager to handle the funding for this emer
 
 ### Question 37
 
-**Enabler:** Anticipate future finance challenges | **Methodology:** Predictive
+<strong>Enabler:</strong> Anticipate future finance challenges | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 Overseas contract in USD; local labor in local currency. Local currency is strengthening against the USD.
 
-**Question:**
+<strong>Question:</strong>
 What is the most important financial action for the project manager to take now?
 
-- **Correct:** Update the quantitative risk analysis using "Sensitivity Analysis" (Tornado Diagram) to determine the impact of further currency fluctuations on the total cost.
-- **Distractor 1:** Request the sponsor to convert all project funds into the local currency immediately to lock in the current rate.
-- **Distractor 2:** Negotiate with the local labor union to fix their wages in US Dollars for the remainder of the contract.
-- **Distractor 3:** Ignore the fluctuation as the contract is already signed and the budget is fixed in US Dollars.
+- <strong>Correct:</strong> Update the quantitative risk analysis using "Sensitivity Analysis" (Tornado Diagram) to determine the impact of further currency fluctuations on the total cost.
+- <strong>Distractor 1:</strong> Request the sponsor to convert all project funds into the local currency immediately to lock in the current rate.
+- <strong>Distractor 2:</strong> Negotiate with the local labor union to fix their wages in US Dollars for the remainder of the contract.
+- <strong>Distractor 3:</strong> Ignore the fluctuation as the contract is already signed and the budget is fixed in US Dollars.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1145,18 +1145,18 @@ What is the most important financial action for the project manager to take now?
 
 ### Question 38
 
-**Enabler:** Quantify risk and contingency financial allocations | **Methodology:** Agile
+<strong>Enabler:</strong> Quantify risk and contingency financial allocations | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 High-risk feature costs $60k. 40% chance the required API will be deprecated, rendering the work useless.
 
-**Question:**
+<strong>Question:</strong>
 Which calculation should the project manager use to help the Product Owner decide whether to include this feature?
 
-- **Correct:** Calculate the "Risk-Adjusted Value" by subtracting the EMV of the failure (0.40 * $60,000) from the potential benefit of the feature.
-- **Distractor 1:** Focus only on the $60,000 cost and ask if the Product Owner is willing to "gamble" that amount.
-- **Distractor 2:** Multiply the $60,000 by 1.4 to create a "risk-padded" estimate for the feature.
-- **Distractor 3:** Ask the team to build the feature anyway, but only spend 60% of their effort on it each sprint.
+- <strong>Correct:</strong> Calculate the "Risk-Adjusted Value" by subtracting the EMV of the failure (0.40 * $60,000) from the potential benefit of the feature.
+- <strong>Distractor 1:</strong> Focus only on the $60,000 cost and ask if the Product Owner is willing to "gamble" that amount.
+- <strong>Distractor 2:</strong> Multiply the $60,000 by 1.4 to create a "risk-padded" estimate for the feature.
+- <strong>Distractor 3:</strong> Ask the team to build the feature anyway, but only spend 60% of their effort on it each sprint.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1174,18 +1174,18 @@ Which calculation should the project manager use to help the Product Owner decid
 
 ### Question 39
 
-**Enabler:** Plan spend tracking throughout the project life cycle | **Methodology:** Hybrid
+<strong>Enabler:</strong> Plan spend tracking throughout the project life cycle | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 Agile CFD shows widening gap (WIP); Waterfall S-Curve shows CPI of 1.05.
 
-**Question:**
+<strong>Question:</strong>
 What does this data combination most likely indicate about the project's financial health?
 
-- **Correct:** The project is currently under budget, but the widening gap in the CFD indicates a growing bottleneck that will likely increase future costs.
-- **Distractor 1:** The project is in excellent health because the CPI is above 1.0 and the Agile team is starting a lot of new work.
-- **Distractor 2:** The project is over budget because the Agile workstream is not finishing tasks as fast as they are starting them.
-- **Distractor 3:** The S-Curve and CFD are showing contradictory data, indicating that the reporting tools are not synchronized.
+- <strong>Correct:</strong> The project is currently under budget, but the widening gap in the CFD indicates a growing bottleneck that will likely increase future costs.
+- <strong>Distractor 1:</strong> The project is in excellent health because the CPI is above 1.0 and the Agile team is starting a lot of new work.
+- <strong>Distractor 2:</strong> The project is over budget because the Agile workstream is not finishing tasks as fast as they are starting them.
+- <strong>Distractor 3:</strong> The S-Curve and CFD are showing contradictory data, indicating that the reporting tools are not synchronized.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1203,18 +1203,18 @@ What does this data combination most likely indicate about the project's financi
 
 ### Question 40
 
-**Enabler:** Plan financial reporting | **Methodology:** Predictive
+<strong>Enabler:</strong> Plan financial reporting | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 Project finished $50k under budget. However, quality inspections were skipped in the final month to save costs and meet the deadline.
 
-**Question:**
+<strong>Question:</strong>
 What is the most ethical way for the project manager to report this financial result?
 
-- **Correct:** Report the $50,000 surplus but clearly document the skipped inspections and the potential "Cost of Poor Quality" and future risk.
-- **Distractor 1:** Emphasize the $50,000 savings as a major success and omit the details about the skipped inspections.
-- **Distractor 2:** Use the $50,000 surplus to hire an external auditor to perform the skipped inspections before submitting the report.
-- **Distractor 3:** Claim that the inspections were "optimized" through value engineering to explain the cost savings.
+- <strong>Correct:</strong> Report the $50,000 surplus but clearly document the skipped inspections and the potential "Cost of Poor Quality" and future risk.
+- <strong>Distractor 1:</strong> Emphasize the $50,000 savings as a major success and omit the details about the skipped inspections.
+- <strong>Distractor 2:</strong> Use the $50,000 surplus to hire an external auditor to perform the skipped inspections before submitting the report.
+- <strong>Distractor 3:</strong> Claim that the inspections were "optimized" through value engineering to explain the cost savings.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1232,18 +1232,18 @@ What is the most ethical way for the project manager to report this financial re
 
 ### Question 41
 
-**Enabler:** Anticipate future finance challenges | **Methodology:** Hybrid
+<strong>Enabler:</strong> Anticipate future finance challenges | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 New carbon tax announced. Project's current efficient component has a large carbon manufacturing footprint. A new, more expensive component has a zero-carbon process.
 
-**Question:**
+<strong>Question:</strong>
 Which financial analysis technique should the project manager use to decide whether to switch?
 
-- **Correct:** Lifecycle Costing (Total Cost of Ownership), including the projected carbon tax liabilities over the product's 10-year lifespan.
-- **Distractor 1:** Simple Payback Period to see if the energy efficiency of the first component offsets its carbon tax.
-- **Distractor 2:** Expected Monetary Value (EMV) of the risk that the carbon tax might be repealed by a future government.
-- **Distractor 3:** Value Engineering focusing strictly on reducing the initial acquisition cost of the hardware.
+- <strong>Correct:</strong> Lifecycle Costing (Total Cost of Ownership), including the projected carbon tax liabilities over the product's 10-year lifespan.
+- <strong>Distractor 1:</strong> Simple Payback Period to see if the energy efficiency of the first component offsets its carbon tax.
+- <strong>Distractor 2:</strong> Expected Monetary Value (EMV) of the risk that the carbon tax might be repealed by a future government.
+- <strong>Distractor 3:</strong> Value Engineering focusing strictly on reducing the initial acquisition cost of the hardware.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1261,18 +1261,18 @@ Which financial analysis technique should the project manager use to decide whet
 
 ### Question 42
 
-**Enabler:** Monitor financial variations and work with the governance process | **Methodology:** Predictive
+<strong>Enabler:</strong> Monitor financial variations and work with the governance process | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 S-curve: EV below PV; AC above EV. The gap between EV and AC has started to narrow over the last two reporting periods.
 
-**Question:**
+<strong>Question:</strong>
 What is the most accurate interpretation of this trend?
 
-- **Correct:** The project is still over budget and behind schedule, but the cost efficiency (CPI) is improving.
-- **Distractor 1:** The project has successfully recovered its budget and is now trending towards a surplus.
-- **Distractor 2:** The project is catching up on its schedule, but the cost overrun is worsening.
-- **Distractor 3:** The project baseline is no longer valid and must be reset immediately.
+- <strong>Correct:</strong> The project is still over budget and behind schedule, but the cost efficiency (CPI) is improving.
+- <strong>Distractor 1:</strong> The project has successfully recovered its budget and is now trending towards a surplus.
+- <strong>Distractor 2:</strong> The project is catching up on its schedule, but the cost overrun is worsening.
+- <strong>Distractor 3:</strong> The project baseline is no longer valid and must be reset immediately.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1290,18 +1290,18 @@ What is the most accurate interpretation of this trend?
 
 ### Question 43
 
-**Enabler:** Analyze project financial needs | **Methodology:** Agile
+<strong>Enabler:</strong> Analyze project financial needs | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 Venture-funded project; delivered features but user adoption is 50% lower than target.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager recommend for the next funding pitch?
 
-- **Correct:** Propose a "Pivot" sprint to investigate reasons for low adoption, using funds to optimize the value proposition.
-- **Distractor 1:** Request the full funding as planned, arguing that the technical delivery was successful.
-- **Distractor 2:** Ask for a 50% budget reduction to match the lower-than-expected user adoption.
-- **Distractor 3:** Suggest "Gold Plating" existing features to make them more attractive to users.
+- <strong>Correct:</strong> Propose a "Pivot" sprint to investigate reasons for low adoption, using funds to optimize the value proposition.
+- <strong>Distractor 1:</strong> Request the full funding as planned, arguing that the technical delivery was successful.
+- <strong>Distractor 2:</strong> Ask for a 50% budget reduction to match the lower-than-expected user adoption.
+- <strong>Distractor 3:</strong> Suggest "Gold Plating" existing features to make them more attractive to users.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1319,18 +1319,18 @@ What should the project manager recommend for the next funding pitch?
 
 ### Question 44
 
-**Enabler:** Manage financial reserves | **Methodology:** Predictive
+<strong>Enabler:</strong> Manage financial reserves | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 PM has been using management reserve for small scope changes requested by stakeholders to "avoid the slow change control process."
 
-**Question:**
+<strong>Question:</strong>
 What is the primary governance issue with this approach?
 
-- **Correct:** Using the management reserve for scope changes bypasses formal Integrated Change Control and the authority of the sponsor.
-- **Distractor 1:** The management reserve should only be used for risks that were identified in the risk register.
-- **Distractor 2:** The project manager should be using the contingency reserve for these stakeholder requests instead.
-- **Distractor 3:** There is no issue as long as the total project budget is not exceeded and stakeholders are satisfied.
+- <strong>Correct:</strong> Using the management reserve for scope changes bypasses formal Integrated Change Control and the authority of the sponsor.
+- <strong>Distractor 1:</strong> The management reserve should only be used for risks that were identified in the risk register.
+- <strong>Distractor 2:</strong> The project manager should be using the contingency reserve for these stakeholder requests instead.
+- <strong>Distractor 3:</strong> There is no issue as long as the total project budget is not exceeded and stakeholders are satisfied.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1348,18 +1348,18 @@ What is the primary governance issue with this approach?
 
 ### Question 45
 
-**Enabler:** Plan financial reporting | **Methodology:** Agile
+<strong>Enabler:</strong> Plan financial reporting | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 Vendor delivers 50 story points/month but is "cherry-picking" easy stories and leaving complex, high-risk work for later.
 
-**Question:**
+<strong>Question:</strong>
 What is the financial implication of this trend that the project manager should report to the sponsor?
 
-- **Correct:** The "Cost per unit of Value" is likely increasing because the most difficult (and valuable) work is being deferred while budget is consumed.
-- **Distractor 1:** The project is on track because the monthly spend is constant and velocity is stable.
-- **Distractor 2:** The vendor is being highly efficient by focusing on work they can finish quickly.
-- **Distractor 3:** The project manager should suggest switching to a "Time and Materials" contract to save money.
+- <strong>Correct:</strong> The "Cost per unit of Value" is likely increasing because the most difficult (and valuable) work is being deferred while budget is consumed.
+- <strong>Distractor 1:</strong> The project is on track because the monthly spend is constant and velocity is stable.
+- <strong>Distractor 2:</strong> The vendor is being highly efficient by focusing on work they can finish quickly.
+- <strong>Distractor 3:</strong> The project manager should suggest switching to a "Time and Materials" contract to save money.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1377,18 +1377,18 @@ What is the financial implication of this trend that the project manager should 
 
 ### Question 46
 
-**Enabler:** Quantify risk and contingency financial allocations | **Methodology:** Hybrid
+<strong>Enabler:</strong> Quantify risk and contingency financial allocations | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 P90 Monte Carlo baseline = $1,150,000. EMV of risks = $25,000.
 
-**Question:**
+<strong>Question:</strong>
 What is the total management reserve that should be requested *above* the cost baseline of $1,150,000?
 
-- **Correct:** The amount should be determined by organizational policy, typically a percentage of the total baseline.
-- **Distractor 1:** $25,000, which is the sum of the EMVs of all risks.
-- **Distractor 2:** $150,000, which is the difference between the base estimate and the P90 baseline.
-- **Distractor 3:** $0, because the P90 confidence level already includes all possible risks.
+- <strong>Correct:</strong> The amount should be determined by organizational policy, typically a percentage of the total baseline.
+- <strong>Distractor 1:</strong> $25,000, which is the sum of the EMVs of all risks.
+- <strong>Distractor 2:</strong> $150,000, which is the difference between the base estimate and the P90 baseline.
+- <strong>Distractor 3:</strong> $0, because the P90 confidence level already includes all possible risks.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1406,18 +1406,18 @@ What is the total management reserve that should be requested *above* the cost b
 
 ### Question 47
 
-**Enabler:** Plan spend tracking throughout the project life cycle | **Methodology:** Predictive
+<strong>Enabler:</strong> Plan spend tracking throughout the project life cycle | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 Milestone payments every 3 months are causing vendor cash flow issues due to weekly labor costs.
 
-**Question:**
+<strong>Question:</strong>
 What is the best "Value Engineering" solution to ensure the project remains financially viable?
 
-- **Correct:** Negotiate a change to the payment schedule to include "Progress Payments" based on verified work-in-progress.
-- **Distractor 1:** Suggest the vendor take out a line of credit to cover their weekly labor costs.
-- **Distractor 2:** Threaten to terminate the contract if the vendor cannot meet the next milestone.
-- **Distractor 3:** Pay the vendor for the next milestone early, even though the work is not yet complete.
+- <strong>Correct:</strong> Negotiate a change to the payment schedule to include "Progress Payments" based on verified work-in-progress.
+- <strong>Distractor 1:</strong> Suggest the vendor take out a line of credit to cover their weekly labor costs.
+- <strong>Distractor 2:</strong> Threaten to terminate the contract if the vendor cannot meet the next milestone.
+- <strong>Distractor 3:</strong> Pay the vendor for the next milestone early, even though the work is not yet complete.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1435,18 +1435,18 @@ What is the best "Value Engineering" solution to ensure the project remains fina
 
 ### Question 48
 
-**Enabler:** Anticipate future finance challenges | **Methodology:** Agile
+<strong>Enabler:</strong> Anticipate future finance challenges | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 Provider X: Low monthly fee, high egress charges. Provider Y: High monthly fee, zero egress. Project has heavy data integration.
 
-**Question:**
+<strong>Question:</strong>
 Which financial factor is the most critical for the project manager to highlight to the Product Owner?
 
-- **Correct:** The high variable cost of Provider X based on the project's data integration strategy, which could lead to budget volatility.
-- **Distractor 1:** The low initial monthly fee of Provider X to maximize the team's early sprint budget.
-- **Distractor 2:** The brand reputation of the two providers in the local market.
-- **Distractor 3:** The team's personal preference for one provider's management console.
+- <strong>Correct:</strong> The high variable cost of Provider X based on the project's data integration strategy, which could lead to budget volatility.
+- <strong>Distractor 1:</strong> The low initial monthly fee of Provider X to maximize the team's early sprint budget.
+- <strong>Distractor 2:</strong> The brand reputation of the two providers in the local market.
+- <strong>Distractor 3:</strong> The team's personal preference for one provider's management console.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1464,18 +1464,18 @@ Which financial factor is the most critical for the project manager to highlight
 
 ### Question 49
 
-**Enabler:** Monitor financial variations and work with the governance process | **Methodology:** Hybrid
+<strong>Enabler:</strong> Monitor financial variations and work with the governance process | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 Vendor overcharged $10,000 for unapproved travel. Project is $50,000 under budget overall.
 
-**Question:**
+<strong>Question:</strong>
 What is the correct action for the project manager to take?
 
-- **Correct:** Formally dispute the unauthorized charges and seek a credit or refund from the vendor, regardless of the overall budget surplus.
-- **Distractor 1:** Ignore the charges because the project is under budget and the $10,000 is a "rounding error."
-- **Distractor 2:** Approve the charges retrospectively but warn the vendor not to do it again.
-- **Distractor 3:** Ask the vendor to re-label the $10,000 as "consulting fees" to make them easier to approve.
+- <strong>Correct:</strong> Formally dispute the unauthorized charges and seek a credit or refund from the vendor, regardless of the overall budget surplus.
+- <strong>Distractor 1:</strong> Ignore the charges because the project is under budget and the $10,000 is a "rounding error."
+- <strong>Distractor 2:</strong> Approve the charges retrospectively but warn the vendor not to do it again.
+- <strong>Distractor 3:</strong> Ask the vendor to re-label the $10,000 as "consulting fees" to make them easier to approve.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1493,18 +1493,18 @@ What is the correct action for the project manager to take?
 
 ### Question 50
 
-**Enabler:** Analyze project financial needs | **Methodology:** Predictive
+<strong>Enabler:</strong> Analyze project financial needs | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 Project finished $100,000 under budget. PM wants to document success for the organization.
 
-**Question:**
+<strong>Question:</strong>
 What is the most important financial "Lesson Learned" to include in the final project report?
 
-- **Correct:** An analysis of the variance between the initial estimates and the final actual costs, identifying which estimation techniques were most accurate.
-- **Distractor 1:** A simple statement that the project was "under budget" and the team should be congratulated.
-- **Distractor 2:** A recommendation that all future projects should add a 20% "safety margin" to their budgets.
-- **Distractor 3:** A list of the stakeholders who did not request any changes, thereby saving money.
+- <strong>Correct:</strong> An analysis of the variance between the initial estimates and the final actual costs, identifying which estimation techniques were most accurate.
+- <strong>Distractor 1:</strong> A simple statement that the project was "under budget" and the team should be congratulated.
+- <strong>Distractor 2:</strong> A recommendation that all future projects should add a 20% "safety margin" to their budgets.
+- <strong>Distractor 3:</strong> A list of the stakeholders who did not request any changes, thereby saving money.
 
 <details>
 <summary>Detailed Remediation</summary>

@@ -1,17 +1,17 @@
 ### Question 1
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Predictive
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a multi-year construction project. During the planning phase, it is identified that a critical piece of heavy machinery, required for the foundation work, has a six-month lead time for delivery. The project schedule is tight, and any delay in foundation work will impact all subsequent phases.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate action for the project manager to take regarding this resource?
 
-- **Correct:** Update the physical resource requirements and initiate the procurement process immediately to align with the schedule.
-- **Distractor 1:** Delay the foundation work until the machinery arrives and adjust the project baseline.
-- **Distractor 2:** Request additional budget to expedite the shipping of the machinery once it is manufactured.
-- **Distractor 3:** Assign more team members to the foundation task to compensate for the lack of machinery.
+- <strong>Correct:</strong> Update the physical resource requirements and initiate the procurement process immediately to align with the schedule.
+- <strong>Distractor 1:</strong> Delay the foundation work until the machinery arrives and adjust the project baseline.
+- <strong>Distractor 2:</strong> Request additional budget to expedite the shipping of the machinery once it is manufactured.
+- <strong>Distractor 3:</strong> Assign more team members to the foundation task to compensate for the lack of machinery.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -29,18 +29,18 @@ What is the MOST appropriate action for the project manager to take regarding th
 
 ### Question 2
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Agile
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a sprint planning session, an agile team realizes that several high-priority user stories require deep expertise in a specific legacy database system. Only one team member possesses this knowledge, and they are already fully allocated to other critical tasks within the same sprint.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (serving as a Scrum Master) suggest the team do?
 
-- **Correct:** Facilitate a discussion on cross-training or pair programming to spread the specialized knowledge across the team.
-- **Distractor 1:** Assign the legacy database tasks to the expert and move their other tasks to the next sprint.
-- **Distractor 2:** Hire an external consultant to handle the legacy database tasks for this sprint.
-- **Distractor 3:** Ask the expert to work overtime to ensure all tasks are completed on time.
+- <strong>Correct:</strong> Facilitate a discussion on cross-training or pair programming to spread the specialized knowledge across the team.
+- <strong>Distractor 1:</strong> Assign the legacy database tasks to the expert and move their other tasks to the next sprint.
+- <strong>Distractor 2:</strong> Hire an external consultant to handle the legacy database tasks for this sprint.
+- <strong>Distractor 3:</strong> Ask the expert to work overtime to ensure all tasks are completed on time.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -58,18 +58,18 @@ What should the project manager (serving as a Scrum Master) suggest the team do?
 
 ### Question 3
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Hybrid
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A hybrid project combines a predictive hardware development track with an agile software development track. The software team needs access to the hardware prototypes for testing during their third sprint, but the hardware team reports that the prototypes will not be ready until two weeks after the sprint ends due to component shortages.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager address this resource availability conflict?
 
-- **Correct:** Work with the software team to reprioritize the backlog and focus on stories that do not require the physical hardware for the current sprint.
-- **Distractor 1:** Instruct the hardware team to work double shifts to deliver the prototypes by the start of the third sprint.
-- **Distractor 2:** Cancel the third sprint and wait for the hardware prototypes to be delivered.
-- **Distractor 3:** Submit a formal change request to extend the overall project duration by two weeks.
+- <strong>Correct:</strong> Work with the software team to reprioritize the backlog and focus on stories that do not require the physical hardware for the current sprint.
+- <strong>Distractor 1:</strong> Instruct the hardware team to work double shifts to deliver the prototypes by the start of the third sprint.
+- <strong>Distractor 2:</strong> Cancel the third sprint and wait for the hardware prototypes to be delivered.
+- <strong>Distractor 3:</strong> Submit a formal change request to extend the overall project duration by two weeks.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -87,18 +87,18 @@ How should the project manager address this resource availability conflict?
 
 ### Question 4
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Predictive
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is developing the Responsibility Assignment Matrix (RAM) for a new infrastructure project. During a review meeting, it is noted that for the "Final System Validation" deliverable, both the Quality Assurance Manager and the Lead Engineer have been marked as "Accountable" (A) to ensure high visibility and oversight.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST significant risk associated with this RACI chart configuration?
 
-- **Correct:** A lack of clear ownership which can lead to confusion and a failure to make critical decisions.
-- **Distractor 1:** The Quality Assurance Manager and Lead Engineer will spend too much time in meetings together.
-- **Distractor 2:** The project budget will increase due to redundant oversight of the validation process.
-- **Distractor 3:** The "Responsible" party will be overwhelmed by receiving conflicting instructions from two people.
+- <strong>Correct:</strong> A lack of clear ownership which can lead to confusion and a failure to make critical decisions.
+- <strong>Distractor 1:</strong> The Quality Assurance Manager and Lead Engineer will spend too much time in meetings together.
+- <strong>Distractor 2:</strong> The project budget will increase due to redundant oversight of the validation process.
+- <strong>Distractor 3:</strong> The "Responsible" party will be overwhelmed by receiving conflicting instructions from two people.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -116,18 +116,18 @@ What is the MOST significant risk associated with this RACI chart configuration?
 
 ### Question 5
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Agile
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A newly formed agile team is struggling with frequent interruptions from other departments requesting their help on minor issues. This is significantly impacting the team's velocity and their ability to complete sprint goals.
 
-**Question:**
+<strong>Question:</strong>
 What action should the project manager take to protect the team's resources and focus?
 
-- **Correct:** Meet with the external department heads to establish a formal process for handling such requests and reinforce the team's commitment to the sprint.
-- **Distractor 1:** Tell the team to ignore all requests that are not related to the current sprint backlog.
-- **Distractor 2:** Allocate one team member each sprint to handle all external requests, rotating the role.
-- **Distractor 3:** Add the external requests to the current sprint backlog as they arrive to maintain transparency.
+- <strong>Correct:</strong> Meet with the external department heads to establish a formal process for handling such requests and reinforce the team's commitment to the sprint.
+- <strong>Distractor 1:</strong> Tell the team to ignore all requests that are not related to the current sprint backlog.
+- <strong>Distractor 2:</strong> Allocate one team member each sprint to handle all external requests, rotating the role.
+- <strong>Distractor 3:</strong> Add the external requests to the current sprint backlog as they arrive to maintain transparency.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -145,18 +145,18 @@ What action should the project manager take to protect the team's resources and 
 
 ### Question 6
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Predictive
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During the execution of a software development project, the project manager discovers that the Resource Management Plan did not account for the specific server environment needed for user acceptance testing (UAT). The procurement of these servers will now take several weeks, potentially delaying the project finish date.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager have done differently during the planning phase to avoid this situation?
 
-- **Correct:** Conducted a more thorough identification of all physical resource requirements, including environment needs.
-- **Distractor 1:** Included a larger contingency reserve in the budget for unplanned equipment purchases.
-- **Distractor 2:** Used an agile approach for the UAT phase to allow for more flexibility in environment setup.
-- **Distractor 3:** Hired a dedicated procurement specialist to manage all hardware acquisitions.
+- <strong>Correct:</strong> Conducted a more thorough identification of all physical resource requirements, including environment needs.
+- <strong>Distractor 1:</strong> Included a larger contingency reserve in the budget for unplanned equipment purchases.
+- <strong>Distractor 2:</strong> Used an agile approach for the UAT phase to allow for more flexibility in environment setup.
+- <strong>Distractor 3:</strong> Hired a dedicated procurement specialist to manage all hardware acquisitions.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -174,18 +174,18 @@ What should the project manager have done differently during the planning phase 
 
 ### Question 7
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Hybrid
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team is distributed across three different continents. While the project uses a predictive structure for reporting, the daily work is managed using agile kanban boards. The team is experiencing delays because team members in one region are waiting for information or approvals from members in another region during their off-hours.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST step the project manager should take to optimize the team's resource availability?
 
-- **Correct:** Facilitate a team meeting to establish communication norms and define "core hours" for synchronous collaboration.
-- **Distractor 1:** Replace the global team with a co-located team to eliminate time zone issues.
-- **Distractor 2:** Mandate that all team members adjust their working hours to align with the head office.
-- **Distractor 3:** Implement an automated ticketing system to track all cross-region requests.
+- <strong>Correct:</strong> Facilitate a team meeting to establish communication norms and define "core hours" for synchronous collaboration.
+- <strong>Distractor 1:</strong> Replace the global team with a co-located team to eliminate time zone issues.
+- <strong>Distractor 2:</strong> Mandate that all team members adjust their working hours to align with the head office.
+- <strong>Distractor 3:</strong> Implement an automated ticketing system to track all cross-region requests.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -203,18 +203,18 @@ What is the FIRST step the project manager should take to optimize the team's re
 
 ### Question 8
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Predictive
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager in a strong matrix organization needs a specialized data analyst for a high-priority task. The functional manager of the data analytics department informs the project manager that the only available analyst is already assigned to a different project with a higher strategic priority.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST course of action for the project manager?
 
-- **Correct:** Meet with the functional manager and the other project manager to negotiate a resource-sharing arrangement or identify alternative analysts.
-- **Distractor 1:** Escalate the issue to the project sponsor and demand that the analyst be assigned to your project.
-- **Distractor 2:** Hire an external contractor to perform the data analysis to avoid further delays.
-- **Distractor 3:** Adjust the project schedule to wait until the analyst completes their current assignment.
+- <strong>Correct:</strong> Meet with the functional manager and the other project manager to negotiate a resource-sharing arrangement or identify alternative analysts.
+- <strong>Distractor 1:</strong> Escalate the issue to the project sponsor and demand that the analyst be assigned to your project.
+- <strong>Distractor 2:</strong> Hire an external contractor to perform the data analysis to avoid further delays.
+- <strong>Distractor 3:</strong> Adjust the project schedule to wait until the analyst completes their current assignment.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -232,18 +232,18 @@ What is the BEST course of action for the project manager?
 
 ### Question 9
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Agile
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team's velocity has started to decline. During the retrospective, the team notes that they are spending a significant amount of time waiting for code reviews from the only senior developer on the team, who is often a bottleneck for multiple tasks.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (Scrum Master) encourage the team to do?
 
-- **Correct:** Implement peer reviews and pair programming sessions to build reviewing skills across the entire team.
-- **Distractor 1:** Assign the senior developer fewer development tasks so they can focus exclusively on reviews.
-- **Distractor 2:** Request the senior developer to work extra hours to clear the review backlog.
-- **Distractor 3:** Increase the sprint duration to give the senior developer more time to complete the reviews.
+- <strong>Correct:</strong> Implement peer reviews and pair programming sessions to build reviewing skills across the entire team.
+- <strong>Distractor 1:</strong> Assign the senior developer fewer development tasks so they can focus exclusively on reviews.
+- <strong>Distractor 2:</strong> Request the senior developer to work extra hours to clear the review backlog.
+- <strong>Distractor 3:</strong> Increase the sprint duration to give the senior developer more time to complete the reviews.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -261,18 +261,18 @@ What should the project manager (Scrum Master) encourage the team to do?
 
 ### Question 10
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Predictive
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project schedule shows that a specific group of resources is over-allocated for a three-week period in the middle of the project. The project finish date is flexible, but the organization has a strict policy against paying overtime or hiring temporary staff.
 
-**Question:**
+<strong>Question:</strong>
 Which technique should the project manager use to address this resource conflict?
 
-- **Correct:** Resource Leveling
-- **Distractor 1:** Resource Smoothing
-- **Distractor 2:** Fast Tracking
-- **Distractor 3:** Crashing
+- <strong>Correct:</strong> Resource Leveling
+- <strong>Distractor 1:</strong> Resource Smoothing
+- <strong>Distractor 2:</strong> Fast Tracking
+- <strong>Distractor 3:</strong> Crashing
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -290,18 +290,18 @@ Which technique should the project manager use to address this resource conflict
 
 ### Question 11
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Agile
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project manager observes that a team member is consistently completing their tasks much faster than estimated but is not picking up new work from the backlog. Instead, they are spending time on personal development activities that were not discussed with the team.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager handle this situation?
 
-- **Correct:** Discuss the observation with the team member in a private one-on-one to understand their motivations and remind them of the team's collective commitment to the sprint goal.
-- **Distractor 1:** Publicly praise the team member during the daily stand-up for their speed and ask others to follow their example.
-- **Distractor 2:** Assign more difficult tasks to this team member in the next sprint to ensure they are fully utilized.
-- **Distractor 3:** Report the team member's behavior to their functional manager as a performance issue.
+- <strong>Correct:</strong> Discuss the observation with the team member in a private one-on-one to understand their motivations and remind them of the team's collective commitment to the sprint goal.
+- <strong>Distractor 1:</strong> Publicly praise the team member during the daily stand-up for their speed and ask others to follow their example.
+- <strong>Distractor 2:</strong> Assign more difficult tasks to this team member in the next sprint to ensure they are fully utilized.
+- <strong>Distractor 3:</strong> Report the team member's behavior to their functional manager as a performance issue.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -319,18 +319,18 @@ How should the project manager handle this situation?
 
 ### Question 12
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Predictive
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is creating the Resource Management Plan for a global initiative. The plan must account for various team members who will be joining the project from different countries with diverse labor laws, holiday schedules, and cultural norms.
 
-**Question:**
+<strong>Question:</strong>
 Which artifact is MOST critical to include in the Resource Management Plan to ensure these differences are managed effectively?
 
-- **Correct:** Resource Calendars
-- **Distractor 1:** Resource Breakdown Structure
-- **Distractor 2:** Project Organization Chart
-- **Distractor 3:** Skills Matrix
+- <strong>Correct:</strong> Resource Calendars
+- <strong>Distractor 1:</strong> Resource Breakdown Structure
+- <strong>Distractor 2:</strong> Project Organization Chart
+- <strong>Distractor 3:</strong> Skills Matrix
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -348,18 +348,18 @@ Which artifact is MOST critical to include in the Resource Management Plan to en
 
 ### Question 13
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Hybrid
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A large organization is transitioning to a hybrid model where some departments use agile and others use predictive methods. A project manager is leading a project that requires resources from both types of departments. The agile departments manage their capacity using story points, while the predictive departments use hours.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager optimize resource availability across these different departments?
 
-- **Correct:** Establish a common high-level capacity plan that translates story points and hours into a shared metric of "percentage allocation" or "FTE equivalents."
-- **Distractor 1:** Demand that the agile departments switch to tracking hours for the duration of this project.
-- **Distractor 2:** Allow each department to manage their resources independently and hope that the coordination works out.
-- **Distractor 3:** Request that the PMO provide a tool that automatically converts all work into a single unit of measure.
+- <strong>Correct:</strong> Establish a common high-level capacity plan that translates story points and hours into a shared metric of "percentage allocation" or "FTE equivalents."
+- <strong>Distractor 1:</strong> Demand that the agile departments switch to tracking hours for the duration of this project.
+- <strong>Distractor 2:</strong> Allow each department to manage their resources independently and hope that the coordination works out.
+- <strong>Distractor 3:</strong> Request that the PMO provide a tool that automatically converts all work into a single unit of measure.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -377,18 +377,18 @@ How should the project manager optimize resource availability across these diffe
 
 ### Question 14
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Predictive
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is facilitating a workshop to create the Team Charter for a new project team. During the session, two senior members of the team disagree strongly on how technical disputes should be escalated and resolved.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST way for the project manager to handle this situation?
 
-- **Correct:** Encourage the team to discuss the various options and reach a consensus on a conflict resolution process to be documented in the charter.
-- **Distractor 1:** Decide on the escalation process themselves to save time and ensure the meeting stays on track.
-- **Distractor 2:** Suggest that the team defer the decision until a real technical dispute actually occurs.
-- **Distractor 3:** Refer the disagreement to the project sponsor for a final decision on the escalation path.
+- <strong>Correct:</strong> Encourage the team to discuss the various options and reach a consensus on a conflict resolution process to be documented in the charter.
+- <strong>Distractor 1:</strong> Decide on the escalation process themselves to save time and ensure the meeting stays on track.
+- <strong>Distractor 2:</strong> Suggest that the team defer the decision until a real technical dispute actually occurs.
+- <strong>Distractor 3:</strong> Refer the disagreement to the project sponsor for a final decision on the escalation path.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -406,18 +406,18 @@ What is the BEST way for the project manager to handle this situation?
 
 ### Question 16
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Predictive
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is defining the roles and responsibilities for a large-scale data migration project. The project involves multiple departments, and there is significant overlap in the technical skills required. The project manager wants to ensure that every team member knows exactly what is expected of them and who has the final authority on technical decisions.
 
-**Question:**
+<strong>Question:</strong>
 Which section of the Resource Management Plan is the MOST appropriate place to document this information?
 
-- **Correct:** Roles and Responsibilities section, including a detailed RACI chart.
-- **Distractor 1:** The Project Organization Chart, showing hierarchical reporting lines.
-- **Distractor 2:** The Resource Acquisition Plan, detailing how staff will be hired.
-- **Distractor 3:** The Recognition and Rewards section, explaining how performance is evaluated.
+- <strong>Correct:</strong> Roles and Responsibilities section, including a detailed RACI chart.
+- <strong>Distractor 1:</strong> The Project Organization Chart, showing hierarchical reporting lines.
+- <strong>Distractor 2:</strong> The Resource Acquisition Plan, detailing how staff will be hired.
+- <strong>Distractor 3:</strong> The Recognition and Rewards section, explaining how performance is evaluated.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -435,18 +435,18 @@ Which section of the Resource Management Plan is the MOST appropriate place to d
 
 ### Question 17
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Agile
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An organization is launching five new agile teams simultaneously. Instead of assigning people to specific teams, the leadership decides to let the individuals self-select which team they want to join based on their skills and interest in the specific product backlogs.
 
-**Question:**
+<strong>Question:</strong>
 What is the primary benefit of this "self-selection" approach to resource management?
 
-- **Correct:** Increased team commitment, higher morale, and a stronger sense of ownership over the work.
-- **Distractor 1:** A faster team formation process that avoids administrative delays.
-- **Distractor 2:** An automatic guarantee that all teams will have a perfect balance of senior and junior members.
-- **Distractor 3:** The elimination of the need for a formal Resource Management Plan.
+- <strong>Correct:</strong> Increased team commitment, higher morale, and a stronger sense of ownership over the work.
+- <strong>Distractor 1:</strong> A faster team formation process that avoids administrative delays.
+- <strong>Distractor 2:</strong> An automatic guarantee that all teams will have a perfect balance of senior and junior members.
+- <strong>Distractor 3:</strong> The elimination of the need for a formal Resource Management Plan.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -464,18 +464,18 @@ What is the primary benefit of this "self-selection" approach to resource manage
 
 ### Question 18
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Hybrid
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project is in the middle of a critical software integration phase. A key developer, who is the only person with knowledge of the legacy API, unexpectedly resigns. The project uses a hybrid approach, with the integration being managed via two-week sprints.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST urgent action for the project manager to take to manage this resource loss?
 
-- **Correct:** Conduct an immediate knowledge transfer session with the departing developer and the rest of the sprint team before their last day.
-- **Distractor 1:** Post an urgent job opening to find a replacement with identical legacy API skills.
-- **Distractor 2:** Request that the developer's notice period be extended by one month to cover the integration phase.
-- **Distractor 3:** Suspend the integration sprints until a qualified replacement is hired and onboarded.
+- <strong>Correct:</strong> Conduct an immediate knowledge transfer session with the departing developer and the rest of the sprint team before their last day.
+- <strong>Distractor 1:</strong> Post an urgent job opening to find a replacement with identical legacy API skills.
+- <strong>Distractor 2:</strong> Request that the developer's notice period be extended by one month to cover the integration phase.
+- <strong>Distractor 3:</strong> Suspend the integration sprints until a qualified replacement is hired and onboarded.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -493,18 +493,18 @@ What is the MOST urgent action for the project manager to take to manage this re
 
 ### Question 19
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Predictive
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager for a global telecommunications project is planning for the physical resources needed in a remote region. The equipment must be shipped internationally, and customs clearance is known to be unpredictable. The project manager needs to ensure the equipment is available when the technical team arrives on-site.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager optimize the availability of these physical resources?
 
-- **Correct:** Build a significant buffer into the delivery schedule and initiate procurement as early as possible based on historical lead times.
-- **Distractor 1:** Order the equipment just-in-time (JIT) to minimize storage costs at the remote site.
-- **Distractor 2:** Ask the technical team to carry the equipment with them as personal luggage to bypass customs.
-- **Distractor 3:** Plan to rent the equipment locally even if it is a different brand and may not be fully compatible.
+- <strong>Correct:</strong> Build a significant buffer into the delivery schedule and initiate procurement as early as possible based on historical lead times.
+- <strong>Distractor 1:</strong> Order the equipment just-in-time (JIT) to minimize storage costs at the remote site.
+- <strong>Distractor 2:</strong> Ask the technical team to carry the equipment with them as personal luggage to bypass customs.
+- <strong>Distractor 3:</strong> Plan to rent the equipment locally even if it is a different brand and may not be fully compatible.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -522,18 +522,18 @@ How should the project manager optimize the availability of these physical resou
 
 ### Question 20
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Agile
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is experiencing internal friction between two members who have very different communication styles. One member is direct and task-oriented, while the other is more collaborative and focuses on consensus. This friction is starting to slow down the daily stand-up meetings.
 
-**Question:**
+<strong>Question:</strong>
 Which skill should the project manager (Scrum Master) employ FIRST to resolve this conflict and optimize team performance?
 
-- **Correct:** Emotional Intelligence to help both members understand their styles and find a middle ground for communication.
-- **Distractor 1:** Technical Expertise to show the team that the focus should be on the code, not on personalities.
-- **Distractor 2:** Authority to mandate a specific communication format for all team meetings.
-- **Distractor 3:** Negotiation to create a trade-off where one member talks more in some meetings and the other in others.
+- <strong>Correct:</strong> Emotional Intelligence to help both members understand their styles and find a middle ground for communication.
+- <strong>Distractor 1:</strong> Technical Expertise to show the team that the focus should be on the code, not on personalities.
+- <strong>Distractor 2:</strong> Authority to mandate a specific communication format for all team meetings.
+- <strong>Distractor 3:</strong> Negotiation to create a trade-off where one member talks more in some meetings and the other in others.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -551,18 +551,18 @@ Which skill should the project manager (Scrum Master) employ FIRST to resolve th
 
 ### Question 21
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Predictive
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager wants to implement a recognition and reward system to motivate the project team, which is working under high pressure. The project manager wants to ensure the system is effective and does not create unintended negative competition.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST approach for the project manager to take?
 
-- **Correct:** Develop the recognition criteria collaboratively with the team and ensure rewards are based on behaviors that the individuals value.
-- **Distractor 1:** Give a large cash bonus only to the single person who completes the most tasks each month.
-- **Distractor 2:** Use the organization's standard year-end bonus structure as the only form of recognition.
-- **Distractor 3:** Keep the recognition process private to avoid hurting the feelings of team members who are not rewarded.
+- <strong>Correct:</strong> Develop the recognition criteria collaboratively with the team and ensure rewards are based on behaviors that the individuals value.
+- <strong>Distractor 1:</strong> Give a large cash bonus only to the single person who completes the most tasks each month.
+- <strong>Distractor 2:</strong> Use the organization's standard year-end bonus structure as the only form of recognition.
+- <strong>Distractor 3:</strong> Keep the recognition process private to avoid hurting the feelings of team members who are not rewarded.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -580,18 +580,18 @@ What is the BEST approach for the project manager to take?
 
 ### Question 22
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Hybrid
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, the project manager needs to evaluate the performance of team members who are split between a predictive work stream and an agile work stream. The predictive members are measured by their adherence to schedule and budget, while the agile members are measured by their contribution to sprint velocity and value delivery.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager ensure a fair and consistent performance evaluation for all resources?
 
-- **Correct:** Focus on individual contributions to overall project goals and the quality of outcomes, regardless of the methodology used for their specific tasks.
-- **Distractor 1:** Force all team members to be evaluated solely based on the agile velocity of the entire project.
-- **Distractor 2:** Evaluate each group only according to the metrics of their own methodology and ignore the other group's performance.
-- **Distractor 3:** Ask the functional managers to perform all evaluations to avoid any methodology-based bias from the project manager.
+- <strong>Correct:</strong> Focus on individual contributions to overall project goals and the quality of outcomes, regardless of the methodology used for their specific tasks.
+- <strong>Distractor 1:</strong> Force all team members to be evaluated solely based on the agile velocity of the entire project.
+- <strong>Distractor 2:</strong> Evaluate each group only according to the metrics of their own methodology and ignore the other group's performance.
+- <strong>Distractor 3:</strong> Ask the functional managers to perform all evaluations to avoid any methodology-based bias from the project manager.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -609,18 +609,18 @@ How should the project manager ensure a fair and consistent performance evaluati
 
 ### Question 23
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Predictive
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During the initial planning of a complex engineering project, the project manager is overwhelmed by the sheer number of different resource types required, ranging from specialized labor and consultants to various types of heavy equipment and software licenses.
 
-**Question:**
+<strong>Question:</strong>
 Which tool should the project manager use to organize and categorize all these resource requirements into a hierarchical structure?
 
-- **Correct:** Resource Breakdown Structure (RBS)
-- **Distractor 1:** Work Breakdown Structure (WBS)
-- **Distractor 2:** Organizational Breakdown Structure (OBS)
-- **Distractor 3:** Risk Breakdown Structure (RBS)
+- <strong>Correct:</strong> Resource Breakdown Structure (RBS)
+- <strong>Distractor 1:</strong> Work Breakdown Structure (WBS)
+- <strong>Distractor 2:</strong> Organizational Breakdown Structure (OBS)
+- <strong>Distractor 3:</strong> Risk Breakdown Structure (RBS)
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -638,18 +638,18 @@ Which tool should the project manager use to organize and categorize all these r
 
 ### Question 24
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Agile
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project manager notices that the team is very efficient at front-end development but often gets stuck on back-end tasks because only two people on the team have back-end skills. This creates an uneven workflow and limits the team's ability to take on diverse stories.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST long-term strategy to optimize the team's resource availability?
 
-- **Correct:** Encourage cross-training and pair programming to help front-end developers acquire basic back-end skills.
-- **Distractor 1:** Hire two more dedicated back-end developers to balance the team's skill set.
-- **Distractor 2:** Only accept sprint items that have a high ratio of front-end to back-end work.
-- **Distractor 3:** Assign the back-end tasks to the specialists and have the front-end developers work on lower-priority documentation while waiting.
+- <strong>Correct:</strong> Encourage cross-training and pair programming to help front-end developers acquire basic back-end skills.
+- <strong>Distractor 1:</strong> Hire two more dedicated back-end developers to balance the team's skill set.
+- <strong>Distractor 2:</strong> Only accept sprint items that have a high ratio of front-end to back-end work.
+- <strong>Distractor 3:</strong> Assign the back-end tasks to the specialists and have the front-end developers work on lower-priority documentation while waiting.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -667,18 +667,18 @@ What is the BEST long-term strategy to optimize the team's resource availability
 
 ### Question 25
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Predictive
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager receives feedback that a normally high-performing team member has been missing deadlines and showing a lack of engagement in recent weeks. The project is approaching a critical milestone, and the team member's role is pivotal.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate FIRST step for the project manager to take?
 
-- **Correct:** Arrange a private one-on-one meeting with the team member to discuss the situation and identify any underlying issues or support needs.
-- **Distractor 1:** Document the performance issues and immediately send a formal warning to the team member's functional manager.
-- **Distractor 2:** Reassign the team member's critical tasks to another person to ensure the milestone is met without delay.
-- **Distractor 3:** Discuss the performance decline during the next team meeting to encourage the member to improve.
+- <strong>Correct:</strong> Arrange a private one-on-one meeting with the team member to discuss the situation and identify any underlying issues or support needs.
+- <strong>Distractor 1:</strong> Document the performance issues and immediately send a formal warning to the team member's functional manager.
+- <strong>Distractor 2:</strong> Reassign the team member's critical tasks to another person to ensure the milestone is met without delay.
+- <strong>Distractor 3:</strong> Discuss the performance decline during the next team meeting to encourage the member to improve.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -696,18 +696,18 @@ What is the MOST appropriate FIRST step for the project manager to take?
 
 ### Question 26
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Hybrid
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a hybrid project where physical infrastructure is being built alongside a new software platform. The software team uses an electronic Kanban board, but the construction team prefers physical wall-mounted schedules. The project manager is finding it difficult to see the overall resource utilization.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager optimize the tracking of resources in this scenario?
 
-- **Correct:** Implement a shared digital tool that can integrate data from both work streams to provide a unified view of resource allocation and availability.
-- **Distractor 1:** Require the construction team to abandon their physical boards and use the software team's Kanban tool.
-- **Distractor 2:** Manually update a master spreadsheet every day with information from both boards.
-- **Distractor 3:** Focus only on the software team's resources, as they are more likely to have fluctuating availability.
+- <strong>Correct:</strong> Implement a shared digital tool that can integrate data from both work streams to provide a unified view of resource allocation and availability.
+- <strong>Distractor 1:</strong> Require the construction team to abandon their physical boards and use the software team's Kanban tool.
+- <strong>Distractor 2:</strong> Manually update a master spreadsheet every day with information from both boards.
+- <strong>Distractor 3:</strong> Focus only on the software team's resources, as they are more likely to have fluctuating availability.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -725,18 +725,18 @@ How should the project manager optimize the tracking of resources in this scenar
 
 ### Question 27
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Predictive
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During the estimation process, a project manager asks the lead architect to provide the resource requirements for the database design phase. The architect provides a single number of "200 hours" without explaining how that number was reached or what assumptions were made.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager ask the architect to provide to ensure the resource plan is robust?
 
-- **Correct:** The Basis of Estimates (BoE), including assumptions, constraints, and the method used to calculate the 200 hours.
-- **Distractor 1:** A guarantee that the work will definitely not take more than 200 hours.
-- **Distractor 2:** A list of the specific names of the people who will be performing the work.
-- **Distractor 3:** A breakdown of the 200 hours by day and hour for the entire project duration.
+- <strong>Correct:</strong> The Basis of Estimates (BoE), including assumptions, constraints, and the method used to calculate the 200 hours.
+- <strong>Distractor 1:</strong> A guarantee that the work will definitely not take more than 200 hours.
+- <strong>Distractor 2:</strong> A list of the specific names of the people who will be performing the work.
+- <strong>Distractor 3:</strong> A breakdown of the 200 hours by day and hour for the entire project duration.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -754,18 +754,18 @@ What should the project manager ask the architect to provide to ensure the resou
 
 ### Question 28
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Agile
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team has been working together for three months. During a retrospective, it becomes clear that some of the ground rules established in the initial Team Charter are no longer effective and are actually hindering the team's ability to self-organize.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST appropriate action for the project manager (Scrum Master) to take?
 
-- **Correct:** Facilitate a team session to review and update the Team Charter to reflect the team's current needs and improved ways of working.
-- **Distractor 1:** Remind the team that the Team Charter is a formal project document that cannot be changed once the project has started.
-- **Distractor 2:** Instruct the team to strictly follow the existing rules until the end of the project to maintain consistency.
-- **Distractor 3:** Inform the team that they should only follow the rules that they find useful and ignore the rest.
+- <strong>Correct:</strong> Facilitate a team session to review and update the Team Charter to reflect the team's current needs and improved ways of working.
+- <strong>Distractor 1:</strong> Remind the team that the Team Charter is a formal project document that cannot be changed once the project has started.
+- <strong>Distractor 2:</strong> Instruct the team to strictly follow the existing rules until the end of the project to maintain consistency.
+- <strong>Distractor 3:</strong> Inform the team that they should only follow the rules that they find useful and ignore the rest.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -783,18 +783,18 @@ What is the MOST appropriate action for the project manager (Scrum Master) to ta
 
 ### Question 29
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Predictive
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is faced with a conflict between two key technical experts regarding the architectural design of a new system. Both experts are highly respected, but their proposed solutions are fundamentally different. The project manager needs a resolution to keep the project on schedule.
 
-**Question:**
+<strong>Question:</strong>
 Which conflict resolution technique should the project manager use to ensure the BEST long-term outcome for the project and the team's resources?
 
-- **Correct:** Collaborate/Problem Solve to find a solution that incorporates the best elements of both experts' ideas.
-- **Distractor 1:** Withdraw/Avoid the conflict until the experts can resolve it themselves.
-- **Distractor 2:** Smooth/Accommodate by downplaying the differences and focusing on the areas of agreement.
-- **Distractor 3:** Force/Direct by choosing the solution of the most senior expert to end the debate quickly.
+- <strong>Correct:</strong> Collaborate/Problem Solve to find a solution that incorporates the best elements of both experts' ideas.
+- <strong>Distractor 1:</strong> Withdraw/Avoid the conflict until the experts can resolve it themselves.
+- <strong>Distractor 2:</strong> Smooth/Accommodate by downplaying the differences and focusing on the areas of agreement.
+- <strong>Distractor 3:</strong> Force/Direct by choosing the solution of the most senior expert to end the debate quickly.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -812,18 +812,18 @@ Which conflict resolution technique should the project manager use to ensure the
 
 ### Question 31
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Predictive
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is using resource leveling to address overallocation in the schedule. The project has a fixed finish date that cannot be moved under any circumstances. However, the resource leveling process is indicating that the project will be delayed by two months.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST course of action for the project manager to take in this situation?
 
-- **Correct:** Evaluate schedule compression techniques such as crashing or fast-tracking to bring the project back to the required finish date.
-- **Distractor 1:** Accept the delay and inform the sponsor that the fixed date is no longer achievable due to resource constraints.
-- **Distractor 2:** Switch from resource leveling to resource smoothing, even if it leaves some resources overallocated.
-- **Distractor 3:** Assign the overallocated tasks to team members who are not currently working on the project, without consulting their managers.
+- <strong>Correct:</strong> Evaluate schedule compression techniques such as crashing or fast-tracking to bring the project back to the required finish date.
+- <strong>Distractor 1:</strong> Accept the delay and inform the sponsor that the fixed date is no longer achievable due to resource constraints.
+- <strong>Distractor 2:</strong> Switch from resource leveling to resource smoothing, even if it leaves some resources overallocated.
+- <strong>Distractor 3:</strong> Assign the overallocated tasks to team members who are not currently working on the project, without consulting their managers.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -841,18 +841,18 @@ What is the BEST course of action for the project manager to take in this situat
 
 ### Question 32
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Agile
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is consistently failing to complete all the stories in their sprint backlog. The team lead observes that the team is trying to work on too many stories at once, leading to significant context switching and "waiting time" for shared resources.
 
-**Question:**
+<strong>Question:</strong>
 What should the team lead suggest to optimize the team's resource utilization?
 
-- **Correct:** Implement a "Work in Progress" (WIP) limit to force the team to finish stories before starting new ones.
-- **Distractor 1:** Increase the sprint duration to give the team more time to finish all the stories.
-- **Distractor 2:** Add more developers to the team to handle the high volume of work.
-- **Distractor 3:** Tell the team to work faster and skip the daily stand-up meetings to save time.
+- <strong>Correct:</strong> Implement a "Work in Progress" (WIP) limit to force the team to finish stories before starting new ones.
+- <strong>Distractor 1:</strong> Increase the sprint duration to give the team more time to finish all the stories.
+- <strong>Distractor 2:</strong> Add more developers to the team to handle the high volume of work.
+- <strong>Distractor 3:</strong> Tell the team to work faster and skip the daily stand-up meetings to save time.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -870,18 +870,18 @@ What should the team lead suggest to optimize the team's resource utilization?
 
 ### Question 33
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Hybrid
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project involves deploying a new software platform across 50 global retail locations. The physical deployment requires specialized hardware kits that must be tracked as they move through customs and regional warehouses. The software team is ready to begin remote configuration as soon as the hardware is on-site.
 
-**Question:**
+<strong>Question:</strong>
 Which approach is MOST effective for managing the availability of these physical resources?
 
-- **Correct:** Use a centralized digital dashboard that provides real-time tracking of hardware status and location for both the hardware and software teams.
-- **Distractor 1:** Rely on weekly email updates from the logistics department to track the hardware movement.
-- **Distractor 2:** Require each retail location to call the project manager when their hardware kit arrives.
-- **Distractor 3:** Only begin the software configuration planning once all 50 hardware kits have reached their final destinations.
+- <strong>Correct:</strong> Use a centralized digital dashboard that provides real-time tracking of hardware status and location for both the hardware and software teams.
+- <strong>Distractor 1:</strong> Rely on weekly email updates from the logistics department to track the hardware movement.
+- <strong>Distractor 2:</strong> Require each retail location to call the project manager when their hardware kit arrives.
+- <strong>Distractor 3:</strong> Only begin the software configuration planning once all 50 hardware kits have reached their final destinations.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -899,18 +899,18 @@ Which approach is MOST effective for managing the availability of these physical
 
 ### Question 34
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Predictive
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is finalizing the Staffing Management Plan for a long-term R&D project. The project will require a peak of 40 people in the second year, tapering down to 5 people in the final six months.
 
-**Question:**
+<strong>Question:</strong>
 Which part of the Staffing Management Plan is MOST critical for managing this change in resource needs over time?
 
-- **Correct:** The Resource Histogram and the Release Plan, detailing when staff will be onboarded and offboarded.
-- **Distractor 1:** The Project Organization Chart, showing the reporting structure at the peak of the project.
-- **Distractor 2:** The Training Plan, explaining how the 40 people will be taught the necessary skills.
-- **Distractor 3:** The Safety Plan, outlining the physical requirements for the R&D lab.
+- <strong>Correct:</strong> The Resource Histogram and the Release Plan, detailing when staff will be onboarded and offboarded.
+- <strong>Distractor 1:</strong> The Project Organization Chart, showing the reporting structure at the peak of the project.
+- <strong>Distractor 2:</strong> The Training Plan, explaining how the 40 people will be taught the necessary skills.
+- <strong>Distractor 3:</strong> The Safety Plan, outlining the physical requirements for the R&D lab.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -928,18 +928,18 @@ Which part of the Staffing Management Plan is MOST critical for managing this ch
 
 ### Question 35
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Agile
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A senior developer on an agile team is struggling to adapt to the collaborative nature of the team. They are highly skilled but often work in isolation and are reluctant to share their knowledge with junior members. The project manager wants to help this resource develop more "T-shaped" behaviors.
 
-**Question:**
+<strong>Question:</strong>
 Which approach should the project manager take to support this resource's development?
 
-- **Correct:** Act as a coach, using powerful questions to help the developer discover the benefits of collaboration for both the team and their own career.
-- **Distractor 1:** Act as a mentor, telling the developer exactly how they should interact with the team based on the project manager's own experience.
-- **Distractor 2:** Direct the developer to attend a mandatory three-day training course on "Effective Teamwork."
-- **Distractor 3:** Reassign the developer to a solo project where their lack of collaboration will not impact a team.
+- <strong>Correct:</strong> Act as a coach, using powerful questions to help the developer discover the benefits of collaboration for both the team and their own career.
+- <strong>Distractor 1:</strong> Act as a mentor, telling the developer exactly how they should interact with the team based on the project manager's own experience.
+- <strong>Distractor 2:</strong> Direct the developer to attend a mandatory three-day training course on "Effective Teamwork."
+- <strong>Distractor 3:</strong> Reassign the developer to a solo project where their lack of collaboration will not impact a team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -957,18 +957,18 @@ Which approach should the project manager take to support this resource's develo
 
 ### Question 36
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Predictive
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a newly formed virtual team. The team members are highly skilled but have never worked together and seem hesitant to share information or ask for help, leading to silos and slower progress.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST action for the project manager to take to build team cohesion and optimize resource availability?
 
-- **Correct:** Schedule a series of virtual team-building activities and facilitate a session to collaboratively define the team's working agreements.
-- **Distractor 1:** Increase the frequency of status report submissions to ensure everyone is being productive.
-- **Distractor 2:** Appoint the most senior team member as the "Lead" for each region and have them handle all coordination.
-- **Distractor 3:** Wait for the "Storming" phase of team development to pass naturally before intervening.
+- <strong>Correct:</strong> Schedule a series of virtual team-building activities and facilitate a session to collaboratively define the team's working agreements.
+- <strong>Distractor 1:</strong> Increase the frequency of status report submissions to ensure everyone is being productive.
+- <strong>Distractor 2:</strong> Appoint the most senior team member as the "Lead" for each region and have them handle all coordination.
+- <strong>Distractor 3:</strong> Wait for the "Storming" phase of team development to pass naturally before intervening.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -986,18 +986,18 @@ What is the BEST action for the project manager to take to build team cohesion a
 
 ### Question 37
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Hybrid
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 An organization needs to develop a highly specialized AI algorithm for a project. They can either train their internal team (which will take 6 months) or hire a specialized vendor to deliver the algorithm in 2 months at a higher cost.
 
-**Question:**
+<strong>Question:</strong>
 Which tool or technique should the project manager use to determine the best resource strategy?
 
-- **Correct:** Make-or-Buy Analysis, considering cost, time, and strategic long-term value.
-- **Distractor 1:** Resource Leveling to see if the internal team can fit the work into their schedule.
-- **Distractor 2:** RACI Charting to decide who would be accountable for the algorithm.
-- **Distractor 3:** SWOT Analysis to identify the strengths of the internal developers.
+- <strong>Correct:</strong> Make-or-Buy Analysis, considering cost, time, and strategic long-term value.
+- <strong>Distractor 1:</strong> Resource Leveling to see if the internal team can fit the work into their schedule.
+- <strong>Distractor 2:</strong> RACI Charting to decide who would be accountable for the algorithm.
+- <strong>Distractor 3:</strong> SWOT Analysis to identify the strengths of the internal developers.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1015,18 +1015,18 @@ Which tool or technique should the project manager use to determine the best res
 
 ### Question 38
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Predictive
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is working in a weak matrix organization. They are finding it very difficult to get the functional managers to release the necessary resources for the project, as the functional managers prioritize their own departmental work.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager have ensured was clearly defined during project initiation to help with this resource challenge?
 
-- **Correct:** The project manager's authority to acquire and manage resources, as documented in the Project Charter.
-- **Distractor 1:** The exact number of hours each resource would spend on the project.
-- **Distractor 2:** The detailed technical requirements for every project task.
-- **Distractor 3:** A list of punitive measures for functional managers who do not provide resources.
+- <strong>Correct:</strong> The project manager's authority to acquire and manage resources, as documented in the Project Charter.
+- <strong>Distractor 1:</strong> The exact number of hours each resource would spend on the project.
+- <strong>Distractor 2:</strong> The detailed technical requirements for every project task.
+- <strong>Distractor 3:</strong> A list of punitive measures for functional managers who do not provide resources.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1044,18 +1044,18 @@ What should the project manager have ensured was clearly defined during project 
 
 ### Question 39
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Agile
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team has been working at an extremely high velocity for several sprints to meet a critical market deadline. The team is now showing signs of burnout, including increased errors, irritability, and a lack of creative problem-solving.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager (Scrum Master) do to protect the team's long-term resource availability?
 
-- **Correct:** Facilitate a discussion with the team and stakeholders to adjust the workload to a "sustainable pace" for future sprints.
-- **Distractor 1:** Provide the team with free coffee and snacks to help them maintain their energy levels.
-- **Distractor 2:** Cancel the next retrospective to give the team more time to focus on their development tasks.
-- **Distractor 3:** Suggest that the team take a one-month break after the current release is finished.
+- <strong>Correct:</strong> Facilitate a discussion with the team and stakeholders to adjust the workload to a "sustainable pace" for future sprints.
+- <strong>Distractor 1:</strong> Provide the team with free coffee and snacks to help them maintain their energy levels.
+- <strong>Distractor 2:</strong> Cancel the next retrospective to give the team more time to focus on their development tasks.
+- <strong>Distractor 3:</strong> Suggest that the team take a one-month break after the current release is finished.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1073,18 +1073,18 @@ What should the project manager (Scrum Master) do to protect the team's long-ter
 
 ### Question 40
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Predictive
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 During the "Estimate Activity Resources" process, the project manager realizes that the existing team lacks the specific cybersecurity skills required for the project's data encryption phase.
 
-**Question:**
+<strong>Question:</strong>
 What is the FIRST thing the project manager should do to address this resource gap?
 
-- **Correct:** Update the Resource Requirements and the Resource Management Plan to include a training plan or external hiring strategy.
-- **Distractor 1:** Ask the team members to research cybersecurity on their own during their lunch breaks.
-- **Distractor 2:** Tell the project sponsor that the data encryption phase cannot be completed.
-- **Distractor 3:** Proceed with the encryption phase using the existing team and hope for the best.
+- <strong>Correct:</strong> Update the Resource Requirements and the Resource Management Plan to include a training plan or external hiring strategy.
+- <strong>Distractor 1:</strong> Ask the team members to research cybersecurity on their own during their lunch breaks.
+- <strong>Distractor 2:</strong> Tell the project sponsor that the data encryption phase cannot be completed.
+- <strong>Distractor 3:</strong> Proceed with the encryption phase using the existing team and hope for the best.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1102,18 +1102,18 @@ What is the FIRST thing the project manager should do to address this resource g
 
 ### Question 41
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Hybrid
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 In a hybrid project, a shared resource (a graphic designer) is needed by both the predictive marketing team and the agile development team. The marketing team has a fixed deadline for a trade show, while the development team needs the designer for two-day bursts at the start of each sprint.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager BEST manage this shared resource?
 
-- **Correct:** Facilitate a meeting between both teams to create a shared resource calendar that respects both the fixed marketing deadline and the agile sprint cadence.
-- **Distractor 1:** Give the marketing team priority because their deadline is tied to an external event.
-- **Distractor 2:** Tell the graphic designer to decide which work is more important and manage their own schedule.
-- **Distractor 3:** Request that the organization hire a second graphic designer to eliminate the conflict.
+- <strong>Correct:</strong> Facilitate a meeting between both teams to create a shared resource calendar that respects both the fixed marketing deadline and the agile sprint cadence.
+- <strong>Distractor 1:</strong> Give the marketing team priority because their deadline is tied to an external event.
+- <strong>Distractor 2:</strong> Tell the graphic designer to decide which work is more important and manage their own schedule.
+- <strong>Distractor 3:</strong> Request that the organization hire a second graphic designer to eliminate the conflict.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1131,18 +1131,18 @@ How should the project manager BEST manage this shared resource?
 
 ### Question 42
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Predictive
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is reviewing a RACI chart and notices that for the "Risk Response Plan," five different stakeholders are marked as "Consulted" (C) and three are marked as "Informed" (I).
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST likely impact of having a high number of "Consulted" stakeholders for a single deliverable?
 
-- **Correct:** Significant delays in finalizing the deliverable due to the time needed to gather and reconcile diverse inputs.
-- **Distractor 1:** A lack of accountability for the risks identified in the plan.
-- **Distractor 2:** A reduction in the overall project budget because so many people are helping.
-- **Distractor 3:** An increase in technical errors because too many people are working on the same document.
+- <strong>Correct:</strong> Significant delays in finalizing the deliverable due to the time needed to gather and reconcile diverse inputs.
+- <strong>Distractor 1:</strong> A lack of accountability for the risks identified in the plan.
+- <strong>Distractor 2:</strong> A reduction in the overall project budget because so many people are helping.
+- <strong>Distractor 3:</strong> An increase in technical errors because too many people are working on the same document.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1160,18 +1160,18 @@ What is the MOST likely impact of having a high number of "Consulted" stakeholde
 
 ### Question 43
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Agile
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team's velocity has been very inconsistent over the last four sprints, ranging from 15 points to 45 points. The team is now planning for a high-priority release that requires a total of 100 points of work.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager (Scrum Master) help the team estimate their capacity for the upcoming release?
 
-- **Correct:** Facilitate a root cause analysis to understand the inconsistency and use a conservative average or range of recent velocities for planning.
-- **Distractor 1:** Use the highest velocity (45 points) to ensure the team is motivated to work at their peak performance.
-- **Distractor 2:** Mandate that the team completes exactly 25 points per sprint to reach the 100-point goal in four sprints.
-- **Distractor 3:** Tell the team to ignore their past velocity and just promise to do whatever it takes to meet the release date.
+- <strong>Correct:</strong> Facilitate a root cause analysis to understand the inconsistency and use a conservative average or range of recent velocities for planning.
+- <strong>Distractor 1:</strong> Use the highest velocity (45 points) to ensure the team is motivated to work at their peak performance.
+- <strong>Distractor 2:</strong> Mandate that the team completes exactly 25 points per sprint to reach the 100-point goal in four sprints.
+- <strong>Distractor 3:</strong> Tell the team to ignore their past velocity and just promise to do whatever it takes to meet the release date.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1189,18 +1189,18 @@ How should the project manager (Scrum Master) help the team estimate their capac
 
 ### Question 44
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Predictive
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is acquiring physical resources from a new vendor. The vendor has promised high-quality materials, but the project manager is concerned about the vendor's ability to deliver on time given their lack of experience in the industry.
 
-**Question:**
+<strong>Question:</strong>
 Which action should the project manager take to manage the risk to resource availability?
 
-- **Correct:** Include specific performance clauses and penalties for late delivery in the procurement contract.
-- **Distractor 1:** Pay the vendor the full amount upfront to encourage them to work faster.
-- **Distractor 2:** Hire a second vendor to provide the exact same materials as a backup, regardless of the cost.
-- **Distractor 3:** Wait until the first scheduled delivery to see if the vendor is actually reliable before taking any action.
+- <strong>Correct:</strong> Include specific performance clauses and penalties for late delivery in the procurement contract.
+- <strong>Distractor 1:</strong> Pay the vendor the full amount upfront to encourage them to work faster.
+- <strong>Distractor 2:</strong> Hire a second vendor to provide the exact same materials as a backup, regardless of the cost.
+- <strong>Distractor 3:</strong> Wait until the first scheduled delivery to see if the vendor is actually reliable before taking any action.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1218,18 +1218,18 @@ Which action should the project manager take to manage the risk to resource avai
 
 ### Question 46
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Agile
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is struggling to meet their sprint goal because several complex bugs were discovered late in the sprint. The team is worried they won't finish the high-priority stories.
 
-**Question:**
+<strong>Question:</strong>
 Which technique should the project manager (Scrum Master) suggest the team use to optimize their resources for the remainder of the sprint?
 
-- **Correct:** Swarming, where multiple team members focus together on resolving the critical bugs to clear the path for the remaining stories.
-- **Distractor 1:** Crashing the sprint by adding more developers from another team for the last two days.
-- **Distractor 2:** Moving the remaining stories to the next sprint and ending the current sprint early.
-- **Distractor 3:** Assigning each bug to a different person to work on in isolation to cover more ground.
+- <strong>Correct:</strong> Swarming, where multiple team members focus together on resolving the critical bugs to clear the path for the remaining stories.
+- <strong>Distractor 1:</strong> Crashing the sprint by adding more developers from another team for the last two days.
+- <strong>Distractor 2:</strong> Moving the remaining stories to the next sprint and ending the current sprint early.
+- <strong>Distractor 3:</strong> Assigning each bug to a different person to work on in isolation to cover more ground.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1247,18 +1247,18 @@ Which technique should the project manager (Scrum Master) suggest the team use t
 
 ### Question 47
 
-**Enabler:** Define and plan resources based on requirements | **Methodology:** Agile
+<strong>Enabler:</strong> Define and plan resources based on requirements | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is helping a new agile team define their initial working agreements. The team is unsure about how much detail they need to include regarding their daily interaction and core working hours.
 
-**Question:**
+<strong>Question:</strong>
 What is the BEST advice the project manager can give to the team regarding their Team Charter?
 
-- **Correct:** Start with a few essential ground rules and allow the charter to evolve as the team learns more about their working dynamics.
-- **Distractor 1:** Create a comprehensive 20-page document that covers every possible interaction and conflict scenario.
-- **Distractor 2:** Avoid creating a charter altogether to allow for maximum flexibility and lack of constraints.
-- **Distractor 3:** Use a standardized Team Charter from another successful team to ensure they are using "best practices."
+- <strong>Correct:</strong> Start with a few essential ground rules and allow the charter to evolve as the team learns more about their working dynamics.
+- <strong>Distractor 1:</strong> Create a comprehensive 20-page document that covers every possible interaction and conflict scenario.
+- <strong>Distractor 2:</strong> Avoid creating a charter altogether to allow for maximum flexibility and lack of constraints.
+- <strong>Distractor 3:</strong> Use a standardized Team Charter from another successful team to ensure they are using "best practices."
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1276,18 +1276,18 @@ What is the BEST advice the project manager can give to the team regarding their
 
 ### Question 48
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Agile
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team member is feeling demotivated because they feel their contributions are not being recognized by the rest of the team or the project manager. They have started to disengage from team activities.
 
-**Question:**
+<strong>Question:</strong>
 What is the MOST effective way for the project manager (Scrum Master) to address this resource's motivation?
 
-- **Correct:** Facilitate a team-wide recognition session where everyone can acknowledge the specific contributions of their peers.
-- **Distractor 1:** Give the demotivated team member a private cash bonus to show that their work is appreciated.
-- **Distractor 2:** Tell the team member that their lack of engagement is a performance issue and will be documented.
-- **Distractor 3:** Ignore the situation and hope that the team member's motivation improves during the next sprint.
+- <strong>Correct:</strong> Facilitate a team-wide recognition session where everyone can acknowledge the specific contributions of their peers.
+- <strong>Distractor 1:</strong> Give the demotivated team member a private cash bonus to show that their work is appreciated.
+- <strong>Distractor 2:</strong> Tell the team member that their lack of engagement is a performance issue and will be documented.
+- <strong>Distractor 3:</strong> Ignore the situation and hope that the team member's motivation improves during the next sprint.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1305,18 +1305,18 @@ What is the MOST effective way for the project manager (Scrum Master) to address
 
 ### Question 49
 
-**Enabler:** Manage and optimize resource needs and availability | **Methodology:** Agile
+<strong>Enabler:</strong> Manage and optimize resource needs and availability | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a retrospective, the team identifies that their velocity is being limited by the time it takes to set up the automated test environment for each new feature. This setup is currently done manually by one person.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager (Scrum Master) encourage the team to optimize this resource bottleneck?
 
-- **Correct:** Suggest the team allocate time in the next sprint to automate the environment setup, treating it as an investment in future velocity.
-- **Distractor 1:** Ask the person currently doing the manual setup to work faster or put in overtime.
-- **Distractor 2:** Hire a dedicated "Environment Setup Specialist" to handle this task for all future sprints.
-- **Distractor 3:** Accept the manual setup as a necessary constraint of the project and adjust the velocity expectations downward.
+- <strong>Correct:</strong> Suggest the team allocate time in the next sprint to automate the environment setup, treating it as an investment in future velocity.
+- <strong>Distractor 1:</strong> Ask the person currently doing the manual setup to work faster or put in overtime.
+- <strong>Distractor 2:</strong> Hire a dedicated "Environment Setup Specialist" to handle this task for all future sprints.
+- <strong>Distractor 3:</strong> Accept the manual setup as a necessary constraint of the project and adjust the velocity expectations downward.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1338,8 +1338,8 @@ How should the project manager (Scrum Master) encourage the team to optimize thi
 
 | Enabler | Question Numbers | Count |
 | :--- | :--- | :--- |
-| **Enabler 1:** Define and plan resources based on requirements | 1, 4, 6, 12, 14, 16, 19, 23, 27, 34, 37, 38, 40, 42, 44, 47 | 16 |
-| **Enabler 2:** Manage and optimize resource needs and availability | 2, 3, 5, 7, 8, 9, 10, 11, 13, 15, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 31, 32, 33, 35, 36, 39, 41, 43, 45, 46, 48, 49, 50 | 34 |
+| <strong>Enabler 1:</strong> Define and plan resources based on requirements | 1, 4, 6, 12, 14, 16, 19, 23, 27, 34, 37, 38, 40, 42, 44, 47 | 16 |
+| <strong>Enabler 2:</strong> Manage and optimize resource needs and availability | 2, 3, 5, 7, 8, 9, 10, 11, 13, 15, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 31, 32, 33, 35, 36, 39, 41, 43, 45, 46, 48, 49, 50 | 34 |
 
 ### Database Stats
 

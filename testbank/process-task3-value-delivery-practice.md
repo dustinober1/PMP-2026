@@ -33,18 +33,18 @@
 
 ### Question 1
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a large-scale infrastructure project with a five-year timeline. During the initial planning phase, the project sponsor requests a clear definition of how the project will contribute to the organization's long-term strategic goals. The project manager needs to distinguish between the physical bridge being built and the actual value it provides to the community.
 
-**Question:**
+<strong>Question:</strong>
 Which action should the project manager take to identify the value components with key stakeholders?
 
-- **Correct:** Facilitate a workshop to define the measurable benefits, such as reduced travel time and increased local commerce, rather than just the construction milestones.
-- **Distractor 1:** Update the project schedule with detailed engineering work packages and technical specifications for the bridge materials.
-- **Distractor 2:** Draft a quality management plan that ensures the bridge meets all safety regulations and architectural standards.
-- **Distractor 3:** Review the project budget to ensure sufficient funds are allocated for the final handover ceremony and community unveiling.
+- <strong>Correct:</strong> Facilitate a workshop to define the measurable benefits, such as reduced travel time and increased local commerce, rather than just the construction milestones.
+- <strong>Distractor 1:</strong> Update the project schedule with detailed engineering work packages and technical specifications for the bridge materials.
+- <strong>Distractor 2:</strong> Draft a quality management plan that ensures the bridge meets all safety regulations and architectural standards.
+- <strong>Distractor 3:</strong> Review the project budget to ensure sufficient funds are allocated for the final handover ceremony and community unveiling.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -62,18 +62,18 @@ Which action should the project manager take to identify the value components wi
 
 ### Question 2
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is developing a new customer service portal. The product backlog is filled with over 100 features, and the stakeholders are divided on which ones are the most important. The product owner wants to ensure that the team works on the items that will provide the most immediate financial return and risk reduction.
 
-**Question:**
+<strong>Question:</strong>
 What is the most effective technique for the project manager to facilitate the prioritization of this work?
 
-- **Correct:** Apply the Weighted Shortest Job First (WSJF) method by calculating the Cost of Delay divided by the job size for each feature.
-- **Distractor 1:** Request that the senior-most stakeholder provide a ranked list of features based on their department's annual budget allocation.
-- **Distractor 2:** Use a First-In, First-Out (FIFO) approach to ensure that the oldest requests in the backlog are addressed before newer ones.
-- **Distractor 3:** Assign a numerical priority to each feature based on the technical complexity and the number of developers required to build it.
+- <strong>Correct:</strong> Apply the Weighted Shortest Job First (WSJF) method by calculating the Cost of Delay divided by the job size for each feature.
+- <strong>Distractor 1:</strong> Request that the senior-most stakeholder provide a ranked list of features based on their department's annual budget allocation.
+- <strong>Distractor 2:</strong> Use a First-In, First-Out (FIFO) approach to ensure that the oldest requests in the backlog are addressed before newer ones.
+- <strong>Distractor 3:</strong> Assign a numerical priority to each feature based on the technical complexity and the number of developers required to build it.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -91,18 +91,18 @@ What is the most effective technique for the project manager to facilitate the p
 
 ### Question 3
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A company is undergoing a digital transformation that involves replacing a legacy ERP system. The project follows a predictive approach for the core database migration but uses an agile approach for the user interface modules. Stakeholders are concerned that they won't see any value until the entire two-year project is complete.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager assess opportunities to deliver value incrementally?
 
-- **Correct:** Identify a Minimum Business Increment (MBI) that allows one department to use a subset of the new system while the rest of the migration continues.
-- **Distractor 1:** Extend the project timeline to ensure all modules are fully tested and integrated before any part of the system is released to users.
-- **Distractor 2:** Schedule monthly status meetings to show stakeholders screenshots and design documents of the progress being made on the backend.
-- **Distractor 3:** Require all departments to switch to the new system simultaneously to avoid data synchronization issues between the old and new platforms.
+- <strong>Correct:</strong> Identify a Minimum Business Increment (MBI) that allows one department to use a subset of the new system while the rest of the migration continues.
+- <strong>Distractor 1:</strong> Extend the project timeline to ensure all modules are fully tested and integrated before any part of the system is released to users.
+- <strong>Distractor 2:</strong> Schedule monthly status meetings to show stakeholders screenshots and design documents of the progress being made on the backend.
+- <strong>Distractor 3:</strong> Require all departments to switch to the new system simultaneously to avoid data synchronization issues between the old and new platforms.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -120,18 +120,18 @@ How should the project manager assess opportunities to deliver value incremental
 
 ### Question 4
 
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 Midway through a three-year pharmaceutical research project, a competitor releases a drug that addresses the same medical condition with higher efficacy and lower cost. The project manager notes that while the project is on track regarding scope and budget, the market landscape has fundamentally shifted.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to examine the business value throughout the project?
 
-- **Correct:** Re-evaluate the Business Case in collaboration with the sponsor to determine if the project's net present value remains positive given the new market conditions.
-- **Distractor 1:** Focus the team on accelerating the remaining milestones to ensure the drug reaches the market as quickly as possible despite the competitor's release.
-- **Distractor 2:** Update the risk register to include the competitor's drug as a high-impact threat and continue with the original project plan.
-- **Distractor 3:** Reduce the project's quality testing requirements to lower costs and maintain the original Return on Investment projections.
+- <strong>Correct:</strong> Re-evaluate the Business Case in collaboration with the sponsor to determine if the project's net present value remains positive given the new market conditions.
+- <strong>Distractor 1:</strong> Focus the team on accelerating the remaining milestones to ensure the drug reaches the market as quickly as possible despite the competitor's release.
+- <strong>Distractor 2:</strong> Update the risk register to include the competitor's drug as a high-impact threat and continue with the original project plan.
+- <strong>Distractor 3:</strong> Reduce the project's quality testing requirements to lower costs and maintain the original Return on Investment projections.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -149,18 +149,18 @@ What should the project manager do to examine the business value throughout the 
 
 ### Question 5
 
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile software team has successfully deployed several releases, and the technical metrics show high velocity and low defect rates. However, the executive sponsor is frustrated because they cannot see the direct impact of these releases on the company's goal of reducing operational expenses.
 
-**Question:**
+<strong>Question:</strong>
 What action should the project manager take to verify a measurement system is in place to track benefits?
 
-- **Correct:** Ensure the Benefits Realization Plan includes leading indicators, such as user adoption and process cycle times, that map directly to the strategic goal of expense reduction.
-- **Distractor 1:** Increase the frequency of sprint reviews so the sponsor can see more demonstrations of the new features being built.
-- **Distractor 2:** Provide the sponsor with a detailed report of the team's story point velocity and the number of automated tests passed each sprint.
-- **Distractor 3:** Ask the developers to write more efficient code to further reduce the infrastructure costs associated with running the software.
+- <strong>Correct:</strong> Ensure the Benefits Realization Plan includes leading indicators, such as user adoption and process cycle times, that map directly to the strategic goal of expense reduction.
+- <strong>Distractor 1:</strong> Increase the frequency of sprint reviews so the sponsor can see more demonstrations of the new features being built.
+- <strong>Distractor 2:</strong> Provide the sponsor with a detailed report of the team's story point velocity and the number of automated tests passed each sprint.
+- <strong>Distractor 3:</strong> Ask the developers to write more efficient code to further reduce the infrastructure costs associated with running the software.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -178,18 +178,18 @@ What action should the project manager take to verify a measurement system is in
 
 ### Question 6
 
-**Enabler:** 6 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A retail company wants to launch a loyalty program. The marketing team favors a complex, feature-rich app that will take a year to develop. The operations team suggests a simple, web-based points system that could be launched in three months to start collecting customer data.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager evaluate delivery options to demonstrate value?
 
-- **Correct:** Facilitate a comparison of the delivery options using the Kano Model to prioritize basic needs for an early release, followed by performance features and delighters.
-- **Distractor 1:** Select the marketing team's option because it offers the highest potential for long-term customer engagement and brand differentiation.
-- **Distractor 2:** Choose the operations team's option solely because it has the lowest initial cost and the shortest schedule duration.
-- **Distractor 3:** Ask the CEO to make the final decision to ensure that the project has the necessary executive support and authority.
+- <strong>Correct:</strong> Facilitate a comparison of the delivery options using the Kano Model to prioritize basic needs for an early release, followed by performance features and delighters.
+- <strong>Distractor 1:</strong> Select the marketing team's option because it offers the highest potential for long-term customer engagement and brand differentiation.
+- <strong>Distractor 2:</strong> Choose the operations team's option solely because it has the lowest initial cost and the shortest schedule duration.
+- <strong>Distractor 3:</strong> Ask the CEO to make the final decision to ensure that the project has the necessary executive support and authority.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -207,18 +207,18 @@ How should the project manager evaluate delivery options to demonstrate value?
 
 ### Question 7
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A construction project is facing a significant budget overrun due to rising material costs. The project manager must decide which remaining scope items to keep and which to defer to stay within the revised budget. Several stakeholders are advocating for their specific features to be prioritized.
 
-**Question:**
+<strong>Question:</strong>
 What is the best approach for the project manager to prioritize work based on value?
 
-- **Correct:** Conduct a multi-criteria decision analysis using a weighted scoring model that includes strategic alignment, ROI, and regulatory compliance as factors.
-- **Distractor 1:** Prioritize the features that were requested by the stakeholders with the most influence over the project's future funding.
-- **Distractor 2:** Eliminate the most expensive remaining items to ensure the budget is balanced as quickly as possible.
-- **Distractor 3:** Follow the original scope statement precisely, as any changes would require a formal change request and potentially further delay the project.
+- <strong>Correct:</strong> Conduct a multi-criteria decision analysis using a weighted scoring model that includes strategic alignment, ROI, and regulatory compliance as factors.
+- <strong>Distractor 1:</strong> Prioritize the features that were requested by the stakeholders with the most influence over the project's future funding.
+- <strong>Distractor 2:</strong> Eliminate the most expensive remaining items to ensure the budget is balanced as quickly as possible.
+- <strong>Distractor 3:</strong> Follow the original scope statement precisely, as any changes would require a formal change request and potentially further delay the project.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -236,18 +236,18 @@ What is the best approach for the project manager to prioritize work based on va
 
 ### Question 8
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A startup is building a new AI-powered health app. The founders have a vision for a comprehensive platform that handles everything from diet tracking to medical record integration. However, the initial funding will only cover six months of development.
 
-**Question:**
+<strong>Question:</strong>
 Which strategy should the project manager use to deliver value incrementally?
 
-- **Correct:** Define a Minimum Viable Product (MVP) that focuses on the core diet-tracking feature to gather user feedback and validate the market demand.
-- **Distractor 1:** Develop all features simultaneously but at a lower level of quality to ensure the entire vision is represented in the first release.
-- **Distractor 2:** Focus the first six months on building the complex backend infrastructure for medical record integration, as this is the most difficult technical task.
-- **Distractor 3:** Seek additional funding immediately so that the full scope of the comprehensive platform can be built without compromises.
+- <strong>Correct:</strong> Define a Minimum Viable Product (MVP) that focuses on the core diet-tracking feature to gather user feedback and validate the market demand.
+- <strong>Distractor 1:</strong> Develop all features simultaneously but at a lower level of quality to ensure the entire vision is represented in the first release.
+- <strong>Distractor 2:</strong> Focus the first six months on building the complex backend infrastructure for medical record integration, as this is the most difficult technical task.
+- <strong>Distractor 3:</strong> Seek additional funding immediately so that the full scope of the comprehensive platform can be built without compromises.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -265,18 +265,18 @@ Which strategy should the project manager use to deliver value incrementally?
 
 ### Question 9
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A government agency is implementing a new digital tax filing system. The project charter specifies that the goal is to increase the accuracy of filings and reduce the administrative burden on citizens. The project is nearing completion, and the system is ready for rollout.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager verify that a measurement system is in place to track these benefits?
 
-- **Correct:** Confirm that a Benefit Owner has been assigned and that baselines for filing error rates and average filing time have been established.
-- **Distractor 1:** Ensure that the system has passed all functional and security testing requirements according to the technical specifications.
-- **Distractor 2:** Organize a training session for the agency's staff to ensure they know how to operate the new system after the project is closed.
-- **Distractor 3:** Review the project's budget to ensure that all vendors have been paid and that there are no outstanding financial obligations.
+- <strong>Correct:</strong> Confirm that a Benefit Owner has been assigned and that baselines for filing error rates and average filing time have been established.
+- <strong>Distractor 1:</strong> Ensure that the system has passed all functional and security testing requirements according to the technical specifications.
+- <strong>Distractor 2:</strong> Organize a training session for the agency's staff to ensure they know how to operate the new system after the project is closed.
+- <strong>Distractor 3:</strong> Review the project's budget to ensure that all vendors have been paid and that there are no outstanding financial obligations.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -294,18 +294,18 @@ How should the project manager verify that a measurement system is in place to t
 
 ### Question 10
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 An international NGO is implementing a clean water initiative in multiple villages. The project uses a predictive plan for the engineering of the wells but an agile approach for community engagement and training. After the first three wells are completed, the team notices that one community is not using the well because they prefer the taste of the old, contaminated source.
 
-**Question:**
+<strong>Question:</strong>
 What is the most appropriate action for the project manager to take to examine the business value?
 
-- **Correct:** Conduct a post-implementation review with the community to identify adoption barriers and adjust the engagement strategy to emphasize health benefits.
-- **Distractor 1:** Declare the project a success for that village because the well was built to the engineering specifications and provides clean water.
-- **Distractor 2:** Move the team to the next village to stay on schedule, as the project's goal is to build a specific number of wells within the budget.
-- **Distractor 3:** Request that the local government mandate the use of the new well to ensure that the project's health objectives are met.
+- <strong>Correct:</strong> Conduct a post-implementation review with the community to identify adoption barriers and adjust the engagement strategy to emphasize health benefits.
+- <strong>Distractor 1:</strong> Declare the project a success for that village because the well was built to the engineering specifications and provides clean water.
+- <strong>Distractor 2:</strong> Move the team to the next village to stay on schedule, as the project's goal is to build a specific number of wells within the budget.
+- <strong>Distractor 3:</strong> Request that the local government mandate the use of the new well to ensure that the project's health objectives are met.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -323,18 +323,18 @@ What is the most appropriate action for the project manager to take to examine t
 
 ### Question 11
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A product owner is struggling to define the "value" of a technical debt reduction story. The developers argue that refactoring the legacy code will make the system more stable, but the business stakeholders see no new features and are reluctant to approve the work.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager help identify the value components of this work?
 
-- **Correct:** Translate the technical improvement into business terms by quantifying the expected reduction in system downtime and future maintenance costs.
-- **Distractor 1:** Advise the developers to perform the refactoring in secret during their spare time so as not to upset the business stakeholders.
-- **Distractor 2:** Tell the business stakeholders that technical debt is a mandatory part of software development and must be accepted without question.
-- **Distractor 3:** Remove the refactoring story from the backlog and prioritize a new feature that will provide immediate visual impact for the stakeholders.
+- <strong>Correct:</strong> Translate the technical improvement into business terms by quantifying the expected reduction in system downtime and future maintenance costs.
+- <strong>Distractor 1:</strong> Advise the developers to perform the refactoring in secret during their spare time so as not to upset the business stakeholders.
+- <strong>Distractor 2:</strong> Tell the business stakeholders that technical debt is a mandatory part of software development and must be accepted without question.
+- <strong>Distractor 3:</strong> Remove the refactoring story from the backlog and prioritize a new feature that will provide immediate visual impact for the stakeholders.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -352,18 +352,18 @@ How should the project manager help identify the value components of this work?
 
 ### Question 12
 
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A manufacturing company is considering two different automation projects. Project Alpha has an expected NPV of $500,000 and a payback period of 3 years. Project Beta has an expected NPV of $450,000 and a payback period of 1 year. The company is currently experiencing a cash flow shortage.
 
-**Question:**
+<strong>Question:</strong>
 Which project should the project manager recommend to demonstrate the best value delivery option?
 
-- **Correct:** Project Beta, because the shorter payback period addresses the organization's current constraint of cash flow while still providing a significant NPV.
-- **Distractor 1:** Project Alpha, because it has a higher Net Present Value, which is always the primary metric for project selection in predictive environments.
-- **Distractor 2:** Neither project, as the company should focus on its current operations and avoid any new capital expenditures during a cash flow shortage.
-- **Distractor 3:** Both projects, as they both have a positive NPV and will contribute to the long-term automation goals of the company.
+- <strong>Correct:</strong> Project Beta, because the shorter payback period addresses the organization's current constraint of cash flow while still providing a significant NPV.
+- <strong>Distractor 1:</strong> Project Alpha, because it has a higher Net Present Value, which is always the primary metric for project selection in predictive environments.
+- <strong>Distractor 2:</strong> Neither project, as the company should focus on its current operations and avoid any new capital expenditures during a cash flow shortage.
+- <strong>Distractor 3:</strong> Both projects, as they both have a positive NPV and will contribute to the long-term automation goals of the company.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -381,18 +381,18 @@ Which project should the project manager recommend to demonstrate the best value
 
 ### Question 13
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project team is implementing a new environmental monitoring system for a city. The predictive part of the project involves installing 500 sensors across the metropolitan area. The agile part involves developing the data analysis dashboard. After 50 sensors are installed, the dashboard is functional enough to show real-time air quality in the city center.
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's best course of action to deliver value incrementally?
 
-- **Correct:** Release a public-facing version of the dashboard for the city center immediately to provide value to citizens while the remaining sensors are installed.
-- **Distractor 1:** Wait until all 500 sensors are installed and calibrated to ensure that the data shown on the dashboard is complete and comprehensive.
-- **Distractor 2:** Focus the team on completing the remaining 450 sensor installations as quickly as possible to meet the original project schedule.
-- **Distractor 3:** Conduct a large-scale user acceptance test with all 500 sensors simulated to ensure the dashboard can handle the final data volume.
+- <strong>Correct:</strong> Release a public-facing version of the dashboard for the city center immediately to provide value to citizens while the remaining sensors are installed.
+- <strong>Distractor 1:</strong> Wait until all 500 sensors are installed and calibrated to ensure that the data shown on the dashboard is complete and comprehensive.
+- <strong>Distractor 2:</strong> Focus the team on completing the remaining 450 sensor installations as quickly as possible to meet the original project schedule.
+- <strong>Distractor 3:</strong> Conduct a large-scale user acceptance test with all 500 sensors simulated to ensure the dashboard can handle the final data volume.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -410,18 +410,18 @@ What is the project manager's best course of action to deliver value incremental
 
 ### Question 14
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 During a sprint review, a key stakeholder provides feedback that a feature delivered by the team is "technically correct but doesn't solve the actual business problem." The team's velocity is high, and they have met all the acceptance criteria for the user story.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager address this feedback to ensure value-based delivery?
 
-- **Correct:** Facilitate a workshop between the team and the stakeholder to refine the product vision and update the "Definition of Ready" to include business outcome validation.
-- **Distractor 1:** Remind the stakeholder that the team followed the documented requirements and that any changes must now go through a formal change request process.
-- **Distractor 2:** Instruct the team to work overtime in the next sprint to fix the feature while still completing their planned stories.
-- **Distractor 3:** Advise the stakeholder to be more specific with their requirements in the future to avoid this type of misunderstanding.
+- <strong>Correct:</strong> Facilitate a workshop between the team and the stakeholder to refine the product vision and update the "Definition of Ready" to include business outcome validation.
+- <strong>Distractor 1:</strong> Remind the stakeholder that the team followed the documented requirements and that any changes must now go through a formal change request process.
+- <strong>Distractor 2:</strong> Instruct the team to work overtime in the next sprint to fix the feature while still completing their planned stories.
+- <strong>Distractor 3:</strong> Advise the stakeholder to be more specific with their requirements in the future to avoid this type of misunderstanding.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -439,18 +439,18 @@ How should the project manager address this feedback to ensure value-based deliv
 
 ### Question 15
 
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project to build a new data center has already spent $10 million of its $15 million budget. A new cloud technology has emerged that would make the data center obsolete once finished. Completing the project will cost another $5 million, while migrating to the cloud would cost $7 million but provide $20 million in long-term savings.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager recommend when examining the business value?
 
-- **Correct:** Recommend halting the data center project and initiating the cloud migration, ignoring the $10 million already spent as a sunk cost.
-- **Distractor 1:** Finish the data center project since two-thirds of the budget has already been spent and it would be a waste of resources to stop now.
-- **Distractor 2:** Complete the data center project first to get a return on the initial investment, then plan the cloud migration as a separate project next year.
-- **Distractor 3:** Try to find a way to finish the data center for only $2 million to save money, even if it means reducing the original technical specifications.
+- <strong>Correct:</strong> Recommend halting the data center project and initiating the cloud migration, ignoring the $10 million already spent as a sunk cost.
+- <strong>Distractor 1:</strong> Finish the data center project since two-thirds of the budget has already been spent and it would be a waste of resources to stop now.
+- <strong>Distractor 2:</strong> Complete the data center project first to get a return on the initial investment, then plan the cloud migration as a separate project next year.
+- <strong>Distractor 3:</strong> Try to find a way to finish the data center for only $2 million to save money, even if it means reducing the original technical specifications.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -468,18 +468,18 @@ What should the project manager recommend when examining the business value?
 
 ### Question 16
 
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile project has multiple "Value Stream" teams working on a single product. The teams are delivering features, but there is no centralized way to track whether these features are contributing to the overall strategic KPI of "Customer Retention."
 
-**Question:**
+<strong>Question:</strong>
 What is the best action for the project manager to take?
 
-- **Correct:** Implement a balanced scorecard or an OKR (Objectives and Key Results) framework that links individual team outputs to the strategic KPI of customer retention.
-- **Distractor 1:** Ask each team to report their individual velocity and cycle time in a combined weekly status report to the executive team.
-- **Distractor 2:** Direct the teams to focus only on features that have "Retention" in their name to ensure they are working on the right things.
-- **Distractor 3:** Hire a dedicated data analyst to manually calculate the retention rate at the end of every quarter after the features have been in the market.
+- <strong>Correct:</strong> Implement a balanced scorecard or an OKR (Objectives and Key Results) framework that links individual team outputs to the strategic KPI of customer retention.
+- <strong>Distractor 1:</strong> Ask each team to report their individual velocity and cycle time in a combined weekly status report to the executive team.
+- <strong>Distractor 2:</strong> Direct the teams to focus only on features that have "Retention" in their name to ensure they are working on the right things.
+- <strong>Distractor 3:</strong> Hire a dedicated data analyst to manually calculate the retention rate at the end of every quarter after the features have been in the market.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -497,18 +497,18 @@ What is the best action for the project manager to take?
 
 ### Question 17
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is overseeing a hybrid project where the software is developed in sprints and the hardware is procured through a predictive process. A major supply chain disruption has increased the lead time for a critical hardware component by six months, threatening the project's overall value delivery.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager prioritize the remaining work?
 
-- **Correct:** Work with the software team to reprioritize the backlog to focus on features that can be tested and demonstrated using simulated hardware or existing older models.
-- **Distractor 1:** Halt all software development until the hardware component arrives to ensure that the two parts of the project remain synchronized.
-- **Distractor 2:** Maintain the original software schedule and backlog to ensure the team remains productive and meets their planned velocity.
-- **Distractor 3:** Cancel the project immediately, as the delay in hardware delivery has invalidated the original project schedule and budget.
+- <strong>Correct:</strong> Work with the software team to reprioritize the backlog to focus on features that can be tested and demonstrated using simulated hardware or existing older models.
+- <strong>Distractor 1:</strong> Halt all software development until the hardware component arrives to ensure that the two parts of the project remain synchronized.
+- <strong>Distractor 2:</strong> Maintain the original software schedule and backlog to ensure the team remains productive and meets their planned velocity.
+- <strong>Distractor 3:</strong> Cancel the project immediately, as the delay in hardware delivery has invalidated the original project schedule and budget.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -526,18 +526,18 @@ How should the project manager prioritize the remaining work?
 
 ### Question 18
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A company is initiating a project to improve its ESG (Environmental, Social, and Governance) rating to attract more institutional investors. The project manager needs to identify the value components with a diverse group of stakeholders, including environmentalists, labor unions, and financial analysts.
 
-**Question:**
+<strong>Question:</strong>
 What is the most effective way for the project manager to identify these value components?
 
-- **Correct:** Facilitate a stakeholder mapping exercise followed by structured interviews to define the specific metrics that represent "value" for each group.
-- **Distractor 1:** Adopt the standards from the highest-rated competitor in the industry and use those as the project's value definitions.
-- **Distractor 2:** Focus primarily on the financial analysts' needs, as their perception of the ESG rating will have the most direct impact on the company's stock price.
-- **Distractor 3:** Create a list of environmental improvements that are easiest to implement and present them to the stakeholders for approval.
+- <strong>Correct:</strong> Facilitate a stakeholder mapping exercise followed by structured interviews to define the specific metrics that represent "value" for each group.
+- <strong>Distractor 1:</strong> Adopt the standards from the highest-rated competitor in the industry and use those as the project's value definitions.
+- <strong>Distractor 2:</strong> Focus primarily on the financial analysts' needs, as their perception of the ESG rating will have the most direct impact on the company's stock price.
+- <strong>Distractor 3:</strong> Create a list of environmental improvements that are easiest to implement and present them to the stakeholders for approval.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -555,18 +555,18 @@ What is the most effective way for the project manager to identify these value c
 
 ### Question 19
 
-**Enabler:** 6 | **Methodology:** Agile
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is building a new mobile banking app. They have the option of releasing a "Version 1.0" with basic balance checking and transfers in two months, or a "Version 2.0" with full investment and loan management in six months. A competitor is rumored to be launching a similar app in three months.
 
-**Question:**
+<strong>Question:</strong>
 Which delivery option should the project manager recommend to demonstrate value?
 
-- **Correct:** Release Version 1.0 in two months to capture market share and gather user feedback before the competitor's launch.
-- **Distractor 2:** Wait for Version 2.0 to ensure the product is "feature complete" and more competitive against the rumored rival app.
-- **Distractor 3:** Release a prototype of Version 2.0 to a small group of beta testers in two months but keep the general public waiting for the full launch.
-- **Distractor 4:** Cancel the project if the Version 2.0 cannot be accelerated to meet the two-month deadline, as a partial product will damage the bank's reputation.
+- <strong>Correct:</strong> Release Version 1.0 in two months to capture market share and gather user feedback before the competitor's launch.
+- <strong>Distractor 2:</strong> Wait for Version 2.0 to ensure the product is "feature complete" and more competitive against the rumored rival app.
+- <strong>Distractor 3:</strong> Release a prototype of Version 2.0 to a small group of beta testers in two months but keep the general public waiting for the full launch.
+- <strong>Distractor 4:</strong> Cancel the project if the Version 2.0 cannot be accelerated to meet the two-month deadline, as a partial product will damage the bank's reputation.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -584,18 +584,18 @@ Which delivery option should the project manager recommend to demonstrate value?
 
 ### Question 20
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a project to upgrade the national electricity grid. The project involves installing smart meters in 10 million homes over five years. The government sponsor wants to see the impact of the investment on reducing energy waste as early as possible.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager assess opportunities to deliver value incrementally?
 
-- **Correct:** Pilot the smart meter installation in a single high-density city district to measure energy savings and refine the installation process before the national rollout.
-- **Distractor 1:** Divide the project into five annual phases, where each phase focuses on a different geographic region, but only report results at the very end.
-- **Distractor 2:** Install all 10 million meters first, then activate the "smart" features simultaneously across the entire country to ensure data consistency.
-- **Distractor 3:** Focus the first two years on building the massive data processing center needed to handle the signals from all 10 million meters.
+- <strong>Correct:</strong> Pilot the smart meter installation in a single high-density city district to measure energy savings and refine the installation process before the national rollout.
+- <strong>Distractor 1:</strong> Divide the project into five annual phases, where each phase focuses on a different geographic region, but only report results at the very end.
+- <strong>Distractor 2:</strong> Install all 10 million meters first, then activate the "smart" features simultaneously across the entire country to ensure data consistency.
+- <strong>Distractor 3:</strong> Focus the first two years on building the massive data processing center needed to handle the signals from all 10 million meters.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -613,18 +613,18 @@ How should the project manager assess opportunities to deliver value incremental
 
 ### Question 21
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project has been completed, and the final deliverable has been handed over to the operations team. The business case promised a 15% increase in production efficiency. Three months later, the operations manager reports that efficiency has only increased by 5%.
 
-**Question:**
+<strong>Question:</strong>
 What is the best action for the project manager (or the project's close-out team) to take?
 
-- **Correct:** Collaborate with the operations manager to perform a root cause analysis to identify if the shortfall is due to technical issues or a lack of user adoption and training.
-- **Distractor 1:** Close the project files and archive the lessons learned, as the project team's responsibility ended once the deliverable was accepted by operations.
-- **Distractor 2:** Blame the operations team for the poor results, as the project team successfully delivered the system according to the agreed-upon requirements.
-- **Distractor 3:** Request additional funding to add more features to the system to help bridge the 10% gap in efficiency.
+- <strong>Correct:</strong> Collaborate with the operations manager to perform a root cause analysis to identify if the shortfall is due to technical issues or a lack of user adoption and training.
+- <strong>Distractor 1:</strong> Close the project files and archive the lessons learned, as the project team's responsibility ended once the deliverable was accepted by operations.
+- <strong>Distractor 2:</strong> Blame the operations team for the poor results, as the project team successfully delivered the system according to the agreed-upon requirements.
+- <strong>Distractor 3:</strong> Request additional funding to add more features to the system to help bridge the 10% gap in efficiency.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -642,18 +642,18 @@ What is the best action for the project manager (or the project's close-out team
 
 ### Question 22
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is working on a feature that was originally estimated to be very high value. However, halfway through the sprint, the product owner learns that a major customer has decided not to use that specific functionality.
 
-**Question:**
+<strong>Question:</strong>
 What is the most appropriate action for the project manager to take to prioritize work based on value?
 
-- **Correct:** Facilitate a discussion with the product owner and the team to determine if the story should be stopped immediately and replaced with a higher-value item from the backlog.
-- **Distractor 1:** Instruct the team to finish the story as planned since it is already halfway done and it would be a waste of the effort already spent.
-- **Distractor 2:** Ask the team to finish the feature but hide it from the customer so that it can be used for other potential clients in the future.
-- **Distractor 3:** Complete the sprint as originally planned and then discuss the change in value during the sprint retrospective.
+- <strong>Correct:</strong> Facilitate a discussion with the product owner and the team to determine if the story should be stopped immediately and replaced with a higher-value item from the backlog.
+- <strong>Distractor 1:</strong> Instruct the team to finish the story as planned since it is already halfway done and it would be a waste of the effort already spent.
+- <strong>Distractor 2:</strong> Ask the team to finish the feature but hide it from the customer so that it can be used for other potential clients in the future.
+- <strong>Distractor 3:</strong> Complete the sprint as originally planned and then discuss the change in value during the sprint retrospective.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -671,18 +671,18 @@ What is the most appropriate action for the project manager to take to prioritiz
 
 ### Question 23
 
-**Enabler:** 1 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is initiating a project to develop an AI-powered diagnostic tool for a hospital group. The key stakeholders include doctors, hospital administrators, and IT security experts. The doctors care about accuracy, administrators care about cost-per-patient, and IT cares about data privacy.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager identify the value components with these stakeholders?
 
-- **Correct:** Use a benefits mapping technique to show how the technical features of the AI tool (output) lead to better diagnoses (outcome) and reduced hospital stays (benefit).
-- **Distractor 1:** Focus the project's value definition on the IT security experts' needs, as data privacy is a non-negotiable legal requirement.
-- **Distractor 2:** Ask the hospital administrators to provide a single financial target that the project must hit to be considered successful.
-- **Distractor 3:** Create three separate project charters to ensure that the unique value needs of each stakeholder group are addressed independently.
+- <strong>Correct:</strong> Use a benefits mapping technique to show how the technical features of the AI tool (output) lead to better diagnoses (outcome) and reduced hospital stays (benefit).
+- <strong>Distractor 1:</strong> Focus the project's value definition on the IT security experts' needs, as data privacy is a non-negotiable legal requirement.
+- <strong>Distractor 2:</strong> Ask the hospital administrators to provide a single financial target that the project must hit to be considered successful.
+- <strong>Distractor 3:</strong> Create three separate project charters to ensure that the unique value needs of each stakeholder group are addressed independently.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -700,18 +700,18 @@ How should the project manager identify the value components with these stakehol
 
 ### Question 24
 
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A company is deciding between building a new software module in-house or purchasing a commercial off-the-shelf (COTS) solution. The in-house build will take 12 months and cost $1 million. The COTS solution can be implemented in 3 months for $1.5 million. The market opportunity for this module is estimated at $200,000 per month in revenue.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager evaluate these delivery options to demonstrate value?
 
-- **Correct:** Compare the total value (Revenue - Cost) over a 24-month period, which reveals that the COTS solution provides significantly higher total value due to its earlier launch.
-- **Distractor 1:** Recommend the in-house build because it has a lower initial cost and allows for greater customization to the company's specific needs.
-- **Distractor 2:** Choose the in-house build because it avoids the "vendor lock-in" associated with COTS solutions and builds internal technical capability.
-- **Distractor 3:** Select the COTS solution solely because it has a shorter schedule duration, regardless of the higher initial cost or long-term maintenance fees.
+- <strong>Correct:</strong> Compare the total value (Revenue - Cost) over a 24-month period, which reveals that the COTS solution provides significantly higher total value due to its earlier launch.
+- <strong>Distractor 1:</strong> Recommend the in-house build because it has a lower initial cost and allows for greater customization to the company's specific needs.
+- <strong>Distractor 2:</strong> Choose the in-house build because it avoids the "vendor lock-in" associated with COTS solutions and builds internal technical capability.
+- <strong>Distractor 3:</strong> Select the COTS solution solely because it has a shorter schedule duration, regardless of the higher initial cost or long-term maintenance fees.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -729,18 +729,18 @@ How should the project manager evaluate these delivery options to demonstrate va
 
 ### Question 25
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is consistently meeting its sprint goals and has high quality scores. However, the business stakeholders are losing interest because they don't see how the incremental releases are adding up to a meaningful change for the customers.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to examine the business value throughout the project?
 
-- **Correct:** Organize a "Value Demo" or "Town Hall" where the team showcases the cumulative impact of several sprints on a specific customer persona's journey.
-- **Distractor 1:** Increase the number of technical metrics shared with the stakeholders, such as test coverage and lines of code written.
-- **Distractor 2:** Advise the team to work on larger, more complex features that will take several sprints to complete but will have a bigger "wow" factor.
-- **Distractor 3:** Change the project's methodology to predictive to give the stakeholders a more traditional project plan and a single final delivery date.
+- <strong>Correct:</strong> Organize a "Value Demo" or "Town Hall" where the team showcases the cumulative impact of several sprints on a specific customer persona's journey.
+- <strong>Distractor 1:</strong> Increase the number of technical metrics shared with the stakeholders, such as test coverage and lines of code written.
+- <strong>Distractor 2:</strong> Advise the team to work on larger, more complex features that will take several sprints to complete but will have a bigger "wow" factor.
+- <strong>Distractor 3:</strong> Change the project's methodology to predictive to give the stakeholders a more traditional project plan and a single final delivery date.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -758,18 +758,18 @@ What should the project manager do to examine the business value throughout the 
 
 ### Question 26
 
-**Enabler:** 2 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a project to implement a new AI-driven supply chain optimization tool. The business case estimates a 10% reduction in inventory costs. During execution, the project manager finds that the data quality in the legacy systems is much worse than expected, which will increase the cost of the project by 20%.
 
-**Question:**
+<strong>Question:</strong>
 What is the project manager's most important action to prioritize work based on value?
 
-- **Correct:** Perform a revised ROI analysis and present it to the sponsor to decide if the project should continue, be rescoped, or be terminated.
-- **Distractor 1:** Instruct the team to cut corners on the data cleaning process to stay within the original project budget.
-- **Distractor 2:** Request the 20% budget increase immediately from the finance department without explaining the change in the project's value proposition.
-- **Distractor 3:** Focus the project on the 10% of products that represent 80% of the inventory value to maintain as much benefit as possible within the budget.
+- <strong>Correct:</strong> Perform a revised ROI analysis and present it to the sponsor to decide if the project should continue, be rescoped, or be terminated.
+- <strong>Distractor 1:</strong> Instruct the team to cut corners on the data cleaning process to stay within the original project budget.
+- <strong>Distractor 2:</strong> Request the 20% budget increase immediately from the finance department without explaining the change in the project's value proposition.
+- <strong>Distractor 3:</strong> Focus the project on the 10% of products that represent 80% of the inventory value to maintain as much benefit as possible within the budget.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -787,18 +787,18 @@ What is the project manager's most important action to prioritize work based on 
 
 ### Question 27
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A team is developing a new employee benefits platform. They have identified three main modules: Health Insurance, Retirement Planning, and Commuter Benefits. The Health Insurance module is the most complex but also the most requested by employees. The Commuter Benefits module is very simple to build.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager assess opportunities to deliver value incrementally?
 
-- **Correct:** Release the Commuter Benefits module as a "Quick Win" to build momentum and test the platform's stability while the more complex Health module is under development.
-- **Distractor 1:** Work on all three modules simultaneously so that they can all be released together as a complete "Benefits Package."
-- **Distractor 2:** Focus all resources on the Health Insurance module first, as it is the highest priority and nothing else matters until it is delivered.
-- **Distractor 3:** Delay the project until the end of the year so that the new platform can be launched during the annual open enrollment period.
+- <strong>Correct:</strong> Release the Commuter Benefits module as a "Quick Win" to build momentum and test the platform's stability while the more complex Health module is under development.
+- <strong>Distractor 1:</strong> Work on all three modules simultaneously so that they can all be released together as a complete "Benefits Package."
+- <strong>Distractor 2:</strong> Focus all resources on the Health Insurance module first, as it is the highest priority and nothing else matters until it is delivered.
+- <strong>Distractor 3:</strong> Delay the project until the end of the year so that the new platform can be launched during the annual open enrollment period.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -816,18 +816,18 @@ How should the project manager assess opportunities to deliver value incremental
 
 ### Question 28
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project to implement a new customer portal has just gone live. The benefits realization plan states that "Improved Customer Satisfaction" is a key benefit, measured by an NPS (Net Promoter Score) increase of 10 points within six months.
 
-**Question:**
+<strong>Question:</strong>
 Which action should the project manager take to verify the measurement system is in place?
 
-- **Correct:** Ensure that the automated NPS survey is triggered for all users of the new portal and that the data is being fed into the Benefits Register.
-- **Distractor 1:** Ask the customer support team to keep a log of any positive comments they hear from customers about the new portal.
-- **Distractor 2:** Review the project's scope to ensure that all requirements related to the "User Experience" were met.
-- **Distractor 3:** Schedule a celebration lunch for the project team to acknowledge the successful "Go-Live" of the portal.
+- <strong>Correct:</strong> Ensure that the automated NPS survey is triggered for all users of the new portal and that the data is being fed into the Benefits Register.
+- <strong>Distractor 1:</strong> Ask the customer support team to keep a log of any positive comments they hear from customers about the new portal.
+- <strong>Distractor 2:</strong> Review the project's scope to ensure that all requirements related to the "User Experience" were met.
+- <strong>Distractor 3:</strong> Schedule a celebration lunch for the project team to acknowledge the successful "Go-Live" of the portal.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -845,18 +845,18 @@ Which action should the project manager take to verify the measurement system is
 
 ### Question 29
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is working on a product with a very broad and poorly defined "Vision Statement" that says "Make our customers happy." The team is struggling to decide which features in the backlog will actually contribute to this goal.
 
-**Question:**
+<strong>Question:</strong>
 What action should the project manager take to identify value components with the stakeholders?
 
-- **Correct:** Facilitate an "Impact Mapping" session to connect the "Why" (Goal) to the "Who" (Actors), the "How" (Impacts), and the "What" (Deliverables).
-- **Distractor 1:** Instruct the team to work on the features that have the highest number of votes from the stakeholders in the last feedback session.
-- **Distractor 2:** Write a more detailed project charter that lists every feature that is expected to be built over the next six months.
-- **Distractor 3:** Advise the team to focus on technical excellence and high velocity, as "happy customers" will naturally follow from a high-quality product.
+- <strong>Correct:</strong> Facilitate an "Impact Mapping" session to connect the "Why" (Goal) to the "Who" (Actors), the "How" (Impacts), and the "What" (Deliverables).
+- <strong>Distractor 1:</strong> Instruct the team to work on the features that have the highest number of votes from the stakeholders in the last feedback session.
+- <strong>Distractor 2:</strong> Write a more detailed project charter that lists every feature that is expected to be built over the next six months.
+- <strong>Distractor 3:</strong> Advise the team to focus on technical excellence and high velocity, as "happy customers" will naturally follow from a high-quality product.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -874,18 +874,18 @@ What action should the project manager take to identify value components with th
 
 ### Question 30
 
-**Enabler:** 6 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A pharmaceutical company is launching a new drug. They have two options for the manufacturing plant: Option A is a highly automated plant with high upfront costs but low operating costs. Option B is a manual plant with low upfront costs but high operating costs. The patent for the drug is valid for only 5 years.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager evaluate these delivery options to demonstrate value?
 
-- **Correct:** Calculate the total lifecycle cost and the NPV for both options over the 5-year patent window to determine which one maximizes net profit.
-- **Distractor 1:** Recommend Option A because automation is the industry trend and will build the company's long-term competitive advantage.
-- **Distractor 2:** Choose Option B because the lower initial investment reduces the project's financial risk in case the drug is not a market success.
-- **Distractor 3:** Select Option A because it will result in a higher "Grade" product with fewer defects, which is critical in the pharmaceutical industry.
+- <strong>Correct:</strong> Calculate the total lifecycle cost and the NPV for both options over the 5-year patent window to determine which one maximizes net profit.
+- <strong>Distractor 1:</strong> Recommend Option A because automation is the industry trend and will build the company's long-term competitive advantage.
+- <strong>Distractor 2:</strong> Choose Option B because the lower initial investment reduces the project's financial risk in case the drug is not a market success.
+- <strong>Distractor 3:</strong> Select Option A because it will result in a higher "Grade" product with fewer defects, which is critical in the pharmaceutical industry.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -903,18 +903,18 @@ How should the project manager evaluate these delivery options to demonstrate va
 
 ### Question 31
 
-**Enabler:** 4 | **Methodology:** Predictive
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a multi-year construction project. Every quarter, the project sponsor asks for a "Value Status Report." The project manager has been providing reports on schedule variance (SV) and cost variance (CV).
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager add to the report to truly examine the business value throughout the project?
 
-- **Correct:** Include a "Benefit Variance" report that compares the actual progress toward key outcomes (e.g., land acquisition for future phases) against the original benefits realization plan.
-- **Distractor 1:** Add more granular detail to the SV and CV reports, showing the performance of individual subcontractors and work packages.
-- **Distractor 2:** Provide a forecast of the final project cost at completion (EAC) to show that the project will remain within the authorized budget.
-- **Distractor 3:** Include photos of the construction site to show the physical progress of the project and prove that work is being done.
+- <strong>Correct:</strong> Include a "Benefit Variance" report that compares the actual progress toward key outcomes (e.g., land acquisition for future phases) against the original benefits realization plan.
+- <strong>Distractor 1:</strong> Add more granular detail to the SV and CV reports, showing the performance of individual subcontractors and work packages.
+- <strong>Distractor 2:</strong> Provide a forecast of the final project cost at completion (EAC) to show that the project will remain within the authorized budget.
+- <strong>Distractor 3:</strong> Include photos of the construction site to show the physical progress of the project and prove that work is being done.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -932,18 +932,18 @@ What should the project manager add to the report to truly examine the business 
 
 ### Question 32
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A startup's product backlog is filled with "Delighters" (from the Kano Model) that the founders are very excited about. However, the "Basic Needs" (like data encryption and user login) are still buggy and incomplete.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager facilitate the prioritization of work based on value?
 
-- **Correct:** Prioritize the "Basic Needs" until they are stable, as their absence causes total dissatisfaction and destroys the value of any "Delighters."
-- **Distractor 1:** Prioritize the "Delighters" to ensure the product has a unique selling proposition (USP) in a crowded market.
-- **Distractor 2:** Balance the backlog evenly between Basic Needs and Delighters to ensure a mix of stability and excitement in every release.
-- **Distractor 3:** Follow the founders' priorities, as they have the ultimate vision for the product and the strategic direction of the company.
+- <strong>Correct:</strong> Prioritize the "Basic Needs" until they are stable, as their absence causes total dissatisfaction and destroys the value of any "Delighters."
+- <strong>Distractor 1:</strong> Prioritize the "Delighters" to ensure the product has a unique selling proposition (USP) in a crowded market.
+- <strong>Distractor 2:</strong> Balance the backlog evenly between Basic Needs and Delighters to ensure a mix of stability and excitement in every release.
+- <strong>Distractor 3:</strong> Follow the founders' priorities, as they have the ultimate vision for the product and the strategic direction of the company.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -961,18 +961,18 @@ How should the project manager facilitate the prioritization of work based on va
 
 ### Question 33
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A university is implementing a new student information system. The project is planned to take three years. After one year, the "Admissions" module is complete and ready to use, but the "Graduation" and "Financial Aid" modules will take another two years.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to deliver value incrementally?
 
-- **Correct:** Implement a "Soft Launch" for the Admissions module for the upcoming intake cycle to realize early benefits and gather user feedback.
-- **Distractor 1:** Keep the Admissions module in a test environment until the entire system is finished to avoid having students use two different systems.
-- **Distractor 2:** Focus the team's resources on accelerating the Financial Aid module, as it is the most complex part of the remaining project.
-- **Distractor 3:** Update the project schedule to show that 33% of the total project value has been delivered, even though the module is not yet in use.
+- <strong>Correct:</strong> Implement a "Soft Launch" for the Admissions module for the upcoming intake cycle to realize early benefits and gather user feedback.
+- <strong>Distractor 1:</strong> Keep the Admissions module in a test environment until the entire system is finished to avoid having students use two different systems.
+- <strong>Distractor 2:</strong> Focus the team's resources on accelerating the Financial Aid module, as it is the most complex part of the remaining project.
+- <strong>Distractor 3:</strong> Update the project schedule to show that 33% of the total project value has been delivered, even though the module is not yet in use.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -990,18 +990,18 @@ What should the project manager do to deliver value incrementally?
 
 ### Question 34
 
-**Enabler:** 5 | **Methodology:** Agile
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is using "User Adoption" as a leading indicator for the benefit of "Increased Revenue." After two releases, the data shows that only 10% of users are trying the new features.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager use this measurement system to track benefits?
 
-- **Correct:** Facilitate a retrospective with the product owner to investigate why adoption is low and decide if the product needs a "Pivot" in its feature set or a better user onboarding process.
-- **Distractor 1:** Report to the stakeholders that the project is on track because the features were delivered according to the sprint plan and with high quality.
-- **Distractor 2:** Instruct the marketing team to increase the advertising budget to force more users to try the new features.
-- **Distractor 3:** Tell the team to double their velocity in the next sprint to deliver *more* features, hoping that some of them will be more popular.
+- <strong>Correct:</strong> Facilitate a retrospective with the product owner to investigate why adoption is low and decide if the product needs a "Pivot" in its feature set or a better user onboarding process.
+- <strong>Distractor 1:</strong> Report to the stakeholders that the project is on track because the features were delivered according to the sprint plan and with high quality.
+- <strong>Distractor 2:</strong> Instruct the marketing team to increase the advertising budget to force more users to try the new features.
+- <strong>Distractor 3:</strong> Tell the team to double their velocity in the next sprint to deliver *more* features, hoping that some of them will be more popular.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1019,18 +1019,18 @@ How should the project manager use this measurement system to track benefits?
 
 ### Question 35
 
-**Enabler:** 1 | **Methodology:** Predictive
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is working on a project to consolidate five different regional call centers into one central hub. The primary value component is "Cost Reduction" through economies of scale. However, the local managers fear that customer service quality will drop.
 
-**Question:**
+<strong>Question:</strong>
 What action should the project manager take to identify value components with these stakeholders?
 
-- **Correct:** Include "Customer Service Quality" as a secondary value component and define a metric (such as First Call Resolution) to ensure it is protected during the consolidation.
-- **Distractor 1:** Focus exclusively on the "Cost Reduction" goal, as this was the primary reason the project was authorized by the executive sponsor.
-- **Distractor 2:** Ignore the local managers' concerns, as they are likely just resisting change and protecting their own regional interests.
-- **Distractor 3:** Recommend that the project be cancelled if both cost reduction and quality cannot be guaranteed simultaneously.
+- <strong>Correct:</strong> Include "Customer Service Quality" as a secondary value component and define a metric (such as First Call Resolution) to ensure it is protected during the consolidation.
+- <strong>Distractor 1:</strong> Focus exclusively on the "Cost Reduction" goal, as this was the primary reason the project was authorized by the executive sponsor.
+- <strong>Distractor 2:</strong> Ignore the local managers' concerns, as they are likely just resisting change and protecting their own regional interests.
+- <strong>Distractor 3:</strong> Recommend that the project be cancelled if both cost reduction and quality cannot be guaranteed simultaneously.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1048,18 +1048,18 @@ What action should the project manager take to identify value components with th
 
 ### Question 36
 
-**Enabler:** 6 | **Methodology:** Agile
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is building an e-commerce platform. They have two options for the payment gateway: Building a custom one (takes 4 sprints) or integrating a third-party one (takes 1 sprint). The third-party gateway charges a 2% transaction fee.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager evaluate these delivery options to demonstrate value?
 
-- **Correct:** Calculate the "Breakeven Point" where the transaction fees for the third-party gateway exceed the development cost of the custom one, considering the value of launching 3 sprints earlier.
-- **Distractor 1:** Recommend the custom gateway because it has no transaction fees and will therefore be more profitable for the company in the long run.
-- **Distractor 2:** Choose the third-party gateway because it is faster to implement and agile favors "simplicity" and "speed to market."
-- **Distractor 3:** Ask the developers which option they prefer, as they are the ones who will have to build and maintain the gateway.
+- <strong>Correct:</strong> Calculate the "Breakeven Point" where the transaction fees for the third-party gateway exceed the development cost of the custom one, considering the value of launching 3 sprints earlier.
+- <strong>Distractor 1:</strong> Recommend the custom gateway because it has no transaction fees and will therefore be more profitable for the company in the long run.
+- <strong>Distractor 2:</strong> Choose the third-party gateway because it is faster to implement and agile favors "simplicity" and "speed to market."
+- <strong>Distractor 3:</strong> Ask the developers which option they prefer, as they are the ones who will have to build and maintain the gateway.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1077,18 +1077,18 @@ How should the project manager evaluate these delivery options to demonstrate va
 
 ### Question 37
 
-**Enabler:** 3 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a project to implement an AI-based fraud detection system for a bank. The predictive plan involves a 6-month data integration phase. The agile plan involves developing the fraud detection algorithms in 2-week iterations.
 
-**Question:**
+<strong>Question:</strong>
 What is the best way for the project manager to deliver value incrementally?
 
-- **Correct:** Use a subset of historical data to develop and test the first version of the algorithm, providing the bank with early insights into existing fraud patterns.
-- **Distractor 1:** Wait until the 6-month data integration phase is 100% complete before starting any work on the fraud detection algorithms.
-- **Distractor 2:** Release the data integration tools to the bank's IT department as soon as they are finished, even though they don't detect any fraud yet.
-- **Distractor 3:** Ask the bank to manually flag fraudulent transactions for 6 months while the automated system is being built.
+- <strong>Correct:</strong> Use a subset of historical data to develop and test the first version of the algorithm, providing the bank with early insights into existing fraud patterns.
+- <strong>Distractor 1:</strong> Wait until the 6-month data integration phase is 100% complete before starting any work on the fraud detection algorithms.
+- <strong>Distractor 2:</strong> Release the data integration tools to the bank's IT department as soon as they are finished, even though they don't detect any fraud yet.
+- <strong>Distractor 3:</strong> Ask the bank to manually flag fraudulent transactions for 6 months while the automated system is being built.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1106,18 +1106,18 @@ What is the best way for the project manager to deliver value incrementally?
 
 ### Question 38
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project's original goal was to reduce employee turnover by 20%. Mid-way through, the company undergoes a merger, and the new leadership's priority is "Rapid Upskilling" of the combined workforce. The project budget is now limited.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager prioritize work based on value?
 
-- **Correct:** Facilitate a meeting with the new leadership to realign the project's scope with the "Upskilling" goal, and reprioritize activities that support both retention and training.
-- **Distractor 1:** Continue with the original plan to reduce turnover, as the project charter was already signed and the budget was already allocated for that purpose.
-- **Distractor 2:** Cancel the project and return the remaining budget to the finance department, as the original business case is no longer the top priority.
-- **Distractor 3:** Try to do both "Retention" and "Upskilling" by asking the project team to work longer hours to cover the new requirements.
+- <strong>Correct:</strong> Facilitate a meeting with the new leadership to realign the project's scope with the "Upskilling" goal, and reprioritize activities that support both retention and training.
+- <strong>Distractor 1:</strong> Continue with the original plan to reduce turnover, as the project charter was already signed and the budget was already allocated for that purpose.
+- <strong>Distractor 2:</strong> Cancel the project and return the remaining budget to the finance department, as the original business case is no longer the top priority.
+- <strong>Distractor 3:</strong> Try to do both "Retention" and "Upskilling" by asking the project team to work longer hours to cover the new requirements.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1135,18 +1135,18 @@ How should the project manager prioritize work based on value?
 
 ### Question 39
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is building a new AI-driven recommendation engine. They have delivered a version that increases click-through rates (CTR) by 5%. The business case targeted a 10% increase. The team has two sprints left in the project budget.
 
-**Question:**
+<strong>Question:</strong>
 What is the most important action for the project manager to take?
 
-- **Correct:** Analyze the current 5% increase to identify if the engine is performing well for some segments but poorly for others, then focus the final sprints on the high-potential areas.
-- **Distractor 1:** Declare the project a partial success and ask for a budget extension to continue working until the 10% target is reached.
-- **Distractor 2:** Blame the 5% shortfall on the data scientists and ask them to work harder in the final two sprints to hit the original goal.
-- **Distractor 3:** Tell the team to ignore the metrics for the final two sprints and focus on completing any remaining administrative and documentation tasks.
+- <strong>Correct:</strong> Analyze the current 5% increase to identify if the engine is performing well for some segments but poorly for others, then focus the final sprints on the high-potential areas.
+- <strong>Distractor 1:</strong> Declare the project a partial success and ask for a budget extension to continue working until the 10% target is reached.
+- <strong>Distractor 2:</strong> Blame the 5% shortfall on the data scientists and ask them to work harder in the final two sprints to hit the original goal.
+- <strong>Distractor 3:</strong> Tell the team to ignore the metrics for the final two sprints and focus on completing any remaining administrative and documentation tasks.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1164,18 +1164,18 @@ What is the most important action for the project manager to take?
 
 ### Question 40
 
-**Enabler:** 5 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a project to implement a new telehealth platform. The "Benefit" is "Reduced Patient Wait Times." The "Output" is the platform itself. The "Outcome" is doctors and patients using the platform for appointments.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager verify to ensure a measurement system is in place to track benefits?
 
-- **Correct:** Verify that the platform's database captures the time from "Appointment Request" to "Appointment Start" and that this data is reported to the Benefits Owner weekly.
-- **Distractor 1:** Verify that the platform has a high "Uptime" percentage and that all technical bugs are fixed within 24 hours.
-- **Distractor 2:** Verify that the doctors have been trained on how to use the software and that they have signed their new employment contracts.
-- **Distractor 3:** Verify that the project budget has been tracked accurately and that there is a positive cost variance (CV) at the end of the project.
+- <strong>Correct:</strong> Verify that the platform's database captures the time from "Appointment Request" to "Appointment Start" and that this data is reported to the Benefits Owner weekly.
+- <strong>Distractor 1:</strong> Verify that the platform has a high "Uptime" percentage and that all technical bugs are fixed within 24 hours.
+- <strong>Distractor 2:</strong> Verify that the doctors have been trained on how to use the software and that they have signed their new employment contracts.
+- <strong>Distractor 3:</strong> Verify that the project budget has been tracked accurately and that there is a positive cost variance (CV) at the end of the project.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1193,18 +1193,18 @@ What should the project manager verify to ensure a measurement system is in plac
 
 ### Question 41
 
-**Enabler:** 2 | **Methodology:** Agile
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 A company is developing a new mobile app and has two major feature sets remaining. Feature Set A is a "Sustainability Tracker" that aligns with the company's new ESG goals but has low expected revenue. Feature Set B is a "Gamified Shopping" experience that has high expected revenue but no ESG impact. The company's recent annual report emphasized a shift toward "Ethical Growth."
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager prioritize the work based on value?
 
-- **Correct:** Prioritize Feature Set A, as "Value" in 2026 includes strategic alignment with ESG goals, which the organization has publicly committed to.
-- **Distractor 1:** Prioritize Feature Set B, as financial revenue is the most objective and easily measured form of value and should always take precedence.
-- **Distractor 2:** Split the team and work on both feature sets simultaneously, even if it means delivering both later and with lower quality.
-- **Distractor 3:** Ask the marketing department to choose, as they are responsible for the company's public image and the success of the mobile app.
+- <strong>Correct:</strong> Prioritize Feature Set A, as "Value" in 2026 includes strategic alignment with ESG goals, which the organization has publicly committed to.
+- <strong>Distractor 1:</strong> Prioritize Feature Set B, as financial revenue is the most objective and easily measured form of value and should always take precedence.
+- <strong>Distractor 2:</strong> Split the team and work on both feature sets simultaneously, even if it means delivering both later and with lower quality.
+- <strong>Distractor 3:</strong> Ask the marketing department to choose, as they are responsible for the company's public image and the success of the mobile app.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1222,18 +1222,18 @@ How should the project manager prioritize the work based on value?
 
 ### Question 42
 
-**Enabler:** 6 | **Methodology:** Predictive
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is evaluating two delivery options for a new factory wing. Option A uses traditional construction methods and will cost $2 million and take 12 months. Option B uses modular, pre-fabricated units and will cost $2.5 million and take 6 months. The factory earns $100,000 in profit for every month it is operational.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager evaluate these delivery options to demonstrate value?
 
-- **Correct:** Recommend Option B, because the 6 months of early operation will generate $600,000 in profit, which more than offsets the $500,000 higher construction cost.
-- **Distractor 1:** Recommend Option A because it has a lower initial capital expenditure (CapEx), which will make the project's financial metrics look better during the construction phase.
-- **Distractor 2:** Recommend Option A because traditional construction is more "Tried and Tested" and therefore has a lower technical risk than modular units.
-- **Distractor 3:** Recommend Option B because it has a shorter schedule duration, and completing projects quickly is always the primary goal of a project manager.
+- <strong>Correct:</strong> Recommend Option B, because the 6 months of early operation will generate $600,000 in profit, which more than offsets the $500,000 higher construction cost.
+- <strong>Distractor 1:</strong> Recommend Option A because it has a lower initial capital expenditure (CapEx), which will make the project's financial metrics look better during the construction phase.
+- <strong>Distractor 2:</strong> Recommend Option A because traditional construction is more "Tried and Tested" and therefore has a lower technical risk than modular units.
+- <strong>Distractor 3:</strong> Recommend Option B because it has a shorter schedule duration, and completing projects quickly is always the primary goal of a project manager.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1251,18 +1251,18 @@ How should the project manager evaluate these delivery options to demonstrate va
 
 ### Question 43
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is building a new AI-powered anomaly detection system for a financial firm. They have developed a basic model that can detect 60% of known fraud patterns. The firm's current manual process detects only 40%. The "Final" version of the AI model is expected to detect 95% but will take another 6 months to develop.
 
-**Question:**
+<strong>Question:</strong>
 What should the project manager do to deliver value incrementally?
 
-- **Correct:** Release the 60% model as an "Assistant" for the manual fraud team immediately, providing a 20% improvement in detection while the 95% model is being built.
-- **Distractor 1:** Wait until the 95% model is fully developed and tested to ensure the firm's reputation isn't damaged by a "partially effective" AI system.
-- **Distractor 2:** Halt the project and declare success, as the 60% model already exceeds the manual process and the final 35% improvement is likely to be too expensive.
-- **Distractor 3:** Ask the team to work double-time to deliver the 95% model in 3 months instead of 6 to bridge the gap between early value and final goals.
+- <strong>Correct:</strong> Release the 60% model as an "Assistant" for the manual fraud team immediately, providing a 20% improvement in detection while the 95% model is being built.
+- <strong>Distractor 1:</strong> Wait until the 95% model is fully developed and tested to ensure the firm's reputation isn't damaged by a "partially effective" AI system.
+- <strong>Distractor 2:</strong> Halt the project and declare success, as the 60% model already exceeds the manual process and the final 35% improvement is likely to be too expensive.
+- <strong>Distractor 3:</strong> Ask the team to work double-time to deliver the 95% model in 3 months instead of 6 to bridge the gap between early value and final goals.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1280,18 +1280,18 @@ What should the project manager do to deliver value incrementally?
 
 ### Question 44
 
-**Enabler:** 4 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is leading a project to implement a new "Green" energy system for a corporate campus. The project is 50% complete. A new government subsidy has just been announced that triples the financial value of solar power but reduces the subsidy for wind power. The current plan is an equal mix of both.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager examine the business value throughout the project?
 
-- **Correct:** Facilitate a "Scenario Analysis" with the project sponsor to determine if shifting the remaining budget toward solar would maximize the total net benefit under the new subsidy rules.
-- **Distractor 1:** Stick to the original 50/50 mix to avoid the cost and complexity of changing the project's engineering design and procurement plan.
-- **Distractor 2:** Stop all work on the wind power components immediately and use all remaining funds for solar, as the subsidy change has made wind power obsolete.
-- **Distractor 3:** Ignore the government subsidy for now and finish the project as planned, then apply for whatever subsidies are available at the time of completion.
+- <strong>Correct:</strong> Facilitate a "Scenario Analysis" with the project sponsor to determine if shifting the remaining budget toward solar would maximize the total net benefit under the new subsidy rules.
+- <strong>Distractor 1:</strong> Stick to the original 50/50 mix to avoid the cost and complexity of changing the project's engineering design and procurement plan.
+- <strong>Distractor 2:</strong> Stop all work on the wind power components immediately and use all remaining funds for solar, as the subsidy change has made wind power obsolete.
+- <strong>Distractor 3:</strong> Ignore the government subsidy for now and finish the project as planned, then apply for whatever subsidies are available at the time of completion.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1309,18 +1309,18 @@ How should the project manager examine the business value throughout the project
 
 ### Question 45
 
-**Enabler:** 5 | **Methodology:** Predictive
+<strong>Enabler:</strong> 5 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project manager is closing a project that aimed to reduce employee healthcare costs by 10%. The final report shows that the project was on time and 5% under budget. However, there is no data yet on the actual healthcare cost savings, as those will only be seen in the following year's insurance premiums.
 
-**Question:**
+<strong>Question:</strong>
 Which action is most important to verify a measurement system is in place to track benefits?
 
-- **Correct:** Hand over a "Benefits Sustainment Plan" to the HR Director that specifies exactly how and when the healthcare cost savings will be calculated and reported.
-- **Distractor 1:** Report the project as a total success to the stakeholders because it was delivered under budget and on time.
-- **Distractor 2:** Request that the project remain "Open" for another 12 months so the project manager can personally track the healthcare costs and report the final result.
-- **Distractor 3:** Include the 5% budget savings as the primary project benefit in the final report to ensure the project looks successful to the finance department.
+- <strong>Correct:</strong> Hand over a "Benefits Sustainment Plan" to the HR Director that specifies exactly how and when the healthcare cost savings will be calculated and reported.
+- <strong>Distractor 1:</strong> Report the project as a total success to the stakeholders because it was delivered under budget and on time.
+- <strong>Distractor 2:</strong> Request that the project remain "Open" for another 12 months so the project manager can personally track the healthcare costs and report the final result.
+- <strong>Distractor 3:</strong> Include the 5% budget savings as the primary project benefit in the final report to ensure the project looks successful to the finance department.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1338,18 +1338,18 @@ Which action is most important to verify a measurement system is in place to tra
 
 ### Question 46
 
-**Enabler:** 1 | **Methodology:** Agile
+<strong>Enabler:</strong> 1 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is working on a feature that would automate a complex manual report. The business stakeholders say the value is "Time Savings." The developers say the value is "Data Accuracy." The project manager needs to define the value components clearly.
 
-**Question:**
+<strong>Question:</strong>
 Which action should the project manager take?
 
-- **Correct:** Define both "Time Savings" (Operational Efficiency) and "Data Accuracy" (Risk Reduction) as value components and establish metrics for each to capture the full impact.
-- **Distractor 1:** Force the stakeholders and developers to agree on a single primary value component to simplify the project's success criteria.
-- **Distractor 2:** Choose "Time Savings" as the primary value component because it is easier to quantify in dollars and cents for the business case.
-- **Distractor 3:** Choose "Data Accuracy" because it is a more "Noble" goal and will be more motivating for the development team.
+- <strong>Correct:</strong> Define both "Time Savings" (Operational Efficiency) and "Data Accuracy" (Risk Reduction) as value components and establish metrics for each to capture the full impact.
+- <strong>Distractor 1:</strong> Force the stakeholders and developers to agree on a single primary value component to simplify the project's success criteria.
+- <strong>Distractor 2:</strong> Choose "Time Savings" as the primary value component because it is easier to quantify in dollars and cents for the business case.
+- <strong>Distractor 3:</strong> Choose "Data Accuracy" because it is a more "Noble" goal and will be more motivating for the development team.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1367,18 +1367,18 @@ Which action should the project manager take?
 
 ### Question 47
 
-**Enabler:** 6 | **Methodology:** Hybrid
+<strong>Enabler:</strong> 6 | <strong>Methodology:</strong> Hybrid
 
-**Scenario:**
+<strong>Scenario:</strong>
 A company is developing a new AI-powered customer service bot. Option 1 is to build it using a "Black Box" proprietary AI that is ready today but costs $1,000 per month. Option 2 is to build it using an open-source AI that takes 3 months to train but has no monthly cost. The bot is expected to save the company $2,000 per month in staffing costs.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager evaluate these delivery options to demonstrate value?
 
-- **Correct:** Recommend Option 1, because it starts saving $1,000 net per month ($2,000 savings - $1,000 cost) immediately, whereas Option 2 saves $0 during the 3-month training period.
-- **Distractor 1:** Recommend Option 2 because it has no recurring monthly costs and will therefore be more "Sustainable" for the company in the long term.
-- **Distractor 2:** Recommend Option 2 because using open-source technology builds internal "Intellectual Property" and reduces vendor dependency.
-- **Distractor 3:** Recommend Option 1 only if the "Black Box" AI can be purchased for a one-time fee rather than a recurring monthly subscription.
+- <strong>Correct:</strong> Recommend Option 1, because it starts saving $1,000 net per month ($2,000 savings - $1,000 cost) immediately, whereas Option 2 saves $0 during the 3-month training period.
+- <strong>Distractor 1:</strong> Recommend Option 2 because it has no recurring monthly costs and will therefore be more "Sustainable" for the company in the long term.
+- <strong>Distractor 2:</strong> Recommend Option 2 because using open-source technology builds internal "Intellectual Property" and reduces vendor dependency.
+- <strong>Distractor 3:</strong> Recommend Option 1 only if the "Black Box" AI can be purchased for a one-time fee rather than a recurring monthly subscription.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1396,18 +1396,18 @@ How should the project manager evaluate these delivery options to demonstrate va
 
 ### Question 48
 
-**Enabler:** 3 | **Methodology:** Agile
+<strong>Enabler:</strong> 3 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team is building a new feature-rich e-commerce site. The "Search" functionality is very complex and will take 4 sprints. The "Shopping Cart" is simple and will take 1 sprint. The current site has no way for customers to find products except by scrolling.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager assess opportunities to deliver value incrementally?
 
-- **Correct:** Prioritize a "Simple Search" (keyword only) in Sprint 1 to give users immediate utility, followed by "Advanced Search" (filters, sorting) in the following sprints.
-- **Distractor 1:** Prioritize the "Shopping Cart" in Sprint 1 because it is the easiest to finish and will show "Progress" to the stakeholders.
-- **Distractor 2:** Work on the "Search" functionality for 4 sprints until it is 100% complete, as a partial search feature would be frustrating for users.
-- **Distractor 3:** Combine Search and Shopping Cart into a single large story and work on them both until they are ready to be released together in Sprint 5.
+- <strong>Correct:</strong> Prioritize a "Simple Search" (keyword only) in Sprint 1 to give users immediate utility, followed by "Advanced Search" (filters, sorting) in the following sprints.
+- <strong>Distractor 1:</strong> Prioritize the "Shopping Cart" in Sprint 1 because it is the easiest to finish and will show "Progress" to the stakeholders.
+- <strong>Distractor 2:</strong> Work on the "Search" functionality for 4 sprints until it is 100% complete, as a partial search feature would be frustrating for users.
+- <strong>Distractor 3:</strong> Combine Search and Shopping Cart into a single large story and work on them both until they are ready to be released together in Sprint 5.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1425,18 +1425,18 @@ How should the project manager assess opportunities to deliver value incremental
 
 ### Question 49
 
-**Enabler:** 2 | **Methodology:** Predictive
+<strong>Enabler:</strong> 2 | <strong>Methodology:</strong> Predictive
 
-**Scenario:**
+<strong>Scenario:</strong>
 A project's goal is to implement a new "Safety Management System" to reduce workplace accidents. The financial ROI is slightly negative, but the "Social" value in terms of employee well-being is very high. The company is facing a budget cut and is looking for projects to cancel.
 
-**Question:**
+<strong>Question:</strong>
 How should the project manager prioritize this work based on value?
 
-- **Correct:** Defend the project by highlighting the "Intangible" and "Social" value, as well as the potential for cost avoidance (e.g., lower insurance premiums and legal fees) that weren't in the original ROI.
-- **Distractor 1:** Agree to cancel the project because a negative ROI means the project is "Destroying Value" according to traditional financial metrics.
-- **Distractor 2:** Try to make the project "Profitable" by reducing the quality of the safety training or using cheaper, less effective safety equipment.
-- **Distractor 3:** Ask the employees to take a temporary pay cut to fund the safety project, showing that they also "Value" their own safety.
+- <strong>Correct:</strong> Defend the project by highlighting the "Intangible" and "Social" value, as well as the potential for cost avoidance (e.g., lower insurance premiums and legal fees) that weren't in the original ROI.
+- <strong>Distractor 1:</strong> Agree to cancel the project because a negative ROI means the project is "Destroying Value" according to traditional financial metrics.
+- <strong>Distractor 2:</strong> Try to make the project "Profitable" by reducing the quality of the safety training or using cheaper, less effective safety equipment.
+- <strong>Distractor 3:</strong> Ask the employees to take a temporary pay cut to fund the safety project, showing that they also "Value" their own safety.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1454,18 +1454,18 @@ How should the project manager prioritize this work based on value?
 
 ### Question 50
 
-**Enabler:** 4 | **Methodology:** Agile
+<strong>Enabler:</strong> 4 | <strong>Methodology:</strong> Agile
 
-**Scenario:**
+<strong>Scenario:</strong>
 An agile team has delivered a "Minimum Viable Product" (MVP) to a small group of beta testers. The feedback is that the product is "Interesting but too difficult to use." The project budget is 75% spent.
 
-**Question:**
+<strong>Question:</strong>
 What is the most important action for the project manager to take to examine the business value?
 
-- **Correct:** Facilitate a "Pivot or Persevere" decision meeting with the sponsor, presenting the beta feedback and the cost to "Pivot" the user interface to improve adoption.
-- **Distractor 1:** Instruct the team to finish the remaining features in the backlog to ensure the product is "Complete" before making any changes to the user interface.
-- **Distractor 2:** Blame the "Beta Testers" for being too critical and find a new group of testers who are more likely to appreciate the product's innovation.
-- **Distractor 3:** Close the project immediately to save the remaining 25% of the budget, as the MVP has proven that the product is a "Failure" in the market.
+- <strong>Correct:</strong> Facilitate a "Pivot or Persevere" decision meeting with the sponsor, presenting the beta feedback and the cost to "Pivot" the user interface to improve adoption.
+- <strong>Distractor 1:</strong> Instruct the team to finish the remaining features in the backlog to ensure the product is "Complete" before making any changes to the user interface.
+- <strong>Distractor 2:</strong> Blame the "Beta Testers" for being too critical and find a new group of testers who are more likely to appreciate the product's innovation.
+- <strong>Distractor 3:</strong> Close the project immediately to save the remaining 25% of the budget, as the MVP has proven that the product is a "Failure" in the market.
 
 <details>
 <summary>Detailed Remediation</summary>
@@ -1537,9 +1537,9 @@ What is the most important action for the project manager to take to examine the
 | 50 | 4 | Agile | Pivot or Persevere (MVP Learning) |
 
 ## Database Stats
-- **Correct Answer Length Average:** 24 words
-- **Distractor Length Average:** 23 words
-- **Methodology Split:**
+- <strong>Correct Answer Length Average:</strong> 24 words
+- <strong>Distractor Length Average:</strong> 23 words
+- <strong>Methodology Split:</strong>
   - Agile: 36% (18 questions)
   - Predictive: 38% (19 questions)
   - Hybrid: 26% (13 questions)
@@ -1547,8 +1547,8 @@ What is the most important action for the project manager to take to examine the
 ## Key Takeaways: Value Delivery Pro-Tips
 
 1.  **Output vs. Benefit:** Never stop at "Output" (we built it). Always ask about the "Benefit" (did it save money/time/lives?). On the exam, a project that meets scope but misses value is a failure.
-2.  **Sunk Costs are Irrelevant:** In every scenario, ignore money already spent. Only compare **future cost** to **future value**. "We've spent too much to stop" is always the wrong answer.
-3.  **Adoption is the Bridge:** Value is only realized when users *adopt* the product. If adoption is low, use change management (ADKAR) or post-implementation reviews to find the barrier.
+2.  <strong>Sunk Costs are Irrelevant:</strong> In every scenario, ignore money already spent. Only compare **future cost** to **future value**. "We've spent too much to stop" is always the wrong answer.
+3.  <strong>Adoption is the Bridge:</strong> Value is only realized when users *adopt* the product. If adoption is low, use change management (ADKAR) or post-implementation reviews to find the barrier.
 4.  **Verification vs. Validation:** Verification is building it "right" (specs). Validation is building the "right thing" (customer needs). Stakeholders care about validation.
-5.  **Leading Indicators are Early Warning:** Don't wait for "Increased Revenue" (lagging). Track "User Logins" or "Training Completion" (leading) to predict if value will ever happen.
+5.  <strong>Leading Indicators are Early Warning:</strong> Don't wait for "Increased Revenue" (lagging). Track "User Logins" or "Training Completion" (leading) to predict if value will ever happen.
 6.  **Economic Trade-offs:** Always consider the "Cost of Delay." Sometimes a more expensive option that launches 3 months earlier is the better "Value" delivery path.
