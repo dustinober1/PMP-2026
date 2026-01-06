@@ -123,15 +123,4 @@ From assembling the squad to navigating high-stakes conflict.
 
 ### Quick Review: Core Concepts
 
-<FlashcardCarousel :cards="[
-  { front: `What are Tuckman's stages of team development?`, back: `Forming (establishing), Storming (conflict), Norming (cohesion), Performing (productivity).` },
-  { front: `What is Servant Leadership?`, back: `A style where the PM enables team success, removes obstacles, and supports growth.` },
-  { front: `What is the difference between coaching and mentoring?`, back: `Coaching: improving current performance. Mentoring: long-term development and career guidance.` },
-  { front: `How should a PM handle team conflict?`, back: `Address promptly, listen to perspectives, find common ground, and focus on project objectives.` },
-  { front: `What motivates high-performing teams?`, back: `Clear goals, autonomy, recognition, growth opportunities, and alignment with meaningful work.` },
-  { front: `What is virtual team management?`, back: `Enabling distributed teams through over-communication, collaboration tools, and relationship building.` },
-  { front: `What should a PM do in the Forming stage?`, back: `Clarify roles, establish ground rules, build psychological safety, and create team identity.` },
-  { front: `What should a PM do in the Storming stage?`, back: `Address conflicts directly, clarify expectations, coach individuals, and maintain focus on goals.` },
-  { front: `What should a PM do in the Performing stage?`, back: `Enable autonomy, focus on continuous improvement, handle exceptions, and develop future leaders.` },
-  { front: `How does a PM build psychological safety on a team?`, back: `Create an environment where team members feel safe to take risks, admit mistakes, and ask questions without fear.` }
-]" />
+Review the key leadership and team development concepts using the summary sections and concept cards above.

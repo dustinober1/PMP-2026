@@ -302,15 +302,4 @@ When these conditions are true, set an exam date within the next 4–6 weeks.
 
 ## 1.2.8 Quick Review
 
-<FlashcardCarousel :cards="[
-  { front: `What study path should a Predictive veteran take?`, back: `Focus on Agile practices, stakeholder engagement, and Business Environment (26% of exam).` },
-  { front: `What study path should an Agile native take?`, back: `Master Predictive planning, cost accounting, and earned value management.` },
-  { front: `What study path should a Hybrid practitioner take?`, back: `Deepen understanding of both approaches and when to tailor the delivery model.` },
-  { front: `How are the chapters organized in this guide?`, back: `11 chapters covering Intro, Strategy, Leadership, Stakeholders, Initiation, Planning, Risk/Quality, Execution, Monitoring, AI, and Exam Prep.` },
-  { front: `Should I use the flashcards for study?`, back: `Yes - use daily for spaced repetition to reinforce exam-relevant definitions and concepts.` },
-  { front: `What is the recommended study timeline?`, back: `6-8 weeks of dedicated study with daily flashcard review and weekly practice exams.` },
-  { front: `What resources does this guide provide?`, back: `Concept explanations, flashcards, knowledge checks, toolkits, formulas, and practice exams.` },
-  { front: `Can I skip the appendices?`, back: `No - appendices contain the ECO Task Map, formulas, and tools frequently tested on the exam.` },
-  { front: `What is the fast-track study plan?`, back: `4-6 weeks for candidates with strong experience who can dedicate 10-15 hours per week.` },
-  { front: `What is the standard study plan?`, back: `8-12 weeks for working professionals balancing projects and other commitments with 6-10 hours per week.` }
-]" />
+To reinforce your understanding of the study paths and guide organization, refer back to the summary tables and study path recommendations throughout this section.

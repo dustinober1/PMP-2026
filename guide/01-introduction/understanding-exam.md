@@ -260,17 +260,5 @@ PMI has expanded the window for qualifying experience:
 ---
 
 ## Quick Review
-Flip the cards to test your memory of the key exam stats!
 
-<FlashcardCarousel :cards="[
-  { front: `What are the domains in the 2026 exam?`, back: `People (33%), Process (41%), Business Environment (26%).` },
-  { front: `How many total questions appear on the PMP exam?`, back: `185 questions with a 4-hour time limit.` },
-  { front: `What percentage of the exam focuses on People domain?`, back: `33% - covering leadership, team dynamics, stakeholder engagement.` },
-  { front: `What percentage of the exam focuses on Process domain?`, back: `41% - covering execution, planning, monitoring, and closing.` },
-  { front: `What percentage of the exam focuses on Business Environment?`, back: `26% - covering strategy, value delivery, and organizational context.` },
-  { front: `Is the PMP exam multiple choice?`, back: `No - the exam includes multiple-choice, multiple response, matching, hotspot, and fill-in-the-blank questions.` },
-  { front: `How much time is allocated per question on the PMP exam?`, back: `Approximately 1.3 minutes per question on average (4 hours / 185 questions).` },
-  { front: `What is the passing score for the PMP exam?`, back: `Each exam varies, but typically you need to score around 70-80% correct (in the top percentile).` },
-  { front: `Are there interactive case studies on the 2026 PMP exam?`, back: `Yes - the 2026 exam introduced interactive case study formats testing scenario-based decision-making.` },
-  { front: `Can you skip questions on the PMP exam?`, back: `No - you must answer every question. You can flag uncertain questions for review at the end.` }
-]" />
+To test your memory of the key exam stats, review the summary tables and key takeaways throughout this section.

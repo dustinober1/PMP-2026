@@ -91,15 +91,4 @@ To pass, you must think like a "Perfect PMP." This means:
 }
 </style>
 
-<FlashcardCarousel :cards="[
-  { front: `What is the PMP exam format?`, back: `185 questions over 4 hours, multiple choice, spanning People (33%), Process (41%), and Business (26%) domains.` },
-  { front: `What study approach is most effective?`, back: `Daily flashcard review (spaced repetition), weekly practice exams, and weekly deep-dive into weak areas.` },
-  { front: `How long should I study?`, back: `6-8 weeks of dedicated study (1-2 hours daily) is typical for most candidates with PM background.` },
-  { front: `What is the most common reason people fail?`, back: `Insufficient practice with scenario questions and not understanding the 'why' behind answers.` },
-  { front: `Should I memorize or understand concepts?`, back: `Understand concepts deeply - the exam tests application, not memorization. Understand enough to handle new scenarios.` },
-  { front: `How should I manage my time on the exam?`, back: `1.3 minutes per question - read carefully, flag uncertain questions, review at end if time permits.` },
-  { front: `What if I encounter an unfamiliar concept on the exam?`, back: `Eliminate obviously wrong answers, use context clues, trust your knowledge, and move on - don't get stuck.` },
-  { front: `When should I register for the exam?`, back: `After 1-2 weeks of study to stay motivated - gives target deadline and enables scheduling.` },
-  { front: `What should I do the day before the exam?`, back: `Review formulas and key definitions lightly, get good sleep, avoid cramming, and prepare logistics (location, ID, materials).` },
-  { front: `How do I prepare mentally for exam day?`, back: `Visualize success, remember you've done similar practice, focus on one question at a time, and trust your preparation.` }
-]" />
+Review the key exam preparation concepts using the strategy sections and practice exams above.

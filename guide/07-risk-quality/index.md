@@ -83,15 +83,4 @@ import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarous
 
 ## Quick Review
 
-<FlashcardCarousel :cards="[
-  { front: `What is the risk management process?`, back: `Identify > Analyze > Plan Response > Monitor & Control. Integrated throughout project, not a one-time activity.` },
-  { front: `What is the difference between probability and impact?`, back: `Probability: likelihood of occurrence (0-100%). Impact: consequence if it occurs (quantified in cost/time or scale).` },
-  { front: `What is quality in project management?`, back: `The degree to which deliverables fulfill requirements and stakeholder expectations.` },
-  { front: `What are the three dimensions of quality management?`, back: `Quality Planning (defining standards), Quality Assurance (ensuring process quality), Quality Control (inspecting product).` },
-  { front: `What is the purpose of a Risk Register?`, back: `A living document listing all identified risks, probability, impact, responses, owners, and monitoring status.` },
-  { front: `How does complexity impact risk management?`, back: `High complexity projects have more unknowns, emergent risks, and interdependencies - require more frequent re-planning.` },
-  { front: `How do quality and cost relate?`, back: `Investing upfront in quality reduces rework costs. Ignoring quality leads to expensive rework and customer dissatisfaction.` },
-  { front: `What is Quality Assurance vs. Quality Control?`, back: `QA: process-focused, preventing defects (audits, best practices). QC: product-focused, detecting defects (testing).` },
-  { front: `What is a risk trigger?`, back: `An early warning sign indicating a risk is likely to occur soon (e.g., key team member signals intent to leave).` },
-  { front: `Why is continuous risk monitoring important?`, back: `Projects evolve - new risks emerge, old risks may be eliminated. Monitoring enables early detection and response.` }
-]" />
+Review the key risk, quality, and complexity concepts using the summary sections and concept cards above.

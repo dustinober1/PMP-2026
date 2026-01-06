@@ -144,15 +144,4 @@ import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarous
 
 ## Quick Review
 
-<FlashcardCarousel :cards="[
-  { front: `What is the purpose of project planning?`, back: `Creating detailed plans (scope, schedule, cost, risk, quality, etc.) that serve as baselines for execution and control.` },
-  { front: `What is a Work Breakdown Structure (WBS)?`, back: `A hierarchical decomposition of all project work into manageable packages, preventing missing work and enabling estimation.` },
-  { front: `What is the Project Management Plan?`, back: `An integrated document containing all subsidiary plans: scope, schedule, cost, quality, risk, HR, communication, procurement.` },
-  { front: `What is the difference between plan and baseline?`, back: `Plan: original intended approach. Baseline: approved, frozen plan used for tracking - can only change through change control.` },
-  { front: `What are the four main planning components?`, back: `Scope (WBS, what work), Schedule (sequencing, timeline), Cost (resources, budget), Quality/Risk/Resource/Communication plans.` },
-  { front: `Why is quality planning during planning phase?`, back: `Quality standards and processes must be planned upfront. Quality built in during planning is cheaper than fixed later.` },
-  { front: `How do scope and schedule planning relate?`, back: `Scope (WBS) defines all work. Schedule planning sequences and times that work, accounting for dependencies and constraints.` },
-  { front: `How does risk planning influence other planning?`, back: `Risk identification shapes resource buffers, schedule contingencies, and quality checkpoints to protect the project.` },
-  { front: `What is progressive elaboration?`, back: `Details become available incrementally - plans start high-level and are refined as more information becomes available.` },
-  { front: `Why is tailoring important in planning?`, back: `Not every project needs same planning detail. Tailor plans to project complexity, risk, and organizational standards.` }
-]" />
+Review the key planning concepts using the summary sections and concept cards above.

@@ -458,15 +458,4 @@ On the exam, execution questions often hide a simple truth: **value is threatene
 - **Manage knowledge continuously**: Update the lessons learned register during execution, not after.
 - **Adapt with intent**: Re-plan/re-prioritize when value delivery is at risk, using the right governance.
 
-<FlashcardCarousel :cards="[
-  { front: `What is project execution?`, back: `Performing the actual project work to produce deliverables according to the Project Management Plan.` },
-  { front: `What are the core execution activities?`, back: `Directing and managing project work, quality assurance, and acquiring/developing/managing project resources.` },
-  { front: `What does 'Directing and Managing Work' mean?`, back: `Performing actual work tasks, managing interfaces between teams, and documenting work completion.` },
-  { front: `What is the role of the PM during execution?`, back: `Coordinate teams, remove obstacles, manage changes, communicate status, and maintain team morale.` },
-  { front: `What is Manage Quality (QA) during execution?`, back: `Process-focused: audits, reviews, best practice coaching to ensure quality processes are followed.` },
-  { front: `What is Develop Team during execution?`, back: `Building team capability through training, mentoring, conflict resolution, and recognition.` },
-  { front: `What is Manage Communications during execution?`, back: `Providing timely information to stakeholders, collecting feedback, and updating project documentation.` },
-  { front: `How do you handle unexpected issues during execution?`, back: `Document in Issue Log, assess impact, develop response plan, execute change control if scope/schedule/cost affected.` },
-  { front: `What is the relationship between execution and planning?`, back: `Execution follows the plan, but also reveals unknowns - continuous re-planning adapts to reality.` },
-  { front: `How do you maintain project momentum?`, back: `Clear goals, regular status updates, celebrating wins, removing obstacles, and keeping team aligned and motivated.` }
-]" />
+Review the key execution concepts and frameworks using the summary sections above.

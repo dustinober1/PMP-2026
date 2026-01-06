@@ -106,15 +106,4 @@ By the end of this chapter, you will be able to:
 
 ## Quick Review
 
-<FlashcardCarousel :cards="[
-  { front: `What are the three domains of the 2026 PMP exam?`, back: `People (33%), Process (41%), and Business Environment (26%).` },
-  { front: `What major change did the 2026 exam introduce?`, back: `Increased emphasis on Business Environment (from 13% to 26%), including AI integration, sustainability, and value delivery.` },
-  { front: `What is the first PMBOK 8 principle?`, back: `Adopt a Holistic View - manage the entire system of work, not just isolated tasks.` },
-  { front: `How many questions are on the PMP exam?`, back: `185 questions total, with a 4-hour time limit, averaging 1.3 minutes per question.` },
-  { front: `What is the Proactive Leader mindset?`, back: `Anticipating challenges, enabling team autonomy, and driving value delivery through systems thinking.` },
-  { front: `Name the Big 6 core PM concepts.`, back: `Stakeholders, Triple Constraint (Scope-Time-Cost), Quality, Risk, Data & AI, and Professional Ethics.` },
-  { front: `What does tailoring mean in PM?`, back: `Selecting and adapting processes, controls, and practices to fit the specific project context and constraints.` },
-  { front: `What are the three ways of working?`, back: `Predictive (plan-driven), Agile (adaptive), and Hybrid (combination of both approaches).` },
-  { front: `What is the Value principle focus?`, back: `Delivering measurable business results and benefits alignment, not just outputs.` },
-  { front: `Why is sustainability now key to PM?`, back: `Organizations demand projects that balance economic, environmental, and social responsibility with delivery objectives.` }
-]" />
+Review the key concepts in this chapter using the summary sections and concept cards above.
