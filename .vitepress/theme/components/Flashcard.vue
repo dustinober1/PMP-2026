@@ -37,7 +37,7 @@ const toggleFlip = () => {
 .flashcard {
   background-color: transparent;
   width: 100%;
-  height: 200px;
+  height: 300px;
   perspective: 1000px;
   cursor: pointer;
 }
@@ -76,14 +76,14 @@ const toggleFlip = () => {
   background-color: var(--vp-c-bg-soft);
   color: var(--vp-c-text-1);
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .flashcard-back {
   background-color: var(--vp-c-brand-soft);
   color: var(--vp-c-text-1);
   transform: rotateY(180deg);
-  font-size: 1rem;
+  font-size: 0.95rem;
   line-height: 1.6;
 }
 
