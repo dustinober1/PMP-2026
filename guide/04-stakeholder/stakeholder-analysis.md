@@ -1,261 +1,92 @@
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # 4.1 Stakeholder Analysis
 
 **ECO Task**: Engage stakeholders
 
-"You can't manage what you haven't identified." Stakeholder analysis is the process of systematically gathering and analyzing qualitative and quantitative information to determine whose interests should be taken into account throughout the project.
-
----
-
-## The PMP Mental Model (Continuous Loop)
-Stakeholder analysis is not a one-time kickoff exercise. It is a cycle you repeat whenever the project environment shifts:
-
-1. **Identify** stakeholders (including "shadow" stakeholders with informal power).
-2. **Analyze** power, interest, influence, and attitude (supportive vs resistant).
-3. **Prioritize** where to spend time and political capital.
-4. **Plan** engagement + communications (how you build and maintain support).
-5. **Monitor & Update** as roles, risks, scope, and priorities change.
-
-### Inputs you'll see in exam scenarios
-- **Project Charter / Business Case**: Why the project exists and who sponsors value.
-- **Org structure & governance**: Who can approve, block, or accelerate decisions.
-- **Requirements / product vision**: Who defines "done" and accepts deliverables.
-- **Agreements / vendors**: External stakeholders with contract leverage.
-- **Regulatory / community constraints**: Legitimacy and urgency can outweigh formal authority.
-
-### Outputs (what you update first)
-- **Stakeholder Register**: The living ledger of stakeholder intelligence.
-- **Engagement Assessment Matrix**: Current vs desired engagement.
-- **Stakeholder Engagement Plan**: Actions to close engagement gaps.
-- **Communications Management Plan**: The "what/when/how" of information flow.
-
-::: tip  Exam Pattern
-If the scenario says **new stakeholder**, **changed attitude**, **political conflict**, or **unclear decision authority**, the best "first" action is usually to **update the Stakeholder Register** and **reanalyze** before escalating or changing the plan.
-:::
+"You can't manage what you haven't identified." Stakeholder analysis is the process of systematically gathering and analyzing information to determine whose interests should be taken into account.
 
 ---
 
 ##  Identification Techniques
+Effective stakeholder identification uses multiple techniques to ensure no one is missed.
 
-Effective stakeholder identification uses multiple techniques to ensure no one is missed:
-
-<div class="technique-grid">
-  <div class="technique-card">
-    <div class="technique-title">Brainstorming</div>
-    <p>Facilitated sessions with the team to list all potential stakeholders. Use prompts like "Who pays?", "Who uses?", "Who approves?", "Who blocks?"</p>
-  </div>
-  <div class="technique-card">
-    <div class="technique-title">Expert Judgment</div>
-    <p>Consult SMEs, past project managers, and organizational veterans who understand the political landscape.</p>
-  </div>
-  <div class="technique-card">
-    <div class="technique-title">Stakeholder Templates</div>
-    <p>Use organizational checklists (standard roles like Legal, Compliance, HR, Procurement) to ensure coverage.</p>
-  </div>
-  <div class="technique-card">
-    <div class="technique-title">Org Chart Analysis</div>
-    <p>Walk through the formal organization chart, but remember: influence doesn't always follow the lines.</p>
-  </div>
-</div>
-
-### The "Snowball" Technique (Most Effective)
-Ask every identified stakeholder: **"Who else should I be talking to about this project?"** This uncovers:
-- Shadow stakeholders with informal power
-- End-users who weren't included in planning
-- External parties (suppliers, regulators, community groups)
-- Champions and detractors you didn't know existed
+<ConceptGrid>
+  <ConceptCard title="Brainstorming">
+    Facilitated sessions with the team using prompts like "Who pays?", "Who uses?", "Who approves?", and "Who blocks?".
+  </ConceptCard>
+  <ConceptCard title="Expert Judgment">
+    Consult SMEs, past project managers, and organizational veterans who understand the political landscape.
+  </ConceptCard>
+  <ConceptCard title="RACI Review">
+    Walking through the RACI matrix to identify who is Accountable, Responsible, Consulted, or Informed.
+  </ConceptCard>
+  <ConceptCard title="Snowball Effect">
+    Ask every identified stakeholder: **"Who else should I be talking to about this project?"** to find hidden influencers.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
-##  The RACI Matrix Connection
+##  The RACI Connection
 
-Stakeholder analysis and the RACI Matrix work together. RACI defines **accountability** while stakeholder analysis defines **influence and interest**.
-
-| Role | Description | Stakeholder Implication |
-| :--- | :--- | :--- |
-| **R - Responsible** | Does the work | Team members; need detailed task communication |
-| **A - Accountable** | Owns the outcome; makes final call | Usually one person; decision authority stakeholder |
-| **C - Consulted** | Provides input before decisions | SMEs, affected parties; need interactive communication |
-| **I - Informed** | Updated after decisions | Broader stakeholder groups; need push communication |
-
-::: warning  Common RACI Mistakes on the Exam
-- More than one "A" per deliverable = unclear accountability
-- No "A" assigned = no one owns the outcome
-- Confusing "Consulted" with "Informed" = wrong communication method
-:::
-
-### RACI Example (Exam-Ready)
-
-| Deliverable | Sponsor | PM | Dev Lead | QA | Legal |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Project Charter | A | R | C | I | I |
-| Technical Design | I | C | A/R | C | I |
-| Compliance Review | I | R | C | I | A |
-| Go-Live Decision | A | R | C | C | C |
-
----
-
-##  Stakeholder Categories (Comprehensive List)
-
-Understanding stakeholder categories helps ensure complete identification:
-
-### Internal Stakeholders
-| Category | Examples | Typical Concerns |
-| :--- | :--- | :--- |
-| **Executive/Strategic** | Sponsor, C-Suite, Board | ROI, strategic alignment, portfolio fit |
-| **Functional Managers** | Department heads, resource owners | Resource availability, operational impact |
-| **Project Team** | Core team, extended team | Clarity, support, recognition |
-| **Support Functions** | HR, Finance, IT, Legal, Procurement | Compliance, policy adherence, resource capacity |
-| **PMO** | Portfolio/Program managers | Standards, governance, capacity planning |
-
-### External Stakeholders
-| Category | Examples | Typical Concerns |
-| :--- | :--- | :--- |
-| **Customers/End Users** | Direct buyers, end users, user groups | Value, usability, adoption |
-| **Suppliers/Vendors** | Contractors, outsourced services, SaaS | Contract terms, payment, scope clarity |
-| **Regulatory/Government** | Agencies, auditors, inspectors | Compliance, safety, legal requirements |
-| **Community/Public** | Local residents, advocacy groups, media | Environmental impact, public perception |
-| **Partners/Alliances** | Joint ventures, channel partners | Shared value, coordination, dependency |
-
----
-
-##  Stakeholder Analysis Framework
-
-For structured analysis, use this framework for each stakeholder:
-
-### The 5W+1H Stakeholder Analysis
-
-1. **WHO** are they? (Role, organization, formal/informal position)
-2. **WHAT** do they need? (Requirements, expectations, success criteria)
-3. **WHY** do they care? (Underlying interests, fears, motivations)
-4. **WHEN** do they need it? (Timing, milestones, decision points)
-5. **WHERE** are they? (Location, time zone, communication access)
-6. **HOW** will you engage? (Channel, frequency, format, relationship)
-
-### Stakeholder Analysis Questions (Fast Assessment)
-
-For quick stakeholder profiling, answer these questions:
-
-**Power Assessment:**
-- Can they kill or delay the project?
-- Do they control budget, resources, or approvals?
-- Does their opinion carry weight with decision-makers?
-
-**Interest Assessment:**
-- Will the project change their work, metrics, or status?
-- Do they have direct benefit or risk from the outcome?
-- Are they accountable for areas the project impacts?
-
-**Attitude Assessment:**
-- Are they advocating for or against the project?
-- What past experiences shape their view of this initiative?
-- What would shift them toward greater support?
+<ConceptGrid>
+  <ConceptCard title="Accountable">
+    **Stakeholder Implication**: Usually the Sponsor or Product Owner. Only ONE person should be Accountable per task.
+  </ConceptCard>
+  <ConceptCard title="Consulted">
+    **Stakeholder Implication**: SMEs and departments providing input. Requires **two-way** interactive communication.
+  </ConceptCard>
+  <ConceptCard title="Informed">
+    **Stakeholder Implication**: Parties needing updates but not contributing input. Best served by **one-way** push communication.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
 ## The Analysis Journey
-Identifying stakeholders is more than just a list of names; it's about understanding the hidden power dynamics of the organization.
 
-<div class="concept-grid">
-  <a href="./stakeholder-mapping" class="concept-card">
-    <div class="concept-title">4.1a Mapping</div>
-    <p>Using the Power/Interest Grid and Salience Model to prioritize engagement.</p>
-  </a>
-
-  <a href="./stakeholder-classification" class="concept-card">
-    <div class="concept-title">4.1b Classification</div>
-    <p>Maintaining the Stakeholder Register and analyzing direction of influence.</p>
-  </a>
-</div>
+<ConceptGrid>
+  <ConceptCard title="4.1a Mapping">
+    Using the Power/Interest Grid and Salience Model to prioritize engagement.
+    [Prioritize Attention →](./stakeholder-mapping)
+  </ConceptCard>
+  <ConceptCard title="4.1b Classification">
+    Maintaining the Stakeholder Register and analyzing direction of influence.
+    [Document Intelligence →](./stakeholder-classification)
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
-## 2026 Shift: Stakeholder Diversity
-In the modern project environment, stakeholders are more diverse than ever. You must consider:
+## Quick Review: Stakeholder Analysis
 
-### Digital Stakeholders
-- **AI/ML System Owners**: Responsible for automated decision systems
-- **Data Privacy Officers**: GDPR, CCPA, and data protection compliance
-- **Cybersecurity Teams**: Security requirements and risk tolerance
-- **Cloud/Infrastructure**: Platform dependencies and SLAs
+<FlashcardGrid>
+  <Flashcard 
+    front="Shadow Stakeholder" 
+    back="A person with informal power who can influence the project despite not having a formal title." 
+  />
+  <Flashcard 
+    front="Stakeholder Register" 
+    back="The primary living document used to record identification, assessment, and classification details." 
+  />
+  <Flashcard 
+    front="Frequent Analysis" 
+    back="Analysis should be repeated at every phase gate, or when major scope/resource changes occur." 
+  />
+  <Flashcard 
+    front="Identification Goal" 
+    back="Identify 100% of stakeholders early, especially those with high power and high resistance." 
+  />
+</FlashcardGrid>
 
-### Global Stakeholders
-- **Time Zone Management**: Asynchronous vs synchronous communication needs
-- **Cultural Considerations**: High-context vs low-context communication styles
-- **Holiday and Work Patterns**: Religious and national calendars
-- **Language Requirements**: Translation, localization, accessibility
-
-### Sustainability Stakeholders
-- **ESG Auditors**: Environmental, Social, Governance reporting
-- **Community Impact Groups**: Local residents, environmental advocates
-- **Sustainability Officers**: Carbon footprint, waste reduction goals
-- **Ethical Sourcing**: Supply chain responsibility
-
-::: tip  Pro Tip: The Shadow Stakeholder
-The most dangerous stakeholder is the one you didn't find. Always ask your known stakeholders: *"Who else should I be talking to about this?"*
+::: tip  Exam Insight
+If the scenario says **new stakeholder**, **changed attitude**, or **political conflict**, the best "first" action is usually to **update the Stakeholder Register** and **reanalyze** before escalating.
 :::
 
----
-
-##  Stakeholder Analysis Artifacts
-
-### Quick Reference: When to Update Stakeholder Analysis
-
-| Trigger Event | Action Required |
-| :--- | :--- |
-| Project kickoff | Initial comprehensive analysis |
-| New stakeholder identified | Add to register, analyze, plan engagement |
-| Stakeholder attitude changes | Update register, reassess engagement approach |
-| Organizational restructure | Re-map power/influence relationships |
-| Major scope change | Identify newly impacted parties |
-| Phase/milestone transition | Validate stakeholder list and priorities |
-| Conflict or resistance emerges | Root cause analysis, update engagement plan |
-| External environment change | Regulatory, market, or political shifts |
-
-### Common Exam Scenarios and First Actions
-
-| Scenario | First Action |
-| :--- | :--- |
-| "New senior stakeholder joins project..." | Update Stakeholder Register |
-| "Stakeholder who was supportive is now resistant..." | Analyze root cause, update register and engagement plan |
-| "Team discovers regulatory requirement from unknown agency..." | Add regulator to register, analyze salience, update plans |
-| "Informal influencer is affecting executive opinions..." | Document in register with influence analysis |
-| "Stakeholder stops attending meetings..." | Direct outreach to understand why, update engagement approach |
-
-<style>
-.concept-grid, .technique-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.concept-card, .technique-card {
-  padding: 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-  transition: all 0.2s ease;
-  text-decoration: none !important;
-  color: inherit !important;
-}
-
-.concept-card:hover, .technique-card:hover {
-  border-color: var(--vp-c-brand);
-  background: var(--vp-c-bg-mute);
-  transform: translateY(-2px);
-}
-
-.concept-title, .technique-title {
-  font-weight: 700;
-  color: var(--vp-c-brand);
-  margin-bottom: 0.5rem;
-}
-
-.concept-card p, .technique-card p {
-  font-size: 0.9rem;
-  margin: 0;
-  line-height: 1.4;
-  color: var(--vp-c-text-2);
-}
-</style>
 

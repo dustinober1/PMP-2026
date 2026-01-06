@@ -77,6 +77,8 @@ The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/work
 
 - **2026-01-06**: Improved readability of the "Probability-Impact Matrix" table in `guide/01-introduction/core-risk.md` by fixing CSS contrast issues in the header.
 - **2026-01-06**: Replaced static EVM calculations in `guide/01-introduction/core-data.md` with a new interactive `EVMCalculator` Vue component, allowing users to experiment with project values and see real-time metric updates.
+- **2026-01-06**: Completed a comprehensive reformatting of all Chapter 4 (Stakeholder & Communication) pages, replacing legacy hardcoded HTML/CSS grids and tables with standardized interactive Vue components (`ConceptGrid`, `ConceptCard`, `FlashcardGrid`, `Flashcard`).
+- **2026-01-06**: Verified successful build and visual rendering for all Chapter 4 modifications.
 - **2026-01-06**: Completed a comprehensive reformatting of all Chapter 3 (Team Leadership) pages, replacing legacy hardcoded HTML/CSS grids with standardized interactive Vue components (`ConceptGrid`, `ConceptCard`, `FlashcardGrid`, `Flashcard`).
 - **2026-01-06**: Verified successful build for all Chapter 2 and 3 modifications.
 - **2026-01-06**: Completed a comprehensive reformatting of all Chapter 2 (Strategic) pages, replacing legacy hardcoded HTML/CSS grids with standardized interactive Vue components (`ConceptGrid`, `ConceptCard`, `FlashcardGrid`, `Flashcard`).
