@@ -31,15 +31,15 @@ This guide is built to mirror the structure and intent of the new PMP exam, whil
 
 At a high level, the book is organized into 11 logical chapters:
 
-- **Chapter 01 – Introduction and Fundamentals:** The exam, study strategies, and core project management concepts.
-- **Chapter 02 – Strategic Alignment and Business Environment:** Strategy, portfolios, benefits, compliance, and organizational change.
-- **Chapter 03 – Team Leadership and Development:** Building teams, servant leadership, and conflict resolution.
-- **Chapter 04 – Stakeholder Engagement and Communication:** Managing stakeholders and communication strategies.
-- **Chapter 05 – Initiation and Requirements:** Starting projects, charters, and business analysis.
-- **Chapter 06 – Project Planning:** Scope, schedule, cost, and resource planning.
-- **Chapter 07 – Risk, Quality, and Complexity:** Managing uncertainty, quality standards, and complex environments.
-- **Chapter 08 – Execution and Value Delivery:** Directing work, managing vendors, and delivering value.
-- **Chapter 09 – Monitoring and Closing:** Tracking performance, change control, and project closure.
+- **Chapter 1 – Introduction and Fundamentals:** The exam, study strategies, and core project management concepts.
+- **Chapter 2 – Strategic Alignment and Business Environment:** Strategy, portfolios, benefits, compliance, and organizational change.
+- **Chapter 3 – Team Leadership and Development:** Building teams, servant leadership, and conflict resolution.
+- **Chapter 4 – Stakeholder Engagement and Communication:** Managing stakeholders and communication strategies.
+- **Chapter 5 – Initiation and Requirements:** Starting projects, charters, and business analysis.
+- **Chapter 6 – Project Planning:** Scope, schedule, cost, and resource planning.
+- **Chapter 7 – Risk, Quality, and Complexity:** Managing uncertainty, quality standards, and complex environments.
+- **Chapter 8 – Execution and Value Delivery:** Directing work, managing vendors, and delivering value.
+- **Chapter 9 – Monitoring and Closing:** Tracking performance, change control, and project closure.
 - **Chapter 10 – AI in Project Management:** AI essentials, responsible AI, and AI throughout the project lifecycle.
 - **Chapter 11 – Exam Preparation:** Test-taking strategies and full-length practice exams.
 
@@ -47,19 +47,19 @@ At a high level, the book is organized into 11 logical chapters:
 
 The PMP exam is built from the Exam Content Outline (ECO). Each ECO task belongs to one of three domains:
 
-- **People (33%)**: Covered primarily in Chapters 03 (Team Leadership), 04 (Stakeholders), and 08 (Execution).
-- **Process (41%)**: Covered primarily in Chapters 05, 06, 07, 08, and 09 (Initiation, Planning, Risk, Execution, Monitoring).
-- **Business Environment (26%)**: Covered primarily in Chapter 02 (Strategic Alignment & Business Environment).
+- **People (33%)**: Covered primarily in Chapters 3 (Team Leadership), 4 (Stakeholders), and 8 (Execution).
+- **Process (41%)**: Covered primarily in Chapters 5, 6, 7, 8, and 9 (Initiation, Planning, Risk, Execution, Monitoring).
+- **Business Environment (26%)**: Covered primarily in Chapter 2 (Strategic Alignment & Business Environment).
 
 <ConceptGrid>
   <ConceptCard title="People (33%)">
-    Covered primarily in Chapters 03 (Team Leadership), 04 (Stakeholders), and 08 (Execution).
+    Covered primarily in Chapters 3 (Team Leadership), 4 (Stakeholders), and 8 (Execution).
   </ConceptCard>
   <ConceptCard title="Process (41%)">
-    Covered primarily in Chapters 05-09 (Initiation, Planning, Risk, Execution, Monitoring).
+    Covered primarily in Chapters 5-9 (Initiation, Planning, Risk, Execution, Monitoring).
   </ConceptCard>
   <ConceptCard title="Business Environment (26%)">
-    Covered primarily in Chapter 02 (Strategic Alignment & Business Environment).
+    Covered primarily in Chapter 2 (Strategic Alignment & Business Environment).
   </ConceptCard>
 </ConceptGrid>
 
@@ -131,25 +131,25 @@ Best for:
 <ConceptGrid>
   <ConceptCard title="Week 1: Fundamentals & Strategy">
     <ul>
-      <li>Read Chapter 01 (Intro) and Chapter 02 (Strategy/Business Env).</li>
+      <li>Read Chapter 1 (Intro) and Chapter 2 (Strategy/Business Env).</li>
       <li>Do practice questions for these chapters.</li>
     </ul>
   </ConceptCard>
   <ConceptCard title="Week 2: People & Stakeholders">
     <ul>
-      <li>Read Chapter 03 (Teams) and Chapter 04 (Stakeholders).</li>
+      <li>Read Chapter 3 (Teams) and Chapter 4 (Stakeholders).</li>
       <li>Focus on conflict resolution and leadership styles.</li>
     </ul>
   </ConceptCard>
   <ConceptCard title="Week 3: Process – Start to Plan">
     <ul>
-      <li>Read Chapter 05 (Initiation) and Chapter 06 (Planning).</li>
+      <li>Read Chapter 5 (Initiation) and Chapter 6 (Planning).</li>
       <li>Focus on the flow from Charter to PMP.</li>
     </ul>
   </ConceptCard>
   <ConceptCard title="Week 4: Process – Do, Check, Act">
      <ul>
-       <li>Read Chapter 07 (Risk/Quality), Chapter 08 (Execution), and Chapter 09 (Monitoring).</li>
+       <li>Read Chapter 7 (Risk/Quality), Chapter 8 (Execution), and Chapter 9 (Monitoring).</li>
        <li>This is a heavy week; focus on key differentiators (e.g., QA vs QC).</li>
      </ul>
   </ConceptCard>
@@ -174,31 +174,31 @@ Best for:
 <ConceptGrid>
   <ConceptCard title="Week 1: Foundations">
     <ul>
-      <li>Read Chapter 01. Set up your study schedule.</li>
+      <li>Read Chapter 1. Set up your study schedule.</li>
       <li>Understand the exam format deeply.</li>
     </ul>
   </ConceptCard>
   <ConceptCard title="Week 2-3: Business Environment">
     <ul>
-      <li>Read Chapter 02.</li>
+      <li>Read Chapter 2.</li>
       <li>Focus on strategy, compliance, and organizational change.</li>
     </ul>
   </ConceptCard>
   <ConceptCard title="Week 4-5: People Domain">
     <ul>
-      <li>Read Chapter 03 and Chapter 04.</li>
+      <li>Read Chapter 3 and Chapter 4.</li>
       <li>Relate scenarios to your own team experiences.</li>
     </ul>
   </ConceptCard>
   <ConceptCard title="Week 6-7: Planning Process">
     <ul>
-      <li>Read Chapter 05 and Chapter 06.</li>
+      <li>Read Chapter 5 and Chapter 6.</li>
       <li>Practice identifying inputs and outputs logically (don't memorize).</li>
     </ul>
   </ConceptCard>
   <ConceptCard title="Week 8: Executing & Controlling">
     <ul>
-      <li>Read Chapter 07, 08, and 09.</li>
+      <li>Read Chapter 7, 8, and 9.</li>
       <li>Focus on Earned Value, Risk Responses, and Change Control.</li>
     </ul>
   </ConceptCard>
@@ -277,9 +277,9 @@ Create a simple tracking table to monitor your coverage of the domains.
 
 | Date       | Activity                     | People | Process | Bus Env | Notes                         |
 |-----------:|------------------------------|:------:|:-------:|:-------:|-------------------------------|
-| 2026-03-01 | Read Ch. 03 + questions      |   ✓    |         |         | Struggled with conflict modes |
-| 2026-03-04 | Read Ch. 06 + questions      |        |    ✓    |         | Need to review EVM formulas   |
-| 2026-03-07 | Read Ch. 02 + questions      |        |         |    ✓    | Compliance concepts clear     |
+| 2026-03-01 | Read Ch. 3 + questions      |   ✓    |         |         | Struggled with conflict modes |
+| 2026-03-04 | Read Ch. 6 + questions      |        |    ✓    |         | Need to review EVM formulas   |
+| 2026-03-07 | Read Ch. 2 + questions      |        |         |    ✓    | Compliance concepts clear     |
 
 Every 1–2 weeks, ask yourself: “Which domain have I neglected?”
 
