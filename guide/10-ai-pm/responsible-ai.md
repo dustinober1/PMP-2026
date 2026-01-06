@@ -147,12 +147,12 @@ Bias doesn't just happen at deployment—it can enter at multiple stages. PMs mu
 
 ### Bias Detection Checklist
 
-- [ ] **Pre-deployment**: Review training data documentation for known gaps/biases
-- [ ] **Pre-deployment**: Test model on synthetic edge cases (diverse demographics, unusual scenarios)
-- [ ] **Post-deployment**: Monitor output distribution (who benefits? Who's disadvantaged?)
-- [ ] **Post-deployment**: Establish feedback channel for users to report perceived unfairness
-- [ ] **Ongoing**: Monthly audit of decisions for pattern analysis
-- [ ] **Ongoing**: Compare AI recommendations vs. human overrides—patterns reveal bias
+- **Pre-deployment**: Review training data documentation for known gaps/biases
+- **Pre-deployment**: Test model on synthetic edge cases (diverse demographics, unusual scenarios)
+- **Post-deployment**: Monitor output distribution (who benefits? Who's disadvantaged?)
+- **Post-deployment**: Establish feedback channel for users to report perceived unfairness
+- **Ongoing**: Monthly audit of decisions for pattern analysis
+- **Ongoing**: Compare AI recommendations vs. human overrides—patterns reveal bias
 
 ::: warning Exam Pattern
 If a scenario asks "AI consistently recommends fewer overtime hours for one team," the correct answer involves **audit for bias, validate with diverse review, and address root cause**—never "accept because AI is objective."

@@ -554,13 +554,13 @@ The **Definition of Done** is the quality gate for agile work. A clear DoD preve
 - **Integration problems** at the end of the release
 
 <strong>Example DoD for a User Story:</strong>
-- [ ] Code complete and passes peer review
-- [ ] Unit tests written and passing (>80% coverage)
-- [ ] Integration tests passing
-- [ ] Code deployed to staging environment
-- [ ] Product Owner acceptance demo completed
-- [ ] Documentation updated (if applicable)
-- [ ] No critical/high defects outstanding
+- Code complete and passes peer review
+- Unit tests written and passing (>80% coverage)
+- Integration tests passing
+- Code deployed to staging environment
+- Product Owner acceptance demo completed
+- Documentation updated (if applicable)
+- No critical/high defects outstanding
 
 ::: tip Agile Change Control
 In agile, change is expected. “Control” is achieved by maintaining a transparent, ordered backlog, stable iteration cadence, clear acceptance criteria, and regular inspect/adapt events (review + retro).

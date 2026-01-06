@@ -225,12 +225,12 @@ Agile principles naturally support sustainability through waste reduction and co
 ### Green Sprint Checklist
 
 Add sustainability criteria to your team's Definition of Done:
-- [ ] Code is energy-efficient (no unnecessary processing)
-- [ ] Documentation is digital-first (reduce printing)
-- [ ] Meetings are virtual when possible
-- [ ] Third-party dependencies assessed for sustainability
-- [ ] Accessibility requirements met
-- [ ] Security and privacy considered (social responsibility)
+- Code is energy-efficient (no unnecessary processing)
+- Documentation is digital-first (reduce printing)
+- Meetings are virtual when possible
+- Third-party dependencies assessed for sustainability
+- Accessibility requirements met
+- Security and privacy considered (social responsibility)
 
 ---
 

@@ -28,13 +28,13 @@ Add this as an appendix to your **Team Charter / Working Agreement**.
 ##  Data Redaction Checklist (Before You Prompt)
 Use this checklist to sanitize inputs.
 
-- [ ] Remove **PII** (names, emails, phone numbers, addresses, IDs).
-- [ ] Remove **credentials** (passwords, tokens, API keys).
-- [ ] Remove **client/vendor identifiers** if not approved.
-- [ ] Remove **financial specifics** (account numbers, detailed pricing) unless approved.
-- [ ] Remove **proprietary IP** (source code, designs, strategy docs) unless approved.
-- [ ] Replace specifics with placeholders: `[CLIENT]`, `[ROLE]`, `[SYSTEM]`, `[BUDGET_RANGE]`, `[DATE_RANGE]`.
-- [ ] Keep only what’s necessary (data minimization): provide **constraints**, not secrets.
+- Remove **PII** (names, emails, phone numbers, addresses, IDs).
+- Remove **credentials** (passwords, tokens, API keys).
+- Remove **client/vendor identifiers** if not approved.
+- Remove **financial specifics** (account numbers, detailed pricing) unless approved.
+- Remove **proprietary IP** (source code, designs, strategy docs) unless approved.
+- Replace specifics with placeholders: `[CLIENT]`, `[ROLE]`, `[SYSTEM]`, `[BUDGET_RANGE]`, `[DATE_RANGE]`.
+- Keep only what’s necessary (data minimization): provide **constraints**, not secrets.
 
 ::: tip  PMP exam pattern
 If a scenario mentions “public/free AI tool” + “confidential data”, the correct answer starts with **contain + comply + prevent recurrence**.
@@ -76,12 +76,12 @@ Output format:
 ---
 
 ##  HITL Review Checklist (Before Sharing AI Output)
-- [ ] **Accuracy**: Verify facts, dates, numbers, names, and terminology.
-- [ ] **Completeness**: Confirm required sections/artifacts are present.
-- [ ] **Alignment**: Check against charter, baselines, and current decisions.
-- [ ] **Compliance**: Confirm data privacy, security policy, and regulatory needs.
-- [ ] **Tone**: Ensure stakeholder-appropriate language and emotional intelligence.
-- [ ] **Traceability**: Record what inputs were used and where the final version is stored.
+- **Accuracy**: Verify facts, dates, numbers, names, and terminology.
+- **Completeness**: Confirm required sections/artifacts are present.
+- **Alignment**: Check against charter, baselines, and current decisions.
+- **Compliance**: Confirm data privacy, security policy, and regulatory needs.
+- **Tone**: Ensure stakeholder-appropriate language and emotional intelligence.
+- **Traceability**: Record what inputs were used and where the final version is stored.
 
 ---
 
@@ -104,16 +104,16 @@ Use these as starter risk statements (cause → event → impact) and tailor.
 ##  AI Tool / Vendor Due Diligence Checklist
 Use this when selecting or approving AI tools.
 
-- [ ] **Data retention**: Are prompts/outputs stored? For how long?
-- [ ] **Training use**: Is your data used to train models? Can you opt out contractually?
-- [ ] **Data residency**: Where is data processed/stored (country/region)?
-- [ ] **Security**: SSO, MFA, encryption in transit/at rest, SOC2/ISO27001 (as required).
-- [ ] **Access control**: Role-based access, admin controls, audit logs.
-- [ ] **Compliance**: Industry/regional regulations (as applicable).
-- [ ] **Explainability**: Can you provide the “why” for decisions (when needed)?
-- [ ] **Reliability**: SLA, uptime history, incident response.
-- [ ] **Integration**: Works with existing tools (docs, tickets, storage) without risky copy/paste.
-- [ ] **Portability**: Export prompts/outputs; avoid proprietary lock-in.
+- **Data retention**: Are prompts/outputs stored? For how long?
+- **Training use**: Is your data used to train models? Can you opt out contractually?
+- **Data residency**: Where is data processed/stored (country/region)?
+- **Security**: SSO, MFA, encryption in transit/at rest, SOC2/ISO27001 (as required).
+- **Access control**: Role-based access, admin controls, audit logs.
+- **Compliance**: Industry/regional regulations (as applicable).
+- **Explainability**: Can you provide the “why” for decisions (when needed)?
+- **Reliability**: SLA, uptime history, incident response.
+- **Integration**: Works with existing tools (docs, tickets, storage) without risky copy/paste.
+- **Portability**: Export prompts/outputs; avoid proprietary lock-in.
 
 ---
 
@@ -150,14 +150,14 @@ Use this as a starting point for AI-specific risks (add to your main Risk Regist
 
 Use this for projects leveraging AI in test automation or defect analysis:
 
-- [ ] **Baseline established**: Defect escape rate from last 3 releases documented
-- [ ] **Defect classification**: AI understands your defect priority levels (Critical/High/Med/Low)
-- [ ] **Phase containment metric**: Know target % of bugs to catch in each phase (e.g., 90% by UAT)
-- [ ] **Monthly AI review**: Analyze trends—is escape rate improving or degrading?
-- [ ] **Bias check**: Are AI-predicted "risky areas" spread across all teams, or does one team get flagged more?
-- [ ] **Human override**: QA lead reviews AI predictions; can disagree and override
-- [ ] **Root cause tracking**: When AI misses a bug, log why (tool limitation, data gap, process issue)
-- [ ] **Escalation rule**: If escape rate > 20%, escalate to PM/sponsor for timeline/quality trade-off discussion
+- **Baseline established**: Defect escape rate from last 3 releases documented
+- **Defect classification**: AI understands your defect priority levels (Critical/High/Med/Low)
+- **Phase containment metric**: Know target % of bugs to catch in each phase (e.g., 90% by UAT)
+- **Monthly AI review**: Analyze trends—is escape rate improving or degrading?
+- **Bias check**: Are AI-predicted "risky areas" spread across all teams, or does one team get flagged more?
+- **Human override**: QA lead reviews AI predictions; can disagree and override
+- **Root cause tracking**: When AI misses a bug, log why (tool limitation, data gap, process issue)
+- **Escalation rule**: If escape rate > 20%, escalate to PM/sponsor for timeline/quality trade-off discussion
 
 ---
 
@@ -397,41 +397,41 @@ Use this to assess your team's readiness for AI adoption.
 
 ### Level 1: Awareness (Score: 0-2 per item)
 
-- [ ] Team understands what AI can and cannot do (0=No, 1=Some, 2=All)
-- [ ] Team knows the difference between GenAI, Predictive AI, and Automation
-- [ ] Team is aware of hallucination and bias risks
-- [ ] Leadership has communicated AI strategy
-- [ ] Data classification policy exists and is known
+- Team understands what AI can and cannot do (0=No, 1=Some, 2=All)
+- Team knows the difference between GenAI, Predictive AI, and Automation
+- Team is aware of hallucination and bias risks
+- Leadership has communicated AI strategy
+- Data classification policy exists and is known
 
 **Level 1 Score: ___ / 10** (Pass = 6+)
 
 ### Level 2: Experimentation (Score: 0-2 per item)
 
-- [ ] Approved AI tools are available and accessible
-- [ ] Team has run at least one AI pilot successfully
-- [ ] Prompt templates exist for common tasks
-- [ ] HITL review process is defined and followed
-- [ ] Data redaction checklist is used consistently
+- Approved AI tools are available and accessible
+- Team has run at least one AI pilot successfully
+- Prompt templates exist for common tasks
+- HITL review process is defined and followed
+- Data redaction checklist is used consistently
 
 **Level 2 Score: ___ / 10** (Pass = 6+)
 
 ### Level 3: Optimization (Score: 0-2 per item)
 
-- [ ] AI usage is tracked (hours saved, tasks automated)
-- [ ] ROI is measured and positive
-- [ ] AI Working Agreement is documented and updated
-- [ ] Team shares successful prompts and lessons learned
-- [ ] Governance includes regular bias/quality audits
+- AI usage is tracked (hours saved, tasks automated)
+- ROI is measured and positive
+- AI Working Agreement is documented and updated
+- Team shares successful prompts and lessons learned
+- Governance includes regular bias/quality audits
 
 **Level 3 Score: ___ / 10** (Pass = 6+)
 
 ### Level 4: Transformation (Score: 0-2 per item)
 
-- [ ] AI is integrated into standard workflows (not "extra step")
-- [ ] Team proactively identifies new AI use cases
-- [ ] Cross-functional AI governance is in place
-- [ ] Organization shares AI best practices across projects
-- [ ] Continuous improvement loop for AI tooling exists
+- AI is integrated into standard workflows (not "extra step")
+- Team proactively identifies new AI use cases
+- Cross-functional AI governance is in place
+- Organization shares AI best practices across projects
+- Continuous improvement loop for AI tooling exists
 
 **Level 4 Score: ___ / 10** (Pass = 6+)
 

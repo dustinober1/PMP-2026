@@ -328,46 +328,46 @@ Test your EQ and leadership mindset to handle the most unpredictable part of any
 Use these as a one-stop review before the exam:
 
 ### Team Formation (3.1a)
-- [ ] **Skills Matrix**: Rate capability, identify gaps, choose response (train, coach, acquire, adjust)
-- [ ] **RACI**: One Accountable per task; clarify ownership early to prevent Storming
-- [ ] **Resource Leveling vs Smoothing**: Leveling can extend schedule; Smoothing uses float only
-- [ ] **Matrix Organizations**: Influence and negotiation before escalation
+- **Skills Matrix**: Rate capability, identify gaps, choose response (train, coach, acquire, adjust)
+- **RACI**: One Accountable per task; clarify ownership early to prevent Storming
+- **Resource Leveling vs Smoothing**: Leveling can extend schedule; Smoothing uses float only
+- **Matrix Organizations**: Influence and negotiation before escalation
 
 ### Team Development (3.1b)
-- [ ] **Tuckman Model**: Forming → Storming → Norming → Performing → Adjourning
-- [ ] **Regression happens**: Adding/removing members resets team dynamics
-- [ ] **Psychological Safety**: Model vulnerability; respond constructively to failure
-- [ ] **Project Aristotle**: Safety, Dependability, Structure, Meaning, Impact
+- **Tuckman Model**: Forming → Storming → Norming → Performing → Adjourning
+- **Regression happens**: Adding/removing members resets team dynamics
+- **Psychological Safety**: Model vulnerability; respond constructively to failure
+- **Project Aristotle**: Safety, Dependability, Structure, Meaning, Impact
 
 ### Team Charter and Agreements (3.1c)
-- [ ] **Team Charter contents**: Purpose, roles, communication, decisions, conflict path, quality
-- [ ] **Ground Rules**: Collaborative, Visible, Self-Policing
-- [ ] **Definition of Done vs Acceptance Criteria**: DoD applies to all; AC applies to one item
-- [ ] **Decision Models**: Consensus, Majority, Expert, PM tie-breaker, Sponsor
+- **Team Charter contents**: Purpose, roles, communication, decisions, conflict path, quality
+- **Ground Rules**: Collaborative, Visible, Self-Policing
+- **Definition of Done vs Acceptance Criteria**: DoD applies to all; AC applies to one item
+- **Decision Models**: Consensus, Majority, Expert, PM tie-breaker, Sponsor
 
 ### Virtual Teams (3.1d)
-- [ ] **Hofstede Dimensions**: Power Distance, Individualism, Uncertainty Avoidance, etc.
-- [ ] **Async First**: Write before meeting; capture outcomes
-- [ ] **Remote Working Agreement**: Core hours, response times, decision log, time zone fairness
-- [ ] **Hybrid pitfall**: If one is remote, all are remote
+- **Hofstede Dimensions**: Power Distance, Individualism, Uncertainty Avoidance, etc.
+- **Async First**: Write before meeting; capture outcomes
+- **Remote Working Agreement**: Core hours, response times, decision log, time zone fairness
+- **Hybrid pitfall**: If one is remote, all are remote
 
 ### Servant Leadership and Coaching (3.2)
-- [ ] **Situational Leadership II**: Match style (S1-S4) to development level (D1-D4)
-- [ ] **GROW Model**: Goal, Reality, Options, Will for coaching conversations
-- [ ] **EQ Competencies**: Self-Awareness, Self-Regulation, Motivation, Empathy, Social Skills
-- [ ] **Power Types**: Expert and Referent > Coercive (which is usually a trap answer)
+- **Situational Leadership II**: Match style (S1-S4) to development level (D1-D4)
+- **GROW Model**: Goal, Reality, Options, Will for coaching conversations
+- **EQ Competencies**: Self-Awareness, Self-Regulation, Motivation, Empathy, Social Skills
+- **Power Types**: Expert and Referent > Coercive (which is usually a trap answer)
 
 ### Conflict Management (3.3)
-- [ ] **5 Modes**: Collaborate is default best; Compromise for time pressure; Force for emergencies
-- [ ] **Task vs Relationship conflict**: Task conflict can be healthy; Relationship conflict is always harmful
-- [ ] **BATNA/ZOPA**: Know your alternative; find the overlap for Win-Win
-- [ ] **Process is usually the cause**: Look for scope/schedule/priority issue before blaming personality
+- **5 Modes**: Collaborate is default best; Compromise for time pressure; Force for emergencies
+- **Task vs Relationship conflict**: Task conflict can be healthy; Relationship conflict is always harmful
+- **BATNA/ZOPA**: Know your alternative; find the overlap for Win-Win
+- **Process is usually the cause**: Look for scope/schedule/priority issue before blaming personality
 
 ### Motivation and Performance (3.4)
-- [ ] **Herzberg**: Hygiene does not equal Motivation; fix hygiene first, then add motivators
-- [ ] **Vroom**: M = E × I × V — if any is zero, motivation is zero
-- [ ] **McClelland**: Achievement, Affiliation, Power — match assignments to needs
-- [ ] **Performance Issues**: Meet privately → Clarify expectations → Enable success → Plan → Escalate last
+- **Herzberg**: Hygiene does not equal Motivation; fix hygiene first, then add motivators
+- **Vroom**: M = E × I × V — if any is zero, motivation is zero
+- **McClelland**: Achievement, Affiliation, Power — match assignments to needs
+- **Performance Issues**: Meet privately → Clarify expectations → Enable success → Plan → Escalate last
 
 ---
 

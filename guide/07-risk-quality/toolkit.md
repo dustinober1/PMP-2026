@@ -116,11 +116,11 @@ Use this as a baseline and tailor to your domain:
 
 ###  Quality Audit Checklist (Are we doing the right thing?)
 Use for **Manage Quality (QA)**:
-1.  [ ] Are we using the correct document templates?
-2.  [ ] Are code reviews happening for every PR?
-3.  [ ] Is the "Definition of Done" being respected?
-4.  [ ] Are safety/compliance checks being skipped?
-5.  [ ] Is the defect log up to date?
+1.  Are we using the correct document templates?
+2.  Are code reviews happening for every PR?
+3.  Is the "Definition of Done" being respected?
+4.  Are safety/compliance checks being skipped?
+5.  Is the defect log up to date?
 
 ---
 
@@ -227,14 +227,14 @@ Use this to quickly select the best response strategy:
 ##  Risk Audit Checklist
 Use this to verify risk management effectiveness:
 
-- [ ] Is the Risk Register reviewed at least monthly (or every sprint)?
-- [ ] Are all high-priority risks assigned to owners?
-- [ ] Are response actions integrated into the schedule/backlog?
-- [ ] Are triggers defined and monitored for top risks?
-- [ ] Have we identified new risks since the last review?
-- [ ] Are issues being logged when risks occur?
-- [ ] Is contingency reserve usage tracked and reported?
-- [ ] Have we conducted assumption analysis recently?
+- Is the Risk Register reviewed at least monthly (or every sprint)?
+- Are all high-priority risks assigned to owners?
+- Are response actions integrated into the schedule/backlog?
+- Are triggers defined and monitored for top risks?
+- Have we identified new risks since the last review?
+- Are issues being logged when risks occur?
+- Is contingency reserve usage tracked and reported?
+- Have we conducted assumption analysis recently?
 
 ---
 
@@ -459,25 +459,25 @@ BEST CHOICE: Option with highest EMV
 ##  Pre-Flight Checklists
 
 ### Before Risk Planning Session
-- [ ] Risk Register template ready
-- [ ] Historical risks from similar projects reviewed
-- [ ] RBS (Risk Breakdown Structure) selected
-- [ ] Stakeholders invited (diverse perspectives)
-- [ ] Risk thresholds defined (from Risk Management Plan)
+- Risk Register template ready
+- Historical risks from similar projects reviewed
+- RBS (Risk Breakdown Structure) selected
+- Stakeholders invited (diverse perspectives)
+- Risk thresholds defined (from Risk Management Plan)
 
 ### Before Quality Gate
-- [ ] All acceptance criteria documented
-- [ ] Checklists prepared
-- [ ] Inspectors/reviewers identified
-- [ ] Defect logging process ready
-- [ ] Root cause analysis tools available (if needed)
+- All acceptance criteria documented
+- Checklists prepared
+- Inspectors/reviewers identified
+- Defect logging process ready
+- Root cause analysis tools available (if needed)
 
 ### Before Complexity Decision
-- [ ] Project complexity scored
-- [ ] Delivery approach aligned with complexity level
-- [ ] Feedback loops designed
-- [ ] Experiment safe-to-fail boundaries defined
-- [ ] Escalation path clear
+- Project complexity scored
+- Delivery approach aligned with complexity level
+- Feedback loops designed
+- Experiment safe-to-fail boundaries defined
+- Escalation path clear
 
 
 

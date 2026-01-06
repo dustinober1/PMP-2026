@@ -396,24 +396,24 @@ These get confused on the exam:
 ### Definition of Done Example
 
 A mature team's DoD might include:
-- [ ] Code complete and compiles
-- [ ] Unit tests written and passing (>80% coverage)
-- [ ] Code reviewed by peer
-- [ ] Documentation updated
-- [ ] Integration tests passing
-- [ ] Security scan clean
-- [ ] Deployed to staging environment
-- [ ] Product Owner demo completed
-- [ ] Performance criteria met
+- Code complete and compiles
+- Unit tests written and passing (>80% coverage)
+- Code reviewed by peer
+- Documentation updated
+- Integration tests passing
+- Security scan clean
+- Deployed to staging environment
+- Product Owner demo completed
+- Performance criteria met
 
 ### Acceptance Criteria Example
 
 For User Story: "As a user, I want to filter products by price range"
-- [ ] Can set minimum price
-- [ ] Can set maximum price
-- [ ] Results update within 500ms
-- [ ] "Clear Filters" button resets selection
-- [ ] Works on mobile and desktop
+- Can set minimum price
+- Can set maximum price
+- Results update within 500ms
+- "Clear Filters" button resets selection
+- Works on mobile and desktop
 
 ---
 

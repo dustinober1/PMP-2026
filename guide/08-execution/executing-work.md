@@ -595,12 +595,12 @@ Work Performance REPORTS
 
 ### Quality Execution Checklist (Universal)
 Before marking any deliverable "complete," verify:
-- [ ] **Acceptance criteria met**: Does it meet the Definition of Done?
-- [ ] **Quality standards met**: Does it pass inspections, tests, reviews?
-- [ ] **Requirements traced**: Can you trace this deliverable back to a requirement?
-- [ ] **Stakeholder validated**: Has the customer/sponsor/Product Owner accepted it?
-- [ ] **Documentation complete**: Are design docs, test results, and manuals ready?
-- [ ] **Lessons captured**: What did we learn? What should we repeat or avoid?
+- **Acceptance criteria met**: Does it meet the Definition of Done?
+- **Quality standards met**: Does it pass inspections, tests, reviews?
+- **Requirements traced**: Can you trace this deliverable back to a requirement?
+- **Stakeholder validated**: Has the customer/sponsor/Product Owner accepted it?
+- **Documentation complete**: Are design docs, test results, and manuals ready?
+- **Lessons captured**: What did we learn? What should we repeat or avoid?
 
 ---
 

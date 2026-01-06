@@ -190,14 +190,14 @@ Use this to keep governance clean: what was decided, by whom, when, and why.
 
 Use this to prevent “it works, so we are done” thinking.
 
-- [ ] Acceptance/sign-off obtained (or formal process followed if disputed)
-- [ ] Operations owner identified and engaged
-- [ ] Training delivered (users + support team)
-- [ ] Runbooks/operating procedures delivered and verified
-- [ ] Access, monitoring, and support tooling configured
-- [ ] Warranty/SLAs and escalation paths documented
-- [ ] Residual risks/issues disposition agreed (closed vs handed over)
-- [ ] Benefits ownership assigned (who measures outcomes after closure)
+- Acceptance/sign-off obtained (or formal process followed if disputed)
+- Operations owner identified and engaged
+- Training delivered (users + support team)
+- Runbooks/operating procedures delivered and verified
+- Access, monitoring, and support tooling configured
+- Warranty/SLAs and escalation paths documented
+- Residual risks/issues disposition agreed (closed vs handed over)
+- Benefits ownership assigned (who measures outcomes after closure)
 
 ##  Benefits Handoff (Mini Template)
 
@@ -209,16 +209,16 @@ Use this to prevent “it works, so we are done” thinking.
 
 ##  Close Project or Phase Checklist
 
-- [ ] Deliverables accepted (Validate Scope)
-- [ ] Open change requests closed (approved/rejected/deferred)
-- [ ] Open issues resolved or formally transferred
-- [ ] Risk register updated and archived
-- [ ] Procurements closed (deliverables accepted, payments complete, claims resolved)
-- [ ] Final budget reconciled and financials closed
-- [ ] Final report completed and distributed
-- [ ] Lessons learned finalized and stored as OPAs
-- [ ] Project artifacts archived (PMIS/OPA library)
-- [ ] Resources formally released (and recognition provided)
+- Deliverables accepted (Validate Scope)
+- Open change requests closed (approved/rejected/deferred)
+- Open issues resolved or formally transferred
+- Risk register updated and archived
+- Procurements closed (deliverables accepted, payments complete, claims resolved)
+- Final budget reconciled and financials closed
+- Final report completed and distributed
+- Lessons learned finalized and stored as OPAs
+- Project artifacts archived (PMIS/OPA library)
+- Resources formally released (and recognition provided)
 
 ##  Final Report (One-Page Template)
 
@@ -253,14 +253,14 @@ Use this to prevent “it works, so we are done” thinking.
 
 ##  Procurement Closure Checklist (If Vendors Are Involved)
 
-- [ ] Confirm final deliverables meet contract acceptance criteria
-- [ ] Complete inspections and acceptance documentation
-- [ ] Resolve open change orders
-- [ ] Resolve claims/disputes (negotiation/ADR per policy)
-- [ ] Final payments completed (including retainage)
-- [ ] Procurement audit completed (if applicable)
-- [ ] Vendor performance evaluation captured (OPA input)
-- [ ] Contract files archived
+- Confirm final deliverables meet contract acceptance criteria
+- Complete inspections and acceptance documentation
+- Resolve open change orders
+- Resolve claims/disputes (negotiation/ADR per policy)
+- Final payments completed (including retainage)
+- Procurement audit completed (if applicable)
+- Vendor performance evaluation captured (OPA input)
+- Contract files archived
 
 ---
 
@@ -468,47 +468,47 @@ Based on Monte Carlo analysis:
 
 ### Fixed Price (FFP) Closure
 
-- [ ] All deliverables verified against contract specifications
-- [ ] Acceptance certificate signed
-- [ ] Final payment processed (contract price only)
-- [ ] Warranty period documented and communicated
-- [ ] Retainage released per contract terms
-- [ ] Vendor performance evaluation completed
-- [ ] Contract file archived
+- All deliverables verified against contract specifications
+- Acceptance certificate signed
+- Final payment processed (contract price only)
+- Warranty period documented and communicated
+- Retainage released per contract terms
+- Vendor performance evaluation completed
+- Contract file archived
 
 ### Time & Materials (T&M) Closure
 
-- [ ] All timesheets verified against work performed
-- [ ] Labor rates match contract terms
-- [ ] Materials and expenses verified against receipts
-- [ ] Total cost compared against NTE ceiling (if applicable)
-- [ ] Final invoice reconciled and approved
-- [ ] Overage approval obtained (if applicable)
-- [ ] Vendor performance evaluation completed
-- [ ] Contract file archived
+- All timesheets verified against work performed
+- Labor rates match contract terms
+- Materials and expenses verified against receipts
+- Total cost compared against NTE ceiling (if applicable)
+- Final invoice reconciled and approved
+- Overage approval obtained (if applicable)
+- Vendor performance evaluation completed
+- Contract file archived
 
 ### Cost Plus Fixed Fee (CPFF) Closure
 
-- [ ] All claimed costs audited for allowability
-- [ ] Unallowable costs identified and excluded
-- [ ] Fixed fee confirmed (per contract)
-- [ ] Final cost report prepared
-- [ ] Any cost adjustments documented
-- [ ] Final payment calculated and processed
-- [ ] Vendor performance evaluation completed
-- [ ] Contract file archived
+- All claimed costs audited for allowability
+- Unallowable costs identified and excluded
+- Fixed fee confirmed (per contract)
+- Final cost report prepared
+- Any cost adjustments documented
+- Final payment calculated and processed
+- Vendor performance evaluation completed
+- Contract file archived
 
 ### Cost Plus Incentive Fee (CPIF) Closure
 
-- [ ] All claimed costs audited for allowability
-- [ ] Target cost vs. actual cost variance calculated
-- [ ] Sharing ratio applied correctly
-- [ ] Incentive fee calculated per formula
-- [ ] Fee cap (max/min) applied if triggered
-- [ ] Final fee determination documented
-- [ ] Final payment calculated and processed
-- [ ] Vendor performance evaluation completed
-- [ ] Contract file archived
+- All claimed costs audited for allowability
+- Target cost vs. actual cost variance calculated
+- Sharing ratio applied correctly
+- Incentive fee calculated per formula
+- Fee cap (max/min) applied if triggered
+- Final fee determination documented
+- Final payment calculated and processed
+- Vendor performance evaluation completed
+- Contract file archived
 
 ### CPIF Fee Calculation Worksheet
 

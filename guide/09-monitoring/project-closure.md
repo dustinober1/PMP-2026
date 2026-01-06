@@ -292,31 +292,31 @@ Effective knowledge transfer prevents "brain drain" when the project team disban
 ### Documentation Completeness Checklist
 
 <strong>Technical Documentation:</strong>
-- [ ] Architecture diagrams (current state)
-- [ ] API documentation and integration guides
-- [ ] Database schema and data dictionary
-- [ ] Configuration management (environments, secrets)
-- [ ] Deployment procedures and rollback plans
+- Architecture diagrams (current state)
+- API documentation and integration guides
+- Database schema and data dictionary
+- Configuration management (environments, secrets)
+- Deployment procedures and rollback plans
 
 <strong>Operational Documentation:</strong>
-- [ ] Runbooks for common procedures
-- [ ] Monitoring and alerting configuration
-- [ ] Incident response procedures
-- [ ] SLA definitions and escalation paths
-- [ ] Backup and recovery procedures
+- Runbooks for common procedures
+- Monitoring and alerting configuration
+- Incident response procedures
+- SLA definitions and escalation paths
+- Backup and recovery procedures
 
 <strong>Business Documentation:</strong>
-- [ ] User guides and training materials
-- [ ] FAQ and known issues
-- [ ] Enhancement requests (deferred backlog)
-- [ ] Stakeholder contact list
+- User guides and training materials
+- FAQ and known issues
+- Enhancement requests (deferred backlog)
+- Stakeholder contact list
 
 **Project Documentation (Archive):**
-- [ ] Project charter and business case
-- [ ] Final baselines (scope, schedule, cost)
-- [ ] Change history and decision log
-- [ ] Lessons learned register
-- [ ] Final project report
+- Project charter and business case
+- Final baselines (scope, schedule, cost)
+- Change history and decision log
+- Lessons learned register
+- Final project report
 
 ---
 
@@ -337,11 +337,11 @@ The **lessons learned register** should be a living document throughout the proj
 ####  Effective Lessons Learned Session (Checklist)
 
 <strong>Before the Session:</strong>
-- [ ] Schedule it **while memory is fresh** (within 1-2 weeks of closure)
-- [ ] Invite the **core team + key stakeholders** (not just executives)
-- [ ] Create a **safe, blameless environment** (this is not a performance review)
-- [ ] Provide the project charter, baselines, and final metrics for reference
-- [ ] Set **60-90 minutes** with clear agenda
+- Schedule it **while memory is fresh** (within 1-2 weeks of closure)
+- Invite the **core team + key stakeholders** (not just executives)
+- Create a **safe, blameless environment** (this is not a performance review)
+- Provide the project charter, baselines, and final metrics for reference
+- Set **60-90 minutes** with clear agenda
 
 <strong>During the Session:</strong>
 1. **Frame the objectives** (Why are we doing this? What do we want to learn?)
@@ -366,10 +366,10 @@ The **lessons learned register** should be a living document throughout the proj
 | Quality | 8 defects escaped to UAT; root cause was insufficient peer review | Require peer review for all code; add code review checklist | Dev Lead | 2026-02-15 | Pending |
 
 <strong>After the Session:</strong>
-- [ ] Circulate lessons learned register to team for feedback/validation
-- [ ] Store in **OPA library** with metadata (project, date, category) for future searches
-- [ ] Assign owners and create calendar reminders for follow-up actions
-- [ ] Reference lessons learned in closing report as "continuous improvement commitment"
+- Circulate lessons learned register to team for feedback/validation
+- Store in **OPA library** with metadata (project, date, category) for future searches
+- Assign owners and create calendar reminders for follow-up actions
+- Reference lessons learned in closing report as "continuous improvement commitment"
 
 <strong>On the Exam:</strong>
 Questions about lessons learned often ask: "What is the OUTPUT of a lessons learned session?" Answer: **Organizational Process Assets (OPAs)** that can be used by future projects. This is why it's stored in the organizational library, not kept private to the team.
@@ -411,13 +411,13 @@ If a project is canceled mid-flight (e.g., strategy shift, budget cut, technical
 - Example on exam: "What should you tell the sponsor?" → Present the business case for cancellation (cost of continuance vs. cost of cancellation)
 
 <strong>Administrative Closure Checklist for Canceled Projects:</strong>
-- [ ] Final project status report (% complete, budget spent vs. remaining, explanation of cancellation)
-- [ ] Vendor contract closeout (payment for work-to-date per contract; follow termination clauses)
-- [ ] Team release and transition to other projects (formal reassignment)
-- [ ] Partial deliverables archived (code repos, designs, requirements for future use)
-- [ ] Risk/issues/change requests formally closed or transferred (if applicable)
-- [ ] Lessons learned session conducted (why canceled, what to do differently next time)
-- [ ] Final records filed in organizational repository (for audit and future reference)
+- Final project status report (% complete, budget spent vs. remaining, explanation of cancellation)
+- Vendor contract closeout (payment for work-to-date per contract; follow termination clauses)
+- Team release and transition to other projects (formal reassignment)
+- Partial deliverables archived (code repos, designs, requirements for future use)
+- Risk/issues/change requests formally closed or transferred (if applicable)
+- Lessons learned session conducted (why canceled, what to do differently next time)
+- Final records filed in organizational repository (for audit and future reference)
 
 ::: tip 2026 Shift
 The "sunk cost fallacy" (spending more because you already spent a lot) is a bias to avoid. **Closing a project that no longer provides value is a success**, not a failure, because it frees resources for higher-value work. On the exam, expect questions that frame cancellation as a positive governance decision.
@@ -555,14 +555,14 @@ Certain industries have specific closure requirements beyond standard project ma
 
 ### Compliance Closure Checklist
 
-- [ ] All regulatory documentation complete and archived
-- [ ] Required certifications/inspections obtained
-- [ ] Data retention policy implemented
-- [ ] Audit trail verified and accessible
-- [ ] Sensitive data transferred or destroyed per policy
-- [ ] Compliance sign-off from legal/compliance team
-- [ ] Required regulatory filings submitted
-- [ ] Post-implementation monitoring plan established (if required)
+- All regulatory documentation complete and archived
+- Required certifications/inspections obtained
+- Data retention policy implemented
+- Audit trail verified and accessible
+- Sensitive data transferred or destroyed per policy
+- Compliance sign-off from legal/compliance team
+- Required regulatory filings submitted
+- Post-implementation monitoring plan established (if required)
 
 ::: warning Exam Pattern
 If a scenario mentions a regulated industry (healthcare, finance, government), look for answers that include **compliance verification** and **documentation requirements** as part of closure. Skipping these steps is not an option.

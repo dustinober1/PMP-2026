@@ -223,16 +223,16 @@ The exam usually favors **Collaborate** for team conflicts (win-win, addresses r
 ## ‍‍ Vendor Management Checklist (During Execution)
 Use to ensure procurement stays on track.
 
-- [ ] **Contract clarity**: All parties understand scope, deliverables, acceptance criteria, payment terms
-- [ ] **Communication cadence**: Regular status meetings scheduled (weekly or per contract terms)
-- [ ] **Performance tracking**: Monitor against SLAs, milestones, quality standards
-- [ ] **Issue log**: Track vendor-related issues separately; escalate per contract
-- [ ] **Change control**: All scope changes go through formal procurement change process
-- [ ] **Payment milestone tracking**: Tie payments to verified deliverables (not just time)
-- [ ] **Relationship management**: Build trust; treat as partner (not adversary)
-- [ ] **Risk monitoring**: Watch for vendor financial issues, resource turnover, dependency risks
-- [ ] **Documentation**: Keep records of all decisions, changes, and acceptance
-- [ ] **Dispute resolution**: Use ADR (Alternative Dispute Resolution) before litigation
+- **Contract clarity**: All parties understand scope, deliverables, acceptance criteria, payment terms
+- **Communication cadence**: Regular status meetings scheduled (weekly or per contract terms)
+- **Performance tracking**: Monitor against SLAs, milestones, quality standards
+- **Issue log**: Track vendor-related issues separately; escalate per contract
+- **Change control**: All scope changes go through formal procurement change process
+- **Payment milestone tracking**: Tie payments to verified deliverables (not just time)
+- **Relationship management**: Build trust; treat as partner (not adversary)
+- **Risk monitoring**: Watch for vendor financial issues, resource turnover, dependency risks
+- **Documentation**: Keep records of all decisions, changes, and acceptance
+- **Dispute resolution**: Use ADR (Alternative Dispute Resolution) before litigation
 
 ---
 
@@ -255,12 +255,12 @@ Use at project/team kickoff to establish working agreements.
 | [Name] | UX Designer | User research, UI design, prototypes | Part-time (50%) |
 
 ### Working Agreements
-- [ ] **Core hours**: [e.g., 10am-3pm EST everyone available]
-- [ ] **Communication preference**: [e.g., Slack for urgent, email for FYI]
-- [ ] **Meeting norms**: [e.g., cameras on, start on time, 5-min late = recap provided]
-- [ ] **Decision-making**: [e.g., consent-based, majority vote, PM decides if stuck]
-- [ ] **Conflict resolution**: [e.g., address directly first, then escalate to SM/PM]
-- [ ] **Definition of Done**: [e.g., coded, tested, reviewed, documented, demoed]
+- **Core hours**: [e.g., 10am-3pm EST everyone available]
+- **Communication preference**: [e.g., Slack for urgent, email for FYI]
+- **Meeting norms**: [e.g., cameras on, start on time, 5-min late = recap provided]
+- **Decision-making**: [e.g., consent-based, majority vote, PM decides if stuck]
+- **Conflict resolution**: [e.g., address directly first, then escalate to SM/PM]
+- **Definition of Done**: [e.g., coded, tested, reviewed, documented, demoed]
 
 ### Ground Rules & Values
 | Value | Behavior |
@@ -282,26 +282,26 @@ Team charters establish **clear expectations** and **working agreements** at kic
 Use to ensure effective sprint planning meetings.
 
 ### Before Sprint Planning
-- [ ] **Product Backlog groomed**: Top items refined, estimated, and prioritized
-- [ ] **Velocity known**: Team knows their average capacity from past sprints
-- [ ] **Definition of Ready met**: Stories have acceptance criteria, estimates, and are clear
-- [ ] **Stakeholder availability**: PO and key stakeholders available for questions
-- [ ] **Technical constraints identified**: Dependencies, environments, tools confirmed
+- **Product Backlog groomed**: Top items refined, estimated, and prioritized
+- **Velocity known**: Team knows their average capacity from past sprints
+- **Definition of Ready met**: Stories have acceptance criteria, estimates, and are clear
+- **Stakeholder availability**: PO and key stakeholders available for questions
+- **Technical constraints identified**: Dependencies, environments, tools confirmed
 
 ### During Sprint Planning
-- [ ] **Sprint Goal defined**: One clear objective for the sprint (not just a list of items)
-- [ ] **Team selects work**: Team pulls stories (not PM/PO assigning)
-- [ ] **Capacity discussed**: Account for vacations, meetings, other commitments
-- [ ] **Stories decomposed**: Break items into tasks (max 1 day each)
-- [ ] **Dependencies identified**: Note any external dependencies or handoffs
-- [ ] **Risks discussed**: What could block us this sprint?
-- [ ] **Team commits**: Team agrees they can deliver the selected scope
+- **Sprint Goal defined**: One clear objective for the sprint (not just a list of items)
+- **Team selects work**: Team pulls stories (not PM/PO assigning)
+- **Capacity discussed**: Account for vacations, meetings, other commitments
+- **Stories decomposed**: Break items into tasks (max 1 day each)
+- **Dependencies identified**: Note any external dependencies or handoffs
+- **Risks discussed**: What could block us this sprint?
+- **Team commits**: Team agrees they can deliver the selected scope
 
 ### After Sprint Planning
-- [ ] **Sprint Backlog visible**: All items and tasks on the board
-- [ ] **Sprint Goal posted**: Visible to team and stakeholders
-- [ ] **First day's work clear**: Everyone knows what to start tomorrow
-- [ ] **Retrospective scheduled**: End of sprint meeting on calendar
+- **Sprint Backlog visible**: All items and tasks on the board
+- **Sprint Goal posted**: Visible to team and stakeholders
+- **First day's work clear**: Everyone knows what to start tomorrow
+- **Retrospective scheduled**: End of sprint meeting on calendar
 
 ::: warning Anti-Pattern Alert
 If sprint planning takes too long (>4 hours for 2-week sprint) or ends without a clear sprint goal, the team lacks backlog refinement practices. The fix is **better grooming before planning**, not longer planning meetings.
@@ -316,22 +316,22 @@ Use quarterly or after major milestones to assess team effectiveness.
 ### Quantitative Metrics
 | Metric | Baseline | Current | Target | Trend |
 |---|---|---|---|---|
-| **Velocity** (story points/sprint) | [ ] | [ ] | [ ] | ↑ / → / ↓ |
-| **Sprint Commitment Met** (%) | [ ] | [ ] | 85%+ | ↑ / → / ↓ |
-| **Defect Escape Rate** (prod bugs) | [ ] | [ ] | Decreasing | ↑ / → / ↓ |
-| **Cycle Time** (days to complete) | [ ] | [ ] | Decreasing | ↑ / → / ↓ |
-| **Lead Time** (request to delivery) | [ ] | [ ] | Decreasing | ↑ / → / ↓ |
+| **Velocity** (story points/sprint) | | | | ↑ / → / ↓ |
+| **Sprint Commitment Met** (%) | | | 85%+ | ↑ / → / ↓ |
+| **Defect Escape Rate** (prod bugs) | | | Decreasing | ↑ / → / ↓ |
+| **Cycle Time** (days to complete) | | | Decreasing | ↑ / → / ↓ |
+| **Lead Time** (request to delivery) | | | Decreasing | ↑ / → / ↓ |
 
 ### Qualitative Assessment (1-5 Scale)
 | Dimension | Score | Evidence / Notes |
 |---|---|---|
-| **Collaboration**: Works well together; helps each other | [ ] | |
-| **Communication**: Clear, timely, transparent | [ ] | |
-| **Problem-solving**: Resolves issues independently | [ ] | |
-| **Continuous Improvement**: Implements retrospective actions | [ ] | |
-| **Stakeholder Satisfaction**: Users/sponsors are happy | [ ] | |
-| **Technical Excellence**: Code quality, testing, documentation | [ ] | |
-| **Morale/Engagement**: Team is motivated and engaged | [ ] | |
+| **Collaboration**: Works well together; helps each other | | |
+| **Communication**: Clear, timely, transparent | | |
+| **Problem-solving**: Resolves issues independently | | |
+| **Continuous Improvement**: Implements retrospective actions | | |
+| **Stakeholder Satisfaction**: Users/sponsors are happy | | |
+| **Technical Excellence**: Code quality, testing, documentation | | |
+| **Morale/Engagement**: Team is motivated and engaged | | |
 
 ### Improvement Actions
 | Area | Issue | Action | Owner | Target Date |
@@ -386,36 +386,36 @@ Benefits are often realized **after project closure**. The PM's role during exec
 Use when a risk trigger occurs and you need to execute the planned response.
 
 ### Step 1: Confirm Trigger
-- [ ] Verify the risk has actually occurred (not just a similar event)
-- [ ] Confirm the trigger matches what was defined in the Risk Register
-- [ ] Document the actual trigger conditions
+- Verify the risk has actually occurred (not just a similar event)
+- Confirm the trigger matches what was defined in the Risk Register
+- Document the actual trigger conditions
 
 ### Step 2: Execute Response
-- [ ] Retrieve the risk response plan from the Risk Register
-- [ ] Execute the planned response immediately (avoid delays)
-- [ ] If planned response isn't possible, escalate for alternative decision
-- [ ] Document actions taken with timestamps
+- Retrieve the risk response plan from the Risk Register
+- Execute the planned response immediately (avoid delays)
+- If planned response isn't possible, escalate for alternative decision
+- Document actions taken with timestamps
 
 ### Step 3: Convert to Issue
-- [ ] Create an Issue Log entry (Issue ID, description, date, owner)
-- [ ] Update Risk Register: Mark as "Occurred" or close the risk
-- [ ] Link the Issue to the original Risk for traceability
+- Create an Issue Log entry (Issue ID, description, date, owner)
+- Update Risk Register: Mark as "Occurred" or close the risk
+- Link the Issue to the original Risk for traceability
 
 ### Step 4: Assess Actual Impact
-- [ ] Compare actual impact to planned impact
-- [ ] If impact exceeds contingency reserve, prepare change request
-- [ ] Identify any secondary risks created by the response
+- Compare actual impact to planned impact
+- If impact exceeds contingency reserve, prepare change request
+- Identify any secondary risks created by the response
 
 ### Step 5: Communicate
-- [ ] Notify stakeholders per the Communications Plan
-- [ ] Provide: What happened, actions taken, current status, next steps
-- [ ] Update status reports and dashboards
+- Notify stakeholders per the Communications Plan
+- Provide: What happened, actions taken, current status, next steps
+- Update status reports and dashboards
 
 ### Step 6: Capture Lessons
-- [ ] What worked in the response? What didn't?
-- [ ] Was the risk correctly assessed? Was the response effective?
-- [ ] Update Lessons Learned Register
-- [ ] Recommend process improvements if needed
+- What worked in the response? What didn't?
+- Was the risk correctly assessed? Was the response effective?
+- Update Lessons Learned Register
+- Recommend process improvements if needed
 
 ::: tip Exam Shortcut
 If a risk occurs, your FIRST action is **execute the pre-planned response**, not "analyze the situation" or "create a new plan." Risk planning exists precisely for this moment.
@@ -428,49 +428,49 @@ If a risk occurs, your FIRST action is **execute the pre-planned response**, not
 Use for distributed, remote, or hybrid teams to maintain productivity and cohesion.
 
 ### Communication Setup
-- [ ] **Primary video platform confirmed** (Zoom, Teams, Meet)
-- [ ] **Backup communication channel available** (phone, alternate platform)
-- [ ] **Async communication tool agreed** (Slack, Teams, email)
-- [ ] **Project board visible to all** (Jira, Trello, Azure DevOps)
-- [ ] **Shared documentation repository** (Confluence, SharePoint, Notion)
+- **Primary video platform confirmed** (Zoom, Teams, Meet)
+- **Backup communication channel available** (phone, alternate platform)
+- **Async communication tool agreed** (Slack, Teams, email)
+- **Project board visible to all** (Jira, Trello, Azure DevOps)
+- **Shared documentation repository** (Confluence, SharePoint, Notion)
 
 ### Time Zone Management
-- [ ] **Team timezone overlay created** (World Time Buddy, shared calendar)
-- [ ] **Core overlap hours identified** (when everyone can meet)
-- [ ] **Meeting rotation schedule** (fair distribution across time zones)
-- [ ] **Async-first default** (minimize meetings, maximize documentation)
+- **Team timezone overlay created** (World Time Buddy, shared calendar)
+- **Core overlap hours identified** (when everyone can meet)
+- **Meeting rotation schedule** (fair distribution across time zones)
+- **Async-first default** (minimize meetings, maximize documentation)
 
 ### Communication Cadence
-- [ ] **Daily standup scheduled** (video on; consistent time or rotating)
-- [ ] **Weekly team sync** (longer agenda; blockers, priorities, demos)
-- [ ] **1-on-1s scheduled** (every 1-2 weeks with each team member)
-- [ ] **Retrospectives scheduled** (end of each sprint/phase)
+- **Daily standup scheduled** (video on; consistent time or rotating)
+- **Weekly team sync** (longer agenda; blockers, priorities, demos)
+- **1-on-1s scheduled** (every 1-2 weeks with each team member)
+- **Retrospectives scheduled** (end of each sprint/phase)
 
 ### Trust Building Activities
-- [ ] **Virtual team-building scheduled** (not just work; social connection)
-- [ ] **Personal check-ins incorporated** (brief "how are you?" in meetings)
-- [ ] **Recognition rituals established** (kudos channel, celebration of wins)
-- [ ] **Informal channels created** (virtual coffee, non-work chat)
+- **Virtual team-building scheduled** (not just work; social connection)
+- **Personal check-ins incorporated** (brief "how are you?" in meetings)
+- **Recognition rituals established** (kudos channel, celebration of wins)
+- **Informal channels created** (virtual coffee, non-work chat)
 
 ### Meeting Effectiveness
-- [ ] **Agenda shared in advance** (no surprise topics)
-- [ ] **Video default for all meetings** (cameras on when feasible)
-- [ ] **Engagement techniques used** (polls, reactions, call on quiet members)
-- [ ] **Meetings recorded** (for async viewers in other time zones)
-- [ ] **Action items captured** (who, what, when—before ending)
+- **Agenda shared in advance** (no surprise topics)
+- **Video default for all meetings** (cameras on when feasible)
+- **Engagement techniques used** (polls, reactions, call on quiet members)
+- **Meetings recorded** (for async viewers in other time zones)
+- **Action items captured** (who, what, when—before ending)
 
 ### Onboarding New Virtual Team Members
-- [ ] **Welcome video call scheduled** (meet the team)
-- [ ] **Documentation shared** (project context, decisions, culture)
-- [ ] **Buddy/mentor assigned** (connection for questions)
-- [ ] **Tool access verified** (all platforms, repos, boards)
-- [ ] **Early 1-on-1 with PM** (check-in after first week)
+- **Welcome video call scheduled** (meet the team)
+- **Documentation shared** (project context, decisions, culture)
+- **Buddy/mentor assigned** (connection for questions)
+- **Tool access verified** (all platforms, repos, boards)
+- **Early 1-on-1 with PM** (check-in after first week)
 
 ### Monitoring Engagement
-- [ ] **Participation tracked** (who is quieter than usual?)
-- [ ] **1-on-1 pulse checks** (ask about blockers, workload, morale)
-- [ ] **Action on silence** (reach out to disengaged team members)
-- [ ] **Retrospective feedback reviewed** (trends in team health)
+- **Participation tracked** (who is quieter than usual?)
+- **1-on-1 pulse checks** (ask about blockers, workload, morale)
+- **Action on silence** (reach out to disengaged team members)
+- **Retrospective feedback reviewed** (trends in team health)
 
 ::: warning Virtual Team Red Flags
 Watch for: Cameras always off, declining response times, reduced meeting participation, isolation patterns. Don't assume "no news is good news"—proactively check in.
@@ -500,24 +500,24 @@ Use during execution to ensure the project is on track to deliver value (not jus
 Use to stay focused on removing impediments and enabling the team.
 
 **Daily / Standup Focus:**
-- [ ] What blockers exist today? (Identify impediments)
-- [ ] Who can remove each blocker? (Assign owners)
-- [ ] What resources/decisions does the team need? (Provide support)
-- [ ] Are priorities still correct? (Adjust if value shifts)
-- [ ] Is anyone overloaded or context-switching? (Protect focus)
+- What blockers exist today? (Identify impediments)
+- Who can remove each blocker? (Assign owners)
+- What resources/decisions does the team need? (Provide support)
+- Are priorities still correct? (Adjust if value shifts)
+- Is anyone overloaded or context-switching? (Protect focus)
 
 **Weekly / Checkpoint Focus:**
-- [ ] Are there systemic blockers? (Process, tools, access, policies)
-- [ ] What feedback have we received? (User demos, retrospectives)
-- [ ] What lessons have we learned? (Update lessons learned register)
-- [ ] Do stakeholders have what they need? (Proactive communication)
-- [ ] Is the team motivated and healthy? (Morale, conflict, workload)
+- Are there systemic blockers? (Process, tools, access, policies)
+- What feedback have we received? (User demos, retrospectives)
+- What lessons have we learned? (Update lessons learned register)
+- Do stakeholders have what they need? (Proactive communication)
+- Is the team motivated and healthy? (Morale, conflict, workload)
 
 **Sprint / Phase Focus:**
-- [ ] Did we deliver value? (Outcomes, not just outputs)
-- [ ] What will we improve next? (Retrospective actions)
-- [ ] Is operational readiness progressing? (Training, docs, support)
-- [ ] Are dependencies with other teams clear? (Coordination)
+- Did we deliver value? (Outcomes, not just outputs)
+- What will we improve next? (Retrospective actions)
+- Is operational readiness progressing? (Training, docs, support)
+- Are dependencies with other teams clear? (Coordination)
 
 ::: tip Exam shortcut
 Servant leadership means **the team's success is your success**. If they're blocked, your job is to clear the path—not micromanage their work.

@@ -364,16 +364,16 @@ Agile integrates quality throughout the development cycle:
 
 A comprehensive DoD for a software team:
 
-- [ ] Code complete and compiles
-- [ ] Unit tests written and passing (>80% coverage)
-- [ ] Integration tests passing
-- [ ] Code reviewed by peer
-- [ ] Security scan completed (no critical issues)
-- [ ] Documentation updated
-- [ ] Performance criteria met
-- [ ] Deployed to staging environment
-- [ ] Product Owner demo completed
-- [ ] Acceptance criteria verified
+- Code complete and compiles
+- Unit tests written and passing (>80% coverage)
+- Integration tests passing
+- Code reviewed by peer
+- Security scan completed (no critical issues)
+- Documentation updated
+- Performance criteria met
+- Deployed to staging environment
+- Product Owner demo completed
+- Acceptance criteria verified
 
 ---
 
