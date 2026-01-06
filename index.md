@@ -333,6 +333,14 @@ import { withBase } from 'vitepress'
   <p class="domain-note"> <strong>Key Change:</strong> Business Environment increased from 8% to 26%, reflecting the strategic role of project managers</p>
 </div>
 
+### Domain Task Breakdown
+
+| Domain | Key Tasks Tested |
+|--------|------------------|
+| **People (33%)** | • Develop a common vision<br>• Manage conflicts<br>• Lead the project team<br>• Engage stakeholders<br>• Align stakeholder expectations<br>• Manage stakeholder expectations<br>• Help ensure knowledge transfer<br>• Plan and manage communication |
+| **Process (41%)** | • Develop an integrated project management plan and plan delivery<br>• Develop and manage project scope<br>• Help ensure value-based delivery<br>• Plan and manage resources<br>• Plan and manage procurement<br>• Plan and manage finance<br>• Plan and optimize quality of products/deliverables<br>• Plan and manage schedule<br>• Evaluate project status<br>• Manage project closure |
+| **Business Environment (26%)** | • Define and establish project governance<br>• Plan and manage project compliance<br>• Manage and control changes<br>• Remove impediments and manage issues<br>• Plan and manage risk<br>• Continuous improvement<br>• Support organizational change<br>• Evaluate external business environment changes |
+
 ## How to Use This Guide
 
 <div class="steps-section">
