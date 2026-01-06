@@ -12,7 +12,7 @@ import TriangleViz from './components/TriangleViz.vue'
 
 export default {
   extends: Theme,
-  enhanceApp({ app }) {
+  enhanceApp({ app, router }) {
     // Register global components
     app.component('QuizComponent', QuizComponent)
     app.component('ProgressBar', ProgressBar)
@@ -20,5 +20,12 @@ export default {
     app.component('ConceptCard', ConceptCard)
     app.component('PowerInterestGrid', PowerInterestGrid)
     app.component('TriangleViz', TriangleViz)
+
+    // Scroll to top on route change
+    if (router) {
+      router.onAfterRouteChanged = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+      }
+    }
   }
 }
