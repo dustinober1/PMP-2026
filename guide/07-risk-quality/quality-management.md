@@ -1,3 +1,11 @@
+
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # 7.2 Quality Management
 
 **ECO Task**: Plan and manage quality
@@ -15,18 +23,22 @@ In the PMP exam context, **Quality** is defined as the *degree to which a set of
 ##  Quality vs. Grade
 A common PMP trap is confusing these two concepts.
 
-<div class="quality-grid">
-  <div class="quality-card">
-    <div class="quality-title">Grade</div>
-    <div class="quality-tag">Category</div>
-    <p>A rank assigned to items having the same functional use but different technical characteristics (e.g., "Economy" vs. "First Class").</p>
-  </div>
-  <div class="quality-card">
-    <div class="quality-title">Quality</div>
-    <div class="quality-tag">Performance</div>
-    <p>How well the item follows the predefined specifications and requirements. (e.g., Does the economy seat actually recline?).</p>
-  </div>
-</div>
+<ConceptGrid>
+  <ConceptCard 
+    title="Grade"
+    subtitle="Category"
+    variant="primary"
+  >
+    A rank assigned to items having the same functional use but different technical characteristics (e.g., "Economy" vs. "First Class").
+  </ConceptCard>
+  <ConceptCard 
+    title="Quality"
+    subtitle="Performance"
+    variant="secondary"
+  >
+    How well the item follows the predefined specifications and requirements. (e.g., Does the economy seat actually recline?).
+  </ConceptCard>
+</ConceptGrid>
 
 ::: warning  The Golden Rule
 Low **Grade** is acceptable (if that's what was paid for). Low **Quality** is *never* acceptable.
@@ -61,28 +73,32 @@ If you see **inspect, test, verify deliverable** → think **QC (Control Quality
 ##  QA vs. QC (Process vs. Product)
 Modern project management moves from checking for errors (reactive) to preventing them (proactive).
 
-<div class="cycle-grid">
-  <div class="cycle-card proactive">
-    <div class="cycle-title">Quality Assurance (QA)</div>
-    <div class="cycle-subtitle">"The Process"</div>
-    <p>Proactive activities aimed at <strong>preventing defects</strong> by ensuring the team follows the right procedures.</p>
+<ConceptGrid>
+  <ConceptCard 
+    title="Quality Assurance (QA)"
+    subtitle="The Process"
+    variant="primary"
+  >
+    Proactive activities aimed at <strong>preventing defects</strong> by ensuring the team follows the right procedures.
     <ul>
       <li>Quality audits</li>
-      <li>Process analysis / improvement</li>
+      <li>Process analysis and improvement</li>
       <li>Peer reviews (process-focused)</li>
     </ul>
-  </div>
-  <div class="cycle-card reactive">
-    <div class="cycle-title">Quality Control (QC)</div>
-    <div class="cycle-subtitle">"The Result"</div>
-    <p>Reactive activities aimed at <strong>identifying defects</strong> in the final deliverables before they reach the customer.</p>
+  </ConceptCard>
+  <ConceptCard 
+    title="Quality Control (QC)"
+    subtitle="The Result"
+    variant="secondary"
+  >
+    Reactive activities aimed at <strong>identifying defects</strong> in the final deliverables before they reach the customer.
     <ul>
       <li>Testing</li>
       <li>Inspections</li>
       <li>Verification against acceptance criteria</li>
     </ul>
-  </div>
-</div>
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -445,59 +461,39 @@ In Agile, "fitness for use" is validated through:
 Use [7.4 Tools & Templates](./toolkit) for a starter DoD checklist and quick “which tool do I use?” reference.
 :::
 
-<style>
-.quality-grid, .cycle-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0;
-}
 
-.quality-card, .cycle-card {
-  padding: 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-}
+## Quick Review
 
-.quality-title, .cycle-title {
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin-bottom: 0.25rem;
-}
+<FlashcardGrid>
+  <Flashcard 
+    front="QA vs. QC?" 
+    back="QA is process-focused and proactive (prevention). QC is product-focused and reactive (inspection)." 
+  />
+  <Flashcard 
+    front="Quality vs. Grade?" 
+    back="Quality is how well it meets specs (must be high). Grade is the rank/category (can be low)." 
+  />
+  <Flashcard 
+    front="Cost of Quality (CoQ) components?" 
+    back="Conformance (Prevention + Appraisal) and Nonconformance (Internal + External Failure)." 
+  />
+  <Flashcard 
+    front="What is the Rule of Seven in Control Charts?" 
+    back="7 consecutive points on one side of the mean indicates a non-random shift requiring investigation." 
+  />
+  <Flashcard 
+    front="Variable vs. Attribute Sampling?" 
+    back="Variable = continuous (measurement). Attribute = discrete (pass/fail)." 
+  />
+  <Flashcard 
+    front="What are the 7 Basic Quality Tools?" 
+    back="Cause-Effect, Flowchart, Checksheet, Pareto, Histogram, Control Chart, Scatter Diagram." 
+  />
+</FlashcardGrid>
 
-.quality-tag, .cycle-subtitle {
-  font-size: 0.75rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
-
-.cycle-card ul {
-  padding-left: 1.25rem;
-  font-size: 0.85rem;
-  margin-top: 1rem;
-}
-
-.proactive { border-top: 4px solid #3b82f6; }
-.reactive { border-top: 4px solid #ef4444; }
-</style>
-
----
-
-<div class="study-tip">
-  <strong> Exam Insight:</strong> If defects are recurring, the FIRST step is <strong>Root Cause Analysis</strong> (often <strong>Fishbone + 5 Whys</strong>). Fixing symptoms (e.g., “test more”) without fixing causes leads to rework and higher Cost of Quality.
-</div>
-
-<style>
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+::: tip  Exam Insight
+If defects are recurring, the FIRST step is <strong>Root Cause Analysis</strong> (often <strong>Fishbone + 5 Whys</strong>). Fixing symptoms (e.g., “test more”) without fixing causes leads to rework and higher Cost of Quality.
+:::
 
 ---
 

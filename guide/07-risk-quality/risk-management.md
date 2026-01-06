@@ -1,3 +1,11 @@
+
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # 7.1 Risk Management
 
 **ECO Task**: Plan and manage risk
@@ -31,33 +39,41 @@ Risk management is not “one workshop then a register.” It’s a loop you run
 ##  The Risk Framework (Threats + Opportunities)
 Every risk has three elements: **cause → event → impact**.
 
-<div class="risk-type-grid">
-  <div class="risk-type-card threat">
-    <div class="risk-type-title">Threats</div>
-    <div class="risk-type-subtitle">Negative Risks</div>
-    <p>Events you want to <strong>Avoid</strong>, <strong>Mitigate</strong>, or <strong>Transfer</strong>.</p>
+<ConceptGrid>
+  <ConceptCard 
+    title="Threats"
+    subtitle="Negative Risks"
+    variant="primary"
+  >
+    Events you want to <strong>Avoid</strong>, <strong>Mitigate</strong>, or <strong>Transfer</strong>.
     <ul>
       <li><strong>Resource shortage:</strong> Key architect gets sick.</li>
       <li><strong>Scope creep:</strong> New requirements keep appearing.</li>
       <li><strong>Technical debt:</strong> Platform is less stable than expected.</li>
     </ul>
-  </div>
-  <div class="risk-type-card opportunity">
-    <div class="risk-type-title">Opportunities</div>
-    <div class="risk-type-subtitle">Positive Risks</div>
-    <p>Events you want to <strong>Exploit</strong>, <strong>Enhance</strong>, or <strong>Share</strong>.</p>
+  </ConceptCard>
+
+  <ConceptCard 
+    title="Opportunities"
+    subtitle="Positive Risks"
+    variant="secondary"
+  >
+    Events you want to <strong>Exploit</strong>, <strong>Enhance</strong>, or <strong>Share</strong>.
     <ul>
       <li><strong>Efficiency gain:</strong> Team discovers a faster method.</li>
       <li><strong>Cost reduction:</strong> Vendor offers bulk pricing.</li>
       <li><strong>Innovation:</strong> New tech solves the problem better.</li>
     </ul>
-  </div>
-  <div class="risk-type-card overall">
-    <div class="risk-type-title">Overall Project Risk</div>
-    <div class="risk-type-subtitle">The “Net Uncertainty”</div>
-    <p>The combined effect of all uncertainty. Two projects can have the same specific risks, but one might be much riskier overall due to complexity, political environment, or strict constraints.</p>
-  </div>
-</div>
+  </ConceptCard>
+
+  <ConceptCard 
+    title="Overall Project Risk"
+    subtitle="The Net Uncertainty"
+    variant="primary"
+  >
+    The combined effect of all uncertainty. Two projects can have the same specific risks, but one might be much riskier overall due to complexity, political environment, or strict constraints.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -145,19 +161,25 @@ The exam may test your ability to spot why a team is missing risks:
 ##  Analyze Risks (Qualitative → Quantitative)
 You prioritize where to spend limited management energy.
 
-<div class="analysis-grid">
-  <div class="analysis-card">
-    <div class="analysis-title">Qualitative Analysis</div>
-    <div class="analysis-tag">Fast & Judgment-Based</div>
-    <p>Rank risks (e.g., High/Medium/Low) using a <strong>Probability/Impact Matrix</strong>. Also consider <strong>Urgency</strong> (how soon?) and <strong>Proximity</strong> (how close?).</p>
-    <p><strong>Crucial Step: Risk Data Quality Assessment</strong>. Before believing the data, ask: "Is this risk data accurate and reliable?" If you are guessing, the analysis is worthless.</p>
-  </div>
-  <div class="analysis-card">
-    <div class="analysis-title">Quantitative Analysis</div>
-    <div class="analysis-tag">Numerical & Data-Driven</div>
-    <p>Estimate numeric outcomes using <strong>EMV</strong>, <strong>decision trees</strong>, or <strong>Monte Carlo</strong> when stakeholders need confidence levels (e.g., "We have an 85% chance of finishing by June").</p>
-  </div>
-</div>
+<ConceptGrid>
+  <ConceptCard 
+    title="Qualitative Analysis"
+    subtitle="Fast and Judgment-Based"
+    variant="primary"
+  >
+    Rank risks (e.g., High or Medium or Low) using a <strong>Probability and Impact Matrix</strong>. Also consider <strong>Urgency</strong> (how soon?) and <strong>Proximity</strong> (how close?).
+    <br><br>
+    <strong>Crucial Step: Risk Data Quality Assessment</strong>. Before believing the data, ask: "Is this risk data accurate and reliable?" If you are guessing, the analysis is worthless.
+  </ConceptCard>
+
+  <ConceptCard 
+    title="Quantitative Analysis"
+    subtitle="Numerical and Data-Driven"
+    variant="secondary"
+  >
+    Estimate numeric outcomes using <strong>EMV</strong>, <strong>decision trees</strong>, or <strong>Monte Carlo</strong> when stakeholders need confidence levels (e.g., "We have an 85% chance of finishing by June").
+  </ConceptCard>
+</ConceptGrid>
 
 ### Quantitative Analysis Techniques (Exam-Ready)
 
@@ -596,60 +618,39 @@ In Agile, risk management is continuous and built into feedback loops:
 
 ---
 
-<div class="study-tip">
-  <strong> Exam Insight:</strong> If an exam scenario says a risk has occurred, the FIRST action is to <strong>implement the planned response</strong> and update the <strong>Issue Log</strong>. The time for analysis was when it was still a risk.
-</div>
 
-<style>
-.risk-type-grid, .analysis-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.25rem;
-  margin: 1.5rem 0;
-}
+## Quick Review
 
-.risk-type-card, .analysis-card {
-  padding: 1.25rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-}
+<FlashcardGrid>
+  <Flashcard 
+    front="What is the difference between a Risk and an Issue?" 
+    back="Risk is a future uncertainty (Risk Register). Issue is a present reality (Issue Log)." 
+  />
+  <Flashcard 
+    front="What are the 5 response strategies for Threats?" 
+    back="Avoid, Mitigate, Transfer, Accept, Escalate." 
+  />
+  <Flashcard 
+    front="What are the 5 response strategies for Opportunities?" 
+    back="Exploit, Enhance, Share, Accept, Escalate." 
+  />
+  <Flashcard 
+    front="What does a Tornado Diagram show?" 
+    back="Sensitivity analysis—it shows which variables have the greatest impact on the project." 
+  />
+  <Flashcard 
+    front="Contingency Reserve vs. Management Reserve?" 
+    back="Contingency is for identified risks (PM controlled). Management is for unknown risks (Sponsor controlled)." 
+  />
+  <Flashcard 
+    front="What is EMV?" 
+    back="Expected Monetary Value = Probability x Impact ($)." 
+  />
+</FlashcardGrid>
 
-.risk-type-title, .analysis-title {
-  font-weight: 700;
-  font-size: 1.1rem;
-  margin-bottom: 0.25rem;
-}
-
-.risk-type-subtitle, .analysis-tag {
-  font-size: 0.75rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
-
-.threat { border-top: 4px solid #ef4444; }
-.opportunity { border-top: 4px solid #10b981; }
-.overall { border-top: 4px solid #8b5cf6; }
-
-.threat .risk-type-title { color: #ef4444; }
-.opportunity .risk-type-title { color: #10b981; }
-.overall .risk-type-title { color: #8b5cf6; }
-
-.analysis-card p, .risk-type-card p {
-  font-size: 0.9rem;
-  margin: 0;
-  line-height: 1.55;
-}
-
-.study-tip {
-  background: var(--vp-c-brand-soft);
-  border-left: 4px solid var(--vp-c-brand);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-</style>
+::: tip  Exam Insight
+If an exam scenario says a risk has occurred, the FIRST action is to <strong>implement the planned response</strong> and update the <strong>Issue Log</strong>. The time for analysis was when it was still a risk.
+:::
 
 
 
