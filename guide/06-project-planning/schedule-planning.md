@@ -120,12 +120,52 @@ The Critical Path Method identifies the longest path through the network—the m
 
 ### Step-by-Step CPM Example
 
-<strong>Given Network:</strong>
-```
-Start → A(3d) → B(4d) → E(2d) → End
-          ↓
-        C(5d) → D(3d) 
-```
+<ConceptCard title="Given Network: Visual Representation" variant="secondary">
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 20px;">
+    <!-- Node A -->
+    <div style="background: var(--vp-c-brand); color: white; padding: 8px 16px; border-radius: 4px; font-weight: bold;">
+      A (3d)
+    </div>
+
+    <!-- Split arrow arrows -->
+    <div style="display: flex; gap: 100px; width: 100%; justify-content: center;">
+      <div style="font-size: 20px;">↙</div>
+      <div style="font-size: 20px;">↘</div>
+    </div>
+
+    <!-- Parallel nodes B and C -->
+    <div style="display: flex; gap: 50px; justify-content: center; align-items: flex-start;">
+      <!-- Path 1: B -->
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
+        <div style="background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-brand); padding: 8px 16px; border-radius: 4px;">B (4d)</div>
+      </div>
+      
+       <!-- Path 2: C -> D -->
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+         <div style="background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-brand); padding: 8px 16px; border-radius: 4px;">C (5d)</div>
+         <div style="font-size: 20px;">↓</div>
+         <div style="background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-brand); padding: 8px 16px; border-radius: 4px;">D (3d)</div>
+      </div>
+    </div>
+
+    <!-- Merge arrows -->
+    <div style="display: flex; gap: 100px; width: 100%; justify-content: center;">
+      <div style="font-size: 20px;">↘</div>
+      <div style="font-size: 20px;">↙</div>
+    </div>
+
+    <!-- Node E -->
+    <div style="background: var(--vp-c-brand); color: white; padding: 8px 16px; border-radius: 4px; font-weight: bold;">
+      E (2d)
+    </div>
+
+  </div>
+  <p style="text-align: center; font-size: 0.9em; margin-top: 10px;">
+    <strong>Logic:</strong> A finishes (Day 3). Then B and C start. <br>
+    B finishes Day 7. C finishes Day 8, then D starts. D finishes Day 11. <br>
+    E waits for both B (Day 7) and D (Day 11), so E starts Day 11.
+  </p>
+</ConceptCard>
 
 **Step 1: Forward Pass (Calculate Early Start and Early Finish)**
 
