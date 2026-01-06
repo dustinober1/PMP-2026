@@ -300,6 +300,26 @@ If your project collects or uses personal data (especially for AI training), exa
   { 
     front: 'What is \'Quality Audit\' in the context of compliance?', 
     back: 'A structured, independent process to determine if project activities comply with organizational and project policies.' 
+  },
+  { 
+    front: 'What is the Priority Rule when laws and policies conflict?', 
+    back: 'Laws and safety always win. You cannot trade safety or legality for schedule or cost.' 
+  },
+  { 
+    front: 'What are PMI\'s four core ethical values?', 
+    back: 'Responsibility, Respect, Fairness, and Honesty.' 
+  },
+  { 
+    front: 'What is the difference between Governance and Management?', 
+    back: 'Governance sets direction (We are going North); Management executes (Here is the map to get North).' 
+  },
+  { 
+    front: 'How does Agile governance differ from Traditional governance?', 
+    back: 'Agile uses System Demos and Retrospectives instead of Phase Gates, focusing on working software rather than documents.' 
+  },
+  { 
+    front: 'What are the 5 principles of Data Privacy?', 
+    back: 'Minimize, Consent, Secure, Retention, and Document.' 
   }
 ]" />
 

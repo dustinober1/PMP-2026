@@ -122,6 +122,26 @@ In the 2026 exam, AI is often a tool for value creation.
   { 
     front: 'Give an example of a non-financial benefit.', 
     back: 'Customer Satisfaction (NPS), Employee Engagement, or Risk Mitigation.' 
+  },
+  { 
+    front: 'What is the difference between an Output and an Outcome?', 
+    back: 'Output is what you build (deliverable); Outcome is how users respond (behavior change).' 
+  },
+  { 
+    front: 'What are the key elements of a Benefits Realization Plan?', 
+    back: 'Benefit statement, KPI/baseline, target/timeframe, benefits owner, measurement method, assumptions, and sustainment actions.' 
+  },
+  { 
+    front: 'What is the relationship between ROI and NPV?', 
+    back: 'ROI measures return relative to cost ((Benefits-Costs)/Costs); NPV measures future cash flows in today\'s dollars.' 
+  },
+  { 
+    front: 'What is the Benefits Lifecycle?', 
+    back: 'Identification, Planning, Execution, Transition, and Sustainment.' 
+  },
+  { 
+    front: 'How does AI contribute to value creation in projects?', 
+    back: 'AI can automate detection (Output), change user behavior (Outcome), and deliver measurable improvements like cost reduction (Benefit).' 
   }
 ]" />
 

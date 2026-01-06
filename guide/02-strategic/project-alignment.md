@@ -58,6 +58,30 @@ A **Program** is managed to achieve benefits not available from managing project
   { 
     front: 'What should a PM do if they discover a dependency they don\'t control?', 
     back: '1. Contact peer PM directly. 2. Escalate to Program Manager if unresolved.' 
+  },
+  { 
+    front: 'What is Capability Sharing in program synergy?', 
+    back: 'Two projects using the same framework sharing development costs and lessons learned.' 
+  },
+  { 
+    front: 'What is Resource Optimization in program synergy?', 
+    back: 'Scheduling shared resources like designers or testing labs to avoid idle time or resource locks.' 
+  },
+  { 
+    front: 'What is a Prerequisite dependency?', 
+    back: 'When Project A must deliver something (like an API) before Project B can proceed.' 
+  },
+  { 
+    front: 'What is a Resource Lock dependency?', 
+    back: 'When multiple projects need the same scarce resource at the same time.' 
+  },
+  { 
+    front: 'What is Risk Mitigation synergy in a program?', 
+    back: 'Identifying a risk in one project that might also impact another and creating a joint response.' 
+  },
+  { 
+    front: 'What is the PM action for a Technical Constraint dependency?', 
+    back: 'Align technical requirements early between projects to ensure compatibility.' 
   }
 ]" />
 

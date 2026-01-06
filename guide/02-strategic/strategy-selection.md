@@ -116,6 +116,26 @@ Your organization spent $5M (Sunk Cost). It will cost $2M more to finish a proje
   { 
     front: 'What is Sunk Cost?', 
     back: 'Money already spent that cannot be recovered. It should NOT be considered when deciding whether to continue a project.' 
+  },
+  { 
+    front: 'What does SWOT stand for?', 
+    back: 'Strengths and Weaknesses (Internal) vs Opportunities and Threats (External).' 
+  },
+  { 
+    front: 'What does a Balanced Scorecard measure?', 
+    back: 'Performance across four perspectives: Financial, Customer, Internal Process, and Learning/Growth.' 
+  },
+  { 
+    front: 'Are compliance projects optional if they have negative NPV?', 
+    back: 'No. Compliance projects are non-negotiable even with negative NPV - they keep the license to operate.' 
+  },
+  { 
+    front: 'What is the NPV decision rule?', 
+    back: 'NPV > 0 means ACCEPT; NPV < 0 means REJECT.' 
+  },
+  { 
+    front: 'What is the Law of Diminishing Returns?', 
+    back: 'The point where adding more input yields less output - e.g., adding more people to a late project often makes it later.' 
   }
 ]" />
 

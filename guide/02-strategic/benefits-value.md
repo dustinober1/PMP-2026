@@ -71,6 +71,26 @@ Traditional PM focused on Scope, Time, and Cost. The modern PM focuses on the **
   { 
     front: 'When is value usually realized in a project lifecycle?', 
     back: 'Usually after the project ends, once the deliverables are adopted and used by the business.' 
+  },
+  { 
+    front: 'What are the five stages of the Value Delivery System?', 
+    back: 'Idea/Opportunity, Selection, Delivery, Adoption, and Realization.' 
+  },
+  { 
+    front: 'Why does the PMP exam reward incremental delivery?', 
+    back: 'Because value is discovered and confirmed over time through early validation and feedback.' 
+  },
+  { 
+    front: 'What is the \'Profit\' pillar of the Triple Bottom Line?', 
+    back: 'Financial viability including ROI, NPV, and cost savings.' 
+  },
+  { 
+    front: 'What is the \'People\' pillar of the Triple Bottom Line?', 
+    back: 'Social impact including improved lives for employees and the community.' 
+  },
+  { 
+    front: 'What is the \'Planet\' pillar of the Triple Bottom Line?', 
+    back: 'Environmental sustainability including carbon footprint reduction and waste management.' 
   }
 ]" />
 

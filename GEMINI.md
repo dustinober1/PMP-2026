@@ -56,6 +56,7 @@ The following NPM scripts are available in `package.json`:
 The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/workflows/` handles automated deployment on push, or it can be triggered manually via `npm run deploy`.
 
 ## Recent Changes
+- **2026-01-06**: Expanded flashcards in all 12 Chapter 2 (Strategic) content pages to ensure at least 10 flashcards per page, covering key exam concepts like PESTLE, ADKAR, PMO types, portfolio governance, program management, benefits realization, compliance, governance, and sustainability.
 - **2026-01-06**: Converted markdown bold labels (`**Label:**`) to HTML `<strong>` tags across all 26 testbank files and guide folder files for cleaner rendering without visible markdown syntax inside Vue component slots.
 - **2026-01-06**: Removed "Take Practice Exams" step from homepage "How to Use This Guide" section since practice exams are not ready for launch.
 - **2026-01-06**: Enhanced homepage by removing "Practice Exams" link (not ready for launch), adding emojis/icons to feature cards and "What's New in 2026" section, and improving card styling with better hover effects and visual distinction.

@@ -139,6 +139,26 @@ Passive monitoring—waiting for your sponsor to call with news—is a recipe fo
   { 
     front: 'If a law changes in the middle of a project, what comes first?', 
     back: 'Assess the impact on the project and initiate a Change Request to ensure compliance.' 
+  },
+  { 
+    front: 'What are the 5 steps of the Impact Assessment Process?', 
+    back: 'Identify, Evaluate, Escalate, Respond, and Update.' 
+  },
+  { 
+    front: 'What is an \'Immediate Alert\' trigger?', 
+    back: 'A stop-work trigger such as a new law making current work illegal, a safety incident, or a data breach.' 
+  },
+  { 
+    front: 'What should a PM set up for environmental scanning?', 
+    back: 'A cadence (monthly scan), owners for each category, triggers for escalation, and a place to record impacts.' 
+  },
+  { 
+    front: 'What is the response window for regulatory proposals?', 
+    back: 'Months to years - allowing time for early assessment and stakeholder engagement.' 
+  },
+  { 
+    front: 'When a new regulation is proposed, what is the best PM action?', 
+    back: 'Early assessment and stakeholder engagement, not waiting until it becomes law.' 
   }
 ]" />
 
