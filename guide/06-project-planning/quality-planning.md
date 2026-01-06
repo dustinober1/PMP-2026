@@ -483,6 +483,26 @@ A comprehensive Quality Management Plan includes:
   { 
     front: 'What is the goal of a Fishbone Diagram?', 
     back: 'To identify the root cause of a specific problem or defect.' 
+  },
+  { 
+    front: 'What are the four categories of Cost of Quality?', 
+    back: 'Prevention costs, Appraisal costs, Internal failure costs, and External failure costs.' 
+  },
+  { 
+    front: 'What is a Control Chart used to monitor?', 
+    back: 'Process stability over time - it shows whether variation is within normal limits (common cause) or abnormal (special cause).' 
+  },
+  { 
+    front: 'What is a Histogram used for?', 
+    back: 'To show the frequency distribution of data and identify patterns like normal distribution or skewness.' 
+  },
+  { 
+    front: 'Prevention vs. Appraisal costs?', 
+    back: 'Prevention = training, design reviews (before defects). Appraisal = testing, inspections (finding defects).' 
+  },
+  { 
+    front: 'What is the key quality principle for PMP?', 
+    back: 'Prevention over Inspection - build quality in from the start, as prevention costs less than finding/fixing defects later.' 
   }
 ]" />
 

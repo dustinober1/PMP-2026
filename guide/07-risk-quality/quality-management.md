@@ -489,6 +489,22 @@ Use [7.4 Tools & Templates](./toolkit) for a starter DoD checklist and quick “
   { 
     front: 'What are the 7 Basic Quality Tools?', 
     back: 'Cause-Effect, Flowchart, Checksheet, Pareto, Histogram, Control Chart, Scatter Diagram.' 
+  },
+  { 
+    front: 'What is DMAIC?', 
+    back: 'Six Sigma methodology: Define, Measure, Analyze, Improve, Control - for process improvement.' 
+  },
+  { 
+    front: 'What is the Kano Model?', 
+    back: 'Categorizes requirements by customer satisfaction impact: Basic (must-have), Performance (linear), Delighters (excitement).' 
+  },
+  { 
+    front: 'What is the Definition of Done (DoD)?', 
+    back: 'A team-level quality checklist that applies to ALL stories - ensures consistent completeness standards.' 
+  },
+  { 
+    front: 'What is marginal analysis in quality?', 
+    back: 'Finding the optimal quality level where marginal cost equals marginal benefit - more investment yields no additional value.' 
   }
 ]" />
 

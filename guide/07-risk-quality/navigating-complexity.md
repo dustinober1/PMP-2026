@@ -468,7 +468,23 @@ If the environment is described as “out of control”:
   },
   { 
     front: 'What does the ADKAR model stand for?', 
-    back: 'Awareness, Desire, Knowledge, Ability, Reinforcement.' 
+    back: 'Awareness, Desire, Knowledge, Ability, Reinforcement - for individual change management.' 
+  },
+  { 
+    front: 'What is the Stacey Matrix?', 
+    back: 'Maps projects by Agreement (on requirements) and Certainty (on technology) to determine delivery approach.' 
+  },
+  { 
+    front: 'What is Shifting the Burden archetype?', 
+    back: 'A quick fix addresses symptoms but makes the fundamental solution harder to apply over time.' 
+  },
+  { 
+    front: 'What is psychological safety?', 
+    back: 'Team members feel safe to report bad news, admit mistakes, and speak up without punishment.' 
+  },
+  { 
+    front: 'How do WIP limits support complexity management?', 
+    back: 'Prevent overloading, make bottlenecks visible, and force focus on completing work before starting new work.' 
   }
 ]" />
 

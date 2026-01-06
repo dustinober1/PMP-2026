@@ -613,6 +613,26 @@ Use this interactive tool to practice the formulas and logic of Earned Value Man
   { 
     front: 'What does TCPI > 1.0 indicate?', 
     back: 'The team must be MORE efficient than originally planned to hit the target budget.' 
+  },
+  { 
+    front: 'What is the most common EAC formula?', 
+    back: 'EAC = BAC / CPI - assumes current cost performance continues for remaining work.' 
+  },
+  { 
+    front: 'What is VAC (Variance at Completion)?', 
+    back: 'VAC = BAC - EAC. Shows expected surplus (positive) or deficit (negative) at project end.' 
+  },
+  { 
+    front: 'What is Opportunity Cost?', 
+    back: 'The value of the next best alternative not chosen - should be considered when comparing options.' 
+  },
+  { 
+    front: 'SV and CV formulas?', 
+    back: 'SV = EV - PV (schedule variance). CV = EV - AC (cost variance). Positive is good.' 
+  },
+  { 
+    front: 'What is Lifecycle Costing?', 
+    back: 'Total Cost of Ownership including acquisition, operations, maintenance, and disposal costs.' 
   }
 ]" />
 

@@ -487,6 +487,26 @@ Difference between P50 and desired confidence level (e.g., P80)
   { 
     front: 'What is a Risk Trigger?', 
     back: 'An early warning sign or event that indicates a risk is about to occur.' 
+  },
+  { 
+    front: 'What is EMV (Expected Monetary Value)?', 
+    back: 'EMV = Probability × Impact in dollars - used for decision trees and calculating contingency reserves.' 
+  },
+  { 
+    front: 'What is Secondary Risk?', 
+    back: 'A new risk created by implementing a risk response (e.g., backup vendor may have quality issues).' 
+  },
+  { 
+    front: 'What does Monte Carlo simulation produce?', 
+    back: 'Probability distributions for project completion - showing P50, P80, P90 confidence levels.' 
+  },
+  { 
+    front: 'What are the 5 response strategies for opportunities?', 
+    back: '1. Exploit, 2. Enhance, 3. Share, 4. Accept, 5. Escalate.' 
+  },
+  { 
+    front: 'Who is the Risk Owner?', 
+    back: 'The person assigned responsibility for monitoring the risk and implementing the response if triggered.' 
   }
 ]" />
 

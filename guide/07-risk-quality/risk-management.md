@@ -646,6 +646,22 @@ In Agile, risk management is continuous and built into feedback loops:
   { 
     front: 'What is EMV?', 
     back: 'Expected Monetary Value = Probability x Impact ($).' 
+  },
+  { 
+    front: 'What is Risk Appetite vs. Risk Threshold?', 
+    back: 'Appetite is degree of uncertainty accepted. Threshold is specific point requiring action.' 
+  },
+  { 
+    front: 'What does Monte Carlo simulation produce?', 
+    back: 'Probability distributions showing confidence levels (P50, P80, P90) for cost and schedule.' 
+  },
+  { 
+    front: 'What is Residual Risk?', 
+    back: 'Risk remaining after a response strategy has been implemented.' 
+  },
+  { 
+    front: 'What is the Risk Breakdown Structure (RBS)?', 
+    back: 'A hierarchical categorization of risks (Technical, External, Organizational, PM) to ensure complete coverage.' 
   }
 ]" />
 

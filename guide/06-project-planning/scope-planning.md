@@ -554,6 +554,26 @@ Many organizations use a tiered change authority:
   { 
     front: 'Product Scope vs. Project Scope?', 
     back: 'Product Scope = Features/functions of the result. Project Scope = Work required to deliver those features.' 
+  },
+  { 
+    front: 'What does the WBS Dictionary contain?', 
+    back: 'Detailed specs for each WBS element: description, acceptance criteria, cost, duration, resources, and dependencies.' 
+  },
+  { 
+    front: 'What is the RTM used for?', 
+    back: 'Requirements Traceability Matrix links requirements to their origin and the deliverables and tests that satisfy them.' 
+  },
+  { 
+    front: 'What does MoSCoW stand for?', 
+    back: 'Must Have, Should Have, Could Have, and Won\'t Have - a prioritization method for requirements.' 
+  },
+  { 
+    front: 'What is the difference between Acceptance Criteria and DoD?', 
+    back: 'Acceptance Criteria is specific to one story; Definition of Done applies to ALL stories (team quality checklist).' 
+  },
+  { 
+    front: 'Validate Scope vs. Control Scope?', 
+    back: 'Validate Scope = formal acceptance of deliverables. Control Scope = monitoring status and managing changes.' 
   }
 ]" />
 

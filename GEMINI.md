@@ -56,6 +56,8 @@ The following NPM scripts are available in `package.json`:
 The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/workflows/` handles automated deployment on push, or it can be triggered manually via `npm run deploy`.
 
 ## Recent Changes
+- **2026-01-06**: Expanded flashcards in all 7 Chapter 6 (Project Planning) content pages to ensure at least 10 flashcards per page, covering scope (WBS, RTM, MoSCoW), schedule (CPM, PERT, dependencies), cost (EVM, reserves), quality (7 tools, CoQ), resources (RACI, contracts), risk (EMV, responses), and communications (channels, methods).
+- **2026-01-06**: Expanded flashcards in all 3 Chapter 7 (Risk, Quality and Complexity) content pages to ensure at least 10 flashcards per page, covering quality tools (DMAIC, Kano, DoD), complexity (Cynefin, ADKAR, systems thinking), and risk management (EMV, Monte Carlo, RBS).
 - **2026-01-06**: Expanded flashcards in all 6 Chapter 4 (Stakeholder and Communication) content pages to ensure at least 10 flashcards per page, covering key exam concepts like Power/Interest Grid, Salience Model, communication methods, negotiation (BATNA/ZOPA), and engagement strategies.
 - **2026-01-06**: Removed checkbox markdown syntax (`[ ]`) from 12 guide files to clean up the content presentation, converting checklist items to standard bullet points and clearing table cells.
 - **2026-01-06**: Expanded flashcards in all 8 Chapter 3 (Team Leadership) content pages to ensure at least 10 flashcards per page, covering key exam concepts like Tuckman stages, SLII leadership, motivation theories, conflict resolution (TKI), RACI, team charter, and virtual collaboration.
