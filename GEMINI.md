@@ -56,6 +56,7 @@ The following NPM scripts are available in `package.json`:
 The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/workflows/` handles automated deployment on push, or it can be triggered manually via `npm run deploy`.
 
 ## Recent Changes
+- **2026-01-06**: Expanded flashcards in all 6 Chapter 4 (Stakeholder and Communication) content pages to ensure at least 10 flashcards per page, covering key exam concepts like Power/Interest Grid, Salience Model, communication methods, negotiation (BATNA/ZOPA), and engagement strategies.
 - **2026-01-06**: Removed checkbox markdown syntax (`[ ]`) from 12 guide files to clean up the content presentation, converting checklist items to standard bullet points and clearing table cells.
 - **2026-01-06**: Expanded flashcards in all 8 Chapter 3 (Team Leadership) content pages to ensure at least 10 flashcards per page, covering key exam concepts like Tuckman stages, SLII leadership, motivation theories, conflict resolution (TKI), RACI, team charter, and virtual collaboration.
 - **2026-01-06**: Expanded flashcards in all 12 Chapter 2 (Strategic) content pages to ensure at least 10 flashcards per page, covering key exam concepts like PESTLE, ADKAR, PMO types, portfolio governance, program management, benefits realization, compliance, governance, and sustainability.

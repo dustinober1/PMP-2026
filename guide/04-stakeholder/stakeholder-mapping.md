@@ -97,6 +97,30 @@ The Cube adds a critical third dimension to the Power/Interest Grid: **Attitude*
   { 
     front: 'Trigger: Re-Map', 
     back: 'Re-map stakeholders during phase gates, leadership changes, or major scope shifts.' 
+  },
+  { 
+    front: 'What are the four Power/Interest Grid strategies?', 
+    back: 'Manage Closely (high/high), Keep Satisfied (high/low), Keep Informed (low/high), Monitor (low/low).' 
+  },
+  { 
+    front: 'What is a Definitive stakeholder?', 
+    back: 'Has Power, Legitimacy, AND Urgency - requires immediate, high-attention response.' 
+  },
+  { 
+    front: 'What is a Dangerous stakeholder?', 
+    back: 'Has Power and Urgency but no Legitimacy - high-risk blocker who may act forcefully.' 
+  },
+  { 
+    front: 'What does the Stakeholder Cube add?', 
+    back: 'A third dimension: Attitude (Supportive, Neutral, Resistant).' 
+  },
+  { 
+    front: 'How to handle a Resistant stakeholder?', 
+    back: 'Treat as Priority Risk - direct engagement and root cause discovery.' 
+  },
+  { 
+    front: 'What if a high-power stakeholder is unhappy?', 
+    back: 'You failed to Keep them Satisfied - analyze their needs and update the Stakeholder Register.' 
   }
 ]" />
 

@@ -91,6 +91,30 @@ The exam tests whether you choose a response that preserves **relationships** wh
   { 
     front: 'Negotiation Step 1', 
     back: 'Understand the underlying INTERESTS of both parties before proposing options.' 
+  },
+  { 
+    front: 'What is BATNA?', 
+    back: 'Best Alternative to a Negotiated Agreement - your fallback plan and walk-away point.' 
+  },
+  { 
+    front: 'What is ZOPA?', 
+    back: 'Zone of Possible Agreement - where buyer and seller acceptable limits overlap.' 
+  },
+  { 
+    front: 'What is the Collaborate conflict mode?', 
+    back: 'Win-Win: Deep problem-solving to meet both parties needs. Best for strategic alignment.' 
+  },
+  { 
+    front: 'When should Force mode be used?', 
+    back: 'Only for emergencies, safety issues, or compliance - when speed matters more than buy-in.' 
+  },
+  { 
+    front: 'What is Interest-Based Negotiation?', 
+    back: 'Focuses on underlying needs (interests) rather than surface-level demands (positions).' 
+  },
+  { 
+    front: 'What is the first step if a vendor dispute arises?', 
+    back: 'Direct negotiation between PM and vendor - legal action is a last resort.' 
   }
 ]" />
 

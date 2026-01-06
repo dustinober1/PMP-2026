@@ -107,6 +107,30 @@ Meetings are the most common—and most abused—communication method.
   { 
     front: 'Feedback Loop', 
     back: 'The only way to ensure the message was UNDERSTOOD as intended.' 
+  },
+  { 
+    front: 'What are the three communication methods?', 
+    back: 'Interactive (multi-directional), Push (one-way sent), and Pull (one-way fetched).' 
+  },
+  { 
+    front: 'What is Noise in communication?', 
+    back: 'Anything that distorts the message: language barriers, cultural differences, jargon, or distractions.' 
+  },
+  { 
+    front: 'What is a High-Context culture?', 
+    back: 'Cultures like Japan where meaning is in relationships and tone; trust must be built before business.' 
+  },
+  { 
+    front: 'What is the Virtual Equity rule?', 
+    back: 'If one is remote, all are remote - use chat-first strategies for equal contribution.' 
+  },
+  { 
+    front: 'What should a PM do if info is late or reaching wrong people?', 
+    back: 'Update the Communications Management Plan first, never go straight to disciplinary action.' 
+  },
+  { 
+    front: 'What is Push Communication best for?', 
+    back: 'Routine updates and formal documentation sent to specific people (emails, memos).' 
   }
 ]" />
 

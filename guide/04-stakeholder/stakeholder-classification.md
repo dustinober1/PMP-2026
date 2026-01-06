@@ -96,6 +96,30 @@ This tool identifies the "Engagement Gap"—where a stakeholder is versus where 
   { 
     front: 'Trigger: New Person', 
     back: 'When a new stakeholder is found, the VERY FIRST step is to update the Stakeholder Register.' 
+  },
+  { 
+    front: 'What are the five engagement levels?', 
+    back: 'Unaware, Resistant, Neutral, Supportive, and Leading.' 
+  },
+  { 
+    front: 'What are the four directions of influence?', 
+    back: 'Upward (execs), Downward (team), Outward (vendors/customers), and Sideward (peers).' 
+  },
+  { 
+    front: 'What is Upward influence communication style?', 
+    back: 'Focus on strategic ROI, high-level risks, and frame messages as options with recommendations.' 
+  },
+  { 
+    front: 'What is Downward influence communication style?', 
+    back: 'Focus on servant leadership, technical blockers, psychological safety, and recognition.' 
+  },
+  { 
+    front: 'What does a Leading stakeholder do?', 
+    back: 'Actively works to ensure the project delivers value - they are your champions.' 
+  },
+  { 
+    front: 'What are the three Register components?', 
+    back: 'Identification (name, role), Assessment (requirements, influence), and Classification (power/interest).' 
   }
 ]" />
 

@@ -85,6 +85,30 @@ Resistance is usually a symptom of unmanaged fear or a loss of control.
   { 
     front: 'Agile vs Predictive', 
     back: 'Predictive relies on milestones/status; Agile relies on continuous demos and direct collaboration.' 
+  },
+  { 
+    front: 'What is Radical Transparency?', 
+    back: 'Sharing bad news as quickly as good news to build credibility and allow collective course correction.' 
+  },
+  { 
+    front: 'What is Active Listening?', 
+    back: 'Shutting down the response engine and listening to truly understand fears and desires.' 
+  },
+  { 
+    front: 'What is WIIFM?', 
+    back: 'What\'s In It For Me - connecting project outcomes directly to stakeholder goals and pain points.' 
+  },
+  { 
+    front: 'What is the Social Proof influence strategy?', 
+    back: 'Show that respected peers already support the initiative - others like you are already on board.' 
+  },
+  { 
+    front: 'What causes stakeholder resistance?', 
+    back: 'Usually unmanaged fear or loss of control - identify root cause before acting.' 
+  },
+  { 
+    front: 'What should a PM do if a stakeholder is unhappy with a deliverable?', 
+    back: 'Increase frequency of their involvement or update the Stakeholder Engagement Plan.' 
   }
 ]" />
 
