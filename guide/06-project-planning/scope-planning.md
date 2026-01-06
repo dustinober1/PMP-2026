@@ -220,16 +220,16 @@ Good user stories follow the **INVEST** criteria:
 <ConceptGrid>
   <ConceptCard title="User Story Format">
     <div style="font-family: monospace; font-size: 0.95em; line-height: 1.6;">
-      As a <strong>[role/persona]</strong>,<br>
-      I want <strong>[action/feature]</strong>,<br>
+      As a <strong>[role/persona]</strong>,<br />
+      I want <strong>[action/feature]</strong>,<br />
       So that <strong>[value/benefit]</strong>.
     </div>
   </ConceptCard>
 
   <ConceptCard title="Example">
     <div style="font-family: monospace; font-size: 0.95em; line-height: 1.6;">
-      As a <strong>marketing manager</strong>,<br>
-      I want to <strong>export campaign reports to PDF</strong>,<br>
+      As a <strong>marketing manager</strong>,<br />
+      I want to <strong>export campaign reports to PDF</strong>,<br />
       So that <strong>I can share results with executives</strong>.
     </div>
   </ConceptCard>
@@ -260,13 +260,14 @@ In the PMP world, the **WBS** follows the **100% rule**: it represents 100% of t
 
 ### WBS Decomposition Example (E-commerce Platform)
 
-```
+<ConceptCard title="WBS Decomposition Example (E-commerce Platform)">
+  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
 1.0 E-Commerce Platform Project
 ├── 1.1 Project Management
-│   ├── 1.1.1 Initiation & Planning
-│   ├── 1.1.2 Monitoring & Control
-│   └── 1.1.3 Closure & Lessons Learned
-├── 1.2 Requirements & Design
+│   ├── 1.1.1 Initiation &amp; Planning
+│   ├── 1.1.2 Monitoring &amp; Control
+│   └── 1.1.3 Closure &amp; Lessons Learned
+├── 1.2 Requirements &amp; Design
 │   ├── 1.2.1 Business Requirements
 │   ├── 1.2.2 Technical Architecture
 │   └── 1.2.3 UI/UX Design
@@ -279,20 +280,21 @@ In the PMP world, the **WBS** follows the **100% rule**: it represents 100% of t
 │   │   ├── 1.3.2.1 User Authentication (Work Package)
 │   │   ├── 1.3.2.2 Payment Processing (Work Package)
 │   │   └── 1.3.2.3 Inventory Management (Work Package)
-│   └── 1.3.3 Database Design & Implementation (Work Package)
-├── 1.4 Testing & Quality Assurance
+│   └── 1.3.3 Database Design &amp; Implementation (Work Package)
+├── 1.4 Testing &amp; Quality Assurance
 │   ├── 1.4.1 Unit Testing (Work Package)
 │   ├── 1.4.2 Integration Testing (Work Package)
 │   ├── 1.4.3 User Acceptance Testing (Work Package)
 │   └── 1.4.4 Performance Testing (Work Package)
-├── 1.5 Deployment & Training
+├── 1.5 Deployment &amp; Training
 │   ├── 1.5.1 Production Deployment (Work Package)
 │   ├── 1.5.2 User Training (Work Package)
 │   └── 1.5.3 Documentation (Work Package)
 └── 1.6 Procurement
     ├── 1.6.1 Payment Gateway Integration
     └── 1.6.2 Hosting Infrastructure
-```
+  </div>
+</ConceptCard>
 
 ### WBS Dictionary Content
 
