@@ -1,3 +1,10 @@
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
+import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+</script>
+
 # Chapter 3: Team Leadership & Development
 
 In 2026, leading a project isn't about "command and control"—it's about orchestrating diverse, scattered, and sometimes robotic talent toward a shared vision.
@@ -9,19 +16,21 @@ The People domain is **42% of the exam**. (People + Business > Process). If you 
 ---
 
 ##  What You'll Master (PMP-Style Skills)
-By the end of this chapter, you should be able to:
 
-*   Build a team using a skills matrix and clarify ownership with RACI
-*   Understand organizational structures and how they affect PM authority
-*   Create a team charter with comprehensive working agreements
-*   Navigate Tuckman's stages and recognize when regression occurs
-*   Match leadership style to team readiness using Situational Leadership II
-*   Build psychological safety based on Google's Project Aristotle research
-*   Select the best conflict resolution mode using the Thomas-Kilmann framework
-*   Apply integrative negotiation with BATNA and ZOPA
-*   Motivate knowledge workers with intrinsic drivers (Herzberg, Vroom, McClelland, Pink)
-*   Lead distributed and hybrid teams with explicit remote working agreements
-*   Apply Hofstede's cultural dimensions for global team effectiveness
+<ConceptGrid>
+  <ConceptCard title="Team Building">
+    Build a team using a skills matrix and clarify ownership with RACI.
+  </ConceptCard>
+  <ConceptCard title="Frameworks & Models">
+    Navigate Tuckman's stages, SLII, and Thomas-Kilmann conflict resolution.
+  </ConceptCard>
+  <ConceptCard title="Governance & Rules">
+    Create a team charter with comprehensive working agreements and decision models.
+  </ConceptCard>
+  <ConceptCard title="Distributed Teams">
+    Lead virtual and hybrid teams using Hofstede's dimensions and remote working agreements.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -99,21 +108,38 @@ From assembling the squad to navigating high-stakes conflict.
 
 ## 2026 Mindset: The "Servant PM"
 
-### Core Principles
-*   **Don't Direct, Support**: Ask "What do you need?" instead of "Why isn't this done?"
-*   **Don't Blame, Learn**: Retrospectives are for process improvement, not finger-pointing.
-*   **Don't Ignore, Engage**: Conflict is healthy if it's task-based. Emotional conflict must be defused proactively.
+<ConceptGrid>
+  <ConceptCard title="Don't Direct, Support">
+    Ask "What do you need?" instead of "Why isn't this done?"
+  </ConceptCard>
+  <ConceptCard title="Don't Blame, Learn">
+    Retrospectives are for process improvement, not finger-pointing.
+  </ConceptCard>
+  <ConceptCard title="Don't Ignore, Engage">
+    Conflict is healthy if it's task-based. Emotional conflict must be defused proactively.
+  </ConceptCard>
+</ConceptGrid>
 
-### Key Concepts at a Glance
+### Quick Review: Core Concepts
 
-| Topic | Core Concept | PMI Preference |
-| :---- | :----------- | :------------- |
-| **Team Stages** | Tuckman's model: Forming → Storming → Norming → Performing | Regression happens when team changes |
-| **Leadership Style** | Situational Leadership II (SLII) | Match style to development level |
-| **Conflict** | Thomas-Kilmann 5 modes | Collaborate > Compromise; Force for emergencies |
-| **Motivation** | Herzberg's Two-Factor | Fix hygiene first, then add motivators |
-| **Virtual Teams** | Distance Tax mitigation | Explicit agreements; async-first |
-| **EQ** | Goleman's 5 competencies | Self-Awareness → Empathy → Action |
+<FlashcardGrid>
+  <Flashcard 
+    front="Tuckman's Model Stages" 
+    back="Forming → Storming → Norming → Performing. Note: Regression happens when members change." 
+  />
+  <Flashcard 
+    front="Situational Leadership II (SLII)" 
+    back="The mindset of matching leadership style to the team's development level." 
+  />
+  <Flashcard 
+    front="Thomas-Kilmann Favorite" 
+    back="Collaborate (Win-Win) is usually preferred. Force for emergencies only." 
+  />
+  <Flashcard 
+    front="Herzberg's Hygiene Factors" 
+    back="Pay, security, working conditions. Must be fixed before motivators work." 
+  />
+</FlashcardGrid>
 
 ---
 
@@ -136,3 +162,4 @@ This chapter directly supports these PMP Exam Content Outline tasks:
 | **Task 12** | Address conflict | 3.3 Conflict Management |
 | **Task 13** | Mentoring and coaching | 3.2 GROW Model |
 | **Task 14** | Apply EI | 3.2 Emotional Intelligence |
+
