@@ -1,6 +1,7 @@
 <script setup>
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 </script>
 
 # 8.4 Engagement & Procurements
@@ -870,3 +871,50 @@ Successful execution requires mastering three critical domains:
 <ConceptCard type="study-tip">
   <strong> Exam Insight:</strong> If a stakeholder is unhappy, check the <strong>Stakeholder Engagement Plan</strong> first. If a vendor is underperforming, check the <strong>Contract</strong> first. The document dictates the authority.
 </ConceptCard>
+
+---
+
+## Quick Review
+
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What are the 5 Tuckman stages?', 
+    back: 'Forming, Storming, Norming, Performing, Adjourning.' 
+  },
+  { 
+    front: 'Herzberg Hygiene Factors vs. Motivators?', 
+    back: 'Hygiene = prevent dissatisfaction (salary, conditions). Motivators = create satisfaction (achievement, recognition).' 
+  },
+  { 
+    front: 'What is the best conflict resolution approach per PMI?', 
+    back: 'Collaborating/Problem-Solving - work together for a win-win solution that satisfies all parties.' 
+  },
+  { 
+    front: 'What is the PTA formula?', 
+    back: 'PTA = ((Ceiling Price - Target Price) / Buyer Share Ratio) + Target Cost.' 
+  },
+  { 
+    front: 'FFP vs. CPFF contracts - who bears risk?', 
+    back: 'FFP = Seller bears cost risk. CPFF = Buyer bears cost risk.' 
+  },
+  { 
+    front: 'What is a Bidder Conference?', 
+    back: 'A meeting with all prospective sellers to clarify SOW and ensure all vendors have the same information.' 
+  },
+  { 
+    front: 'Theory X vs. Theory Y?', 
+    back: 'Theory X = people dislike work, need control. Theory Y = people are self-directed and seek responsibility.' 
+  },
+  { 
+    front: 'What is a Constructive Change?', 
+    back: 'When buyer actions effectively change scope without a formal change order - seller may claim compensation.' 
+  },
+  { 
+    front: 'What are the 5 TKI conflict modes?', 
+    back: 'Competing, Collaborating, Compromising, Avoiding, Accommodating.' 
+  },
+  { 
+    front: 'What is the first step in dispute resolution?', 
+    back: 'Check the contract first - it is the authoritative document for all procurement disputes.' 
+  }
+]" />

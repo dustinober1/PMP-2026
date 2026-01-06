@@ -1,6 +1,7 @@
 <script setup>
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 </script>
 
 # 9.2 Project Closure (Close Project or Phase)
@@ -726,3 +727,20 @@ If a question describes a stakeholder refusing sign-off over a "minor issue," th
 <ConceptCard type="study-tip">
   <strong> Exam Insight:</strong> If a project is complete but the customer refuses to sign off due to a "minor issue" not previously defined in the requirements, the PM must <strong>Refer to the Acceptance Criteria</strong>. If the criteria are met, the customer is contractually obligated to accept. If not, you must fix it.
 </ConceptCard>
+
+---
+
+## Quick Review
+
+<FlashcardCarousel :cards="[
+  { front: 'What is formal acceptance?', back: 'Written sign-off confirming deliverables meet documented acceptance criteria - required before project closure.' },
+  { front: 'Validate Scope vs. Close Project?', back: 'Validate Scope = accepting completed deliverables (incremental). Close Project = finalizing everything (records, contracts, transition).' },
+  { front: 'What are Lessons Learned used for?', back: 'Organizational Process Assets (OPAs) for future projects - document what went well, what did not, and recommendations.' },
+  { front: 'When can you close a project with open claims?', back: 'You must resolve claims first OR formally transfer responsibility to legal/finance before closing administratively.' },
+  { front: 'What is a punch list?', back: 'Minor items documented for follow-up when core acceptance criteria are met - allows conditional acceptance with warranty period.' },
+  { front: 'Who owns benefits tracking after closure?', back: 'Business owner, product owner, or operations - NOT the project manager. PM sets up tracking and hands it off.' },
+  { front: 'What happens if a project is canceled?', back: 'You still perform administrative closure: document status, archive deliverables, close contracts, release team, capture lessons.' },
+  { front: 'CPIF Final Fee Formula?', back: 'Final Fee = Target Fee plus or minus (Target Cost - Actual Cost) times Seller Share, subject to min/max caps.' },
+  { front: 'Post-Project Review vs. Lessons Learned?', back: 'Post-Project Review = strategic value evaluation (30-90 days after). Lessons Learned = process improvement (during/at closure).' },
+  { front: 'What triggers a re-baseline?', back: 'Structural change to scope, schedule, or budget that requires formal change control approval from CCB or sponsor.' }
+]" />

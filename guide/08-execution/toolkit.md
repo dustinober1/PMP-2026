@@ -1,5 +1,6 @@
 <script setup>
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 </script>
 
 # 8.3 Tools & Templates (One-Stop Reference)
@@ -799,7 +800,9 @@ Use to quickly identify which process applies in an exam scenario.
 ### Stakeholder (Execution)
 | Process | What it does | Key outputs | When to use |
 |---|---|---|---|
-| **Manage Stakeholder Engagement** | Communicate and work with stakeholders to meet needs and address issues | Change requests, project docs updates | Addressing resistance, building support |
+| **Manage Stakeholder Engagement** | Communicate and work with stakeholders to meet their needs/expectations | Change requests, project updates | Throughout the project, managing conflict |
+
+
 
 ### Procurement (Execution)
 | Process | What it does | Key outputs | When to use |
@@ -973,3 +976,21 @@ For deeper dives into execution topics:
   <strong> Toolkit Summary</strong><br>
   This toolkit provides templates, decision trees, checklists, and quick-reference guides for execution scenarios. Use it as a copy/paste resource during exam prep to internalize the patterns and "first moves" that the PMP exam rewards.
 </ConceptCard>
+
+---
+
+## Quick Review
+
+<FlashcardCarousel :cards="[
+  { front: 'What is a RAID Log?', back: 'Risks, Actions, Issues, Decisions - a central tracker for project execution.' },
+  { front: 'Issue Log vs. Risk Register?', back: 'Issue = Happening NOW (Problem). Risk = Might happen (Uncertainty).' },
+  { front: 'Best Conflict Resolution Technique?', back: 'Collaborate/Problem Solve (Win-Win). Addresses the root cause.' },
+  { front: 'When to use \'Force/Direct\'?', back: 'In emergencies (e.g., safety violations) or when quick decisive action is required.' },
+  { front: 'Explicit vs. Tacit Knowledge?', back: 'Explicit = Documents/Manuals. Tacit = Experience/Intuition (requires sharing via interaction).' },
+  { front: 'Definition of Done (DoD) purpose?', back: 'Ensures quality and prevents technical debt by defining criteria for \'complete\' work.' },
+  { front: 'Leading vs. Lagging Indicators?', back: 'Leading = Predicts future (e.g., adoption rate). Lagging = Confirms past (e.g., ROI).' },
+  { front: 'First step when a Vendor fails?', back: 'Review the Contract (analyze rights/obligations) before taking action.' },
+  { front: 'Virtual Team Best Practice?', back: 'Establish a Team Charter with clear communication norms and overlap hours.' },
+  { front: 'Change Request Assessment Order?', back: '1. Clarify (is it scope?) 2. Analyze Impact (Tripple Constraint) 3. Recommend 4. Decide (CCB/PM).' }
+]" />
+

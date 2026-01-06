@@ -1,6 +1,7 @@
 <script setup>
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 </script>
 
 # 10.2 Responsible AI: Ethics & Governance
@@ -301,3 +302,21 @@ If a scenario mentions "AI used for hiring decisions" or "loan approval," the co
 <ConceptCard type="study-tip">
   <strong> Exam Insight:</strong> If a team member uses a free online AI to summarize a confidential client meeting, they have committed a <strong>Security Breach</strong>. The PM’s response is to <strong>immediately contain</strong> (notify IT/Security per policy), then educate the team and provide approved alternatives.
 </ConceptCard>
+
+---
+
+## Quick Review
+
+<FlashcardCarousel :cards="[
+  { front: '3 Pillars of Responsible AI?', back: 'Data Privacy (protect sensitive info), Bias Awareness (audit for fairness), Accountability (humans own the output).' },
+  { front: 'PMI Code of Ethics: Responsibility in AI?', back: 'You are accountable for errors/compliance. You must report breaches immediately.' },
+  { front: 'PMI Code of Ethics: Fairness in AI?', back: 'Actively check tools for bias in hiring, resourcing, or vendor selection.' },
+  { front: 'What is PII (Personally Identifiable Information)?', back: 'Names, emails, IDs, addresses - never put into public AI.' },
+  { front: 'Explainable AI (XAI)?', back: 'AI that provides the \'Why\' behind a decision - required for regulated industries like Finance/Healthcare.' },
+  { front: 'Disparate Impact Ratio?', back: 'Metric for bias. If (Rate for disadvantaged / Rate for advantaged) < 0.8, bias is likely.' },
+  { front: 'EU AI Act: High-Risk vs. Unacceptable?', back: 'High-Risk (HR, Credit) = Strict compliance/docs. Unacceptable (Social Scoring) = Banned.' },
+  { front: 'What is a Model Card?', back: 'Document from vendor explaining Intended Use, Training Data, Performance, and Limitations.' },
+  { front: 'Bias Mitigation: Training Data?', back: 'Ensure data is representative and history doesn\'t reflect past discrimination.' },
+  { front: 'First step in a Privacy Incident?', back: 'Stop and Contain - halt the tool usage immediately, then notify Security.' }
+]" />
+

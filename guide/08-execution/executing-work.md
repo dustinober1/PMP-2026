@@ -1,6 +1,7 @@
 <script setup>
 import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 </script>
 
 # 8.1 Executing Project Work
@@ -836,3 +837,50 @@ With the shift toward distributed and hybrid work, the 2026 PMP exam emphasizes 
 ::: warning  Common Virtual Team Mistake
 Don't assume "no news is good news" when team members go quiet. In virtual environments, silence often indicates disengagement, confusion, or being overwhelmed. **Proactively check in.**
 :::
+
+---
+
+## Quick Review
+
+<FlashcardCarousel :cards="[
+  { 
+    front: 'What is a Work Authorization System?', 
+    back: 'A formal process ensuring work begins only when predecessors are complete, resources available, and funding approved.' 
+  },
+  { 
+    front: 'Impediment vs. Issue vs. Risk?', 
+    back: 'Impediment = blocks work now. Issue = problem that occurred. Risk = uncertain future event.' 
+  },
+  { 
+    front: 'Explicit vs. Tacit knowledge?', 
+    back: 'Explicit = written (code, docs). Tacit = experience shared through collaboration and interaction.' 
+  },
+  { 
+    front: 'What are the 3 Agile standup questions?', 
+    back: '1. What did I do yesterday? 2. What will I do today? 3. What blockers do I have?' 
+  },
+  { 
+    front: 'Data → Information → Reports?', 
+    back: 'Data = raw observations. Information = analyzed meaning. Reports = packaged communication for stakeholders.' 
+  },
+  { 
+    front: 'What is the Daily Scrum duration?', 
+    back: '15 minutes maximum, same time and place every day, run by the team (not PM).' 
+  },
+  { 
+    front: 'Purpose of Sprint Retrospective?', 
+    back: 'Inspect the team processes and create a plan for improvements in the next sprint.' 
+  },
+  { 
+    front: 'What triggers risk-to-issue conversion?', 
+    back: 'When a risk trigger occurs, execute the planned response and move from Risk Register to Issue Log.' 
+  },
+  { 
+    front: 'What is Servant Leadership?', 
+    back: 'Leader prioritizes team needs, removes impediments, coaches rather than commands, and clears the path for delivery.' 
+  },
+  { 
+    front: 'Purpose of Lessons Learned Register?', 
+    back: 'Capture insights continuously throughout the project to improve future work - not just at project end.' 
+  }
+]" />

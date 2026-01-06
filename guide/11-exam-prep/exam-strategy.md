@@ -1,3 +1,9 @@
+<script setup>
+import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
+import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
+import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
+</script>
+
 # 11.1 Exam Strategy & Test-Taking
 
 The PMP exam is a test of **reasoning**, not just recall. In 2026, approximately **40%** of the items represent **predictive** approaches and the remaining **60%** are split between **adaptive/agile** and **hybrid** approaches. To pass, you must demonstrate the "PMI Mindset" in every choice you make.
@@ -102,6 +108,24 @@ Most questions are long, confusing scenarios.
 <div class="study-tip">
   <strong> Exam Insight:</strong> If a question doesn't specify the methodology, look for clues. "Sprint" = Agile. "Phase Gate" = Predictive. If NO clues exist, assume **Hybrid** and choose the answer that balances control with flexibility.
 </div>
+
+---
+
+## Quick Review
+
+<FlashcardCarousel :cards="[
+  { front: 'PMI Mindset: Analyze vs. Act?', back: 'Always Analyze first (assess, review, engage) before Acting (execute, fire, reject).' },
+  { front: 'PMI Mindset: Escalation?', back: 'Never escalate problems to the sponsor unless you have analyzed them and have a recommendation, or if it is beyond your authority.' },
+  { front: 'PMI Mindset: Servant Leadership?', back: 'Empower the team, remove blockers, provide training. Never dictate or punish.' },
+  { front: 'PMI Mindset: Change Control?', back: 'In predictive, never change the baseline without a formal Change Request and CCB approval.' },
+  { front: 'Exam Strategy: The \'Reverse Read\'?', back: 'Read the last sentence (the question) first to know what to look for in the scenario.' },
+  { front: 'Exam Strategy: Time per Question?', back: 'About 75 seconds per question. Don\'t spend 5 minutes on one hard question; mark and move.' },
+  { front: 'When to assume \'Hybrid\'?', back: 'When the scenario has no clear keywords (like \'Sprint\' or \'Phase\'), assume Hybrid and balance structure with flexibility.' },
+  { front: 'Common Trap: \'Fire the vendor\'?', back: 'This is rarely the answer. First step is usually to \'Review the contract\' or \'Meet with vendor\'.' },
+  { front: 'Common Trap: \'Request more money\'?', back: 'Avoid asking for budget. Look for alternatives (trade-offs, reserves) first.' },
+  { front: 'Common Trap: \'Stop the project\'?', back: 'Never stop the project unless safety is at risk or the business case is invalid.' }
+]" />
+
 
 <style>
 .study-tip {
