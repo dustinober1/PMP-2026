@@ -21,7 +21,7 @@ The Charter is not just paperwork; it is the foundation of your authority. Witho
 
 <ConceptGrid>
   <ConceptCard title="Formal Authorization">
-    Sign-off from the **Sponsor** (the person providing the money/resources).
+    Sign-off from the <strong>Sponsor</strong> (the person providing the money/resources).
   </ConceptCard>
   <ConceptCard title="PM Appointment">
     Explicitly names the Project Manager and defines their level of authority.
@@ -63,10 +63,10 @@ Business Need → Needs Assessment → Business Case → PROJECT CHARTER → Pro
 
 <ConceptGrid>
   <ConceptCard title="Enterprise Environmental Factors (EEF)">
-    **Conditions not under your control**. Examples: Market conditions, regulations, organizational culture, infrastructure.
+    <strong>Conditions not under your control</strong>. Examples: Market conditions, regulations, organizational culture, infrastructure.
   </ConceptCard>
   <ConceptCard title="Organizational Process Assets (OPA)">
-    **Processes and knowledge bases you can use**. Examples: Templates, lessons learned, historical files, procedures.
+    <strong>Processes and knowledge bases you can use</strong>. Examples: Templates, lessons learned, historical files, procedures.
   </ConceptCard>
 </ConceptGrid>
 
@@ -131,7 +131,7 @@ our product [key differentiation].
 <FlashcardCarousel :cards="[
   { front: `Birth Certificate`, back: `Metaphor for the Project Charter; it authorizes the project.` },
   { front: `Sponsor`, back: `The person who provides resources and signs the Charter.` },
-  { front: `EEF`, back: `Enterprise Environmental Factors; constraints you can\\'t control (e.g., laws).` },
+  { front: `EEF`, back: `Enterprise Environmental Factors; constraints you can\'t control (e.g., laws).` },
   { front: `OPA`, back: `Organizational Process Assets; things you can use (e.g., templates).` },
   { front: `PM Authority`, back: `Defined in the Charter; allows the PM to use company resources.` },
   { front: `High-Level Risks`, back: `Initial threats documented in the Charter before detailed planning.` },

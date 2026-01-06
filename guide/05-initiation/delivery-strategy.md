@@ -20,21 +20,21 @@ Use these diagnostic markers to choose the right path for your project.
 
 <ConceptGrid>
   <ConceptCard title="Predictive">
-    Best for **Stable** environments with known solutions.
+    Best for <strong>Stable</strong> environments with known solutions.
     - High cost of change
     - Single final release
     - Detailed upfront planning
     - Clear, stable requirements
   </ConceptCard>
   <ConceptCard title="Adaptive (Agile)">
-    Best for **Volatile** environments with emerging requirements.
+    Best for <strong>Volatile</strong> environments with emerging requirements.
     - Low cost of change
     - Frequent incremental releases
     - Continuous planning (Sprints)
     - Evolving requirements
   </ConceptCard>
   <ConceptCard title="Hybrid">
-    Best for **Complex** projects with mixed characteristics.
+    Best for <strong>Complex</strong> projects with mixed characteristics.
     - Stable foundation / Agile features
     - Predictive dates / Agile path
     - Gated releases
@@ -57,16 +57,16 @@ Use these diagnostic markers to choose the right path for your project.
 
 <ConceptGrid>
   <ConceptCard title="Clear (Obvious)">
-    **Sense → Categorize → Respond**. Best practices apply. Predictive works well.
+    <strong>Sense → Categorize → Respond</strong>. Best practices apply. Predictive works well.
   </ConceptCard>
   <ConceptCard title="Complicated">
-    **Sense → Analyze → Respond**. Expert analysis needed. Hybrid approach.
+    <strong>Sense → Analyze → Respond</strong>. Expert analysis needed. Hybrid approach.
   </ConceptCard>
   <ConceptCard title="Complex">
-    **Probe → Sense → Respond**. Experimentation required. Agile approach.
+    <strong>Probe → Sense → Respond</strong>. Experimentation required. Agile approach.
   </ConceptCard>
   <ConceptCard title="Chaotic">
-    **Act → Sense → Respond**. Crisis mode. Act first, then stabilize.
+    <strong>Act → Sense → Respond</strong>. Crisis mode. Act first, then stabilize.
   </ConceptCard>
 </ConceptGrid>
 

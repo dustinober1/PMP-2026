@@ -20,7 +20,7 @@ On the exam, you must distinguish between what is **Fact (Constraint)** and what
 
 <ConceptGrid>
   <ConceptCard title="Constraints (The Walls)">
-    Limiting factors that **must** be obeyed. Not negotiable unless the sponsor changes them.
+    Limiting factors that <strong>must</strong> be obeyed. Not negotiable unless the sponsor changes them.
     - Fixed Deadlines
     - Approved Budgets
     - Safety Regulations
