@@ -47,7 +47,7 @@ Replace static HTML informational cards with `ConceptCard`.
 ```
 
 ## 3.2 Flashcards
-Add interactive flashcards for "Quick Review" sections or to replace static quizzes.
+Add interactive flashcards for "Quick Review" sections.
 
 **Example:**
 ```html
@@ -63,3 +63,7 @@ Add interactive flashcards for "Quick Review" sections or to replace static quiz
 # 5. Verify
 - Run `npm run dev` or `npm run build` to ensure no syntax errors.
 - Preview the page to check for responsiveness and correct rendering.
+
+# 6. Commit
+- Commit all changes made using standard commit languague
+- Push all changes to github.

@@ -339,6 +339,10 @@ body::before {
   letter-spacing: 0.05em;
 }
 
+.VPDoc table th strong {
+  color: inherit;
+}
+
 .VPDoc table tr:nth-child(even) {
   background: rgba(240, 235, 229, 0.5);
 }

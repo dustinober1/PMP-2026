@@ -128,7 +128,7 @@ Fast, subjective assessment using probability and impact scales.
 
 ### Probability-Impact Matrix
 
-|  | **Very Low Impact** | **Low Impact** | **Medium Impact** | **High Impact** | **Very High Impact** |
+|  | Very Low Impact | Low Impact | Medium Impact | High Impact | Very High Impact |
 |--|:---:|:---:|:---:|:---:|:---:|
 | **Very High Probability** | Medium | Medium | High | Very High | Very High |
 | **High Probability** | Low | Medium | High | High | Very High |

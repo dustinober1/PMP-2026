@@ -3,6 +3,7 @@ import ConceptGrid from '../../.vitepress/theme/components/ConceptGrid.vue'
 import ConceptCard from '../../.vitepress/theme/components/ConceptCard.vue'
 import FlashcardGrid from '../../.vitepress/theme/components/FlashcardGrid.vue'
 import Flashcard from '../../.vitepress/theme/components/Flashcard.vue'
+import EVMCalculator from '../../.vitepress/theme/components/EVMCalculator.vue'
 </script>
 
 # 1.4e – Data-Informed Decision-Making
@@ -69,17 +70,7 @@ EVM is the **gold standard** for measuring project performance in predictive pro
 - **EV** (Value of work completed) = $180,000
 - **AC** (Actual spending) = $210,000
 
-**Calculations**:
-```
-CV = EV - AC = $180,000 - $210,000 = -$30,000 (Over budget!)
-SV = EV - PV = $180,000 - $200,000 = -$20,000 (Behind schedule!)
-CPI = EV ÷ AC = $180,000 ÷ $210,000 = 0.86 (Only 86¢ value per $1 spent)
-SPI = EV ÷ PV = $180,000 ÷ $200,000 = 0.90 (Only 90% of planned progress)
-EAC = BAC ÷ CPI = $500,000 ÷ 0.86 = $581,395 (Projected final cost!)
-VAC = BAC - EAC = $500,000 - $581,395 = -$81,395 (Projected overrun)
-```
-
-**Interpretation**: Sarah's project is over budget AND behind schedule. If trends continue, she'll overspend by ~$81,000.
+<EVMCalculator />
 
 ::: warning Exam Tip: EVM Memory Tricks
 - **V**ariance = **E**arned - (something else). **CV** = EV - AC. **SV** = EV - PV.
