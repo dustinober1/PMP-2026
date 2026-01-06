@@ -56,6 +56,8 @@ The following NPM scripts are available in `package.json`:
 The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/workflows/` handles automated deployment on push, or it can be triggered manually via `npm run deploy`.
 
 ## Recent Changes
+- **2026-01-06**: Modernized index pages for Chapters 1, 2, and 3 by replacing hardcoded HTML/CSS sections and cards with reusable `ConceptGrid` and `ConceptCard` Vue components for better maintainability and consistency.
+- **2026-01-06**: Fixed VitePress SSG build error (`window is not defined`) by wrapping browser-specific code in `.vitepress/theme/index.js` with a check for the `window` object.
 - **2026-01-06**: Fixed page scroll behavior by adding router configuration in `.vitepress/theme/index.js` to ensure pages scroll to top on navigation instead of starting at the bottom.
 - **2026-01-06**: Removed all interactive checkboxes from `guide/01-introduction/using-guide.md` (not functional in static site) and updated chapter outline from 10 to 11 chapters, separating AI in Project Management (Chapter 10) from Exam Preparation (Chapter 11) to match actual directory structure.
 - **2026-01-06**: Added visual spacing between sample questions and their answer explanations in `guide/01-introduction/understanding-exam.md` to improve readability.
