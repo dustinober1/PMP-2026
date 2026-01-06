@@ -1,116 +1,134 @@
-/* Professional Purple Color Palette */
+/* Organic / Natural Color Palette */
 :root {
-  /* Primary Purple Palette */
-  --color-purple-50: #faf5ff;
-  --color-purple-100: #f3e8ff;
-  --color-purple-200: #e9d5ff;
-  --color-purple-300: #d8b4fe;
-  --color-purple-400: #c084fc;
-  --color-purple-500: #a855f7;
-  --color-purple-600: #9333ea;
-  --color-purple-700: #7e22ce;
-  --color-purple-800: #6b21a8;
-  --color-purple-900: #581c87;
-  --color-purple-950: #3b0764;
+  /* Organic Earth Tones */
+  --organic-moss: #5D7052;
+  --organic-moss-light: #7a9169;
+  --organic-moss-lighter: #9ab088;
+  --organic-moss-dark: #4a5a41;
+  --organic-moss-darker: #3a4733;
+
+  --organic-terracotta: #C18C5D;
+  --organic-terracotta-light: #d4a47a;
+  --organic-terracotta-lighter: #e6c9ab;
+  --organic-terracotta-dark: #a67549;
+
+  --organic-sand: #E6DCCD;
+  --organic-sand-light: #f0e8dc;
+  --organic-sand-dark: #d4c9b8;
+
+  --organic-stone: #F0EBE5;
+  --organic-stone-light: #f8f5f1;
+  --organic-stone-dark: #e0d8cf;
+
+  --organic-loam: #2C2C24;
+  --organic-bark: #4A4A40;
+  --organic-dried-grass: #78786C;
+
+  --organic-rice-paper: #FDFCF8;
+  --organic-pale-mist: #F3F4F1;
+  --organic-timber: #DED8CF;
+
+  --organic-burnt-sienna: #A85448;
 
   /* Legacy color mappings for compatibility */
-  --color-1: var(--color-purple-100);
-  --color-2: var(--color-purple-200);
-  --color-3: var(--color-purple-400);
-  --color-4: var(--color-purple-600);
-  --color-5: var(--color-purple-700);
+  --color-1: var(--organic-stone);
+  --color-2: var(--organic-sand);
+  --color-3: var(--organic-moss-light);
+  --color-4: var(--organic-moss);
+  --color-5: var(--organic-moss-dark);
 
   /* Semantic color mappings */
-  --vp-c-bg: #ffffff;
-  --vp-c-bg-soft: var(--color-purple-50);
-  --vp-c-bg-alt: var(--color-purple-50);
-  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg: var(--organic-rice-paper);
+  --vp-c-bg-soft: var(--organic-stone);
+  --vp-c-bg-alt: var(--organic-sand);
+  --vp-c-bg-elv: #FEFEFA;
 
-  --vp-c-text-1: #1e1b4b;
-  --vp-c-text-2: #3730a3;
-  --vp-c-text-3: #6366f1;
-  --vp-c-text-4: #818cf8;
+  --vp-c-text-1: var(--organic-loam);
+  --vp-c-text-2: var(--organic-bark);
+  --vp-c-text-3: var(--organic-dried-grass);
+  --vp-c-text-4: #8e8e82;
 
   /* Brand colors */
-  --vp-c-brand-1: var(--color-purple-700);
-  --vp-c-brand-2: var(--color-purple-600);
-  --vp-c-brand-3: var(--color-purple-500);
-  --vp-c-brand-soft: var(--color-purple-100);
+  --vp-c-brand-1: var(--organic-moss);
+  --vp-c-brand-2: var(--organic-moss-light);
+  --vp-c-brand-3: var(--organic-moss-lighter);
+  --vp-c-brand-soft: rgba(93, 112, 82, 0.1);
 
-  --vp-c-brand: var(--color-purple-700);
-  --vp-c-brand-light: var(--color-purple-600);
-  --vp-c-brand-lighter: var(--color-purple-400);
-  --vp-c-brand-dark: var(--color-purple-800);
-  --vp-c-brand-darker: var(--color-purple-900);
+  --vp-c-brand: var(--organic-moss);
+  --vp-c-brand-light: var(--organic-moss-light);
+  --vp-c-brand-lighter: var(--organic-moss-lighter);
+  --vp-c-brand-dark: var(--organic-moss-dark);
+  --vp-c-brand-darker: var(--organic-moss-darker);
 
   /* Accent colors */
-  --vp-c-accent-bg: var(--color-purple-100);
-  --vp-c-accent-hover: var(--color-purple-200);
-  --vp-c-accent-active: var(--color-purple-300);
+  --vp-c-accent-bg: var(--organic-sand);
+  --vp-c-accent-hover: var(--organic-sand-light);
+  --vp-c-accent-active: var(--organic-terracotta-lighter);
 
   /* Border colors */
-  --vp-c-border: #e5e7eb;
-  --vp-c-border-hard: #d1d5db;
-  --vp-c-divider: #e5e7eb;
+  --vp-c-border: var(--organic-timber);
+  --vp-c-border-hard: var(--organic-sand-dark);
+  --vp-c-divider: rgba(222, 216, 207, 0.5);
 
   /* Gutter colors */
-  --vp-c-bg-gutter: #f9fafb;
-  --vp-c-bg-gutter-light: #fafafa;
-  --vp-c-bg-gutter-lite: #fcfcfc;
+  --vp-c-bg-gutter: var(--organic-stone-light);
+  --vp-c-bg-gutter-light: var(--organic-rice-paper);
+  --vp-c-bg-gutter-lite: #FEFEFA;
 
-  /* Shadow colors */
-  --vp-c-shadow: rgba(59, 7, 100, 0.1);
-  --vp-c-shadow-light: rgba(59, 7, 100, 0.05);
-  --vp-c-shadow-lighter: rgba(59, 7, 100, 0.02);
+  /* Shadow colors - moss and clay tinted */
+  --vp-c-shadow: rgba(93, 112, 82, 0.15);
+  --vp-c-shadow-light: rgba(93, 112, 82, 0.08);
+  --vp-c-shadow-lighter: rgba(93, 112, 82, 0.04);
+  --vp-c-shadow-clay: rgba(193, 140, 93, 0.2);
 
   /* Muted backgrounds */
-  --vp-c-bg-soft-outset: #ffffff;
-  --vp-c-bg-mute: var(--color-purple-50);
-  --vp-c-bg-mute-dark: var(--color-purple-100);
-  --vp-c-bg-mute-darker: var(--color-purple-200);
-  --vp-c-bg-mute-darkest: var(--color-purple-300);
+  --vp-c-bg-soft-outset: #FEFEFA;
+  --vp-c-bg-mute: var(--organic-stone);
+  --vp-c-bg-mute-dark: var(--organic-sand);
+  --vp-c-bg-mute-darker: var(--organic-sand-dark);
+  --vp-c-bg-mute-darkest: var(--organic-terracotta-lighter);
 
   /* Custom container colors */
-  --vp-c-tip: var(--color-purple-600);
-  --vp-c-tip-bg: var(--color-purple-50);
-  --vp-c-tip-border: var(--color-purple-300);
+  --vp-c-tip: var(--organic-moss);
+  --vp-c-tip-bg: rgba(93, 112, 82, 0.08);
+  --vp-c-tip-border: rgba(93, 112, 82, 0.3);
 
-  --vp-c-warning: #d97706;
-  --vp-c-warning-bg: #fffbeb;
-  --vp-c-warning-border: #fcd34d;
+  --vp-c-warning: var(--organic-terracotta);
+  --vp-c-warning-bg: rgba(193, 140, 93, 0.08);
+  --vp-c-warning-border: rgba(193, 140, 93, 0.3);
 
-  --vp-c-danger: #dc2626;
-  --vp-c-danger-bg: #fef2f2;
-  --vp-c-danger-border: #fca5a5;
+  --vp-c-danger: var(--organic-burnt-sienna);
+  --vp-c-danger-bg: rgba(168, 84, 72, 0.08);
+  --vp-c-danger-border: rgba(168, 84, 72, 0.3);
 
-  --vp-c-info: var(--color-purple-600);
-  --vp-c-info-bg: var(--color-purple-50);
-  --vp-c-info-border: var(--color-purple-300);
+  --vp-c-info: var(--organic-moss);
+  --vp-c-info-bg: rgba(93, 112, 82, 0.08);
+  --vp-c-info-border: rgba(93, 112, 82, 0.3);
 
   /* Button colors */
-  --vp-button-brand-bg: linear-gradient(135deg, var(--color-purple-600) 0%, var(--color-purple-700) 100%);
-  --vp-button-brand-hover-bg: linear-gradient(135deg, var(--color-purple-500) 0%, var(--color-purple-600) 100%);
-  --vp-button-brand-active-bg: var(--color-purple-800);
-  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-bg: var(--organic-moss);
+  --vp-button-brand-hover-bg: var(--organic-moss-light);
+  --vp-button-brand-active-bg: var(--organic-moss-dark);
+  --vp-button-brand-text: var(--organic-pale-mist);
 
-  --vp-button-alt-bg: var(--color-purple-100);
-  --vp-button-alt-hover-bg: var(--color-purple-200);
-  --vp-button-alt-active-bg: var(--color-purple-300);
-  --vp-button-alt-text: var(--color-purple-700);
+  --vp-button-alt-bg: var(--organic-sand);
+  --vp-button-alt-hover-bg: var(--organic-sand-light);
+  --vp-button-alt-active-bg: var(--organic-sand-dark);
+  --vp-button-alt-text: var(--organic-loam);
 
-  --vp-button-sponsor-bg: linear-gradient(135deg, var(--color-purple-500) 0%, #ec4899 100%);
-  --vp-button-sponsor-hover-bg: linear-gradient(135deg, var(--color-purple-400) 0%, #f472b6 100%);
-  --vp-button-sponsor-active-bg: var(--color-purple-600);
+  --vp-button-sponsor-bg: var(--organic-terracotta);
+  --vp-button-sponsor-hover-bg: var(--organic-terracotta-light);
+  --vp-button-sponsor-active-bg: var(--organic-terracotta-dark);
   --vp-button-sponsor-text: #ffffff;
 
   /* Home page hero */
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(135deg, var(--color-purple-600) 0%, var(--color-purple-900) 100%);
-  --vp-home-hero-image-background-image: linear-gradient(135deg, var(--color-purple-200) 50%, var(--color-purple-400) 50%);
+  --vp-home-hero-name-background: linear-gradient(135deg, var(--organic-moss) 0%, var(--organic-moss-dark) 100%);
+  --vp-home-hero-image-background-image: linear-gradient(135deg, var(--organic-sand) 50%, var(--organic-terracotta-lighter) 50%);
   --vp-home-hero-image-filter: blur(56px);
 
   /* Sidebar */
-  --vp-sidebar-bg-color: #ffffff;
+  --vp-sidebar-bg-color: var(--organic-rice-paper);
   --vp-sidebar-width: 280px;
   --vp-sidebar-width-mobile: 280px;
 
@@ -120,80 +138,81 @@
 
   /* Navigation */
   --vp-nav-height: 64px;
-  --vp-nav-bg-color: rgba(255, 255, 255, 0.9);
-  --vp-nav-screen-bg-color: var(--color-purple-50);
+  --vp-nav-bg-color: rgba(253, 252, 248, 0.7);
+  --vp-nav-screen-bg-color: var(--organic-stone);
 
   /* Code colors */
-  --vp-code-color: var(--color-purple-700);
-  --vp-code-bg: var(--color-purple-50);
-  --vp-code-block-bg: #1e1b4b;
-  --vp-code-line-highlight-color: rgba(147, 51, 234, 0.1);
+  --vp-code-color: var(--organic-moss-dark);
+  --vp-code-bg: rgba(93, 112, 82, 0.08);
+  --vp-code-block-bg: var(--organic-loam);
+  --vp-code-line-highlight-color: rgba(93, 112, 82, 0.1);
 }
 
-/* Dark mode - Premium Purple */
+
+/* Dark mode - Organic Earth Tones */
 .dark {
-  --vp-c-bg: #0f0a19;
-  --vp-c-bg-soft: #1a1228;
-  --vp-c-bg-alt: #150d22;
-  --vp-c-bg-elv: #1f1533;
+  --vp-c-bg: #1a1814;
+  --vp-c-bg-soft: #252118;
+  --vp-c-bg-alt: #2a251e;
+  --vp-c-bg-elv: #2f2a23;
 
-  --vp-c-text-1: #f3e8ff;
-  --vp-c-text-2: #d8b4fe;
-  --vp-c-text-3: #c084fc;
-  --vp-c-text-4: #a855f7;
+  --vp-c-text-1: var(--organic-pale-mist);
+  --vp-c-text-2: var(--organic-sand-light);
+  --vp-c-text-3: var(--organic-sand);
+  --vp-c-text-4: var(--organic-sand-dark);
 
-  --vp-c-brand-1: var(--color-purple-400);
-  --vp-c-brand-2: var(--color-purple-500);
-  --vp-c-brand-3: var(--color-purple-600);
-  --vp-c-brand-soft: rgba(168, 85, 247, 0.16);
+  --vp-c-brand-1: var(--organic-moss-light);
+  --vp-c-brand-2: var(--organic-moss-lighter);
+  --vp-c-brand-3: var(--organic-moss-lighter);
+  --vp-c-brand-soft: rgba(122, 145, 105, 0.16);
 
-  --vp-c-brand: var(--color-purple-500);
-  --vp-c-brand-light: var(--color-purple-400);
-  --vp-c-brand-lighter: var(--color-purple-300);
-  --vp-c-brand-dark: var(--color-purple-600);
-  --vp-c-brand-darker: var(--color-purple-700);
+  --vp-c-brand: var(--organic-moss-light);
+  --vp-c-brand-light: var(--organic-moss-lighter);
+  --vp-c-brand-lighter: #b5c9a8;
+  --vp-c-brand-dark: var(--organic-moss);
+  --vp-c-brand-darker: var(--organic-moss-dark);
 
-  --vp-c-border: rgba(147, 51, 234, 0.2);
-  --vp-c-border-hard: rgba(147, 51, 234, 0.3);
-  --vp-c-divider: rgba(147, 51, 234, 0.15);
+  --vp-c-border: rgba(222, 216, 207, 0.2);
+  --vp-c-border-hard: rgba(222, 216, 207, 0.3);
+  --vp-c-divider: rgba(222, 216, 207, 0.15);
 
-  --vp-c-bg-gutter: #0c0715;
-  --vp-c-bg-gutter-light: #100b1c;
-  --vp-c-bg-gutter-lite: #150e24;
+  --vp-c-bg-gutter: #151310;
+  --vp-c-bg-gutter-light: #1a1814;
+  --vp-c-bg-gutter-lite: #1f1c18;
 
-  --vp-c-shadow: rgba(147, 51, 234, 0.3);
-  --vp-c-shadow-light: rgba(147, 51, 234, 0.2);
-  --vp-c-shadow-lighter: rgba(147, 51, 234, 0.1);
+  --vp-c-shadow: rgba(93, 112, 82, 0.3);
+  --vp-c-shadow-light: rgba(93, 112, 82, 0.2);
+  --vp-c-shadow-lighter: rgba(93, 112, 82, 0.1);
 
-  --vp-c-bg-soft-outset: #1a1228;
-  --vp-c-bg-mute: #1f1533;
-  --vp-c-bg-mute-dark: #251a3d;
-  --vp-c-bg-mute-darker: #2e2149;
-  --vp-c-bg-mute-darkest: #382955;
+  --vp-c-bg-soft-outset: #252118;
+  --vp-c-bg-mute: #2a251e;
+  --vp-c-bg-mute-dark: #2f2a23;
+  --vp-c-bg-mute-darker: #3a3329;
+  --vp-c-bg-mute-darkest: #45402f;
 
-  --vp-sidebar-bg-color: #0f0a19;
+  --vp-sidebar-bg-color: #1a1814;
 
-  --vp-c-tip: var(--color-purple-400);
-  --vp-c-tip-bg: rgba(168, 85, 247, 0.1);
-  --vp-c-tip-border: rgba(168, 85, 247, 0.3);
+  --vp-c-tip: var(--organic-moss-lighter);
+  --vp-c-tip-bg: rgba(122, 145, 105, 0.12);
+  --vp-c-tip-border: rgba(122, 145, 105, 0.3);
 
-  --vp-c-warning: #fbbf24;
-  --vp-c-warning-bg: rgba(251, 191, 36, 0.1);
-  --vp-c-warning-border: rgba(251, 191, 36, 0.3);
+  --vp-c-warning: var(--organic-terracotta-light);
+  --vp-c-warning-bg: rgba(212, 164, 122, 0.12);
+  --vp-c-warning-border: rgba(212, 164, 122, 0.3);
 
-  --vp-c-danger: #f87171;
-  --vp-c-danger-bg: rgba(248, 113, 113, 0.1);
-  --vp-c-danger-border: rgba(248, 113, 113, 0.3);
+  --vp-c-danger: #d4897a;
+  --vp-c-danger-bg: rgba(212, 137, 122, 0.12);
+  --vp-c-danger-border: rgba(212, 137, 122, 0.3);
 
-  --vp-c-info: var(--color-purple-400);
-  --vp-c-info-bg: rgba(168, 85, 247, 0.1);
-  --vp-c-info-border: rgba(168, 85, 247, 0.3);
+  --vp-c-info: var(--organic-moss-lighter);
+  --vp-c-info-bg: rgba(122, 145, 105, 0.12);
+  --vp-c-info-border: rgba(122, 145, 105, 0.3);
 
-  --vp-nav-bg-color: rgba(15, 10, 25, 0.9);
-  --vp-nav-screen-bg-color: #0f0a19;
+  --vp-nav-bg-color: rgba(26, 24, 20, 0.8);
+  --vp-nav-screen-bg-color: #1a1814;
 
-  --vp-code-color: var(--color-purple-300);
-  --vp-code-bg: rgba(147, 51, 234, 0.15);
-  --vp-code-block-bg: #0c0715;
-  --vp-code-line-highlight-color: rgba(147, 51, 234, 0.2);
+  --vp-code-color: var(--organic-moss-lighter);
+  --vp-code-bg: rgba(122, 145, 105, 0.15);
+  --vp-code-block-bg: #151310;
+  --vp-code-line-highlight-color: rgba(122, 145, 105, 0.2);
 }

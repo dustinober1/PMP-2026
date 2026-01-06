@@ -1,9 +1,10 @@
-/* Professional PMP Exam Prep Theme */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+/* Organic Typography - Fraunces (headings) + Nunito (body) */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600..800;1,9..144,600..800&family=Nunito:wght@400;500;600;700&display=swap');
 
 /* Base typography */
 :root {
-  --vp-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --vp-font-family-base: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --vp-font-family-heading: 'Fraunces', Georgia, serif;
 }
 
 /* Global styles */
@@ -15,51 +16,87 @@ body {
   font-family: var(--vp-font-family-base);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
-/* Navigation styling */
+/* Global paper grain texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJhIiB4PSIwIiB5PSIwIj48ZmVUdXJidWxlbmNlIGJhc2VGcmVxdWVuY3k9Ii43NSIgc3RpdGNoVGlsZXM9InN0aXRjaCIgdHlwZT0iZnJhY3RhbE5vaXNlIi8+PGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMCIvPjwvZmlsdGVyPjxwYXRoIGQ9Ik0wIDBoMzAwdjMwMEgweiIgZmlsdGVyPSJ1cmwoI2EpIiBvcGFjaXR5PSIuMDUiLz48L3N2Zz4=');
+  opacity: 0.035;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.dark body::before {
+  opacity: 0.02;
+  mix-blend-mode: overlay;
+}
+
+
+/* Navigation styling - Glassmorphism */
 .VPNav {
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
   background: var(--vp-nav-bg-color) !important;
-  border-bottom: 1px solid var(--vp-c-border);
-  box-shadow: 0 1px 3px var(--vp-c-shadow-lighter);
+  border-bottom: 1px solid rgba(222, 216, 207, 0.3);
+  box-shadow: 0 2px 12px var(--vp-c-shadow-lighter);
+  transition: all 0.3s ease;
 }
 
 .VPNavBarTitle .title {
+  font-family: var(--vp-font-family-heading);
   font-weight: 700;
-  background: linear-gradient(135deg, var(--color-purple-600), var(--color-purple-800));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--organic-moss);
+  transition: color 0.3s ease;
+}
+
+.dark .VPNavBarTitle .title {
+  color: var(--organic-moss-lighter);
 }
 
 .VPNavBarMenuLink {
   font-weight: 500;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .VPNavBarMenuLink:hover {
-  color: var(--color-purple-600) !important;
+  color: var(--organic-moss) !important;
+  background: rgba(93, 112, 82, 0.08);
 }
 
-/* Sidebar styling */
+.dark .VPNavBarMenuLink:hover {
+  color: var(--organic-moss-lighter) !important;
+  background: rgba(122, 145, 105, 0.15);
+}
+
+
+/* Sidebar styling - Organic */
 .VPSidebar {
   background: var(--vp-sidebar-bg-color);
-  border-right: 1px solid var(--vp-c-border);
+  border-right: 1px solid rgba(222, 216, 207, 0.3);
 }
 
 .VPSidebarItem.level-0>.item>.text {
+  font-family: var(--vp-font-family-heading);
   font-weight: 700;
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--color-purple-700);
+  color: var(--organic-moss);
   padding: 0.75rem 0;
 }
 
 .dark .VPSidebarItem.level-0>.item>.text {
-  color: var(--color-purple-400);
+  color: var(--organic-moss-lighter);
 }
 
 .VPSidebarItem .text {
@@ -70,25 +107,26 @@ body {
 .VPSidebarItem.is-link .link {
   padding: 0.5rem 1rem;
   margin: 0.125rem 0.5rem;
-  border-radius: 0.5rem;
-  transition: all 0.2s ease;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
 }
 
 .VPSidebarItem.is-link .link:hover {
-  background: var(--color-purple-50);
-  color: var(--color-purple-700);
+  background: rgba(230, 220, 205, 0.5);
+  color: var(--organic-moss);
+  transform: translateX(2px);
 }
 
 .dark .VPSidebarItem.is-link .link:hover {
-  background: rgba(147, 51, 234, 0.15);
-  color: var(--color-purple-300);
+  background: rgba(122, 145, 105, 0.15);
+  color: var(--organic-moss-lighter);
 }
 
 .VPSidebarItem.is-link.is-active .link {
-  background: linear-gradient(135deg, var(--color-purple-600), var(--color-purple-700));
+  background: var(--organic-moss);
   color: white !important;
   font-weight: 600;
-  box-shadow: 0 4px 12px rgba(147, 51, 234, 0.3);
+  box-shadow: 0 4px 20px rgba(93, 112, 82, 0.25);
 }
 
 .VPSidebarItem.is-link.is-active .link .text,
@@ -99,8 +137,8 @@ body {
 }
 
 .dark .VPSidebarItem.is-link.is-active .link {
-  background: linear-gradient(135deg, var(--color-purple-500), var(--color-purple-600));
-  box-shadow: 0 4px 12px rgba(147, 51, 234, 0.4);
+  background: var(--organic-moss-light);
+  box-shadow: 0 4px 20px rgba(122, 145, 105, 0.3);
 }
 
 .dark .VPSidebarItem.is-link.is-active .link .text,
@@ -110,13 +148,14 @@ body {
   -webkit-text-fill-color: white !important;
 }
 
-/* Content styling */
+/* Content styling - Organic Typography */
 .VPDoc h1,
 .VPDoc h2,
 .VPDoc h3,
 .VPDoc h4,
 .VPDoc h5,
 .VPDoc h6 {
+  font-family: var(--vp-font-family-heading);
   font-weight: 700;
   line-height: 1.3;
   scroll-margin-top: calc(var(--vp-nav-height) + 24px);
@@ -124,44 +163,41 @@ body {
 
 .VPDoc h1 {
   font-size: 2.5rem;
-  background: linear-gradient(135deg, var(--color-purple-700), var(--color-purple-500));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-weight: 800;
+  color: var(--organic-loam);
   padding-bottom: 0.75rem;
-  border-bottom: 3px solid var(--color-purple-200);
+  border-bottom: 3px solid rgba(230, 220, 205, 0.6);
   margin-bottom: 1.5rem;
 }
 
 .dark .VPDoc h1 {
-  background: linear-gradient(135deg, var(--color-purple-400), var(--color-purple-300));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  border-bottom-color: rgba(147, 51, 234, 0.3);
+  color: var(--organic-pale-mist);
+  border-bottom-color: rgba(122, 145, 105, 0.3);
 }
 
 .VPDoc h2 {
   font-size: 1.75rem;
-  color: var(--color-purple-700);
+  font-weight: 700;
+  color: var(--organic-moss);
   margin-top: 2.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--color-purple-100);
+  border-bottom: 2px solid rgba(230, 220, 205, 0.5);
 }
 
 .dark .VPDoc h2 {
-  color: var(--color-purple-400);
-  border-bottom-color: rgba(147, 51, 234, 0.2);
+  color: var(--organic-moss-lighter);
+  border-bottom-color: rgba(122, 145, 105, 0.2);
 }
 
 .VPDoc h3 {
   font-size: 1.35rem;
-  color: var(--color-purple-600);
+  font-weight: 700;
+  color: var(--organic-moss-dark);
   margin-top: 2rem;
 }
 
 .dark .VPDoc h3 {
-  color: var(--color-purple-400);
+  color: var(--organic-moss-light);
 }
 
 .VPDoc p {
@@ -170,40 +206,49 @@ body {
 }
 
 .VPDoc a {
-  color: var(--color-purple-600);
+  color: var(--organic-moss);
   text-decoration: none;
   font-weight: 500;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
   border-bottom: 1px solid transparent;
 }
 
 .VPDoc a:hover {
-  color: var(--color-purple-500);
-  border-bottom-color: var(--color-purple-500);
+  color: var(--organic-moss-dark);
+  border-bottom-color: var(--organic-moss-dark);
+}
+
+.dark .VPDoc a {
+  color: var(--organic-moss-lighter);
+}
+
+.dark .VPDoc a:hover {
+  color: var(--organic-moss-light);
+  border-bottom-color: var(--organic-moss-light);
 }
 
 .VPDoc strong {
-  color: var(--color-purple-700);
+  color: var(--organic-moss-dark);
   font-weight: 600;
 }
 
 .dark .VPDoc strong {
-  color: var(--color-purple-400);
+  color: var(--organic-moss-lighter);
 }
 
-/* Blockquotes */
+/* Blockquotes - Organic */
 .VPDoc blockquote {
-  border-left: 4px solid var(--color-purple-500);
-  background: linear-gradient(135deg, var(--color-purple-50), transparent);
+  border-left: 4px solid var(--organic-moss);
+  background: linear-gradient(135deg, rgba(93, 112, 82, 0.08), transparent);
   padding: 1.25rem 1.5rem;
   margin: 1.5rem 0;
-  border-radius: 0 0.75rem 0.75rem 0;
+  border-radius: 0 1.5rem 1.5rem 0;
   font-style: italic;
 }
 
 .dark .VPDoc blockquote {
-  background: linear-gradient(135deg, rgba(147, 51, 234, 0.1), transparent);
-  border-left-color: var(--color-purple-500);
+  background: linear-gradient(135deg, rgba(122, 145, 105, 0.12), transparent);
+  border-left-color: var(--organic-moss-light);
 }
 
 .VPDoc blockquote p {
@@ -211,7 +256,7 @@ body {
   color: var(--vp-c-text-2);
 }
 
-/* Lists */
+/* Lists - Organic */
 .VPDoc ul,
 .VPDoc ol {
   padding-left: 1.5rem;
@@ -224,34 +269,42 @@ body {
 }
 
 .VPDoc ul li::marker {
-  color: var(--color-purple-500);
+  color: var(--organic-moss);
 }
 
 .VPDoc ol li::marker {
-  color: var(--color-purple-600);
+  color: var(--organic-moss-dark);
   font-weight: 700;
 }
 
-/* Code blocks */
+.dark .VPDoc ul li::marker {
+  color: var(--organic-moss-lighter);
+}
+
+.dark .VPDoc ol li::marker {
+  color: var(--organic-moss-light);
+}
+
+/* Code blocks - Organic */
 .VPDoc div[class*='language-'] {
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   margin: 1.5rem 0;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-  border: 1px solid var(--vp-c-border);
+  box-shadow: 0 4px 20px var(--vp-c-shadow-lighter);
+  border: 1px solid rgba(222, 216, 207, 0.3);
 }
 
 .VPDoc code {
-  background: var(--color-purple-50);
-  color: var(--color-purple-700);
+  background: var(--vp-code-bg);
+  color: var(--organic-moss-dark);
   padding: 0.2rem 0.5rem;
-  border-radius: 0.375rem;
+  border-radius: 0.5rem;
   font-size: 0.875em;
   font-weight: 500;
 }
 
 .dark .VPDoc code {
-  background: rgba(147, 51, 234, 0.15);
-  color: var(--color-purple-300);
+  background: var(--vp-code-bg);
+  color: var(--organic-moss-lighter);
 }
 
 .VPDoc pre code {
@@ -260,25 +313,25 @@ body {
   padding: 0;
 }
 
-/* Tables */
+/* Tables - Organic */
 .VPDoc table {
   border-collapse: collapse;
   width: 100%;
   margin: 1.5rem 0;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   overflow: hidden;
   box-shadow: 0 4px 20px var(--vp-c-shadow-lighter);
 }
 
 .VPDoc table th,
 .VPDoc table td {
-  border: 1px solid var(--vp-c-border);
+  border: 1px solid rgba(222, 216, 207, 0.4);
   padding: 1rem;
   text-align: left;
 }
 
 .VPDoc table th {
-  background: linear-gradient(135deg, var(--color-purple-600), var(--color-purple-700));
+  background: var(--organic-moss);
   color: white;
   font-weight: 600;
   text-transform: uppercase;
@@ -287,68 +340,69 @@ body {
 }
 
 .VPDoc table tr:nth-child(even) {
-  background: var(--color-purple-50);
+  background: rgba(240, 235, 229, 0.5);
 }
 
 .dark .VPDoc table tr:nth-child(even) {
-  background: rgba(147, 51, 234, 0.05);
+  background: rgba(122, 145, 105, 0.05);
 }
 
 .VPDoc table tr:hover {
-  background: var(--color-purple-100);
+  background: rgba(230, 220, 205, 0.4);
+  transition: background 0.3s ease;
 }
 
 .dark .VPDoc table tr:hover {
-  background: rgba(147, 51, 234, 0.1);
+  background: rgba(122, 145, 105, 0.1);
 }
 
-/* Custom blocks (tips, warnings, etc.) */
+/* Custom blocks (tips, warnings, etc.) - Organic */
 .custom-block {
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   padding: 1.25rem 1.5rem;
   margin: 1.5rem 0;
   border-left: 4px solid;
 }
 
 .custom-block.tip {
-  background: linear-gradient(135deg, var(--color-purple-50), rgba(147, 51, 234, 0.05));
-  border-left-color: var(--color-purple-500);
+  background: linear-gradient(135deg, rgba(93, 112, 82, 0.08), rgba(93, 112, 82, 0.03));
+  border-left-color: var(--organic-moss);
 }
 
 .dark .custom-block.tip {
-  background: linear-gradient(135deg, rgba(147, 51, 234, 0.15), rgba(147, 51, 234, 0.05));
+  background: linear-gradient(135deg, rgba(122, 145, 105, 0.15), rgba(122, 145, 105, 0.05));
 }
 
 .custom-block.tip .custom-block-title {
-  color: var(--color-purple-700);
+  color: var(--organic-moss-dark);
   font-weight: 700;
 }
 
 .dark .custom-block.tip .custom-block-title {
-  color: var(--color-purple-400);
+  color: var(--organic-moss-lighter);
 }
 
 .custom-block.warning {
-  background: linear-gradient(135deg, #fef3c7, rgba(251, 191, 36, 0.05));
-  border-left-color: #f59e0b;
+  background: linear-gradient(135deg, rgba(193, 140, 93, 0.08), rgba(193, 140, 93, 0.03));
+  border-left-color: var(--organic-terracotta);
 }
 
 .custom-block.warning .custom-block-title {
-  color: #b45309;
+  color: var(--organic-terracotta-dark);
 }
 
 .custom-block.danger {
-  background: linear-gradient(135deg, #fef2f2, rgba(239, 68, 68, 0.05));
-  border-left-color: #ef4444;
+  background: linear-gradient(135deg, rgba(168, 84, 72, 0.08), rgba(168, 84, 72, 0.03));
+  border-left-color: var(--organic-burnt-sienna);
 }
 
 .custom-block.danger .custom-block-title {
-  color: #b91c1c;
+  color: var(--organic-burnt-sienna);
 }
 
 .custom-block.info {
-  background: linear-gradient(135deg, var(--color-purple-50), rgba(147, 51, 234, 0.05));
-  border-left-color: var(--color-purple-400);
+  background: linear-gradient(135deg, rgba(93, 112, 82, 0.08), rgba(93, 112, 82, 0.03));
+  border-left-color: var(--organic-moss-light);
 }
 
 /* Home page hero */
@@ -387,7 +441,7 @@ body {
   flex-wrap: wrap;
 }
 
-/* Buttons */
+/* Buttons - Organic Pills */
 .VPButton {
   padding: 0.875rem 2rem;
   border-radius: 9999px;
@@ -400,41 +454,49 @@ body {
 }
 
 .VPButton.brand {
-  background: linear-gradient(135deg, var(--color-purple-600), var(--color-purple-700));
-  color: white;
-  box-shadow: 0 4px 20px rgba(147, 51, 234, 0.4);
+  background: var(--organic-moss);
+  color: var(--organic-pale-mist);
+  box-shadow: 0 4px 20px rgba(93, 112, 82, 0.25);
 }
 
 .VPButton.brand:hover {
-  background: linear-gradient(135deg, var(--color-purple-500), var(--color-purple-600));
-  transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(147, 51, 234, 0.5);
+  background: var(--organic-moss-light);
+  transform: scale(1.05);
+  box-shadow: 0 6px 24px rgba(93, 112, 82, 0.35);
+}
+
+.VPButton.brand:active {
+  transform: scale(0.95);
 }
 
 .VPButton.alt {
-  background: white;
-  color: var(--color-purple-700);
-  border: 2px solid var(--color-purple-200);
+  background: var(--organic-sand);
+  color: var(--organic-loam);
+  border: 2px solid var(--organic-timber);
 }
 
 .VPButton.alt:hover {
-  background: var(--color-purple-50);
-  border-color: var(--color-purple-400);
-  transform: translateY(-2px);
+  background: var(--organic-sand-light);
+  border-color: var(--organic-moss);
+  transform: scale(1.05);
+}
+
+.VPButton.alt:active {
+  transform: scale(0.95);
 }
 
 .dark .VPButton.alt {
-  background: transparent;
-  color: var(--color-purple-300);
-  border-color: var(--color-purple-600);
+  background: rgba(230, 220, 205, 0.1);
+  color: var(--organic-sand-light);
+  border-color: var(--organic-timber);
 }
 
 .dark .VPButton.alt:hover {
-  background: rgba(147, 51, 234, 0.15);
-  border-color: var(--color-purple-400);
+  background: rgba(230, 220, 205, 0.2);
+  border-color: var(--organic-moss-light);
 }
 
-/* Features grid */
+/* Features grid - Organic */
 .VPFeatures {
   padding: 4rem 2rem;
 }
@@ -442,10 +504,10 @@ body {
 .VPFeature {
   text-align: center;
   padding: 2rem;
-  border-radius: 1.5rem;
-  background: white;
-  border: 1px solid var(--vp-c-border);
-  transition: all 0.3s ease;
+  border-radius: 2rem;
+  background: var(--organic-rice-paper);
+  border: 1px solid rgba(222, 216, 207, 0.5);
+  transition: all 0.5s ease;
 }
 
 .dark .VPFeature {
@@ -455,34 +517,41 @@ body {
 .VPFeature:hover {
   transform: translateY(-4px);
   box-shadow: 0 20px 40px var(--vp-c-shadow);
-  border-color: var(--color-purple-300);
+  border-color: var(--organic-moss);
 }
 
 .VPFeature .icon {
   width: 4rem;
   height: 4rem;
   margin: 0 auto 1.25rem;
-  background: linear-gradient(135deg, var(--color-purple-100), var(--color-purple-200));
-  border-radius: 1rem;
+  background: linear-gradient(135deg, rgba(93, 112, 82, 0.1), rgba(93, 112, 82, 0.2));
+  border-radius: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.75rem;
+  transition: all 0.5s ease;
+}
+
+.VPFeature:hover .icon {
+  background: var(--organic-moss);
+  color: white;
+  transform: scale(1.1);
 }
 
 .dark .VPFeature .icon {
-  background: linear-gradient(135deg, rgba(147, 51, 234, 0.2), rgba(147, 51, 234, 0.3));
+  background: linear-gradient(135deg, rgba(122, 145, 105, 0.2), rgba(122, 145, 105, 0.3));
 }
 
 .VPFeature .title {
-  color: var(--color-purple-700);
+  color: var(--organic-moss-dark);
   font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
 }
 
 .dark .VPFeature .title {
-  color: var(--color-purple-400);
+  color: var(--organic-moss-lighter);
 }
 
 .VPFeature .details {
@@ -490,7 +559,7 @@ body {
   line-height: 1.6;
 }
 
-/* Progress components */
+/* Progress components - Organic */
 .progress-container {
   margin: 1.5rem 0;
 }
@@ -501,55 +570,55 @@ body {
   font-size: 0.875rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: var(--color-purple-700);
+  color: var(--organic-moss-dark);
 }
 
 .dark .progress-label {
-  color: var(--color-purple-400);
+  color: var(--organic-moss-lighter);
 }
 
 .progress-bar {
   height: 10px;
-  background: var(--color-purple-100);
+  background: rgba(230, 220, 205, 0.5);
   border-radius: 9999px;
   overflow: hidden;
 }
 
 .dark .progress-bar {
-  background: rgba(147, 51, 234, 0.2);
+  background: rgba(122, 145, 105, 0.2);
 }
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, var(--color-purple-500), var(--color-purple-700));
+  background: linear-gradient(90deg, var(--organic-moss-light), var(--organic-moss));
   border-radius: 9999px;
   transition: width 0.5s ease;
 }
 
-/* Quiz components */
+/* Quiz components - Organic */
 .quiz-container {
-  background: linear-gradient(135deg, var(--color-purple-50), white);
-  border: 1px solid var(--color-purple-200);
-  border-radius: 1.5rem;
+  background: linear-gradient(135deg, rgba(93, 112, 82, 0.05), var(--organic-rice-paper));
+  border: 1px solid rgba(222, 216, 207, 0.5);
+  border-radius: 2rem;
   padding: 2rem;
   margin: 1.5rem 0;
 }
 
 .dark .quiz-container {
-  background: linear-gradient(135deg, rgba(147, 51, 234, 0.1), var(--vp-c-bg-soft));
-  border-color: rgba(147, 51, 234, 0.3);
+  background: linear-gradient(135deg, rgba(122, 145, 105, 0.1), var(--vp-c-bg-soft));
+  border-color: rgba(122, 145, 105, 0.3);
 }
 
 .quiz-question {
   font-size: 1.25rem;
   font-weight: 700;
-  color: var(--color-purple-800);
+  color: var(--organic-moss-dark);
   margin-bottom: 1.5rem;
   line-height: 1.4;
 }
 
 .dark .quiz-question {
-  color: var(--color-purple-300);
+  color: var(--organic-moss-lighter);
 }
 
 .quiz-options {
@@ -560,32 +629,32 @@ body {
 
 .quiz-option {
   background: white;
-  border: 2px solid var(--color-purple-200);
-  border-radius: 1rem;
+  border: 2px solid rgba(222, 216, 207, 0.6);
+  border-radius: 1.5rem;
   padding: 1.25rem;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
   font-weight: 500;
 }
 
 .dark .quiz-option {
   background: var(--vp-c-bg);
-  border-color: rgba(147, 51, 234, 0.3);
+  border-color: rgba(122, 145, 105, 0.3);
 }
 
 .quiz-option:hover {
-  border-color: var(--color-purple-400);
-  background: var(--color-purple-50);
+  border-color: var(--organic-moss);
+  background: rgba(93, 112, 82, 0.05);
   transform: translateX(4px);
 }
 
 .dark .quiz-option:hover {
-  background: rgba(147, 51, 234, 0.1);
+  background: rgba(122, 145, 105, 0.1);
 }
 
 .quiz-option.selected {
-  border-color: var(--color-purple-500);
-  background: var(--color-purple-100);
+  border-color: var(--organic-moss);
+  background: rgba(93, 112, 82, 0.1);
 }
 
 .quiz-option.correct {
@@ -601,7 +670,7 @@ body {
 .quiz-feedback {
   margin-top: 1.5rem;
   padding: 1.25rem;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   font-weight: 500;
 }
 
@@ -667,21 +736,21 @@ body {
   }
 }
 
-/* Smooth scrolling and focus styles */
+/* Smooth scrolling and focus styles - Organic */
 :focus-visible {
-  outline: 2px solid var(--color-purple-500);
+  outline: 2px solid var(--organic-moss);
   outline-offset: 2px;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
 }
 
-/* Selection styling */
+/* Selection styling - Organic */
 ::selection {
-  background: var(--color-purple-200);
-  color: var(--color-purple-900);
+  background: rgba(93, 112, 82, 0.3);
+  color: var(--organic-loam);
 }
 
 .dark ::selection {
-  background: var(--color-purple-700);
+  background: var(--organic-moss);
   color: white;
 }
 
@@ -701,12 +770,12 @@ body {
     border: 1px solid var(--vp-c-divider);
     padding: 6px 10px;
   }
-  
+
   .VPNavBarSearch .DocSearch-Button-Placeholder {
     padding-left: 8px;
     font-weight: 500;
   }
-  
+
   .VPNavBarSearch .DocSearch-Button:hover {
     border-color: var(--color-purple-500);
     background-color: var(--vp-c-bg);
@@ -717,12 +786,12 @@ body {
   .VPNavBarSearch {
     flex-grow: 0;
   }
-  
+
   .VPNavBarSearch .DocSearch-Button {
     padding: 8px;
     background: transparent;
   }
-  
+
   .VPNavBarSearch .DocSearch-Button-Container {
     margin: 0;
   }
