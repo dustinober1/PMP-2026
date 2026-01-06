@@ -700,12 +700,6 @@ What is the root cause of the difficulty in establishing a shared vision here?
 
 ---
 
-| **Source Link** | `guide/05-initiation/project-charter.md` |
-
-</details>
-
----
-
 ### Question 26
 
 **Enabler:** 2 | **Methodology:** Hybrid
