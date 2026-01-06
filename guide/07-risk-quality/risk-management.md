@@ -486,55 +486,42 @@ Shows total risk exposure (sum of EMVs) decreasing over time as:
 <ConceptCard title="Risk Burndown: Risk Exposure Over Sprints">
   <div style="font-family: var(--vp-font-family-base); color: var(--vp-c-text-1);">
     <div style="display: flex; flex-direction: column; gap: 8px;">
-
-      <!-- Sprint 1 -->
       <div style="display: flex; align-items: center; gap: 10px;">
         <div style="width: 50px; text-align: right; font-size: 0.9em;">$200k</div>
         <div style="flex-grow: 1; background: var(--vp-c-bg-soft); height: 20px; border-radius: 4px;">
           <div style="width: 100%; background: var(--vp-c-danger); height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.8em;">S1</div>
         </div>
       </div>
-
-      <!-- Sprint 2 -->
       <div style="display: flex; align-items: center; gap: 10px;">
         <div style="width: 50px; text-align: right; font-size: 0.9em;">$180k</div>
         <div style="flex-grow: 1; background: var(--vp-c-bg-soft); height: 20px; border-radius: 4px;">
            <div style="width: 90%; background: var(--vp-c-danger); height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.8em;">S2</div>
         </div>
       </div>
-
-      <!-- Sprint 3 -->
       <div style="display: flex; align-items: center; gap: 10px;">
         <div style="width: 50px; text-align: right; font-size: 0.9em;">$140k</div>
         <div style="flex-grow: 1; background: var(--vp-c-bg-soft); height: 20px; border-radius: 4px;">
           <div style="width: 70%; background: var(--vp-c-warning); height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: black; font-size: 0.8em;">S3</div>
         </div>
       </div>
-
-      <!-- Sprint 4 -->
       <div style="display: flex; align-items: center; gap: 10px;">
          <div style="width: 50px; text-align: right; font-size: 0.9em;">$100k</div>
          <div style="flex-grow: 1; background: var(--vp-c-bg-soft); height: 20px; border-radius: 4px;">
            <div style="width: 50%; background: var(--vp-c-warning); height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: black; font-size: 0.8em;">S4</div>
          </div>
       </div>
-
-       <!-- Sprint 5 -->
       <div style="display: flex; align-items: center; gap: 10px;">
          <div style="width: 50px; text-align: right; font-size: 0.9em;">$60k</div>
          <div style="flex-grow: 1; background: var(--vp-c-bg-soft); height: 20px; border-radius: 4px;">
            <div style="width: 30%; background: var(--vp-c-brand); height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.8em;">S5</div>
          </div>
       </div>
-
-       <!-- Sprint 6 -->
       <div style="display: flex; align-items: center; gap: 10px;">
          <div style="width: 50px; text-align: right; font-size: 0.9em;">$30k</div>
          <div style="flex-grow: 1; background: var(--vp-c-bg-soft); height: 20px; border-radius: 4px;">
            <div style="width: 15%; background: var(--vp-c-brand); height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.8em;">S6</div>
          </div>
       </div>
-
     </div>
   </div>
 </ConceptCard>
@@ -610,7 +597,7 @@ Before managing risk, you must define **when** to act. This is captured in the R
 |---|---|---|
 | **Risk Appetite** | The degree of uncertainty an organization is willing to accept | "We accept up to 10% budget variance" |
 | **Risk Threshold** | The specific point at which a risk requires action | "Any risk with EMV >$50k requires executive review" |
-| **Risk Tolerance** | The acceptable range of variation for an objective | "Schedule slip <2 weeks is acceptable" |
+| **Risk Tolerance** | The acceptable range of variation for an objective | "Schedule slip &lt;2 weeks is acceptable" |
 
 ### Threshold-Based Responses (Exam Pattern)
 The exam loves scenarios where you must decide **whether to act** based on thresholds:
