@@ -1026,21 +1026,39 @@ If a scenario describes recurring team issues (missed deadlines, quality problem
     </ConceptCard>
 </ConceptGrid>
 
-**Example: Improving Test Coverage**
-```
-Plan: Hypothesis - Low test coverage causing production defects.
-      Goal: Increase coverage from 60% to 85% in 2 sprints.
-
-Do:   Implement automated test generation for new features.
-      Train team on test-driven development (TDD).
-
-Check: After 2 sprints, coverage increased to 78%.
-       Production defect rate decreased by 40%.
-
-Act:  Standardize TDD approach in team guidelines.
-      Add coverage checks to CI/CD pipeline.
-      Next cycle: Target 90% coverage for critical modules.
-```
+<ConceptCard title="Example: Improving Test Coverage (PDCA)">
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; padding: 0.5rem;">
+    <div style="flex: 1; min-width: 200px; background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 1rem; border-radius: 10px;">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">📋 PLAN</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem;">
+        <li><strong>Hypothesis:</strong> Low test coverage causing production defects</li>
+        <li><strong>Goal:</strong> Increase coverage from 60% to 85% in 2 sprints</li>
+      </ul>
+    </div>
+    <div style="flex: 1; min-width: 200px; background: linear-gradient(135deg, #f59e0b, #d97706); color: white; padding: 1rem; border-radius: 10px;">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">⚡ DO</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem;">
+        <li>Implement automated test generation</li>
+        <li>Train team on TDD</li>
+      </ul>
+    </div>
+    <div style="flex: 1; min-width: 200px; background: linear-gradient(135deg, #8b5cf6, #6d28d9); color: white; padding: 1rem; border-radius: 10px;">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">🔍 CHECK</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem;">
+        <li>Coverage increased to 78%</li>
+        <li>Defect rate decreased by 40%</li>
+      </ul>
+    </div>
+    <div style="flex: 1; min-width: 200px; background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 1rem; border-radius: 10px;">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">✅ ACT</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem;">
+        <li>Standardize TDD in team guidelines</li>
+        <li>Add coverage checks to CI/CD</li>
+        <li><strong>Next cycle:</strong> Target 90%</li>
+      </ul>
+    </div>
+  </div>
+</ConceptCard>
 
 ### 5. Root Cause Analysis (RCA)
 
