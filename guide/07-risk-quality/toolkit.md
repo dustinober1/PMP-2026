@@ -161,12 +161,15 @@ Key concept pair:
 
 ---
 
-##  Weekly "Risk + Quality" Review Agenda (10 Minutes)
-- New risks/opportunities since last review
-- Top risks: triggers, actions progress, owner updates
-- Recent defects: trend, root cause themes, corrective actions
-- Any complexity signals (dependency surprises, stakeholder misalignment)
-- Updates needed: Risk Register, Issue Log, quality checklist/DoD
+<ConceptCard title="Weekly 'Risk + Quality' Review Agenda (10 Minutes)" variant="primary">
+<ul>
+  <li><strong>New Risks:</strong> Identify any new threats or opportunities since last review.</li>
+  <li><strong>Top Risks:</strong> Update status, trigger monitoring, and owner progress.</li>
+  <li><strong>Recent Defects:</strong> Review trends, root causes, and corrective actions.</li>
+  <li><strong>Complexity Signals:</strong> Dependency surprises or stakeholder misalignment.</li>
+  <li><strong>Log Updates:</strong> Risk Register, Issue Log, and Definition of Done.</li>
+</ul>
+</ConceptCard>
 
 ---
 
@@ -304,39 +307,77 @@ How to read and use Monte Carlo simulation outputs:
 
 ---
 
-##  Risk Response Selection Flowchart
+## Risk Response Selection Flowchart
 
-Use this decision tree to select the best response strategy for threats:
+Use these visual guides to select the best strategy based on the risk profile.
 
-```
-Is the risk OUTSIDE your authority?
-├── YES → ESCALATE to program/portfolio level
-└── NO → Is the impact SEVERE and probability HIGH?
-         ├── YES → Can you ELIMINATE the cause?
-         │         ├── YES → AVOID (change approach/scope)
-         │         └── NO → Can you REDUCE impact OR probability?
-         │                  ├── YES → MITIGATE (reduce exposure)
-         │                  └── NO → Can you TRANSFER to third party?
-         │                           ├── YES → TRANSFER (insurance/contract)
-         │                           └── NO → ACCEPT (active: plan contingency)
-         └── NO → Is monitoring cost-effective?
-                  ├── YES → ACCEPT (active: monitor with triggers)
-                  └── NO → ACCEPT (passive: acknowledge only)
-```
+<ConceptGrid>
+  <ConceptCard title="Threat Response Selection (Negative Risks)" variant="primary">
+    <div style="padding: 10px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+      <svg viewBox="0 0 500 350" style="width: 100%; height: auto;">
+        <rect x="180" y="10" width="140" height="40" rx="20" fill="var(--vp-c-brand-dark)" stroke="var(--vp-c-brand-darker)"></rect>
+        <text x="250" y="35" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="bold">START HERE</text>
+        <line x1="250" y1="50" x2="250" y2="80" stroke="var(--vp-c-text-3)" stroke-width="2"></line>
+        <polygon points="250,80 330,110 250,140 170,110" fill="var(--vp-c-bg-mute)" stroke="var(--vp-c-text-3)"></polygon>
+        <text x="250" y="105" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="9">In your</text>
+        <text x="250" y="120" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="9">Authority?</text>
+        <line x1="170" y1="110" x2="100" y2="110" stroke="var(--vp-c-text-3)" stroke-width="2"></line>
+        <text x="135" y="105" text-anchor="middle" fill="var(--vp-c-text-2)" font-size="8">NO</text>
+        <rect x="5" y="90" width="95" height="40" rx="5" fill="var(--vp-c-warning-soft)" stroke="var(--vp-c-warning)"></rect>
+        <text x="52" y="115" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="10" font-weight="bold">ESCALATE</text>
+        <line x1="250" y1="140" x2="250" y2="170" stroke="var(--vp-c-text-3)" stroke-width="2"></line>
+        <text x="260" y="155" fill="var(--vp-c-text-2)" font-size="8">YES</text>
+        <polygon points="250,170 330,200 250,230 170,200" fill="var(--vp-c-bg-mute)" stroke="var(--vp-c-text-3)"></polygon>
+        <text x="250" y="195" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="9">Severe &</text>
+        <text x="250" y="210" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="9">High Prob?</text>
+        <line x1="330" y1="200" x2="400" y2="200" stroke="var(--vp-c-text-3)" stroke-width="2"></line>
+        <text x="365" y="195" text-anchor="middle" fill="var(--vp-c-text-2)" font-size="8">NO</text>
+        <rect x="400" y="180" width="95" height="40" rx="5" fill="var(--vp-c-indigo-soft)" stroke="var(--vp-c-indigo)"></rect>
+        <text x="447" y="205" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="10" font-weight="bold">ACCEPT</text>
+        <line x1="250" y1="230" x2="250" y2="250" stroke="var(--vp-c-text-3)" stroke-width="2"></line>
+        <text x="260" y="240" fill="var(--vp-c-text-2)" font-size="8">YES</text>
+        <rect x="150" y="250" width="200" height="85" rx="5" fill="var(--vp-c-bg-soft)" stroke="var(--vp-c-divider)"></rect>
+        <text x="250" y="265" text-anchor="middle" fill="var(--vp-c-brand)" font-size="9" font-weight="bold">Choose Priority Strategy:</text>
+        <text x="160" y="285" fill="var(--vp-c-text-2)" font-size="9">1. AVOID (Eliminate cause)</text>
+        <text x="160" y="300" fill="var(--vp-c-text-2)" font-size="9">2. MITIGATE (Reduce P or I)</text>
+        <text x="160" y="315" fill="var(--vp-c-text-2)" font-size="9">3. TRANSFER (Third party)</text>
+      </svg>
+    </div>
+  </ConceptCard>
 
-### Opportunity Response Selection
-
-```
-Is the opportunity OUTSIDE your control?
-├── YES → ESCALATE (let higher-ups pursue it)
-└── NO → Can you GUARANTEE the opportunity happens?
-         ├── YES → EXPLOIT (eliminate uncertainty, make it certain)
-         └── NO → Can you INCREASE the probability or impact?
-                  ├── YES → ENHANCE (take actions to boost it)
-                  └── NO → Can you PARTNER with others to realize it?
-                           ├── YES → SHARE (joint venture)
-                           └── NO → ACCEPT (take advantage if it occurs)
-```
+  <ConceptCard title="Opportunity Selection (Positive Risks)" variant="secondary">
+    <div style="padding: 10px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+      <svg viewBox="0 0 500 350" style="width: 100%; height: auto;">
+        <rect x="180" y="10" width="140" height="40" rx="20" fill="var(--vp-c-green-dark, #2e7d32)" stroke="var(--vp-c-green-darker)"></rect>
+        <text x="250" y="35" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="bold">START HERE</text>
+        <line x1="250" y1="50" x2="250" y2="80" stroke="var(--vp-c-text-3)" stroke-width="2"></line>
+        <polygon points="250,80 330,110 250,140 170,110" fill="var(--vp-c-bg-mute)" stroke="var(--vp-c-text-3)"></polygon>
+        <text x="250" y="105" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="9">In your</text>
+        <text x="250" y="120" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="9">Control?</text>
+        <line x1="170" y1="110" x2="100" y2="110" stroke="var(--vp-c-text-3)" stroke-width="2"></line>
+        <text x="135" y="105" text-anchor="middle" fill="var(--vp-c-text-2)" font-size="8">NO</text>
+        <rect x="5" y="90" width="95" height="40" rx="5" fill="var(--vp-c-warning-soft)" stroke="var(--vp-c-warning)"></rect>
+        <text x="52" y="115" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="10" font-weight="bold">ESCALATE</text>
+        <line x1="250" y1="140" x2="250" y2="170" stroke="var(--vp-c-text-3)" stroke-width="2"></line>
+        <text x="260" y="155" fill="var(--vp-c-text-2)" font-size="8">YES</text>
+        <polygon points="250,170 330,200 250,230 170,200" fill="var(--vp-c-bg-mute)" stroke="var(--vp-c-text-3)"></polygon>
+        <text x="250" y="195" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="9">Guarantee</text>
+        <text x="250" y="210" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="9">Possible?</text>
+        <line x1="170" y1="200" x2="100" y2="200" stroke="var(--vp-c-text-3)" stroke-width="2"></line>
+        <text x="135" y="195" text-anchor="middle" fill="var(--vp-c-text-2)" font-size="8">YES</text>
+        <rect x="5" y="180" width="95" height="40" rx="5" fill="var(--vp-c-success-soft)" stroke="var(--vp-c-success)"></rect>
+        <text x="52" y="205" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="10" font-weight="bold">EXPLOIT</text>
+        <line x1="250" y1="230" x2="250" y2="250" stroke="var(--vp-c-text-3)" stroke-width="2"></line>
+        <text x="260" y="240" fill="var(--vp-c-text-2)" font-size="8">NO</text>
+        <rect x="150" y="250" width="200" height="85" rx="5" fill="var(--vp-c-bg-soft)" stroke="var(--vp-c-divider)"></rect>
+        <text x="250" y="265" text-anchor="middle" fill="var(--vp-c-green-dark, #2e7d32)" font-size="9" font-weight="bold">Choose Priority Strategy:</text>
+        <text x="160" y="285" fill="var(--vp-c-text-2)" font-size="9">1. ENHANCE (Boost P or I)</text>
+        <text x="160" y="300" fill="var(--vp-c-text-2)" font-size="9">2. SHARE (Joint venture)</text>
+        <text x="160" y="315" fill="var(--vp-c-text-2)" font-size="9">3. ACCEPT (Wait and see)</text>
+      </svg>
+    </div>
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -366,15 +407,29 @@ Is the opportunity OUTSIDE your control?
 
 ##  EMV and Decision Tree Calculator
 
-### Single Risk EMV
-```
-EMV = Probability × Impact
+<ConceptGrid>
+  <ConceptCard title="EMV Calculation" variant="primary">
+    <strong>Formula:</strong> Probability x Impact ($)
+    <div style="margin-top: 10px; padding: 10px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+      <div style="font-size: 0.9em; line-height: 1.6;">
+        30% chance of $100k loss:<br/>
+        <code>0.30 x (-$100,000) = -$30,000</code>
+      </div>
+    </div>
+  </ConceptCard>
+  <ConceptCard title="Decision Tree Format" variant="secondary">
+    <strong>Best Choice:</strong> Option with highest EMV.
+    <div style="margin-top: 10px; padding: 10px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+      <ul style="font-size: 0.85em; list-style: none; padding: 0; margin: 0;">
+        <li>├─ Success: $Value x P%</li>
+        <li>├─ Failure: $Value x (1-P)%</li>
+        <li>└─ <strong>EMV = Sum of paths</strong></li>
+      </ul>
+    </div>
+  </ConceptCard>
+</ConceptGrid>
 
-Example: 30% chance of $100,000 loss
-EMV = 0.30 × (-$100,000) = -$30,000
-```
-
-### Multiple Risks (Sum EMVs)
+### Example: Contingency Reserve for 3 Risks
 | Risk | Probability | Impact | EMV |
 |---|---|---|---|
 | R1 | 25% | -$80,000 | -$20,000 |
@@ -382,23 +437,7 @@ EMV = 0.30 × (-$100,000) = -$30,000
 | R3 | 15% | -$200,000 | -$30,000 |
 | **Total** | | | **-$70,000** |
 
-**Contingency Reserve**: At minimum $70,000 for these known risks.
-
-### Decision Tree EMV Template
-```
-Decision: [Your Choice]
-├── Option A (Cost: $X)
-│   ├── Success (P%): Net Value = $Y × P% = $_
-│   └── Failure (1-P%): Net Value = $Z × (1-P%) = $_
-│   EMV(A) = Sum of above = $_
-│
-├── Option B (Cost: $X)
-│   ├── Success (P%): Net Value = $Y × P% = $_
-│   └── Failure (1-P%): Net Value = $Z × (1-P%) = $_
-│   EMV(B) = Sum of above = $_
-
-BEST CHOICE: Option with highest EMV
-```
+<strong>Minimum Contingency:</strong> $70,000 to cover expected outcomes.
 
 ---
 
@@ -434,13 +473,24 @@ BEST CHOICE: Option with highest EMV
 
 ##  Cynefin Quick Decision Guide
 
-| If the situation feels... | You're in... | Do this... |
-|---|---|---|
-| Clear, obvious, everyone agrees | **Clear** | Apply best practice; standardize |
-| Needs expert analysis but solvable | **Complicated** | Analyze → decide → execute |
-| Unpredictable, learning required | **Complex** | Experiment → learn → adapt |
-| Crisis, chaos, no time to think | **Chaotic** | Act now → stabilize → reassess |
-| People disagree on which of the above | **Disorder** | Break it down; classify each part |
+<ConceptGrid>
+  <ConceptCard title="Clear" variant="primary">
+    <strong>Environment:</strong> Known rules, repeatable work.<br/>
+    <strong>Best Move:</strong> Apply best practice; standardize.
+  </ConceptCard>
+  <ConceptCard title="Complicated" variant="secondary">
+    <strong>Environment:</strong> Needs expert analysis but solvable.<br/>
+    <strong>Best Move:</strong> Analyze → decide → execute.
+  </ConceptCard>
+  <ConceptCard title="Complex" variant="primary">
+    <strong>Environment:</strong> Unpredictable, learning required.<br/>
+    <strong>Best Move:</strong> Experiment → learn → adapt.
+  </ConceptCard>
+  <ConceptCard title="Chaotic" variant="secondary">
+    <strong>Environment:</strong> Crisis, chaos, no time.<br/>
+    <strong>Best Move:</strong> Act now → stabilize → reassess.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
