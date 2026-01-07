@@ -164,22 +164,22 @@ In predictive projects, a **Work Authorization System** ensures that work begins
 
 ### Work Authorization Process Flow
 <ConceptCard title="Work Authorization Process Flow">
-  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
-1. Work Package Ready
-   ↓
-2. Verify Prerequisites Complete
-   ↓
-3. Confirm Resources Available
-   ↓
-4. Verify Budget Allocated
-   ↓
-5. Issue Work Authorization
-   ↓
-6. Team Begins Work
-   ↓
-7. Collect Work Performance Data
-   ↓
-8. Complete & Close Work Package
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem; padding: 1rem;">
+    <div style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 0.75rem 1.25rem; border-radius: 8px; font-weight: 600; text-align: center; min-width: 280px;">1. Work Package Ready</div>
+    <div style="font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <div style="background: linear-gradient(135deg, #8b5cf6, #6d28d9); color: white; padding: 0.75rem 1.25rem; border-radius: 8px; font-weight: 600; text-align: center; min-width: 280px;">2. Verify Prerequisites Complete</div>
+    <div style="font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <div style="background: linear-gradient(135deg, #06b6d4, #0891b2); color: white; padding: 0.75rem 1.25rem; border-radius: 8px; font-weight: 600; text-align: center; min-width: 280px;">3. Confirm Resources Available</div>
+    <div style="font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 0.75rem 1.25rem; border-radius: 8px; font-weight: 600; text-align: center; min-width: 280px;">4. Verify Budget Allocated</div>
+    <div style="font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <div style="background: linear-gradient(135deg, #f59e0b, #d97706); color: white; padding: 0.75rem 1.25rem; border-radius: 8px; font-weight: 600; text-align: center; min-width: 280px;">5. Issue Work Authorization</div>
+    <div style="font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <div style="background: linear-gradient(135deg, #ec4899, #db2777); color: white; padding: 0.75rem 1.25rem; border-radius: 8px; font-weight: 600; text-align: center; min-width: 280px;">6. Team Begins Work</div>
+    <div style="font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <div style="background: linear-gradient(135deg, #6366f1, #4f46e5); color: white; padding: 0.75rem 1.25rem; border-radius: 8px; font-weight: 600; text-align: center; min-width: 280px;">7. Collect Work Performance Data</div>
+    <div style="font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <div style="background: linear-gradient(135deg, #14b8a6, #0d9488); color: white; padding: 0.75rem 1.25rem; border-radius: 8px; font-weight: 600; text-align: center; min-width: 280px;">8. Complete and Close Work Package</div>
   </div>
 </ConceptCard>
 
@@ -192,121 +192,175 @@ Do not allow work to start "informally" because "we have time" or "we can get a 
 ##  Work Execution Process Flows
 
 ### Predictive Work Execution Flow
-<ConceptCard title="Predictive Work Execution Flow">
-  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
-┌─────────────────────────────────────────────────────────┐
-│ 1. Authorize Work (Work Authorization System)          │
-└───────────────────┬─────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────────────────────┐
-│ 2. Assign Resources & Communicate Expectations          │
-│    • Review work package scope, quality criteria        │
-│    • Confirm schedule & budget constraints              │
-│    • Clarify Definition of Done                         │
-└───────────────────┬─────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────────────────────┐
-│ 3. Execute Work & Monitor Progress                      │
-│    • Daily/weekly status updates                        │
-│    • Track actual vs. planned (EVM if applicable)       │
-│    • Identify issues/risks early                        │
-└───────────────────┬─────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────────────────────┐
-│ 4. Implement Approved Changes                           │
-│    • Follow change control process (CCB)                │
-│    • Update baselines if approved                       │
-│    • Communicate impacts to stakeholders                │
-└───────────────────┬─────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────────────────────┐
-│ 5. Perform Quality Control                              │
-│    • Verify deliverable meets acceptance criteria       │
-│    • Conduct inspections, reviews, testing              │
-│    • Log defects; implement corrections                 │
-└───────────────────┬─────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────────────────────┐
-│ 6. Validate Deliverable with Customer/Sponsor           │
-│    • Formal acceptance or rejection                     │
-│    • Document feedback and action items                 │
-└───────────────────┬─────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────────────────────┐
-│ 7. Capture Lessons Learned & Update Knowledge           │
-│    • What worked? What didn't?                          │
-│    • Update Lessons Learned Register                    │
-└─────────────────────────────────────────────────────────┘
+<ConceptCard title="Predictive Work Execution Flow" tag="Waterfall" variant="predictive">
+  <div style="display: flex; flex-direction: column; gap: 0.75rem; padding: 0.5rem;">
+    <!-- Step 1 -->
+    <div style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.25rem;">1. Authorize Work</div>
+      <div style="font-size: 0.9rem; opacity: 0.95;">Use Work Authorization System to approve start</div>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Step 2 -->
+    <div style="background: linear-gradient(135deg, #8b5cf6, #6d28d9); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">2. Assign Resources and Communicate</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; opacity: 0.95;">
+        <li>Review work package scope and quality criteria</li>
+        <li>Confirm schedule and budget constraints</li>
+        <li>Clarify Definition of Done</li>
+      </ul>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Step 3 -->
+    <div style="background: linear-gradient(135deg, #06b6d4, #0891b2); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(6, 182, 212, 0.3);">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">3. Execute Work and Monitor Progress</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; opacity: 0.95;">
+        <li>Daily/weekly status updates</li>
+        <li>Track actual vs. planned (EVM if applicable)</li>
+        <li>Identify issues and risks early</li>
+      </ul>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Step 4 -->
+    <div style="background: linear-gradient(135deg, #f59e0b, #d97706); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">4. Implement Approved Changes</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; opacity: 0.95;">
+        <li>Follow change control process (CCB)</li>
+        <li>Update baselines if approved</li>
+        <li>Communicate impacts to stakeholders</li>
+      </ul>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Step 5 -->
+    <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">5. Perform Quality Control</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; opacity: 0.95;">
+        <li>Verify deliverable meets acceptance criteria</li>
+        <li>Conduct inspections, reviews, testing</li>
+        <li>Log defects and implement corrections</li>
+      </ul>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Step 6 -->
+    <div style="background: linear-gradient(135deg, #ec4899, #db2777); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(236, 72, 153, 0.3);">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">6. Validate with Customer or Sponsor</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; opacity: 0.95;">
+        <li>Obtain formal acceptance or rejection</li>
+        <li>Document feedback and action items</li>
+      </ul>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Step 7 -->
+    <div style="background: linear-gradient(135deg, #6366f1, #4f46e5); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">7. Capture Lessons Learned</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; opacity: 0.95;">
+        <li>What worked? What did not?</li>
+        <li>Update Lessons Learned Register</li>
+      </ul>
+    </div>
   </div>
 </ConceptCard>
 
 ### Agile Work Execution Flow (Sprint-Based)
-<ConceptCard title="Agile Work Execution Flow (Sprint-Based)">
-  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
-┌─────────────────────────────────────────────────────────┐
-│ Sprint Planning                                         │
-│ • Product Owner presents prioritized backlog           │
-│ • Team selects stories for sprint                      │
-│ • Team defines sprint goal & commits to work           │
-└───────────────────┬─────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────────────────────┐
-│ Daily Standup (Every Day)                               │
-│ • What did I do yesterday?                              │
-│ • What will I do today?                                 │
-│ • What blockers do I have?                              │
-│ → PM/Scrum Master removes impediments immediately       │
-└───────────────────┬─────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────────────────────┐
-│ Execute User Stories                                    │
-│ • Break stories into tasks                              │
-│ • Work collaboratively; pair/mob if needed              │
-│ • Move tasks across board: To Do → In Progress → Done  │
-│ • Continuous integration & testing                      │
-└───────────────────┬─────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────────────────────┐
-│ Sprint Review/Demo (End of Sprint)                      │
-│ • Demonstrate working increment to stakeholders         │
-│ • Gather feedback                                       │
-│ • Accept or reject stories (Definition of Done)        │
-└───────────────────┬─────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────────────────────┐
-│ Sprint Retrospective                                    │
-│ • What went well?                                       │
-│ • What could be improved?                               │
-│ • What actions will we take next sprint?               │
-│ → Update Lessons Learned Register                      │
-└───────────────────┬─────────────────────────────────────┘
-                    ↓
-            Next Sprint Planning
+<ConceptCard title="Agile Work Execution Flow" tag="Scrum" variant="agile">
+  <div style="display: flex; flex-direction: column; gap: 0.75rem; padding: 0.5rem;">
+    <!-- Sprint Planning -->
+    <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">🎯 Sprint Planning</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; opacity: 0.95;">
+        <li>Product Owner presents prioritized backlog</li>
+        <li>Team selects stories for sprint</li>
+        <li>Team defines sprint goal and commits to work</li>
+      </ul>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Daily Standup -->
+    <div style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">📅 Daily Standup (Every Day)</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; opacity: 0.95;">
+        <li>What did I do yesterday?</li>
+        <li>What will I do today?</li>
+        <li>What blockers do I have?</li>
+      </ul>
+      <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.3); font-size: 0.85rem;">→ PM/Scrum Master removes impediments immediately</div>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Execute Stories -->
+    <div style="background: linear-gradient(135deg, #8b5cf6, #6d28d9); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">⚡ Execute User Stories</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; opacity: 0.95;">
+        <li>Break stories into tasks</li>
+        <li>Work collaboratively (pair/mob if needed)</li>
+        <li>Move tasks: To Do → In Progress → Done</li>
+        <li>Continuous integration and testing</li>
+      </ul>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Sprint Review -->
+    <div style="background: linear-gradient(135deg, #f59e0b, #d97706); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">🎬 Sprint Review/Demo</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; opacity: 0.95;">
+        <li>Demonstrate working increment to stakeholders</li>
+        <li>Gather feedback</li>
+        <li>Accept or reject stories (Definition of Done)</li>
+      </ul>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Retrospective -->
+    <div style="background: linear-gradient(135deg, #ec4899, #db2777); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(236, 72, 153, 0.3);">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">🔄 Sprint Retrospective</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; opacity: 0.95;">
+        <li>What went well?</li>
+        <li>What could be improved?</li>
+        <li>What actions will we take next sprint?</li>
+      </ul>
+      <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.3); font-size: 0.85rem;">→ Update Lessons Learned Register</div>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Next Sprint -->
+    <div style="background: linear-gradient(135deg, #14b8a6, #0d9488); color: white; padding: 0.75rem 1rem; border-radius: 10px; text-align: center; font-weight: 700; font-size: 1rem;">🔁 Next Sprint Planning</div>
   </div>
 </ConceptCard>
 
 ### Hybrid Work Execution Flow
-<ConceptCard title="Hybrid Work Execution Flow">
-  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
-┌─────────────────────────────────────────────────────────┐
-│ Portfolio/Program Governance (Predictive Layer)         │
-│ • Phase gates, milestone reviews, budget approvals      │
-│ • Strategic alignment & risk oversight                  │
-└───────────────────┬─────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────────────────────┐
-│ Agile Team Execution (Adaptive Layer)                   │
-│ • Teams work in sprints/iterations                      │
-│ • Deliver incremental value                             │
-│ • Re-prioritize backlog based on feedback               │
-└───────────────────┬─────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────────────────────┐
-│ Integration Points (Bridge)                             │
-│ • Teams demo to governance at milestones                │
-│ • Portfolio adjusts funding/priorities if needed        │
-│ • Teams adjust execution based on strategic guidance    │
-└─────────────────────────────────────────────────────────┘
+<ConceptCard title="Hybrid Work Execution Flow" tag="Best of Both" variant="hybrid">
+  <div style="display: flex; flex-direction: column; gap: 0.75rem; padding: 0.5rem;">
+    <!-- Governance Layer -->
+    <div style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);">
+      <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem;">PREDICTIVE LAYER</span>
+      </div>
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">Portfolio/Program Governance</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; opacity: 0.95;">
+        <li>Phase gates, milestone reviews, budget approvals</li>
+        <li>Strategic alignment and risk oversight</li>
+      </ul>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Agile Layer -->
+    <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);">
+      <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem;">ADAPTIVE LAYER</span>
+      </div>
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">Agile Team Execution</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; opacity: 0.95;">
+        <li>Teams work in sprints/iterations</li>
+        <li>Deliver incremental value</li>
+        <li>Re-prioritize backlog based on feedback</li>
+      </ul>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Bridge -->
+    <div style="background: linear-gradient(135deg, #8b5cf6, #6d28d9); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);">
+      <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem;">BRIDGE</span>
+      </div>
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">Integration Points</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; opacity: 0.95;">
+        <li>Teams demo to governance at milestones</li>
+        <li>Portfolio adjusts funding/priorities if needed</li>
+        <li>Teams adjust execution based on strategic guidance</li>
+      </ul>
+    </div>
   </div>
 </ConceptCard>
 
@@ -525,21 +579,31 @@ If a scenario says "The sponsor approved a change verbally," the best answer is 
 ### Converting Data to Information to Reports
 
 <ConceptCard title="Data to Information to Reports Flow">
-  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto; text-align: center;">
-Work Performance DATA
-(Raw observations)
-    ↓
-ANALYSIS
-(Compare to baselines, identify trends, calculate variances)
-    ↓
-Work Performance INFORMATION
-(Meaningful insights)
-    ↓
-PACKAGING
-(Tailor to audience, add context, recommend actions)
-    ↓
-Work Performance REPORTS
-(Stakeholder communications)
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem; padding: 1rem;">
+    <div style="background: linear-gradient(135deg, #6366f1, #4f46e5); color: white; padding: 1rem 2rem; border-radius: 10px; text-align: center; font-weight: 600; min-width: 300px; box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);">
+      <div style="font-size: 1.1rem;">Work Performance DATA</div>
+      <div style="font-size: 0.85rem; opacity: 0.9; margin-top: 0.25rem;">(Raw observations)</div>
+    </div>
+    <div style="font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <div style="background: linear-gradient(135deg, #f59e0b, #d97706); color: white; padding: 0.75rem 2rem; border-radius: 8px; text-align: center; font-weight: 600; min-width: 280px;">
+      <div>ANALYSIS</div>
+      <div style="font-size: 0.8rem; opacity: 0.9;">Compare to baselines, identify trends, calculate variances</div>
+    </div>
+    <div style="font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <div style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 1rem 2rem; border-radius: 10px; text-align: center; font-weight: 600; min-width: 300px; box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);">
+      <div style="font-size: 1.1rem;">Work Performance INFORMATION</div>
+      <div style="font-size: 0.85rem; opacity: 0.9; margin-top: 0.25rem;">(Meaningful insights)</div>
+    </div>
+    <div style="font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 0.75rem 2rem; border-radius: 8px; text-align: center; font-weight: 600; min-width: 280px;">
+      <div>PACKAGING</div>
+      <div style="font-size: 0.8rem; opacity: 0.9;">Tailor to audience, add context, recommend actions</div>
+    </div>
+    <div style="font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <div style="background: linear-gradient(135deg, #ec4899, #db2777); color: white; padding: 1rem 2rem; border-radius: 10px; text-align: center; font-weight: 600; min-width: 300px; box-shadow: 0 2px 8px rgba(236, 72, 153, 0.3);">
+      <div style="font-size: 1.1rem;">Work Performance REPORTS</div>
+      <div style="font-size: 0.85rem; opacity: 0.9; margin-top: 0.25rem;">(Stakeholder communications)</div>
+    </div>
   </div>
 </ConceptCard>
 
@@ -735,30 +799,53 @@ The PMP exam often presents scenarios where a risk has "just happened." The best
 When a risk occurs, it becomes an **issue**. Follow this process:
 
 <ConceptCard title="Risk-to-Issue Conversion Process">
-  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
-1. TRIGGER DETECTED
-   ↓
-2. VERIFY: Is this the planned trigger? Has the risk actually occurred?
-   ↓
-3. EXECUTE RESPONSE: Implement the risk response plan immediately
-   ↓
-4. LOG AS ISSUE: Move from Risk Register to Issue Log
-   • Record: Issue ID, description, actual impact, response taken
-   ↓
-5. ASSESS ACTUAL IMPACT: Compare to planned impact
-   • Did the response work as expected?
-   • Is actual impact larger/smaller than planned?
-   ↓
-6. COMMUNICATE: Notify stakeholders per communications plan
-   • Report: What happened, what you did, current status, next steps
-   ↓
-7. UPDATE DOCUMENTS:
-   • Risk Register: Mark risk as "Occurred" or close it
-   • Issue Log: Track resolution
-   • Lessons Learned: What worked? What didn't?
-   ↓
-8. ADJUST BASELINES (if needed):
-   • If impact exceeds contingency, follow change control process
+  <div style="display: flex; flex-direction: column; gap: 0.75rem; padding: 0.5rem;">
+    <!-- Step 1 -->
+    <div style="background: linear-gradient(135deg, #ef4444, #dc2626); color: white; padding: 0.75rem 1rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(239, 68, 68, 0.3);">
+      <div style="font-weight: 700; font-size: 1rem;">1. TRIGGER DETECTED</div>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Step 2 -->
+    <div style="background: linear-gradient(135deg, #f59e0b, #d97706); color: white; padding: 0.75rem 1rem; border-radius: 10px;">
+      <div style="font-weight: 700; margin-bottom: 0.25rem;">2. VERIFY</div>
+      <div style="font-size: 0.85rem; opacity: 0.95;">Is this the planned trigger? Has the risk actually occurred?</div>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Step 3 -->
+    <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 0.75rem 1rem; border-radius: 10px;">
+      <div style="font-weight: 700; margin-bottom: 0.25rem;">3. EXECUTE RESPONSE</div>
+      <div style="font-size: 0.85rem; opacity: 0.95;">Implement the risk response plan immediately</div>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Step 4 -->
+    <div style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 0.75rem 1rem; border-radius: 10px;">
+      <div style="font-weight: 700; margin-bottom: 0.25rem;">4. LOG AS ISSUE</div>
+      <div style="font-size: 0.85rem; opacity: 0.95;">Move from Risk Register to Issue Log. Record: Issue ID, description, actual impact, response taken</div>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Step 5 -->
+    <div style="background: linear-gradient(135deg, #8b5cf6, #6d28d9); color: white; padding: 0.75rem 1rem; border-radius: 10px;">
+      <div style="font-weight: 700; margin-bottom: 0.25rem;">5. ASSESS ACTUAL IMPACT</div>
+      <div style="font-size: 0.85rem; opacity: 0.95;">Compare to planned impact. Did the response work? Is actual impact larger/smaller?</div>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Step 6 -->
+    <div style="background: linear-gradient(135deg, #06b6d4, #0891b2); color: white; padding: 0.75rem 1rem; border-radius: 10px;">
+      <div style="font-weight: 700; margin-bottom: 0.25rem;">6. COMMUNICATE</div>
+      <div style="font-size: 0.85rem; opacity: 0.95;">Notify stakeholders per communications plan: What happened, what you did, current status, next steps</div>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Step 7 -->
+    <div style="background: linear-gradient(135deg, #ec4899, #db2777); color: white; padding: 0.75rem 1rem; border-radius: 10px;">
+      <div style="font-weight: 700; margin-bottom: 0.25rem;">7. UPDATE DOCUMENTS</div>
+      <div style="font-size: 0.85rem; opacity: 0.95;">Risk Register (mark as Occurred), Issue Log (track resolution), Lessons Learned</div>
+    </div>
+    <div style="text-align: center; font-size: 1.5rem; color: var(--vp-c-brand);">↓</div>
+    <!-- Step 8 -->
+    <div style="background: linear-gradient(135deg, #6366f1, #4f46e5); color: white; padding: 0.75rem 1rem; border-radius: 10px;">
+      <div style="font-weight: 700; margin-bottom: 0.25rem;">8. ADJUST BASELINES (if needed)</div>
+      <div style="font-size: 0.85rem; opacity: 0.95;">If impact exceeds contingency, follow change control process</div>
+    </div>
   </div>
 </ConceptCard>
 
