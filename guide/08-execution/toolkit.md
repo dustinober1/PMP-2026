@@ -362,13 +362,32 @@ Use to track whether the project is delivering expected value.
 | B-004 | NPS survey results | Customer survey tool | Quarterly | Customer Success |
 
 ### Benefit Realization Timeline
-```
-Project Delivery ──────────────► Operational Handoff ──────────────► Benefits Realized
-      │                                  │                                  │
-   Launch                           +3 months                          +12 months
-   Features                        Full adoption                       Full value
-   Completed                       Change embedded                     Measured & verified
-```
+
+<ConceptCard type="process">
+  <strong>📈 Benefit Realization Timeline</strong>
+  <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1.5rem; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 200px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 1.5rem; text-align: center; color: white;">
+      <div style="font-size: 2rem; margin-bottom: 0.5rem;">🚀</div>
+      <strong style="font-size: 1.1rem;">Project Delivery</strong>
+      <div style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.9;">Launch</div>
+      <div style="font-size: 0.85rem; opacity: 0.8;">Features Completed</div>
+    </div>
+    <div style="font-size: 1.5rem; color: var(--vp-c-brand-1);">→</div>
+    <div style="flex: 1; min-width: 200px; background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); border-radius: 12px; padding: 1.5rem; text-align: center; color: white;">
+      <div style="font-size: 2rem; margin-bottom: 0.5rem;">🔄</div>
+      <strong style="font-size: 1.1rem;">Operational Handoff</strong>
+      <div style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.9;">+3 months</div>
+      <div style="font-size: 0.85rem; opacity: 0.8;">Full adoption / Change embedded</div>
+    </div>
+    <div style="font-size: 1.5rem; color: var(--vp-c-brand-1);">→</div>
+    <div style="flex: 1; min-width: 200px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 12px; padding: 1.5rem; text-align: center; color: white;">
+      <div style="font-size: 2rem; margin-bottom: 0.5rem;">✅</div>
+      <strong style="font-size: 1.1rem;">Benefits Realized</strong>
+      <div style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.9;">+12 months</div>
+      <div style="font-size: 0.85rem; opacity: 0.8;">Full value / Measured and verified</div>
+    </div>
+  </div>
+</ConceptCard>
 
 ### Risk to Benefits
 | Risk | Impact on Benefit | Mitigation |
@@ -569,149 +588,233 @@ Use these tools to prevent and detect defects.
 ## Decision Tree: Impediment Escalation
 Use this decision flow when a blocker surfaces.
 
-```
-START: Team member is blocked
-    │
-    ├─→ Can the TEAM remove it immediately?
-    │   ├─ YES → Remove it now → Update impediment log → DONE
-    │   └─ NO → Continue
-    │
-    ├─→ Can the PM remove it (within authority)?
-    │   ├─ YES → Take action → Update issue log → Follow up → DONE
-    │   └─ NO → Continue
-    │
-    ├─→ Is it a functional manager / resource issue?
-    │   ├─ YES → Escalate to functional manager → Set deadline → Follow up daily → DONE
-    │   └─ NO → Continue
-    │
-    ├─→ Is it a vendor / external dependency?
-    │   ├─ YES → Check contract → Escalate per contract terms → Log issue → DONE
-    │   └─ NO → Continue
-    │
-    ├─→ Is it a policy / process / tool issue?
-    │   ├─ YES → Escalate to PMO / operations → Request exception or change → DONE
-    │   └─ NO → Continue
-    │
-    └─→ Escalate to SPONSOR (authority needed)
-        └─ Present: Problem + Impact + Options + Recommendation → Decision → DONE
-```
-
-**Key principle**: Don't wait. Escalate fast, follow up relentlessly.
+<ConceptCard type="decision">
+  <strong>🚧 Impediment Escalation Decision Flow</strong>
+  <div style="margin-top: 1.5rem;">
+    <div style="background: linear-gradient(135deg, #ff6b6b 0%, #ee5253 100%); color: white; padding: 1rem; border-radius: 8px; text-align: center; font-weight: bold;">
+      🚨 START: Team member is blocked
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 1rem;">
+      <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+        <span style="background: #667eea; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">❓ Team can remove?</span>
+        <span style="color: #27ae60; font-weight: bold;">YES →</span>
+        <span style="background: #27ae60; color: white; padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.85rem;">Remove now → Log → DONE ✅</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+        <span style="background: #764ba2; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">❓ PM can remove?</span>
+        <span style="color: #27ae60; font-weight: bold;">YES →</span>
+        <span style="background: #27ae60; color: white; padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.85rem;">Take action → Log → Follow up → DONE ✅</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+        <span style="background: #11998e; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">❓ Functional manager issue?</span>
+        <span style="color: #27ae60; font-weight: bold;">YES →</span>
+        <span style="background: #27ae60; color: white; padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.85rem;">Escalate → Set deadline → Follow up daily → DONE ✅</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+        <span style="background: #f39c12; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">❓ Vendor or external?</span>
+        <span style="color: #27ae60; font-weight: bold;">YES →</span>
+        <span style="background: #27ae60; color: white; padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.85rem;">Check contract → Escalate per terms → Log → DONE ✅</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+        <span style="background: #9b59b6; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">❓ Policy or process issue?</span>
+        <span style="color: #27ae60; font-weight: bold;">YES →</span>
+        <span style="background: #27ae60; color: white; padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.85rem;">Escalate to PMO → Request exception → DONE ✅</span>
+      </div>
+      <div style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; padding: 1rem; border-radius: 8px; text-align: center; margin-top: 0.5rem;">
+        <strong>👑 Escalate to SPONSOR</strong><br>
+        <span style="font-size: 0.9rem;">Present: Problem + Impact + Options + Recommendation → Decision → DONE</span>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top: 1rem; padding: 0.75rem; background: var(--vp-c-bg-soft); border-radius: 8px; border-left: 4px solid #e74c3c;">
+    <strong>💡 Key principle:</strong> Do not wait. Escalate fast, follow up relentlessly.
+  </div>
+</ConceptCard>
 
 ---
 
 ## Decision Tree: Change Request Triage (Predictive)
 Use when a stakeholder requests a change to scope/schedule/cost.
 
-```
-START: Change request received
-    │
-    ├─→ Is it INSIDE current scope (clarification, not change)?
-    │   ├─ YES → Clarify with stakeholder → Execute as planned → Update docs → DONE
-    │   └─ NO → Continue (it's a real change)
-    │
-    ├─→ Does it impact baselines (scope/schedule/cost/quality)?
-    │   ├─ NO → Log as minor issue → Execute → Update project docs → DONE
-    │   └─ YES → Continue (requires formal analysis)
-    │
-    ├─→ Perform integrated impact analysis:
-    │   ├─ Scope impact (deliverables affected)
-    │   ├─ Schedule impact (critical path, milestones)
-    │   ├─ Cost impact (labor, materials, vendor)
-    │   ├─ Quality impact (testing, acceptance criteria)
-    │   ├─ Risk impact (new risks created)
-    │   └─ Generate options (approve / defer / reject / modify)
-    │
-    ├─→ Does PM have approval authority for this impact level?
-    │   ├─ YES → Make decision → Update baselines → Communicate → DONE
-    │   └─ NO → Continue (needs CCB approval)
-    │
-    ├─→ Submit to CCB (Change Control Board):
-    │   ├─ Present: Request + Impact analysis + Options + Recommendation
-    │   ├─ CCB Decision: Approved / Rejected / Deferred
-    │   │
-    │   ├─ APPROVED → Update baselines → Update change log → Communicate → Execute → DONE
-    │   ├─ REJECTED → Update change log → Communicate to requester → DONE
-    │   └─ DEFERRED → Log for future consideration → Communicate → DONE
-```
-
-**Key principle**: Always analyze impact before deciding. Never "quietly" change baselines.
+<ConceptCard type="decision">
+  <strong>📝 Change Request Triage Flow</strong>
+  <div style="margin-top: 1.5rem;">
+    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem; border-radius: 8px; text-align: center; font-weight: bold;">
+      📥 START: Change request received
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;">
+      <div style="background: var(--vp-c-bg-soft); padding: 1rem; border-radius: 8px; border-left: 4px solid #667eea;">
+        <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+          <span style="background: #667eea; color: white; padding: 0.4rem 0.75rem; border-radius: 15px; font-size: 0.85rem;">Step 1</span>
+          <strong>Inside current scope?</strong>
+        </div>
+        <div style="margin-top: 0.5rem; padding-left: 1rem; font-size: 0.9rem;">
+          <span style="color: #27ae60;">✔ YES:</span> Clarify → Execute as planned → Update docs → <strong>DONE</strong>
+        </div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 1rem; border-radius: 8px; border-left: 4px solid #764ba2;">
+        <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+          <span style="background: #764ba2; color: white; padding: 0.4rem 0.75rem; border-radius: 15px; font-size: 0.85rem;">Step 2</span>
+          <strong>Impacts baselines?</strong>
+        </div>
+        <div style="margin-top: 0.5rem; padding-left: 1rem; font-size: 0.9rem;">
+          <span style="color: #e74c3c;">✘ NO:</span> Log as minor → Execute → Update docs → <strong>DONE</strong>
+        </div>
+      </div>
+      <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); color: white; padding: 1rem; border-radius: 8px;">
+        <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+          <span style="background: rgba(255,255,255,0.3); padding: 0.4rem 0.75rem; border-radius: 15px; font-size: 0.85rem;">Step 3</span>
+          <strong>Perform Integrated Impact Analysis</strong>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.5rem; margin-top: 0.75rem; font-size: 0.85rem;">
+          <span>🎯 Scope impact</span>
+          <span>📅 Schedule impact</span>
+          <span>💰 Cost impact</span>
+          <span>✅ Quality impact</span>
+          <span>⚠️ Risk impact</span>
+          <span>📋 Generate options</span>
+        </div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 1rem; border-radius: 8px; border-left: 4px solid #f39c12;">
+        <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+          <span style="background: #f39c12; color: white; padding: 0.4rem 0.75rem; border-radius: 15px; font-size: 0.85rem;">Step 4</span>
+          <strong>PM has authority?</strong>
+        </div>
+        <div style="margin-top: 0.5rem; padding-left: 1rem; font-size: 0.9rem;">
+          <span style="color: #27ae60;">✔ YES:</span> Make decision → Update baselines → Communicate → <strong>DONE</strong>
+        </div>
+      </div>
+      <div style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; padding: 1rem; border-radius: 8px;">
+        <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+          <span style="background: rgba(255,255,255,0.3); padding: 0.4rem 0.75rem; border-radius: 15px; font-size: 0.85rem;">Step 5</span>
+          <strong>🏢 Submit to CCB (Change Control Board)</strong>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem; margin-top: 0.75rem; font-size: 0.85rem;">
+          <div style="background: rgba(255,255,255,0.15); padding: 0.5rem; border-radius: 6px;">✅ <strong>Approved:</strong> Update baselines → Log → Execute</div>
+          <div style="background: rgba(255,255,255,0.15); padding: 0.5rem; border-radius: 6px;">❌ <strong>Rejected:</strong> Log → Communicate to requester</div>
+          <div style="background: rgba(255,255,255,0.15); padding: 0.5rem; border-radius: 6px;">⏸️ <strong>Deferred:</strong> Log for future → Communicate</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top: 1rem; padding: 0.75rem; background: var(--vp-c-bg-soft); border-radius: 8px; border-left: 4px solid #f39c12;">
+    <strong>💡 Key principle:</strong> Always analyze impact before deciding. Never "quietly" change baselines.
+  </div>
+</ConceptCard>
 
 ---
 
 ## Decision Tree: Value Delivery Risk (Hybrid/Agile)
 Use when you sense the project is at risk of delivering outputs without outcomes.
 
-```
-START: Concern about value delivery
-    │
-    ├─→ Are users/stakeholders engaged in validating the work?
-    │   ├─ NO → Schedule demo / review → Get feedback → Adjust priorities → Re-engage
-    │   └─ YES → Continue
-    │
-    ├─→ Are we measuring leading indicators (usage, adoption, feedback)?
-    │   ├─ NO → Define metrics → Start tracking → Review weekly → Adjust
-    │   └─ YES → Continue
-    │
-    ├─→ Are leading indicators positive?
-    │   ├─ NO → Investigate root cause → Re-validate with users → Pivot if needed
-    │   └─ YES → Continue
-    │
-    ├─→ Is operational readiness progressing (training, support, docs)?
-    │   ├─ NO → Accelerate transition planning → Assign owners → Track → Escalate gaps
-    │   └─ YES → Continue
-    │
-    ├─→ Is there a benefits owner accountable for post-delivery value?
-    │   ├─ NO → Identify owner → Confirm metrics → Schedule benefits reviews → DONE
-    │   └─ YES → Continue
-    │
-    └─→ Is the benefits owner aligned on success criteria?
-        ├─ NO → Re-align on outcomes → Adjust acceptance criteria → DONE
-        └─ YES → Continue delivering → Monitor value signals → DONE
-```
-
-**Key principle**: Value delivery requires continuous validation. Don't wait until go-live to discover users won't adopt.
+<ConceptCard type="decision">
+  <strong>📊 Value Delivery Risk Assessment</strong>
+  <div style="margin-top: 1.5rem;">
+    <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 1rem; border-radius: 8px; text-align: center; font-weight: bold;">
+      ⚠️ START: Concern about value delivery
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 1rem;">
+      <div style="background: var(--vp-c-bg-soft); padding: 1rem; border-radius: 8px; display: flex; align-items: flex-start; gap: 1rem; flex-wrap: wrap;">
+        <div style="background: #667eea; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; white-space: nowrap;">👥 Users engaged?</div>
+        <div style="flex: 1; min-width: 200px;">
+          <div style="color: #e74c3c; font-size: 0.9rem;"><strong>NO:</strong> Schedule demo → Get feedback → Adjust priorities → Re-engage</div>
+          <div style="color: #27ae60; font-size: 0.9rem;"><strong>YES:</strong> Continue →</div>
+        </div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 1rem; border-radius: 8px; display: flex; align-items: flex-start; gap: 1rem; flex-wrap: wrap;">
+        <div style="background: #764ba2; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; white-space: nowrap;">📈 Measuring indicators?</div>
+        <div style="flex: 1; min-width: 200px;">
+          <div style="color: #e74c3c; font-size: 0.9rem;"><strong>NO:</strong> Define metrics → Start tracking → Review weekly</div>
+          <div style="color: #27ae60; font-size: 0.9rem;"><strong>YES:</strong> Continue →</div>
+        </div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 1rem; border-radius: 8px; display: flex; align-items: flex-start; gap: 1rem; flex-wrap: wrap;">
+        <div style="background: #11998e; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; white-space: nowrap;">✅ Indicators positive?</div>
+        <div style="flex: 1; min-width: 200px;">
+          <div style="color: #e74c3c; font-size: 0.9rem;"><strong>NO:</strong> Investigate root cause → Re-validate → Pivot if needed</div>
+          <div style="color: #27ae60; font-size: 0.9rem;"><strong>YES:</strong> Continue →</div>
+        </div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 1rem; border-radius: 8px; display: flex; align-items: flex-start; gap: 1rem; flex-wrap: wrap;">
+        <div style="background: #f39c12; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; white-space: nowrap;">📦 Ops readiness?</div>
+        <div style="flex: 1; min-width: 200px;">
+          <div style="color: #e74c3c; font-size: 0.9rem;"><strong>NO:</strong> Accelerate transition → Assign owners → Track → Escalate</div>
+          <div style="color: #27ae60; font-size: 0.9rem;"><strong>YES:</strong> Continue →</div>
+        </div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 1rem; border-radius: 8px; display: flex; align-items: flex-start; gap: 1rem; flex-wrap: wrap;">
+        <div style="background: #9b59b6; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; white-space: nowrap;">👑 Benefits owner?</div>
+        <div style="flex: 1; min-width: 200px;">
+          <div style="color: #e74c3c; font-size: 0.9rem;"><strong>NO:</strong> Identify owner → Confirm metrics → Schedule reviews</div>
+          <div style="color: #27ae60; font-size: 0.9rem;"><strong>YES:</strong> Continue →</div>
+        </div>
+      </div>
+      <div style="background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%); color: white; padding: 1rem; border-radius: 8px; text-align: center;">
+        <strong>🎯 Benefits owner aligned?</strong><br>
+        <span style="font-size: 0.9rem;">YES: Continue delivering → Monitor value signals → SUCCESS</span>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top: 1rem; padding: 0.75rem; background: var(--vp-c-bg-soft); border-radius: 8px; border-left: 4px solid #f093fb;">
+    <strong>💡 Key principle:</strong> Value delivery requires continuous validation. Do not wait until go-live to discover users will not adopt.
+  </div>
+</ConceptCard>
 
 ---
 
 ## Flowchart: Work Performance Data → Information → Reports
 
-```
-┌─────────────────────────────────────────┐
-│   WORK PERFORMANCE DATA                 │
-│   (Raw observations)                    │
-│   - Task completion %                   │
-│   - Defect counts                       │
-│   - Test pass/fail                      │
-│   - Hours logged                        │
-│   - Story points completed              │
-└────────────┬────────────────────────────┘
-             │
-             ↓ ANALYZE (Add context + meaning)
-             │
-┌────────────┴────────────────────────────┐
-│   WORK PERFORMANCE INFORMATION          │
-│   (Analyzed insights)                   │
-│   - Schedule variance (SV = EV - PV)    │
-│   - Cost variance (CV = EV - AC)        │
-│   - Defect trend (increasing/stable)    │
-│   - Velocity trend (sprint over sprint) │
-│   - Root cause themes                   │
-└────────────┬────────────────────────────┘
-             │
-             ↓ PACKAGE (For audience + purpose)
-             │
-┌────────────┴────────────────────────────┐
-│   WORK PERFORMANCE REPORTS              │
-│   (Tailored communication)              │
-│   - Executive dashboard (traffic light) │
-│   - Stakeholder status report (1-pager) │
-│   - Steering committee deck             │
-│   - Team burndown chart                 │
-└─────────────────────────────────────────┘
-```
-
-**Key principle**: Data alone is noise. Convert it to insight, then communicate to the right audience.
+<ConceptCard type="process">
+  <strong>📊 Data to Reports Flow</strong>
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem; margin-top: 1.5rem;">
+    <div style="width: 100%; max-width: 400px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1.25rem; border-radius: 12px; text-align: center;">
+      <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📋</div>
+      <strong style="font-size: 1.1rem;">WORK PERFORMANCE DATA</strong>
+      <div style="font-size: 0.85rem; opacity: 0.9; margin-top: 0.25rem;">(Raw observations)</div>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; margin-top: 0.75rem; font-size: 0.8rem;">
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 12px;">Task completion %</span>
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 12px;">Defect counts</span>
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 12px;">Test pass/fail</span>
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 12px;">Hours logged</span>
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 12px;">Story points</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; color: var(--vp-c-brand-1);">
+      <div style="font-size: 1.5rem;">⬇️</div>
+      <span style="font-size: 0.85rem; font-weight: 500; background: var(--vp-c-bg-soft); padding: 0.25rem 0.75rem; border-radius: 12px;">ANALYZE (Add context + meaning)</span>
+    </div>
+    <div style="width: 100%; max-width: 400px; background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); color: white; padding: 1.25rem; border-radius: 12px; text-align: center;">
+      <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📈</div>
+      <strong style="font-size: 1.1rem;">WORK PERFORMANCE INFORMATION</strong>
+      <div style="font-size: 0.85rem; opacity: 0.9; margin-top: 0.25rem;">(Analyzed insights)</div>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; margin-top: 0.75rem; font-size: 0.8rem;">
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 12px;">SV = EV - PV</span>
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 12px;">CV = EV - AC</span>
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 12px;">Defect trend</span>
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 12px;">Velocity trend</span>
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 12px;">Root cause themes</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; color: var(--vp-c-brand-1);">
+      <div style="font-size: 1.5rem;">⬇️</div>
+      <span style="font-size: 0.85rem; font-weight: 500; background: var(--vp-c-bg-soft); padding: 0.25rem 0.75rem; border-radius: 12px;">PACKAGE (For audience + purpose)</span>
+    </div>
+    <div style="width: 100%; max-width: 400px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 1.25rem; border-radius: 12px; text-align: center;">
+      <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📄</div>
+      <strong style="font-size: 1.1rem;">WORK PERFORMANCE REPORTS</strong>
+      <div style="font-size: 0.85rem; opacity: 0.9; margin-top: 0.25rem;">(Tailored communication)</div>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; margin-top: 0.75rem; font-size: 0.8rem;">
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 12px;">Executive dashboard</span>
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 12px;">Status report</span>
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 12px;">Steering deck</span>
+        <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 12px;">Team burndown</span>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top: 1rem; padding: 0.75rem; background: var(--vp-c-bg-soft); border-radius: 8px; border-left: 4px solid #667eea;">
+    <strong>💡 Key principle:</strong> Data alone is noise. Convert it to insight, then communicate to the right audience.
+  </div>
+</ConceptCard>
 
 ---
 
