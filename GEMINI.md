@@ -56,7 +56,7 @@ The following NPM scripts are available in `package.json`:
 The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/workflows/` handles automated deployment on push, or it can be triggered manually via `npm run deploy`.
 
 ## Recent Changes
-- **2026-01-06**: Modernized `guide/06-project-planning/communications-planning.md` by replacing the ASCII Communication Model with an interactive SVG visualization in a `ConceptCard`, converting tables for barriers and challenges into `ConceptGrid` layouts, and fixing build errors.
+- **2026-01-06**: Modernized `guide/06-project-planning/communications-planning.md` by replacing the ASCII Communication Model with an interactive SVG visualization in a `ConceptCard` (with high-contrast WCAG-compliant colors), converting tables for barriers and challenges into `ConceptGrid` layouts, and fixing build errors.
 - **2026-01-06**: Modernized `guide/06-project-planning/resource-planning.md` by replacing plain text sections (Resource Optimization, Virtual Teams, Make-or-Buy, FPIF Scenarios, and PTA) into interactive `ConceptCard` and `ConceptGrid` components. Verified successful build.
 - **2026-01-06**: Modernized "risk reserves" section in `guide/06-project-planning/risk-planning.md` by replacing text-based formulas for EMV and Monte Carlo with a clean `ConceptGrid` layout.
 - **2026-01-06**: Modernized `guide/06-project-planning/risk-planning.md` by replacing the messy HTML/div-based Tornado Diagram with a crisp, interactive SVG visualization within a `ConceptCard`. Also fixed multiple potential build issues by escaping special characters in tables and correcting quote usage in `FlashcardCarousel`.

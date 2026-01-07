@@ -132,8 +132,8 @@ When a question says "a new team member is added," calculate the NEW total numbe
           <path d="M0,0 L0,10 L10,5 Z" fill="var(--vp-c-text-2)" />
         </marker>
       </defs>
-      <rect x="10" y="40" width="80" height="40" rx="5" fill="var(--vp-c-brand-dimm)" stroke="var(--vp-c-brand)" />
-      <text x="50" y="65" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="12" font-weight="bold">SENDER</text>
+      <rect x="10" y="40" width="80" height="40" rx="5" fill="var(--vp-c-brand-dark)" stroke="var(--vp-c-brand-darker)" />
+      <text x="50" y="65" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">SENDER</text>
       <line x1="90" y1="60" x2="160" y2="60" stroke="var(--vp-c-text-2)" stroke-width="2" marker-end="url(#arrow)" />
       <text x="125" y="55" text-anchor="middle" fill="var(--vp-c-text-3)" font-size="10">Encode</text>
       <rect x="165" y="40" width="100" height="40" rx="5" fill="var(--vp-c-bg-mute)" stroke="var(--vp-c-text-3)" />
@@ -141,8 +141,8 @@ When a question says "a new team member is added," calculate the NEW total numbe
       <text x="215" y="95" text-anchor="middle" fill="var(--vp-c-danger)" font-size="10" font-weight="bold">NOISE</text>
       <line x1="270" y1="60" x2="340" y2="60" stroke="var(--vp-c-text-2)" stroke-width="2" marker-end="url(#arrow)" />
       <text x="305" y="55" text-anchor="middle" fill="var(--vp-c-text-3)" font-size="10">Decode</text>
-      <rect x="345" y="40" width="80" height="40" rx="5" fill="var(--vp-c-brand-dimm)" stroke="var(--vp-c-brand)" />
-      <text x="385" y="65" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="12" font-weight="bold">RECEIVER</text>
+      <rect x="345" y="40" width="80" height="40" rx="5" fill="var(--vp-c-brand-dark)" stroke="var(--vp-c-brand-darker)" />
+      <text x="385" y="65" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">RECEIVER</text>
       <path d="M 385 85 L 385 130 L 50 130 L 50 85" fill="none" stroke="var(--vp-c-brand-light)" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrow)" />
       <text x="215" y="125" text-anchor="middle" fill="var(--vp-c-brand-light)" font-size="10">Feedback / Acknowledgment</text>
     </svg>
