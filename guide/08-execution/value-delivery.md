@@ -122,11 +122,32 @@ Visualize the flow of value from request to delivery, identifying waste and bott
 - **Activity Ratio**: Process time ÷ Lead time (higher is better)
 
 **Example: Software Feature Delivery**
-```
-Request → Backlog (3 days) → Design (2 days) → Dev (5 days) →
-Review (1 day waiting) → Test (3 days) → Deploy (1 day) = 15 days lead time
-Actual work: 11 days | Waste: 4 days waiting | Activity Ratio: 73%
-```
+
+<ConceptCard title="Value Stream Example: Software Feature Delivery">
+  <div style="display: flex; flex-direction: column; gap: 1rem; padding: 0.5rem;">
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; align-items: center;">
+      <div style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 0.5rem 0.75rem; border-radius: 8px; font-weight: 600; font-size: 0.85rem;">Request</div>
+      <div style="color: var(--vp-c-text-2);">→</div>
+      <div style="background: linear-gradient(135deg, #f59e0b, #d97706); color: white; padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.85rem;"><strong>Backlog</strong><br/><span style="font-size: 0.75rem;">3 days</span></div>
+      <div style="color: var(--vp-c-text-2);">→</div>
+      <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.85rem;"><strong>Design</strong><br/><span style="font-size: 0.75rem;">2 days</span></div>
+      <div style="color: var(--vp-c-text-2);">→</div>
+      <div style="background: linear-gradient(135deg, #8b5cf6, #6d28d9); color: white; padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.85rem;"><strong>Dev</strong><br/><span style="font-size: 0.75rem;">5 days</span></div>
+      <div style="color: var(--vp-c-text-2);">→</div>
+      <div style="background: linear-gradient(135deg, #ef4444, #dc2626); color: white; padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.85rem;"><strong>Review</strong><br/><span style="font-size: 0.75rem;">1 day wait</span></div>
+      <div style="color: var(--vp-c-text-2);">→</div>
+      <div style="background: linear-gradient(135deg, #06b6d4, #0891b2); color: white; padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.85rem;"><strong>Test</strong><br/><span style="font-size: 0.75rem;">3 days</span></div>
+      <div style="color: var(--vp-c-text-2);">→</div>
+      <div style="background: linear-gradient(135deg, #ec4899, #db2777); color: white; padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.85rem;"><strong>Deploy</strong><br/><span style="font-size: 0.75rem;">1 day</span></div>
+    </div>
+    <div style="display: flex; justify-content: center; gap: 2rem; padding: 0.75rem; background: var(--vp-c-bg-soft); border-radius: 8px; flex-wrap: wrap;">
+      <div style="text-align: center;"><strong style="color: var(--vp-c-brand);">15 days</strong><br/><span style="font-size: 0.85rem;">Lead Time</span></div>
+      <div style="text-align: center;"><strong style="color: #10b981;">11 days</strong><br/><span style="font-size: 0.85rem;">Actual Work</span></div>
+      <div style="text-align: center;"><strong style="color: #ef4444;">4 days</strong><br/><span style="font-size: 0.85rem;">Waste (Waiting)</span></div>
+      <div style="text-align: center;"><strong style="color: #8b5cf6;">73%</strong><br/><span style="font-size: 0.85rem;">Activity Ratio</span></div>
+    </div>
+  </div>
+</ConceptCard>
 
 ### 3. Benefit-Cost Ratio (BCR) & Return on Investment (ROI)
 Quantify value to justify continued investment during execution.
@@ -142,16 +163,41 @@ Quantify value to justify continued investment during execution.
 - Payback < 3 years: Typical acceptance for business cases
 :::
 
-<strong>Example Calculation:</strong>
-```
-Project Cost: $500,000
-Annual Benefits: $200,000 (cost savings + revenue increase)
-Project Life: 5 years
-
-BCR = ($200K × 5) ÷ $500K = 2.0 (favorable)
-ROI = (($200K × 5) - $500K) ÷ $500K × 100% = 100%
-Payback Period = $500K ÷ $200K = 2.5 years
-```
+<ConceptCard title="Example: BCR / ROI / Payback Calculation">
+  <div style="display: flex; flex-direction: column; gap: 1rem; padding: 0.5rem;">
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+      <div style="background: var(--vp-c-bg-soft); padding: 0.75rem 1rem; border-radius: 8px; text-align: center; min-width: 140px;">
+        <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">Project Cost</div>
+        <div style="font-weight: 700; color: var(--vp-c-brand); font-size: 1.1rem;">$500,000</div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 0.75rem 1rem; border-radius: 8px; text-align: center; min-width: 140px;">
+        <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">Annual Benefits</div>
+        <div style="font-weight: 700; color: #10b981; font-size: 1.1rem;">$200,000</div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 0.75rem 1rem; border-radius: 8px; text-align: center; min-width: 140px;">
+        <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">Project Life</div>
+        <div style="font-weight: 700; color: var(--vp-c-text-1); font-size: 1.1rem;">5 years</div>
+      </div>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+      <div style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 1rem; border-radius: 10px; text-align: center; min-width: 180px;">
+        <div style="font-weight: 700; font-size: 1.3rem;">BCR = 2.0</div>
+        <div style="font-size: 0.8rem; opacity: 0.9;">($200K × 5) ÷ $500K</div>
+        <div style="margin-top: 0.5rem; font-size: 0.75rem; background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 4px;">✓ Favorable</div>
+      </div>
+      <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 1rem; border-radius: 10px; text-align: center; min-width: 180px;">
+        <div style="font-weight: 700; font-size: 1.3rem;">ROI = 100%</div>
+        <div style="font-size: 0.8rem; opacity: 0.9;">(($1M - $500K) ÷ $500K) × 100</div>
+        <div style="margin-top: 0.5rem; font-size: 0.75rem; background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 4px;">✓ Excellent</div>
+      </div>
+      <div style="background: linear-gradient(135deg, #8b5cf6, #6d28d9); color: white; padding: 1rem; border-radius: 10px; text-align: center; min-width: 180px;">
+        <div style="font-weight: 700; font-size: 1.3rem;">Payback = 2.5 yrs</div>
+        <div style="font-size: 0.8rem; opacity: 0.9;">$500K ÷ $200K</div>
+        <div style="margin-top: 0.5rem; font-size: 0.75rem; background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 4px;">✓ Under 3 years</div>
+      </div>
+    </div>
+  </div>
+</ConceptCard>
 
 ---
 
@@ -250,10 +296,16 @@ If the scenario describes uncertainty, prioritize work that **reduces risk and v
 
 **WSJF** is a SAFe prioritization technique that maximizes economic value by accounting for the cost of waiting.
 
-<strong>Formula:</strong>
-```
-WSJF = Cost of Delay ÷ Job Duration (Size)
-```
+<ConceptCard title="WSJF Formula" type="formula">
+  <div style="text-align: center; padding: 0.5rem;">
+    <div style="font-size: 1.4rem; font-weight: 700; color: var(--vp-c-brand);">
+      WSJF = Cost of Delay ÷ Job Duration (Size)
+    </div>
+    <div style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--vp-c-text-2);">
+      Higher WSJF = Higher Priority (do first)
+    </div>
+  </div>
+</ConceptCard>
 
 <strong>Cost of Delay Components:</strong>
 - **User-Business Value**: How much value does this deliver to users/business?
@@ -286,31 +338,57 @@ WSJF = Cost of Delay ÷ Job Duration (Size)
 
 **NPV** calculates the present value of future cash flows, accounting for the time value of money.
 
-<strong>Formula:</strong>
-```
-NPV = Σ [Cash Flow / (1 + r)^t] - Initial Investment
-```
-Where: r = discount rate, t = time period
+<ConceptCard title="NPV Formula" type="formula">
+  <div style="text-align: center; padding: 0.5rem;">
+    <div style="font-size: 1.2rem; font-weight: 700; color: var(--vp-c-brand); font-family: monospace;">
+      NPV = Σ [Cash Flow / (1 + r)<sup>t</sup>] - Initial Investment
+    </div>
+    <div style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--vp-c-text-2);">
+      r = discount rate, t = time period
+    </div>
+  </div>
+</ConceptCard>
 
 <strong>Interpretation:</strong>
-- **NPV > 0**: Project adds value; accept
+- **NPV greater than 0**: Project adds value; accept
 - **NPV = 0**: Project breaks even; consider other factors
-- **NPV < 0**: Project destroys value; reject
+- **NPV less than 0**: Project destroys value; reject
 
-<strong>Example:</strong>
-```
-Initial Investment: $100,000
-Annual Cash Flows: $40,000 for 4 years
-Discount Rate: 10%
-
-Year 1: $40,000 / 1.10 = $36,364
-Year 2: $40,000 / 1.21 = $33,058
-Year 3: $40,000 / 1.331 = $30,053
-Year 4: $40,000 / 1.464 = $27,322
-
-Total PV of Cash Flows: $126,797
-NPV = $126,797 - $100,000 = +$26,797  Accept
-```
+<ConceptCard title="NPV Calculation Example">
+  <div style="display: flex; flex-direction: column; gap: 1rem; padding: 0.5rem;">
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+      <div style="background: var(--vp-c-bg-soft); padding: 0.5rem 1rem; border-radius: 8px; text-align: center;">
+        <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">Investment</div>
+        <div style="font-weight: 700; color: #ef4444;">$100,000</div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 0.5rem 1rem; border-radius: 8px; text-align: center;">
+        <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">Annual Cash Flow</div>
+        <div style="font-weight: 700; color: #10b981;">$40,000</div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 0.5rem 1rem; border-radius: 8px; text-align: center;">
+        <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">Discount Rate</div>
+        <div style="font-weight: 700;">10%</div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 0.5rem 1rem; border-radius: 8px; text-align: center;">
+        <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">Duration</div>
+        <div style="font-weight: 700;">4 years</div>
+      </div>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; font-size: 0.85rem;">
+      <div style="background: #dbeafe; padding: 0.5rem 0.75rem; border-radius: 6px;">Year 1: $36,364</div>
+      <div style="background: #dbeafe; padding: 0.5rem 0.75rem; border-radius: 6px;">Year 2: $33,058</div>
+      <div style="background: #dbeafe; padding: 0.5rem 0.75rem; border-radius: 6px;">Year 3: $30,053</div>
+      <div style="background: #dbeafe; padding: 0.5rem 0.75rem; border-radius: 6px;">Year 4: $27,322</div>
+    </div>
+    <div style="display: flex; justify-content: center; gap: 1rem;">
+      <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 1rem 2rem; border-radius: 10px; text-align: center;">
+        <div style="font-size: 0.8rem; opacity: 0.9;">Total PV: $126,797</div>
+        <div style="font-weight: 700; font-size: 1.3rem;">NPV = +$26,797</div>
+        <div style="font-size: 0.75rem; margin-top: 0.25rem;">✓ Accept</div>
+      </div>
+    </div>
+  </div>
+</ConceptCard>
 
 ::: tip Exam Application
 When comparing multiple projects with the same investment, choose the project with the **higher NPV**—it creates more value.
@@ -324,14 +402,20 @@ When comparing multiple projects with the same investment, choose the project wi
 - **IRR > Required Rate of Return**: Accept the project
 - **IRR < Required Rate of Return**: Reject the project
 
-<strong>Example:</strong>
-```
-If a company's required rate of return is 12% and Project A has IRR = 18%:
-→ Accept Project A (18% > 12%)
-
-If Project B has IRR = 9%:
-→ Reject Project B (9% < 12%)
-```
+<ConceptCard title="IRR Decision Examples">
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; padding: 0.5rem;">
+    <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 1rem; border-radius: 10px; min-width: 200px; text-align: center;">
+      <div style="font-size: 0.8rem; opacity: 0.9;">Required Rate: 12%</div>
+      <div style="font-weight: 700; font-size: 1.3rem;">Project A: IRR = 18%</div>
+      <div style="margin-top: 0.5rem; font-size: 0.9rem;">18% > 12% → ✓ Accept</div>
+    </div>
+    <div style="background: linear-gradient(135deg, #ef4444, #dc2626); color: white; padding: 1rem; border-radius: 10px; min-width: 200px; text-align: center;">
+      <div style="font-size: 0.8rem; opacity: 0.9;">Required Rate: 12%</div>
+      <div style="font-weight: 700; font-size: 1.3rem;">Project B: IRR = 9%</div>
+      <div style="margin-top: 0.5rem; font-size: 0.9rem;">9% < 12% → ✗ Reject</div>
+    </div>
+  </div>
+</ConceptCard>
 
 ::: warning IRR Limitations
 IRR can be misleading for projects with non-conventional cash flows (multiple sign changes). When comparing mutually exclusive projects, NPV is generally more reliable.
@@ -345,15 +429,27 @@ IRR can be misleading for projects with non-conventional cash flows (multiple si
 - If you have resources for only one project, the opportunity cost of choosing Project A is the value you would have gained from Project B
 - Always consider what you're giving up, not just what you're getting
 
-<strong>Example:</strong>
-```
-You can assign your top developer to Project A (expected benefit: $50K) 
-or Project B (expected benefit: $70K).
-
-If you choose Project A:
-- Opportunity Cost = $70K (the benefit you missed from Project B)
-- Net Value = $50K - $70K = -$20K relative to best choice
-```
+<ConceptCard title="Opportunity Cost Example">
+  <div style="display: flex; flex-direction: column; gap: 1rem; padding: 0.5rem;">
+    <div style="text-align: center; font-size: 0.95rem;">Your top developer can only work on ONE project:</div>
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+      <div style="background: var(--vp-c-bg-soft); padding: 1rem; border-radius: 10px; min-width: 180px; text-align: center; border: 2px solid var(--vp-c-brand);">
+        <div style="font-weight: 600;">Project A</div>
+        <div style="color: #10b981; font-weight: 700; font-size: 1.2rem;">+$50K benefit</div>
+        <div style="font-size: 0.8rem; color: var(--vp-c-text-2); margin-top: 0.5rem;">If you choose this...</div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 1rem; border-radius: 10px; min-width: 180px; text-align: center;">
+        <div style="font-weight: 600;">Project B</div>
+        <div style="color: #10b981; font-weight: 700; font-size: 1.2rem;">+$70K benefit</div>
+        <div style="font-size: 0.8rem; color: var(--vp-c-text-2); margin-top: 0.5rem;">...you miss this</div>
+      </div>
+    </div>
+    <div style="background: linear-gradient(135deg, #f59e0b, #d97706); color: white; padding: 1rem; border-radius: 10px; text-align: center;">
+      <div style="font-size: 0.9rem;">Opportunity Cost of choosing A = <strong>$70K</strong></div>
+      <div style="font-size: 0.85rem; opacity: 0.9;">Net relative value = $50K - $70K = <strong>-$20K</strong></div>
+    </div>
+  </div>
+</ConceptCard>
 
 ### Sunk Cost Fallacy (Exam Trap!)
 
@@ -363,20 +459,41 @@ If you choose Project A:
 
 <strong>Correct Thinking:</strong> Only consider **future costs and future benefits**. Past spending is irrelevant to the decision.
 
-<strong>Example Scenario:</strong>
-```
-Project Status:
-- Spent so far: $500K (sunk cost)
-- Estimated to complete: $300K more
-- Expected benefit if completed: $400K
-- Expected benefit if cancelled: $0
-
-Decision Analysis:
-- Continue: Spend $300K, get $400K → Net value = +$100K
-- Cancel: Spend $0, get $0 → Net value = $0
-
-Decision: Continue (based on future value, NOT sunk costs)
-```
+<ConceptCard title="Sunk Cost Decision Analysis">
+  <div style="display: flex; flex-direction: column; gap: 1rem; padding: 0.5rem;">
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+      <div style="background: linear-gradient(135deg, #6b7280, #4b5563); color: white; padding: 0.75rem 1rem; border-radius: 8px; text-align: center; min-width: 120px;">
+        <div style="font-size: 0.75rem; opacity: 0.9;">Spent So Far</div>
+        <div style="font-weight: 700; font-size: 1.1rem;">$500K</div>
+        <div style="font-size: 0.7rem; opacity: 0.8;">(IGNORE this)</div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 0.75rem 1rem; border-radius: 8px; text-align: center; min-width: 120px;">
+        <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">To Complete</div>
+        <div style="font-weight: 700; color: #ef4444;">$300K</div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 0.75rem 1rem; border-radius: 8px; text-align: center; min-width: 120px;">
+        <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">Expected Benefit</div>
+        <div style="font-weight: 700; color: #10b981;">$400K</div>
+      </div>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+      <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 1rem; border-radius: 10px; min-width: 180px; text-align: center;">
+        <div style="font-weight: 600;">Continue</div>
+        <div style="font-size: 0.9rem; margin-top: 0.5rem;">Spend $300K, Get $400K</div>
+        <div style="font-weight: 700; font-size: 1.2rem; margin-top: 0.25rem;">Net = +$100K</div>
+        <div style="font-size: 0.75rem; margin-top: 0.5rem; background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 4px;">✓ Better Choice</div>
+      </div>
+      <div style="background: linear-gradient(135deg, #ef4444, #dc2626); color: white; padding: 1rem; border-radius: 10px; min-width: 180px; text-align: center;">
+        <div style="font-weight: 600;">Cancel</div>
+        <div style="font-size: 0.9rem; margin-top: 0.5rem;">Spend $0, Get $0</div>
+        <div style="font-weight: 700; font-size: 1.2rem; margin-top: 0.25rem;">Net = $0</div>
+      </div>
+    </div>
+    <div style="text-align: center; font-size: 0.9rem; color: var(--vp-c-text-2);">
+      Decision: Continue (based on <strong>future value</strong>, NOT sunk costs)
+    </div>
+  </div>
+</ConceptCard>
 
 ::: warning Exam Pattern
 If a scenario mentions large investments already made and asks whether to continue, **ignore sunk costs**. Only compare future costs to future benefits. "We've come too far to stop now" is NEVER the right answer.
@@ -513,14 +630,30 @@ KPIs are quantifiable metrics that track progress toward strategic objectives.
 | **Strategic** | Alignment with strategic goals | Market share, competitive position, innovation index |
 | **Quality** | Deliverable quality | Defect density, test coverage, rework rate, first-time quality |
 
-**Example: E-commerce Platform Project KPIs**
-```
-Financial: 25% increase in online revenue within 6 months
-Operational: Page load time < 2 seconds; 99.9% uptime
-Customer: NPS > 50; Mobile app rating > 4.5 stars
-Strategic: Capture 15% mobile commerce market share
-Quality: < 1% critical defect rate post-launch
-```
+<ConceptCard title="Example: E-commerce Platform KPIs">
+  <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; padding: 0.5rem;">
+    <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 0.75rem 1rem; border-radius: 8px; min-width: 200px;">
+      <div style="font-size: 0.75rem; opacity: 0.9;">Financial</div>
+      <div style="font-weight: 600;">25% revenue increase in 6 months</div>
+    </div>
+    <div style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 0.75rem 1rem; border-radius: 8px; min-width: 200px;">
+      <div style="font-size: 0.75rem; opacity: 0.9;">Operational</div>
+      <div style="font-weight: 600;">Page load less than 2s; 99.9% uptime</div>
+    </div>
+    <div style="background: linear-gradient(135deg, #8b5cf6, #6d28d9); color: white; padding: 0.75rem 1rem; border-radius: 8px; min-width: 200px;">
+      <div style="font-size: 0.75rem; opacity: 0.9;">Customer</div>
+      <div style="font-weight: 600;">NPS greater than 50; App rating greater than 4.5 stars</div>
+    </div>
+    <div style="background: linear-gradient(135deg, #f59e0b, #d97706); color: white; padding: 0.75rem 1rem; border-radius: 8px; min-width: 200px;">
+      <div style="font-size: 0.75rem; opacity: 0.9;">Strategic</div>
+      <div style="font-weight: 600;">15% mobile commerce market share</div>
+    </div>
+    <div style="background: linear-gradient(135deg, #ec4899, #db2777); color: white; padding: 0.75rem 1rem; border-radius: 8px; min-width: 200px;">
+      <div style="font-size: 0.75rem; opacity: 0.9;">Quality</div>
+      <div style="font-weight: 600;">Less than 1% critical defect rate</div>
+    </div>
+  </div>
+</ConceptCard>
 
 ### 2. Objectives and Key Results (OKRs)
 
@@ -530,16 +663,32 @@ OKRs link ambitious objectives to measurable key results, promoting alignment an
 - **Objective**: Qualitative, inspirational goal (the "what")
 - **Key Results**: Quantitative measures of success (the "how we know we got there")
 
-**Example: Product Launch OKR**
-```
-Objective: Become the preferred platform for small business owners
-
-Key Results:
-- KR1: Achieve 10,000 active users within 90 days of launch
-- KR2: Reach 60% customer satisfaction score (CSAT > 4/5)
-- KR3: Generate 500 organic referrals from existing users
-- KR4: Reduce onboarding time from 30 minutes to 10 minutes
-```
+<ConceptCard title="Example: Product Launch OKR">
+  <div style="display: flex; flex-direction: column; gap: 1rem; padding: 0.5rem;">
+    <div style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 1rem; border-radius: 10px; text-align: center;">
+      <div style="font-size: 0.8rem; opacity: 0.9;">OBJECTIVE</div>
+      <div style="font-weight: 700; font-size: 1.1rem;">Become the preferred platform for small business owners</div>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center;">
+      <div style="background: var(--vp-c-bg-soft); padding: 0.75rem 1rem; border-radius: 8px; min-width: 200px; border-left: 4px solid #10b981;">
+        <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">KR1</div>
+        <div style="font-weight: 600;">10,000 active users in 90 days</div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 0.75rem 1rem; border-radius: 8px; min-width: 200px; border-left: 4px solid #10b981;">
+        <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">KR2</div>
+        <div style="font-weight: 600;">60% CSAT score (4/5 or higher)</div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 0.75rem 1rem; border-radius: 8px; min-width: 200px; border-left: 4px solid #10b981;">
+        <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">KR3</div>
+        <div style="font-weight: 600;">500 organic referrals</div>
+      </div>
+      <div style="background: var(--vp-c-bg-soft); padding: 0.75rem 1rem; border-radius: 8px; min-width: 200px; border-left: 4px solid #10b981;">
+        <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">KR4</div>
+        <div style="font-weight: 600;">Onboarding: 30 min → 10 min</div>
+      </div>
+    </div>
+  </div>
+</ConceptCard>
 
 ::: info OKRs vs KPIs
 - **OKRs**: Time-boxed (quarterly), aspirational, change frequently, focus on growth
@@ -601,10 +750,24 @@ If a scenario asks how to predict whether benefits will be realized, focus on **
 
 **NPS** measures customer loyalty and satisfaction, commonly used to track value delivery.
 
-<strong>Formula:</strong>
-```
-NPS = % Promoters - % Detractors
-```
+<ConceptCard title="NPS Formula" type="formula">
+  <div style="text-align: center; padding: 0.5rem;">
+    <div style="font-size: 1.3rem; font-weight: 700; color: var(--vp-c-brand);">
+      NPS = % Promoters - % Detractors
+    </div>
+    <div style="margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center;">
+      <div style="background: #10b981; color: white; padding: 0.5rem 1rem; border-radius: 6px; font-size: 0.85rem;">
+        <strong>Promoters (9-10)</strong><br/>Loyal enthusiasts
+      </div>
+      <div style="background: #f59e0b; color: white; padding: 0.5rem 1rem; border-radius: 6px; font-size: 0.85rem;">
+        <strong>Passives (7-8)</strong><br/>Satisfied but vulnerable
+      </div>
+      <div style="background: #ef4444; color: white; padding: 0.5rem 1rem; border-radius: 6px; font-size: 0.85rem;">
+        <strong>Detractors (0-6)</strong><br/>Unhappy customers
+      </div>
+    </div>
+  </div>
+</ConceptCard>
 
 **Categories (based on 0-10 scale question: "How likely are you to recommend...?"):**
 - **Promoters (9-10)**: Loyal enthusiasts who drive growth
