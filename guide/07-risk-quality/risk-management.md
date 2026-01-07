@@ -340,47 +340,71 @@ PERT assumes tasks are independent. In reality, risks often correlate (if one sl
 
 Decision trees help you choose between options with uncertain outcomes by calculating Expected Monetary Value (EMV) for each path.
 
-#### Problem Statement
-Your company must decide how to develop a new feature:
-- **Option A: Build In-House** - Lower cost but higher failure risk
-- **Option B: Outsource** - Higher cost but more reliable
-- **Option C: Hybrid** - Split the work (moderate cost and risk)
+#### Step 1: Visualize the Decision Tree
 
-#### Step 1: Map the Decision Tree
-<ConceptCard title="Decision Tree Example: Feature Development">
-  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
-Decision: Feature Development
-│
-├── Build In-House (Cost: $100k)
-│   ├── Success (60%): Benefit $400k → Net: +$300k
-│   └── Failure (40%): Benefit $0 → Net: -$100k
-│
-├── Outsource (Cost: $180k)
-│   ├── Success (85%): Benefit $380k → Net: +$200k
-│   └── Failure (15%): Benefit $0 → Net: -$180k
-│
-└── Hybrid (Cost: $140k)
-    ├── Success (75%): Benefit $390k → Net: +$250k
-    └── Failure (25%): Benefit $50k → Net: -$90k
+<ConceptCard title="Tree Visualization: Feature Development Decision" variant="secondary">
+  <div style="padding: 20px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+    <svg viewBox="0 0 600 320" style="width: 100%; height: auto;">
+      <defs>
+        <marker id="dot" markerWidth="6" markerHeight="6" refX="3" refY="3">
+          <circle cx="3" cy="3" r="3" fill="var(--vp-c-text-3)" />
+        </marker>
+      </defs>
+      <rect x="10" y="140" width="100" height="40" rx="5" fill="var(--vp-c-brand-dark)" stroke="var(--vp-c-brand-darker)" />
+      <text x="60" y="165" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">START</text>
+      <path d="M 110 160 L 180 60" fill="none" stroke="var(--vp-c-text-3)" stroke-width="2" />
+      <path d="M 110 160 L 180 160" fill="none" stroke="var(--vp-c-text-3)" stroke-width="2" />
+      <path d="M 110 160 L 180 260" fill="none" stroke="var(--vp-c-text-3)" stroke-width="2" />
+      <text x="145" y="90" text-anchor="middle" fill="var(--vp-c-brand)" font-size="11" transform="rotate(-35, 145, 90)">Build (-$100k)</text>
+      <text x="145" y="150" text-anchor="middle" fill="var(--vp-c-brand)" font-size="11">Outsource (-$180k)</text>
+      <text x="145" y="230" text-anchor="middle" fill="var(--vp-c-brand)" font-size="11" transform="rotate(35, 145, 230)">Hybrid (-$140k)</text>
+      <circle cx="180" cy="60" r="6" fill="var(--vp-c-warning)" />
+      <circle cx="180" cy="160" r="6" fill="var(--vp-c-warning)" />
+      <circle cx="180" cy="260" r="6" fill="var(--vp-c-warning)" />
+      <path d="M 180 60 L 300 30" fill="none" stroke="var(--vp-c-text-4)" stroke-width="1.5" />
+      <path d="M 180 60 L 300 90" fill="none" stroke="var(--vp-c-text-4)" stroke-width="1.5" />
+      <text x="310" y="35" fill="var(--vp-c-text-1)" font-size="10">Success (60%): +$300k net</text>
+      <text x="310" y="95" fill="var(--vp-c-text-2)" font-size="10">Failure (40%): -$100k net</text>
+      <path d="M 180 160 L 300 130" fill="none" stroke="var(--vp-c-text-4)" stroke-width="1.5" />
+      <path d="M 180 160 L 300 190" fill="none" stroke="var(--vp-c-text-4)" stroke-width="1.5" />
+      <text x="310" y="135" fill="var(--vp-c-text-1)" font-size="10">Success (85%): +$200k net</text>
+      <text x="310" y="195" fill="var(--vp-c-text-2)" font-size="10">Failure (15%): -$180k net</text>
+      <path d="M 180 260 L 300 230" fill="none" stroke="var(--vp-c-text-4)" stroke-width="1.5" />
+      <path d="M 180 260 L 300 290" fill="none" stroke="var(--vp-c-text-4)" stroke-width="1.5" />
+      <text x="310" y="235" fill="var(--vp-c-text-1)" font-size="10">Success (75%): +$250k net</text>
+      <text x="310" y="295" fill="var(--vp-c-text-2)" font-size="10">Failure (25%): -$90k net</text>
+    </svg>
   </div>
 </ConceptCard>
 
-#### Step 2: Calculate EMV for Each Option
+#### Step 2: Calculate path EMVs
 
-**Option A: Build In-House**
-- EMV = (0.60 × $300k) + (0.40 × -$100k)
-- EMV = $180k - $40k = **+$140k**
+<ConceptGrid>
+  <ConceptCard title="Option A: Build" variant="primary">
+    <strong>Success:</strong> 0.60 &times; $300k = $180k<br/>
+    <strong>Failure:</strong> 0.40 &times; (-$100k) = -$40k<br/>
+    <hr style="margin: 8px 0; border-top: 1px solid var(--vp-c-divider);" />
+    <strong>EMV:</strong> $180k - $40k = <strong>+$140k</strong>
+  </ConceptCard>
+  <ConceptCard title="Option B: Outsource" variant="secondary">
+    <strong>Success:</strong> 0.85 &times; $200k = $170k<br/>
+    <strong>Failure:</strong> 0.15 &times; (-$180k) = -$27k<br/>
+    <hr style="margin: 8px 0; border-top: 1px solid var(--vp-c-divider);" />
+    <strong>EMV:</strong> $170k - $27k = <strong>+$143k</strong>
+  </ConceptCard>
+  <ConceptCard title="Option C: Hybrid" variant="primary">
+    <strong>Success:</strong> 0.75 &times; $250k = $187.5k<br/>
+    <strong>Failure:</strong> 0.25 &times; (-$90k) = -$22.5k<br/>
+    <hr style="margin: 8px 0; border-top: 1px solid var(--vp-c-divider);" />
+    <strong>EMV:</strong> $187.5k - $22.5k = <strong>+$165k</strong>
+  </ConceptCard>
+</ConceptGrid>
 
-**Option B: Outsource**
-- EMV = (0.85 × $200k) + (0.15 × -$180k)
-- EMV = $170k - $27k = **+$143k**
+#### Step 3: Final Recommendation
 
-**Option C: Hybrid**
-- EMV = (0.75 × $250k) + (0.25 × -$90k)
-- EMV = $187.5k - $22.5k = **+$165k**
-
-#### Step 3: Make the Decision
-**Best Choice: Hybrid (Option C)** with EMV of +$165k
+<ConceptCard title="The Verdict" variant="success">
+  Based on Expected Monetary Value (EMV), <strong>Option C: Hybrid</strong> is the best choice with a value of <strong>+$165,000</strong>. It provides the best balance of higher probability success and capped failure impact compared to the other options.
+</ConceptCard>
 
 ::: tip  Exam Insight
 Decision tree questions test whether you can calculate EMV correctly. Remember:
