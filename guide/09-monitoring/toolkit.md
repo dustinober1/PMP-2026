@@ -100,7 +100,6 @@ If there is a problem, you usually (1) analyze it, (2) decide an action, and (3)
 
 <ConceptCard title="Earned Value Management Metrics">
   <div style="display: flex; flex-direction: column; gap: 16px;">
-    <!-- Inputs -->
     <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; text-align: center;">
       <div style="background: #f1f5f9; padding: 8px; border-radius: 6px;">
         <strong>BAC</strong><div style="font-size: 0.8em; opacity: 0.7;">Budget at Completion</div>
@@ -115,8 +114,6 @@ If there is a problem, you usually (1) analyze it, (2) decide an action, and (3)
         <strong>AC</strong><div style="font-size: 0.8em; opacity: 0.7;">Actual Cost</div>
       </div>
     </div>
-
-    <!-- Variances -->
     <div style="background: rgba(59, 130, 246, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(59, 130, 246, 0.2);">
       <strong style="color: #3b82f6; display: block; margin-bottom: 8px;">Variances (History)</strong>
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
@@ -130,25 +127,21 @@ If there is a problem, you usually (1) analyze it, (2) decide an action, and (3)
         </div>
       </div>
     </div>
-
-    <!-- Indices -->
     <div style="background: rgba(168, 85, 247, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(168, 85, 247, 0.2);">
       <strong style="color: #a855f7; display: block; margin-bottom: 8px;">Indices (Efficiency)</strong>
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
         <div>
           <strong>CPI = EV / AC</strong>
           <div style="font-size: 0.8em;">Cost Performance Index</div>
-          <div style="font-size: 0.75em; color: #ef4444; margin-top: 2px;">Over budget if &lt; 1</div>
+          <div style="font-size: 0.75em; color: #ef4444; margin-top: 2px;">Over budget if less than 1</div>
         </div>
         <div>
           <strong>SPI = EV / PV</strong>
           <div style="font-size: 0.8em;">Schedule Performance Index</div>
-          <div style="font-size: 0.75em; color: #ef4444; margin-top: 2px;">Behind schedule if &lt; 1</div>
+          <div style="font-size: 0.75em; color: #ef4444; margin-top: 2px;">Behind schedule if less than 1</div>
         </div>
       </div>
     </div>
-
-    <!-- Forecasts -->
     <div style="background: rgba(34, 197, 94, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(34, 197, 94, 0.2);">
       <strong style="color: #22c55e; display: block; margin-bottom: 8px;">Forecasts (Future)</strong>
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
@@ -159,7 +152,7 @@ If there is a problem, you usually (1) analyze it, (2) decide an action, and (3)
         <div>
           <strong>TCPI = (BAC-EV)/(BAC-AC)</strong>
           <div style="font-size: 0.8em;">To-Complete Performance Index</div>
-          <div style="font-size: 0.75em; color: #ef4444; margin-top: 2px;">Harder to finish if > 1</div>
+          <div style="font-size: 0.75em; color: #ef4444; margin-top: 2px;">Harder to finish if greater than 1</div>
         </div>
       </div>
     </div>
@@ -604,15 +597,11 @@ Use for agile project monitoring cadence.
 
 <ConceptCard title="Probabilistic Forecast Report">
   <div style="display: flex; flex-direction: column; gap: 16px;">
-    <!-- Header -->
     <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #64748b; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px;">
       <span>Analysis Date: 2026-02-15</span>
       <span>Simulations: 10,000</span>
     </div>
-
-    <!-- Forecasts Grid -->
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-      <!-- Schedule -->
       <div style="background: rgba(34, 197, 94, 0.05); padding: 12px; border-radius: 8px; border-left: 3px solid #22c55e;">
         <strong style="color: #15803d; display: block; margin-bottom: 8px;">📅 Schedule Forecast</strong>
         <div style="display: flex; justify-content: space-between; font-size: 0.9em; margin-bottom: 4px;">
@@ -628,8 +617,6 @@ Use for agile project monitoring cadence.
           <strong>2026-07-15</strong>
         </div>
       </div>
-
-      <!-- Cost -->
       <div style="background: rgba(59, 130, 246, 0.05); padding: 12px; border-radius: 8px; border-left: 3px solid #3b82f6;">
         <strong style="color: #1d4ed8; display: block; margin-bottom: 8px;">💰 Cost Forecast</strong>
         <div style="display: flex; justify-content: space-between; font-size: 0.9em; margin-bottom: 4px;">
@@ -646,8 +633,6 @@ Use for agile project monitoring cadence.
         </div>
       </div>
     </div>
-
-    <!-- Recommendation -->
     <div style="background: #f8fafc; padding: 12px; border-radius: 6px; border: 1px dashed #94a3b8;">
       <strong style="display: block; margin-bottom: 8px;">Strategic Recommendation</strong>
       <ul style="margin: 0; padding-left: 16px; font-size: 0.9em; color: #334155;">
@@ -775,7 +760,6 @@ Use for agile project monitoring cadence.
 
 <ConceptCard title="Project Closure Scorecard">
   <div style="display: flex; flex-direction: column; gap: 16px;">
-    <!-- Checklist -->
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
       <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9em;">
         <div style="width: 16px; height: 16px; border: 2px solid #cbd5e1; border-radius: 4px;"></div> Deliverables Accepted
@@ -796,9 +780,7 @@ Use for agile project monitoring cadence.
         <div style="width: 16px; height: 16px; border: 2px solid #cbd5e1; border-radius: 4px;"></div> Lessons Learned
       </div>
     </div>
-    
-    <!-- Score Guide -->
-    <div style="border-top: 1px solid #e2e8f0; paddingTop: 12px;">
+    <div style="border-top: 1px solid #e2e8f0; padding-top: 12px;">
       <strong style="display: block; margin-bottom: 8px;">Interpretation Guide</strong>
       <div style="display: flex; flex-direction: column; gap: 8px;">
         <div style="display: flex; align-items: center; gap: 12px; font-size: 0.9em;">
@@ -807,10 +789,10 @@ Use for agile project monitoring cadence.
         </div>
         <div style="display: flex; align-items: center; gap: 12px; font-size: 0.9em;">
           <span style="background: #eab308; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold;">8-9</span>
-          <span>Address minor items; close < 1 week</span>
+          <span>Address minor items; close within 1 week</span>
         </div>
         <div style="display: flex; align-items: center; gap: 12px; font-size: 0.9em;">
-          <span style="background: #ef4444; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold;">&lt; 7</span>
+          <span style="background: #ef4444; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Below 7</span>
           <span>Significant blockers; not ready</span>
         </div>
       </div>
