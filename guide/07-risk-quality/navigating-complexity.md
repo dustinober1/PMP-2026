@@ -140,39 +140,30 @@ Systems thinking is seeing the **relationships** (not just tasks). A system is m
 
 ### Feedback Loops (The Core of System Behavior)
 
-#### Reinforcing Loop (Amplifying / Vicious or Virtuous Cycle)
-Change compounds in the same direction (either positive or negative).
+<ConceptGrid>
+  <ConceptCard title="Reinforcing Loop" variant="primary">
+    <strong>Amplifying Effect.</strong> Change compounds in the same direction (Vicious or Virtuous).
+    <div style="margin: 10px 0; padding: 10px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+      <svg viewBox="0 0 200 100" style="width: 100%; height: auto;">
+        <path d="M 50 50 Q 100 0 150 50 Q 100 100 50 50" fill="none" stroke="var(--vp-c-brand)" stroke-width="2"></path>
+        <text x="100" y="55" text-anchor="middle" fill="var(--vp-c-brand)" font-size="20" font-weight="bold">+</text>
+      </svg>
+    </div>
+    <strong>Example:</strong> Quality shortcuts leading to more rework, leading to more shortcuts.
+  </ConceptCard>
 
-<strong>Vicious Cycle Example:</strong>
-```
-Quality shortcuts → More defects → More rework →
-Less time available → More shortcuts → MORE defects
-```
-
-<strong>Virtuous Cycle Example:</strong>
-```
-Team learns new skills → Higher productivity →
-Earlier delivery → More time to learn → HIGHER productivity
-```
-
-**Exam Clue**: "The problem keeps getting worse" suggests a **reinforcing loop** that must be broken.
-
-#### Balancing Loop (Stabilizing / Self-Correcting)
-The system resists change and seeks equilibrium.
-
-<strong>Example:</strong>
-```
-Workload increases → Team applies WIP limits →
-Flow improves → Defects decrease → Workload stabilizes
-```
-
-**Example (Thermostat Analogy):**
-```
-Room gets cold → Heater turns on →
-Temperature rises → Heater turns off → Balance maintained
-```
-
-**Exam Clue**: "The process self-corrects" or "natural stabilization" suggests a **balancing loop**.
+  <ConceptCard title="Balancing Loop" variant="secondary">
+    <strong>Stabilizing Effect.</strong> The system resists change and seeks equilibrium.
+    <div style="margin: 10px 0; padding: 10px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+      <svg viewBox="0 0 200 100" style="width: 100%; height: auto;">
+        <circle cx="100" cy="50" r="30" fill="none" stroke="var(--vp-c-text-3)" stroke-width="2"></circle>
+        <line x1="70" y1="50" x2="130" y2="50" stroke="var(--vp-c-text-1)" stroke-width="2"></line>
+        <text x="100" y="40" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="20">=</text>
+      </svg>
+    </div>
+    <strong>Example:</strong> Workload leads to WIP limits, which improves flow and stabilizes work.
+  </ConceptCard>
+</ConceptGrid>
 
 ### Systems Thinking Principles (Exam-Ready)
 
@@ -236,88 +227,70 @@ To reduce lead time:
 
 System archetypes are common patterns of behavior that repeat across different systems. Recognizing them helps you choose appropriate interventions.
 
-### Archetype 1: Shifting the Burden
+<ConceptGrid>
+  <ConceptCard title="Archetype 1: Shifting the Burden" variant="primary">
+    <strong>Pattern:</strong> A quick fix addresses symptoms but doesn't solve the root cause.
+    <div style="margin: 15px 0; padding: 10px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+      <svg viewBox="0 0 400 160" style="width: 100%; height: auto;">
+        <rect x="150" y="10" width="100" height="30" rx="5" fill="var(--vp-c-danger-soft)" stroke="var(--vp-c-danger)"></rect>
+        <text x="200" y="30" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="11" font-weight="bold">SYMPTOM</text>
+        <line x1="150" y1="25" x2="100" y2="60" stroke="var(--vp-c-text-3)" stroke-width="1.5"></line>
+        <rect x="20" y="60" width="90" height="30" rx="5" fill="var(--vp-c-warning-soft)" stroke="var(--vp-c-warning)"></rect>
+        <text x="65" y="80" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="10">Quick Fix</text>
+        <line x1="250" y1="25" x2="300" y2="60" stroke="var(--vp-c-text-3)" stroke-width="1.5"></line>
+        <rect x="290" y="60" width="90" height="30" rx="5" fill="var(--vp-c-brand-soft)" stroke="var(--vp-c-brand)"></rect>
+        <text x="335" y="80" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="10">Side Effect</text>
+        <path d="M 65 95 Q 200 150 335 95" fill="none" stroke="var(--vp-c-danger)" stroke-width="1.5" stroke-dasharray="4"></path>
+        <text x="200" y="145" text-anchor="middle" fill="var(--vp-c-danger)" font-size="9">Undermines Root Solution</text>
+      </svg>
+    </div>
+    <strong>Decision:</strong> Don't let the "easy" fix become the permanent solution.
+  </ConceptCard>
 
-**Pattern**: A quick fix addresses symptoms but doesn't solve the root cause. Over time, the fundamental solution becomes harder to apply.
+  <ConceptCard title="Archetype 2: Limits to Growth" variant="secondary">
+    <strong>Pattern:</strong> Growth hits a ceiling due to a hidden constraint.
+    <div style="margin: 15px 0; padding: 10px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+      <svg viewBox="0 0 400 160" style="width: 100%; height: auto;">
+        <circle cx="100" cy="80" r="40" fill="none" stroke="var(--vp-c-brand)" stroke-dasharray="4"></circle>
+        <text x="100" y="85" text-anchor="middle" fill="var(--vp-c-brand)" font-size="10" font-weight="bold">GROWTH</text>
+        <line x1="140" y1="80" x2="220" y2="80" stroke="var(--vp-c-text-3)" stroke-width="2"></line>
+        <rect x="220" y="55" width="100" height="50" rx="5" fill="var(--vp-c-danger-soft)" stroke="var(--vp-c-danger)"></rect>
+        <text x="270" y="85" text-anchor="middle" fill="var(--vp-c-danger)" font-size="11" font-weight="bold">LIMIT</text>
+      </svg>
+    </div>
+    <strong>Decision:</strong> Identify the constraint *before* you push for more speed.
+  </ConceptCard>
 
-**Structure**:
-```
-Problem Symptom
-├── Quick Fix (symptom relief) → Side Effect
-│                                    ↓
-│                            Delays/Reduces
-│                                    ↓
-└── Fundamental Solution ←← (becomes harder)
-```
+  <ConceptCard title="Archetype 3: Fixes That Fail" variant="primary">
+    <strong>Pattern:</strong> A short-term win leads to a much bigger long-term problem.
+    <div style="margin: 15px 0; padding: 10px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+      <svg viewBox="0 0 400 160" style="width: 100%; height: auto;">
+        <rect x="20" y="20" width="80" height="30" rx="5" fill="var(--vp-c-brand-soft)" stroke="var(--vp-c-brand)"></rect>
+        <text x="60" y="40" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="10">Fix</text>
+        <line x1="100" y1="35" x2="300" y2="35" stroke="var(--vp-c-brand)" stroke-width="2"></line>
+        <text x="200" y="30" text-anchor="middle" fill="var(--vp-c-brand)" font-size="9">Short-term Win</text>
+        <path d="M 300 35 Q 350 80 200 130 Q 50 80 100 35" fill="none" stroke="var(--vp-c-danger)" stroke-width="1.5" stroke-dasharray="3"></path>
+        <text x="200" y="145" text-anchor="middle" fill="var(--vp-c-danger)" font-size="9">Unintended Consequence</text>
+      </svg>
+    </div>
+    <strong>Decision:</strong> Map secondary effects before implementing.
+  </ConceptCard>
 
-**Example**:
-- **Problem**: Team is behind schedule
-- **Quick Fix**: Add overtime (symptom relief)
-- **Side Effect**: Team burns out, quality drops
-- **Fundamental Solution**: Reduce scope, improve estimates
-
-**Intervention**: Focus on the fundamental solution; make quick fixes temporary.
-
-### Archetype 2: Limits to Growth
-
-**Pattern**: A reinforcing growth process encounters a constraint that stops or reverses growth.
-
-**Structure**:
-```
-Growing Action → Growth
-       ↑            ↓
-       └── Limit ←←─┘
-```
-
-**Example**:
-- **Growing Action**: Hiring more developers to increase output
-- **Limit**: Onboarding capacity; new hires slow down existing team
-- **Result**: Output plateaus or declines
-
-**Intervention**: Anticipate and address the limiting factor before it becomes critical.
-
-### Archetype 3: Fixes That Fail
-
-**Pattern**: A fix works initially but creates unintended consequences that make the problem worse.
-
-**Structure**:
-```
-Problem → Fix → Improvement (short-term)
-              ↓
-        Unintended Consequence
-              ↓
-        Problem Returns (worse)
-```
-
-**Example**:
-- **Problem**: Low code quality
-- **Fix**: Add mandatory code reviews
-- **Unintended Consequence**: Reviews become bottleneck; developers skip them
-- **Result**: Quality is now worse
-
-**Intervention**: Map secondary effects before implementing; test fixes at small scale.
-
-### Archetype 4: Tragedy of the Commons
-
-**Pattern**: Individuals acting in their own interest deplete a shared resource, harming everyone.
-
-**Example**:
-- Multiple teams share a test environment
-- Each team schedules long tests without coordination
-- Environment is always busy; everyone waits
-
-**Intervention**: Establish governance, coordinate access, or increase the shared resource.
-
-### Archetype 5: Success to the Successful
-
-**Pattern**: Initial success leads to more resources, which leads to more success—leaving others behind.
-
-**Example**:
-- High-performing team gets more budget and talent
-- Low-performing team loses resources
-- Gap widens; organization loses overall capacity
-
-**Intervention**: Monitor resource allocation fairness; invest in struggling teams.
+  <ConceptCard title="Archetype 4: Success to the Successful" variant="secondary">
+    <strong>Pattern:</strong> Winners get more resources, making the gap impossible to close.
+    <div style="margin: 15px 0; padding: 10px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+      <svg viewBox="0 0 400 160" style="width: 100%; height: auto;">
+        <rect x="50" y="20" width="120" height="40" rx="5" fill="var(--vp-c-brand-soft)" stroke="var(--vp-c-brand)"></rect>
+        <text x="110" y="45" text-anchor="middle" fill="var(--vp-c-text-1)" font-size="10">Team A (Wins)</text>
+        <rect x="50" y="100" width="120" height="40" rx="5" fill="var(--vp-c-bg-mute)" stroke="var(--vp-c-text-3)"></rect>
+        <text x="110" y="125" text-anchor="middle" fill="var(--vp-c-text-3)" font-size="10">Team B (Loses)</text>
+        <path d="M 170 40 L 300 80" stroke="var(--vp-c-brand)" stroke-width="3"></path>
+        <text x="340" y="85" fill="var(--vp-c-brand)" font-size="11" font-weight="bold">$$$</text>
+      </svg>
+    </div>
+    <strong>Decision:</strong> Balance resources based on long-term value, not just recent wins.
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -446,16 +419,16 @@ If the environment is described as “out of control”:
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { front: `Complicated vs. Complex?`, back: `Complicated has known cause-effect (use experts). Complex has emergent cause-effect (use experiments).` },
-  { front: `What are the 4 domains of Cynefin?`, back: `Clear, Complicated, Complex, Chaotic.` },
-  { front: `What is a Reinforcing Loop?`, back: `A feedback loop that amplifies change in one direction (vicious or virtuous cycle).` },
-  { front: `What is a Balancing Loop?`, back: `A feedback loop that self-corrects and maintains stability/equilibrium.` },
-  { front: `What is the Theory of Constraints (TOC) goal?`, back: `To identify and elevate the single bottleneck that limits system throughput.` },
-  { front: `What does the ADKAR model stand for?`, back: `Awareness, Desire, Knowledge, Ability, Reinforcement - for individual change management.` },
-  { front: `What is the Stacey Matrix?`, back: `Maps projects by Agreement (on requirements) and Certainty (on technology) to determine delivery approach.` },
-  { front: `What is Shifting the Burden archetype?`, back: `A quick fix addresses symptoms but makes the fundamental solution harder to apply over time.` },
-  { front: `What is psychological safety?`, back: `Team members feel safe to report bad news, admit mistakes, and speak up without punishment.` },
-  { front: `How do WIP limits support complexity management?`, back: `Prevent overloading, make bottlenecks visible, and force focus on completing work before starting new work.` }
+  { front: 'Complicated vs. Complex?', back: 'Complicated has known cause-effect (use experts). Complex has emergent cause-effect (use experiments).' },
+  { front: 'What are the 4 domains of Cynefin?', back: 'Clear, Complicated, Complex, Chaotic.' },
+  { front: 'What is a Reinforcing Loop?', back: 'A feedback loop that amplifies change in one direction (vicious or virtuous cycle).' },
+  { front: 'What is a Balancing Loop?', back: 'A feedback loop that self-corrects and maintains stability/equilibrium.' },
+  { front: 'What is the Theory of Constraints (TOC) goal?', back: 'To identify and elevate the single bottleneck that limits system throughput.' },
+  { front: 'What does the ADKAR model stand for?', back: 'Awareness, Desire, Knowledge, Ability, Reinforcement - for individual change management.' },
+  { front: 'What is the Stacey Matrix?', back: 'Maps projects by Agreement (on requirements) and Certainty (on technology) to determine delivery approach.' },
+  { front: 'What is Shifting the Burden archetype?', back: 'A quick fix addresses symptoms but makes the fundamental solution harder to apply over time.' },
+  { front: 'What is psychological safety?', back: 'Team members feel safe to report bad news, admit mistakes, and speak up without punishment.' },
+  { front: 'How do WIP limits support complexity management?', back: 'Prevent overloading, make bottlenecks visible, and force focus on completing work before starting new work.' }
 ]" />
 
 ::: tip  Exam Insight

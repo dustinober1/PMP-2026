@@ -56,6 +56,7 @@ The following NPM scripts are available in `package.json`:
 The site is deployed to GitHub Pages. The `deploy.yml` workflow in `.github/workflows/` handles automated deployment on push, or it can be triggered manually via `npm run deploy`.
 
 ## Recent Changes
+- **2026-01-06**: Modernized `guide/07-risk-quality/navigating-complexity.md` by replacing text-based feedback loops and system archetypes (Shifting the Burden, Limits to Growth, etc.) with responsive SVG visualizations and structured `ConceptGrid` layouts. Verified successful build.
 - **2026-01-06**: Modernized the Risk Breakdown Structure (RBS), Budget Structure Hierarchy, and Decision Tree Analysis walkthroughs in `guide/07-risk-quality/risk-management.md`. Replaced all remaining monospace text blocks with structured `ConceptGrid` components and responsive SVG visualizations. Verified successful build and rendering.
 - **2026-01-06**: Modernized `guide/06-project-planning/communications-planning.md` by replacing the ASCII Communication Model with an interactive SVG visualization in a `ConceptCard` (with high-contrast WCAG-compliant colors), converting tables for barriers and challenges into `ConceptGrid` layouts, and fixing build errors.
 - **2026-01-06**: Modernized `guide/06-project-planning/resource-planning.md` by replacing plain text sections (Resource Optimization, Virtual Teams, Make-or-Buy, FPIF Scenarios, and PTA) into interactive `ConceptCard` and `ConceptGrid` components. Verified successful build.
