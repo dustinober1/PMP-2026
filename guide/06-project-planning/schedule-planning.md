@@ -289,81 +289,73 @@ Float is the amount of time an activity can be delayed without affecting the end
 | **Bottom-Up** | Detailed task-level estimates | ±10% | Execution planning |
 | **Three-Point (PERT)** | Pessimistic/Most Likely/Optimistic | Risk-adjusted | Uncertainty is high |
 
-### PERT Three-Point Estimation
-
-When uncertainty is high, use **Three-Point Estimation** (PERT) to incorporate optimistic, pessimistic, and most likely scenarios:
-
-**PERT Formula (Beta Distribution - Weighted):**
-```
-Expected Duration (tₑ) = (O + 4M + P) / 6
-```
-
-**Triangular Distribution (Simple Average):**
-```
-Expected Duration = (O + M + P) / 3
-```
+<ConceptGrid>
+  <ConceptCard title="PERT (Beta Distribution)" subtitle="Weighted Average">
+    <strong>Expected Duration (tₑ) = (O + 4M + P) / 6</strong>
+    <p style="font-size: 0.9em; margin-top: 8px;">Gives more weight to the "Most Likely" estimate. Most common on the exam.</p>
+  </ConceptCard>
+  <ConceptCard title="Triangular Distribution" subtitle="Simple Average">
+    <strong>Expected Duration = (O + M + P) / 3</strong>
+    <p style="font-size: 0.9em; margin-top: 8px;">A simple average of all three points. Used when less data is available.</p>
+  </ConceptCard>
+</ConceptGrid>
 
 Where:
 - **O** = Optimistic (best case, ~10% probability)
 - **M** = Most Likely (most realistic estimate)
 - **P** = Pessimistic (worst case, ~10% probability)
 
-**Standard Deviation (σ):**
-```
-σ = (P − O) / 6
-```
+<ConceptGrid>
+  <ConceptCard title="Standard Deviation (σ)" subtitle="Measuring Risk">
+    <strong>σ = (P − O) / 6</strong>
+    <p style="font-size: 0.9em; margin-top: 8px;">Measures the uncertainty or risk in the estimate. A larger σ means higher risk.</p>
+  </ConceptCard>
+  <ConceptCard title="Variance" subtitle="Spread of Data">
+    <strong>Variance = σ² = [(P − O) / 6]²</strong>
+    <p style="font-size: 0.9em; margin-top: 8px;">Used for calculating total project uncertainty across multiple activities.</p>
+  </ConceptCard>
+</ConceptGrid>
 
-This measures the uncertainty/risk in the estimate.
+<ConceptCard title="PERT Calculation Walkthrough" variant="secondary">
+  <div style="padding: 10px;">
+    <strong>Activity: Database Migration</strong>
+    <ul style="margin: 10px 0;">
+      <li><strong>Optimistic (O):</strong> 5 days</li>
+      <li><strong>Most Likely (M):</strong> 8 days</li>
+      <li><strong>Pessimistic (P):</strong> 17 days</li>
+    </ul>
+    <hr style="margin: 10px 0; border: 0; border-top: 1px solid var(--vp-c-divider);" />
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div>
+        <strong>1. Expected Duration:</strong><br/>
+        tₑ = (5 + 4×8 + 17) / 6 = 54 / 6 = <strong>9 days</strong>
+      </div>
+      <div>
+        <strong>2. Standard Deviation:</strong><br/>
+        σ = (17 − 5) / 6 = 12 / 6 = <strong>2 days</strong>
+      </div>
+      <div>
+        <strong>3. Confidence Intervals:</strong><br/>
+        • 68% Confidence: 9 ± 2 (7-11 days)<br/>
+        • 95% Confidence: 9 ± 4 (5-13 days)<br/>
+        • 99.7% Confidence: 9 ± 6 (3-15 days)
+      </div>
+    </div>
+  </div>
+</ConceptCard>
 
-<strong>Variance:</strong>
-```
-Variance = σ² = [(P − O) / 6]²
-```
+<ConceptCard title="Aggregating Project Uncertainty" variant="warning">
+  <p>When calculating uncertainty for the entire critical path, <strong>Standard Deviations cannot be summed directly</strong>. You must sum the variances and then take the square root.</p>
+  <div style="background: var(--vp-c-bg-soft); padding: 15px; border-radius: 8px; margin-top: 10px; font-family: monospace;">
+    σ_project = √(σ₁² + σ₂² + σ₃² + ... + σₙ²)
+  </div>
+  <div style="margin-top: 15px;">
+    <strong>Example:</strong> Critical path has 4 activities with σ = 1, 2, 1.5, 2.5 days.<br/>
+    σ_project = √(1² + 2² + 1.5² + 2.5²) = √(1 + 4 + 2.25 + 6.25) = <strong>3.67 days</strong>
+  </div>
+</ConceptCard>
 
-### PERT Worked Example
-
-**Activity: Database Migration**
-- Optimistic: 5 days (everything goes perfectly)
-- Most Likely: 8 days (realistic estimate)
-- Pessimistic: 17 days (major compatibility issues discovered)
-
-<strong>Calculate Expected Duration:</strong>
-```
-tₑ = (5 + 4×8 + 17) / 6
-tₑ = (5 + 32 + 17) / 6
-tₑ = 54 / 6 = 9 days
-```
-
-<strong>Calculate Standard Deviation:</strong>
-```
-σ = (17 − 5) / 6 = 12 / 6 = 2 days
-```
-
-<strong>Interpretation:</strong>
-- Use **9 days** for schedule planning
-- There's approximately **68% confidence** the task will finish between 7-11 days (±1σ)
-- There's approximately **95% confidence** it will finish between 5-13 days (±2σ)
-- There's approximately **99.7% confidence** it will finish between 3-15 days (±3σ)
-
-### Project Duration Uncertainty (Multiple Activities)
-
-When calculating uncertainty for the entire critical path:
-
-<strong>Project Standard Deviation:</strong>
-```
-σ_project = √(σ₁² + σ₂² + σ₃² + ... + σₙ²)
-```
-
-<strong>Example:</strong> Critical path has 4 activities with σ = 1, 2, 1.5, 2.5 days
-
-```
-σ_project = √(1² + 2² + 1.5² + 2.5²)
-          = √(1 + 4 + 2.25 + 6.25)
-          = √13.5
-          = 3.67 days
-```
-
-::: tip  Exam Tip
+::: tip Exam Tip
 The PMP exam typically uses **PERT (weighted)** unless explicitly stated otherwise. If you see "(O + 4M + P) / 6," it's PERT. If you see "(O + M + P) / 3," it's Triangular.
 :::
 
@@ -429,20 +421,29 @@ In agile, time is often fixed and scope flexes:
 | **Velocity-Based** | Historical data forecasts future throughput |
 | **Release Planning** | Multiple sprints combine into releases |
 
-### Velocity and Forecasting
+<ConceptGrid>
+  <ConceptCard title="Velocity" subtitle="Agile Throughput">
+    The average number of <strong>Story Points</strong> a team completes per sprint.
+    <div style="margin-top: 10px; padding: 10px; background: var(--vp-c-bg-soft); border-radius: 4px; text-align: center;">
+      <strong>Historical Average</strong>
+    </div>
+  </ConceptCard>
+  <ConceptCard title="Release Forecasting" subtitle="Predicting Completion">
+    Calculating how many sprints are needed to finish the backlog.
+    <div style="margin-top: 10px; padding: 10px; background: var(--vp-c-bg-soft); border-radius: 4px; text-align: center;">
+      <strong>Sprints Required = Backlog Points / Velocity</strong>
+    </div>
+  </ConceptCard>
+</ConceptGrid>
 
-**Velocity** = Story points completed per sprint
-
-<strong>Forecasting Releases:</strong>
-```
-Sprints Required = Backlog Story Points / Average Velocity
-```
-
-<strong>Example:</strong>
-- Backlog: 120 story points
-- Average Velocity: 20 points/sprint
-- Sprints Needed: 120 / 20 = 6 sprints
-- With 2-week sprints: 12 weeks to complete backlog
+<ConceptCard title="Forecasting Example" variant="secondary">
+  <div style="display: flex; flex-direction: column; gap: 8px;">
+    <div>• <strong>Backlog:</strong> 120 story points</div>
+    <div>• <strong>Average Velocity:</strong> 20 points/sprint</div>
+    <div>• <strong>Sprints Needed:</strong> 120 / 20 = <strong>6 sprints</strong></div>
+    <div>• <strong>Timeline (2-week sprints):</strong> 12 weeks total</div>
+  </div>
+</ConceptCard>
 
 ::: warning  Velocity Guidelines
 - Use velocity for planning, not for judging individuals/teams
@@ -477,21 +478,24 @@ When you are behind, you have two primary levers:
 
 ### Crashing Decision Process
 
-1. Identify critical path activities
-2. Calculate cost slope for each: (Crash Cost - Normal Cost) / (Normal Duration - Crash Duration)
-3. Crash activity with lowest cost slope first
-4. Recalculate critical path after each crash
-5. Stop when target date achieved or no more crashing possible
+<ConceptCard title="Crashing Step-by-Step" variant="secondary">
+  <ol>
+    <li>Identify <strong>Critical Path</strong> activities.</li>
+    <li>Calculate <strong>Cost Slope</strong> for each: (Crash Cost - Normal Cost) / (Normal Duration - Crash Duration).</li>
+    <li>Crash the activity with the <strong>lowest cost slope</strong> first.</li>
+    <li>Recalculate the critical path (it may shift!).</li>
+    <li>Repeat until target date is met or budget is exhausted.</li>
+  </ol>
+</ConceptCard>
 
-<strong>Example Cost Slope Calculation:</strong>
-
-| Activity | Normal | Crash | Cost Slope |
-|:---------|:-------|:------|:-----------|
-| A | 10d, $5k | 7d, $8k | ($8k-$5k)/(10d-7d) = $1k/day |
-| B | 8d, $4k | 6d, $7k | ($7k-$4k)/(8d-6d) = $1.5k/day |
-| C | 12d, $6k | 10d, $9k | ($9k-$6k)/(12d-10d) = $1.5k/day |
-
-**Decision**: Crash activity A first (lowest cost slope of $1k/day)
+<ConceptCard title="Example: Cost Slope Calculation">
+  | Activity | Normal | Crash | Cost Slope |
+  |:---------|:-------|:------|:-----------|
+  | Activity A | 10d, $5k | 7d, $8k | <strong>$1k/day</strong> |
+  | Activity B | 8d, $4k | 6d, $7k | $1.5k/day |
+  | Activity C | 12d, $6k | 10d, $9k | $1.5k/day |
+  <p style="margin-top: 10px; font-style: italic;"><strong>Decision:</strong> Crash <strong>Activity A</strong> first because it has the lowest cost impact per day saved.</p>
+</ConceptCard>
 
 ### Fast Tracking Considerations
 
@@ -602,27 +606,28 @@ For complex projects, use simulation to:
 
 ---
 
-##  Schedule Planning Scenarios (Exam Practice)
-
-### Scenario 1: No Extra Budget
-**Situation**: Project is 3 weeks behind schedule. No additional budget available.
-**Answer**: **Fast Track** - overlap activities to compress schedule without adding cost (accept rework risk).
-
-### Scenario 2: Firm End Date with Budget
-**Situation**: Critical deadline is firm. Budget is available. PM needs to recover time.
-**Answer**: **Crash** - add resources to critical path activities.
-
-### Scenario 3: Resource Overallocation
-**Situation**: Developer is scheduled for 60 hours/week in March. Cannot hire additional resources.
-**Answer**: **Resource Leveling** - delay some activities using float. If end date is fixed, use **Resource Smoothing** instead.
-
-### Scenario 4: Identifying Most Risky Activity
-**Situation**: Which activity poses the greatest schedule risk?
-**Answer**: Activities on the **critical path** with **high duration uncertainty** (largest standard deviation).
-
-### Scenario 5: Interpreting Float
-**Situation**: Activity X has 5 days of total float. What does this mean?
-**Answer**: Activity X can be delayed up to 5 days without impacting the project end date. It is **not** on the critical path.
+<ConceptGrid>
+  <ConceptCard title="Scenario 1: No Extra Budget" variant="warning">
+    <strong>Situation:</strong> Project is 3 weeks behind. No extra budget is available.<br/>
+    <strong>Answer:</strong> <strong>Fast Track</strong>. Overlap activities on the critical path. Accept the risk of rework.
+  </ConceptCard>
+  <ConceptCard title="Scenario 2: Firm Date + Budget" variant="secondary">
+    <strong>Situation:</strong> Hard deadline. Budget is available. Must recover time.<br/>
+    <strong>Answer:</strong> <strong>Crash</strong>. Add resources to critical path activities with the lowest cost slope.
+  </ConceptCard>
+  <ConceptCard title="Scenario 3: Resource Overallocation">
+    <strong>Situation:</strong> Key dev is scheduled 60hrs/week. No new hires allowed.<br/>
+    <strong>Answer:</strong> <strong>Resource Leveling</strong>. Delay non-critical tasks using float. Date may slip.
+  </ConceptCard>
+  <ConceptCard title="Scenario 4: High Schedule Risk">
+    <strong>Situation:</strong> Which activity poses the greatest risk to the timeline?<br/>
+    <strong>Answer:</strong> Any activity on the <strong>Critical Path</strong> with high duration uncertainty.
+  </ConceptCard>
+  <ConceptCard title="Scenario 5: Interpreting Float">
+    <strong>Situation:</strong> Task X has 5 days of Total Float. What does this mean?<br/>
+    <strong>Answer:</strong> It can slip 5 days without delaying the project. It is <strong>not</strong> on the critical path.
+  </ConceptCard>
+</ConceptGrid>
 
 ::: info  2026 Focus: AI in Estimation
 In 2026, PMs use **AI-Augmented Estimation** to analyze historical performance and identify "True" task durations. However, the PM must still facilitate **Bottom-Up Estimation** with the team to ensure buy-in and accuracy.
