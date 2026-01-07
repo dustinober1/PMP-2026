@@ -897,17 +897,30 @@ If a scenario describes recurring quality issues during execution, look for answ
 4. **Implement changes**: Make improvements immediately
 5. **Measure impact**: Track metrics before/after, standardize if successful
 
-**Example: Reducing Code Review Cycle Time**
-```
-Current State: Code reviews take 2-3 days on average
-Root Cause: Reviewers not notified promptly; unclear review checklist
-Improvements Implemented:
-- Automated Slack notifications when PR is ready
-- Created review checklist template
-- Set expectation: reviews within 24 hours
-
-Result: Average review time reduced to 8 hours (73% improvement)
-```
+<ConceptCard title="Example: Reducing Code Review Cycle Time">
+  <div style="display: flex; flex-direction: column; gap: 1rem; padding: 0.5rem;">
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+      <div style="flex: 1; min-width: 200px; background: linear-gradient(135deg, #ef4444, #dc2626); color: white; padding: 1rem; border-radius: 10px;">
+        <div style="font-size: 0.8rem; opacity: 0.9;">CURRENT STATE</div>
+        <div style="font-weight: 700;">Code reviews take 2-3 days</div>
+        <div style="font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.9;">Root Cause: No notifications, unclear checklist</div>
+      </div>
+      <div style="flex: 1; min-width: 200px; background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 1rem; border-radius: 10px;">
+        <div style="font-size: 0.8rem; opacity: 0.9;">RESULT</div>
+        <div style="font-weight: 700;">Average time: 8 hours</div>
+        <div style="font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.9;">73% improvement</div>
+      </div>
+    </div>
+    <div style="background: var(--vp-c-bg-soft); padding: 1rem; border-radius: 8px;">
+      <div style="font-weight: 600; margin-bottom: 0.5rem;">Improvements Implemented:</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem;">
+        <li>Automated Slack notifications when PR is ready</li>
+        <li>Created review checklist template</li>
+        <li>Set expectation: reviews within 24 hours</li>
+      </ul>
+    </div>
+  </div>
+</ConceptCard>
 
 ### 2. Retrospectives (Agile Inspect-and-Adapt)
 
@@ -1042,19 +1055,37 @@ When value delivery falls short, identify and address root causes—not just sym
 | **Pareto Analysis** | Prioritizing among many causes | Identify the 20% of causes driving 80% of issues (80/20 rule) |
 | **Fault Tree Analysis** | Safety/compliance critical issues | Work backward from failure to identify all contributing factors |
 
-**5 Whys Example: Customer Adoption Lower Than Expected**
-```
-Problem: Only 40% of target users adopted new system (target was 80%)
-
-Why? → Users find the system difficult to use
-Why? → Training was inadequate for their needs
-Why? → Training content didn't match actual user workflows
-Why? → Training was developed without user input
-Why? → Project timeline didn't allocate time for user validation
-
-Root Cause: Insufficient user involvement in training design
-Action: Involve users in training development for future releases
-```
+<ConceptCard title="5 Whys Example: Customer Adoption Lower Than Expected">
+  <div style="display: flex; flex-direction: column; gap: 0.5rem; padding: 0.5rem;">
+    <div style="background: linear-gradient(135deg, #ef4444, #dc2626); color: white; padding: 0.75rem 1rem; border-radius: 8px;">
+      <strong>Problem:</strong> Only 40% of target users adopted new system (target was 80%)
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--vp-c-bg-soft); border-radius: 6px;">
+      <span style="background: #3b82f6; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600;">Why 1</span>
+      <span>Users find the system difficult to use</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--vp-c-bg-soft); border-radius: 6px;">
+      <span style="background: #8b5cf6; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600;">Why 2</span>
+      <span>Training was inadequate for their needs</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--vp-c-bg-soft); border-radius: 6px;">
+      <span style="background: #f59e0b; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600;">Why 3</span>
+      <span>Training content did not match actual user workflows</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--vp-c-bg-soft); border-radius: 6px;">
+      <span style="background: #ec4899; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600;">Why 4</span>
+      <span>Training was developed without user input</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--vp-c-bg-soft); border-radius: 6px;">
+      <span style="background: #10b981; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600;">Why 5</span>
+      <span>Project timeline did not allocate time for user validation</span>
+    </div>
+    <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 0.75rem 1rem; border-radius: 8px; margin-top: 0.5rem;">
+      <div><strong>Root Cause:</strong> Insufficient user involvement in training design</div>
+      <div style="margin-top: 0.25rem;"><strong>Action:</strong> Involve users in training development for future releases</div>
+    </div>
+  </div>
+</ConceptCard>
 
 ---
 
@@ -1090,18 +1121,33 @@ Different project approaches deliver value in fundamentally different ways.
 - **Feature flags**: Deploy features but enable selectively
 - **Canary releases**: Test with small user subset before full rollout
 
-<strong>Example Scenario:</strong>
-```
-Predictive Approach: Build entire e-commerce platform over 12 months,
-                     launch everything at once, measure success at month 13.
-                     Risk: If users don't adopt, 12 months wasted.
-
-Adaptive Approach:  Month 1-2: MVP with product catalog and checkout
-                    Month 3: Add user accounts and order history
-                    Month 4: Add product recommendations
-                    Each release: Measure adoption, gather feedback, adjust priorities.
-                    Risk: Mitigated through continuous validation.
-```
+<ConceptCard title="Predictive vs Adaptive: E-commerce Platform">
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; padding: 0.5rem;">
+    <div style="flex: 1; min-width: 280px; background: linear-gradient(135deg, #ef4444, #dc2626); color: white; padding: 1rem; border-radius: 10px;">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.75rem;">Predictive Approach</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem;">
+        <li>Build entire platform over 12 months</li>
+        <li>Launch everything at once</li>
+        <li>Measure success at month 13</li>
+      </ul>
+      <div style="margin-top: 0.75rem; padding-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.3); font-size: 0.85rem;">
+        <strong>Risk:</strong> If users do not adopt, 12 months wasted
+      </div>
+    </div>
+    <div style="flex: 1; min-width: 280px; background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 1rem; border-radius: 10px;">
+      <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.75rem;">Adaptive Approach</div>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem;">
+        <li>Month 1-2: MVP (catalog + checkout)</li>
+        <li>Month 3: User accounts + order history</li>
+        <li>Month 4: Product recommendations</li>
+        <li>Each release: Measure, gather feedback, adjust</li>
+      </ul>
+      <div style="margin-top: 0.75rem; padding-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.3); font-size: 0.85rem;">
+        <strong>Risk:</strong> Mitigated through continuous validation
+      </div>
+    </div>
+  </div>
+</ConceptCard>
 
 ### Predictive Value Delivery Considerations
 
@@ -1179,23 +1225,30 @@ Benefits may appear after the project is "done." Strong answers ensure:
 | Annual cost savings | $500K | $150K | At risk |
 | User adoption | 90% | 65% | At risk |
 
-**Root Cause Analysis (5 Whys):**
-```
-Why are cost savings below target?
-→ Processing time reduction is only 15%, not 50%
-
-Why is processing time reduction low?
-→ Only 65% of users have adopted the new system
-
-Why is adoption low?
-→ Users find the new system slower than manual process for certain tasks
-
-Why is the system slower?
-→ System not optimized for high-frequency use cases
-
-Why wasn't this identified earlier?
-→ No pilot with real user workflows before full rollout
-```
+<ConceptCard title="Root Cause Analysis (5 Whys)">
+  <div style="display: flex; flex-direction: column; gap: 0.5rem; padding: 0.5rem;">
+    <div style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--vp-c-bg-soft); border-radius: 6px;">
+      <span style="background: #3b82f6; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600;">Why 1</span>
+      <div><strong>Why are cost savings below target?</strong><br/><span style="font-size: 0.9rem;">→ Processing time reduction is only 15%, not 50%</span></div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--vp-c-bg-soft); border-radius: 6px;">
+      <span style="background: #8b5cf6; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600;">Why 2</span>
+      <div><strong>Why is processing time reduction low?</strong><br/><span style="font-size: 0.9rem;">→ Only 65% of users have adopted the new system</span></div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--vp-c-bg-soft); border-radius: 6px;">
+      <span style="background: #f59e0b; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600;">Why 3</span>
+      <div><strong>Why is adoption low?</strong><br/><span style="font-size: 0.9rem;">→ Users find the new system slower than manual process</span></div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--vp-c-bg-soft); border-radius: 6px;">
+      <span style="background: #ec4899; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600;">Why 4</span>
+      <div><strong>Why is the system slower?</strong><br/><span style="font-size: 0.9rem;">→ System not optimized for high-frequency use cases</span></div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--vp-c-bg-soft); border-radius: 6px;">
+      <span style="background: #10b981; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600;">Why 5</span>
+      <div><strong>Why was this not identified earlier?</strong><br/><span style="font-size: 0.9rem;">→ No pilot with real user workflows before full rollout</span></div>
+    </div>
+  </div>
+</ConceptCard>
 
 <strong>PMP Corrective Actions:</strong>
 1. **Immediate**: Conduct system performance optimization for high-frequency workflows
