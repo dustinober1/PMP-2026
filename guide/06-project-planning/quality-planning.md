@@ -99,23 +99,26 @@ The **Cost of Quality** represents the total cost of conformance and non-conform
 
 ### Cost of Quality Relationship
 
-```
-            Cost
-              │
-              │    \   Total CoQ
-              │     \    /\
-              │      \  /  \
-              │       \/    \
-              │       /\     \_______
-              │      /  \
-              │     /    \
-              │    /      Prevention +
-              │   /       Appraisal Costs
-              │  /
-              │ /  Failure Costs
-              │/___________________ Quality Level
-           Low                    High
-```
+<ConceptCard title="Cost of Quality Trade-off" variant="secondary">
+  <div style="padding: 20px; background: var(--vp-c-bg-soft); border-radius: 8px; text-align: center;">
+    <div style="height: 250px; width: 100%; position: relative;">
+      <svg viewBox="0 0 400 250" style="width: 100%; height: 100%; overflow: visible;" preserveAspectRatio="none">
+        <line x1="40" y1="210" x2="380" y2="210" stroke="var(--vp-c-text-1)" stroke-width="2" />
+        <line x1="40" y1="210" x2="40" y2="20" stroke="var(--vp-c-text-1)" stroke-width="2" />
+        <text x="50" y="20" fill="var(--vp-c-text-1)" font-size="12">Cost</text>
+        <text x="340" y="225" fill="var(--vp-c-text-1)" font-size="12">Quality Level</text>
+        <path d="M 40 20 Q 150 180, 380 200" fill="none" stroke="var(--vp-c-danger)" stroke-width="3" />
+        <text x="60" y="60" fill="var(--vp-c-danger)" font-size="12">Failure Costs</text>
+        <path d="M 40 200 Q 250 180, 380 20" fill="none" stroke="var(--vp-c-brand)" stroke-width="3" />
+        <text x="260" y="50" fill="var(--vp-c-brand)" font-size="12">Prevention + Appraisal</text>
+        <path d="M 40 120 Q 180 250, 380 120" fill="none" stroke="var(--vp-c-warning)" stroke-width="4" stroke-dasharray="5,5" />
+        <text x="180" y="50" fill="var(--vp-c-warning)" font-size="12" font-weight="bold">Total CoQ</text>
+        <line x1="210" y1="180" x2="210" y2="210" stroke="var(--vp-c-text-2)" stroke-dasharray="2,2" />
+        <text x="200" y="225" fill="var(--vp-c-text-2)" font-size="10">Optimal Quality</text>
+      </svg>
+    </div>
+  </div>
+</ConceptCard>
 
 **Key Insight**: Investing in prevention and appraisal reduces total CoQ by preventing expensive failures.
 
@@ -138,20 +141,29 @@ The exam expects you to know when to use each quality tool:
 - **Mother Nature** (Environment)
 
 **Example**:
-```
-                    ┌──────────────────┐
-    Man ──────────┬─┤                  │
-                  │ │   SOFTWARE       │
-    Machine ──────┼─┤   DEFECTS        │
-                  │ │                  │
-    Method ───────┼─┤   (Problem)      │
-                  │ │                  │
-    Material ─────┼─┤                  │
-                  │ └──────────────────┘
-    Measurement ──┤
-                  │
-    Environment ──┘
-```
+<ConceptCard title="Fishbone (Ishikawa) Diagram" variant="secondary">
+  <div style="padding: 10px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+    <svg viewBox="0 0 500 250" style="width: 100%; height: auto;">
+      <line x1="50" y1="125" x2="400" y2="125" stroke="var(--vp-c-text-1)" stroke-width="4" />
+      <polygon points="400,115 400,135 440,125" fill="var(--vp-c-text-1)" />
+      <rect x="420" y="95" width="80" height="60" rx="5" fill="var(--vp-c-warning-dimm)" stroke="var(--vp-c-warning)" stroke-width="2" />
+      <text x="460" y="120" fill="var(--vp-c-text-1)" font-size="12" font-weight="bold" text-anchor="middle">DEFECTS</text>
+      <text x="460" y="135" fill="var(--vp-c-text-2)" font-size="10" text-anchor="middle">(Problem)</text>
+      <line x1="100" y1="50" x2="150" y2="125" stroke="var(--vp-c-brand)" stroke-width="2" />
+      <text x="100" y="40" fill="var(--vp-c-text-1)" font-size="12" font-weight="bold" text-anchor="middle">People</text>
+      <line x1="200" y1="50" x2="250" y2="125" stroke="var(--vp-c-brand)" stroke-width="2" />
+      <text x="200" y="40" fill="var(--vp-c-text-1)" font-size="12" font-weight="bold" text-anchor="middle">Machine</text>
+      <line x1="300" y1="50" x2="350" y2="125" stroke="var(--vp-c-brand)" stroke-width="2" />
+      <text x="300" y="40" fill="var(--vp-c-text-1)" font-size="12" font-weight="bold" text-anchor="middle">Method</text>
+      <line x1="100" y1="200" x2="150" y2="125" stroke="var(--vp-c-brand)" stroke-width="2" />
+      <text x="100" y="215" fill="var(--vp-c-text-1)" font-size="12" font-weight="bold" text-anchor="middle">Material</text>
+      <line x1="200" y1="200" x2="250" y2="125" stroke="var(--vp-c-brand)" stroke-width="2" />
+      <text x="200" y="215" fill="var(--vp-c-text-1)" font-size="12" font-weight="bold" text-anchor="middle">Measure</text>
+      <line x1="300" y1="200" x2="350" y2="125" stroke="var(--vp-c-brand)" stroke-width="2" />
+      <text x="300" y="215" fill="var(--vp-c-text-1)" font-size="12" font-weight="bold" text-anchor="middle">Environment</text>
+    </svg>
+  </div>
+</ConceptCard>
 
 **When to Use**: Brainstorming root causes, quality improvement teams
 
@@ -193,18 +205,47 @@ The exam expects you to know when to use each quality tool:
 **Principle**: 80% of problems come from 20% of causes
 
 **Example**:
-```
-Defect Count
-│
-│ ████████████ (45%)
-│ ████████     (75% cumulative)
-│ ████         (88%)
-│ ██           (95%)
-│ █            (100%)
-│___________________________
-  Missing  Format  Logic  Other
-   Data    Error   Error
-```
+<ConceptCard title="Pareto Chart Example" variant="secondary">
+  <div style="padding: 15px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+    <div style="display: flex; align-items: flex-end; justify-content: space-around; height: 180px; padding-bottom: 20px; border-bottom: 2px solid var(--vp-c-divider); position: relative;">
+      <div style="position: absolute; left: -10px; top: 50%; transform: rotate(-90deg) translateX(-50%); font-size: 0.8em; color: var(--vp-c-text-2);">Defect Count</div>
+      <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
+        <div style="background: var(--vp-c-brand); width: 100%; height: 120px; border-radius: 4px 4px 0 0; position: relative;">
+          <div style="position: absolute; top: -20px; width: 100%; text-align: center; font-weight: bold;">45%</div>
+        </div>
+        <div style="margin-top: 5px; font-size: 0.8em; text-align: center;">Missing<br/>Data</div>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
+        <div style="background: var(--vp-c-brand-dimm); width: 100%; height: 80px; border-radius: 4px 4px 0 0; position: relative;">
+           <div style="position: absolute; top: -20px; width: 100%; text-align: center; font-size: 0.9em;">30%</div>
+        </div>
+        <div style="margin-top: 5px; font-size: 0.8em; text-align: center;">Format<br/>Error</div>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
+        <div style="background: var(--vp-c-brand-light); width: 100%; height: 35px; border-radius: 4px 4px 0 0; position: relative;">
+          <div style="position: absolute; top: -20px; width: 100%; text-align: center; font-size: 0.9em;">13%</div>
+        </div>
+        <div style="margin-top: 5px; font-size: 0.8em; text-align: center;">Logic<br/>Error</div>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
+        <div style="background: var(--vp-c-text-3); width: 100%; height: 15px; border-radius: 4px 4px 0 0; position: relative;">
+          <div style="position: absolute; top: -20px; width: 100%; text-align: center; font-size: 0.9em;">12%</div>
+        </div>
+        <div style="margin-top: 5px; font-size: 0.8em; text-align: center;">Other</div>
+      </div>
+      <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none;">
+        <polyline points="50,60 150,30 250,15 350,10" fill="none" stroke="var(--vp-c-warning)" stroke-width="3" />
+        <circle cx="50" cy="60" r="4" fill="var(--vp-c-warning)" />
+        <circle cx="150" cy="30" r="4" fill="var(--vp-c-warning)" />
+        <circle cx="250" cy="15" r="4" fill="var(--vp-c-warning)" />
+        <circle cx="350" cy="10" r="4" fill="var(--vp-c-warning)" />
+      </svg>
+    </div>
+    <div style="margin-top: 10px; font-size: 0.8em; text-align: center; color: var(--vp-c-text-2);">
+      Bars = Frequency (Left Axis) | Line = Cumulative % (Right Axis)
+    </div>
+  </div>
+</ConceptCard>
 
 **When to Use**: Focusing improvement efforts on highest-impact issues
 
@@ -215,17 +256,26 @@ Defect Count
 **Purpose**: Show frequency distribution of data
 
 **Example**: Distribution of defects per module
-```
-Frequency
-│
-│      ████
-│    ████████
-│  ████████████
-│████████████████
-│________________________
-  0-2   3-5   6-8   9+
-    Defects per Module
-```
+<ConceptCard title="Histogram" variant="secondary">
+  <div style="padding: 15px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+    <div style="display: flex; align-items: flex-end; justify-content: space-evenly; height: 150px; padding-bottom: 20px; border-bottom: 2px solid var(--vp-c-divider);">
+      <div style="width: 15%; height: 20%; background: var(--vp-c-brand); border-radius: 3px 3px 0 0; position: relative;">
+        <span style="position: absolute; bottom: -25px; width: 100%; text-align: center; font-size: 0.8em;">0-2</span>
+      </div>
+      <div style="width: 15%; height: 50%; background: var(--vp-c-brand); border-radius: 3px 3px 0 0; position: relative;">
+        <span style="position: absolute; bottom: -25px; width: 100%; text-align: center; font-size: 0.8em;">3-5</span>
+      </div>
+      <div style="width: 15%; height: 80%; background: var(--vp-c-brand); border-radius: 3px 3px 0 0; position: relative;">
+        <span style="position: absolute; bottom: -25px; width: 100%; text-align: center; font-size: 0.8em;">6-8</span>
+      </div>
+      <div style="width: 15%; height: 30%; background: var(--vp-c-brand); border-radius: 3px 3px 0 0; position: relative;">
+        <span style="position: absolute; bottom: -25px; width: 100%; text-align: center; font-size: 0.8em;">9+</span>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 5px; font-weight: bold; font-size: 0.9em;">Defects per Module</div>
+    <div style="text-align: center; font-size: 0.8em; color: var(--vp-c-text-2);">Shows distribution and central tendency</div>
+  </div>
+</ConceptCard>
 
 **When to Use**: Understanding data distribution, identifying patterns
 
@@ -242,18 +292,33 @@ Frequency
 - Data points over time
 
 **Example**:
-```
-Value
-│ - - - - - - - - - - UCL
-│        ×     ×
-│    ×      ×     ×
-│ ─────────────────── CL (Mean)
-│  ×    ×       ×
-│         ×
-│ - - - - - - - - - - LCL
-│________________________
-  Time →
-```
+<ConceptCard title="Control Chart Example" variant="secondary">
+  <div style="padding: 15px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+    <svg viewBox="0 0 400 200" style="width: 100%; height: auto;">
+      <line x1="40" y1="40" x2="380" y2="40" stroke="var(--vp-c-danger)" stroke-dasharray="4" stroke-width="2" />
+      <text x="5" y="45" fill="var(--vp-c-danger)" font-size="10" font-weight="bold">UCL</text>
+      <line x1="40" y1="100" x2="380" y2="100" stroke="var(--vp-c-text-1)" stroke-width="1" />
+      <text x="5" y="105" fill="var(--vp-c-text-1)" font-size="10" font-weight="bold">Mean</text>
+      <line x1="40" y1="160" x2="380" y2="160" stroke="var(--vp-c-danger)" stroke-dasharray="4" stroke-width="2" />
+      <text x="5" y="165" fill="var(--vp-c-danger)" font-size="10" font-weight="bold">LCL</text>
+      <polyline points="50,90 90,110 130,80 170,105 210,95 250,50 290,120 330,150 370,110" fill="none" stroke="var(--vp-c-brand)" stroke-width="2" />
+      <g fill="var(--vp-c-brand)">
+        <circle cx="50" cy="90" r="3" />
+        <circle cx="90" cy="110" r="3" />
+        <circle cx="130" cy="80" r="3" />
+        <circle cx="170" cy="105" r="3" />
+        <circle cx="210" cy="95" r="3" />
+        <circle cx="250" cy="50" r="3" />
+        <circle cx="290" cy="120" r="3" />
+        <circle cx="330" cy="150" r="3" />
+        <circle cx="370" cy="110" r="3" />
+      </g>
+    </svg>
+    <div style="text-align: center; font-size: 0.85em; margin-top: 5px;">
+      Points within dotted red lines = <strong>In Control</strong>
+    </div>
+  </div>
+</ConceptCard>
 
 **Interpretation**:
 - Points within limits = In control (common cause variation)
@@ -274,16 +339,33 @@ Value
 - **No correlation**: No relationship
 
 **Example**:
-```
-Defects
-│ ×
-│    × ×
-│       × ×
-│          × ×
-│              × ×
-│___________________
-   Lines of Code →
-```
+<ConceptCard title="Scatter Diagram" variant="secondary">
+  <div style="padding: 15px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+    <svg viewBox="0 0 300 200" style="width: 100%; height: auto;">
+      <line x1="40" y1="180" x2="280" y2="180" stroke="var(--vp-c-text-1)" stroke-width="2" />
+      <line x1="40" y1="180" x2="40" y2="20" stroke="var(--vp-c-text-1)" stroke-width="2" />
+      <text x="10" y="100" fill="var(--vp-c-text-1)" font-size="10" transform="rotate(-90 10,100)">Defects</text>
+      <text x="130" y="195" fill="var(--vp-c-text-1)" font-size="10">Complexity (LOC)</text>
+      <g fill="var(--vp-c-brand)" opacity="0.8">
+        <circle cx="50" cy="170" r="3" />
+        <circle cx="60" cy="160" r="3" />
+        <circle cx="80" cy="155" r="3" />
+        <circle cx="90" cy="140" r="3" />
+        <circle cx="110" cy="130" r="3" />
+        <circle cx="130" cy="125" r="3" />
+        <circle cx="150" cy="110" r="3" />
+        <circle cx="170" cy="90" r="3" />
+        <circle cx="200" cy="80" r="3" />
+        <circle cx="220" cy="65" r="3" />
+        <circle cx="250" cy="50" r="3" />
+      </g>
+      <line x1="50" y1="170" x2="250" y2="50" stroke="var(--vp-c-warning)" stroke-width="2" stroke-dasharray="4" />
+    </svg>
+    <div style="text-align: center; font-size: 0.85em; margin-top: 5px;">
+      Shows <strong>Positive Correlation</strong>: As complexity increases, defects increase.
+    </div>
+  </div>
+</ConceptCard>
 
 **When to Use**: Understanding relationships between variables
 
@@ -335,13 +417,13 @@ Quality metrics must be **specific**, **measurable**, and tied to requirements:
 
 | Metric | Definition | Target Example |
 |:-------|:-----------|:---------------|
-| **Defect Density** | Defects per 1000 LOC | < 0.5 |
-| **Test Coverage** | % of code tested | > 80% |
-| **Mean Time Between Failures (MTBF)** | Average time between failures | > 720 hours |
-| **Customer Satisfaction Score** | Survey rating | > 4.5/5.0 |
-| **First Pass Yield** | % passing first inspection | > 95% |
-| **Cycle Time** | Time to complete process | < 2 hours |
-| **On-Time Delivery** | % delivered on schedule | > 98% |
+| **Defect Density** | Defects per 1000 LOC | &lt; 0.5 |
+| **Test Coverage** | % of code tested | &gt; 80% |
+| **Mean Time Between Failures (MTBF)** | Average time between failures | &gt; 720 hours |
+| **Customer Satisfaction Score** | Survey rating | &gt; 4.5/5.0 |
+| **First Pass Yield** | % passing first inspection | &gt; 95% |
+| **Cycle Time** | Time to complete process | &lt; 2 hours |
+| **On-Time Delivery** | % delivered on schedule | &gt; 98% |
 
 ---
 
@@ -464,16 +546,16 @@ A comprehensive Quality Management Plan includes:
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { front: `QA vs. QC?`, back: `QA (Manage Quality) is process-focused (preventing defects). QC (Control Quality) is product-focused (finding defects).` },
-  { front: `What is the Rule of Seven in a Control Chart?`, back: `Seven consecutive points on one side of the mean indicates the process is \\'out of control\\' and needs investigation.` },
-  { front: `What is a Pareto Chart used for?`, back: `To prioritize problems by frequency or impact, based on the 80/20 rule (80% of problems come from 20% of causes).` },
-  { front: `Quality vs. Grade?`, back: `High Quality = meets requirements (defects are low). High Grade = extra features. Low grade is okay, low quality is NOT.` },
-  { front: `What is the goal of a Fishbone Diagram?`, back: `To identify the root cause of a specific problem or defect.` },
-  { front: `What are the four categories of Cost of Quality?`, back: `Prevention costs, Appraisal costs, Internal failure costs, and External failure costs.` },
-  { front: `What is a Control Chart used to monitor?`, back: `Process stability over time - it shows whether variation is within normal limits (common cause) or abnormal (special cause).` },
-  { front: `What is a Histogram used for?`, back: `To show the frequency distribution of data and identify patterns like normal distribution or skewness.` },
-  { front: `Prevention vs. Appraisal costs?`, back: `Prevention = training, design reviews (before defects). Appraisal = testing, inspections (finding defects).` },
-  { front: `What is the key quality principle for PMP?`, back: `Prevention over Inspection - build quality in from the start, as prevention costs less than finding/fixing defects later.` }
+  { front: 'QA vs. QC?', back: 'QA (Manage Quality) is process-focused (preventing defects). QC (Control Quality) is product-focused (finding defects).' },
+  { front: 'What is the Rule of Seven in a Control Chart?', back: 'Seven consecutive points on one side of the mean indicates the process is \'out of control\' and needs investigation.' },
+  { front: 'What is a Pareto Chart used for?', back: 'To prioritize problems by frequency or impact, based on the 80/20 rule (80% of problems come from 20% of causes).' },
+  { front: 'Quality vs. Grade?', back: 'High Quality = meets requirements (defects are low). High Grade = extra features. Low grade is okay, low quality is NOT.' },
+  { front: 'What is the goal of a Fishbone Diagram?', back: 'To identify the root cause of a specific problem or defect.' },
+  { front: 'What are the four categories of Cost of Quality?', back: 'Prevention costs, Appraisal costs, Internal failure costs, and External failure costs.' },
+  { front: 'What is a Control Chart used to monitor?', back: 'Process stability over time - it shows whether variation is within normal limits (common cause) or abnormal (special cause).' },
+  { front: 'What is a Histogram used for?', back: 'To show the frequency distribution of data and identify patterns like normal distribution or skewness.' },
+  { front: 'Prevention vs. Appraisal costs?', back: 'Prevention = training, design reviews (before defects). Appraisal = testing, inspections (finding defects).' },
+  { front: 'What is the key quality principle for PMP?', back: 'Prevention over Inspection - build quality in from the start, as prevention costs less than finding/fixing defects later.' }
 ]" />
 
 ::: tip  Exam Insight
