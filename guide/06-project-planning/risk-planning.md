@@ -162,20 +162,20 @@ Define probability and impact scales:
 <strong>Probability Scale:</strong>
 | Rating | Value | Description |
 |:-------|:------|:------------|
-| Very High | 0.90 | >90% certain to occur |
+| Very High | 0.90 | &gt;90% certain to occur |
 | High | 0.70 | 71-90% likely |
 | Medium | 0.50 | 31-70% likely |
 | Low | 0.30 | 11-30% likely |
-| Very Low | 0.10 | <10% likely |
+| Very Low | 0.10 | &lt;10% likely |
 
 **Impact Scale (Cost):**
 | Rating | Value | Description |
 |:-------|:------|:------------|
-| Very High | 0.80 | >$100,000 or >20% budget |
+| Very High | 0.80 | &gt;$100,000 or &gt;20% budget |
 | High | 0.40 | $50k-$100k or 10-20% budget |
 | Medium | 0.20 | $10k-$50k or 5-10% budget |
 | Low | 0.10 | $1k-$10k or 1-5% budget |
-| Very Low | 0.05 | <$1,000 or <1% budget |
+| Very Low | 0.05 | &lt;$1,000 or &lt;1% budget |
 
 ### Probability-Impact Matrix
 
@@ -260,7 +260,7 @@ Decision ───┤                       Build EMV = $290k - $200k = $90k
                               └─ Issues (20%): +$50k    │ = $10k
                                     Buy EMV = $250k - $150k = $100k
 
-Decision: Buy (EMV = $100k) > Build (EMV = $90k)
+Decision: Buy (EMV = $100k) &gt; Build (EMV = $90k)
   </div>
 </ConceptCard>
 
@@ -271,45 +271,26 @@ Decision: Buy (EMV = $100k) > Build (EMV = $90k)
 Identifies which risks have the greatest impact on project outcomes.
 
 <strong>Tornado Diagram:</strong>
-<ConceptCard title="Tornado Diagram: Project Cost Variance">
-  <div style="font-family: var(--vp-font-family-base); color: var(--vp-c-text-1);">
-    <div style="display: flex; justify-content: space-between; font-size: 0.8em; margin-bottom: 5px; color: var(--vp-c-text-2);">
-      <span>-$100k</span><span>0</span><span>+$100k</span>
-    </div>
-
-    <div style="margin-bottom: 8px;">
-      <div style="font-size: 0.9em; margin-bottom: 2px;">Vendor Pricing</div>
-      <div style="height: 24px; background: var(--vp-c-bg-soft); position: relative; border-radius: 4px;">
-        <div style="position: absolute; left: 10%; width: 80%; background-color: var(--vp-c-brand); height: 100%; border-radius: 4px;"></div>
-      </div>
-    </div>
-
-    <div style="margin-bottom: 8px;">
-      <div style="font-size: 0.9em; margin-bottom: 2px;">Resource Costs</div>
-      <div style="height: 24px; background: var(--vp-c-bg-soft); position: relative; border-radius: 4px;">
-        <div style="position: absolute; left: 25%; width: 50%; background-color: var(--vp-c-brand-light); height: 100%; border-radius: 4px;"></div>
-      </div>
-    </div>
-
-    <div style="margin-bottom: 8px;">
-      <div style="font-size: 0.9em; margin-bottom: 2px;">Scope Changes</div>
-      <div style="height: 24px; background: var(--vp-c-bg-soft); position: relative; border-radius: 4px;">
-        <div style="position: absolute; left: 35%; width: 30%; background-color: var(--vp-c-brand-lighter); height: 100%; border-radius: 4px;"></div>
-      </div>
-    </div>
-
-    <div style="margin-bottom: 8px;">
-      <div style="font-size: 0.9em; margin-bottom: 2px;">Timeline Slip</div>
-      <div style="height: 24px; background: var(--vp-c-bg-soft); position: relative; border-radius: 4px;">
-        <div style="position: absolute; left: 40%; width: 20%; background-color: var(--vp-c-text-2); height: 100%; border-radius: 4px;"></div>
-      </div>
-    </div>
-
-    <div style="margin-bottom: 0px;">
-      <div style="font-size: 0.9em; margin-bottom: 2px;">Exchange Rate</div>
-      <div style="height: 24px; background: var(--vp-c-bg-soft); position: relative; border-radius: 4px;">
-        <div style="position: absolute; left: 45%; width: 10%; background-color: var(--vp-c-text-3); height: 100%; border-radius: 4px;"></div>
-      </div>
+<ConceptCard title="Tornado Diagram: Project Cost Variance" variant="secondary">
+  <div style="padding: 15px; background: var(--vp-c-bg-soft); border-radius: 8px;">
+    <svg viewBox="0 0 400 250" style="width: 100%; height: auto;">
+      <line x1="200" y1="20" x2="200" y2="240" stroke="var(--vp-c-text-3)" stroke-dasharray="4" stroke-width="1" />
+      <text x="200" y="15" fill="var(--vp-c-text-2)" font-size="10" text-anchor="middle">$0</text>
+      <text x="40" y="15" fill="var(--vp-c-text-2)" font-size="10" text-anchor="start">-$100k</text>
+      <text x="360" y="15" fill="var(--vp-c-text-2)" font-size="10" text-anchor="end">+$100k</text>
+      <text x="10" y="45" fill="var(--vp-c-text-1)" font-size="11" font-weight="bold">Vendor Pricing</text>
+      <rect x="40" y="50" width="320" height="20" rx="4" fill="var(--vp-c-brand)" />
+      <text x="10" y="85" fill="var(--vp-c-text-1)" font-size="11" font-weight="bold">Resource Costs</text>
+      <rect x="100" y="90" width="200" height="20" rx="4" fill="var(--vp-c-brand-light)" />
+      <text x="10" y="125" fill="var(--vp-c-text-1)" font-size="11" font-weight="bold">Scope Changes</text>
+      <rect x="140" y="130" width="120" height="20" rx="4" fill="var(--vp-c-brand-dimm)" />
+      <text x="10" y="165" fill="var(--vp-c-text-1)" font-size="11" font-weight="bold">Timeline Slip</text>
+      <rect x="160" y="170" width="80" height="20" rx="4" fill="var(--vp-c-text-2)" />
+      <text x="10" y="205" fill="var(--vp-c-text-1)" font-size="11" font-weight="bold">Exchange Rate</text>
+      <rect x="180" y="210" width="40" height="20" rx="4" fill="var(--vp-c-text-3)" />
+    </svg>
+    <div style="text-align: center; font-size: 0.85em; margin-top: 10px; color: var(--vp-c-text-2);">
+      Width of bar = Uncertainty range (Impact on project cost)
     </div>
   </div>
 </ConceptCard>
@@ -436,8 +417,8 @@ Difference between P50 and desired confidence level (e.g., P80)
 | Risk | Trigger | Response |
 |:-----|:--------|:---------|
 | Vendor delay | Missed progress milestone | Escalate communication, engage backup |
-| Scope creep | >3 change requests/week | Reinforce change process, investigate |
-| Resource burnout | Overtime >10 hours/week | Resource leveling, add capacity |
+| Scope creep | &gt;3 change requests/week | Reinforce change process, investigate |
+| Resource burnout | Overtime &gt;10 hours/week | Resource leveling, add capacity |
 | Integration issues | Failed unit tests increasing | Technical review, expert consultation |
 
 ### Residual and Secondary Risks
@@ -506,16 +487,16 @@ Difference between P50 and desired confidence level (e.g., P80)
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { front: `What are the 5 response strategies for threats?`, back: `1. Avoid, 2. Mitigate, 3. Transfer, 4. Accept, 5. Escalate.` },
-  { front: `What is Residual Risk?`, back: `The risk that remains after a response strategy has been implemented.` },
-  { front: `What is a Watch List?`, back: `A list of low-priority risks that are monitored for changes in probability or impact.` },
-  { front: `What does a Tornado Diagram show?`, back: `Sensitivity analysis—it ranks risks by their potential impact on a project outcome.` },
-  { front: `What is a Risk Trigger?`, back: `An early warning sign or event that indicates a risk is about to occur.` },
-  { front: `What is EMV (Expected Monetary Value)?`, back: `EMV = Probability × Impact in dollars - used for decision trees and calculating contingency reserves.` },
-  { front: `What is Secondary Risk?`, back: `A new risk created by implementing a risk response (e.g., backup vendor may have quality issues).` },
-  { front: `What does Monte Carlo simulation produce?`, back: `Probability distributions for project completion - showing P50, P80, P90 confidence levels.` },
-  { front: `What are the 5 response strategies for opportunities?`, back: `1. Exploit, 2. Enhance, 3. Share, 4. Accept, 5. Escalate.` },
-  { front: `Who is the Risk Owner?`, back: `The person assigned responsibility for monitoring the risk and implementing the response if triggered.` }
+  { front: 'What are the 5 response strategies for threats?', back: '1. Avoid, 2. Mitigate, 3. Transfer, 4. Accept, 5. Escalate.' },
+  { front: 'What is Residual Risk?', back: 'The risk that remains after a response strategy has been implemented.' },
+  { front: 'What is a Watch List?', back: 'A list of low-priority risks that are monitored for changes in probability or impact.' },
+  { front: 'What does a Tornado Diagram show?', back: 'Sensitivity analysis—it ranks risks by their potential impact on a project outcome.' },
+  { front: 'What is a Risk Trigger?', back: 'An early warning sign or event that indicates a risk is about to occur.' },
+  { front: 'What is EMV (Expected Monetary Value)?', back: 'EMV = Probability × Impact in dollars - used for decision trees and calculating contingency reserves.' },
+  { front: 'What is Secondary Risk?', back: 'A new risk created by implementing a risk response (e.g., backup vendor may have quality issues).' },
+  { front: 'What does Monte Carlo simulation produce?', back: 'Probability distributions for project completion - showing P50, P80, P90 confidence levels.' },
+  { front: 'What are the 5 response strategies for opportunities?', back: '1. Exploit, 2. Enhance, 3. Share, 4. Accept, 5. Escalate.' },
+  { front: 'Who is the Risk Owner?', back: 'The person assigned responsibility for monitoring the risk and implementing the response if triggered.' }
 ]" />
 
 ::: tip  Exam Insight
