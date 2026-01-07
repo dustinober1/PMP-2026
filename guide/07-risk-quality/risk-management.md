@@ -117,39 +117,37 @@ Use multiple techniques because each has bias.
 | **Root cause analysis** | Pattern-based risks | "Recurring defect / recurring slip" |
 
 ### Risk Breakdown Structure (RBS) (Categorization Framework)
+
 The RBS organizes risks by category to ensure complete coverage and identify patterns.
 
 <strong>Example RBS for a Software Project:</strong>
-<ConceptCard title="Risk Breakdown Structure (RBS) Example">
-  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
-Project Risks
-├─ Technical
-│  ├─ Architecture complexity
-│  ├─ Integration challenges
-│  ├─ New/untested technology
-│  └─ Performance/scalability
-├─ External
-│  ├─ Vendor/supplier dependency
-│  ├─ Regulatory/compliance changes
-│  ├─ Market shifts
-│  └─ Third-party API availability
-├─ Organizational
-│  ├─ Resource availability
-│  ├─ Funding/budget cuts
-│  ├─ Competing priorities
-│  └─ Organizational change
-├─ Project Management
-│  ├─ Estimation uncertainty
-│  ├─ Scope creep
-│  ├─ Communication breakdown
-│  └─ Stakeholder misalignment
-└─ People
-   ├─ Key person departure
-   ├─ Skill gaps
-   ├─ Team conflict
-   └─ Motivation/morale
-  </div>
-</ConceptCard>
+
+<ConceptGrid>
+  <ConceptCard title="Technical" variant="primary">
+    <ul>
+      <li>Architecture complexity</li>
+      <li>Integration challenges</li>
+      <li>New/untested technology</li>
+      <li>Performance/scalability</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="External" variant="secondary">
+    <ul>
+      <li>Vendor/supplier dependency</li>
+      <li>Regulatory/compliance changes</li>
+      <li>Market shifts</li>
+      <li>Third-party API availability</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="People" variant="primary">
+    <ul>
+      <li>Key person departure</li>
+      <li>Skill gaps</li>
+      <li>Team conflict</li>
+      <li>Motivation/morale</li>
+    </ul>
+  </ConceptCard>
+</ConceptGrid>
 
 **Exam Tip**: If the question mentions "we keep missing risks in the same category," suggest using an **RBS** or **prompt list** to ensure structured coverage.
 
@@ -426,15 +424,18 @@ Use decision trees when:
 The total project budget includes both base estimates and reserves. Understanding how to calculate risk-adjusted budgets is essential.
 
 #### Budget Structure
-<ConceptCard title="Budget Structure Hierarchy">
-  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
-Total Project Funding
-├── Cost Baseline (what PM can authorize)
-│   ├── Work Package Estimates (base estimates)
-│   └── Contingency Reserve (for known risks)
-└── Management Reserve (for unknown risks - requires sponsor approval)
-  </div>
-</ConceptCard>
+
+<ConceptGrid>
+  <ConceptCard title="Cost Baseline" variant="primary">
+    <strong>PM Controlled.</strong> Includes Work Package Estimates (base estimates) plus <strong>Contingency Reserve</strong> for identified (known-unknown) risks.
+  </ConceptCard>
+  <ConceptCard title="Management Reserve" variant="secondary">
+    <strong>Sponsor Controlled.</strong> Budget held for <strong>Unknown Risks</strong> (unknown-unknowns). Requires approved Change Request to access.
+  </ConceptCard>
+  <ConceptCard title="Project Funding" variant="primary">
+    <strong>Total Budget.</strong> The sum of the Cost Baseline and the Management Reserve.
+  </ConceptCard>
+</ConceptGrid>
 
 #### Calculating Contingency Reserve Using EMV
 
