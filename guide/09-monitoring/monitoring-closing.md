@@ -800,12 +800,6 @@ The **S-curve** plots cumulative planned value (PV), earned value (EV), and actu
 <ConceptCard title="S-Curve Interpretation">
   <div style="padding: 1rem;">
     <svg viewBox="0 0 400 280" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
-      <defs>
-        <linearGradient id="pvGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#667eea" stop-opacity="1" />
-          <stop offset="100%" stop-color="#764ba2" stop-opacity="1" />
-        </linearGradient>
-        <linearGradient id="evGradient" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" stop-color="#11998e" stop-opacity="1" />
           <stop offset="100%" stop-color="#38ef7d" stop-opacity="1" />
         </linearGradient>
