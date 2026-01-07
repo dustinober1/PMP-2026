@@ -381,15 +381,14 @@ P90 (90% confidence): $1,050,000
 
 ### Calculating Contingency Reserve
 
-<strong>Using EMV:</strong>
-```
-Sum of (Probability × Impact) for all identified risks
-```
-
-<strong>Using Monte Carlo:</strong>
-```
-Difference between P50 and desired confidence level (e.g., P80)
-```
+<ConceptGrid>
+  <ConceptCard title="Using EMV" variant="primary">
+    Sum of (Probability × Impact) for all identified risks. This is a simple summation used for individual known risks.
+  </ConceptCard>
+  <ConceptCard title="Using Monte Carlo" variant="secondary">
+     Difference between P50 (median) and desired confidence level (e.g., P80). Used when analyzing overall project risk.
+  </ConceptCard>
+</ConceptGrid>
 
 <strong>Example:</strong>
 - P50 project cost: $1,000,000
