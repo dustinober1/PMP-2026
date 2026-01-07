@@ -150,6 +150,16 @@ When a question says "a new team member is added," calculate the NEW total numbe
 </ConceptCard>
 
 
+```
+┌──────────┐    Encode    ┌───────────┐    Decode    ┌──────────┐
+│  Sender  │ ──────────→  │  Message  │ ──────────→  │ Receiver │
+└──────────┘              └───────────┘              └──────────┘
+     ↑                                                     │
+     │              ← ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─             │
+     └─────────────────  Feedback/Response  ──────────────┘
+                              Noise
+```
+
 ### Model Components
 
 | Component | Description | PM Responsibility |
