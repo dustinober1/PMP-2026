@@ -193,11 +193,30 @@ Starting from the end, work backward:
 ### CPM Practice Problem
 
 <strong>Network:</strong>
-```
-Start → X(4d) → Y(6d) → End
-          ↓
-        Z(8d) 
-```
+<ConceptCard title="Practice Network Diagram" variant="secondary">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 20px;">
+<div style="background: var(--vp-c-brand); color: white; padding: 8px 16px; border-radius: 4px; font-weight: bold;">Start</div>
+<div style="font-size: 20px;">↓</div>
+<div style="background: var(--vp-c-brand); color: white; padding: 8px 16px; border-radius: 4px; font-weight: bold;">X (4d)</div>
+<div style="display: flex; gap: 100px; width: 100%; justify-content: center;">
+<div style="font-size: 20px;">↙</div>
+<div style="font-size: 20px;">↘</div>
+</div>
+<div style="display: flex; gap: 50px; justify-content: center; align-items: flex-start;">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
+<div style="background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-brand); padding: 8px 16px; border-radius: 4px;">Y (6d)</div>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
+<div style="background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-brand); padding: 8px 16px; border-radius: 4px;">Z (8d)</div>
+</div>
+</div>
+<div style="display: flex; gap: 100px; width: 100%; justify-content: center;">
+<div style="font-size: 20px;">↘</div>
+<div style="font-size: 20px;">↙</div>
+</div>
+<div style="background: var(--vp-c-brand); color: white; padding: 8px 16px; border-radius: 4px; font-weight: bold;">End</div>
+</div>
+</ConceptCard>
 
 <strong>Calculate:</strong>
 1. Early/Late dates for each activity
@@ -506,17 +525,29 @@ When you are behind, you have two primary levers:
 
 A resource histogram shows resource allocation over time:
 
-```
-Resources
-   │
- 3 │     ████████
-   │  ██████████████  ████
- 2 │██████████████████████████
-   │██████████████████████████
- 1 │██████████████████████████
-   │________________________________
-      Week 1  Week 2  Week 3  Week 4
-```
+<ConceptCard title="Resource Histogram">
+<div style="display: flex; align-items: flex-end; gap: 15px; height: 200px; padding: 20px; border-left: 2px solid var(--vp-c-text-2); border-bottom: 2px solid var(--vp-c-text-2);">
+<div style="display: flex; flex-direction: column; align-items: center; width: 25%;">
+<div style="width: 100%; height: 50%; background: var(--vp-c-brand); border-radius: 4px 4px 0 0;"></div>
+<div style="margin-top: 10px; font-size: 0.9em;">Week 1</div>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; width: 25%;">
+<div style="width: 100%; height: 100%; background: var(--vp-c-danger); opacity: 0.8; border-radius: 4px 4px 0 0;"></div>
+<div style="margin-top: 10px; font-size: 0.9em;">Week 2</div>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; width: 25%;">
+<div style="width: 100%; height: 100%; background: var(--vp-c-danger); opacity: 0.8; border-radius: 4px 4px 0 0;"></div>
+<div style="margin-top: 10px; font-size: 0.9em;">Week 3</div>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; width: 25%;">
+<div style="width: 100%; height: 60%; background: var(--vp-c-brand); border-radius: 4px 4px 0 0;"></div>
+<div style="margin-top: 10px; font-size: 0.9em;">Week 4</div>
+</div>
+</div>
+<div style="text-align: center; margin-top: 10px; font-style: italic; color: var(--vp-c-text-2);">
+Bars showing resource allocation per week. Red indicates overallocation (>100% capacity).
+</div>
+</ConceptCard>
 
 Use histograms to identify:
 - Over-allocation (peaks above capacity)
