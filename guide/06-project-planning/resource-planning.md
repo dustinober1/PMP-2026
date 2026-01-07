@@ -170,34 +170,20 @@ Planning is not just "how many people" — it's **when they are available**:
 
 ---
 
-##  Resource Optimization Techniques
+### Resource Optimization Techniques
 
-### Resource Leveling
-
-**Purpose**: Resolve resource over-allocation by adjusting the schedule
-
-**Process**:
-1. Identify over-allocated resources
-2. Delay activities using available float
-3. If float is consumed, delay critical activities (extends project)
-4. Alternatively, assign alternative resources
-
-**Key Characteristic**: Usually **extends the finish date**
-
-**When to Use**: When resource limits are fixed and cannot be exceeded
-
-### Resource Smoothing
-
-**Purpose**: Optimize resource utilization without changing the finish date
-
-**Process**:
-1. Identify uneven resource distribution
-2. Shift activities within their float
-3. Balance workload across time
-
-**Key Characteristic**: **Does not change the finish date** (uses only available slack)
-
-**When to Use**: When the end date is fixed but want to smooth peaks/valleys
+<ConceptGrid>
+  <ConceptCard title="Resource Leveling" variant="primary">
+    <strong>Goal:</strong> Resolve over-allocation by adjusting the schedule.<br/>
+    <strong>Key Impact:</strong> Usually <strong>extends the project finish date</strong>.<br/>
+    <strong>When to Use:</strong> When resource limits are fixed and cannot be exceeded. Consumes all available float and then shifts critical path.
+  </ConceptCard>
+  <ConceptCard title="Resource Smoothing" variant="secondary">
+    <strong>Goal:</strong> Optimize utilization without changing the finish date.<br/>
+    <strong>Key Impact:</strong> <strong>Does not change the finish date</strong>.<br/>
+    <strong>When to Use:</strong> When the end date is fixed. Shift activities only within their available float (slack).
+  </ConceptCard>
+</ConceptGrid>
 
 ### Comparison Table
 
@@ -212,25 +198,24 @@ Planning is not just "how many people" — it's **when they are available**:
 
 ##  Virtual Team Considerations
 
-### Virtual Team Challenges
+### Virtual Team Strategies
 
-| Challenge | Impact | Solution |
-|:----------|:-------|:---------|
-| **Communication barriers** | Misunderstandings | Clear procedures, video when possible |
-| **Time zone differences** | Scheduling difficulty | Rotating meetings, async tools |
-| **Cultural differences** | Varied expectations | Cultural awareness training |
-| **Relationship building** | Weaker team bonds | Virtual team building activities |
-| **Trust development** | Longer to establish | Regular touchpoints, transparency |
-| **Technology issues** | Connectivity problems | Backup communication plans |
-
-### Virtual Team Best Practices
-
-1. **Establish clear communication norms** (response times, core hours)
-2. **Use video when possible** (builds connection)
-3. **Document everything** (reduces misunderstanding)
-4. **Create overlap time** (synchronous collaboration windows)
-5. **Build in team-building** (virtual coffee chats, recognition)
-6. **Invest in collaboration tools** (shared whiteboards, project dashboards)
+<ConceptGrid>
+  <ConceptCard title="Challenges" variant="danger">
+    <ul>
+      <li><strong>Communication barriers:</strong> Misunderstandings due to lack of non-verbal cues.</li>
+      <li><strong>Time zones:</strong> Scheduling difficulty and reduced collaboration windows.</li>
+      <li><strong>Trust:</strong> Longer to establish bonds without face-to-face interaction.</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="Best Practices" variant="success">
+    <ul>
+      <li><strong>Clear Norms:</strong> Define core hours and response time expectations.</li>
+      <li><strong>Video First:</strong> Use video calls to build personal connection.</li>
+      <li><strong>Document Flow:</strong> Use async tools for persistent documentation.</li>
+    </ul>
+  </ConceptCard>
+</ConceptGrid>
 
 ::: info  2026 Focus: Virtual Logistics
 Modern resource planning must account for **Digital Latency**. If your team is global, do they have the same cloud infrastructure? Is the physical hardware available in their specific region (e.g., chip shortages)?
@@ -254,21 +239,16 @@ When you cannot source resources internally, procurement planning helps you get 
 
 ##  Make-or-Buy Analysis
 
-When deciding whether to build internally or procure externally, consider:
+### Make-or-Buy Decision Logic
 
-### Build Internally (Make) When:
-- Core competency of the organization
-- Sensitive IP or trade secrets
-- Long-term capability building desired
-- Available internal capacity and expertise
-- Lower total cost over time
-
-### Buy Externally (Outsource) When:
-- Non-core work or one-time need
-- Specialized expertise not available internally
-- Need to transfer risk to vendor
-- Faster time to market
-- Cost-effective for short-term needs
+<ConceptGrid>
+  <ConceptCard title="Build (Make)" variant="primary">
+    Choose this when the work involves <strong>core competencies</strong>, proprietary intellectual property, or when long-term capability building is a strategic goal. It offers maximum control over quality and process.
+  </ConceptCard>
+  <ConceptCard title="Outsource (Buy)" variant="secondary">
+    Choose this for <strong>non-core work</strong>, one-time needs, or when specialized expertise is not available internally. It allows for risk transfer to the vendor and often a faster time-to-market.
+  </ConceptCard>
+</ConceptGrid>
 
 ### Make-or-Buy Decision Matrix
 
@@ -431,55 +411,37 @@ If one vendor asks a question privately after the bidder conference, you **must 
 
 ##  Contract Cost Calculations
 
-### FPIF Calculation Example
+### Contract Performance Scenarios (FPIF)
 
-<strong>Contract Terms:</strong>
-- Target Cost: $100,000
-- Target Fee: $10,000
-- Share Ratio: 80/20 (Buyer/Seller)
-- Ceiling Price: $120,000
-
-#### Scenario 1: Under Target (Seller completes for $90,000)
-```
-Cost Savings = $100,000 − $90,000 = $10,000
-Seller's Share of Savings = $10,000 × 20% = $2,000
-Final Fee = $10,000 + $2,000 = $12,000
-Total Price to Buyer = $90,000 + $12,000 = $102,000
-```
-
-#### Scenario 2: Over Target (Seller completes for $110,000)
-```
-Cost Overrun = $110,000 − $100,000 = $10,000
-Seller's Share of Overrun = $10,000 × 20% = $2,000
-Final Fee = $10,000 − $2,000 = $8,000
-Total Price to Buyer = $110,000 + $8,000 = $118,000
-```
-
-#### Scenario 3: Exceeds Ceiling (Seller completes for $115,000)
-```
-Calculated Price = $115,000 + reduced fee = would exceed ceiling
-Buyer pays maximum $120,000
-Seller absorbs additional costs beyond ceiling
-```
+<ConceptGrid>
+  <ConceptCard title="Scenario 1: Efficiency Gain" variant="success">
+    <strong>Actual Cost:</strong> $90,000 (Target was $100k)<br/>
+    <strong>Savings:</strong> $10,000<br/>
+    <strong>Seller Bonus:</strong> $10,000 &times; 20% = $2,000<br/>
+    <strong>Final Price:</strong> $90,000 + $10,000 (fee) + $2,000 (bonus) = <strong>$102,000</strong>
+  </ConceptCard>
+  <ConceptCard title="Scenario 2: Cost Overrun" variant="warning">
+    <strong>Actual Cost:</strong> $110,000 (Target was $100k)<br/>
+    <strong>Overrun:</strong> $10,000<br/>
+    <strong>Seller Penalty:</strong> $10,000 &times; 20% = $2,000<br/>
+    <strong>Final Price:</strong> $110,000 + $10,000 (fee) - $2,000 (penalty) = <strong>$118,000</strong>
+  </ConceptCard>
+  <ConceptCard title="Scenario 3: Ceiling Hit" variant="danger">
+    <strong>Actual Cost:</strong> $115,000 (Total logic exceeds ceiling)<br/>
+    <strong>Ceiling:</strong> $120,000<br/>
+    <strong>Final Price:</strong> <strong>$120,000</strong><br/>
+    <em>Seller absorbs all remaining costs beyond this point.</em>
+  </ConceptCard>
+</ConceptGrid>
 
 ### Point of Total Assumption (PTA)
 
-The cost at which the seller assumes all remaining cost risk.
-
-<strong>Formula:</strong>
-```
-PTA = Target Cost + [(Ceiling Price - Target Price) / Buyer Share Ratio]
-```
-
-**Example** (using above contract):
-```
-Target Price = Target Cost + Target Fee = $100,000 + $10,000 = $110,000
-PTA = $100,000 + [($120,000 - $110,000) / 0.80]
-PTA = $100,000 + [$10,000 / 0.80]
-PTA = $100,000 + $12,500 = $112,500
-```
-
-**Interpretation**: If actual costs exceed $112,500, the seller absorbs 100% of additional costs.
+<ConceptCard title="PTA Calculation & Meaning" variant="secondary">
+  The <strong>Point of Total Assumption</strong> is the cost at which the seller assumes all remaining cost risk in an FPIF contract.<br/><br/>
+  <strong>Formula:</strong> <code>PTA = Target Cost + [(Ceiling Price - Target Price) / Buyer Share Ratio]</code><br/><br/>
+  <strong>Example:</strong> $100,000 + [($120,000 - $110,000) / 0.80] = <strong>$112,500</strong><br/><br/>
+  <strong>Interpretation:</strong> If actual costs exceed $112,500, the seller absorbs 100% of additional costs, as the ceiling has been effectively reached.
+</ConceptCard>
 
 ---
 
@@ -538,16 +500,16 @@ PTA = $100,000 + $12,500 = $112,500
 ## Quick Review
 
 <FlashcardCarousel :cards="[
-  { front: `What is a RACI Chart?`, back: `A matrix showing who is Responsible, Accountable, Consulted, and Informed for project work.` },
-  { front: `R in RACI vs. A in RACI?`, back: `Responsible = who does the work. Accountable = the single owner who approves the work.` },
-  { front: `What is a Bidder Conference?`, back: `A meeting with all potential sellers to ensure common understanding of the procurement.` },
-  { front: `FFP vs. Cost-Reimbursable Contracts?`, back: `Fixed Price = Seller has risk (clear scope). Cost-Plus = Buyer has risk (uncertain scope).` },
-  { front: `What is Make-or-Buy Analysis?`, back: `The process of deciding whether to build a deliverable internally or buy it from an external source.` },
-  { front: `What is a T&M contract?`, back: `Time and Materials - hybrid contract paying hourly rates plus materials; risk shared between buyer and seller.` },
-  { front: `What is the Point of Total Assumption (PTA)?`, back: `The cost point in FPIF contracts where the seller assumes 100% of remaining cost risk.` },
-  { front: `When should you use Cost-Reimbursable contracts?`, back: `When scope is uncertain or R&D work - the buyer bears more cost risk but gets flexibility.` },
-  { front: `What is a Resource Calendar?`, back: `A calendar showing when resources are available, including holidays, vacations, and allocation percentages.` },
-  { front: `What is a key challenge with virtual teams?`, back: `Communication barriers, time zone differences, cultural differences, and difficulty building trust.` }
+  { front: 'What is a RACI Chart?', back: 'A matrix showing who is Responsible, Accountable, Consulted, and Informed for project work.' },
+  { front: 'R in RACI vs. A in RACI?', back: 'Responsible = who does the work. Accountable = the single owner who approves the work.' },
+  { front: 'What is a Bidder Conference?', back: 'A meeting with all potential sellers to ensure common understanding of the procurement.' },
+  { front: 'FFP vs. Cost-Reimbursable Contracts?', back: 'Fixed Price = Seller has risk (clear scope). Cost-Plus = Buyer has risk (uncertain scope).' },
+  { front: 'What is Make-or-Buy Analysis?', back: 'The process of deciding whether to build a deliverable internally or buy it from an external source.' },
+  { front: 'What is a T&M contract?', back: 'Time and Materials - hybrid contract paying hourly rates plus materials; risk shared between buyer and seller.' },
+  { front: 'What is the Point of Total Assumption (PTA)?', back: 'The cost point in FPIF contracts where the seller assumes 100% of remaining cost risk.' },
+  { front: 'When should you use Cost-Reimbursable contracts?', back: 'When scope is uncertain or R&D work - the buyer bears more cost risk but gets flexibility.' },
+  { front: 'What is a Resource Calendar?', back: 'A calendar showing when resources are available, including holidays, vacations, and allocation percentages.' },
+  { front: 'What is a key challenge with virtual teams?', back: 'Communication barriers, time zone differences, cultural differences, and difficulty building trust.' }
 ]" />
 
 ::: tip  Exam Insight
