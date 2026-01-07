@@ -59,33 +59,35 @@ These processes don't happen in isolation—they're constantly informed by Monit
 Execution is highly integrated—these processes don't happen in isolation. Understanding the relationships between processes helps you answer "what should I do first" questions on the exam.
 
 ### The Execution Flow (Typical Sequence)
-```
-┌─────────────────────────────────────────────────────────────┐
-│ 1. ACQUIRE RESOURCES                                        │
-│    Get the team, equipment, facilities needed               │
-└──────────────────┬──────────────────────────────────────────┘
-                   ↓
-┌─────────────────────────────────────────────────────────────┐
-│ 2. DEVELOP TEAM                                             │
-│    Build skills, trust, collaboration                       │
-└──────────────────┬──────────────────────────────────────────┘
-                   ↓
-┌─────────────────────────────────────────────────────────────┐
-│ 3. DIRECT AND MANAGE PROJECT WORK (continuous)              │
-│    Coordinate all execution activities                      │
-│    ├─ Manage Communications (keep stakeholders informed)    │
-│    ├─ Manage Stakeholder Engagement (work with people)      │
-│    ├─ Manage Quality (perform quality activities)           │
-│    ├─ Conduct Procurements (select and contract vendors)    │
-│    ├─ Implement Risk Responses (execute when triggered)     │
-│    └─ Manage Team (address issues, provide feedback)        │
-└──────────────────┬──────────────────────────────────────────┘
-                   ↓
-┌─────────────────────────────────────────────────────────────┐
-│ 4. MANAGE PROJECT KNOWLEDGE (continuous)                    │
-│    Capture lessons learned, share knowledge                 │
-└─────────────────────────────────────────────────────────────┘
-```
+
+<ConceptCard title="Core Execution Sequence" variant="primary">
+  <div style="display: flex; flex-direction: column; gap: 12px; padding: 16px;">
+    <div style="background: var(--vp-c-brand-soft); border: 2px solid var(--vp-c-brand); border-radius: 8px; padding: 12px; text-align: center;">
+      <strong>1. ACQUIRE RESOURCES</strong><br/>
+      <span style="font-size: 0.9em; color: var(--vp-c-text-2);">Get team, equipment, facilities</span>
+    </div>
+    <div style="text-align: center; color: var(--vp-c-text-3); font-size: 1.5em;">&#8595;</div>
+    <div style="background: var(--vp-c-brand-soft); border: 2px solid var(--vp-c-brand); border-radius: 8px; padding: 12px; text-align: center;">
+      <strong>2. DEVELOP TEAM</strong><br/>
+      <span style="font-size: 0.9em; color: var(--vp-c-text-2);">Build skills, trust, collaboration</span>
+    </div>
+    <div style="text-align: center; color: var(--vp-c-text-3); font-size: 1.5em;">&#8595;</div>
+    <div style="background: var(--vp-c-bg-mute); border: 3px solid var(--vp-c-brand); border-radius: 8px; padding: 16px;">
+      <div style="text-align: center; margin-bottom: 8px;"><strong>3. DIRECT AND MANAGE WORK</strong></div>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; font-size: 0.85em;">
+        <span style="background: var(--vp-c-bg-soft); padding: 4px 8px; border-radius: 4px;">Manage Stakeholders</span>
+        <span style="background: var(--vp-c-bg-soft); padding: 4px 8px; border-radius: 4px;">Manage Quality</span>
+        <span style="background: var(--vp-c-bg-soft); padding: 4px 8px; border-radius: 4px;">Manage Comms</span>
+        <span style="background: var(--vp-c-bg-soft); padding: 4px 8px; border-radius: 4px;">Implement Risks</span>
+      </div>
+    </div>
+    <div style="text-align: center; color: var(--vp-c-text-3); font-size: 1.5em;">&#8595;</div>
+    <div style="background: var(--vp-c-brand-soft); border: 2px solid var(--vp-c-brand); border-radius: 8px; padding: 12px; text-align: center;">
+      <strong>4. MANAGE KNOWLEDGE</strong><br/>
+      <span style="font-size: 0.9em; color: var(--vp-c-text-2);">Capture lessons, share insights</span>
+    </div>
+  </div>
+</ConceptCard>
 
 ### Critical Interdependencies
 - **Can't manage a team you don't have**: Acquire Resources → Develop Team → Manage Team
@@ -115,13 +117,32 @@ This is the **information transformation chain** that drives execution decisions
 
 **Exam pattern**: If stakeholders are surprised by a problem, you likely collected **data** but failed to transform it into **information** and communicate it via **reports**.
 
-### 2. Approved Change Requests → Execution
+### 2. Approved Change Requests to Execution
 Changes don't happen automatically—they flow through a formal process:
 
-```
-Change Request → Perform Integrated Change Control → Approved Changes →
-Direct and Manage Project Work (implement) → Update Documents/Baselines
-```
+<ConceptCard variant="secondary">
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; padding: 12px;">
+    <div style="background: var(--vp-c-bg-mute); border: 1px solid var(--vp-c-text-3); border-radius: 6px; padding: 8px 12px; text-align: center;">
+      <strong>Change Request</strong>
+    </div>
+    <span style="font-size: 1.2em; color: var(--vp-c-text-3);">&#8594;</span>
+    <div style="background: var(--vp-c-warning-soft); border: 1px solid var(--vp-c-warning); border-radius: 6px; padding: 8px 12px; text-align: center;">
+      <strong>Perform Integrated<br/>Change Control</strong>
+    </div>
+    <span style="font-size: 1.2em; color: var(--vp-c-text-3);">&#8594;</span>
+    <div style="background: var(--vp-c-success-soft); border: 1px solid var(--vp-c-success); border-radius: 6px; padding: 8px 12px; text-align: center;">
+      <strong>Approved Changes</strong>
+    </div>
+    <span style="font-size: 1.2em; color: var(--vp-c-text-3);">&#8594;</span>
+    <div style="background: var(--vp-c-brand-soft); border: 1px solid var(--vp-c-brand); border-radius: 6px; padding: 8px 12px; text-align: center;">
+      <strong>Direct and Manage<br/>Project Work</strong>
+    </div>
+    <span style="font-size: 1.2em; color: var(--vp-c-text-3);">&#8594;</span>
+    <div style="background: var(--vp-c-bg-mute); border: 1px solid var(--vp-c-text-3); border-radius: 6px; padding: 8px 12px; text-align: center;">
+      <strong>Update Baselines</strong>
+    </div>
+  </div>
+</ConceptCard>
 
 **Key insight**: In execution, you implement **approved** changes. If someone asks for a change during execution, you don't just do it—you assess impact and follow the change control process (CCB in predictive, backlog refinement in agile).
 
@@ -379,30 +400,32 @@ Execution doesn't happen in isolation—it's constantly informed by and feeding 
 
 **Key connection**: Execution **implements the plans**. If something isn't working, you don't just ignore the plan—you use **change control** or **adaptive refinement** to update it.
 
-### Executing  Monitoring & Controlling (Continuous Loop)
+### Executing and Monitoring Controlling (Continuous Loop)
 This is the most critical integration—execution and monitoring happen **simultaneously**.
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    EXECUTING PROCESS GROUP                   │
-│  Direct and Manage Project Work                             │
-│  └─ Produces: Deliverables, Work Performance Data           │
-└──────────────────┬──────────────────────────────────────────┘
-                   ↓ (Work Performance Data)
-┌─────────────────────────────────────────────────────────────┐
-│              MONITORING & CONTROLLING PROCESS GROUP          │
-│  Monitor and Control Project Work                           │
-│  └─ Analyzes data → Creates Work Performance Information    │
-│  └─ Compares to baselines → Identifies variances            │
-│  └─ Recommends: Corrective/Preventive Actions, Changes      │
-└──────────────────┬──────────────────────────────────────────┘
-                   ↓ (Approved Change Requests, Corrective Actions)
-┌─────────────────────────────────────────────────────────────┐
-│                    EXECUTING PROCESS GROUP                   │
-│  Direct and Manage Project Work                             │
-│  └─ Implements approved changes and corrective actions      │
-└─────────────────────────────────────────────────────────────┘
-```
+<ConceptCard title="Execution and M&C Feedback Loop" variant="primary">
+  <div style="display: flex; flex-direction: column; gap: 12px; padding: 16px;">
+    <div style="background: var(--vp-c-brand-soft); border: 2px solid var(--vp-c-brand); border-radius: 8px; padding: 16px;">
+      <div style="text-align: center; margin-bottom: 8px;"><strong>EXECUTING PROCESS GROUP</strong></div>
+      <div style="font-size: 0.9em; color: var(--vp-c-text-2); text-align: center;">Direct and Manage Project Work</div>
+      <div style="font-size: 0.85em; color: var(--vp-c-brand); text-align: center; margin-top: 4px;">Produces: Deliverables, Work Performance Data</div>
+    </div>
+    <div style="text-align: center; color: var(--vp-c-text-3); font-size: 1.2em;">&#8595; Work Performance Data</div>
+    <div style="background: var(--vp-c-warning-soft); border: 2px solid var(--vp-c-warning); border-radius: 8px; padding: 16px;">
+      <div style="text-align: center; margin-bottom: 8px;"><strong>MONITORING and CONTROLLING</strong></div>
+      <div style="font-size: 0.85em; color: var(--vp-c-text-2);">
+        <div>• Analyzes Data -> Work Performance Information</div>
+        <div>• Compares to Baselines -> Identifies Variances</div>
+        <div>• Recommends: Corrective Actions, Changes</div>
+      </div>
+    </div>
+    <div style="text-align: center; color: var(--vp-c-text-3); font-size: 1.2em;">&#8595; Approved Changes, Corrective Actions</div>
+    <div style="background: var(--vp-c-brand-soft); border: 2px solid var(--vp-c-brand); border-radius: 8px; padding: 12px; text-align: center;">
+      <strong>Back to EXECUTING</strong><br/>
+      <span style="font-size: 0.9em; color: var(--vp-c-text-2);">Implement approved changes and corrective actions</span>
+    </div>
+  </div>
+</ConceptCard>
 
 | Monitoring & Controlling Process | What It Measures | Executing Process Response |
 |---|---|---|
