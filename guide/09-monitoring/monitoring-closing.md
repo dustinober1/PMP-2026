@@ -27,11 +27,36 @@ Need a status report, change request form, variance log, or closure checklist? U
 
 ::: info The Control Loop (Mental Model)
 <ConceptCard title="The Control Loop (Mental Model)">
-  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
-Work happens → Collect WPD → Analyze (WPI) → Decide → Act → Communicate (WPR) → Repeat
-
-If the decision changes a baseline or contract:
-Change Request → Integrated Change Control → Approved Change → Implement → Re-baseline
+  <div style="display: flex; flex-direction: column; gap: 1.5rem; padding: 1rem 0;">
+    <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.5rem;">
+      <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 0.75rem 1.25rem; border-radius: 12px; font-weight: 600; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">Work Happens</div>
+      <span style="color: var(--vp-c-text-2); font-size: 1.5rem;">→</span>
+      <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); color: white; padding: 0.75rem 1.25rem; border-radius: 12px; font-weight: 600; box-shadow: 0 4px 15px rgba(17, 153, 142, 0.3);">Collect WPD</div>
+      <span style="color: var(--vp-c-text-2); font-size: 1.5rem;">→</span>
+      <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 0.75rem 1.25rem; border-radius: 12px; font-weight: 600; box-shadow: 0 4px 15px rgba(240, 147, 251, 0.3);">Analyze (WPI)</div>
+      <span style="color: var(--vp-c-text-2); font-size: 1.5rem;">→</span>
+      <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 0.75rem 1.25rem; border-radius: 12px; font-weight: 600; box-shadow: 0 4px 15px rgba(79, 172, 254, 0.3);">Decide</div>
+      <span style="color: var(--vp-c-text-2); font-size: 1.5rem;">→</span>
+      <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: white; padding: 0.75rem 1.25rem; border-radius: 12px; font-weight: 600; box-shadow: 0 4px 15px rgba(250, 112, 154, 0.3);">Act</div>
+      <span style="color: var(--vp-c-text-2); font-size: 1.5rem;">→</span>
+      <div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); color: #333; padding: 0.75rem 1.25rem; border-radius: 12px; font-weight: 600; box-shadow: 0 4px 15px rgba(168, 237, 234, 0.3);">Communicate (WPR)</div>
+      <span style="color: var(--vp-c-text-2); font-size: 1.5rem;">→</span>
+      <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 0.75rem 1.25rem; border-radius: 12px; font-weight: 600; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">Repeat</div>
+    </div>
+    <div style="background: linear-gradient(135deg, rgba(255, 193, 7, 0.1) 0%, rgba(255, 152, 0, 0.1) 100%); border: 2px dashed #ff9800; border-radius: 16px; padding: 1.25rem;">
+      <div style="font-weight: 600; margin-bottom: 0.75rem; color: #ff9800;">⚠️ If the decision changes a baseline or contract:</div>
+      <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.5rem;">
+        <div style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); color: #333; padding: 0.6rem 1rem; border-radius: 10px; font-weight: 500; font-size: 0.9rem;">Change Request</div>
+        <span style="color: var(--vp-c-text-2);">→</span>
+        <div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); color: #333; padding: 0.6rem 1rem; border-radius: 10px; font-weight: 500; font-size: 0.9rem;">Integrated Change Control</div>
+        <span style="color: var(--vp-c-text-2);">→</span>
+        <div style="background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); color: #333; padding: 0.6rem 1rem; border-radius: 10px; font-weight: 500; font-size: 0.9rem;">Approved Change</div>
+        <span style="color: var(--vp-c-text-2);">→</span>
+        <div style="background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%); color: #333; padding: 0.6rem 1rem; border-radius: 10px; font-weight: 500; font-size: 0.9rem;">Implement</div>
+        <span style="color: var(--vp-c-text-2);">→</span>
+        <div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); color: #333; padding: 0.6rem 1rem; border-radius: 10px; font-weight: 500; font-size: 0.9rem;">Re-baseline</div>
+      </div>
+    </div>
   </div>
 </ConceptCard>
 :::
@@ -114,19 +139,25 @@ The **Performance Measurement Baseline** is the integrated combination of the sc
 ### PMB vs. Project Budget
 
 <ConceptCard title="PMB vs. Project Budget Structure">
-  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
-┌────────────────────────────────────────────┐
-│            PROJECT BUDGET                  │
-│  ┌──────────────────────────────────────┐  │
-│  │    Performance Measurement Baseline  │  │
-│  │  ┌────────────────────────────────┐  │  │
-│  │  │   Cost Baseline                │  │  │
-│  │  │   (Scope + Schedule + Budget)  │  │  │
-│  │  │   + Contingency Reserves       │  │  │
-│  │  └────────────────────────────────┘  │  │
-│  └──────────────────────────────────────┘  │
-│  + Management Reserve                      │
-└────────────────────────────────────────────┘
+  <div style="display: flex; flex-direction: column; gap: 0; padding: 1rem;">
+    <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%); border: 3px solid #667eea; border-radius: 20px; padding: 1.5rem;">
+      <div style="text-align: center; font-weight: 700; font-size: 1.1rem; color: #667eea; margin-bottom: 1rem;">💰 PROJECT BUDGET</div>
+      <div style="background: linear-gradient(135deg, rgba(17, 153, 142, 0.15) 0%, rgba(56, 239, 125, 0.15) 100%); border: 3px solid #11998e; border-radius: 16px; padding: 1.25rem; margin-bottom: 1rem;">
+        <div style="text-align: center; font-weight: 600; font-size: 1rem; color: #11998e; margin-bottom: 0.75rem;">📊 Performance Measurement Baseline (PMB)</div>
+        <div style="background: linear-gradient(135deg, rgba(240, 147, 251, 0.15) 0%, rgba(245, 87, 108, 0.15) 100%); border: 3px solid #f093fb; border-radius: 12px; padding: 1rem; text-align: center;">
+          <div style="font-weight: 600; color: #f5576c; margin-bottom: 0.5rem;">📋 Cost Baseline</div>
+          <div style="font-size: 0.9rem; color: var(--vp-c-text-2); line-height: 1.6;">
+            <div>Scope Baseline + Schedule Baseline + Budget</div>
+            <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px dashed rgba(245, 87, 108, 0.3);">
+              <span style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); color: #333; padding: 0.25rem 0.75rem; border-radius: 8px; font-weight: 500;">+ Contingency Reserves</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center;">
+        <span style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: #333; padding: 0.5rem 1.25rem; border-radius: 10px; font-weight: 600;">+ Management Reserve</span>
+      </div>
+    </div>
   </div>
 </ConceptCard>
 
@@ -217,16 +248,16 @@ EVM is an objective way to answer: **Are we getting the value we planned for the
 |---|---|---|
 | **CV** (Cost Variance) | `EV - AC` | positive = under budget |
 | **SV** (Schedule Variance) | `EV - PV` | positive = ahead of schedule |
-| **CPI** (Cost Performance Index) | `EV / AC` | > 1.0 = under budget |
-| **SPI** (Schedule Performance Index) | `EV / PV` | > 1.0 = ahead |
+| **CPI** (Cost Performance Index) | `EV / AC` | &gt; 1.0 = under budget |
+| **SPI** (Schedule Performance Index) | `EV / PV` | &gt; 1.0 = ahead |
 
 ::: info CPI/SPI Combo Quick Read (Know the Story)
 | CPI | SPI | What it usually means | Exam-appropriate move |
 |---:|---:|---|---|
-| `< 1` | `< 1` | over budget + behind schedule | analyze root cause, update forecast (EAC), propose recovery options; submit CR if baselines must change |
-| `< 1` | `> 1` | over budget but ahead of schedule | confirm cost drivers (crashing/overtime/vendor rates); decide corrective action; CR if baseline needs change |
-| `> 1` | `< 1` | under budget but behind schedule | validate schedule logic/critical path; remove constraints; CR if finish date must move |
-| `> 1` | `> 1` | under budget + ahead of schedule | confirm data quality; communicate; consider pulling value forward (if governance allows) |
+| `&lt; 1` | `&lt; 1` | over budget + behind schedule | analyze root cause, update forecast (EAC), propose recovery options; submit CR if baselines must change |
+| `&lt; 1` | `&gt; 1` | over budget but ahead of schedule | confirm cost drivers (crashing/overtime/vendor rates); decide corrective action; CR if baseline needs change |
+| `&gt; 1` | `&lt; 1` | under budget but behind schedule | validate schedule logic/critical path; remove constraints; CR if finish date must move |
+| `&gt; 1` | `&gt; 1` | under budget + ahead of schedule | confirm data quality; communicate; consider pulling value forward (if governance allows) |
 :::
 
 ::: tip Schedule Nuance (Exam Clarity)
@@ -401,29 +432,52 @@ Key relationship: a **risk becomes an issue** when it occurs; issues and varianc
 ####  Decision Tree: Where Do I Log This?
 
 <ConceptCard title="Decision Tree: Where Do I Log This?">
-  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
-Is the problem HAPPENING RIGHT NOW?
-├─ YES → ISSUE LOG
-│  └─ Example: Test environment is down today
-│  └─ Example: Key developer called in sick
-│  └─ Example: UAT data is corrupted
-│
-└─ NO, it MIGHT happen later → Continue…
-   └─ Is it a known risk we identified in the Risk Register?
-      ├─ YES → Monitor RISK REGISTER (check triggers, execute response)
-      │  └─ Example: Vendor delays > 6 weeks
-      │  └─ Example: Technical integration risk with legacy system
-      │
-      └─ NO, it's a NEW risk → Add to RISK REGISTER
-         └─ Example: New regulatory requirement discovered
-         └─ Example: Team attrition risk (wasn't planned for)
-
-AFTER you address the issue/risk, does it require changing scope/schedule/cost/contracts?
-├─ YES → Submit CHANGE REQUEST
-│  └─ If approved: update baselines (scope/schedule/cost)
-│  └─ If rejected/deferred: log decision and communicate
-│
-└─ NO → Close issue/update risk register and communicate
+  <div style="padding: 1rem;">
+    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem 1.5rem; border-radius: 12px; text-align: center; font-weight: 600; margin-bottom: 1rem;">❓ Is the problem HAPPENING RIGHT NOW?</div>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+      <div style="background: linear-gradient(135deg, rgba(17, 153, 142, 0.1) 0%, rgba(56, 239, 125, 0.1) 100%); border: 2px solid #11998e; border-radius: 16px; padding: 1.25rem;">
+        <div style="background: #11998e; color: white; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 600; text-align: center; margin-bottom: 1rem;">✅ YES → ISSUE LOG</div>
+        <div style="font-size: 0.9rem; color: var(--vp-c-text-2);">
+          <div style="background: rgba(17, 153, 142, 0.1); padding: 0.5rem 0.75rem; border-radius: 8px; margin-bottom: 0.5rem;">📌 Test environment is down today</div>
+          <div style="background: rgba(17, 153, 142, 0.1); padding: 0.5rem 0.75rem; border-radius: 8px; margin-bottom: 0.5rem;">📌 Key developer called in sick</div>
+          <div style="background: rgba(17, 153, 142, 0.1); padding: 0.5rem 0.75rem; border-radius: 8px;">📌 UAT data is corrupted</div>
+        </div>
+      </div>
+      
+      <div style="background: linear-gradient(135deg, rgba(240, 147, 251, 0.1) 0%, rgba(245, 87, 108, 0.1) 100%); border: 2px solid #f093fb; border-radius: 16px; padding: 1.25rem;">
+        <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 600; text-align: center; margin-bottom: 1rem;">🔮 NO, MIGHT happen later</div>
+        
+        <div style="background: rgba(79, 172, 254, 0.1); border: 2px dashed #4facfe; border-radius: 12px; padding: 1rem; margin-bottom: 0.75rem;">
+          <div style="font-weight: 600; color: #4facfe; margin-bottom: 0.75rem; font-size: 0.9rem;">Known risk in Risk Register?</div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; font-size: 0.85rem;">
+            <div style="background: #4facfe; color: white; padding: 0.5rem; border-radius: 8px; text-align: center;">✓ YES → Monitor</div>
+            <div style="background: #fa709a; color: white; padding: 0.5rem; border-radius: 8px; text-align: center;">✗ NO → Add to Register</div>
+          </div>
+        </div>
+        
+        <div style="font-size: 0.85rem; color: var(--vp-c-text-2);">
+          <div style="background: rgba(240, 147, 251, 0.1); padding: 0.4rem 0.6rem; border-radius: 6px; margin-bottom: 0.4rem;">📌 Vendor delays more than 6 weeks</div>
+          <div style="background: rgba(240, 147, 251, 0.1); padding: 0.4rem 0.6rem; border-radius: 6px;">📌 New regulatory requirement</div>
+        </div>
+      </div>
+    </div>
+    
+    <div style="margin-top: 1.5rem; background: linear-gradient(135deg, rgba(250, 112, 154, 0.1) 0%, rgba(254, 225, 64, 0.1) 100%); border: 2px solid #fa709a; border-radius: 16px; padding: 1.25rem;">
+      <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: #333; padding: 0.75rem 1.25rem; border-radius: 10px; font-weight: 600; text-align: center; margin-bottom: 1rem;">📋 AFTER addressing: Does it require changing scope/schedule/cost/contracts?</div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; font-size: 0.9rem;">
+        <div style="background: rgba(17, 153, 142, 0.15); border-radius: 10px; padding: 0.75rem; text-align: center;">
+          <div style="font-weight: 600; color: #11998e; margin-bottom: 0.5rem;">✅ YES</div>
+          <div style="color: var(--vp-c-text-2);">Submit <strong>CHANGE REQUEST</strong></div>
+          <div style="font-size: 0.8rem; margin-top: 0.25rem; color: var(--vp-c-text-3);">Update baselines if approved</div>
+        </div>
+        <div style="background: rgba(102, 126, 234, 0.15); border-radius: 10px; padding: 0.75rem; text-align: center;">
+          <div style="font-weight: 600; color: #667eea; margin-bottom: 0.5rem;">❌ NO</div>
+          <div style="color: var(--vp-c-text-2);">Close issue / update register</div>
+          <div style="font-size: 0.8rem; margin-top: 0.25rem; color: var(--vp-c-text-3);">Communicate status</div>
+        </div>
+      </div>
+    </div>
   </div>
 </ConceptCard>
 
@@ -681,18 +735,44 @@ Traditional EVM provides a **deterministic** forecast (single-point estimate). *
 | **P80 (80th percentile)** | 80% chance of meeting this date/budget | Commitment to stakeholders |
 | **P90 (90th percentile)** | 90% chance of meeting this date/budget | Contractual deadlines |
 
-<strong>Example Output:</strong>
-```
-Project Completion Date Analysis (Monte Carlo, 10,000 simulations):
-- P50: December 1, 2026 (50% confidence)
-- P80: December 15, 2026 (80% confidence)
-- P90: January 5, 2027 (90% confidence)
-
-Cost at Completion Analysis:
-- P50: $485,000
-- P80: $512,000
-- P90: $545,000
-```
+<ConceptCard title="Example Monte Carlo Output (10,000 Simulations)">
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; padding: 0.5rem;">
+    <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%); border-radius: 12px; padding: 1.25rem;">
+      <div style="font-weight: 600; color: #667eea; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">📅 Project Completion Date</div>
+      <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(102, 126, 234, 0.15); padding: 0.75rem 1rem; border-radius: 8px;">
+          <span style="font-weight: 500;">P50</span>
+          <span style="color: var(--vp-c-text-2);">Dec 1, 2026 <span style="font-size: 0.8rem;">(50%)</span></span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(102, 126, 234, 0.25); padding: 0.75rem 1rem; border-radius: 8px;">
+          <span style="font-weight: 500;">P80</span>
+          <span style="color: var(--vp-c-text-2);">Dec 15, 2026 <span style="font-size: 0.8rem;">(80%)</span></span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(102, 126, 234, 0.35); padding: 0.75rem 1rem; border-radius: 8px;">
+          <span style="font-weight: 500;">P90</span>
+          <span style="color: var(--vp-c-text-2);">Jan 5, 2027 <span style="font-size: 0.8rem;">(90%)</span></span>
+        </div>
+      </div>
+    </div>
+    <div style="background: linear-gradient(135deg, rgba(17, 153, 142, 0.1) 0%, rgba(56, 239, 125, 0.1) 100%); border-radius: 12px; padding: 1.25rem;">
+      <div style="font-weight: 600; color: #11998e; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">💰 Cost at Completion</div>
+      <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(17, 153, 142, 0.15); padding: 0.75rem 1rem; border-radius: 8px;">
+          <span style="font-weight: 500;">P50</span>
+          <span style="color: var(--vp-c-text-2);">$485,000 <span style="font-size: 0.8rem;">(50%)</span></span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(17, 153, 142, 0.25); padding: 0.75rem 1rem; border-radius: 8px;">
+          <span style="font-weight: 500;">P80</span>
+          <span style="color: var(--vp-c-text-2);">$512,000 <span style="font-size: 0.8rem;">(80%)</span></span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(17, 153, 142, 0.35); padding: 0.75rem 1rem; border-radius: 8px;">
+          <span style="font-weight: 500;">P90</span>
+          <span style="color: var(--vp-c-text-2);">$545,000 <span style="font-size: 0.8rem;">(90%)</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</ConceptCard>
 
 ::: info Exam Application
 If a question asks about forecasting for *high-uncertainty* projects or mentions "confidence levels," Monte Carlo is the appropriate technique. If the question asks for a single forecast value, use EVM formulas.
@@ -718,30 +798,64 @@ Effective monitoring requires presenting data in ways that drive decisions. The 
 The **S-curve** plots cumulative planned value (PV), earned value (EV), and actual cost (AC) over time.
 
 <ConceptCard title="S-Curve Interpretation">
-  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
-         Cumulative $
-              │
-    BAC ─ ─ ─ ┼─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┐
-              │                    │
-              │         PV ───────●│ (Planned completion)
-              │        /          /│
-              │       /   EV ────● │ (Actual progress)
-              │      /   /       / │
-              │     /   /  AC ──●  │ (Actual spending)
-              │    /   /   /       │
-              │   /   /   /        │
-              │──●───●───●─────────┼────── Time
-              │                    │
-              Start              Finish
+  <div style="padding: 1rem;">
+    <svg viewBox="0 0 400 280" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
+      <defs>
+        <linearGradient id="pvGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#667eea" stop-opacity="1" />
+          <stop offset="100%" stop-color="#764ba2" stop-opacity="1" />
+        </linearGradient>
+        <linearGradient id="evGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#11998e" stop-opacity="1" />
+          <stop offset="100%" stop-color="#38ef7d" stop-opacity="1" />
+        </linearGradient>
+        <linearGradient id="acGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#f093fb" stop-opacity="1" />
+          <stop offset="100%" stop-color="#f5576c" stop-opacity="1" />
+        </linearGradient>
+      </defs>
+      
+      <line x1="50" y1="230" x2="380" y2="230" stroke="var(--vp-c-text-2)" stroke-width="2" />
+      <line x1="50" y1="230" x2="50" y2="30" stroke="var(--vp-c-text-2)" stroke-width="2" />
+      
+      <text x="215" y="260" fill="var(--vp-c-text-2)" font-size="12" text-anchor="middle">Time</text>
+      <text x="25" y="130" fill="var(--vp-c-text-2)" font-size="12" text-anchor="middle" transform="rotate(-90, 25, 130)">Cumulative $</text>
+      
+      <line x1="50" y1="50" x2="370" y2="50" stroke="var(--vp-c-text-3)" stroke-width="1" stroke-dasharray="5,5" />
+      <text x="55" y="45" fill="var(--vp-c-text-2)" font-size="11">BAC</text>
+      
+      <text x="50" y="250" fill="var(--vp-c-text-2)" font-size="10" text-anchor="middle">Start</text>
+      <text x="370" y="250" fill="var(--vp-c-text-2)" font-size="10" text-anchor="middle">Finish</text>
+      
+      <path d="M50,230 Q120,200 180,150 T320,55 L370,50" fill="none" stroke="url(#pvGradient)" stroke-width="3" stroke-linecap="round" />
+      <circle cx="370" cy="50" r="6" fill="#667eea" />
+      
+      <path d="M50,230 Q130,210 200,160 T330,75" fill="none" stroke="url(#evGradient)" stroke-width="3" stroke-linecap="round" />
+      <circle cx="330" cy="75" r="6" fill="#11998e" />
+      
+      <path d="M50,230 Q110,190 170,130 T320,65" fill="none" stroke="url(#acGradient)" stroke-width="3" stroke-linecap="round" />
+      <circle cx="320" cy="65" r="6" fill="#f5576c" />
+      
+      <rect x="260" y="170" width="120" height="55" rx="8" fill="var(--vp-c-bg-soft)" stroke="var(--vp-c-divider)" stroke-width="1" />
+      <line x1="270" y1="185" x2="295" y2="185" stroke="url(#pvGradient)" stroke-width="3" />
+      <text x="302" y="189" fill="var(--vp-c-text-1)" font-size="11">PV (Planned)</text>
+      <line x1="270" y1="200" x2="295" y2="200" stroke="url(#evGradient)" stroke-width="3" />
+      <text x="302" y="204" fill="var(--vp-c-text-1)" font-size="11">EV (Earned)</text>
+      <line x1="270" y1="215" x2="295" y2="215" stroke="url(#acGradient)" stroke-width="3" />
+      <text x="302" y="219" fill="var(--vp-c-text-1)" font-size="11">AC (Actual)</text>
+    </svg>
+    <div style="text-align: center; margin-top: 0.75rem; font-size: 0.85rem; color: var(--vp-c-text-2);">
+      This example shows: <strong style="color: #f5576c;">Over budget</strong> (AC above EV) and <strong style="color: #11998e;">Behind schedule</strong> (EV below PV)
+    </div>
   </div>
 </ConceptCard>
 
 | Pattern | What It Means | Action |
 |---|---|---|
-| **EV < PV, AC < PV** | Behind schedule, under budget | May recover naturally; investigate blockers |
-| **EV < PV, AC > EV** | Behind schedule, over budget | High priority; analyze root cause immediately |
-| **EV > PV, AC < EV** | Ahead of schedule, under budget | Validate data; consider pulling work forward |
-| **EV > PV, AC > EV** | Ahead of schedule, over budget | Crashing may be causing cost overrun |
+| EV &lt; PV, AC &lt; PV | Behind schedule, under budget | May recover naturally; investigate blockers |
+| EV &lt; PV, AC &gt; EV | Behind schedule, over budget | High priority; analyze root cause immediately |
+| EV &gt; PV, AC &lt; EV | Ahead of schedule, under budget | Validate data; consider pulling work forward |
+| EV &gt; PV, AC &gt; EV | Ahead of schedule, over budget | Crashing may be causing cost overrun |
 
 ### Dashboard Design Principles
 
@@ -799,12 +913,30 @@ This example demonstrates how to track a project across multiple reporting perio
 
 ### Forecast at Week 12
 
-```
-EAC = BAC / CPI = $400,000 / 0.74 = $540,541 (≈ $541K)
-ETC = EAC - AC = $541K - $270K = $271K (remaining to complete)
-VAC = BAC - EAC = $400K - $541K = -$141K (forecast overrun)
-TCPI = (BAC - EV) / (BAC - AC) = ($400K - $200K) / ($400K - $270K) = $200K / $130K = 1.54
-```
+<ConceptCard title="Forecast Calculations at Week 12">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; padding: 0.5rem;">
+    <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%); border-radius: 12px; padding: 1rem;">
+      <div style="font-size: 0.8rem; color: var(--vp-c-text-2); margin-bottom: 0.25rem;">EAC (Estimate at Completion)</div>
+      <div style="font-weight: 700; font-size: 1.2rem; color: #667eea;">$540,541</div>
+      <div style="font-size: 0.75rem; color: var(--vp-c-text-3); margin-top: 0.25rem;">BAC / CPI = $400K / 0.74</div>
+    </div>
+    <div style="background: linear-gradient(135deg, rgba(17, 153, 142, 0.15) 0%, rgba(56, 239, 125, 0.15) 100%); border-radius: 12px; padding: 1rem;">
+      <div style="font-size: 0.8rem; color: var(--vp-c-text-2); margin-bottom: 0.25rem;">ETC (Estimate to Complete)</div>
+      <div style="font-weight: 700; font-size: 1.2rem; color: #11998e;">$271K</div>
+      <div style="font-size: 0.75rem; color: var(--vp-c-text-3); margin-top: 0.25rem;">EAC - AC = $541K - $270K</div>
+    </div>
+    <div style="background: linear-gradient(135deg, rgba(245, 87, 108, 0.15) 0%, rgba(240, 147, 251, 0.15) 100%); border-radius: 12px; padding: 1rem;">
+      <div style="font-size: 0.8rem; color: var(--vp-c-text-2); margin-bottom: 0.25rem;">VAC (Variance at Completion)</div>
+      <div style="font-weight: 700; font-size: 1.2rem; color: #f5576c;">-$141K</div>
+      <div style="font-size: 0.75rem; color: var(--vp-c-text-3); margin-top: 0.25rem;">BAC - EAC = Forecast Overrun</div>
+    </div>
+    <div style="background: linear-gradient(135deg, rgba(250, 112, 154, 0.15) 0%, rgba(254, 225, 64, 0.15) 100%); border-radius: 12px; padding: 1rem;">
+      <div style="font-size: 0.8rem; color: var(--vp-c-text-2); margin-bottom: 0.25rem;">TCPI (To-Complete Performance Index)</div>
+      <div style="font-weight: 700; font-size: 1.2rem; color: #fa709a;">1.54</div>
+      <div style="font-size: 0.75rem; color: var(--vp-c-text-3); margin-top: 0.25rem;">(BAC-EV) / (BAC-AC) = Unrealistic</div>
+    </div>
+  </div>
+</ConceptCard>
 
 ### Interpretation
 

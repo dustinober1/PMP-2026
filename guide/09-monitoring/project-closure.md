@@ -118,16 +118,24 @@ The **Business Case** promised benefits (e.g., "reduce support costs by 20%" or 
 3. When will benefits be measured? (Often 3, 6, or 12 months post-go-live)
 4. How will measurement happen? (Dashboard, survey, financial system extract, etc.)
 
-**Benefits Handoff Template** (from toolkit):
-```
-Benefit: Reduce support costs by 20%
-Owner: Operations Director
-Success metric: cost per ticket
-Target: -20% vs baseline
-When measured: Monthly, starting 30 days post-go-live
-Data source: Finance system (cost tracking)
-Responsibility transfer: From PM to Ops Director on 2026-02-15
-```
+<ConceptCard title="Benefits Handoff Template" tag="From Toolkit">
+  <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 0.75rem; font-size: 0.95rem;">
+    <div style="font-weight: 600; color: var(--vp-c-brand-1);">Benefit</div>
+    <div>Reduce support costs by 20%</div>
+    <div style="font-weight: 600; color: var(--vp-c-brand-1);">Owner</div>
+    <div>Operations Director</div>
+    <div style="font-weight: 600; color: var(--vp-c-brand-1);">Success Metric</div>
+    <div>Cost per ticket</div>
+    <div style="font-weight: 600; color: var(--vp-c-brand-1);">Target</div>
+    <div>-20% vs baseline</div>
+    <div style="font-weight: 600; color: var(--vp-c-brand-1);">When Measured</div>
+    <div>Monthly, starting 30 days post-go-live</div>
+    <div style="font-weight: 600; color: var(--vp-c-brand-1);">Data Source</div>
+    <div>Finance system (cost tracking)</div>
+    <div style="font-weight: 600; color: var(--vp-c-brand-1);">Responsibility Transfer</div>
+    <div>From PM to Ops Director on 2026-02-15</div>
+  </div>
+</ConceptCard>
 
 <strong>On the Exam:</strong>
 If a question asks "What should you do at closure?" and the answer involves "track benefits," make sure the **ownership is transferred** to someone else. The PM's role in benefits is to hand it off; the organization's role is to measure it post-closure.
@@ -249,26 +257,39 @@ A **Post-Project Review** is a formal governance event that occurs after project
 
 The PM's job ends at handoff, but the **organization** continues tracking benefits:
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                 BENEFITS REALIZATION TIMELINE                   │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  Project       Go-Live        30 days        90 days   1 year  │
-│  Closure         │               │              │          │   │
-│     │            │               │              │          │   │
-│     ▼            ▼               ▼              ▼          ▼   │
-│  ┌──────┐    ┌───────┐     ┌─────────┐    ┌────────┐   ┌─────┐ │
-│  │Handoff│──│Adoption│───│ Early   │───│ Full   │──│ ROI │ │
-│  │       │    │ Phase │     │ Results │    │Benefits│   │Review│ │
-│  └──────┘    └───────┘     └─────────┘    └────────┘   └─────┘ │
-│      │            │               │              │          │   │
-│      │            │               │              │          │   │
-│   PM Role     Operations     Operations     Business    Finance │
-│   Ends        Monitors       Measures       Validates   Audits │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+<ConceptCard title="Benefits Realization Timeline" tag="Post-Closure Tracking">
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; flex-wrap: wrap; padding: 1rem 0;">
+    <div style="text-align: center; flex: 1; min-width: 100px;">
+      <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem 0.75rem; border-radius: 12px; font-weight: 600; margin-bottom: 0.5rem;">📋 Handoff</div>
+      <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">Project Closure</div>
+      <div style="font-size: 0.7rem; color: var(--vp-c-brand-1); margin-top: 0.25rem;">PM Role Ends</div>
+    </div>
+    <div style="align-self: center; color: var(--vp-c-text-3);">→</div>
+    <div style="text-align: center; flex: 1; min-width: 100px;">
+      <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 1rem 0.75rem; border-radius: 12px; font-weight: 600; margin-bottom: 0.5rem;">🚀 Adoption</div>
+      <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">Go-Live</div>
+      <div style="font-size: 0.7rem; color: var(--vp-c-brand-1); margin-top: 0.25rem;">Operations Monitors</div>
+    </div>
+    <div style="align-self: center; color: var(--vp-c-text-3);">→</div>
+    <div style="text-align: center; flex: 1; min-width: 100px;">
+      <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 1rem 0.75rem; border-radius: 12px; font-weight: 600; margin-bottom: 0.5rem;">📊 Early Results</div>
+      <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">30 days</div>
+      <div style="font-size: 0.7rem; color: var(--vp-c-brand-1); margin-top: 0.25rem;">Operations Measures</div>
+    </div>
+    <div style="align-self: center; color: var(--vp-c-text-3);">→</div>
+    <div style="text-align: center; flex: 1; min-width: 100px;">
+      <div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: white; padding: 1rem 0.75rem; border-radius: 12px; font-weight: 600; margin-bottom: 0.5rem;">✅ Full Benefits</div>
+      <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">90 days</div>
+      <div style="font-size: 0.7rem; color: var(--vp-c-brand-1); margin-top: 0.25rem;">Business Validates</div>
+    </div>
+    <div style="align-self: center; color: var(--vp-c-text-3);">→</div>
+    <div style="text-align: center; flex: 1; min-width: 100px;">
+      <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: white; padding: 1rem 0.75rem; border-radius: 12px; font-weight: 600; margin-bottom: 0.5rem;">💰 ROI Review</div>
+      <div style="font-size: 0.75rem; color: var(--vp-c-text-2);">1 year</div>
+      <div style="font-size: 0.7rem; color: var(--vp-c-brand-1); margin-top: 0.25rem;">Finance Audits</div>
+    </div>
+  </div>
+</ConceptCard>
 
 ::: tip 2026 Exam Pattern
 Questions may ask "Who is responsible for benefits tracking after closure?" The answer is typically the **business owner, product owner, or operations** — NOT the project manager. The PM's role is to set up the tracking mechanism and hand it off.
@@ -481,26 +502,48 @@ Different contract types create different closure considerations. The 2026 PMP e
 - For CPIF: Calculate final incentive based on cost performance
 - For CPAF: Conduct performance evaluation for award fee
 
-<strong>CPIF Fee Calculation Example:</strong>
-
-```
-Contract terms:
-- Target Cost: $1,000,000
-- Target Fee: $80,000
-- Sharing Ratio: 70/30 (buyer/seller)
-- Maximum Fee: $120,000
-- Minimum Fee: $40,000
-
-Actual performance:
-- Actual Cost: $950,000 (under target by $50,000)
-
-Fee calculation:
-- Cost underrun: $50,000
-- Seller share (30%): $15,000
-- Final Fee: $80,000 + $15,000 = $95,000
-
-Total payment: $950,000 + $95,000 = $1,045,000
-```
+<ConceptCard title="CPIF Fee Calculation Example" tag="Cost Plus Incentive Fee">
+  <ConceptGrid>
+    <ConceptCard title="Contract Terms" tag="Given">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; font-size: 0.9rem;">
+        <div>Target Cost:</div><div style="font-weight: 600;">$1,000,000</div>
+        <div>Target Fee:</div><div style="font-weight: 600;">$80,000</div>
+        <div>Sharing Ratio:</div><div style="font-weight: 600;">70/30 (buyer/seller)</div>
+        <div>Maximum Fee:</div><div style="font-weight: 600;">$120,000</div>
+        <div>Minimum Fee:</div><div style="font-weight: 600;">$40,000</div>
+      </div>
+    </ConceptCard>
+    <ConceptCard title="Actual Performance" tag="Result">
+      <div style="text-align: center; padding: 1rem;">
+        <div style="font-size: 2rem; font-weight: 700; color: #43e97b;">$950,000</div>
+        <div style="color: var(--vp-c-text-2);">Actual Cost</div>
+        <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(67, 233, 123, 0.1); border-radius: 8px; color: #43e97b; font-weight: 600;">$50,000 under target</div>
+      </div>
+    </ConceptCard>
+  </ConceptGrid>
+  <div style="margin-top: 1rem; padding: 1rem; background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%); border-radius: 12px;">
+    <div style="font-weight: 600; margin-bottom: 0.75rem; color: var(--vp-c-brand-1);">📊 Fee Calculation</div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; text-align: center;">
+      <div>
+        <div style="font-size: 1.25rem; font-weight: 600;">$50,000</div>
+        <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">Cost Underrun</div>
+      </div>
+      <div>
+        <div style="font-size: 1.25rem; font-weight: 600;">$15,000</div>
+        <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">Seller Share (30%)</div>
+      </div>
+      <div>
+        <div style="font-size: 1.25rem; font-weight: 600; color: #43e97b;">$95,000</div>
+        <div style="font-size: 0.8rem; color: var(--vp-c-text-2);">Final Fee</div>
+      </div>
+    </div>
+    <div style="margin-top: 1rem; padding: 1rem; background: var(--vp-c-bg); border-radius: 8px; text-align: center;">
+      <div style="font-size: 0.9rem; color: var(--vp-c-text-2);">Total Payment</div>
+      <div style="font-size: 1.75rem; font-weight: 700; color: var(--vp-c-brand-1);">$1,045,000</div>
+      <div style="font-size: 0.85rem; color: var(--vp-c-text-3);">$950,000 + $95,000</div>
+    </div>
+  </div>
+</ConceptCard>
 
 ::: tip Exam Pattern
 CPIF questions often ask you to calculate the final fee. Know the formula: **Final Fee = Target Fee ± (Target Cost - Actual Cost) × Seller Share**. Apply max/min caps.
@@ -673,28 +716,40 @@ When a stakeholder won't sign off, follow this escalation path:
 
 ### Acceptance Documentation Template
 
-```
-PROJECT: [Name]
-DELIVERABLE: [Description]
-ACCEPTANCE DATE: [Date]
-
-ACCEPTANCE CRITERIA STATUS:
- Criteria 1: [Description] - PASS (Evidence: [Link])
- Criteria 2: [Description] - PASS (Evidence: [Link])
- Criteria 3: [Description] - PASS (Evidence: [Link])
-
-KNOWN ISSUES (if any):
-- [Issue description] - Severity: Low - Resolution: Warranty period
-
-STAKEHOLDER ACKNOWLEDGMENT:
-I confirm that the above deliverable meets the documented acceptance criteria
-and is accepted for use.
-
-Signature: _______________________
-Name: ___________________________
-Role: ___________________________
-Date: ___________________________
-```
+<ConceptCard title="Acceptance Documentation Template" tag="Copy and Customize">
+  <div style="background: var(--vp-c-bg-soft); padding: 1.5rem; border-radius: 12px; border-left: 4px solid var(--vp-c-brand-1);">
+    <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 0.75rem; margin-bottom: 1.5rem;">
+      <div style="font-weight: 600; color: var(--vp-c-brand-1);">PROJECT:</div>
+      <div style="border-bottom: 1px dashed var(--vp-c-divider);">[Name]</div>
+      <div style="font-weight: 600; color: var(--vp-c-brand-1);">DELIVERABLE:</div>
+      <div style="border-bottom: 1px dashed var(--vp-c-divider);">[Description]</div>
+      <div style="font-weight: 600; color: var(--vp-c-brand-1);">ACCEPTANCE DATE:</div>
+      <div style="border-bottom: 1px dashed var(--vp-c-divider);">[Date]</div>
+    </div>
+    <div style="margin-bottom: 1.5rem;">
+      <div style="font-weight: 600; color: var(--vp-c-brand-1); margin-bottom: 0.75rem;">ACCEPTANCE CRITERIA STATUS:</div>
+      <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+        <div style="display: flex; align-items: center; gap: 0.5rem;"><span style="color: #43e97b;">✓</span> Criteria 1: [Description] - <span style="color: #43e97b; font-weight: 600;">PASS</span> (Evidence: [Link])</div>
+        <div style="display: flex; align-items: center; gap: 0.5rem;"><span style="color: #43e97b;">✓</span> Criteria 2: [Description] - <span style="color: #43e97b; font-weight: 600;">PASS</span> (Evidence: [Link])</div>
+        <div style="display: flex; align-items: center; gap: 0.5rem;"><span style="color: #43e97b;">✓</span> Criteria 3: [Description] - <span style="color: #43e97b; font-weight: 600;">PASS</span> (Evidence: [Link])</div>
+      </div>
+    </div>
+    <div style="margin-bottom: 1.5rem; padding: 1rem; background: rgba(250, 112, 154, 0.1); border-radius: 8px;">
+      <div style="font-weight: 600; color: #fa709a; margin-bottom: 0.5rem;">KNOWN ISSUES (if any):</div>
+      <div style="font-size: 0.9rem;">• [Issue description] - Severity: Low - Resolution: Warranty period</div>
+    </div>
+    <div style="padding: 1rem; background: var(--vp-c-bg); border-radius: 8px; border: 1px solid var(--vp-c-divider);">
+      <div style="font-weight: 600; color: var(--vp-c-brand-1); margin-bottom: 0.75rem;">STAKEHOLDER ACKNOWLEDGMENT:</div>
+      <div style="font-style: italic; margin-bottom: 1rem; color: var(--vp-c-text-2);">I confirm that the above deliverable meets the documented acceptance criteria and is accepted for use.</div>
+      <div style="display: grid; grid-template-columns: auto 1fr; gap: 0.5rem 1rem;">
+        <div style="font-weight: 500;">Signature:</div><div style="border-bottom: 1px solid var(--vp-c-divider);"></div>
+        <div style="font-weight: 500;">Name:</div><div style="border-bottom: 1px solid var(--vp-c-divider);"></div>
+        <div style="font-weight: 500;">Role:</div><div style="border-bottom: 1px solid var(--vp-c-divider);"></div>
+        <div style="font-weight: 500;">Date:</div><div style="border-bottom: 1px solid var(--vp-c-divider);"></div>
+      </div>
+    </div>
+  </div>
+</ConceptCard>
 
 ### Punch List Approach
 

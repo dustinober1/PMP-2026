@@ -12,13 +12,47 @@ Use this page as a copy/paste toolkit for Monitoring & Controlling and Project C
 
 ---
 
-##  Monitoring Cadence (15-Minute Weekly Agenda)
+## Monitoring Cadence (15-Minute Weekly Agenda)
 
-- Progress vs baseline/backlog (milestones, burnup/burndown)
-- Variances + trends (CPI/SPI or flow metrics)
-- Top risks and issues (new, escalations, owners, due dates)
-- Open change requests (status + decisions needed)
-- Next week plan (what changes based on what we learned)
+<ConceptCard title="Weekly Monitoring Agenda">
+  <div style="display: flex; flex-direction: column; gap: 12px;">
+    <div style="display: flex; align-items: flex-start; gap: 12px; padding: 12px; background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(147, 51, 234, 0.1)); border-radius: 8px; border-left: 4px solid #3b82f6;">
+      <span style="font-size: 1.2em;">📊</span>
+      <div>
+        <strong style="color: #3b82f6;">Progress Check</strong>
+        <p style="margin: 4px 0 0 0; opacity: 0.9;">Progress vs baseline/backlog (milestones, burnup/burndown)</p>
+      </div>
+    </div>
+    <div style="display: flex; align-items: flex-start; gap: 12px; padding: 12px; background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(59, 130, 246, 0.1)); border-radius: 8px; border-left: 4px solid #22c55e;">
+      <span style="font-size: 1.2em;">📈</span>
+      <div>
+        <strong style="color: #22c55e;">Variance Analysis</strong>
+        <p style="margin: 4px 0 0 0; opacity: 0.9;">Variances + trends (CPI/SPI or flow metrics)</p>
+      </div>
+    </div>
+    <div style="display: flex; align-items: flex-start; gap: 12px; padding: 12px; background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(249, 115, 22, 0.1)); border-radius: 8px; border-left: 4px solid #ef4444;">
+      <span style="font-size: 1.2em;">⚠️</span>
+      <div>
+        <strong style="color: #ef4444;">Risks and Issues</strong>
+        <p style="margin: 4px 0 0 0; opacity: 0.9;">Top risks and issues (new, escalations, owners, due dates)</p>
+      </div>
+    </div>
+    <div style="display: flex; align-items: flex-start; gap: 12px; padding: 12px; background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(236, 72, 153, 0.1)); border-radius: 8px; border-left: 4px solid #a855f7;">
+      <span style="font-size: 1.2em;">🔄</span>
+      <div>
+        <strong style="color: #a855f7;">Change Requests</strong>
+        <p style="margin: 4px 0 0 0; opacity: 0.9;">Open change requests (status + decisions needed)</p>
+      </div>
+    </div>
+    <div style="display: flex; align-items: flex-start; gap: 12px; padding: 12px; background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(234, 179, 8, 0.1)); border-radius: 8px; border-left: 4px solid #f59e0b;">
+      <span style="font-size: 1.2em;">🎯</span>
+      <div>
+        <strong style="color: #f59e0b;">Next Week Plan</strong>
+        <p style="margin: 4px 0 0 0; opacity: 0.9;">What changes based on what we learned</p>
+      </div>
+    </div>
+  </div>
+</ConceptCard>
 
 ::: tip  Exam shortcut
 If there is a problem, you usually (1) analyze it, (2) decide an action, and (3) communicate it. “Doing work” without the decision step is often the wrong answer.
@@ -26,56 +60,111 @@ If there is a problem, you usually (1) analyze it, (2) decide an action, and (3)
 
 ---
 
-##  Status Report Template (Predictive / Hybrid)
+## Status Report Template (Predictive / Hybrid)
 
-**One-page rule**: the sponsor should understand status in under 60 seconds and know what decisions are needed.
-
-| Section | Content (fill-in template) |
-|---|---|
-| **Overall status (RAG)** | Red / Amber / Green + 1-sentence reason |
-| **Accomplished (since last report)** | bullet list |
-| **Planned (next period)** | bullet list |
-| **Schedule** | milestone status + forecast finish date |
-| **Cost** | budget spent + forecast (EAC) if applicable |
-| **Key metrics** | CPI/SPI or burnup/CFD + interpretation |
-| **Top risks** | risk + owner + next action |
-| **Top issues** | issue + owner + due date |
-| **Change requests** | CRs submitted/approved + impact summary |
-| **Decisions needed** | decision + deadline + decision-maker |
+<ConceptCard title="One-Page Status Report Structure">
+  <div style="display: flex; flex-direction: column; gap: 12px;">
+    <p style="margin: 0 0 12px 0; font-size: 0.9em; opacity: 0.8;">Rule: Sponsor should understand status in < 60 seconds.</p>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      <div style="background: rgba(59, 130, 246, 0.05); padding: 10px; border-radius: 6px; border-left: 3px solid #3b82f6;">
+        <strong>Overall Status (RAG)</strong>
+        <div style="font-size: 0.9em; margin-top: 4px;">Red/Amber/Green + 1-sentence reason</div>
+      </div>
+      <div style="background: rgba(34, 197, 94, 0.05); padding: 10px; border-radius: 6px; border-left: 3px solid #22c55e;">
+        <strong>Accomplished</strong>
+        <div style="font-size: 0.9em; margin-top: 4px;">Key completed items this period</div>
+      </div>
+       <div style="background: rgba(168, 85, 247, 0.05); padding: 10px; border-radius: 6px; border-left: 3px solid #a855f7;">
+        <strong>Planned</strong>
+        <div style="font-size: 0.9em; margin-top: 4px;">Priorities for next period</div>
+      </div>
+      <div style="background: rgba(245, 158, 11, 0.05); padding: 10px; border-radius: 6px; border-left: 3px solid #f59e0b;">
+        <strong>Metrics & Forecast</strong>
+        <div style="font-size: 0.9em; margin-top: 4px;">Milestones, CPI/SPI, Budget, EAC</div>
+      </div>
+    </div>
+    <div style="background: rgba(239, 68, 68, 0.05); padding: 10px; border-radius: 6px; border-left: 3px solid #ef4444;">
+      <strong>Risks, Issues & Decisions</strong>
+      <div style="font-size: 0.9em; margin-top: 4px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px;">
+        <span>• Top Risks</span>
+        <span>• Critical Issues</span>
+        <span>• Decisions Needed</span>
+      </div>
+    </div>
+  </div>
+</ConceptCard>
 
 ---
 
-##  EVM Worksheet (Mini Template)
+## EVM Worksheet (Mini Template)
 
-Fill in the inputs, then compute the metrics.
+<ConceptCard title="Earned Value Management Metrics">
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <!-- Inputs -->
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; text-align: center;">
+      <div style="background: #f1f5f9; padding: 8px; border-radius: 6px;">
+        <strong>BAC</strong><div style="font-size: 0.8em; opacity: 0.7;">Budget at Completion</div>
+      </div>
+      <div style="background: #f1f5f9; padding: 8px; border-radius: 6px;">
+        <strong>PV</strong><div style="font-size: 0.8em; opacity: 0.7;">Planned Value</div>
+      </div>
+      <div style="background: #f1f5f9; padding: 8px; border-radius: 6px;">
+        <strong>EV</strong><div style="font-size: 0.8em; opacity: 0.7;">Earned Value</div>
+      </div>
+      <div style="background: #f1f5f9; padding: 8px; border-radius: 6px;">
+        <strong>AC</strong><div style="font-size: 0.8em; opacity: 0.7;">Actual Cost</div>
+      </div>
+    </div>
 
-| Input | Value |
-|---|---:|
-| **BAC** |  |
-| **PV** |  |
-| **EV** |  |
-| **AC** |  |
+    <!-- Variances -->
+    <div style="background: rgba(59, 130, 246, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(59, 130, 246, 0.2);">
+      <strong style="color: #3b82f6; display: block; margin-bottom: 8px;">Variances (History)</strong>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+        <div>
+          <strong>CV = EV - AC</strong>
+          <div style="font-size: 0.8em;">Cost Variance</div>
+        </div>
+        <div>
+          <strong>SV = EV - PV</strong>
+          <div style="font-size: 0.8em;">Schedule Variance</div>
+        </div>
+      </div>
+    </div>
 
-Quick reminder:
-- `PV = % planned complete × BAC`
-- `EV = % actually complete × BAC`
+    <!-- Indices -->
+    <div style="background: rgba(168, 85, 247, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(168, 85, 247, 0.2);">
+      <strong style="color: #a855f7; display: block; margin-bottom: 8px;">Indices (Efficiency)</strong>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+        <div>
+          <strong>CPI = EV / AC</strong>
+          <div style="font-size: 0.8em;">Cost Performance Index</div>
+          <div style="font-size: 0.75em; color: #ef4444; margin-top: 2px;">Over budget if &lt; 1</div>
+        </div>
+        <div>
+          <strong>SPI = EV / PV</strong>
+          <div style="font-size: 0.8em;">Schedule Performance Index</div>
+          <div style="font-size: 0.75em; color: #ef4444; margin-top: 2px;">Behind schedule if &lt; 1</div>
+        </div>
+      </div>
+    </div>
 
-| Output | Formula | Result |
-|---|---|---:|
-| **CV** | $EV - AC$ |  |
-| **SV** | $EV - PV$ |  |
-| **CPI** | $EV / AC$ |  |
-| **SPI** | $EV / PV$ |  |
-| **EAC** (typical) | $BAC / CPI$ |  |
-| **ETC** | $EAC - AC$ |  |
-| **VAC** | $BAC - EAC$ |  |
-| **TCPI** | $(BAC - EV)/(BAC - AC)$ |  |
-
-::: info  Interpretation shortcuts
-- **CPI < 1**: over budget; update forecast and analyze root cause.
-- **SPI < 1**: behind schedule; confirm critical path impact and remove constraints.
-- **TCPI > 1**: you must perform better than planned to hit the target; the higher it is, the less realistic the target is.
-:::
+    <!-- Forecasts -->
+    <div style="background: rgba(34, 197, 94, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(34, 197, 94, 0.2);">
+      <strong style="color: #22c55e; display: block; margin-bottom: 8px;">Forecasts (Future)</strong>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+        <div>
+          <strong>EAC = BAC / CPI</strong>
+          <div style="font-size: 0.8em;">Estimate at Completion</div>
+        </div>
+        <div>
+          <strong>TCPI = (BAC-EV)/(BAC-AC)</strong>
+          <div style="font-size: 0.8em;">To-Complete Performance Index</div>
+          <div style="font-size: 0.75em; color: #ef4444; margin-top: 2px;">Harder to finish if > 1</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ConceptCard>
 
 ---
 
@@ -192,18 +281,39 @@ Use this to keep governance clean: what was decided, by whom, when, and why.
 
 ---
 
-##  Transition / Handoff Checklist
+## Transition / Handoff Checklist
 
-Use this to prevent “it works, so we are done” thinking.
-
-- Acceptance/sign-off obtained (or formal process followed if disputed)
-- Operations owner identified and engaged
-- Training delivered (users + support team)
-- Runbooks/operating procedures delivered and verified
-- Access, monitoring, and support tooling configured
-- Warranty/SLAs and escalation paths documented
-- Residual risks/issues disposition agreed (closed vs handed over)
-- Benefits ownership assigned (who measures outcomes after closure)
+<ConceptCard title="Operational Readiness & Handoff">
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <span style="color: #22c55e;">✅</span> Acceptance/Sign-off obtained
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <span style="color: #22c55e;">✅</span> Ops owner engaged
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <span style="color: #22c55e;">✅</span> Training delivered
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <span style="color: #22c55e;">✅</span> Runbooks delivered
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <span style="color: #22c55e;">✅</span> Access/Tooling configured
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <span style="color: #22c55e;">✅</span> Warranty/SLAs documented
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <span style="color: #22c55e;">✅</span> Residual risks agreed
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <span style="color: #22c55e;">✅</span> Benefits owner assigned
+    </div>
+  </div>
+  <p style="margin-top: 12px; font-size: 0.9em; font-style: italic; opacity: 0.8; border-top: 1px solid #e2e8f0; padding-top: 8px;">
+    Goal: Prevent "it works, so we are done" thinking. Ensure sustainable operations.
+  </p>
+</ConceptCard>
 
 ##  Benefits Handoff (Mini Template)
 
@@ -213,18 +323,30 @@ Use this to prevent “it works, so we are done” thinking.
 
 ---
 
-##  Close Project or Phase Checklist
+## Close Project or Phase Checklist
 
-- Deliverables accepted (Validate Scope)
-- Open change requests closed (approved/rejected/deferred)
-- Open issues resolved or formally transferred
-- Risk register updated and archived
-- Procurements closed (deliverables accepted, payments complete, claims resolved)
-- Final budget reconciled and financials closed
-- Final report completed and distributed
-- Lessons learned finalized and stored as OPAs
-- Project artifacts archived (PMIS/OPA library)
-- Resources formally released (and recognition provided)
+<ConceptCard title="Formal Closure Steps">
+  <div style="display: flex; flex-direction: column; gap: 8px;">
+    <div style="background: rgba(59, 130, 246, 0.05); padding: 8px 12px; border-radius: 6px; border-left: 3px solid #3b82f6;">
+      <strong>1. Deliverables Accepted</strong> (Validate Scope)
+    </div>
+    <div style="background: rgba(59, 130, 246, 0.05); padding: 8px 12px; border-radius: 6px; border-left: 3px solid #3b82f6;">
+      <strong>2. Financials Closed</strong> (Final budget reconciled, payments complete)
+    </div>
+    <div style="background: rgba(59, 130, 246, 0.05); padding: 8px 12px; border-radius: 6px; border-left: 3px solid #3b82f6;">
+      <strong>3. Contracts Closed</strong> (Procurements finalized, claims resolved)
+    </div>
+    <div style="background: rgba(59, 130, 246, 0.05); padding: 8px 12px; border-radius: 6px; border-left: 3px solid #3b82f6;">
+      <strong>4. Risks & Issues</strong> (Closed, Transferred, or Accepted)
+    </div>
+    <div style="background: rgba(59, 130, 246, 0.05); padding: 8px 12px; border-radius: 6px; border-left: 3px solid #3b82f6;">
+      <strong>5. Knowledge Transition</strong> (Final Report, Lessons Learned, OPAs archived)
+    </div>
+    <div style="background: rgba(59, 130, 246, 0.05); padding: 8px 12px; border-radius: 6px; border-left: 3px solid #3b82f6;">
+      <strong>6. Release Resources</strong> (Team released, recognition given)
+    </div>
+  </div>
+</ConceptCard>
 
 ##  Final Report (One-Page Template)
 
@@ -356,12 +478,38 @@ Track issues that require escalation beyond the project team.
 
 ### Escalation Path Reference
 
-| Escalation Level | Trigger | Decision Maker | Timeframe |
-|---|---|---|---|
-| **Level 1** | Team-level blocker | Scrum Master / Team Lead | Same day |
-| **Level 2** | Cross-team dependency blocked | PM / Delivery Manager | 1-2 business days |
-| **Level 3** | Resource/budget constraint | Sponsor / Steering Committee | 2-3 business days |
-| **Level 4** | Strategic/contractual issue | Executive / Legal | As needed |
+<ConceptCard title="Escalation Hierarchy">
+  <div style="display: flex; flex-direction: column; gap: 8px;">
+    <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: #f8fafc; border-radius: 6px; border-left: 4px solid #94a3b8;">
+      <div style="background: #94a3b8; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 0.8em;">1</div>
+      <div style="flex: 1;">
+        <strong>Team Level</strong> (Same Day)
+        <div style="font-size: 0.9em; opacity: 0.8;">Blocker within team → Scrum Master / Team Lead</div>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: #f0f9ff; border-radius: 6px; border-left: 4px solid #3b82f6;">
+      <div style="background: #3b82f6; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 0.8em;">2</div>
+      <div style="flex: 1;">
+        <strong>Project Level</strong> (1-2 Days)
+        <div style="font-size: 0.9em; opacity: 0.8;">Cross-team dependency → Project Manager</div>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: #fff7ed; border-radius: 6px; border-left: 4px solid #f97316;">
+      <div style="background: #f97316; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 0.8em;">3</div>
+      <div style="flex: 1;">
+        <strong>Program/Sponsor</strong> (2-3 Days)
+        <div style="font-size: 0.9em; opacity: 0.8;">Resource/Budget issue → Sponsor / Steering Comm.</div>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: #fef2f2; border-radius: 6px; border-left: 4px solid #ef4444;">
+      <div style="background: #ef4444; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 0.8em;">4</div>
+      <div style="flex: 1;">
+        <strong>Strategic/Executive</strong> (As Needed)
+        <div style="font-size: 0.9em; opacity: 0.8;">Contract/Strategic issue → Executive / Legal</div>
+      </div>
+    </div>
+  </div>
+</ConceptCard>
 
 ---
 
@@ -418,103 +566,144 @@ Use for agile project monitoring cadence.
 
 ### Sprint Health Indicators
 
-| Indicator | Good | Warning | Critical |
-|---|---|---|---|
-| Velocity variance | ±10% | ±20% | >±30% |
-| Defect escape rate | <5% | 5-15% | >15% |
-| Carryover | <10% | 10-25% | >25% |
-| Retrospective actions completed | >80% | 50-80% | <50% |
+<ConceptCard title="Sprint Health Thresholds">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px;">
+    <div style="background: rgba(34, 197, 94, 0.1); border: 1px solid #22c55e; border-radius: 8px; padding: 12px;">
+      <strong style="color: #15803d; display: block; margin-bottom: 8px;">🟢 Good (Stable)</strong>
+      <ul style="margin: 0; padding-left: 16px; font-size: 0.9em; color: #15803d;">
+        <li>Velocity: ±10%</li>
+        <li>Defects: &lt;5% escape</li>
+        <li>Carryover: &lt;10%</li>
+        <li>Retro actions: >80% done</li>
+      </ul>
+    </div>
+    <div style="background: rgba(234, 179, 8, 0.1); border: 1px solid #eab308; border-radius: 8px; padding: 12px;">
+      <strong style="color: #a16207; display: block; margin-bottom: 8px;">🟡 Warning (Watch)</strong>
+      <ul style="margin: 0; padding-left: 16px; font-size: 0.9em; color: #a16207;">
+        <li>Velocity: ±20%</li>
+        <li>Defects: 5-15% escape</li>
+        <li>Carryover: 10-25%</li>
+        <li>Retro actions: 50-80% done</li>
+      </ul>
+    </div>
+    <div style="background: rgba(239, 68, 68, 0.1); border: 1px solid #ef4444; border-radius: 8px; padding: 12px;">
+      <strong style="color: #b91c1c; display: block; margin-bottom: 8px;">🔴 Critical (Action)</strong>
+      <ul style="margin: 0; padding-left: 16px; font-size: 0.9em; color: #b91c1c;">
+        <li>Velocity: >±30%</li>
+        <li>Defects: >15% escape</li>
+        <li>Carryover: >25%</li>
+        <li>Retro actions: &lt;50% done</li>
+      </ul>
+    </div>
+  </div>
+</ConceptCard>
 
 ---
 
-##  Monte Carlo Summary Template
+## Monte Carlo Summary Template
 
-Use this template to document probabilistic forecasting results for stakeholder communication.
+<ConceptCard title="Probabilistic Forecast Report">
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <!-- Header -->
+    <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #64748b; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px;">
+      <span>Analysis Date: 2026-02-15</span>
+      <span>Simulations: 10,000</span>
+    </div>
 
-| Field | Value |
-|---|---|
-| **Analysis Date** | 2026-02-15 |
-| **Simulation Runs** | 10,000 |
-| **Data Source** | Schedule model + task-level estimates |
+    <!-- Forecasts Grid -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+      <!-- Schedule -->
+      <div style="background: rgba(34, 197, 94, 0.05); padding: 12px; border-radius: 8px; border-left: 3px solid #22c55e;">
+        <strong style="color: #15803d; display: block; margin-bottom: 8px;">📅 Schedule Forecast</strong>
+        <div style="display: flex; justify-content: space-between; font-size: 0.9em; margin-bottom: 4px;">
+          <span>P50 (Target)</span>
+          <strong>2026-06-15</strong>
+        </div>
+        <div style="display: flex; justify-content: space-between; font-size: 0.9em; margin-bottom: 4px;">
+          <span>P80 (Commit)</span>
+          <strong>2026-07-01</strong>
+        </div>
+        <div style="display: flex; justify-content: space-between; font-size: 0.9em;">
+          <span>P90 (Safe)</span>
+          <strong>2026-07-15</strong>
+        </div>
+      </div>
 
-### Schedule Forecast
+      <!-- Cost -->
+      <div style="background: rgba(59, 130, 246, 0.05); padding: 12px; border-radius: 8px; border-left: 3px solid #3b82f6;">
+        <strong style="color: #1d4ed8; display: block; margin-bottom: 8px;">💰 Cost Forecast</strong>
+        <div style="display: flex; justify-content: space-between; font-size: 0.9em; margin-bottom: 4px;">
+          <span>P50</span>
+          <span>$485k (Under)</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; font-size: 0.9em; margin-bottom: 4px;">
+          <span>P80</span>
+          <span>$512k (Over)</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; font-size: 0.9em;">
+          <span>P90</span>
+          <span>$545k (Over)</span>
+        </div>
+      </div>
+    </div>
 
-| Confidence Level | Completion Date | Days from Today |
-|---|---|---|
-| **P50 (50%)** | 2026-06-15 | 120 days |
-| **P80 (80%)** | 2026-07-01 | 136 days |
-| **P90 (90%)** | 2026-07-15 | 150 days |
-
-### Cost Forecast
-
-| Confidence Level | Total Cost | Variance from BAC |
-|---|---|---|
-| **P50 (50%)** | $485,000 | -$15,000 (under) |
-| **P80 (80%)** | $512,000 | +$12,000 (over) |
-| **P90 (90%)** | $545,000 | +$45,000 (over) |
-
-### Key Risks Affecting Forecast
-
-| Risk | Impact on P90 | Mitigation Status |
-|---|---|---|
-| Vendor delay | +14 days | Response in progress |
-| Resource availability | +7 days | Mitigated |
-| Integration complexity | +$25,000 | Monitoring |
-
-### Recommendation
-
-Based on Monte Carlo analysis:
-- **Commit to P80 date** (2026-07-01) for external stakeholders
-- **Plan to P50 date** (2026-06-15) for internal targets
-- **Reserve $27,000 contingency** to cover P80 cost scenario
+    <!-- Recommendation -->
+    <div style="background: #f8fafc; padding: 12px; border-radius: 6px; border: 1px dashed #94a3b8;">
+      <strong style="display: block; margin-bottom: 8px;">Strategic Recommendation</strong>
+      <ul style="margin: 0; padding-left: 16px; font-size: 0.9em; color: #334155;">
+        <li><strong>Commit to P80 date</strong> (July 1st) for external stakeholders</li>
+        <li><strong>Plan to P50 date</strong> (June 15th) for internal targets</li>
+        <li><strong>Reserve $27k contingency</strong> (P80 - BAC) for cost risk</li>
+      </ul>
+    </div>
+  </div>
+</ConceptCard>
 
 ---
 
-##  Contract Closure Checklist by Type
+## Contract Closure Checklist by Type
 
-### Fixed Price (FFP) Closure
+<ConceptGrid :cols="2">
+  <ConceptCard title="Fixed Price (FFP)">
+    <ul style="margin: 0; padding-left: 16px; font-size: 0.9em;">
+      <li>Deliverables verified to spec</li>
+      <li>Acceptance cert signed</li>
+      <li>Final payment (price only)</li>
+      <li>Warranty documented</li>
+      <li>Retainage released</li>
+    </ul>
+  </ConceptCard>
+  
+  <ConceptCard title="Time & Materials (T&M)">
+    <ul style="margin: 0; padding-left: 16px; font-size: 0.9em;">
+      <li>Timesheets verified</li>
+      <li>Labor rates checked</li>
+      <li>Materials receipts verified</li>
+      <li>Total vs Ceiling check</li>
+      <li>Final invoice approved</li>
+    </ul>
+  </ConceptCard>
 
-- All deliverables verified against contract specifications
-- Acceptance certificate signed
-- Final payment processed (contract price only)
-- Warranty period documented and communicated
-- Retainage released per contract terms
-- Vendor performance evaluation completed
-- Contract file archived
+  <ConceptCard title="Cost Plus Fixed Fee (CPFF)">
+    <ul style="margin: 0; padding-left: 16px; font-size: 0.9em;">
+      <li>Costs audited (allowable?)</li>
+      <li>Unallowable costs excluded</li>
+      <li>Fixed fee confirmed</li>
+      <li>Final cost report</li>
+      <li>Final payment processed</li>
+    </ul>
+  </ConceptCard>
 
-### Time & Materials (T&M) Closure
-
-- All timesheets verified against work performed
-- Labor rates match contract terms
-- Materials and expenses verified against receipts
-- Total cost compared against NTE ceiling (if applicable)
-- Final invoice reconciled and approved
-- Overage approval obtained (if applicable)
-- Vendor performance evaluation completed
-- Contract file archived
-
-### Cost Plus Fixed Fee (CPFF) Closure
-
-- All claimed costs audited for allowability
-- Unallowable costs identified and excluded
-- Fixed fee confirmed (per contract)
-- Final cost report prepared
-- Any cost adjustments documented
-- Final payment calculated and processed
-- Vendor performance evaluation completed
-- Contract file archived
-
-### Cost Plus Incentive Fee (CPIF) Closure
-
-- All claimed costs audited for allowability
-- Target cost vs. actual cost variance calculated
-- Sharing ratio applied correctly
-- Incentive fee calculated per formula
-- Fee cap (max/min) applied if triggered
-- Final fee determination documented
-- Final payment calculated and processed
-- Vendor performance evaluation completed
-- Contract file archived
+  <ConceptCard title="Cost Plus Incentive (CPIF)">
+    <ul style="margin: 0; padding-left: 16px; font-size: 0.9em;">
+      <li>Costs audited</li>
+      <li>Target vs Actual variance</li>
+      <li>Sharing ratio applied</li>
+      <li>Incentive fee calculated</li>
+      <li>Fee caps applied</li>
+    </ul>
+  </ConceptCard>
+</ConceptGrid>
 
 ### CPIF Fee Calculation Worksheet
 
@@ -536,77 +725,98 @@ Based on Monte Carlo analysis:
 
 ---
 
-##  Regulatory Compliance Closure Matrix
+## Regulatory Compliance Closure Matrix
 
-Use this matrix to track industry-specific closure requirements.
+<ConceptGrid :cols="2">
+  <ConceptCard title="Healthcare (FDA/HIPAA)">
+    <ul style="margin: 0; padding-left: 16px; font-size: 0.9em;">
+      <li>System validation (QA Lead)</li>
+      <li>Audit trail verified (IT)</li>
+      <li>Patient data handling (Privacy)</li>
+      <li>21 CFR Part 11 records (Reg)</li>
+      <li>User training doc (Training)</li>
+    </ul>
+  </ConceptCard>
 
-### Healthcare (FDA/HIPAA)
+  <ConceptCard title="Financial (SOX/PCI-DSS)">
+    <ul style="margin: 0; padding-left: 16px; font-size: 0.9em;">
+      <li>Control doc complete (Audit)</li>
+      <li>Access controls verified (Sec)</li>
+      <li>Data retention policy (Comp)</li>
+      <li>PCI-DSS scope attestation</li>
+      <li>Audit evidence archived</li>
+    </ul>
+  </ConceptCard>
 
-| Requirement | Status | Evidence | Owner |
-|---|---|---|---|
-| System validation documentation complete |  | Validation report | QA Lead |
-| Audit trail verified |  | Audit log review | IT Compliance |
-| Patient data handling per HIPAA |  | Privacy impact assessment | Privacy Officer |
-| FDA 21 CFR Part 11 compliance |  | Electronic records audit | Regulatory |
-| User training documented |  | Training records | Training Lead |
+  <ConceptCard title="Government (FAR/OMB)">
+    <ul style="margin: 0; padding-left: 16px; font-size: 0.9em;">
+      <li>CAS compliance report</li>
+      <li>DD250 acceptance</li>
+      <li>Incurred cost submission</li>
+      <li>Property disposition</li>
+      <li>Closeout audit resolved</li>
+    </ul>
+  </ConceptCard>
 
-### Financial Services (SOX/PCI-DSS)
-
-| Requirement | Status | Evidence | Owner |
-|---|---|---|---|
-| Control documentation complete |  | Control matrix | Internal Audit |
-| Access controls verified |  | Access review report | IT Security |
-| Data retention policy implemented |  | Retention schedule | Compliance |
-| PCI-DSS scope documented |  | Scope attestation | Security |
-| Audit evidence archived |  | Evidence repository | Audit |
-
-### Government (FAR/OMB)
-
-| Requirement | Status | Evidence | Owner |
-|---|---|---|---|
-| Cost accounting standards met |  | CAS compliance report | Finance |
-| Contract deliverables accepted |  | DD250 or equivalent | Contracting |
-| Final cost report submitted |  | Incurred cost submission | Finance |
-| Property disposition complete |  | Property records | Property Admin |
-| Closeout audit complete |  | Audit findings resolved | Contracts |
-
-### Construction (OSHA/Local Codes)
-
-| Requirement | Status | Evidence | Owner |
-|---|---|---|---|
-| Final inspection passed |  | Inspection certificate | Site Lead |
-| Certificate of occupancy obtained |  | CO document | Owner/GC |
-| Safety documentation archived |  | OSHA logs, training | Safety |
-| As-built drawings delivered |  | Drawing package | Engineering |
-| Warranty documentation provided |  | Warranty package | Contracts |
+  <ConceptCard title="Construction (OSHA/Codes)">
+    <ul style="margin: 0; padding-left: 16px; font-size: 0.9em;">
+      <li>Final inspection cert</li>
+      <li>Cert of Occupancy (CO)</li>
+      <li>Safety logs archived</li>
+      <li>As-built drawings</li>
+      <li>Warranty package</li>
+    </ul>
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
-##  Closure Readiness Assessment
+## Closure Readiness Assessment
 
-Use this quick assessment to determine if the project is ready for formal closure.
-
-| Category | Ready? | Blocker (if No) |
-|---|---|---|
-| **Deliverables Accepted** |  Yes /  No | |
-| **All Change Requests Closed** |  Yes /  No | |
-| **All Issues Resolved or Transferred** |  Yes /  No | |
-| **Procurements Closed** |  Yes /  No | |
-| **Claims/Disputes Resolved** |  Yes /  No | |
-| **Final Budget Reconciled** |  Yes /  No | |
-| **Lessons Learned Captured** |  Yes /  No | |
-| **Knowledge Transfer Complete** |  Yes /  No | |
-| **Regulatory Requirements Met** |  Yes /  No /  N/A | |
-| **Benefits Ownership Transferred** |  Yes /  No | |
-
-<strong>Readiness Score:</strong> ___ / 10
-
-| Score | Recommendation |
-|---|---|
-| 10/10 | Proceed with formal closure |
-| 8-9/10 | Address minor items; close within 1 week |
-| 5-7/10 | Significant blockers; develop closure plan |
-| <5/10 | Not ready for closure; prioritize blockers |
+<ConceptCard title="Project Closure Scorecard">
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <!-- Checklist -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9em;">
+        <div style="width: 16px; height: 16px; border: 2px solid #cbd5e1; border-radius: 4px;"></div> Deliverables Accepted
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9em;">
+        <div style="width: 16px; height: 16px; border: 2px solid #cbd5e1; border-radius: 4px;"></div> CRs Closed
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9em;">
+        <div style="width: 16px; height: 16px; border: 2px solid #cbd5e1; border-radius: 4px;"></div> Issues Resolved
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9em;">
+        <div style="width: 16px; height: 16px; border: 2px solid #cbd5e1; border-radius: 4px;"></div> Procurements Closed
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9em;">
+        <div style="width: 16px; height: 16px; border: 2px solid #cbd5e1; border-radius: 4px;"></div> Budget Reconciled
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9em;">
+        <div style="width: 16px; height: 16px; border: 2px solid #cbd5e1; border-radius: 4px;"></div> Lessons Learned
+      </div>
+    </div>
+    
+    <!-- Score Guide -->
+    <div style="border-top: 1px solid #e2e8f0; paddingTop: 12px;">
+      <strong style="display: block; margin-bottom: 8px;">Interpretation Guide</strong>
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 12px; font-size: 0.9em;">
+          <span style="background: #22c55e; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold;">10/10</span>
+          <span>Proceed with formal closure</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; font-size: 0.9em;">
+          <span style="background: #eab308; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold;">8-9</span>
+          <span>Address minor items; close < 1 week</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; font-size: 0.9em;">
+          <span style="background: #ef4444; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold;">&lt; 7</span>
+          <span>Significant blockers; not ready</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</ConceptCard>
 
 ---
 
