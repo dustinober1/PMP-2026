@@ -435,7 +435,6 @@ Key relationship: a **risk becomes an issue** when it occurs; issues and varianc
 <ConceptCard title="Decision Tree: Where Do I Log This?">
   <div style="padding: 1rem;">
     <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem 1.5rem; border-radius: 12px; text-align: center; font-weight: 600; margin-bottom: 1rem;">❓ Is the problem HAPPENING RIGHT NOW?</div>
-    
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
       <div style="background: linear-gradient(135deg, rgba(17, 153, 142, 0.1) 0%, rgba(56, 239, 125, 0.1) 100%); border: 2px solid #11998e; border-radius: 16px; padding: 1.25rem;">
         <div style="background: #11998e; color: white; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 600; text-align: center; margin-bottom: 1rem;">✅ YES → ISSUE LOG</div>
@@ -445,10 +444,8 @@ Key relationship: a **risk becomes an issue** when it occurs; issues and varianc
           <div style="background: rgba(17, 153, 142, 0.1); padding: 0.5rem 0.75rem; border-radius: 8px;">📌 UAT data is corrupted</div>
         </div>
       </div>
-      
       <div style="background: linear-gradient(135deg, rgba(240, 147, 251, 0.1) 0%, rgba(245, 87, 108, 0.1) 100%); border: 2px solid #f093fb; border-radius: 16px; padding: 1.25rem;">
         <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 600; text-align: center; margin-bottom: 1rem;">🔮 NO, MIGHT happen later</div>
-        
         <div style="background: rgba(79, 172, 254, 0.1); border: 2px dashed #4facfe; border-radius: 12px; padding: 1rem; margin-bottom: 0.75rem;">
           <div style="font-weight: 600; color: #4facfe; margin-bottom: 0.75rem; font-size: 0.9rem;">Known risk in Risk Register?</div>
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; font-size: 0.85rem;">
@@ -456,14 +453,12 @@ Key relationship: a **risk becomes an issue** when it occurs; issues and varianc
             <div style="background: #fa709a; color: white; padding: 0.5rem; border-radius: 8px; text-align: center;">✗ NO → Add to Register</div>
           </div>
         </div>
-        
         <div style="font-size: 0.85rem; color: var(--vp-c-text-2);">
           <div style="background: rgba(240, 147, 251, 0.1); padding: 0.4rem 0.6rem; border-radius: 6px; margin-bottom: 0.4rem;">📌 Vendor delays more than 6 weeks</div>
           <div style="background: rgba(240, 147, 251, 0.1); padding: 0.4rem 0.6rem; border-radius: 6px;">📌 New regulatory requirement</div>
         </div>
       </div>
     </div>
-    
     <div style="margin-top: 1.5rem; background: linear-gradient(135deg, rgba(250, 112, 154, 0.1) 0%, rgba(254, 225, 64, 0.1) 100%); border: 2px solid #fa709a; border-radius: 16px; padding: 1.25rem;">
       <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: #333; padding: 0.75rem 1.25rem; border-radius: 10px; font-weight: 600; text-align: center; margin-bottom: 1rem;">📋 AFTER addressing: Does it require changing scope/schedule/cost/contracts?</div>
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; font-size: 0.9rem;">
