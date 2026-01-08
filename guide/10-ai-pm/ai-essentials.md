@@ -85,14 +85,34 @@ The 2026 standard is **HITL**. AI produces the draft; the Human provides the jud
 ## Prompting Framework for PMs (Copy/Paste Pattern)
 High-quality prompts reduce rework and produce more exam-aligned artifacts.
 
-```text
-Role: Act as a PMP-certified project manager.
-Context (sanitized): Project type, constraints, stakeholders (roles), delivery approach.
-Task: Create [artifact] with [required sections].
-Constraints: Do not invent facts; ask clarifying questions if needed; keep within one page.
-Output: Provide Markdown with headings + a table for key data.
-Quality bar: Flag assumptions, risks, open questions, and what needs human validation.
-```
+<ConceptCard title="📋 PM Prompt Template" type="tip">
+  <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 12px; padding: 20px; font-family: 'Consolas', 'Monaco', monospace; font-size: 0.9em;">
+    <div style="margin-bottom: 12px;">
+      <span style="color: #00d9ff; font-weight: bold;">Role:</span>
+      <span style="color: #e0e0e0;"> Act as a PMP-certified project manager.</span>
+    </div>
+    <div style="margin-bottom: 12px;">
+      <span style="color: #00d9ff; font-weight: bold;">Context (sanitized):</span>
+      <span style="color: #e0e0e0;"> Project type, constraints, stakeholders (roles), delivery approach.</span>
+    </div>
+    <div style="margin-bottom: 12px;">
+      <span style="color: #00d9ff; font-weight: bold;">Task:</span>
+      <span style="color: #e0e0e0;"> Create [artifact] with [required sections].</span>
+    </div>
+    <div style="margin-bottom: 12px;">
+      <span style="color: #00d9ff; font-weight: bold;">Constraints:</span>
+      <span style="color: #e0e0e0;"> Do not invent facts; ask clarifying questions if needed; keep within one page.</span>
+    </div>
+    <div style="margin-bottom: 12px;">
+      <span style="color: #00d9ff; font-weight: bold;">Output:</span>
+      <span style="color: #e0e0e0;"> Provide Markdown with headings + a table for key data.</span>
+    </div>
+    <div>
+      <span style="color: #00d9ff; font-weight: bold;">Quality bar:</span>
+      <span style="color: #e0e0e0;"> Flag assumptions, risks, open questions, and what needs human validation.</span>
+    </div>
+  </div>
+</ConceptCard>
 
 ::: tip When AI answers too fast
 If you get a “perfect” answer with no assumptions or questions, that’s a red flag. In real PM work (and on the exam), **clarifying questions** and **risk flags** are signs of maturity.
@@ -219,52 +239,53 @@ If a scenario mentions "team using free AI tools" with confidential data, the co
 
 ## Advanced Prompting Patterns (Expanded)
 
-### Negative Prompting
-Tell the AI what NOT to do. This reduces common failure modes.
-
-```text
-Task: Draft a risk register for a construction project.
-Constraints:
-- Do NOT invent specific dates, costs, or regulations.
-- Do NOT use generic placeholders like "TBD" without flagging them.
-- Do NOT exceed 15 risk items.
-```
-
-### Constraint Injection
-Embed hard rules that the AI must follow, especially for regulated work.
-
-```text
-Role: Act as a compliance-aware PM.
-Hard constraints (non-negotiable):
-- All cost estimates must include ±15% contingency range
-- All regulatory references must cite specific statute numbers
-- Flag any assumption about vendor capacity for SME validation
-```
-
-### Multi-Persona Debate
-Have the AI argue multiple perspectives to surface risks you might miss.
-
-```text
-Task: Evaluate this project schedule.
-First, act as the optimistic PM and defend the timeline.
-Then, act as the skeptical auditor and critique it.
-Finally, synthesize both views into a balanced assessment.
-```
-
-### Output Format Control
-Precise format instructions reduce rework and enable automation.
-
-```text
-Output format:
-| Risk ID | Risk Statement | Probability | Impact | Owner | Response |
-|---|---|---|---|---|---|
-
-Rules:
-- Risk ID format: RSK-001, RSK-002, etc.
-- Probability: L/M/H only
-- Impact: L/M/H only
-- Owner: Role only (not name)
-```
+<ConceptGrid>
+  <ConceptCard title="🚫 Negative Prompting" tag="Reduce Errors">
+    <p style="margin-bottom: 12px; color: #a0a0a0;">Tell the AI what NOT to do. This reduces common failure modes.</p>
+    <div style="background: linear-gradient(135deg, #2d1b1b 0%, #1a1a2e 100%); border-radius: 10px; padding: 16px; font-family: 'Consolas', 'Monaco', monospace; font-size: 0.85em;">
+      <div style="color: #ff6b6b; font-weight: bold; margin-bottom: 8px;">❌ Constraints:</div>
+      <ul style="color: #e0e0e0; margin: 0; padding-left: 20px; line-height: 1.8;">
+        <li>Do NOT invent specific dates, costs, or regulations</li>
+        <li>Do NOT use generic placeholders like "TBD" without flagging</li>
+        <li>Do NOT exceed 15 risk items</li>
+      </ul>
+    </div>
+  </ConceptCard>
+  <ConceptCard title="🔒 Constraint Injection" tag="Regulated Work">
+    <p style="margin-bottom: 12px; color: #a0a0a0;">Embed hard rules that the AI must follow, especially for regulated work.</p>
+    <div style="background: linear-gradient(135deg, #1b2d1b 0%, #1a1a2e 100%); border-radius: 10px; padding: 16px; font-family: 'Consolas', 'Monaco', monospace; font-size: 0.85em;">
+      <div style="color: #51cf66; font-weight: bold; margin-bottom: 8px;">✓ Hard Constraints (non-negotiable):</div>
+      <ul style="color: #e0e0e0; margin: 0; padding-left: 20px; line-height: 1.8;">
+        <li>All cost estimates must include ±15% contingency range</li>
+        <li>All regulatory references must cite specific statute numbers</li>
+        <li>Flag any assumption about vendor capacity for SME validation</li>
+      </ul>
+    </div>
+  </ConceptCard>
+  <ConceptCard title="🎭 Multi-Persona Debate" tag="Surface Risks">
+    <p style="margin-bottom: 12px; color: #a0a0a0;">Have the AI argue multiple perspectives to surface risks you might miss.</p>
+    <div style="background: linear-gradient(135deg, #1b1b2d 0%, #1a1a2e 100%); border-radius: 10px; padding: 16px; font-family: 'Consolas', 'Monaco', monospace; font-size: 0.85em;">
+      <div style="color: #748ffc; font-weight: bold; margin-bottom: 8px;">🔄 Workflow:</div>
+      <ol style="color: #e0e0e0; margin: 0; padding-left: 20px; line-height: 1.8;">
+        <li><strong style="color: #51cf66;">Optimistic PM:</strong> Defend the timeline</li>
+        <li><strong style="color: #ff6b6b;">Skeptical Auditor:</strong> Critique it</li>
+        <li><strong style="color: #ffd43b;">Synthesize:</strong> Create balanced assessment</li>
+      </ol>
+    </div>
+  </ConceptCard>
+  <ConceptCard title="📊 Output Format Control" tag="Reduce Rework">
+    <p style="margin-bottom: 12px; color: #a0a0a0;">Precise format instructions reduce rework and enable automation.</p>
+    <div style="background: linear-gradient(135deg, #2d2d1b 0%, #1a1a2e 100%); border-radius: 10px; padding: 16px; font-family: 'Consolas', 'Monaco', monospace; font-size: 0.85em;">
+      <div style="color: #ffd43b; font-weight: bold; margin-bottom: 8px;">📋 Format Rules:</div>
+      <ul style="color: #e0e0e0; margin: 0; padding-left: 20px; line-height: 1.8;">
+        <li><strong>Risk ID:</strong> RSK-001, RSK-002, etc.</li>
+        <li><strong>Probability:</strong> L/M/H only</li>
+        <li><strong>Impact:</strong> L/M/H only</li>
+        <li><strong>Owner:</strong> Role only (not name)</li>
+      </ul>
+    </div>
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 
@@ -272,48 +293,106 @@ Rules:
 
 <strong>Scenario:</strong> You're leading a new software implementation project and need to identify risks quickly.
 
-### The Prompt (Copy/Paste Ready)
-
-```text
-Role: Act as a senior PMP-certified project manager with 15 years of experience in enterprise software implementations.
-
-Context:
-- Project type: ERP implementation (cloud-based)
-- Industry: Manufacturing
-- Duration: 18 months
-- Key constraints: Fixed budget ($2M), integration with legacy systems, union labor force
-- Delivery approach: Hybrid (Agile for development, Predictive for infrastructure)
-
-Task:
-1. Generate 15 risk statements using the format: "Because [cause], [event] may occur, resulting in [impact]."
-2. Separate into Threats (10) and Opportunities (5).
-3. For each risk, suggest: probability (L/M/H), impact (L/M/H), and one response strategy.
-
-Constraints:
-- Do NOT invent specific vendor names, dates, or cost figures.
-- Flag any assumptions you made.
-- If you need clarification on any constraint, ask before generating.
-
-Output format: Markdown table with columns: Risk ID | Category | Risk Statement | Prob | Impact | Response Strategy
-```
+<ConceptCard title="🎯 Risk Brainstorm Prompt Template" type="tip">
+  <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 12px; padding: 24px; font-family: 'Consolas', 'Monaco', monospace;">
+    <div style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+      <span style="color: #00d9ff; font-weight: bold; font-size: 1.1em;">📋 Role:</span>
+      <div style="color: #e0e0e0; margin-top: 8px; padding-left: 16px;">Act as a senior PMP-certified project manager with 15 years of experience in enterprise software implementations.</div>
+    </div>
+    <div style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+      <span style="color: #51cf66; font-weight: bold; font-size: 1.1em;">🏢 Context:</span>
+      <ul style="color: #e0e0e0; margin: 8px 0 0 0; padding-left: 32px; line-height: 1.8;">
+        <li><strong>Project type:</strong> ERP implementation (cloud-based)</li>
+        <li><strong>Industry:</strong> Manufacturing</li>
+        <li><strong>Duration:</strong> 18 months</li>
+        <li><strong>Key constraints:</strong> Fixed budget ($2M), integration with legacy systems, union labor force</li>
+        <li><strong>Delivery approach:</strong> Hybrid (Agile for development, Predictive for infrastructure)</li>
+      </ul>
+    </div>
+    <div style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+      <span style="color: #ffd43b; font-weight: bold; font-size: 1.1em;">✅ Task:</span>
+      <ol style="color: #e0e0e0; margin: 8px 0 0 0; padding-left: 32px; line-height: 1.8;">
+        <li>Generate 15 risk statements using the format: "Because [cause], [event] may occur, resulting in [impact]."</li>
+        <li>Separate into Threats (10) and Opportunities (5).</li>
+        <li>For each risk, suggest: probability (L/M/H), impact (L/M/H), and one response strategy.</li>
+      </ol>
+    </div>
+    <div style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+      <span style="color: #ff6b6b; font-weight: bold; font-size: 1.1em;">🚫 Constraints:</span>
+      <ul style="color: #e0e0e0; margin: 8px 0 0 0; padding-left: 32px; line-height: 1.8;">
+        <li>Do NOT invent specific vendor names, dates, or cost figures.</li>
+        <li>Flag any assumptions you made.</li>
+        <li>If you need clarification on any constraint, ask before generating.</li>
+      </ul>
+    </div>
+    <div>
+      <span style="color: #748ffc; font-weight: bold; font-size: 1.1em;">📊 Output format:</span>
+      <div style="color: #e0e0e0; margin-top: 8px; padding-left: 16px;">Markdown table with columns: Risk ID | Category | Risk Statement | Prob | Impact | Response Strategy</div>
+    </div>
+  </div>
+</ConceptCard>
 
 ### What Good Output Looks Like
 
-| Risk ID | Category | Risk Statement | Prob | Impact | Response Strategy |
-|---|---|---|---|---|---|
-| RSK-001 | Threat | Because legacy systems use outdated APIs, integration failures may occur, resulting in 4-6 week delays | M | H | Mitigate: Early integration spike; allocate buffer |
-| RSK-002 | Threat | Because union agreements restrict weekend work, deployment windows are limited, resulting in extended cutover period | H | M | Accept: Plan deployment in contractual windows |
-| OPP-001 | Opportunity | Because cloud vendor offers training credits, we may reduce training costs, resulting in 10-15% budget savings | M | M | Exploit: Claim credits in first 90 days |
+<ConceptCard title="📊 Sample AI Output" tag="Example">
+  <div style="overflow-x: auto;">
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
+      <thead>
+        <tr style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+          <th style="padding: 12px; text-align: left; color: white;">Risk ID</th>
+          <th style="padding: 12px; text-align: left; color: white;">Category</th>
+          <th style="padding: 12px; text-align: left; color: white;">Risk Statement</th>
+          <th style="padding: 12px; text-align: center; color: white;">Prob</th>
+          <th style="padding: 12px; text-align: center; color: white;">Impact</th>
+          <th style="padding: 12px; text-align: left; color: white;">Response Strategy</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background: rgba(255,107,107,0.1);">
+          <td style="padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);"><strong>RSK-001</strong></td>
+          <td style="padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);"><span style="color: #ff6b6b;">⚠️ Threat</span></td>
+          <td style="padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);">Because legacy systems use outdated APIs, integration failures may occur, resulting in 4-6 week delays</td>
+          <td style="padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1); text-align: center;"><span style="background: #ffd43b; color: #000; padding: 2px 8px; border-radius: 4px; font-weight: bold;">M</span></td>
+          <td style="padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1); text-align: center;"><span style="background: #ff6b6b; color: #fff; padding: 2px 8px; border-radius: 4px; font-weight: bold;">H</span></td>
+          <td style="padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);"><strong>Mitigate:</strong> Early integration spike; allocate buffer</td>
+        </tr>
+        <tr style="background: rgba(255,107,107,0.1);">
+          <td style="padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);"><strong>RSK-002</strong></td>
+          <td style="padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);"><span style="color: #ff6b6b;">⚠️ Threat</span></td>
+          <td style="padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);">Because union agreements restrict weekend work, deployment windows are limited, resulting in extended cutover period</td>
+          <td style="padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1); text-align: center;"><span style="background: #ff6b6b; color: #fff; padding: 2px 8px; border-radius: 4px; font-weight: bold;">H</span></td>
+          <td style="padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1); text-align: center;"><span style="background: #ffd43b; color: #000; padding: 2px 8px; border-radius: 4px; font-weight: bold;">M</span></td>
+          <td style="padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);"><strong>Accept:</strong> Plan deployment in contractual windows</td>
+        </tr>
+        <tr style="background: rgba(81,207,102,0.1);">
+          <td style="padding: 10px;"><strong>OPP-001</strong></td>
+          <td style="padding: 10px;"><span style="color: #51cf66;">🌟 Opportunity</span></td>
+          <td style="padding: 10px;">Because cloud vendor offers training credits, we may reduce training costs, resulting in 10-15% budget savings</td>
+          <td style="padding: 10px; text-align: center;"><span style="background: #ffd43b; color: #000; padding: 2px 8px; border-radius: 4px; font-weight: bold;">M</span></td>
+          <td style="padding: 10px; text-align: center;"><span style="background: #ffd43b; color: #000; padding: 2px 8px; border-radius: 4px; font-weight: bold;">M</span></td>
+          <td style="padding: 10px;"><strong>Exploit:</strong> Claim credits in first 90 days</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</ConceptCard>
 
-<strong>Assumptions flagged by AI:</strong>
-- Assumed standard manufacturing shift patterns (not 24/7)
-- Assumed no pending labor negotiations
-- Assumed legacy systems are documented
-
-**PM's HITL Review Actions:**
-1.  Validate union constraint with HR
-2.  Confirm legacy API documentation exists (or add documentation risk)
-3.  Add missing risks: cybersecurity, change resistance, vendor SLA
+<ConceptGrid>
+  <ConceptCard title="⚠️ Assumptions Flagged by AI" tag="Validate These">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.8;">
+      <li>Assumed standard manufacturing shift patterns (not 24/7)</li>
+      <li>Assumed no pending labor negotiations</li>
+      <li>Assumed legacy systems are documented</li>
+    </ul>
+  </ConceptCard>
+  <ConceptCard title="✅ PM's HITL Review Actions" tag="Human Validation">
+    <ol style="margin: 0; padding-left: 20px; line-height: 1.8;">
+      <li>Validate union constraint with HR</li>
+      <li>Confirm legacy API documentation exists (or add documentation risk)</li>
+      <li>Add missing risks: cybersecurity, change resistance, vendor SLA</li>
+    </ol>
+  </ConceptCard>
+</ConceptGrid>
 
 ---
 

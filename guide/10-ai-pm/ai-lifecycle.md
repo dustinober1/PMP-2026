@@ -63,53 +63,72 @@ Use these as “starter prompts” and tailor them to your environment and templ
 ### Initiation: Charter + Stakeholders
 <strong>Best uses:</strong> drafting the charter outline, clarifying objectives, and building an initial stakeholder list.
 
-```text
-Role: Act as a PMP-certified PM.
-Task: Draft a Project Charter (1 page) using the following sanitized notes.
-Include: purpose, measurable objectives, high-level scope, assumptions, constraints, risks, milestones, budget range, and approval requirements.
-Constraints: Do not invent facts or stakeholders; list clarifying questions first.
-Input: [PASTE SANITIZED NOTES]
-```
+<ConceptCard title="📝 Charter Drafting Prompt">
+  <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 8px; padding: 1rem; font-family: 'Fira Code', monospace; font-size: 0.85em; line-height: 1.6;">
+    <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Role:</span> <span style="color: #e2e8f0;">Act as a PMP-certified PM.</span></div>
+    <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Task:</span> <span style="color: #e2e8f0;">Draft a Project Charter (1 page) using the following sanitized notes.</span></div>
+    <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Include:</span> <span style="color: #e2e8f0;">purpose, measurable objectives, high-level scope, assumptions, constraints, risks, milestones, budget range, and approval requirements.</span></div>
+    <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Constraints:</span> <span style="color: #e2e8f0;">Do not invent facts or stakeholders; list clarifying questions first.</span></div>
+    <div><span style="color: #64ffda; font-weight: bold;">Input:</span> <span style="color: #ffd93d;">[PASTE SANITIZED NOTES]</span></div>
+  </div>
+</ConceptCard>
 
 ### Planning: WBS + Risk Register + Comms Plan
 <strong>Best uses:</strong> breaking down work, identifying risks, and tailoring communications.
 
-```text
-Task: Propose a WBS (3 levels) and a milestone schedule for a [predictive/agile/hybrid] project.
-Constraints: Highlight dependencies and assumptions; include a “missing info” section.
-Input: Scope summary (sanitized): [PASTE]
-```
-
-```text
-Task: Create 12 risk statements (cause → event → impact) for this project and suggest responses, owners, triggers, and contingency actions.
-Constraints: Separate threats vs opportunities; do not invent regulations—ask if compliance applies.
-Input: Project context (sanitized): [PASTE]
-```
+<ConceptGrid>
+  <ConceptCard title="🗂️ WBS Prompt">
+    <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 8px; padding: 1rem; font-family: 'Fira Code', monospace; font-size: 0.85em; line-height: 1.6;">
+      <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Task:</span> <span style="color: #e2e8f0;">Propose a WBS (3 levels) and a milestone schedule for a [predictive/agile/hybrid] project.</span></div>
+      <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Constraints:</span> <span style="color: #e2e8f0;">Highlight dependencies and assumptions; include a "missing info" section.</span></div>
+      <div><span style="color: #64ffda; font-weight: bold;">Input:</span> <span style="color: #ffd93d;">[PASTE SCOPE SUMMARY]</span></div>
+    </div>
+  </ConceptCard>
+  <ConceptCard title="⚠️ Risk Register Prompt">
+    <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 8px; padding: 1rem; font-family: 'Fira Code', monospace; font-size: 0.85em; line-height: 1.6;">
+      <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Task:</span> <span style="color: #e2e8f0;">Create 12 risk statements (cause → event → impact) and suggest responses, owners, triggers, contingency actions.</span></div>
+      <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Constraints:</span> <span style="color: #e2e8f0;">Separate threats vs opportunities; do not invent regulations—ask if compliance applies.</span></div>
+      <div><span style="color: #64ffda; font-weight: bold;">Input:</span> <span style="color: #ffd93d;">[PASTE PROJECT CONTEXT]</span></div>
+    </div>
+  </ConceptCard>
+</ConceptGrid>
 
 ### Execution: Meetings + Stakeholder Communication
 <strong>Best uses:</strong> turning messy conversations into actions and clear updates.
 
-```text
-Task: Convert this transcript into meeting minutes with: decisions, action items (owner + due date), risks/issues, and open questions.
-Constraints: If owners/dates are missing, write “TBD” and list questions to confirm.
-Input: [PASTE SANITIZED TRANSCRIPT]
-```
+<ConceptCard title="🎤 Meeting Minutes Prompt">
+  <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 8px; padding: 1rem; font-family: 'Fira Code', monospace; font-size: 0.85em; line-height: 1.6;">
+    <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Task:</span> <span style="color: #e2e8f0;">Convert this transcript into meeting minutes with: decisions, action items (owner + due date), risks/issues, and open questions.</span></div>
+    <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Constraints:</span> <span style="color: #e2e8f0;">If owners/dates are missing, write "TBD" and list questions to confirm.</span></div>
+    <div><span style="color: #64ffda; font-weight: bold;">Input:</span> <span style="color: #ffd93d;">[PASTE SANITIZED TRANSCRIPT]</span></div>
+  </div>
+</ConceptCard>
 
 ### Monitoring & Controlling: Status + Forecasting
 <strong>Best uses:</strong> variance explanations, trend summaries, and leadership-ready status.
 
-```text
-Task: Draft an executive weekly status report (RAG status + top 3 risks + key decisions needed).
-Constraints: Explain variances and propose corrective actions; keep to 10 bullets max.
-Inputs: Schedule variance: [SV], Cost variance: [CV], key milestones: [PASTE], risks/issues: [PASTE]
-```
+<ConceptCard title="📊 Status Report Prompt">
+  <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 8px; padding: 1rem; font-family: 'Fira Code', monospace; font-size: 0.85em; line-height: 1.6;">
+    <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Task:</span> <span style="color: #e2e8f0;">Draft an executive weekly status report (RAG status + top 3 risks + key decisions needed).</span></div>
+    <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Constraints:</span> <span style="color: #e2e8f0;">Explain variances and propose corrective actions; keep to 10 bullets max.</span></div>
+    <div><span style="color: #64ffda; font-weight: bold;">Inputs:</span> <span style="color: #ffd93d;">Schedule variance: [SV], Cost variance: [CV], key milestones: [PASTE], risks/issues: [PASTE]</span></div>
+  </div>
+</ConceptCard>
 
-###  AI & Earned Value Management (EVM)
+### AI & Earned Value Management (EVM)
 AI excels at the *calculation* and *forecasting* parts of EVM, allowing you to focus on the *corrective action*.
 
-*   **Pattern Recognition**: "Based on the last 3 months of SPI < 1.0, the AI predicts a final delay of 2 weeks unless velocity increases by 15%."
-*   **Root Cause Analysis**: Feed the AI your raw performance data and ask: "Why is CPI degrading? Correlate with recent resource changes."
-*   **EAC Generation**: "Calculate Independent EAC (Estimate at Completion) using 3 different formulas (optimistic, pessimistic, current trend) and explain the difference."
+<ConceptGrid>
+  <ConceptCard title="🔍 Pattern Recognition">
+    <p style="color: var(--vp-c-text-2);">"Based on the last 3 months of SPI less than 1.0, the AI predicts a final delay of 2 weeks unless velocity increases by 15%."</p>
+  </ConceptCard>
+  <ConceptCard title="🔬 Root Cause Analysis">
+    <p style="color: var(--vp-c-text-2);">Feed the AI your raw performance data and ask: "Why is CPI degrading? Correlate with recent resource changes."</p>
+  </ConceptCard>
+  <ConceptCard title="📈 EAC Generation">
+    <p style="color: var(--vp-c-text-2);">"Calculate Independent EAC using 3 different formulas (optimistic, pessimistic, current trend) and explain the difference."</p>
+  </ConceptCard>
+</ConceptGrid>
 
 ::: tip The PM's Job
 The AI calculates the **EAC** (Estimate at Completion). The PM decides if the **VAC** (Variance at Completion) is acceptable or if a Change Request is needed.
@@ -118,11 +137,13 @@ The AI calculates the **EAC** (Estimate at Completion). The PM decides if the **
 ### Closing: Lessons Learned + Final Report
 <strong>Best uses:</strong> clustering feedback into themes and producing closure artifacts.
 
-```text
-Task: Cluster these retrospective notes into 5 themes and propose “do/avoid/continue” recommendations.
-Constraints: Keep it constructive and specific; include 3 process improvements.
-Input: [PASTE SANITIZED NOTES]
-```
+<ConceptCard title="📚 Lessons Learned Prompt">
+  <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 8px; padding: 1rem; font-family: 'Fira Code', monospace; font-size: 0.85em; line-height: 1.6;">
+    <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Task:</span> <span style="color: #e2e8f0;">Cluster these retrospective notes into 5 themes and propose "do/avoid/continue" recommendations.</span></div>
+    <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Constraints:</span> <span style="color: #e2e8f0;">Keep it constructive and specific; include 3 process improvements.</span></div>
+    <div><span style="color: #64ffda; font-weight: bold;">Input:</span> <span style="color: #ffd93d;">[PASTE SANITIZED NOTES]</span></div>
+  </div>
+</ConceptCard>
 
 ---
 
@@ -199,10 +220,14 @@ PM investigates and acts (add testing time, hire more QA, scope discipline).
 Risk management is continuous. AI accelerates threat identification and monitoring.
 
 ### Initiation: Rapid Risk Brainstorm
-```text
-Prompt: List 20 potential risks for a [project type] project in [domain/geography].
-Include: cause → event → impact statements. Separate threats vs opportunities.
-```
+
+<ConceptCard title="🎯 Risk Brainstorm Prompt">
+  <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 8px; padding: 1rem; font-family: 'Fira Code', monospace; font-size: 0.85em; line-height: 1.6;">
+    <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Prompt:</span> <span style="color: #e2e8f0;">List 20 potential risks for a [project type] project in [domain/geography].</span></div>
+    <div><span style="color: #64ffda; font-weight: bold;">Include:</span> <span style="color: #e2e8f0;">cause → event → impact statements. Separate threats vs opportunities.</span></div>
+  </div>
+</ConceptCard>
+
 AI generates in seconds; PM filters/prioritizes with team.
 
 ### Planning: Risk Register + Automation
@@ -224,23 +249,36 @@ AI generates in seconds; PM filters/prioritizes with team.
 
 ## Decision Tree: "Should I Use AI for This?"
 
-<ConceptCard title="Decision Tree: Should I Use AI?">
-  <div style="font-family: monospace; font-size: 0.9em; line-height: 1.5; color: var(--vp-c-text-1); white-space: pre; overflow-x: auto;">
-┌─ Is the data volume large (100+ records)?
-│  ├─ NO → Go manual / stay manual
-│  └─ YES → Continue...
-│
-├─ Is the risk of AI error LOW or MEDIUM? (not safety-critical)
-│  ├─ NO (Safety-critical) → Avoid; use AI for analysis only, human approves go/no-go
-│  └─ YES → Continue...
-│
-├─ Can the output be reviewed by a human in < 10% of AI time saved?
-│  ├─ NO → Probably not worth it (review overhead > AI time savings)
-│  └─ YES → Continue...
-│
-├─ Is there approved, contractually safe tooling available?
-│  ├─ NO → Stop; do not use public/unapproved AI
-│  └─ YES → Use AI + HITL review
+<ConceptCard title="🤖 Decision Tree: Should I Use AI?">
+  <div style="display: flex; flex-direction: column; gap: 1rem;">
+    <div style="display: flex; align-items: center; gap: 0.75rem;">
+      <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 0.75rem 1rem; border-radius: 8px; font-weight: 600; min-width: 280px;">1️⃣ Is data volume large (100+ records)?</div>
+      <div style="display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.9em;">
+        <span style="color: #ef4444;">❌ NO → Go manual / stay manual</span>
+        <span style="color: #22c55e;">✅ YES → Continue...</span>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.75rem;">
+      <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 0.75rem 1rem; border-radius: 8px; font-weight: 600; min-width: 280px;">2️⃣ Is AI error risk LOW or MEDIUM?</div>
+      <div style="display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.9em;">
+        <span style="color: #ef4444;">❌ NO (Safety-critical) → AI for analysis only</span>
+        <span style="color: #22c55e;">✅ YES → Continue...</span>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.75rem;">
+      <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 0.75rem 1rem; border-radius: 8px; font-weight: 600; min-width: 280px;">3️⃣ Can output be reviewed quickly?</div>
+      <div style="display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.9em;">
+        <span style="color: #ef4444;">❌ NO → Review overhead exceeds AI time savings</span>
+        <span style="color: #22c55e;">✅ YES → Continue...</span>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.75rem;">
+      <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 0.75rem 1rem; border-radius: 8px; font-weight: 600; min-width: 280px;">4️⃣ Is approved tooling available?</div>
+      <div style="display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.9em;">
+        <span style="color: #ef4444;">❌ NO → Stop; do not use public/unapproved AI</span>
+        <span style="color: #22c55e;">✅ YES → Use AI + HITL review ✨</span>
+      </div>
+    </div>
   </div>
 </ConceptCard>
 
@@ -379,13 +417,14 @@ AI can analyze project communications to detect early signs of scope creep befor
 
 ### Practical Implementation
 
-<strong>AI Prompt for Scope Scan:</strong>
-```text
-Role: Act as a scope management analyst.
-Task: Scan these meeting notes for scope creep indicators.
-Flag any phrases suggesting: (1) new features not in approved scope, (2) changed assumptions, (3) unplanned work.
-Output: Table with quote, page reference, risk level (L/M/H), and recommended action.
-```
+<ConceptCard title="🔍 Scope Scan Prompt">
+  <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 8px; padding: 1rem; font-family: 'Fira Code', monospace; font-size: 0.85em; line-height: 1.6;">
+    <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Role:</span> <span style="color: #e2e8f0;">Act as a scope management analyst.</span></div>
+    <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Task:</span> <span style="color: #e2e8f0;">Scan these meeting notes for scope creep indicators.</span></div>
+    <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Flag:</span> <span style="color: #e2e8f0;">(1) new features not in approved scope, (2) changed assumptions, (3) unplanned work.</span></div>
+    <div><span style="color: #64ffda; font-weight: bold;">Output:</span> <span style="color: #ffd93d;">Table with quote, page reference, risk level (L/M/H), and recommended action.</span></div>
+  </div>
+</ConceptCard>
 
 <strong>Sample AI Output:</strong>
 
@@ -415,24 +454,23 @@ AI accelerates procurement processes while maintaining governance.
 
 <strong>Scenario:</strong> 5 vendors responded to your RFP. Need to shortlist to 3 for demos.
 
-**Step 1: AI Extraction**
-```text
-Task: Extract key data points from each vendor proposal attached.
-Data points: Price (implementation + annual), timeline, team size, relevant experience (# similar projects), SLA terms, contract flexibility.
-Output: Comparison table with citations to source page numbers.
-```
-
-**Step 2: AI Scoring (Draft)**
-```text
-Task: Score each vendor against these evaluation criteria:
-- Cost (25%)
-- Timeline (20%)
-- Experience (25%)
-- SLA (15%)
-- Contract terms (15%)
-Scoring: 1-5 scale per criterion. Calculate weighted total.
-Constraints: Flag any criteria where data was incomplete or unclear.
-```
+<ConceptGrid>
+  <ConceptCard title="📋 Step 1: AI Extraction">
+    <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 8px; padding: 1rem; font-family: 'Fira Code', monospace; font-size: 0.85em; line-height: 1.6;">
+      <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Task:</span> <span style="color: #e2e8f0;">Extract key data points from each vendor proposal attached.</span></div>
+      <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Data:</span> <span style="color: #e2e8f0;">Price (implementation + annual), timeline, team size, experience, SLA terms, contract flexibility.</span></div>
+      <div><span style="color: #64ffda; font-weight: bold;">Output:</span> <span style="color: #ffd93d;">Comparison table with citations to source page numbers.</span></div>
+    </div>
+  </ConceptCard>
+  <ConceptCard title="📊 Step 2: AI Scoring (Draft)">
+    <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 8px; padding: 1rem; font-family: 'Fira Code', monospace; font-size: 0.85em; line-height: 1.6;">
+      <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Task:</span> <span style="color: #e2e8f0;">Score each vendor against evaluation criteria:</span></div>
+      <div style="margin-left: 1rem; margin-bottom: 0.5rem; color: #e2e8f0;">Cost (25%) | Timeline (20%) | Experience (25%) | SLA (15%) | Contract (15%)</div>
+      <div style="margin-bottom: 0.5rem;"><span style="color: #64ffda; font-weight: bold;">Scoring:</span> <span style="color: #e2e8f0;">1-5 scale per criterion. Calculate weighted total.</span></div>
+      <div><span style="color: #64ffda; font-weight: bold;">Constraints:</span> <span style="color: #ffd93d;">Flag any criteria where data was incomplete or unclear.</span></div>
+    </div>
+  </ConceptCard>
+</ConceptGrid>
 
 **Step 3: Human Validation**
 - Procurement committee reviews AI-generated scores
