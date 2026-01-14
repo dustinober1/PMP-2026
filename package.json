@@ -6,6 +6,7 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
+    "generate:exams": "node scripts/generate-full-length-exams.js",
     "deploy": "vitepress build && gh-pages -d .vitepress/dist --repo https://github.com/dustinober/PMP-2026.git --branch gh-pages"
   },
   "devDependencies": {
