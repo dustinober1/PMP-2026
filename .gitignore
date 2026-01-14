@@ -49,3 +49,5 @@ References/
 
 .gemini/
 gha-creds-*.json
+fix_questions.py
+.venv/
