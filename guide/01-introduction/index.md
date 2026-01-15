@@ -2,13 +2,7 @@
 import FlashcardCarousel from '../../.vitepress/theme/components/FlashcardCarousel.vue'
 </script>
 
-<div class="audio-player">
-  <span class="audio-label">🎧 Listen to this chapter:</span>
-  <audio controls>
-    <source src="/audio/Chapter 1/01-introduction.wav" type="audio/wav">
-    Your browser does not support the audio element.
-  </audio>
-</div>
+<AudioPlayer :chapter="1" />
 
 # Chapter 1: Fundamentals & Exam Overview
 
@@ -90,26 +84,6 @@ By the end of this chapter, you will be able to:
 </div>
 
 <style>
-.audio-player {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem;
-  background: var(--vp-c-bg-soft);
-  border-radius: 8px;
-  margin-bottom: 1.5rem;
-}
-
-.audio-label {
-  font-weight: 500;
-  white-space: nowrap;
-}
-
-.audio-player audio {
-  flex: 1;
-  max-width: 300px;
-}
-
 .action-bar {
   display: flex;
   justify-content: center;

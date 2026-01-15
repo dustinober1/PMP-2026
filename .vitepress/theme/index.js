@@ -14,6 +14,7 @@ import PowerInterestGrid from './components/PowerInterestGrid.vue'
 import TriangleViz from './components/TriangleViz.vue'
 import FlashcardCarousel from './components/FlashcardCarousel.vue'
 import BuyMeCoffee from './components/BuyMeCoffee.vue'
+import AudioPlayer from './components/AudioPlayer.vue'
 
 export default {
   extends: Theme,
@@ -28,6 +29,7 @@ export default {
     app.component('TriangleViz', TriangleViz)
     app.component('FlashcardCarousel', FlashcardCarousel)
     app.component('BuyMeCoffee', BuyMeCoffee)
+    app.component('AudioPlayer', AudioPlayer)
 
     // Scroll to top on route change
     if (router && typeof window !== 'undefined') {
