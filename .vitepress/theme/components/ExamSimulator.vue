@@ -55,7 +55,7 @@
         <div class="results-summary">
           <div class="metric">
             <div class="metric-label">Score</div>
-            <div class="metric-value">{{ scorePercent }}%</div>
+            <div class="metric-value" :class="scoreClass">{{ scorePercent }}%</div>
           </div>
           <div class="metric">
             <div class="metric-label">Correct</div>
@@ -67,8 +67,56 @@
           </div>
         </div>
 
+        <!-- Domain Performance Analysis -->
+        <div class="performance-analysis">
+          <h4>📊 Performance by Domain</h4>
+          <div class="analysis-grid">
+            <div v-for="d in domainStats" :key="d.domain" class="analysis-item">
+              <div class="analysis-header">
+                <span class="analysis-domain">{{ formatDomainName(d.domain) }}</span>
+                <span class="analysis-score" :class="getScoreClass(d.percent)">{{ d.percent }}%</span>
+              </div>
+              <div class="analysis-bar">
+                <div class="analysis-bar-fill" :style="{ width: d.percent + '%' }" :class="getScoreClass(d.percent)"></div>
+              </div>
+              <div class="analysis-detail">{{ d.correct }} / {{ d.total }} correct</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Strong/Weak Areas -->
+        <div class="strengths-weaknesses">
+          <div class="sw-column strong">
+            <h4>💪 Strong Areas</h4>
+            <ul v-if="strongAreas.length">
+              <li v-for="area in strongAreas" :key="area.key">
+                <strong>{{ area.label }}</strong> - {{ area.percent }}% ({{ area.correct }}/{{ area.total }})
+              </li>
+            </ul>
+            <p v-else class="muted">Complete more questions to identify strengths.</p>
+          </div>
+          <div class="sw-column weak">
+            <h4>📚 Areas to Improve</h4>
+            <ul v-if="weakAreas.length">
+              <li v-for="area in weakAreas" :key="area.key">
+                <strong>{{ area.label }}</strong> - {{ area.percent }}% ({{ area.correct }}/{{ area.total }})
+              </li>
+            </ul>
+            <p v-else class="muted">Great job! No significant weak areas detected.</p>
+          </div>
+        </div>
+
+        <!-- Study Recommendations -->
+        <div class="study-recommendations" v-if="weakAreas.length">
+          <h4>📖 Recommended Study Focus</h4>
+          <p>Based on your performance, consider reviewing these chapters:</p>
+          <ul>
+            <li v-for="rec in studyRecommendations" :key="rec">{{ rec }}</li>
+          </ul>
+        </div>
+
         <details class="review">
-          <summary>Review Questions</summary>
+          <summary>Review All Questions</summary>
           <div class="review-list">
             <div v-for="(q, idx) in session.questions" :key="q.id" class="review-item">
               <div class="review-q">
@@ -320,6 +368,96 @@ const scorePercent = computed(() => {
   if (!totalQuestions.value) return 0
   return Math.round((correctCount.value / totalQuestions.value) * 100)
 })
+
+const scoreClass = computed(() => {
+  const pct = scorePercent.value
+  if (pct >= 80) return 'score-excellent'
+  if (pct >= 65) return 'score-pass'
+  if (pct >= 50) return 'score-borderline'
+  return 'score-needs-work'
+})
+
+// Domain and Task Performance Analysis
+const domainStats = computed(() => {
+  const stats = {}
+  for (let i = 0; i < session.questions.length; i++) {
+    const q = session.questions[i]
+    const domain = q.domain || 'unknown'
+    if (!stats[domain]) stats[domain] = { correct: 0, total: 0 }
+    stats[domain].total++
+    if (isCorrect(i)) stats[domain].correct++
+  }
+  return Object.entries(stats).map(([domain, s]) => ({
+    domain,
+    correct: s.correct,
+    total: s.total,
+    percent: s.total > 0 ? Math.round((s.correct / s.total) * 100) : 0
+  })).sort((a, b) => b.percent - a.percent)
+})
+
+const taskStats = computed(() => {
+  const stats = {}
+  for (let i = 0; i < session.questions.length; i++) {
+    const q = session.questions[i]
+    const key = `${q.domain}-${q.task || 'unknown'}`
+    const label = `${formatDomainName(q.domain)} - ${q.task || 'unknown'}`
+    if (!stats[key]) stats[key] = { key, label, correct: 0, total: 0 }
+    stats[key].total++
+    if (isCorrect(i)) stats[key].correct++
+  }
+  return Object.values(stats).map(s => ({
+    ...s,
+    percent: s.total > 0 ? Math.round((s.correct / s.total) * 100) : 0
+  }))
+})
+
+const strongAreas = computed(() => {
+  return taskStats.value
+    .filter(s => s.total >= 3 && s.percent >= 80)
+    .sort((a, b) => b.percent - a.percent)
+    .slice(0, 5)
+})
+
+const weakAreas = computed(() => {
+  return taskStats.value
+    .filter(s => s.total >= 3 && s.percent < 60)
+    .sort((a, b) => a.percent - b.percent)
+    .slice(0, 5)
+})
+
+const studyRecommendations = computed(() => {
+  const domainToChapter = {
+    'people': 'Chapter 3: Team Leadership & Chapter 4: Stakeholder Communication',
+    'process': 'Chapter 6: Project Planning & Chapter 9: Monitoring and Controlling',
+    'business': 'Chapter 2: Strategic Alignment & Chapter 7: Risk and Quality'
+  }
+  const seen = new Set()
+  const recs = []
+  for (const area of weakAreas.value) {
+    const domain = area.key.split('-')[0]
+    if (!seen.has(domain) && domainToChapter[domain]) {
+      seen.add(domain)
+      recs.push(domainToChapter[domain])
+    }
+  }
+  return recs
+})
+
+function formatDomainName(domain) {
+  const names = {
+    'people': 'People',
+    'process': 'Process',
+    'business': 'Business Environment'
+  }
+  return names[domain] || domain
+}
+
+function getScoreClass(percent) {
+  if (percent >= 80) return 'score-excellent'
+  if (percent >= 65) return 'score-pass'
+  if (percent >= 50) return 'score-borderline'
+  return 'score-needs-work'
+}
 
 function isCorrect(idx) {
   const q = session.questions[idx]
@@ -965,6 +1103,159 @@ const _fmtClock = formatClock
 
 .rem-line {
   margin: 0.25rem 0;
+}
+
+/* Performance Analysis Styles */
+.performance-analysis {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  background: var(--vp-c-bg);
+}
+
+.performance-analysis h4 {
+  margin: 0 0 1rem 0;
+}
+
+.analysis-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.analysis-item {
+  padding: 0.75rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 10px;
+  background: var(--vp-c-bg-soft);
+}
+
+.analysis-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.analysis-domain {
+  font-weight: 600;
+}
+
+.analysis-score {
+  font-weight: 700;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+
+.analysis-bar {
+  height: 8px;
+  border-radius: 4px;
+  background: var(--vp-c-divider);
+  overflow: hidden;
+}
+
+.analysis-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.analysis-detail {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+}
+
+/* Strength/Weakness Styles */
+.strengths-weaknesses {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.sw-column {
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-border);
+}
+
+.sw-column.strong {
+  background: rgba(16, 185, 129, 0.08);
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.sw-column.weak {
+  background: rgba(245, 158, 11, 0.08);
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.sw-column h4 {
+  margin: 0 0 0.75rem 0;
+}
+
+.sw-column ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.sw-column li {
+  margin: 0.5rem 0;
+}
+
+/* Study Recommendations */
+.study-recommendations {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  background: rgba(59, 130, 246, 0.08);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.study-recommendations h4 {
+  margin: 0 0 0.5rem 0;
+}
+
+.study-recommendations p {
+  margin: 0 0 0.75rem 0;
+  color: var(--vp-c-text-2);
+}
+
+.study-recommendations ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+/* Score Color Classes */
+.score-excellent {
+  color: #047857;
+  background: rgba(16, 185, 129, 0.15);
+}
+
+.score-pass {
+  color: #0369a1;
+  background: rgba(14, 165, 233, 0.15);
+}
+
+.score-borderline {
+  color: #b45309;
+  background: rgba(245, 158, 11, 0.15);
+}
+
+.score-needs-work {
+  color: #b91c1c;
+  background: rgba(239, 68, 68, 0.15);
+}
+
+.metric-value.score-excellent,
+.metric-value.score-pass,
+.metric-value.score-borderline,
+.metric-value.score-needs-work {
+  padding: 0.25rem 0.5rem;
+  border-radius: 8px;
+  display: inline-block;
 }
 </style>
 
