@@ -296,6 +296,45 @@ import { withBase } from 'vitepress'
   transform: translateY(-2px);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
+
+.support-section {
+  margin: 3rem 0;
+  padding: 2.5rem 2rem;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.9), var(--color-purple-50));
+  border: 1px dashed var(--color-purple-200);
+  border-radius: 1.25rem;
+  text-align: center;
+}
+
+.dark .support-section {
+  background: linear-gradient(145deg, rgba(147, 51, 234, 0.08), rgba(147, 51, 234, 0.03));
+  border-color: rgba(147, 51, 234, 0.25);
+}
+
+.support-content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.support-heart {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.support-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  margin-bottom: 0.75rem;
+}
+
+.support-text {
+  color: var(--vp-c-text-2);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
 </style>
 
 <div class="home-content">
@@ -403,6 +442,15 @@ import { withBase } from 'vitepress'
   <a :href="withBase('/guide/01-introduction/understanding-exam')" class="cta-button">
     Begin Chapter 1 →
   </a>
+</div>
+
+<div class="support-section">
+  <div class="support-content">
+    <span class="support-heart">💜</span>
+    <h3 class="support-title">Enjoying This Free Resource?</h3>
+    <p class="support-text">This study guide is free and always will be. If it's helping you on your PMP journey, consider buying me a coffee to keep the content updated and accessible to everyone.</p>
+    <BuyMeCoffee />
+  </div>
 </div>
 
 </div>

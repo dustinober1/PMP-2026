@@ -10,6 +10,7 @@ import ConceptCard from './components/ConceptCard.vue'
 import PowerInterestGrid from './components/PowerInterestGrid.vue'
 import TriangleViz from './components/TriangleViz.vue'
 import FlashcardCarousel from './components/FlashcardCarousel.vue'
+import BuyMeCoffee from './components/BuyMeCoffee.vue'
 
 export default {
   extends: Theme,
@@ -22,6 +23,7 @@ export default {
     app.component('PowerInterestGrid', PowerInterestGrid)
     app.component('TriangleViz', TriangleViz)
     app.component('FlashcardCarousel', FlashcardCarousel)
+    app.component('BuyMeCoffee', BuyMeCoffee)
 
     // Scroll to top on route change
     if (router && typeof window !== 'undefined') {
