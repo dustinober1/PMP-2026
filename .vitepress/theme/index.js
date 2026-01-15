@@ -2,6 +2,9 @@ import Theme from 'vitepress/theme-without-fonts'
 import './styles/custom.css'
 import './styles/vars.css'
 
+// Import custom layout
+import CustomLayout from './CustomLayout.vue'
+
 // Import custom components
 import QuizComponent from './components/QuizComponent.vue'
 import ProgressBar from './components/ProgressBar.vue'
@@ -14,6 +17,7 @@ import BuyMeCoffee from './components/BuyMeCoffee.vue'
 
 export default {
   extends: Theme,
+  Layout: CustomLayout,
   enhanceApp({ app, router }) {
     // Register global components
     app.component('QuizComponent', QuizComponent)
