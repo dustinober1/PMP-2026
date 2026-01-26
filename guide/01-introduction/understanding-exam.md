@@ -12,6 +12,8 @@ The 2026 PMP exam is not a memory test; it is an **immersion test**. It simulate
 
 ---
 
+<AudioPlayer :chapter="1" />
+
 ##  The 2026 Shift
 The exam refreshed in July 2026 to mirror the reality of "Hybrid Everything" and the rise of AI in project leadership.
 
