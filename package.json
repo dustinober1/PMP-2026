@@ -7,7 +7,8 @@
     "build": "vitepress build",
     "preview": "vitepress preview",
     "generate:exams": "node scripts/generate-full-length-exams.js",
-    "deploy": "vitepress build && gh-pages -d .vitepress/dist --repo https://github.com/dustinober/PMP-2026.git --branch gh-pages"
+    "deploy": "vitepress build --base /PMP-2026/ && gh-pages -d .vitepress/dist --repo https://github.com/dustinober/PMP-2026.git --branch gh-pages",
+    "deploy:firebase": "npm run build && firebase deploy --only hosting"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",

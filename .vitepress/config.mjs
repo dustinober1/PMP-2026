@@ -5,7 +5,7 @@ export default withMermaid({
   title: 'PMP Exam Prep 2026',
   description: 'Comprehensive Study Guide for the Project Management Professional Exam',
   lang: 'en-US',
-  base: '/PMP-2026/',
+  lang: 'en-US',
 
   // Ignore dead links for the legacy README
   ignoreDeadLinks: true,
